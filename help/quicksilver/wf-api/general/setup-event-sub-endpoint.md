@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 275
 ht-degree: 0%
 
 ---
-
 
 # 事件订阅提交要求
 
@@ -29,9 +31,9 @@ ht-degree: 0%
 
 * 如果未返回200级状态，则事件订阅系统会假定消息未成功传递，并开始应用相应的重试策略。 要了解有关Workfront重试策略的更多信息，请参阅[事件订阅重试](../../wf-api/api/event-sub-retries.md)。
 
-* 在将200级状态作为响应状态返回的同时，必须在投放尝试开始后的五秒内收到HTTP响应。此约束确保消费者业务流程或基础架构限制不会延迟其他待投放消息的投放。
+* 在将200级状态作为响应状态返回的同时，必须在投放尝试开始后的五秒内收到HTTP响应。此限制可确保消费者业务流程或基础设施限制不会延迟其他待投放报文的投放。
 
-* 如果从事件订阅消息触发长时间运行的业务流程，Workfront建议  该
+* 如果从事件订阅消息触发长时间运行的业务流程，Workfront建议
 
    1. 端点在收到消息时保存消息信息，并立即以200级状态响应。
    1. 在端点响应事件订阅投放请求后，即可处理保存的消息。

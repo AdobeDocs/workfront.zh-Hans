@@ -6,16 +6,21 @@ draft: Probably
 feature: Workfront Integrations and Apps, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+TQID: https://experienceleague.adobe.com/V3991LF2iB578eD1mKpKHWt-riMA8ZjctIPGnVDWjOQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront]与[!DNL Anaplan]
 
-Adobe[!DNL Workfront Fusion]允许您将[!DNL Workfront]与您的[!DNL Anaplan]帐户集成。 例如，您可以在[!DNL Anaplan]中创建营销活动，然后创建链接到该营销活动的[!DNL Workfront]项目或项目。 在[!DNL Workfront]中跟踪的任何成本都可以上传回[!DNL Anaplan]以审查营销活动效果。
+Adobe [!DNL Workfront Fusion]允许您将[!DNL Workfront]与您的[!DNL Anaplan]帐户集成。 例如，您可以在[!DNL Anaplan]中创建营销活动，然后创建链接到该营销活动的[!DNL Workfront]项目或项目。 在[!DNL Workfront]中跟踪的任何成本都可以上传回[!DNL Anaplan]以审查营销活动效果。
 
 对于此集成，必须在[!DNL Anaplan]和Workfront中配置某些对象。 特定对象和配置取决于特定工作流。 然后，使用[!DNL Anaplan]和[!DNL Workfront]对象和字段配置Workfront Fusion模板。 然后，[!DNL Workfront Fusion]会根据您的配置自动进行集成。
 

@@ -6,11 +6,17 @@ description: 您可以通过复制现有计划来创建计划。 您可以复制
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/r7QPusiwRWcJ8uWByqMPi07tucH0-beyCuSPgbDjAMc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 3%
 
 ---
@@ -39,16 +45,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,7 +147,7 @@ Old:
 
    [!DNL Workfront]立即复制计划并将其放在最后一个选择的计划下。
 
-   所复制计划的名称为&#x200B;*的`<Name of original initiative>`*&#x200B;副本。
+   所复制计划的名称为] `<Name of original initiative>`*的*[!UICONTROL &#x200B;副本。
 
    >[!NOTE]
    >

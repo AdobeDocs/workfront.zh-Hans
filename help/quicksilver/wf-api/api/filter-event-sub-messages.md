@@ -8,9 +8,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1843
 ht-degree: 0%
 
 ---
@@ -39,7 +43,7 @@ ht-degree: 0%
    private static final String DESIRED_GROUP_ID = "VaqTTVaB0UcbPu4n6824WIYYIV953Mg3";
    ```
 
-   在此示例中，handleRequest方法(一个AWS Lambda标准方法名称)将Map类型作为第一个参数（即事件订阅消息内容）。\
+   在此示例中，handleRequest方法（一个AWS Lambda标准方法名称）将Map类型作为第一个参数（即事件订阅消息内容）。\
    它采用的第二个参数是当前Lambda代理请求的上下文。\
    Context对象用于获取Lambda记录器，该记录器用于将消息写入CloudWatchLogs。
 
@@ -332,4 +336,4 @@ public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuer
 
 [过滤事件消息](#filtering-event-messages)部分中的所有示例都会将已过滤消息传递给另一个AWS Lambda。 这样做是为了避免超过投放请求中的五秒超时，该超时由发出请求的事件订阅服务强制执行。
 
-在无云架构中，您可能需要实施异步处理机制，该机制与AWS SDK允许对其他AWS Lambda进行异步调用的方式类似。 大多数现代编程语言都有处理异步处理的第三方或核心库，从而允许您利用在我们的示例中实现的异步样式处理。
+在无云架构中，您可能需要实施异步处理机制，类似于允许对其他AWS SDK Lambda进行异步调用的方式。 大多数现代编程语言都有处理异步处理的第三方或核心库，从而允许您利用在我们的示例中实现的异步样式处理。

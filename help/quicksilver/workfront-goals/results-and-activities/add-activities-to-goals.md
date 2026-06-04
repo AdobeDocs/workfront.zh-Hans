@@ -3,15 +3,21 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: 将活动添加到Adobe Workfront目标中的目标
-description: Activities measure the progress of a goal. Without associated results, activities, or aligned goals, a goal cannot be activated and progress cannot be recorded on it.
+description: 活动衡量目标的进度。 如果没有关联的结果、活动或一致的目标，则无法激活目标，并且无法记录其进度。
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/gwnONdZN4YH9Gbg8mqEWS0CSWn6SGZ0a-fjBouciBBI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 403
 ht-degree: 6%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 6%
 
 <!--Audited for P&P only: 10/2025-->
 
-Activities measure the progress of a goal. Without associating results, activities, projects, or aligned goals, you cannot activate a goal and you cannot record progress on it.
+活动衡量目标的进度。 如果不关联结果、活动、项目或瞄准的目标，则无法激活目标，也无法记录相关进度。
 
 ## 访问权限要求
 
@@ -135,7 +141,7 @@ Old:
 
 ## 先决条件
 
-You must have an existing goal to add activities to it.
+您必须具有现有目标才能向其添加活动。
 
 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
@@ -203,11 +209,11 @@ Adding activities to goals differs depending on which environment you use.
 1. 单击左侧面板中的&#x200B;**进度指示器**。
 1. 从“新建进度指示器”下拉菜单中，单击&#x200B;**创建活动**。
 
-   The New activity box opens.
+   将打开“新建活动”框。
 
-   ![New activity box](assets/new-activity-box-unshimmed.png)
+   ![新活动框](assets/new-activity-box-unshimmed.png)
 
-1. Enter a name for the activity in the Activity name field. 这是必填字段。
+1. 在活动名称字段中输入活动的名称。 这是必填字段。
 1. （可选）如果要将活动分配给其他用户，请从&#x200B;**活动所有者**&#x200B;字段中移除您的名称。 默认情况下，您是所创建活动的所有者。
 
    >[!NOTE]

@@ -6,9 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 663
 ht-degree: 7%
 
 ---
@@ -64,7 +70,7 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 单击工作列表左上角的&#x200B;**筛选器**。
-1. 在&#x200B;**标准筛选器**&#x200B;部分中，选择一个或多个筛选器以缩小工作项的范围。
+1. 在&#x200B;**标准筛选器**部分中，选择一个或多个筛选器以缩小工作项的范围。
    ![过滤器](assets/filter-new.png)
 
 +++展开以查看有关可用筛选器的详细信息
@@ -174,7 +180,7 @@ ht-degree: 7%
 按“我的优先级”或“状态”分组时，您可以在类别之间拖放单个工作项。
 
 1. 按&#x200B;**状态**&#x200B;或&#x200B;**我的焦点**&#x200B;对您的工作分组。
-2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**&#x200B;图标并将其移动到所需类别。
+2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**图标并将其移动到所需类别。
    ![拖动图标](assets/drag-and-drop.png)
 
 ## 对您的工作排序

@@ -7,9 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/-yUOhE9OsdK5SHaObgFhMgGt7Ih-FY7XqdEJn6QI4hk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 254
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
   此字段将指示事件发生的时间（以纳秒和EpochSeconds为单位）。 在订购由您的集成处理的事件时使用eventTime。
 
-* 将删除NOTE资源中引用的owner：companyID字段。
+* 将删除NOTE资源中所有者:companyID引用的字段。
 * 将删除DOCU（文档）资源上的currentVersion引用对象。
 
 如果您当前使用Workfront活动订阅，则需要在2017.3版本之前更新Workfront集成，才能解决这些更改。

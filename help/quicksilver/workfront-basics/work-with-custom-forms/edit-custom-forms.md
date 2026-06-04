@@ -3,16 +3,22 @@ product-area: projects;user-management
 keywords: 编辑，表单，富文本，特殊，格式，字段，自定义，信息，自定义，对象
 navigation-topic: work-with-custom-forms
 title: 编辑自定义表单字段中的信息
-description: 将自定义表单附加到对象后，您可以编辑该表单上的信息。 有关将自定义表单添加到对象的信息，请参阅将自定义表单添加到对象。
+description: 在将自定义表单附加到一个对象后，您可以编辑该表单上的信息。 有关将自定义表单添加到对象的信息，请参阅将自定义表单添加到对象。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JfnVyJAxwaCJ8BeCOo3gP783O8L8GtAegswSceEhYfo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 3%
+source-wordcount: 1231
+ht-degree: 5%
 
 ---
 
@@ -20,7 +26,7 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-将自定义表单附加到对象后，您可以编辑该表单上的信息。 有关将自定义表单添加到对象的信息，请参阅[将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
+在将自定义表单附加到一个对象后，您可以编辑该表单上的信息。 有关将自定义表单添加到对象的信息，请参阅[将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
 ## 访问权限要求
 
@@ -140,7 +146,7 @@ Old:
 
    修改页面上的依赖字段时，自定义表单上的计算字段会实时动态重新计算。 您可以在不保存表单的情况下查看新的计算字段值，但在保存更改之前，该值不会实际应用于表单和对象。 这适用于默认表单以及自定义表单中的计算字段。
 
-   当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅在编辑本文中的对象[时，重新计算列表中多个对象的所有计算自定义字段](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)。
+   当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅在编辑本文中的对象](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)时，重新计算列表中多个对象的所有计算自定义字段[。
 
 1. （视情况而定）要更新迭代自定义表单的自定义字段，请执行以下操作：
 

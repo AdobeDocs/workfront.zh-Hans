@@ -6,10 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/xCCyTLfCsX3-hFfqKaiAtBgLLCQ6QmVTx7UfSGpBp3s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 0%
+source-wordcount: 283
+ht-degree: 6%
 
 ---
 
@@ -19,9 +24,9 @@ ht-degree: 0%
 
 优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,8 +35,8 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 包</strong></td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
@@ -80,7 +85,7 @@ ht-degree: 0%
 
 1. 单击工作项名称以打开&#x200B;**概述**&#x200B;页面。
 1. 在&#x200B;**快速链接**&#x200B;部分中，找到要打开的链接。
-1. 单击链接。 该链接将在新选项卡中打开。
+1. 单击链接。该链接将在新选项卡中打开。
    ![打开链接](assets/open-link.png)
 
 ## 删除快速链接

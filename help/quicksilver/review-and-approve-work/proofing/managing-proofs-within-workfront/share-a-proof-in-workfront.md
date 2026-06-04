@@ -6,10 +6,16 @@ description: 您可以通过共享文档或将用户添加到校样来在Adobe W
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 0%
+source-wordcount: 1164
+ht-degree: 2%
 
 ---
 
@@ -23,17 +29,17 @@ ht-degree: 0%
 >
 >您还可以在验证查看器中共享验证。 有关说明，请参阅[从验证查看者共享验证](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -154,7 +160,7 @@ ht-degree: 0%
 
 您可以在Web验证查看器和桌面验证查看器中查看验证时，将用户添加到验证。
 
-有关详细信息，请参阅[从验证查看者共享验证](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)一文中的[通过将用户添加到验证来共享验证](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+有关详细信息，请参阅[从验证查看者共享验证](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)一文中的[通过将用户添加到验证来共享验证](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)
 
 ## 验证审批报表
 
@@ -168,10 +174,10 @@ ht-degree: 0%
 
 在基于对象创建报告时，您可以访问此审批，如[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 
-有关验证审批对象报告的详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)中的[对象报告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分
+有关验证审批对象报告的详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[对象报告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)部分
 
 ## 批准共享验证
 
 当用户将您添加到验证并使用自动工作流授予审批者角色或查看者和审批者角色时，审批请求显示在主页区域的“我的审批”小部件中。 然后，您可以直接从Workfront查看验证并做出批准决定。
 
-有关如何通过“我的审批”构件做出审批决策的信息，请参阅[从主页区域审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)审批工作[中审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md)。
+有关如何通过“我的审批”构件做出审批决策的信息，请参阅[从主页区域审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在[审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。

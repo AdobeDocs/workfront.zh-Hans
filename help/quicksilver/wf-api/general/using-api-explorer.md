@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/Y-qv5r6ygRA-V7mQSM3wzjaOt58myb64Vxa7UZGsAVo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 1%
+source-wordcount: 368
+ht-degree: 2%
 
 ---
-
 
 # 使用API资源管理器
 
@@ -39,7 +41,7 @@ ht-degree: 1%
    ![查看变量](assets/approval-350x89.png)\
    根据所选对象，可能应用以下变量：
 
-   | 变量 | 条件 |
+   | Variable | 定义 |
    |---|---|
    | 字段名称 | Workfront API内操作中使用的字段的名称。 |
    | 字段类型 | 可输入数据表中特定字段中的值的类型。 可能的字段类型值包括string、double、int、dateTime。 |

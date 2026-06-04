@@ -6,9 +6,12 @@ description: 您可以直接从移动应用程序与内部和外部收件人共�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/tr04xDTRvfDtXABpu-RdEwv-RJjCiQJ5ALNo6pzRaNk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 595
 ht-degree: 0%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有收件人必须在[!DNL Workfront]中拥有查看校样的访问权限。 有关许可证和访问级别的信息，请参阅[中的 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)验证权限配置文件。
+>所有收件人必须在[!DNL Workfront]中拥有查看校样的访问权限。 有关许可证和访问级别的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
 
 ## 共享证明
 

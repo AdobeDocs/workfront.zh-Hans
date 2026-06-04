@@ -6,15 +6,20 @@ description: 您可以使用[!UICONTROL 我的更新]区域快速查看等待您
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/tBVFQLaFE0Vb15SDNsWRomKEDRTeIsEjnMaCv-CrMR8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: 786
 ht-degree: 2%
 
 ---
-
 
 # 使用[!UICONTROL 我的更新]区域
 
@@ -56,7 +61,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +74,7 @@ ht-degree: 2%
 
 在开始之前，您必须具备以下条件：
 
-* 如果您拥有除[!DNL Workfront]Review[!UICONTROL 之外的]许可证，则您的[!DNL Workfront]或组管理员必须使用布局模板将[!UICONTROL 我的更新]区域添加到[!UICONTROL 主菜单]并将您分配给该模板。
+* 如果您拥有除[!UICONTROL Review]之外的[!DNL Workfront]许可证，则您的[!DNL Workfront]或组管理员必须使用布局模板将[!UICONTROL 我的更新]区域添加到[!UICONTROL 主菜单]并将您分配给该模板。
 
 * 默认情况下，审阅许可证用户可在其[!UICONTROL 主菜单]中查看[!UICONTROL 我的更新]区域。
 
@@ -91,7 +96,7 @@ ht-degree: 2%
 
    我的更新![分页](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （可选）展开&#x200B;**[!UICONTROL 我的更新]**&#x200B;部分的右上角的![筛选器](assets/filter-nwepng.png)下拉菜单&#x200B;**[!UICONTROL 筛选器图标]**，然后从以下内容中选择：
+1. （可选）展开&#x200B;**[!UICONTROL 我的更新]**&#x200B;部分的右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单![筛选器图标](assets/filter-nwepng.png)，然后从以下内容中选择：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -100,15 +105,15 @@ ht-degree: 2%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
       <td>提交给您或由其他用户委托给您的审批。 有关委托审批的信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委托审批请求</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委托审批]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL委托审批]</strong></td> 
       <td>其他用户委托给您的审批。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 我的审批]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL我的审批]</strong></td> 
       <td> <p>审批已提交给您。 </p> <p>有关批准项的更多信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">批准工作</a>。</p> </td> 
      </tr> 
     </tbody> 
@@ -116,7 +121,7 @@ ht-degree: 2%
 
 1. 要在批准之前批准或拒绝项目或建议对文档的更改，请执行以下操作：
 
-   1. （可选）单击批准决定（**批准**，![更改](assets/down-arrow-blue.png)，**[!UICONTROL 拒绝]**）旁边的&#x200B;**[!UICONTROL 下拉列表]**&#x200B;图标&#x200B;**[!UICONTROL 下拉列表图标]**&#x200B;并添加评论，然后单击&#x200B;**[!UICONTROL 添加]**。
+   1. （可选）单击批准决定（**[!UICONTROL 批准]**，**[!UICONTROL 更改]**，**[!UICONTROL 拒绝]**）旁边的&#x200B;**下拉列表**&#x200B;图标![下拉列表图标](assets/down-arrow-blue.png)并添加评论，然后单击&#x200B;**[!UICONTROL 添加]**。
 
       或
 

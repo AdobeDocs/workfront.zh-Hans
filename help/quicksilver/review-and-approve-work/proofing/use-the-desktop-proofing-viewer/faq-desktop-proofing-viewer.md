@@ -3,14 +3,17 @@ content-type: faq
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: 常见问题解答 — 桌面校对查看器
-description: 不可以。桌面校对查看器专为实时网站校对和交互式Web内容（如横幅广告）校对而设计。
+description: 不可以。 桌面校对查看器专为实时网站校对和交互式Web内容（如横幅广告）校对而设计。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: 417
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 ## 我的组织不验证交互式内容。 是否仍需要安装桌面校对查看器？
 
-不可以。桌面校对查看器专为实时网站校对和交互式Web内容（如横幅广告）校对而设计。
+不可以。 桌面校对查看器专为实时网站校对和交互式Web内容（如横幅广告）校对而设计。
 
 但是，在您的组织中确实安装了该软件，请注意，它也可以用于校对任何其他类型的受支持的静态和视频内容。 
 
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 ## 有没有其他方法审查网站？
 
-可以。您可以使用新的Web验证查看器创建网站的静态Web捕获。 验证中生成的每个页面都是网站上某个页面的屏幕抓图。 查看者可以在更广泛的站点内查看一个或多个子页面。 对此的唯一要求是，我们的服务器必须能够公开访问该网站。
+可以。 您可以使用新的Web验证查看器创建网站的静态Web捕获。 验证中生成的每个页面都是网站上某个页面的屏幕抓图。 查看者可以在更广泛的站点内查看一个或多个子页面。 对此的唯一要求是，我们的服务器必须能够公开访问该网站。
 
 有关更多信息，请参阅
 
@@ -42,7 +45,7 @@ ht-degree: 0%
 
 ## 桌面查看器的新版本是否需要我重新安装？
 
-不可以。Desktop Viewer的更新是自动进行的，您或您的最终用户无需执行任何操作。
+不可以。 Desktop Viewer的更新是自动进行的，您或您的最终用户无需执行任何操作。
 
 ## 当我向外部利益相关者发送验证时，是否需要桌面查看器？
 

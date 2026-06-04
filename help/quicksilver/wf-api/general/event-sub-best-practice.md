@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+TQID: https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 0%
+source-wordcount: 356
+ht-degree: 15%
 
 ---
-
 
 # 事件订阅最佳实践
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 ## 避免使事件订阅过载
 
-事件订阅服务旨在为所有用户提供可靠的事件交付。 为确保这一点，已实施保护措施以防止单个用户产生过多事件，这可能会对所有用户造成潜在服务质量问题。 因此，在短时间内以高速率生成过多事件的用户可能会遇到沙箱处理和事件投放延迟的情况。
+事件订阅服务旨在为所有用户提供可靠的事件交付。 为此，系统已引入防护机制，以防止单个用户在短时间内产生过多事件，从而可能对所有用户的服务质量造成影响。 因此，如果某位用户在短时间内以较高频率生成大量事件，可能会被隔离到沙盒环境，并出现事件投递延迟。
 
 ## 在宽限期内完成测试
 
@@ -44,13 +48,13 @@ ht-degree: 0%
 
 ## 按全球地区允许列表IP地址
 
-列入允许列表要通过防火墙接收事件订阅负载，必须将IP地址添加到按全局区域进行的IP地址。 若要了解详细信息，请参阅[事件订阅API](../../wf-api/general/event-subs-api.md)。
+要通过防火墙接收事件订阅负载，必须将IP地址添加到按全局区域进行的IP地址。 若要了解详细信息，请参阅[事件订阅API](../../wf-api/general/event-subs-api.md)。
 
 ## 拥有正确的访问级别和身份验证
 
 要创建、查询或删除事件订阅，您的Workfront用户需要：
 
-* **系统管理员**&#x200B;的访问级别
+* **系统管理员的访问级别**
 要了解更多信息，请参阅[授予用户完全管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * 如果您的组织使用Adobe IMS (Identity Management System)，请包含在`X-User-Token`标头中传递的IMS用户令牌。

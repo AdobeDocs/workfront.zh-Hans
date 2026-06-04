@@ -7,10 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bKFAN--rVO1yxgFLiyhXolgUBajVGYQxM7pBUuqy3v8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 29%
+source-wordcount: 269
+ht-degree: 39%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 29%
 
 **AgileWork**
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | backlogOrder | 客户 |   |   | bulkcopy  |   | 复制 |
 | 颜色 | 迭代  |   |   |   |   | 计数 |
@@ -49,7 +53,7 @@ ht-degree: 29%
 
 ### APIVersionMetadata
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | 弃用版本 |   |   |   |   |   | 计数  |
 | removalRelease |   |   |   |   |   | GET |
@@ -60,7 +64,7 @@ ht-degree: 29%
 
 **KanbanBoard**
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 添加 |
 | name |   |   |   |   |   | 计数 |
@@ -74,7 +78,7 @@ ht-degree: 29%
 
 ### ProofApprovalStatus
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 | proofApprovalStatusID |   |   |   |   |   |   |
@@ -84,7 +88,7 @@ ht-degree: 29%
 
 **ProofFileMetadata**
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | documentVersionID | 文档版本 |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
@@ -96,7 +100,7 @@ ht-degree: 29%
 
 **ResourceBudgetedHour**
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 添加 |
 | budgetedHours |   |   |   |   |   | 计数 |
@@ -110,7 +114,7 @@ ht-degree: 29%
 
 ### ResourcePlannerFilter
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 添加 |
 | name |   |   |   |   |   | 计数 |
@@ -124,7 +128,7 @@ ht-degree: 29%
 
 **富文本注释**
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 计数 |
 |   |   |   |   |   |   | GET |
@@ -135,7 +139,7 @@ ht-degree: 29%
 
 ### 订阅
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |  ID |   |   |   | addSubscribers | 订阅者 | 添加 |
 |   |   |   |   | removeSubscribers |   | 计数  |
@@ -148,7 +152,7 @@ ht-degree: 29%
 
 ### 用户角色
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
+| 字段 | 参考 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | roleID | 角色 |   |   |   |   |   |
 | timePercentage | 用户 |   |   |   |   |   |

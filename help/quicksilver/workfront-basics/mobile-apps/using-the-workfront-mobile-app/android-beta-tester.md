@@ -6,9 +6,12 @@ description: 阅读本文以成为 [!DNL Adobe Workfront] 移动应用程序的A
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: 311
 ht-degree: 0%
 
 ---
@@ -33,7 +36,7 @@ ht-degree: 0%
    需要几分钟才能被确认为测试版用户。 您可能需要重新打开[!DNL Play Store]才能看到更改。
 
 1. 进度完成后，您将收到确认消息，确认您现在是Beta版用户。\
-   在[!UICONTROL 中，单词“]Beta[!DNL Play Store]”出现在应用程序名称的后面，表示您使用的是应用程序的Beta版。\
+   在[!DNL Play Store]中，单词“[!UICONTROL Beta]”出现在应用程序名称的后面，表示您使用的是应用程序的Beta版。\
    ![Android Beta测试者](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR代码

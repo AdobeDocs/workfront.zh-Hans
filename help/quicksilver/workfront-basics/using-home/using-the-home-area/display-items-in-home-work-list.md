@@ -6,10 +6,16 @@ description: 每个构件都包含自己的工作列表。 工作列表显示分
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+TQID: https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 4%
+source-wordcount: 990
+ht-degree: 6%
 
 ---
 
@@ -24,9 +30,9 @@ ht-degree: 4%
 >* 要在主页小组件中显示任务和问题，其父项目必须处于当前状态或等于当前状态。
 >* 项目还必须处于当前状态或等于当前显示在主页中的状态。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,16 +42,16 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
-   <td><ul><li>[!UICONTROL Contributor]仅供审批</li> <li>[!UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
-  </ul><ul><li>[!UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[!UICONTROL 工作]或更高版本</li> </td> 
+   <td><ul><li>[！UICONTROL Contributor]仅供审批</li> <li>[！UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
+  </ul><ul><li>[！UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[！UICONTROL工作]或更高版本</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL 视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -116,7 +122,7 @@ ht-degree: 4%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
-1. 选择一个&#x200B;**建议的**&#x200B;筛选器或您已创建的筛选器。
+1. 选择一个&#x200B;**建议的**筛选器或您已创建的筛选器。
 有关建议筛选器的详细信息，请参阅[主页小组件筛选器概述](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （可选）打开&#x200B;**栈栈筛选器**&#x200B;以选择多个筛选器选项。
 
@@ -143,7 +149,7 @@ ht-degree: 4%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**组**&#x200B;图标![组图标](assets/group-icon.png)。
-1. 选择一个&#x200B;**建议的**&#x200B;分组或您创建的分组。
+1. 选择一个&#x200B;**建议的**分组或您创建的分组。
    ![分组已展开](assets/grouping-expanded.png)
 
 

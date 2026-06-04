@@ -7,11 +7,17 @@ description: 当您共享指向计划的链接时，您可以在Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/SYd9RL-bRi2VBtMGT6wsZT4oQXP3aaTy-yIF75oh1Dw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: 501
 ht-degree: 3%
 
 ---
@@ -40,12 +46,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL View]或更高权限访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL View]或更高权限访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,7 +126,7 @@ Old:
    * [!UICONTROL 查看]
    * [!UICONTROL 管理]
 
-   您不能请求高于您对[!DNL Scenario Planner]的访问权限级别的权限。 例如，如果您对[!UICONTROL 具有查看访问权限，则无法请求]管理[!DNL Scenario Planner]权限。
+   您不能请求高于您对[!DNL Scenario Planner]的访问权限级别的权限。 例如，如果您对[!DNL Scenario Planner]具有查看访问权限，则无法请求[!UICONTROL 管理]权限。
 
    有关不同权限级别的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中共享计划。
 

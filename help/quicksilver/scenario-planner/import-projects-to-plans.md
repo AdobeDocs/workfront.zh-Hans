@@ -6,11 +6,17 @@ description: 您可以将现有项目导入计划。 导入的项目将转换为
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: 1679
 ht-degree: 1%
 
 ---
@@ -45,16 +51,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> <p>查看或更高权限的项目。</p></td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> <p>查看或更高权限的项目。</p></td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> <p>查看项目或授予项目更高的权限。</p></td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> <p>查看项目或授予项目更高的权限。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,17 +159,17 @@ Old:
    <td>分配给任务和问题的工作角色</td> 
    <td> <p>计划工作角色。 </p> <p>注意：   <p>如果用户在项目生命周期内更改角色，则导入的角色取决于导入项目时的分配状态。 存在以下情况：</p> 
      <ul> 
-      <li> <p>如果分配给任务或问题的用户在将其分配标记为[!UICONTROL 完成]之后更改了角色，则[!DNL Workfront]会将用户在将分配标记为[!UICONTROL 完成]之前履行的角色导入计划。</p> </li> 
-      <li> <p>如果分配给任务或问题的用户在项目生命周期内更改了角色，但在导入项目时，他们在任务或问题上的分配未标记为[!UICONTROL 完成]，则[!DNL Workfront]将仅导入分配用户的当前角色。 </p> </li> 
-     </ul> <p>有关分配状态的信息，请参阅Adobe <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">术语的[!DNL Workfront]词汇表</a>中的“分配状态”。 </p> </p> </td> 
+      <li> <p>如果分配给任务或问题的用户在将其分配标记为[！UICONTROL完成]之后更改了角色，则[!DNL Workfront]会将用户在将分配标记为[！UICONTROL完成]之前履行的角色导入计划。</p> </li> 
+      <li> <p>如果分配给任务或问题的用户在项目生命周期内更改了角色，但在导入项目时，他们在任务或问题上的分配未标记为[！UICONTROL完成]，则[!DNL Workfront]将仅导入分配用户的当前角色。 </p> </li> 
+     </ul> <p>有关分配状态的信息，请参阅Adobe [!DNL Workfront]术语的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">词汇表</a>中的“分配状态”。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td>与分配给任务或问题的工作角色关联的项目[!UICONTROL 计划小时数]</td> 
-   <td> <p><span>根据计划是设置为使用FTE还是使用小时数，项目任务中的[!UICONTROL 计划小时数]在计划</span>上变为<span> [!UICONTROL 必需FTE数] </span>或[!UICONTROL 必需要小时数]。 </p> <p>有关设置计划以使用FTE或小时数的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。 </p> <p>请考虑以下事项：</p> 
+   <td>与分配给任务或问题的工作角色关联的项目[！UICONTROL计划小时数]</td> 
+   <td> <p><span>根据计划是设置为使用FTE还是使用小时数，项目任务中的[！UICONTROL计划小时数]在计划</span>上变为</span> [！UICONTROL必需FTE数] <span>或[！UICONTROL必需要小时数]。 </p> <p>有关设置计划以使用FTE或小时数的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。 </p> <p>请考虑以下事项：</p> 
     <ul> 
      <li> <p>[!DNL Workfront] 使用分配给任务和问题的工作角色或分配给任务或问题的用户与项目相关联的工作角色，并将它们作为所需工作角色转移到新计划中。 </p> </li> 
      <li> <p>当计划设置为使用FTE时，与项目任务和问题中的工作角色关联的已计划小时数首先转换为FTE。 然后，此FTE将分配给计划的工作角色。 <span>计划小时数在[!DNL Workfront]中平均分配。 如果任务或问题跨越多个月，则计划持续时间中每个月的计划小时数将在每月FTE中转换为并转移到计划的每个月。</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><span>例如，如果一项任务在9月份被分配给工作角色80个计划小时数，那么在9月份，导入的工作角色为计划显示0.5 FTE。</span> </p> </li> 
-     <li> <p>[!DNL Workfront] 使用以下公式计算与方案关联的所需工作角色的FTE：</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>提示： [!DNL Scenario Planner]假设一个月有160个工作小时。</p> <p>例如，如果某个项目的持续时间为1200分钟，并且该项目上的一个工作角色与计划小时数的600分钟关联，则其FTE为0.5。在导入项目时，新创建的计划上的所需工作角色FTE为每月计划0.5。 </p> </li> 
+     <li> <p>[!DNL Workfront] 使用以下公式计算与方案关联的所需工作角色的FTE：</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>提示： [!DNL Scenario Planner]假设一个月有160个工作小时。</p> <p>例如，如果某个项目的持续时间为1200分钟，并且该项目上的一个工作角色与计划小时数的600分钟关联，则其FTE为0.5。 在导入项目时，新创建的计划上的所需工作角色FTE为每月计划0.5。 </p> </li> 
      <li>当工作角色分配给项目上的任务且计划小时数为零时，计划工作角色的所需FTE在默认情况下为零。
      <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -171,7 +177,7 @@ Old:
        </MadCap:conditionalText>
       -->
       </li>
-     <li>当工作角色被分配给具有零[!UICONTROL 持续时间]的项目中的任务时，计划的工作角色所需的FTE <span>或小时数</span>默认为零，即使任务具有计划的小时数。 </li> 
+     <li>当工作角色被分配给具有零[！UICONTROL持续时间]的项目中的任务时，计划的工作角色所需的FTE <span>或小时数</span>默认为零，即使任务具有计划的小时数。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +191,7 @@ Old:
 >
 >出现以下情况：
 >
->* 在将项目导入计划后，对项目所做的更改不会影响计划。这些更改包括对工作角色分配的更改。
+>* 将项目导入计划后，对项目所做的更改不会影响计划。这些更改包括对工作角色分配的更改。
 >* 只有在您将计划发布到相应项目时，对计划所做的更改才会影响项目上[!DNL Scenario Planner]区域中的信息。 否则，它们不会影响项目任务和问题的[!UICONTROL 计划小时数]信息。
 >
 >  有关发布计划如何影响链接项目的信息，请参阅[通过在Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
@@ -240,16 +246,16 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计划持续时间]</td> 
+      <td role="rowheader">[！UICONTROL计划持续时间]</td> 
       <td>这是计划的持续时间（以月为单位）。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计划]</td> 
+      <td role="rowheader">[！UICONTROL计划]</td> 
       <td>计划的开始日期和结束日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 项目]</td> 
-      <td> <p>链接项目的[!UICONTROL 计划开始日期]和[!UICONTROL 完成日期]。</p> <p>提示：如果[!UICONTROL 项目]信息缺失，则该项目已被删除。</p> </td> 
+      <td role="rowheader">[！UICONTROL项目]</td> 
+      <td> <p>链接项目的[！UICONTROL计划开始日期]和[！UICONTROL完成日期]。</p> <p>提示：如果[！UICONTROL项目]信息缺失，则该项目已被删除。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -267,4 +273,4 @@ Old:
 1. （可选）要将您对计划所做的更改更新回从中导入计划的项目，请从计划发布该项目。 有关发布计划的信息，请参阅[通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
 1. （可选）单击项目图标以访问链接的项目。
 
-   计划![上的](assets/project-icon-on-initiative-highlighted-350x49.png)项目图标
+   计划](assets/project-icon-on-initiative-highlighted-350x49.png)上的![项目图标

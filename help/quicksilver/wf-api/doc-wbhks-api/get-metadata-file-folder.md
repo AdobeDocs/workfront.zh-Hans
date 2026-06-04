@@ -8,13 +8,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: 263
+ht-degree: 8%
 
 ---
-
 
 # 获取文件或文件夹的元数据
 
@@ -22,7 +25,7 @@ ht-degree: 2%
 
 **URL**
 
-/metadata？id=[文档或文件夹ID]GET
+获取/metadata？id=[文档或文件夹ID]
 
 ## 查询参数
 
@@ -37,8 +40,8 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td>id</td> 
-   <td>文件或文件夹的ID，由webhook提供程序引用。 这与Adobe Workfront的文档ID不同。 要获取根目录的元数据，请使用值“/”。
+   <td>ID</td> 
+   <td>文件或文件夹的ID，由webhook提供程序引用。这与Adobe Workfront的文档ID不同。要获取根目录的元数据，请使用值“/”。
    <p>注意：该ID的最大长度为255个字符。</p></td> 
   </tr> 
  </tbody> 
@@ -71,7 +74,7 @@ ht-degree: 2%
    <td>指定此项是文件还是文件夹（“文件”还是“文件夹”）</td> 
   </tr> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>字符串 </td> 
    <td>文件或文件夹的id。</td> 
   </tr> 
@@ -102,8 +105,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>只读</td> 
-   <td>布尔型</td> 
-   <td> 指示此文件或文件夹对于经过身份验证的用户是否为只读的。(可选) </td> 
+   <td>布尔值</td> 
+   <td> 指示此文件或文件夹对于经过身份验证的用户是否为只读的。（可选） </td> 
   </tr> 
  </tbody> 
 </table>

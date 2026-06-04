@@ -6,9 +6,12 @@ description: iOS和Android的主区域构件可帮助您快速查找工作项。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/GAWPkf-yJO-drLQ-85rk5DiVCNOidi68TruAv-72gG0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: 139
 ht-degree: 0%
 
 ---
@@ -25,4 +28,4 @@ ht-degree: 0%
 
 **[!UICONTROL 延迟工作]：**&#x200B;显示延迟（超过计划完成日期）的工作项数。 选择构件以查看项目列表。
 
-**[!UICONTROL 提及次数]：**&#x200B;显示未读提及次数。 提及是通知，其中在[!UICONTROL 中对象的]更新[!DNL Adobe Workfront]选项卡中已为您标记或通知您。 选择构件以查看提及列表。
+**[!UICONTROL 提及次数]：**&#x200B;显示未读提及次数。 提及是通知，其中在[!DNL Adobe Workfront]中对象的[!UICONTROL 更新]选项卡中已为您标记或通知您。 选择构件以查看提及列表。

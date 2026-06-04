@@ -1,14 +1,18 @@
 ---
 title: ' [!DNL Adobe Workfront] 状态网站'
-description: 通过访问 [!DNL Workfront] 站点，您可以查看 [!DNL Workfront] 平台的运行状况，包括事件、计划的维护时段以及所有 [!DNL Workfront Status] 群集的当前状态。
+description: 通过访问 [!DNL Workfront Status] 站点，您可以查看 [!DNL Workfront] 平台的运行状况，包括事件、计划的维护时段以及所有 [!DNL Workfront] 群集的当前状态。
 draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: 368
+ht-degree: 1%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 ## Status网站概述
 
-通过访问[!DNL Workfront]站点，您可以查看[!DNL Workfront]平台的运行状况，包括事件、计划的维护时段以及所有[!DNL Workfront Status]群集的当前状态。
+通过访问[!DNL Workfront Status]站点，您可以查看[!DNL Workfront]平台的运行状况，包括事件、计划的维护时段以及所有[!DNL Workfront]群集的当前状态。
 
 您可以在Status网站上访问以下信息：
 
@@ -31,7 +35,7 @@ ht-degree: 0%
 
 您可以在[!DNL Adobe]状态网站上查看状态更新。
 
-1. 在浏览器中键入[status.adobe.com](https://status.adobe.com/zh-cn/)以访问Status网站。
+1. 在浏览器中键入[status.adobe.com](https://status.adobe.com/)以访问Status网站。
 
 1. 选择&#x200B;**[!UICONTROL Experience Cloud]**。
 1. 向下滚动并从解决方案列表中选择&#x200B;**[!UICONTROL Adobe Workfront]**。
@@ -40,7 +44,7 @@ ht-degree: 0%
 
 要订阅Status网站或在订阅后管理您的订阅，请执行以下操作：
 
-1. 转到[status.adobe.com](https://status.adobe.com/zh-cn/)。
+1. 转到[status.adobe.com](https://status.adobe.com/)。
 1. 在状态栏中选择&#x200B;**[!UICONTROL 管理订阅]**。
    ![](assets/manage-subs.png)
 1. 如果您现有帐户，请登录到该帐户；否则，请创建一个新帐户。
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 ### 如何查看[!DNL Workfront?]标识的命名漏洞 {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. 转到[status.adobe.com](https://status.adobe.com/zh-cn/)，然后单击&#x200B;**[!UICONTROL 安全性]**。
+1. 转到[status.adobe.com](https://status.adobe.com/)，然后单击&#x200B;**[!UICONTROL 安全性]**。
 
 ## 为什么这很重要？ {#why-is-this-important}
 

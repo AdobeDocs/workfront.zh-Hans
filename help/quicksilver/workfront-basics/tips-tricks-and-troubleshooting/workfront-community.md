@@ -6,10 +6,14 @@ description: Adobe [!DNL Workfront] 社区是一个超过10,000 [!DNL Workfront]
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: 403
+ht-degree: 1%
 
 ---
 
@@ -47,14 +51,14 @@ Adobe [!DNL Workfront]社区是超过10,000个[!DNL Workfront]用户的在线组
 
 如果您忘记了社区站点的密码，请联系[!DNL Workfront Customer Support]，他们可以协助您。
 
-## 常见问题解答
+## 常见问题
 
 * [我的子域是什么？](#what-s-my-subdomain)
 * [我忘记了自己的用户名或密码。 如何重置用户名或密码？](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
 
 ### [!DNL Workfront]社区的URL是什么？
 
-[!DNL Workfront]社区位于[!DNL Adobe Experience League]网站上的以下URL： [[!DNL Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)。
+[!DNL Workfront]社区位于[!DNL Adobe Experience League]网站上的以下URL： [[!DNL Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
 
 ### 我的子域是什么？ {#what-s-my-subdomain}
 
