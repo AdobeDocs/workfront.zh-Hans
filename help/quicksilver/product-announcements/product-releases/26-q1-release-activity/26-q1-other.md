@@ -5,11 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 290
 ht-degree: 0%
 
 ---
@@ -31,9 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年10月30日
->生产快速发布： 2025年11月13日
->适用于所有人的生产： 2026年1月15日
+>预览： 2025年10月30日>生产快速发布： 2025年11月13日>适用于所有人的生产： 2026年1月15日
 
 现在，当用户填写表单时，允许进行多选择的字段（例如复选框和多选下拉列表）限制为5000个选择。
 
@@ -46,8 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年12月11日
->生产快速发布： 2026年2月11日\
+>预览： 2025年12月11日>生产快速发布： 2026年2月11日\
 >适用于所有人的生产： 2026年2月11日
 
 为了让组织能够访问Adobe Unified Experience的优势，我们将继续将其提供给现有的Workfront客户。

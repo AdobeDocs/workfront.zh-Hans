@@ -7,9 +7,20 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: da5e3490-da33-4f96-84cb-f539f07064a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/VL9oVmCuS86CGggGHYghKLQtDV7r5bi55J6CzIcrWD0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: 2042
 ht-degree: 0%
 
 ---
@@ -20,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 在发布到生产环境之前，预览环境中的功能可能会发生更改。 如果您正在查看此文档的PDF版本，请访问联机版本以了解最新信息（此文档中的链接指向联机版本）。
+> 在发布到生产环境之前，预览环境中的功能可能会发生更改。 如果您正在查看本文档的PDF版本，请访问在线版本以了解最新信息（本文档中的链接指向在线版本）。
 
 2019.1版本包含针对管理员和其他用户的增强功能。
 
@@ -62,7 +73,7 @@ ht-degree: 0%
 
   当甘特图处于编辑模式时，您无法再访问“高级分配”对话框。 在任务列表甘特图处于编辑模式时，只能进行内联编辑。
 
-* [在项目列表甘特图中查看项目或Portfolio中的任务信息](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
+* [在项目群或Portfolio的项目列表甘特图中查看任务信息](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
 
   您现在可以在项目列表甘特图中的项目或Portfolio中查看有关项目任务的信息。
 
@@ -90,7 +101,7 @@ ht-degree: 0%
 
   我们提高了性能，并改善了其他区域中的项目和任务列表的外观。
 
-* [以XLSX格式发送传递的报告](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [以XLSX格式发送已传送的报表](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   除了当前的所有其他格式外，您现在还可以安排报表以MS Excel (.xlsx)格式传送。
 
@@ -98,33 +109,33 @@ ht-degree: 0%
 
   您现在可以将审核日志条目导出到CSV文件。 一次最多可以将50,000个审核日志条目导出到CSV文件。
 
-* [通过右键单击“任务编号”列](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)，任务列表上的WBS视图不再可用
+* [任务列表上的WBS视图无法再通过右键单击任务编号列来使用](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   您无法再右键单击任务列表中的任务编号列来显示项目的工作划分结构(WBS)。
 
 ### 资源管理增强功能
 
-* [已更新资源规划者中的默认筛选器](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
+* [更新了资源规划者中的默认筛选器](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
 
   资源规划者中的默认筛选器不再按项目组进行筛选。
 
-* [对资源规划者筛选器使用通配符](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
+* [将通配符用于资源规划者筛选器](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
 
   现在，在资源规划者中构建过滤器时可以使用通配符。
 
-* [资源规划者中支持基于日期的通配符筛选器变量](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [在资源规划程序中支持基于日期的通配符筛选器变量](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   在资源规划者中构建过滤器时，您现在可以使用任何版本的$$TODAY通配符过滤器变量。
 
-* 资源规划者中角色视图的[导出选项](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
+* [资源规划者中角色视图的导出选项](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
 
   现在，您可以从角色视图的资源规划者中选择要导出哪些级别的信息。
 
-* 用于导出资源规划者的[数据格式选项](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
+* [用于导出资源规划者的数据格式选项](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
 
   现在，您可以选择在从资源规划者导出时如何在Excel文件中显示信息。
 
-* [永久计划时间表](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
+* [持续性计划时间表](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
 
   现在，当您刷新时间线或导航离开页面时，计划时间线会保留时间范围和过滤器。
 
@@ -132,7 +143,7 @@ ht-degree: 0%
 
   您现在可以从资源规划者中选择要导出的信息级别。
 
-* [更新到资源规划者中的用户视图](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
+* [更新至资源规划者中的用户视图](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
 
   现在，当您没有将任何基于用户的过滤器应用于资源规划者时，系统中的所有用户都显示在资源规划者的用户视图中。
 
@@ -142,11 +153,11 @@ ht-degree: 0%
 
   如果贵组织的安全策略不允许使用独立的桌面验证查看器应用程序，则您的Workfront管理员现在可以在Web验证查看器中启用交互式内容。
 
-* [校对查看器中评论的默认排序顺序现在从最旧到最新](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [现在，验证查看器中注释的默认排序顺序为“最旧到最新”](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   在验证查看器中，验证评论的默认排序顺序现在为“最旧到最新”，就像在口头对话中一样。
 
-* [在与视频范围关联的验证查看器中增强的评论审阅](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
+* [增强了在与一系列视频关联的验证查看器中查看评论的功能](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
 
   在校对查看器中查看与一系列视频素材关联的注释时，现在可以单击“播放”查看整个素材范围。
 
@@ -158,7 +169,7 @@ ht-degree: 0%
 
   现在，所有校对查看者都可以指定他们要接收哪些校对通知。 在与外部利益相关者合作时，这一点尤其重要。
 
-* [更改桌面校对查看器的背景颜色](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
+* [在桌面校对查看器中更改背景颜色](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
 
   现在，您可以将桌面校对查看器的背景颜色从默认的近黑色更改为白色。
 
@@ -172,11 +183,11 @@ ht-degree: 0%
 
   现在，在Workfront移动设备应用程序中搜索项目变得更加用户友好和直观。
 
-* [Home是Workfront移动设备应用程序上的新默认登录页面](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [主页是Workfront移动设备应用程序新的默认登录页面](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   主页区域现在是Workfront移动设备应用程序的新默认登陆页面。 iOS和Android设备均支持此功能。
 
-* [在Workfront移动设备应用程序中组织列表的新选项](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
+* [用于在Workfront移动设备应用程序中组织列表的新选项](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
 
   您现在可以在Workfront移动设备应用程序中过滤、排序和排序列表。
 
@@ -184,21 +195,21 @@ ht-degree: 0%
 
   您现在可以从iOS设备注册为Workfront移动设备应用程序的测试版测试人员。
 
-* 为Android Beta创建[简单任务](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
+* [Android Beta的简单任务创建](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
   您现在可以直接从项目、任务创建任务，也可以从Android移动设备应用程序Beta版的“主页”区域创建任务。
 
-* [新增适用于Android设备的Workfront移动设备应用程序的首次教程](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
+* [适用于Android设备的Workfront移动设备应用程序的新首次教程](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
 
   更新了首次在Android设备上访问Workfront移动应用程序时显示的教程外观。
 
 ### 第三方应用程序集成增强
 
-* [WorkfrontSlack改进](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* [Workfront的Slack改进](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
-  Workfront中现在提供了各种更新以供Slack，包括在Slack中作为对Workfront中对象的评论发布评论、订阅以便在有人对您的某个Slack发表评论时接收通知的功能等等。
+  Workfront中现在提供了适用于Slack的各种更新，包括能够将您在Slack中发表的评论作为对Workfront中对象的评论进行发布，订阅以便在有人对您的某个请求发表评论时在Slack中接收通知等功能。
 
-* 用于Jira增强功能的[Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [用于Jira增强功能的Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   Workfront for Jira集成现在包含各种增强功能，包括指示集成何时在Jira中自动创建用户、禁用自动Workfront用户创建的选项等。
 
@@ -209,7 +220,7 @@ ht-degree: 0%
 
 ### 不再支持API版本4
 
-对API版本4的支持将与2019.1版一起终止。 有关Workfront API版本支持计划的更多信息，请参阅  [API版本控制和支持计划](../../../../wf-api/api/api-version-support-schedule.md)。
+对API版本4的支持将与2019.1版一起终止。 有关Workfront API版本支持计划的详细信息，请参阅[API版本控制和支持计划](../../../../wf-api/api/api-version-support-schedule.md)。
 
 ### Agile工具更新
 
@@ -220,7 +231,7 @@ ht-degree: 0%
 
 ### API版本10现在在预览中可用 {#api-version-10-now-available-in-preview}
 
-API版本10现已在“预览”环境中可用。 它将在18.3版本的生产环境中提供。 有关详细信息，请参阅[API版本10中的新增功能。](https://support.workfront.com/hc/en-us/articles/360010455333) 
+API版本10现已在“预览”环境中可用。它将在18.3版本的生产环境中提供。有关详细信息，请参阅[API版本10中的新增功能。](https://support.workfront.com/hc/en-us/articles/360010455333) 
 
 ### 要删除的各种单点登录选项 {#various-single-sign-on-options-to-be-removed}
 

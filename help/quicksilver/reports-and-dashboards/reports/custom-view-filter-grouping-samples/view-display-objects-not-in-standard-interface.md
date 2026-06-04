@@ -7,11 +7,21 @@ description: 可在视图中显示未包含在标准模式界面中的对象。 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Jt5GULZrm-eI6A77FAN3cMo5k--Q0CvNw2DMzrHVzP0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 438
 ht-degree: 4%
 
 ---
@@ -91,6 +101,6 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >要使用文本模式将任何字段`ID`替换为字段`name`，请始终将`ID`行中的`:name`替换为`valuefield`。
+   >要使用文本模式将任何字段`ID`替换为字段`name`，请始终将`valuefield`行中的`ID`替换为`:name`。
 
 1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。

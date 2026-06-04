@@ -2,14 +2,19 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 'Adobe Workfront Goals 21.1发布活动：2020年11月30日当周'
+title: Adobe Workfront Goals 21.1发布活动：2020年11月30日起的一周
 description: 本页介绍了在2020年11月30日这一周的“预览”环境中，Adobe Workfront目标的21.1版本所做的所有增强。 这些增强功能将于21.1第一季度“生产”环境中提供。
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 3c3555df-9c8c-40d9-91d7-1e4b0e34ae1f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/-pcn07HHpJ7Iy014DPCBrjG8zOc3IABiF9sHEmgM9EA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: 246
 ht-degree: 0%
 
 ---

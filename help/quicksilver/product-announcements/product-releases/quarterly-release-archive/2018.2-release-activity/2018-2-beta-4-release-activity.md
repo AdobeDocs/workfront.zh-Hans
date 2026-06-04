@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: 1700
 ht-degree: 0%
 
 ---
@@ -22,7 +34,7 @@ ht-degree: 0%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
+有关2018.2版中所做所有更改的列表，请参阅[2018.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 2018.2 Beta 4版本包含适用于Workfront管理员和其他用户的增强功能：
 
@@ -51,7 +63,7 @@ ht-degree: 0%
 
 在此更改之前，您只能配置一个应用于Kanban展示板上所有列的WIP限制。 
 
-有关更多信息，请参阅部分  在文章中[配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)  [配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
+有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)一文中的[配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)部分。
 
 ### 直接从Kanban展示板更新正在进行的工作(WIP)限制
 
@@ -59,7 +71,7 @@ ht-degree: 0%
 
 在此更改之前，只能从“团队设置”区域更新WIP限制。
 
-有关更多信息，请参阅  在文章中。
+有关更多信息，请参阅文章中的。
 
 ## 改进了用于为Agile团队配置状态的界面 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -133,7 +145,7 @@ ht-degree: 0%
 
   旧版验证查看器不支持审核在iframe中无法查看的网站。
 
-* 查看各种设备具有预配置分辨率的内容。 例如，您可以看到内容在各种标准桌面分辨率上或iPhone 8等单个设备上的显示方式。 
+* 查看各种设备具有预配置分辨率的内容。例如，您可以看到内容在各种标准桌面分辨率上或iPhone 8等单个设备上的显示方式。 
 
 有关下载、安装和使用桌面校对查看器的更多信息，请参阅。
 

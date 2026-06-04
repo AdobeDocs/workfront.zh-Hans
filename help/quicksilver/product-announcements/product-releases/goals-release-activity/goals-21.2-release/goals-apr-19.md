@@ -2,14 +2,19 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 'Adobe Workfront Goals 21.2发布活动：2021年4月19日当周'
+title: Adobe Workfront Goals 21.2发布活动： 2021年4月19日起的一周
 description: 本页介绍了在2021年4月19日这一周的“预览”环境中，Adobe Workfront目标的21.2版本所做的所有增强。 这些增强功能将于21.2的第一季度在“生产”环境中提供。
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: afff3bfc-f888-46fd-8dc9-18b89289d8cd
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/FbFBrZr59FqzuRuk3DAAl01F3S-5Me-PBKquIK95ygc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 488
 ht-degree: 0%
 
 ---

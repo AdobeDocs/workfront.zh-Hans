@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1537
 ht-degree: 3%
 
 ---
@@ -91,6 +91,7 @@ Remove me October 2026
 
 * AI表单填写不会覆盖您已填写的任何字段。
 * 用户不会收到他们无权访问的数据建议。
+* 不支持依赖于计算数据的字段。 例如，如果字段A是计算字段，并且字段B的选项派生自字段A，则表单填写无法自动填写字段B。
 
 <!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 

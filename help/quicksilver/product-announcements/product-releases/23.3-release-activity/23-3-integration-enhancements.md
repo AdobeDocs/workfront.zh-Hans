@@ -5,9 +5,22 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -34,23 +47,23 @@ Google Marketplace中现在提供了新的Google Workspace集成。 新的集成
 
 以前，集成允许用户将任务标记为完成，而无需指定“我的部分已完成”或“已完成”/“已解决”。
 
-要利用此功能，请下载并安装最新的WorkfrontCreative Cloud插件。
+要利用此功能，请下载并安装最新的Workfront for Creative Cloud插件。
 
 有关功能的详细信息，请参阅[使用Adobe Workfront插件将工作项标记为完成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)。
 
-有关安装适用于Creative Cloud插件的Workfront的信息，请参阅[安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
+有关安装Workfront for Creative Cloud插件的信息，请参阅[安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
 
-## 从Workfront查看和管理Workfront通知以了解Creative Cloud插件
+## 从Workfront for Creative Cloud插件查看和管理Workfront通知
 
 为了让您更轻松地接收所需的通知，我们让您能够在不离开Adobe Creative Cloud的情况下查看和管理Workfront通知。 现在，您可以直接从Creative Cloud应用程序的Workfront插件窗口中查看通知，以及访问与这些通知相关的工作项和注释。
 
 以前，通知只能在Workfront中通过电子邮件提供。
 
-要利用此功能，请下载并安装最新的WorkfrontCreative Cloud插件。
+要利用此功能，请下载并安装最新的Workfront for Creative Cloud插件。
 
 有关详细信息，请参阅[从Adobe Creative Cloud查看和管理 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)。
 
-有关安装适用于Creative Cloud插件的Workfront的信息，请参阅[安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
+有关安装Workfront for Creative Cloud插件的信息，请参阅[安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
 
 <!--
 
@@ -80,17 +93,17 @@ For more information, see [Link documents from external applications](/help/quic
 
 以前，将Workfront数据映射到Experience Manager Assets标记不可用。
 
-有关Experience Manager Assetsas a Cloud Service中此功能的详细信息，请参阅[配置[!UICONTROL Experience Manager Assetsas a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+有关Experience Manager Assets as a Cloud Service中此功能的更多信息，请参阅[配置[!UICONTROL Experience Manager Assets as a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 有关Experience Manager Assets Essentials中此功能的更多信息，请参阅[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 ## 将Workfront字段映射到自定义Experience Manager Assets元数据字段
 
-通过本机集成，您现在可以将本机字段和内置的Workfront字段映射到Experience Manager Assetsas a Cloud Service中的自定义元数据架构字段。
+通过本机集成，您现在可以将本机字段和内置的Workfront字段映射到Experience Manager Assets as a Cloud Service中的自定义元数据架构字段。
 
-有关Experience Manager Assetsas a Cloud Service中此功能的详细信息，请参阅[配置[!UICONTROL Experience Manager Assetsas a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+有关Experience Manager Assets as a Cloud Service中此功能的更多信息，请参阅[配置[!UICONTROL Experience Manager Assets as a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 有关Experience Manager Assets Essentials中此功能的更多信息，请参阅[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
-## 使用用于Creative Cloud的Adobe Workfront调整自动验证工作流模板设置
+## 使用Adobe Workfront for Creative Cloud调整自动验证工作流模板设置
 
 您现在可以直接在Creative Cloud中调整现有的自动工作流模板设置。 选择现有的自动化工作流模板后，您可以：
 

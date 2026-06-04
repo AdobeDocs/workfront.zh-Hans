@@ -6,14 +6,25 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/YIqeZbiTZH00yXJ6LnQrpEZuHvW4Y5QZVkYU3OquWqE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1880d4370059ad654f91c6f40a0a787c51c1e54e
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 10%
+source-wordcount: 437
+ht-degree: 5%
 
 ---
 
 # 自定义优先级工作列表列
+
+{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -28,9 +39,11 @@ ht-degree: 10%
 
 优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
+<!--
 >[!NOTE]
 >
->此时无法将自定义数据添加到列。
+>You cannot add custom data to columns at this time.
+-->
 
 ## 访问权限要求
 
@@ -75,20 +88,43 @@ ht-degree: 10%
 {{step1-to-priorities}}
 
 1. 单击屏幕左侧的&#x200B;**列**。
+
+   <span class="preview">预览环境中的示例图像：</span>
+   ![列](assets/columns-new-060226.png)
+
+   生产环境中的示例图像：
    ![列](assets/columns-new.png)
-1. 使用切换启用或禁用工作列表中的列。
+
+1. 使用切换显示或隐藏工作列表中的列。
 
 ### 对列重新排序
 
 {{step1-to-priorities}}
 
 1. 单击屏幕左侧的&#x200B;**列**。
-1. 单击&#x200B;**拖动**&#x200B;图标并将列移动到所需的位置。 自动移动列会更新工作列表。
+1. 单击&#x200B;**拖动**&#x200B;图标并将列移动到所需的位置。自动移动列会更新工作列表。
    ![对列重新排序](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >“名称”列是固定的，无法移动。
+
+<div class="preview">
+
+### 使用列管理器添加和删除列
+
+{{step1-to-priorities}}
+
+1. 单击列表右上角的+图标以打开&#x200B;**列管理器**&#x200B;框。
+1. 添加或删除列，然后单击&#x200B;**保存**。
+
+   >[!NOTE]
+   >
+   >您只能将现有字段添加到列表视图。 任务和问题的本机字段和自定义字段均可作为列添加。
+
+有关列管理器的详细信息，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[使用列管理器添加和删除列](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)部分。
+
+</div>
 
 ### 更改优先级列表中的行高
 
@@ -104,3 +140,22 @@ ht-degree: 10%
    * 高
 
    列表会立即更新。
+
+<div class="preview">
+
+## 管理优先级列表的视图
+
+视图使用预设设置定义列表中的列、筛选器和分组。
+
+默认视图将分配给优先级列表。 您还可以创建和共享自己的视图。
+
+{{step1-to-priorities}}
+
+1. 展开列表左上角的下拉视图菜单以选择其他视图，或单击&#x200B;**新建视图**&#x200B;以创建其他视图。
+1. 更新要包含在视图中的列、筛选器和分组。
+
+   对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
+
+有关视图的详细信息，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[更新增强列表元素](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements)部分。
+
+</div>
