@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 TQID: https://experienceleague.adobe.com/HrCGRaJ6jTF97KxhLe65Fy6I8ahbMy4hAgPUDJFvr2I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 462
@@ -65,7 +69,7 @@ ht-degree: 4%
 
 1. 转到要创建新网站验证或现有网站验证的新版本的项目、任务或问题。
 1. 单击左侧面板中的&#x200B;**文档**。
-1. （视情况而定）如果要创建新校对，请单击“新增”****，然后在出现的菜单中单击“校对”****。
+1. （视情况而定）如果要创建新校对，请单击“新增”**&#x200B;**，然后在出现的菜单中单击“校对”**&#x200B;**。
 
 1. （视情况而定）如果要创建现有验证的新版本，则显示&#x200B;**新验证**&#x200B;页面：
 

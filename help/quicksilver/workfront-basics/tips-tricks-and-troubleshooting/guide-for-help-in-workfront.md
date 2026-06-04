@@ -9,11 +9,20 @@ exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iBp-i2UxWo1qoDv6z-dWI8gF5ILCBRPWbYlQVWtkHpo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 970
@@ -67,8 +76,8 @@ ht-degree: 9%
     </ul> <p>有关详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">联系客户支持</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[！UICONTROL与对等项连接]</strong> </td> 
-   <td>[！UICONTROL [!DNL Workfront]社区]提供一个由熟悉现代工作的专业人员组成的网络，这些专业人员会积极分享他们的见解和专业知识。 有关详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">社区[!DNL Adobe Workfront]</a>。</td> 
+   <td><strong>[!UICONTROL 与对等项连接]</strong> </td> 
+   <td>[!UICONTROL [!DNL Workfront]社区]提供一个由熟悉现代工作的专业人员组成的网络，这些专业人员会积极分享他们的见解和专业知识。 有关详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">社区[!DNL Adobe Workfront]</a>。</td> 
   </tr> 
   <tr> 
    <td><strong>查看任何</strong>[!DNL Workfront]<strong>产品的新增功能</strong></td> 
@@ -117,7 +126,7 @@ ht-degree: 9%
    <td> <p>以下资源可让您随时了解Workfront将发布哪些更新：</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/product-announcements/product-releases/product-releases">产品公告</a>：正在寻找Workfront产品路线图的更新吗？ 产品公告页面提供了版本更新和路线图演示文稿。</p> </li> 
-     <li> <p><strong>公告中心</strong>：查看您的通知，并接收我们[!DNL Workfront]产品团队关于所有客户信息的重要更新。 在顶部导航中，访问[!DNL Workfront]中的<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[！UICONTROL "Notifications"]</a>部分。</p> </li> 
+     <li> <p><strong>公告中心</strong>：查看您的通知，并接收我们[!DNL Workfront]产品团队关于所有客户信息的重要更新。 在顶部导航中，访问[!DNL Workfront]中的<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a>部分。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -160,7 +169,7 @@ ht-degree: 9%
 
 订阅[status.adobe.com](https://status.adobe.com/)以随时了解维护时间表和中断问题。
 
-若要了解有关[!DNL Workfront]状态站点的详细信息，请参阅[状态站点 [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
+若要了解有关[!DNL Workfront]状态站点的详细信息，请参阅[状态站点 [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
 
 要了解每周维护更新中修复的内容，请参阅[维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
 

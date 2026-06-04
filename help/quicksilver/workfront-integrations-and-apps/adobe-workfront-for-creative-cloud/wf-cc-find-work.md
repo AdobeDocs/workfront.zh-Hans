@@ -9,10 +9,15 @@ exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/kNA5u-MELdG4G4TzFgLRqQO7S5LWzdcucPoxsENV-uQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 381
@@ -76,10 +81,10 @@ ht-degree: 4%
   <tr> 
    <td> 
     <ul> 
-     <li>[！UICONTROL到期日期]</li> 
+     <li>[!UICONTROL 到期日期]</li> 
      <li>[!UICONTROL 名称]</li> 
-     <li>[！UICONTROL项目名称]</li> 
-     <li>[！UICONTROL我的优先级]</li> 
+     <li>[!UICONTROL 项目名称]</li> 
+     <li>[!UICONTROL 我的优先级]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
@@ -100,8 +105,8 @@ ht-degree: 4%
    <td> <p>第一个是仅基于工作项目类型或属性进行筛选：</p> 
     <ul> 
      <li><strong>工作项</strong>：任务、子任务、问题或个人任务</li> 
-     <li><strong>工作项状态</strong>：[！UICONTROL正在处理]、[！UICONTROL准备开始]或[！UICONTROL未就绪]</li> 
-    </ul> <p>二是同时使用工作项和工作项状态进行筛选。 例如，您可以选择Tasks和[！UICONTROL Ready to Start] ，以在工作列表中查找所有准备工作的任务。</p> <p>您还可以使用[！UICONTROL字段匹配]在筛选器集中搜索特定项目。 </p> </td> 
+     <li><strong>工作项状态</strong>：[!UICONTROL 正在处理]、[!UICONTROL 准备开始]或[!UICONTROL 未就绪]</li> 
+    </ul> <p>二是同时使用工作项和工作项状态进行筛选。 例如，您可以选择Tasks和[!UICONTROL Ready to Start] ，以在工作列表中查找所有准备工作的任务。</p> <p>您还可以使用[!UICONTROL 字段匹配]在筛选器集中搜索特定项目。 </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 

@@ -7,9 +7,12 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
 TQID: https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 448
@@ -56,7 +59,7 @@ ht-degree: 0%
 
 要查看对象的参考编号，您可以创建一个自定义视图，或修改现有视图，并将[!UICONTROL 参考编号]字段添加到视图中的列。 例如，您可以修改[!UICONTROL 项目]视图以显示所有项目的参考编号。
 
-有关如何创建或修改视图的信息，请参阅 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的[视图概述。
+有关如何创建或修改视图的信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的视图概述。
 
 ### 在报表中查看参考编号
 

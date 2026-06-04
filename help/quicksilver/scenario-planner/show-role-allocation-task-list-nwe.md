@@ -9,11 +9,16 @@ exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yEKNA7IB3sITsxW2Hz5pHoJOXI-8a8DKK78YxzRWqbY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 666
@@ -49,8 +54,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高版本</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高版本</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
@@ -113,7 +118,7 @@ Old:
 
 如果贵公司已购买[!DNL Workfront Scenario Planner]许可证，则可以在项目的[!UICONTROL 任务]部分中协调计划与链接到该计划的项目之间的资源分配。
 
-1. （视情况而定）项目必须使用本文的任务列表](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)中的[显示项目和计划的角色分配节中所述的方法之一连接到计划。
+1. （视情况而定）项目必须使用本文的任务列表[&#128279;](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)中的显示项目和计划的角色分配节中所述的方法之一连接到计划。
 
    >[!IMPORTANT]
    >
@@ -136,7 +141,7 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Job Role]</td> 
+      <td role="rowheader">[!UICONTROL Job Role]</td> 
       <td> <p>与以下任何一项关联的工作角色的名称：</p> 
        <ul> 
         <li> <p>项目中的任务</p> </li> 
@@ -145,16 +150,16 @@ Old:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计划小时数]</td> 
+      <td role="rowheader">[!UICONTROL 计划小时数]</td> 
       <td>计划总持续时间内与计划上每个工作角色关联的所需小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已计划小时数]</td> 
+      <td role="rowheader">[!UICONTROL 已计划小时数]</td> 
       <td>在项目总持续时间内，与项目任务或问题中的每个工作角色关联的已计划小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL变量]</td> 
-      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[！UICONTROL方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[！UICONTROL差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 变量]</td> 
+      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[!UICONTROL 方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[!UICONTROL 差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

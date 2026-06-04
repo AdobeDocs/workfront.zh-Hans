@@ -10,11 +10,16 @@ exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/7SsWqw2hJVOdLeYYPBHtvkpLjH64uXfxYG5hAxSNguI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 874
@@ -50,16 +55,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高版本</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高版本</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
+   <td> <p>[!UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,8 +147,8 @@ Old:
  <thead> 
   <tr> 
    <th> <p><strong>操作</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL视图]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 视图]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -247,11 +252,11 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL视图]</td> 
+      <td role="rowheader">[!UICONTROL 视图]</td> 
       <td>与共享计划的用户将有权查看计划。 他们无法编辑有关计划的信息、添加计划、方案或发布方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL管理]</td> 
+      <td role="rowheader">[!UICONTROL 管理]</td> 
       <td> <p>您共享计划的用户具有管理计划的权限，其中包括编辑信息、添加计划、方案和发布计划。 </p> </td> 
      </tr> 
     </tbody> 

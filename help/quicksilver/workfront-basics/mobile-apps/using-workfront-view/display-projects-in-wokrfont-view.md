@@ -8,10 +8,14 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
 TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 359
@@ -75,13 +79,13 @@ ht-degree: 5%
 1. 从[!DNL Workfront]视图的主页中，点按列表中的任何项目以查看项目详细信息。\
    项目信息显示在屏幕上可用的小部件中。\
    一次最多可以显示四个小组件，并且您可以移除这些小组件并将其添加到每个项目，以查看有关项目的不同信息。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
 
 ## 在[!DNL Workfront View]中浏览项目
 
 1. 点按[!DNL Workfront View]应用程序中项目列表中的项目名称。\
    有关项目的信息会显示在上传到屏幕上的小组件中。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
 
 1. 从右向左轻扫以在列表中显示以下项目。\
    滚动每个项目时，将显示相同的构件。\

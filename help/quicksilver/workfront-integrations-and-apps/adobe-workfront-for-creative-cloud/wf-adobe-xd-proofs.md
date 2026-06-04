@@ -7,11 +7,18 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 TQID: https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1014
@@ -45,11 +52,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
-   <td>[！UICONTROL Manager]或更高版本</td> 
+   <td>[!UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,17 +100,17 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Automated]</td> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -169,17 +176,17 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Automated]</td> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -228,17 +235,17 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Automated]</td> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

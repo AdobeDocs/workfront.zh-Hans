@@ -9,10 +9,15 @@ exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/WZAXsygXZTnW7VeLoNH-3vVTIwluZuCaf2iQrEjs6UE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 533
@@ -50,11 +55,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> </td> 
+   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL视图]对要上载文档的对象的访问权限或更高版本。</p> </td> 
+   <td> <p>[!UICONTROL 视图]对要上载文档的对象的访问权限或更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,23 +97,23 @@ ht-degree: 4%
     <col>
     <tbody>
      <tr>
-      <td colspan="2" role="rowheader">[！UICONTROL导出格式]</td>
+      <td colspan="2" role="rowheader">[!UICONTROL 导出格式]</td>
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 </td>
+      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 <br></td>
+      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 </td>
+      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>选择希望将所选画板上载为<strong>单个PDF文件</strong>还是<strong>多个PDF文件</strong>。 画板将作为PDF上载到[!DNL Workfront]中的工作项的[！UICONTROL Documents]选项卡。</td>
+      <td>选择希望将所选画板上载为<strong>单个PDF文件</strong>还是<strong>多个PDF文件</strong>。 画板将作为PDF上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。</td>
      </tr>
     </tbody>
    </table>
@@ -147,19 +152,19 @@ ht-degree: 4%
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 </td>
+      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[！UICONTROL Documents]选项卡。 <br></td>
+      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[！UICONTROL Documents]选项卡。 </td>
+      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>画板将作为PDF上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。</p>
+      <td><p>画板将作为PDF上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。</p>
       <p><strong>注意</strong>：对于新文档版本，您只能上传一个画板。</p>
       </td>
      </tr>

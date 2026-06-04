@@ -7,8 +7,10 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
 TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1123
@@ -86,7 +88,7 @@ ht-degree: 6%
 
 ## 将构件添加到主页
 
-小组件是Home的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。 有关详细信息，请参阅上面的特定许可证类型](#widgets-available-for-specific-license-types)可用的[小组件。
+小组件是Home的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。 有关详细信息，请参阅上面的特定许可证类型[&#128279;](#widgets-available-for-specific-license-types)可用的小组件。
 
 添加构件：
 

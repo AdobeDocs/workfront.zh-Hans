@@ -8,8 +8,10 @@ exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/cJBIqyDvl1wPpYWy4mFvJrcAOr52kRzyHDTCWyD8LdE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 914
@@ -61,10 +63,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL工作负载均衡器]的[！UICONTROL未分配]和[！UICONTROL已分配]工作区域中的任务</td> 
+   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 未分配]和[!UICONTROL 已分配]工作区域中的任务</td> 
   </tr> 
    <tr> 
-   <td>[！UICONTROL时间表]中的任务</td> 
+   <td>[!UICONTROL 时间表]中的任务</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>问题</b></td> 
@@ -78,24 +80,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL工作负载均衡器]的[！UICONTROL已分配工作]区域出现问题</td> 
+   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 已分配工作]区域出现问题</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL请求]区域的[！UICONTROL已提交]部分中的问题</td> 
+   <td>[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中的问题</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[！UICONTROL时间表]中的问题</td> 
+   <td>[!UICONTROL 时间表]中的问题</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文档</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL文档]区域</td> 
+   <td>[!UICONTROL 文档]区域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[！UICONTROL文档]部分</td> 
+   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[!UICONTROL 文档]部分</td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,7 +110,7 @@ ht-degree: 2%
 
 有关访问[!UICONTROL 工作负载均衡器]中的[!UICONTROL 摘要]的信息，请参阅[使用[!UICONTROL 摘要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)更新[!UICONTROL 工作负载均衡器]中的工作项。
 
-有关访问文档[!UICONTROL 摘要]的信息，请参阅文档概述](../../documents/managing-documents/summary-for-documents.md)的[[!UICONTROL 摘要]。
+有关访问文档[!UICONTROL 摘要]的信息，请参阅文档概述[&#128279;](../../documents/managing-documents/summary-for-documents.md)的[!UICONTROL 摘要]。
 
 
 ## 在任务或问题列表中查看[!UICONTROL 摘要]面板

@@ -6,10 +6,15 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
 TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1469
@@ -49,7 +54,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL View]对对象类型/td&gt;的访问权限 
+   <td>[!UICONTROL View]对对象类型/td&gt;的访问权限 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -143,7 +148,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包括或</td> 
-   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li> 市场分析演示</li> 
      <li>1月市场分析演示</li> 
@@ -153,7 +158,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li>营销演示</li> 
      <li>演示营销</li> 
@@ -198,7 +203,7 @@ ht-degree: 2%
 
    ![按对象类型搜索](assets/search-by-object-type-2026.png)
 
-1. 在&#x200B;**[!UICONTROL 搜索]**框中，开始键入要搜索的信息。
+1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;框中，开始键入要搜索的信息。
 有关[!DNL Workfront]中搜索哪些字段的信息，请参阅本文中的以下部分：[了解搜索](#understand-search)。
    ![搜索下拉列表](assets/search-dropdown-suggestions-2026.png)
 

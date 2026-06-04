@@ -6,10 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 TQID: https://experienceleague.adobe.com/k5EY-Pa8lmO7VJRlJpRsCVlbf0U4zByRfmb70OtBvFI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1563
@@ -48,7 +52,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL Adobe Workfront]包</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront]包</strong></td> 
    <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
@@ -59,11 +63,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[！UICONTROL仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> </td> 
+   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[!UICONTROL 仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[！UICONTROL Manage]对项目、任务或问题的[！UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
+   <td> <p>[!UICONTROL 视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[!UICONTROL Manage]对项目、任务或问题的[!UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,11 +8,17 @@ exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/pqetNJu9YmRAbJtE0UtBAYC7NSoEOYHzKlbKrXuEbgc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 840
@@ -88,7 +94,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>列表所在对象的[！UICONTROL View]权限</p>  </td> 
+   <td> <p>列表所在对象的[!UICONTROL View]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,6 +143,6 @@ ht-degree: 1%
    >仅在快速过滤器搜索中找到的项目导出到所选文件。 如果在导出列表之前未选择任何项目，则会导出完整的未筛选列表。\
    >有关详细信息，请参阅[导出列表](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)。
 
-1. （可选）要清除筛选的结果，请单击窗口右上角的&#x200B;**[!UICONTROL 快速筛选器]**图标。
+1. （可选）要清除筛选的结果，请单击窗口右上角的&#x200B;**[!UICONTROL 快速筛选器]**&#x200B;图标。
 或
 刷新页面。

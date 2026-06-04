@@ -7,10 +7,15 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
 TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 562
@@ -74,7 +79,7 @@ ht-degree: 6%
 1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
+单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -93,7 +98,7 @@ ht-degree: 6%
 1. 单击右上角的&#x200B;**上传文档**，然后选择&#x200B;**文档**。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
+单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。

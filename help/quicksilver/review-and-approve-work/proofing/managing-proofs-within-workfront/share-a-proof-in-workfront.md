@@ -7,11 +7,17 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1164
@@ -180,4 +186,4 @@ ht-degree: 2%
 
 当用户将您添加到验证并使用自动工作流授予审批者角色或查看者和审批者角色时，审批请求显示在主页区域的“我的审批”小部件中。 然后，您可以直接从Workfront查看验证并做出批准决定。
 
-有关如何通过“我的审批”构件做出审批决策的信息，请参阅[从主页区域审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在[审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。
+有关如何通过“我的审批”构件做出审批决策的信息，请参阅[从主页区域审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[&#128279;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)在[审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中审批工作。

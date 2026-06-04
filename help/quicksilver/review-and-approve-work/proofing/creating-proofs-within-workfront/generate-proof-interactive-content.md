@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
 TQID: https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 350
@@ -74,7 +78,7 @@ ht-degree: 6%
 
 1. 转到要上传ZIP文件的项目、任务或问题。
 1. 单击左侧面板中的&#x200B;**文档**。
-1. 单击“新增”****，然后在出现的菜单中单击“校对”****。
+1. 单击“新增”**&#x200B;**，然后在出现的菜单中单击“校对”**&#x200B;**。
 1. 在&#x200B;**添加文件**&#x200B;部分中，拖放或浏览所需的ZIP文件。
 1. 单击&#x200B;**创建校对**&#x200B;以创建无审阅过程的简单校对。\
    或\

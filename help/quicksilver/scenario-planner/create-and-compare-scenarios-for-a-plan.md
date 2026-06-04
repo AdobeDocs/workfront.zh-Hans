@@ -10,11 +10,18 @@ exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/xf-c8wX5aGmp5p9O58Zsz6zFHyoPw-om6SvzlU9wqdI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 936
@@ -46,16 +53,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高版本</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高版本</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
+   <td> <p>[!UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -169,7 +176,7 @@ Old:
     <tbody> 
      <tr> 
       <td>方案的名称</td> 
-      <td> <p>由Workfront自动生成的名称，无法编辑。 例如，“[！UICONTROL初始场景]”、“[！UICONTROL场景2]”等。 </p> </td> 
+      <td> <p>由Workfront自动生成的名称，无法编辑。 例如，“[!UICONTROL 初始场景]”、“[!UICONTROL 场景2]”等。 </p> </td> 
      </tr> 
      <tr> 
       <td>方案描述</td> 
@@ -193,11 +200,11 @@ Old:
      </tr> 
      <tr> 
       <td>利用情况</td> 
-      <td>此方案中的计划的[！UICONTROL预算利用率]百分比。 有关[！UICONTROL预算利用率]百分比的信息，请参阅[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/plans-overview.md" class="MCXref xref">计划概览。 </td> 
+      <td>此方案中的计划的[!UICONTROL 预算利用率]百分比。 有关[!UICONTROL 预算利用率]百分比的信息，请参阅[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/plans-overview.md" class="MCXref xref">计划概览。 </td> 
      </tr> 
      <tr> 
       <td>净值</td> 
-      <td>此方案中的计划的[！UICONTROL净值]。 有关计划的[！UICONTROL净值]的信息，请参阅[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/plans-overview.md" class="MCXref xref">计划概述。 </td> 
+      <td>此方案中的计划的[!UICONTROL 净值]。 有关计划的[!UICONTROL 净值]的信息，请参阅[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/plans-overview.md" class="MCXref xref">计划概述。 </td> 
      </tr> 
      <tr> 
       <td>计划</td> 
