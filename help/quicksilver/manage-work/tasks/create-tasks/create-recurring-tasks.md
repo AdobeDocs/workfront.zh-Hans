@@ -7,11 +7,26 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/RunTPxXNlDBhtEH0piWpqPpO9AAlQAN7r6ySdyapBRU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: 895
 ht-degree: 3%
 
 ---
@@ -143,7 +158,7 @@ Old:
       <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>任务会每月、每2个月、每3个月等重复一次，具体取决于您选择的节奏。 您可以选择1到12个月。 </p> <p>在<strong>重复</strong>字段中，选择您希望任务发生的以下选项：</p> 
        <ul> 
-        <li> <p><strong>每月&lt;month date&gt;</strong>日 </p> <p>您可以选择1到30之间的天数，也可以选择<strong>last</strong>。 例如，您可以选择“每月30日”。 </p> </li> 
+        <li> <p><strong>每月&lt;月份日期&gt;</strong>日 </p> <p>您可以选择1到30之间的天数，也可以选择<strong>last</strong>。 例如，您可以选择“每月30日”。 </p> </li> 
         <li> <p><strong>每月&lt;数字&gt; &lt;星期&gt;</strong> </p> <p>在第一个下拉菜单中，可以为月中的周数选择一个介于1和4之间的数字，也可以选择“最后一个”。 </p> <p>在第二个下拉菜单中，您可以选择一周中的任意一天。 </p> <p>例如，您可以选择“每个月在第2个星期二”。 </p> </li> 
        </ul> </td> 
      </tr> 
@@ -159,7 +174,7 @@ Old:
 
    或
 
-   选择&#x200B;**次发生`<number>`之后的**&#x200B;以指示周期性任务应该发生的次数。 Workfront会为任务创建与您在此字段中指定的数量相同的递回次数。
+   选择`<number>`次发生&#x200B;**之后的**&#x200B;以指示周期性任务应该发生的次数。 Workfront会为任务创建与您在此字段中指定的数量相同的递回次数。
 
 1. 单击&#x200B;**创建任务。**
 

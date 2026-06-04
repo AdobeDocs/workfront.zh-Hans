@@ -6,11 +6,25 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: 930
 ht-degree: 1%
 
 ---
@@ -50,7 +64,7 @@ ht-degree: 1%
    <td> 
 <p>任何Workfront包和任何Planning包</p>
 或
-<p>Any Workflow package and any Planning package</p>
+<p>任何工作流包和任何计划包</p>
 
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。</p>
    </td> </tr>
@@ -131,11 +145,11 @@ ht-degree: 1%
 添加审批规则时，请考虑以下事项：
 
 * 您可以将一个或多个批准者添加到批准规则。
-* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 The request remains in the Requests area of Workfront.
-* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
-* If a team is set as an approver, only one decision is required from one member of the team.
+* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
+* 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
+* 如果将团队设置为批准者，则只需团队的一名成员做出一个决策。
 
-To set approval rules for a request form:
+要为请求表单设置批准规则，请执行以下操作：
 
 1. 开始为记录类型创建请求表单，如[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)一文中所述。
 1. 打开请求表单时，单击&#x200B;**设置**。
@@ -154,10 +168,10 @@ To set approval rules for a request form:
    1. 单击占位符标题&#x200B;**无标题的批准规则**，然后输入批准规则的名称。
    1. 单击&#x200B;**选择字段**&#x200B;并选择激活规则的字段。
    1. 选择规则的运算符。 运算符因字段类型而异。
-   1. If the selected operator requires a value, click the plus icon and add one or more values.
-   1. (Optional) Click **Add condition** to add more conditions and connect them by **And** or **Or** statements by configuring the additional conditions as in steps C-E.
-   1. In the **Actions** area of the approval rule, in the **Approvers** field, add at least one user or team to be set at the approver when the condition is met.
-   1. (Conditional and optional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request is accepted or rejected.
+   1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
+   1. （可选）单击&#x200B;**添加条件**&#x200B;以添加更多条件，并通过配置步骤C-E中的其他条件通过&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;语句连接这些条件。
+   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加满足条件时要在审批者处设置的至少一个用户或团队。
+   1. （有条件，可选）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，所有批准者必须在接受或拒绝请求之前决定批准。
 
    >[!NOTE]
    >

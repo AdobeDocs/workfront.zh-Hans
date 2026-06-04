@@ -7,10 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/CyxuVyCzox2CvvIzhfEGqvnHAxM16Lr9VOXjEqgp4q4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: 637
+ht-degree: 2%
 
 ---
 
@@ -55,9 +66,9 @@ ht-degree: 0%
 * 为对象（项目、任务或问题）创建一次性审批流程，并将其基于与处理该对象的组相关联的状态。 这包括与该组关联的任何自定义状态。
 * 创建一个全局审批流程，使其仅适用于该组或系统中的每个人。
 
-对于具有审批流程管理访问权限的用户，有关配置审批流程的信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[创建审批流程](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+对于具有审批流程管理访问权限的用户，有关配置审批流程的信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)（或者如果您使用的是Adobe Workfront Classic，请参阅[创建审批流程](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
-对于用户，有关将审批流程与工作项关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[将新的或现有的审批流程与工作关联](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+对于用户，有关将审批流程与工作项关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)（或者，如果您使用的是Adobe Workfront Classic，请参阅[将新的或现有的审批流程与工作关联](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
 **在以下环境中可用：**
 

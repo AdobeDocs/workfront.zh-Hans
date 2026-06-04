@@ -7,9 +7,18 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+TQID: https://experienceleague.adobe.com/tV8tsEkumdgpfAcO-UWwOd8BkSf9LZDqmKq44fL3WsA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: 329
 ht-degree: 0%
 
 ---
@@ -24,7 +33,7 @@ ht-degree: 0%
 
 Workfront最近为全新一代Workfront Fusion收购了一些技术，这是一个功能强大的集成平台，可让工作自由地在几乎任何基于Web的应用程序中流动。
 
-以前的Workfront Fusion客户可以期待在Workfront Fusion 2.0中获得更大的功能、速度、可用性和可预测性。我们正在将当前Workfront Fusion客户迁移到Workfront Fusion 2.0。有关更多详细信息，请联系您的帐户管理员。
+以前的Workfront Fusion客户可以期待在Workfront Fusion 2.0中获得更大的功能、速度、可用性和可预测性。 我们正在将当前Workfront Fusion客户迁移到Workfront Fusion 2.0。 有关更多详细信息，请联系您的帐户管理员。
 
 有关详细信息，请参阅[Adobe Workfront Fusion](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home)。
 

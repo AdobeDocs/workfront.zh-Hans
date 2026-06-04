@@ -6,19 +6,24 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: 235
+ht-degree: 9%
 
 ---
-
 
 # 架构：文章索引
 
 {{planning-important-intro}}
 
-作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。
+作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。
 
 使用Workfront Planning，您可以完全自定义工作流，从决定您的组织使用哪些对象类型（或记录类型）到配置这些对象如何相互链接。
 

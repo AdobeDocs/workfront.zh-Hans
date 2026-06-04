@@ -5,11 +5,25 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: 2730
 ht-degree: 0%
 
 ---
@@ -197,7 +211,7 @@ Workfront中现在提供了基于当前标准的替换工具。 这些更改与A
      <p>为预算小时数创建报告以审查报告表单中资源规划者中预算的小时数。 </p> 
      <p>有关预算小时数的信息，请参阅<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Adobe Workfront术语词汇表</a>。</p> 
      <p>有关创建报告的信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">创建自定义报告</a>。</p> 
-    </div> <p><strong>资源规划者的角色视图</strong> </p> <p>传统资源管理工具中业务案例的预算和计划小时数现在可在新的本机视图（资源规划者的基于角色的视图）中获取。 此视图提供可用小时数、计划小时数和预算小时数概览，并允许您在同一位置控制和更改预算。 这确保在高级职位角色规划期间做出更好的决策。 </p> <p> 有关在资源规划者的角色视图中预算资源的信息，请参阅<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">资源规划者概述</a>中的<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">使用项目和角色视图预算资源</a>部分</p> </td> 
+    </div> <p><strong>资源规划者的角色视图</strong> </p> <p>传统资源管理工具中业务案例的预算和计划小时数现在可在新的本机视图（资源规划者的基于角色的视图）中获取。 此视图提供可用小时数、计划小时数和预算小时数概览，并允许您在同一位置控制和更改预算。 这确保在高级职位角色规划期间做出更好的决策。 </p> <p> 有关在资源规划者的角色视图中预算资源的信息，请参阅<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源规划者概述</a>中的<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">使用项目和角色视图预算资源</a>部分</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>资源网格</strong> </p> <p>资源网格让您能够查看在项目走向完成时特定用户的分配情况。 </p> <p>例如，您可以轻松地查看您项目团队中的某人何时提前完成工作、何时落后，以及他们是否在特定时间范围内分配过多或不足。 </p> <p>很遗憾，您无法根据同一视图中的信息执行操作。 要纠正过度分配问题，您必须转到项目并手动调整那里的信息，而看不到操作的结果。</p> </td> 
@@ -206,7 +220,7 @@ Workfront中现在提供了基于当前标准的替换工具。 这些更改与A
      <li> <p>分析阶段的<strong>：</strong> </p> 
       <ul> 
        <li> <p><strong>工作负载均衡器</strong>：使用工作负载均衡器在更精细的级别查看用户的工作负载。 使用工作负载均衡器时，可以查看哪些用户在其工作负载中具有可用性以按时完成任务。 这包括他们的休息时间和计划例外详细信息。 </p> <p>有关工作负载均衡器的信息，请参阅<a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">工作负载均衡器概述</a>。</p> </li> 
-       <li> <p><strong>资源规划者的用户视图</strong><strong>：</strong>当试图从更高级别了解您的用户分配到哪些项目时，请使用资源规划者的用户视图。 这让您能够查看用户正在处理什么以及他们在特定时间范围内的过度分配和过度分配。 Resource Planner还提供了用户总体分配的可视化信息，以及记录的实际小时数的可视化信息，这有助于分析完成工作的进度。 </p> <p>有关在资源规划者中使用用户视图的信息，请参阅<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">资源规划者概述</a>中的<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">使用用户视图查看可用、计划和实际小时数或FTE </a>部分</p> </li> 
+       <li> <p><strong>资源规划者的用户视图</strong><strong>：</strong>当试图从更高级别了解您的用户分配到哪些项目时，请使用资源规划者的用户视图。 这让您能够查看用户正在处理什么以及他们在特定时间范围内的过度分配和过度分配。 Resource Planner还提供了用户总体分配的可视化信息，以及记录的实际小时数的可视化信息，这有助于分析完成工作的进度。 </p> <p>有关在资源规划者中使用用户视图的信息，请参阅<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源规划者概述</a>中的<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">使用用户视图查看可用、计划和实际小时数或FTE </a>部分</p> </li> 
       </ul> </li> 
      <li>战术阶段<strong>：</strong> 
       <ul> 

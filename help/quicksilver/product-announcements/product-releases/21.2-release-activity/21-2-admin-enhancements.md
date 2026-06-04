@@ -8,10 +8,23 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+TQID: https://experienceleague.adobe.com/TwZHOWwuaG8KUeNPZ24NjXcpz4cnRr90b58JBMB3zHs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 0%
+source-wordcount: 1552
+ht-degree: 1%
 
 ---
 
@@ -137,7 +150,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验[学习路径的](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)管理员基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中。
 
 ## 管理员的新增功能：轻松列出当前使用自定义字段的报告
 

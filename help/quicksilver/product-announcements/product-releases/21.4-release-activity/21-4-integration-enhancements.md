@@ -6,9 +6,22 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/dCRr9YQiXiX82Jw7wyeT786T8oJ74-u6kOuevYy-SWY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 367
 ht-degree: 0%
 
 ---
@@ -19,11 +32,11 @@ ht-degree: 0%
 
 有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
-## 从Dropbox业务链接文档
+## 从Dropbox Business链接文档
 
-我们已将Dropbox业务添加为可用的文档集成。 现在，您可以直接从Workfront内部访问存储在Dropbox业务中的文档。
+我们已将Dropbox业务添加为可用的文档集成。 现在，您可以直接从Workfront内部访问存储在Dropbox Business中的文档。
 
-Dropbox业务允许您链接共享文档并将文档上传到共享文件夹。 Dropbox(而非Dropbox业务)仅允许文档所有者在Workfront中查看文档。
+Dropbox Business允许您链接共享文档并将文档上传到共享文件夹。 Dropbox（非Dropbox Business）仅允许文档所有者在Workfront中查看文档。
 
 您的Workfront管理员可以为贵组织启用此集成。
 
@@ -31,18 +44,18 @@ Dropbox业务允许您链接共享文档并将文档上传到共享文件夹。 
 
 有关Workfront管理员如何启用此选项的信息，请参阅[配置文档集成](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
-## 更新了用于Slack的Workfront
+## 适用于Slack的Workfront的更新
 
-用于Slack集成的Workfront中现在会显示以下更新：
+在Workfront的Slack集成中，现在可以看到以下更新：
 
 * 适用于Slack的Workfront具有全新外观。
-* 现在您会实时收到Workfront的Slack通知。
+* 现在，您已实时收到用于Slack的Workfront通知。
 
-  例如，如果您被分配到某个任务，则会在分配后立即收到该通知。 以前，通知出现在Slack中之前可能会延迟。
+  例如，如果您被分配到某个任务，则会在分配后立即收到该通知。 以前，在Slack中显示通知之前可能会有延迟。
 
-此更新要求您重新授权Workfront以进行Slack集成。 有关授权集成的信息，请参阅[为Slack配置Adobe Workfront](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
+此更新要求您重新授权Workfront以进行Slack集成。 有关授权集成的信息，请参阅[配置Adobe Workfront for Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-有关WorkfrontSlack通知的更多信息，请参阅[在Slack中接收Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)。
+有关用于Slack通知的Workfront的更多信息，请参阅[在Slack中接收Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)。
 
 ## 在同意Adobe Workfront集成时，可以更清楚地查看帐户访问的详细信息
 

@@ -1,17 +1,26 @@
 ---
 title: Adobe Workfront实施计划建议
-description: 作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。我们建议在开始Workfront规划时采用下面一些最佳实践。
+description: 作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。 我们建议在开始Workfront规划时采用下面一些最佳实践。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 0%
+source-wordcount: 3410
+ht-degree: 1%
 
 ---
 
@@ -31,7 +40,7 @@ ht-degree: 0%
 >
 >有关详细信息，我们还建议查阅[Adobe Workfront规划最佳实践中的文章：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)。
 
-作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。
+作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。
 
 本文记录了在开始使用Workfront规划时我们建议的一些常见问题和最佳实践。
 
@@ -52,14 +61,14 @@ ht-degree: 0%
 
    * 谁在要求它？
    * 他们要放进日历里的东西叫什么？
-营销活动？ 战术？ 计划？ 活动？ 活动？
+营销活动？战术？计划？活动？活动？
    * 他们想用这个日程表回答什么样的问题？
    * 他们是否为同一受众开展了重叠的营销活动？
    * 该活动、策略、活动或事件的预算是多少？
 
   这些问题的答案将决定您需要在Workfront Planning中构建什么。
 
-  此外，请考虑可能有其他规划人员当前不是Workfront用户。 这些规划者可以利用Excel电子表格、Word文档、PowerPoint演示文稿等进行操作。 考虑他们可以如何在Workfront Planning中访问您的信息。
+  此外，请考虑可能有其他规划人员当前不是Workfront用户。 这些规划者可以利用Excel电子表格、Word文档、PowerPoint演示文稿等进行操作。考虑他们可以如何在Workfront Planning中访问您的信息。
 
 * ✅要充分利用Workfront Planning，请考虑将Workfront中的项目组合和程序用作Workfront Planning中的其他上层结构。
 

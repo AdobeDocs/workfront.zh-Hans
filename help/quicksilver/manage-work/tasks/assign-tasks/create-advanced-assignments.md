@@ -7,11 +7,26 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
+TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: 3340
 ht-degree: 0%
 
 ---
@@ -98,7 +113,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!NOTE]
 >
->默认使用旧的高级工作分配体验。 您必须使用“高级分配”窗口右上角的按钮手动打开新体验。
+>默认使用旧的高级工作分配体验。您必须使用“高级分配”窗口右上角的按钮手动打开新体验。
 >有关旧体验的信息，请参阅下面的[创建高级工作 — 所有其他包](#create-advanced-assignments--all-other-packages)。
 
 1. 转到要分配任务的项目。
@@ -106,7 +121,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任务列表中进行高级分配。 单击任务所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务列表中进行高级分配。单击任务所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 在任务标题的&#x200B;**工作**&#x200B;字段中单击&#x200B;**分配给**
@@ -129,7 +144,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!NOTE]
    >
-   >如果要查看的数据列未显示，您可以添加它。 请参阅下面的“高级工作分配”列表[中的](#add-and-remove-columns-on-the-advanced-assignments-list)添加和删除列。
+   >如果要查看的数据列未显示，您可以添加它。 请参阅下面的“高级工作分配”列表[&#128279;](#add-and-remove-columns-on-the-advanced-assignments-list)中的添加和删除列。
 
 1. （可选）选择&#x200B;**小时**、**FTE**&#x200B;或&#x200B;**百分比**&#x200B;以查看分配。
 
@@ -190,7 +205,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!IMPORTANT]
    >
-   >根据您的Workfront管理员或组管理员如何设置项目首选项，当您有多个用户分配到任务时，Workfront可能会使用任务所有者的时间表计算任务的时间表。 有关多个任务被分配人的信息，请参阅文章[分配任务](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)中的[对工作角色、团队和用户的多个分配的注意事项](../../../manage-work/tasks/assign-tasks/assign-tasks.md)部分。
+   >根据您的Workfront管理员或组管理员如何设置项目首选项，当您有多个用户分配到任务时，Workfront可能会使用任务所有者的时间表计算任务的时间表。 有关多个任务被分配人的信息，请参阅文章[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的[对工作角色、团队和用户的多个分配的注意事项](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)部分。
 
 1. 对于&#x200B;**代理人**&#x200B;列中的每个用户，请指定以下信息：
 
@@ -208,7 +223,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      >[!TIP]
      >
-     >在手动修改任务的分配分配后，任务的已计划小时数可能会相应地更新。 请注意，您不能手动修改分配给任务的团队的分配。 有关详细信息，请参阅文章[计划小时概述](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)中的[管理用户分配时更新任务计划小时数](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)部分。
+     >在手动修改任务的分配分配后，任务的已计划小时数可能会相应地更新。 请注意，您不能手动修改分配给任务的团队的分配。 有关详细信息，请参阅文章[计划小时概述](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)中的[管理用户分配时更新任务计划小时数](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)部分。
 
    * **属性**：任何可用于用户的属性都会显示在属性字段中。 管理员设置属性，这些属性将添加到用户配置文件或与费率卡中的工作角色关联。 有关详细信息，请参阅[定义费率属性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)和[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
@@ -324,7 +339,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务或问题列表中进行高级分配。单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 单击任务或问题标题中&#x200B;**工作**&#x200B;字段中的&#x200B;**分配给**
@@ -366,13 +381,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      >[!IMPORTANT]
      >
-     >根据您的Workfront管理员或组管理员如何设置项目首选项，当您有多个用户分配到任务时，Workfront可能会使用任务所有者的时间表计算任务的时间表。 有关多个任务被分配人的信息，请参阅文章[分配任务](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)中的[对工作角色、团队和用户的多个分配的注意事项](../../../manage-work/tasks/assign-tasks/assign-tasks.md)部分。
+     >根据您的Workfront管理员或组管理员如何设置项目首选项，当您有多个用户分配到任务时，Workfront可能会使用任务所有者的时间表计算任务的时间表。 有关多个任务被分配人的信息，请参阅文章[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的[对工作角色、团队和用户的多个分配的注意事项](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)部分。
 
    * **分派工作**：当任务的持续时间类型为“简单”时，指定每个用户或工作角色应分配给该任务的小时数。 每个用户的所有已分配小时数的总和等于“分配”列底部&#x200B;**已计划小时数**&#x200B;字段中的数字。 在所有其它情况下，指定您希望被分派人解决任务或问题所花费的时间（或分配）百分比。
 
      >[!TIP]
      >   
-     >   * 在手动修改任务的分配分配后，任务的已计划小时数可能会相应地更新。 有关详细信息，请参阅文章[计划小时概述](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)中的[管理用户分配时更新任务计划小时数](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)部分。
+     >   * 在手动修改任务的分配分配后，任务的已计划小时数可能会相应地更新。 有关详细信息，请参阅文章[计划小时概述](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)中的[管理用户分配时更新任务计划小时数](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)部分。
      >   * 您无法手动修改问题的分配分配。
      >   * 您无法手动修改分配给任务的团队的分配。
 

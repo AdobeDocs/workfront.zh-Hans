@@ -7,11 +7,27 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4076'
+source-wordcount: 4067
 ht-degree: 4%
 
 ---
@@ -281,7 +297,7 @@ Old:
 
    您可以在任务标题中更新任务状态。 </p>
 
-   <p>您的Workfront或组管理员可以自定义任务状态的名称。 有关信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">创建或编辑状态</a>。 
+   <p>您的Workfront或组管理员可以自定义任务状态的名称。有关信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">创建或编辑状态</a>。 
       </td> 
      </tr> 
      <tr> 
@@ -326,7 +342,7 @@ Old:
       <td role="rowheader">计划开始日期和时间</td> 
       <td> <p>任务计划开始的时间。 任务的计划开始日期受许多因素的影响和影响：</p> 
        <ul> 
-      <li>根据系统范围对任务计划开始日期的偏好设置，项目上新任务的开始日期可以是今天，也可以是项目的开始日期（默认情况下）。 <span>与项目关联的组的组管理员也可以为该组设置此首选项。</span>有关系统级别或组级别任务首选项的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">配置系统范围的任务和问题首选项</a>。</li> 
+      <li>根据系统范围对任务计划开始日期的偏好设置，项目上新任务的开始日期可以是今天，也可以是项目的开始日期（默认情况下）。 <span>与项目关联的组的组管理员也可以为该组设置此首选项。</span> 有关系统级或组级任务首选项的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">配置系统级任务和问题首选项</a>。</li> 
       <li>根据任务的前置任务，Workfront会将计划开始日期选为前置任务完成后下一个可用日期，或选择开始日期，具体取决于前置任务关系。 有关前置任务关系的详细信息，请参阅<a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">前置任务概述</a>。</li> 
       <li>当任务限制为固定日期或必须开始日期时，项目经理或任务所有者可以手动设置计划开始日期。 有关任务限制的更多信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a>。</li> 
        </ul> </td> 
@@ -513,7 +529,7 @@ Old:
       <td> <p>指定任务的计划小时数（以小时为单位）。 这是任务被分派人完成任务所花费的实际时间。 当“持续时间类型”设置为“计算的工作分配”时，您只能指定任务的已计划小时数。 有关持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型的概述</a>。</p> 
       <b>注意</b>
       <p>
-      创建周期性任务时，计划小时数是每个事件的小时数。 父任务的计划小时数是所有发生的所有计划小时数的总和。 有关创建周期性任务的信息，请参阅<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>。
+      创建周期性任务时，计划小时数是每个事件的小时数。父任务的计划小时数是所有发生的所有计划小时数的总和。有关创建周期性任务的信息，请参阅<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>。
       </p>
 
    </td> 
@@ -603,7 +619,7 @@ Old:
      </tr> 
      <tr>
       <td>加班比率</td> 
-      <td><p>输入任务的超时乘数，例如1.5或2.0。默认值为1.0（无乘数）。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定义加班率</a>。</p><p>要查看“超时比率”字段，请执行以下操作：</p>
+      <td><p>输入任务的超时乘数，例如1.5或2.0。 默认值为1.0（无乘数）。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定义加班率</a>。</p><p>要查看“超时比率”字段，请执行以下操作：</p>
        <ul>
        <li>任务的收入类型必须是每小时用户和角色。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入和成本层次结构概览</a>。</li>
        <li>对于任务详细信息视图中的财务区域，必须在布局模板中启用该字段。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">使用布局模板自定义详细信息视图</a>。</li>

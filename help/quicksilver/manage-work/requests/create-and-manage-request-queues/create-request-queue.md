@@ -8,15 +8,32 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/GtWgf0gZVuIE2xM6lkZlOyzmV9D7xg0myc2otxYFakU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2867'
+source-wordcount: 2632
 ht-degree: 2%
 
 ---
-
 
 # 创建请求队列
 
@@ -455,8 +472,8 @@ When you enable any of the Assigned to, Job Role, or the Team fields, they are a
       * Minutes
       * Weeks
 
-   默认持续时间是完成提交到此请求队列的问题通常需要的时长。 这会成为所有传入问题的默认值，可以手动修改。
-问题的默认持续时间与问题的已计划小时数相同。 问题的计划完成日期根据此字段计算。\
+   默认持续时间是完成提交到此请求队列的问题通常需要的时长。这会成为所有传入问题的默认值，可以手动修改。
+问题的默认持续时间与问题的已计划小时数相同。问题的计划完成日期根据此字段计算。\
    如果未更改，则问题“持续时间”的默认值为1天或8小时。
 如果您的Workfront管理员在“设置”区域将每个工作日的典型小时数设置为小于8小时，则问题的默认持续时间仍为8小时。
 例如，如果在Workfront的“设置”区域中将“每个工作日的典型小时数”设置为7小时，则问题的默认持续时间为1.14天或8小时。
@@ -525,8 +542,8 @@ When you enable any of the Assigned to, Job Role, or the Team fields, they are a
      | 拥有查看此项目权限的用户（计划许可） | 那些拥有标准或计划许可证，并且拥有此项目查看权限的用户可以查看选定和未选定的字段。 其他可以向此项目提交请求的用户只能看到选定的字段。 |
      | 无用户 | 没有用户可以看到未选择的字段。 所有能够向此项目提交请求的用户只能看到所选的字段。 这是默认选项。 |
 
-   * **自定义Forms**：从下拉菜单中选择要与请求队列关联的自定义表单。 您可以选择多个表单，然后按照您希望它们在请求表单中显示的顺序拖放它们。
-只有问题自定义表单可从此下拉菜单中选择。 提交到此请求队列、添加到项目或其任务的所有问题都将具有与其关联的选定表单。
+   * **自定义Forms**：从下拉菜单中选择要与请求队列关联的自定义表单。您可以选择多个表单，然后按照您希望它们在请求表单中显示的顺序拖放它们。
+只有问题自定义表单可从此下拉菜单中选择。提交到此请求队列、添加到项目或其任务的所有问题都将具有与其关联的选定表单。
 必须先创建问题自定义表单，然后才能看到它们在队列详细信息部分显示。
 如果您有多个与请求队列关联的队列主题，我们建议您将自定义表单与队列主题关联。
 有关详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。

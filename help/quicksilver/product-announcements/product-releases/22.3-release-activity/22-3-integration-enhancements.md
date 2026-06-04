@@ -2,14 +2,27 @@
 title: 22.3集成增强功能
 description: 22.3集成增强功能
 author: Luke
-draft: false
+draft: No
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/1Htz1VQzgsbRxs0PnoQqRDvWbF1WexWohgpDynsHfKQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 0%
+source-wordcount: 378
+ht-degree: 2%
 
 ---
 
@@ -19,7 +32,7 @@ ht-degree: 0%
 
 ## 适用于Experience Manager Assets的Adobe Workfront集成
 
-我们很高兴地宣布，Adobe Workfront Experience Manager Assets集成现已可供Cloud Service。
+我们很高兴地宣布，Adobe Workfront Experience Manager Assets集成现已可用于Cloud Service。
 
 我们还为Cloud Service和Assets Essentials引入了新功能：此集成允许用户
 
@@ -34,9 +47,9 @@ ht-degree: 0%
 
 有关配置集成的信息，请参阅
 
-* [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
-* [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+* [配置 Experience Manager Assets Essentials 集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 
 
 有关使用该集成的信息，请参阅适用于Experience Manager Assets Essentials的Adobe Workfront 。
@@ -51,9 +64,9 @@ Workfront管理员可以根据其组织的需求，分别启用和禁用SharePoi
 
 有关详细信息，请参阅[配置旧版SharePoint集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md)。
 
-## 在Creative Cloud插件的单个验证中合并多个文件
+## 在Creative Cloud插件中将多个文件合并为单个验证
 
-您现在可以上传包含您在Adobe Workfront中为Creative Cloud插件创建的内容的外部文件，以在Workfront中创建多文件校样。 外部文件在Workfront中显示为其他验证页面。 借助此增强功能，我们还更新了验证创建体验的外观。
+您现在可以上传包含您在Adobe Workfront for Creative Cloud插件中创建的内容的外部文件，以在Workfront中创建多文件校样。 外部文件在Workfront中显示为其他验证页面。 借助此增强功能，我们还更新了验证创建体验的外观。
 
 有关更多信息，请参阅
 
