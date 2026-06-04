@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 0%
+source-wordcount: 3298
+ht-degree: 1%
 
 ---
 
@@ -298,9 +304,9 @@ ht-degree: 0%
 
 </p>
 <ol>
-<li>添加Adobe XD文件，使自定义表单更直观且信息更丰富。 将表单附加到对象后，使用该对象的用户可以从表单中查看和交互XD文件。
+<li>添加Adobe XD文件，使自定义表单更直观且信息更丰富。将表单附加到对象后，使用该对象的用户可以从表单中查看和交互XD文件。
 </li>
-<li>使用快速筛选器轻松地在现代化自定义表单和字段列表中找到项目。 此外，在管理表单和字段时还可体验更佳的外观。
+<li>使用快速筛选器轻松地在现代化自定义表单和字段列表中找到项目。此外，在管理表单和字段时还可体验更佳的外观。
 </li>
 </ol>
                     </td>
@@ -418,7 +424,7 @@ ht-degree: 0%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将团队添加到讨论区或信息卡</a> </p>
                         <p>您现在可以将团队添加为讨论区成员。 将团队添加到讨论区时，不再添加单个团队成员，但所有团队成员都可以访问讨论区。</p>
-                        <p>将团队添加到展示板后，您可以将团队分配给信息卡。 在连接的卡片上，只允许一个团队分配。 在临时信息卡上，您可以分配多个团队。
+                        <p>将团队添加到展示板后，您可以将团队分配给信息卡。在连接的卡片上，只允许一个团队分配。在临时信息卡上，您可以分配多个团队。
                         </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

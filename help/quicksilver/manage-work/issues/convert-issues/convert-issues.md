@@ -8,11 +8,17 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: 1531
 ht-degree: 3%
 
 ---
@@ -47,7 +53,7 @@ ht-degree: 3%
 
 * 转化问题时，原始问题的权限不会转移到转化后的对象（任务或项目）。
 
-* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板[将问题转化为项目时](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)项目字段概述。
+* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)将问题转化为项目时[项目字段概述。
 * 在转化问题时，并非所有文档或其信息都会移动到问题转化到的新对象。 在转换附加了文档或文档链接的问题时，包括以下项：
 
    * 文档
@@ -87,7 +93,7 @@ ht-degree: 3%
   <tr> 
    <td>优先级</td> 
    <td><p>从问题中转移。</p>
-   <p>为已转换的项目使用模板时，您可以选择手动更改优先级。 如果您选择不对其进行更改，则问题的优先级将转移到项目。 
+   <p>为已转换的项目使用模板时，您可以选择手动更改优先级。如果您选择不对其进行更改，则问题的优先级将转移到项目。 
     </td> 
   </tr> 
   <tr> 

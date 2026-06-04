@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/5OkRMNtGZPFq3UTOlmP9rUqvkdkxrB4Eo6Gh-culwZw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: 1466
 ht-degree: 0%
 
 ---
@@ -144,7 +150,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 Group对象现在支持自定义表单。 这使您组织中的组能够更轻松地捕获和共享满足其特定需求和工作流程的信息。 用户可以像对其他Workfront对象一样，对组执行以下操作：
 
 * 创建自定义表单
-* 附加自定义表单
+* 附加一个自定义表单
 * 保存自定义表单数据
 * 删除自定义表单
 * 编辑列表中的自定义数据，并在新的Workfront Experience中编辑组页面的自定义数据

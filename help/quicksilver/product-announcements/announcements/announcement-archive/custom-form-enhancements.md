@@ -4,9 +4,15 @@ description: 22.2版本中对管理自定义表单进行了以下重要增强。
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/hq-y5cINrn-FNSBAdrXD8kf-cVZeRoFH6mKKKOnRCuY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: 1117
 ht-degree: 0%
 
 ---
@@ -27,7 +33,7 @@ ht-degree: 0%
 
   ![映像详细信息](assets/see-image-details-page.png)
 
-* 对象的“编辑”框(如果它具有新的Adobe Workfront Experience外观)（例如，“编辑项目”和“编辑任务”框）&#x200B;。
+* 对象的“编辑”框（如果它具有新的Adobe Workfront Experience外观）（例如，“编辑项目”和“编辑任务”框）&#x200B;。
 
   ![图像编辑](assets/image-see-in-edit.png)
 
@@ -35,8 +41,8 @@ ht-degree: 0%
 
 * 列表和报告
 * 主页和摘要
-* 对象的编辑框(如果它没有新的Adobe Workfront Experience外观)（例如，编辑费用框）
-* Workfront&#x200B;移动设备应用程序
+* 对象的编辑框（如果它没有新的Adobe Workfront Experience外观）（例如，编辑费用框）
+* &#x200B;移动设备应用程序
 
 ## 将自定义表单与多个对象类型关联
 
@@ -78,7 +84,7 @@ ht-degree: 0%
 
 ![分区界限具有有限的编辑](assets/section-break-permissions-limited-edit.png)
 
-可用于所有其他对象类型(“Portfolio”、“文档”、“项目群”、“费用”、“公司”、“开发周期”、“记帐记录”和“组”)的一组分区界限权限不包括“有限编辑”：
+可用于所有其他对象类型（Portfolio、文档、项目、费用、公司、开发周期、账单记录和组）的一组分区界限权限不包括有限编辑：
 
 ![分区界限，无限制的编辑](assets/section-break-permissions-no-limited-edit.png)
 

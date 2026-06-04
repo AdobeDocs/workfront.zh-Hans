@@ -6,9 +6,14 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: 881
 ht-degree: 0%
 
 ---
@@ -105,13 +110,13 @@ ht-degree: 0%
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
-## 迁移到AdobeUnified Experience
+## 迁移到Adobe Unified Experience
 
 注意：此迁移已推迟到2023年第1季度至第2季度。 届时将通知所有受影响的客户。
 
-如果您的组织已载入到Adobe Admin Console，则您的Workfront实例将迁移到Adobe22.4版的Unified Experience。
+如果贵组织已登记到Adobe Admin Console，则您的Workfront实例将迁移到Adobe Unified Experience 22.4版。
 
-AdobeUnified Experience包括：
+Adobe Unified Experience包括：
 
 * 通过Adobe Experience Cloud对所有Adobe应用程序进行单点登录
 
@@ -119,6 +124,6 @@ AdobeUnified Experience包括：
 
 * 包含Workfront页面、Adobe Experience Cloud首选项和Workfront配置文件的选项导航
 
-有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+有关详细信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412388/){target=_blank}

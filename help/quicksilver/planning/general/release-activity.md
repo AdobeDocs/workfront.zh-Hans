@@ -6,13 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: 7679
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront 2024年计划发布活动
 
@@ -135,7 +140,7 @@ ht-degree: 0%
 * 根据配置方式，请求表单可能会显示记录类型的所有字段，但以下类型的字段除外：
 
    * 人员
-   * 连接的字段(包括与Experience Manager Assets的连接)
+   * 连接的字段（包括与Experience Manager Assets的连接）
    * 连接的查找字段
    * 公式
 
@@ -800,7 +805,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-如果您是Adobe Unified Experience客户，并且某人将您添加到记录页面上的评论中，则您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域中管理通知首选项。 有关详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。
+如果您是Adobe Unified Experience客户，并且某人将您添加到记录页面上的评论中，则您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域管理通知首选项。 有关详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。
 
 有关Workfront计划通知的更多信息，请参阅[Adobe Workfront计划通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 
@@ -1131,7 +1136,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 * 单选
 * 多选
 * 人员
-* 连接的记录字段(连接planning功能记录类型或Workfront对象时)
+* 连接的记录字段（连接planning功能记录类型或Workfront对象时）
 
 根据新的改进，首先会显示一个更小、响应更快速的框。
 

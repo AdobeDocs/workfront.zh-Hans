@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/hWQHCGyvb-N-utvgquxUHOUd9WfC9YNQpr5w-I4E-YE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3974'
-ht-degree: 0%
+source-wordcount: 4155
+ht-degree: 2%
 
 ---
 
@@ -47,7 +53,7 @@ in October 2021
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
-the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/zh-cn/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/zh-cn/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
+the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
 -->
 
 ## Adobe Workfront增强功能
@@ -123,7 +129,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +297,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +309,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。）</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +363,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。）</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -624,7 +630,7 @@ Workfront Fusion中的新增功能在22.2发布计划之外的生产环境中以
 
 ## 22.2版本网络研讨会
 
-Workfront 22.2版本网络研讨会将于2022年3月24日上午8:00（山区标准时间）举行。 您可以在Workfront One[&#128279;](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)的事件页面上注册该事件。
+Workfront 22.2版本网络研讨会将于2022年3月24日上午8:00（山区标准时间）举行。 您可以在Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)的[事件页面上注册该事件。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

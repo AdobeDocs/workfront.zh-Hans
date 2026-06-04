@@ -6,11 +6,15 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: 1564
 ht-degree: 0%
 
 ---
@@ -90,7 +94,7 @@ ht-degree: 0%
 >如果贵组织每年生产5,000多项活动，则应将各个可交付结果跟踪移至Workfront。
 >
 >在Planning中管理大量体验记录可能会导致数据累积，从而模糊您的战略可见性。
->我们建议采用这一宽泛的准则来最大限度地提高效率：
+>我们建议采用以下宽泛的准则来最大限度地提高效率：
 >
 >* 使用Planning了解“原因”和“内容”
 >* 将Workfront用于大容量“如何”。

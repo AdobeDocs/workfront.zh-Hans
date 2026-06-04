@@ -7,10 +7,16 @@ description: 本文给出一个计算Adobe Workfront项目级项目完工估算(
 author: Lisa
 feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/6I01QrqZfJ-rE0nqDlSBxr0HfPSgFpBVvtQT5Q1cQQ0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 1%
+source-wordcount: 2306
+ht-degree: 5%
 
 ---
 
@@ -30,7 +36,7 @@ ht-degree: 1%
 
 pim =基于小时
 
-EAC方法=在项目级别计算&#x200B;**&#x200B;**
+EAC方法=在项目级别计算****
 
 1. 创建项目A，其中三个任务（无子任务）均分配给成本/小时为$100.00的用户1。
 1. 根据下表将计划小时数和实际小时数添加到每个任务并完成百分比：
@@ -81,7 +87,7 @@ EAC方法=在项目级别计算&#x200B;**&#x200B;**
    任务1的&#x200B;**EAC** = *IF* CPI &lt;> 0 *则* EAC =计划小时数/CPI\
    *ELSE* EAC =计划小时数+实际小时数\
    任务1 **的** EAC = 5 / .04\
-   任务1 **的** EAC = 125小时&#x200B;**&#x200B;**
+   任务1 **的** EAC = 125小时****
 
 1. 任务2和3的CPI / EAC包括：\
    任务2 = .12 / 83.33小时\
@@ -263,25 +269,25 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务1</p> </td> 
    <td> <p>5小时</p> </td> 
-   <td> <p>500.00美元</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>25小时</p> </td> 
-   <td> <p>2,500美元</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>25小时</p> </td> 
-   <td> <p>2,500美元</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>30%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务3</p> </td> 
    <td> <p>15小时</p> </td> 
-   <td> <p>1,500美元</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>25小时</p> </td> 
-   <td> <p>2,500美元</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>40%</p> </td> 
   </tr> 
  </tbody> 
@@ -306,26 +312,26 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务1</p> </td> 
    <td> <p>任务1费用1</p> </td> 
-   <td> <p>300.00</p> </td> 
-   <td> <p>400.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务1</p> </td> 
    <td> <p>任务1费用2</p> </td> 
-   <td> <p>500.00美元</p> </td> 
-   <td> <p>0.00美元</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
    <td> <p>任务2费用</p> </td> 
-   <td> <p>200.00</p> </td> 
-   <td> <p>100.00</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务3</p> </td> 
    <td> <p>任务3费用</p> </td> 
-   <td> <p>800.00</p> </td> 
-   <td> <p>700.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -346,13 +352,13 @@ EAC方法=在项目级别计算
  <tbody> 
   <tr> 
    <td> <p>项目费用1</p> </td> 
-   <td> <p>1,000美元</p> </td> 
-   <td> <p>1,500美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务1费用2</p> </td> 
-   <td> <p>2,500美元</p> </td> 
-   <td> <p>0.00美元</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,115 +381,115 @@ EAC方法=在项目级别计算
  <tbody> 
   <tr> 
    <td> <p>任务1</p> </td> 
-   <td> <p>500.00美元</p> </td> 
-   <td> <p>300.00</p> </td> 
-   <td> <p>400.00</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
-   <td> <p>0.00美元</p> </td> 
-   <td> <p>200.00</p> </td> 
-   <td> <p>100.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务3</p> </td> 
-   <td> <p>0.00美元</p> </td> 
-   <td> <p>800.00</p> </td> 
-   <td> <p>700.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>项目</p> </td> 
-   <td> <p>3,000美元</p> </td> 
-   <td> <p>2,300美元</p> </td> 
-   <td> <p> 2,700美元 <strong></strong></p> </td> 
+   <td> <p>$3,000.00</p> </td> 
+   <td> <p>$2,300.00</p> </td> 
+   <td> <p> $2,700.00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 1. 在项目操作中，运行重新计算财务
 1. 任务1 **的** CPI = .14
-1. 任务1 **的** CPI&#x200B;**&#x200B;** = .14计算如下：\
-   任务1 **的** CPI **&#x200B;**&#x200B;= *IF*&#x200B;实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
+1. 任务1 **的** CPI**** = .14计算如下：\
+   任务1 **的** CPI **** = *IF*&#x200B;实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     任务1&#x200B;**&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI= (100+300) / (2500+400)**\
-     任务1 **的** CPI **&#x200B;**&#x200B;= 400 / 2900\
-     任务1 **的** CPI **&#x200B;**&#x200B;= .14&#x200B;**&#x200B;**
+     任务1 **** 1}的**CPI= (100+300) / (2500+400)**\
+     任务1 **的** CPI **** = 400 / 2900\
+     任务1 **的** CPI **** = .14****
 
-1. 任务1 **的** EAC&#x200B;**&#x200B;** = $13,400.00\
-   任务1 **的** CPI人工&#x200B;**&#x200B;**&#x200B;如果实际人工成本&lt;> 0，则
+1. 任务1 **的** EAC**** = $13,400.00\
+   任务1 **的** CPI人工&#x200B;****&#x200B;如果实际人工成本&lt;> 0，则
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
    否则CPI_Labor = 1\
-   任务1 **的** CPI人工&#x200B;**&#x200B;** = 100/2500\
-   **CPI人工** **任务1** = .04&#x200B;**&#x200B;**&#x200B;**EAC人工&#x200B;**&#x200B;**任务1**=* IF *CPI_人工&lt;> 0* THEN *EAC人工=计划人工成本/CPI_人工
+   任务1 **的** CPI人工&#x200B;**** = 100/2500\
+   **CPI人工** **任务1** = .04 ******EAC人工****任务1**= *IF* CPI_人工&lt;> 0 *THEN* EAC人工=计划人工成本/CPI_人工
    * ELSE* EAC人力=计划人工成本+实际人工成本\
-     **任务1**&#x200B;**EAC人工= 500.00/.04**\
-     **任务1**&#x200B;的EAC人工&#x200B;**&#x200B;** = $12,500.00\
-     任务1 **的** EAC费用&#x200B;**&#x200B;** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
-     **任务1**&#x200B;的EAC费用&#x200B;**&#x200B;** = $400.00 + $500.00\
-     任务1 **的** EAC费用&#x200B;**&#x200B;** = $900.00\
-     任务1 **的** EAC&#x200B;**&#x200B;** = EAC人工+ EAC费用\
-     任务1 **的** EAC&#x200B;**&#x200B;** = $12,500.00 + $900.00\
-     任务1 **的** EAC&#x200B;**&#x200B;** = $13,400.00
+     **任务1****EAC人工= 500.00/.04**\
+     **任务1**&#x200B;的EAC人工**** = $12,500.00\
+     任务1 **的** EAC费用**** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
+     **任务1**&#x200B;的EAC费用**** = $400.00 + $500.00\
+     任务1 **的** EAC费用**** = $900.00\
+     任务1 **的** EAC**** = EAC人工+ EAC费用\
+     任务1 **的** EAC**** = $12,500.00 + $900.00\
+     任务1 **的** EAC**** = $13,400.00
 
 1. 以下是任务2和任务3的CPI / EAC值：\
    任务2 = .19 / $8,433.33\
    任务3 = .44 / $6,950.00
 
 1. 项目&#x200B;**的** CPI = .32计算如下：\
-   项目&#x200B;**CPI**&#x200B;**1&rbrace; =** IF *实际劳力成本+ GeneratedActualExpenseCost &lt;> 0* THEN **
+   项目&#x200B;**CPI ****1} = *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN***
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     项目&#x200B;**&#x200B;**&#x200B;0&rbrace;CPI **= (1000 + 2300) / (7500 + 2700)**\
-     项目&#x200B;**&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI= 3300 / 10200**\
-     项目&#x200B;**&#x200B;**&#x200B;**&#x200B;** CPI = .32
+     项目&#x200B;**** 0}CPI** = (1000 + 2300) / (7500 + 2700)**\
+     项目&#x200B;**** 1}的**CPI= 3300 / 10200**\
+     项目&#x200B;********CPI = .32
 
 1. **项目**&#x200B;的EAC = $28,200.00，计算方法如下：\
-   **项目**&#x200B;**1&rbrace;的CPI人工=如果实际人工成本&lt;> 0，则**
+   **项目****1}的CPI人工=如果实际人工成本&lt;> 0，则**
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
    否则CPI_Labor = 1\
-   **项目**&#x200B;**CPI人工** = 1000 / 7500\
-   **项目**&#x200B;**CPI人工** = .13333\
-   **项目**&#x200B;**CPI人工** = .13
+   **项目****CPI人工** = 1000 / 7500\
+   **项目****CPI人工** = .13333\
+   **项目****CPI人工** = .13
 
-   **项目**&#x200B;**1&rbrace;的EAC人工=** IF *CPI_Labor &lt;> 0* THEN **
+   **项目&#x200B;****1}的EAC人工= *IF* CPI_Labor &lt;> 0 *THEN***
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
    * ELSE* EAC人力=计划人工成本+实际人工成本\
-     **项目**&#x200B;**EAC人工** = 3000/ .13333\
-     **项目**&#x200B;**EAC人工** = $22,500.00
+     **项目****EAC人工** = 3000/ .13333\
+     **项目****EAC人工** = $22,500.00
 
-   **EAC费用**&#x200B;**项目** =
+   **EAC费用****项目** =
 
    ```
    IncurredActualExpenseCost + NotIncurredPlannedExpense
    ```
 
-   **EAC费用**&#x200B;**项目** = $3000.00 + 2,700.00\
-   **EAC费用**&#x200B;**项目** = $5,700.00
+   **EAC费用****项目** = $3000.00 + 2,700.00\
+   **EAC费用****项目** = $5,700.00
 
-   **EAC**&#x200B;**项目** = EAC人工+ EAC费用\
-   **EAC**&#x200B;**项目** = $22,500.00 + $5,700.00\
-   **EAC**&#x200B;**项目** = $28,200.00
+   **EAC****项目** = EAC人工+ EAC费用\
+   **EAC****项目** = $22,500.00 + $5,700.00\
+   **EAC****项目** = $28,200.00
 
 #### 复杂的示例：项目具有子任务 {#complicated-example-project-has-children-tasks-1}
 
@@ -529,15 +535,15 @@ EAC方法=在项目级别计算
    <td> </td> 
    <td> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
    <td> <p>5小时</p> </td> 
-   <td> <p>500.00美元</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
@@ -545,37 +551,37 @@ EAC方法=在项目级别计算
    <td> </td> 
    <td> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>任务4</p> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>40%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务5</p> </td> 
    <td> <p>15小时</p> </td> 
-   <td> <p>1,500美元</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>50%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务6</p> </td> 
    <td> <p>20小时</p> </td> 
-   <td> <p>2,000.00美元</p> </td> 
+   <td> <p>$2,000.00</p> </td> 
    <td> <p>10小时</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>60%</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. 直接将50小时添加到项目（“更多”>“小时”>“记录小时”），以便将$5,000.00的实际人工成本直接记录到项目中。 **&#x200B;**
+1. 直接将50小时添加到项目（“更多”>“小时”>“记录小时”），以便将$5,000.00的实际人工成本直接记录到项目中。 ****
 1. 根据下表为每个任务添加费用（为了便于阅读，我在每个任务之间添加了一行空白）：
 
 <table style="table-layout:auto"> 
@@ -595,20 +601,20 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务1</p> </td> 
    <td> <p>任务1费用1</p> </td> 
-   <td> <p>300.00</p> </td> 
-   <td> <p>- 400.00美元</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>-$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务1</p> </td> 
    <td> <p>任务1费用2</p> </td> 
-   <td> <p>- 500.00美元</p> </td> 
-   <td> <p>800.00</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务1</p> </td> 
    <td> <p>任务1费用3</p> </td> 
-   <td> <p>400.00</p> </td> 
-   <td> <p>0.00美元</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -619,26 +625,26 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务2</p> </td> 
    <td> <p>任务2费用1</p> </td> 
-   <td> <p>500.00美元</p> </td> 
-   <td> <p>700.00</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
    <td> <p>任务2费用2</p> </td> 
-   <td> <p>- 400.00美元</p> </td> 
-   <td> <p>0.00美元</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
    <td> <p>任务2费用3</p> </td> 
-   <td> <p>- 200.00美元</p> </td> 
-   <td> <p>600.00美元</p> </td> 
+   <td> <p>-$200.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
    <td> <p>任务2费用4</p> </td> 
-   <td> <p>700.00</p> </td> 
-   <td> <p>- 200.00美元</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -649,8 +655,8 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务3</p> </td> 
    <td> <p>任务3费用</p> </td> 
-   <td> <p>0.00美元</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -661,20 +667,20 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务4</p> </td> 
    <td> <p>任务4费用1</p> </td> 
-   <td> <p>800.00</p> </td> 
-   <td> <p>0.00美元</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务4</p> </td> 
    <td> <p>任务4费用2</p> </td> 
-   <td> <p>- 100.00美元</p> </td> 
-   <td> <p>300.00</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务4 </p> </td> 
    <td> <p>任务4费用3</p> </td> 
    <td> <p>-200.00</p> </td> 
-   <td> <p>0.00美元</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -685,20 +691,20 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务5</p> </td> 
    <td> <p>任务5费用1</p> </td> 
-   <td> <p>700.00</p> </td> 
-   <td> <p>800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务5</p> </td> 
    <td> <p>任务5费用2</p> </td> 
-   <td> <p>- 100.00美元</p> </td> 
-   <td> <p>300.00</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务5</p> </td> 
    <td> <p>任务5费用3</p> </td> 
-   <td> <p>- 400.00美元</p> </td> 
-   <td> <p>- 200.00美元</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -709,14 +715,14 @@ EAC方法=在项目级别计算
   <tr> 
    <td> <p>任务6</p> </td> 
    <td> <p>任务6费用1</p> </td> 
-   <td> <p>600.00美元</p> </td> 
-   <td> <p>700.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务6</p> </td> 
    <td> <p>任务6费用2</p> </td> 
-   <td> <p>500.00美元</p> </td> 
-   <td> <p>- 300.0美元</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>-$300.0</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -737,13 +743,13 @@ EAC方法=在项目级别计算
  <tbody> 
   <tr> 
    <td> <p>项目费用1</p> </td> 
-   <td> <p>1,000美元</p> </td> 
-   <td> <p>1,500美元</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务1费用2</p> </td> 
-   <td> <p>2,500美元</p> </td> 
-   <td> <p> 0.00美元 <strong></strong></p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p> $0.00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -766,45 +772,45 @@ EAC方法=在项目级别计算
  <tbody> 
   <tr> 
    <td> <p>任务1</p> </td> 
-   <td> <p>400.00</p> </td> 
-   <td> <p>- 500.00美元</p> </td> 
-   <td> <p>800.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务2</p> </td> 
-   <td> <p>- 400.00美元</p> </td> 
-   <td> <p>300.00</p> </td> 
-   <td> <p>1,300美元</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$1,300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务3</p> </td> 
-   <td> <p>0.00美元</p> </td> 
-   <td> <p>0.00美元</p> </td> 
-   <td> <p>1,000美元</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务4</p> </td> 
-   <td> <p>600.00美元</p> </td> 
-   <td> <p>- 100.00美元</p> </td> 
-   <td> <p>300.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务5</p> </td> 
-   <td> <p>0.00美元</p> </td> 
-   <td> <p>600.00美元</p> </td> 
-   <td> <p>1,100.00美元</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$1,100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务6</p> </td> 
-   <td> <p>0.00美元</p> </td> 
-   <td> <p>600.00美元</p> </td> 
-   <td> <p>700.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>项目</p> </td> 
-   <td> <p>2,500美元</p> </td> 
-   <td> <p>1000.00</p> </td> 
-   <td> <p>1,500美元</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$1000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -813,31 +819,31 @@ EAC方法=在项目级别计算
 1. 任务2的&#x200B;**CPI** = .17计算如下：\
    **CPI任务2** = *IF*&#x200B;实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN* CPI = (TotalBudgetedCostWorkPerformed + GeneratedPlannedExpenseCost) / (ActualLaborCost + GeneratedActualExpenseCost)
    * ELSE* CPI = CPI_Labor\
-     **CPI**&#x200B;**任务2** = (100+300) / (1000+1300)\
-     **CPI**&#x200B;**任务2** = 400 / 2300\
-     **CPI**&#x200B;**任务2** = .17
+     **CPI****任务2** = (100+300) / (1000+1300)\
+     **CPI****任务2** = 400 / 2300\
+     **CPI****任务2** = .17
 
 1. 任务2的&#x200B;**EAC** = $5,900.00\
-   **CPI劳力**&#x200B;**任务2** =如果实际劳力成本&lt;> 0，则CPI_劳力= TotalBudgetedCostWorkPerformed /实际劳力成本\
+   **CPI劳力****任务2** =如果实际劳力成本&lt;> 0，则CPI_劳力= TotalBudgetedCostWorkPerformed /实际劳力成本\
    否则CPI_Labor = 1\
-   **CPI人工**&#x200B;**任务2** = 100/1000\
-   **CPI人工**&#x200B;**任务2** = .1
+   **CPI人工****任务2** = 100/1000\
+   **CPI人工****任务2** = .1
 
-   **EAC人工**&#x200B;**任务2** = *IF* CPI_人工&lt;> 0 *THEN*
+   **EAC人工****&#x200B;任务2 ** = *IF* CPI_人工&lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
    * ELSE* EAC人力=计划人工成本+实际人工成本\
-     **EAC人工**&#x200B;**任务2** = 500.00/.1\
-     **EAC人工**&#x200B;**任务2** = $5,000.00 **&#x200B;**&#x200B;**&#x200B; EAC费用&#x200B;**&#x200B;**任务2 &#x200B;**= GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
-     **EAC费用&#x200B;**&#x200B;**任务2** = $1,300.00 + -$400.00\
-     **EAC费用**&#x200B;**任务2** = $900.00
+     **EAC人工****任务2** = 500.00/.1\
+     **EAC人工****任务2** = $5,000.00 ******EAC费用&#x200B;****任务2** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
+     **EAC费用&#x200B;****任务2** = $1,300.00 + -$400.00\
+     **EAC费用****任务2** = $900.00
 
-   **EAC**&#x200B;**任务2** = EAC人工+ EAC费用\
-   **EAC**&#x200B;**任务2** = $5,000.00 + $900.00\
-   **EAC**&#x200B;**任务2** = $5,900.00
+   **EAC****任务2** = EAC人工+ EAC费用\
+   **EAC****任务2** = $5,000.00 + $900.00\
+   **EAC****任务2** = $5,900.00
 
 1. 任务4、5和6的CPI/EAC采用相同的方式确定，因此我将提供以下这些值：\
    任务4： .23 / $3,400.00\
@@ -845,83 +851,83 @@ EAC方法=在项目级别计算
    任务6:1.06 / $2,366.67
 
 1. 任务3的CPI = .31，计算方法如下：\
-   **CPI**&#x200B;**任务3** = *IF*&#x200B;实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
+   **CPI****&#x200B;任务3 ** = *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     **CPI**&#x200B;**任务3** = (1,150 + 500) / (3000 + 2400)\
-     **CPI**&#x200B;**任务3** = 1650 / 5400\
-     **CPI**&#x200B;**任务3** = .31 **&#x200B;**&#x200B;**&#x200B;任务3 &#x200B;** 的EAC = $9,521.74计算如下：\
-     **CPI人工&#x200B;**&#x200B;**任务3** =如果实际人工成本&lt;> 0，则
+     **CPI****任务3** = (1,150 + 500) / (3000 + 2400)\
+     **CPI****任务3** = 1650 / 5400\
+     **CPI****任务3** = .31 ******任务3**的EAC = $9,521.74计算如下：\
+     **CPI人工&#x200B;****任务3** =如果实际人工成本&lt;> 0，则
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    否则CPI_Labor = 1\
-   **CPI人工**&#x200B;**任务3** = 1150/3000\
-   **CPI人工**&#x200B;**任务3** = .383333\
-   **CPI人工**&#x200B;**任务3** = .38
+   **CPI人工****任务3** = 1150/3000\
+   **CPI人工****任务3** = .383333\
+   **CPI人工****任务3** = .38
 
-   **EAC人工**&#x200B;**任务3** = *IF* CPI_人工&lt;> 0 *THEN*
+   **EAC人工****&#x200B;任务3 ** = *IF* CPI_人工&lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * ELSE* EAC人力=计划人工成本+实际人工成本\
-     **EAC人工**&#x200B;**任务3** = $2,500.00 / .383333\
-     **EAC人工**&#x200B;**任务3** = $6,521.74
+     **EAC人工****任务3** = $2,500.00 / .383333\
+     **EAC人工****任务3** = $6,521.74
 
-   **EAC费用**&#x200B;**任务3** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
-   **EAC费用**&#x200B;**任务3** = $2,400.00 + $600.00\
-   **EAC费用**&#x200B;**任务3** = $3,000.00
+   **EAC费用****任务3** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
+   **EAC费用****任务3** = $2,400.00 + $600.00\
+   **EAC费用****任务3** = $3,000.00
 
-   **EAC**&#x200B;**任务3** = EAC人工+ EAC费用\
-   **EAC**&#x200B;**任务3** = $6,521.74 + $3,000.00\
-   **EAC**&#x200B;**任务3** = $9,521.74
+   **EAC****任务3** = EAC人工+ EAC费用\
+   **EAC****任务3** = $6,521.74 + $3,000.00\
+   **EAC****任务3** = $9,521.74
 
 1. 任务1的CPI = .16，计算方法如下：\
-   **CPI**&#x200B;**任务1** = *IF*&#x200B;实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
+   **CPI****&#x200B;任务1 ** = *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     **CPI**&#x200B;**任务1** = (1250 + 300) / (5000 + 4500)\
-     **CPI**&#x200B;**任务1** = 1550 / 9500=\
-     **CPI**&#x200B;**任务1** = .16
+     **CPI****任务1** = (1250 + 300) / (5000 + 4500)\
+     **CPI****任务1** = 1550 / 9500=\
+     **CPI****任务1** = .16
 
 1. 任务1的EAC为$17,100.00，计算如下：\
-   **CPI人工**&#x200B;**任务1** =如果实际人工成本&lt;> 0，则
+   **CPI人工****任务1** =如果实际人工成本&lt;> 0，则
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    否则CPI_Labor = 1\
-   **CPI人工**&#x200B;**任务1** = 1250 / 5000\
-   **CPI人工**&#x200B;**任务1** = .25
+   **CPI人工****任务1** = 1250 / 5000\
+   **CPI人工****任务1** = .25
 
-   **EAC人工**&#x200B;**任务1** = *IF* CPI_人工&lt;> 0 *THEN* EAC人工=计划人工成本/ CPI_人工
+   **EAC人工****&#x200B;任务1 ** = *IF* CPI_人工&lt;> 0 *THEN* EAC人工=计划人工成本/ CPI_人工
    * ELSE* EAC人力=计划人工成本+实际人工成本\
-     **EAC人工**&#x200B;**任务1** = $3,000.00 / .25\
-     **EAC人工**&#x200B;**任务1** = $12,000.00
+     **EAC人工****任务1** = $3,000.00 / .25\
+     **EAC人工****任务1** = $12,000.00
 
-   **EAC费用**&#x200B;**任务1** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
-   **EAC费用**&#x200B;**任务1** = $4500 + 600\
-   **EAC费用**&#x200B;**任务1** = $5,100.00
+   **EAC费用****任务1** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
+   **EAC费用****任务1** = $4500 + 600\
+   **EAC费用****任务1** = $5,100.00
 
-   **EAC**&#x200B;**任务1** = EAC人工+ EAC费用\
-   **EAC**&#x200B;**任务1** = $12,000.00 + 5,100.00\
-   **EAC**&#x200B;**任务1** = $17,100.00
+   **EAC****任务1** = EAC人工+ EAC费用\
+   **EAC****任务1** = $12,000.00 + 5,100.00\
+   **EAC****任务1** = $17,100.00
 
 1. 项目的CPI为0.25\
-   项目&#x200B;**CPI**&#x200B;**1&rbrace; =** IF *实际劳力成本+ GeneratedActualExpenseCost &lt;> 0* THEN **
+   项目&#x200B;**CPI ****1} = *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN***
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -929,37 +935,37 @@ EAC方法=在项目级别计算
 
    * ELSE* CPI = CPI_Labor
 
-   项目&#x200B;**CPI**&#x200B;**1&rbrace; = (2450 + 1900) / (11000 + 6700)**\
-   项目&#x200B;**&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI=   4350 / 17700**\
-   项目&#x200B;**&#x200B;**&#x200B;**&#x200B;** CPI = .25
+   项目&#x200B;**CPI****1} = (2450 + 1900) / (11000 + 6700)**\
+   项目&#x200B;**** 1}的**CPI= 4350 / 17700**\
+   项目&#x200B;********CPI = .25
 
 1. **项目**&#x200B;的EAC = $32,248.98，计算方法如下：\
-   **项目**&#x200B;**1&rbrace;的CPI人工=如果实际人工成本&lt;> 0，则**
+   **项目****1}的CPI人工=如果实际人工成本&lt;> 0，则**
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    否则CPI_Labor = 1\
-   **项目**&#x200B;**CPI人工** = 2450 / 11000\
-   **项目**&#x200B;**CPI人工** = .22272\
-   **项目**&#x200B;**CPI人工** = .22
+   **项目****CPI人工** = 2450 / 11000\
+   **项目****CPI人工** = .22272\
+   **项目****CPI人工** = .22
 
-   **项目**&#x200B;**1&rbrace;的EAC人工=** IF *CPI_Labor &lt;> 0* THEN **
+   **项目&#x200B;****1}的EAC人工= *IF* CPI_Labor &lt;> 0 *THEN***
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * ELSE* EAC人力=计划人工成本+实际人工成本\
-     **项目**&#x200B;**EAC人工** = $5,000.00 / .22272\
-     **项目**&#x200B;**EAC人工** = $22,448.97959\
-     **项目**&#x200B;**EAC人工** = $22,448.98
+     **项目****EAC人工** = $5,000.00 / .22272\
+     **项目****EAC人工** = $22,448.97959\
+     **项目****EAC人工** = $22,448.98
 
-   **EAC费用**&#x200B;**项目** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
-   **EAC费用**&#x200B;**项目** = $3,100.00 + $6,700.00\
-   **EAC费用**&#x200B;**项目** = $9,800.00
+   **EAC费用****项目** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
+   **EAC费用****项目** = $3,100.00 + $6,700.00\
+   **EAC费用****项目** = $9,800.00
 
-   **EAC**&#x200B;**项目** = EAC人工+ EAC费用\
-   **EAC**&#x200B;**项目** = $22,448.98 + 9,800.00\
-   **EAC**&#x200B;**项目** = $32,248.98
+   **EAC****项目** = EAC人工+ EAC费用\
+   **EAC****项目** = $22,448.98 + 9,800.00\
+   **EAC****项目** = $32,248.98

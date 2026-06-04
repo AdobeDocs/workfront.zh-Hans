@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '8112'
+source-wordcount: 7941
 ht-degree: 1%
 
 ---
@@ -267,7 +273,7 @@ Old:
       </tr> 
       <tr> 
          <td role="rowheader"><strong>计划模式</strong> </td> 
-         <td> <p>指定是从开始日期还是从完成日期开始计划项目。 此选择确定项目上任务的计划日期。 
+         <td> <p>指定是从开始日期还是从完成日期开始计划项目。此选择确定项目上任务的计划日期。 
          <ul> 
          <li><strong>开始日期</strong>：默认情况下，项目的第一个任务的计划开始日期与项目相同。 有关任务计划开始日期的信息，请参阅<a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概览</a>。 项目时间线从开始日期开始计算，项目完成日期由系统根据所有任务的持续时间来计算。 </li> 
          <li><strong>完成日期</strong>：项目的最后一个任务的计划完成日期与项目相同。 项目时间线从完成日期开始计算，项目开始日期由系统计算，从项目完成日期减去所有任务的持续时间。 </li> 
@@ -283,7 +289,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>项目组合</strong></td> 
-      <td>指示项目所属的Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
+      <td>指示项目所属的Portfolio。必须先创建Portfolio，然后它才会显示在下拉列表中。只有活动项目组合可以与项目关联。有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
       <p><b>注释</b></p>
       <ul>
       <li>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</li>
@@ -497,7 +503,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>完成模式</strong> </td> 
-      <td> <p>控制如何将项目标记为完成。 从以下选项中选择： 
+      <td> <p>控制如何将项目标记为完成。从以下选项中选择： 
        <ul> 
        <li><p><strong>自动</strong>：在所有任务和问题都完成时，项目被标记为“完成”。</p><p>只有在任务完成时项目状态为当前时，项目状态才会自动更改为完成。 </p></li> 
        <li><strong>手动</strong>：当所有任务和问题都完成时，您必须手动选择项目的“完成”状态。</li> 
@@ -505,7 +511,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong></td> 
-       <td> <p>控制如何将父级任务标记为“完成”。 从以下选项中选择： 
+       <td> <p>控制如何将父级任务标记为“完成”。从以下选项中选择： 
        <ul> 
        <li><strong>自动</strong>：父任务标记为“完成”，当子任务完成且子任务的完成百分比更新时，父任务会自动更新其完成百分比。 </li> 
        <li><strong>手动</strong>：您必须手动更新父任务的完成百分比和状态，而不考虑对子任务所做的更改。 这样，即使子任务不完整，您也可以将父任务标记为已完成。 </li> 
@@ -513,7 +519,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>更新类型</strong></td> 
-       <td> <p>控制将对项目时间线所做的更改保存在项目或父任务中的时间。 例如，对项目的以下更改会触发对项目时间线的更新： 
+       <td> <p>控制将对项目时间线所做的更改保存在项目或父任务中的时间。例如，对项目的以下更改会触发对项目时间线的更新： 
        <ul> 
        <li>更新任务日期</li> 
        <li>更改任务的前置任务关系</li> 
@@ -814,7 +820,7 @@ Old:
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -857,15 +863,15 @@ Old:
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
-有关编辑“财务”区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
+有关编辑财务区域的详细信息，请参阅本文中的[财务](#finance)部分。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
-有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
+有关编辑“问题设置”区域的更多信息，请参阅本文中的[问题设置](#issue-settings)部分。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。

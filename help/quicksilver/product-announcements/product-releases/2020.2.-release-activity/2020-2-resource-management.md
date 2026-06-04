@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/QAgsK1-saTn4aaPn81bazNS4J2eyvAGP8C6ndMGLY7A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 0%
+source-wordcount: 1814
+ht-degree: 4%
 
 ---
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 要使工作负载均衡器中的信息与您相关，您现在可以为工作负载均衡器的未分配工作和已分配工作区域创建过滤器，并保存它们以供将来使用。 然后，您可以编辑保存的版本以进行细微更改，而不是从头开始使用新筛选器。
 
-有关在工作负载均衡器中过滤的信息，请参阅在工作负载均衡器中管理过滤器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+有关在工作负载均衡器中过滤的信息，请参阅在工作负载均衡器中管理过滤器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 为了帮助您做出正确的分配决策，现在通过新设置可查看用户根据其计划可工作的小时数与已分配至工作的小时数（剩余小时数）之间的小时数差异。 新设置现在在工作负载均衡器中可用。
 
-有关在工作负载均衡器中查看信息的信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅[在工作负载均衡器中导航](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。)
+有关在工作负载均衡器中查看信息的信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) （或者，如果您使用的是Adobe Workfront Classic，请参阅[在工作负载均衡器中导航](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。）
 
 **在以下环境中可用：**
 
@@ -76,7 +82,7 @@ ht-degree: 0%
 
 在此更改之前，此设置仅更新均衡器的已分配工作区域中的信息。
 
-有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[导航工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。)
+有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（或者，如果您使用的是Adobe Workfront Classic，请参阅[导航工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。）
 
 **在以下环境中可用：**
 
@@ -90,7 +96,7 @@ ht-degree: 0%
 * 按项目分组
 * 显示任务和项目的已分配小时数或剩余小时数。
 
-有关在工作负载均衡器中查看信息的信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅[在工作负载均衡器中导航](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。)
+有关在工作负载均衡器中查看信息的信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) （或者，如果您使用的是Adobe Workfront Classic，请参阅[在工作负载均衡器中导航](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。）
 
 **在以下环境中可用：**
 
@@ -101,7 +107,7 @@ ht-degree: 0%
 
 您现在可以与管理人员共享人员的工作量，以便他们能够了解您的人员配备需求。 为此，您现在可以通过与他人共享工作负载均衡器的唯一URL来共享工作负载均衡器。
 
-有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[导航工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（或者，如果您使用的是Adobe Workfront Classic，请参阅[导航工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
 **在以下环境中可用：**
 
@@ -114,7 +120,7 @@ ht-degree: 0%
 
 在此增强功能之前，工作负载均衡器始终显示从本周开始的信息。
 
-有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[导航工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（或者，如果您使用的是Adobe Workfront Classic，请参阅[导航工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
 **在以下环境中可用：**
 
@@ -129,11 +135,11 @@ ht-degree: 0%
 
 在此更改之前，任务限制始终会尽快更改为。
 
-有关移动任务的信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[移动任务](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+有关移动任务的信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)（或者如果您使用的是Adobe Workfront Classic，请参阅[移动任务](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
-有关复制任务的信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[复制和复制任务](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+有关复制任务的信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)（或者，如果您使用的是Adobe Workfront Classic，请参阅[复制和复制任务](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
-有关所有任务限制的概述，请参阅[任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅[任务限制概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+有关所有任务限制的概述，请参阅[任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) （或者，如果您使用的是Adobe Workfront Classic，请参阅[任务限制概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
 **在以下环境中可用：**
 
@@ -161,9 +167,9 @@ ht-degree: 0%
 * 为对象（项目、任务或问题）创建一次性审批流程，并将其基于与处理该对象的组相关联的状态。 这包括与该组关联的任何自定义状态。
 * 创建一个全局审批流程，使其仅适用于该组或系统中的每个人。
 
-对于具有审批流程管理访问权限的用户，有关配置审批流程的信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[创建审批流程](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+对于具有审批流程管理访问权限的用户，有关配置审批流程的信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)（或者如果您使用的是Adobe Workfront Classic，请参阅[创建审批流程](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
-对于用户，有关将审批流程与工作项关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[将新的或现有的审批流程与工作关联](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
+对于用户，有关将审批流程与工作项关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)（或者，如果您使用的是Adobe Workfront Classic，请参阅[将新的或现有的审批流程与工作关联](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)）。
 
 **在以下环境中可用：**
 

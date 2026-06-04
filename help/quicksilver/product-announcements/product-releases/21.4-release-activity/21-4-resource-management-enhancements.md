@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/IRUIGTXNd-5lf-Du-VCO-mG80hlkG76fR-bCdpCz2DQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 368
 ht-degree: 0%
 
 ---
@@ -25,11 +31,11 @@ ht-degree: 0%
 
 在此增强功能之前，您只能通过单击任务或问题的更多菜单，然后使用分配选项来分配项目。 现在，分配给用户的计划小时数在拖动任务时实时更新。
 
-有关在工作负载均衡器中分配工作项的信息，请参阅在工作负载均衡器中分配工作的概述[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
+有关在工作负载均衡器中分配工作项的信息，请参阅在工作负载均衡器中分配工作的概述[](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 工作负载均衡器的新默认选项
 
-作为我们弃用计划并使工作负载均衡器Workfront成为主要资源分配工具的一部分，我们已使Workfront均衡器成为所有新用户的默认选项。 目前，计划是默认选项。 此更改适用于您可从其中访问计划的所有区域，包括资源区域(在新的Adobe Workfront Experience中)或人员区域(在Adobe Workfront Classic中)，以及项目和团队级别。
+作为我们弃用计划并使工作负载均衡器Workfront成为主要资源分配工具的一部分，我们已使Workfront均衡器成为所有新用户的默认选项。 目前，计划是默认选项。 此更改适用于您可从其中访问计划的所有区域，包括资源区域（在新的Adobe Workfront Experience中）或人员区域（在Adobe Workfront Classic中），以及项目和团队级别。
 
 ## 工作负载均衡器中的新过滤器体验
 

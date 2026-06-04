@@ -8,10 +8,14 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/a2Yn2ZNrG9liEAAUm7rH-occP-HpDiaqdEbAKMx8DeU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 0%
+source-wordcount: 453
+ht-degree: 3%
 
 ---
 
@@ -33,7 +37,7 @@ ht-degree: 0%
 
 有关校对决定的详细信息，请参阅[文档区域](../../../documents/managing-documents/documents-area.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理验证和版本中。
+此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理验证和版本中。
 
 ## 验证审批报告的新字段
 

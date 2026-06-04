@@ -7,12 +7,17 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/jklN-Kfhi1HPkmFXKn-cu8ro6awWpv2v5NUsR9cLXF4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 4%
+source-wordcount: 482
+ht-degree: 5%
 
 ---
 
@@ -20,8 +25,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。<br>
->如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>画布功能板目前仅适用于参与Beta测试阶段的用户。在此阶段，部分功能可能无法完成或无法按预期工作。请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。<br>
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
 >请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
@@ -82,7 +87,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >接受测试版条款后，将为Workfront环境中的所有用户启用“画布功能板”功能。 任何对功能板具有“查看和管理”权限的用户都可以按照其访问级别查看和编辑画布功能板。<br>
+   >接受测试版条款后，将为Workfront环境中的所有用户启用“画布功能板”功能。任何对功能板具有“查看和管理”权限的用户都可以按照其访问级别查看和编辑画布功能板。<br>
    >请注意，画布功能板登陆页面的可见性通过用户分配的布局模板进行控制。 有关详细信息，请参阅[创建和管理布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
 
