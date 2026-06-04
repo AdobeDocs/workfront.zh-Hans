@@ -7,11 +7,19 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
 TQID: https://experienceleague.adobe.com/3bl3dFd6ejNq5r-y7tV9ynFkxQ-xvtPoGWJ-DTtKOn0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 972
@@ -92,24 +100,24 @@ ht-degree: 12%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
-     <td>[！UICONTROL日期] </td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td>[!UICONTROL 日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市场结束日期]</td> 
-     <td>[！UICONTROL日期]</td> 
+     <td role="rowheader">[!UICONTROL 市场结束日期]</td> 
+     <td>[!UICONTROL 日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL营销活动概述]</td> 
-     <td>[！UICONTROL段落文本字段]</td> 
+     <td role="rowheader">[!UICONTROL 营销活动概述]</td> 
+     <td>[!UICONTROL 段落文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL Key Message]</td> 
-     <td>[！UICONTROL段落文本字段]</td> 
+     <td role="rowheader">[!UICONTROL Key Message]</td> 
+     <td>[!UICONTROL 段落文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目标受众]</td> 
-     <td> <p>[！UICONTROL下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
+     <td role="rowheader">[!UICONTROL 目标受众]</td> 
+     <td> <p>[!UICONTROL 下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -206,27 +214,27 @@ ht-degree: 12%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户和所选工作区的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
+      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
       <td>您的[!DNL Anaplan]帐户和所选工作区和模型的列表名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL文件名：项目更新导入]</td> 
+      <td role="rowheader">[!UICONTROL 文件名：项目更新导入]</td> 
       <td>将接收项目更新数据的文件的名称。<p>（示例：WorkfrontUpdateLinkedProject.csv）</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL进程名称：项目更新导入]</td> 
+      <td role="rowheader">[!UICONTROL 进程名称：项目更新导入]</td> 
       <td> <p>执行项目数据导入的进程的名称。</p> <p>（示例： WF Int — 更新促销活动详细信息）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Workfront]子域]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Workfront]子域]</td> 
       <td>[!DNL Workfront]帐户的子域。 这用于在可能生成的注释中创建指向[!DNL Workfront]项目的链接。</td> 
      </tr> 
     </tbody> 

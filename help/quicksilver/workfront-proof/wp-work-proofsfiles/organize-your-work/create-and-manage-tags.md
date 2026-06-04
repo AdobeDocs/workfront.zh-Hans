@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
 TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 915
@@ -37,7 +39,7 @@ ht-degree: 0%
 * 经理只能为其项目创建和编辑标记。
 * 观察者可以应用或编辑项目上的标记，但他们可以查看其他用户应用至项目的标记，并且可以在“个人”设置中查看“标记”选项卡。
 
-有关这些配置文件和权限的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+有关这些配置文件和权限的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 ## 创建、编辑或删除帐户中的标记
 

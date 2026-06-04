@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -200,4 +202,4 @@ ht-degree: 0%
 1. 执行下列操作之一：
 
    * 要移动一个项目，请单击并按住它，将其拖放到要放置它的文件夹中。
-   * 若要同时移动多个项目，可以选中项目左侧的复选框，然后单击列表上方的**[!UICONTROL 移至]**，然后选择要放置这些项目的文件夹，或为其创建新文件夹。
+   * 若要同时移动多个项目，可以选中项目左侧的复选框，然后单击列表上方的&#x200B;**[!UICONTROL 移至]**，然后选择要放置这些项目的文件夹，或为其创建新文件夹。

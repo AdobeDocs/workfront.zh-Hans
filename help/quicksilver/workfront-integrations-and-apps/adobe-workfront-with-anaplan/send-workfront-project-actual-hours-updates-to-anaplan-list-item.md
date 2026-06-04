@@ -7,10 +7,17 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
 TQID: https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 784
@@ -140,27 +147,27 @@ ht-degree: 15%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户和所选工作区的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
+      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
       <td>您的[!DNL Anaplan]帐户和所选工作区和模型的列表名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL文件名：实际小时数导入]</td> 
+      <td role="rowheader">[!UICONTROL 文件名：实际小时数导入]</td> 
       <td> <p>将接收项目实际小时数数据的文件的名称。</p> <p> （示例：WorkfrontUpdateLinkedProjects_HoursRoles.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL进程名称：实际小时数导入]</td> 
+      <td role="rowheader">[!UICONTROL 进程名称：实际小时数导入]</td> 
       <td> <p>将执行项目小时数据导入的进程的名称。</p> <p>（示例： WF Int — 按角色加载项目小时数）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Workfront]子域]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Workfront]子域]</td> 
       <td>[!DNL Workfront]帐户的子域。 这用于在可能生成的注释中创建指向[!DNL Workfront]项目的链接。</td> 
      </tr> 
     </tbody> 

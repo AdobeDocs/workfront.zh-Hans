@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 348
@@ -70,7 +74,7 @@ ht-degree: 2%
 如果您拥有附属帐户，则需要分别为每个帐户更新信用卡详细信息和支付方式。 有关附属帐户的详细信息，请参阅[附属帐户。](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. 转到中心帐户中的[!UICONTROL 帐单]页面。\
-   有关计费页面的详细信息，请参阅[校对计费页面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   有关计费页面的详细信息，请参阅[校对计费页面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 1. 打开[!UICONTROL 帐户列表]下拉菜单。 (1)
 1. 选择与要更新的信用卡关联的附属帐户(2)。

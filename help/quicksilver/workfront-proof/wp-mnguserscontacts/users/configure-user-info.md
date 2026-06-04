@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
 TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 533
@@ -61,8 +65,8 @@ ht-degree: 0%
 
       * **订阅。 人们可以通过公共URL或嵌入代码注册验证：**&#x200B;允许组织外部的审阅者通过公共URL或嵌入代码注册验证。
 
-        选择此选项时，**订阅者必须单击电子邮件中的链接才能访问校对**也可用。选择此选项可要求外部查看者单击电子邮件中的链接以访问验证。
-如果选择**公共共享**&#x200B;选项，则默认启用此选项。
+        选择此选项时，**订阅者必须单击电子邮件中的链接才能访问校对**&#x200B;也可用。选择此选项可要求外部查看者单击电子邮件中的链接以访问验证。
+如果选择&#x200B;**公共共享**&#x200B;选项，则默认启用此选项。
 
       * **新来宾审阅人的默认角色：**&#x200B;为来宾审阅人选择默认验证角色。 选项与&#x200B;**默认验证角色**&#x200B;中的选项相同，但审查方和作者除外。
 

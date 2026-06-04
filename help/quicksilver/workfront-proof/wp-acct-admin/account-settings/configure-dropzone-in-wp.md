@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c5c0c7ac-f829-401d-a27c-9581856a7cec
 TQID: https://experienceleague.adobe.com/IDL8PSxlmHC9hsENUlrbfRQK-9qhpvHYmsvKDMepVvw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 497
@@ -39,7 +44,7 @@ ht-degree: 0%
      >
      >不再支持通过电子邮件发送到dropzones。
 
-   * **[!UICONTROL 拖放区域所有者]**：设置或编辑拖放区域所有者。 这是将在向Dropzone提交新内容时收到通知的人员。 要设置为拖放区域所有者，用户必须是主管、管理员、账单管理员或帐户创建者。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+   * **[!UICONTROL 拖放区域所有者]**：设置或编辑拖放区域所有者。 这是将在向Dropzone提交新内容时收到通知的人员。 要设置为拖放区域所有者，用户必须是主管、管理员、账单管理员或帐户创建者。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
    * **[!UICONTROL 创建者的默认角色]**：所有提交者都将作为默认角色添加到验证。
    * **[!UICONTROL 所有创建者的电子邮件通知]**：在此处为验证创建者（提交者）设置电子邮件警报首选项。 有关可用的不同警报设置的信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。

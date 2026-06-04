@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
 TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 402
@@ -34,7 +36,7 @@ ht-degree: 0%
 1. 在列表或缩略图列表布局中，单击列出校对的行末尾的&#x200B;**[!UICONTROL 更多]**&#x200B;按钮。
 1. ![More_button_small.png](assets/more-button-small.png)
 
-1. 如果需要有关这些布局的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中“视图”选项卡上的[页面布局。
+1. 如果需要有关这些布局的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中“视图”选项卡上的页面布局。
 1. 在出现的菜单中单击&#x200B;**[!UICONTROL 下载原始文件]**。\
    您还可以在列表中选择校对，单击列表上方的&#x200B;**[!UICONTROL 更多]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 下载]**。\
    您还可以下载文件：

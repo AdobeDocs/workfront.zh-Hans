@@ -8,10 +8,16 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
 TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 769
@@ -53,7 +59,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 帐户设置]**，然后打开&#x200B;**[!UICONTROL 单点登录]**&#x200B;选项卡。
 
-1. 在&#x200B;**SSO URL**框中，粘贴您的实体ID。
+1. 在&#x200B;**SSO URL**&#x200B;框中，粘贴您的实体ID。
 以下是实体ID的一个示例：
 http://*&lt;adfs.your-company.com>*/adfs/services/trust
 可以在联合元数据XML文件中找到您的实体ID。
@@ -66,7 +72,7 @@ http://*&lt;adfs.your-company.com>*/adfs/services/trust
 1. 此链接可以位于联合元数据XML文件中。
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. 在&#x200B;**[!UICONTROL 注销URL]**框中，输入链接并保存。
+1. 在&#x200B;**[!UICONTROL 注销URL]**&#x200B;框中，输入链接并保存。
 以下是注销URL的示例：
 https://*&lt;adfs.your-company.com>*/adfs/ls/？wa=wsignout1.0
 

@@ -9,9 +9,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 931
@@ -80,5 +83,5 @@ ht-degree: 0%
 
 * 您可以使用[!UICONTROL 拖放区域]设置来管理自由翻译员对校样的访问权限。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中配置拖放区域。
 * 您还可以管理他们在验证中获得的角色，如[!UICONTROL 只读]，以及与他们有关验证的电子邮件通信。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校对角色。
-* 如果您不希望自由职业者参与审阅过程，但希望他们收到最终决策的通知，则可以将[!UICONTROL 拖放区域]设置中的默认验证角色和所有[!UICONTROL 拖放区域]提交者的电子邮件警报分别设置为[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理验证角色，以及在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。 [有关详细信息，请参阅[电子邮件通知，](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理验证角色，以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。
+* 如果您不希望自由职业者参与审阅过程，但希望他们收到最终决策的通知，则可以将[!UICONTROL 拖放区域]设置中的默认验证角色和所有[!UICONTROL 拖放区域]提交者的电子邮件警报分别设置为[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理验证角色，以及在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。 有关详细信息，请参阅[电子邮件通知，](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理验证角色，以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。
 * 如果您确实希望自由职业者积极参加审阅流程，则可以通过在验证详细信息页面上内联编辑这些详细信息，根据需要调整其验证角色和电子邮件警报设置。 有关该页面的详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校对详细信息

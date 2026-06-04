@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
 TQID: https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 384
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 在新计费期的第一天，您的订阅发票将发送给您帐户上的主计费联系人，以及[!UICONTROL 计费抄送]电子邮件地址（如果已定义）。
 
-该发票还显示在您[!DNL Workfront Proof]帐户的[!UICONTROL 帐单]部分，可供下载。 如需更多信息，请参阅[账单页面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+该发票还显示在您[!DNL Workfront Proof]帐户的[!UICONTROL 帐单]部分，可供下载。 如需更多信息，请参阅[账单页面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 您将在发票上找到以下信息：
 
@@ -62,7 +66,7 @@ ht-degree: 0%
 
 ## 有用链接 {#useful-links}
 
-要更改您帐户的帐单信息，请转到帐单页面的“帐单联系人和地址”部分。 查看[校对帐单页面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+要更改您帐户的帐单信息，请转到帐单页面的“帐单联系人和地址”部分。 查看[校对帐单页面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 有关如何更改您帐户上的信用卡详细信息，请参阅[在Workfront Proof中选择付款方式](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)。
 

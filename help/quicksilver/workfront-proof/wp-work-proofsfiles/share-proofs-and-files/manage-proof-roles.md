@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
 TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1317
@@ -27,11 +31,11 @@ ht-degree: 1%
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-利用验证角色，可将权限授予受用户配置文件上配置的权限配置文件限制的用户。 （有关权限配置文件的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。）
+利用验证角色，可将权限授予受用户配置文件上配置的权限配置文件限制的用户。 （有关权限配置文件的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。）
 
 验证角色与帐户配置文件不同。 您的帐户配置文件与您帐户中的整体权限级别相关，将影响您对帐户中所有校对拥有的权限，即使那些没有明确与您共享的校对也是如此。
 
-有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 ## 关于验证角色
 
@@ -218,7 +222,7 @@ ht-degree: 1%
 >
 >只有具有管理员或账单管理员配置文件的用户才能更改其帐户中其他用户的验证默认值。
 
-有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)中的[个人设置。
+有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)中的个人设置。
 
 ## 创建者和所有者
 
@@ -259,7 +263,7 @@ ht-degree: 1%
 >
 >只有来自同一帐户或合作伙伴帐户的用户才能成为验证的所有者。 仅当满足以下条件时，合作伙伴帐户中的用户才能成为验证的所有者：
 >
->* 帐户之间已设置现有关系关系。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)中的[合作伙伴帐户。
+>* 帐户之间已设置现有关系关系。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)中的合作伙伴帐户。
 >* [!UICONTROL 新验证]页面上没有自定义字段。
 >* 尚未将验证分配给文件夹。
 >* 未将任何标记应用于验证。

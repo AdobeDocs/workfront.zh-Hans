@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
 TQID: https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 549
@@ -25,9 +29,9 @@ ht-degree: 1%
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-附属帐户是您从自己的[!DNL Workfront Proof]帐户中配置并管理的付费帐户。 有关详细信息，请参阅 [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的[附属帐户。
+附属帐户是您从自己的[!DNL Workfront Proof]帐户中配置并管理的付费帐户。 有关详细信息，请参阅 [!DNL Workfront] Proof[&#128279;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的附属帐户。
 
-任何账单管理员都可以创建附属帐户。 有关计费管理员的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[[!UICONTROL 证明权限配置文件]。
+任何账单管理员都可以创建附属帐户。 有关计费管理员的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[!UICONTROL 证明权限配置文件]。
 
 >[!NOTE]
 >

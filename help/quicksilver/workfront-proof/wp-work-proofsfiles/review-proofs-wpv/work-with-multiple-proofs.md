@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
 TQID: https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 508
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 在[!DNL Workfront Proof]中，您可以使用文件夹对要一起处理的验证或希望审阅人一起处理的验证进行分组。 当您或其他查看者打开其中一个校样，启动校样查看者时，文件夹中的所有校样也在此处可用。 无需离开验证查看器，即可查看其他验证、对它们进行排序和搜索并将它们相互比较。
 
-有关文件夹的一般信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[文件夹。
+有关文件夹的一般信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的文件夹。
 
 >[!NOTE]
 >

@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
 TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 796
@@ -28,7 +31,7 @@ ht-degree: 0%
 
 ## 了解[!DNL Basecamp]与[!DNL Workfront]的集成
 
-与[!DNL Basecamp]集成允许用户在[!DNL Basecamp]内查看、审阅和批准所有验证。 用户可以向您的[!DNL Workfront Proof]帐户提交验证，并将其与您的[!DNL Basecamp]项目连接。 您的审阅人可以使用Basecamp邮件中嵌入的迷你校对，通过[!DNL Basecamp]在校对查看人](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)中做出校对决定[。
+与[!DNL Basecamp]集成允许用户在[!DNL Basecamp]内查看、审阅和批准所有验证。 用户可以向您的[!DNL Workfront Proof]帐户提交验证，并将其与您的[!DNL Basecamp]项目连接。 您的审阅人可以使用Basecamp邮件中嵌入的迷你校对，通过[!DNL Basecamp]在校对查看人[&#128279;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)中做出校对决定。
 
 与[!DNL Workfront Proof]集成后，[!DNL Basecamp]允许用户对验证执行以下操作：
 
@@ -60,7 +63,7 @@ ht-degree: 0%
 
 ## 正在启用[!DNL Basecamp]与[!DNL Workfront Proof]的集成
 
-作为 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件，您可以在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中为整个帐户设置Basecamp集成。
+作为 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件，您可以在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中为整个帐户设置Basecamp集成。
 
 1. 转到[帐户设置。](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)
 1. 打开&#x200B;**[!UICONTROL 集成]**&#x200B;选项卡(1)。
@@ -101,7 +104,7 @@ ht-degree: 0%
    ![Basecamp_Integration_-_Token1.png](assets/basecamp-integration---token1-350x334.png)
 
 1. 在[!UICONTROL 身份验证令牌]部分中，单击&#x200B;**[!UICONTROL 显示您的令牌]** (2)以显示您的个人身份验证令牌。
-1. 为信息源阅读器&#x200B;]**或**[!UICONTROL  Basecamp API ]**(3)选择**[!UICONTROL &#x200B;令牌，然后将令牌复制到剪贴板。
+1. 为信息源阅读器&#x200B;**或**&#x200B;[!UICONTROL &#x200B; Basecamp API &#x200B;]&#x200B;**(3)选择**&#x200B;令牌，然后将令牌复制到剪贴板。
 
 1. 将您的[!DNL Basecamp] API令牌粘贴到[!UICONTROL 令牌中，以供信息源阅读器使用]或[!UICONTROL Basecamp API]框。\
    ![Basecamp_Integration_-_Token2.png](assets/basecamp-integration---token2-350x178.png)

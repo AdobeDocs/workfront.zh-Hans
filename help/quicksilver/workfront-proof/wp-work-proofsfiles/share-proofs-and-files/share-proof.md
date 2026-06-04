@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
 TQID: https://experienceleague.adobe.com/wL1b-NeZg34ePbcEXn3wO3YzbdztS19SRZ7GinuuQ88
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 527
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 如果您对验证具有编辑权限，则可以轻松与其他查看者共享验证。 任何人都可以添加到验证中，因为您不需要拥有[!DNL Workfront Proof]帐户即可查看验证。
 
-有关编辑权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+有关编辑权限的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 如果通过添加审阅人共享验证：
 
@@ -60,7 +62,7 @@ ht-degree: 0%
    ![更多菜单](assets/more-button-small.png)
 
 1. 在下拉菜单中单击&#x200B;**[!UICONTROL 共享]**。
-1. 在显示的“共享此版本&#x200B;]**”页面中，通过添加审阅人的电子邮件地址来添加审阅人。**[!UICONTROL \
+1. 在显示的“共享此版本&#x200B;**”页面中，通过添加审阅人的电子邮件地址来添加审阅人。**\
    您还可以执行以下任一操作：
 
    * 单击(4)即可删除所有审阅人。

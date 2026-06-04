@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
 TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 555
@@ -71,10 +76,10 @@ ht-degree: 0%
 
 ## 筛选组
 
-1. 单击列标题最右侧的&#x200B;**[!UICONTROL 筛选器]**图标以显示列标题下面的筛选选项。
+1. 单击列标题最右侧的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标以显示列标题下面的筛选选项。
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. 从下拉菜单中选择[!UICONTROL 筛选选项]，并在每个列标题下方的筛选框中键入相应的内容，然后再次单击&#x200B;**[!UICONTROL 筛选器]**图标以应用这些选项。
+1. 从下拉菜单中选择[!UICONTROL 筛选选项]，并在每个列标题下方的筛选框中键入相应的内容，然后再次单击&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标以应用这些选项。
 或\
    选择组名称中的第一个字母。
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
@@ -106,9 +111,9 @@ ht-degree: 0%
 1. 单击左侧导航面板中的&#x200B;**[!UICONTROL 联系人]**&#x200B;以转到&#x200B;**[!UICONTROL 联系人]**&#x200B;页面。
 
 1. 选中要添加到组中的联系人姓名旁边的复选框。
-1. 单击&#x200B;**[!UICONTROL 添加到组]**按钮。
+1. 单击&#x200B;**[!UICONTROL 添加到组]**&#x200B;按钮。
    ![添加到组](assets/screenshot-2018-04-06-15-27-17.png)
-出现**[!UICONTROL 添加到组]**&#x200B;对话框。
+出现&#x200B;**[!UICONTROL 添加到组]**&#x200B;对话框。
 
 1. 在&#x200B;**[!UICONTROL 人员]**&#x200B;分区中：
 
