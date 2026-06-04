@@ -3,9 +3,14 @@ title: 适用于平板电脑的Workfront Proof移动设备应用程序
 description: 使用 [!DNL Workfront Proof] Tablet应用程序，您可以在旅途中方便地查看和批准验证。 该应用可供所有人下载，您不必是 [!DNL Workfront Proof] 用户，就可以在平板电脑或手机上查看校样。
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: 1979
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ ht-degree: 0%
    或
 
    要从电子邮件通知中打开校对，查看者可以单击通知中的&#x200B;**[!UICONTROL 转到校对]**&#x200B;链接。
-如果您拥有[!DNL Workfront Proof]帐户，则可以登录并从仪表板访问您的验证。
+如果您有[!DNL Workfront Proof]帐户，则可以登录并从仪表板访问您的验证。
 
    >[!NOTE]
    >

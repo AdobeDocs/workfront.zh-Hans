@@ -7,10 +7,19 @@ description: 进一步了解Workfront Proof中的支付。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: 348
+ht-degree: 2%
 
 ---
 
@@ -57,7 +66,7 @@ ht-degree: 0%
    如果只想更改信用卡详细信息，请只用新信用卡数据填充信用卡详细信息(4)字段，然后保存更改(5)。 您可以随时更改信用卡详细信息。 新卡用于所有订购付款，立即生效。\
    我们接受[!DNL Visa]、[!DNL American Express]和[!DNL MasterCard]。
 
-1. 单击 **[!UICONTROL Save]**。(4)\
+1. 单击 **[!UICONTROL Save]**。 (4)\
    ![Payment_and_CC_details.png](assets/payment-and-cc-details-350x217.png)
 
 ## 更改附属帐户的付款方法详细信息

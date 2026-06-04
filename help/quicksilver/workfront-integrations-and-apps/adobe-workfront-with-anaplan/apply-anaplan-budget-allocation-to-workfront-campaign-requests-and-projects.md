@@ -6,9 +6,21 @@ description: 此集成方案将已在 [!DNL Anaplan] 内进行的预算分配同
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/iN2SzXUL8Qa5J-TeFMtJeHFJeS3774TkD2xqtaA-DHE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: 740
 ht-degree: 16%
 
 ---
@@ -19,7 +31,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->本文中的“营销活动”是指此方案所代表的营销活动用例，并且绝不会连接到[!DNL Workfront Fusion] Adobe Campaign连接器或[!UICONTROL 中最近弃用的]营销活动[!DNL Workfront]对象。
+>本文中的“营销活动”是指此方案所代表的营销活动用例，并且绝不会连接到[!DNL Workfront Fusion] Adobe Campaign连接器或[!DNL Workfront]中最近弃用的[!UICONTROL 营销活动]对象。
 
 
 ## 访问权限要求
@@ -117,7 +129,7 @@ ht-degree: 16%
 
 完成以下步骤可将此集成方案部署到您的Fusion帐户。 此操作只应在完成所需的[!DNL Workfront]和[!DNL Anaplan]配置之后完成。
 
-1. 导航到[!UICONTROL 中的]模板[!DNL Workfront Fusion]菜单，然后单击&#x200B;**[!UICONTROL 将[!DNL Anaplan]预算分配应用于Workfront活动请求和项目]**&#x200B;方案模板。
+1. 导航到[!DNL Workfront Fusion]中的[!UICONTROL 模板]菜单，然后单击&#x200B;**[!UICONTROL 将[!DNL Anaplan]预算分配应用于Workfront活动请求和项目]**&#x200B;方案模板。
 1. 替换以下[!DNL Anaplan]个变量的变量值：
 
    <table style="table-layout:auto"> 
@@ -168,12 +180,12 @@ ht-degree: 16%
 
 要完成此模板表示的工作流，您还必须部署以下附加模板：
 
-* [[!UICONTROL 根据 [!DNL Anaplan] 营销活动请求创建 [!DNL Adobe Workfront] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL 根据 [!DNL Adobe Workfront] 营销活动请求创建 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 
 支出优化的其他方案包括：
 
 * [[!UICONTROL 将 [!DNL Adobe Workfront] 项目更新发送到 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL 向 [!DNL Adobe Workfront] 列表项 [!DNL Anaplan] 发送]实际小时更新](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL 向 [!DNL Anaplan] 列表项]发送 [!DNL Adobe Workfront] 实际小时更新](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 * [[!UICONTROL 将 [!DNL Adobe Workfront] 费用发送到 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

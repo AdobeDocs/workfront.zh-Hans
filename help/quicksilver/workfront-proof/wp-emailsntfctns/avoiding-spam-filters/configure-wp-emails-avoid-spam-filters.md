@@ -3,13 +3,22 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: 配置 [!DNL Workfront Proof] 电子邮件以避免垃圾邮件过滤器
-description: “您的电子邮件客户端的垃圾邮件过滤器有一个重要用途：保护您免受恼人的和可能的恶意垃圾邮件电子邮件的侵扰。 但是，如果垃圾邮件过滤器中的设置不正确，则可能会阻止您看到以下重要的 [!DNL Workfront Proof] 电子邮件：验证电子邮件通知、新闻通讯和特殊通信。”
+description: 您的电子邮件客户端的垃圾邮件过滤器有一个重要用途：保护您免受恼人的和可能的恶意垃圾邮件电子邮件的侵扰。 但是，如果垃圾邮件过滤器中的设置不正确，则可能会阻止您看到以下重要的 [!DNL Workfront Proof] 电子邮件：验证电子邮件通知、新闻通讯和特殊通信。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -22,10 +31,10 @@ ht-degree: 0%
 
 您的电子邮件客户端的垃圾邮件过滤器有一个重要用途：保护您免受恼人的和可能的恶意垃圾邮件电子邮件的侵扰。 但是，如果垃圾邮件过滤器中的设置不正确，则可能会阻止您看到以下重要的[!DNL Workfront Proof]电子邮件：验证电子邮件通知、新闻通讯和特殊通信。
 
-列入允许列表为了确保您的[!DNL Workfront Proof]电子邮件始终被发送到您的收件箱而不是垃圾邮件文件夹，您应该将以下内容添加到中：
+为了确保您的[!DNL Workfront Proof]电子邮件始终被发送到您的收件箱而不是垃圾邮件文件夹，您应该将以下内容添加到中：
 
 * [!DNL Workfront Proof]邮件服务器： **[!DNL mx.proofhq.com]**
-* [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;电子邮件地址(例如，notification@proofhq.com)
+* [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;电子邮件地址（例如，notification@proofhq.com）
 
 有关要添加到允许列表的URL的详细信息，请参阅[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)一文中的[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 

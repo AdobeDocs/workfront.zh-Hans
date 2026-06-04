@@ -1,19 +1,32 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 提交来自 [!DNL Adobe Workfront] 团队的 [!DNL Microsoft] 请求
+title: 提交来自 [!DNL Microsoft] 团队的 [!DNL Adobe Workfront] 请求
 description: 在团队所有者安装适用于Microsoft Teams的Adobe Workfront后，您可以从Microsoft Teams帐户提交Workfront请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装适用于Microsoft Teams的Workfront的信息，请参阅安装适用于Microsoft Teams的Workfront 。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/SAhx7otUvjrhEkQnMr87CF0gZFL3Fpvy8bXcnTf1-E8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: 607
+ht-degree: 3%
 
 ---
 
-# 提交来自[!DNL Adobe Workfront]团队的[!DNL Microsoft]请求
+# 提交来自[!DNL Microsoft]团队的[!DNL Adobe Workfront]请求
 
 >[!IMPORTANT]
 >
@@ -21,7 +34,7 @@ ht-degree: 1%
 >
 >更新的Workfront集成现已可用，并与新团队体验完全兼容。 在大多数情况下，用户完成过渡后，Workfront会自动显示。 如果不包含，则可以从Microsoft Teams App Store手动安装集成。 若要在New Teams客户端中安装或验证Workfront集成，请参阅[安装 [!DNL Adobe Workfront] Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-在团队所有者安装[!DNL Adobe Workfront for Microsoft Teams]后，您可以从您的[!DNL Workfront]帐户提交[!DNL Microsoft Teams]请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装[!DNL Workfront for Microsoft Teams]的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+在团队所有者安装[!DNL Adobe Workfront for Microsoft Teams]后，您可以从您的[!DNL Microsoft Teams]帐户提交[!DNL Workfront]请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装[!DNL Workfront for Microsoft Teams]的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 >[!NOTE]
 >
@@ -30,17 +43,17 @@ ht-degree: 1%
 
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -56,11 +69,11 @@ ht-degree: 1%
 
 ## 先决条件
 
-您的[!DNL Microsoft Teams]团队所有者必须先为[!DNL Workfront]安装[!DNL Microsoft Teams]，然后才能使用它。
+您的[!DNL Microsoft Teams]团队所有者必须先为[!DNL Microsoft Teams]安装[!DNL Workfront]，然后才能使用它。
 
-## 提交来自[!DNL Workfront]的[!DNL Microsoft Teams]请求
+## 提交来自[!DNL Microsoft Teams]的[!DNL Workfront]请求
 
-1. 单击&#x200B;**[!UICONTROL 左侧导航栏上的]**&#x200B;更多添加的应用[!DNL Microsoft Teams] （三个点）图标。
+1. 单击[!DNL Microsoft Teams]左侧导航栏上的&#x200B;**[!UICONTROL 更多添加的应用]** （三个点）图标。
 
 1. 在显示的列表中单击&#x200B;**[!DNL Workfront]**。
 1. 单击&#x200B;**[!UICONTROL 请求]**&#x200B;选项卡。
@@ -96,9 +109,9 @@ ht-degree: 1%
 
    该请求显示在指定请求队列的[!DNL Workfront]中。 您将收到一条确认消息，确认请求已成功提交。
 
-## 查看您在[!DNL Workfront]中提交的[!DNL Microsoft Teams]请求
+## 查看您在[!DNL Microsoft Teams]中提交的[!DNL Workfront]请求
 
-1. 单击&#x200B;**[!UICONTROL 左侧导航栏上的]**&#x200B;更多添加的应用[!DNL Microsoft Teams] （三个点）图标。
+1. 单击[!DNL Microsoft Teams]左侧导航栏上的&#x200B;**[!UICONTROL 更多添加的应用]** （三个点）图标。
 
 1. 在显示的列表中单击&#x200B;**[!DNL Workfront]**。
 1. 单击&#x200B;**[!UICONTROL 请求]**&#x200B;选项卡。

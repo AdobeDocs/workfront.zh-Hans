@@ -7,10 +7,19 @@ description: 作为 [!DNL Workfront Proof] 管理员，您可以对 [!DNL Workfr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+TQID: https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 0%
+source-wordcount: 576
+ht-degree: 2%
 
 ---
 
@@ -46,7 +55,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果您通过主[!DNL Workfront]校对登录URL访问，则品牌推广图像不会显示在您的登录页面上。 例如，`https://www.proofhq.com/login`。 它仅在您通过自定义子域或全品牌域访问登录页面时显示。 要访问您的自定义登录页面，只需在浏览器中键入您的帐户URL即可。 例如，`http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
+   >如果您通过主[!DNL Workfront]校对登录URL访问，则品牌推广图像不会显示在您的登录页面上。 例如：`https://www.proofhq.com/login`。 它仅在您通过自定义子域或全品牌域访问登录页面时显示。 要访问您的自定义登录页面，只需在浏览器中键入您的帐户URL即可。 例如，`http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
 
    ![Branding_-_Login_page.png](assets/branding---login-page-350x198.png)
 
@@ -67,7 +76,7 @@ ht-degree: 0%
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 品牌推广图像]**。
 如果选择&#x200B;**[!UICONTROL 禁用]**，则验证加载页面上会显示[!DNL Workfront Proof]徽标
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。 (3)
+1. 单击 **[!UICONTROL Save]**。 (3)
 
    ![Proof_loading_page_setup_2.png](assets/proof-loading-page-setup-2-350x164.png)
 

@@ -7,9 +7,20 @@ description: 如果您是AD服务器上的管理员，则可以安装和配置AD
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
+TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -37,8 +48,8 @@ ht-degree: 0%
 
 1. 要获得高可用性和负载平衡，请单击新建联合服务器场。
 1. 指定联合身份验证服务名称。
-默认情况下，配置向导会检索绑定到IIS中的默认网站的SSL证书，并将使用其中指定的使用者名称。 如果使用通配符证书，则需要输入联合身份验证服务名称。
-如果未在IIS中配置SSL证书，则配置向导将在本地计算机证书存储中搜索任何有效证书。 这些参数将显示在SSL证书下拉列表中。 如果没有找到证书，则可以使用IIS中的服务器证书生成器创建证书。
+默认情况下，配置向导会检索绑定到IIS中的默认网站的SSL证书，并将使用其中指定的使用者名称。如果使用通配符证书，则需要输入联合身份验证服务名称。
+如果未在IIS中配置SSL证书，则配置向导将在本地计算机证书存储中搜索任何有效证书。这些参数将显示在SSL证书下拉列表中。如果没有找到证书，则可以使用IIS中的服务器证书生成器创建证书。
 
 1. 继续配置，完成后单击&#x200B;**[!UICONTROL 关闭]**。
 
@@ -57,7 +68,7 @@ http://*&lt;adfs.your-company.com>*/adfs/services/trust
 1. 联合元数据位于AD FS 2.0管理单元>服务>端点文件夹中。 在元数据部分中，找到具有联合元数据类型的元数据。 要查看元数据，请将此端点粘贴到浏览器中。 将{adfs.your-company.com}替换为您自己的详细信息后，您还可以直接转到此链接： https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml。
 1. 在&#x200B;**[!UICONTROL 登录URL]**&#x200B;框中，粘贴您的SSO登录。
 1. 以下是SSO登录的示例：
-1. http://*&lt;adfs.your-company.com>*/adfs/ls。
+1. http://*<adfs.your-company.com>*/adfs/ls。
 1. 此链接可以位于联合元数据XML文件中。
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
@@ -70,7 +81,7 @@ https://*&lt;adfs.your-company.com>*/adfs/ls/？wa=wsignout1.0
 
       * 端点类型= SAML注销
       * 绑定= POST
-      * URL = https://*&lt;adfs.your-company.com*>/adfs/ls/？wa=wsignout1.0
+      * URL = https://*&lt;adfs.your-company.com*/adfs/ls/？wa=wsignout1.0
       * 在AD FS中配置信赖方信任（见下文）后，可以完成此步骤。
    1. 在&#x200B;**[!UICONTROL 证书指纹]**&#x200B;框中，输入证书中的数据。
    1. 转到ADFS 2.0管理单元，然后导航到“服务”>“证书”>“令牌签名”。
@@ -94,7 +105,7 @@ https://`<yoursubdomain*>`.proofhq.com/saml/module.php/saml/sp/metadata.php/phq
    >[!NOTE]
    >
    >* 如果从URL建立连接时遇到问题，请将元数据另存为文件，然后选择从文件导入数据。
-   >* 当您在[!DNL ProofHQ]帐户上配置了完整的自定义域(例如www.your-proofing.com)时，请将整个“{yoursubdomain}.proofhq.com”部分替换为您自己的域，以创建您的[!DNL ProofHQ]元数据链接。
+   >* 当您在[!DNL ProofHQ]帐户上配置了完整的自定义域（例如www.your-proofing.com）时，请将整个“{yoursubdomain}.proofhq.com”部分替换为您自己的域，以创建您的[!DNL ProofHQ]元数据链接。
 
 
 ## 配置声明规则
