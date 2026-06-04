@@ -7,10 +7,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 0%
+source-wordcount: 1178
+ht-degree: 1%
 
 ---
 
@@ -41,7 +45,7 @@ ht-degree: 0%
 
 在此更改之前，您只能在任务列表或任务级别更改任务日期。
 
-有关详细信息，请参阅任务列表甘特图[&#128279;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的更新信息。
+有关详细信息，请参阅任务列表甘特图](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的[更新信息。
 
 ## 从更新选项卡访问项目甘特图 {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -55,7 +59,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[提交日期概述](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-有关详细信息，请参阅[Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+有关详细信息，请参阅[Portfolio优化器概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 重新引入到“文档列表”中文档的各种链接 {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -74,7 +78,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅以下部分：
 
-*  在 
+*  in 
 
 ## 资源规划者中的用户视图改进 {#user-view-improvements-in-the-resource-planner}
 
@@ -118,10 +122,10 @@ ht-degree: 0%
 
 在指定的项目列表中已暂时禁用以下功能：
 
-* 调整列大小(此功能在2018.2 Beta 5版本中重新引入)
+* 调整列大小（此功能在2018.2 Beta 5版本中重新引入）
 * 列重新排序
-* 状态图标字段显示为空白(2018.2 Beta 5版本中重新引入了此功能)
-* 甘特图无法访问(此功能在2018.2 Beta 3版本中重新引入。)
+* 状态图标字段显示为空白（2018.2 Beta 5版本中重新引入了此功能）
+* 甘特图无法访问（此功能在2018.2 Beta 3版本中重新引入。）
 
 有关在列表中工作的更多信息，请参阅[Adobe Workfront中的列表入门](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 

@@ -5,11 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/XVRj4vYOa22-esYhVwkqD0pZTXRDHm8DaQpCNuulFkU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 189
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第一季度发布中对“预览”环境所做的所有展示板增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 更改讨论区的所有者
 

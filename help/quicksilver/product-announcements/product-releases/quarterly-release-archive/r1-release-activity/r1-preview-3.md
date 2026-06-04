@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/--RlYylhPcyb6lNrf8RuuC-87lrw88NlAms6EfmGRWo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: 1353
 ht-degree: 2%
 
 ---
@@ -22,13 +28,13 @@ ht-degree: 2%
 
 ## 链接外部文件的改进方法
 
-现在，链接来自外部源的文档(如Google Drive、Box、Dropbox等)的选项位于“文档”区域中更显眼的位置。 
+现在，链接来自外部源的文档（如Google Drive、Box、Dropbox等）的选项位于“文档”区域中更显眼的位置。 
 
 此外，在首次链接来自文档提供程序的文件之前对该提供程序进行授权的操作现在更直观了（这只是从外部提供程序链接文件时的额外步骤）。
 
 在这些更改之前，从外部源链接文件的选项位于“文档”区域的“添加文档”对话框中。 在首次从外部源链接文档之前，链接文档的用户必须在“设置”区域中授权该文档提供商。
 
-有关更多信息，请参阅  [链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
+有关详细信息，请参阅[链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 已更新团队正在处理日历
 
@@ -116,7 +122,7 @@ ht-degree: 2%
 * 性能规划者
 * 资源网格
 * 团队创建者
-* Portfolio优化器 
+* Portfolio Optimizer 
 * 移动应用程序
 * Outlook加载项
 
@@ -129,7 +135,7 @@ ht-degree: 2%
 * 审批路径开始日期
 * 审批路径完成日期
 
-利用这些字段，可深入了解当前或最近审批路径的启动时间和标记为完成时间。
+这些字段允许您在当前或最近审批路径启动且标记为完成时，将insight加入到。
 
 有关这些字段的更多信息，请参阅[Adobe Workfront术语表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
@@ -138,8 +144,8 @@ ht-degree: 2%
 以下字段已从Workfront中删除，无法再包含在报表中（这些字段提供了有关项目的信息，而不是有关审批本身的信息，并且经常被滥用）：
 
 * 计划审批开始日期
-* 审批预计开始日期
-* 审批估计开始日期
+* 预计审批开始日期
+* 估计审批开始日期
 
 ## “我已做的请求”的新电子邮件摘要选项
 

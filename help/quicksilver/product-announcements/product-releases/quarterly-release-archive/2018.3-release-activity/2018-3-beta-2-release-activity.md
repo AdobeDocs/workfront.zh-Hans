@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/2VzVuejEi80fNoxQ2KRGdLbDbiIX-7z4b5P33o-3N8s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: 913
 ht-degree: 0%
 
 ---
@@ -22,15 +28,15 @@ ht-degree: 0%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
+有关2018.3中所做所有更改的列表，请参阅[2018.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [以组管理员身份更新用户配置文件中的电子邮件地址](#update-the-email-address-in-the-user-profile-as-a-group-administrator)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [在主页区域查看委托给我的审批](#view-approvals-delegated-to-me-in-the-home-area)
 * [导出资源规划者中给定期间的数据](#export-data-for-a-given-period-in-the-resource-planner)
@@ -81,7 +87,7 @@ ht-degree: 0%
 
 以前，在最大限度地减少任务和问题时，任务和问题将保留在用户和角色的时间表上，但将以压缩视图显示。
 
-有关在计划时间表中最大程度地减少任务和问题的更多信息，请参阅  “开始使用资源计划”。
+有关在计划时间表中最大程度地减少任务和问题的更多信息，请参阅“开始使用资源计划”。
 
 ## 在验证查看器中按用户过滤注释和回复 {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 
@@ -103,7 +109,7 @@ ht-degree: 0%
 
 ## 为报表、日历和文档共享删除Flash {#flash-removal-for-report-calendar-and-document-sharing}
 
-我们已从Workfront中的以下“共享”对话框删除Flash：
+我们已从Workfront中的以下“共享”对话框中删除了Flash：
 
 * 报告
 * 日程表

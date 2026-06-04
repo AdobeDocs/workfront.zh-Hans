@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 76292f90-af1a-4740-9b8e-b02a6303625c
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-4bsOXpJd8x1IKN-bqcvRqHDDiD5JawSrXgyRYmVYqA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 741
 ht-degree: 1%
 
 ---
@@ -78,7 +84,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->通过Workfront API创建这些对象时，“isActive”参数的默认值为true。 这是所有对象的新字段，在API版本11之前不可编辑。 以前对于Portfolio已存在此字段，只是默认值为false；从API版本11开始，此字段将更改为默认值true 。
+>通过Workfront API创建这些对象时，“isActive”参数的默认值为true。 这是所有对象的新字段，在API版本11之前不可编辑。 此字段以前在Portfolio中已存在，只是默认值为false；从API版本11开始，此字段将更改为默认值true 。
 
 ## 在视图中显示计划工作成本(BCWS)和已执行工作成本(BCWP)
 

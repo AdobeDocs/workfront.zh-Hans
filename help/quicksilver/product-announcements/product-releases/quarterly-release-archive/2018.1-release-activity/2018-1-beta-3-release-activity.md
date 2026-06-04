@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1857
 ht-degree: 0%
 
 ---
@@ -22,15 +28,15 @@ ht-degree: 0%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.1版中所做所有更改的列表，请参阅  [2018.1版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
+有关2018.1版中所做所有更改的列表，请参阅[2018.1版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 3版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [组管理员改进](#group-administrator-improvements)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [HTML5验证查看器改进](#html5-proofing-viewer-improvements)
 * Workfront中的[验证改进](#proofing-improvements-within-workfront)
@@ -156,7 +162,7 @@ HTML5验证查看器中的比较模式与旧版验证查看器在以下方面不
 
 除了标准审批之外，您现在还可以在主页区域查看验证审批。
 
-以前，您可以查看Workfront审批，但无法查看验证的审批。 
+以前，您可以查看Workfront审批，但无法查看验证的审批。  
 
 有关详细信息，请参阅[使用主页区域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
@@ -188,7 +194,7 @@ HTML5验证查看器中的比较模式与旧版验证查看器在以下方面不
 
 在此更改之前，只能将任务添加到积压。 如果要添加问题，必须先将问题转化为任务，然后才能添加问题。
 
-有关在积压中使用问题的信息，请参阅  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+有关在积压工作中使用问题的信息，请参阅[管理Agile积压工作](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ### 将分组和筛选器应用于Agile团队的积压 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -196,7 +202,7 @@ HTML5验证查看器中的比较模式与旧版验证查看器在以下方面不
 
 在此更改之前，您可以将视图应用于Agile积压。
 
-有关更多信息，请参阅  [管理Agile积压工作](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)，位于  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+有关详细信息，请参阅[管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)中的[管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ### 创建空白迭代并稍后更新 {#create-a-blank-iteration-and-update-it-later}
 

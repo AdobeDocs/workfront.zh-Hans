@@ -6,9 +6,14 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 773
 ht-degree: 0%
 
 ---
@@ -21,11 +26,11 @@ ht-degree: 0%
 
 ## 在Adobe Workfront中添加Illustrator以用于设计和视频插件
 
-我们很高兴地宣布我们扩展Adobe Workfront以将InDesign插件包括Adobe Illustrator。
+我们很高兴地宣布在InDesign的Adobe Workfront插件中扩展Adobe Illustrator。
 
 更新的插件“Adobe Workfront for design and video”现在将支持InDesign、Illustrator、Premiere Pro和After Effects。
 
-此插件允许您访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全天记录。
+通过此插件，您可以访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全时记录。
 
 立即在Marketplace中下载[Adobe Workfront的设计和视频](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video)。
 
@@ -59,30 +64,30 @@ ht-degree: 0%
 
 ## Adobe Workfront设计和视频简介
 
-我们很高兴地宣布，我们将Adobe Workfront的InDesign插件扩展到包括Adobe Premiere Pro和After Effects。 该插件将重命名为Adobe Workfront以用于设计和视频。
+我们很高兴地宣布我们为InDesign扩展Adobe Workfront插件，以包含Adobe Premiere Pro和After Effects。 该插件将重命名为Adobe Workfront以用于设计和视频。
 
-更新的插件“Adobe Workfront for design and video”现在将支持InDesign、Premiere Pro和After Effects，Illustrator不久之后也将提供支持。
+更新的插件“Adobe Workfront for design and video”现在将支持InDesign、Premiere Pro和After Effects，Illustrator很快也将提供支持。
 
-此插件允许您访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全天记录。
+通过此插件，您可以访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全时记录。
 
 立即在商城中下载[Adobe Workfront的设计和视频](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video)。
 
 管理员还可以从Admin Console中[使用插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)创建包，并以托管或自管理方式部署到用户。
 
-## 如何访问面向AdobeUnified Experience客户的Workfront帮助
+## 如何访问面向Adobe Unified Experience客户的Workfront帮助
 
 >[!NOTE]
 >
->此功能仅适用于已载入为Workfront提供Unified ExperienceAdobe的客户。
+>此功能仅适用于已载入适用于Workfront的Adobe Unified Experience的客户。
 
-如果您的组织已载入到Adobe Admin Console和AdobeWorkfront的Unified Experience ，则Workfront导航栏将不再包含“帮助”链接。
+如果您的组织已载入到Adobe Admin Console和Adobe Unified Experience for Workfront，则Workfront导航栏将不再包含“帮助”链接。
 
 您可以通过两种方式访问Adobe Experience League上的Workfront帮助：
 
 * Workfront导航栏左侧的主菜单在底部包含一个帮助链接
 * 顶部导航区域中的问号图标提供了帮助、支持和反馈的链接
 
-有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)或[访问Adobe Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
+有关详细信息，请参阅[Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)或[访问Adobe Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
 ## 重命名大头针以及在删除大头针时提供新体验
 

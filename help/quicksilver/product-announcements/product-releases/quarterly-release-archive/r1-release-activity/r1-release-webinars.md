@@ -7,10 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/l83QAxJpcxJjhoNruRz62063hIOKhZVSbV6w3hCPG-U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 3%
 
 ---
 
@@ -32,7 +35,7 @@ Workfront R1 2017版本网络研讨会由Workfront产品团队于3月29日介绍
 
 * [简介](#introduction)
 * [项目](#projects)
-* [用户管理](#user-management)
+* [User Management](#user-management)
 * [配置](#configuration)
 * [Mobile和Outlook](#mobile-and-outlook)
 

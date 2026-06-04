@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/N-bcrKom3F2cHe1QqC-0LFTQsnAG7fRTEqMR8z4lRvg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 本页介绍了在2023年第四季度版本中对“预览”环境所做的所有项目增强。 这些增强功能在23.10版本的生产环境中提供。
 
-有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
+有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
 
 ## 新文档审批
 

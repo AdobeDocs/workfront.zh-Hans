@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 9a705b985177489bf13181e8b36a6c52379d1251
+TQID: https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 208
 ht-degree: 0%
 
 ---
@@ -34,4 +37,4 @@ ht-degree: 0%
 
 已从项目、任务和问题的更多菜单中提取共享选项，以使共享更直观。 现在，新的共享按钮显示在对象名称旁边，紧靠更多菜单之前。 共享文档、项目组合和项目群保持不变。
 
-有关共享对象的详细信息，请参阅[共享对象](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。
+有关共享对象的详细信息，请参阅[共享对象](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。

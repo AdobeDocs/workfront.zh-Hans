@@ -5,11 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/1xzGCkOEJQ2on0MMA1tVZwbiPuli-8fR1JOKN79Pn6c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 378
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 更新如何管理链接文件夹中移动或删除的资源
 
@@ -47,7 +52,7 @@ ht-degree: 0%
 >
 >预览版本： 2024年10月31日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2025年1月16日）
 
-为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准（例如“查找本周到期的任务”）查找项目、任务和问题。
+为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。现在，AI助手可以根据您指定的标准（例如“查找本周到期的任务”）查找项目、任务和问题。
 以前，AI助手无法直接处理项目、任务和问题。
 
 您的Workfront管理员可以为您的组织启用或禁用AI助手。 AI助手适用于具有Select、Prime和Ultimate计划的实例。

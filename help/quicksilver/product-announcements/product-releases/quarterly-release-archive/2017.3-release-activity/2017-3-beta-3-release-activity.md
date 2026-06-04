@@ -7,9 +7,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc0cada8-4b9e-40cb-89a5-16f15268b513
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/12nUGoSnwlcVACSTf-b-Fks7QRuCCl9HBujkDNG5ubU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 572
 ht-degree: 6%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 6%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2017.3版中所做所有更改的列表，请参阅  [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
+有关2017.3中所做所有更改的列表，请参阅[2017.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 3版本包含面向所有用户的增强功能：
 
@@ -53,7 +58,7 @@ ht-degree: 6%
 * 清除分派
 * 清除财务信息
 * 清除进度
-* 清除批准
+* 清除审批
 * 清除自定义数据
 * 清除提醒通知
 * 清除文档
@@ -62,7 +67,7 @@ ht-degree: 6%
 * 清除权限
 * 选择全部
 
-有关复制项目的新功能的更多信息，请参阅中的“在预览环境中复制项目”部分   [复制项目](../../../../manage-work/projects/manage-projects/copy-project.md)。
+有关复制项目的新功能的更多信息，请参阅[复制项目](../../../../manage-work/projects/manage-projects/copy-project.md)中的“在预览环境中复制项目”部分。
 
 ## 资源规划者改进：筛选器 {#resource-planner-improvement-filters}
 

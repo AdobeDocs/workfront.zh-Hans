@@ -5,9 +5,15 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: 326
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 ## 显示逻辑，并跳过表单设计器测试版中显示的逻辑指示器和规则
 
-表单设计器公共测试版已于2023年7月21日在预览和生产中重新启用。 新的表单设计器具有新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。
+表单设计器公共测试版已于2023年7月21日在预览和生产中重新启用。新的表单设计器具有新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。
 此外，当在表单设计器测试版中打开自定义表单时，该表单包含在旧版表单生成器中创建的显示或跳过逻辑时，您现在可以查看逻辑：
 
 * 表单设计器画布中某个字段上的图标指示已在该字段上配置逻辑，或该字段用于在其他字段上配置的逻辑规则中。

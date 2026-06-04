@@ -5,9 +5,15 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7ed37978-b821-488e-9ca1-b81825255be3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/6-hscCn7M4UgFBhZVCsugo-ulyuFVc4nyBKKVNN3ZiM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 本页介绍了在2023年第四季度版本中对“预览”环境所做的所有管理员增强。 这些增强功能在23.10版本的生产环境中提供。
 
-有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
+有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
 
 ## 向旧版许可证模型客户提供的证明和文档决策
 

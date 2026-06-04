@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: 831
 ht-degree: 0%
 
 ---
@@ -22,15 +26,15 @@ ht-degree: 0%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2017.3版中所做所有更改的列表，请参阅  [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
+有关2017.3中所做所有更改的列表，请参阅[2017.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [通过Stage Activation (Workfront Proof)限制对工作流的访问](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * 用于更改视图的[资源规划者选项](#resource-planner-option-to-change-the-view)
 * [在项目的使用情况报告中筛选内容](#filter-content-within-a-utilization-report-on-a-project)
@@ -61,7 +65,7 @@ ht-degree: 0%
 
 现在，您可以筛选在项目的利用率报告中显示的内容。
 
-有关详细信息，请参阅[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)，位于  [资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+有关详细信息，请参阅[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 在项目的利用率报告中查看成本信息 {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 
 在此更改之前，利用率报告中仅提供小时信息。
 
-有关详细信息，请参阅[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)，位于  [资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+有关详细信息，请参阅[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 为用户订阅和取消订阅项目 {#subscribing-and-unsubscribing-users-to-items}
 
@@ -79,7 +83,7 @@ ht-degree: 0%
 
 订阅后，每当对订阅对象的更新流进行注释时，用户会收到应用程序内通知。 此外，订户可以选择接收电子邮件和移动通知。
 
-若要了解有关为用户订阅和取消订阅对象的更多信息，请参阅[订阅Adobe Workfront中的项目](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)，位置在：   [订阅Adobe Workfront中的项目](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)。
+若要了解有关为用户订阅和取消订阅对象的更多信息，请参阅[订阅Adobe Workfront中的项目](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)中的[订阅Adobe Workfront中的项目](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)。
 
 ## 在报告或视图中查看订户列表 {#viewing-the-subscriber-list-in-a-report-or-view}
 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
 “通信”电子邮件的外观和感觉已更新，为您提供了对象上通信的更多上下文。 您现在可以快速关注评论会话并查看通信中包含的人员。
 
-有关详细信息，请参阅中的[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)  [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。
+有关详细信息，请参阅[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)中的[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。
 
 ## 通过Stage Activation (Workfront Proof)限制对工作流的访问 {#restrict-access-to-workflows-by-stage-activation-workfront-proof}
 

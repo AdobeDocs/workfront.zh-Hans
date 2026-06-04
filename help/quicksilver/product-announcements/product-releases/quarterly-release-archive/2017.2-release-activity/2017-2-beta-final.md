@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: 2332
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ ht-degree: 0%
 
 管理员的&#x200B;**：**
 
-* [确定HTML5视频校对查看器(ProofHQ和Workfront)的可用性](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
+* [确定HTML5视频校对查看器（ProofHQ和Workfront）的可用性](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [支持SAML 2.0的SHA-256证书](#support-sha-256-certificates-for-saml-2-0)
 * [提前键入映射属性](#type-ahead-for-mapping-attributes)
 * [API增强：访问用户分配](#api-enhancement-access-user-allocations)
@@ -44,8 +50,8 @@ ht-degree: 0%
 * [2017.2 Beta决赛](#user-calendar-enhancements-in-the-my-work-area%22)
 * [2017.2 Beta决赛](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * 我的工作区域(Workfront)中显示[验证决定](#proof-decision-displays-in-the-my-work-area-workfront)
-* [以预设分辨率查看富媒体校样(ProofHQ和Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
-* [在富媒体校样(ProofHQ和Workfront)的评论中查看子页面的URL](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
+* [以预设分辨率查看富媒体校样（ProofHQ和Workfront）](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
+* [在富媒体校样（ProofHQ和Workfront）的评论中查看子页面的URL](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
 * [根据现有的标准视图(ProofHQ)创建自定义视图](#create-custom-views-based-on-existing-standard-views-proofhq)
 * [筛选报告区域(ProofHQ)](#filter-the-reporting-area-proofhq)
 * [在报告(ProofHQ)中显示最小值和最大值](#display-minimum-and-maximum-values-in-reports-proofhq)
@@ -133,7 +139,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中的[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。
 
-## 以预设分辨率查看富媒体校对(ProofHQ和Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
+## 以预设分辨率查看富媒体校对（ProofHQ和Workfront） {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
 在以前的“预览”环境版本中，我们引入了一项功能，即通过指定自定义分辨率或将图像拖动到所需分辨率来调整富媒体验证的分辨率。
 
@@ -141,7 +147,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[在验证查看器中更改交互式验证分辨率](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)中的“查看预设分辨率”。
 
-## 查看富媒体校样(ProofHQ和Workfront)评论中的子页面URL {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
+## 查看富媒体校样（ProofHQ和Workfront）评论中的子页面URL {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
 >[!NOTE]
 >
@@ -153,7 +159,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅
 
-## 确定HTML5视频校对查看器(ProofHQ和Workfront)的可用性 {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
+## 确定HTML5视频校对查看器（ProofHQ和Workfront）的可用性 {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
 
 作为ProofHQ中的Workfront管理员，您可以确定贵组织中的用户是否有权访问新的HTML5验证查看器以查看视频验证。
 
@@ -169,19 +175,19 @@ ht-degree: 0%
 
 ## 筛选报告区域(ProofHQ) {#filter-the-reporting-area-proofhq}
 
-默认情况下，“报告”选项卡上显示的数据包含来自ProofHQ系统的所有信息。 您现在可以使用过滤器仅显示与您的需求相关的信息。 
+默认情况下，“报告”选项卡上显示的数据包含来自ProofHQ系统的所有信息。您现在可以使用过滤器仅显示与您的需求相关的信息。 
 
-有关详细信息，请参阅[过滤报表](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)，位于  [在Workfront Proof中运行报告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)。
+有关详细信息，请参阅[在Workfront Proof中运行报告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)中的[过滤报告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)。
 
 ## 在报告中显示最小值和最大值(ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 您现在可以配置在查看报表时是否在图形中显示最小值和最大值。
 
-有关详细信息，请参阅中的[查看报表](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports)  [在Workfront Proof中运行报告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)。
+有关详细信息，请参阅[在Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)中运行报告[查看报告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports)。
 
 ## 支持SAML 2.0的SHA-256证书 {#support-sha-256-certificates-for-saml-2-0}
 
-在使用SAML 2.0为Workfront配置SSO时，我们现在支持安全哈希算法256 (SHA-256)。在此版本之前，我们仅支持安全哈希算法1 (SHA-1)。
+在使用SAML 2.0为Workfront配置SSO时，我们现在支持安全哈希算法256 (SHA-256)。 在此版本之前，我们仅支持安全哈希算法1 (SHA-1)。
 
 有关使用SAML 2.0配置Workfront的更多信息，请参阅[使用SAML 2.0配置Adobe Workfront](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 
@@ -212,7 +218,7 @@ SAML 1.1不支持属性映射。
 
 Android平台的其中一些功能将有一个公开测试版计划。
 
-有关即将推出的移动设备测试版计划的更多信息，请参阅  [“Betas”](https://support.workfront.com/hc/en-us/sections/115000743248)页。
+有关即将推出的移动设备测试版计划的更多信息，请参阅[“Betas”](https://support.workfront.com/hc/en-us/sections/115000743248)页面。
 
 有关使用Workfront移动设备应用程序的更多信息，请参阅。  
 

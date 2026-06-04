@@ -6,10 +6,16 @@ description: 您可以使用资源规划者管理资源到项目的分配。 您
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: 461
+ht-degree: 3%
 
 ---
 
@@ -21,17 +27,17 @@ ht-degree: 0%
 
 您可以使用资源规划者管理资源到项目的分配。 您可以同时访问多个项目的资源规划者，也可以从项目的业务案例区域访问一个项目的资源规划者。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td>
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td>
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 33a91c25-98ec-4f08-b444-4e11e05e464b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/TyN11XhNKT09a5sXohEankm-lv7bH0nx6Faywigqiug
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: 1451
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ ht-degree: 0%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2017.3版中所做所有更改的列表，请参阅  [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
+有关2017.3中所做所有更改的列表，请参阅[2017.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 1版本包含面向Workfront管理员和其他用户的增强功能：
 
@@ -40,7 +46,7 @@ ht-degree: 0%
 * 复制任务和问题时[清除自定义数据选项](#clear-custom-data-option-when-copying-tasks-and-issues)
 * [直接从模板创建项目](#create-a-project-directly-from-a-template)
 * 订阅对象的[应用程序内通知](#in-app-notification-for-subscribed-objects)
-* @Tagging0&rbrace;当前在预览环境中不可用[&#128279;](#tagging-currently-not-available-in-the-preview-environment)
+* @Tagging0}当前在预览环境中不可用](#tagging-currently-not-available-in-the-preview-environment)[
 * [在项目的利用率报告中包括用户分配信息](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
 ## 资源计划改进 {#resource-scheduling-improvements}

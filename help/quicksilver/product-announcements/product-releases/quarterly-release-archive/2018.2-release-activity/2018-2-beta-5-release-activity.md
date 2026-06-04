@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: 3190
 ht-degree: 1%
 
 ---
@@ -22,19 +28,19 @@ ht-degree: 1%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
+有关2018.2版中所做所有更改的列表，请参阅[2018.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 2018.2 Beta 5版本包含适用于Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [使用审核日志查看用户触发的更改](#view-user-triggered-changes-with-audit-logs)
 * [以组管理员身份查看许可证信息](#view-license-information-as-a-group-administrator)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * 主页区域中的[日历视图](#calendar-view-in-the-home-area)
-* 主页[&#128279;](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的其他更新
+* 主页](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的[其他更新
 * [为自动资源计划配置工作角色限制](#configure-job-role-limits-for-automated-resource-scheduling)
 * 资源规划者中的[项目和角色视图改进](#project-and-role-view-improvements-in-the-resource-planner)
 * [调整项目列表的列宽](#resize-column-widths-for-project-lists)
@@ -45,7 +51,7 @@ ht-degree: 1%
 * [项目和任务报告中的引用问题集合](#reference-issue-collections-in-project-and-task-reports)
 * 在Workfront中添加新文档版本时，[新增更强大的版本菜单](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
 * Android Beta移动设备应用程序中的[移动设备改进](#mobile-improvements-in-the-android-beta-mobile-app)
-* [验证查看器增强功能(Workfront和Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
+* [验证查看器增强功能（Workfront和Workfront Proof）](#proofing-viewer-enhancements-workfront-and-workfront-proof)
 * Workfront中的[校对增强功能](#proofing-enhancements-in-workfront)
 * [Workfront Proof中的校对增强功能](#proofing-enhancements-in-workfront-proof)
 
@@ -155,7 +161,7 @@ ht-degree: 1%
 
 有关调整列表中列重新排序大小的信息，请参阅[修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
-要参加我们的测试版测试计划以改进当前列表，请参阅[新列表研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans) （需要登录）
+要参加我们的测试版测试计划，了解当前的列表改进情况，请参阅[新列表研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) （需要登录）
 
 ## 图标对新项目列表的支持 {#icon-support-for-the-new-project-lists}
 
@@ -216,11 +222,11 @@ ht-degree: 1%
 
 有关如何引用报表中的收藏集的信息，请参阅[引用报表中的收藏集](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)。
 
-有关使用文本模式的信息，请参阅  [文本模式的常见使用概述](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
+有关使用文本模式的信息，请参阅[文本模式的常见使用概述](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
 
 >[!NOTE]
 >
->在以下视频中，问题集合的示例文本模式不正确。 报表[&#128279;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的引用收藏集中提供了正确的示例文本模式。
+>在以下视频中，问题集合的示例文本模式不正确。 报表](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的[引用收藏集中提供了正确的示例文本模式。
 
 ## 在Workfront中添加新文档版本时，新增更强大的版本菜单 {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -238,7 +244,7 @@ ht-degree: 1%
 
 * 校样
 * 只是文档
-* 链接选项(来自Dropbox、来自Google Drive，等等)
+* 链接选项（来自Dropbox、来自Google Drive，等等）
 * 从剪贴板粘贴（这是添加版本时的新选项）
 
 有关详细信息，请参阅[将文档从文件系统添加到Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)一文中的[将文档从文件系统添加到Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
@@ -270,7 +276,7 @@ ht-degree: 1%
 
 有关如何注册为测试版并下载Android Beta版本的Workfront移动应用程序的更多信息，请参阅。
 
-## 校对查看器增强功能(Workfront和Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
+## 校对查看器增强功能（Workfront和Workfront Proof） {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
 * [已更新打印摘要页](#updated-print-summary-page)
 * [直接从验证查看者将用户添加到验证](#add-users-to-a-proof-directly-from-the-proofing-viewer)
@@ -295,7 +301,7 @@ ht-degree: 1%
 
 以前，您无法将个人用户添加到验证中。 您而是只能复制公共URL或嵌入代码。
 
-有关详细信息，请参阅文章中的[通过将用户添加到校对来共享校对](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)  [从验证查看者共享验证](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)。
+有关详细信息，请参阅[从验证查看者共享验证](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)一文中的[通过将用户添加到验证来共享验证](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)。
 
 ### 在校对查看器中显示所有标记工具 {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -319,7 +325,7 @@ ht-degree: 1%
 
 以前，只有Web验证查看者允许您作出Workfront文档审批决策。 
 
-有关更多信息，请参阅  [在文章的验证查看者中做出校对决定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)  [在校对查看者中做出校对决定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
+有关详细信息，请参阅[在校对查看器中做出校对决定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)一文中的[在校对查看器中做出校对决定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
 
 ### 配置打开新选项卡和窗口的链接以在桌面验证查看器中打开 {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -405,7 +411,7 @@ ht-degree: 1%
 
   显示验证的进度状态（已发送、已打开、已评论、已决策）。
 
-有关每个字段的更多信息，请参阅  [Adobe Workfront术语词汇表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+有关每个字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 ### 在Workfront中查看验证审批的历史数据 {#view-historical-data-for-proof-approvals-in-workfront}
 
@@ -413,7 +419,7 @@ ht-degree: 1%
 
 在此更改之前，在对验证做出决定后，该决定无法再显示在Workfront报表中。
 
-有关更多信息，请参阅  [Adobe Workfront术语词汇表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+有关详细信息，请参阅[Adobe Workfront术语表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 ## Workfront Proof中的校对增强功能 {#proofing-enhancements-in-workfront-proof}
 
@@ -426,7 +432,7 @@ ht-degree: 1%
 
 以前，此选项仅在旧版Flash查看器中可用。
 
-有关详细信息，请参阅文章中的[在Workfront Proof中复制校样](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)  [在Workfront Proof中复制校样](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)。
+有关详细信息，请参阅[在Workfront Proof中复制验证](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)一文中的[在Workfront Proof中复制验证](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)。
 
 ### 校对查看器和桌面校对查看器中的新校对详细信息链接(Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

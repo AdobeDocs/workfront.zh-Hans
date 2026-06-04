@@ -6,9 +6,12 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/oDMI6qVkOVnVSLVKMJ5fSCD3B-xHrk1TAiflkOVzazc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: 544
 ht-degree: 2%
 
 ---
@@ -43,7 +46,7 @@ ht-degree: 2%
 在下列区域添加用户时，现在会显示其他用户信息：
 
 * 用户全局搜索
-* “登录身份”页面(此页面现在也具有新式外观，与Workfront的其他区域一致)
+* “登录身份”页面（此页面现在也具有新式外观，与Workfront的其他区域一致）
 * 敏捷开发周期故事板上的新子任务表单
 * “编辑迭代”对话框
 * “创建团队”对话框

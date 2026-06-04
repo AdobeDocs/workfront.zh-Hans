@@ -4,9 +4,13 @@ description: 2025年第二季度项目增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ed8137d34688024ea45ad352ed4c06d214dd0fdf
+exl-id: 35e5309a-ad8d-44f0-af84-6070c20d06e1
+TQID: https://experienceleague.adobe.com/x7PmIGv1NMgZwUnPEs33hFwG1G79Qb2q7a9o6zEIDvg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 157
 ht-degree: 0%
 
 ---
@@ -15,10 +19,10 @@ ht-degree: 0%
 
 本页介绍了在2025年第二季度发布时间范围内做出的所有移动设备增强功能。
 
-有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
 
-## 移动应用程序中的验证增强功能(仅限iOS)
+## 移动应用程序中的验证增强功能（仅限iOS）
 
 >[!NOTE]
 >

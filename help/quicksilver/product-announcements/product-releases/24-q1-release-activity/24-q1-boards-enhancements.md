@@ -5,11 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fc47f84-b419-4a0e-8945-cfcac1e87be8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/zYCMasjdrMzo4es3Pvq7ozeUZ6bEK4ofpIccKe1EB0A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: 219
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 此页面介绍了在2024年第一季度发布到预览环境的所有展示板增强功能。 这些增强功能在24.1版本的生产环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 有关如何在季度发布之前选择启用新展示板功能的详细信息，请参阅[Adobe Workfront展示板的早期功能选择启用](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md)。
 
