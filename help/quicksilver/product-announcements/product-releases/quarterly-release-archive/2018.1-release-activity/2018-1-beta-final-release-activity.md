@@ -8,8 +8,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
 TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 895
@@ -29,11 +31,11 @@ ht-degree: 0%
 
 2018.1 Beta最终版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [配置资源可用性和用户分配，以根据用户计划进行计算](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [移动增强功能](#mobile-enhancements)
 * [Jira集成](#jira-integration)

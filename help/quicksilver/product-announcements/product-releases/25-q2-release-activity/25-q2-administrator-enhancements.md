@@ -8,11 +8,17 @@ exl-id: 99caa38d-cf0a-4986-b0fe-976cb3b29c58
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZpMdUg9uVHQGaUUPkHJFO7yzvaIL6YL34m6KUW0VXsI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 267
@@ -24,7 +30,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第二季度版本中对“预览”环境做出的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
 ## 自定义表单逻辑的增强功能
 

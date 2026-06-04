@@ -10,11 +10,18 @@ exl-id: cda77319-dce6-409d-8f59-53838820cafb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/HkVox4rDOw-8RvRTQ9fscAs1svpjdhwi-MqomzqybXU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 942
@@ -158,7 +165,7 @@ ht-degree: 2%
 1. 添加您创建的<strong>计算的多选字段</strong>作为您的分组。
 1. 选择<strong>图表</strong>选项卡，并将图表添加到您的报告中。
 
-   例如，选择一个&#x200B;**列**图表。
+   例如，选择一个&#x200B;**列**&#x200B;图表。
    <br>有关将图表添加到报表的信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">创建自定义报表</a>一文中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">将图表添加到报表</a>部分。
 1. 在&#x200B;**底部(X)轴**&#x200B;字段中，选择要显示在图表中的<strong>计算的多选字段</strong>。
 1. 单击<strong>保存+关闭</strong>。

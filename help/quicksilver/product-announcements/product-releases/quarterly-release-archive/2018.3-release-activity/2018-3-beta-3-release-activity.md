@@ -8,11 +8,16 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
 TQID: https://experienceleague.adobe.com/noEIBL6-bxByD8in9x7a2XHTPfU3QQ2YVWp5jaTb5n4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 561
@@ -32,11 +37,11 @@ ht-degree: 0%
 
 2018.3 Beta 3版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [以组管理员身份更新用户配置文件中的角色](#update-roles-in-the-user-profile-as-a-group-administrator)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [主页区域现在为默认值](#home-area-is-now-the-default)
 * [优先处理您在家的工作](#prioritize-your-work-in-home)

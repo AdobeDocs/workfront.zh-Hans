@@ -9,10 +9,15 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/8pcOtwFrNqJrKYMzAgKEfRmHoJAkiimDVJxCav0NoiY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1182
@@ -183,7 +188,7 @@ ht-degree: 3%
    >
    >与组共享会将筛选器、视图或分组的权限授予该组的成员和所有子组的成员。
 
-   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;****，然后单击“在系统范围内可见”图标&#x200B;****。\
+   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;**&#x200B;**，然后单击“在系统范围内可见”图标&#x200B;**&#x200B;**。\
    管理员必须选择“共享系统范围”选项才能使用此选项。 有关详细信息，请参阅文章[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)和[共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 1. （视情况而定）如果要与个人用户、团队、角色、组或公司共享，请单击下拉菜单以定义要授予的访问权限级别。

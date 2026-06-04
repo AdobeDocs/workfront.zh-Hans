@@ -6,10 +6,15 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
 TQID: https://experienceleague.adobe.com/VN4tRX-3cRp4tw2AGMalQndJtum3FJStsuV6oT-CxGk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 401
@@ -21,7 +26,7 @@ ht-degree: 0%
 
 本页介绍了在预览环境2025年第四季度版本中进行的文档和验证增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
 ## 统一审批分阶段推出
 

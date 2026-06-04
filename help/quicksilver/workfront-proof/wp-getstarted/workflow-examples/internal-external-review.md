@@ -9,8 +9,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
 TQID: https://experienceleague.adobe.com/2KGinDaqr9-NzCDGo9Uh7ig7JjzywcrqF8ZGnvGSZeg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 625
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 ![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
-1. **创建新校对** — 设计人员在[!DNL Workfront Proof]中创建新校对并与内部审阅人共享。 设计者使项目经理成为校对的所有者，或者赋予他在校对上[!UICONTROL 作者]的角色（请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校对角色）。
+1. **创建新校对** — 设计人员在[!DNL Workfront Proof]中创建新校对并与内部审阅人共享。 设计者使项目经理成为校对的所有者，或者赋予他在校对上[!UICONTROL 作者]的角色（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
 
 1. **内部审核** — 项目经理和其他同事审核证明。 有关详细信息，请参阅[在Web验证查看器中查看验证](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)和[在桌面验证查看器中查看验证。](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)
 

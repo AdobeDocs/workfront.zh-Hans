@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d80acefe-19d3-45c2-8acb-1db89f6e49be
 TQID: https://experienceleague.adobe.com/DXIv13NTjQcQAo5M51HlQ2oKsHk-lauv4hcf86939oM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 471
@@ -32,7 +36,7 @@ ht-degree: 0%
 与合作伙伴共享项目时，请考虑以下事项：
 
 * 只有在您正在创建的新验证时，才能选择合作伙伴帐户中的用户作为验证的所有者。 您不能对现有验证或新版本的验证执行此操作。
-* 与合作伙伴共享项目时，您将证明的编辑权限传递给合作伙伴帐户中的主管和管理员。 创建验证所在帐户中的主管和管理员不再拥有对验证的编辑权限（包括验证创建者）。 有关[!DNL Workfront]校对中权限的更多信息，请参阅 [!DNL Workfront] 校对](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+* 与合作伙伴共享项目时，您将证明的编辑权限传递给合作伙伴帐户中的主管和管理员。 创建验证所在帐户中的主管和管理员不再拥有对验证的编辑权限（包括验证创建者）。 有关[!DNL Workfront]校对中权限的更多信息，请参阅 [!DNL Workfront] 校对[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 * 验证存储在验证所属的帐户（而不是创建该验证的帐户）中。
 * 验证品牌从拥有验证的帐户（而不是创建验证的帐户）中获取。
 

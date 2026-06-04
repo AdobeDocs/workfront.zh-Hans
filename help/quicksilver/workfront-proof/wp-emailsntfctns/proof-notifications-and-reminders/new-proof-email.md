@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
 TQID: https://experienceleague.adobe.com/0HC5D2PBZQ7L7N5NI0Q2FbUg6qSjLK7M1OkRLrUj0kA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 806
@@ -61,14 +65,14 @@ ht-degree: 0%
 
 ## 活动日志
 
-向审阅人发送[!UICONTROL 新验证]电子邮件记录在[!UICONTROL 验证详细信息]页面的[!UICONTROL 活动]部分。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[管理[!UICONTROL 校对详细信息]。 您可以检查在创建验证时是否启用了[!UICONTROL 新验证]电子邮件。
+向审阅人发送[!UICONTROL 新验证]电子邮件记录在[!UICONTROL 验证详细信息]页面的[!UICONTROL 活动]部分。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的管理[!UICONTROL 校对详细信息]。 您可以检查在创建验证时是否启用了[!UICONTROL 新验证]电子邮件。
 
 ![New_Verison_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 
 >[!NOTE]
 >
 >* 如果校对的创建者或所有者默认情况下禁用了[!UICONTROL 已制作校对]电子邮件（在其个人设置中），那么即使在新校对页面上选中了[!UICONTROL 通过电子邮件通知联系人]框，他们也不会收到任何[!UICONTROL 已制作校对]或[!UICONTROL 新校对]电子邮件。 有关更多信息，请参阅。
->* 如果在[!UICONTROL 帐户设置]中禁用电子邮件通知作为默认值，验证的创建者/所有者将不会收到任何[!UICONTROL 制作的验证]或[!UICONTROL 新验证]电子邮件，即使在其个人设置中启用了此功能，并且在新验证页面上选中了[!UICONTROL 通过电子邮件通知]人员框。 有关详细信息，[校对]电子邮件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)并查看。[!UICONTROL 
+>* 如果在[!UICONTROL 帐户设置]中禁用电子邮件通知作为默认值，验证的创建者/所有者将不会收到任何[!UICONTROL 制作的验证]或[!UICONTROL 新验证]电子邮件，即使在其个人设置中启用了此功能，并且在新验证页面上选中了[!UICONTROL 通过电子邮件通知]人员框。 有关详细信息，[校对]电子邮件(../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)并查看。
 >
 
 

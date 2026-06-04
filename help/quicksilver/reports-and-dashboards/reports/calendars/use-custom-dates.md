@@ -9,10 +9,15 @@ exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/URkp-zMtLtg3auZRaRciz2qCjeJUMFYZQ7SYKuzHU8g
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 618
@@ -88,27 +93,27 @@ ht-degree: 4%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL命名这组项目]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 命名这组项目]</strong></td>
       <td>键入项目组的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL颜色]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 颜色]</strong></td>
       <td>选择项目组的颜色。 所有项目均以选定的颜色显示在日历报表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL日期字段]</strong></td>
-      <td>选择<strong>[！UICONTROL自定义日期]</strong>。<br></td>
+      <td role="rowheader"><strong>[!UICONTROL 日期字段]</strong></td>
+      <td>选择<strong>[!UICONTROL 自定义日期]</strong>。<br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL在日历上，显示]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 在日历上，显示]</strong></td>
       <td><p>选择日期的显示方式：</p>
        <ul>
-        <li><strong>[！UICONTROL Single Date]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[！UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。<br><p>注意：如果选择<strong>[！UICONTROL Duration]</strong>，则指定的结束日期必须晚于开始日期，否则日历上不会显示该项目。</p></li>
+        <li><strong>[!UICONTROL Single Date]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[!UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。<br><p>注意：如果选择<strong>[!UICONTROL Duration]</strong>，则指定的结束日期必须晚于开始日期，否则日历上不会显示该项目。</p></li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[！UICONTROL自定义日期]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自定义日期]</strong></td>
       <td><p>输入附加到要跟踪的对象上的自定义日期名称。</p><p><strong>注意：</strong>为避免性能问题，自定义日期名称的搜索限制为50个结果。</td>
      </tr>
     </tbody>

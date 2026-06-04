@@ -8,10 +8,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
 TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1233
@@ -98,7 +102,7 @@ ht-degree: 0%
 
 将功能发布到“预览Sandbox”环境后，将更新[!DNL Workfront]文档以包含新功能。 您可以搜索适用的文章，或单击发行说明中的文档链接。
 
-有关[!UICONTROL 预览Sandbox]环境的详细信息，请参阅[预览Sandbox]环境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。 [!DNL Adobe Workfront] [!UICONTROL 
+有关[!UICONTROL 预览Sandbox]环境的详细信息，请参阅[预览Sandbox]环境(../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。 [!DNL Adobe Workfront] 
 
 ### 参加发布网络研讨会
 
