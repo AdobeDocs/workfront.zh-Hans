@@ -7,9 +7,14 @@ description: 作为 [!DNL Workfront Proof] 管理员，您可以查看组织 [!D
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/56N32WhKSlk-6VPPx6cKS8JsI9yiFnVn8EuXsZm-Duc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: 241
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 1. 单击[!DNL Workfront Proof]窗口右上角的&#x200B;**[!UICONTROL 设置]**，然后从下拉菜单中选择&#x200B;**[!UICONTROL 帐户设置]**。
 
-1. 在显示的[!UICONTROL 帐户设置]页面上，确保&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡已打开。
+1. 在显示的[!UICONTROL 帐户设置]页面上，确保&#x200B;**[!UICONTROL 详细信息]**选项卡已打开。
 您可以在此选项卡上查看以下部分：
 
 ## 编辑帐户详细信息

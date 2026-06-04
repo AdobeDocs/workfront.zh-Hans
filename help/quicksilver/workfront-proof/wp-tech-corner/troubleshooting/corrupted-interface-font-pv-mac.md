@@ -8,9 +8,13 @@ description: Mac上的验证查看器中错误编号拍摄损坏的界面字体
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/t6MNg6tX6QJ2v3SCwu7NhiXcMaYq8CYQrvSi-ng-HWY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -66,7 +70,7 @@ ht-degree: 0%
 旧版验证查看器基于[!DNL Flash Player]，有时，当验证查看器中缺少文本时，OS X和[!DNL Flash Player]之间可能会出现字体冲突。 尝试以下操作：
 
 1. 打开Finder并打开&#x200B;**[!UICONTROL 转到]**&#x200B;选项卡。
-1. 按Option键( Alt⌥)打开下拉列表中的[!UICONTROL Library]文件夹。
+1. 按Option键(⌥ Alt)打开下拉列表中的[!UICONTROL Library]文件夹。
 1. 按住Option键的同时，单击[!UICONTROL Library]文件夹。
 1. 打开[!UICONTROL Library]文件夹后，转到其中的[!UICONTROL Fonts]文件夹。
 1. 将[!UICONTROL Fonts]文件夹中的所有字体移入另一个文件夹，可能位于您的桌面上（请不要在Fonts文件夹内创建另一个文件夹）。

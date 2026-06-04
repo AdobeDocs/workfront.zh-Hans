@@ -9,9 +9,13 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
-source-git-commit: f6dc13a03f6468b4c2f52c370e48229ca70815c7
+TQID: https://experienceleague.adobe.com/Vw6EDV84hMtSGHUiTWEWXPe5ups1TzR-F81W0J5uODE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: 52
 ht-degree: 0%
 
 ---
@@ -26,5 +30,5 @@ ht-degree: 0%
 
 * [疑难解答 — Mac上的验证查看器中的界面字体损坏](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
 * [了解缓存和Cookie如何影响 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [&#x200B; [!DNL Workfront Proof]中的速度问题](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [ [!DNL Workfront Proof]中的速度问题](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
 * [疑难解答 —  [!DNL Workfront Proof] 校对查看器](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

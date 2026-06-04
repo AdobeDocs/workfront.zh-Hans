@@ -7,9 +7,14 @@ description: 高级品牌推广适用于Select和Premium计划，并包含在计
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 754
 ht-degree: 1%
 
 ---
@@ -39,7 +44,7 @@ ht-degree: 1%
 
 ## 高级品牌推广概述
 
-您将在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)页面的选项卡中找到[!UICONTROL 品牌策略配置]部分。 若要将更改应用于您的帐户，请确保品牌策略选项设置为[!UICONTROL 已启用] (1)。
+您将在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)页面的选项卡中找到[!UICONTROL 品牌策略配置]部分。若要将更改应用于您的帐户，请确保“品牌策略”选项设置为[!UICONTROL 已启用] (1)。
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 有关如何配置“高级品牌策略”选项(2-14)的更多详细信息，请参阅以下部分。
@@ -79,7 +84,7 @@ ht-degree: 1%
 
 背景图像 — 可与品牌推广图像相结合。
 
-* 您可以使用JPG、GIF或PNG — 对于具有透明度的文件，使用白色背景色显示。
+* 您可以使用JPG、GIF或PNG — 对于具有透明度的文件，显示白色的背景颜色。
 * 页眉的高度为96px，并且不会为[!UICONTROL 不重复]选项调整已上传图像的大小。
 * 背景图像位于左上方。
 
@@ -112,12 +117,12 @@ ht-degree: 1%
 
 **页脚**
 
-在品牌策略配置的此字段(10)中，您可以构建一个页脚，该页脚将显示在所有帐户页面的底部。 您可以使用内置的WYSIWYG编辑器，也可以简单地粘贴您自己的设计。
+在品牌策略配置的此字段(10)中，您可以构建一个页脚，该页脚将显示在所有帐户页面的底部。您可以使用内置的WYSIWYG编辑器，也可以简单地粘贴您自己的设计。
 ![页脚.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
->无法在页脚文本编辑器中编辑HTML，但可以粘贴复制的设计（包括所有链接和图像）。
+>您无法在页脚文本编辑器中编辑HTML，但可以粘贴复制的设计（包括所有链接和图像）。
 
 **Favicon和页面标题**
 

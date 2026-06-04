@@ -9,9 +9,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0cfac975-a561-4e0a-8703-8173b50957ca
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/W-jGfq-Nt5n7-l6PiZhCuhlffk9QE57Ao7OW3q9bazw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: 109
 ht-degree: 0%
 
 ---
@@ -32,5 +35,5 @@ ht-degree: 0%
 * [在验证查看器中比较验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [在Web验证查看器中查看以前的验证版本](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [在验证查看器中下载验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [&#x200B; [!DNL Workfront Proof] 验证查看器中的键盘快捷键](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [ [!DNL Workfront Proof] 验证查看器中的键盘快捷键](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [已删除旧版验证查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

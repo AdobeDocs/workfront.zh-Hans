@@ -1,19 +1,25 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 管理 [!DNL Adobe Workfront] 团队中的 [!DNL Microsoft] 通知
+title: 管理 [!DNL Microsoft] 团队中的 [!DNL Adobe Workfront] 通知
 description: 您可以从 [!DNL Adobe Workfront] 接收有关需要批准的项目、已给予您的分配或您关联项目的注释和更改的通知。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
+TQID: https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 5%
+source-wordcount: 1422
+ht-degree: 1%
 
 ---
 
-# 在[!DNL Adobe Workfront]中管理[!DNL Microsoft Teams]通知
+# 在[!DNL Microsoft Teams]中管理[!DNL Adobe Workfront]通知
 
 >[!IMPORTANT]
 >
@@ -23,7 +29,7 @@ ht-degree: 5%
 
 您可以从[!DNL Adobe Workfront]接收有关您需要审批的项目、已给予您的分配或您关联项目的注释和更改的通知。
 
-这些通知包含您可以在[!DNL Workfront]内执行的[!DNL Microsoft Teams]操作，无需离开[!DNL Microsoft Teams]即可完成这些操作。
+这些通知包含您可以在[!DNL Microsoft Teams]内执行的[!DNL Workfront]操作，无需离开[!DNL Microsoft Teams]即可完成这些操作。
 
 >[!NOTE]
 >
@@ -56,33 +62,33 @@ ht-degree: 5%
 
 +++
 
-## 在[!DNL Workfront]中接收[!DNL Microsoft Teams]通知的先决条件
+## 在[!DNL Microsoft Teams]中接收[!DNL Workfront]通知的先决条件
 
-如果满足以下条件，则可以在[!DNL Workfront]中接收[!DNL Microsoft Teams]通知：
+如果满足以下条件，则可以在[!DNL Microsoft Teams]中接收[!DNL Workfront]通知：
 
 * 团队所有者已为您的团队安装和配置[!DNL Workfront for Microsoft Teams]。
-* 您已从[!DNL Workfront]登录[!DNL Microsoft Teams]。
+* 您已从[!DNL Microsoft Teams]登录[!DNL Workfront]。
 * 您已在[!DNL Workfront]中启用即时通知。 有关启用即时通知的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 有关安装[!DNL Workfront for Microsoft Teams]和登录到[!DNL Workfront from Microsoft Teams]的信息，请参阅[安装 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-## 管理[!DNL Workfront]中的[!DNL Microsoft Teams]通知
+## 管理[!DNL Microsoft Teams]中的[!DNL Workfront]通知
 
-安装[!DNL Workfront for Microsoft Teams]应用后，将在[!DNL Workfront]中为该团队的每个成员创建[!DNL Microsoft Teams]聊天渠道。 在[!DNL Workfront]中执行特定操作时，您可以配置[!DNL Workfront for Microsoft Teams]的设置，以在[!DNL Workfront]的[!DNL Microsoft Teams]聊天频道中接收有关该操作的通知。
+安装[!DNL Workfront for Microsoft Teams]应用后，将在[!DNL Microsoft Teams]中为该团队的每个成员创建[!DNL Workfront]聊天渠道。 在[!DNL Workfront]中执行特定操作时，您可以配置[!DNL Workfront for Microsoft Teams]的设置，以在[!DNL Microsoft Teams]的[!DNL Workfront]聊天频道中接收有关该操作的通知。
 
-处理来自[!DNL Workfront]的[!DNL Microsoft Teams]通知时，请考虑以下事项：
+处理来自[!DNL Microsoft Teams]的[!DNL Workfront]通知时，请考虑以下事项：
 
-* 您无法在[!DNL Workfront]中接收所有，但只能接收选定数量的[!DNL Microsoft Teams]个通知。
+* 您无法在[!DNL Microsoft Teams]中接收所有，但只能接收选定数量的[!DNL Workfront]个通知。
 * 您从[!DNL Workfront]收到的所有通知都会显示在[!DNL Workfront]机器人聊天频道中。
 
-  有关安装[!DNL Workfront]机器人通道的信息，请参阅[正在安装 [!DNL Workfront] 文章中的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront)从[登录到 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)部分。
+  有关安装[!DNL Workfront]机器人通道的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)文章中的[从 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront)登录到 [!DNL Workfront] 部分。
 
 * 从[!DNL Workfront]中进行更新到在[!DNL Microsoft Teams]中收到有关该更新的通知，最多可能有5分钟的延迟。
 * 对于每个[!DNL Microsoft Teams]通知，您还会收到电子邮件通知。
 
-要管理可在[!DNL Workfront]中收到的[!DNL Microsoft Teams]通知，请执行以下操作：
+要管理可在[!DNL Microsoft Teams]中收到的[!DNL Workfront]通知，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 左侧导航栏上的]**&#x200B;更多已添加[!DNL Microsoft Teams] （三点）应用图标。
+1. 单击[!DNL Microsoft Teams]左侧导航栏上的&#x200B;**[!UICONTROL 更多已添加]** （三点）应用图标。
 
 1. 在显示的列表中单击[!DNL Workfront]。
 1. 选择&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
@@ -99,9 +105,9 @@ ht-degree: 5%
    >
    >您无法向默认可用的通知中添加更多通知。
 
-## 在[!DNL Workfront]中响应[!DNL Microsoft Teams]个通知和批准请求
+## 在[!DNL Microsoft Teams]中响应[!DNL Workfront]个通知和批准请求
 
-1. 从[!DNL Workfront]登录到[!DNL Microsoft Teams]。\
+1. 从[!DNL Microsoft Teams]登录到[!DNL Workfront]。\
    有关登录到[!DNL Workfront]的信息，请参阅[安装 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 1. 转到&#x200B;**[!UICONTROL 聊天]**&#x200B;区域并单击&#x200B;**[!DNL Workfront]**&#x200B;机器人频道。\
@@ -116,7 +122,7 @@ ht-degree: 5%
 
 ### 审批通知 {#approval-notifications}
 
-当要求您批准对象（如任务、时间表或验证）时，您会收到批准通知。 但是，您仍然可以对通知进行评论。通过审批通知，您可以执行以下操作：
+当要求您批准对象（如任务、时间表或验证）时，您会收到批准通知。 但是，您仍然可以对通知进行评论。从审批通知中，您可以执行以下操作：
 
 * **[!UICONTROL 批准]**：单击以批准该项目。
 * **[!UICONTROL 更改]**：单击以批准包含更改的项目。
@@ -140,11 +146,11 @@ ht-degree: 5%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL Approve]</th> 
-   <th>[!UICONTROL 拒绝]</th> 
-   <th> <p>[!UICONTROL 更改]</p> </th> 
-   <th> <p>[!UICONTROL 转至验证] </p> </th> 
-   <th>[!UICONTROL Comment]</th> 
+   <th>[！UICONTROL Approve]</th> 
+   <th>[！UICONTROL拒绝]</th> 
+   <th> <p>[！UICONTROL更改]</p> </th> 
+   <th> <p>[！UICONTROL转至验证] </p> </th> 
+   <th>[！UICONTROL Comment]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -277,9 +283,9 @@ ht-degree: 5%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 开始]</th> 
-   <th>[!UICONTROL Comment]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL开始]</th> 
+   <th>[！UICONTROL Comment]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -327,8 +333,8 @@ ht-degree: 5%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回复]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL回复]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -392,8 +398,8 @@ ht-degree: 5%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回复]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL回复]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -408,7 +414,7 @@ ht-degree: 5%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人将您的团队包含在[!UICONTROL 定向更新]中</td> 
+   <td role="rowheader">有人将您的团队包含在[！UICONTROL定向更新]中</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -429,8 +435,8 @@ ht-degree: 5%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL Comment]</p> </th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th> <p>[！UICONTROL Comment]</p> </th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

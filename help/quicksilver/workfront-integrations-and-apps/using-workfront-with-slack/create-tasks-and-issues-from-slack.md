@@ -6,10 +6,16 @@ description: 为Slack安装和配置 [!DNL Adobe Workfront] 后，您可以从Sl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+TQID: https://experienceleague.adobe.com/IVleUkmG-O8tjYeup3EiKB5DQIidKr9GaAVhRJHVZ3U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 0%
+source-wordcount: 428
+ht-degree: 4%
 
 ---
 
@@ -17,27 +23,27 @@ ht-degree: 0%
 
 安装和配置[!DNL Adobe Workfront for Slack]后，您可以从[!DNL Slack]创建任务和问题，并将它们与[!DNL Workfront]中的项目关联。
 
-有关使用[!DNL Workfront]配置[!DNL Slack]的详细信息，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
+有关使用[!DNL Slack]配置[!DNL Workfront]的详细信息，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
 您必须具有在访问级别创建任务和问题的访问权限，并且在要与它们关联的项目中必须具有[!UICONTROL Contribute]权限。
 
 有关访问级别的详细信息，请参阅[访问级别概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。 有关对象权限的详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>任何</p>
+   <td> <p>“任一”</p>
   </tr> 
  </tbody> 
 </table>
@@ -55,8 +61,8 @@ ht-degree: 0%
 
 ## 从[!DNL Slack]创建任务
 
-1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。\
-   有关从[!DNL Slack]登录到Workfront的更多信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
+1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。\
+   有关从[!DNL Slack]登录到Workfront的更多信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
 
 1. 从任何渠道中，开始在消息字段中键入以下命令：
 
@@ -74,8 +80,8 @@ ht-degree: 0%
 
 ## 从[!DNL Slack]创建问题
 
-1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。\
-   有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
+1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。\
+   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
 
 1. 从任何渠道中，开始在消息字段中键入以下命令：
 

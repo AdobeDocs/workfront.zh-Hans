@@ -7,9 +7,13 @@ description: 这会重复在Workfront中配置验证中找到的信息。 在此
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -79,7 +83,7 @@ ht-degree: 0%
 
    * 查看者只能添加到验证一次。 （您不能将同一人添加到验证上的多个阶段。）
    * 添加到专用阶段的审阅人只能看到他们被添加到验证中的阶段，以及在该阶段所做的评论。
-   * 默认情况下，将用户添加到阶段会授予该用户从创建验证之时起查看验证的权限。\
+   * 默认情况下，将用户添加到阶段授予该用户从创建验证之时起查看验证的权限。\
 
      系统管理员可以配置验证系统，以限制用户在工作流进入添加用户的阶段之前访问验证。 有关更多信息，请参阅
 
@@ -166,7 +170,7 @@ ht-degree: 0%
 您可以将基本校对转换为自动工作流。
 
 1. 在[!UICONTROL 校对详细信息]页面上单击&#x200B;**[!UICONTROL 转换为自动工作流]**。
-将校对重新处理到自动工作流后，所有阶段均为活动状态且公共，其[!UICONTROL 锁定阶段]选项默认设置为“手动”。 所有阶段都保留在用户及其设置中。
+将校对重新部署到自动工作流后，所有阶段均为活动状态且公共，其[!UICONTROL 锁定阶段]选项默认设置为“手动”。所有阶段都保留在用户及其设置中。
 
    * 在每个阶段创建验证时，激活阶段均设置为。
    * 从选项计算的截止日期设置为在每个阶段创建验证。

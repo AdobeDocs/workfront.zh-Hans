@@ -7,9 +7,14 @@ description: 如果您与同时使用 [!DNL Workfront Proof] 的其他组织（�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ee06c9a7-baeb-4c2b-a6c5-ec4ac542dd5a
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+TQID: https://experienceleague.adobe.com/CkNKLpXq9NdFeZuyekjbQ3V4-BAkKIXDf-YUkgLJWLA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: 720
 ht-degree: 0%
 
 ---

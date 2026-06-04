@@ -1,27 +1,33 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 根据 [!DNL Anaplan] 营销活动请求创建 [!DNL Adobe Workfront] 列表项
-description: 此集成方案链接具有 [!DNL Adobe Workfront] 预算列表项的 [!DNL Anaplan] 项目。
+title: 根据 [!DNL Adobe Workfront] 营销活动请求创建 [!DNL Anaplan] 列表项
+description: 此集成方案链接具有 [!DNL Anaplan] 预算列表项的 [!DNL Adobe Workfront] 项目。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/6Bny8fG-ta0UsBZfg9kDgYaOnnuv5r2myqvKNbQVEww
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 790
 ht-degree: 17%
 
 ---
 
-# 根据[!DNL Anaplan]营销活动请求创建[!DNL Adobe Workfront]列表项
+# 根据[!DNL Adobe Workfront]营销活动请求创建[!DNL Anaplan]列表项
 
-此集成方案链接具有[!DNL Adobe Workfront]预算列表项的[!DNL Anaplan]项目。
+此集成方案链接具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目。
 
 此方案会监视添加到请求队列的新营销活动请求。 记录营销活动请求后，立即在[!DNL Anaplan]中添加预算行项目以开始融资流程。
 
 >[!IMPORTANT]
 >
->本文中的“营销活动”是指此方案所代表的营销活动用例，并且绝不会连接到[!DNL Workfront Fusion] Adobe Campaign连接器或[!UICONTROL 中最近弃用的]营销活动[!DNL Workfront]对象。
+>本文中的“营销活动”是指此方案所代表的营销活动用例，并且绝不会连接到[!DNL Workfront Fusion] Adobe Campaign连接器或[!DNL Workfront]中最近弃用的[!UICONTROL 营销活动]对象。
 
 ## 访问权限要求
 
@@ -57,7 +63,7 @@ ht-degree: 17%
 
 有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 +++
 
@@ -97,23 +103,23 @@ ht-degree: 17%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td role="rowheader">[！UICONTROL上市日期]</td> 
      <td>日期 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 市场结束日期]</td> 
+     <td role="rowheader">[！UICONTROL市场结束日期]</td> 
      <td>日期</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 营销活动概述]</td> 
+     <td role="rowheader">[！UICONTROL营销活动概述]</td> 
      <td>段落文本字段</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Key Message]</td> 
+     <td role="rowheader">[！UICONTROL Key Message]</td> 
      <td>段落文本字段</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 目标受众]</td> 
+     <td role="rowheader">[！UICONTROL目标受众]</td> 
      <td> <p>下拉</p> <p>包含适合您的流程的选项。</p> </td> 
     </tr> 
    </tbody> 
@@ -148,7 +154,7 @@ ht-degree: 17%
 
 完成以下步骤将此集成方案部署到您的[!DNL Fusion]帐户。 此操作只应在完成所需的[!DNL Workfront]和[!DNL Anaplan]配置之后完成。
 
-1. 导航到[!UICONTROL 中的]模板[!DNL Workfront Fusion]菜单，然后单击&#x200B;**[!UICONTROL 根据Workfront营销活动请求[!DNL Anaplan]方案模板创建]**&#x200B;列表项。
+1. 导航到[!DNL Workfront Fusion]中的[!UICONTROL 模板]菜单，然后单击&#x200B;**[!UICONTROL 根据Workfront营销活动请求]**&#x200B;方案模板创建[!DNL Anaplan]列表项。
 1. 替换以下[!DNL Anaplan]个变量的变量值：
 
    | 变量名称 | 替换值为 |
@@ -180,6 +186,6 @@ ht-degree: 17%
 
 * [[!UICONTROL 将 [!DNL Adobe Workfront] 项目更新发送到 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL 向 [!DNL Adobe Workfront] 列表项 [!DNL Anaplan] 发送]实际小时更新](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL 向 [!DNL Anaplan] 列表项]发送 [!DNL Adobe Workfront] 实际小时更新](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 * [[!UICONTROL 将 [!DNL Adobe Workfront] 费用发送到 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

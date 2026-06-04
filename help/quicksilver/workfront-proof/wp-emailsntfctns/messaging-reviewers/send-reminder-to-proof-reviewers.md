@@ -7,9 +7,14 @@ description: 为PiW工作
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 437
 ht-degree: 2%
 
 ---
@@ -50,7 +55,7 @@ ht-degree: 2%
 
      默认消息会提醒查看者他们已添加到验证并包含验证的截止日期。
 
-   * 如果要创建自己的自定义消息，请键入&#x200B;**[!UICONTROL 主题]**&#x200B;和&#x200B;**[!UICONTROL 消息]，**，然后单击&#x200B;**[!UICONTROL 发送]。**&#x200B;自定义提醒电子邮件包含与默认提醒电子邮件相同的信息，但也会在电子邮件正文中包含自定义主题行和自定义消息。
+   * 如果要创建自己的自定义消息，请键入&#x200B;**[!UICONTROL 主题]**&#x200B;和&#x200B;**[!UICONTROL 消息]，**，然后单击&#x200B;**[!UICONTROL 发送]。**&#x200B;自定义提醒电子邮件包含的信息与默认提醒电子邮件相同，但也会在电子邮件正文中包含自定义主题行和自定义消息。
 
 ## 向舞台上的审阅者发送消息
 
@@ -65,4 +70,4 @@ ht-degree: 2%
 
      默认消息会提醒查看者他们已添加到验证并包含验证的截止日期。
 
-   * 如果要创建自己的自定义消息，请键入&#x200B;**[!UICONTROL 主题]**&#x200B;和&#x200B;**[!UICONTROL 消息]，**，然后单击&#x200B;**[!UICONTROL 发送]。**&#x200B;自定义提醒电子邮件包含与默认提醒电子邮件相同的信息，但也会在电子邮件正文中包含自定义主题行和自定义消息。
+   * 如果要创建自己的自定义消息，请键入&#x200B;**[!UICONTROL 主题]**&#x200B;和&#x200B;**[!UICONTROL 消息]，**，然后单击&#x200B;**[!UICONTROL 发送]。**&#x200B;自定义提醒电子邮件包含的信息与默认提醒电子邮件相同，但也会在电子邮件正文中包含自定义主题行和自定义消息。

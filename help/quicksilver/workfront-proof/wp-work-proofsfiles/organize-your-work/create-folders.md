@@ -7,9 +7,12 @@ description: 您可以在Workfront Proof中创建子文件夹。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -115,7 +118,7 @@ ht-degree: 0%
 
 * 分配文件夹的新所有者(1) — 文件夹的创建者将保留在文件夹上并且无法删除，但您可以使帐户中的另一个用户成为所有者，这将为他们授予对文件夹的编辑权限。
 * 通过键入其他[!DNL Workfront Proof]用户的电子邮件地址(2)与其共享文件夹 — 请注意，文件夹只能与具有自己[!DNL Workfront Proof]登录帐户的人员共享。
-* 为共享文件夹的人员设置权限(3)。 这对于与帐户中的用户共享专用文件夹非常有用 — 您可以决定是否应允许在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)配置文件中具有验证权限配置文件的用户创建、编辑和删除文件夹中的项目。
+* 为共享文件夹的人员设置权限(3)。 这对于与帐户中的用户共享专用文件夹非常有用 — 您可以决定是否应允许在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)配置文件中具有[验证权限配置文件的用户创建、编辑和删除文件夹中的项目。
 * 单击用户名右侧的垃圾桶图标(4)，从文件夹共享列表中删除用户。
 * 通过单击最顶部的垃圾桶图标(5)从文件夹共享列表中删除每个人 — 请注意，您将无法删除文件夹的创建者或所有者。
 
