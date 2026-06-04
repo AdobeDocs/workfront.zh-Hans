@@ -110,4 +110,4 @@ Adobe [!DNL Workfront]管理员可以为您的[!DNL Workfront]实例创建OAuth2
 >
 >![示例：在Fusion中添加注释](assets/fusion-example-comment-350x416.png)
 
-有关[!DNL Workfront Fusion]的详细信息，请参阅[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。
+有关[!DNL Workfront Fusion]的详细信息，请参阅[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home)。
