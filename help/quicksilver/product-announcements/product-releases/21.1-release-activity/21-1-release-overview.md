@@ -356,7 +356,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
+有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
 
 有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -423,4 +423,4 @@ Workfront 21.1版本网络研讨会将于2月3日美国东部夏令时上午11:0
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。
+[进一步了解Workfront One](https://business.adobe.com/cn/products/workfront.html)。
