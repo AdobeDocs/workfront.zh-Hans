@@ -9,11 +9,16 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/C3hvRU9XvH3yqP21zXa4mxH6NrST85Jz98AvqeEHNY4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
 source-wordcount: 516
@@ -170,7 +175,7 @@ Old:
 >您可以使用Workfront首选项区域管理Adobe计划通知，而不是使用用户配置文件页面上的Workfront通知区域。
 
 1. 使用您的Adobe Experience Cloud凭据登录Workfront 。
-1. 单击屏幕右上角的Experience Cloud](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帐户菜单**&#x200B;图标![帐户菜单图标，然后单击&#x200B;**首选项**。
+1. 单击屏幕右上角的Experience Cloud![&#128279;](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帐户菜单**&#x200B;图标帐户菜单图标，然后单击&#x200B;**首选项**。
 1. 在&#x200B;**通知**&#x200B;部分下，单击&#x200B;**Workfront**。
 1. 选择要接收的通知。
 或
