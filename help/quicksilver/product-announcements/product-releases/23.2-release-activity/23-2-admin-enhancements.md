@@ -6,9 +6,22 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: 415
 ht-degree: 0%
 
 ---
@@ -25,7 +38,7 @@ ht-degree: 0%
 
 以前，将Workfront数据映射到Experience Manager Assets标记不可用。
 
-有关Experience Manager Assetsas a Cloud Service中此功能的详细信息，[配置[!UICONTROL Experience Manager Assetsas a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+有关Experience Manager Assets as a Cloud Service中此功能的详细信息，[配置[!UICONTROL Experience Manager Assets as a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
 有关Experience Manager Assets Essentials中此功能的详细信息，[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
@@ -39,7 +52,7 @@ ht-degree: 0%
 
 * **使用默认分区**：如果表单创建者未在表单顶部添加分区，则画布中现在将显示默认分区，以便用户可以调整未分配自定义分区的字段的权限。
 
-* **更改描述性文本的大小**：您现在可以为描述性文本字段分配小型、中型或大型。 您还可以在同一行与其他字段一起使用它们。 <span style="color: #ff0000;">更改描述性文本的大小已暂时延迟，但即将推出。</span></li>
+* **更改描述性文本的大小**：您现在可以为描述性文本字段分配小型、中型或大型。 您还可以在同一行与其他字段一起使用它们。<span style="color: #ff0000;"> 更改描述性文本的大小已暂时延迟，但即将推出。</span></li>
 
 有关详细信息，请参阅[自定义表单概述](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
 

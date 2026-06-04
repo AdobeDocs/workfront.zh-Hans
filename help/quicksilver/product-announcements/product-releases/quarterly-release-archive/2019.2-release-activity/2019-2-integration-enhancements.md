@@ -7,9 +7,16 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: ad2ca56c-27cf-4238-84dc-08ce575d2bec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/EzTWdwdTXcFyk1IYUebYtdVqhDZcHzJWVRL55EFloPg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 243
 ht-degree: 0%
 
 ---
@@ -20,13 +27,13 @@ ht-degree: 0%
 
 有关2019.2版中所做所有更改的列表，请参阅[2019.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
-## WorkfrontMicrosoft Teams改进
+## Workfront的Microsoft Teams改进
 
-现在，在使用Workfront进行Microsoft Teams时，您可以执行以下操作：
+现在，在使用Workfront for Microsoft Teams时，您可以执行以下操作：
 
 * 提交Workfront请求
 
-  有关信息，请参阅从Microsoft Teams提交Workfront请求。
+  有关信息，请参阅“从Microsoft Teams提交Workfront请求”。
 
 * 管理Microsoft Teams的Workfront通知设置
 

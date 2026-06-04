@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: 1158
 ht-degree: 0%
 
 ---
@@ -21,7 +34,7 @@ ht-degree: 0%
 > 18.2版本在以下日期在“生产”环境中提供：
 >
 >* Workfront Proof生产环境 — 7月17日星期二
->* 群集2和4的Workfront生产环境  - 7月19日星期四 
+>* 群集2和4的Workfront生产环境 — 7月19日星期四 
 >* 群集1、3和5的Workfront生产环境 — 7月20日星期五
 >
 
@@ -90,7 +103,7 @@ ht-degree: 0%
 
 ### 移动设备增强功能
 
-* [移动功能改进](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements)个新增功能！ (在Beta决赛中)
+* [移动功能改进](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements)个新增功能！ （在Beta决赛中）
 
 * Android Beta移动设备应用程序中的[移动设备改进](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
 * [适用于Android的新Beta环境以及新功能](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
@@ -99,7 +112,7 @@ ht-degree: 0%
 
 * Salesforce的[Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce)即将推出！
 
-* [Workfront的Slack改进功能](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)新增功能！ (在Beta决赛中)
+* [Workfront的Slack改进功能](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)新增功能！ （在Beta决赛中）
 
 ### API增强功能
 

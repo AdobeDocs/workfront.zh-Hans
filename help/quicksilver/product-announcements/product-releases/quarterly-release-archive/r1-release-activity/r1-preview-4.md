@@ -7,9 +7,20 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
@@ -90,7 +101,7 @@ ht-degree: 0%
 
 我们为组和子组的管理提供了一个新界面，可提供更简单、更友好的用户体验。
 
-“组所有者”字段和“组成员”字段现在合并为一个字段，其中包含下面列出的组成员列表。 此外，您可以筛选组成员列表，并更改他们是所有者还是成员。 
+“组所有者”字段和“组成员”字段现在合并为一个字段，其中包含下面列出的组成员列表。此外，您可以筛选组成员列表，并更改他们是所有者还是成员。 
 
 有关将子组添加到组以及将用户指定为组的成员或组所有者的详细信息，请参阅[创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。 
 
@@ -103,6 +114,6 @@ ht-degree: 0%
 * 名称
 * 描述
 * 参考号
-* 注释
+* 评论
 
 此功能应在2月13日当周同时发布到iOS和Android应用商店。

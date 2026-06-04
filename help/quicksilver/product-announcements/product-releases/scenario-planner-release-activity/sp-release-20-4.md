@@ -8,9 +8,14 @@ description: Workfront Scenario Planner仅在新的Adobe Workfront Experience中
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 32e124fe-81ea-42b3-b4aa-069aed78263e
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/hZeSLglCZ8Y-IAbfRJ53ALc3lLLGOUV4sl0M7mt37uY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 347
 ht-degree: 0%
 
 ---
@@ -21,7 +26,7 @@ Workfront Scenario Planner仅在新的Adobe Workfront Experience中可用。
 
 为20.4版本添加了以下功能：
 
-## 用于从Publish Scenario Planner更新和创建项目的Workfront方案
+## 发布方案以从Workfront Scenario Planner更新和创建项目
 
 Workfront Scenario Planner中的新功能现在允许您发布场景并将其计划映射到常规项目。 这将从现有计划创建项目，或者更新已链接到已在计划中导入的计划的项目。 计划信息传输到项目，为您节省数据输入时间并确保准确性。
 

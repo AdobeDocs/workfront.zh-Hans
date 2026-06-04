@@ -7,9 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+TQID: https://experienceleague.adobe.com/Di5TIVt-f10GPYJ3NRTVEF5vhOOzpgw4YIYN08O1KXQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: 541
 ht-degree: 4%
 
 ---
@@ -37,7 +44,7 @@ ht-degree: 4%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>新设计已应用于报告、模板任务、Portfolio等的列表</strong> <p>重要信息：这些增强功能已于2019年11月8日从“预览”环境中删除，将不会包含在“生产”环境的2019.4版本中。 这些增强功能将在2019.4版发布到“生产”版之后重新添加到“预览”环境中，并将在未来版本中发布到“生产”版。</p> <p>新的列表设计现在在以下列表中可用：</p> 
+   <td><strong>新设计已应用于报告、模板任务、项目组合等的列表</strong> <p>重要信息：这些增强功能已于2019年11月8日从“预览”环境中删除，将不会包含在“生产”环境的2019.4版本中。 这些增强功能将在2019.4版发布到“生产”版之后重新添加到“预览”环境中，并将在未来版本中发布到“生产”版。</p> <p>新的列表设计现在在以下列表中可用：</p> 
     <ul> 
      <li>报告 </li> 
      <li>问题</li> 
@@ -62,7 +69,7 @@ ht-degree: 4%
      <li> <p>项目群 </p> </li> 
      <li> <p>资源池 </p> </li> 
      <li> <p>模板 </p> </li> 
-     <li> <p>工时表 </p> </li> 
+     <li> <p>时间表 </p> </li> 
      <li> <p>用户 </p> </li> 
     </ul> <p>有关查看列表中的项的信息，请参阅<a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront中的列表入门</a>。</p> <p>所有更新列表的工作方式都相同。 </p> </td> 
   </tr> 

@@ -7,9 +7,18 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 746
 ht-degree: 0%
 
 ---
@@ -71,7 +80,7 @@ ht-degree: 0%
 
   在甘特图的所有任务中，与里程碑关联的任何任务之后都会显示一条直线。
 
-在此更改之前，只有一个选项允许里程碑显示在甘特图上，称为“里程碑”。 此选项同时启用了里程碑菱形图标和里程碑线。 无法分隔这些指示器。 这两个选项现在可用于所有甘特图，包括所有项目列表和报告。 
+在此更改之前，只有一个选项允许里程碑显示在甘特图上，称为“里程碑”。 此选项同时启用了里程碑菱形图标和里程碑线。无法分隔这些指示器。这两个选项现在可用于所有甘特图，包括所有项目列表和报告。 
 
 有关配置信息在甘特图中的显示方式的更多信息，请参阅[配置信息在甘特图中的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。
 
@@ -100,7 +109,7 @@ ht-degree: 0%
 
 ## 验证审批报告中的新请求者对象 {#new-requester-object-in-proof-approval-report}
 
-现在，创建验证审批报告时，存在新的请求者对象。 利用此对象，可报告有关请求验证审批的用户的信息。 
+现在，创建验证审批报告时，存在新的请求者对象。利用此对象，可报告有关请求验证审批的用户的信息。 
 
 验证审批报告中的新请求者对象包含其他类型的对象报告中现有用户对象可用的所有字段。
 

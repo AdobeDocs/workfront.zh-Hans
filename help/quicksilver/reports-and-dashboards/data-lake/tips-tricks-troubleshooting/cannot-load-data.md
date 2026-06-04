@@ -6,13 +6,22 @@ title: Tableau Desktop无法建立连接
 description: 当您尝试将Tableau桌面连接到Data Connect时，您会收到错误。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: e8b1d553ac4761e2b6eae79ae384956105939d90
+exl-id: 2a25d99a-a05e-4f60-ae1a-51ee137ad5f3
+TQID: https://experienceleague.adobe.com/-V1TT-X0FjMm2PIKDy0JVFkvt-A-a7f8fRbVzGzy1jg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 253
 ht-degree: 0%
 
 ---
-
 
 # Tableau Desktop无法建立连接
 
@@ -39,4 +48,3 @@ Data Connect通过第三方Snowflake云服务提供。 Tableau需要打开网络
 * **检查防火墙和代理设置**：检查网络上的任何防火墙或代理配置是否阻止访问Snowflake端点。 您可能需要联系网络管理员，将所需的Snowflake IP地址和端口添加到公司的IP允许列表中。
 
 * **解决方法选项**：在Tableau中，从工作表屏幕而不是Data Source窗格创建提取。 连接没有丢失，提取过程已完成。
-

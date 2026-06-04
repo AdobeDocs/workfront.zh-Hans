@@ -6,10 +6,20 @@ description: 资源池是用户集合，可帮助您更轻松地在Adobe Workfro
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
+TQID: https://experienceleague.adobe.com/jNdb4450a6iY7-mkcBOCBOVD-JH6tRUb-LrqwpD2mQE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 12%
+source-wordcount: 515
+ht-degree: 13%
 
 ---
 
@@ -79,7 +89,7 @@ ht-degree: 12%
      </tr>
      <tr>
       <td role="rowheader"><strong>池成员</strong></td>
-      <td><p> 将用户单独添加到资源池。<br>或<br>一次向资源池中添加大量用户。 您可以添加以下与用户或用户集合关联的实体之一：
+      <td><p> 将用户单独添加到资源池。<br>或<br>一次向资源池中添加大量用户。您可以添加以下与用户或用户集合关联的实体之一：
         <ul>
          <li><strong>团队</strong>：团队的所有成员都已添加到资源池中。</li>
          <li><strong>组</strong>：组的所有成员都已添加到资源池中。</li>

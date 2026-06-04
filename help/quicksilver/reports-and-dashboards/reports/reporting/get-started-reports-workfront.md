@@ -7,11 +7,25 @@ description: 通过报告，可查看用户和工作的最新动态。 使用报
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3292'
+source-wordcount: 3259
 ht-degree: 1%
 
 ---
@@ -120,7 +134,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 我们建议您首先使用报表生成界面来生成新报表。 该界面提供了一组简化的工具，可指导您逐步将元素集中在一起，以创建所需的报表。 您有可从列表中选择并添加到所有报表元素的对象和字段。\
 有关在报告生成界面中创建报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-有关可以报告的对象列表，请参阅文章[Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)中的[对象报告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
+有关可以报告的对象列表，请参阅文章[Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[对象报告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)部分。
 
 有关可在报表中显示的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
@@ -364,7 +378,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
      <li>在“筛选器”选项卡上</li> 
      <li>列（视图）选项卡中列的“高级选项”屏幕。 通过定义限定词，您可以将“字段名”与另一个字段或值进行比较。</li> 
      <li> 在自定义提示中<br><p>有关提示的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">向报表添加提示</a>。</p>。</li> 
-    </ul> <p>例如，在为计划完成日期为今天的任务构建过滤器时，您可以在“限定符”字段中选择<strong>等于</strong>，在“日期”字段中选择今天的日期：</p> <p><em>任务&gt;计划完成日期&gt;等于&gt;（今天的日期）</em> </p> <p>在此方案中，限定符为<strong>等于</strong>。<br>有关限定符的详细信息，请参阅文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">筛选器和条件修饰符</a>。</p> </td> 
+    </ul> <p>例如，在为计划完成日期为今天的任务构建过滤器时，您可以在“限定符”字段中选择<strong>等于</strong>，在“日期”字段中选择今天的日期：</p> <p><em>任务&gt;计划完成日期&gt;等于&gt;（今天的日期）</em> </p> <p>在此方案中，限定符是<strong>等于</strong>。<br>有关限定符的详细信息，请参阅文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">筛选器和条件修饰符</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>报告 </td> 

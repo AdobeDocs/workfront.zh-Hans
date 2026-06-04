@@ -7,9 +7,14 @@ description: 本页介绍了在Adobe Workfront目标的23.1版本中对“预览
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -33,7 +38,7 @@ ht-degree: 0%
 
 * **目标详细信息**：目标详细信息：查看目标描述、进度、日期和父目标信息等信息。 有关信息，请参阅[在Adobe Workfront目标中编辑目标](/help/quicksilver/workfront-goals/goal-management/edit-goals.md)。
 * **进度指示器**：在列表中查看进度指示器。 您可以内联编辑这些指标，打开编辑窗口，或从此区域删除指标。 有关信息，请参阅[在Adobe Workfront目标中编辑结果和活动](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md)。
-* **更新**：我们在目标的“更新”部分引入了一种新的评论体验，该体验现在在两个单独的选项卡中显示用户评论和系统活动注释。 有关信息，请参阅[在Adobe Workfront目标中管理目标注释](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
+* **更新**：我们在目标的“更新”部分引入了一种新的评论体验，该体验现在在两个单独的选项卡中显示用户评论和系统活动注释。有关信息，请参阅[在Adobe Workfront目标中管理目标注释](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
 共享、编辑、删除或复制目标的方式与在Workfront中对其他对象执行这些操作的方式类似。
 
 >[!IMPORTANT]

@@ -7,9 +7,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: 1055
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.1版中所做所有更改的列表，请参阅  [2018.1版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
+有关2018.1版中所做所有更改的列表，请参阅[2018.1版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 1版本包含面向Workfront管理员和其他用户的增强功能：
 
@@ -58,7 +63,7 @@ ht-degree: 0%
 
 您现在可以配置在对验证进行评论时，Workfront实例中的用户是否从Workfront接收电子邮件通知。
 
-以前，当对验证进行评论时，始终从Workfront发送验证电子邮件。 如果还在Workfront Proof中启用了通知，则会导致用户收到重复通知。 
+以前，当对验证进行评论时，始终从Workfront发送验证电子邮件。如果还在Workfront Proof中启用了通知，则会导致用户收到重复通知。 
 
 对于现有Workfront客户，Workfront默认配置为在对验证进行评论时发送电子邮件。
 

@@ -6,9 +6,14 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
+TQID: https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 792
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 0%
 
 它需要3个简单的步骤：
 
-**步骤1**：通过Post请求将文件发送到，以将文件上传到Workfront Proof  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)。 我们将返回文件哈希 — 这非常重要！ 请注意，在此阶段，您不会看到帐户中的任何内容，您迄今为止所做的一切只是向我们发送文件，但未告知我们应如何处理该文件。
+**步骤1**：通过向[https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)发送Post请求，将文件上传到Workfront Proof。 我们将返回文件哈希 — 这非常重要！ 请注意，在此阶段，您不会看到帐户中的任何内容，您迄今为止所做的一切只是向我们发送文件，但未告知我们应如何处理该文件。
 
 **步骤2**：如果还没有会话ID，请使用doLogin()或getSessionID()方法获取一个。 使用前者可使用用户的电子邮件地址和密码“登录”，如果您拥有用户的电子邮件地址和身份验证令牌，则使用后者进行登录。
 
@@ -59,7 +64,7 @@ ht-degree: 0%
 
 **团队/公共**：每个校对版本都有一个唯一的团队（公共）URL。 如果启用，它将以只读模式打开验证。 您可以使用[getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html)方法获取团队URL。
 
-**个人**：每个审阅人和验证版本的个人URL都是唯一的。 如果验证集包含3个版本，并且查看者位于所有版本，则查看者将具有3个唯一的个人URL。 个人URL会打开验证版本，其中已识别审阅人，因此应保持安全且不予共享。 通过调用[getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html)方法，然后对每个方法进行迭代，可以获得个人URL  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html)，正在获取参数“proof_url”。
+**个人**：每个审阅人和验证版本的个人URL都是唯一的。 如果验证集包含3个版本，并且查看者位于所有版本，则查看者将具有3个唯一的个人URL。 个人URL会打开验证版本，其中已识别审阅人，因此应保持安全且不予共享。 通过调用[getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html)方法，然后对每个[SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html)进行迭代并获取参数“proof_url”，可以获得个人URL。
 
 ## >在打开小型验证时如何包含自定义参数？
 

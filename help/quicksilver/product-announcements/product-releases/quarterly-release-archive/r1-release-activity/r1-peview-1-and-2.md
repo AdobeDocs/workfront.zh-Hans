@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1024
 ht-degree: 2%
 
 ---
@@ -38,7 +50,7 @@ Workfront管理员现在可以恢复过去30天内删除的项目、任务和问
 
 在项目中，审批信息显示在标题旁边的标题中。 在任务和问题上，批准信息显示在右侧面板中。
 
-有关详细信息，请参阅[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)，位于  [审批工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。
+有关详细信息，请参阅[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中的[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。
 
 ## 配置待审批的待更新对象
 
@@ -59,13 +71,13 @@ Workfront管理员现在可以恢复过去30天内删除的项目、任务和问
 
 您现在可以将布局模板分配给组。
 
-在此更改之前，您可以将布局模板分配给用户、团队和工作角色。 将布局模板分配给组时，其分配优先级最低。 
+在此更改之前，您可以将布局模板分配给用户、团队和工作角色。将布局模板分配给组时，其分配优先级最低。 
 
 有关详细信息，请参阅创建和管理布局模板。
 
 ## 更改了批量编辑用户通知
 
-围绕批量编辑用户电子邮件通知设置的功能已更改。 如果选择多个用户编辑其通知电子邮件设置，则所有选定用户仅会更改要更新的特定通知。 对于所选的所有用户，所有未更改的电子邮件通知设置保持不变，即使这些设置因用户而异。 
+围绕批量编辑用户电子邮件通知设置的功能已更改。如果选择多个用户编辑其通知电子邮件设置，则所有选定用户仅会更改要更新的特定通知。对于所选的所有用户，所有未更改的电子邮件通知设置保持不变，即使这些设置因用户而异。 
 
 在此更改之前，您选择的电子邮件通知设置已保存，并且在保存更改时，所有其他未更改通知设置都已取消选择。 
 
@@ -91,11 +103,11 @@ Workfront管理员现在可以恢复过去30天内删除的项目、任务和问
 
 * 有关我参与的项目的信息
 * “我赞助的项目”相关信息
-* 批准信息
+* 审批信息
 * “分配给我的工作”相关信息
 * 通信
 
-有关详细信息，请参阅[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。  请记住更新与您的帐户关联的电子邮件地址，以便能够测试此功能，因为预览沙盒将清除所有用户的电子邮件地址。 
+有关详细信息，请参阅[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。请记住更新与您的帐户关联的电子邮件地址，以便能够测试此功能，因为“预览Sandbox”会清除所有用户的电子邮件地址。 
 
 ## 将组设为公用
 
@@ -110,7 +122,7 @@ Workfront管理员现在可以恢复过去30天内删除的项目、任务和问
 * 项目
 * 任务
 * 问题
-* 工时表
+* 时间表
 * 文档
 
 可以在以下应用程序中共享对象的URL：
@@ -118,12 +130,12 @@ Workfront管理员现在可以恢复过去30天内删除的项目、任务和问
 * 文本消息
 * 电子邮件
 * 存储驱动器（例如iCloud驱动器）
-* 其他已安装的应用程序(例如Notes、Facebook)
+* 其他已安装的应用程序（例如，Notes、Facebook）
 * 您可以将指向对象的链接复制到剪贴板，然后将其粘贴到任何其他应用程序中。 
 
 ## 设置中的上下文相关帮助
 
-“设置”菜单下的所有区域已更新，区域右上角有一个帮助图标。 此图标提供指向有关该区域的帮助站点文章的链接。 “设置”区域中的一些部分也更新了“帮助”图标。 
+“设置”菜单下的所有区域已更新，区域右上角有一个帮助图标。此图标提供指向有关该区域的帮助站点文章的链接。“设置”区域中的一些部分也更新了“帮助”图标。 
 
 ## 添加更精确的费用率
 

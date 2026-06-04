@@ -6,10 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 0%
+source-wordcount: 2914
+ht-degree: 1%
 
 ---
 
@@ -79,7 +95,7 @@ ht-degree: 0%
                         <ul>
                         <li><strong>复制字段</strong>：您现在可以直接通过画布单击字段上的“复制”图标来复制现有字段。</li>
                         <li><strong>使用默认分区</strong>：如果表单创建者未在表单顶部添加分区，则画布中现在将显示默认分区，以便用户可以调整未分配自定义分区的字段的权限。 </li>
-                        <li><strong>更改描述性文本的大小</strong>：您现在可以为描述性文本字段分配小型、中型或大型。 您还可以在同一行与其他字段一起使用它们。 <span style="color: #ff0000;">更改描述性文本的大小已暂时延迟，但即将推出。</span></li> 
+                        <li><strong>更改描述性文本的大小</strong>：您现在可以为描述性文本字段分配小型、中型或大型。 您还可以在同一行与其他字段一起使用它们。<span style="color: #ff0000;"> 更改描述性文本的大小已暂时延迟，但即将推出。</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -89,7 +105,7 @@ ht-degree: 0%
                                 <p>预览版本： 2023年3月9日</p>
                             </li>
                             <li>
-                                 <p>生产版本：使用23.2版本<br />
+                                 <p>生产版本：随23.2版一起提供<br />
                                  <span style="color: #ff0000;">从2023年5月24日至7月21日，表单设计器Beta版在预览和生产中暂时被禁用。</span></p>
                             </li>
                         </ul>
@@ -149,7 +165,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">迭代功能在Adobe Workfront讨论区中可用</a></p>
-                        <p>Workfront展示板中提供了几项新功能，使您能够使用Agile Scrum功能。 这些功能包括：
+                        <p>Workfront展示板中提供了几项新功能，使您能够使用Agile Scrum功能。这些功能包括：
                         <ul>
                         <li>用于分组与同一团队相关的展示板和协作处理工作的工作流</li>
                         <li>信息卡列表或积压的工作，可选择使用源将信息卡连接到Workfront任务和问题</li>
@@ -538,7 +554,7 @@ ht-degree: 0%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新的问题Beta评论体验</a>
                         <p>Adobe Workfront中的评论体验更新目前正在开发中。 此更新在某些对象的“更新”部分中包含新界面、新功能和改进的性能。 </p>
-                        <p>此新体验最终将统一整个Adobe Workfront以及整个Adobe Experience Cloud中的其他内容的评论。 </p>
+                        <p>此新体验最终将统一整个Adobe Workfront以及其他Adobe Experience Cloud中的评论。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -592,7 +608,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">将画板导出为XD的单个PDFPDF或多个Adobe Workfront文件</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">将画板导出为XD的单个PDF或多个Adobe Workfront文件</span></a>
                         <p>在Adobe Workfront for XD插件中，您现在可以选择将画板导出为单个PDF文件或多个PDF文件。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

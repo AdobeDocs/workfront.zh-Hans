@@ -7,11 +7,28 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xSsExclVrriNSAjdAqslQGJWYX62MYQgHjlWEFEduq4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: be72a70e-9be0-4991-b53e-211cfdc677dd
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: 1082
 ht-degree: 1%
 
 ---
@@ -153,7 +170,7 @@ Workfront Library是一个企业数字内容中心，可用于管理组织数字
 
 为了提供最佳安全性，Workfront要求将使用TLS 1.0或更早版本的所有集成和Web流量升级为使用TLS 1.1或更高版本。 此更改已在“预览”环境中生效。
 
-有关详细信息，请参阅Adobe Workfront[中需要的](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)TLS 1.2。
+有关详细信息，请参阅Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
 
 ### Flash应用程序删除 {#flash-application-removal}
 

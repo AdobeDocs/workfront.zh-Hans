@@ -5,11 +5,18 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -38,8 +45,7 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->预览： 2025年12月15日
->生产快速发布： 2025年12月15日\
+>预览： 2025年12月15日>生产快速发布： 2025年12月15日\
 >为每个人生产： 2025年12月15日
 
 您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。
@@ -52,8 +58,7 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->预览： 2025年11月13日
->生产快速发布： 2025年11月13日\
+>预览： 2025年11月13日>生产快速发布： 2025年11月13日\
 >适用于所有人的生产： 2025年11月13日
 
 我们正在引入对具有Workfront Proofing的Adobe Express的跨组织支持。 此增强功能允许跨多个IMS组织运营的客户无缝使用和管理验证工作流。
@@ -65,8 +70,7 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->预览： 2025年10月30日
->生产快速发布： 2025年10月30日\
+>预览： 2025年10月30日>生产快速发布： 2025年10月30日\
 >为每个人生产： 2025年10月30日
 
 现在，您可以使用&#x200B;管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。

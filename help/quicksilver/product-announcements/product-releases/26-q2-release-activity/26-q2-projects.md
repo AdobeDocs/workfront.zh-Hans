@@ -4,10 +4,16 @@ description: 2026年第二季度项目增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: def76c9c-d808-489b-82c7-b1f44c241116
+TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 1%
+source-wordcount: 262
+ht-degree: 2%
 
 ---
 
@@ -21,8 +27,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->预览：2026年2月5日
->生产：从2026年2月5日开始\
+>预览： 2026年2月5日>生产：从2026年2月5日开始\
 >[!BADGE 关闭计划]{type=Neutral}
 
 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  
@@ -32,7 +37,7 @@ ht-degree: 1%
 
    * 分配 
    * 所有者或任务所有者 
-   * 被分派人的角色 
+   * 受让人的角色 
 
 * 已删除“切换回旧体验”选项。
 
@@ -42,8 +47,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->预览： 2026年1月26日
->生产：从2026年2月5日开始
+>预览： 2026年1月26日>生产：从2026年2月5日开始
 
 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。
 
@@ -60,6 +64,3 @@ ht-degree: 1%
 * 已删除“切换回旧体验”选项。
 
 有关信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
-
-
-

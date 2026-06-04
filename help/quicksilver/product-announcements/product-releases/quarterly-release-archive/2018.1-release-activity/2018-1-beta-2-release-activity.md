@@ -7,9 +7,18 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: 1304
 ht-degree: 2%
 
 ---
@@ -22,7 +31,7 @@ ht-degree: 2%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.1版中所做所有更改的列表，请参阅  [2018.1版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
+有关2018.1版中所做所有更改的列表，请参阅[2018.1版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
@@ -149,7 +158,7 @@ ht-degree: 2%
 
 ### 改进了布局和设计 {#improved-layout-and-design}
 
-校对查看器的外观和感觉已更新。 此  已更新验证查看器的以下区域：
+校对查看器的外观和感觉已更新。 已更新验证查看器的以下区域：
 
 * 缩略图区域
 
@@ -161,13 +170,13 @@ ht-degree: 2%
 
 ### 按评论编号搜索评论 {#search-comments-by-comment-number}
 
-现在，当您在验证查看器中搜索评论列表时，可以在搜索字段中输入评论的编号。 然后，筛选注释列表以显示您搜索的注释。 
+现在，当您在验证查看器中搜索评论列表时，可以在搜索字段中输入评论的编号。然后，筛选注释列表以显示您搜索的注释。 
 
 有关更多信息，请参阅中的。
 
 ### 用于编辑标记指示器旁的注释的选项 {#option-to-edit-comment-next-to-the-markup-indicator}
 
-您现在可以更轻松地编辑现有评论。 单击校样上的注释指示器后，球标旁边会显示编辑图标。 
+您现在可以更轻松地编辑现有评论。单击校样上的注释指示器后，球标旁边会显示编辑图标。 
 
 在此更改之前，您必须单击“注释”区域中的编辑图标。  
 

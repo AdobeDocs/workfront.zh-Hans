@@ -6,10 +6,22 @@ description: 您可以通过将工作项拖放到正确用户，使用Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+TQID: https://experienceleague.adobe.com/AHMv9vH1EFRoQ8P026w-bkq-cquKKIN3i1loPl5vSw8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 0%
+source-wordcount: 946
+ht-degree: 2%
 
 ---
 
@@ -19,17 +31,17 @@ ht-degree: 0%
 
 有关使用工作负载均衡器将工作分配给用户的一般信息，请参阅[在工作负载均衡器中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td>
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td>
   </tr>
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -74,7 +86,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >启用“显示角色分配”设置后，角色分配会显示在“未分配工作”区域的工作项下。 有关详细信息，请参阅[导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中的[自定义视图](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
+   >启用“显示角色分配”设置后，角色分配会显示在“未分配工作”区域的工作项下。 有关详细信息，请参阅[导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)中的[自定义视图](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)。
 
 1. （视情况而定）在项目的工作负载均衡器中，单击&#x200B;**显示所有用户**&#x200B;图标![显示所有用户](assets/show-all-users-icon-project-workload-balancer.png)以显示所有Workfront用户。
 
@@ -126,7 +138,7 @@ ht-degree: 0%
 
    双击每日或每周分配，以修改将用户分配给工作项的时间量。
 
-   有关在工作负载均衡器中修改用户分配的信息，请参阅在工作负载均衡器[中管理用户分配一文](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的“修改用户分配”一节。
+   有关在工作负载均衡器中修改用户分配的信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配一文中的“修改用户分配”一节。
 
    有关使用工作负载均衡器从工作项中删除分配的信息，请参阅工作负载均衡器中的[取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)。
 

@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/f-IlcpRr2VY8bfdWtfKWs5snkxwPocgPgKgeEi5Nvms
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: 1385
 ht-degree: 0%
 
 ---
@@ -100,7 +113,7 @@ ht-degree: 0%
 
 您现在可以决定是否允许任务的主要被分配人的休息时间计划以调整计划日期。
 
-您可以在系统级别(作为Workfront管理员)或项目级别（作为项目经理）做出此决策。
+您可以在系统级别（作为Workfront管理员）或项目级别（作为项目经理）做出此决策。
 
 在此更改之前，如果任务限制允许修改日期，则主要被分配人的空闲时间始终调整任务的计划日期。
 
@@ -193,7 +206,7 @@ ht-degree: 0%
 >
 >在生产版本发布日期之前，新的自定义字段在Mobile、Outlook、MS Teams和本机Salesforce集成上不受支持。
 >
->在生产环境中，现在支持Outlook和MS团队。 自6月底或7月初起，Mobile已受支持；自6月起，Salesforce集成已受支持。
+>在生产环境中，现在支持Outlook和MS团队。 从6月底或7月初起，Mobile一直受支持；从6月起，Salesforce集成也一直受支持。
 
 ## 新请求“主题”字段已重命名为“名称”
 

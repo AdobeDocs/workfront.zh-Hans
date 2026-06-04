@@ -6,9 +6,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -56,8 +61,8 @@ ht-degree: 0%
 >存在以下情况：
 >
 >* 实际小时数表示自2021年5月以来为项目、任务和问题记录的小时数。
->* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。 这包括2021年5月之前记录到当前时间的小时数。
-><br>您可能需要更新报表以反映新字段及其值。
+>* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。这包括2021年5月之前记录到当前时间的小时数。
+><br>您可能需要更新报告以反映新字段及其值。
 ><br>Workfront使用旧版实际小时数计算实际劳力成本。
 
 有关信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。

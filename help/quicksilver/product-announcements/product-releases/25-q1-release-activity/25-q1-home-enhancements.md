@@ -5,11 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+TQID: https://experienceleague.adobe.com/z1Ktqu68DrH3GTmk-82YSZabdb-Ca7v1BdOt6BCMoyo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -64,7 +69,7 @@ ht-degree: 0%
 
 您现在可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
 
-有关详细信息，请参阅“优先级”工作列表[中的](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)查看项目和任务详细信息。
+有关详细信息，请参阅“优先级”工作列表[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的查看项目和任务详细信息。
 
 ## 在优先级中上传和查看文档和验证
 
@@ -134,7 +139,7 @@ ht-degree: 0%
 
 您现在可以从优先级工作列表直接导航到Workfront中的项目。
 
-有关详细信息，请参阅“优先级”工作列表[中的](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)查看项目和任务详细信息。
+有关详细信息，请参阅“优先级”工作列表[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的查看项目和任务详细信息。
 
 ## 更新了“优先级”中“我的焦点”列中的选项
 
@@ -159,7 +164,7 @@ ht-degree: 0%
 
 您现在可以在“优先级”的工作列表中查看项目详细信息和注释。
 
-有关详细信息，请参阅“优先级”工作列表[中的](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)查看项目和任务详细信息。
+有关详细信息，请参阅“优先级”工作列表[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的查看项目和任务详细信息。
 
 ## 优先级增强演示视频
 

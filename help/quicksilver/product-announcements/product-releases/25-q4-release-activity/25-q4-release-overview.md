@@ -1,20 +1,39 @@
 ---
-title: 2025年第四季度发行版概述
+title: 2025 年第四季度发行版本概述
 description: 本页介绍了2025年第四季度版本中包含的功能。 这些增强功能计划本季度在“生产”环境中提供。
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/TSymsyM0U-UVGGOntFeIzTQEep19ZVi1Lk54wRV7mmE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: 2434
 ht-degree: 4%
 
 ---
 
-# 2025年第四季度发行版概述
+# 2025 年第四季度发行版本概述
 
 本页介绍了计划于2025年10月发布的2025年第四季度版本中包含的功能。
 
@@ -204,7 +223,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">主页中“我的请求”小组件的更新</a><p></p>
-            <p>为了在Workfront与Workfront Planning之间创造更加无缝的体验，我们重新设计了主页中的“我的请求”小组件。 新的构件具有以下更改：
+            <p>为了在Workfront与Workfront Planning之间创造更加无缝的体验，我们重新设计了主页中的“我的请求”小组件。新的构件具有以下更改：
             <ul>
                 <li>改进请求信息的布局和组织</li>
                 <li>增强的筛选和排序选项</li>
@@ -346,7 +365,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">请求体验的更新</a><p></p>
-            <p>为了在Workfront和Workfront Planning中提出请求时提供更好的用户体验，我们更新了请求体验。 现在您可以：
+            <p>为了在Workfront和Workfront Planning中提出请求时提供更好的用户体验，我们更新了请求体验。现在您可以：
             <ul>
                 <li>在单个列表中查看Workfront和Workfront Planning请求。</li>
                 <li>根据您指定的条件筛选已提交的请求。</li>
