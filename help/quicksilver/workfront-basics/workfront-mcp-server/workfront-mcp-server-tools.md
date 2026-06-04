@@ -5,7 +5,7 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: d942af03d03f3e22b7fea0aa3782520d3dcb7f54
+source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 6%
@@ -204,3 +204,4 @@ ht-degree: 6%
 
 * 评论
 * 展示板
+
