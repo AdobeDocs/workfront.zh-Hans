@@ -5,10 +5,10 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
+source-git-commit: d942af03d03f3e22b7fea0aa3782520d3dcb7f54
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 5%
+source-wordcount: '1559'
+ht-degree: 6%
 
 ---
 
@@ -67,8 +67,11 @@ ht-degree: 5%
 | 获取审批工作流信息 | `approvals_get_approval_info` | 返回文档版本的当前审批工作流（阶段、参与者、状态）。 | 读取 |
 | 创建或更新审批工作流 | `approvals_create_or_update_approval_workflow` | 创建或更新文档版本的审批工作流暂存。 支持线性和平行（图形）阶段依赖关系。 | 写入 |
 | 从模板创建审批 | `approvals_create_approval_from_template` | 使用现有模板在文档上创建审批工作流。 | 写入 |
-| 请求文档审批 | `approvals_request_document_approval` | 打开引导式表单，请求审批文档版本（标题、审批者/审阅者、可选的截止日期和消息）。 | 写入 |
 | 删除审批阶段 | `approvals_delete_approval_stage` | 按名称或职位从审批工作流中删除单个阶段。 只能删除未启动的阶段。 | 写入 |
+
+<!--
+| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
+-->
 
 ### 提醒
 
