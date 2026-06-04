@@ -9,10 +9,16 @@ exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/HPw9hvYELkeZOzP2OpoJcpicXdEP76nmeEwdn3uWojY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2624
@@ -273,7 +279,7 @@ Workfront中的对象之间存在以下两个关系：
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>这是用于分隔列表中各个值的分隔符。<br>我们建议使用<code>&lt;p&gt;</code>，它在值之间添加换行符。</p> <p>您还可以使用以下命令：</p> <p><code>&amp;zwj;</code> （零宽度连接符）。 集合的值之间没有分隔符。<br><strong>，</strong> =逗号分隔符。 集合的值用逗号分隔，后面没有空格。<br><strong>/</strong> =斜杠分隔符。 集合的值用斜杠分隔。<br><strong>-</strong> =短划线分隔符。 集合的值用短划线分隔。<br>默认情况下，将此行留空将在集合的值之间添加一个逗号，后跟一个空格。</p> </td> 
+   <td> <p>这是用于分隔列表中各个值的分隔符。<br>我们建议使用<code>&lt;p&gt;</code>，它在值之间添加换行符。</p> <p>您还可以使用以下命令：</p> <p><code>&zwj;</code> （零宽度连接符）。 集合的值之间没有分隔符。<br><strong>，</strong> =逗号分隔符。 集合的值用逗号分隔，后面没有空格。<br><strong>/</strong> =斜杠分隔符。 集合的值用斜杠分隔。<br><strong>-</strong> =短划线分隔符。 集合的值用短划线分隔。<br>默认情况下，将此行留空将在集合的值之间添加一个逗号，后跟一个空格。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>列名称</em> </td> 
@@ -397,12 +403,12 @@ Workfront中的对象之间存在以下两个关系：
 1. 单击&#x200B;**主菜单**&#x200B;菜单![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
-1. 使用集合引用生成筛选器，如本文中报表](#reference-a-collection-in-the-filter-of-a-report)的筛选器中的[引用集合部分所述。
+1. 使用集合引用生成筛选器，如本文中报表[&#128279;](#reference-a-collection-in-the-filter-of-a-report)的筛选器中的引用集合部分所述。
 1. 单击&#x200B;**报表设置**。
 1. 单击&#x200B;**报告提示**。
 1. 单击&#x200B;**添加提示**。
 1. 单击&#x200B;**自定义提示**。
-1. 在&#x200B;**字段{name****1}字段中指定提示的名称。**
+1. 在&#x200B;**字段{name**&#x200B;**1}字段中指定提示的名称。**
 
 1. 指定&#x200B;**下拉项目标签**。
 1. 在&#x200B;**条件**&#x200B;字段中指定以下内容：

@@ -9,11 +9,17 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2839
@@ -180,7 +186,7 @@ ht-degree: 0%
 
 作为向用户分配工作的一部分，您可以修改工作负载均衡器中的用户分配，以确保不会过度分配用户分配，或确保资源之间的小时数准确平衡。 有关识别用户是否过度分配的信息，请参阅本文中的[用户分配概述](#user-allocation-overview)部分。
 
-1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
+1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
 1. 转到工作负载均衡器。
 1. （可选）单击&#x200B;**周**&#x200B;或&#x200B;**月**&#x200B;以管理用户的每周或每月分配。
 

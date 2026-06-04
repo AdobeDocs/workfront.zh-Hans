@@ -8,9 +8,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
 TQID: https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 831
@@ -30,11 +33,11 @@ ht-degree: 0%
 
 2017.3 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [通过Stage Activation (Workfront Proof)限制对工作流的访问](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * 用于更改视图的[资源规划者选项](#resource-planner-option-to-change-the-view)
 * [在项目的使用情况报告中筛选内容](#filter-content-within-a-utilization-report-on-a-project)

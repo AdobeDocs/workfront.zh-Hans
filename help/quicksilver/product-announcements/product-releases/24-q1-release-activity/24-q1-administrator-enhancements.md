@@ -6,8 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bff29a53-8453-4157-aa80-4dbe9f1cc88d
 TQID: https://experienceleague.adobe.com/FSsKJ9crCCucaQnE-eI6-S9BKFGj4rEo8nxDJC-g5eg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 134
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第一季度版本中对“预览”环境所做的所有管理员增强。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 ## 现在提供了过去12个月的校对/文档决策
 

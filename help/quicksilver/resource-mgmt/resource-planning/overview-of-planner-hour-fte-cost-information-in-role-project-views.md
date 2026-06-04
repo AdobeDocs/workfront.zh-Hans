@@ -8,11 +8,19 @@ author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3089
@@ -229,7 +237,7 @@ ht-degree: 0%
 
 * 默认情况下，对于所有资源和所有项目，资源规划者中的预算小时数为零。
 * 您可以手动估算用户和角色的预算小时数，也可以使用项目或工作角色&#x200B;**更多**&#x200B;菜单中的链接之一来根据计划小时数更新它们。\
-  有关项目和角色选项的更多信息，请参阅本文中资源规划者](#Budget)的项目和角色视图中的[小时概述、FTE和成本信息。
+  有关项目和角色选项的更多信息，请参阅本文中资源规划者[&#128279;](#Budget)的项目和角色视图中的小时概述、FTE和成本信息。
 
 * 您可以为预算小时、FTE或成本的最小时间段是一周。 您不能为一天预算小时数、FTE或成本。
 * 预算小时数平均分配给分配给分配给任务的每个资源的任务持续时间内的每一天。 任务持续时间基于任务计划开始日期和完成日期，包括该时间段内的每个日历日。

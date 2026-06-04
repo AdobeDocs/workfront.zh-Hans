@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
 TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1158
@@ -69,7 +76,7 @@ ht-degree: 0%
 ### 主页区域（已更新我的工作）
 
 * 主页区域中的[日历视图](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
-* 主页](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)中的工作列表（左侧面板）的[其他更新 
+* 主页[&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)中的工作列表（左侧面板）的其他更新 
 * [主页区域已更新工作列表（左面板）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
 * [直接从主页区域编辑字段](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
@@ -160,7 +167,7 @@ ht-degree: 0%
 
 为了提供最佳安全性，Workfront要求将使用TLS 1.0或更早版本的所有集成和Web流量升级为使用TLS 1.1或更高版本。
 
-有关详细信息，请参阅Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的[TLS 1.2。
+有关详细信息，请参阅Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
 
 ### Flash应用程序删除 {#flash-application-removal}
 

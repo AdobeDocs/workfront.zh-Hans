@@ -7,11 +7,19 @@ author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2369
@@ -62,7 +70,7 @@ ht-degree: 1%
 
 ## 资源规划者筛选器概览
 
-为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述[部分。
+为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述部分。
 
 您还可以构建自定义的过滤器。 有关在资源规划者中自定义筛选器的信息，请参阅本文中的[创建资源规划者筛选器](#create-resource-planner-filters)部分。
 
@@ -127,10 +135,10 @@ ht-degree: 1%
 
 默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者</a>中的默认筛选器的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">概述部分。
 
-1. 在的左上角，单击&#x200B;**筛选器**图标。
+1. 在的左上角，单击&#x200B;**筛选器**&#x200B;图标。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展开**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
+展开&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
    ![筛选器下拉列表](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 要使用内置标准构建过滤器，请指定以下任意字段：
@@ -271,7 +279,7 @@ ht-degree: 1%
 
 您可以删除不再需要的过滤器。 您不能删除默认筛选器。
 
-有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
 
 删除过滤器时，将删除所有有权访问资源规划者的Workfront用户的过滤器。 在删除过滤器之前，请确保您要删除的过滤器不再由在资源规划者中工作的任何其他人员使用。 无法恢复已删除的筛选器。
 
@@ -296,7 +304,7 @@ ht-degree: 1%
 >
 >所有用户（包括Workfront管理员）都只能访问已构建或已与其共享的过滤器。 您可以与特定用户共享过滤器，以使过滤器可用于所有资源规划者用户。
 
-有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
 
 有关复制筛选器的信息，请参阅本文中的[复制筛选器](#duplicate-a-filter)部分。
 

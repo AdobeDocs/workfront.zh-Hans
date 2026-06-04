@@ -7,8 +7,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
 TQID: https://experienceleague.adobe.com/Ig2M3eP08MMQiaUYLY8eeYGY-Ua8re5iP2UpJztXx2o
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 206
@@ -35,4 +37,4 @@ ht-degree: 0%
 
 移动应用程序现在也支持展示板收藏集，允许移动用户从其移动设备展示板列表中查看在桌面版本中他们有权访问的任何收藏集。
 
-有关详细信息，请参阅移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
+有关详细信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。

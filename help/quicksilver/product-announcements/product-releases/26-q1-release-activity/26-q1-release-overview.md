@@ -8,11 +8,22 @@ exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/XpMJHQS6S5MemL-GKQETlWJy3PC2EaxvySQO1TvFVZQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3163
@@ -89,7 +100,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>输入日期和按ID输入的内容现在存储在自定义表单、字段和部分中。 您可以在报表中将这些数据选项用作过滤器、视图或分组。 要在“设置”中的自定义表单、字段或节列表中显示它们，请添加“输入日期”和“输入者：名称”作为新视图或现有视图中的列。</p>
         </td>
         <td>2025年11月13日</td>
@@ -143,7 +154,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Adobe Express中发送审阅时选择Workfront项目<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Adobe Express中发送审阅时选择Workfront项目<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。</p>
         </td>
         <td>2025 年 12 月 15 日</td>
@@ -152,7 +163,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
      <tr>
         <td>
-            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
+            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>我们正在引入对具有Workfront Proofing的Adobe Express的跨组织支持。 此增强功能允许跨多个IMS组织运营的客户无缝使用和管理验证工作流。</p>
         </td>
         <td>2025年11月13日</td>
@@ -161,7 +172,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>现在，您可以使用​管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。 </p>
         </td>
         <td>2025年10月30日</td>
@@ -209,7 +220,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中发送审核时选择Workfront项目</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中发送审核时选择Workfront项目</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。 </p>
         </td>
         <td>2025 年 12 月 15 日</td>
@@ -339,7 +350,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>现在，您可以在创建KPI、表或图表报表后，将其复制到画布仪表板中。 复制后，您可以在保存之前根据需要编辑报表。</p>
         </td>
         <td>2025年10月23日</td>

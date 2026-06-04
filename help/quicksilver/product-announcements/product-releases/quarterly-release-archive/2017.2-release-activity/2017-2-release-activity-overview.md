@@ -8,9 +8,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 66b499f1-12c0-4486-a5b8-ebabd0ccd59d
 TQID: https://experienceleague.adobe.com/6GOzTOO4YYK45YdK1kekik6ZdIfKyeM9j44HbcB-TbQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 688
@@ -68,7 +71,7 @@ ht-degree: 0%
 * [将项目名称配置为在计划时间线的任务和问题上显示](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
 * [配置是否将父任务显示在计划时间线上](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
 * [更轻松地展开或折叠计划时间线上的所有任务和问题](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
-* 滚动](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)时，[角色和用户信息仍显示在计划时间表的顶部
+* 滚动[&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)时，角色和用户信息仍显示在计划时间表的顶部
 * [资源计划：默认显示较少项目](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#resource-scheduling-show-fewer-items-by-default)
 * [资源计划：拖动任务和问题时显示放置指示器和过度分配](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
 * [资源计划：用户分配不再四舍五入到最接近的半小时](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-tenth)

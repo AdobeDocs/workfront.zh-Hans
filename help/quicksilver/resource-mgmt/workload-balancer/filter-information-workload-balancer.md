@@ -7,11 +7,19 @@ author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 TQID: https://experienceleague.adobe.com/GwsP3EbD5BOQaS-xTxmpRlmqkGXdVSoowt-KG34O75M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2441
@@ -155,7 +163,7 @@ ht-degree: 1%
 
 无论从何处访问工作负载均衡器，为工作负载均衡器中的未分配工作和分配的工作区域创建过滤器的过程都是相同的。 有关定位工作负载均衡器的信息，请参阅[定位工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-您可以从头开始创建过滤器，或编辑某个预定义过滤器。 有关可编辑的现有筛选器的信息，请参阅本文的工作负载均衡器](#edit-an-existing-filter-in-the-workload-balancer)部分中的[编辑现有筛选器。
+您可以从头开始创建过滤器，或编辑某个预定义过滤器。 有关可编辑的现有筛选器的信息，请参阅本文的工作负载均衡器[&#128279;](#edit-an-existing-filter-in-the-workload-balancer)部分中的编辑现有筛选器。
 
 1. 转到工作负载均衡器。
 
@@ -270,7 +278,7 @@ ht-degree: 1%
    * 任何字段、修饰符或值。
 
 1. （可选）单击&#x200B;**添加过滤器**&#x200B;以将更多语句添加到重复的过滤器。
-1. 单击“保存”****&#x200B;以将复制的筛选器保存在&#x200B;**我的筛选器**&#x200B;区域。 原始筛选器保持不变，复制的筛选器另存为新筛选器。
+1. 单击“保存”**&#x200B;**&#x200B;以将复制的筛选器保存在&#x200B;**我的筛选器**&#x200B;区域。 原始筛选器保持不变，复制的筛选器另存为新筛选器。
 
 ## 在工作负载均衡器中编辑现有过滤器 {#edit-an-existing-filter-in-the-workload-balancer}
 

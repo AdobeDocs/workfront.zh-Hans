@@ -8,9 +8,12 @@ exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 741
@@ -22,7 +25,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第二季度版本中对“预览”环境做出的所有更新流和通知增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## 添加到迭代的新评论体验
 

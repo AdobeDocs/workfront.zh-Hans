@@ -8,8 +8,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
 TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1055
@@ -29,13 +31,13 @@ ht-degree: 0%
 
 2018.1 Beta 1版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [已更新布局模板以支持主区域](#updated-layout-template-to-support-the-home-area)
 * [禁用从Workfront发送的校对电子邮件通知](#disable-proofing-email-notifications-sent-from-workfront)
 * [添加到事件订阅的新资源](#new-resources-added-to-event-subscriptions)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 * [在业务案例和更新的业务案例摘要下显示资源规划者数据](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)

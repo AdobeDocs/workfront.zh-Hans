@@ -6,9 +6,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ea9c93c-fae4-47da-ae34-39b73ce85a3c
 TQID: https://experienceleague.adobe.com/bTUJTZd4KSYmY75T1Q22USVhidJL9XEXk0F5mzAg174
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 184
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 本页介绍了2026年第一季度版本与预览环境之间的集成增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 
 ## 在Creative Cloud Express中发送审核时选择Workfront项目

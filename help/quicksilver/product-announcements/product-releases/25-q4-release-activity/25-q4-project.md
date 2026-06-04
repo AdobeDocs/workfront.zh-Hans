@@ -6,9 +6,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
 TQID: https://experienceleague.adobe.com/-e9g0TiXPly9kkevZu5fOu1PivbEh9nEIpKS3f2E6JA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 321
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第四季度版本中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
 ## 新的Project Health测试版
 

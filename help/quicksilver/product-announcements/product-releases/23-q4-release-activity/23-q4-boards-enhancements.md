@@ -6,8 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
 TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 530
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 本页介绍了在2023年第四季度发行的“预览”环境中增强的所有展示板。 这些增强功能在23.10版本的生产环境中提供。
 
-有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
+有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
 
 有关如何在季度发布之前选择启用新展示板功能的详细信息，请参阅[Adobe Workfront展示板的早期功能选择启用](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md)。
 

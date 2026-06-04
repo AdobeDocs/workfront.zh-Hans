@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
 TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3190
@@ -32,15 +39,15 @@ ht-degree: 1%
 
 2018.2 Beta 5版本包含适用于Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [使用审核日志查看用户触发的更改](#view-user-triggered-changes-with-audit-logs)
 * [以组管理员身份查看许可证信息](#view-license-information-as-a-group-administrator)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * 主页区域中的[日历视图](#calendar-view-in-the-home-area)
-* 主页](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的[其他更新
+* 主页[&#128279;](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的其他更新
 * [为自动资源计划配置工作角色限制](#configure-job-role-limits-for-automated-resource-scheduling)
 * 资源规划者中的[项目和角色视图改进](#project-and-role-view-improvements-in-the-resource-planner)
 * [调整项目列表的列宽](#resize-column-widths-for-project-lists)
@@ -226,7 +233,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在以下视频中，问题集合的示例文本模式不正确。 报表](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的[引用收藏集中提供了正确的示例文本模式。
+>在以下视频中，问题集合的示例文本模式不正确。 报表[&#128279;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的引用收藏集中提供了正确的示例文本模式。
 
 ## 在Workfront中添加新文档版本时，新增更强大的版本菜单 {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 

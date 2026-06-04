@@ -6,9 +6,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 TQID: https://experienceleague.adobe.com/34NxdNzvfq4s7yUjOeEcOZVIbt8RD0zITWAWkYC8S3k
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 337
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第二季度版本中对“预览”环境所做的所有项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 
 ## 已将更相关的分配添加到“新建任务”工作流
