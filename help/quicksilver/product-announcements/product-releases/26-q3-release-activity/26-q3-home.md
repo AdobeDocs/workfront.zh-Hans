@@ -4,7 +4,7 @@ description: 在2026年第三季度发布时间范围内的主页增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -28,4 +28,5 @@ ht-degree: 0%
 您还可以创建和共享优先级工作列表的视图。
 
 有关优先级的详情，请参阅[自定义优先级工作列表列](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)。 有关创建视图和使用列管理器的信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
 
