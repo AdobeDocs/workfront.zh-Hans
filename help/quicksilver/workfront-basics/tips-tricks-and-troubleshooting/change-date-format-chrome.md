@@ -41,4 +41,4 @@ ht-degree: 0%
 
 日期首选项由Adobe Unified Shell中设置的语言首选项控制。 默认语言设置（因此也是默认日期设置）是`en-US`。
 
-有关详细信息，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)的[!DNL Adobe Unified Experience] 。
+有关详细信息，请参阅 [!DNL Workfront] [&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#access-your-profile-and-preferences)的[!DNL Adobe Unified Experience] 。
