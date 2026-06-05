@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -133,7 +133,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->建议尽可能使用实际小时数字段，因为旧版实际小时数字段显示的小时数可能不准确，这是因为在小时数以分钟为单位存储时，递增方式导致此情况。
+>强烈建议尽可能使用实际小时数字段，因为传统实际小时数字段可能会显示不准确的小时数，这是因为在小时数以分钟为单位存储时，递增方式导致出现不准确的小时数。 此外，旧版实际小时数在报表的图表中无法正确显示。
+> 
+>所有使用旧版实际小时数的自定义公式都已迁移到实际小时数。 旧版实际小时数不能再用于计算和公式中。
 
 ## 任务和问题的实际小时数与项目的实际小时数
 
@@ -183,9 +185,15 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 ### 报表中的实际小时数和旧版实际小时数
 
-在构建任务、问题或项目报告时，您可以显示报告中每个任务、问题或项目的实际小时数和旧版实际小时数值。
+构建任务、问题或项目报告时，您可以在报告中显示每个任务、问题或项目的实际小时数和旧版实际小时数值。
 
 有关实际小时数和旧版实际小时数之间差异的信息，请参阅本文中的[实际小时数和旧版实际小时数](#actual-hours-vs-legacy-actual-hours)部分。
+
+>[!NOTE]
+>
+>强烈建议在所有报表中使用实际小时数字段。 旧版实际小时数在报表的图表中无法正确显示。
+> 
+>替换字段时，请注意，旧版实际小时数以分钟为单位存储值，而实际小时数以小数精度以小时为单位存储值。
 
 要在任务报表中显示实际小时数和传统实际小时数，请执行以下操作：
 
@@ -205,7 +213,8 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 如果要查看用户对其分配的任务和问题所做工作的进度，可以在以下资源管理工具中查看这些进度：
 
-* 利用率报表。\
+* 利用率报表。
+
   有关信息，请参阅[资源利用率报告概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 * 资源规划者。
@@ -219,7 +228,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 存储小时数的大多数Workfront字段都会在几分钟内保存在Workfront数据库中。 例如，任务的“计划小时数”字段的名称在Workfront数据库中为`workRequired`，以分钟为单位存储。
 
-在API调用或计算的自定义字段或列中访问这些字段时，您必须考虑从分钟到小时的转换。
+在访问API调用中的这些字段时，您必须考虑从分钟到小时的转换。<!-- or in calculated custom fields or columns.-->
 
 项目、任务或问题记录的实际小时数当前以分钟的形式存储在Workfront数据库中，其valuefield为`actualWorkRequired`。
 
@@ -229,6 +238,10 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 * **实际小时数**： 2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
 * **传统实际小时数**：随时为项目、任务或问题记录的小时数，包括2021年5月之前的小时数。 它们在Workfront数据库中以分钟为单位存储，其valuefield为`actualWorkRequired`。
+
+>[!NOTE]
+>
+>所有使用旧版实际小时数的自定义公式都已迁移到实际小时数。 旧版实际小时数或`actualWorkRequired`不能再用于计算和公式中。
 
 有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

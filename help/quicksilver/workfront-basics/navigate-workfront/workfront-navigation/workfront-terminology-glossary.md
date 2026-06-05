@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 21551
+source-wordcount: 21586
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 实际小时数]</td> 
-   <td> <p>在项目、任务或问题报表中，[!UICONTROL 实际小时数]是2021年5月之后在项目、任务或问题上记录的所有小时数的总和。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果从任务1的[!UICONTROL 更新]选项卡中单击“记录时间”并输入25小时，则任务1的实际小时数= 25小时。 </p> <p>[!DNL Workfront] 使用以下公式计算父任务或项目的[!UICONTROL 实际小时数]：</p> 
+   <td> <p>在项目、任务或问题报表中，[!UICONTROL 实际小时数]是2021年5月之后在项目、任务或问题上记录的所有小时数的总和。 强烈建议在所有报表中使用实际小时数，而不要使用旧版实际小时数。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果从任务1的[!UICONTROL 更新]选项卡中单击“记录时间”并输入25小时，则任务1的实际小时数= 25小时。 </p> <p>[!DNL Workfront] 使用以下公式计算父任务或项目的[!UICONTROL 实际小时数]：</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -1293,7 +1293,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 旧版实际小时数]</td> 
-   <td> <p>在项目、任务或问题报表中，[!UICONTROL 旧版实际小时数]是任何时间（包括2021年5月之前）在项目、任务或问题上记录的所有小时数的总和。</p>  
+   <td> <p>在项目、任务或问题报表中，[!UICONTROL 旧版实际小时数]是任何时间（包括2021年5月之前）在项目、任务或问题上记录的所有小时数的总和。 强烈建议在所有报表中使用实际小时数，而不要使用旧版实际小时数。</p>  
    <p>旧版实际小时数在项目、任务或问题详细信息区域显示为实际小时数。 </p>
    <p>另请参阅<strong>实际小时数</strong>。
     <p>有关详细信息，请参阅<a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">查看实际小时数</a>。</p>
