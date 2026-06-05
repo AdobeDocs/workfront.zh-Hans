@@ -4,9 +4,9 @@ description: 2026年第三季度报告增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 本页介绍了在2026年第三季度版本中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 对自定义公式中实际小时数的更改
+
+>[!NOTE]
+>
+>预览： 2026年6月1日>生产快速发布： 2026年6月1日>适用于所有人的生产： 2026年6月1日
+
+2025年，新的Actual Hours字段作为`actualWorkRequiredDouble`添加到Workfront数据库中，现有的Actual Hours字段（数据库中的`actualWorkRequired`）已重命名Legacy Actual Hours。 有关详细信息，请参阅[发行说明](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)。
+
+2026年6月，使用`actualWorkRequired`（旧版实际小时数）的现有自定义公式已迁移为使用`actualWorkRequiredDouble`（实际小时数）。 `actualWorkRequired`不能再用于计算和公式中。
+
+此外，强烈建议在所有报表中使用`actualWorkRequiredDouble`。
+
+替换字段时，请注意，`actualWorkRequired`以分钟为单位存储值，而`actualWorkRequiredDouble`以小数精度以小时为单位存储值。
+
+有关实际小时数的详细信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
 ## 画布功能板报表中的自定义货币数据字段
 

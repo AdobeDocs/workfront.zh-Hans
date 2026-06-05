@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1588'
 ht-degree: 2%
 
 ---
@@ -205,6 +205,15 @@ ht-degree: 2%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自定义公式中实际小时数的更改</a> <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>使用<b>actualWorkRequired</b> （旧版实际小时数）的现有自定义公式已迁移为使用<b>actualWorkRequiredDouble</b> （实际小时数）。 <b>actualWorkRequired</b>不能再用于计算和公式中。</p>
+            </td>
+            <td><p>2026年6月1日</p></td>
+            <td><p>2026年6月1日</p></td>
+            <td><p>2026年6月1日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板报表中的自定义货币数据字段</a>
