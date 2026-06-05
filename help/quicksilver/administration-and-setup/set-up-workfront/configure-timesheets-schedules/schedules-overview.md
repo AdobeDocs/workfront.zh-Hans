@@ -10,11 +10,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -65,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->仅当[!DNL Workfront]安装程序[!UICONTROL 的]资源管理[!UICONTROL 区域中的]使用计算资源可用性[!UICONTROL 设置设置为]用户计划[!UICONTROL 时，]才使用用户的计划。 有关[!UICONTROL 使用]计算资源可用性设置如何影响用于资源管理的计划的信息，请参阅[配置资源管理首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
+>仅当[!UICONTROL 安装程序]的[!UICONTROL 资源管理]区域中的[!UICONTROL 使用计算资源可用性]设置设置为[!UICONTROL 用户计划]时，[!DNL Workfront]才使用用户的计划。 有关[!UICONTROL 使用]计算资源可用性设置如何影响用于资源管理的计划的信息，请参阅[配置资源管理首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 存在多个计划时，系统使用计划的顺序为：
 

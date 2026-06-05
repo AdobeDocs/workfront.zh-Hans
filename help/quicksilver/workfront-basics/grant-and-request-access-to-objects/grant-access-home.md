@@ -6,10 +6,21 @@ description: 用户可以请求访问Adobe Workfront中的对象。 有关请求
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/XBAiNe19HTNr8Zq0QUGg3S3CQhrlCa0hDPQ2hIYoK9U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 0%
+source-wordcount: 486
+ht-degree: 4%
 
 ---
 
@@ -23,22 +34,22 @@ ht-degree: 0%
 
 如果您是对象的所有者，则可以授予或拒绝对“主页”区域中的项目的访问权限。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p>
+   <p>工作版或更高版本</p>
    </td> 
   </tr> 
   <tr> 

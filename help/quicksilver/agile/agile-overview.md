@@ -3,15 +3,20 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile概述
-description: Agile是一种工作方法，它允许团队以一致的节奏完成少量可管理的工作量。 在敏捷中，团队管理积压或故事板上的故事，而不是项目中的任务。 [!DNL Adobe Workfront] 提供可帮助团队以Agile方式工作的工具。
+description: Agile是一种工作方法，它允许团队以一致的节奏完成少量可管理的工作量。 在Agile中，团队管理积压工作或故事板上的故事，而不是项目中的任务。 [!DNL Adobe Workfront] 提供了帮助团队以Agile方式工作的工具。
 author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/AVFfEFh0oIM6Pd7BMCYw7As75M00qbzP37burvpCI4U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
@@ -22,13 +27,13 @@ Agile是一种工作方法，它允许团队以一致的节奏完成少量可管
 
 [!DNL Workfront]讨论区是简单但灵活的团队协作工具。 有关讨论区的信息，请参阅[讨论区概述](../agile/boards-overview.md)。
 
-其他高级敏捷团队工具使用Kanban或Scrum。 有关Kanban和Scrum方法的信息，请参阅[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)一文中的[确定Agile方法](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)部分。
+其他高级敏捷团队工具使用Kanban或Scrum。 有关Kanban和Scrum方法的信息，请参阅[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一文中的[确定Agile方法](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)部分。
 
 要在Workfront中开始使用高级Agile，请执行以下操作：
 
 1. 创建Agile团队。
 
-   有关信息，请参阅[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)一文中的[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[将现有团队转换为Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)部分。
+   有关信息，请参阅[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一文中的[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)或[将现有团队转换为Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)部分。
 
 1. 配置Agile团队以使用Kanban或Scrum。
 

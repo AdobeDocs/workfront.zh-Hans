@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+TQID: https://experienceleague.adobe.com/a8hcTFpx3LmuGpQM8Wk8BpLDCFUVJWLAcP-YV5ogK0U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 0%
+source-wordcount: 403
+ht-degree: 3%
 
 ---
 
@@ -31,13 +41,13 @@ ht-degree: 0%
 >来自Workfront的所有电子邮件都从该地址发送，以提高电子邮件的成功投放并消除电子邮件的欺骗。 这包括自动警报和用户到用户的通信。
 >
 >例如，您从名为Joan Harris的用户那里收到的Workfront电子邮件中的“发件人”行如下所示：
->&#x200B;>`Joan Harris <notifications@my.workfront.com>`
+>`Joan Harris <notifications@my.workfront.com>`
 
 有关配置组织的防火墙以打开环境与Adobe Workfront服务器之间的通信的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +55,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -64,14 +74,14 @@ ht-degree: 0%
 
 ## 其他允许列表
 
-列入允许列表如果您的防火墙或邮件服务器配置为仅允许某些供应商访问，则必须将某些IP地址添加到其。 这将打开环境与Adobe Workfront服务器之间的通信。 有关信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+如果您的防火墙或邮件服务器配置为仅允许某些供应商访问，则必须将某些IP地址添加到其。 这将打开环境与Adobe Workfront服务器之间的通信。 有关信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 配置电子邮件允许列表
 
 {{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **客户信息**。
-1. 列入允许列表 列入允许列表在&#x200B;**电子邮件**&#x200B;部分中，选择&#x200B;**启用域**，然后单击&#x200B;**添加域**。
+1. 在&#x200B;**电子邮件**&#x200B;部分中，选择&#x200B;**启用域**，然后单击&#x200B;**添加域**。
 1. 在显示的框中，键入要允许的域，如`ourcompany.com`，然后单击&#x200B;**添加域**。
 1. 重复上一步骤以添加任何其他要允许的域。
 1. 完成后，单击&#x200B;**保存**。

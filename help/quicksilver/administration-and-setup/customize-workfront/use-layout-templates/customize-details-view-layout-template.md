@@ -8,9 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+TQID: https://experienceleague.adobe.com/syB-759yDrJy14crtZfCKYIKWB6eh-bFr6Gt1INGUdc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: 576
 ht-degree: 3%
 
 ---
@@ -69,7 +80,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -92,11 +103,11 @@ ht-degree: 3%
 ## 自定义用户在详细信息视图中看到的内容
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击![自定义用户看到的内容](assets/dropdown-arrow-12x12.png)下的向下箭头&#x200B;**向下箭头**，然后单击&#x200B;**项目**、**任务**、**问题**、**项目**&#x200B;或&#x200B;**Portfolio。**<!--, or billing record-->
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow-12x12.png)，然后单击&#x200B;**项目**、**任务**、**问题**、**项目**&#x200B;或&#x200B;**Portfolio。**<!--, or billing record-->
 1. 在&#x200B;**详细信息**&#x200B;部分中，执行以下任一操作以自定义用户在“详细信息”视图中看到的内容：
 
    * 拖动任何节标题![移动图标](assets/move-icon---dots.png)以更改其顺序。
-   * 启用或禁用各种区域(如&#x200B;**概述**、**财务**&#x200B;和&#x200B;**自定义Forms**)下的选项以显示或隐藏它们。
+   * 启用或禁用各种区域（如&#x200B;**概述**、**财务**&#x200B;和&#x200B;**自定义Forms**）下的选项以显示或隐藏它们。
 
      如果隐藏其中一个部分中的所有字段，则会隐藏整个部分。
 

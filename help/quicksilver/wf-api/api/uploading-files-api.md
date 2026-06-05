@@ -7,18 +7,25 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: cf5a1ab848caae947829806e601662a31ce3a081
+TQID: https://experienceleague.adobe.com/Yd7byYJ1pYDXwdKvINXh4fKy-pWoEiNMj345jr1HHNs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 176
 ht-degree: 0%
 
 ---
 
 # 通过API上传文件
 
-您可以使用带有API工具(例如Postman)的Workfront API或简单的cURL命令上传文件。
+您可以使用带有API工具（例如Postman）的Workfront API或简单的cURL命令上传文件。
 
-要上传文档，请参阅Workfront **发布行为**&#x200B;中[上传文档](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)的说明。 您还可以将这些相同的说明用于cURL请求。
+要上传文档，请参阅Workfront [发布行为](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)中&#x200B;**上传文档**&#x200B;的说明。 您还可以将这些相同的说明用于cURL请求。
 
 **使用API工具上载文件时，请遵循以下准则：**
 

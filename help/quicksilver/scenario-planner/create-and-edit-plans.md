@@ -6,18 +6,30 @@ description: 在优先考虑公司的更高级别战略时，您可在使用Work
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: 2407
 ht-degree: 1%
 
 ---
 
 # 在[!DNL Scenario Planner]中创建和编辑计划
 
-在优先处理公司更高级别的策略时，作为使用[!DNL Workfront Scenario Planner]的一部分，您可以创建计划。 有关计划的详细信息，请参阅[中的 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)计划概述。
+在优先处理公司更高级别的策略时，作为使用[!DNL Workfront Scenario Planner]的一部分，您可以创建计划。 有关计划的详细信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -114,7 +126,7 @@ Old:
 
 本文介绍了如何从头开始创建计划或编辑现有计划。
 
-有关计划的所有注意事项，包括可用于计划的信息，请参阅[中的 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)计划概述。
+有关计划的所有注意事项，包括可用于计划的信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
 
 有关删除计划的信息，请参阅[删除 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)中的计划。
 
@@ -302,7 +314,7 @@ Old:
       <td> <p><span>根据您选择为计划使用小时数或FTE，查看或更新</span>以下字段中可用于方案的每月工作角色FTE数<span>或</span>：</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL 可用] （最大&lt;FTE数&gt;）</strong>：括号中的数字显示方案任一月份可用角色的最大数量。 查看或更新方案每月的FTE数。 更改每月分配可能会更新括号中的FTE数量。 </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Available] （总计&lt;小时数&gt;）</strong>：括号中的数字显示方案中所有月份的总可用小时数。 查看或更新方案每个月的小时数。 更改每月分配将更新括号中的小时数。</span> </p> </li> 
+        <li> <p><span><strong>[!UICONTROL 可用] （总计&lt;小时数&gt;）</strong>：括号中的数字显示方案中所有月的可用小时总数。 查看或更新方案每个月的小时数。 更改每月分配将更新括号中的小时数。</span> </p> </li> 
        </ul> <p>手动更新每月工作角色分配是解决场景中计划之间的工作角色冲突的另一种方法。 </p> <p>提示：   <p><span>要更新每月角色可用状态几个月，请在任意月的[!UICONTROL Available]字段中键入小时数或FTE数，然后将该字段的边角拖动到相邻月份上，以复制每个月的相同值。 删除它以更新所有月份。</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
@@ -313,7 +325,7 @@ Old:
        </div> </td> 
       <td> <p><span>根据您选择为计划使用小时数还是FTE，在以下字段中查看</span>方案所需的工作角色FTE或小时数的月数： </p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL 必需] （最大&lt;FTE数&gt;）</strong>：括号中的数字显示方案任意一个月所需的最大角色数。 </p> </li> 
+        <li> <p><strong>[!UICONTROL Required] （最大&lt;FTE数&gt;）</strong>：括号中的数字显示方案任意一个月所需的最大角色数。 </p> </li> 
         <li> <p><span><strong>[!UICONTROL 必需] （总计&lt;小时数&gt;）</strong>：括号中的数字显示方案中所有月份所需的总小时数。</span> </p> </li> 
        </ul> <p>提示：您无法修改工作角色所需的FTE数<span>或小时数</span>。 在您开始添加计划及其工作角色要求后，此数字将填充方案。 </p> </td> 
      </tr> 

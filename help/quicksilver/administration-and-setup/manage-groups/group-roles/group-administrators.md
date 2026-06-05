@@ -9,9 +9,21 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: 1037
 ht-degree: 1%
 
 ---
@@ -49,7 +61,7 @@ ht-degree: 1%
 
    * 布局模板
    * 计划
-   * 周期性时间表
+   * 时间表配置文件
 
 ## 组管理员所需的访问权限 {#access-needed-for-group-administrators}
 
@@ -66,7 +78,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >组管理员必须比他们管理的组管理员拥有更高的访问权限；否则，他们将无法查看或修改较低的访问级别。
->&#x200B;>有关授予此访问权限的说明，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+>有关授予此访问权限的说明，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 对于需要为其组和子组中的用户分配时间表配置文件的组管理员，我们还建议对时间表和小时数的管理访问权限。 有关授予此访问权限的说明，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 

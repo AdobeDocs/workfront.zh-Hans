@@ -6,9 +6,19 @@ description: 您可以使用该API将链接的文件夹和文档迁移到Adobe E
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
-source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
+TQID: https://experienceleague.adobe.com/W2Y50cEqsMIxHpG5-8uwVtR4OKd4TfdCLET9oYpycSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: 926
 ht-degree: 0%
 
 ---
@@ -45,7 +55,7 @@ ht-degree: 0%
 
 ## API信息
 
-在此部分中有关Workfront API的更多信息，请参阅[开发人员文档：文档](https://developer.workfront.com/documents.html)。
+在此部分中有关Workfront API的更多信息，请参阅[开发人员文档:Documents](https://developer.workfront.com/documents.html)。
 
 ### 查找所有文档
 
@@ -57,7 +67,7 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[API文档引用](https://developer.workfront.com/documents.html#get-/docu/search)
+[API文档参考](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### 查找所有文件夹
 
@@ -69,7 +79,7 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/documentFolder/search?fields=*,linkedFolder:*&linkedFolder:externalIntegrationType={providerType}
 ```
 
-API文档： (文档文件夹端点当前未包含在developer.workfront.com中)
+API文档： （文档文件夹端点当前未包含在developer.workfront.com中）
 
 ### 链接文档
 
@@ -88,7 +98,7 @@ Http Body:
 refObjCode=DOCU&refObjID={documentId}&providerType={providerType}&documentProviderID={documentProviderID}
 ```
 
-API文档： (developer.workfront.com上当前未包含内部链接端点)
+API文档： （developer.workfront.com上当前未包含内部链接端点）
 
 ### 链接文件夹
 
@@ -112,7 +122,7 @@ Http Body:
 providerType={providerType}&documentProviderID={documentProviderID}&breadcrumb=[]&linkAction=LINKEXTERNAL&refObjCode={USER|PROJECT_TASK|TEMPLATE_TASK|securityRootObjectCode}&refObjID={userID|taskID|templateTaskID|securityRootId}&destFolderID={parentFolderId}
 ```
 
-API文档： (developer.workfront.com上当前未包含内部链接端点)
+API文档： （developer.workfront.com上当前未包含内部链接端点）
 
 ## 重要术语
 
@@ -128,7 +138,7 @@ API文档： (developer.workfront.com上当前未包含内部链接端点)
 
 >[!IMPORTANT]
 >
-> 对于任何给定的文档提供商类型，客户可以有多个连接的实例。 例如，它们可以链接多个AEM存储库。 或者链接了多个Google Drive实例。 文档提供程序ID指示我们要替换或切换到的连接类型的特定实例。
+> 对于任何给定的文档提供商类型，客户可以有多个连接的实例。 例如，他们可能链接了多个AEM存储库。 或者链接了多个Google Drive实例。 文档提供程序ID指示我们要替换或切换到的连接类型的特定实例。
 
 * **文档存储提供程序类型（也称为“外部集成类型”）**： Workfront支持的文档存储提供程序集成的类型。 通过专用集成或“自定义集成”实现。
 

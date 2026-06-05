@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/GL1yGKWO2xOV-qfFHBNEJrMEmyi8a9-EKshCaYU1Cd4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 1%
+source-wordcount: 1267
+ht-degree: 2%
 
 ---
 
@@ -21,17 +31,17 @@ ht-degree: 1%
 
 如果您的组之上存在任何组，则其管理员还可以为您的组执行这些操作。 Workfront管理员也是如此（适用于任何组）。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -86,7 +96,7 @@ ht-degree: 1%
       <td role="rowheader">共享一个或多个模板</td> 
       <td> <p>至少选择一个模板，单击“共享”图标<img src="assets/share-icon.png">，然后在下拉菜单中单击以下选项之一：</p> 
        <ul> 
-        <li> <p><strong>模板</strong>：在显示的<strong>模板访问</strong>框中，添加名称以指定您希望谁有权访问模板本身。</p> <p>有关详细信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">共享项目模板</a>一文中的<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">共享模板</a>部分。</p> </li> 
+        <li> <p><strong>模板</strong>：在显示的<strong>模板访问</strong>框中，添加名称以指定您希望谁有权访问模板本身。</p> <p>有关详细信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">共享项目模板</a>一文中的<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">共享模板</a>部分。</p> </li> 
         <li><strong>项目</strong>：在显示的<strong>项目访问</strong>框中，添加名称以指定您希望谁有权访问使用该模板创建的项目</li> 
        </ul> <p>仅当您对选择的所有模板具有“共享”访问权限时，“共享”图标才可用。 有关此访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予对模板的访问权限</a>。</p> </td> 
      </tr> 
@@ -166,7 +176,7 @@ ht-degree: 1%
 >   * 收入类型
 >   * 成本类型
 >
->  但是，模板任务受新模板上的“将某人分配给任务时”设置的影响。 有关详细信息，请参阅文章[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)中的[访问](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)部分。
+>  但是，模板任务受新模板上的“将某人分配给任务时”设置的影响。 有关详细信息，请参阅文章[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[访问](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)部分。
 >
 >* 当管理员将项目另存为模板时，模板的所有设置都继承自该项目，包括组。
 >

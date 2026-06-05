@@ -6,10 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+TQID: https://experienceleague.adobe.com/HqqE7qvcwIZxg83G3EtJmr5t0g7WVBimiJBnnQrVcv0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 513
+ht-degree: 4%
 
 ---
 
@@ -19,9 +28,9 @@ ht-degree: 0%
 
 优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤并记录项目特定的小时数：
 
@@ -30,8 +39,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

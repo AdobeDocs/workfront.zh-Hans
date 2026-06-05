@@ -9,10 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/rC6FrOsS-RttMBDmncvjSbt-n7X9--DblMlHM3sq2Jk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 0%
+source-wordcount: 456
+ht-degree: 4%
 
 ---
 
@@ -39,17 +50,17 @@ ht-degree: 0%
 >* 查询Workfront API。
 >
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -71,7 +82,7 @@ ht-degree: 0%
 
 1. 通过传递API请求确定用户的GUID用户名，如以下示例所示：
 
-   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&amp;ID=`<ID of User>`其中&#x200B;*`<domain>`*&#x200B;是您公司的域，*`<ID of User>`*&#x200B;是用户的Workfront ID。
+   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=`<ID of User>`其中&#x200B;*`<domain>`*&#x200B;是您公司的域，*`<ID of User>`*&#x200B;是用户的Workfront ID。
 
    您会收到类似于以下内容的响应：
 

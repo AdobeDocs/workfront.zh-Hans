@@ -8,9 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 82f2fbb55dd46b9bfc55e9864c38f600041de968
+TQID: https://experienceleague.adobe.com/96BLmX7DGhWQUbgTrCW8lBq64p29nRA-ZtmtvEZSxLk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: 789
 ht-degree: 3%
 
 ---
@@ -64,7 +74,7 @@ ht-degree: 3%
 ## 使用自定义访问级别配置用户对财务数据的访问
 
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 单击财务数据右侧![](assets/gear-icon-settings.png)查看&#x200B;**或**&#x200B;编辑&#x200B;**按钮上的齿轮图标**，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
+1. 单击财务数据右侧&#x200B;**查看**&#x200B;或&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
 
    ![微调财务数据访问](assets/financial-data-access-fine-tune.png)
 
@@ -113,7 +123,7 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 ## 按许可证类型访问财务信息
 
-有关每个访问级别中的用户可以如何处理财务信息的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia)一文中的[财务数据](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
+有关每个访问级别中的用户可以如何处理财务信息的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[财务数据](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia)部分。
 
 ## 通过设置访问财务信息
 

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 1793
+source-wordcount: 1763
 ht-degree: 5%
 
 ---
@@ -71,13 +71,8 @@ ht-degree: 5%
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
-   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
-</td>
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 

@@ -6,20 +6,25 @@ description: 在Adobe Workfront for MobileIron应用程序中，我们支持Mobi
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
 
-# 为[!DNL Adobe Workfront]配置[!DNL MobileIron]
+# 为[!DNL MobileIron]配置[!DNL Adobe Workfront]
 
 在[!DNL MobileIron]应用的Adobe Workfront中，我们支持[!DNL MobileIron]为[!DNL Android]和[!DNL iOS]提供的默认配置。
 
 ## Android
 
-要为[!DNL Workfront]配置[!DNL MobileIron]的[!DNL Android]：
+要为[!DNL Android]配置[!DNL MobileIron]的[!DNL Workfront]：
 
 1. 在您的[!DNL MobileIron Cloud]实例中，转到&#x200B;**[!UICONTROL 配置]**，然后单击&#x200B;**[!UICONTROL 默认[!DNL Android] AppConnect配置]**。
 
@@ -28,7 +33,7 @@ ht-degree: 0%
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL 复制/粘贴]</strong></td>
-        <td>启用后，您可以选择让用户粘贴到其他安全应用程序，或者仅在[!DNL Workfront]应用程序的[!DNL MobileIron]内粘贴。</td>
+        <td>启用后，您可以选择让用户粘贴到其他安全应用程序，或者仅在[!DNL MobileIron]应用程序的[!DNL Workfront]内粘贴。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 允许摄像头]</strong></td>
@@ -44,17 +49,17 @@ ht-degree: 0%
     </tr>
     <tr>
         <td><strong>[!UICONTROL 允许屏幕捕获]</strong></td>
-        <td>启用此选项后，用户可以在[!DNL Workfront]应用程序的[!DNL MobileIron]内捕获屏幕。</td>
+        <td>启用此选项后，用户可以在[!DNL MobileIron]应用程序的[!DNL Workfront]内捕获屏幕。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 允许Web]</strong></td>
-        <td>启用此选项后，用户可以从[!DNL Workfront]应用程序的[!DNL MobileIron]中导航到Web浏览器。</td>
+        <td>启用此选项后，用户可以从[!DNL MobileIron]应用程序的[!DNL Workfront]中导航到Web浏览器。</td>
     </tr>
    </table>
 
 ## [!DNL iOS]
 
-要为[!DNL Workfront]配置[!DNL MobileIron]的[!DNL iOS]：
+要为[!DNL iOS]配置[!DNL MobileIron]的[!DNL Workfront]：
 
 1. 在您的[!DNL MobileIron Cloud]实例中，转到&#x200B;**[!UICONTROL 配置]**，然后单击&#x200B;**[!UICONTROL 默认[!DNL iOS] AppConnect配置]**。
 

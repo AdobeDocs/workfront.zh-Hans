@@ -7,15 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: 3146
 ht-degree: 5%
 
 ---
-
 
 # 事件订阅API
 
@@ -98,11 +106,11 @@ ht-degree: 5%
 * 要使用事件订阅，需要具有“系统管理员”访问级别。
 * 需要`sessionID`标头才能使用事件订阅API
 
-  有关详细信息，请参阅[API基础知识](api-basics.md#authentication)中的[身份验证](api-basics.md)。
+  有关详细信息，请参阅[API基础知识](api-basics.md)中的[身份验证](api-basics.md#authentication)。
 
 ## 避免使事件订阅过载
 
-事件订阅服务旨在为所有用户提供可靠的事件交付。 为此，系统已引入防护机制，以防止单个用户在短时间内产生过多事件，从而可能对所有用户的服务质量造成影响。因此，如果某位用户在短时间内以较高频率生成大量事件，可能会被隔离到沙盒环境，并出现事件投递延迟。
+事件订阅服务旨在为所有用户提供可靠的事件交付。 为此，系统已引入防护机制，以防止单个用户在短时间内产生过多事件，从而可能对所有用户的服务质量造成影响。 因此，如果某位用户在短时间内以较高频率生成大量事件，可能会被隔离到沙盒环境，并出现事件投递延迟。
 
 ## 形成订阅资源
 
@@ -623,8 +631,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 * 将多个事件订阅分配给单个对象时，与该对象关联的所有事件订阅都可以返回到单个端点。 此实践可用作逻辑运算符&#x200B;**OR**&#x200B;的等效替代项，无法使用筛选器参数设置该运算符。
 * 以下字段不可过滤：
 
-   * DOCU.groups
-   * RECORD.data
+   * DOCU组
+   * 记录数据
    * RECORD_TYPE.data
    * RECORD_TYPE字段
 
@@ -852,13 +860,13 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 #### state
 
-此连接器使过滤器应用于已创建或更新的对象的新状态或旧状态。 当您想知道在何处对某个对象进行了更改时，此功能非常有用。
-无法在CREATE `oldState`上执行`eventTypes`。
+此连接器使过滤器应用于已创建或更新的对象的新状态或旧状态。当您想知道在何处对某个对象进行了更改时，此功能非常有用。
+无法在CREATE `eventTypes`上执行`oldState`。
 
 >[!NOTE]
 >
->下面带有给定过滤器的订阅将只返回任务名称在`again`上包含`oldState`的消息，该名称与更新任务之前所包含的内容相同。
->此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>下面带有给定过滤器的订阅将只返回任务名称在`oldState`上包含`again`的消息，该名称与更新任务之前所包含的内容相同。
+>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {

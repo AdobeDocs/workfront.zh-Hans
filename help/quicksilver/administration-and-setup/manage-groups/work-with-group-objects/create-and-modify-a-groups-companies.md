@@ -8,10 +8,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+TQID: https://experienceleague.adobe.com/Jmo6PQZ14wo8ROdKO0UvLd0Cakq1vciAhTEjZPjA9Bk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 0%
+source-wordcount: 786
+ht-degree: 2%
 
 ---
 
@@ -21,17 +33,17 @@ ht-degree: 0%
 
 如果您的组之上存在任何组，则其管理员还可以为您的组执行这些操作。 Workfront管理员也是如此（适用于任何组）。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -95,6 +107,6 @@ ht-degree: 0%
    >
    >如果要删除公司，而公司被设置为主要公司或正用于其他对象，则系统会提示您选择其他公司来替换要删除的公司。 您选择的公司会成为“主要公司”，或者在公司分配到的对象上替换已删除的公司。
 
-   有关编辑公司的信息，请参阅文章[创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)中的[在Workfront中创建或编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)部分。
+   有关编辑公司的信息，请参阅文章[创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)中的[在Workfront中创建或编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)部分。
 
 1. （可选）要导出公司列表，请单击“导出”图标![导出图标](assets/export.png)，然后为导出的列表选择所需的文件格式。

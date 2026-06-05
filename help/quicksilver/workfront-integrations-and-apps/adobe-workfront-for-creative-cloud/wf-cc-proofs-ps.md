@@ -6,10 +6,22 @@ description: 您可以将照片文档预设作为验证直接上传到 [!DNL Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: 625
+ht-degree: 3%
 
 ---
 
@@ -23,9 +35,9 @@ ht-degree: 0%
 
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,17 +45,17 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
-   <td> 任何</td> 
+   <td> “任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> 
    <p>标准</p>
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">其他产品</td> 
-   <td>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</td> 
+   <td>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
@@ -74,7 +86,7 @@ ht-degree: 0%
 
 1. 转到要上载校样的工作项。
 1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
-1. 单击&#x200B;**[!UICONTROL 面板底部附近的]**&#x200B;新建文件[!DNL Workfront]。
+1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 1. （可选）在&#x200B;**[!UICONTROL 校对名称]**&#x200B;文本框中键入校对的名称。
 1. 在&#x200B;**[!UICONTROL 校对审批]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 基本]**。
@@ -89,7 +101,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
 
    插件中的![文件](assets/plugin-files-350x307.png)\
-   文档出现在[!UICONTROL 的]面板的[!DNL Workfront]文档[!DNL Photoshop]区域和[!DNL Workfront]桌面应用程序中。
+   文档出现在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
 
 
 ## 上传自动验证
@@ -101,7 +113,7 @@ ht-degree: 0%
 1. 转到要上载校样的工作项。
 1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
-1. 单击&#x200B;**[!UICONTROL 面板底部附近的]**&#x200B;新建文件[!DNL Workfront]。
+1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 1. （可选）在&#x200B;**[!UICONTROL 校对名称]**&#x200B;文本框中键入校对的名称。
 1. 在&#x200B;**[!UICONTROL 校对审批]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 自动]**。
@@ -121,7 +133,7 @@ ht-degree: 0%
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
 1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
-文档出现在[!UICONTROL 的]面板的[!DNL Workfront]文档[!DNL Photoshop]区域和[!DNL Workfront]桌面应用程序中。
+文档显示在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
 
 ## 上传新验证版本
 
@@ -134,7 +146,7 @@ ht-degree: 0%
 1. 转到需要上载文档的工作项。
 1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
-1. 单击&#x200B;**[!UICONTROL 面板底部附近的]**&#x200B;新版本[!DNL Workfront]。
+1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 
 1. 在&#x200B;*[!UICONTROL *校对审批]&#x200B;**分区中，选择&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自动]**。
@@ -144,4 +156,4 @@ ht-degree: 0%
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
-文档出现在[!UICONTROL 的]面板的[!DNL Workfront]文档[!DNL Photoshop]区域和[!DNL Workfront]桌面应用程序中。
+文档显示在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。

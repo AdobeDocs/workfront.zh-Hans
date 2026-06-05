@@ -8,10 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/TfNnHDPjT1M9XlpBiXQw3vP9izeRWArYuhDuXqA0Cbw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 0%
+source-wordcount: 501
+ht-degree: 3%
 
 ---
 
@@ -19,17 +28,17 @@ ht-degree: 0%
 
 如果您尝试删除状态，则可能会显示一条错误消息，告诉您无法删除该状态，因为它在您的系统中至少处于一个待审批流程中。 您可以运行报告以列出处于待审批流程中的对象，然后决定您需要为每个对象做什么。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

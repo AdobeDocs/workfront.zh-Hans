@@ -6,11 +6,23 @@ description: 通知：目标
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 388
 ht-degree: 5%
 
 ---
@@ -58,10 +70,10 @@ ht-degree: 5%
 
 ## 先决条件
 
-* 您要更新其[!DNL Goals]通知的用户必须具有布局模板，该模板包括[!DNL Goals]主菜单[!UICONTROL 中的]区域。
+* 您要更新其[!DNL Goals]通知的用户必须具有布局模板，该模板包括[!UICONTROL 主菜单]中的[!DNL Goals]区域。
 
 
-## [!DNL Goals]用户配置文件[!UICONTROL 区域中的]通知
+## [!UICONTROL 用户配置文件]区域中的[!DNL Goals]通知
 
 下表列出的通知会提醒您有关[!DNL Workfront Goals]中发生的事件，例如有人为您分配目标、结果或活动，或者有人对您拥有的目标、结果或活动进行更新。 有关配置您收到的通知的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 

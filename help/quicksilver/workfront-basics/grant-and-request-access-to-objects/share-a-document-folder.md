@@ -6,11 +6,21 @@ description: 您可以从文档区域共享文件夹及其内容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qvVnjrA07s9uOsZmvtUk3lXqYgp5EpSpcxq9TiERx2M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: 850
 ht-degree: 2%
 
 ---
@@ -23,7 +33,7 @@ ht-degree: 2%
 >
 >* 文件夹必须位于对象上文件夹层次结构的前五个级别中。 第六级或更低级别的每个文件夹都从其正上方的文件夹继承其共享配置。
 >
->  有关添加子文件夹以创建文件夹层次结构的信息，请参阅文章[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md#creating-folders)中的[创建文件夹和子文件夹](../../documents/organizing-documents/create-documents-folder.md)部分。
+>  有关添加子文件夹以创建文件夹层次结构的信息，请参阅文章[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md)中的[创建文件夹和子文件夹](../../documents/organizing-documents/create-documents-folder.md#creating-folders)部分。
 >
 >* 无法共享智能文件夹。
 >* 如果为模板中的文档文件夹配置共享选项，然后有人从该模板创建项目，则共享配置不会传输到新项目中的文档文件夹。
@@ -147,7 +157,7 @@ drafted for P&P
 
 目前，当您共享文件夹时，收件人在其“文档”区域中看不到该文件夹。 但是，他们可以通过运行文档报告来访问其文档。
 
-有关运行报表的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一文中的[对象报表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。 另请参阅[创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+有关运行报表的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[对象报表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)部分。 另请参阅[创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">

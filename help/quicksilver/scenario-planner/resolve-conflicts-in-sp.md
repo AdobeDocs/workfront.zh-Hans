@@ -6,11 +6,22 @@ description: 当计划相互冲突时，它们会争夺相同的资源。 您可
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/bvmUPwUcqt0do-U4eQbMssDTwanC8r7fPl0o-S5mGA8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: 2199
 ht-degree: 1%
 
 ---
@@ -277,7 +288,7 @@ Old:
 
      计划的时间线中会显示该月的向上绿色箭头![向上绿色箭头](assets/upward-green-arrow.png)，表示该月向计划中添加了更多资源。 必须选择[!UICONTROL 月]视图才能查看此指示器。
 
-   * （有条件）关闭详细信息面板，如果可能，请为计划提供更高的优先级以首先从计划接收预算资源。 有关更新计划优先级的信息，请参阅Scenario Planner [中的](../scenario-planner/prioritize-initiatives.md)更新计划优先级。
+   * （有条件）关闭详细信息面板，如果可能，请为计划提供更高的优先级以首先从计划接收预算资源。 有关更新计划优先级的信息，请参阅Scenario Planner [&#128279;](../scenario-planner/prioritize-initiatives.md)中的更新计划优先级。
 
 1. （可选）单击&#x200B;**[!UICONTROL 隐藏详细信息]**&#x200B;以关闭其他详细信息框，然后单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存您对工作角色所做的更改。
 
@@ -334,7 +345,7 @@ Old:
      >
      >为解决成本冲突而添加的金额会修改所选方案的预算，而不是计划中的所有方案的预算。
 
-   * （有条件）关闭详细信息面板，如果可能，请为计划提供更高的优先级以首先从计划接收预算资源。 有关更新计划优先级的信息，请参阅[中的 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)更新计划优先级。
+   * （有条件）关闭详细信息面板，如果可能，请为计划提供更高的优先级以首先从计划接收预算资源。 有关更新计划优先级的信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/prioritize-initiatives.md)中的更新计划优先级。
 
 1. 对“成本”部分进行任何更改时，单击&#x200B;**[!UICONTROL 应用]**。
 1. 单击&#x200B;**[!UICONTROL 保存计划]**&#x200B;以保存更改。

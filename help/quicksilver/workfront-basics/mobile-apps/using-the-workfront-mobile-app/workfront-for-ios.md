@@ -7,18 +7,25 @@ description: ' [!DNL Adobe Workfront] 应用程序允许您在任何iOS设备上
 author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/kWm-sLAjufXyPrfcWM454uodOa8F6yswe6QnmR5m-Hw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 2%
+source-wordcount: 567
+ht-degree: 3%
 
 ---
 
-# [!DNL Adobe Workfront]的[!DNL iOS]
+# [!DNL iOS]的[!DNL Adobe Workfront]
 
 [!DNL Adobe Workfront]应用允许您在任何[!DNL iOS]设备上访问您的工作。 您可以在运行iOS 10或更高版本的手机和平板电脑上安装并使用[!DNL Workfront]移动应用程序。 专用的[!DNL Workfront]移动应用可用于[!DNL iPhone]和[!DNL iPad]。
 
-有关登录到移动设备应用程序的信息，请参阅[登录到[!UICONTROL 一文中的]登录到](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)Workfront[移动设备应用程序 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)部分。
+有关登录到移动设备应用程序的信息，请参阅[登录到 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)一文中的[登录到[!UICONTROL Workfront]移动设备应用程序](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)部分。
 
 ## [!UICONTROL 主页]
 
@@ -48,7 +55,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关详细信息，请参阅移动设备应用程序[[!UICONTROL 中的]主页](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)区域小组件[[!UICONTROL 和]我的工作](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)部分。
+有关详细信息，请参阅移动设备应用程序[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 主页]区域小组件](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[!UICONTROL 我的工作]部分。
 
 ![主页区域](assets/mobile-home-area.png)
 
@@ -58,7 +65,7 @@ ht-degree: 2%
 
 ![讨论区区域](assets/mobile-all-boards-displayed.png)
 
-有关详细信息，请参阅移动设备[[!DNL Adobe Workfront] [!UICONTROL 的]讨论区](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)。
+有关详细信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
 
 ## [!UICONTROL 项目]
 
@@ -113,7 +120,7 @@ ht-degree: 2%
  </tbody>
 </table>
 
-有关审批的详细信息，请参阅[移动设备应用程序 [!DNL Adobe Workfront] 中的](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)审批。
+有关审批的详细信息，请参阅 [!DNL Adobe Workfront] 移动设备应用程序[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的审批。
 
 有关审阅和批准校样的信息，请参阅[在 [!DNL Adobe Workfront] 移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中审阅和作出校样决定。
 

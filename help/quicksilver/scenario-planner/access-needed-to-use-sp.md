@@ -7,11 +7,22 @@ description: Scenario Planner需要独立于Adobe Workfront的许可证和附加
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 82152918c528a5f5ed91081dfcb2b6fdc6dc8e09
+TQID: https://experienceleague.adobe.com/Trk0732l-rvF7JrmyZCqptC8SkSJ8nCD7dTl0yHVjk4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 394
 ht-degree: 0%
 
 ---
@@ -26,7 +37,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-如果没有正确的访问权限或权限，您可能无法查看[!UICONTROL 的]方案[!DNL &#x200B; Adobe Workfront]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
+如果没有正确的访问权限或权限，您可能无法查看[!DNL &#x200B; Adobe Workfront]的[!UICONTROL 方案]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
 
 ## 查看和使用[!DNL Adobe Workfront Scenario Planner]所需的访问权限
 
@@ -72,7 +83,7 @@ might need to add information about the permissions to plans/ initiatives if tho
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner.
 -->
 
-* 您的[!DNL Workfront]管理员必须为您授予访问级别为[!UICONTROL 的]查看[!UICONTROL 或]编辑[!DNL Scenario Planner]访问权限。
+* 您的[!DNL Workfront]管理员必须为您授予访问级别为[!DNL Scenario Planner]的[!UICONTROL 查看]或[!UICONTROL 编辑]访问权限。
 
   有关授予[!DNL Workfront Scenario Planner]访问权限的信息，请参阅[授予 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)访问权限。
 

@@ -5,10 +5,20 @@ description: 如果您希望从预览Sandbox环境接收电子邮件通知，则
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/Ls9pjNAe1idVEzimGKgoZeL8e5NuHYz1qE52L7n0ZaE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: 465
+ht-degree: 3%
 
 ---
 
@@ -31,9 +41,9 @@ ht-degree: 1%
 >
 >有关报告传递的信息，请参阅[报告传递概述](../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +53,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 

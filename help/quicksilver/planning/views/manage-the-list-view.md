@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1873'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
+<!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
 <span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -72,13 +73,8 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
-   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
-</td>
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 

@@ -8,12 +8,22 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
+TQID: https://experienceleague.adobe.com/e2uZM6ICiPOrupfHh0rQHmh--rDWxjwpend11THYdh4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 14%
+source-wordcount: 270
+ht-degree: 13%
 
 ---
 
@@ -63,7 +73,7 @@ ht-degree: 14%
 
 在开始之前，您必须
 
-* 在[!DNL Workfront]中添加并激活[!DNL JumpSeat]作为应用程序。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
+* 在[!DNL JumpSeat]中添加并激活[!DNL Workfront]作为应用程序。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 >[!IMPORTANT]
 >
@@ -77,7 +87,7 @@ ht-degree: 14%
 
 >[!TIP]
 >
->您需要在[!DNL Workfront]中添加和激活两个单独的[!DNL JumpSeat]应用程序 — 一个用于预览，一个用于生产。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
+>您需要在[!DNL JumpSeat]中添加和激活两个单独的[!DNL Workfront]应用程序 — 一个用于预览，一个用于生产。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 要配置[!DNL JumpSeat]集成，请执行以下操作：
 
@@ -96,7 +106,7 @@ https://{mycompanyname}.jumpseat.io
 
 >[!ENDSHADEBOX]
 
-1. 输入&#x200B;**[!UICONTROL [!DNL JumpSeat]集成令牌]**。 您可以在&#x200B;**[!UICONTROL 中的]**&#x200B;配置[!DNL JumpSeat]页面上找到此项。
+1. 输入&#x200B;**[!UICONTROL [!DNL JumpSeat]集成令牌]**。 您可以在[!DNL JumpSeat]中的&#x200B;**[!UICONTROL 配置]**&#x200B;页面上找到此项。
 
    **示例：** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
@@ -113,4 +123,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->有关配置[!DNL JumpSeat]集成的更多信息，请参阅有关[!DNL JumpSeat]JumpSeat+Workfront[的](https://jumpseat.io/landing-page/jumpseat-workfront/)文档。
+>有关配置[!DNL JumpSeat]集成的更多信息，请参阅有关[JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/)的[!DNL JumpSeat]文档。

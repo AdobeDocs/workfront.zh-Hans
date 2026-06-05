@@ -8,10 +8,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/OpdIG-INmfU3jvgNvCFCtbNwiRFvfxPgFQ6p-hW-HUQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 513
+ht-degree: 3%
 
 ---
 
@@ -21,9 +30,9 @@ ht-degree: 0%
 
 当首选项被解锁且组管理员修改时，与组关联的项目从组级别设置而不是系统级别设置获取该首选项的配置。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +40,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 

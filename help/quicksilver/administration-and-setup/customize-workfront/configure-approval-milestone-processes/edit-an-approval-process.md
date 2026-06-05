@@ -8,11 +8,23 @@ author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: 1984
 ht-degree: 3%
 
 ---
@@ -164,7 +176,7 @@ For this article, the old access was:
       <p>这是必填字段。</p>
       <p>无法为多个审批流程路径选择相同状态。</p> <p>可用状态基于选项<b>下选择的内容。此批准可由</b>使用（在上表中说明）：</p> 
       <ul> 
-      <li> 如果选择<b>所有组</b>，则只有系统范围的锁定状态可用。 <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> 如果选择<b>所有组</b>，则只有系统范围的锁定状态可用。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>如果选择了特定组，则仅对该组可用的状态可用</p> </li> 
       </ul> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </td> 
@@ -191,7 +203,7 @@ For this article, the old access was:
       <p><b>重要信息</b>
       <ul> 
       <li> 当您将审批分配给项目发起人并且没有人被指定为项目发起人时，审批将重新分配给项目所有者。 如果没有指定任何人为项目的所有者，则会将审批分配给Workfront管理员。 </li> 
-      <li> 当您将审批分配给角色并且选项<b>审批者不需要属于项目团队</b>被禁用，但项目团队中没有角色与审批中的角色匹配时，审批被重新分配给项目所有者。 有关审批设置的信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>。
+      <li> 当您将审批分配给角色并且选项<b>审批者不需要属于项目团队</b>被禁用，但项目团队中没有角色与审批中的角色匹配时，审批被重新分配给项目所有者。有关审批设置的信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>。
       </li> 
       <li>当您将审批分配给项目责任人，并且没有指定任何人为项目责任人时，审批将重新分配给主要Workfront管理员，如设置区域的客户信息部分所述。 有关信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">配置系统的基本信息</a>。</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 
@@ -204,7 +216,7 @@ For this article, the old access was:
    </tr> 
      <tr> 
       <td role="rowheader">只需一个决策</td> 
-      <td>（仅当将多个审批者添加到阶段时才显示）如果阶段上的任何审批者可以在此阶段批准或拒绝工作项，请选择此选项。 此操作允许工作项离开阶段。  
+      <td>（仅当将多个审批者添加到阶段时才显示）如果阶段上的任何审批者可以在此阶段批准或拒绝工作项，请选择此选项。此操作允许工作项离开阶段。  
       <p>如果未选择此选项，则在项目离开阶段之前，所有已标识的批准者必须批准或拒绝阶段（按任何顺序）。 如果任何一位批准者拒绝该阶段，该进程将中断并重新开始，以便进行所需的更改。 然后，审批者可以再次批准或拒绝该阶段。</p> 
       <p>当团队被指定为批准者时，团队的任何成员都可以授予或拒绝阶段。</p> 
       </td> 

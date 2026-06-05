@@ -5,10 +5,20 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/LQD0htu54LRa87Odyjwcgxu578cgoQ2DFQ56YeZhDM4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 2%
+source-wordcount: 291
+ht-degree: 7%
 
 ---
 
@@ -16,17 +26,17 @@ ht-degree: 2%
 
 您可以查看和管理校样详细信息。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -70,7 +80,7 @@ ht-degree: 2%
 1. 在“文档详细信息”页面上，单击左侧面板中的&#x200B;**校对工作流**&#x200B;以执行以下任一操作：
 
    * 添加自动工作流。 有关更多信息，请参阅文章中的部分。
-   * 共享验证的公共URL。 有关详细信息，请参阅[在Adobe Workfront中共享验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share)中的[共享验证链接](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)。
+   * 共享验证的公共URL。 有关详细信息，请参阅[在Adobe Workfront中共享验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)中的[共享验证链接](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share)。
    * 查看验证中发生的所有活动。
    * 向验证上的审阅者发送提醒消息。
 

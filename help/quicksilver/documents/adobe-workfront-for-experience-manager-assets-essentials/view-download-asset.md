@@ -6,10 +6,21 @@ description: 您可以在Adobe Workfront中查看或下载从Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+TQID: https://experienceleague.adobe.com/dYoVL5-iJd6Y1-6fWFpVGow92z-MhE-15WVi3ur3ZTQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: 229
+ht-degree: 9%
 
 ---
 
@@ -17,20 +28,20 @@ ht-degree: 0%
 
 您可以在Adobe Workfront中查看或下载从Experience Manager Assets或Assets Essentials链接的资源。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p> “任一”</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront 许可证</td> 
    <td>
    <p>参与者或更高版本</p>
    <p>请求或更高版本</p> </td> 

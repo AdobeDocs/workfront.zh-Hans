@@ -9,9 +9,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/L6JxhFGfj-LHxRCZuVTxcrMlAx2YAH6wN72A2otyps0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 950
 ht-degree: 0%
 
 ---
@@ -27,13 +36,13 @@ ht-degree: 0%
 >* 如果在为环境升级配置对象时刷新了自定义刷新沙盒，则该配置将在刷新中丢失。 我们建议您不要刷新“自定义刷新沙盒”，除非所有未完成的环境升级对象和包都已成功升级。
 >* 作为包安装的一部分在目标环境中创建的对象&#x200B;**不**&#x200B;具有与原始环境中的对象相同的ID。 这是因为在创建对象时，系统分配了ID。
 
-## 访问要求
+## 访问权限要求
 
 您必须具备以下条件：
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
    </td>

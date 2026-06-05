@@ -7,11 +7,22 @@ description: 本文介绍了时间表在Adobe Workfront中的布局，使您能�
 author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wpqLg8-2NszOeqT--4RxDP0pZEEnYyPW7UzQeqaLJIo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: 1056
 ht-degree: 1%
 
 ---
@@ -79,7 +90,7 @@ ht-degree: 1%
 您可以在左侧面板中访问以下部分：
 
 * **时间表**：显示实际时间表。
-* **更新**：显示时间表的注释和系统更新。 有关详细信息，请参阅本文左侧面板[中的](#updates-area-in-the-left-panel)更新区域。
+* **更新**：显示时间表的注释和系统更新。 有关详细信息，请参阅本文左侧面板[&#128279;](#updates-area-in-the-left-panel)中的更新区域。
 
 ## 工作项
 

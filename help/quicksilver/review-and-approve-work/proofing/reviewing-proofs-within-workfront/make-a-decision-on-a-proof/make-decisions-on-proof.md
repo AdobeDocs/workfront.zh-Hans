@@ -6,10 +6,20 @@ description: 您可以直接在验证查看器中对验证做出决定。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+TQID: https://experienceleague.adobe.com/Qnt76jLepqi5CO0Ws7mi-jiyilJdIs2bGEjINaf1img
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 3%
+source-wordcount: 326
+ht-degree: 8%
 
 ---
 
@@ -17,21 +27,21 @@ ht-degree: 3%
 
 您可以直接在验证查看器中对验证做出决定。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
@@ -88,7 +98,7 @@ ht-degree: 3%
     </tbody> 
    </table>
 
-1. （视情况而定）如果Adobe Workfront管理员或Workfront Proof管理员添加了原因部分，请为您的决策选择任何适用的原因。 有关管理员如何配置决策原因的更多信息，请参阅  [在Workfront Proof中配置批准决策选项](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)。
+1. （视情况而定）如果Adobe Workfront管理员或Workfront Proof管理员添加了原因部分，请为您的决策选择任何适用的原因。 有关管理员如何配置决策原因的详细信息，请参阅[在Workfront Proof中配置批准决策选项](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)。
 1. （可选）选择&#x200B;**向我发送电子邮件确认函**，以接收您决策的电子邮件确认函。
 1. 单击&#x200B;**做出决定**。
 

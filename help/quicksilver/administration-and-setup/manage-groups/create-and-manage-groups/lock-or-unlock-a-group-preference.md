@@ -3,21 +3,30 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 锁定或解锁子组的项目、任务或问题偏好设置
-description: 作为组管理员，您可以配置并锁定项目、任务或问题偏好设置(如果Workfront管理员在系统级别解锁了该偏好设置)。
+description: 作为组管理员，您可以配置并锁定项目、任务或问题偏好设置（如果Workfront管理员在系统级别解锁了该偏好设置）。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/g45ZXtLxw7yF6E0SdJRTlDz51-3dEg-0B8nOPG7zcXY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 0%
+source-wordcount: 571
+ht-degree: 3%
 
 ---
 
 # 锁定或解锁子组的项目、任务或问题偏好设置
 
-作为组管理员，您可以配置并锁定项目、任务或问题偏好设置(如果Workfront管理员在系统级别解锁了该偏好设置)。
+作为组管理员，您可以配置并锁定项目、任务或问题偏好设置（如果Workfront管理员在系统级别解锁了该偏好设置）。
 
 锁定已在级别配置的项目、任务或问题首选项可确保您的组及其子组中的每个人都使用该首选项的相同设置。 尽管您仍然可以重新配置您为组锁定的首选项，但组管理员无法为组重新配置它。
 
@@ -42,17 +51,17 @@ ht-degree: 0%
 >
 >  如果在移动时锁定了已移动组中的首选项，则该首选项会保持锁定状态，但组管理员现在可以将其解锁，因为已为父组解锁该首选项。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

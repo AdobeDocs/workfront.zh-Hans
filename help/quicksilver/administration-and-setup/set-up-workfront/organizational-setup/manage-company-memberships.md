@@ -8,10 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+TQID: https://experienceleague.adobe.com/0bS4VdGyGBzH4LBw-WTeF0Ud8gtRAaxu0UevRtyZLQo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 1%
+source-wordcount: 841
+ht-degree: 2%
 
 ---
 
@@ -21,15 +31,15 @@ ht-degree: 1%
 
 有关创建新公司的信息，请参阅[创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
    <td> <p>[!DNL Workfront] 包</p> </td> 
-   <td><p>任何</p>
+   <td><p>“任一”</p>
    </td> 
   </tr> 
   <tr> 
@@ -50,7 +60,7 @@ ht-degree: 1%
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
         <li> <p>[!UICONTROL 系统管理员]访问级别。 </p> </li> 
-        <li> <p>您的访问级别中的<b>[!UICONTROL 用户]</b>设置配置为<b>[!UICONTROL 编辑]</b>访问权限，且<b>[!UICONTROL 创建]</b>和在<b>[!UICONTROL 微调您的设置]</b> <b>下启用的两个</b>[!UICONTROL 用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[!UICONTROL 用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
+        <li> <p>您的访问级别中的<b>[!UICONTROL 用户]</b>设置配置为<b>[!UICONTROL 编辑]</b>访问权限，且<b>[!UICONTROL 创建]</b>和在<b>[!UICONTROL 微调您的设置]</b> <img src="assets/gear-icon-in-access-levels.png">下启用的两个<b>[!UICONTROL 用户管理]</b>选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[!UICONTROL 用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>

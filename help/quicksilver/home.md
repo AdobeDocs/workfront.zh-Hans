@@ -3,12 +3,25 @@ title: '[!DNL Adobe Workfront]文档'
 description: ' [!DNL Adobe Workfront]的文档。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2bb5ee1e679c6809f86ddd1a9dbfd48ab12b9ce4
+TQID: https://experienceleague.adobe.com/QmFw0pkobCJGrlGBAiK-XPDBjNQ2JWQVuLnlCFQaUbc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 24%
+source-wordcount: 454
+ht-degree: 27%
 
 ---
 
@@ -24,7 +37,7 @@ ht-degree: 24%
 
 * [2026年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [Adobe Workfront Planning发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
-* [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion 发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 >[!TAB 2026版本]
 
@@ -36,7 +49,7 @@ ht-degree: 24%
 
 >[!TAB 2025版本]
 
-* [2025年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+* [2025 年第四季度发行版本概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [2025年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [2025年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [2025年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
@@ -111,12 +124,12 @@ ht-degree: 24%
 
 ## 在 Experience League 中查找内容的技巧
 
-采用一些策略性方法可以更高效地搜索文档。以下技巧可帮助您更高效地找到所需内容：
+采用一些策略性方法可以更高效地搜索文档。 以下技巧可帮助您更高效地找到所需内容：
 
 ### 使用目录和搜索栏
 
 * **目录**：从目录开始获取可用主题的概述，并按展开部分缩小到特定主题。
-* **搜索栏**：使用搜索栏查找文档。 输入与您的问题或主题相关的特定术语。请使用“项目时间线设置”或“任务依赖关系”而不是“项目管理”等常规术语。
+* **搜索栏**：使用搜索栏查找文档。 输入与您的问题或主题相关的特定术语。 请使用“项目时间线设置”或“任务依赖关系”而不是“项目管理”等常规术语。
 
 ![](assets/exl-site-nav.png)
 

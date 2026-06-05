@@ -9,10 +9,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/wgUZVPkh6AWQtmafLAcRFq0-P7lHtKuELUlOcCqpG0k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 4%
+source-wordcount: 1214
+ht-degree: 7%
 
 ---
 
@@ -20,17 +29,17 @@ ht-degree: 4%
 
 开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职位角色和用户信息，而不是手动输入数据。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -160,7 +169,7 @@ ht-degree: 4%
 
 1. 单击&#x200B;**更多选项**&#x200B;查看导入选项的完整列表。
 1. 选择要导入的访问级别、公司、组、工作角色和用户对象。
-1. 单击&#x200B;**下载**。
+1. 单击&#x200B;**“下载”。**
 
 ## 输入公司信息
 
@@ -274,7 +283,7 @@ ht-degree: 4%
 
 1. 输入用户的主组详细信息。
 
-   根据场景，Chris Manning属于营销组。 在&#x200B;**组**&#x200B;工作表上，找到营销组的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;工作表上将其粘贴到用户行上的&#x200B;**setHomeGroupID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
+   根据场景，Chris Manning属于营销组。 在&#x200B;**组**&#x200B;工作表上，找到营销组的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;工作表上将其粘贴到用户行上的&#x200B;**setHomeGroupID**&#x200B;列中。 对每个用户和组分配&#x200B;重复此步骤。
 
    ![复制组ID](assets/copygroupid-1-350x133.png) ![粘贴组ID](assets/pastegroupid-350x59.png)
 
@@ -288,7 +297,7 @@ ht-degree: 4%
 
 1. 输入用户的工作角色详细信息。
 
-   根据设想，克里斯·曼宁将担任业务分析员。 在&#x200B;**角色角色**&#x200B;工作表上，找到业务分析师角色的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;工作表上将其粘贴到用户行上的&#x200B;**setRoleID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
+   根据设想，克里斯·曼宁将担任业务分析员。 在&#x200B;**角色角色**&#x200B;工作表上，找到业务分析师角色的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;工作表上将其粘贴到用户行上的&#x200B;**setRoleID**&#x200B;列中。 对每个用户和组分配&#x200B;重复此步骤。
 
    ![复制角色ID](assets/copyroleid-350x149.png) ![粘贴角色ID](assets/pasteroleid-350x95.png)
 
@@ -303,4 +312,4 @@ ht-degree: 4%
 > 
 >如果贵组织已迁移到Adobe Admin Console，并且用户在几分钟内没有转变为“已停用”和“未决批准”状态，则您可以将该批用户直接添加到Adobe Admin Console。
 >
->有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
+>有关操作说明，请参阅 Adobe 文档中的[管理多个用户 | 批量上传 CSV](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。

@@ -9,10 +9,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/q2nEtaLEkclEFtv5PvFP9hFfsmR2rReriYC0-uDgATc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: 445
+ht-degree: 4%
 
 ---
 
@@ -25,17 +35,17 @@ ht-degree: 0%
 
 如果您的组之上存在任何组，则其管理员还可以为您的组执行这些操作。 Workfront管理员也是如此（适用于任何组）。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -85,7 +95,7 @@ ht-degree: 0%
       <td role="rowheader"> <p>为组创建新项目</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>单击<strong>新建项目</strong>，然后在下拉菜单中选择一个选项以指示创建项目的方式。 </p> <p>有关详细信息，请参阅文章<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">创建项目</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目的方法</a>部分。</p> </li> 
+        <li value="1"> <p>单击<strong>新建项目</strong>，然后在下拉菜单中选择一个选项以指示创建项目的方式。 </p> <p>有关详细信息，请参阅文章<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">创建项目的方法</a>部分。</p> </li> 
         <li value="2">键入项目的名称并进行配置，如<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>中所述。</li> 
        </ol> <p> 为组设置的项目首选项会影响您在组区域创建的所有项目。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">为组配置项目首选项</a>。</p> </td> 
      </tr> 

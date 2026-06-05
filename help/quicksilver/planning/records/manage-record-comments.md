@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 846
 ht-degree: 0%
 
 ---
@@ -72,13 +72,7 @@ ht-degree: 0%
    <td>   <p>查看工作区、记录类型和<span class="preview">记录</span>或更高权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
-   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>   
 </tbody> 
 </table>
 

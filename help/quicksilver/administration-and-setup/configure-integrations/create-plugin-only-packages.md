@@ -3,14 +3,27 @@ title: 在Adobe Admin Console中为您的用户创建仅限插件的包
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Adobe Admin Console管理员可以创建仅用于插件的轻量级包。 通过分发这些预配置的包，管理员可以确保用户拥有这些插件，而无需依赖用户自行查找插件。 我们建议使用这些轻量级插件将Adobe Workfront分发给Creative Cloud中的用户。
+description: Adobe Admin Console管理员可以创建仅用于插件的轻量级包。 通过分发这些预配置的包，管理员可以确保用户拥有这些插件，而无需依赖用户自行查找插件。 我们建议使用这些轻量级插件将Adobe Workfront for Creative Cloud插件分发给贵组织中的用户。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+TQID: https://experienceleague.adobe.com/x7ogKm-2LK11UurtYiRVN0OSaMBfR9EZrSKaFabBdlk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 215
 ht-degree: 4%
 
 ---
@@ -22,7 +35,7 @@ ht-degree: 4%
 [!DNL Creative Cloud]插件的以下[!DNL Adobe Workfront]可用：
 
 * Photoshop的[!DNL Adobe Workfront]
-* 用于XD的[!DNL Adobe Workfront]
+* XD的[!DNL Adobe Workfront]
 * [!DNL Adobe Workfront]用于设计和视频
 
    * InDesign

@@ -7,9 +7,14 @@ feature: Get Started with Workfront
 author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
+TQID: https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: 121
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 * [了解 [!DNL Adobe Workfront]中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [&#x200B; [!DNL Adobe Workfront] 术语词汇表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [[!DNL Adobe Unified Experience]的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+* [&#x200B; [!DNL Workfront]的[!DNL Adobe Unified Experience]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] 常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [[!DNL Adobe Workfront]搜索](../../workfront-basics/navigate-workfront/search/search.md)
 * [&#x200B; [!DNL Adobe Workfront]中的最近访问和收藏夹](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)

@@ -8,10 +8,21 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+TQID: https://experienceleague.adobe.com/kIePQZCs8D0i91A6kfwdlg0-Wbr0cJQeKn-W6t68xXs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: 161
+ht-degree: 11%
 
 ---
 
@@ -23,17 +34,17 @@ ht-degree: 1%
 >
 >删除自定义表单也会删除与表单关联的对象上的所有自定义数据。 无法恢复已删除的数据。 请考虑改为停用自定义表单 — 在停用不再使用的自定义表单时，将保留所有关联的历史数据。 有关详细信息，请参阅[重新激活或停用自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

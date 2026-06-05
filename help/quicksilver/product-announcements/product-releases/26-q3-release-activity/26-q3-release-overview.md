@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 2%
 
 ---
@@ -276,9 +276,9 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新评论通知电子邮件的外观</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>更新区域评论的电子邮件通知具有新外观，与更广泛的Adobe电子邮件设计保持一致。 之前注释的线程不再包含在电子邮件正文中。</p>
             </td>
-            <td><p>分阶段推出，开始日期尚未公布</p></td>
-            <td><p>分阶段推出，开始日期尚未公布</p></td>
-            <td><p>分阶段推出，开始日期尚未公布</p></td>
+            <td><p>不适用</p></td>
+            <td><p>已从2026年7月16日开始分阶段推出</p></td>
+            <td><p>已从2026年7月16日开始分阶段推出</p></td>
         </tr>
         <tr>
             <td>

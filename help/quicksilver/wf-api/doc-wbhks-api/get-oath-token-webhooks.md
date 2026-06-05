@@ -8,13 +8,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/dspQLWwqjYdo3y9Trqv70ylGd1hFE-ynJaBU7-xLyxg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 3%
+source-wordcount: 254
+ht-degree: 7%
 
 ---
-
 
 # 获取OAuth2标记
 
@@ -24,7 +30,7 @@ ht-degree: 3%
 
 **URL**
 
-POST/any/url
+POST /any/url
 
 该URL是可配置的，并且对应于自定义集成设置页面上的令牌端点URL值。
 
@@ -37,7 +43,7 @@ POST/any/url
  <thead>
   <tr>
    <th>名称</th>
-   <th>必填</th>
+   <th>必需</th>
    <th>描述</th>
   </tr>
  </thead>

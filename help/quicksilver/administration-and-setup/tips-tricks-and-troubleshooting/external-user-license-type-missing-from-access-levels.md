@@ -9,10 +9,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/g65Yq7r0Hvr6ZyC2niVw4Dnbil37epPeoyfQVOWOiy8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 2%
+source-wordcount: 119
+ht-degree: 14%
 
 ---
 
@@ -22,9 +33,9 @@ ht-degree: 2%
 
 我在“设置”中的访问级别下无法再看到外部用户许可证类型。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +43,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 

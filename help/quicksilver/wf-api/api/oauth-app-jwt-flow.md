@@ -7,9 +7,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -59,7 +69,7 @@ JWT必须经过签名并进行base-64编码以包含在访问请求中。 JWT库
  <tbody> 
   <tr> 
    <td role="rowheader">费用</td> 
-   <td> <p>必需。 到期参数是测量自01/01/1970 GMT以来的绝对时间的必需参数。 您必须确保过期时间晚于问题发生时间。 之后，JWT不再有效。 </p> <p>注意：我们建议您拥有一个生命周期非常短的令牌（几分钟），以便该令牌在转换为访问令牌后不久过期。 每次需要新的访问令牌时，都会签署和交换一个JWT。 这是一种更安全的方法。 我们不建议根据需要重复用于获取访问令牌的长效令牌。</p> </td> 
+   <td> <p>必需。到期参数是测量自01/01/1970 GMT以来的绝对时间的必需参数。您必须确保过期时间晚于问题发生时间。之后，JWT不再有效。 </p> <p>注意：我们建议您拥有一个生命周期非常短的令牌（几分钟），以便该令牌在转换为访问令牌后不久过期。 每次需要新的访问令牌时，都会签署和交换一个JWT。 这是一种更安全的方法。 我们不建议根据需要重复用于获取访问令牌的长效令牌。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 
@@ -74,7 +84,7 @@ JWT必须经过签名并进行base-64编码以包含在访问请求中。 JWT库
 
 ## 交换JWT以检索访问令牌
 
-1. 发送POST请求到：
+1. 发送POST请求至：
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>https://yourdomain.my.workfront.com/integrations/oauth2/api/v1/jwt/exchange</code></pre>

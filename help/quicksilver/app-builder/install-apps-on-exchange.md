@@ -4,9 +4,18 @@ description: Workfront UI Extensions 由 Adobe App Builder 提供支持，允许
 author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
-source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
+TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1301
 ht-degree: 1%
 
 ---
@@ -15,7 +24,7 @@ ht-degree: 1%
 
 您现在可以直接从Adobe Exchange安装合作伙伴为Workfront构建的应用程序。 这项功能将客户与不断增长的Adobe合作伙伴生态系统联系起来，这些合作伙伴提供了旨在提高工作效率、简化操作和扩展Workfront功能的工具。 通过Adobe Exchange，客户可以使用UI扩展发现并安装无缝集成到Workfront中的应用程序。
 
-Adobe Exchange是Adobe Experience Cloud(包括Adobe Workfront)中第三方应用程序、扩展和集成的中央市场。 对于Workfront客户而言，发现并安装能够增强功能、简化工作流以及与外部系统集成的应用程序是他们的首选目标。
+Adobe Exchange是适用于Adobe Experience Cloud（包括Adobe Workfront）中的第三方应用程序、扩展和集成的中央市场。 对于Workfront客户而言，发现并安装能够增强功能、简化工作流以及与外部系统集成的应用程序是他们的首选目标。
 
 ## Adobe合作伙伴应用程序
 

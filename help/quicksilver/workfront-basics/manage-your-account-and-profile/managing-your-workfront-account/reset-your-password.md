@@ -6,9 +6,19 @@ description: 您可以重置 [!DNL Adobe Workfront] 密码。 作为一项重要
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
+TQID: https://experienceleague.adobe.com/RzB4emBXtYily-iMYqSLrbYn7f8JCsUWz8r2SYd0O54
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: 103
 ht-degree: 0%
 
 ---
@@ -25,7 +35,7 @@ ht-degree: 0%
 
 如果您的密码由[!DNL Adobe]管理，则可以在Adobe帐户中更改密码。
 
-[请参阅本文，了解如何更改您的Adobe密码。](https://helpx.adobe.com/cn/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[请参阅本文，了解如何更改您的Adobe密码。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 有关更改密码的详细信息，请与管理员联系。
 

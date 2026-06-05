@@ -8,10 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/xuGMkecCBJEZ0e18LcgivF-kfHFb2Mgr8uUtV-M6Y70
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 7%
+source-wordcount: 462
+ht-degree: 11%
 
 ---
 
@@ -35,17 +44,17 @@ The system version of this snippet mentions a single group because a sysadmin ca
 >
 >* 您可以对锁定状态重新排序。 有关锁定状态的信息，请参阅[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -92,13 +101,13 @@ The system version of this snippet mentions a single group because a sysadmin ca
      <p> 想法 </p> 
    </td> 
    <td> 
-     <p>新建</p> 
-     <p>正在进行中</p> 
+     <p>新</p> 
+     <p>进行中</p> 
      <p>完成</p> 
    </td> 
    <td> 
-     <p>新建</p> 
-     <p>正在进行中</p> 
+     <p>新</p> 
+     <p>进行中</p> 
      <p>重新打开</p> 
      <p>等待反馈</p> 
      <p>暂停</p> 

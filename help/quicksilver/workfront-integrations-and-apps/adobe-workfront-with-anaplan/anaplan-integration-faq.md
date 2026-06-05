@@ -6,9 +6,18 @@ description: 我是否必须使用 [!DNL Adobe Workfront Fusion?]
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+TQID: https://experienceleague.adobe.com/e-IZiEvF2GkA5uS3QA-J8LQYCeV9dU698hPcSnCqR3Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: 515
 ht-degree: 0%
 
 ---
@@ -25,9 +34,9 @@ ht-degree: 0%
 
 ## 我是否必须使用[!DNL Adobe Workfront Fusion?] {#do-i-have-to-use-adobe-workfront-fusion}
 
-不可以。此集成可以使用任何集成平台即服务来完成。 但是，使用[!UICONTROL Workfront Fusion]将允许您访问[!DNL Fusion]场景模板，这些模板为此集成奠定了基础，并且部署速度比从头开始构建集成快得多。
+不可以。 此集成可以使用任何集成平台即服务来完成。 但是，使用[!UICONTROL Workfront Fusion]将允许您访问[!DNL Fusion]场景模板，这些模板为此集成奠定了基础，并且部署速度比从头开始构建集成快得多。
 
-## 我们是否可以与[!DNL Anaplan]以外的其他金融工具进行同样类型的集成？{#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan}
+## 我们是否可以与[!DNL Anaplan]以外的其他金融工具进行同样类型的集成？ {#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan}
 
 当然了。 但是，作为[!DNL Adobe]主要合作伙伴，[!DNL Anaplan]是未来集成投资的主要重点。 与[!DNL Anaplan]集成的客户将能够利用[!UICONTROL Workfront Fusion]方案模板，这些模板为此集成奠定了基础，并且使其部署速度比从头开始与其他财务系统构建集成快得多。
 
@@ -49,4 +58,4 @@ ht-degree: 0%
 
 ## [!DNL Workfront professional services]是否会帮助我配置我的[!DNL Anaplan]工作区？ {#will-workfront-professional-services-help-me-configure-my-anaplan-workspace}
 
-不可以。[!DNL Workfront]将不会在部署文档之外提供任何咨询以帮助配置[!DNL Anaplan]。 如果需要有关对[!DNL Anaplan]进行更改以容纳此集成的帮助，则建议您联系[!DNL Anaplan]服务提供商。
+不可以。 [!DNL Workfront]将不会在部署文档之外提供任何咨询以帮助配置[!DNL Anaplan]。 如果需要有关对[!DNL Anaplan]进行更改以容纳此集成的帮助，则建议您联系[!DNL Anaplan]服务提供商。

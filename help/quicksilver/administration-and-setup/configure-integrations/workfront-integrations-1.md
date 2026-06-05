@@ -9,11 +9,29 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+TQID: https://experienceleague.adobe.com/lyfhBuKOVUpBxyP6CNqFAOy75MB9-s-tMKVTWqlejp4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1304
 ht-degree: 1%
 
 ---
@@ -90,7 +108,7 @@ ht-degree: 1%
    <td role="rowheader"> <p>Adobe Express</p> </td> 
    <td> 
     <ul> 
-     <li>将校对体验与Adobe Express集成。 通过此集成，您可以 
+     <li>将校对体验与Adobe Express集成。通过此集成，您可以 
      <ul>
      <li>使用Workfront审批模板定义审批工作流。 </li>
      <li>在验证查看器中查看Adobe Express草稿内容。 </li>
@@ -105,7 +123,7 @@ ht-degree: 1%
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>将校对体验与Genstudio集成以实现性能营销。 通过此集成，您可以 
+     <li>将校对体验与Genstudio集成以实现性能营销。通过此集成，您可以 
      <ul>
      <li>使用Workfront审批模板定义审批工作流。 </li>
      <li>在验证查看器中查看GenStudio草稿内容。 </li>
@@ -130,7 +148,7 @@ ht-degree: 1%
      <li>After Effects </li>
      </ul>
      <li><p>从<a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下载/安装。</p></li></ul>
-     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a></p> 
+     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Creative Cloud]应用程序安装[!DNL Adobe Workfront]插件</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -186,7 +204,7 @@ ht-degree: 1%
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>在[!DNL Workfront]个团队中获取[!DNL Microsoft]通知 </li> 
+     <li>在[!DNL Microsoft]个团队中获取[!DNL Workfront]通知 </li> 
      <li>作出批准决定 </li> 
      <li>搜索[!DNL Workfront]项目、任务和问题 </li> 
      <li>创建[!DNL Workfront]个人任务 </li> 
@@ -214,9 +232,9 @@ ht-degree: 1%
    <td> <p>[!DNL Slack]</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>在[!DNL Workfront]中接收[!DNL Slack]通知 </li> 
+     <li>在[!DNL Slack]中接收[!DNL Workfront]通知 </li> 
      <li>在[!DNL Slack]中管理审批 </li> 
-     <li>从[!DNL Workfront]创建[!DNL Slack]任务和问题 </li> 
+     <li>从[!DNL Slack]创建[!DNL Workfront]任务和问题 </li> 
      <li>将注释发布到中的项目或任务 [!DNL Slack]</li> 
     </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>。</p> </td> 
    <td> 

@@ -9,10 +9,21 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/KA-GLrly19ARLvWCK240Qm505qfO0U2rSWir-r2pp7k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 0%
+source-wordcount: 1302
+ht-degree: 1%
 
 ---
 
@@ -28,17 +39,17 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 >
 >当您被指定为组的管理员时，您将继承其下任何子组的组管理员角色。 唯一可以管理子组的用户是上面最上层组的组管理员以及分配给该子组的任何组管理员。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -90,7 +101,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    * **编辑**：[查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **复制**： [通过复制项目](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)创建组[中的现有组或子组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)创建顶级组
+   * **复制**： [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)通过复制项目[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的现有组或子组创建顶级组
 
    * **删除**： [删除组](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
@@ -110,9 +121,9 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 ## 创建和自定义组的状态
 
-作为组管理员，您可以为所管理的顶级组创建自定义状态。 这赋予了您的组自主权，并有助于消除对数十种公司范围的自定义状态的需要。 (Workfront管理员还可以为任何组执行此操作。)
+作为组管理员，您可以为所管理的顶级组创建自定义状态。 这赋予了您的组自主权，并有助于消除对数十种公司范围的自定义状态的需要。 （Workfront管理员还可以为任何组执行此操作。）
 
-您还可以自定义顶级组的系统状态(如果Workfront管理员将系统状态配置为允许自定义)。
+您还可以自定义顶级组的系统状态（如果Workfront管理员将系统状态配置为允许自定义）。
 
 有关说明，请参阅[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 

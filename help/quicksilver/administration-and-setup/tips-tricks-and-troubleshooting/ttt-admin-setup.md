@@ -10,10 +10,20 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: f66b219e9fd203f108844ad397bcfa848b8f1134
+TQID: https://experienceleague.adobe.com/Wvy0zTDMmD-RHwg-S-gFh7Gr9ngnURhwxu9vpWnaOwY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: 207
+ht-degree: 3%
 
 ---
 
@@ -43,4 +53,4 @@ ht-degree: 0%
 * [保存电子邮件标头文件](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [共享显示多个权限](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [由于域的DMARC策略，未接受未经身份验证的电子邮件](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-* [Workfront： ZScaler设置可能会导致性能降低](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+* [Workfront：ZScaler 设置可能会导致性能下降](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)

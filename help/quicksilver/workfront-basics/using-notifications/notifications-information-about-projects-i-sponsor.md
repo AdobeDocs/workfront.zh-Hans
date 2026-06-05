@@ -6,9 +6,14 @@ description: 以下通知会提醒您正在赞助的项目中发生的活动。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: 1254
 ht-degree: 0%
 
 ---
@@ -39,7 +44,7 @@ ht-degree: 0%
    <td><strong>每天</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>在完成里程碑任务之后，发送电子邮件给项目发起人</strong> </p> <p>当项目发起人发起的项目中的里程碑任务完成后，项目发起人会收到电子邮件通知。</p> <p>仅当项目状态为[!UICONTROL 当前]或[!UICONTROL 计划]时，才会发送通知。</p> <p>即时通知电子邮件的主题是： &lt;项目名称&gt;<em>上的</em>[!UICONTROL 完成]： &lt;任务名称&gt;</p> <p>注意：如果任务更改为等于[!UICONTROL 完成]的状态，则电子邮件主题仍显示“[!UICONTROL 完成]”。<br></p> <p>每日摘要通知的主题是：<em>您赞助的项目摘要&lt;每日摘要日期&gt;</em></p> </td> 
+   <td> <p><strong>在完成里程碑任务之后，发送电子邮件给项目发起人</strong> </p> <p>当项目发起人发起的项目中的里程碑任务完成后，项目发起人会收到电子邮件通知。</p> <p>仅当项目状态为[!UICONTROL 当前]或[!UICONTROL 计划]时，才会发送通知。</p> <p>即时通知电子邮件的主题是： &lt;项目名称&gt;</em>上的<em>[!UICONTROL 完成]： &lt;任务名称&gt;</p> <p>注意：如果任务更改为等于[!UICONTROL 完成]的状态，则电子邮件主题仍显示“[!UICONTROL 完成]”。<br></p> <p>每日摘要通知的主题是：<em>您赞助的项目摘要&lt;每日摘要日期&gt;</em></p> </td> 
    <td> 任务名称<br>项目名称<br>任务参考编号<br>完成任务的用户的名称<br>新任务状态<br>完成任务的日期和时间<br>上一任务状态<br><strong>[!UICONTROL 查看更多详细信息]</strong>按钮<br>*项目名称<br>*项目参考编号<br>*已完成任务的任务总数<br>*任务名称<br>*完成任务的用户的名称<br>*每日摘要的日期<br></td> 
    <td><strong>每天</strong> </td> 
   </tr> 
@@ -49,7 +54,7 @@ ht-degree: 0%
    <td><strong>每天</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>在完成任务之后，发送电子邮件给项目发起人</strong> </p> <p>项目发起人会收到电子邮件通知。</p> <p>仅当项目状态为[!UICONTROL 当前]时，才会发送通知。</p> <p>即时通知电子邮件的主题是： &lt;项目名称&gt;<em>上的</em>[!UICONTROL 完成]： &lt;任务名称&gt;</p> <p> <p>注意：如果任务更改为等于[!UICONTROL 完成]的状态，则电子邮件主题仍显示“[!UICONTROL 完成]”。</p> </p> <p>每日摘要通知的主题是：<em>您赞助的项目摘要&lt;每日摘要日期&gt;</em></p> </td> 
+   <td> <p><strong>在完成任务之后，发送电子邮件给项目发起人</strong> </p> <p>项目发起人会收到电子邮件通知。</p> <p>仅当项目状态为[!UICONTROL 当前]时，才会发送通知。</p> <p>即时通知电子邮件的主题是： &lt;项目名称&gt;</em>上的<em>[!UICONTROL 完成]： &lt;任务名称&gt;</p> <p> <p>注意：如果任务更改为等于[!UICONTROL 完成]的状态，则电子邮件主题仍显示“[!UICONTROL 完成]”。</p> </p> <p>每日摘要通知的主题是：<em>您赞助的项目摘要&lt;每日摘要日期&gt;</em></p> </td> 
    <td> 任务名称<br>项目名称<br>任务参考编号<br>完成任务的用户的名称<br>任务状态<br>任务状态更改的日期和时间<br>上一个任务状态<br><strong>查看更多详细信息</strong>按钮<br>*项目名称<br>*项目参考编号<br>*完成的任务总数<br>*任务名称<br>*完成任务的用户的名称<br>*每日摘要日期 </td> 
    <td><strong>每天</strong> </td> 
   </tr> 

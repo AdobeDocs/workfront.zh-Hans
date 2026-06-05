@@ -8,9 +8,16 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/RB9yZzjEaDZSo1qVutyeIPgo4iDbMw1xB-vxu6TtEfU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: 143
 ht-degree: 0%
 
 ---
@@ -22,11 +29,11 @@ ht-degree: 0%
 * [概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
 * [开始使用 [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限
-* [中的 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)计划概述
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的计划概述
 * [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中创建和编辑计划
 * [在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)中创建并比较计划方案
 * [删除 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)中的计划
-* [中的 [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)计划概述
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)中的计划概述
 * [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划
 * [复制 [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)中的计划
 * [更新 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)中的计划优先级
@@ -34,7 +41,7 @@ ht-degree: 0%
 * [解决 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)中的计划冲突
 * [将项目导入 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中的计划
 * [在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中请求计划的权限
-* 在[中 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)共享计划
+* 在 [!DNL Scenario Planner][&#128279;](../scenario-planner/share-a-plan.md)中共享计划
 * [通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目
 * [项目和计划之间协调资源分配概述](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [在任务列表中显示项目和计划的角色分配](../scenario-planner/show-role-allocation-task-list-nwe.md)

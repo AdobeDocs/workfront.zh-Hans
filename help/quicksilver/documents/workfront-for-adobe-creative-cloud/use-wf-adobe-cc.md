@@ -6,9 +6,21 @@ description: 您可以使用Workfront扩展将您在Adobe Illustrator和Adobe In
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+TQID: https://experienceleague.adobe.com/JIa4ccrHG-8ocEpy5T5ueD483gMqw5keW9X-SW47sS8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3069'
+source-wordcount: 3090
 ht-degree: 0%
 
 ---
@@ -31,26 +43,26 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >我们建议使用适用于Photoshop[的新](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)Adobe Workfront插件。
+  >我们建议使用适用于Photoshop[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)的新Adobe Workfront插件。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p>
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p>
  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
       <p>标准</p> 
-   <p>工作或更高</p>
+   <p>工作版或更高版本</p>
 </td> 
   </tr> 
   <tr> 
@@ -287,7 +299,7 @@ ht-degree: 0%
 
 ## 从Illustrator或InDesign生成验证 {#generate-a-proof-from-illustrator-or-indesign}
 
-如果您的组织使用自动工作流模板，则无需离开应用程序，即可为您在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 有关自动化工作流模板的信息，请参阅[自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)中的[自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。
+如果您的组织使用自动工作流模板，则无需离开应用程序，即可为您在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 有关自动化工作流模板的信息，请参阅[自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)中的[自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)。
 
 1. 打开一个受支持的Adobe应用程序。
 1. 如果未显示Workfront扩展，请单击&#x200B;**窗口** > **扩展** > Workfront。
@@ -374,7 +386,7 @@ Workfront支持以下文件格式，可将文件从InDesign导出到Workfront：
 * SWF - Flash Player &#42;
 * XML — 可扩展标记语言&#42;
 
-&#42;启用&#x200B;**上传新校对**&#x200B;时，此文件格式不可用(有关此选项的信息，请参阅本文中的[从Illustrator或InDesign生成校对](#generate-a-proof-from-illustrator-or-indesign))。 如果在启用&#x200B;**上传新校对**&#x200B;之前已选择此文件格式，则系统会将文件格式更改为PDF。 您可以从列表中选择不同的格式。
+&#42;启用&#x200B;**上传新校对**&#x200B;时，此文件格式不可用（有关此选项的信息，请参阅本文中的[从Illustrator或InDesign生成校对](#generate-a-proof-from-illustrator-or-indesign)）。 如果在启用&#x200B;**上传新校对**&#x200B;之前已选择此文件格式，则系统会将文件格式更改为PDF。 您可以从列表中选择不同的格式。
 
 ### Adobe Illustrator支持的导出文件格式  {#supported-exported-file-formats-for-adobe-illustrator}
 
@@ -387,4 +399,4 @@ Workfront支持以下文件格式，可将文件从Illustrator导出到Workfront
 * SWF - Flash Player &#42;
 * TIFF — 标记图像文件格式
 
-&#42;启用&#x200B;**上传新校对**&#x200B;时，此文件格式不可用(有关此选项的信息，请参阅本文中的[从Illustrator或InDesign生成校对](#generate-a-proof-from-illustrator-or-indesign))。 如果在启用&#x200B;**上传新校对**&#x200B;之前已选择此文件格式，则系统会将文件格式更改为PNG。 您可以从列表中选择不同的格式。
+&#42;启用&#x200B;**上传新校对**&#x200B;时，此文件格式不可用（有关此选项的信息，请参阅本文中的[从Illustrator或InDesign生成校对](#generate-a-proof-from-illustrator-or-indesign)）。 如果在启用&#x200B;**上传新校对**&#x200B;之前已选择此文件格式，则系统会将文件格式更改为PNG。 您可以从列表中选择不同的格式。

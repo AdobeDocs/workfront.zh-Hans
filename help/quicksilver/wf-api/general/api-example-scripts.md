@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/sKmKH09kvDSYV81SQi1vgQXobcVBG-zWWKCKMsQyzq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 254
 ht-degree: 0%
 
 ---
-
 
 # API示例脚本
 
@@ -30,7 +34,7 @@ ht-degree: 0%
 * 删除项目
 * 注销
 
-您可以在Workfront的Github页面上下载这些示例：  [https://github.com/Workfront](https://github.com/Workfront)
+您可以在Workfront的Github页面上下载这些示例：[https://github.com/Workfront](https://github.com/Workfront)
 
 要在存储库中查找示例，请在&#x200B;**查找存储库……**&#x200B;框中输入`example`。
 

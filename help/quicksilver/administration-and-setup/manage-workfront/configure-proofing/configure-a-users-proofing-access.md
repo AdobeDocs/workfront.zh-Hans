@@ -8,9 +8,19 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
+TQID: https://experienceleague.adobe.com/L-AMDvQYgtXJwxmtwekimbEA9OQQN72QHIcoQ2iKzGU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -128,7 +138,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**验证默认值**&#x200B;下，在&#x200B;**交互式验证的桌面验证查看器**&#x200B;行的末尾，单击&#x200B;**设置**。
 
-1. 按照[为组织配置校对设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer)一文中[桌面校对查看器](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)的说明，修改桌面校对查看器设置。
+1. 按照[为组织配置校对设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)一文中[桌面校对查看器](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer)的说明，修改桌面校对查看器设置。
 
 1. 单击&#x200B;**保存**。
 
@@ -139,4 +149,4 @@ ht-degree: 1%
 有关详细信息，请参阅[在验证查看器中更改交互式验证分辨率](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)。
 
 1. 从Workfront访问Workfront Proof界面，如[从Adobe Workfront访问Workfront Proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)中所述。
-1. 修改桌面验证查看器设置，如[为组织配置验证设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)中的[为验证配置自定义设备](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)中所述。
+1. 修改桌面验证查看器设置，如[为组织配置验证设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)中的[为验证配置自定义设备](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)中所述。

@@ -6,10 +6,19 @@ description: 您可以将多个文件合并到单个多页验证中。 查看者
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ftAfhh-z2L4bKJ9l5IErMy8cJ-YASuKcIcjSEJjavcU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: 611
+ht-degree: 3%
 
 ---
 
@@ -17,17 +26,17 @@ ht-degree: 0%
 
 您可以将多个文件合并到单个多页验证中。 查看者可以使用验证查看者中的导航工具来浏览多页验证中的页面。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -83,10 +92,10 @@ ht-degree: 0%
 将文件组合到单个验证中时，请考虑以下事项：
 
 * 您最多可以上传500个单独的文件。
-* 您可以合并各种类型的静态文件(例如，PDF、JPG、DOC、PPT、EXC)，最多可达2,000页。
+* 您可以合并各种类型的静态文件（例如，PDF、JPG、DOC、PPT、EXC），最多可达2,000页。
 * 您可以组合静态Web捕获。
 * 您可以合并GIF文件；但是，动画GIF会作为静态文件处理。
 * 无法将AV文件与交互式Web捕获结合使用。
-* 校样的缩略图图像是从校样的首页获取的(请参阅[在Workfront Proof中管理校样详细信息](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md))。
+* 校样的缩略图图像是从校样的首页获取的（请参阅[在Workfront Proof中管理校样详细信息](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)）。
 * 您可以在验证详细信息页面上检查合并以创建验证的文件名称。 有关详细信息，请参阅[在Workfront Proof中管理校对详细信息](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)。
-* 如果验证上启用了下载原始文件的选项，则您可以下载已合并的所有文件，以将验证创建为.zip文件。 有关更多信息，请参阅  [下载存储在Workfront Proof中的文件](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)。
+* 如果验证上启用了下载原始文件的选项，则您可以下载已合并的所有文件，以将验证创建为.zip文件。 有关详细信息，请参阅[下载存储在Workfront Proof中的文件](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)。

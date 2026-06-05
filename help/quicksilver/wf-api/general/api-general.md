@@ -9,20 +9,24 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 4025002b-4b11-4105-81d6-5d493a0f2255
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/jkAh4KPBHNGTWxjMWxwdSlCOlTq-6hcL1yj2-ARewtU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 0%
+source-wordcount: 49
+ht-degree: 4%
 
 ---
-
 
 # API常规
 
 本节包含以下文章：
 
 * [API基础知识](../../wf-api/general/api-basics.md)
-* [API资源管理器](../../wf-api/general/api-explorer.md)
+* [API Explorer](../../wf-api/general/api-explorer.md)
 * [使用API Explorer](../../wf-api/general/using-api-explorer.md)
 * Adobe Workfront API中的[富文本字段](../../wf-api/general/rich-text-field-api.md)
 * [API示例脚本](../../wf-api/general/api-example-scripts.md)

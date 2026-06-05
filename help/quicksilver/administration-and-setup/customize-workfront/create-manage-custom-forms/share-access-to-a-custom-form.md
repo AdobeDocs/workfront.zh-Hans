@@ -8,9 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
+TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: 980
 ht-degree: 2%
 
 ---
@@ -171,7 +182,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >* 大多数组织都希望确保系统中的每个人都可以填写自定义表单，将其附加到他们处理的对象上，并在报表中查看其数据。 如果您的组织确实如此，我们建议您使用&#x200B;**系统中的每个人都可以查看**。
    >* <span class="preview">如果选择&#x200B;**系统中的每个人都可以查看和附加**，则所有用户都可以将表单附加到其他对象。</span>
    >
-   >预览环境中的<span class="preview">示例图像：</span>
+   ><span class="preview">预览环境中的示例图像：</span>
    >![共享自定义表单](assets/share-custom-forms-all-can-attach.png)
    >   
    >生产环境中的示例图像：

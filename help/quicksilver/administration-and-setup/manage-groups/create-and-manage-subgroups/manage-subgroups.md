@@ -9,10 +9,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ng0xKCrHg--5s3MdiLEOJfjoao9WND2uFqS5VI9LGng
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 0%
+source-wordcount: 1360
+ht-degree: 1%
 
 ---
 
@@ -38,17 +47,17 @@ ht-degree: 0%
 >
 >您还可以使用“顶级父代名称”字段来标识与顶级组关联的数据，但仅限于视图，而不能用于筛选器或组。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -156,7 +165,7 @@ ht-degree: 0%
 1. 选择一个子组，然后单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)以根据所选组创建新的顶级组。
 1. 配置新组的设置。
 
-   有关这些设置的帮助，请参阅[创建组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)一文中的[通过复制现有组或子组来创建顶级组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
+   有关这些设置的帮助，请参阅[创建组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)一文中的[通过复制现有组或子组来创建顶级组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)。
 
 1. 单击&#x200B;**创建群组**。
 
@@ -179,8 +188,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->当您取消激活下面具有子组的组时，这些子组也会变为非活动状态。 如果您希望其中一个处于活动状态，可以使用这些说明将其从父组中移除，然后重新激活它。
->&#x200B;>有关停用和重新激活组的说明，请参阅[停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
+>当您取消激活下面具有子组的组时，这些子组也会变为非活动状态。如果您希望其中一个处于活动状态，可以使用这些说明将其从父组中移除，然后重新激活它。
+>有关停用和重新激活组的说明，请参阅[停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 {{step-1-to-setup}}
 

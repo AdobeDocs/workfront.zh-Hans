@@ -6,9 +6,14 @@ description: 阅读本文以成为 [!DNL Adobe Workfront] 移动应用程序的i
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: 442
 ht-degree: 0%
 
 ---
@@ -25,9 +30,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在安装[!DNL TestFlight]应用并成为[!DNL iOS]设备上的Beta测试程序后，您必须使用[!DNL Workfront]应用而不是[!DNL TestFlight]下载[!DNL Apple Store]的更新版本。 如果您不是[!DNL iOS]的Beta测试者，则可以继续从[!DNL Apple Store]更新您的移动应用。
+>在安装[!DNL TestFlight]应用并成为[!DNL iOS]设备上的Beta测试程序后，您必须使用[!DNL TestFlight]应用而不是[!DNL Apple Store]下载[!DNL Workfront]的更新版本。 如果您不是[!DNL iOS]的Beta测试者，则可以继续从[!DNL Apple Store]更新您的移动应用。
 
-#### 1.安装[!DNL TestFlight]应用
+#### &#x200B;1. 安装[!DNL TestFlight]应用
 
 要安装[!DNL Workfront]应用程序的测试版，需要在设备上安装[!DNL TestFlight]应用程序。 安装[!DNL TestFlight]后，您需要安装[!DNL Workfront]应用。
 
@@ -37,11 +42,11 @@ ht-degree: 0%
 1. 点按您的姓名，然后点按&#x200B;**[!UICONTROL 成为Beta Tester]**。
 1. 点按&#x200B;**[!UICONTROL 在[!DNL App Store]]**&#x200B;中查看以查看[!DNL TestFlight]应用。
 1. 点按&#x200B;**[!UICONTROL Get]**&#x200B;以在您的设备上安装[!DNL TestFlight]，然后点按&#x200B;**[!UICONTROL 安装]**。
-1. 在&#x200B;**[!UICONTROL 应用程序中点按]**&#x200B;打开&#x200B;**[!UICONTROL ，然后点按]**&#x200B;继续[!DNL TestFlight]。
+1. 在[!DNL TestFlight]应用程序中点按&#x200B;**[!UICONTROL 打开]**，然后点按&#x200B;**[!UICONTROL 继续]**。
 1. 点按&#x200B;**[!UICONTROL 接受]**&#x200B;以接受[!DNL TestFlight]应用的条款和条件。\
    [!DNL TestFlight]应用已安装在您的设备上。 继续下一部分。
 
-#### 2.在[!DNL Workfront]中安装[!DNL TestFlight] Beta应用程序
+#### &#x200B;2. 在[!DNL TestFlight]中安装[!DNL Workfront] Beta应用程序
 
 您必须先在iOS设备上安装[!DNL Workfront]应用程序和[!DNL TestFlight]应用程序，然后才能在iOS设备上成为Beta测试者。
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 ## 更新[!DNL Workfront] Beta应用程序
 
-如果您注册为Beta测试人员，则必须在[!DNL Workfront]中更新[!DNL TestFlight]应用才能访问Beta测试版中可用的新功能。
+如果您注册为Beta测试人员，则必须在[!DNL TestFlight]中更新[!DNL Workfront]应用才能访问Beta测试版中可用的新功能。
 
 1. 打开[!DNL TestFlight]应用。
 1. 点按&#x200B;**[!UICONTROL 更新]**。

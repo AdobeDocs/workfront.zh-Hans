@@ -6,15 +6,44 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
+TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '21952'
+source-wordcount: 21551
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Workfront]术语词汇表
 
@@ -137,7 +166,7 @@ ht-degree: 0%
       <!--
       Resource Estimates or a
       -->
-     项目（财务数据）报告并添加[!UICONTROL 分配日期]的矩阵分组，然后每周、每月、每季度或每年对结果进行分组，以获得最准确的数据。<br>有关生成矩阵分组的信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">创建矩阵报告</a>。</p> </li>
+     项目（财务数据）报告并添加[!UICONTROL 分配日期]的矩阵分组，然后针对最准确的数据对每周、每月、每季度或每年结果分组。<br>有关构建矩阵分组的信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">创建矩阵报告</a>。</p> </li>
     </ul> <p>仅当与财务信息关联的数据存在时间少于5年时，财务信息才会填充到[!UICONTROL 项目（财务数据）]报表中。 例如，如果某个工作角色在2015年1月分配给任务，而今天是2021年9月，则类似于该工作角色的[!UICONTROL 分配日期]的财务字段不会填充到[!UICONTROL 项目(Financial Data)]报表中。 </p> 
     <div> 
      <p>对于[!UICONTROL 预算小时数]报表：</p> 
@@ -1204,7 +1233,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 上次条件注释]</td> 
-   <td> <p>此字段显示对象的所有者上次在对象上输入的更新。这是所有者对对象的最新活动或交互。</p> <p>如果对象的最后一个注释的注释文本已被删除，[!DNL Last Condition Note]列为空。 在对象上输入新注解后，它将变成最后一个注解，并再次显示在列中。 </p> </td> 
+   <td> <p>此字段显示对象的所有者上次在对象上输入的更新。这是所有者对对象的最新活动或交互。</p> <p>如果对象的最后一个注释的注释文本已被删除，[!DNL Last Condition Note]列为空。在对象上输入新注解后，它将变成最后一个注解，并再次显示在列中。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 上次财务更新日期]</td> 
@@ -1404,7 +1433,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL 子项数]</td> 
    <td> <p>在[!UICONTROL 项目]报表中，这是任务具有的子任务或子任务的数量。 
    <p><b>提示</b></p>
-   您可以将<code>{numberOfChildren}</code>计算添加到任务自定义表单的计算自定义字段中，以在自定义字段中显示任务的子级数。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">将计算字段添加到表单</a>。 
+   您可以将<code>{numberOfChildren}</code>计算添加到任务自定义表单的计算自定义字段中，以在自定义字段中显示任务的子级数。有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">将计算字段添加到表单</a>。 
     </td> 
   </tr> 
   <tr> 
@@ -1545,7 +1574,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL 参数]</td> 
-   <td> <p>[!UICONTROL 参数]是一个自定义字段。 您可以为系统中的所有参数或自定义字段构建报告。 </p> </td> 
+   <td> <p>[!UICONTROL 参数]是一个自定义字段。您可以为系统中的所有参数或自定义字段构建报告。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent]</td> 
@@ -1622,7 +1651,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 计划成本]</td> 
-   <td> <p>项目的[!UICONTROL 计划劳力成本]和[!UICONTROL 计划费用成本]的总和。 这不包括项目中的[!UICONTROL 计划风险成本]。  </p> </td> 
+   <td> <p>项目的[!UICONTROL 计划劳力成本]和[!UICONTROL 计划费用成本]的总和。这不包括项目中的[!UICONTROL 计划风险成本]。  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 计划日期对齐方式]</td> 
@@ -1636,7 +1665,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 计划持续时间]</td> 
-   <td> <p>任务的[!UICONTROL 计划持续时间]通常与任务的[!UICONTROL 持续时间]相同。 它表示任务的[!UICONTROL 计划开始]与[!UICONTROL 计划完成日期]之间的天数差。 </p> <p>当任务的[!UICONTROL 工期]类型为[!UICONTROL 投入比导向]时，根据您分配给任务的资源数量，[!UICONTROL 计划工期]可能与任务的[!UICONTROL 工期]不同。 </p> <p>例如，如果[!UICONTROL 工期]类型为[!UICONTROL 投入比导向]的任务的[!UICONTROL 工期]为3天，而您为该任务分配了一个具有全职计划的资源，则[!UICONTROL 计划工期]也为3天。 如果将三个具有全职计划的资源分配给同一任务，则[!UICONTROL 持续时间]将保留3天，而[!UICONTROL 计划持续时间]将变为1天。 [!UICONTROL 计划持续时间]还会更改任务的[!UICONTROL 计划开始]和[!UICONTROL 计划完成]日期，以反映新的[!UICONTROL 计划持续时间]。 因此，项目的时间表也会受到影响。 </p> <p>有关任务的[!UICONTROL 持续时间]与[!UICONTROL 计划持续时间]之间差异的更多信息，请参阅文章<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">任务</a>的[!UICONTROL 计划持续时间]与[!UICONTROL 持续时间]之间的差异。</p> <p>项目和问题不具有[!UICONTROL 计划持续时间]。 </p> </td> 
+   <td> <p>任务的[!UICONTROL 计划持续时间]通常与任务的[!UICONTROL 持续时间]相同。它表示任务的[!UICONTROL 计划开始]与[!UICONTROL 计划完成日期]之间的天数差。 </p> <p>当任务的[!UICONTROL 工期]类型为[!UICONTROL 投入比导向]时，根据您分配给任务的资源数量，[!UICONTROL 计划工期]可能与任务的[!UICONTROL 工期]不同。 </p> <p>例如，如果[!UICONTROL 工期]类型为[!UICONTROL 投入比导向]的任务的[!UICONTROL 工期]为3天，而您为该任务分配了一个具有全职计划的资源，则[!UICONTROL 计划工期]也为3天。如果将三个具有全职计划的资源分配给同一任务，则[!UICONTROL 持续时间]将保留3天，而[!UICONTROL 计划持续时间]将变为1天。[!UICONTROL 计划持续时间]还会更改任务的[!UICONTROL 计划开始]和[!UICONTROL 计划完成]日期，以反映新的[!UICONTROL 计划持续时间]。因此，项目的时间表也会受到影响。 </p> <p>有关任务的[!UICONTROL 持续时间]与[!UICONTROL 计划持续时间]之间差异的更多信息，请参阅文章<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">任务</a>的[!UICONTROL 计划持续时间]与[!UICONTROL 持续时间]之间的差异。</p> <p>项目和问题不具有[!UICONTROL 计划持续时间]。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 计划持续时间分钟]</td> 
@@ -1874,11 +1903,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 排名]</td> 
-   <td> <p>在[!UICONTROL 访问级别]报表中，您可以手动指定[!UICONTROL 访问级别]的[!UICONTROL 排名]。 这有助于您作为[!DNL Workfront]管理员直观地确定与每个访问级别关联的复杂性级别。 例如，您可以为较复杂的（[!UICONTROL 计划]级别）访问级别提供较低的数字，为较不复杂的（[!UICONTROL 请求者]级别）访问级别提供较高的数字。 您不能对标准访问级别进行排名。 </p> </td> 
+   <td> <p>在[!UICONTROL 访问级别]报表中，您可以手动指定[!UICONTROL 访问级别]的[!UICONTROL 排名]。这有助于您作为[!DNL Workfront]管理员直观地确定与每个访问级别关联的复杂性级别。例如，您可以为较复杂的（[!UICONTROL 计划]级别）访问级别提供较低的数字，为较不复杂的（[!UICONTROL 请求者]级别）访问级别提供较高的数字。您不能对标准访问级别进行排名。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 就绪]</td> 
-   <td> <p>任务报告上的此字段指示是否在积压中将[!UICONTROL Agile]任务标记为[!UICONTROL Ready]。 此标记仅适用于[!UICONTROL Agile]任务，这些任务已分配给[!UICONTROL Agile]团队。 </p> </td> 
+   <td> <p>任务报告上的此字段指示是否在积压中将[!UICONTROL Agile]任务标记为[!UICONTROL Ready]。此标记仅适用于[!UICONTROL Agile]任务，这些任务已分配给[!UICONTROL Agile]团队。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 记录]</td> 
@@ -2098,7 +2127,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 计划报告]</td> 
-   <td> <p>如果计划使用[!UICONTROL 计划报告]字段提交报告，则在构建报告报告时，可以显示有关报告计划的信息。 此字段在项目符号列表中显示多个值，每个报表的每个计划显示一个值。 有关计划报表的更多信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">报表传送概述</a>。</p> <p>由于此字段显示多个值，因此无法在分组中使用它。 您只能在过滤器或视图中访问它。 </p> </td> 
+   <td> <p>如果计划使用[!UICONTROL 计划报告]字段提交报告，则在构建报告报告时，可以显示有关报告计划的信息。 此字段在项目符号列表中显示多个值，每个报表的每个计划显示一个值。 有关计划报表的更多信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">报表传送概述</a>。</p> <p>由于此字段显示多个值，因此无法在分组中使用它。您只能在过滤器或视图中访问它。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 范围更改]</td> 
@@ -2142,7 +2171,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>指示另一个对象的父对象。 例如，附加到任务的文档在[!UICONTROL Document]报告或视图的[!UICONTROL Source]字段中具有任务的名称；在项目下记录的问题在问题报告或视图的[!UICONTROL Source]字段中具有项目的名称。 </p> 
+   <td> <p>指示另一个对象的父对象。例如，附加到任务的文档在[!UICONTROL Document]报告或视图的[!UICONTROL Source]字段中具有任务的名称；在项目下记录的问题在问题报告或视图的[!UICONTROL Source]字段中具有项目的名称。 </p> 
    <p>以下报表显示Source列，您可以在其中查看有关父对象的信息：</p>
   <ul><li>问题报告</li>
     <li>小时报告</li>
@@ -2487,7 +2516,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-  <td> 在报表中使用[!UICONTROL 文本模式]界面时，可在其中指定每列宽度（以像素为单位）的代码行。 Workfront会为每个字段提供建议的宽度，不过根据字段类型和格式，您可能需要进行调整。 您必须使用额外的<code>[!UICONTROL usewidths=true]</code>行代码来强制实施为列指定的宽度。 
+  <td> 在报表中使用[!UICONTROL 文本模式]界面时，可在其中指定每列宽度（以像素为单位）的代码行。Workfront会为每个字段提供建议的宽度，不过根据字段类型和格式，您可能需要进行调整。您必须使用额外的<code>[!UICONTROL usewidths=true]</code>行代码来强制实施为列指定的宽度。 
   </td>
   </tr>
   <tr> 

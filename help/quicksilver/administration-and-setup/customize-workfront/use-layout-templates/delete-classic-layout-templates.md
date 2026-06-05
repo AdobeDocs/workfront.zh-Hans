@@ -3,35 +3,46 @@ title: 删除经典布局模板
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: 经典 Workfront 体验中的布局模板在 Workfront 界面中不再可用，但仍可能会影响 Workfront 数据。这可能会导致报告或仪表板上受布局模板影响的字段（如“共享对象”）中出现不一致。
+description: 经典 Workfront 体验中的布局模板在 Workfront 界面中不再可用，但仍可能会影响 Workfront 数据。 这可能会导致报告或仪表板上受布局模板影响的字段（如“共享对象”）中出现不一致。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+TQID: https://experienceleague.adobe.com/AcxOFTyZbrQakRoeBlslCoLJgrgY4HS41vaYLOx5i-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 55%
+source-wordcount: 299
+ht-degree: 61%
 
 ---
 
 # 删除经典布局模板
 
-经典 Workfront 体验中的布局模板在 Workfront 界面中不再可用，但仍可能会影响 Workfront 数据。这可能会导致报告或仪表板上受布局模板影响的字段（如“共享对象”）中出现不一致。
+经典 Workfront 体验中的布局模板在 Workfront 界面中不再可用，但仍可能会影响 Workfront 数据。 这可能会导致报告或仪表板上受布局模板影响的字段（如“共享对象”）中出现不一致。
 
 您可以通过删除传统布局模板来解决这些不一致问题。 由于它们在Workfront界面中不可用，因此使用必须使用Workfront API来删除它们。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

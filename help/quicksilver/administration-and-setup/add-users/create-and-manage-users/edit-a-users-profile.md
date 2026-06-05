@@ -8,10 +8,23 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
+TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3425'
-ht-degree: 0%
+source-wordcount: 3451
+ht-degree: 1%
 
 ---
 
@@ -43,7 +56,7 @@ ht-degree: 0%
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
      <li> <p>系统管理员访问级别。 </li> 
-     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
     </ul>
     <p>要编辑用户的计费和成本费率，您还必须启用编辑计费费率和编辑成本费率微调选项。</p> </td> 
   </tr> 
@@ -94,7 +107,7 @@ ht-degree: 0%
   您无法重置Workfront管理员的密码。
 
 * **&lt;SSO配置>用户名**：如果您的Workfront管理员启用了与Workfront的SSO集成，则SSO用户名将显示在此字段中。 此字段将显示为您的Workfront实例启用的SSO配置类型。
-* **OnlyAllow &lt;SSO配置>身份验证**：如果您的Workfront管理员启用了与Workfront的SSO集成，并更新了SSO的所有用户，则默认情况下会选择此字段。 此字段将显示为您的Workfront实例启用的SSO配置类型。
+* **OnlyAllow &lt;SSO Configuration>身份验证**：如果您的Workfront管理员启用了与Workfront的SSO集成，并更新了SSO的所有用户，则默认情况下会选择此字段。 此字段将显示为您的Workfront实例启用的SSO配置类型。
 
   如果选择此字段，用户需要使用其SSO凭据登录Workfront。 取消选中此项将允许他们使用其Workfront凭据登录Workfront。
 
@@ -108,12 +121,12 @@ ht-degree: 0%
   >
   >如果您是组管理员，并且在访问级别中启用了用户管理员（所有用户）权限，则可以编辑所有用户的&lt;SSO配置>字段。
 
-* **个人资料照片**：单击&#x200B;**上传新照片**&#x200B;以加载用户的个人资料照片。 您可以上传JPG、GIF或PNG文件。 文件大小限制为4 MB。
+* **个人资料照片**：单击&#x200B;**上传新照片**&#x200B;以加载用户的个人资料照片。 您可上传 JPG、GIF 或 PNG 文件。 文件大小限制为4 MB。
 
   个人资料图片成为用户的头像，并且在整个Workfront系统中可见，无论在何处显示用户名。
 
 * **工作信息**：有关该工作的信息，如职称（在&#x200B;**职称**&#x200B;字段中）以及用户负责哪方面的专业知识（在&#x200B;**与我谈关于**&#x200B;字段中）。
-* **联系信息**：用户的电话号码(**电话号码**，**分机。**&#x200B;和&#x200B;**手机号码**&#x200B;字段)和地址（在&#x200B;**地址**、**城市**、**州**、**邮政编码**&#x200B;和&#x200B;**国家/地区**&#x200B;字段中）。
+* **联系信息**：用户的电话号码（**电话号码**、**分机**&#x200B;和&#x200B;**手机号码**&#x200B;字段）和地址（**地址**、**城市**、**州**、**邮政编码**&#x200B;和&#x200B;**国家/地区**&#x200B;字段）。
 
   联系人信息部分中的&#x200B;**国家/地区**&#x200B;字段仅接受国家/地区代码值（例如，US、GB、IN）。
 
@@ -227,7 +240,7 @@ ht-degree: 0%
   >将“工作时间”值设置为1，表示用户可用于其整个全职等效项目相关工作。
 
 * **设置停用日期**：如果要安排在特定日期和特定时间停用此用户，请单击此按钮。
-* **停用日期**：停用用户的日期和时间。 有关安排用户停用的信息，请参阅[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[安排用户停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+* **停用日期**：停用用户的日期和时间。 有关安排用户停用的信息，请参阅[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)中的[安排用户停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)。
 * **主要角色**：这是用户可以在Workfront中履行的主要工作角色。 分配给用户的每个任务和问题也会分配给此工作角色。 工作角色在资源管理中至关重要。 只有在您拥有管理用户访问权限的Standard或Plan许可证，或者您是Workfront管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅[授予用户访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
   列表中只显示活动工作角色。

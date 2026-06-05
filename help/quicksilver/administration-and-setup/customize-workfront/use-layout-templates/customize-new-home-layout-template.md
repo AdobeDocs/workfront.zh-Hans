@@ -8,9 +8,21 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+TQID: https://experienceleague.adobe.com/j2Y56liYA3jg5L5GFq--2iLfv3kYPI7MsyaLWIlzZ0o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 837
 ht-degree: 3%
 
 ---
@@ -49,7 +61,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -75,7 +87,7 @@ ht-degree: 3%
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 单击![自定义用户看到的内容](assets/dropdown-arrow.png)下的向下箭头&#x200B;**向下箭头**，然后单击&#x200B;**主页Workspace**。
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后单击&#x200B;**主页Workspace**。
 
 1. 在右侧的选项卡中，单击下列选项之一：
 
@@ -97,7 +109,7 @@ ht-degree: 3%
       <p> 执行以下任一操作： </p>
       <ul><li>根据<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">在主页</a>中添加、编辑或删除构件中描述的步骤自定义此选项卡。 </li>
       <li>选择小组件并根据用户需要安排工作区。</li>
-      <li>要更改背景，请按照<b>开始使用主页</b>中的<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">背景自定义</a>下的步骤操作。</li></p>
+      <li>要更改背景，请按照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">开始使用主页</a>中的<b>背景自定义</b>下的步骤操作。</li></p>
       <p>
 
    >[!NOTE]

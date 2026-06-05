@@ -5,13 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+TQID: https://experienceleague.adobe.com/jLoqncsE3CSAK27siU8Ro2EQdZkbJC-gs040vGxX-5E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 900
 ht-degree: 3%
 
 ---
-
 
 # 授予用户访问权限
 
@@ -66,7 +74,7 @@ ht-degree: 3%
 ## 配置用户的访问权限以使用自定义访问级别编辑用户
 
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 要更改拥有标准、计划或工作许可证的用户查看其他用户信息的能力，请单击![用户](assets/gear-icon-settings.png)右侧&#x200B;**查看**&#x200B;按钮上的齿轮图标&#x200B;**齿轮图标**，然后在&#x200B;**微调设置**&#x200B;框中选择要授予的查看选项：
+1. 要更改拥有标准、计划或工作许可证的用户查看其他用户信息的能力，请单击&#x200B;**用户**&#x200B;右侧&#x200B;**查看**&#x200B;按钮上的齿轮图标![齿轮图标](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;框中选择要授予的查看选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,7 +101,7 @@ ht-degree: 3%
 
    ![微调视图用户设置](assets/fine-tune-view-users.png)
 
-1. 要修改具有Standard或Plan许可证访问权限的用户编辑其他用户的能力，请单击![用户](assets/gear-icon-settings.png)右侧&#x200B;**编辑**&#x200B;按钮上的齿轮图标&#x200B;**齿轮图标**，然后在&#x200B;**微调设置**&#x200B;框中选择要授予的编辑选项：
+1. 要修改具有Standard或Plan许可证访问权限的用户编辑其他用户的能力，请单击&#x200B;**用户**&#x200B;右侧&#x200B;**编辑**&#x200B;按钮上的齿轮图标![齿轮图标](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;框中选择要授予的编辑选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -163,4 +171,4 @@ ht-degree: 3%
 
 ## 按许可证类型访问用户
 
-有关每个访问级别中的用户可以对用户执行哪些操作的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)一文中的[用户](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
+有关每个访问级别中的用户可以对用户执行哪些操作的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[用户](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)部分。

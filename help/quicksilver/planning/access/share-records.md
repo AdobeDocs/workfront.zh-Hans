@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 1720
+source-wordcount: 1690
 ht-degree: 2%
 
 ---
@@ -104,13 +104,6 @@ at GA, check that the Workfront plans article linked below has Planning info
    <p><b>重要</b></p>
    <p>只有对工作区具有管理权限的用户才能共享记录</p></td> 
   </tr>
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
-   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
-</td>
-  </tr>
-
 </tbody> 
 </table>
 

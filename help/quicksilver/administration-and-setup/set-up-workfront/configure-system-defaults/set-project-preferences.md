@@ -8,11 +8,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/h8QFgoFvlsgYnlPsYOe9BMMzaCRWkHDTkg0AtuM9EpU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: 2619
 ht-degree: 2%
 
 ---
@@ -97,25 +109,25 @@ ht-degree: 2%
    <td>  <p>此首选项允许用户在从以下区域创建项目时创建项目，而不使用模板： </p>
       <ul>
         <li>
-        <p>Use the [!UICONTROL New Project] option in a list of projects</p>
+        <p>在项目列表中使用[!UICONTROL 新建项目]选项</p>
         </li>
           <li>
-          <p>Convert an issue to a project from the issue's page</p>
+          <p>从问题页面将问题转化为项目</p>
           </li>
          </ul>
-        <p>This preference is enabled by default. </p> 
+        <p>默认情况下，此首选项处于启用状态。 </p> 
         <p><b>注释</b></p>
-        <p> A group administrator can change this preference for a group. 当用户属于具有不同首选项的多个组时，如果用户的主组启用了此首选项，则用户可以创建没有模板的项目。</p> 
+        <p> 组管理员可以更改组的此首选项。 当用户属于具有不同首选项的多个组时，如果用户的主组启用了此首选项，则用户可以创建没有模板的项目。</p> 
         </td> 
   </tr>
   <tr> 
    <td role="rowheader">[!UICONTROL 将新项目的状态设置为]</td> 
    <td> <p>确定新项目的状态。</p>  <p><b>注意</b>  
      <ul> 
-      <li>If you or another [!DNL Workfront] administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
+      <li>如果您或其他[!DNL Workfront]管理员隐藏此处选择的状态，则默认状态将更改为状态列表中的第一个状态。</li> 
      </ul> 
      <ul> 
-      <li> <p>If a locked system or group status is set as the default status and later someone unlocks it, the system tries to replace it with a locked status of the same status type.</p> <p>If it can't find one, it looks for a required status:</p> 
+      <li> <p>如果将锁定的系统或组状态设置为默认状态，稍后有人将其解锁，则系统会尝试将其替换为相同状态类型的锁定状态。</p> <p>如果找不到，则会查找所需的状态：</p> 
        <ul> 
         <li>如果具有相当于已解锁默认状态的必需状态，则该必需状态将成为默认状态，即使已解锁也是如此。</li> 
         <li>如果任何所需状态都不等同于已解锁的默认状态，则状态列表中的第一个所需状态将成为默认状态。</li> 
@@ -124,7 +136,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 根据计算完成百分比]</td> 
-   <td> <p>Workfront使用项目中每个任务的完成百分比以及每个任务的持续时间或计划小时数来计算项目或父任务的完成百分比。</p><p>每个任务的完成百分比由任务分配者手动设置。</p><p>You can select here whether Workfront will use the Duration or the Planned Hours of tasks to calculate the percent complete of projects.</p> <p>If you select [!UICONTROL Duration], the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select [!UICONTROL Duration], make sure you specify the [!UICONTROL Typical hours per work day] and [!UICONTROL Typical work days per week] in the [!UICONTROL Timelines] section. [!DNL Workfront] uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select [!UICONTROL Planned Hours], ensure that all tasks on each project have the amount of [!UICONTROL Planned Hours] defined, and that the amount is not zero.</p><p>有关详细信息，请参阅<a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">项目完成百分比概述</a>。</p></td> 
+   <td> <p>Workfront使用项目中每个任务的完成百分比以及每个任务的持续时间或计划小时数来计算项目或父任务的完成百分比。</p><p>每个任务的完成百分比由任务分配者手动设置。</p><p>您可以在此处选择Workfront是使用任务的持续时间还是计划小时数来计算项目的完成百分比。</p> <p>如果选择[!UICONTROL 持续时间]，项目中每个任务的持续时间将决定项目的整体完成百分比，每个子任务的持续时间将决定其父任务的整体完成百分比。</p> <p>如果选择[!UICONTROL Duration]，请确保在[!UICONTROL 时间线]部分中指定[!UICONTROL 每工作日典型小时数]和[!UICONTROL 每周典型工作日数]。 在根据持续时间计算任务的完成百分比时，[!DNL Workfront]将使用此信息。 </p> <p>如果您选择[!UICONTROL 计划小时数]，请确保每个项目上的所有任务都定义了[!UICONTROL 计划小时数]的数量，并且该数量不为零。</p><p>有关详细信息，请参阅<a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">项目完成百分比概述</a>。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 根据进度状态自动设置项目条件]</td> 
@@ -132,7 +144,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 自动创建基线]</p> </td> 
-   <td> <p>This preference automatically creates a baseline (snapshot) of task and project details when the status of the project changes to [!UICONTROL Current]. For information about creating baselines, see <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Create project baselines</a>.</p> </td> 
+   <td> <p>当项目状态更改为[!UICONTROL 当前]时，此首选项会自动创建任务和项目详细信息的基线（快照）。 有关创建基线的信息，请参阅<a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">创建项目基线</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 绩效指数方法] </p> </td> 
@@ -182,13 +194,13 @@ ht-degree: 2%
       <ul> 
        <li>计划开始日期</li> 
        <li>计划完成日期</li> 
-       <li>Both dates</li> 
-       <li>Neither date. </li> 
-      </ul> <p>For example, if a task has a Constraint of [!UICONTROL Fixed Dates], the dates do not adjust when the Primary Assignee has time off, even if the option [!UICONTROL Consider user time off in task duration] is selected. For information about task constraints, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Task Constraint overview</a>.</p> </li> 
+       <li>两个日期</li> 
+       <li>两者都不是。 </li> 
+      </ul> <p>例如，如果任务的限制为[!UICONTROL 固定日期]，则当主要被分配者具有空闲时间时，日期不会调整，即使选择了选项[!UICONTROL 考虑用户在任务持续时间内的空闲时间]也是如此。 有关任务限制的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">任务限制概述</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Project timelines are automatically re-calculated]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 项目时间表会自动重新计算]</p> </td> 
    <td> <p>确定重新计算项目时间线的时间。 有关重新计算项目时间表的信息，请参阅<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新计算项目时间表</a>。</p> <p>默认启用以下选项。 您可以选择以下一个或多个设置：</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 每晚]</strong>：选择此项可每晚重新计算项目时间表。 您对项目所做的任何可能影响时间线的更改不会立即可见。 [!DNL Workfront​​​]仅在夜晚为同时满足以下两个条件的项目重新计算时间线：</p> <p> 
@@ -201,13 +213,13 @@ ht-degree: 2%
         <li>仅在更改时更新</li>
         <li>仅自动更新</li> 
       </ul>       
-    <b>TIP:</b>
-    <p>Projects that have an Update Type of Manual Only are not affected by this setting.</p>
-    <li> <p><strong>When a project's scope changes</strong>: Select this to recalculate project timelines immediately as a project scope change occurs. For information about what constitutes a project scope change, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculate project timelines</a>.</p> </li> 
+    <b>提示：</b>
+    <p>更新类型为仅手动的项目不受此设置的影响。</p>
+    <li> <p><strong>当项目范围更改时</strong>：选择此项可在项目范围更改时立即重新计算项目时间线。 有关构成项目范围更改的内容的信息，请参阅<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新计算项目时间表</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL When multiple users are assigned to a task use the schedule of the]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 当多个用户被分配到任务时，使用]的计划</p> </td> 
    <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划，则[!DNL Workfront]使用系统默认计划计算任务的时间表。</p> <p>如果将多个用户分配给项目中的同一任务，并且该项目分配有计划，并且分配给这些任务的用户也分配有计划，则[!UICONTROL Workfront]将使用以下计划：</p> 
     <ul> 
      <li><strong>[!UICONTROL 主要分配]</strong>： [!DNL Workfront]使用任务上的主要分配计划来计算时间表。</li> 

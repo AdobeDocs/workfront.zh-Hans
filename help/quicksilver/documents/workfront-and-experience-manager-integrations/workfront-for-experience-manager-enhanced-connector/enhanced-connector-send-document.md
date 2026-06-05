@@ -6,10 +6,22 @@ description: 您可以将文档从Workfront发送到Experience Manager Assets。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+TQID: https://experienceleague.adobe.com/tu4blsoJGh2ilDeTIwqdx4xtmuC-1OOnZ2QySDNnQpI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 1%
+source-wordcount: 409
+ht-degree: 5%
 
 ---
 
@@ -17,17 +29,17 @@ ht-degree: 1%
 
 您可以将文档从Workfront发送到Experience Manager Assets。 从Workfront上传并发送到Experience Manager Assets的文档仍会计入您的总体文档存储中。 从Experience Manager Assets链接的Assets不计入总体存储空间。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -92,4 +104,4 @@ ht-degree: 1%
 
    ![发送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. 单击 **Save**。新版本将保存在与先前版本相同的位置。
+1. 单击 **Save**。 新版本将保存在与先前版本相同的位置。

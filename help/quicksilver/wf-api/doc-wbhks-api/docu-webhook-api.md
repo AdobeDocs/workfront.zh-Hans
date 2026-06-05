@@ -8,13 +8,25 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d6f15301-a604-47ff-897b-83a19659dedf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3649'
-ht-degree: 2%
+source-wordcount: 3699
+ht-degree: 3%
 
 ---
-
 
 # 文档Webhooks API
 
@@ -62,7 +74,7 @@ Workfront管理员可以通过导航到Workfront中的设置>文档>自定义集
   </tr> 
   <tr> 
    <td>请求参数</td> 
-   <td> <p>要附加到每个 API 调用的查询字符串的可选值。例如，access_type=offline。</p> </td> 
+   <td> <p>要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。</p> </td> 
   </tr> 
   <tr> 
    <td>身份验证类型</td> 
@@ -81,7 +93,7 @@ Workfront管理员可以通过导航到Workfront中的设置>文档>自定义集
    <td>（仅限OAuth2）此集成的OAuth2客户端ID。</td> 
   </tr> 
   <tr> 
-   <td>客户端密码</td> 
+   <td>客户端密钥</td> 
    <td> <p>（仅限OAuth2）此集成的OAuth2客户端密钥</p> </td> 
   </tr> 
   <tr> 
@@ -146,7 +158,7 @@ Webhook提供程序可以使用用户名来应用特定于用户的权限。 当
 
    授权基本QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
-其中，QWxhZGRpbjpvcGVuIHNlc2FtZQ==是“username：password”的base-64编码字符串。 请参阅基本身份验证。 如果添加了此标头，Workfront将会在HTTP请求标头中传递此标头以及其他请求标头：
+其中QWxhZGRpbjpvcGVuIHNlc2FtZQ==是“username:password”的base-64编码字符串。 请参阅基本身份验证。 如果添加了此标头，Workfront将会在HTTP请求标头中传递此标头以及其他请求标头：
 
 ```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
@@ -181,7 +193,7 @@ HTTP请求POST /any/url
  <thead> 
   <tr> 
    <th>名称</th> 
-   <th>必选</th> 
+   <th>必需</th> 
    <th>描述</th> 
   </tr> 
  </thead> 
@@ -277,7 +289,7 @@ client_secret=6asdf7a7a9a4af
 
 **URL**
 
-GET /metadata？id=[文档或文件夹ID]
+获取/metadata？id=[文档或文件夹ID]
 
 **查询参数**
 
@@ -292,7 +304,7 @@ GET /metadata？id=[文档或文件夹ID]
  </thead> 
  <tbody> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>  <p>文件或文件夹的ID，由webhook提供程序引用。 这与Workfront的文档ID不同。 要获取根目录的元数据，请使用值“/”。</p><p>注意：该ID的最大长度为255个字符。</p></td> 
   </tr> 
  </tbody> 
@@ -325,7 +337,7 @@ GET /metadata？id=[文档或文件夹ID]
    <td>指定此项是文件还是文件夹（“文件”还是“文件夹”）。</td> 
   </tr> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>字符串 </td> 
    <td>文件或文件夹的id。</td> 
   </tr> 
@@ -356,7 +368,7 @@ GET /metadata？id=[文档或文件夹ID]
   </tr> 
   <tr> 
    <td>只读</td> 
-   <td>布尔型</td> 
+   <td>布尔值</td> 
    <td><p> （可选）指示此文件或文件夹对于经过身份验证的用户是否为只读的。</p><p> </p></td> 
   </tr> 
  </tbody> 
@@ -389,7 +401,7 @@ GET /metadata？id=[文档或文件夹ID]
 
 **URL**
 
-GET /files
+获取/files
 
 **查询参数**
 
@@ -505,7 +517,7 @@ GET /download
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>id</p> </td> 
+   <td> <p>ID</p> </td> 
    <td> 文档ID</td> 
   </tr> 
  </tbody> 
@@ -531,7 +543,7 @@ GET /thumbnail
 
 | 名称  | 描述 |
 |---|---|
-| id  | 文档ID |
+| ID  | 文档ID |
 | 大小  | 缩略图的宽度。 |
 
 {style="table-layout:auto"}
@@ -609,7 +621,7 @@ PUT /upload
 
 | 名称  | 描述 |
 |---|---|
-| id  |  刚刚创建的文档ID。 |
+| ID  |  刚刚创建的文档ID。 |
 
 
  
@@ -678,7 +690,7 @@ GET /serviceInfo
    <td>由此服务实现的webhook版本。 这是此规范顶部列出的版本号。</td> 
   </tr> 
   <tr> 
-   <td>版本 </td> 
+   <td>version </td> 
    <td>字符串 </td> 
    <td>此服务的内部版本号。 此数字由webhook服务提供商确定，仅用于提供信息。<br><br></td> 
   </tr> 
@@ -812,7 +824,7 @@ PUT /rename
 
 | 名称  | 描述 |
 |---|---|
-| id | 要重命名的文档或文件夹ID。 |
+| ID | 要重命名的文档或文件夹ID。 |
 | name  | 文档或文件夹的新名称。 |
 
 {style="table-layout:auto"}
@@ -1029,7 +1041,7 @@ GET /customAction
 
 >[!NOTE]
 >
->目前，发送至……不可用于链接的文档。 Workfront将添加此参数。 您可以通过使用REST客户端(例如Postman)手动点击端点来测试/download端点。 或者，可以通过生成数字验证来测试/download端点。 要启用数字校对，请联系Workfront。
+>目前，发送至……不可用于链接的文档。 Workfront将添加此参数。 您可以通过使用REST客户端（例如Postman）手动点击端点来测试/download端点。 或者，可以通过生成数字验证来测试/download端点。 要启用数字校对，请联系Workfront。
 
 ## 版本
 

@@ -6,10 +6,23 @@ description: 您可以在时间表上查看总小时数。 工时表总小时数
 author: Lisa
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/oh6bBQz6sfxCpodHahZXtlMMuYYT-4U7-5MP6TQeuIs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 0%
+source-wordcount: 459
+ht-degree: 3%
 
 ---
 
@@ -21,17 +34,17 @@ ht-degree: 0%
 
 总小时数反映了通过时间表、更新区域或项目、任务或问题的小时数区域提交的小时数。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

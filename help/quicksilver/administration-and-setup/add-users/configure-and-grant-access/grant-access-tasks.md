@@ -8,10 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aafa8886-82e2-41c4-8fcb-cbb9df2d55dd
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/cePyozzK-9WXvzuonk7Z1e0vDA81Gb04cC5MPMQHVmI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 0%
+source-wordcount: 452
+ht-degree: 4%
 
 ---
 
@@ -21,17 +30,17 @@ ht-degree: 0%
 
 有关使用自定义访问级别管理用户对Workfront中其他对象类型的访问的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -52,13 +61,13 @@ ht-degree: 0%
 ## 使用自定义访问级别配置用户对任务的访问权限
 
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 单击任务右侧![](assets/gear-icon-settings.png)查看&#x200B;**或**&#x200B;编辑&#x200B;**按钮上的齿轮图标**，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
+1. 单击任务右侧&#x200B;**查看**&#x200B;或&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
 
    ![微调任务设置](assets/fine-tune-tasks.png)
 
    >[!NOTE]
    >
-   >在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别中的任务，但这不会限制他们删除级别低于任务的问题。有关对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一文中的[相互依赖性和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
+   >在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别的任务，但这不会限制他们删除级别低于任务的问题。有关对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[相互依赖性和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)部分。
 
 1. （可选）要限制从更高层对象继承的任务权限，请单击&#x200B;**设置其他限制**，然后选择&#x200B;**从项目、任务、问题等中永不继承文档访问权限**。
 
@@ -69,7 +78,7 @@ ht-degree: 0%
 
 ## 按许可证类型访问任务
 
-有关每个访问级别的用户可以对任务执行哪些操作的信息，请参阅[可用于每个对象类型](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#tasks)的功能一文中的[任务](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
+有关每个访问级别的用户可以对任务执行哪些操作的信息，请参阅[可用于每个对象类型](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)的功能一文中的[任务](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#tasks)部分。
 
 ## 访问共享任务
 

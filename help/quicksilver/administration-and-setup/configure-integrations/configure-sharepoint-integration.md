@@ -8,11 +8,24 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: 1744
 ht-degree: 1%
 
 ---
@@ -123,7 +136,7 @@ ht-degree: 1%
 
 ### 访问和权限
 
-当用户首次从[!DNL Workfront]向[!DNL SharePoint]添加文档时，他们将被定向到所请求的权限页面，他们可以在其中向其SharePoint集成授予权限。
+当用户首次从[!DNL SharePoint]向[!DNL Workfront]添加文档时，他们将被定向到所请求的权限页面，他们可以在其中向其SharePoint集成授予权限。
 
 >[!NOTE]
 >
@@ -142,7 +155,7 @@ ht-degree: 1%
 * 此访问权限在用户首次使用集成时授予，并可随时撤销。
 * 为此集成请求的权限是&#x200B;**已委派**&#x200B;权限。
 * [!DNL Workfront]请求在集成中执行操作所需的最低访问权限。
-* 查看、编辑或删除链接到[!DNL Adobe Workfront]的[!DNL SharePoint]文档的访问权限基于用户在[!DNL Workfront]中的访问权限。 但是，任何导航、下载或编辑[!DNL SharePoint]文件或文件夹都需要访问[!DNL SharePoint]，并且这些操作的访问权限由[!DNL SharePoint]控制。
+* 查看、编辑或删除链接到[!DNL SharePoint]的[!DNL Adobe Workfront]文档的访问权限基于用户在[!DNL Workfront]中的访问权限。 但是，任何导航、下载或编辑[!DNL SharePoint]文件或文件夹都需要访问[!DNL SharePoint]，并且这些操作的访问权限由[!DNL SharePoint]控制。
 * 用户可以查看源自[!DNL SharePoint]的缩略图和预览图像，并且无需登录[!DNL SharePoint]即可在[!DNL SharePoint]中查看文件和文件夹名称。
 * 仅当用户处于脱机状态且另一个用户查看链接到[!DNL Workfront]的文件夹的内容时，才会使用用户的访问令牌。 访问令牌用于发现文件夹中的任何文档是否已添加、删除或编辑。
 
@@ -185,7 +198,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 由于[!DNL SharePoint]客户端密钥由[!DNL Microsoft]处理，因此客户端密钥功能和过程可能会根据[!DNL SharePoint]对[!DNL Microsoft]所做的更新而更改。 请始终查看[!DNL Microsoft]文档，以了解[!DNL SharePoint]中有关过程和功能的最新信息。
+> 由于[!DNL SharePoint]客户端密钥由[!DNL Microsoft]处理，因此客户端密钥功能和过程可能会根据[!DNL Microsoft]对[!DNL SharePoint]所做的更新而更改。 请始终查看[!DNL Microsoft]文档，以了解[!DNL SharePoint]中有关过程和功能的最新信息。
 
 <!--
 1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
@@ -416,7 +429,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 ## 故障排除
 
 * [问题：用户在使用 [!DNL SharePoint] 集成时遇到基于身份验证的错误。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [问题：尝试浏览 [!DNL SharePoint] 中的 [!DNL Workfront]文件时，我看不到任何或所有网站集。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [问题：尝试浏览 [!DNL Workfront]中的 [!DNL SharePoint] 文件时，我看不到任何或所有网站集。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [问题：我无法访问 [!DNL SharePoint]中以前链接的文件夹和文档。](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### 问题：用户在使用[!DNL SharePoint]集成时遇到基于身份验证的错误。 {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -466,7 +479,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### 问题：当尝试浏览[!DNL SharePoint]中的[!DNL Workfront]文件时，我看不到任何或所有网站集。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### 问题：当尝试浏览[!DNL Workfront]中的[!DNL SharePoint]文件时，我看不到任何或所有网站集。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 解决方案：
 

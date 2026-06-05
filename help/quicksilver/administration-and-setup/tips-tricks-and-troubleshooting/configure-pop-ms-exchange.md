@@ -9,10 +9,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/dePu-QWwwUQxW6SB-S53emEDnMpew-eK-eyec7vEYPQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 0%
+source-wordcount: 434
+ht-degree: 3%
 
 ---
 
@@ -26,9 +37,9 @@ ht-degree: 0%
 
 在花费时间解决问题之前，请确保已正确配置用户的POP帐户。 如果在确认POP帐户配置正确后继续遇到问题，请联系[!DNL Microsoft]支持部门或其合作伙伴之一以获取其他帮助。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +47,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
@@ -58,7 +69,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->以下步骤可用作在生产[!DNL Microsoft Exchange]系统的[!DNL Workfront]中配置POP的常规指南。 根据Exchange的版本或Microsoft所做的代码更改，这些步骤可能会有显着差异。
+>以下步骤可用作在生产[!DNL Workfront]系统的[!DNL Microsoft Exchange]中配置POP的常规指南。 根据Exchange的版本或Microsoft所做的代码更改，这些步骤可能会有显着差异。
 
 1. 在Exchange 2010服务器上启动并启用POP3服务。
 

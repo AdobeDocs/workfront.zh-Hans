@@ -8,11 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: 627
 ht-degree: 6%
 
 ---
@@ -113,7 +122,7 @@ ht-degree: 6%
 
 具有特定依赖关系类型的任务可能会在指定的开始日期之后交付，即使它们已过期。 例如，如果某个任务的前置任务具有完成 — 开始(fs)依赖关系，则即使该任务已超过指定的开始日期，它也不会包含在电子邮件中，因为在该前置任务完成之前，您无法启动该任务。
 
-有关接收自动提醒电子邮件的详细信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)中的[自动提醒](../../../workfront-basics/using-notifications/wf-notifications.md)部分。
+有关接收自动提醒电子邮件的详细信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[自动提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)部分。
 
 ## 发送自动提醒
 

@@ -7,9 +7,16 @@ description: 作为业务经理，您可以使用Adobe Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
+TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: 1167
 ht-degree: 0%
 
 ---
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 作为业务经理，您可以使用[!DNL Adobe Workfront Scenario Planner]概述组织的1年、3年或5年计划，从而概述组织的短期和长期未来战略。
 
-## 访问要求
+## 访问权限要求
 
 有关访问Scenario Planner的访问权限要求的信息，请参阅[使用Scenario Planner所需的访问权限](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md)。
 
@@ -30,7 +37,7 @@ ht-degree: 0%
 
 您可以确定每个高级别组织结果，并将其作为计划添加到[!DNL Workfront Scenario Planner]。 计划是[!DNL Scenario Planner]中最大的工作项。 为了更便于实现计划，可将计划分成若干倡议，以指明各组织单位需要采取哪些步骤来完成计划。
 
-然后，您可以将计划与实际项目关联起来，以指明实际完成计划的工作因素。 本文提供有关计划的一般信息。 有关计划的信息，请参阅[中的 [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)计划概述。
+然后，您可以将计划与实际项目关联起来，以指明实际完成计划的工作因素。 本文提供有关计划的一般信息。 有关计划的信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)中的计划概述。
 
 您可以定义完成计划中确定的工作所需的人工和财务资源。 您还可以查看计划中计划所需的人工和财务资源，以便完成计划。
 
@@ -62,7 +69,7 @@ ht-degree: 0%
 
 您可以查看计划的工作角色常规信息，该信息指示可用于计划的工作角色数量以及计划要完成所需的工作角色数量。 您可以在计划标题的[!UICONTROL 工作角色]框中查看此信息。
 
-计划![上的](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)工作角色框
+计划![&#128279;](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)上的工作角色框
 
 您可以在“工作角色”框中查看以下内容：
 
@@ -99,8 +106,8 @@ ht-degree: 0%
    <td> <p>这是与计划关联的成本和为计划定义的预算之间的计算百分比。 </p> <p>[!DNL Workfront] 使用以下公式计算计划的预算利用率百分比： </p> <p><code>Utilization percentage = (Plan Costs* 100))/ Plan Budget</code> </p> <p>成本使用以下公式计算：</p> <p><code>Plan Costs = SUM(Initiatives People Costs, Initiatives Fixed Costs)</code> </p> <p>提示：“利用率”百分比四舍五入并带有一个小数。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL Summary]框<span>中的[!UICONTROL 净值]区域</span></p> <p role="rowheader"> </p> </td> 
-   <td> <p>这是计划中所有计划的所有净值的计算。 </p> <p>Workfront使用以下公式计算计划的净值： </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>或</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>有关计划净值的信息，请参阅<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">中的文章[!DNL Scenario Planner]</a>计划概述。</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL Summary]框</span>中的[!UICONTROL 净值]区域<span></p> <p role="rowheader"> </p> </td> 
+   <td> <p>这是计划中所有计划的所有净值的计算。 </p> <p>Workfront使用以下公式计算计划的净值： </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>或</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>有关计划净值的信息，请参阅[!DNL Scenario Planner]</a>中的文章<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">计划概述。</p> </td> 
   </tr> 
  </tbody> 
 </table>
