@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3129
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Old:
    >
    >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
    >  
-   >  * 通过连接记录类型创建的链接字段。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >  * 通过连接记录类型创建的连接查找字段和添加的查找字段。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
 1. （可选且有条件）编辑段落类型字段时，请使用以下&#x200B;**富文本**&#x200B;格式选项：
@@ -229,22 +229,24 @@ Old:
 1. （可选）双击连接的记录字段以将连接的记录或对象添加到另一记录。 有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 1. 按键盘上的&#x200B;**Enter**&#x200B;键或单击行外以保存更改。 更改将自动保存。 **已保存**&#x200B;指示器短暂显示在表格视图的右上角，表示已保存更改。
 
-
 1. （可选）要将信息从一个字段复制并粘贴到另一个字段，请执行下列操作之一：
 
    * 复制一个字段的一个或多个现有值，然后将它们粘贴到另一记录上相同类型的字段中
    * 单击某列的列标题以将其选中并复制，然后单击另一列的列标题并粘贴所复制列的内容。 列必须包含类似的字段类型。
-   * 按住Shift键，单击在表中选取几行，复制选定行中的信息，然后单击另一行，然后将选定信息粘贴到新行中，并在新行之后粘贴以下几行。
+   * 按住Shift键，单击在表中选取几行，复制选定行中的信息，然后单击另一行，然后将选定信息粘贴到新行中，并在新行之后粘贴以下几行。<!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * 复制一个单元格中的信息，然后选择多个单元格并将相同的信息粘贴到多个单元格中。 您可以选择多个单元格，并将相同的信息粘贴到相邻行和列的多个单元格中。
    * 选择包含要复制信息的现有单元格的右下角，然后将其拖放到要粘贴相同信息的相邻单元格中。 所有单元格都必须包含相同类型的信息。
 
      ![在表视图中用于复制粘贴的可拖动右下角](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * 从外部源复制一个或多个单元格（例如，Excel文件），然后将它们粘贴到以下字段类型之一：
 
-      * Workfront Planning连接字段。
+      * Workfront Planning连接字段。\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * 人员字段。 仅支持具有一个值的字段。
+      * 文本字段。
+      * 选择字段。
+      * 数字、百分比和货币字段。
 
      您无法从外部源复制信息并将其粘贴到任何其他字段类型中，包括Workfront或其他应用程序的连接字段。
 
@@ -256,11 +258,12 @@ Old:
    >   * 复制：CTRL + C （对于Mac，为⌘ + C）
    >   * 粘贴：CTRL + V (⌘ + V for Mac)
    >
-   >* 您不能在记录页面中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
+   >* 不能复制和粘贴记录详细信息页面中的字段值。 仅记录类型的表视图支持此功能。
    >* 不能复制和粘贴以下字段类型的字段值：
    >
    >    * 连接记录类型时创建的查找字段。 您可以复制和粘贴链接的记录字段。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >    * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
+   >* 复制并粘贴连接字段或选择字段值时，复制的值必须首先存在于Workfront Planning中。
 
 1. （可选）使用以下键盘快捷键可撤消或重做编辑或复制和粘贴记录信息：
 
@@ -269,9 +272,17 @@ Old:
 
    >[!TIP]
    >
-   >    您可以在一行中多次使用键盘快捷键来撤消多项更改。
+   >您可以在一行中多次使用键盘快捷键来撤消多项更改。
 
-1. （可选）向记录中添加缩略图。 有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+1. （可选）单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后从以下选项中进行选择：
+
+   * **查看** <!--or <span class="preview"Open in new tab</span>-->：这将打开记录页面。
+   * **复制链接**：复制指向记录页面的链接。
+   * **编辑缩略图**：向记录中添加缩略图。
+有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+   * **重复**：这将创建记录的相同重复。
+   * **在上方插入记录/在下方插入记录**：添加新的行，以便添加新记录。<!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **删除**：删除记录。 删除的记录保存在“最近删除”框中，最长可保留30天。
 
 
 ### 在记录类型的时间线视图中编辑记录
