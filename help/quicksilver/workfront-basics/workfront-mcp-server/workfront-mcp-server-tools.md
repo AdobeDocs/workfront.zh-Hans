@@ -5,10 +5,10 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 6%
+source-wordcount: '1578'
+ht-degree: 5%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 ### 文档
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 按名称查找文档版本 | `approvals_find_document_version_by_name` | 按文件名查找文档的当前版本ID。 支持部分匹配。 | 读取 |
 | 按版本ID获取文档 | `approvals_get_document_by_version_id` | 获取已知文档版本ID的文档详细信息（名称、大小、上传日期、上传程序）。 | 读取 |
 | 按项目获取文档 | `approvals_get_documents_by_project` | 列出Workfront项目中的文档，以及每个文档的当前版本ID。 | 读取 |
@@ -63,7 +63,7 @@ ht-degree: 6%
 ### 审批工作流
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取审批工作流信息 | `approvals_get_approval_info` | 返回文档版本的当前审批工作流（阶段、参与者、状态）。 | 读取 |
 | 创建或更新审批工作流 | `approvals_create_or_update_approval_workflow` | 创建或更新文档版本的审批工作流暂存。 支持线性和平行（图形）阶段依赖关系。 | 写入 |
 | 从模板创建审批 | `approvals_create_approval_from_template` | 使用现有模板在文档上创建审批工作流。 | 写入 |
@@ -76,14 +76,14 @@ ht-degree: 6%
 ### 提醒
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 向参与者发送提醒 | `approvals_send_reminder_to_participants` | 向审批阶段的特定参与者发送提醒电子邮件。 仅适用于已启动、未完成、未锁定的阶段。 | 写入 |
 | 向未确定的参与者发送提醒 | `approvals_send_reminder_to_undecided` | 向审批阶段所有未确定的参与者（已通知、已打开或已评论）发送提醒电子邮件。 | 写入 |
 
 ### 审批模板
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 列出审批模板 | `approvals_list_templates` | 列出此Workfront实例中可用的审批模板。 支持按创建者、参与者进行筛选，并按使用情况排序。 | 读取 |
 | 按名称搜索模板 | `approvals_search_template_by_name` | 按名称查找审批模板（不区分大小写的部分匹配）。 | 读取 |
 | 创建审批模板 | `approvals_create_template` | 创建具有线性或基于图形的阶段依赖关系的新审批模板。 | 写入 |
@@ -92,7 +92,7 @@ ht-degree: 6%
 ### 查找和用户
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取当前用户 | `approvals_get_current_user` | 返回呼叫用户的Workfront身份，包括名称、用户ID、主团队名称和主团队ID。 | 读取 |
 | 按名称查找用户 | `approvals_find_user_by_name` | 按名称（模糊或部分匹配）查找Workfront用户的ID。 返回名称、ID、电子邮件、标题和头像URL。 | 读取 |
 | 按名称查找团队 | `approvals_find_team_by_name` | 按名称（模糊或部分匹配）查找Workfront团队的ID。 | 读取 |
@@ -102,10 +102,14 @@ ht-degree: 6%
 
 ## 规划工具
 
+>[!IMPORTANT]
+>
+>* 要将MCP与Workfront Planning结合使用，您的组织必须位于包含Adobe Workfront Planning的Workfront程序包上。
+
 ### 工作区
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取工作区 | `planning_get_workspace` | 按ID或别名检索工作区的完整详细信息。 | 读取 |
 | 获取工作区列表 | `planning_get_workspace_list` | 列出所有可用工作区以及基于游标的分页。 | 读取 |
 | 创建工作区 | `planning_create_workspace` | 创建新的空工作区以组织记录类型、字段和数据。 | 写入 |
@@ -119,7 +123,7 @@ ht-degree: 6%
 ### 记录类型
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取记录类型 | `planning_get_record_type` | 获取记录类型的完整详细信息，包括其字段和视图。 | 读取 |
 | 创建记录类型 | `planning_create_record_types` | 在工作区部分中创建一个或多个记录类型。 | 写入 |
 | 更新记录类型 | `planning_update_record_type` | 部分更新记录类型的名称、描述、图标或颜色。 | 写入 |
@@ -135,7 +139,7 @@ ht-degree: 6%
 ### 记录
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取记录 | `planning_get_record` | 按ID检索单个记录的完整详细信息。 | 读取 |
 | 搜索记录 | `planning_search_records` | 搜索和筛选记录类型中的记录。 | 读取 |
 | 批量记录操作 | `planning_bulk_record_actions` | 在单个请求中创建、更新、删除或恢复多个记录。 | 写入 |
@@ -148,7 +152,7 @@ ht-degree: 6%
 ### 字段
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取字段 | `planning_get_field` | 按ID检索字段的完整详细信息和值架构。 | 读取 |
 | 创建字段 | `planning_create_fields` | 向记录类型添加一个或多个字段（列）。 | 写入 |
 | 更新字段 | `planning_update_field` | 部分更新字段的名称、描述、选项或配置。 | 写入 |
@@ -157,7 +161,7 @@ ht-degree: 6%
 ### 视图
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取视图 | `planning_get_view` | 按ID返回视图的完整详细信息。 | 读取 |
 | 创建视图 | `planning_create_view` | 为记录类型创建新表、时间轴或日历视图。 | 写入 |
 | 更新视图 | `planning_update_view` | 部分更新现有视图的配置、筛选器或排序。 | 写入 |
@@ -168,14 +172,14 @@ ht-degree: 6%
 ### 模板
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 获取模板列表 | `planning_get_template_list` | 列出所有可用的工作区模板以及摘要信息。 | 读取 |
 | 获取模板 | `planning_get_template` | 按ID检索特定模板的完整详细信息。 | 读取 |
 
 ### 搜索和实用工具
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 搜索资源 | `planning_search_resources` | 按名称跨工作区、记录类型和视图进行搜索。 | 读取 |
 | 搜索共享数据 | `planning_search_sharing_data` | 按名称查找用于共享和权限的用户、组、团队、角色和公司。 | 读取 |
 | 搜索用户 | `planning_search_users` | 搜索支持分页的用户。 | 读取 |
@@ -185,7 +189,7 @@ ht-degree: 6%
 工作流工具是AI代理平台用于处理任何Workfront对象（项目、任务、问题、小时、任务、程序、项目组合等）的通用操作。
 
 | 标题 | 工具名称 | 作用 | 操作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 搜索对象 | `workflow_search_any_object` | 使用灵活的过滤器参数、排序和分页搜索Workfront对象。 | 读取 |
 | 创建对象 | `workflow_create_any_object` | 创建新的Workfront对象，如项目、任务、问题、小时、分配、项目群或项目组合。 | 写入 |
 | 更新对象 | `workflow_update_any_object` | 更新现有Workfront对象中的字段。 | 写入 |
