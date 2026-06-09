@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
 source-wordcount: 3224
 ht-degree: 0%
@@ -282,8 +282,8 @@ You can import records from other applications by linking them to existing recor
      >
      >当您在分组或子分组中的最后一个记录之后添加新记录时，Workfront会自动填充分组中包含的字段。 如果需要，您可以手动编辑这些字段，并且可能会从分组中删除记录。
 
-   * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
-   * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
+   * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上面插入记录**&#x200B;或&#x200B;**在下面插入记录**。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
    ![在表行中添加新的营销活动](assets/adding-a-new-campaign-in-table-row.png)
 
