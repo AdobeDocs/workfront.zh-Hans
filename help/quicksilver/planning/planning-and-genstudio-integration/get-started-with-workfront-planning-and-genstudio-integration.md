@@ -9,19 +9,13 @@ exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 1%
 
 ---
@@ -127,7 +121,7 @@ No longer needed to specify:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -183,7 +177,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -408,7 +402,7 @@ Old for the second row in the table:
 
 ### GenStudio记录类型的请求表单和自动化
 
-* 您可以在Workfront Planning中将请求表单添加到GenStudio记录类型。
+* 您可以在Workfront Planning中将请求表单添加到GenStudio记录类型。 您可以在与GenStudio工作区记录类型关联的请求表单上添加Planning连接字段。
 
   有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 * 您可以在Workfront Planning中为GenStudio记录类型配置自动化。
@@ -419,12 +413,16 @@ Old for the second row in the table:
 
 当贵组织在Workfront Planning与Adobe GenStudio之间集成时，您可以从Workfront Planning的任何工作区中的任何记录类型将Planning记录类型连接到GenStudio Brands。
 
-默认情况下，品牌关联到以下GenStudio工作区记录类型：
+请考虑以下事项：
 
-* 产品
-* 用户画像
+* 默认情况下，品牌关联到以下GenStudio工作区记录类型：
 
-品牌可用于手动连接到您有权管理的所有其他GenStudio工作区记录类型或所有其他工作区的记录类型。
+   * 产品
+   * 用户画像
+
+* 品牌可用于手动连接到所有其他GenStudio工作区记录类型，或来自您有权管理的所有其他工作区的记录类型。
+
+* 在将Brands与Planning或GenStudio记录类型连接后，您可以将Brands连接字段添加到与该记录类型关联的请求表单。
 
 ## 预览环境
 

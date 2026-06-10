@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: acd6989db41fad0a24015aac641c9821db1811f1
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,8 @@ Not sure we need these since this became an overview article:
 * 从MS Project导入项目时，Workfront会创建一个旧版Workfront存储项目，即使Workfront管理员将Adobe云存储设置为系统的默认存储空间也是如此。
 * 当您使用Workfront Planning自动化功能创建项目时，Workfront会使用您系统的默认项目存储首选项。 您必须购买Planning包才能访问Workfront Planning。
 
+有关详细信息，另请参阅本文中的[项目模板的文档管理](#document-management-for-project-templates)部分。
+
 ### 项目组合的文档管理
 
 使用项目组合时，请考虑以下事项：
@@ -147,6 +149,13 @@ Not sure we need these since this became an overview article:
 * 您不能将旧版Workfront存储项目添加到Adobe云存储产品组合。
 
 * 当您使用Workfront Planning自动化创建项目组合时，Workfront会使用您系统的项目组合默认存储偏好设置。 您必须购买Planning包才能访问Workfront Planning。
+
+<!--
+For preview/ Prod release: the third bullet above will need replacing with this:
+* You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
+* Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
+  For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+-->
 
 ### 方案的文档管理
 
@@ -161,6 +170,17 @@ Not sure we need these since this became an overview article:
 * 您无法将旧版Workfront存储项目添加到Adobe云存储项目。
 
 * 当您使用Workfront Planning自动化创建程序时，Workfront会使用您系统的默认程序存储首选项。 您必须购买Planning包才能访问Workfront Planning。
+
+<!--
+For preview/Prod release - check for duplicates below with the bullets you want to keep above (??):
+
+* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
+* You cannot add an Adobe cloud storage project to a Legacy storage program in a Legacy storage portfolio. (******* also take out bullet 2 above and maybe 3 too?? **********)
+* When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
+* You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
+* You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
+* You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+-->
 
 ### 任务的文档管理
 
@@ -205,6 +225,13 @@ Not sure we need these since this became an overview article:
 
 * 创建Adobe云存储模板时，Workfront会在模板的“文档”部分中创建一个用于存储文档的文件夹。 文件夹名称与程序同名。 无法删除或手动重命名文件夹。 如果更改了模板的名称，将重命名文件夹，以匹配模板的新名称。
 * 您可以使用旧版Workfront存储模板来创建旧版Workfront存储项目；也可以使用Adobe云存储模板来创建Adobe云存储项目。
+
+<!--
+for preview/prod release: 
+* When creating projects using templates from a portfolio or program, the following scenarios exist: 
+  * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
+  * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
+-->
 * 您可以将旧版Workfront存储模板附加到Adobe云存储项目，这不会更改该项目上文档的存储位置。
 * 您可以将Adobe云存储模板附加到旧版Workfront存储项目，这不会更改该项目上文档的存储位置。 模板的Adobe cloud storage文件夹中的文档直接添加到项目中，而不是添加到文件夹，而模板任务文件夹中的文档则添加到任务的“文档”部分中附加到项目任务的文件夹中。
 * 将项目另存为模板时，项目的存储类型将转移到模板中，而不管Workfront管理员为您的系统存储首选项设置了什么。
