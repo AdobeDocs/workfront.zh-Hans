@@ -7,18 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
 TQID: https://experienceleague.adobe.com/F-dmG4OLmu1-22fjkkF0HYSeEmOfzD2Jrb4aUA-KFHg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 12%
+source-wordcount: 244
+ht-degree: 8%
 
 ---
 
@@ -70,3 +66,7 @@ ht-degree: 12%
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. 浏览到文件系统中要下载校对的位置，然后单击&#x200B;**保存**。
+
+   >[!NOTE]
+   >
+   >当验证包含多个文件时，Workfront会生成一个.zip文件。 如果验证中的两个或多个文件共享同一文件名，则.zip仅包含该文件的一个副本。 因此， .zip中的文件数可能低于验证查看器中显示的文件数。 例如，包含5个文件（其中2个名为`document.pdf`）的验证会生成一个包含4个文件的.zip。
