@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 1%
 
 ---
@@ -303,7 +303,9 @@ Old:
       <p><b>注释</b></p>
       <ul>
       <li>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</li>
-      <li>如果贵组织同时使用旧版Workfront和Adobe云存储，则无法在使用不同存储类型的项目之间复制任务。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
+      <li>如果贵组织同时使用旧版Workfront和Adobe云存储，则无法在使用不同存储类型的项目之间复制任务。 </li>
+      <li>您无法将旧版存储项目移动到Adobe云存储项目组合或程序，也无法将Adobe云存储项目移动到旧版项目组合或程序。</li>
+      </ul> <p>您的Workfront实例可能没有这两种类型的文档存储。</p>
       有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。 
       </td> 
       </tr> 

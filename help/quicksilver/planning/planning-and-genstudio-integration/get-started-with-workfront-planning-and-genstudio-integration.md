@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 1%
 
 ---
@@ -408,7 +408,7 @@ Old for the second row in the table:
 
 ### GenStudio记录类型的请求表单和自动化
 
-* 您可以在Workfront Planning中将请求表单添加到GenStudio记录类型。
+* 您可以在Workfront Planning中将请求表单添加到GenStudio记录类型。 您可以在与GenStudio工作区记录类型关联的请求表单上添加Planning连接字段。
 
   有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 * 您可以在Workfront Planning中为GenStudio记录类型配置自动化。
@@ -419,12 +419,16 @@ Old for the second row in the table:
 
 当贵组织在Workfront Planning与Adobe GenStudio之间集成时，您可以从Workfront Planning的任何工作区中的任何记录类型将Planning记录类型连接到GenStudio Brands。
 
-默认情况下，品牌关联到以下GenStudio工作区记录类型：
+请考虑以下事项：
 
-* 产品
-* 用户画像
+* 默认情况下，品牌关联到以下GenStudio工作区记录类型：
 
-品牌可用于手动连接到您有权管理的所有其他GenStudio工作区记录类型或所有其他工作区的记录类型。
+   * 产品
+   * 用户画像
+
+* 品牌可用于手动连接到所有其他GenStudio工作区记录类型，或来自您有权管理的所有其他工作区的记录类型。
+
+* 在将Brands与Planning或GenStudio记录类型连接后，您可以将Brands连接字段添加到与该记录类型关联的请求表单。
 
 ## 预览环境
 

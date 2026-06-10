@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 1404
+source-wordcount: 1484
 ht-degree: 1%
 
 ---
@@ -192,6 +192,13 @@ Old:
       > 您的Workfront实例可能没有这两种类型的文档存储。
       >
       >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
+
+      对于预览/生产版本：上述注释中的第三个项目符号需要重写：
+
+      >* 使用项目组合或项目群中的模板创建项目时，存在以下情况：
+      >  * 您无法使用旧版Adobe存储产品组合或程序中的Workfront云存储模板来创建项目。
+      >  * 您可以使用旧版存储模板为Adobe存储产品组合或项目群创建Adobe云存储项目。 所有模板文档和文件夹均未附加到新项目。
 
    1. 查看右侧的以下模板详细信息：
 

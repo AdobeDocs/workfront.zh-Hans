@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 5239
 ht-degree: 1%
@@ -355,6 +355,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    单击&#x200B;**自定义**&#x200B;以使用拾色器或十六进制代码选择自定义颜色。
 1. 单击颜色框外部以将其关闭。
+   <!--
+    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. 单击&#x200B;**创建**。
 
    新的多选字段作为列添加到记录类型，其值可以与记录相关联。
@@ -401,7 +404,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    或
 
    单击&#x200B;**自定义**&#x200B;以使用拾色器或十六进制代码选择自定义颜色。
-
+<!--
+    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. 单击颜色框外部以将其关闭。
 1. 单击&#x200B;**创建**。
 
@@ -482,7 +487,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
         
             * **24hr**: For example: 18:00
             * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
 
         </div>
         -->
@@ -705,6 +710,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    >[!NOTE]
    >
    >    如果选择“允许多个值”，并且多个用户存储在字段附加到的记录中，则以后编辑此字段时，无法再取消选择设置。
+
+   <!--
+    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 
 1. 单击&#x200B;**创建**。
 
