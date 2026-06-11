@@ -4,9 +4,9 @@ description: 2026年第三季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
+source-git-commit: 34ec779f648db8c3f1a1fe2a76f5b7fda83679a6
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -27,35 +27,26 @@ ht-degree: 0%
 
 以前，审核日志可用，但不包含对象。
 
-<!--
+有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
 
-For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
-
--->
-
-<!--
-
-## New system preference to convert legacy storage portfolios to Adobe cloud storage
+## 用于将旧版存储产品组合转换为Adobe云存储的新系统首选项
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>预览： 2026年6月11日>适用于所有人的生产： 2026年6月11日
 
-Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+Workfront管理员现在可以直接从“系统首选项”将旧版存储产品组合转换为Adobe云存储。 要转换项目组合，请在新的选择要转换为企业存储的项目组合中选择项目组合，并保存页面。
 
-When a portfolio is converted to Adobe cloud storage:
+当产品组合转换为Adobe云存储时：
 
-* You can no longer move projects that use legacy Workfront storage to this portfolio
-* All new projects created in this portfolio use Adobe cloud storage
-* Frame.io is the viewer for documents using Adobe cloud storage
-* Child objects using legacy Workfront storage stay on legacy storage
+* 您无法再将使用旧版Workfront存储的项目移至此项目组合
+* 此项目组合中创建的所有新项目使用Adobe云存储
+* Frame.io是使用Adobe云存储的文档的查看器
+* 使用旧版Workfront存储的子对象将保留在旧版存储中
 
-Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+以前，将Adobe云存储项目添加到旧版存储产品组合会自动将该产品组合转换为Adobe云存储。
 
-For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
--->
+有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## 富文本使用格式字段类型替换文本
 
