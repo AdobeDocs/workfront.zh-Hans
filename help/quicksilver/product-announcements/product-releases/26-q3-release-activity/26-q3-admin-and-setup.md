@@ -4,9 +4,9 @@ description: 2026年第三季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3d8439efd8a92042098fbf995aacf2fe3add43f2
+source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,46 @@ ht-degree: 0%
 本页介绍了管理员在2026年第三季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 查看Workfront对象的更改历史记录
+
+>[!NOTE]
+>
+>预览： 2026年6月11日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
+
+为了让您更轻松地查看在一个中心列表中发生的更改，我们创建了“更改历史记录列表”。 此列表显示诸如对象、操作和更改源（如用户或Workfront系统）等信息。
+
+以前，审核日志可用，但不包含对象。
+
+<!--
+
+For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+-->
+
+<!--
+
+## New system preference to convert legacy storage portfolios to Adobe cloud storage
+
+>[!NOTE]
+>
+>Preview: June 11, 2026
+>Production for everyone: June 11, 2026
+
+Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+
+When a portfolio is converted to Adobe cloud storage:
+
+* You can no longer move projects that use legacy Workfront storage to this portfolio
+* All new projects created in this portfolio use Adobe cloud storage
+* Frame.io is the viewer for documents using Adobe cloud storage
+* Child objects using legacy Workfront storage stay on legacy storage
+
+Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+
+For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+-->
 
 ## 富文本使用格式字段类型替换文本
 

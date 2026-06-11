@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1848'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第三季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -39,6 +39,7 @@ ht-degree: 2%
 * [文档增强功能](#documents-enhancements)
 * [Financial Management增强功能](#financial-management-enhancements)
 * [主页增强功能](#home-enhancements)
+* [项目增强功能](#project-enhancements)
 * [报表增强功能](#reporting-enhancements)
 * [请求增强功能](#requesting-enhancements)
 * [其他增强功能](#other-enhancements)
@@ -55,6 +56,26 @@ ht-degree: 2%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">查看Workfront对象的更改历史记录</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>为了让您更轻松地查看在一个中心列表中发生的更改，我们创建了“更改历史记录列表”。 此列表显示诸如对象、操作和更改源（如用户或Workfront系统）等信息。</p>
+            </td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">富文本将文本替换为格式字段类型</a>
@@ -108,7 +129,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">打印新文档区域中的文档摘要</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">打印新文档区域中的文档摘要</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>您现在可以直接从新的文档区域打开文档审批的可打印摘要。 此功能适用于使用Adobe云存储的组织。</p>
             </td>
             <td><p>2026年6月2日</p></td>
@@ -159,7 +180,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">费率属性一旦用于费率就无法编辑</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">费率属性一旦用于费率就无法编辑</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>[！BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>将属性添加到Workfront中的费率后，您将无法在“设置”区域中编辑该属性及其过滤器。 这样可保持数据完整性，并防止在属性更新时意外更改速率。</p>
             </td>
             <td><p>2026年5月21日</p></td>
@@ -193,6 +214,43 @@ ht-degree: 2%
     </tbody>
 </table>
 
+<!--
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
+
 ### 报表增强功能
 
 <table>
@@ -207,7 +265,25 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自定义公式中实际小时数的更改</a> <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">一次将多个Power BI IP地址范围添加到Data Connect</a> <p>[！BADGE Off Schedule]{type=Neutral}
+                <p>Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现在只需一步即可将整个区域的Azure IP地址范围集添加到。</p>
+            </td>
+            <td><p>不适用</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">对画布功能板列表进行排序</a> 
+                <p>您现在可以按“名称”、“描述”、“创建者”或“创建日期”列对“画布功能板”列表进行排序。 单击列标题可按该列对列表进行排序，然后再次单击同一标题可反转排序方向。 默认情况下，该列表按“名称”从A到Z排序。在“画布功能板”列表中的选项卡之间切换时，将保留您的排序顺序。</p>
+            </td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自定义公式中实际小时数的更改</a> <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>使用<b>actualWorkRequired</b> （旧版实际小时数）的现有自定义公式已迁移为使用<b>actualWorkRequiredDouble</b> （实际小时数）。 <b>actualWorkRequired</b>不能再用于计算和公式中。</p>
             </td>
             <td><p>2026年6月1日</p></td>
@@ -258,7 +334,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并在主页添加了我的请求构件。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -282,7 +358,16 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新评论通知电子邮件的外观</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP连接器的更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>我们更新了Workfront MCP连接器：<ul><li>Claude现在可以连接到MCP连接器。</li><li>您现在可以从欧盟的实例或不使用AWS的实例中使用MCP连接器。</p>
+            </td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新评论通知电子邮件的外观</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>更新区域评论的电子邮件通知具有新外观，与更广泛的Adobe电子邮件设计保持一致。 之前注释的线程不再包含在电子邮件正文中。</p>
             </td>
             <td><p>不适用</p></td>
@@ -382,11 +467,11 @@ Workfront计划案的审判将于2026年5月15日结束。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
