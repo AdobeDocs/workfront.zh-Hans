@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1841'
 ht-degree: 2%
 
 ---
@@ -359,7 +359,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP连接器的更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
-                <p>我们更新了Workfront MCP连接器：<ul><li>Claude现在可以连接到MCP连接器。</li><li>您现在可以从欧盟的实例或不使用AWS的实例中使用MCP连接器。</p>
+                <p>我们更新了Workfront MCP连接器：<ul><li>Claude现在可以连接到MCP连接器。</li><li>您现在可以使用EU或<!-- from instances that do not use AWS-->中实例的MCP连接器。</p>
             </td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年6月11日</p></td>
