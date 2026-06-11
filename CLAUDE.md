@@ -22,9 +22,9 @@ ht-degree: 0%
 
 即使内容“明显”属于已知文章，仍会显示2-3个替代项，以便Courtney能够确认投放位置。 这会捕获近乎重复的内容，以及内容已被部分覆盖的位置。
 
----
+&#x200B;---
 
-# 在编辑帮助文章之前提出更改
+&#x200B;# 在编辑帮助文章之前提出更改
 
 当将要编辑`help/`下的任何`.md`帮助文章时，**尚未编辑该文件**。 首先，显示您计划更改的内容并等待明确批准。
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 这会&#x200B;**不**&#x200B;阻止只读研究(grep、read)或在聊天中起草/探索（无文件写入）。
 
----
+&#x200B;---
 
-# Git提交消息
+&#x200B;# Git提交消息
 
 在起草或生成Git提交消息时，请遵循此格式。
 
@@ -71,9 +71,9 @@ Add refresh token rotation to auth flow
 - ✏️ Update session middleware to rotate secrets and revoke old tokens.
 ```
 
----
+&#x200B;---
 
-# 拉取请求(PR)
+&#x200B;# 拉取请求(PR)
 
 ## 得出Jira问题
 
