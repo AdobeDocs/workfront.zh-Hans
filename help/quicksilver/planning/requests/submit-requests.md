@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 1%
 
 ---
@@ -254,11 +254,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >  <div class="preview">
    >
-   >   * 仅当尚未创建记录并且请求正在等待审批时，才能编辑请求。
-   >   * 某些字段为只读字段，您无法对其进行编辑。
-   >  * 从中创建记录后，您无法再编辑请求。
+   >* 仅当尚未创建记录并且请求正在等待审批时，才能编辑请求。
+   >* 某些字段为只读字段，您无法对其进行编辑。
+   >* 从中创建记录后，您无法再编辑请求。
    >
    >  </div>
+1. <span class="preview">（可选）编辑请求后，单击&#x200B;**提交更改**。</span>
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**创建的对象**&#x200B;字段中的记录名称。
 
    记录页面将在Workfront Planning中打开。
@@ -267,7 +268,8 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* 如果请求表单中未更新记录的主要字段，则请求的“记录”字段中的记录名称将显示为&#x200B;**无标题**。
    >
-   >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。 在批准之前，不会创建记录。
+   >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。在批准之前，不会创建记录。
+   >  有关批准请求的信息，请参阅[在Adobe Workfront规划中批准请求](/help/quicksilver/planning/requests/approve-request.md)。
 
 1. （可选）单击&#x200B;**记录类型**&#x200B;的名称。
 

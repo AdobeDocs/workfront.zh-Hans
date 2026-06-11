@@ -4,9 +4,9 @@ description: 2026年第三季度报告增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,31 @@ ht-degree: 0%
 本页介绍了在2026年第三季度版本中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 一次性将多个Power BI IP地址范围添加到Data Connect
+
+>[!NOTE]
+>
+>预览：不适用>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
+
+Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现在只需一步即可将整个区域的Azure IP地址范围集添加到。 在&#x200B;**Data Connect**&#x200B;中的&#x200B;**IP**&#x200B;选项卡上，**新IP地址**&#x200B;按钮现在包含一个&#x200B;**添加Power BI IP地址块**&#x200B;选项，该选项将打开一个对话框，您可以通过该对话框粘贴Microsoft发布的Power BI IP范围和服务标签JSON文件中的Azure服务标签条目。
+
+这取代了之前每次添加一个Power BI CIDR块的工作流程，对于发布大量地址前缀的区域而言，此工作流非常耗时。
+
+有关详细信息，请参阅[建立与Workfront Data Connect的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
+
+
+## 对画布功能板列表进行排序
+
+>[!NOTE]
+>
+>预览： 2026年6月11日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
+>
+>Canvas功能板当前处于Beta版。
+
+您现在可以按以下任意列对画布功能板列表进行排序：**名称**、**描述**、**创建者**&#x200B;或&#x200B;**创建日期**。 单击列标题可按该列对列表进行排序，然后再次单击同一标题可反转排序方向。 默认情况下，该列表按&#x200B;**名称**&#x200B;从A到Z排序。在“画布功能板”列表中的选项卡之间切换时，将保留您的排序顺序。
+
+有关详细信息，请参阅[使用画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)。
 
 ## 对自定义公式中实际小时数的更改
 

@@ -4,9 +4,9 @@ description: 2026年第三季度发布时间框架内的其他增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,15 @@ ht-degree: 0%
 本页介绍了在2026年第三季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## Workfront MCP连接器的更新
+
+我们对Workfront MCP连接器进行了以下更新：
+
+* 我们已扩展MCP服务器，以处理欧盟和美国非AWS上的实例。 每个MCP服务器只能连接到一个实例，但不再限于AWS上的美国实例。
+* 为了扩展Workfront MCP连接器的灵活性，我们添加了连接Claude的功能。 现在，您可以在Claude的连接器列表中找到Workfront，或使用URL直接连接。
+
+有关更多信息和说明，请参阅[配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)。
 
 
 ## 更新了评论通知电子邮件的外观

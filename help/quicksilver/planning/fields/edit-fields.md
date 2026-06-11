@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 0%
@@ -244,8 +244,12 @@ this is not yet true, but it might come later:
 要在编辑记录时向现有选择字段添加新选择，请执行以下操作：
 
 1. 转到记录类型页面并打开表格视图。
-1. 在表格视图中添加要向其添加选择的单选或多选字段作为新列。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
+1. 在表格视图中添加要向其添加选择的单选或多选字段作为新列。
+
+   有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
+
 1. 通过双击字段的单元格，开始内联编辑字段。
+
 1. 键入要添加选择的名称，然后单击&#x200B;**添加选择**。
 
    ![在表视图的单选字段中添加选项](assets/add-choice-in-table-view-for-single-select-field.png)
