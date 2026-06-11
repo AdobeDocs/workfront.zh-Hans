@@ -9,17 +9,12 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95a7c37830873c89189b8dae2dc3e8fd1b62f15f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 6148
 ht-degree: 1%
@@ -658,7 +653,7 @@ To sort grouped records:
    * [实时在线状态指示器](#enable-the-real-time-presence-indicator)
 
 
-### 添加列（或字段） {#add-columns}
+### 添加列（或字段） {#add-columns-1}
 
 表格视图的列标题显示与视图中记录关联的字段。 表格视图中显示的字段也会显示在记录的“详细信息”部分中。
 
@@ -756,7 +751,7 @@ To sort grouped records:
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 -->
 
-### 添加行（或记录） {#add-rows}
+### 添加行（或记录） {#add-rows-1}
 
 表格视图的行显示所选记录类型的单个记录。
 
@@ -790,7 +785,7 @@ To sort grouped records:
 ******************** NOT POSSIBLE ABOVE **************
 -->
 
-### 添加过滤器 {#add-filters}
+### 添加过滤器 {#add-filters-1}
 
 过滤器可帮助您减少屏幕上显示的信息量。
 
@@ -801,7 +796,7 @@ To sort grouped records:
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
 
-### 添加排序 {#sort-information}
+### 添加排序 {#sort-information-1}
 
 通过应用排序，您可以按指定顺序组织信息。
 
@@ -878,7 +873,7 @@ To sort grouped records:
 
    为排序选择的字段显示一个排序图标，后跟一个数字，指示应用排序的顺序。
 
-### 添加分组 {#add-groupings}
+### 添加分组 {#add-groupings-1}
 
 <!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
@@ -890,7 +885,7 @@ To sort grouped records:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。这些记录按您选择的分组顺序分组。
-&lt;！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。 — 立即选中此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—*************** *在使用API时，您最多可以应用4个级别的分组。 — 立即选中此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
