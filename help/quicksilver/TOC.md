@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: '14163'
+source-wordcount: '14175'
 ht-degree: 2%
 
 ---
@@ -807,6 +807,7 @@ ht-degree: 2%
       * [从模板导入费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
       * [将费率更改推送到项目](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
       * [共享费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
+      * [查看和管理变更历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
    * 配置集成 {#configure-integrations}
       * [配置集成](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront集成](administration-and-setup/configure-integrations/workfront-integrations-1.md)
