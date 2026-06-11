@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -30,41 +30,34 @@ There are no features released during the Third Quarter Release for 2026. When f
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 
-<!--
-
-## Interface improvements in the table view
+## 改进了表格视图中的界面
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>预览： 2026年6月11日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
 
-We have updated the look and feel of the table view for the following areas in Workfront Planning: 
+我们更新了Workfront Planning中以下领域的表格视图的外观：
 
-* All record type pages 
+* 所有记录类型页面
 
-* All connected record type pages, except for Projects 
+* 所有连接的记录类型页面，项目除外
 
-In addition to some navigation changes and design improvements, the following are some improvements included with this update: 
+除了一些导航更改和设计改进之外，此更新中的某些改进包括：
 
-* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and formula fields formatted as numbers. The following aggregators are now available: SUM, AVG, MAX, MIN. 
+* 添加日期字段时使用更简单的日期格式，格式类型更少。
 
-* A simpler date format with fewer format types when adding a Date field. 
+* 添加日期字段时，能够选择所有用户可见的时区，无论其用户档案的时区如何。
 
-* Ability to select a time zone visible to all users regardless of their profile's time zone, when adding a Date field. 
+* 删除了行编号，使外观更干净
 
-* Removal of row numbering for a cleaner look 
+* 持久行选择框，而不是仅在悬停在行上时可见
 
-* Persistent row selection box, instead of visible only when hovering on the row 
+* 持久化列分隔符行以提高可读性
 
-* Persistent column separator lines for better readability 
+* 从列标题排序时更简单的排序体验
 
-* A simpler sorting experience when sorting from a column header  
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
-For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
-
--->
 
 ## GenStudio for Performance Marketing品牌现在可以添加到Planning请求表单中
 

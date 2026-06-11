@@ -1,0 +1,120 @@
+---
+content-type: reference
+product-area: workfront-integrations
+navigation-topic: workfront-integrations-navigation-topic
+title: Adobe Express与Frame.io集成快速入门
+description: Adobe Express与Frame.io集成快速入门
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+source-git-commit: 0545810c13045444e7ac38eeda4ed439d74e405b
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 2%
+
+---
+
+
+# Adobe Express和Workfront与Frame.io集成快速入门
+
+将Workfront与Adobe Express结合使用可以
+
+* 简化创意、法律和合规团队之间的协作，以减少发布时间，同时保持监督
+
+* 使用绘图标记、注释和Frame.io查看器的注释进行深度审阅
+
+* 通过电子签名和完整的审核日志，满足企业法规遵从性标准
+
+* 要求批准来自Express品牌模板的任何重新混合文件
+
+* 使用Workfront中的统一审批模板将Express模板映射到多阶段审阅和审批工作流
+
+## 访问权限要求
+
++++ 展开可查看本文所述功能的访问权限要求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+ <tr> 
+   <td role="rowheader">Adobe Workfront软件包</td> 
+   <td> 
+   <p>“任一”</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>标准 </p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">其他产品</td> 
+   <td> 
+   <p> 您必须具有Adobe Express，并且您必须在Admin Console中作为用户添加到产品中。 </p> </td> 
+  </tr>
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+## 集成要求
+
+* 您必须有权使用Adobe Express Standard许可证访问Workfront和至少一个Workfront环境。
+
+
+## 在Workfront中设置审批工作流
+
+拥有Standard许可证的用户必须先在Workfront中创建批准工作流模板，然后才能在Express模板中添加批准工作流。
+
+有关详细信息，请参阅[为文档创建审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+
+## 将审批工作流添加到快速模板
+
+在Workfront中创建批准工作流模板后，拥有Express Enterprise Premium许可证的设计师可以直接在Adobe Express中将其分配给Express模板。
+
+如果重新混合使用Express模板，则需要先获得批准，然后才能发布 — 自动触发预配置的批准工作流。
+
+用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
+
+[需要链接以快速获取有关请求批准的帮助文章]
+
+<!--
+Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+-->
+
+## 重新组合Express模板并发送以供审阅和批准
+
+Adobe Express用户可以根据自己的需求重新组合Express模板。 发布之前，必须请求指定的批准者的批准。
+
+在整个内容生产、审查和批准过程中，用户可以
+
+* 查看谁打开了文件
+* 查看所有参与者的决策状态
+* 阅读评论
+* 等等
+
+### 在请求审批时选择Workfront项目
+
+请求审批重新混合的Express模板时，用户可以选择要将资产发送到的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。
+
+如果未选择任何项目，则资产将默认进入特定于Express的项目。
+
+[需要链接以快速获取有关请求批准的帮助文章]
+
+<!--
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+-->
+
+## 审阅并批准使用Frame.io重新混合的Express文件
+
+利益相关者可以使用Frame.io查看器中的标记工具和注释提供与他们的专业领域（如文案、法律或品牌）相关的反馈。
+
+他们还负责做出最终决定，批准内容以供发布。
+
+用户必须至少拥有Collaborator Workfront许可证才能进行审查和决策。
+
+有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。

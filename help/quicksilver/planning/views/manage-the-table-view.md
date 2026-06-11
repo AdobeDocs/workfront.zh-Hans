@@ -9,30 +9,25 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 95a7c37830873c89189b8dae2dc3e8fd1b62f15f
 workflow-type: tm+mt
-source-wordcount: 3499
-ht-degree: 2%
+source-wordcount: 6148
+ht-degree: 1%
 
 ---
 
 # 管理表视图
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -158,18 +153,9 @@ Old:
 
 ## 管理表视图 {#manage-a-table-view}
 
-<!--
-Depending on what environment you access record types from, the record type page displays using two different views: 
+<span class="preview">根据您从中访问表的环境，管理该表视图的方式会有所不同。</span>
 
-* Table view, in the Production environment
-* <span class="preview">List view, in the Preview environment</span>
-
-OR: 
-
-If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
-
-### Manage the table view in the Production environment
--->
+## 在生产环境中管理表视图
 
 创建表视图时，选定类型的所有记录都会显示在表中。 每一行是一个唯一记录，每一列是一个记录字段。 默认情况下，显示所有字段和所有记录。
 
@@ -627,131 +613,134 @@ To sort grouped records:
 >
 >实时在线状态指示器会显示当前在Workfront Planning的任何位置编辑字段的用户。 这包括记录的表视图或详细信息区域。
 
-<!--
+
 
 <div class="preview">
 
-### Manage the list view in the Preview environment
+## 在预览环境中管理列表视图
 
-**********MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION?????????*********
+<!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
-(*****************Maybe add this when they remove the list view from connection pages and request form list: In the Preview environment, the table view has been replaced with the list view. *******************)
+<!-- In the Preview environment, the table view has been replaced with the list view. *******************-->
 
+<!--
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+-->
 
-When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+创建表视图时，选定类型的所有记录都会显示在表中。 每一行是一个唯一记录，每一列是一个记录字段。 默认情况下，显示所有字段和所有记录。
 
-To manage a table view: 
+要管理表视图，请执行以下操作：
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-    ![Table view example](assets/table-view-example-g-list.png)
+   ![表视图示例](assets/table-view-example-g-list.png)
 
-1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
-    * Short
-    * Standard
-    * Medium
-    * Tall 
+1. （可选）单击&#x200B;**行高**，然后从以下选项中进行选择以修改表行的高度：
+   * 短
+   * 标准
+   * 媒介
+   * 高
 
-1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
-1. Update the following view elements as described in the subsections below:
-    * [Columns (or fields)](#add-columns-or-fields)
-    * [Rows (or records)](#add-rows-or-records)
-    * [Filters](#add-filters) 
-    * [Sort](#add-a-sort) 
-    * [Grouping](#add-groupings)
-    * [Row colors](#add-row-colors)
-    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
-
-
-### Add columns (or fields) {#add-columns}
-
-The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
-
-For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
-
-Adding columns to a view is identical to adding fields to a record type.  
-
-You can add up to 500 fields (or columns) in a table view. 
-
-1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
-
-1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
-
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
-   
-1. Do one of the following to reorder columns in the table:
-
-    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
-
-    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
-        
-        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
-
-        >[!TIP]
-        >
-        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
-        >
-        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 5. **********************accurate?**************
-        >
-        >
- 
-    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 5. **********************accurate?**************
-
-1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    
-    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
+1. 更新以下视图元素，如以下子部分所述：
+   * [列（或字段）](#add-columns-or-fields)
+   * [行（或记录）](#add-rows-or-records)
+   * [过滤器](#add-filters)
+   * [排序](#add-a-sort)
+   * [分组](#add-groupings)
+   * [行颜色](#add-row-colors)
+   * [实时在线状态指示器](#enable-the-real-time-presence-indicator)
 
 
-1. Click **Set field** to confirm. 
+### 添加列（或字段） {#add-columns}
 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+表格视图的列标题显示与视图中记录关联的字段。 表格视图中显示的字段也会显示在记录的“详细信息”部分中。
 
-    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-    >[!TIP]
-    >
-    >Click on the **information** icon ![Information icon](assets/info-icon.png) to the right of the field name in a column to view its **Description**.
+向视图添加列与向记录类型添加字段相同。
 
-1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
+在一个表格视图中最多可添加500个字段（或列）。
 
-    >[!TIP]
-    >
-    >The changes you make to the column width and order are permanent and visible to all users who access the same view. 
+1. 转到记录类型页面并单击表视图选项卡，或单击&#x200B;**+视图**&#x200B;以添加新视图，然后选择&#x200B;**表**。
 
-1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+1. 开始添加字段（或列），如[创建字段](/help/quicksilver/planning/fields/create-fields.md)一文中所述。
 
-    Or
+   您添加的列对访问记录类型的所有用户都可见，并且作为新字段添加到记录的页面上。
 
-    Click **Fields** in the table toolbar and deselect the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
+1. （可选）单击工具栏中的&#x200B;**字段**&#x200B;图标![字段图标](assets/fields-icon.png)，搜索字段，然后取消选择字段名称右侧的切换以隐藏该字段。
 
-    >[!TIP]
-    >
-    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
-    >
-    >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. 执行以下操作之一以重新排序表中的列：
+
+   * 抓住列标题并将其拖放到所需位置。 在您对表格进行其他调整之前，您移动的列会以蓝色背景短暂显示。
+
+   * 单击表格工具栏中的&#x200B;**字段**，然后按所需顺序拖放这些字段，然后单击&#x200B;**字段可见性和顺序**&#x200B;框外部以将其关闭。
+
+     ![字段设置表视图工具栏已展开](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     >[!TIP]
+     >
+     >* 默认情况下，“名称”字段始终是表视图中的第一个字段。 将此字段视为主字段。
+     >
+     >* 不能将“名称”字段移动到另一个位置，除非指定另一个字段作为主字段。 有关详细信息，请继续执行步骤5。<!--**********************accurate?**************-->
+     >
+     >
+
+   * 通过更改主字段将第一列中的字段替换为其他字段。 有关详细信息，请继续执行步骤5。<!--**********************accurate?**************-->
+
+1. （可选）将鼠标悬停在表第一列中任何未显示的字段的列标题中的字段名称上，单击字段名称右侧的向下箭头，然后单击“**设置为主字段**”。
+
+   ![在表视图中设置为主字段选项](assets/set-as-primary-field-option-table-view.png)
 
 
-1. Click the **Fields** icon and select the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. 单击&#x200B;**设置字段**&#x200B;以确认。
 
-1. Do the following to quickly find records that match a keyword:
+   该字段将成为主字段，这意味着它将显示为表视图的第一列。 前一个主字段移至第二列。
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+   主要字段成为记录的标题，显示在记录页面的标题区域中，以及记录显示的任何位置。 例如，记录标题显示在连接的字段和所有视图中。 有关主字段的详细信息，请参阅[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
 
-        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+   >[!TIP]
+   >
+   >单击列中字段名称右侧的&#x200B;**信息**&#x200B;图标![信息图标](assets/info-icon.png)以查看其&#x200B;**描述**。
 
-        You can use any word or special character that is visible on the screen. 
-    
-        You cannot use keywords that are associated with fields that are hidden in the table view. 
+1. 单击并拖动列分隔线，然后将它们拖放到所需位置以增加列的宽度。
 
-    1. Press **Enter** on your keyboard to go to the next found field. 
+   >[!TIP]
+   >
+   >您对列宽和顺序所做的更改是永久性的，所有访问同一视图的用户都可以看到。
 
-    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
+1. 将鼠标悬停在列标题上，单击向下箭头，然后单击&#x200B;**隐藏字段**
 
-    1. Click the **x** icon in the search box to clear the search keyword. 
+   或
+
+   单击表格工具栏中的&#x200B;**字段**，然后取消选择与要隐藏的字段（或列）关联的切换开关。 将显示&#x200B;**字段可见性和顺序**&#x200B;框。
+
+   >[!TIP]
+   >
+   >隐藏字段的数量显示在工具栏中的字段图标的左侧。
+   >
+   >默认情况下，隐藏字段不显示在记录的&#x200B;**详细信息**&#x200B;预览框中。 所有字段都显示在记录的“详细信息”页面中。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+
+
+1. 单击&#x200B;**字段**&#x200B;图标，然后选择与要显示在表格列中的字段关联的切换开关。 默认显示所有字段。
+
+1. 执行以下操作可快速查找与关键字匹配的记录：
+
+   1. 在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
+
+      ![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-g-table.png)
+
+      您可以使用屏幕上可见的任何单词或特殊字符。
+
+      不能使用与表格视图中隐藏的字段关联的关键字。
+
+   1. 在键盘上按&#x200B;**Enter**&#x200B;键以转到下一个找到的字段。
+
+   1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
+
+   1. 单击搜索框中的&#x200B;**x**&#x200B;图标以清除搜索关键字。
+<!--    
 1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
     * **SUM**: Displays the total of all cells in the column. This is the default selection. 
@@ -760,26 +749,28 @@ You can add up to 500 fields (or columns) in a table view.
     * **AVG**: Displays the average value of all the cells in the column. 
 
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
+-->
 
-### Add rows (or records) {#add-rows}
+### 添加行（或记录） {#add-rows}
 
-The rows of a table view display individual records of the selected record type. 
+表格视图的行显示所选记录类型的单个记录。
 
-You can have up to 50,000 records (or rows) for a record type. 
+记录类型最多可以有50,000条记录（或行）。
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+1. 转到记录类型页面并选择表视图，或单击&#x200B;**+视图**&#x200B;以添加新视图，然后选择&#x200B;**表**。
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+1. 开始添加记录（或行），如[创建记录](/help/quicksilver/planning/records/create-records.md)一文中所述。
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+   您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
 
-    A default thumbnail image is also added to the new record.
+   默认缩略图图像也会添加到新记录中。
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
-    
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. （可选）单击记录右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑缩略图**&#x200B;以编辑缩略图。
+1. 单击表顶部的&#x200B;**字段**，然后为&#x200B;**缩略图**&#x200B;字段选择切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
+   有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+
+<!--
 ******************** NOT POSSIBLE NOW **********
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
@@ -792,143 +783,146 @@ You can have up to 50,000 records (or rows) for a record type.
 
 
 ******************** NOT POSSIBLE ABOVE **************
+-->
 
-### Add filters {#add-filters}
+### 添加过滤器 {#add-filters}
 
-Filters help you reduce the amount of information displayed on the screen.
+过滤器可帮助您减少屏幕上显示的信息量。
 
-Adding filters in the table view in the Preview environment is identical to adding filters in the Production environment. 
+在“预览”环境的表视图中添加筛选器的方式与在“生产”环境中添加筛选器的方式相同。
 
-For information, see the [Add filters](#add-filters) section in this article. 
+有关信息，请参阅本文中的[添加过滤器](#add-filters)部分。
 
-*****************at production, paste here the information from the Production section above*******************
 
-### Add a sort {#sort-information} 
+<!--***************** at production, paste here the information from the Production section above *******************-->
 
-By applying a sort, you can organize information in a given order. 
+### 添加排序 {#sort-information}
 
-Consider the following when sorting records in the table view: 
+通过应用排序，您可以按指定顺序组织信息。
 
-*********** if this is available for the timeline view, update both when you update one ****************
+在表视图中排序记录时，请考虑以下事项：
 
-* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+<!--*********** if this is available for the timeline view, update both when you update one ****************-->
 
-* You cannot name the sortings you build and apply to a table view.
+* 排序对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的排序标准。 查看同一表格视图的两个用户会看到当前应用的相同排序。
 
-* The sorting you create is preserved when you navigate away.
+* 不能对您生成的排序进行命名并应用于表视图。
 
-* You can sort by as many fields as you see displayed in the table view of a record type.
+* 当您导航离开时，您创建的排序将保留。
 
-* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
+* 您可以按记录类型的表视图中显示的字段数进行排序。
 
-* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
+* 您不能按连接的记录字段进行排序，但可以按连接的记录类型的查找字段进行排序。
 
-* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+* 当按具有多个值（尚未由聚合器汇总）的查找字段进行排序时，将使用第一个值进行排序。
 
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
+* 删除分类标准会将其从与您访问相同记录类型的任何人中移除，并使用与您使用的相同视图。
 
-To sort records, do the following:
+* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果您正在为“活动”记录类型创建排序，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则您可以在为活动记录类型创建的排序中引用项目的“状态”。
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) at the top of the table
-    
-    Or
+要对记录进行排序，请执行以下操作：
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort**. 
-    
-1. (Conditional) If you click **Sort** at the top of the table, the **Sort records by** box opens. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. 单击表顶部的&#x200B;**排序**&#x200B;图标![排序图标](assets/sort-icon.png)
 
-    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
-    
-1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+   或
 
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
-1. (Conditional) If you clicked the **Sort** icon at the top of the table, select the order in which you want the field sorted in the **Sort records by** box. The options for the sorting order depend on the type of field you are sorting by. 
+   将鼠标悬停在表视图中的列名称上，单击列标题名称右侧的向下箭头，然后单击&#x200B;**排序**。
 
-    >[!TIP]
-    >
-    >The selections below are not available when you access sorting from the column header. 
+1. （视情况而定）如果单击表顶部的&#x200B;**排序**，将打开&#x200B;**记录排序依据**&#x200B;框。 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**&#x200B;并搜索其他字段，然后在列表显示该字段时单击它。
 
-    Choose from the following options: 
+   排序将自动应用于表格视图，并且记录显示按您选择的标准排序。
 
-    * Date fields: 
-        * Earliest to latest
-        * Latest to earliest
-    * Text, paragraph, select fields, people, Record ID:
-        * Alphabetical A to Z
-        * Reverse alphabetical Z to A
-    * Number, percentage, currency fields:
-        * Ascending 0 to 9
-        * Descending 9 to 0
-    * Checkbox fields: 
-        * Selected first
-        * Deselected first
+1. （可选）单击&#x200B;**添加条件**，然后重复上述步骤以按其他字段进行排序。
 
-    The field is added as a sorting selection in the **Sort** icon at the top of the table. 
+   要排序的字段数显示在工具栏右上角排序图标的左侧。 您只能选择显示在表格视图列中的字段。
+1. （视情况而定）如果单击表顶部的&#x200B;**排序**&#x200B;图标，请在&#x200B;**按**&#x200B;排序记录框中选择字段的排序顺序。 排序顺序的选项取决于您要作为排序依据的字段类型。
 
-1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
+   >[!TIP]
+   >
+   >从列标题访问排序时，以下选择不可用。
 
-    Or
+   从以下选项中进行选择：
 
-    Click **Clear all** to remove all fields from the sort. 
+   * 日期字段：
+      * 最早到最新
+      * 最新到最早
+   * 文本、段落、选择字段、人员、记录ID：
+      * 按字母顺序A到Z
+      * 按字母顺序Z反转为A
+   * 数字、百分比、货币字段：
+      * 升序0至9
+      * 降序9至0
+   * 复选框字段：
+      * 首先选定
+      * 首先取消选择
 
-1. Click outside the **Sort records by** box to close it. 
+   该字段将作为排序选择添加到表顶部的&#x200B;**排序**&#x200B;图标中。
 
-    ![Sorting in table view](assets/sorting-in-table-view-g-list.png)
+1. （可选）在&#x200B;**记录排序依据**&#x200B;框中，单击排序字段右侧的&#x200B;**x**&#x200B;图标以移除排序
 
-    The information displayed in the table is sorted according to your selected criteria. 
-    
-    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+   或
 
-### Add groupings {#add-groupings}
+   单击&#x200B;**全部清除**&#x200B;可从排序中删除所有字段。
 
+1. 单击&#x200B;**记录排序依据**&#x200B;框外部以将其关闭。
+
+   ![在表视图中排序](assets/sorting-in-table-view-g-list.png)
+
+   表格中显示的信息根据您选择的标准排序。
+
+   为排序选择的字段显示一个排序图标，后跟一个数字，指示应用排序的顺序。
+
+### 添加分组 {#add-groupings}
+
+<!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
+-->
 
-You can group records by similar information when applying  a grouping to a view.
+将分组应用于视图时，您可以按类似的信息对记录进行分组。
 
-Consider the following:
+请考虑以下事项：
 
-* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
-* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-***************  * You can apply up to 4 levels of grouping when using the API. --checking on this one for now ******************
-* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
-* You cannot name the groupings you build for a table view.
-* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
-* You can edit records listed under a grouping. 
-* You can group by connected record fields or lookup fields. 
-* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
-* Groupings are listed in the alphabetical order of their values. 
-********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************
+* 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
+* 您可以在视图中应用3个级别的分组。这些记录按您选择的分组顺序分组。
+&lt;！—*************** *在使用API时，您最多可以应用4个级别的分组。 — 立即选中此项******************—>
+* 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
+* 不能为表视图命名您构建的分组。
+* 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
+* 您可以编辑分组下列出的记录。
+* 您可以按连接的记录字段或查找字段分组。
+* 当按查找字段对具有多个值（尚未由聚合器汇总）的字段进行分组时，记录将按字段值的每个唯一组合进行分组。
+* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建分组，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则可以在为活动记录类型创建的分组中引用项目的状态。
+* 分组按其值的字母顺序列出。
+  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
+要添加分组，请执行以下操作：
 
-To add a grouping:
+1. 为记录类型创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. 单击表视图右上角的&#x200B;**分组**。
 
-1. Create a table view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the table view.
+   ![将带有链接字段的UI表视图分组](assets/grouping-ui-table-view-with-linked-fields.png)
 
-    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
+1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
 
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
+   该分组将自动应用于表，并且记录显示在分组分离行下。
 
-    The grouping is applied automatically to the table and records display under the grouping separation line.
-    
-1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
+1. （可选）单击&#x200B;**添加条件**&#x200B;并重复上述步骤以添加最多3个分组。
 
-    The number of fields selected for the grouping displays next to the Grouping icon. 
+   为分组选择的字段数将显示在分组图标旁边。
 
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+   ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
 
-1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping. 
+1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组。
 
-1. Click outside the **Group records by** box to close it. 
-1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping.
+1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
+1. （可选）单击任何分组末尾的&#x200B;**+新记录**&#x200B;以添加新记录，然后刷新页面以将新记录添加到相应的分组。
 
-1. To expand or collapse groupings, click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+1. 要展开或折叠分组，请单击&#x200B;**分组**&#x200B;图标，然后单击&#x200B;**全部展开**&#x200B;或&#x200B;**全部折叠**。 这将展开表格视图中的所有分组和子分组。
 
-    ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   ![展开和折叠分组框表格视图上的所有按钮](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-    
+   <!--
     ******** NOT POSSIBLE **********
     1. Right-click any of the grouping headers in the table view, then click one of the following options:
         * **Expand group**
@@ -937,59 +931,58 @@ To add a grouping:
         * **Collapse all**
         * **Expand subgroups**
         * **Collapse subgroups**
-
         Depending on the number of groupings you apply to the view, some options might not be available.
     ********* NOT POSSIBLE ABOVE **********
-   
+   -->
 
-### Add row colors
+### 添加行颜色
 
-1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
+1. （可选）单击&#x200B;**行颜色**&#x200B;以定义条件并选择为表行配置不同的颜色。
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
+1. 单击&#x200B;**添加颜色**，然后搜索某个字段，并在该字段显示在列表中时将其选定。 这是要定义行颜色的值字段。
 
-    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+   例如，要以绿色显示状态为“活动”的促销活动，请选择&#x200B;**状态**，然后为字段选择修饰符和值。
 
-    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   ![已选中“活动”状态且默认颜色选择的“行颜色”框](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
-1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+1. 单击所选条件左上角的拾色器下拉菜单，选取条件的颜色，然后单击拾色器框外部将其关闭。
 
-    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![行颜色框中的下拉拾色器菜单突出显示](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
 
-1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+1. （可选）单击&#x200B;**添加条件**&#x200B;以向第一组条件添加更多字段和值
 
-    Or
+   或
 
-    Click **Add color** to add a new set of conditions and identify a new color. 
-    
-    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+   单击&#x200B;**添加颜色**&#x200B;以添加一组新的条件并标识新的颜色。
 
-    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   例如，您可以通过定义一组新条件，以黄色显示处于Planning状态的促销活动。
 
-1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
+   具有Active和Planning状态自定义颜色的![行颜色框](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
 
-    >[!NOTE]
-    >
-    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
-    >
+1. （可选）打开&#x200B;**行颜色**&#x200B;框右上角的&#x200B;**应用到整个行**&#x200B;设置。 满足条件的整行会自动以选定的颜色显示。
 
-1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+   >[!NOTE]
+   >
+   >如果&#x200B;**Apply to entire row**&#x200B;设置已关闭，则只有主字段单元格的背景以所选颜色显示。 默认情况下，该设置处于关闭状态。
+   >
 
-### Enable the real-time presence indicator
+1. 单击&#x200B;**行颜色**&#x200B;框外部以将其关闭。 颜色会自动应用。
 
-The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+### 启用实时在线状态指示器
 
-When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+默认情况下，与编辑记录信息的其他用户头像将显示在所有记录视图的右上角。
 
-Enabling the real-time presence indicator in the table view in the Preview environment is identical to enabling it in the Production environment. 
+显示表格视图时，还可以查看查看查看记录时其他用户正在编辑的字段。
 
-For information, see the [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator) section in this article. 
+在“预览”环境的表视图中启用实时状态指示器，与在生产环境中启用它是一样的。
 
-************* at production, paste here the information from the Production section above ****************
+有关信息，请参阅本文中的[启用实时在线状态指示器](#enable-the-real-time-presence-indicator)部分。
+
+<!--*********** at production, paste here the information from the Production section above ****************-->
 
 </div>
 
--->
+
 
 
 
