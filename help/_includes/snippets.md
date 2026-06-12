@@ -1,7 +1,7 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2236'
 ht-degree: 1%
 
 ---
@@ -290,13 +290,6 @@ Add snippets within the section that the snippet is used. Snippets that are used
 1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 计划]**。
 
    Workfront Planning登录页面将打开。
-
-1. （可选且视情况而定）如果您是Workfront管理员，请单击以下选项卡之一：
-
-   * **我的工作区**：显示您创建的工作区。
-   * **其他工作区**：显示Workfront Planning中的所有工作区，包括与您共享的工作区。
-
-   对于所有其他用户，您创建或与您共享的所有工作区都显示在&#x200B;**工作区**&#x200B;区域中。
 
 ## Workfront Planning重要简介 —  {#planning-important-intro}
 
