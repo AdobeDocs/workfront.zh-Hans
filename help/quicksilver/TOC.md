@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 433e908e6234490cb098b69916fe2b766729a27b
+source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
 workflow-type: tm+mt
-source-wordcount: '14180'
+source-wordcount: '14184'
 ht-degree: 2%
 
 ---
@@ -1067,6 +1067,7 @@ ht-degree: 2%
       * [我在处理的项目过滤器包括意外结果](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [多个浏览器选项卡会导致Workfront注销](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
       * [如何共享对象而不生成通知](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+      * [更新了时区名称](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
 * 敏捷 {#agile}
    * [敏捷](agile/agile.md)
    * [展示板概述](agile/boards-overview.md)
