@@ -8,20 +8,14 @@ exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 573
 ht-degree: 0%
 
 ---
@@ -43,6 +37,18 @@ ht-degree: 0%
 目前，内容审查是唯一可用的AI协作者。 未来将提供更多的AI协作器功能。
 
 有关详细信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
+
+## 更新了时区名称
+
+>[!NOTE]
+>
+>预览： 2026年3月27日>生产快速发布： 2026年3月27日>适用于所有人的生产： 2026年3月27日
+
+我们已更新Workfront中可用的时区以遵循IANA标准。 这可以确保与其他系统的兼容性和准确性。
+
+作为此更改的一部分，以前在Workfront中提供的某些时区已替换为标准IANA时区。
+
+有关这些更改的列表，请参阅[更新的时区名称](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)。
 
 ## 现在，自定义季度在设置中作为单独页面提供
 
