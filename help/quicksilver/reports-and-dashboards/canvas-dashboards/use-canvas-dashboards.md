@@ -10,20 +10,19 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 572
 ht-degree: 1%
 
 ---
 
 # 使用画布功能板
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -48,6 +47,33 @@ ht-degree: 1%
 1. 在左侧面板中，单击&#x200B;**画布功能板**。
 1. 单击现有仪表板的名称以将其打开。
    ![打开仪表板](assets/open-dashboard.png)
+
+<div class="preview">
+
+## 对预览中的画布功能板列表进行排序
+
+您可以按以下任意列对“画布功能板”列表进行排序：
+
+* 名称
+* 描述
+* 创建者
+* 创建日期
+
+要对列表进行排序，请执行以下操作：
+
+1. 在左侧面板中，单击&#x200B;**画布功能板**。
+1. 单击列标题可按该列对列表进行排序。 再次单击同一标题可反转排序方向。
+
+   默认情况下，该列表按&#x200B;**Name**&#x200B;列从A到Z排序。
+
+   ![对画布功能板列表进行排序](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* 在“画布功能板”列表中的选项卡之间切换时，将保留您的排序顺序。
+
+
+</div>
 
 <!--
 ## Navigating the Dashboard
