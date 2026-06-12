@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 5409
+source-wordcount: 5339
 ht-degree: 1%
 
 ---
@@ -440,20 +440,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **名称**：字段的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：要在此字段中显示的日期格式类型。<!--update this casing - submitted bug for it-->
-
-     从以下格式中选择：
-      * **区域设置**：与浏览器的区域设置匹配。
-      * **标准**： 05/16/2023
-      * **长**：2023年5月16日
-      * **欧洲**： 16/05/2023
-      * **ISO**： 2023-05-16
-   * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
-
-     从以下选项中选择：
-
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
-
 
      根据您访问字段的环境，执行以下操作：
 
