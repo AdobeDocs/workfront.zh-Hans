@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
 workflow-type: tm+mt
 source-wordcount: 5409
 ht-degree: 1%
@@ -900,6 +900,7 @@ You can use the Approved by field type to add the user who last approved the req
 1. 单击&#x200B;**创建**。
 
    新的记录ID类型字段作为列添加到记录类型，其值预先填充有字母数字值。
+
 
 
 <!--
