@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 6%
+source-wordcount: 310
+ht-degree: 5%
 
 ---
 
@@ -85,5 +85,9 @@ ht-degree: 6%
    * 验证正在等待审批
 
 * **验证截止日期**：显示验证的截止日期。 每个阶段都必须分配有截止日期才能填充此字段。 字段显示最近激活阶段的截止日期。
+
+## 关于批准者决策字段
+
+审批者决策字段显示收件人对验证所做的决策。 在某些情况下，此字段显示连字符(-)而不是决策值，这表示收件人不再处于验证上的决策角色。 有关详细信息，请参阅[审批者决策在验证审批报告](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)中显示一个连字符。
 
  
