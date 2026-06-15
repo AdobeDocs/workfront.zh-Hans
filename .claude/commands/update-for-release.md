@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 读取`help/_includes/snippets.md`并按可用性选择：
 
 | 可用性 | 代码片段 |
-|---|---|
+| --- | --- |
 | 仅预览 — 高亮显示的内容是GA文章中的新增内容 | `{{highlighted-preview}}` |
 | 仅预览 — 整篇文章是新的 | `{{highlighted-preview-article-level}}` |
 | 预览+快速发布客户，常规 | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ ht-degree: 0%
 ### &#x200B;5. 每篇文章之后
 
 询问是移至下一篇文章，还是停止、跳过或重新访问当前文章。
+
+### &#x200B;6. 会话结束 — 复制/粘贴发行说明
+
+当用户结束会话（说“完成”、“就这样”、“停止”或拒绝继续阅读下一篇文章时），询问：
+
+> “想要用于增强页面的复制/粘贴发行说明条目？”
+
+如果是，则使用步骤1中的功能上下文和此会话中更新的主要帮助文章生成草稿条目。 **不要将它写入任何文件** — 仅将其作为复制/粘贴文本提供。
+
+格式化条目以符合&#x200B;**发行说明格式化程序**&#x200B;技能中的产品区域页面结构：
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+规则：
+
+- 将`TBD`用于任何尚未知道的日期；询问用户是否有日期。
+- 特征名称为句子大小写（仅将第一个单词和专有名词大写）。
+- 描述应侧重于用户现在可以执行的操作，而不是实施详细信息。
+- 指向更新后最具体的操作方法文章的链接，而不是概述页面。
+- 如果所有日期都未知，并且用户不希望使用占位符，请不要包含`>[!NOTE]`日期块 — 请忽略该日期块并注意，需要稍后添加它。
 
 ## 内容规则
 
