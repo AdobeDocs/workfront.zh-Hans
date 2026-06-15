@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -99,9 +99,15 @@ MCP服务器访问由两个不同的管理员控制。
 
 +++
 
-### 使用URL连接到Claude Desktop
+### 使用URL连接到Claude
 
 +++ 展开以查看使用URL将Workfront连接到[!DNL Claude]的分步说明。
+
+>[!NOTE]
+>
+>您必须是企业Claude环境中的所有者才能执行此过程。
+>
+>有关Claude关于所有者要求的声明，请参阅Claude文档中的[添加自定义连接器](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)。
 
 要使用URL将Workfront连接到[!DNL Claude]，请执行以下操作：
 
@@ -118,7 +124,7 @@ MCP服务器访问由两个不同的管理员控制。
 
 1. 创建连接器后，会弹出登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
 
-   >注意：
+   >[!NOTE]
    >
    >您的Workfront实例必须与该实例所在地区的MCP服务器连接。 例如，EU实例必须连接到EU MCP服务器。
    >
@@ -150,7 +156,7 @@ MCP服务器访问由两个不同的管理员控制。
 1. 确保身份验证设置为&#x200B;**OAuth**（默认设置），并选中接受复选框以继续。
 1. 创建应用程序后，会弹出一个登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
 
-   >注意：
+   >[!NOTE]
    >
    >您的Workfront实例必须与该实例所在地区的MCP服务器连接。 例如，EU实例必须连接到EU MCP服务器。
    >
