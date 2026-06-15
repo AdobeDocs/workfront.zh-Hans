@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 377568941333b399585a70ee023f30a23618b624
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 1. 用户调用了此工作流（例如，显示&#x200B;**“删除预览突出显示”**&#x200B;或意图明显相同）。
 2. Markdown文件的路径&#x200B;**不**&#x200B;包含&#x200B;**`product-announcements`**（排除整个文件夹树，如`help/quicksilver/product-announcements/`下的发行说明、betas和公告）。
 3. Markdown文件是以下&#x200B;**[排除的路径](#excluded-paths)**&#x200B;下面列出的&#x200B;**非**。
-4. Markdown文件的前置内容在`author:`行中包括&#x200B;**`Courtney`**（单一作者或共同作者）。
+4. Markdown文件在`git log`中显示为Courtney在用户指定的日期范围内提交的文件（请参阅清单步骤）。
 5. 文章具有&#x200B;**至少一个**：
    - 预览环境&#x200B;**正文语言或实际代码片段段落**（典型模式：“高亮显示的信息”、“预览环境”、“尚未公开发布”、快速发行说明） — **不**&#x200B;目录/索引页面上&#x200B;**仅链接文本**&#x200B;中的匹配项（见下文）；或
    - 任何具有&#x200B;**`class="preview"`**&#x200B;的HTML元素（例如`<span class="preview">`、`<div class="preview">`）；或
@@ -40,7 +40,24 @@ ht-degree: 0%
 未经批准，请&#x200B;**不**&#x200B;批量编辑存储库。
 
 1. **库存**\
-   构建符合上述范围规则的已排序路径列表（搜索存储库；首选`help/`个树）。 **忽略&#x200B;**`product-announcements`**下的任何路径**、**[排除的路径](#excluded-paths)**&#x200B;下的任何路径，以及范围下与&#x200B;**目录/索引页面**&#x200B;匹配的任何&#x200B;**目录/索引**&#x200B;页面。 如果用户说列出的文件没有预览突出显示，请从运行中删除它并收紧标准，而不是强制进行编辑。
+   答： **询问用户他们要删除的预览突出显示的季度版本**（例如“2026年第3季度”或“2026.07”）。\
+   b. **使用adobe-wiki MCP工具从`https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar`获取发布日历**。 查找：
+   - **上一个**&#x200B;季度发行的&#x200B;**生产发行日期**→`--since`。
+   - **目标**&#x200B;季度发行的&#x200B;**生产发行日期**→`--until`。
+   - 季度版本由“季度版本名称”列标识（例如2026.01、2026.04、2026.07、2026.10）。
+   - **如果当前日期为第4季度（10月至12月）：**，则在获取当前年份的日历后，要求用户提供明年发布日历的URL，然后获取该日期，以便所有需要的季度生产日期都可用。
+c.使用步骤b中的生产发布日期运行以下命令：
+
+   ```
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="Courtney" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u
+   ```
+
+
+   d. 从这些结果中，**筛选到至少包含**&#x200B;的文件： `class="preview"`、`{{highlighted-preview`或预览样板散文 — `highlighted information\|Preview environment\|not yet generally available`的grep。\
+   e. 根据上述目录规则，**忽略&#x200B;**`product-announcements`**下的任何路径**、任何&#x200B;**[排除的路径](#excluded-paths)**&#x200B;以及任何&#x200B;**目录/索引**&#x200B;页面。\
+   f. 呈现生成的已排序列表。 如果用户说列出的文件没有预览突出显示，请从运行中删除它并收紧标准，而不是强制进行编辑。
 
 2. **开始**\
    询问是否以列表中的&#x200B;**前**&#x200B;篇文章或用户名的路径开头。
