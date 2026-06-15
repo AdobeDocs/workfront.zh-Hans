@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 377568941333b399585a70ee023f30a23618b624
+source-git-commit: 08e47dac1dcd856a2e74e2368e71d57eef8a8278
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 1. 用户调用了此工作流（例如，显示&#x200B;**“删除预览突出显示”**&#x200B;或意图明显相同）。
 2. Markdown文件的路径&#x200B;**不**&#x200B;包含&#x200B;**`product-announcements`**（排除整个文件夹树，如`help/quicksilver/product-announcements/`下的发行说明、betas和公告）。
 3. Markdown文件是以下&#x200B;**[排除的路径](#excluded-paths)**&#x200B;下面列出的&#x200B;**非**。
-4. Markdown文件在`git log`中显示为Courtney在用户指定的日期范围内提交的文件（请参阅清单步骤）。
+4. Markdown文件显示在`git log`中，显示当前Git用户在用户指定的日期范围内添加或修改了&#x200B;**预览内容（请参阅清单步骤）。**
 5. 文章具有&#x200B;**至少一个**：
    - 预览环境&#x200B;**正文语言或实际代码片段段落**（典型模式：“高亮显示的信息”、“预览环境”、“尚未公开发布”、快速发行说明） — **不**&#x200B;目录/索引页面上&#x200B;**仅链接文本**&#x200B;中的匹配项（见下文）；或
    - 任何具有&#x200B;**`class="preview"`**&#x200B;的HTML元素（例如`<span class="preview">`、`<div class="preview">`）；或
@@ -46,16 +46,25 @@ ht-degree: 0%
    - **目标**&#x200B;季度发行的&#x200B;**生产发行日期**→`--until`。
    - 季度版本由“季度版本名称”列标识（例如2026.01、2026.04、2026.07、2026.10）。
    - **如果当前日期为第4季度（10月至12月）：**，则在获取当前年份的日历后，要求用户提供明年发布日历的URL，然后获取该日期，以便所有需要的季度生产日期都可用。
-c.使用步骤b中的生产发布日期运行以下命令：
+c.确定当前的Git用户，然后使用步骤b中的生产发行日期运行以下命令：
 
-   ```
+   ```bash
+   GIT_USER=$(git config user.name)
    git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
-     --author="Courtney" --name-only --pretty=format: \
-     -- "help/quicksilver/**/*.md" | sort -u
+     --author="$GIT_USER" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u | grep -v '^$'
    ```
 
+   d. 从这些结果中，**筛选到当前用户在日期范围内的提交实际添加或修改预览内容**&#x200B;的文件。 对于每个候选文件，检查用户的提交是否引入了预览标记：
 
-   d. 从这些结果中，**筛选到至少包含**&#x200B;的文件： `class="preview"`、`{{highlighted-preview`或预览样板散文 — `highlighted information\|Preview environment\|not yet generally available`的grep。\
+   ```bash
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" -p -- "<file>" | \
+   grep -q '^\+.*class="preview"\|^\+.*{{highlighted-preview\|^\+.*highlighted information\|^\+.*not yet generally available'
+   ```
+
+   仅当此grep匹配时才包含文件（退出代码0）。 这样可避免误报，即用户对其预览突出显示由其他人添加的文件进行不相关的编辑。
+
    e. 根据上述目录规则，**忽略&#x200B;**`product-announcements`**下的任何路径**、任何&#x200B;**[排除的路径](#excluded-paths)**&#x200B;以及任何&#x200B;**目录/索引**&#x200B;页面。\
    f. 呈现生成的已排序列表。 如果用户说列出的文件没有预览突出显示，请从运行中删除它并收紧标准，而不是强制进行编辑。
 
