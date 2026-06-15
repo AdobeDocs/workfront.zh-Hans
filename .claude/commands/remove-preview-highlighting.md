@@ -104,4 +104,4 @@ ht-degree: 0%
 
 ## 参考
 
-- 匹配&#x200B;**[Workfront文档样式](https://experienceleague.adobe.com/)**&#x200B;和存储库约定（如果用户正在提交，则为提交/PR规则）。
+- 匹配&#x200B;**[Workfront文档样式](https://experienceleague.adobe.com/zh-hans)**&#x200B;和存储库约定（如果用户正在提交，则为提交/PR规则）。
