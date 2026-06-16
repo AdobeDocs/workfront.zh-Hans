@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
+source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
 workflow-type: tm+mt
-source-wordcount: '14196'
+source-wordcount: '14203'
 ht-degree: 2%
 
 ---
@@ -474,6 +474,7 @@ ht-degree: 2%
          * [启用自定义季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [为您的组织启用或禁用快速发布](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+         * [将旧版项目组合转换为Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
          * [创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
          * [配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)

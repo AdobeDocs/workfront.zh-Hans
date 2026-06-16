@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 933
+source-wordcount: 964
 ht-degree: 8%
 
 ---
@@ -152,6 +152,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      <tr> 
       <td role="rowheader">启用Adobe云存储 </td> 
       <td>允许您选择为整个组织或特定组启用或禁用Adobe云存储。 有关Adobe云存储的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">为您的组织启用Adobe云存储</a>。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">选择要转换为Adobe云存储的项目组合 </td> 
+      <td>允许您将现有的旧版Workfront存储产品组合转换为Adobe云存储。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">将旧项目组合转换为Adobe云存储</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">启用 AI </td> 
