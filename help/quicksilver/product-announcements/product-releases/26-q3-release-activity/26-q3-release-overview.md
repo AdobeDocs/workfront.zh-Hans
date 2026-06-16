@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: ea8b2a57504ffdbedcfeb56c47b9907647db6787
+source-git-commit: f348be922cc5d3e231621e09b67644492b0c80fb
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
->| <ul><li>26.5（2026年5月14日）</li><li>26.6（2026年6月11日）</li><li>26.7（2026年7月16日）</li></ul> | <ul><li>26.7（2026年7月16日15日）</li></ul> |
+>| <ul><li>26.5（2026年5月14日）</li><li>26.6（2026年6月11日）</li><li>26.7（2026年7月15日）</li></ul> | <ul><li>26.7（2026年7月16日）</li></ul> |
 >
 >请注意，对于每季度的最终版本（本季度26.7版），按照快速发布计划排程的用户将提前一天收到版本（2026年7月15日）。
 >
