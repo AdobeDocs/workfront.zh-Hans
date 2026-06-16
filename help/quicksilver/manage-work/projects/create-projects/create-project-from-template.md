@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1419
 ht-degree: 1%
 
 ---
@@ -187,18 +187,14 @@ Old:
       >
       >* 使用旧版Workfront存储模板可创建一个旧版Workfront存储项目。
       >
-      >* 当您使用旧版Adobe存储项目组合或程序中的Workfront云存储模板时，该项目是一个Adobe云存储项目，并且该项目组合或程序也转换为Adobe云存储对象。 同一项目组合或项目群下的所有其他旧版Workfront存储项目保持不变。
+      >* 使用项目组合或项目群中的模板创建项目时，存在以下情况：
+      >     * 您无法使用旧版Adobe存储产品组合或程序中的Workfront云存储模板来创建项目。
+      >     * 您可以使用旧版存储模板为Adobe存储产品组合或项目群创建Adobe云存储项目。 所有模板文档和文件夹均未附加到新项目。
       >
       > 您的Workfront实例可能没有这两种类型的文档存储。
       >
       >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
-
-      对于预览/生产版本：上述注释中的第三个项目符号需要重写：
-
-      >* 使用项目组合或项目群中的模板创建项目时，存在以下情况：
-      >  * 您无法使用旧版Adobe存储产品组合或程序中的Workfront云存储模板来创建项目。
-      >  * 您可以使用旧版存储模板为Adobe存储产品组合或项目群创建Adobe云存储项目。 所有模板文档和文件夹均未附加到新项目。
 
    1. 查看右侧的以下模板详细信息：
 

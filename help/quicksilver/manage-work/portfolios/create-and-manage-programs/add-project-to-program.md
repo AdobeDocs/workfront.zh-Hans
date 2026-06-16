@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: 640
 ht-degree: 2%
 
 ---
@@ -174,22 +174,16 @@ old:
       >当您的组织同时使用旧版Workfront和Adobe云存储来存储文档时，将会出现以下情况：
       >
       >
-      >* 当您将Adobe云存储项目添加到旧版Workfront存储项目，并且该项目没有附加任何文档时，该项目及其项目组合将转换为Adobe云存储对象。
-      >* 当您将Adobe云存储项目添加到旧版Workfront存储项目，并且该项目或项目组合具有附加文档时，该项目或项目组合文档存储仍保留在Workfront存储中。 但是，旧版Workfront存储图标![旧版Workfront存储图标](assets/legacy-storage-project-icon.png)将从项目组合或项目组合中删除（移动项目之前附加了任何文档）。
-      >* 您无法将旧版Workfront存储项目添加到Adobe云存储项目。
+      >* 您无法将旧版存储项目添加到Adobe云存储程序，也无法将Adobe云存储项目添加到旧版存储程序。
+      >* 无法从旧版存储程序中的Adobe云存储模板创建项目。
+      >* 您可以从Adobe云存储项目中的旧版存储模板创建项目，但该模板上的文档和文件夹不会添加到新项目中。 项目接收Adobe云存储。
       >
       >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
       >
       >并非所有Workfront实例都具有这两种类型的文档存储。
 
 
-      <!--
-        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-        -->
+
 
    1. （可选）如果决定不将某个项目添加到项目，请单击该项目名称旁边的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)。
 
