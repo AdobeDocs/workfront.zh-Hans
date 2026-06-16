@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7f03904aef23f47b84d085877ffa9153c1d69786
+source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
 workflow-type: tm+mt
-source-wordcount: '14194'
+source-wordcount: '14196'
 ht-degree: 2%
 
 ---
@@ -2685,6 +2685,7 @@ ht-degree: 2%
    * [从Adobe Exchange获取并安装应用程序](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)
 * {hide-from-toc}[隐藏的测试文档](hidden-test.md)
+* {hide-from-toc}[隐藏2](hidden-test-2.md)
 
 
 <!--
