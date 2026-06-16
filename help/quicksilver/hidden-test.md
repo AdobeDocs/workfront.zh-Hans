@@ -4,7 +4,8 @@ description: 隐藏测试
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
 TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
 workflow-type: tm+mt
 source-wordcount: 615
@@ -227,7 +228,7 @@ ht-degree: 19%
    <td> 
 <p>任何Adobe Workfront工作流包和任何Adobe Workfront计划包</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台（****是希望指出这一点，还是只需将其添加到底部链接的文章中???*****）</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台（**&#x200B;**&#x200B;是希望指出这一点，还是只需将其添加到底部链接的文章中???**&#x200B;***）</p></td> 
    <td> 
 <p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
@@ -280,15 +281,15 @@ ht-degree: 19%
    <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
    <td> <p>浅色或更高</p> 
    或
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr>
 
 <td><p>访问级别配置</p> </td> 
-   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[！UICONTROL Manage]对计划的权限</p>  </td> 
+   <td> <p>[!UICONTROL Manage]对计划的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
