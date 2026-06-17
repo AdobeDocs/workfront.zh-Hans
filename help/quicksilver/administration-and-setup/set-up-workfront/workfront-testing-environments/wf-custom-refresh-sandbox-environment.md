@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
 workflow-type: tm+mt
-source-wordcount: 1792
-ht-degree: 1%
+source-wordcount: 1828
+ht-degree: 0%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 1%
 ## 刷新自定义刷新沙盒
 
 自定义刷新沙盒包含您的实际生产数据，在您计划它刷新之前，它不会刷新。 您可以随时安排刷新时间，方便您使用，每周刷新一次。
+
+>[!IMPORTANT]
+>
+>自定义刷新沙盒环境仅从生产环境中刷新。 沙盒环境没有执行时间点恢复的进程。 要更新沙盒数据，请计划从生产环境进行标准刷新。
 
 >[!NOTE]
 >
