@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 6490feeb9f07234609bd31cb9ab81a7787dc72d0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,24 @@ ht-degree: 0%
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
+## 请求审批包含Workfront和Frame.io的Adobe Express模板
+
+>[!NOTE]
+>
+>预览：不适用>生产快速发布： 2026年6月15日>适用于所有人的生产： 2026年6月15日>[!BADGE 取消计划]{type=Neutral}
+
+Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内容带来了结构化的审核和批准。 设计人员可以将Workfront审批工作流模板映射到Express模板，这样在重新混合模板时便需要在发布之前自动获得批准，从而通过预配置的Workfront工作流和Frame.io查看器路由资产。
+
+通过此集成，您可以：
+
+* 简化创意、法律和合规团队之间的协作，以减少发布时间，同时保持监督
+* 在Frame.io查看器中使用绘图标记、注释和注释进行深入审查
+* 通过电子签名和完整的审核日志，满足企业法规遵从性标准
+* 要求批准来自Express品牌模板的任何重新混合文件
+* 使用Workfront中的统一审批模板将Express模板映射到多阶段审阅和审批工作流
+* 在请求审批时选择一个Workfront项目，以便相关资源和验证一起组织
+
+有关详细信息，请参阅[Adobe Express和Workfront与Frame.io集成快速入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)。
 
 ## 打印新文档区域中的文档摘要
 
