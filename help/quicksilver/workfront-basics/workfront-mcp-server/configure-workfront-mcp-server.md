@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f47b9ade625541cd095ee4fd7abb14b9295c4a9c
+source-git-commit: 3f59326d26a8c9ccd88f14d7d6459e486fcfe8c9
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ MCP服务器访问由两个不同的管理员控制。
 
 >[!IMPORTANT]
 >
->目前，Claude Connector仅支持连接到美国地区的Workfront MCP服务器。  要连接到EU地区的Workfront实例，请参阅本文中的[使用URL连接到Claude桌面](#connect-to-claude-desktop-with-a-url)。
+>目前，Claude Connector仅支持连接到美国地区的Workfront MCP服务器。  要连接到EU地区的Workfront实例，请参阅本文中的[使用URL连接到Claude](#connect-to-claude-with-a-url)。
 
 +++ 展开以查看有关将Workfront连接到[!DNL Claude]的分步说明。
 
