@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: 1266
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ Old:
    * 旧版Workfront存储任务可创建一个旧版Workfront存储项目。
    * Adobe云存储任务创建一个Adobe云存储项目。
    * 使用旧版Workfront存储模板转换Adobe云存储任务会创建一个Adobe云存储项目。
-   * 使用Adobe云存储模板转换旧版Workfront存储任务会创建一个旧版Workfront存储项目。
+   * 使用Adobe云存储模板转换旧版Workfront存储任务会创建一个Adobe云存储项目。 文档及其批准保留在当前项目中。
 
      有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -122,10 +122,7 @@ Old:
      >
      >您的Workfront实例可能无权访问这两种类型的文档存储。
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * 所有子任务和问题的状态和完成百分比将保留。
 * 任务被分派人和将任务转化为项目的用户成为项目中的共享用户。
 * 项目开始日期设置为任务的开始日期。
