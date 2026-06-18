@@ -4,7 +4,7 @@ description: 2026年第三季度发布时间框架内的其他增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
+source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -20,7 +20,6 @@ ht-degree: 0%
 ## Workfront MCP连接器的更新
 
 我们对Workfront MCP连接器进行了以下更新：
-
 * 我们已扩展MCP服务器以使用EU<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->中的实例。
 * 为了扩展Workfront MCP连接器的灵活性，我们添加了连接Claude的功能。 现在，您可以在Claude的连接器列表中找到Workfront，或使用URL直接连接。
 
