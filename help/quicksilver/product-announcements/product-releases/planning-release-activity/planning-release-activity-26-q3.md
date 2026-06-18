@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,17 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 为选定和人员类型字段添加默认选项
+
+>[!NOTE]
+>
+>预览： 2026年6月18日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
+
+在创建单选、多选字段或“人员”类型字段时，您现在可以指定这些字段的默认值。 当字段在记录中可见时，将始终应用默认值。
+
+保存字段后，您可以更改该字段的默认设置。 处理记录时，可以替换字段的默认值。
+
+有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 ## 改进了表格视图中的界面
 

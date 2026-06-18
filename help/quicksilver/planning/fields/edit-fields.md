@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 1087
+source-wordcount: 1095
 ht-degree: 0%
 
 ---
@@ -152,8 +152,8 @@ Old:
 * 保存字段后，可以编辑以下字段元素的配置：
 
    * 任何字段的名称或描述
-   * 单选或多选字段<!--<span class="preview">and their default choices</span>-->的选项。
-     <!--* <span class="preview">The default choices of a People field.</span>-->
+   * 单选或多选字段<span class="preview">的选项及其默认选项</span>。
+   * <span class="preview">人员字段的默认选择。</span>
    * “公式”字段的表达式。
 
   >[!WARNING]

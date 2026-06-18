@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
 workflow-type: tm+mt
-source-wordcount: 7980
+source-wordcount: 7995
 ht-degree: 1%
 
 ---
@@ -169,11 +169,12 @@ Old:
    >
    >根据Workfront管理员或组管理员修改布局模板的方式，项目详细信息区域中的字段可能会重新排列或不显示。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-   要编辑“详细信息”部分中的信息，请执行以下操作：
+   要编辑&#x200B;**详细信息**&#x200B;部分中的信息，请执行以下操作：
 
    1. （可选）单击右上角的&#x200B;**全部折叠**&#x200B;图标![全部折叠图标](assets/collapse-icon.png)以折叠所有区域。
-   1. （可选且有条件）当某个区域折叠时，单击每个区域旁边的&#x200B;**向右箭头** ![向右箭头](assets/right-pointing-arrow.png)以展开要编辑的区域。
-   1. 有关在项目详细信息选项卡中编辑信息的更多信息，请参阅以下文章：
+   1. （可选且有条件）当某个区域折叠时，单击每个区域旁边的&#x200B;**向右箭头** ![向右箭头](assets/right-pointing-arrow.png)以展开要编辑的区域。 或者，单击右上角的&#x200B;**向右箭头**&#x200B;展开所有区域。
+
+      有关在项目详细信息选项卡中编辑信息的更多信息，请参阅以下文章：
 
       * [在项目概述区域管理信息](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [管理项目财务方面的信息](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
