@@ -18,7 +18,7 @@ ht-degree: 5%
 
 作为Workfront管理员，您可以从“系统首选项”的“存储首选项”区域，将现有的旧版Workfront存储产品组合转换为Adobe云存储。 在转换项目组合后，其行为与任何其他Adobe云存储项目组合类似。
 
-有关已转换项目组合的行为方式及其子对象受到的影响的详细信息，请参阅[在Adobe云存储上移动到Workfront ](/help/quicksilver/review-and-approve-work/workfront-storage.md)中的[对象可移植性](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)。
+有关已转换项目组合的行为方式及其子对象受到的影响的详细信息，请参阅[在Adobe云存储上移动到Workfront &#x200B;](/help/quicksilver/review-and-approve-work/workfront-storage.md)中的[对象可移植性](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)。
 
 ## 访问权限要求
 
