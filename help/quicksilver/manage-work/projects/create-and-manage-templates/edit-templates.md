@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: 5111
 ht-degree: 3%
@@ -155,7 +155,7 @@ Old:
 
    * [模板名称](#template-name)
    * [概述](#overview-preview)
-   * [财务](#finance-preview)
+   * [财务](#finance)
    * [自定义表单](#custom-forms-preview)
    * [模板设置](#template-settings)
    * [任务设置](#task-settings)

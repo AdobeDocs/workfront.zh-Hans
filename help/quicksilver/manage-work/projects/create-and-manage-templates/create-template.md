@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 7%
+source-wordcount: 790
+ht-degree: 6%
 
 ---
 
@@ -160,11 +160,11 @@ Old:
 
    单击&#x200B;**新建模板任务**，开始在&#x200B;**新建模板任务**&#x200B;框中将任务添加到模板。
 
-   单击&#x200B;**新建模板任务**&#x200B;后，**创建模板任务**&#x200B;框将在新体验中打开。
+   单击&#x200B;**新建模板任务**&#x200B;后，**创建模板任务**&#x200B;框将打开。
 
    ![新模板任务的新体验](assets/new-template-task-box-unshimmed.png)
 
-1. （视情况而定）使用新体验，更新&#x200B;**创建模板任务**&#x200B;框中的以下区域的信息：
+1. （视情况而定）在&#x200B;**创建模板任务**&#x200B;框中更新以下区域的信息：
 
    * 模板任务名称
    * 概述
@@ -174,53 +174,29 @@ Old:
    * 文档
    * 设置
 
-1. 单击&#x200B;**创建模板任务**
+   更新模板任务的信息与编辑模板任务类似。
 
-   或
-
-   单击&#x200B;**创建模板任务**&#x200B;框底部的&#x200B;**切换回旧体验**。
-
-   **新模板任务**&#x200B;将在旧体验中打开。
-
-   ![新模板任务框](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >在生产环境中，默认情况下会打开旧体验。
-
-1. 在&#x200B;**新模板任务**&#x200B;框中更新以下区域的信息：
-
-   * 概述
-   * 财务
-   * 设置
-   * 分配
-   * 自定义表单
-   * 附加文档
-
-     更新模板任务的信息与编辑项目中的任务类似。 有关详细信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   有关详细信息，请参阅[编辑模板任务](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)。
 
    >[!NOTE]
    >
    >您无法将周期性任务添加到模板。
 
-1. 单击下列选项之一：
+1. 单击&#x200B;**创建模板任务**。
 
-   * **保存模板任务**&#x200B;以保存当前模板任务并关闭“新建模板任务”框。
-   * **保存模板任务并启动另一个**&#x200B;以保存当前的模板任务，并打开另一个&#x200B;**新模板任务**&#x200B;框以添加另一个任务。
-   * **取消**&#x200B;关闭该框而不保存模板任务。
-1. （可选）添加模板任务后，在“模板任务”部分中，单击任务列表右上角的&#x200B;**甘特图**&#x200B;图标，查看模板任务列表的可视表示形式。
+1. （可选）添加模板任务后，在&#x200B;**模板任务**&#x200B;部分中，单击任务列表右上角的&#x200B;**甘特图**&#x200B;图标![甘特图](assets/gantt-icon.png)以查看模板任务列表的可视表示形式。
 
    >[!TIP]
    >
-   >不能直接从该甘特图编辑任务。
+   >不能直接从模板任务甘特图编辑任务。
 
-1. 若要向新模板添加信息，请单击标题中模板名称左侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+1. 若要向新模板添加信息，请单击标题中模板名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
    有关编辑模板的信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
    >[!NOTE]
    >
-   >   项目模板与组（或缺少组）的关联会影响项目、任务和问题首选项如何确定模板中的某些设置。
+   >项目模板与组（或缺少组）的关联会影响项目、任务和问题首选项如何确定模板中的某些设置。
    >
    >有关详细信息，请参阅[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)一文中的“首选项如何应用于模板和模板任务”一节。
 

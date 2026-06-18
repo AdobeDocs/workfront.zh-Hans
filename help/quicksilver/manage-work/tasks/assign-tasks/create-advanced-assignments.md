@@ -9,7 +9,8 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
@@ -23,10 +24,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 0%
 
 ---
@@ -63,17 +65,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >在分配用户进行工作时，其根据时间表的可用性会影响任务和问题的计划和预计日期。 有关计划的信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-## Adobe Workfront中可执行高级任务的区域
-
-本文介绍了如何在任务或问题的标题中访问高级工作。
-
-此外，您还可以在Workfront的以下区域进行高级分配：
-
-* 在列表和报表中，当“工作总揽”字段显示在视图中时。
-* 编辑任务时显示在“工作总揽”部分。 有关详细信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* 在任务或问题标题的工作区区域中。
-* 在工作负载均衡器中。 有关详细信息，请参阅[使用工作负载均衡器手动分配工作](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)。
-
 ## 访问权限要求
 
 +++ 展开可查看本文所述功能的访问权限要求。
@@ -107,14 +98,27 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-## 创建高级工作 — 工作流Ultimate包
+## Adobe Workfront中可执行高级任务的区域
 
-此高级工作分配布局仅适用于任务。 有关问题，请参阅[创建高级工作 — 所有其他包](#create-advanced-assignments--all-other-packages)。
+本文介绍了如何在任务或问题的标题中访问高级工作。
+
+此外，您还可以在Workfront的以下区域进行高级分配：
+
+* 在列表和报表中，当“工作总揽”字段显示在视图中时。
+* 编辑任务时显示在“工作总揽”部分。 有关详细信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* 在任务或问题标题的工作区区域中。
+* 在工作负载均衡器中。 有关详细信息，请参阅[使用工作负载均衡器手动分配工作](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)。
+
+创建高级工作分配因贵组织购买的Workfront包而异。
+
+## 为工作流Ultimate包创建高级工作
+
+此高级工作分配布局仅适用于任务。 有关问题，请参阅本文中的[为所有其他包创建高级工作分配](#create-advanced-assignments-for-all-other-packages)部分。
 
 >[!NOTE]
 >
 >默认使用旧的高级工作分配体验。您必须使用“高级分配”窗口右上角的按钮手动打开新体验。
->有关旧体验的信息，请参阅下面的[创建高级工作 — 所有其他包](#create-advanced-assignments--all-other-packages)。
+>有关旧体验的信息，请参阅本文中的[为所有其他包创建高级工作](#create-advanced-assignments-for-all-other-packages)部分。
 
 1. 转到要分配任务的项目。
 1. 单击左侧面板中的&#x200B;**任务**&#x200B;或&#x200B;**问题**，然后单击列表中任务的名称。
@@ -134,7 +138,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    ![单击高级](assets/assignments-from-task-header-0825.png)
 
-   此时将出现“高级分配”窗口。
+   将打开“高级分配”窗口。
 
    ![高级工作窗口](assets/advanced-assignments-031826.png)
 
@@ -330,7 +334,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    查看完数据后，单击左上角的箭头返回“高级工作”窗口。
 
-## 创建高级工作 — 所有其他包
+## 为所有其他包创建高级工作
 
 此高级工作分配布局适用于任务和问题。
 

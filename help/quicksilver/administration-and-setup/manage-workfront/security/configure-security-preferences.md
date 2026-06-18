@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 1155
 ht-degree: 8%
 
 ---
@@ -141,6 +141,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td role="rowheader">自定义帮助 URL</td> 
       <td>允许您定义主菜单帮助图标要转到的内部自定义帮助站点。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">配置自定义帮助URL</a>。</p></td> 
      </tr>
+    <tr> 
+      <td role="rowheader">在访问级别内禁用自动升级</td> 
+      <td>您可以禁用参与者访问级别的自动升级过程。 选中此设置后，超过其批准决策限制的参与者许可证用户必须由管理员手动升级到新许可证。</p></td> 
+     </tr>
      <tr> 
       <td role="rowheader">启用优先级工作列表 </td> 
       <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 用户仍然可以在Workfront中看到优先级图标，但是他们无权访问该功能。 有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
@@ -150,20 +154,33 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td><span class="preview"><p>允许您选择在批量编辑对象时是否强制用户在必填字段中输入信息。</p> <p>选择此选项时，必填字段必须具有值，才能以批量编辑模式保存。 如果必填字段至少缺少一个批量选定对象的值，则不允许保存。</p> <p>如果未选择此选项，则只有在用户修改必填字段时，才会强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。</p></span></td>
      </tr>
      <tr> 
-      <td role="rowheader">启用Adobe云存储 </td> 
-      <td>允许您选择为整个组织或特定组启用或禁用Adobe云存储。 有关Adobe云存储的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">为您的组织启用Adobe云存储</a>。</td> 
-     </tr>
-     <tr> 
+      <td role="rowheader">存储偏好设置 </td> 
+      <td>在此部分中，您可以启用Adobe Cloud首选项。允许您选择为整个组织或特定组启用或禁用Adobe云存储。 
+      <p>更新以下信息：</p>
+      <ul><li><b>默认值</b>：选择旧版Workfront存储或Adobe云存储</li>
+      <li><b>允许用户选择存储提供程序</b>：这允许用户在创建Workfront对象时在这两种存储类型之间进行选择。</li>
+      <li><b>应用于</b>：选择默认设置是应用于整个组织还是应用于特定组</li>
+      <li><b>选择要转换为Adobe云存储的项目组合</b>：选择要自动从Workfront旧存储转换为Adobe云存储的项目组合。 保存系统首选项时，将转换项目组合。</li></ul>     
+    有关Adobe云存储的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">为您的组织启用Adobe云存储</a>。</td></tr>
+    <tr> 
       <td role="rowheader">选择要转换为Adobe云存储的项目组合 </td> 
       <td>允许您将现有的旧版Workfront存储产品组合转换为Adobe云存储。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">将旧项目组合转换为Adobe云存储</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">启用 AI </td> 
-      <td>允许您选择启用AI，包括AI助手。 <p><b>注意</b>：您的组织必须满足特定要求才能启用AI。 有关AI的详细信息（包括要求），请参阅<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助手概述</a>。</p></td> 
+      <td>通过打开AI首选项区域中的设置，您可以启用AI，包括AI助手。 <p><b>注意</b>：您的组织必须满足特定要求才能启用AI。 有关AI的详细信息（包括要求），请参阅<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助手概述</a>。</p></td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">AI 表格填写 </td> 
+      <td>允许人员使用Form Fill with AI自动填写请求表单。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md">使用由AI提供支持的表单填写，以使用提示或文档填写请求</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">表单自动完成 </td> 
+      <td role="rowheader">在请求表单中自动完成智能 </td> 
       <td>允许您选择启用根据先前的请求数据自动完成请求表单的功能。 有关表单自动完成的更多信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">从以前的数据中自动填写请求</a>。</td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">规划设计器</td> 
+      <td>这仅适用于已购买Workfront Planning包的客户。 启用此设置可让您的用户使用Planning Designer创建和编辑工作区。 有关信息，请参阅<a href="/help/quicksilver/planning/general/planning-ai-designer.md">Adobe Workfront规划Designer入门</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">选择加入 AI Beta </td> 
