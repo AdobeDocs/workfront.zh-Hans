@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '14203'
 ht-degree: 2%
@@ -473,8 +473,8 @@ ht-degree: 2%
          * [项目时间表重新计算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [启用自定义季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [为您的组织启用或禁用快速发布](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
-         * [将旧版项目组合转换为Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
+         * [为您的组织启用Adobe云存储](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+         * [将旧版项目组合转换为Adobe云存储](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
          * [创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
          * [配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
@@ -719,7 +719,7 @@ ht-degree: 2%
          * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * {hide-from-toc}[增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * {hide-from-toc}[使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+         * 使用增强型身份验证时{hide-from-toc}[更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 汇率 {#exchange-rates}
          * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1191,7 +1191,7 @@ ht-degree: 2%
       * [删除文档](documents/managing-documents/delete-documents.md)
       * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
       * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * {hide-from-toc}[在Workfront中AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+      * 在Workfront中{hide-from-toc}[AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 组织文档 {#organize-documents}
       * [组织文档](documents/organizing-documents/organize-documents.md)
       * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
@@ -2601,10 +2601,10 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本22中的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [API版本22](/help/quicksilver/wf-api/api/new-api-version-22.md)中的新增功能
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
