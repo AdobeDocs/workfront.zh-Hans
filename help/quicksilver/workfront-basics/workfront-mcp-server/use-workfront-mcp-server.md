@@ -5,9 +5,9 @@ title: 使用Adobe Workfront MCP服务器
 description: 使用Adobe Workfront MCP服务器可通过人工智能代理平台中的自然语言对话，搜索、创建、更新和管理Workfront项目。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
+source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1787'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->目前，Workfront MCP服务器仅适用于美国地区的客户以及使用AWS的客户。
+>目前，Workfront MCP服务器仅适用于使用AWS的客户。
 
 ## 先决条件
 
