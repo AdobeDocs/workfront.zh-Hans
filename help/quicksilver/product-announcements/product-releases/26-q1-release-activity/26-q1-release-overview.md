@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 705031456bf63cdc25a56bd7faaf95b2501d63bb
 workflow-type: tm+mt
 source-wordcount: 3163
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -233,7 +233,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">已为Experience Manager Assets本机集成更新Adobe Workfront的资源选择器</a>
             <p>我们已在Adobe Workfront中为Experience Manager Assets集成升级了资源选择器。 通过此升级，您现在可以选择并将AEM收藏集直接拉入Workfront。 </p>
         </td>
-        <td>2025年11月20日</td>
+        <td>2025 年 11 月 20 日</td>
         <td>2025年12月11日</td>
         <td>2026年1月15日</td>
     </tr>   
@@ -463,7 +463,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">将请求草稿保存在新的请求体验中</a>
             <p>为了更便于创建和提交请求，我们添加了将草稿保存到新请求体验的功能。 现在，当您开始填写并关闭请求时，请求将保存为草稿状态，并可在用于创建草稿的请求表单上找到。 之后，您可以随时重新打开、更新和提交草稿。 </p>
         </td>
-        <td>2025年11月20日</td>
+        <td>2025 年 11 月 20 日</td>
         <td>2026年1月14日</td>
         <td>2026年1月15日</td>
     </tr>  
@@ -472,7 +472,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">删除新请求体验中已提交的请求</a>
             <p>为了更便于保持请求的组织性和整洁，我们向新的请求体验添加了删除请求的功能。 现在，您可以删除已提交的请求。 Workfront管理员和Workfront Planning Workspace管理员也可以删除请求。</p>
         </td>
-        <td>2025年11月20日</td>
+        <td>2025 年 11 月 20 日</td>
         <td>2026年1月14日</td>
         <td>2026年1月15日</td>
     </tr>   
@@ -481,7 +481,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">通过复制新请求体验中先前提交的请求来创建新请求</a>
             <p>为了更便于提交请求，我们添加了将请求复制到新请求体验的功能。 现在，您可以复制请求、编辑任何字段并将其作为新请求提交。 </p>
         </td>
-        <td>2025年11月20日</td>
+        <td>2025 年 11 月 20 日</td>
         <td>2025年12月11日</td>
         <td>2026年1月15日</td>
     </tr>    
