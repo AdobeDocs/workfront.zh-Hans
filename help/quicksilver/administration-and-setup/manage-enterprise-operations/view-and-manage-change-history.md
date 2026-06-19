@@ -18,9 +18,9 @@ ht-degree: 4%
 
 您可以在“设置”的“变更跟踪”区域中查看变更历史记录，包括审核日志。
 
-* **审核日志**是由用户触发的更改。
+* **审核日志**&#x200B;是由用户触发的更改。
 有关审核日志和审核日志区域的详细信息，请参阅[审核日志概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **配置**显示为“更改历史记录列表”跟踪的字段。
+* **配置**&#x200B;显示为“更改历史记录列表”跟踪的字段。
 配置当前仅作为信息提供，无法更改。在不久的将来，将可以更改跟踪哪些字段。
 * “更改历史记录列表”允许您查看对Workfront对象进行更改的日志，包括如下属性：
 
@@ -43,7 +43,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[！UICONTROL标准版]</td> 
+   <td>[!UICONTROL 标准版]</td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
