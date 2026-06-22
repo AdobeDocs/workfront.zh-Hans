@@ -8,24 +8,15 @@ exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
 source-wordcount: 2620
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -35,7 +26,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第二季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -78,12 +69,12 @@ ht-degree: 2%
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">内容审阅AI协作者现已可用</a><p>为了让您更轻松地在日常工作中从AI中获益，我们创建了内容审阅AI协作器。  通过协作器，可将AI代理载入您的项目和任务。 您可以使用品牌指南配置内容审查AI协作器，然后像向用户一样将其分配给任务。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">已更新时区名称</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>我们已更新Workfront中可用的时区以遵循IANA标准。 这可以确保与其他系统的兼容性和准确性。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">已更新时区名称</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>我们已更新Workfront中可用的时区以遵循IANA标准。 这可以确保与其他系统的兼容性和准确性。</p>
         </td>
         <td><p>2026年3月27日</p></td>
         <td><p>2026年3月27日</p></td>
@@ -94,7 +85,7 @@ ht-degree: 2%
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自定义季度已从项目偏好设置中删除</a><p>我们已从“项目首选项”部分移动了“自定义季度”区域。 它现在是“设置”中的独立部分。</p>
         </td>
         <td><p>2026年3月5日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -166,12 +157,12 @@ ht-degree: 2%
     </tr>
    <tr>
         <td>
-            已启用<a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio基础配置以支持AI协作者</a><p></p>
+            已启用<a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundation配置以支持AI协作者</a><p></p>
             <p>在2026年3月31日，所有Workfront客户都已配置GenStudio Foundation，并且Admin Console系统管理员将收到一封通知他们此添加的电子邮件。 此产品仅是为了让Workfront客户在发布AI协作者时能够根据需要向品牌提供Workfront客户的访问权限。 产品本身只是Brands的访问机制，在GenStudio Foundation产品中没有可用的附加功能。</p><p>客户无需为此新产品付费。</p>
         </td>
-        <td><p>2026年3月31日</p></td>
-        <td><p>2026年3月31日</p></td>
-        <td><p>2026年3月31日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
     </tr>
     <tr>
         <td>
@@ -179,7 +170,7 @@ ht-degree: 2%
             <p>我们已在主页的“我的审批”小组件中添加了以下增强功能：<ul><li>按“最旧优先”或“最新优先”对批准列表进行排序</li><li>展开小组件以全屏显示</li><ul> </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -189,7 +180,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -198,7 +189,7 @@ ht-degree: 2%
             <p>多阶段审批工作流现在可用于统一审批，帮助组织实施结构化、可重复的审批流程，以反映实际工作中工作的审查方式。 </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -207,7 +198,7 @@ ht-degree: 2%
             <p>您现在可以配置和重用多阶段审批工作流模板，使得跨可重复审批工作流应用一致治理变得更加容易。 </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
              </tbody>
@@ -232,7 +223,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -242,7 +233,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
               </tbody>
@@ -262,7 +253,7 @@ ht-degree: 2%
         <td><strong>每季度</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
         </td>
         <td><p>2026年2月5日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -270,7 +261,7 @@ ht-degree: 2%
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -298,7 +289,7 @@ ht-degree: 2%
             <p>我们已在Document Version对象中添加了<code>currentVersion</code>布尔字段，以便更轻松地识别和报告文档的最新版本。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
      <tr>
@@ -307,7 +298,7 @@ ht-degree: 2%
             <p>Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报表的直接链接，从而允许收件人查看应用程序中的最新数据。</p>
         </td>
         <td><p>2026年4月3日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
      <tr>
@@ -316,7 +307,7 @@ ht-degree: 2%
             <p>您现在可以在画布功能板上将报表配置为以特定用户身份运行。 启用后，报表会根据选定用户的访问权限显示数据，而不是查看者的权限。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
    <tr>
@@ -376,7 +367,7 @@ ht-degree: 2%
             <p>您现在可以在新请求体验中，通过已创建的对象字段，查看和打开从Workfront问题转换而来的任务和项目。</p><p>此外，我们还添加了“已创建对象状态”字段，以指示已转换对象的状态。 </p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
@@ -409,7 +400,7 @@ ht-degree: 2%
             <p>您现在可以对“请求”区域中的请求列表以及“主页”中的“我的请求”小组件应用条件格式。 在此增强功能之前，列表视图中不存在此功能。</p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
@@ -427,7 +418,7 @@ ht-degree: 2%
             <p>为了更便于您查找所需的请求，我们已将分组添加到请求列表和我的请求构件。 现在，您可以按列表上的任何列对请求进行分组。 这些分组会成为您在创建分组时使用的视图的一部分。</p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
@@ -528,15 +519,15 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
 
 
