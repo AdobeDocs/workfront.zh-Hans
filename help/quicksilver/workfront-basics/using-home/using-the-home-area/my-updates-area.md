@@ -9,11 +9,17 @@ exl-id: 809605a0-8c24-4873-b98f-504a158be022
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBVFQLaFE0Vb15SDNsWRomKEDRTeIsEjnMaCv-CrMR8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 786
@@ -61,7 +67,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,15 +111,15 @@ ht-degree: 2%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
       <td>提交给您或由其他用户委托给您的审批。 有关委托审批的信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委托审批请求</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL委托审批]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 委托审批]</strong></td> 
       <td>其他用户委托给您的审批。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL我的审批]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 我的审批]</strong></td> 
       <td> <p>审批已提交给您。 </p> <p>有关批准项的更多信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">批准工作</a>。</p> </td> 
      </tr> 
     </tbody> 
