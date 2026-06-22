@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
 source-wordcount: 2620
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 2%
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">内容审阅AI协作者现已可用</a><p>为了让您更轻松地在日常工作中从AI中获益，我们创建了内容审阅AI协作器。  通过协作器，可将AI代理载入您的项目和任务。 您可以使用品牌指南配置内容审查AI协作器，然后像向用户一样将其分配给任务。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@ ht-degree: 2%
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自定义季度已从项目偏好设置中删除</a><p>我们已从“项目首选项”部分移动了“自定义季度”区域。 它现在是“设置”中的独立部分。</p>
         </td>
         <td><p>2026年3月5日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -166,12 +166,12 @@ ht-degree: 2%
     </tr>
    <tr>
         <td>
-            已启用<a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio基础配置以支持AI协作者</a><p></p>
+            已启用<a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundation配置以支持AI协作者</a><p></p>
             <p>在2026年3月31日，所有Workfront客户都已配置GenStudio Foundation，并且Admin Console系统管理员将收到一封通知他们此添加的电子邮件。 此产品仅是为了让Workfront客户在发布AI协作者时能够根据需要向品牌提供Workfront客户的访问权限。 产品本身只是Brands的访问机制，在GenStudio Foundation产品中没有可用的附加功能。</p><p>客户无需为此新产品付费。</p>
         </td>
-        <td><p>2026年3月31日</p></td>
-        <td><p>2026年3月31日</p></td>
-        <td><p>2026年3月31日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
     </tr>
     <tr>
         <td>
@@ -179,7 +179,7 @@ ht-degree: 2%
             <p>我们已在主页的“我的审批”小组件中添加了以下增强功能：<ul><li>按“最旧优先”或“最新优先”对批准列表进行排序</li><li>展开小组件以全屏显示</li><ul> </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -189,7 +189,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -198,7 +198,7 @@ ht-degree: 2%
             <p>多阶段审批工作流现在可用于统一审批，帮助组织实施结构化、可重复的审批流程，以反映实际工作中工作的审查方式。 </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -207,7 +207,7 @@ ht-degree: 2%
             <p>您现在可以配置和重用多阶段审批工作流模板，使得跨可重复审批工作流应用一致治理变得更加容易。 </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
              </tbody>
@@ -232,7 +232,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -242,7 +242,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
               </tbody>
@@ -298,7 +298,7 @@ ht-degree: 2%
             <p>我们已在Document Version对象中添加了<code>currentVersion</code>布尔字段，以便更轻松地识别和报告文档的最新版本。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
      <tr>
@@ -307,7 +307,7 @@ ht-degree: 2%
             <p>Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报表的直接链接，从而允许收件人查看应用程序中的最新数据。</p>
         </td>
         <td><p>2026年4月3日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
      <tr>
@@ -316,7 +316,7 @@ ht-degree: 2%
             <p>您现在可以在画布功能板上将报表配置为以特定用户身份运行。 启用后，报表会根据选定用户的访问权限显示数据，而不是查看者的权限。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
    <tr>
@@ -376,7 +376,7 @@ ht-degree: 2%
             <p>您现在可以在新请求体验中，通过已创建的对象字段，查看和打开从Workfront问题转换而来的任务和项目。</p><p>此外，我们还添加了“已创建对象状态”字段，以指示已转换对象的状态。 </p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
@@ -409,7 +409,7 @@ ht-degree: 2%
             <p>您现在可以对“请求”区域中的请求列表以及“主页”中的“我的请求”小组件应用条件格式。 在此增强功能之前，列表视图中不存在此功能。</p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
@@ -427,7 +427,7 @@ ht-degree: 2%
             <p>为了更便于您查找所需的请求，我们已将分组添加到请求列表和我的请求构件。 现在，您可以按列表上的任何列对请求进行分组。 这些分组会成为您在创建分组时使用的视图的一部分。</p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
