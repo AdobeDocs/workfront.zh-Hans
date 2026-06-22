@@ -10,22 +10,12 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 7995
 ht-degree: 1%
@@ -37,7 +27,7 @@ ht-degree: 1%
 <!--Audited: 07/2024-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -833,7 +823,7 @@ Old:
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -876,15 +866,15 @@ Old:
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
 有关编辑财务区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
 有关编辑“问题设置”区域的更多信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。

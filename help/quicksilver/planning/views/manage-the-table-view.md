@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
+source-wordcount: 6307
 ht-degree: 1%
 
 ---
@@ -29,7 +24,7 @@ ht-degree: 1%
 # 管理表视图
 
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -745,16 +740,20 @@ To sort grouped records:
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
 
    1. 单击搜索框中的&#x200B;**x**&#x200B;图标以清除搜索关键字。
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. 对于数字、货币、百分比和公式字段（采用这些字段类型的任意格式），展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SUM**：显示列中所有单元格的总数。 这是默认选项。
+   * **MIN**：显示列中所有单元格的最小值。
+   * **MAX**：显示列中所有单元格中的最高值。
+   * **AVG**：显示列中所有单元格的平均值。
+
+   使用聚合器时，请考虑以下事项：
+
+   * 列中的聚合器行是冻结的，是视图设置的一部分。
+   * 作为视图管理器，您可以选择聚合器，当您与其他人共享视图时，它将与视图共享。
+   * 作为查看器，您可以修改聚合，但不会随视图一起保存。
+   * 公共共享视图与已保存的聚合共享，该聚合无法修改。
 
 ### 添加行（或记录） {#add-rows-1}
 
@@ -890,7 +889,7 @@ To sort grouped records:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。这些记录按您选择的分组顺序分组。
-&lt;！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。 — 立即选中此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—*************** *在使用API时，您最多可以应用4个级别的分组。 — 立即选中此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。

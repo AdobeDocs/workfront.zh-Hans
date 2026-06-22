@@ -9,18 +9,12 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 3224
 ht-degree: 0%
@@ -30,7 +24,7 @@ ht-degree: 0%
 # 创建记录
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -205,7 +199,7 @@ Old:
    1. 单击以下方法之一创建记录，然后单击&#x200B;**继续**：
 
       * **手动添加**。 记录的预览框打开。\
-        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录中所述。<!--insure this stays accurate-->
+        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录[中所述。<!--insure this stays accurate-->
       * **从文件上载**
 添加记录，如文章[中所述。从步骤6开始，通过从CSV或Excel文件导入信息来创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
       * **提交请求**
@@ -534,7 +528,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

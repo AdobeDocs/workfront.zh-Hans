@@ -9,17 +9,12 @@ exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-QH0K-HG7X7i6xwKxrBkXQzUbefI2-HI1RliZJMCIDU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 1789
 ht-degree: 1%
@@ -30,7 +25,7 @@ ht-degree: 1%
 
 # 管理来自Workfront对象的记录连接
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -222,9 +217,9 @@ Old:
       * 在Workfront Planning中显示的已连接记录字段的名称。
    * 记录显示在各自的工作区和记录类型下。
 
-   项目![&#128279;](assets/planning-section-on-project.png)的计划部分
+   项目](assets/planning-section-on-project.png)的![计划部分
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。

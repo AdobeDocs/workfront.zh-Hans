@@ -9,18 +9,12 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/sFguOXM4KmnumOPmMdueqTMyH-UNFq01TsJG6L53fAM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 2013
 ht-degree: 0%
@@ -29,7 +23,7 @@ ht-degree: 0%
 
 # 管理记录页面布局
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -220,11 +214,11 @@ Old:
 
 1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![添加节图标](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
-1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面[&#128279;](#manage-fields-in-the-records-details-tab)中的管理字段部分所述。
+1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面](#manage-fields-in-the-records-details-tab)中的[管理字段部分所述。
 
 1. （可选）将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
-   记录页面![&#128279;](assets/more-menu-options-for-section-on-record-page.png)上节的更多菜单选项
+   记录页面](assets/more-menu-options-for-section-on-record-page.png)上节的![更多菜单选项
 1. （可选）执行以下操作之一以编辑部分：
 
    * 单击&#x200B;**重命名**&#x200B;以重命名该节
@@ -237,7 +231,7 @@ Old:
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -251,7 +245,7 @@ Old:
 
    对部分和字段顺序的所有更改都将自动保存。
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击&#x200B;**详细信息**&#x200B;选项卡旁边的&#x200B;**连接**&#x200B;选项卡。 在单击“**连接**”选项卡之前，您可能必须单击“**更多**”。
 
@@ -307,7 +301,7 @@ Old:
 
    >[!TIP]
    >
-   > <span class="preview">只有在记录的详细信息预览页面中查看表视图中的记录时，**选定的表视图字段**&#x200B;视图才可用。
+   > <span class="preview">只有在记录的详细信息预览页面中查看表视图中的记录时，**选定的表视图字段**视图才可用。
    >**选定的表视图字段**&#x200B;不可用于任何其他记录类型视图，也不可用于浏览器窗口中打开的记录详细信息页面。</span>
 
 1. <span class="preview">（有条件）在“预览”环境中，继续执行以下操作：</span>

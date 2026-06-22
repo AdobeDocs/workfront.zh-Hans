@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ There are no features released during the Third Quarter Release for 2026. When f
 * 所有连接的记录类型页面，项目除外
 
 除了一些导航更改和设计改进之外，此更新中的某些改进包括：
+
+* 在表底部添加汇总行，该汇总行使用以下汇总器汇总数字、货币、百分比和一些公式字段：SUM、AVG、MAX、MIN。
 
 * 添加日期字段时使用更简单的日期格式，格式类型更少。
 

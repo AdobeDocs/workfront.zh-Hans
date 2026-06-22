@@ -9,17 +9,12 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 846
 ht-degree: 0%
@@ -29,7 +24,7 @@ ht-degree: 0%
 # 管理记录注释
 
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -196,7 +191,7 @@ Old:
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * 按CTRL + Z（对于Mac，按⌘ + z）可撤消更改
    * 按CTRL + Y组合键（Mac为⌘+y）以重做更改
-1. 添加&#x200B;**@**，后跟用户名或团队名称，以便在更新中标记这些用户。 有关详细信息，请参阅本文中关于评论记录[&#128279;](#considerations-about-commenting-on-a-record)的注意事项部分。
+1. 添加&#x200B;**@**，后跟用户名或团队名称，以便在更新中标记这些用户。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
 
 1. （可选）使用富文本工具栏中的选项设置文本格式、添加表情符号或链接到更新，以增强内容。
 
