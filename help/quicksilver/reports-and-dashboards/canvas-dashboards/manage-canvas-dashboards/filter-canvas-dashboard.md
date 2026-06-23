@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 2%
 
 ---
@@ -36,6 +36,12 @@ ht-degree: 2%
 >* 自带Amazon Web Services密钥
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 您可以将过滤器应用到包含提示的画布功能板。 提示可充当过滤器修饰符，用于应用附加过滤条件，以便进一步缩小结果的范围。 每次应用过滤器时都可以修改这些提示，使您能够调整显示的结果，而无需编辑仪表板或每个单独报告的主要过滤条件。
@@ -117,7 +123,7 @@ ht-degree: 2%
 
 1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
 
-1. 选择&#x200B;**编辑筛选器**。 **仪表板筛选器**&#x200B;对话框打开。
+1. 单击 <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **编辑筛选器**。 **仪表板筛选器**&#x200B;对话框打开。
 
 1. （可选）要添加规则，请执行以下步骤：
 
@@ -126,7 +132,7 @@ ht-degree: 2%
       ![编辑图标](assets/edit-icon.png)
 
    1. 单击&#x200B;**添加条件**，然后添加以下信息：
-      * 选择一个要作为筛选依据的字段。
+      * 单击&#x200B;**选择字段**&#x200B;以选择要作为筛选依据的字段。
       * 选择一个选项（或筛选器修饰符）以定义字段必须满足的条件类型。
 
    1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
@@ -144,7 +150,7 @@ ht-degree: 2%
 
 1. 要添加提示，请执行以下步骤：
 
-   1. 选择&#x200B;**添加提示**。 新字段显示在屏幕的右侧。
+   1. 单击&#x200B;**添加提示**。 新字段显示在屏幕的右侧。
 
    1. 在&#x200B;**自定义标签**&#x200B;字段中输入标签。
 
@@ -170,6 +176,19 @@ ht-degree: 2%
    1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
 
 1. 单击&#x200B;**保存**&#x200B;以将筛选器应用到仪表板。
+
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
 
 1. 继续执行[第3部分：应用仪表板提示](#step-3-apply-a-dashboard-prompt)。
 

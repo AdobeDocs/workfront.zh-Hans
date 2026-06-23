@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +622,7 @@ To sort grouped records:
 
 <div class="preview">
 
-## 在预览环境中管理列表视图
+## 在预览环境中管理表格视图
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -946,17 +946,15 @@ To sort grouped records:
 
 ### 添加行颜色
 
-1. （可选）单击&#x200B;**行颜色**&#x200B;以定义条件并选择为表行配置不同的颜色。
+1. （可选）单击&#x200B;**行颜色**&#x200B;以定义条件并为表行配置不同的颜色。
 
-1. 单击&#x200B;**添加颜色**，然后搜索某个字段，并在该字段显示在列表中时将其选定。 这是要定义行颜色的值字段。
+1. 单击&#x200B;**添加颜色**，然后搜索某个字段，并在该字段显示在列表中时将其选定。 这是要定义行颜色或主字段值的字段。
 
    例如，要以绿色显示状态为“活动”的促销活动，请选择&#x200B;**状态**，然后为字段选择修饰符和值。
 
-   ![已选中“活动”状态且默认颜色选择的“行颜色”框](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. 单击所选条件左上角的拾色器下拉菜单，选取条件的颜色，然后单击拾色器框外部将其关闭。
 
-   ![行颜色框中的下拉拾色器菜单突出显示](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![已选中“活动”状态且默认颜色选择的“行颜色”框](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. （可选）单击&#x200B;**添加条件**&#x200B;以向第一组条件添加更多字段和值
 
@@ -966,16 +964,27 @@ To sort grouped records:
 
    例如，您可以通过定义一组新条件，以黄色显示处于Planning状态的促销活动。
 
-   具有Active和Planning状态自定义颜色的![行颜色框](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   具有Active和Planning状态自定义颜色的![行颜色框](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >选择了两个不同的字段时，最后一个规则将首先应用于将应用于行的颜色。
+
 
 1. （可选）打开&#x200B;**行颜色**&#x200B;框右上角的&#x200B;**应用到整个行**&#x200B;设置。 满足条件的整行会自动以选定的颜色显示。
 
    >[!NOTE]
    >
-   >如果&#x200B;**Apply to entire row**&#x200B;设置已关闭，则只有主字段单元格的背景以所选颜色显示。 默认情况下，该设置处于关闭状态。
+   >* 如果&#x200B;**Apply to entire row**&#x200B;设置已关闭，则只有主字段单元格的背景以所选颜色显示。 默认情况下，该设置处于关闭状态。
    >
+   >* 将分组应用到表时，“应用到整个行”设置将灰显。
 
 1. 单击&#x200B;**行颜色**&#x200B;框外部以将其关闭。 颜色会自动应用。
+
+   >[!TIP]
+   >
+   >如果选择只对单元格应用颜色，则只会突出显示“主”字段。
+
 
 ### 启用实时在线状态指示器
 

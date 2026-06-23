@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -221,8 +221,8 @@ ht-degree: 7%
 
 **生成KPI**&#x200B;部分中的&#x200B;**部分**&#x200B;下拉列表旨在缩小字段选择器中的选择范围，以便在生成表报告时更容易查找对象。 要开始，请选择一个基本实体对象。
 
-* **所有部分**： Workfront Workflow和Workfront Planning中的所有对象类型。
-* **Workfront对象**：本机Workfront工作流对象。
+* **所有节**： Workfront和Workfront Planning中的所有对象类型。
+* **Workfront对象**：本机Workfront对象。
 * **Planning记录类型**： Workfront Planning中定义的自定义记录类型。
 
 ![分区下拉列表](assets/sections-dropdown.png)
