@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2038'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,16 @@ There are no features released during the Third Quarter Release for 2026. When f
 本文介绍了在2026年第三季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 行颜色控件界面改进
+
+>[!NOTE]
+>
+>预览： 2026年6月22日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
+
+我们更新了表格视图中“行颜色”控件的外观。
+
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 为选定和人员类型字段添加默认选项
 

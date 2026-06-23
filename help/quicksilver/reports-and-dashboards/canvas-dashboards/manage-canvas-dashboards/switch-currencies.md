@@ -5,25 +5,31 @@ title: 在画布功能板中使用货币字段
 description: 您可以在画布功能板中使用货币字段。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '551'
 ht-degree: 4%
 
 ---
-
 
 # 在画布功能板中使用货币字段
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>画布功能板目前仅适用于参与Beta测试阶段的用户。在此阶段，部分功能可能无法完成或无法按预期工作。请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
 >请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## 访问要求
 
@@ -38,7 +44,7 @@ ht-degree: 4%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 
@@ -146,7 +152,7 @@ ht-degree: 4%
 <li>为仪表板分配默认货币（在创建或编辑仪表板时）</li>
 <li>查看并使用功能板级别的货币切换</li>
 <li>锁定特定货币以在画布图表、KPI或表格报表中查看</li>
-<li>在画布图、KPI和表格报表中使用“计划”币种字段</li>
+<li>在画布图、KPI和表格报表中使用“计划”币种字段 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -164,12 +170,7 @@ ht-degree: 4%
 </td>
 <td><ul>
   <li>在画布图表、KPI和表格报表中使用自定义数据货币字段</li>
-  <li>在画布图、KPI和表格报表中使用“计划”币种字段</li>
+  <li>在画布图、KPI和表格报表中使用“计划”币种字段 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-
