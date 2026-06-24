@@ -6,7 +6,7 @@ description: 您可以在画布功能板中使用货币字段。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 4%
@@ -154,6 +154,11 @@ ht-degree: 4%
 <li>锁定特定货币以在画布图表、KPI或表格报表中查看</li>
 <li>在画布图、KPI和表格报表中使用“计划”币种字段 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td> 
 </tr>
 </td> 
@@ -172,5 +177,10 @@ ht-degree: 4%
   <li>在画布图表、KPI和表格报表中使用自定义数据货币字段</li>
   <li>在画布图、KPI和表格报表中使用“计划”币种字段 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td>
 </tr></table>
