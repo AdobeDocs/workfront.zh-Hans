@@ -14,10 +14,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 23%
+source-wordcount: 193
+ht-degree: 22%
 
 ---
 
@@ -39,5 +39,6 @@ ht-degree: 23%
 * [Adobe Workfront Planning实施建议](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Adobe Workfront规划Designer快速入门](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Adobe Workfront Planning免费试用版快速入门](/help/quicksilver/planning/general/trial-workfront-planning.md)
+* [在报表中查看Workfront规划信息](/help/quicksilver/planning/general/planning-information-in-reports.md)
 
 
