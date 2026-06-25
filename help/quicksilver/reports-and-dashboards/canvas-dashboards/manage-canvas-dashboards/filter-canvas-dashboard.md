@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: 807
-ht-degree: 2%
+source-wordcount: 1057
+ht-degree: 1%
 
 ---
 
@@ -38,11 +38,12 @@ ht-degree: 2%
 >* Google Cloud Platform
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+take Preview and production mentions out at release
 -->
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以将过滤器应用到包含提示的画布功能板。 提示可充当过滤器修饰符，用于应用附加过滤条件，以便进一步缩小结果的范围。 每次应用过滤器时都可以修改这些提示，使您能够调整显示的结果，而无需编辑仪表板或每个单独报告的主要过滤条件。
 
@@ -123,7 +124,7 @@ ht-degree: 2%
 
 1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
 
-1. 单击 <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **编辑筛选器**。 **仪表板筛选器**&#x200B;对话框打开。
+1. (Conditionalt)在生产环境中，单击&#x200B;**编辑筛选器**，或者在“预览”环境中单击<span class="preview">，单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击</span> **编辑筛选器**。 **仪表板筛选器**&#x200B;对话框打开。
 
 1. （可选）要添加规则，请执行以下步骤：
 
@@ -177,18 +178,24 @@ ht-degree: 2%
 
 1. 单击&#x200B;**保存**&#x200B;以将筛选器应用到仪表板。
 
-   <!--
-    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
-        <div class="preview">
-        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
-            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
-        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
-            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
-            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
-        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
-        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
-        </div> 
-    -->
+
+1. <span class="preview">要将提示另存为默认值，请在保存提示后执行以下操作： </span>
+
+   <div class="preview">
+
+   1. （可选）单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**另存为默认提示**。
+
+      每次为具有查看权限或更高权限的用户加载仪表板时，都会应用提示过滤器。
+   1. （视情况而定）如果访问应用了默认提示的仪表板，则可以修改筛选器，并且修改内容将保存为个人首选项。 存在以下情况：
+
+      * 如果您拥有仪表板的管理权限，请单击&#x200B;**另存为默认提示**&#x200B;以将您的修改另存为默认筛选器。 这将替换原始默认值。
+      * 如果您对功能板具有查看权限，则您的修改仅为您显示。 刷新页面可保留您的设置。
+
+   1. （视情况而定）如果您修改了默认提示的设置，请单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**应用仪表板默认值**&#x200B;以返回默认筛选结果。
+   1. （可选）单击&#x200B;**重置默认值**&#x200B;以用您的修改替换原始默认设置。 此选项仅适用于仪表板管理员。
+
+   </div>
+
 
 1. 继续执行[第3部分：应用仪表板提示](#step-3-apply-a-dashboard-prompt)。
 
@@ -204,7 +211,7 @@ ht-degree: 2%
 
 1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
 
-1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。应用了提示，并且在报告小部件的角落显示应用了&#x200B;**功能板筛选器**&#x200B;标记。
+1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。应用了提示，并且在报告小部件的角落显示了&#x200B;**应用了仪表板提示**&#x200B;标记。
    ![选择条件](assets/prompts-list.png)
 
 1. 单击右上角的&#x200B;**关闭**&#x200B;图标![关闭图标](assets/close-icon.png)以隐藏面板。
