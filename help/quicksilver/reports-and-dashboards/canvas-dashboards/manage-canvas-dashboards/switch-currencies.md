@@ -6,7 +6,7 @@ description: 您可以在画布功能板中使用货币字段。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 4%
@@ -177,7 +177,8 @@ ht-degree: 4%
 
 
 <p><b>注释</b></p>
-<span class="preview">如果Planning货币字段使用的货币未定义汇率，则Canvas Dashboard可能会在</span>时显示错误消息
+
+<p><span class="preview">如果Planning币种字段使用的币种未定义汇率，则在出现此情况时，“画布功能板”可能会显示错误消息。</span></p>
 
 </td>
 </tr></table>

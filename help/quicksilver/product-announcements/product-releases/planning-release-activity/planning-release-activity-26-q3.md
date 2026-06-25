@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,18 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-<!--
-## Support for currency Planning fields in Canvas Dashboards
+
+## 支持画布仪表板中的货币计划字段
 
 >[!NOTE]
 >
->Preview: June 25, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>预览： 2026年6月25日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
 
-You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+现在，您可以在画布功能板中的表格、KPI和图表报表中包含货币计划字段。
 
-Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+在此增强功能之前，画布功能板不支持货币字段。
 
-For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
+有关信息，请参阅[在画布功能板中使用货币字段](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)。
 
 ## 行颜色控件界面改进
 
