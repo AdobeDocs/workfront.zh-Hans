@@ -4,9 +4,9 @@ description: 2026年第三季度报告增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 本页介绍了在2026年第三季度版本中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 画布功能板提示默认值和用户首选项持久性
+
+>[!NOTE]
+>
+>预览： 2026年6月25日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
+
+为了通过保留用户的工作筛选器状态来提高用户在功能板和记录之间移动的效率，功能板管理员现在可以为Canvas功能板定义默认提示值。 这些默认值将自动应用于所有仪表板查看器。
+
+当用户更新提示时，他们的选择会在刷新、重新打开或导航到记录并返回后保存和恢复。
+
+管理员可随时重置仪表板的默认状态。 用户还可以通过三个圆点菜单快速恢复到默认值。
+
+在此增强功能之前，仪表板提示不具有提示状态的可配置默认设置或已保存的用户偏好设置。
+
+有关信息，请参阅[筛选画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)。
 
 ## 一次性将多个Power BI IP地址范围添加到Data Connect
 
