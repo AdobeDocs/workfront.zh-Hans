@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 864c3858a7cbfcc09268b8f0fa10b99509aebb08
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2312'
 ht-degree: 4%
 
 ---
@@ -29,9 +29,10 @@ ht-degree: 4%
 >|----|----|
 >| <ul><li>26.5（2026年5月14日）</li><li>26.6（2026年6月11日）</li><li>26.7（2026年7月15日）</li></ul> | <ul><li>26.7（2026年7月16日）</li></ul> |
 >
->请注意，对于每季度的最终版本（本季度26.7版），按照快速发布计划排程的用户将提前一天收到版本（2026年7月15日）。
+>* 请注意，对于每季度的最终版本（本季度26.7版），按照快速发布计划排程的用户将提前一天收到版本（2026年7月15日）。
 >
->有关快速发布过程的详细信息，请参阅[启用或禁用快速发布过程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
+>   有关快速发布过程的详细信息，请参阅[启用或禁用快速发布过程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
+>* 对于26.7版本（2026年7月），功能可能会在“预览”环境中出现的最后日期为7月7日。
 
 ## Adobe Workfront增强功能
 
@@ -48,8 +49,6 @@ ht-degree: 4%
 ### AI增强
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -82,8 +81,6 @@ ht-degree: 4%
 ### 管理员增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -151,8 +148,6 @@ ht-degree: 4%
 ### 文档增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -160,6 +155,17 @@ ht-degree: 4%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 26, 2026</p></td>
+            <td><p>June 26, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">请求审批包含Workfront和Frame.io的Adobe Express模板</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
@@ -211,8 +217,6 @@ ht-degree: 4%
 ### Financial Management增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -220,6 +224,24 @@ ht-degree: 4%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">将费率卡添加到模板</a><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
+                <p>您现在可以选择要添加到模板的费率卡，该费率卡随后会自动附加到从模板创建的所有项目。 费率卡会成为项目中的默认费率卡，但如有必要，可以覆盖此费率卡。</p>
+            </td>
+            <td><p>2026年6月25日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">在费率卡上的现有费率之间添加记帐费率</a><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
+                <p>您现在可以通过在费率卡上的特定位置添加新费率，更快速地调整费率卡上的有效日期记帐费率列表。 选择现有速率旁边的<b>更多</b>菜单以插入高于或低于该速率的行。</p>
+            </td>
+            <td><p>2026年6月25日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">费率属性一旦用于费率就无法编辑</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
@@ -235,8 +257,6 @@ ht-degree: 4%
 ### 主页增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -261,8 +281,6 @@ ht-degree: 4%
 ### 项目增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -295,8 +313,6 @@ ht-degree: 4%
 ### 报表增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -304,6 +320,15 @@ ht-degree: 4%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板提示默认值和用户首选项持久性</a>
+                <p>功能板管理员现在可以为“画布”功能板定义默认提示值，该值将自动应用于所有查看器。 当用户更新提示时，他们的选择会在刷新、重新打开或导航到记录并返回后保存和恢复。</p>
+            </td>
+            <td><p>2026年6月25日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">一次将多个Power BI IP地址范围添加到Data Connect</a> <p>[!BADGE Off Schedule]{type=Neutral}
@@ -355,8 +380,6 @@ ht-degree: 4%
 ### 请求增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
@@ -388,8 +411,6 @@ ht-degree: 4%
 ### 其他增强功能
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>功能</strong>
