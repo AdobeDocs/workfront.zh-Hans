@@ -1,6 +1,6 @@
 ---
 title: 将费率卡附加到项目
-description: 在项目附上费率卡后，按地点及其关联记帐费率列出的所有角色都将添加到项目中。
+description: 在项目附上费率卡后，所有角色及其关联的记帐费率都将添加到项目中。
 author: Lisa
 feature: Work Management
 role: User
@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 564
 ht-degree: 3%
 
 ---

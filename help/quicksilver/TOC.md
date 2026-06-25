@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14221'
 ht-degree: 2%
 
 ---
@@ -1312,6 +1312,7 @@ ht-degree: 2%
          * [共享项目模板](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [删除项目模板](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [从项目中删除模板信息](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [将费率卡附加到模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [模板中的开始天数和完成天数概览](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [将模板附加到项目的概述](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * 定义业务案例 {#define-business-case}
