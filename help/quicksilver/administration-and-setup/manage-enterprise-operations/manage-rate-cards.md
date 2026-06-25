@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 3d4ba795c0f6098e71ee5510680d4d20ca2c9e1d
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1434'
 ht-degree: 1%
 
 ---
 
 # 管理费率卡
+
+{{highlighted-preview}}
 
 费率卡表示与客户签订的合同协议，合同中为完成工作的工作角色定义了每小时的费率。 在费率卡中，您可以根据代理、位置或成本中心等属性为每个工作角色定义多个计费费率。 您的唯一费率属性在“设置”区域中配置。 有关详细信息，请参阅[定义费率属性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
 
@@ -37,11 +39,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 标准版]</td>
+   <td>[！UICONTROL标准版]</td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>编辑对[!UICONTROL 费率卡]的访问权限</td> 
+   <td>编辑对[！UICONTROL费率卡]的访问权限</td> 
   </tr> 
   <tr> 
    <td>对象权限</td> 
@@ -139,6 +141,14 @@ ht-degree: 1%
    >[!NOTE]
    >
    >由于每个费率都与角色和属性的组合相关联以创建唯一费率，因此在编辑费率时无法更改角色和属性。
+
+<div class="preview">
+
+1. 要在有效日期汇率列表中的特定位置添加汇率，请将鼠标悬停在该汇率上，然后选择汇率名称右侧的&#x200B;**更多**&#x200B;菜单。 然后，选择&#x200B;**在**&#x200B;上方插入行，或选择&#x200B;**在**&#x200B;下方插入行。
+
+   此时将出现“编辑记帐费率”框，其中新记帐费率的行已添加到您放置的位置。 您选择添加上下行的速率以蓝线突出显示。 添加新的记帐费率，根据需要调整现有记帐费率的有效日期，然后单击&#x200B;**保存**。
+
+</div>
 
 1. 要从费率卡中删除记帐费率，请选中费率旁边的复选框，然后单击操作栏上的&#x200B;[!UICONTROL **删除**]。
 1. 要锁定速率，请选中该速率旁边的复选框，然后单击操作栏上的&#x200B;[!UICONTROL **锁定**]。

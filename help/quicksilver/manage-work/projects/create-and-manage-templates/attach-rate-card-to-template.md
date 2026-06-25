@@ -6,7 +6,7 @@ title: 将费率卡附加到模板
 description: 在将费率卡分配给模板时，费率卡随后将附加到从该模板创建的所有项目。
 author: Lisa
 feature: Work Management
-source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
+source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 3%
@@ -117,7 +117,6 @@ ht-degree: 3%
 
    在“另存为模板”框的“选项”部分中，您可以选择&#x200B;**费率卡**&#x200B;项以将费率卡添加到模板。 清除复选框，以排除费率卡转移到模板。
 
-   有关详细信息，请参阅[将项目另存为模板](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
-
+   有关详细信息，请参阅[将项目另存为模板](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)。
 
 
