@@ -5,10 +5,10 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
+source-git-commit: 96159bd33d9b81cdd8ed50c0085400086494013e
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 5%
+source-wordcount: '1713'
+ht-degree: 6%
 
 ---
 
@@ -104,6 +104,21 @@ ht-degree: 5%
 | 按所有者获取项目 | `approvals_get_projects_by_owner` | 列出呼叫用户是所有者的Workfront项目。 | 读取 |
 | 获取Adobe区域 | `approvals_get_adobe_region` | 返回云提供商所在地区的Adobe名称。 | 读取 |
 
+## 分析工具
+
+分析工具可检索有关Workfront对象的信息。
+
+| 标题 | 工具名称 | 作用 | 操作 |
+| --- | --- | --- | --- |
+| 读取文档 | `insights_read_docs` | 加载Workfront行动手册或域文档，如条件、状态、日期或字段路径。 这是查询数据之前所需的第一步。 | 读取 |
+| 获取当前用户 | `insights_get_current_user` | 检索您自己的Workfront身份，包括名称、ID和URL。 | 读取 |
+| 搜索字段 | `insights_search_fields` | 搜索项目、任务、问题、用户、项目组合、团队等的可用字段（标准和自定义）。 | 读取 |
+| 获取字段路径 | `insights_get_field_paths` | 解析实体的点表示法字段路径，这是数据查询工具所必需的。 | 读取 |
+| 按名称查找ID | `insights_find_id_by_name` | 按名称查找任何Workfront对象的ID，例如项目、任务、用户、项目组合等。 | 读取 |
+| 查找Workfront数据 | `insights_find_workfront_data` | 查找、筛选、计数、排序和聚合Workfront数据。 这是主要的查询和报告工具。 | 读取 |
+| 总结对象 | `insights_summarize_object` | 按ID获取并汇总单个Workfront对象。 | 读取 |
+| 列出实体 | `insights_list_entities` | 列出所有可用于查询的Workfront对象类型。 | 读取 |
+
 ## 规划工具
 
 >[!IMPORTANT]
@@ -194,11 +209,11 @@ ht-degree: 5%
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
-| 搜索对象 | `workflow_search_any_object` | 使用灵活的过滤器参数、排序和分页搜索Workfront对象。 | 读取 |
+| 搜索对象 | `workflow_search_any_object` | 已弃用。 请改用`insights_find_id_by_name`或`insights_find_workfront_data` | 读取 |
 | 创建对象 | `workflow_create_any_object` | 创建新的Workfront对象，如项目、任务、问题、小时、分配、项目群或项目组合。 | 写入 |
 | 更新对象 | `workflow_update_any_object` | 更新现有Workfront对象中的字段。 | 写入 |
 | 删除对象 | `workflow_delete_any_object` | 按ID删除Workfront对象。 需要明确的用户确认才能执行操作。 | 写入 |
-| 解析字段名称 | `workflow_resolve_field_names_any_object` | 将用户提供的字段名称或标签转换为底层Workfront API字段名称，以便AI代理平台可以构建准确的请求。 | 读取 |
+| 解析字段名称 | `workflow_resolve_field_names_any_object` | 已弃用。 请改用`insights_search_fields`。 | 读取 |
 
 ## 如何更新工具
 
