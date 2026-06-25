@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: 1057
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 >* Google Cloud Platform
 
 <!--
-take Preview and production mentions out at release
+Take Preview and production mentions out at release
 -->
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
