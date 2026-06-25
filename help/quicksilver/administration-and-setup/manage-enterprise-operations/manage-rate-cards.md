@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 3d4ba795c0f6098e71ee5510680d4d20ca2c9e1d
+source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 1%
@@ -39,11 +39,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 标准版]</td>
+   <td>[！UICONTROL标准版]</td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>编辑对[!UICONTROL 费率卡]的访问权限</td> 
+   <td>编辑对[！UICONTROL费率卡]的访问权限</td> 
   </tr> 
   <tr> 
    <td>对象权限</td> 
@@ -201,4 +201,6 @@ ht-degree: 1%
    >[!NOTE]
    >
    >附加到项目的费率卡将从项目中删除。
+
+
 
