@@ -6,9 +6,9 @@ description: 您可以在画布功能板中使用货币字段。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '677'
 ht-degree: 4%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 4%
 >* Azure
 >* Google Cloud Platform
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 ## 访问要求
 
@@ -152,13 +150,12 @@ ht-degree: 4%
 <li>为仪表板分配默认货币（在创建或编辑仪表板时）</li>
 <li>查看并使用功能板级别的货币切换</li>
 <li>锁定特定货币以在画布图表、KPI或表格报表中查看</li>
-<li>在画布图、KPI和表格报表中使用“计划”币种字段 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+<li>在生产环境中，在画布图表、KPI和表报告<span class="preview">中使用Planning货币字段。 这在“预览”环境中可用。</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+<p><b>注释</b></p>
+<span class="preview">如果Planning货币字段使用的货币未定义汇率，则Canvas Dashboard可能会在</span>时显示错误消息
+
 </td> 
 </tr>
 </td> 
@@ -175,12 +172,12 @@ ht-degree: 4%
 </td>
 <td><ul>
   <li>在画布图表、KPI和表格报表中使用自定义数据货币字段</li>
-  <li>在画布图、KPI和表格报表中使用“计划”币种字段 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+  <li>在生产环境中，在画布图表、KPI和表报告<span class="preview">中使用Planning货币字段。 这在“预览”环境中可用。</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+
+<p><b>注释</b></p>
+<span class="preview">如果Planning货币字段使用的货币未定义汇率，则Canvas Dashboard可能会在</span>时显示错误消息
+
 </td>
 </tr></table>
