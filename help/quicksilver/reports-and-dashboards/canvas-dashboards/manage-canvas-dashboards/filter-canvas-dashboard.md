@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
+source-wordcount: 1194
 ht-degree: 1%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。在此阶段，部分功能可能无法完成或无法按预期工作。请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->请注意，以下云提供商未提供此测试版：
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -186,6 +184,11 @@ Take Preview and production mentions out at release
    1. （可选）单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**另存为默认提示**。
 
       每次为具有查看权限或更高权限的用户加载仪表板时，都会应用提示过滤器。
+
+      >[!TIP]
+      >
+      >如果您未生成提示并且无权访问其字段，则不会显示字段名称。 修改提示以填充报表。
+
    1. （视情况而定）如果访问应用了默认提示的仪表板，则可以修改筛选器，并且修改内容将保存为个人首选项。 存在以下情况：
 
       * 如果您拥有仪表板的管理权限，请单击&#x200B;**另存为默认提示**&#x200B;以将您的修改另存为默认筛选器。 这将替换原始默认值。
@@ -211,8 +214,7 @@ Take Preview and production mentions out at release
 
 1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
 
-1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。应用了提示，并且在报告小部件的角落显示了&#x200B;**应用了仪表板提示**&#x200B;标记。
-   ![选择条件](assets/prompts-list.png)
+1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。 应用了提示，并且在报告小部件的角落显示了&#x200B;**应用的信息板提示**&#x200B;标记。   ![选择条件](assets/prompts-list.png)
 
 1. 单击右上角的&#x200B;**关闭**&#x200B;图标![关闭图标](assets/close-icon.png)以隐藏面板。
 
