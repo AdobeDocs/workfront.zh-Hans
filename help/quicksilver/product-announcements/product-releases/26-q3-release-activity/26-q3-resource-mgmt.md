@@ -4,7 +4,7 @@ description: 2026年第三季度资源管理增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -33,4 +33,5 @@ ht-degree: 0%
 * 具有用户的角色
 
 有关信息，请参阅[使用工作负载均衡器批量分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)。
+
 
