@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 85a374c5168c613625ce154a486aa655c367dfea
 workflow-type: tm+mt
-source-wordcount: 1536
+source-wordcount: 1242
 ht-degree: 3%
 
 ---
@@ -75,17 +75,16 @@ ht-degree: 3%
 
 ## 在工作负载均衡器中进行批量分配的注意事项
 
-* 您可以快速管理一个或多个项目中多个任务和问题的用户分配。 分配中的更改会立即在工作负载均衡器中可见。
+* 您可以快速管理一个或多个项目中多个任务和问题的资源分配。 分配中的更改会立即在工作负载均衡器中可见。
 * 您不能将资源分配给已完成的工作项或已完成项目上的项。
-* 在批量分配用户时，可以执行以下操作：
+* 在批量分配工作角色和用户时，可以执行以下操作：
 
-   * 将用户分配给当前分配给工作角色的所有工作项。
-   * 替换用户之间的用户分配。
+   * 替换所有有效组合中用户和角色之间的分配。
    * 从用户的所有工作项中取消分配用户。
 
 **示例**
 
-* 您负责为多个新项目分配用户。 项目最初从模板创建，并且工作角色已分配给项目中的各种任务。 您需要将特定用户Jackie Simms分配给当前分配给工作角色的所有任务。 您可以使用“分配”功能将这些任务分配给Jackie Simms。
+* 您负责为多个新项目分配用户。 项目最初从模板创建，并且工作角色已分配给项目中的各种任务。 您需要将特定用户Jackie Simms分配给当前分配给工作角色的所有任务。 您可以使用Replace函数将这些任务分配给Jackie Simms。
 * 3个不同项目中的45个任务被分配给Jackie Simms。 Jackie离开了组织，现在您需要将其任务重新分配给另一个用户。 您可以使用“替换”功能将这些任务分配给新人员。
 * 2个不同项目中的10个任务被分配给另一个用户Rick Kuvec。 您意识到我们错误地将Rick分派到了这些任务中，但是您不确定此时需要将其分派给谁。 您需要同时取消将Rick分配到所有任务。 您可以使用“取消分配”功能将Rick从这些任务中删除。
 
@@ -108,7 +107,7 @@ ht-degree: 3%
    >
    >在访问项目的工作负载均衡器时，默认情况下会选择项目名称。
 
-   ![批量分配中的项目名称](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![批量分配中的项目名称](assets/project-name-status-dropdown-bulk-assignments-wb.png)
 
 1. （可选）单击&#x200B;**选择项目任务**&#x200B;以选择要为其分配的一个或多个任务，然后在&#x200B;**任务：名称**&#x200B;下拉菜单中，按“名称”（这是默认选项）或“状态”选择任务，并使用筛选器修饰符搜索特定任务。
 
@@ -118,7 +117,7 @@ ht-degree: 3%
    >
    >您不能选择处于完成状态的任务。
 
-   ![批量分配中的任务状态](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![批量分配中的任务状态](assets/task-name-status-dropdown-bulk-assignments-wb.png)
 
    >[!TIP]
    >
@@ -132,94 +131,101 @@ ht-degree: 3%
 
 1. 选择以下选项之一，然后继续执行以下所述的步骤：
 
-   * [分配用户](#assign-user)
-   * [替换用户](#replace-user)
-   * [取消分配用户](#unassign-user)
+   * [替换资源](#replace-user)
+   * [取消分配资源](#unassign-user)
 
    >[!TIP]
    >
    >如果没有与选定过滤器匹配的项目，则这些选项将灰显。
 
-### 分配用户 {#assign-user}
+<!--
 
-在工作负载均衡器中使用批量分配分配来分配用户时，出现以下情况：
+### Assign user {#assign-user}
 
-* 用户被分配到选定项目中当前分配给指定角色的所有工作项。
-* 用户未分配到以下类型的工作项：
+When you assign a user using Bulk Assignments in the Workload Balancer, the following things occur:
 
-   * 已分配给用户的项目。
-   * 已完成项目。
+* A user is assigned to all work items currently assigned to a specified role within the selected projects.
+* The user is not assigned to the following types of work items:
 
-* 如果您选择的用户未与指定的角色关联，则该角色将由用户的主要角色中的用户替换。
+   * Items that are already assigned to a user.
+   * Completed items.
 
-要将用户分配给先前分配给工作角色的工作项，请执行以下操作：
+* If the user you selected is not associated with the specified role, the role is replaced by the user in the user's Primary Role.
 
-1. 开始使用工作负载均衡器中的批量分配来分配工作项（如上所述），然后选择&#x200B;**分配**。
+To assign a user to work items previously assigned to job roles:
 
-1. 在&#x200B;**角色分配**&#x200B;字段中，单击下拉箭头从角色列表中进行选择。 仅显示指定项目中当前分配的角色。 这是必填字段。
+1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select **Assign**. 
 
-   ![角色分配](assets/bulk-assignments-workload-balancer-assign-selected.png)
+1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-1. 在&#x200B;**要分配的用户**&#x200B;字段中，单击下拉箭头从建议的用户列表中进行选择或键入其他用户的名称。
+   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-   从以下区域选择用户：
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
-   * **建议分配**：满足所选角色且符合智能分配条件的用户。 有关详细信息，请参阅[智能分配概述](../../manage-work/tasks/assign-tasks/smart-assignments.md)。
-   * **其他分配**：系统中可以履行所选角色的所有用户。
+   Select users from the following areas:
 
-     >[!TIP]
-     >
-     >只有前50个用户列在“其他任务”区域。
+   * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Other Assignments**: All users in the system who can fulfill the selected role. 
+   
+      >[!TIP]
+      >
+      >Only the first 50 users are listed in the Other Assignments area.
 
 
-   选择用户后，Workfront会显示有关为您指定的用户分配的项目数以及这些用户将替换的工作角色的注释。
+   After selecting a user, Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
 
    >[!TIP]
    >
-   >用户的所有角色都显示在列表中，位于用户名的下方。
+   >All the roles of the user display in the list, under the user's name.
 
 
-1. 单击&#x200B;**分配**。
+1. Click **Assign**.
 
-   指定的角色将替换为您选择的用户。
+   The specified roles are replaced with the users that you selected.
 
-   您将收到确认，确认有多少工作项已将所选角色替换为所选用户。
+   You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![批量分配确认](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
-### 替换用户 {#replace-user}
+-->
 
-您可以使用选定项目中的其他用户替换已分配给工作项的用户。
+### 替换资源 {#replace-user}
 
-在工作负载均衡器中使用批量分配将用户替换为另一个用户时，出现以下情况：
+您可以使用选定项目中的其他资源替换已分配给工作项的资源。
 
-* 替代用户被分配到当前分配给选定项目内原始用户的所有工作项。
+资源替换可以是：
 
-* 新用户未分配到任何已标记为“完成”的工作项。
-* 如果与第一个用户关联的角色与第二个用户的任何角色都不匹配，则第二个用户将分配到其“主要角色”。
+* 角色与角色
+* 具有用户的用户
+* 具有角色的用户
+* 具有用户的角色
 
-要用其他用户替换用户，请执行以下操作：
+在工作负载均衡器中使用批量分配将资源替换为其他资源时，出现以下情况：
 
-1. 开始在工作负载均衡器中分配工作项（如上所述），然后选择&#x200B;**替换**。
-1. 在&#x200B;**当前分配的用户**&#x200B;字段中，单击下拉箭头从用户列表中进行选择。 仅显示指定项目中当前分配给未完成工作项的用户。 这是必填字段。
+* 替代资源被分配给选定项目中当前分配给原始资源的所有工作项。
+* 新资源未分配给任何已标记为“完成”的工作项。
+* 对于用户到用户的替换，如果与第一个用户关联的角色与第二个用户的任何角色都不匹配，则第二个用户将分配到其主要角色。
 
-   ![替换用户](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+要将资源替换为其他资源，请执行以下操作：
 
-1. 在&#x200B;**要分配的用户**&#x200B;字段中，单击下拉箭头从建议的用户列表中进行选择或键入其他用户名。 默认情况下，列表中列出的用户与“智能分配”的条件相匹配。 有关详细信息，请参阅[智能分配概述](../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+1. 按如上所述在工作负载均衡器批量分配区域中选择工作项，然后选择&#x200B;**替换资源**。
+1. 在&#x200B;**当前分配的资源**&#x200B;字段中，单击下拉箭头从资源列表中进行选择。 仅显示指定项目中当前分配给未完成工作项的资源。 这是必填字段。
 
-   Workfront会显示一个注释，说明当前分配的用户将替换第二个用户的项目数以及这些用户将替换哪些角色。
+   ![替换资源](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
-   ![批量替换用户确认](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+1. 在要分配的&#x200B;**资源**&#x200B;字段中，单击下拉箭头从建议资源列表中进行选择，或键入其他工作角色或用户名。 默认情况下，第一个列出的资源与智能分配的条件相匹配。 有关详细信息，请参阅[智能分配概述](../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+
+   Workfront显示一个注释，说明当前分配的资源将替换第二个资源的项目数。
 
 1. 单击&#x200B;**替换**。
 
-   所选项目的全部工作项中的第一个用户被第二个用户替换。
+   选定项目或任务的所有工作项中的第一个资源被第二个资源替换。
 
-   您将收到一个确认函，确认有多少工作项将原始用户分配替换为所选的第二个用户。
+   您将收到一个确认函，确认有多少工作项已将原始分配替换为所选的第二个资源。
 
-### 取消分配用户 {#unassign-user}
+### 取消分配资源 {#unassign-user}
 
-您可以在选定项目中为用户分配的所有工作项中取消分配用户。
+您可以从选定项目中为其分配资源的所有工作项中取消分配资源。
 
 在使用工作负载均衡器中的批量分配从用户的所有分配中取消分配用户时，出现以下情况：
 
@@ -232,15 +238,13 @@ ht-degree: 3%
 
 要从选定项目中的工作项取消分配用户，或为其分配的选定任务或问题取消分配用户，请执行以下操作：
 
-1. 开始在工作负载均衡器中分配工作项（如上所述），然后选择&#x200B;**取消分配**。
+1. 按如上所述在工作负载均衡器批量分配区域中选择工作项，然后选择&#x200B;**取消分配资源**。
 
 1. 在&#x200B;**要取消分配的用户**&#x200B;字段中，单击下拉箭头从用户列表中进行选择。 只有当前分配给指定项目中未完成工作项的用户才会显示。 这是必填字段。
 
-   ![取消分配用户](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![取消分配用户](assets/bulk-assignments-workload-balancer-unassign-selected.png)
 
    Workfront显示有关当前已分配用户将被取消分配的项目数的注释。
-
-   ![批量取消分配确认](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. 单击&#x200B;**取消分配**。\
    您会收到有关已删除指定用户的工作项数的确认。
