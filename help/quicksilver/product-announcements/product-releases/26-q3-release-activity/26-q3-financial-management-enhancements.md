@@ -4,7 +4,7 @@ description: 2026年第三季度财务管理增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e1a56c9dee403c1f0c28d2bf49d4becbaad5d085
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 将属性添加到Workfront中的费率后，您将无法在“设置”区域中编辑该属性及其过滤器。 这样可保持数据完整性，并防止在属性更新时意外更改速率。
 
 有关详细信息，请参阅[定义费率属性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
+
