@@ -5,11 +5,9 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 审批者决策在验证审批报告中显示连字符
 description: 验证审批报告的审批者决策字段中的连字符表示收件人不再处于验证的决策角色。
 author: Courtney
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,6 +37,7 @@ ht-degree: 0%
 决策日期字段仍显示收件人最近决策活动的日期，但收件人的决策不再计入报告中。
 
 有关创建和使用验证审批报告的信息，请参阅[使用验证审批报告](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)。
+
 
 
 
