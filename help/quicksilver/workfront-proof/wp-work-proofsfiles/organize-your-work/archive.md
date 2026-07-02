@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Workfront Proof]在60天不活动后存档验证。
 
-如果您拥有编辑权限，则可以随时手动存档验证。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+如果您拥有编辑权限，则可以随时手动存档验证。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 存档的校样：
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 手动存档校样
 
-如果您拥有编辑权限，则可以随时手动存档验证。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+如果您拥有编辑权限，则可以随时手动存档验证。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 归档过程最多可能需要24小时才能完成。
 
