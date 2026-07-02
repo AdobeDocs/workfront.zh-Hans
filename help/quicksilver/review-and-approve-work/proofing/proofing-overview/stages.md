@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ ht-degree: 0%
 
 **示例：**&#x200B;例如，如果您创建了一个包含四个审阅人的校样：
 
-* 对于审稿人Olivia和Tony，您为几天后的14:00指定了截止时间。
-* 您为Aaron和Amy指定了几天后17:00的最后期限。
+* 对于审阅人Olivia和Tony，您为今后几天的14:00指定截止日期。
+* 对于Aaron和Amy，请在几天后指定17:00的截止日期。
 * 您没有为自己指定截止日期。
 
 系统为每个审阅人创建一个阶段，这三组审阅人包括：

@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
 title: 独立Workfront Proof到Workfront中的集成校对概述
-description: 如果您的组织从独立版本的Workfront Proof更改为Workfront Pro计划(在该计划中，Workfront Proof Premium与Workfront集成)，则某些验证功能将不可用。
+description: 如果您的组织从独立版本的Workfront Proof更改为Workfront Pro计划（在该计划中，Workfront Proof Premium与Workfront集成），则某些验证功能将不可用。
 author: Courtney
 source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 独立Workfront Proof到Workfront中的集成校对概述
 
-如果您的组织从独立版本的Workfront Proof更改为Workfront Pro计划(在该计划中，Workfront Proof Premium与Workfront集成)，则以下功能将不可用：
+如果您的组织从独立版本的Workfront Proof更改为Workfront Pro计划（在该计划中，Workfront Proof Premium与Workfront集成），则以下功能将不可用：
 
-* 能够访问Workfront Proof(仅限Workfront管理员)。 有关详细信息，请参阅[从Adobe Workfront访问Workfront Proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)。
+* 能够访问Workfront Proof（仅限Workfront管理员）。 有关详细信息，请参阅[从Adobe Workfront访问Workfront Proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)。
 
   >[!NOTE]
   >
@@ -41,7 +41,7 @@ ht-degree: 0%
   有关详细信息，请参阅[配置用户的验证访问权限](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)一文中的[为用户启用和禁用验证（仅限旧版计划）](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user)。
 
 * 此功能不再需要，因为验证功能现在可供拥有工作许可证或更高版本的所有用户使用。 查看者和访客可以访问和处理验证，但无法生成验证。
-* 用户能够访问Workfront Proof独立版本(仅限Workfront管理员)。
+* 用户能够访问Workfront Proof独立版本（仅限Workfront管理员）。
 * 能够在新的集成帐户与Workfront Proof帐户之间连接。
 * 能够运行Workfront Proof报表：
 

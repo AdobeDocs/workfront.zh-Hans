@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 13%
+source-wordcount: '1301'
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 13%
 
 现在，当您将全局批准流程与对象关联时，可以修改现有的全局批准流程。 您所做的修改仅适用于关联该对象的审批流程。
 
-有关详细信息，请参阅[&#128279;](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)将新的或现有的审批流程与工作相关联[&lbrace;将新的或现有的审批流程与工作相关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+有关详细信息，请参阅[将新的或现有的审批流程与工作相关联[{将新的或现有的审批流程与工作相关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## 配置报告以默认显示新的甘特图
 
@@ -82,7 +82,7 @@ ht-degree: 13%
 
 电子邮件设置区域中事件通知的组织标题现在与用户配置文件设置区域中使用的部分标题匹配。
 
-有关事件通知的更多信息，请参阅  [为系统中的每个人配置事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+有关事件通知的详细信息，请参阅[为系统中的每个人配置事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
 ## 选择退出即时通知：上下文摘要配置
 
