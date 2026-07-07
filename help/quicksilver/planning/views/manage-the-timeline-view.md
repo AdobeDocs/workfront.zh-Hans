@@ -9,20 +9,15 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: 4179
-ht-degree: 2%
+source-wordcount: 4341
+ht-degree: 1%
 
 ---
 
@@ -200,7 +195,7 @@ Old:
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -268,7 +263,7 @@ Old:
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
    * [分组](#add-grouping)
-   * [设置](#edit-the-timeline-view-settings)
+   * [设置
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### 添加过滤器
@@ -378,12 +373,11 @@ Old:
 1. 单击左侧的以下运算符以指示连接和应应用过滤器条件的方式：
 
    * **AND**：必须满足所有指定的条件。
-   * **OR**：必须满足任何指定的条件。
-这是默认选项。
+   * **OR**：必须满足任何指定的条件。这是默认选项。
 
 1. （可选）添加其他筛选器分组并由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符加入它们。
 
-   系统会根据您的筛选条件自动筛选记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系统会根据您的筛选条件自动筛选记录列表。  
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
@@ -406,8 +400,7 @@ Old:
 在时间线视图中使用分组时，请考虑以下事项：
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
-* 您可以在视图中应用3个级别的分组。这些记录按您选择的分组顺序分组。
-&lt;！—*在使用API时，您最多可以应用4个级别的分组。 — 现在正在选中此项 — >
+* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。&lt;！—！—*使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -445,6 +438,17 @@ Old:
 
 1. 在&#x200B;**按**&#x200B;对记录进行分组框中，按正确的顺序拖放分组。
 
+1. <span class="preview">在&#x200B;**按**&#x200B;对记录进行分组的&#x200B;**布局**&#x200B;区域，选择以下选项之一：</span>
+
+   <div class="preview">
+
+   * **栈叠**：显示的分组没有冻结的左列，并且符合其项目时间线的宽度。
+
+     时间轴视图中的![栈叠分组](assets/stacked-grouping-in-timeline-view.png)
+   * **泳道**：显示的分组具有冻结的左标题列，该列列出分组项和符合时间线视图宽度的分组。
+
+     在时间轴视图中![泳道分组](assets/swimlane-grouping-in-timeline-view.png)
+
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
    或
@@ -452,6 +456,11 @@ Old:
    单击&#x200B;**全部清除**&#x200B;可删除所有字段。
 
 1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
+1. （可选）将项目拖放到时间线视图中可调整其日期。
+
+   >[!TIP]
+   >
+   >将记录从一个分组拖放到另一个分组时，在该分组中选择的字段会自动更新移动记录上的值。
 1. （可选）单击&#x200B;**Settings**，然后单击&#x200B;**Color**&#x200B;进行颜色代码分组。 有关详细信息，请参阅本文中的[编辑时间线视图设置](#edit-the-timeline-view-settings)部分。
 
 <!-- 
@@ -595,8 +604,7 @@ this is not possible right now; if this is the same functionality as the table v
   例如，任务连接到Workfront中的项目。 使用“细分”功能，您可以在Planning中显示与营销活动相关的项目，但不能显示与Workfront项目相关的任务。
 
   如果要在Workfront Planning记录类型的时间线视图中显示项目组合和项目，则项目组合和项目都必须连接到Planning记录，或连接到其时间线视图由您管理的Planning记录的记录。
-* 无法显示连接到Planning记录类型的Adobe GenStudio Brands。
-有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 无法显示连接到Planning记录类型的Adobe GenStudio Brands。有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 您只能显示与至少两个日期字段关联的记录类型。
 * 要在时间轴视图中显示的记录类型的日期字段必须在所选记录类型的表视图中可见，如查找字段。
 * 要在时间轴视图中显示的记录类型的开始日期和结束日期必须按时间顺序排列。 例如，如果记录的开始日期为1月31日，结束日期为1月1日，则它不会显示在时间线视图中。 有关详细信息，请参阅本文中的[管理时间线视图](#manage-a-timeline-view)部分。
