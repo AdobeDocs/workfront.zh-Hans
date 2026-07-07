@@ -5,9 +5,9 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1666'
 ht-degree: 5%
 
 ---
@@ -92,6 +92,9 @@ ht-degree: 5%
 | 按名称搜索模板 | `approvals_search_template_by_name` | 按名称查找审批模板（不区分大小写的部分匹配）。 | 读取 |
 | 创建审批模板 | `approvals_create_template` | 创建具有线性或基于图形的阶段依赖关系的新审批模板。 | 写入 |
 | 更新审批模板 | `approvals_update_template` | 使用结构化修改更新现有模板（添加或删除参与者、重命名阶段、设置截止日期等）。 | 写入 |
+| 提醒利益相关者批量审批 | `approvals_send_approval_reminder` | 向整个项目、文件夹、活动或到期日期窗口中的所有待审批审批者发送审批提醒电子邮件。 | 写入 |
+| 批量更新审批模板 | `approvals_update_template` | 对多个模板执行模板更新，例如将模板应用于资产、从头开始或从现有审批流创建新模板、编辑模板以及跨模板和资产执行批量操作。 | 写入 |
+| 批量添加或删除审批参与者。 | `approvals_update_approval_participants`和`approvals__submit_update_approval_participants` | 在一个操作中添加、删除或替换整个项目组合、项目群或项目范围内的参与者。 | 写入 |
 
 ### 查找和用户
 
