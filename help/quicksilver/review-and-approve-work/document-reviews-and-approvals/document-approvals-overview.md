@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 4002
+source-wordcount: 4114
 ht-degree: 0%
 
 ---
@@ -29,8 +25,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-统一的审核和批准将Adobe Workfront和Adobe Frame.io融于一个相互深入关联的体验中，从而弥合了营销管理、创意审核和内容交付之间的差距。
-项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
+统一的审核和批准将Adobe Workfront和Adobe Frame.io融于一个相互深入关联的体验中，从而弥合了营销管理、创意审核和内容交付之间的差距。项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
 
 ![显示统一审阅和批准工作流的图表，其中项目协调员管理Workfront中的工作，审阅者和批准者在Frame.io查看器中提供反馈并做出决策。](assets/Unified-Review-Approvals-Image.png)
 
@@ -89,7 +84,7 @@ Adobe云存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
@@ -286,6 +281,14 @@ Workfront校对功能在此集成中不可用。
 **我可以添加阶段以创建多阶段审批工作流吗？**
 
 可以。 支持多阶段审批工作流，允许您在每个阶段通过由不同参与者进行的连续轮次审阅和审批来路由资产。
+
+<div class="preview">
+
+**能否在审批工作流中配置并行审阅路径？**
+
+可以。 在预览中，除了顺序阶段外，审批工作流还支持并行路径。 每个路径都独立运行并包含一个或多个顺序阶段，因此可以同时对不同路径进行审核。 您在一次批准中最多可以配置30条路径和100个阶段。 审批模板中提供了相同的选项。 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)和[创建文档的审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+
+</div>
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
