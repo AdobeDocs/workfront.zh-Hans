@@ -4,10 +4,10 @@ description: 2026年第三季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d83d823426b42202e83cb4db64f85d27d4dca0bb
+source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 7%
+source-wordcount: '1328'
+ht-degree: 4%
 
 ---
 
@@ -17,111 +17,93 @@ ht-degree: 7%
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
-## 用于统一审阅和批准的更改跟踪
+<!--
+
+## Change tracking for unified review and approval
+
+>[!NOTE]
+>
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
+
+Approval, stage, and participant actions are now tracked. These actions may include:
+
+* Making an approval decision in the Frame.io viewer
+* Creating or deleting an approval
+* Updating a document such as renaming, moving, or deleting it
+
+Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. Frame.io viewer comments are not included.
+
+This phase of change tracking does not include MCP events. Those will be part of a future release.
+
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+-->
+
+## 内部查找字段替换预输入字段类型
 
 >[!NOTE]
 >
 >预览：2026年7月7日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
 
-Workfront中的“更改历史记录”页面现在可以跨统一的审核和批准工作流捕获活动，为管理员提供完整的审核和文档生命周期事件治理追踪。
+自定义表单中新的&#x200B;**内部查找**&#x200B;字段类型提供了动态筛选。 它与“预输入”字段类型类似，允许用户通过键入部分名称来搜索和选择现有Workfront对象。 内部查找上的筛选器可以引用表单上其他字段中的值，而使用Typeaheads无法执行此操作。
 
-现在可跟踪批准、暂存和参与者操作。 这些操作可能包括：
+内部查找支持多选，此字段类型还为大型数据集提供了改进的性能。 内部查找支持以下本机Workfront对象：项目、公司、组、工作角色、Portfolio、项目、团队、模板、用户、任务、问题、文档和位置。
 
-* 在Frame.io查看器中作出批准决定
-* 创建或删除审批
-* 更新文档，如重命名、移动或删除文档
-
-每个条目都包含标准跟踪字段：日期和时间、操作、用户名（或“系统生成”）和对象名称。 不包括Frame.io查看器注释。
-
-此更改跟踪阶段不包括MCP事件。 这些内容将成为未来版本的一部分。
-
-有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
-
-<!--
-
-## Internal lookup field replacing Typeahead field type
-
->[!NOTE]
->
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
-
-The new **Internal lookup** field type in custom forms provides dynamic filtering. It is similar to the Typeahead field type and allows users to search and select existing Workfront objects by typing part of the name. The filter on the internal lookup can reference the value in another field on the form, which is not possible with Typeaheads.
-
-Multi-select is supported on internal lookups, and this field type also provides improved performance for large datasets. The following native Workfront objects are supported in internal lookups: Project, Company, Group, Job Role, Portfolio, Program, Team, Template, User, Task, Issue, Document, and Location.
-
-The Internal lookup field type is replacing the Typeahead field type. You can quickly convert existing Typeahead fields to Internal lookups by clicking the button in the field options on the right. When you convert, historical data remains on the field and it is used the same way in reports.
+Internal lookup字段类型正在替换Typeahead字段类型。 您可以通过单击右侧字段选项中的按钮，快速将现有的预输入字段转换为内部查找。 转换时，历史数据将保留在字段中，并在报表中以相同的方式使用。
 
 >[!IMPORTANT]
 >
->External integrations such as Workfront Fusion scenarios or API-based automations may reference legacy field structures and require updates after the conversion. You should verify any integrations before converting Typeahead fields to Internal lookup fields.
+>外部集成（如Workfront Fusion场景或基于API的自动化）可能会引用旧版字段结构，并且需要在转换后进行更新。 在将预输入字段转换为内部查找字段之前，您应该验证任何集成。
 
-For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
--->
-
-<!--
-
-## Default value logic supported on native reference fields
+## 本机引用字段支持的默认值逻辑
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>预览：2026年7月7日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
 >
->This feature is only available for organizations on the Workflow Prime or Ultimate packages.
+>此功能仅适用于Workflow Prime或Ultimate包中的组织。
 
-In custom forms, native reference fields now allow you to add default value logic.
+在自定义表单中，现在可使用本机引用字段添加默认值逻辑。
 
-This logic type on native reference fields is available only in the user interface and not in the Workfront API.
+本机引用字段上的此逻辑类型仅在用户界面中可用，在Workfront API中不可用。
 
-For information, see [Add default value logic to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md#add-default-value-logic-to-a-custom-form) in the article [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+有关信息，请参阅[将逻辑规则添加到自定义表单和字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)一文中的[将默认值逻辑添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md#add-default-value-logic-to-a-custom-form)。
 
--->
-
-<!--
-
-## Updates to native field filtering in custom forms
+## 更新了自定义表单中的本机字段筛选
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>预览：2026年7月7日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
 
-System filters that exist on native fields are now applied to the fields in custom forms and are visible to administrators.
+本机字段上存在的系统筛选器现在应用于自定义表单中的字段，并且管理员可见。
 
-When you add a native reference field that has a system filter applied, you can apply the same filter to the field in the custom form and modify the filter if needed in the Text Mode box.
+添加应用了系统过滤器的本机引用字段时，可以将相同的过滤器应用于自定义表单中的字段，并根据需要在文本模式框中修改过滤器。
 
-Adding your own custom filter to the field overrides the system filter for the field. If you do not enter a custom filter, the system filter is applied by default.
+将您自己的自定义筛选器添加到字段会覆盖字段的系统筛选器。 如果不输入自定义筛选器，则默认应用系统筛选器。
 
-Also, dynamic filtering is now available on native reference fields. A dynamic filter allows you to narrow the list of items based on the value of another field.
+此外，动态筛选现在可用于本机引用字段。 动态筛选器允许您根据另一个字段的值缩小项目列表。
 
-For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
+例如，当您在项目字段筛选器中使用`?portfolioID={portfolio}.{ID}`，并且自定义表单上有Portfolio本机字段时，项目字段仅显示选定项目组合中的项目。 如果Portfolio字段留空，则所有项目在项目字段中均可用。
 
-For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
--->
-
-<!--
-
-## Protect field names from accidental renaming
+## 保护字段名称不被意外重命名
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>预览：2026年7月7日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
 
-To protect integrations and data integrity, we've updated how field names can be edited in the field settings panel of a custom form.
+为了保护集成和数据完整性，我们更新了在自定义表单的字段设置面板中编辑字段名称的方式。
 
-Field names in the field settings panel are now read-only by default. You can still edit the field name, but renaming requires an explicit confirmation step. The field previously called **Name** has also been updated to **API Name** to better reflect its technical significance. The **Label** field remains editable.
+字段设置面板中的字段名称现在默认为只读。 您仍然可以编辑字段名称，但重命名需要明确的确认步骤。 以前名为&#x200B;**名称**&#x200B;的字段也已更新为&#x200B;**API名称**，以更好地反映其技术重要性。 **标签**&#x200B;字段保持可编辑状态。
 
-For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#notes-on-field-names-and-labels).
-
--->
+有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#notes-on-field-names-and-labels)。
 
 ## 查看Workfront对象的更改历史记录
 
