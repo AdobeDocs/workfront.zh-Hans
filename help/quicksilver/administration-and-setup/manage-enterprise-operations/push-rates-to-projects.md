@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '305'
+ht-degree: 5%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 标准版]</td>
+   <td>[！UICONTROL标准版]</td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>编辑对[!UICONTROL 费率卡]的访问权限</td> 
+   <td>编辑对[！UICONTROL费率卡]的访问权限</td> 
   </tr> 
   <tr> 
    <td>对象权限</td> 
@@ -67,6 +67,10 @@ ht-degree: 6%
    <!--/staffing plans-->
    <!--and staffing plans -->
    <!--or staffing plan -->
+
+   >[!NOTE]
+   >
+   >只有费率过时的项目信息卡费率会显示在对话框中。 如果项目使用此费率卡且费率在项目上是当前的，则不显示该费率。
 
 1. 单击&#x200B;[!UICONTROL **保存**]。
 
