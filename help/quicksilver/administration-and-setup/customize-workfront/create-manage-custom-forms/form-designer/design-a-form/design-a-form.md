@@ -11,22 +11,14 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
 workflow-type: tm+mt
-source-wordcount: 7342
+source-wordcount: 8296
 ht-degree: 6%
 
 ---
@@ -155,40 +147,41 @@ ht-degree: 6%
 
    单击&#x200B;**保存并关闭**。
 
-### 有关字段名称和标签的说明 {#notes-on-field-names-and-labels}
+### 有关字段API名称和标签的注释 {#notes-on-field-names-and-labels}
 
-标签适用于大多数字段。 它是一个描述性标签，显示在自定义表单上的字段或小部件的上方。 您可以随时更改标签。
+* 标签适用于大多数字段。 它是一个描述性标签，显示在自定义表单上的字段或小部件的上方。 您可以随时更改标签。
 
->[!NOTE]
->
->避免在此标签中使用特殊字符，因为它们无法在报表中正确显示。
+  >[!NOTE]
+  >
+  >避免在此标签中使用特殊字符，因为它们无法在报表中正确显示。
 
-每个字段都需要名称。 此名称是向Workfront中的各个区域添加自定义字段时（例如报表、主页和API交互）系统识别该字段的方式。 首次配置字段或小组件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。
+* 每个字段都必须有API名称。 此名称是向Workfront中的各个区域添加自定义字段时（例如报表、主页和API交互）系统识别该字段的方式。 当您首次配置字段或构件并键入标签时，会自动填充名称字段/<span class="preview">API名称字段</span>以匹配它。 标签和名称/<span class="preview">API名称字段</span>字段未同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。
 
-每个自定义字段名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。
+* 每个自定义字段API名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。
 
->[!NOTE]
->
->虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->例如，如果将该自定义字段添加到报表中后更改其名称，Workfront将无法识别该自定义字段，并且除非您使用新名称将该自定义字段重新添加到报表中，否则它将在报表中停止正常工作。
->
->我们建议您不要键入已用于内置Workfront字段的名称。
->
->我们建议您在自定义字段名称中不要使用句点/点字符，以免在Workfront的其他区域使用字段时出错。
+* 虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，请勿更改此API名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
 
-自定义字段标签和名称不支持以下特殊字符。
+  例如，如果您将自定义字段添加到报表后又更改了其API名称，Workfront将无法识别报表中的该字段，并且除非您使用新名称将其重新添加到报表中，否则该字段将无法在报表中正常运行。
 
-* \t
-* \n
-* \r
-* \f
-* `[`
-* `]`
-* (
-* ）
-* ：
-* `{`
-* `}`
+* <span class="preview">API名称默认为只读。 要使API名称可编辑，请单击&#x200B;**API名称**&#x200B;旁边的&#x200B;**编辑**&#x200B;图标。 然后，在确认框中键入&#x200B;**confirm**，然后单击&#x200B;**重命名字段**。</span>
+
+* 我们建议您不要键入已用于内置Workfront字段的API名称。
+
+* 我们建议您在自定义字段API名称中不要使用句点/点字符，以免在Workfront的不同区域使用字段时出现错误。
+
+* 自定义字段标签和API名称不支持以下特殊字符。
+
+   * \t
+   * \n
+   * \r
+   * \f
+   * `[`
+   * `]`
+   * (
+   * ）
+   * ：
+   * `{`
+   * `}`
 
 ### 添加文本字段
 
@@ -274,9 +267,7 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>说明</td>
-    <td>键入有关该字段的任何其他信息。当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
-    <img src="assets/instructions-form-designer.png">
-    </td>
+    <td>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</td>
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
@@ -638,7 +629,8 @@ ht-degree: 6%
        <ul> 
         <li>如果您正在编辑现有的自定义表单，则将过滤器添加到预输入字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
         <li>此筛选器在移动设备上不可用。 如果您将过滤器用于预输入字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
-        </ul></p></td> 
+        </ul></p>
+      </td>  
       <td>
        <ul>
        <li>键盘缓冲</li>
@@ -702,7 +694,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够选择更改用户看到的标签，而不必更改系统看到的名称。</p>
+      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够选择更改用户看到的标签，而不必更改系统看到的名称。</p>
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
      </tr> 
       <td role="rowheader">说明</td> 
@@ -748,15 +740,14 @@ ht-degree: 6%
      </tr>
      <tr> 
       <td role="rowheader">JSON 路径</td>
-      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
-      </pre>
+       }
+      }</pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
      </tr>
@@ -794,6 +785,95 @@ ht-degree: 6%
 >* 重试次数：3
 >* 重试之间的等待持续时间：500毫秒
 >* 预期响应状态： 2xx
+
+<div class="preview">
+
+### 添加内部查找字段
+
+内部查找字段允许用户键入Workfront中存在的对象的名称。 用户开始键入内容时，将显示建议列表。 例如，如果用户正在键入用户名，则会显示匹配名称列表。 以下对象支持内部查找字段类型：
+
+* 用户
+* 组
+* 工作角色
+* 项目组合
+* 项目群
+* 项目
+* 团队
+* 模板
+* 公司
+* 任务
+* 问题
+* 文档
+* 位置
+
+要添加内部查找，请执行以下操作：
+
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到&#x200B;**内部查找**&#x200B;或&#x200B;**多选内部查找**，并将其拖动到画布上的部分。
+1. 在屏幕右侧，配置自定义字段的选项：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">标签</td> 
+      <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">名称</td> 
+      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够选择更改用户看到的标签，而不必更改系统看到的名称。</p>
+      <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
+     </tr> 
+      <td role="rowheader">说明</td> 
+      <td> <p>键入有关自定义字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">参考对象类型</td>
+      <td><p>选择要与字段关联的对象类型。</p> <p>单击<strong>应用</strong>或<strong>保存并关闭</strong>后，无法更改该字段的对象类型。</p>
+      <p><strong>注意：</strong></p>
+      <ul><li>如果您的Workfront管理员在Workfront用户界面中为项目组合、程序或项目自定义了名称，则该对象的默认Workfront名称将显示在此下拉列表中，而不是自定义名称中。 如果您需要此方面的帮助，请咨询您的Workfront管理员。</li>
+      <li>iOS和Android Workfront Mobile应用程序支持以下对象类型：用户、公司、组、工作角色、Portfolio、项目、项目和模板。</li>
+      </ul></td>
+     </tr> 
+     <tr>
+      <td>添加筛选器</td>
+      <td><p>为对象类型添加过滤器，以限制用户在使用该字段时可以选择的对象。 </p> <p>例如，您可以限制一个字段，这样只有当用户名满足以下条件时才可以选择用户名：</p> 
+       <ul> 
+        <li>它们属于您指定的一个或多个组。</li> 
+        <li>它们与您指定的角色或职称相关联。</li> 
+        <li>他们与使用字段的人属于同一组。</li> 
+       </ul>
+       <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑过滤器</a>。</p>
+       <p><b>提示：</b>您可以先创建报告以测试您的筛选器，然后再将该筛选器直接添加到内部查找字段。 这将帮助您验证过滤器是否返回正确的对象。 然后，您可以在报表中切换到文本模式，复制文本模式语句并将其添加到内部查找过滤器。</p>
+       <p><b>注释</b>：
+       <ul> 
+        <li>如果您正在编辑现有的自定义表单，则将过滤器添加到内部查找字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围之外）。</li> 
+        <li>此筛选器在移动设备上不可用。 如果将该过滤器用于内部查找字段，则该字段将显示在不受该过滤器影响的用户移动设备上。</li> 
+        </ul></p>
+      </td>  
+     </tr>
+     <tr> 
+      <td role="rowheader">多选下拉框</td>
+      <td><p>选择此选项可允许用户在下拉列表中选择多个值。</p></td>
+     </tr>
+     <tr>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">设为必填字段</td>
+      <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. 要保存更改，请单击&#x200B;**应用**，然后转到其他部分以继续构建表单。
+
+   或
+
+   单击&#x200B;**保存并关闭**。
+
+</div>
 
 ### 添加图像、PDF和视频
 
@@ -1019,7 +1099,9 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>它们与您指定的角色或职称相关联。</li> 
         <li>他们与使用字段的人属于同一组。</li> 
        </ul>
+       <p><span class="preview">当字段上存在系统筛选器时，如果您不添加自定义筛选器，则默认应用该筛选器。 自定义筛选器将覆盖系统筛选器。</span></p>
        <p>必须使用文本模式语法为所选的引用字段定义过滤器。 有关信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑筛选器</a>。</p>
+       <p><span class="preview">使用动态筛选器语法根据另一个字段的值缩小此字段中的项目列表。 例如，当您在项目字段筛选器中使用<code>?portfolioID={portfolio}.{ID}</code>，并且自定义表单上有Portfolio本机字段时，项目字段仅显示选定项目组合中的项目。 如果Portfolio字段留空，则所有项目在项目字段中均可用。</span></p>
        <p><b>注释</b>：
        <ul> 
         <li>仅当您引用本机预输入字段（如“Portfolio”、“公司”或“所有者”）时，过滤器选项才可用。</li>
@@ -1077,8 +1159,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必需）键入或粘贴有效的XD原型链接。</p> 
-      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。否则，用户将无法查看原型。 
-   </td> 
+      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">说明</td> 
