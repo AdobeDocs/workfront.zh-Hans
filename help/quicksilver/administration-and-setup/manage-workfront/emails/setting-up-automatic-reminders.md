@@ -11,18 +11,14 @@ exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f283a5f64062e5878373527de46b0d993b545ba7
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 6%
+source-wordcount: 836
+ht-degree: 4%
 
 ---
 
@@ -30,9 +26,11 @@ ht-degree: 6%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-作为Adobe Workfront管理员，您可以设置自动提醒，以在所有任务或问题到期、延迟或接近计划完成日期时触发电子邮件通知。 配置这些设置后，用户将无法禁用自动提醒。
+作为Adobe Workfront管理员，您可以设置自动提醒，以在所有任务、问题或其他分配的工作项过期、延迟或接近计划完成日期时触发电子邮件通知。
 
-对于延迟通知，在任务或问题完成之前，每夜发送电子邮件。
+配置这些设置后，用户将无法禁用自动提醒。 无论用户在其“我的设置”区域中的通知设置如何，都会发送自动提醒。
+
+对于延迟通知，在任务或问题完成之前，每夜发送电子邮件。 这意味着用户将在任务或问题未完成时每天收到通知。
 
 自动提醒可以发送到以下一项或多项：
 
@@ -72,6 +70,25 @@ ht-degree: 6%
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 自动提醒功能的详细信息
+
+### 与其他类型提醒的区别
+
+自动提醒是Workfront任务和问题的设置级提醒功能，与对象级提醒通知功能不同。 有关自动提醒与提醒通知之间差异的信息，请参阅[自动提醒与提醒通知](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)。
+
+验证和验证决策也不是由自动提醒处理，而是按照单独的提醒流程进行。 有关校对和校对决定提醒的详细信息，请参阅[校对通知和提醒](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)下的文章。
+
+## 使用自动提醒时的注意事项
+
+使用自动提醒时，请考虑以下事项：
+
+* 超期电子邮件每天以每个收件人的摘要电子邮件的形式发送，而不是以每个项目的单独电子邮件的形式发送。
+* 启用自动提醒可能会导致已过期的问题或任务显示在下一封过期摘要电子邮件中，而不管项目已过期多长时间。
+* 提醒仅适用于处于当前/活动状态的项目。
+* 自动提醒设置中的“天数”是指可识别计划的工作日，而不是经过的天数或日历时间。
+
+
 
 ## 设置自动提醒
 
