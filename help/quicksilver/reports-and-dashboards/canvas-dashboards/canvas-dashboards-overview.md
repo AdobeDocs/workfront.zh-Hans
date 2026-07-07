@@ -10,21 +10,14 @@ exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GijvNmSyIroodL3bz-AJRl0A-wuvKetxmrtSzscaje0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 2%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
@@ -108,7 +101,7 @@ ht-degree: 2%
 * Workfront计划报表
 * 和/或筛选
 * 表格列和行的条件格式
-* KPI和图表报表的深入配置
+* KPI和图表报表的深入分析配置
 * 分组表结果
 * 功能板级别的筛选器和用户应用的叠加筛选器
 * 以报告用户配置身份运行
@@ -116,12 +109,16 @@ ht-degree: 2%
 
 ### 开发中的功能
 
+我们目前正在以迭代方式在“画布功能板”中提供以下功能：
+
 * 其他Workfront对象类型
 * 可用性增强
 * 在仪表板上将Workfront Planning视图作为报表块包含
 * 将功能板用作Workfront Planning视图
 * 扩展了对Azure和GCP客户的支持
 * 性能优化
+
+有关向画布功能板添加哪些功能的信息，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ### 未来路线图功能
 

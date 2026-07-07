@@ -9,20 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 3%
+source-wordcount: 822
+ht-degree: 2%
 
 ---
 
@@ -69,6 +63,13 @@ ht-degree: 3%
 +++
 
 ## 自定义筛选器、视图和分组列表控件
+
+
+>[!NOTE]
+>
+>将视图、过滤器或分组添加到布局模板只能控制布局；它不授予访问权限。 用户仍需要查看每个项目的访问权限。
+>
+>参与者、请求者和外部许可证用户看不到在系统范围内共享的项目，因此必须明确共享提供给他们的视图。 有关信息，请参阅[共享筛选器、视图或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/down-arrow-blue.png)，然后在显示的下拉菜单中单击&#x200B;**列表**。
