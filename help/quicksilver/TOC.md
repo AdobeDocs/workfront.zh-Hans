@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: '14233'
+source-wordcount: '14243'
 ht-degree: 2%
 
 ---
@@ -2157,14 +2157,16 @@ ht-degree: 2%
       * [Adobe Workfront Planning入门](planning/general/planning-overview.md)
       * [Adobe Workfront Planning实施建议](planning/general/planning-best-practices.md)
       * [Adobe Workfront规划API基础知识](planning/general/planning-api-basics.md)
-      * {hide-from-toc}[适用于Workfront Planning的Workfront Data Connect](planning/general/planning-in-data-connect.md)
       * [Adobe Workfront规划AI助手概述](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront规划Designer快速入门](planning/general/planning-ai-designer.md)
       * [Adobe Workfront 2024年计划发布活动](planning/general/release-activity.md)
       * [Adobe Workfront 2023年计划发布活动](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning对象限制概述](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning免费试用版快速入门](planning/general/trial-workfront-planning.md)
-      * [在报表中查看Workfront规划信息](planning/general/planning-information-in-reports.md)
+   * Adobe Workfront计划报表 {#adobe-workfront-planning-reporting}
+      * [Adobe Workfront Planning报表：文章索引](planning/reporting/reporting-in-planning-article-index.md)
+      * [在报表中查看Workfront规划信息](planning/reporting/planning-information-in-reports.md)
+      * {hide-from-toc}[适用于Workfront Planning的Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
    * Adobe Workfront规划最佳实践 {#adobe-workfront-planning-best-practices}
       * [Adobe Workfront最佳实践：文章索引](planning/best-practices.md/best-practices-article-index.md)
       * [推出您的战略主页：30天的启动台](planning/best-practices.md/30-day-launchpad.md)

@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 425
 ht-degree: 5%
 
 ---
@@ -81,7 +81,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->默认情况下，[!DNL Goals]的即时通知处于禁用状态。 您无法启用或禁用每日通知，并且不会收到此类别中事件的每日摘要电子邮件。 您可以启用或禁用[!DNL Goals]类别的单个即时通知。
+>* 默认情况下，[!DNL Goals]的即时通知处于禁用状态。 您无法启用或禁用每日通知，并且不会收到此类别中事件的每日摘要电子邮件。 您可以启用或禁用[!DNL Goals]类别的单个即时通知。
+>* 您仍可以收到有关目标更新的电子邮件，即使您在访问级别中无权访问目标，但有人为您分配了目标、结果、活动或有关分配给您的目标的评论。
 
 另请参阅[事件通知](../../workfront-basics/using-notifications/event-notifications.md)。
 
