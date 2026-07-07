@@ -7,24 +7,22 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 3%
+source-wordcount: 711
+ht-degree: 2%
 
 ---
 
 # [!DNL Workfront]的[!DNL Adobe Unified Experience]
 
 <!--Audited: 10/2024-->
+
+{{highlighted-preview}}
 
 通过[!DNL Adobe CX Enterprise]访问[!DNL Workfront]可为您提供管理所有[!DNL Adobe]应用程序的无缝、统一的体验。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
@@ -98,6 +96,10 @@ ht-degree: 3%
 * **布局模板配置**：要了解[!DNL Workfront]管理员如何从布局模板修改[!UICONTROL 主菜单]，请参阅[使用布局模板自定义[!UICONTROL 主菜单]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 * **许可证类型**：要了解不同许可证类型的默认配置，请参阅[了解[!UICONTROL 轻量级]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[了解[!UICONTROL 工作]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
 
+预览环境中的<span class="preview">示例图像：</span>
+![主菜单](assets/main-menu-options-2026.png)
+
+生产环境中的示例图像：
 ![主菜单](assets/main-menu-options-left-nav.png)
 
 ## 访问您的个人资料和首选项
@@ -130,7 +132,7 @@ ht-degree: 3%
 
 如果您的密码由[!DNL Adobe]管理，则可以在Adobe帐户中更改密码。
 
-[请参阅本文，了解如何更改您的Adobe密码。](https://helpx.adobe.com/cn/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[请参阅本文，了解如何更改您的Adobe密码。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 有关更改密码的详细信息，请与管理员联系。
 

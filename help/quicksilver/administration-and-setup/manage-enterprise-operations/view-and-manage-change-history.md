@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: 更改历史记录
-description: 更改历史记录允许您查看对Workfront对象所做的更改日志
-author: Becky
+description: 更改历史记录允许您查看对Workfront对象所做的更改日志。
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '452'
 ht-degree: 4%
 
 ---
@@ -18,10 +18,8 @@ ht-degree: 4%
 
 您可以在“设置”的“变更跟踪”区域中查看变更历史记录，包括审核日志。
 
-* **审核日志**&#x200B;是由用户触发的更改。
-有关审核日志和审核日志区域的详细信息，请参阅[审核日志概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **配置**&#x200B;显示为“更改历史记录列表”跟踪的字段。
-配置当前仅作为信息提供，无法更改。在不久的将来，将可以更改跟踪哪些字段。
+* **审核日志**&#x200B;是由用户触发的更改。有关审核日志和审核日志区域的详细信息，请参阅[审核日志概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **配置**&#x200B;显示为“更改历史记录列表”跟踪的字段。配置当前仅作为信息提供，无法更改。 在不久的将来，将可以更改跟踪哪些字段。
 * “更改历史记录列表”允许您查看对Workfront对象进行更改的日志，包括如下属性：
 
    * 对象
@@ -39,11 +37,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td>工作流 Ultimate</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 标准版]</td> 
+   <td>[！UICONTROL标准版]</td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 

@@ -5,11 +5,9 @@ description: Workfront提供了多种多样的内容，以帮助您找到与Work
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 17%
@@ -22,20 +20,20 @@ ht-degree: 17%
 
 ## 在Experience League上访问[!DNL Adobe Workfront]文档
 
-1. 转到 [!DNL Experience League][&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)上的[!DNL Adobe Workfront] 文档页面。
+1. 转到 [!DNL Experience League]](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)上的[[!DNL Adobe Workfront] 文档页面。
 
 除了搜索帮助文档之外，您还可以从Experience League访问以下[!DNL Workfront]资源：
 
 * Workfront教程：有关详细信息，请参阅[[!DNL Workfront] 教程](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)。
 
-* [!UICONTROL 创新实验室]：有关详细信息，请参阅[创新实验室](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=zh-Hans)。
-* [!UICONTROL [!DNL Workfront]社区]：有关详细信息，请参阅[The [!UICONTROL [!DNL Adobe Workfront] 社区]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)。
+* [!UICONTROL 创新实验室]：有关详细信息，请参阅[创新实验室](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)。
+* [!UICONTROL [!DNL Workfront]社区]：有关详细信息，请参阅[The [！UICONTROL [!DNL Adobe Workfront] 社区]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
 
 ## 从[!DNL Workfront]内部访问帮助
 
 {{step1-click-main-menu}}
 
-1. 单击&#x200B;**[!UICONTROL 帮助]** ![帮助图标](assets/help-icon.png)。
+1. 单击&#x200B;**[!UICONTROL 帮助]** ![帮助图标](assets/help-icon-2026.png)。
 
 >[!NOTE]
 >

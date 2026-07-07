@@ -6,22 +6,20 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 4%
+source-wordcount: 531
+ht-degree: 3%
 
 ---
 
 # 固定页面以自定义工作区
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +60,10 @@ ht-degree: 4%
 
 1. 在页面的左上角，单击&#x200B;**[!UICONTROL 固定当前页面]**。 现在可从[!DNL Workfront]中任何页面的顶部访问固定页面。
 
+   预览环境中的<span class="preview">示例图像：
+   ![固定当前页面](assets/pin-current-page-button-2026.png)
+
+   生产环境中的示例图像：
    ![固定当前页面](assets/pin-current-page-button.png)
 
 ## 访问固定页面
@@ -76,9 +78,32 @@ ht-degree: 4%
 
    如果固定了多个页面，请单击&#x200B;**[!UICONTROL 更多]**&#x200B;图标![单击“更多”图标](assets/more-icon.png)以查看其他固定页面。
 
+   预览环境中的<span class="preview">示例图像：
+   ![固定当前页面](assets/display-pinned-pages-2026.png)
+
+   生产环境中的示例图像：
    ![查看其他固定页面](assets/display-pinned-pages.png)
 
    此时将显示固定页面。
+
+<div class="preview">
+
+## 管理大头针
+
+您可以在一个位置重命名、重新排序和删除固定页面。
+
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;图标![单击大头针行中的“更多”图标](assets/more-icon.png)并选择&#x200B;**管理大头针**。
+1. 在&#x200B;**管理Pin**&#x200B;框中，执行以下一项或多项操作：
+
+   * 单击&#x200B;**编辑**&#x200B;图标可重命名固定页面。 键入新名称，然后单击复选标记图标以进行确认。
+   * 按您希望它们显示的顺序拖放固定页面。
+   * 单击&#x200B;**删除**&#x200B;图标可从列表中删除固定页面。
+
+   ![管理大头针盒](assets/manage-pins.png)
+
+1. 完成编辑pin后，单击&#x200B;**关闭**。
+
+</div>
 
 ## 重命名固定页面
 
@@ -90,7 +115,6 @@ ht-degree: 4%
 1. 键入新的pin名称，然后单击&#x200B;**保存**。
 
    ![单击复选标记可重命名pin](assets/rename-pin-dialog-box.png)
-
 
 ## 重新排列固定页面
 
