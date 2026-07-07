@@ -4,9 +4,9 @@ description: 2026年第三季度发布时间框架内的其他增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
+## 全局导航图标的界面更新
+
+>[!NOTE]
+>
+>预览：2026年7月7日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
+
+我们更新了Workfront中常规导航图标（包括主菜单和导航栏图标）的外观，以提供现代化设计和与其他Adobe应用程序一致的体验。 此外，添加和删除钉住页面的体验已经过简化，需要点击的次数更少。
+
+有关详细信息，请参阅[顶部导航栏概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md)和[固定页面](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)。
 
 ## 更新了评论通知电子邮件的外观
 
@@ -42,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年5月28日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月28日生产快速发布： 2026年6月11日适用于所有人的生产： 2026年7月16日
 
 增强列表上的多个字段类型已更新，包括键盘导航和其他增强功能。
 
