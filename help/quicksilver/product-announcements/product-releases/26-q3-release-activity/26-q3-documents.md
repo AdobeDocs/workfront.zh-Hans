@@ -56,7 +56,7 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 >[!NOTE]
 >
->预览：不适用生产快速发布： 2026年6月15日适用于所有人的生产： 2026年6月15日超出计划]{type=Neutral}
+>预览：不适用生产快速发布： 2026年6月15日适用于所有人的生产： 2026年6月15日超出计划&rbrack;{type=Neutral}
 
 Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内容带来了结构化的审核和批准。 设计人员可以将Workfront审批工作流模板映射到Express模板，这样在重新混合模板时便需要在发布之前自动获得批准，从而通过预配置的Workfront工作流和Frame.io查看器路由资产。
 
