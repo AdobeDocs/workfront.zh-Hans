@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 664
-ht-degree: 3%
+source-wordcount: 1196
+ht-degree: 1%
 
 ---
 
 # 上传新文档版本并请求审批
+
+{{highlighted-preview}}
 
 如果文档在以前的审阅中被标记为“需要工作”，则您可以将新版本上传到原始文档并开始另一轮审批。 上传文档的新版本后，先前版本将被锁定。
 
@@ -76,7 +78,7 @@ ht-degree: 3%
 
 
 
-## 使用拖放操作在旧文档区域中添加新版本
+## 使用拖放操作可在生产环境的旧版文档区域中添加新版本
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -94,8 +96,7 @@ ht-degree: 3%
 1. 导航到Workfront中的文档。
 1. 将新文件拖放到上一个文档上。 这会自动创建新版本。
 
-1. 文档上传完成后，选择文档以打开文档摘要面板。在这里，您将在面板顶部看到版本号。
-   ![打开文档详细信息页面](assets/open-doc-details.png)
+1. 文档上传完成后，选择文档以打开文档摘要面板。 在这里，您将在面板顶部看到版本号。
 
 
 1. 向下滚动到&#x200B;**审批**&#x200B;部分。
@@ -141,5 +142,69 @@ ht-degree: 3%
 
    审批工作流将启动，审批者会收到通知，告知需要对新文档版本进行审批。 以前的文档版本被锁定，并且以前版本上的任何未完成的批准都将被撤回。
 
-   ![请求审批](assets/request-approval.png)
+   !&lbrack;请求审批
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## 使用拖放操作在预览的旧文档区域中添加新版本
+
+如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+
+>[!NOTE]
+>
+>Internet Explorer无法执行拖放操作。
+
+如果您需要对文档进行另一轮审核和批准，则可以在Workfront中创建新文档版本。 可添加先前的参与者、新参与者或两者的组合。 您可以在“文档详细信息”页面上查看有关先前版本和参与者的信息。
+
+默认情况下，请求审批对话框在基本模式下打开，以进行单阶段审批。 切换到高级模式以配置多阶段审批或并行路径。
+
+要添加新版本并请求审批，请执行以下操作：
+
+1. 导航到Workfront中的文档。
+
+1. 将新文件拖放到上一个文档上。 Workfront会自动创建新版本。
+
+1. 文档上传完成后，选择文档以打开文档摘要面板。 版本号显示在面板顶部。
+
+1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**创建工作流**。 **请求审批**&#x200B;对话框在基本模式下打开。
+
+1. 配置审批工作流。 有关字段描述、高级模式切换和平行路径流，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+1. 单击&#x200B;**请求审批**。
+
+   审批工作流将启动，审批者会收到通知，告知需要对新文档版本进行审批。 以前的文档版本被锁定，并且以前版本上的任何未完成的批准都将被撤回。
+
+## 使用拖放操作在预览中的新文档区域中添加新版本
+
+如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+>[!NOTE]
+>
+>Internet Explorer无法执行拖放操作。
+
+如果您需要对文档进行另一轮审核和批准，则可以在Workfront中创建新文档版本。 您可以将审批工作流添加到文档的新版本。
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+默认情况下，请求审批对话框在基本模式下打开，以进行单阶段审批。 切换到高级模式以配置多阶段审批或并行路径。
+
+要添加新版本并请求审批，请执行以下操作：
+
+1. 导航到Workfront中的文档。
+
+1. 将新文件拖放到上一个文档上。 Workfront会自动创建新版本。
+
+1. 文档上传完成后，选择文档以打开“摘要”面板。 默认情况下，将选择文档的最新版本。
+
+1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**创建工作流**。 **请求审批**&#x200B;对话框在基本模式下打开。
+
+1. 配置审批工作流。 有关字段描述、高级模式切换和平行路径流，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+1. 单击&#x200B;**请求审批**。
+
+   审批工作流将启动，审批者会收到通知，告知需要对新文档版本进行审批。 以前的文档版本被锁定，并且以前版本上的任何未完成的批准都将被撤回。
+
+</div>
