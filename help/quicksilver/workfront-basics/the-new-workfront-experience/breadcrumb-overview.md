@@ -11,17 +11,23 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: 362
 ht-degree: 0%
 
 ---
 
 # 痕迹导航概述
 
+{{highlighted-preview}}
+
 痕迹导航显示所有对象类型的完整导航层次结构。 痕迹导航路径中的每个对象都有一个显示对象类型的标签。 当前所在的页面以斜体显示在页眉和痕迹导航路径末尾。 在以下示例中，这是“[!UICONTROL 与品牌团队]共享”任务。
 
+预览环境中的<span class="preview">示例图像：</span>
+![折叠的痕迹导航](assets/collapsed-breadcrumb-2026.png)
+
+生产环境中的示例图像：
 ![折叠的痕迹导航](assets/NWE-collapsed-breadcrumb.png)
 
 当痕迹导航路径中的对象过多或屏幕宽度禁止显示完整导航层次结构时，路径会折叠某些痕迹导航，并在痕迹导航路径的开头对这些对象进行分组。 项目页面和当前对象页面在痕迹导航路径中始终可见。
@@ -30,6 +36,10 @@ ht-degree: 0%
 
 单击“[!UICONTROL 更多]”可展开整个层次结构。 您可以单击“[!UICONTROL 更少]”以再次折叠痕迹导航路径。
 
+预览环境中的<span class="preview">示例图像：</span>
+![折叠的痕迹导航](assets/expanded-breadcrumb-2026.png)
+
+生产环境中的示例图像：
 ![扩展的痕迹导航](assets/NWE-expanded-breadcrumb.png)
 
 您还可以使用以下键在痕迹导航中导航：
@@ -82,3 +92,5 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 1. 单击痕迹导航路径中的任意对象以访问该对象。
 
    此时将打开对象页面。
+
+   如果您查看的项目连接到Workfront Planning中的对象（例如营销策划），则可以从痕迹导航在Planning和Workfront对象类型之间进行切换。 有关详细信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
