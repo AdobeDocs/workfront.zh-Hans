@@ -5,7 +5,7 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
+source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 5%
@@ -95,6 +95,7 @@ ht-degree: 5%
 | 提醒利益相关者批量审批 | `approvals_send_approval_reminder` | 向整个项目、文件夹、活动或到期日期窗口中的所有待审批审批者发送审批提醒电子邮件。 | 写入 |
 | 批量更新审批模板 | `approvals_update_template` | 对多个模板执行模板更新，例如将模板应用于资产、从头开始或从现有审批流创建新模板、编辑模板以及跨模板和资产执行批量操作。 | 写入 |
 | 批量添加或删除审批参与者。 | `approvals_update_approval_participants`和`approvals__submit_update_approval_participants` | 在一个操作中添加、删除或替换整个项目组合、项目群或项目范围内的参与者。 | 写入 |
+
 
 ### 查找和用户
 
