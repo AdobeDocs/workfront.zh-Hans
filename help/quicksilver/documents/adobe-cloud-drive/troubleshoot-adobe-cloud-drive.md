@@ -162,7 +162,7 @@ ht-degree: 0%
 
 有关许可证问题、项目访问问题或特定于组织的配置，请与Workfront管理员联系。
 
-要与Adobe支持共享日志，请按照[运行Adobe日志收集器工具](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步骤操作。
+要与Adobe支持共享日志，请按照[运行Adobe日志收集器工具](https://helpx.adobe.com/cn/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步骤操作。
 
 ## 最佳做法
 
