@@ -5,9 +5,12 @@ title: 使用Adobe Cloud Drive
 description: 使用Adobe Cloud Drive直接从Finder或文件资源管理器使用Adobe云存储项目。 在任意应用程序中打开和编辑文件、脱机工作以及解决冲突。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d5dd769447e81d5d95b4907f8a01016b118f2322
 workflow-type: tm+mt
 source-wordcount: 1723
