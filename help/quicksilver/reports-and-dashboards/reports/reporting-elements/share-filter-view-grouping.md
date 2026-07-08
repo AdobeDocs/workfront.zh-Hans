@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: 1245
 ht-degree: 3%
 
 ---
@@ -123,7 +123,12 @@ ht-degree: 3%
    </tr>
    <tr>
    <td role="rowheader"><strong>已与我共享</strong></td>
-   <td>其他人创建并与您共享或在系统范围内共享的过滤器。</td>
+   <td>其他人创建并与您共享或在系统范围内共享的过滤器。
+   <p><b>注释</b></p>
+   <p>拥有参与者、请求者或外部许可证的用户看不到在系统范围内共享的过滤器、视图或分组。 为了向这些用户提供一个工作区，请直接与他们共享（通过他们的用户、工作角色、团队、组或公司），而不是依赖系统范围的可见性。 即使筛选器、视图或分组包含在其布局模板中，此规则也适用。</p>
+
+
+   </td>
    </tr>
    </tbody>
    </table>

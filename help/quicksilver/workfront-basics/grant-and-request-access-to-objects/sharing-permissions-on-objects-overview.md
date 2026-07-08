@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
+source-wordcount: 1382
 ht-degree: 1%
 
 ---
@@ -165,7 +165,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>在系统范围内可见。</strong></td> 
-   <td> <p>该对象可在搜索中找到，并可由具有Workfront帐户的用户查看。</p><p><b>注意</b>：具有参与者或请求者许可证的用户无法查看项目，即使启用了此设置也是如此。 </td> 
+   <td> <p>该对象可在搜索中找到，并可由具有Workfront帐户的用户查看。</p><p><b>注意</b>：具有参与者或请求者许可证的用户看不到项目、筛选器、视图、分组或在系统范围内共享的任何对象，即使启用了此设置也是如此。 您可以单独与参与者或请求者共享这些对象，以便他们能够查看这些对象。 </td> 
   </tr> 
  </tbody> 
 </table>
