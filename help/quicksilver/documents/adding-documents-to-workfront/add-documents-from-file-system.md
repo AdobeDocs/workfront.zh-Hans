@@ -19,9 +19,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1383
 ht-degree: 2%
 
 ---
@@ -184,6 +184,10 @@ Adobe Workfront当前具有以下两种类型的文档存储：
 如果需要有关将文档的新版本上载到Workfront的信息，请参阅[上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
 系统会自动在“文档”部分中创建与上载文档的目标对象同名的文件夹，并将文档添加到该文件夹。
+
+### 使用Adobe Cloud Drive添加文档
+
+如果您的组织使用Adobe云存储，您还可以使用Adobe Cloud Drive从桌面添加文档。 Adobe Cloud Drive可将您的Adobe Cloud Storage项目作为驱动器装载到Mac或Windows计算机上。 您在驱动器中项目文件夹内保存的任何文件都会自动同步到Workfront。 有关详细信息，请参阅[Adobe Cloud Drive概述](../../documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)。
 
 ## Adobe云存储的文档安全
 

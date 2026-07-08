@@ -1,5 +1,5 @@
 ---
-title: Workfront和Experience Manager Assets集成
+title: Workfront和Experience Manager Assets集成：文章索引
 description: Workfront和Experience Manager Assets集成
 author: Courtney
 draft: Probably
@@ -13,14 +13,14 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 507718ad95931f2d2a7698620dd7b5e79c3c0105
 workflow-type: tm+mt
-source-wordcount: 40
+source-wordcount: 44
 ht-degree: 0%
 
 ---
 
-# Workfront和Experience Manager Assets集成
+# Workfront和Experience Manager Assets集成：文章索引
 
 * [适用于Experience Manager的Workfront增强型连接器](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
 * [适用于Experience Manager Assets和Asset Essentials的Adobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

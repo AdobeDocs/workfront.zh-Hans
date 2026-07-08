@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: 4114
+source-wordcount: 4173
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Workfront校对功能在此集成中不可用。
 ### Workfront中的文档管理
 
 上传到Workfront的文档存储在Adobe云存储中，可在Workfront和Frame.io中访问。 当您在Workfront中将文档上传到任务或问题时，系统会在Adobe云存储中创建一个系统生成的文件夹，该文件夹继承任务或问题的权限。 上传到该任务或问题的所有文档都存储在该文件夹中，并从该文件夹继承权限。 有关Workfront中文档的更多信息，请参阅[新的文档区域概述](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe云存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
+
+您还可以使用Adobe Cloud Drive从Mac或Windows桌面访问这些相同的文档。 Adobe Cloud Drive将Adobe Cloud Storage项目作为驱动器装载到计算机上，以便您可以在任意应用程序中打开和编辑文件，同时使更改与Workfront和Frame.io保持同步。 有关详细信息，请参阅[Adobe Cloud Drive概述](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)。
 
 ### 文档体验限制
 

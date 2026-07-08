@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
 source-wordcount: '2761'
 ht-degree: 3%
@@ -233,7 +233,6 @@ ht-degree: 3%
             <td><p>July 7, 2026</p></td>
         </tr>
         -->
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">请求审批包含Workfront和Frame.io的Adobe Express模板</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内容带来了结构化的审核和批准。 设计人员可以将Workfront审批工作流模板映射到Express模板，这样在重新混合模板时便需要在发布之前自动获得批准，从而通过预配置的Workfront工作流和Frame.io查看器路由资产。</p>
