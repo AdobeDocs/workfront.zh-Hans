@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 1%
+source-wordcount: '941'
+ht-degree: 0%
 
 ---
 
@@ -33,24 +33,19 @@ ht-degree: 1%
 
 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)和[创建文档的审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
-<!--
-
-## Adobe Cloud Drive
+## Adobe云通道
 
 >[!NOTE]
 >
->Preview: N/A
->Production fast release: July 7, 2026
->Production for everyone: July 7, 2026
->This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
+>预览：不适用生产快速发布： 2026年7月8日适用于所有人的生产： 2026年7月8日此功能仅适用于已启用Adobe云存储的工作流Ultimate包中的组织。
 
-Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
+Adobe Cloud Drive现在可供那些使用支持Adobe Cloud Storage的Workfront版本的组织使用。 Adobe Cloud Drive是一款桌面应用程序，可将您的Adobe Cloud Storage项目作为Mac或Windows计算机上的驱动器进行装载，因此您可以直接从Finder或文件资源管理器打开、编辑和保存任何应用程序中的文件。 您的更改会自动同步到Adobe云存储，并且可在Workfront和Frame.io中供您的团队使用。
 
-For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+有关详细信息，请参阅[Adobe Cloud Drive概述](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)。
 
-[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3492492){target="_blank"}
 
--->
+## 请求审批包含Workfront和Frame.io的Adobe Express模板
 
 >[!NOTE]
 >
