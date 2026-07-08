@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：不适用生产快速发布： 2026年7月8日适用于所有人的生产： 2026年7月8日此功能仅适用于已启用Adobe云存储的工作流Ultimate包中的组织。
+>预览：不适用生产快速发布： 2026年7月8日适用于所有人的生产： 2026年7月8日超出计划此功能仅适用于已启用Adobe云存储的工作流Ultimate包中的组织。
 
 Adobe Cloud Drive现在可供那些使用支持Adobe Cloud Storage的Workfront版本的组织使用。 Adobe Cloud Drive是一款桌面应用程序，可将您的Adobe Cloud Storage项目作为Mac或Windows计算机上的驱动器进行装载，因此您可以直接从Finder或文件资源管理器打开、编辑和保存任何应用程序中的文件。 您的更改会自动同步到Adobe云存储，并且可在Workfront和Frame.io中供您的团队使用。
 
