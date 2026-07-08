@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
+source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2824'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">本机引用字段支持默认值逻辑</a><p>[!BADGE Workflow Prime]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">本机引用字段支持默认值逻辑</a><p>[!BADGE Workflow Prime或更高版本]{type=Informational}</p>
                 <p>在自定义表单中，现在可使用本机引用字段添加默认值逻辑。 此逻辑类型仅在用户界面中可用，在Workfront API中不可用。</p>
             </td>
             <td><p>2026年7月7日</p></td>
