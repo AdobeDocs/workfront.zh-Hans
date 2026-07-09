@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 403
 ht-degree: 5%
 
 ---
@@ -32,10 +32,6 @@ ht-degree: 5%
 您可以为配置文件中发生[!DNL Adobe Workfront Goals]的事件启用电子邮件通知。 具有[!UICONTROL 计划]许可证的用户还可以为其他用户启用它们。 有关信息，请参阅[[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)。
 
 ## 访问权限要求
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
--->
 
 +++ 展开可查看本文所述功能的访问权限要求。 
 
@@ -68,10 +64,14 @@ ht-degree: 5%
 
 +++
 
-## 先决条件
+<!--
+Support asked for this to be removed: issue ref number 29111956
 
-* 您要更新其[!DNL Goals]通知的用户必须具有布局模板，该模板包括[!UICONTROL 主菜单]中的[!DNL Goals]区域。
+## Prerequisites
 
+* The user whose [!DNL Goals] notifications you want to update must have a Layout Template that includes the [!DNL Goals] area in the [!UICONTROL Main Menu].
+
+-->
 
 ## [!UICONTROL 用户配置文件]区域中的[!DNL Goals]通知
 
