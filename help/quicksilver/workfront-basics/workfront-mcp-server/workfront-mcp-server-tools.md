@@ -5,7 +5,7 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
+source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 5%
@@ -107,21 +107,6 @@ ht-degree: 5%
 | 按名称查找项目 | `approvals_find_project_by_name` | 通过系统中的部分名称匹配查找Workfront项目。 | 读取 |
 | 按所有者获取项目 | `approvals_get_projects_by_owner` | 列出呼叫用户是所有者的Workfront项目。 | 读取 |
 | 获取Adobe区域 | `approvals_get_adobe_region` | 返回云提供商所在地区的Adobe名称。 | 读取 |
-
-### 评论
-
-| 标题 | 工具名称 | 作用 | 操作 |
-| --- | --- | --- | --- |
-| 查询注释 | `comment-stream_query_comments` | 按对象ID查询注释，具有分页功能。 | 读取 |
-| 获取评论 | `comment-stream_get_comment` | 按ID获取单个注释。 | 读取 |
-| 获取评论计数 | `comment-stream_get_comments_count` | 获取对象的顶级评论总数。 | 读取 |
-| 创建评论 | `comment-stream_create_comment` | 在对象上创建新注释。 | 写入 |
-| 创建回复 | `comment-stream_create_reply` | 创建现有评论的回复。 | 写入 |
-| 更新评论 | `comment-stream_update_comment` | 更新现有评论或回复。 | 写入 |
-| 删除注释 | `comment-stream_delete_comment` | 按ID删除注释。 | 写入 |
-| 添加反应 | `comment-stream_add_reaction` | 向评论添加回应（如）。 | 写入 |
-| 删除反应 | `comment-stream_remove_reaction` | 从评论中删除反应（如）。 | 写入 |
-
 
 <!--
 
@@ -237,6 +222,22 @@ Insights tools retrieve information about Workfront objects.
 | 更新对象 | `workflow_update_any_object` | 更新现有Workfront对象中的字段。 | 写入 |
 | 删除对象 | `workflow_delete_any_object` | 按ID删除Workfront对象。 需要明确的用户确认才能执行操作。 | 写入 |
 | 解析字段名称 | `workflow_resolve_field_names_any_object` | 将用户提供的字段名称或标签转换为底层Workfront API字段名称，以便AI代理平台可以构建准确的请求。 | 读取 |
+
+### 评论
+
+| 标题 | 工具名称 | 作用 | 操作 |
+| --- | --- | --- | --- |
+| 查询注释 | `comment-stream_query_comments` | 按对象ID查询注释，具有分页功能。 | 读取 |
+| 获取评论 | `comment-stream_get_comment` | 按ID获取单个注释。 | 读取 |
+| 获取评论计数 | `comment-stream_get_comments_count` | 获取对象的顶级评论总数。 | 读取 |
+| 创建评论 | `comment-stream_create_comment` | 在对象上创建新注释。 | 写入 |
+| 创建回复 | `comment-stream_create_reply` | 创建现有评论的回复。 | 写入 |
+| 更新评论 | `comment-stream_update_comment` | 更新现有评论或回复。 | 写入 |
+| 删除注释 | `comment-stream_delete_comment` | 按ID删除注释。 | 写入 |
+| 添加反应 | `comment-stream_add_reaction` | 向评论添加回应（如）。 | 写入 |
+| 删除反应 | `comment-stream_remove_reaction` | 从评论中删除反应（如）。 | 写入 |
+
+
 
 ## 如何更新工具
 
