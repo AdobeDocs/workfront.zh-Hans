@@ -4,9 +4,9 @@ description: 2026年第三季度发布时间框架内的其他增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,17 @@ ht-degree: 0%
 本页介绍了在2026年第三季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 评论存档优化
+
+
+>[!NOTE]
+>
+>适用于所有客户的预览和生产：2026年7月7日开始超出计划&rbrack;{type=Neutral}
+
+我们当前正在优化所有显示更新区域的Workfront对象中超过1年的评论的评论存档。 这是一项内部工作，应该不会影响您对更新区域的体验。 对于任何对象类型，“更新”区域没有视觉上的更改，而且此更新的功能没有变化。 所有注释对于所有对象类型保持可见。
+
+有关信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 ## 全局导航图标的界面更新
 
