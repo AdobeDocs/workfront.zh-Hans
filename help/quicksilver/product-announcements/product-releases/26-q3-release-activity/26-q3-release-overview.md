@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 3%
@@ -61,7 +61,7 @@ ht-degree: 3%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP Connector中可用的新工具</a>
-                <p>为了扩展Workfront MCP连接器的功能，我们已添加了8个新工具，并弃用了搜索对象和解析字段名称工具。</p>
+                <p>为了扩展Workfront MCP连接器的功能，我们添加了一些新工具，并弃用了搜索对象和解析字段名称工具。</p>
             </td>
             <td><p>2026年7月7日</p></td>
             <td><p>2026年7月15日</p></td>
