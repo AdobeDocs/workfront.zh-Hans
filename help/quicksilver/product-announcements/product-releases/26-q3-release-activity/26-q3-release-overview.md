@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 3%
@@ -357,9 +357,9 @@ ht-degree: 3%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">将旧版存储任务转换为Adobe云存储项目</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
                 <p>如果您的组织同时使用旧版Workfront存储和Adobe云存储，则您现在可以将旧版存储任务转换为Adobe云存储项目。</p>
             </td>
-            <td><p>2026年6月11日</p></td>
-            <td><p>2026年6月12日</p></td>
-            <td><p>2026年6月12日</p></td>
+            <td><p>2026年7月9日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
         <tr>
             <td>
