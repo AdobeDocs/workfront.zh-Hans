@@ -5,9 +5,9 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 5%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## 工作流工具
 
 工作流工具是AI代理平台用于处理任何Workfront对象（项目、任务、问题、小时、任务、程序、项目组合等）的通用操作。
+
+### 对象和字段
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
