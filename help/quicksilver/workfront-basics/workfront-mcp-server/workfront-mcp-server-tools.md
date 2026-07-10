@@ -5,15 +5,17 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1788'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront MCP服务器工具
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 本文列出了[!DNL Adobe Workfront] MCP服务器向连接的AI代理平台公开的工具。 当您要求平台查找、创建、更新或删除Workfront项目时，它代表您调用这些工具。
 
@@ -251,7 +253,6 @@ Insights tools retrieve information about Workfront objects.
 
 我们正努力在未来将以下工具添加到Workfront MCP服务器：
 
-* 评论
 * 展示板
 
 

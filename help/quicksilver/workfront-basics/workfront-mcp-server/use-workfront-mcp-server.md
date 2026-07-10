@@ -5,15 +5,17 @@ title: 使用Adobe Workfront MCP服务器
 description: 使用Adobe Workfront MCP服务器可通过人工智能代理平台中的自然语言对话，搜索、创建、更新和管理Workfront项目。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 
 # 使用Adobe Workfront MCP服务器
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 [!DNL Adobe Workfront] MCP服务器允许您通过询问自然语言的AI代理平台来查找、创建、更新和管理Workfront项目。 平台会决定要调用哪些Workfront操作，并帮您处理与Workfront的对话。
 
@@ -208,9 +210,8 @@ Workfront设置区域。 如果禁用写入操作，则AI代理平台
 
 ### AI代理平台在更改或删除Workfront数据之前是否会询问我？
 
-这取决于人工智能的平台，而不是Workfront。大多数平台
-提示您在用户运行操作（尤其是删除操作）之前进行确认。
-在批准请求之前，请阅读平台声明将要执行的操作：
+这取决于人工智能的平台，而不是Workfront。 大多数平台
+提示您在用户运行操作（尤其是删除操作）之前进行确认。在批准请求之前，请阅读平台声明将要执行的操作：
 这些更改在Workfront中发生的方式与做出更改时的方式相同
 您自己也在界面中。
 
@@ -242,9 +243,8 @@ AI代理平台会根据您使用的单词选择项目。 如果您的
 
 ### 其他人能否看到我与人工智能代理平台的对话？
 
-Workfront不会存储您的提示或AI代理平台的响应。
-AI代理平台的所有提供者控制对话的方式
-存储或共享。与您的AI代理平台提供商联系，以了解
+Workfront不会存储您的提示或AI代理平台的响应。AI代理平台的所有提供者控制对话的方式
+存储或共享。 与您的AI代理平台提供商联系，以了解
 详细信息。
 
 ### 我是否需要知道Workfront API或要使用哪种MCP工具？
