@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1809
 ht-degree: 1%
 
 ---
@@ -189,11 +189,15 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 * 项目或任务的自定义状态与问题自定义状态具有相同的三个字母的代码。
 
-您可以为问题和项目或任务创建具有相同键的自定义状态。 当项目或任务（作为解析对象）更改为自定义状态时，更改也会反映在问题状态上。 问题和项目或任务状态的状态键必须相同。
+请考虑以下事项：
 
-例如，假设您使用三个字母的代码LCD创建了一个名为Launched的项目自定义状态，它等同于Current。 接下来，创建一个名为“已启动项目”的问题自定义状态，同时显示字母代码LCD，这相当于“进行中”。 将项目标记为已启动时，问题会自动将状态更改为项目已启动。 如果在解析对象更改设置的状态未启用时自动更新可解析问题状态，则问题状态将改为进行中。
+* 您可以为问题和项目或任务创建具有相同键的自定义状态。 当项目或任务（作为解析对象）更改为自定义状态时，更改也会反映在问题状态上。 问题和项目或任务状态的状态键必须相同。
 
-有关创建自定义状态的详细信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
+  例如，您可以使用三个字母的代码LCD创建名为Launched的项目自定义状态，这相当于Current。 接下来，创建一个名为“已启动项目”的问题自定义状态，同时显示字母代码LCD，这相当于“进行中”。 将项目标记为已启动时，问题会自动将状态更改为项目已启动。 如果在解析对象更改设置的状态未启用时自动更新可解析问题状态，则问题状态将改为进行中。
+
+* 当解析对象设置为映射到“完成”状态的系统状态时，可解析问题将设置为该状态自己的组的默认状态。 三字母状态键匹配仅适用于自定义状态路径，而不适用于Workfront配置的系统状态。
+
+  有关创建自定义状态的详细信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 ## 将解析对象的完成百分比与可解析对象的完成百分比同步
 

@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9f74d7a567a77128b5d6d6cfa1d4a8d559998a0f
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 8%
+source-wordcount: 1040
+ht-degree: 7%
 
 ---
 
@@ -29,8 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。它们在与Adobe Experience Manager Assets Essentials的集成中不可用。<br>
->此功能在新建文档区域不可用。
+>工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。此功能在新的“文档”区域中不可用。
 
 
 ## 访问权限要求
@@ -176,3 +175,51 @@ ht-degree: 8%
 在Fusion中配置模块的连接时，您将使用此客户端ID和客户端密钥。
 
 有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+
+## 故障排除
+
+**问题**：自定义表单意外附加到Fusion创建的项目
+
+**解决方法**：
+
+将`categoryID`从高级项目JSON移出并移入`project_new.categoryID`（使用Fusion UI中的结构化字段）。
+
+具体而言，将映射器更改为：
+
+```
+// project_new — set just this one field via the structured UI
+{
+    "categoryID": "5d3a292300b69eb5d80c37e8ce6269d3"
+}
+```
+
+```
+// project (advanced JSON) — remove categoryID from here
+{
+    "aemNativeFolderTreeIDs": ["693c40280e09eb1bd4085a5e"],
+    "aemNativeFolderWorkflowEnabled": "true",
+    "name": "{{1.name}}",
+    "templateID": "{{if(...)}}",
+    "ownerID": "{{1.ownerID}}",
+    "sponsorID": "{{1.ownerID}}",
+    "priority": "2",
+    "programID": "{{ifempty(7.ID; null)}}",
+    "description": "test",
+    "portfolioID": "{{ifempty(8.ID; null)}}",
+    "scheduleMode": "S",
+    "completionType": "AUT"
+}
+```
+
+**为什么它有效**：
+
+1. `isCtgyIDsGive`n现在看到`project_new.categoryID = "5d3a292300b69eb5d80c37e8ce6269d3"`→返回truthy → `temp.isCtgyIDsGiven = true`
+2. 跳过了步骤(`getAttachedAndAttachableCategoryID`)，其条件为`!temp.isCtgyIDsGiven`
+3. 相反，此步骤会触发： `ctgyIds = split(parameters.project_new.categoryID, ',')` → [&quot;5d3a292300b69eb5d80c37e8ce6269d3&quot;]
+4. `prepareMiscActionData`仍对所有特定于AEM的字段使用高级项目JSON（它优先于`project_new`），然后叠加`objectCategories: [{ categoryID: "5d3a292300b69eb5d80c37e8ce6269d3" }]`，仅包括其预期形式，无意外形式
+5. 使用`isCopyCustomData: true`将自定义字段值从源OPTASK复制到新项目的步骤仍按预期运行
+
+AEM字段(`aemNativeFolderTreeIDs`， `aemNativeFolderWorkflowEnabled`)保留在高级字段中不受影响。 此进程仅在找到`categoryID`时更改。
+
+
+
