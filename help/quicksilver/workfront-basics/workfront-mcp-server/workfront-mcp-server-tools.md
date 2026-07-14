@@ -5,7 +5,7 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f9074a40de57db0ddeb357d7122d1a622b8d9651
+source-git-commit: 61c763939686179bd5299bdd386afb493e49ea49
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 5%
@@ -110,21 +110,6 @@ ht-degree: 5%
 | 按所有者获取项目 | `approvals_get_projects_by_owner` | 列出呼叫用户是所有者的Workfront项目。 | 读取 |
 | 获取Adobe区域 | `approvals_get_adobe_region` | 返回云提供商所在地区的Adobe名称。 | 读取 |
 
-
-## 分析工具
-
-分析工具可检索有关Workfront对象的信息。
-
-| 标题 | 工具名称 | 作用 | 操作 |
-| --- | --- | --- | --- |
-| 读取文档 | `insights_read_docs` | 加载Workfront行动手册或域文档，如条件、状态、日期或字段路径。 这是查询数据之前所需的第一步。 | 读取 |
-| 获取当前用户 | `insights_get_current_user` | 检索您自己的Workfront身份，包括名称、ID和URL。 | 读取 |
-| 搜索字段 | `insights_search_fields` | 搜索项目、任务、问题、用户、项目组合、团队等的可用字段（标准和自定义）。 | 读取 |
-| 获取字段路径 | `insights_get_field_paths` | 解析实体的点表示法字段路径，这是数据查询工具所必需的。 | 读取 |
-| 按名称查找ID | `insights_find_id_by_name` | 按名称查找任何Workfront对象的ID，例如项目、任务、用户、项目组合等。 | 读取 |
-| 查找Workfront数据 | `insights_find_workfront_data` | 查找、筛选、计数、排序和聚合Workfront数据。 这是主要的查询和报告工具。 | 读取 |
-| 总结对象 | `insights_summarize_object` | 按ID获取并汇总单个Workfront对象。 | 读取 |
-| 列出实体 | `insights_list_entities` | 列出所有可用于查询的Workfront对象类型。 | 读取 |
 
 ## 规划工具
 
@@ -237,6 +222,22 @@ ht-degree: 5%
 | 删除注释 | `comment-stream_delete_comment` | 按ID删除注释。 | 写入 |
 | 添加反应 | `comment-stream_add_reaction` | 向评论添加回应（如）。 | 写入 |
 | 删除反应 | `comment-stream_remove_reaction` | 从评论中删除反应（如）。 | 写入 |
+
+## 分析工具
+
+分析工具可检索有关Workfront对象的信息。
+
+| 标题 | 工具名称 | 作用 | 操作 |
+| --- | --- | --- | --- |
+| 读取文档 | `insights_read_docs` | 加载Workfront行动手册或域文档，如条件、状态、日期或字段路径。 这是查询数据之前所需的第一步。 | 读取 |
+| 获取当前用户 | `insights_get_current_user` | 检索您自己的Workfront身份，包括名称、ID和URL。 | 读取 |
+| 搜索字段 | `insights_search_fields` | 搜索项目、任务、问题、用户、项目组合、团队等的可用字段（标准和自定义）。 | 读取 |
+| 获取字段路径 | `insights_get_field_paths` | 解析实体的点表示法字段路径，这是数据查询工具所必需的。 | 读取 |
+| 按名称查找ID | `insights_find_id_by_name` | 按名称查找任何Workfront对象的ID，例如项目、任务、用户、项目组合等。 | 读取 |
+| 查找Workfront数据 | `insights_find_workfront_data` | 查找、筛选、计数、排序和聚合Workfront数据。 这是主要的查询和报告工具。 | 读取 |
+| 总结对象 | `insights_summarize_object` | 按ID获取并汇总单个Workfront对象。 | 读取 |
+| 列出实体 | `insights_list_entities` | 列出所有可用于查询的Workfront对象类型。 | 读取 |
+
 
 
 
