@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 3%
 
 ---
@@ -357,9 +357,9 @@ ht-degree: 3%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">将旧版存储任务转换为Adobe云存储项目</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
                 <p>如果您的组织同时使用旧版Workfront存储和Adobe云存储，则您现在可以将旧版存储任务转换为Adobe云存储项目。</p>
             </td>
-            <td><p>2026年7月9日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ ht-degree: 3%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">正在引入新请求状态</a>
-                <p>为了进一步了解您的请求所处的状态，我们将为请求引入新的状态：新建、已暂挂和已取消。 “已完成”状态已重命名为“已完成”。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">旧体验和新体验之间的匹配请求状态</a>
+                <p>为了获取有关您的请求处于正确状态的更多上下文，我们将在新请求体验中更新请求的状态。</p>
             </td>
             <td><p>2026年5月27日</p></td>
             <td><p>2026年6月11日</p></td>

@@ -4,7 +4,7 @@ description: 2026年第三季度项目增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月9日快速发布生产： 2026年8月13日按季度发布的生产日期： 2026年10月15日超出计划&rbrack;{type=Neutral}
+>预览：2026年6月11日快速发布生产： 2026年6月11日按季度发布的生产日期： 2026年6月11日超出计划&rbrack;{type=Neutral}
 
 如果您的组织同时使用旧版Workfront存储和Adobe云存储，则您现在可以将旧版存储任务转换为Adobe云存储项目。执行此操作时，文档和文档审批将保留在父对象上，而不是转移到新创建的项目中。
 

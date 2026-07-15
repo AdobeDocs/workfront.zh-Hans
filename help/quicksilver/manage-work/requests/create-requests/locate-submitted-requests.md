@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
+source-wordcount: 1591
 ht-degree: 2%
 
 ---
@@ -113,8 +113,7 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。
->     Planning请求的&#x200B;**对象类型**&#x200B;的命名方式如下： `< Name of workspace > > < Name of record type >`。例如，Planning请求的Object类型可能名为`Marketing workspace > Campaigns`。\
+>* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。Planning请求的&#x200B;**对象类型**&#x200B;按照以下模式命名： `< Name of workspace > > < Name of record type >`。 例如，Planning请求的Object类型可能名为`Marketing workspace > Campaigns`。\
 >     Workfront请求的&#x200B;**对象类型**&#x200B;是`Issue`。
 >* 默认情况下，请求区域的列表中最多显示50个请求。 要查看更多请求，请滚动到列表底部。
 
@@ -166,9 +165,12 @@ Remove production and preview references at release
    * **正在进行**：
       * Workfront请求：请求已转换，工作正在进行。
       * Workfront Planning请求：请求完成映射至特定的Planning字段，并且该字段值与完成值不匹配。
-   * **搁置**：这适用于Workfront请求，并由用户手动设置。
-   * <span class="preview">**已取消**：这适用于Workfront请求。</span> <!--checking with Khach)-->
+   * **已搁置**：这可用于Workfront请求。 用户可手动设置。
    * <span class="preview">**完成**：已创建完成请求的Planning记录。 （仅限Planning）</span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### 在旧版中查看已提交的请求请求体验
 

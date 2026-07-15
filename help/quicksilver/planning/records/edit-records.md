@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 0%
 
 ---
@@ -202,7 +202,19 @@ Old:
 1. （视情况而定）单击表视图的选项卡或单击&#x200B;**+视图**&#x200B;以创建表视图。 表格视图应为默认视图，除非您在上次访问记录类型时已在其他类型的视图中查看了该记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
+
 1. （可选）单击搜索框并添加关键字以查找要编辑的记录。
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
@@ -279,8 +291,7 @@ Old:
 
    * **查看**&#x200B;或&#x200B;<span class="preview">**在新选项卡中打开**</span>：这将打开记录页面。
    * **复制链接**：复制指向记录页面的链接。
-   * **编辑缩略图**：向记录中添加缩略图。
-有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+   * **编辑缩略图**：向记录中添加缩略图。有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
    * **重复**：这将创建记录的相同重复。
    * **在上方插入记录/在下方插入记录**：添加新的行，以便添加新记录。 <span class="preview">在“预览”环境中无法执行此操作。</span>
    * **删除**：删除记录。 删除的记录保存在“最近删除”框中，最长可保留30天。
