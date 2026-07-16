@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
+source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
 workflow-type: tm+mt
-source-wordcount: '14290'
+source-wordcount: '14340'
 ht-degree: 2%
 
 ---
@@ -721,7 +721,7 @@ ht-degree: 2%
          * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * {hide-from-toc}[增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * {hide-from-toc}[使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+         * 使用增强型身份验证时{hide-from-toc}[更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 汇率 {#exchange-rates}
          * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1193,7 +1193,7 @@ ht-degree: 2%
       * [删除文档](documents/managing-documents/delete-documents.md)
       * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
       * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * {hide-from-toc}[在Workfront中AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+      * 在Workfront中{hide-from-toc}[AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 组织文档 {#organize-documents}
       * [组织文档](documents/organizing-documents/organize-documents.md)
       * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
@@ -2174,7 +2174,7 @@ ht-degree: 2%
    * Adobe Workfront计划报表 {#adobe-workfront-planning-reporting}
       * [Adobe Workfront Planning报表：文章索引](planning/reporting/reporting-in-planning-article-index.md)
       * [在报表中查看Workfront规划信息](planning/reporting/planning-information-in-reports.md)
-      * {hide-from-toc}[适用于Workfront Planning的Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+      * 适用于Workfront Planning的{hide-from-toc}[Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
    * Adobe Workfront规划最佳实践 {#adobe-workfront-planning-best-practices}
       * [Adobe Workfront最佳实践：文章索引](planning/best-practices.md/best-practices-article-index.md)
       * [推出您的战略主页：30天的启动台](planning/best-practices.md/30-day-launchpad.md)
@@ -2272,9 +2272,13 @@ ht-degree: 2%
       * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [在Adobe Workfront Planning中管理GenStudio工作区](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[将Workfront规划工作区提升到GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-   * Adobe Workfront独立规划 {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront Planning Standalone：文章索引](planning/planning-sta/planning-sta-article-index.md)
-      * {hide-from-toc}[开始使用Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
+   * Adobe Workfront Planning作为独立产品 {#planning-standalone}
+      * [Adobe Workfront Planning作为独立产品：文章索引](planning/planning-sta/planning-sta-article-index.md)
+      * [Adobe Workfront Planning作为独立产品入门](planning/planning-sta/planning-sta-overview.md)
+      * [Adobe Workfront Planning作为独立产品所需的访问权限](planning/planning-sta/access-needed-for-planning-sta.md)
+      * [将Adobe Workfront Planning实例作为独立产品进行管理](planning/planning-sta/manage-planning-sta-instance.md)
+      * [在Adobe Workfront Planning中作为独立产品管理用户](planning/planning-sta/manage-users-in-planning-sta.md)
+      * [在Adobe Workfront Planning中将团队作为独立产品进行管理](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront集成 {#adobe-workfront-integrations}
    * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront内置集成概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2617,10 +2621,10 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本22中的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [API版本22](/help/quicksilver/wf-api/api/new-api-version-22.md)中的新增功能
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

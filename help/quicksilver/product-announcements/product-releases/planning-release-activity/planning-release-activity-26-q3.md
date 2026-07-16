@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
 workflow-type: tm+mt
-source-wordcount: '2883'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,38 @@ There are no features released during the Third Quarter Release for 2026. When f
 本文介绍了在2026年第三季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 访问级别的新许可证类型字段
+
+>[!NOTE]
+>
+>面向所有客户的预览和生产： 2026年7月16日
+>[!BADGE 超出计划]{type=Neutral}
+
+
+我们已在“访问级别”框中进行了以下字段更改：
+
+* 我们已将“访问级别”框中的“许可证类型”字段重命名为“工作流许可证类型”。 此重新标记的功能没有变化。
+
+  有关信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+* 对于已购买Workfront Planning包的客户，我们已添加了一个新的Planning许可证类型字段，以说明用户对Workfront Planning的许可证。
+已购买相同数量的Workflow和Planning许可证的客户具有以下可用许可证类型：
+
+   * 规划标准
+   * 规划参与者
+   * 无
+
+>[!NOTE]
+>
+>您可以在Workflow和Planning之间为用户分配混合许可证组合，但用户必须具有付费的Workflow许可证才能获得Planning Standard许可证。
+>
+>例如，Planning Standard许可证不能分配给工作流参与者用户。 现在可以为具有Workflow Light许可证的用户授予Planning的标准许可证，从而管理工作区及其内容。 以前，他们只能拥有对Planning数据的仅查看访问权限。
+>
+>新客户可以购买不同数量的Planning和Workflow许可证，并将它们与任意组合一起使用。 在此情况下，Planning Contributor许可证类型不可用。
+
+有关信息，请参阅[Adobe Workfront计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Snowflake中Workfront Planning的自动访问控制
 
