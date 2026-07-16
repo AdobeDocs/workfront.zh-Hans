@@ -107,7 +107,7 @@ This list also exists here: \help\quicksilver\planning\access\license-type-overv
   有关信息，请参阅[将Adobe Workfront Planning实例作为独立产品进行管理](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)。
 * 在Fusion中使用Workfront Planning连接器
 
-  有关信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+  有关信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 * 如果贵组织还购买了GenStudio for Performance Marketing，请管理Adobe GenStudio for Performance Marketing工作区。
 
   有关信息，请参阅[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
