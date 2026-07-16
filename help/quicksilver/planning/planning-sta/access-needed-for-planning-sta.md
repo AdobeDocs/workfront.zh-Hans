@@ -66,7 +66,7 @@ the bullets repeat in the "Planning overview" article
 
 * Workfront Planning作为适用于组织中用户的独立产品。 这样，用户既无法访问任何Workfront工作流功能，也无法访问Planning功能。
 
-有关作为独立产品包含在Planning中的功能的信息，请参阅[作为独立产品开始使用Workfront Planning ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)一文中的“作为独立产品包含在Adobe Workfront Planning中的功能”部分。
+有关作为独立产品包含在Planning中的功能的信息，请参阅[作为独立产品开始使用Workfront Planning &#x200B;](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)一文中的“作为独立产品包含在Adobe Workfront Planning中的功能”部分。
 
 ## 用户许可证和访问级别
 
