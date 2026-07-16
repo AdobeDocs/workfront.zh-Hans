@@ -9,22 +9,15 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 9%
+source-wordcount: 624
+ht-degree: 8%
 
 ---
 
@@ -175,7 +168,7 @@ Old:
   | 数字格式的单行文本 | 数值 |
   | 货币格式的单行文本 | 货币 |
   | 段落 | 段落 |
-  | 带格式文本 | 段落 |
+  | 富文本/带格式的文本 | 段落 |
   | 单选下拉菜单 | 单选 |
   | 多选下拉框 | 多选 |
   | 不支持用户预输入筛选器 | 人员 |
