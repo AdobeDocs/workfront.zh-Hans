@@ -9,19 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
 TQID: https://experienceleague.adobe.com/cco-UwmTpDJ4bc6KvTM2BgRmvudLZveRY5WmpbhsnqM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 2%
 
 ---
@@ -68,7 +63,7 @@ ht-degree: 2%
 
 如果用户填写自定义表单时，如果应用了逻辑的字段满足定义的验证条件，则该字段会高亮显示并显示错误消息。
 
-您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、预输入、日期、复选框组和单选按钮。
+您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、内部查找、日期、复选框组和单选按钮。
 
 ### 仅允许项目所有者选择“Rush”SLA
 
@@ -134,9 +129,9 @@ IF({ownerID}!=$$USER,IF(ISBLANK({ownerID}),"Project Owner will provide this.",CO
 
 ![只有Claire Stevens可以编辑此字段](assets/only-project-owner-can-edit.png)
 
-### 预输入根据其他字段值允许或拒绝值
+### 内部查找根据其他字段值允许或拒绝值
 
-在此示例中，预输入字段根据在表单上的其他字段中输入的值，动态允许或拒绝值。
+在此示例中，内部查找字段根据在表单上的其他字段中输入的值，动态地允许或拒绝值。
 
 验证表达式：
 
@@ -146,7 +141,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-如果预算字段中的值超过$10,000，那么即使预输入配置上未启用角色过滤器，也只能从预输入中选择具有Director角色的用户。
+如果预算字段中的值超过$10,000，那么即使内部查找配置中未启用角色过滤器，也只能从内部查找中选择具有Director角色的用户。
 
 ![预算金额需要主管审批](assets/budget-director.png)
 

@@ -7,15 +7,11 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
 workflow-type: tm+mt
 source-wordcount: 697
 ht-degree: 3%
@@ -56,7 +52,7 @@ ht-degree: 3%
 
 您组织的[!DNL Workfront]实例必须载入[!DNL Adobe Business Platform]或[!DNL Adobe Admin Console]。
 
-如果您对加入[!DNL Adobe Admin Console]有任何疑问，请参阅[[!DNL Adobe Unified Experience] 常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/)。
+如果您对加入[!DNL Adobe Admin Console]有任何疑问，请参阅[[!DNL Adobe Unified Experience] 常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
 ## Adobe Identity Management System (IMS)
 
@@ -130,6 +126,6 @@ ht-degree: 3%
 
 如果您的密码由[!DNL Adobe]管理，则可以在Adobe帐户中更改密码。
 
-[请参阅本文，了解如何更改您的Adobe密码。](https://helpx.adobe.com/cn/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[请参阅本文，了解如何更改您的Adobe密码。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 有关更改密码的详细信息，请与管理员联系。

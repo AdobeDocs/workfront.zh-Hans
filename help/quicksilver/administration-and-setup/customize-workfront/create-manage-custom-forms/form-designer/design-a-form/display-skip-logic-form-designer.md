@@ -9,27 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 3610
+source-wordcount: 3613
 ht-degree: 0%
 
 ---
 
 # 向自定义表单和字段添加逻辑规则
-
-{{highlighted-preview}}
 
 利用逻辑规则，可进一步自定义表单上的字段。
 
@@ -97,7 +89,8 @@ ht-degree: 0%
 
 ## 使用显示逻辑和跳过逻辑的注意事项
 
-* 要在自定义字段、小组件或分区界限中添加显示逻辑，必须在表单上至少一个多选字段（单选按钮、下拉列表或复选框）之前放置。有关自定义表单中的自定义字段和小部件的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+* 要在自定义字段、小组件或分区界限中添加显示逻辑，必须在表单上至少一个多选字段（单选按钮、下拉列表或复选框）之前放置。
+有关自定义表单中的自定义字段和小部件的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 * 无法将跳过逻辑添加到构件或分区界限中。 您只能将其添加到多选字段（单选按钮、下拉列表或复选框）。
 * 不能应用显示或跳过逻辑来显示或隐藏多选项字段的选择。 例如，不能根据其他字段的显示或跳过逻辑限制为下拉列表、复选框组或单选按钮字段显示的选项。
 * 如果自定义字段的以下情况全部属实，则您可以将显示逻辑和跳过逻辑添加到自定义字段中：
@@ -150,7 +143,7 @@ ht-degree: 0%
 
 ## 向自定义表单添加高级显示逻辑
 
-自定义表单字段的高级显示逻辑允许您使用公式构建复杂的逻辑。 您可以将此逻辑应用于以下字段类型：单行文本、段落、带格式的文本、单选下拉列表、多选下拉列表、外部查找、多选外部查找、本机字段引用、预输入、计算、日期、复选框组和单选按钮。
+自定义表单字段的高级显示逻辑允许您使用公式构建复杂的逻辑。 您可以将此逻辑应用于以下字段类型：单行文本、段落、富文本、单选下拉列表、多选下拉列表、外部查找、多选外部查找、本机字段引用、内部查找、计算、日期、复选框组和单选按钮。
 
 >[!NOTE]
 >
@@ -168,7 +161,7 @@ ht-degree: 0%
 
 请注意，`123abc`表示资源管理器的角色ID。
 
-为角色![&#128279;](assets/advanced-display-on-form1.png)显示的表单节
+为角色](assets/advanced-display-on-form1.png)显示的![表单节
 
 具有不同角色ID的相同条件将应用于“项目财务KPI”部分，以定义只有财务顾问角色可以查看该部分。
 
@@ -239,7 +232,7 @@ ht-degree: 0%
 
 默认值逻辑允许您使用公式为自定义表单字段配置默认值。 当满足定义的条件时，将显示默认值。 默认值可以是引用对象内其他字段的静态值或动态值。 尽管默认值可以引用其他字段，但它不会随着表单上的其他字段更改而更改。
 
-您可以将高级默认值逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、<span class="preview">本机字段引用</span>、预输入、复选框组和单选按钮。
+您可以将高级默认值逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、本机字段引用、内部查找、复选框组和单选按钮。
 
 >[!TIP]
 >
@@ -249,7 +242,7 @@ ht-degree: 0%
 >
 >表单设计器中的标准默认值逻辑仍然存在。 如果这两种类型应用于同一字段，则高级逻辑优先。 有关标准默认值逻辑的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中的[添加单选按钮、复选框组和下拉列表](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)。
 >
-><span class="preview">对于本机引用字段，默认值逻辑仅在用户界面中可用，在Workfront API中不可用。</span>
+>对于本机引用字段，默认值逻辑仅在用户界面中可用，在Workfront API中不可用。
 
 ### 示例
 
@@ -289,7 +282,7 @@ IF({status} = 'PLN', ARRAY({description}, ','))
 
 如果用户填写自定义表单时，如果应用了逻辑的字段满足定义的验证条件，则该字段会高亮显示并显示错误消息。
 
-您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、预输入、日期、复选框组和单选按钮。
+您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、内部查找、日期、复选框组和单选按钮。
 
 ### 示例
 
@@ -336,7 +329,7 @@ IF({DE:Budget Field} < 0,
 
 格式逻辑在满足定义的条件时突出显示字段值。 应用的格式将同时适用于多个字段。
 
-可以将格式逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、预输入、计算、日期、复选框组和单选按钮。
+可以将格式逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、内部查找、计算、日期、复选框组和单选按钮。
 
 应用于自定义表单的格式与应用于列表和报表的格式不同。 有关报表格式的信息，请参阅[在视图中使用条件格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
@@ -399,7 +392,7 @@ IF(
 
 可编辑性逻辑确定自定义表单字段是否可以编辑或是否为只读。 此逻辑是使用公式构建的，当字段满足定义的条件时，可以将其设置为可编辑或只读。
 
-您可以将可编辑性逻辑应用于以下字段类型：单行文本、段落、带格式的文本、单选下拉列表、多选下拉列表、外部查找、多选外部查找、预输入、日期、复选框组和单选按钮。
+您可以将可编辑性逻辑应用于以下字段类型：单行文本、段落、富文本、单选下拉列表、多选下拉列表、外部查找、多选外部查找、内部查找、日期、复选框组和单选按钮。
 
 ### 示例
 

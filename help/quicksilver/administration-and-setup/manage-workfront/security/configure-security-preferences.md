@@ -11,24 +11,14 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1218
 ht-degree: 8%
 
 ---
@@ -115,7 +105,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader"> <p>使用电子邮件地址与没有Workfront帐户的人员协作</p> </td> 
-      <td>允许Workfront用户通过包含其电子邮件地址而非姓名与没有Workfront帐户的用户共享某些项目。用户可以使用其电子邮件地址与外部用户共享以下项目：
+      <td>允许Workfront用户通过包含其电子邮件地址而非姓名与没有Workfront帐户的用户共享某些项目。 用户可以使用其电子邮件地址与外部用户共享以下项目：
        <ul>
         <li>文档<br></li>
         <li>文档请求<br></li>
@@ -150,12 +140,12 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 用户仍然可以在Workfront中看到优先级图标，但是他们无权访问该功能。 有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
      </tr>
      <tr>
-      <td><span class="preview">批量编辑时始终强制要求必需字段</span></td>
-      <td><span class="preview"><p>允许您选择在批量编辑对象时是否强制用户在必填字段中输入信息。</p> <p>选择此选项时，必填字段必须具有值，才能以批量编辑模式保存。 如果必填字段至少缺少一个批量选定对象的值，则不允许保存。</p> <p>如果未选择此选项，则只有在用户修改必填字段时，才会强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。</p></span></td>
+      <td>批量编辑时始终强制要求必需字段</td>
+      <td><p>允许您选择在批量编辑对象时是否强制用户在必填字段中输入信息。</p> <p>选择此选项时，必填字段必须具有值，才能以批量编辑模式保存。 如果必填字段至少缺少一个批量选定对象的值，则不允许保存。</p> <p>如果未选择此选项，则只有在用户修改必填字段时，才会强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">存储偏好设置 </td> 
-      <td>在此部分中，您可以启用Adobe Cloud首选项。允许您选择为整个组织或特定组启用或禁用Adobe云存储。 
+      <td>在此部分中，您可以启用Adobe Cloud首选项。 允许您选择为整个组织或特定组启用或禁用Adobe云存储。 
       <p>更新以下信息：</p>
       <ul><li><b>默认值</b>：选择旧版Workfront存储或Adobe云存储</li>
       <li><b>允许用户选择存储提供程序</b>：这允许用户在创建Workfront对象时在这两种存储类型之间进行选择。</li>
@@ -163,7 +153,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <li><b>选择要转换为Adobe云存储的项目组合</b>：选择要自动从Workfront旧存储转换为Adobe云存储的项目组合。 保存系统首选项时，将转换项目组合。</li></ul>     
     有关Adobe云存储的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">为您的组织启用Adobe云存储</a>。</td></tr>
     <tr> 
-      <td role="rowheader">选择要转换为Adobe云存储的项目组合 </td> 
+      <td role="rowheader">选择要转换为 Adobe 云存储的项目组合 </td> 
       <td>允许您将现有的旧版Workfront存储产品组合转换为Adobe云存储。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">将旧项目组合转换为Adobe云存储</a>。</td> 
      </tr>
      <tr> 
