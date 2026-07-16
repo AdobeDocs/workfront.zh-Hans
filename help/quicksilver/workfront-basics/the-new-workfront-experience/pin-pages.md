@@ -6,24 +6,18 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 3%
+source-wordcount: 348
+ht-degree: 5%
 
 ---
 
 # 固定页面以自定义工作区
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +58,7 @@ ht-degree: 3%
 
 1. 在页面的左上角，单击&#x200B;**[!UICONTROL 固定当前页面]**。 现在可从[!DNL Workfront]中任何页面的顶部访问固定页面。
 
-   预览环境中的<span class="preview">示例图像：
    ![固定当前页面](assets/pin-current-page-button-2026.png)
-
-   生产环境中的示例图像：
-   ![固定当前页面](assets/pin-current-page-button.png)
 
 ## 访问固定页面
 
@@ -82,15 +72,9 @@ ht-degree: 3%
 
    如果固定了多个页面，请单击&#x200B;**[!UICONTROL 更多]**&#x200B;图标![单击“更多”图标](assets/more-icon.png)以查看其他固定页面。
 
-   预览环境中的<span class="preview">示例图像：
    ![固定当前页面](assets/display-pinned-pages-2026.png)
 
-   生产环境中的示例图像：
-   ![查看其他固定页面](assets/display-pinned-pages.png)
-
    此时将显示固定页面。
-
-<div class="preview">
 
 ## 管理大头针
 
@@ -107,36 +91,35 @@ ht-degree: 3%
 
 1. 完成编辑pin后，单击&#x200B;**关闭**。
 
-</div>
+<!--
+## Rename a pinned page
 
-## 重命名固定页面
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. 在顶部导航中，将鼠标悬停在固定页面上。
-1. 单击pin名称旁边显示的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后选择&#x200B;**[!UICONTROL 重命名pin]**。
+   ![Rename pin](assets/pin-menu.png)
 
-   ![重命名pin](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. 键入新的pin名称，然后单击&#x200B;**保存**。
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![单击复选标记可重命名pin](assets/rename-pin-dialog-box.png)
+## Reorder pinned pages
 
-## 重新排列固定页面
+You can rearrange the order that pinned pages appear.
 
-您可以重新排列固定页面的显示顺序。
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. 将鼠标悬停在要移动的固定页面上，然后单击&#x200B;**更多**&#x200B;图标![更多](assets/more-icon.png)。
-1. 选择&#x200B;**向左移动**&#x200B;或&#x200B;**向右移动**&#x200B;以移动您的pin。
-1. （可选）选择&#x200B;**移到前面**&#x200B;将大头针移到大头针栏的最左位置。
+   ![move pins](assets/pin-menu.png)
 
-   ![移动大头针](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   您的更改会自动保存，并在您下次访问Workfront时记住这些更改。
+## Remove a pinned page
 
-## 删除固定页面
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. 单击要删除的pin旁边的&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)。
-1. 单击&#x200B;**删除pin**。 无法再从[!DNL Workfront]中任何页面的顶部访问该页面。
-
-   ![移除pin](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 

@@ -7,28 +7,20 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: 334
 ht-degree: 0%
 
 ---
 
 # 痕迹导航概述
 
-{{highlighted-preview}}
-
 痕迹导航显示所有对象类型的完整导航层次结构。 痕迹导航路径中的每个对象都有一个显示对象类型的标签。 当前所在的页面以斜体显示在页眉和痕迹导航路径末尾。 在以下示例中，这是“[!UICONTROL 与品牌团队]共享”任务。
 
-预览环境中的<span class="preview">示例图像：</span>
 ![折叠的痕迹导航](assets/collapsed-breadcrumb-2026.png)
-
-生产环境中的示例图像：
-![折叠的痕迹导航](assets/NWE-collapsed-breadcrumb.png)
 
 当痕迹导航路径中的对象过多或屏幕宽度禁止显示完整导航层次结构时，路径会折叠某些痕迹导航，并在痕迹导航路径的开头对这些对象进行分组。 项目页面和当前对象页面在痕迹导航路径中始终可见。
 
@@ -36,11 +28,7 @@ ht-degree: 0%
 
 单击“[!UICONTROL 更多]”可展开整个层次结构。 您可以单击“[!UICONTROL 更少]”以再次折叠痕迹导航路径。
 
-预览环境中的<span class="preview">示例图像：</span>
 ![折叠的痕迹导航](assets/expanded-breadcrumb-2026.png)
-
-生产环境中的示例图像：
-![扩展的痕迹导航](assets/NWE-expanded-breadcrumb.png)
 
 您还可以使用以下键在痕迹导航中导航：
 

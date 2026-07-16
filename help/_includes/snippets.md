@@ -1,7 +1,7 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2258'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 步骤1 — 开始设置 {#step-1-to-setup}
 
-1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup-2026.png)。
 
 ## 窗体设计器到GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 第1步 — 转至用户 {#step-1-to-users}
 
-1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![用户图标](/help/_includes/assets/users-icon-in-main-menu.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![用户图标](/help/_includes/assets/users-icon-in-main-menu-2026.png)。
 
 
 <!-- Agile -->
