@@ -5,17 +5,15 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
 
 
 # 配置Adobe Workfront MCP服务器
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 [!DNL Adobe Workfront] MCP服务器允许您在受支持的AI代理平台上通过自然语言对话处理Workfront数据。
 
@@ -34,12 +32,11 @@ Workfront MCP服务器可与支持模型上下文协议(MCP)的任何AI代理平
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-如果您使用其他MCP兼容的AI代理平台（例如，[!DNL Gemini]或[!DNL Microsoft Copilot]），请按照该平台文档中的步骤添加自定义MCP服务器。 当提示您输入MCP服务器URL时，请输入您所在地区的URL：
+如果您使用其他MCP兼容的AI代理平台（例如，[!DNL Gemini]或[!DNL Microsoft Copilot]），请按照该平台文档中的步骤添加自定义MCP服务器。 当系统提示输入MCP服务器URL时，请输入：
 
-| 区域 | URL |
-| --- | --- |
-| 美国 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-| 欧盟 | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## 先决条件
 
@@ -117,12 +114,11 @@ MCP服务器访问由两个不同的管理员控制。
 1. 在左侧菜单中，选择&#x200B;**自定义**&#x200B;图标。
 1. 选择&#x200B;**连接器**，然后选择&#x200B;**+**&#x200B;图标以添加连接器。
 1. 选择&#x200B;**创建应用程序**&#x200B;按钮。
-1. 为连接器指定所需的名称（如“Workfront”），然后输入所需的MCP服务器URL：
+1. 为连接器指定所需的名称（如“Workfront”），并输入MCP服务器URL：
 
-   | 区域 | URL |
-   | --- | --- |
-   | 美国 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | 欧盟 | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. 创建连接器后，会弹出登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
 
@@ -148,12 +144,11 @@ MCP服务器访问由两个不同的管理员控制。
 1. 在左下方，选择&#x200B;**您的姓名** → **设置**。
 1. 选择&#x200B;**应用程序**，然后启用&#x200B;**开发人员模式**。
 1. 选择&#x200B;**创建应用程序**&#x200B;按钮。
-1. 为应用程序指定所需的名称（如“Workfront”），然后输入所需的MCP服务器URL：
+1. 为应用程序指定所需的名称（如“Workfront”），然后输入MCP服务器URL：
 
-   | 区域 | URL |
-   | --- | --- |
-   | 美国 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | 欧盟 | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. 确保身份验证设置为&#x200B;**OAuth**（默认设置），并选中接受复选框以继续。
 1. 创建应用程序后，会弹出一个登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。

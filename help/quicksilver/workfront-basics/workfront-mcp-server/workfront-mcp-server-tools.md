@@ -5,17 +5,15 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
+source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1964'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront MCP服务器工具
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 本文列出了[!DNL Adobe Workfront] MCP服务器向连接的AI代理平台公开的工具。 当您要求平台查找、创建、更新或删除Workfront项目时，它代表您调用这些工具。
 
@@ -50,6 +48,8 @@ ht-degree: 5%
 | 按版本ID获取文档 | `approvals_get_document_by_version_id` | 获取已知文档版本ID的文档详细信息（名称、大小、上传日期、上传程序）。 | 读取 |
 | 按项目获取文档 | `approvals_get_documents_by_project` | 列出Workfront项目中的文档，以及每个文档的当前版本ID。 | 读取 |
 | 解析文档范围 | `approvals_resolve_document_scope` | 将项目或文件夹展开到其中包含的文档版本ID列表中。 支持项目、文件夹和按名称文件夹范围。 | 读取 |
+| 查找文档 | `approvals_find_document` | 按文件名或文档版本ID查找文档 | 读取 |
+| 按范围获取文档 | approvals_get_documents_by_scope | 在项目或文件夹中列出文档。 | 读取 |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -108,7 +108,7 @@ ht-degree: 5%
 | 按名称查找团队 | `approvals_find_team_by_name` | 按名称（模糊或部分匹配）查找Workfront团队的ID。 | 读取 |
 | 按名称查找项目 | `approvals_find_project_by_name` | 通过系统中的部分名称匹配查找Workfront项目。 | 读取 |
 | 按所有者获取项目 | `approvals_get_projects_by_owner` | 列出呼叫用户是所有者的Workfront项目。 | 读取 |
-| 获取Adobe区域 | `approvals_get_adobe_region` | 返回云提供商所在地区的Adobe名称。 | 读取 |
+| 查找项目 | approvals_find_projects | 查找Workfront项目，可以选择按名称筛选和/或限制到调用用户拥有的项目。 | 读取 |
 
 
 ## 规划工具
@@ -142,7 +142,7 @@ ht-degree: 5%
 | 列出全局记录类型 | `planning_list_global_record_types` | 列出当前用户可见的所有集中定义的（全局）记录类型。 | 读取 |
 | 列出可添加全局记录类型 | `planning_list_addable_global_record_types` | 列出可添加到特定工作区的全局记录类型。 | 读取 |
 | 向工作区添加全局记录类型 | `planning_add_global_record_type_to_workspace` | 将全局记录类型链接到指定的工作区。 | 写入 |
-| 从工作区中删除全局记录类型 | `planning_remove_global_record_type_from_workspace` | 从工作区中取消全局记录类型的链接；删除该工作区中的所有记录。 | 写入 |
+| 从工作区中删除全局记录类型 | `planning_remove_global_record_type_from_ws` | 从工作区中取消全局记录类型的链接；删除该工作区中的所有记录。 | 写入 |
 | 获取外部记录工作区 | `planning_get_external_record_workspaces` | 查找哪些工作区和记录类型连接到特定外部记录。 | 读取 |
 | 获取记录类型共享 | `planning_get_record_type_sharing` | 返回特定记录类型的共享和权限。 | 读取 |
 | 修改记录类型共享 | `planning_modify_record_type_sharing` | 更新谁可以访问记录类型以及什么权限级别。 | 写入 |
