@@ -10,11 +10,9 @@ exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 1%
@@ -22,8 +20,6 @@ ht-degree: 1%
 ---
 
 # 文档详情概述
-
-{{highlighted-preview}}
 
 “文档详细信息”页面允许您查看、通信和管理附加到Adobe Workfront对象的文档属性。
 
@@ -112,8 +108,6 @@ ht-degree: 1%
    ![文档详细信息](assets/doc-details.png)
 
 
-<div class="preview">
-
 ### 在新建文档区域查看打印摘要
 
 文档获得批准后，您可以打开Frame.io “打印注释”页面以可打印格式查看资产预览、注释和批准决策。
@@ -130,5 +124,3 @@ ht-degree: 1%
 >
 >只有在文档中添加了批准之后，才会显示打印摘要链接。
 
-
-</div>
