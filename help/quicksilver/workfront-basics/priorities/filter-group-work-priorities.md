@@ -7,17 +7,12 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 7%
@@ -75,68 +70,69 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 单击工作列表左上角的&#x200B;**筛选器**。
-1. 在&#x200B;**标准筛选器**&#x200B;部分中，选择一个或多个筛选器以缩小工作项的范围。
-   ![过滤器](assets/filter-new.png)
+1. 在&#x200B;**标准筛选器**部分中，选择一个或多个筛选器以缩小工作项的范围。
+   ![过滤器](assets/filter-060226.png)
 
-+++展开以查看有关可用筛选器的详细信息
-<table>
-  <tbody>
-   <tr>
-   <th>筛选条件</th>
-   <th>描述</th>
-   </tr>
-    <tr>
-      <td>正在努力</td>
-      <td>显示您当前处理的项目</td>
-    </tr>
-    <tr>
-      <td>准备开始</td>
-      <td>显示项目和 
-      <ul>
-      <li>没有未完成的前置任务或任务限制</li>
-      <p>和</p>
-      <li>计划开始日期是过去的日期，或者最多在未来的两周内</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>未就绪</td>
-      <td>显示具有
-       <ul>
-      <li>未完成的前置任务或阻止处理项目的任务限制</li></ul>
-      <p>或</p>
-      <ul>
-      <li>超过两周后的计划开始日期</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>已请求</td>
-      <td>显示您尚未开始处理的问题</td>
-    </tr>
-      <td>完成</td>
-      <td>显示过去两周内完成的工作。 此筛选器选项不包括审批。</td>
-    </tr>
-    <tr>
-    <td>项目</td>
-    <td>显示包含您已被分派的任务或问题的项目</td>
-    </tr>
-    <tr>
-    <td>到期日期</td>
-    <td>按计划完成日期显示工作</td>
-    </tr>
-    <tr>
-    <td>我的焦点</td>
-    <td>显示已分配焦点级别的任务或问题。 焦点级别由个人用户分配和管理。</td>
-    </tr>
-    <tr>
-    <td>状态</td>
-    <td>显示处于新、进行中和完成状态的任务或问题。</td>
-    </tr>
-  </tbody>
-</table>
+   +++展开以查看有关可用筛选器的详细信息
+   <table>
+     <tbody>
+      <tr>
+      <th>筛选条件</th>
+      <th>描述</th>
+      </tr>
+       <tr>
+         <td>正在努力</td>
+         <td>显示您当前处理的项目</td>
+       </tr>
+       <tr>
+         <td>准备开始</td>
+         <td>显示项目和 
+         <ul>
+         <li>没有未完成的前置任务或任务限制</li>
+         <p>和</p>
+         <li>计划开始日期是过去的日期，或者最多在未来的两周内</li>
+         </ul>
+         </td>
+       </tr>
+       <tr>
+         <td>未就绪</td>
+         <td>显示具有
+          <ul>
+         <li>未完成的前置任务或阻止处理项目的任务限制</li></ul>
+         <p>或</p>
+         <ul>
+         <li>超过两周后的计划开始日期</li>
+         </ul>
+          </td>
+       </tr>
+       <tr>
+         <td>已请求</td>
+         <td>显示您尚未开始处理的问题</td>
+       </tr>
+       <tr>
+         <td>完成</td>
+         <td>显示过去两周内完成的工作。 此筛选器选项不包括审批。</td>
+       </tr>
+       <tr>
+          <td>项目</td>
+          <td>显示包含您已被分派的任务或问题的项目</td>
+       </tr>
+       <tr>
+          <td>到期日期</td>
+          <td>按计划完成日期显示工作</td>
+       </tr>
+       <tr>
+          <td>我的焦点</td>
+          <td>显示已分配焦点级别的任务或问题。 焦点级别由个人用户分配和管理。</td>
+       </tr>
+       <tr>
+          <td>状态</td>
+          <td>显示处于新、进行中和完成状态的任务或问题。</td>
+       </tr>
+     </tbody>
+   </table>
 
-+++
+   +++
 
 1. （可选）单击&#x200B;**返回默认值**&#x200B;以重置您的选择。
 
@@ -167,9 +163,9 @@ ht-degree: 7%
 1. 单击工作列表左上角的&#x200B;**分组**。
 1. 选择分组以组织您的工作列表。
 
-![组](assets/groups-new.png)
+![组](assets/groupings-060226.png)
 
-+++展开以查看有关可用组的详细信息
++++ 展开以查看有关可用组的详细信息
 
 | 组 | 描述 |
 |-----------|-------------|
@@ -185,7 +181,7 @@ ht-degree: 7%
 按“我的优先级”或“状态”分组时，您可以在类别之间拖放单个工作项。
 
 1. 按&#x200B;**状态**&#x200B;或&#x200B;**我的焦点**&#x200B;对您的工作分组。
-2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**&#x200B;图标并将其移动到所需类别。
+2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**图标并将其移动到所需类别。
    ![拖动图标](assets/drag-and-drop.png)
 
 ## 对您的工作排序
