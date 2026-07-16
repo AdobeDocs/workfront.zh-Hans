@@ -6,16 +6,14 @@ title: 将费率卡附加到模板
 description: 在将费率卡分配给模板时，费率卡随后将附加到从该模板创建的所有项目。
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
 
 # 将费率卡附加到模板
-
-{{highlighted-preview-article-level}}
 
 在将费率卡分配给模板时，费率卡随后将附加到从该模板创建的所有项目。 费率卡会成为项目中的默认费率卡，但如有必要，可以覆盖此费率卡。
 

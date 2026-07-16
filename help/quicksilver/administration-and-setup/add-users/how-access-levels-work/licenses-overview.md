@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 381
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 此表和图表显示了对Workfront的主要访问级别：
 
-| 许可证 | 关联的访问级别 |
+| 工作流许可证 | 关联的访问级别 |
 |--- |--- |
 | 标准 | 系统管理员，标准 |
 | 轻量 | 轻量 |
@@ -65,9 +65,9 @@ ht-degree: 2%
 
 ## 许可证计数
 
-当用户分配访问级别时，您的可用许可证数量将减少1。
+当您将与许可证关联的访问级别分配给用户时，您的可用许可证数量将减少1。
 
-例如，如果将标准访问级别分配给用户，则可用标准许可证的数量将减少1。
+例如，如果将与Standard的Workflow许可证关联的Standard访问级别分配给用户，则可用的Standard许可证数量将减少1。
 
 您可以查看分配给用户的许可证和访问级别。 有关详细信息，请参阅[列出用户的访问级别和许可证](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)。
 

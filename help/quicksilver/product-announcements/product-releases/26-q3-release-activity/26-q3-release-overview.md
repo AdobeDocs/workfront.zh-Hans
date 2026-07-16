@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '3150'
 ht-degree: 3%
 
 ---
@@ -110,6 +110,15 @@ ht-degree: 3%
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">访问级别的新许可证类型字段<p>[!BADGE Off Schedule]{type=Neutral}</p></a>
+                <p>我们已在“访问级别”框中进行了以下字段更改： <ul><li>我们已将“访问级别”框中的“许可证类型”字段重命名为“工作流许可证类型”。 此重新标记的功能没有变化。  </li><li>对于已购买Workfront Planning包的客户，我们已添加了一个新的Planning许可证类型字段，以说明用户对Workfront Planning的许可证。 </li><ul></p>
+            </td>
+            <td><p>2026年7月16日</p></td>
+            <td><p>2026年7月16日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">内部查找字段替换Typeahead字段类型</a>
@@ -597,6 +606,31 @@ New features in Workfront Planning are available in Production.
 此更新适用于Mac和Windows。
 
 ## 公告
+
+### Adobe Workfront Planning作为独立产品
+
+>[!NOTE]
+>
+>面向所有客户的预览和生产：2026年7月16日开始
+>
+>[!BADGE 仅新客户]{type=Neutral}
+
+您现在可以独立购买Adobe Workfront Planning，而无需拥有Workfront Workflow许可证。
+
+Adobe Workfront计划作为独立产品面向新客户以及需要活动规划和元数据管理功能但没有全套Workflow功能的团队。
+
+>[!IMPORTANT]
+>
+>这仅对新客户可用。 有关详细信息，请与您的客户代表联系。
+
+Adobe Workfront Planning作为独立产品包含的一些功能包括：
+
+* 完整的Workfront Planning功能，能够创建和管理工作区、记录类型、记录、字段和视图。
+* 能够连接记录，包括Prime和Ultimate包的跨工作区连接。
+* 自动创建Planning记录。
+* 摄取流程使用Planning请求表单。
+
+有关信息，请参阅[Adobe Workfront Planning独立产品入门](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
 
 ### API版本22
 

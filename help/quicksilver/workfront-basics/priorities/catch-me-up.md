@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: 177
 ht-degree: 13%
 
 ---
@@ -58,8 +58,10 @@ ht-degree: 13%
 
 {{step1-to-priorities}}
 
-1. 在页面顶部，单击&#x200B;**追上我**。
+1. 在页面顶部，单击&#x200B;**赶上进度**&#x200B;按钮。
+
    ![提示按钮](assets/catch-me-up-button.png)
+
 1. 选择所需的时间范围：
    * **总结过去24小时**
    * **总结过去3天**

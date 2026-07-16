@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
+source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
 workflow-type: tm+mt
-source-wordcount: '14290'
+source-wordcount: '14340'
 ht-degree: 2%
 
 ---
@@ -2272,9 +2272,13 @@ ht-degree: 2%
       * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [在Adobe Workfront Planning中管理GenStudio工作区](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[将Workfront规划工作区提升到GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-   * Adobe Workfront独立规划 {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront Planning Standalone：文章索引](planning/planning-sta/planning-sta-article-index.md)
-      * {hide-from-toc}[开始使用Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
+   * Adobe Workfront Planning作为独立产品 {#planning-standalone}
+      * [Adobe Workfront Planning作为独立产品：文章索引](planning/planning-sta/planning-sta-article-index.md)
+      * [Adobe Workfront Planning作为独立产品入门](planning/planning-sta/planning-sta-overview.md)
+      * [Adobe Workfront Planning作为独立产品所需的访问权限](planning/planning-sta/access-needed-for-planning-sta.md)
+      * [将Adobe Workfront Planning实例作为独立产品进行管理](planning/planning-sta/manage-planning-sta-instance.md)
+      * [在Adobe Workfront Planning中作为独立产品管理用户](planning/planning-sta/manage-users-in-planning-sta.md)
+      * [在Adobe Workfront Planning中将团队作为独立产品进行管理](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront集成 {#adobe-workfront-integrations}
    * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront内置集成概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

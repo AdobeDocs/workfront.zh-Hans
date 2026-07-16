@@ -20,16 +20,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e9318366f0dff85591a5d5a752920027f5c9b0e
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 895
-ht-degree: 3%
+source-wordcount: 684
+ht-degree: 2%
 
 ---
 
 # 为文档创建审批工作流模板
-
-{{highlighted-preview}}
 
 在Workfront设置区域中，具有Standard许可证的用户可以创建可重复使用的审批模板。 创建后，审批模板可应用于对象文档区域中的资产。
 >[!IMPORTANT]
@@ -62,53 +60,53 @@ ht-degree: 3%
 
 +++
 
-## 在生产中创建审批模板
+<!--
+## Create an Approval Template in Production
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**审阅和批准** > **批准模板**。
-1. 单击页面右侧的&#x200B;**新建模板**。
+1. In the left panel, click **Review and Approval** > **Approval Templates**.
+1. Click **New Template** on the right side of the page. 
 
-1. 填写以下详细信息：
+1. Fill in the following details:
 
    <table>
      <tr>
-   <td><strong>模板名称</strong></td>
-   <td>添加模板名称。 </td>
+   <td><strong>Template name</strong></td>
+   <td>Add a template name. </td>
    </tr>
    <tr>
-   <td><strong>阶段名称</strong></td>
-   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>添加姓名或电子邮件</strong></td>
-   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一个决策（可选）</strong></td>
-   <td>第一个做出决策的人将完成阶段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>到期日期前的工作日</strong></td>
-   <td>选择在激活阶段后批准到期之前的工作日数。</td>
+   <td><strong>Workdays until due date</strong></td>
+   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
    </tr>
    </table>
 
-1. （可选）根据需要重复上一步添加其他阶段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![文档详细信息](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
+    
+1. Click **Save**.
 
-1. 单击&#x200B;**保存**。
+Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
+-->
 
-创建模板后，可将其应用于对象的“文档”区域中的文档，以在Workfront中开始正式的审阅和批准流程。
-
-<div class="preview">
-
-## 在预览中创建审批模板
+## 创建审批模板
 
 审批模板对话框始终在高级模式下打开。 模板没有“基本”模式。 在一个模板中最多可以配置30条并行路径，总计最多可配置100个阶段。 每个路径都独立运行，可以包含一个或多个顺序阶段。
 
@@ -162,10 +160,6 @@ ht-degree: 3%
 1. 单击&#x200B;**保存**。
 
 创建模板后，可将其应用于对象的“文档”区域中的文档，以在Workfront中开始正式的审阅和批准流程。
-
-</div>
-
-
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

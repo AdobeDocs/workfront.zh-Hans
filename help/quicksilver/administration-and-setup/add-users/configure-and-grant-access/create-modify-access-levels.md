@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9256ea961c44ef3822da14868ac6909eb3809394
 workflow-type: tm+mt
-source-wordcount: 1424
+source-wordcount: 1568
 ht-degree: 8%
 
 ---
@@ -97,13 +97,45 @@ ht-degree: 8%
      <tr> 
       <td role="rowheader">描述 </td> 
       <td>键入访问级别的描述。 在此处列出具有此访问级别的用户能够访问的内容会很有帮助。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">许可证类型</td> 
-      <td>请确保此处选择的许可证与您创建或编辑的访问级别类型最相关。 所选许可证确定访问级别可用的设置。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新许可证概述</a>或<a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">许可证概述</a>。</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">规划许可证类型</td> 
+      <td><p>除了工作流包之外，此字段仅对同时购买了Workfront规划包的客户可见。</p>
+      <p>所选许可证确定具有此访问级别的用户可用的设置。 </p>
+      <p>从以下选项中进行选择：</p>
+      <ul><li>标准</li>
+      <li>投稿人</li>
+      <li>无</li>
+     </ul> 
+      有关详细信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">Adobe Workfront计划访问概述</a> 
+      <p><b>重要</b></p>
+      <p>规划许可证和工作流许可证可协同工作，以授予用户访问Workfront的权限。 </p>
+      <p>您可以在工作流许可证类型和Planning许可证类型之间为用户指定不同级别的许可证类型，但工作流许可证不能低于Planning许可证。 </p>
+      <p>例如，您可以为用户提供Workflow Standard许可证和Planning Contributor许可证，但不能为他们提供Workflow Contributor许可证和Planning Standard许可证。</p>
+
+   </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">工作流许可证类型</td> 
+      <td>请确保此处选择的许可证与您创建或编辑的访问级别类型最相关。 所选许可证确定访问级别可用的设置。
+
+   <p>从以下选项中进行选择：</p>
+      <ul><li>标准</li>
+      <li>投稿人</li>
+      <li>轻量</li>
+     </ul>
+
+   有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新许可证概述</a>或<a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">许可证概述</a>。
+
+
+
+   </td> 
      </tr> 
     </tbody> 
    </table>
+
 
 1. （视情况而定）如果在&#x200B;**许可证类型**&#x200B;框中选择了&#x200B;**标准**&#x200B;或&#x200B;**计划**，请滚动到&#x200B;**允许**&#x200B;的管理访问权限，并为将拥有此访问级别的用户选择管理访问权限。
 

@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 9%
+source-wordcount: 624
+ht-degree: 8%
 
 ---
 
@@ -175,7 +175,7 @@ Old:
   | 数字格式的单行文本 | 数值 |
   | 货币格式的单行文本 | 货币 |
   | 段落 | 段落 |
-  | 带格式文本 | 段落 |
+  | 富文本/带格式的文本 | 段落 |
   | 单选下拉菜单 | 单选 |
   | 多选下拉框 | 多选 |
   | 不支持用户预输入筛选器 | 人员 |

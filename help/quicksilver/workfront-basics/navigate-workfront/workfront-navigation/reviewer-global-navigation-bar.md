@@ -15,16 +15,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: 364
 ht-degree: 0%
 
 ---
 
 # 了解[!UICONTROL 轻量级]许可证用户的导航
-
-{{highlighted-preview}}
 
 [!UICONTROL 主菜单]更改了[!DNL Adobe Workfront]管理员分配的访问级别。 默认情况下，您仅有权访问包含您的访问级别所允许的功能在内的区域。 要了解每个访问级别的默认布局的组件，请参阅[关于默认 [!DNL Adobe Workfront] 布局](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)。
 
@@ -45,11 +43,7 @@ ht-degree: 0%
 * **[!UICONTROL 讨论区]**：使用共享讨论区（包含反映要完成的工作的列和卡片），灵活地与团队成员协作。 有关信息，请参阅[讨论区入门：文章索引](../../../agile/get-started-with-boards/get-started-with-boards.md)。
 * **[!UICONTROL 优先级]**：您可以快速管理和优先处理工作。 有关信息，请参阅[开始使用优先级](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)。
 
-预览环境中的<span class="preview">示例图像：</span>
 ![轻量级用户默认主菜单](assets/light-user-main-menu-2026.png)
-
-生产环境中的示例图像：
-![轻量级用户默认主菜单](assets/light-user-main-menu.png)
 
 ## 自定义您的默认[!UICONTROL 主菜单]
 

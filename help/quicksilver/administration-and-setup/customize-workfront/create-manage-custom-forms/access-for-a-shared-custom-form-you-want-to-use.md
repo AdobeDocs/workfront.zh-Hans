@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
    <td> <p>如果将字段添加到自定义表单：</p> 
     <ul> 
      <li>您可以编辑与字段相关的表单设置，例如其显示逻辑、它在表单上其他字段中的顺序、是否为表单上的必填字段以及是否能够从表单中删除它。</li> 
-     <li>您无法编辑字段的与字段相关的设置，例如其标签、名称和类型。</li> 
+     <li>您无法编辑与字段相关的设置，例如其标签、API名称和类型。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ ht-degree: 0%
      <li>管理</li> 
      <li>可编辑系统范围</li> 
     </ul> </td> 
-   <td>您可以将字段添加到自定义表单并编辑其任何与字段相关的设置，例如标签、名称和类型。</td> 
+   <td>您可以将字段添加到自定义表单并编辑其任何与字段相关的设置，例如标签、API名称和类型。</td> 
   </tr> 
   <tr> 
    <td> 

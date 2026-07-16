@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 8296
+source-wordcount: 7795
 ht-degree: 6%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 6%
 # 创建自定义表单
 
 <!-- Audited: 6/2025 -->
-
-{{preview-fast-release-general}}
 
 您可以使用Adobe Workfront中的表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -77,7 +75,7 @@ ht-degree: 6%
 1. 单击&#x200B;**新建自定义表单。**
 1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
-   ![选择对象类型](assets/new-custom-form-select-objects-032526.png)
+   ![选择对象类型](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
    +++ 展开以查看支持自定义表单的对象列表。
 
@@ -119,7 +117,7 @@ ht-degree: 6%
    * [添加文本字段](#add-text-fields)
    * [添加计算字段](#add-calculated-fields)
    * [添加单选按钮、复选框组和下拉列表](#add-radio-buttons-checkbox-groups-and-drop-downs)
-   * [添加预输入和日期字段](#add-typeahead-and-date-fields)
+   * [添加日期字段](#add-date-fields)
    * [添加外部查找字段](#add-external-lookup-fields)
    * [添加图像、PDF和视频](#add-images-pdfs-and-videos)
    * [添加Workfront本机字段](#add-workfront-native-fields)
@@ -163,7 +161,7 @@ ht-degree: 6%
   >
   >避免在此标签中使用特殊字符，因为它们无法在报表中正确显示。
 
-* 每个字段都必须有API名称。 此名称是向Workfront中的各个区域添加自定义字段时（例如报表、主页和API交互）系统识别该字段的方式。 当您首次配置字段或构件并键入标签时，会自动填充名称字段/<span class="preview">API名称字段</span>以匹配它。 标签和名称/<span class="preview">API名称字段</span>字段未同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。
+* 每个字段都必须有API名称。 此名称是向Workfront中的各个区域添加自定义字段时（例如报表、主页和API交互）系统识别该字段的方式。 首次配置字段或小组件并键入标签时，将自动填充“API名称”字段以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。
 
 * 每个自定义字段API名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。
 
@@ -171,7 +169,7 @@ ht-degree: 6%
 
   例如，如果您将自定义字段添加到报表后又更改了其API名称，Workfront将无法识别报表中的该字段，并且除非您使用新名称将其重新添加到报表中，否则该字段将无法在报表中正常运行。
 
-* <span class="preview">API名称默认为只读。 要使API名称可编辑，请单击&#x200B;**API名称**&#x200B;旁边的&#x200B;**编辑**&#x200B;图标。 然后，在确认框中键入&#x200B;**confirm**，然后单击&#x200B;**重命名字段**。</span>
+* 默认情况下，API名称是只读的。 要使API名称可编辑，请单击&#x200B;**API名称**&#x200B;旁边的&#x200B;**编辑**&#x200B;图标。 然后，在确认框中键入&#x200B;**confirm**，然后单击&#x200B;**重命名字段**。
 
 * 我们建议您不要键入已用于内置Workfront字段的API名称。
 
@@ -199,19 +197,21 @@ ht-degree: 6%
 
 * **单行文本字段**：允许用户在该字段中键入单行文本。
 * **段落字段**：允许用户在该字段中键入多行文本。
-* <span class="preview">**富文本**：允许用户在字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、下标和上标、超链接、块引号、标题和表格设置文本的格式。 15,000的字符限制为文本和格式提供了很大的空间。</span>
-
-  <span class="preview">富文本字段类型正在将文本替换为格式字段类型。 通过单击右侧字段选项中的&#x200B;**转换为富文本**&#x200B;按钮，可以快速将带格式字段的现有文本转换为富文本。</span>
-
-* **带格式的文本字段**：允许用户在该字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、超链接和块引号设置文本的格式。 15,000个字符的限制允许使用大量文本和格式。
-
-  列表和报告上的过滤器不支持此自定义字段类型。
-
-  有关通过API访问此字段的信息，请参阅API中的[富文本字段存储](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+* **富文本**：允许用户在字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、下标和上标、超链接、块引号、标题和表格设置文本的格式。 15,000的字符限制为文本和格式设置提供了很大的空间。
 
   >[!NOTE]
   >
-  >带格式的文本字段不适用于Workfront移动应用程序（在即将发布的版本中提供）。
+  >富文本字段类型正在将文本替换为格式字段类型。 通过单击右侧字段选项中的&#x200B;**转换为富文本**&#x200B;按钮，您可以快速将带格式字段的现有文本转换为富文本。
+
+<!--
+
+* **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
+
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+
+-->
 
 * **描述性文本**：允许您包含说明和指向Workfront外部页面的链接。
 
@@ -223,9 +223,9 @@ ht-degree: 6%
 
    * 单行文本
    * 段落
-   * <span class="preview">富文本</span>
-   * 带格式文本
+   * 丰富文本
    * 描述性文本
+     <!--Text with formatting-->
 
    ![将字段拖到节](assets/drag-field-to-section.png)
 
@@ -244,8 +244,7 @@ ht-degree: 6%
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
-    <li><span class="preview">丰富文本</span></li>
-    <li>带格式文本</li>
+    <li>丰富文本</li>
     <li>描述性文本</li>
     </ul></td>
     </tr>
@@ -256,31 +255,30 @@ ht-degree: 6%
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
-    <li><span class="preview">丰富文本</span></li>
-    <li>带格式文本</li>
+    <li>丰富文本</li>
     </ul></td>
     </tr>
     <tr>
-     <td>名称</td>
-    <td><p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
+     <td>API 名称</td>
+    <td><p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充“API名称”字段以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
     <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p>
     </td>
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
-    <li><span class="preview">丰富文本</span></li>
-    <li>带格式文本</li>
+    <li>丰富文本</li>
     <li>描述性文本</li>
     </ul></td>
     </tr>
     <tr>
     <td>说明</td>
-    <td>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</td>
+    <td>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
+    <img src="assets/instructions-form-designer.png">
+    </td>
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
-    <li><span class="preview">丰富文本</span></li>
-    <li>带格式文本</li>
+    <li>丰富文本</li>
     </ul></td>
     </tr>
     <tr>
@@ -331,8 +329,7 @@ ht-degree: 6%
      <td><ul>
      <li>单行文本</li>
      <li>段落</li>
-     <li><span class="preview">丰富文本</span></li>
-     <li>带格式文本</li>
+     <li>丰富文本</li>
      <li>描述性文本</li></ul></td>
     </tr>
     <tr> 
@@ -341,8 +338,7 @@ ht-degree: 6%
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
-    <li><span class="preview">丰富文本</span></li>
-    <li>带格式文本</li>
+    <li>丰富文本</li>
     </ul></td> 
     </tr> 
    </table>
@@ -415,8 +411,8 @@ ht-degree: 6%
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">名称</td> 
-     <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> 
+    <td role="rowheader">API 名称</td> 
+     <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充“API名称”字段以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> 
     <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
      <td><ul>
     <li>单选按钮</li>
@@ -540,125 +536,186 @@ ht-degree: 6%
 
    单击&#x200B;**保存并关闭**。
 
-### 添加预输入和日期字段
+<!--
 
-您可以将预输入和日期字段添加到自定义表单。
+### Add typeahead and date fields
 
-+++ 展开以查看可用字段的描述。
+ You can add typeahead and date fields to a custom form.
 
-* **提前键入**：允许用户键入Workfront中存在的对象的名称。 用户开始键入内容时，将显示建议列表。 此字段类型支持以下对象：
-   * 用户
-   * 组
-   * 工作角色
-   * 项目组合
-   * 项目群
-   * 项目
-   * 团队
-   * 模板
-   * 公司
-* **日期**：显示一个日历，用户可以在其中选择日期和时间。
++++ Expand to see descriptions of available fields.
+
+* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
+    * User
+    * Group
+    * Job Role
+    * Portfolio
+    * Program
+    * Project
+    * Team
+    * Template
+    * Company
+* **Date**: Displays a calendar where users can select a date and time.
 
 +++
 
-要添加预输入和日期字段，请执行以下操作：
+To add typeahead and date fields:
 
-1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到以下字段之一并将其拖动到画布上的某个部分。
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
-   * 键盘缓冲
-   * 日期
+    * Typeahead
+    * Date
 
-   ![将字段拖到节](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
-1. 在屏幕右侧，配置可用于要添加的自定义字段类型的选项：
+1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
-   <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <tbody> 
      <tr>
-    <td>字段设置</td>
-    <td>描述</td>
-    <td>可用于 </td>
+    <td>Field setting</td>
+    <td>Description</td>
+    <td>Available for </td>
     </tr>
      <tr> 
-      <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
-    <li>键盘缓冲</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> 
-      <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
-    <li>键盘缓冲</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">说明</td> 
-      <td> <p>键入有关自定义字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
-    <li>键盘缓冲</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">显示当日时间</td> 
-      <td>如果要在字段中显示一天中的时间和日期，请选择此选项。</td> 
+      <td role="rowheader">Display Time of Day</td> 
+      <td>Select this option if you want to show the time of day along with the date in the field.</td> 
          <td><ul>
-    <li>日期</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">参考对象类型</td> 
-      <td> <p>选择要与字段关联的对象类型。</p> <p>单击<b>应用</b>或<b>保存并关闭</b>后，无法更改该字段的对象类型。</p> <p><b>注释</b>：   
+      <td role="rowheader">Referenced Object Type</td> 
+      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <b>Apply</b> or <b>Save and Close</b>, you can't change the object type for the field.</p> <p><b>Note</b>:   
         <ul> 
-         <li>如果您的Workfront管理员在Workfront用户界面中为项目组合、程序或项目自定义了名称，则该对象的默认Workfront名称将显示在此下拉列表中，而不是自定义名称中。 如果您需要此方面的帮助，请咨询您的Workfront管理员。<br></li> 
-         <li>iOS和Android Workfront Mobile应用程序支持以下对象类型：用户、公司、组、工作角色、Portfolio、项目、项目和模板。</li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
-    <li>键盘缓冲</li>
+    <li>Typeahead</li>
     </ul></td>
      </tr>
      <tr>
-      <td role="rowheader">添加筛选器</td>
-      <td><p>为对象类型添加过滤器，以限制用户在使用该字段时可以选择的对象。 </p> <p>例如，您可以限制一个字段，这样只有当用户名满足以下条件时才可以选择用户名：</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul> 
-        <li>它们属于您指定的一个或多个组。</li> 
-        <li>它们与您指定的角色或职称相关联。</li> 
-        <li>他们与使用字段的人属于同一组。</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul>
-       <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑过滤器</a>。</p>
-       <p><b>提示：</b>您可以先创建报告以测试您的筛选器，然后再将该筛选器直接添加到typeahead字段。 这将帮助您验证过滤器是否返回正确的对象。 然后，您可以在报表中切换到文本模式，复制文本模式语句，并将其添加到预输入过滤器。</p>
-       <p><b>注释</b>：
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the typeahead field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the typeahead filter.</p>
+       <p><b>Note</b>:
        <ul> 
-        <li>如果您正在编辑现有的自定义表单，则将过滤器添加到预输入字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
-        <li>此筛选器在移动设备上不可用。 如果您将过滤器用于预输入字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
+        <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p>
       </td>  
       <td>
        <ul>
-       <li>键盘缓冲</li>
+       <li>Typeahead</li>
        </ul>
       </td>
      </tr>
      <tr>
-      <td>活动</td>
-      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
       <td><ul>
-      <li>键盘缓冲</li>
-      <li>日期</li></ul></td>
+      <li>Typeahead</li>
+      <li>Date</li></ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">设为必填字段</td> 
-      <td>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。 </td> 
+      <td role="rowheader">Make a required field</td> 
+      <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
-    <li>键盘缓冲</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    Or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    Or
+
+    Click **Save and Close**.
+
+-->
+
+### 添加日期字段
+
+日期字段显示一个日历，用户可以在其中选择日期和时间。
+
+要添加日期字段，请执行以下操作：
+
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到&#x200B;**日期**&#x200B;并将其拖动到画布上的某个部分。
+
+   ![将字段拖到节](assets/drag-field-to-section.png)
+
+1. 在屏幕右侧，配置自定义字段的选项：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">标签</td> 
+      <td> <p>（必需）键入要在小部件上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">API 名称</td> 
+      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充“API名称”字段以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">说明</td> 
+      <td> <p>键入有关自定义字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">显示当日时间</td>
+      <td><p>如果要在字段中显示一天中的时间和日期，请选择此选项。</p></td>
+     </tr> 
+     <tr>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">设为必填字段</td>
+      <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -701,8 +758,8 @@ ht-degree: 6%
       <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够选择更改用户看到的标签，而不必更改系统看到的名称。</p>
+      <td role="rowheader">API 名称</td> 
+      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，API名称字段会自动填充以匹配它。 但是，标签和API名称字段不同步，这使您能够选择更改用户看到的标签，而无需更改系统看到的名称。</p>
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
      </tr> 
       <td role="rowheader">说明</td> 
@@ -748,14 +805,15 @@ ht-degree: 6%
      </tr>
      <tr> 
       <td role="rowheader">JSON 路径</td>
-      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：</br>
       <pre>
       &lbrace;
        数据： &lbrace;
          { name： "USA"}，
          { name： "Canada"}
        &rbrace;
-      &rbrace;</pre>
+      &rbrace;
+      </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
      </tr>
@@ -794,7 +852,7 @@ ht-degree: 6%
 >* 重试之间的等待持续时间：500毫秒
 >* 预期响应状态： 2xx
 
-<div class="preview">
+
 
 ### 添加内部查找字段
 
@@ -828,8 +886,8 @@ ht-degree: 6%
       <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够选择更改用户看到的标签，而不必更改系统看到的名称。</p>
+      <td role="rowheader">API 名称</td> 
+      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，API名称字段会自动填充以匹配它。 但是，标签和API名称字段不同步，这使您能够选择更改用户看到的标签，而无需更改系统看到的名称。</p>
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
      </tr> 
       <td role="rowheader">说明</td> 
@@ -881,8 +939,6 @@ ht-degree: 6%
 
    单击&#x200B;**保存并关闭**。
 
-</div>
-
 ### 添加图像、PDF和视频
 
 您可以将图像、PDF和视频添加到自定义表单。 使用附加到自定义表单的对象的用户只能在以下区域查看图像、PDF或视频：
@@ -932,8 +988,8 @@ The Workfront Mobile app
       <td> <p>（必需）键入要在小部件上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td role="rowheader">API 名称</td> 
+      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充“API名称”字段以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -1002,32 +1058,32 @@ The Workfront Mobile app
 
 | 字段名称 | 项目 | 任务 | 问题 | 模板 | 模板任务 | 项目组合 | 项目群 | 组 |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| <span class="preview">实际收益</span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
+| 实际收益 | ✓ |   |   |   |   |   |   |   |
 | 实际完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 实际持续时间 | ✓ |   |   |   |   |   |   |   |
 | 实际小时数 | ✓ |   | ✓ |   |   |   |   |   |
 | 实际开始日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
-| <span class="preview">预算</span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
+| 预算 | ✓ |   |   | ✓ |   | ✓ |   |   |
 | 公司 | ✓ |   |   | ✓ |   |   |   |   |
 | 条件 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 完成情况类型 | ✓ |   |   | ✓ |   |   |   |   |
-| <span class="preview">货币</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 货币 | ✓ |   |   | ✓ |   |   |   |   |
 | 描述 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 持续时间 |   | ✓ |   |   | ✓ |   |   |   |
 | 持续时间类型 |   | ✓ |   |   | ✓ |   |   |   |
 | 持续时间单位 |   | ✓ |   |   | ✓ |   |   |   |
 | 输入者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | 输入日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| <span class="preview">汇率日期</span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
-| <span class="preview">固定成本</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview">固定收入</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 汇率日期 | ✓ |   |   |   |   |   |   |   |
+| 固定成本 | ✓ |   |   | ✓ |   |   |   |   |
+| 固定收入 | ✓ |   |   | ✓ |   |   |   |   |
 | 组 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | 上次更新者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 上次更新日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 名称 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 所有者 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| <span class="preview">绩效指数方法</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview">计划收益</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 绩效指数方法 | ✓ |   |   | ✓ |   |   |   |   |
+| 规划收益 | ✓ |   |   | ✓ |   |   |   |   |
 | 规划完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 计划持续时间 | ✓ |   |   | ✓ |   |   |   |   |
 | 规划小时数 | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -1045,13 +1101,11 @@ The Workfront Mobile app
 | 状态 | ✓ | ✓ |   |   |   |   |   |   |
 | 故事点数 |   | ✓ |   |   |   |   |   |   |
 | 模板 | ✓ |   |   |   |   |   |   |   |
-| <span class="preview">总估计成本</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| 总估计收入<span class="preview"></span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 估计成本总计 | ✓ |   |   | ✓ |   |   |   |   |
+| 总估计收入 | ✓ |   |   | ✓ |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
-
-<div class="preview">
 
 这些额外的自定义表单对象类型还支持本机字段引用。
 
@@ -1060,8 +1114,6 @@ The Workfront Mobile app
 * 公司：名称、组字段
 * 费率卡：“名称”、“描述”、“公司”、“组”字段
 * 工作角色：“名称”、“描述”字段
-
-</div>
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
@@ -1087,8 +1139,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>（必需）键入要在该字段上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名称</td>
-      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
+      <td role="rowheader">API 名称</td>
+      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，API名称字段会自动填充以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td> 
      </tr> 
      <tr> 
@@ -1107,12 +1159,12 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>它们与您指定的角色或职称相关联。</li> 
         <li>他们与使用字段的人属于同一组。</li> 
        </ul>
-       <p><span class="preview">当字段上存在系统筛选器时，如果您不添加自定义筛选器，则默认应用该筛选器。 自定义筛选器将覆盖系统筛选器。</span></p>
+       <p>当字段上存在系统筛选器时，如果您不添加自定义筛选器，则默认应用该筛选器。 自定义筛选器将覆盖系统筛选器。</p>
        <p>必须使用文本模式语法为所选的引用字段定义过滤器。 有关信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑筛选器</a>。</p>
-       <p><span class="preview">使用动态筛选器语法根据另一个字段的值缩小此字段中的项目列表。 例如，当您在项目字段筛选器中使用<code>?portfolioID={portfolio}.{ID}</code>，并且自定义表单上有Portfolio本机字段时，项目字段仅显示选定项目组合中的项目。 如果Portfolio字段留空，则所有项目在项目字段中均可用。</span></p>
+       <p>使用动态筛选器语法根据另一个字段的值缩小此字段中的项目列表。 例如，当您在项目字段筛选器中使用<code>?portfolioID={portfolio}.{ID}</code>，并且自定义表单上有Portfolio本机字段时，项目字段仅显示选定项目组合中的项目。 如果Portfolio字段留空，则所有项目在项目字段中均可用。</p>
        <p><b>注释</b>：
        <ul> 
-        <li>仅当您引用本机预输入字段（如“Portfolio”、“公司”或“所有者”）时，过滤器选项才可用。</li>
+        <li>仅当您引用本机预输入或内部查找字段（如Portfolio、Company或Owner）时，过滤器选项才可用。</li>
         <li>如果您正在编辑现有的自定义表单，将过滤器添加到本机字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
         <li>此筛选器在移动设备上不可用。 如果您将过滤器用于本机字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
         </ul></p></td> 
@@ -1160,14 +1212,15 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>（必需）键入要在小部件上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
+      <td role="rowheader">API 名称</td> 
+      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充“API名称”字段以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
     <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必需）键入或粘贴有效的XD原型链接。</p> 
-      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 </td> 
+      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">说明</td> 
@@ -1234,8 +1287,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <p>我们建议您选择一个帮助您轻松识别Planning记录来源的标签。 添加诸如工作区名称或记录类型名称之类的信息。 </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名称</td>
-      <td> <p>（必需）名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p></td> 
+      <td role="rowheader">API 名称</td>
+      <td> <p>（必需）名称是系统标识字段的方式。 当您首次配置字段并键入标签时，API名称字段会自动填充以匹配它。 标签和API名称字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">说明</td> 

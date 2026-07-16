@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
+source-wordcount: 2721
 ht-degree: 1%
 
 ---
@@ -162,11 +162,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">标签</td> 
-      <td>为字段键入标签。 这是用户使用自定义表单时将看到的内容。 Workfront在报表中引用了自动填充的字段<b>Name</b>。</td> 
+      <td>为字段键入标签。 这是用户使用自定义表单时将看到的内容。 Workfront在报表中引用了自动填充的字段<b>API名称</b>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">说明</td> 
-      <td> 默认情况下，您为该字段创建的公式存储在此处。您可以添加文本以提供有关字段及其公式的附加信息。这可以通过两种方式派上用场： 
+      <td> 默认情况下，您为该字段创建的公式存储在此处。 您可以添加文本以提供有关字段及其公式的附加信息。 这可以通过两种方式派上用场： 
        <ul> 
       <li><p>提醒我们这个公式是什么以及它如何运作的。 如果您打算在多个表单上使用此计算自定义字段，这会特别有用。</p> </li> 
       <li> <p>用户将鼠标悬停在该字段上时可以看到工具提示。 您可以在此处添加任何您希望他们在工具提示中看到的文本。</p> <p>如果您不希望他们在工具提示中查看公式（这可能会让他们感到困惑），您可以隐藏该公式。</li> 
@@ -325,9 +325,9 @@ ht-degree: 1%
       > 
       >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**&#x200B;链接。
       >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
-      >* 使用颜色编码标识已添加的组件。表达式以蓝色显示，字段以绿色显示。
+      >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
       >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
-      >* 查找以粉红色突出显示的计算错误。您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
+      >* 查找以粉红色突出显示的计算错误。 您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
       >  ![错误帮助](assets/error-help.png)
       >* 在计算下面的区域中，预览现有Workfront对象的结果。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->

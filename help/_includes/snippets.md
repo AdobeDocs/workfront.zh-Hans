@@ -1,7 +1,7 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2292'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 步骤1 — 开始设置 {#step-1-to-setup}
 
-1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup-2026.png)。
 
 ## 窗体设计器到GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 第1步 — 转至用户 {#step-1-to-users}
 
-1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![用户图标](/help/_includes/assets/users-icon-in-main-menu.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![用户图标](/help/_includes/assets/users-icon-in-main-menu-2026.png)。
 
 
 <!-- Agile -->
@@ -295,11 +295,13 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 >[!IMPORTANT]
 >
->本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
+>本文中的信息是指Adobe Workfront Planning，贵组织可以将其作为Adobe Workfront软件包或独立产品购买。
 >
->有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
-> 
+>Workfront Planning作为独立产品购买时，并非所有功能都可用于Planning包。
+>
 >有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
+> 
+>有关Workfront Planning作为独立产品的信息，请参阅[Adobe Workfront Planning作为独立产品入门](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
 
 <!--
 Old - before Oct. 15, 2025:

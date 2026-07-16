@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 523
 ht-degree: 7%
 
 ---
@@ -82,7 +82,9 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 单击工作列表顶部的&#x200B;**日历**&#x200B;图标。
+
    ![日历图标](assets/calendar-tab.png)
+
 1. 选择一个或多个筛选器以缩小工作项的范围。
 
    +++展开以查看有关可用筛选器的详细信息
@@ -162,11 +164,13 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 单击工作列表顶部的&#x200B;**日历**&#x200B;图标。
+
    ![日历图标](assets/calendar-tab.png)
+
 1. 单击日历右角的&#x200B;**设置**&#x200B;图标。
 
 1. 在&#x200B;**栏样式**&#x200B;选项卡上，选择最多5个显示在日历工作项栏中的字段。
    ![示例栏](assets/sample-task-for-field-config.png)
 
-1. 在&#x200B;**颜色**&#x200B;选项卡上，选择您希望工作项显示的方式。例如，如果选择&#x200B;**项目**，则您的工作项将根据分配给工作列表上的项目的颜色显示。
+1. 在&#x200B;**颜色**&#x200B;选项卡上，选择您希望工作项显示的方式。 例如，如果选择&#x200B;**项目**，则工作项将根据分配给工作列表上的项目的颜色显示。
    ![示例颜色项目](assets/sample-calendar-projects.png)

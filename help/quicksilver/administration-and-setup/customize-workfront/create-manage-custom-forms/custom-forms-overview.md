@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 13%
 
 ---
@@ -54,12 +54,12 @@ Workfront为每种对象类型提供了许多内置字段。
 
 * 单行文本
 * 段落
-* 带格式文本
+* 丰富文本
 * 单选下拉菜单
 * 多选下拉框
 * 外部查找
+* 内部查找
 * 本机字段引用
-* 键盘缓冲
 * Planning字段连接
 * 已计算
 * 日期
@@ -97,6 +97,7 @@ Workfront为每种对象类型提供了许多内置字段。
 * 开发周期
 * 账单记录
 * 费率卡
+* 任务
 
 有关将自定义表单附加到对象的详细信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

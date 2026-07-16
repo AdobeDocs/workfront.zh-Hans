@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 4%
@@ -72,7 +72,7 @@ ht-degree: 4%
 
 ### 将最近的项目添加为收藏
 
-1. 单击新[!DNL Adobe Workfront]体验中任何页面右上角的&#x200B;**[!UICONTROL 最近]**&#x200B;图标![最近](assets/recents-icon-40x43.png)。
+1. 单击新[!DNL Adobe Workfront]体验中任何页面右上角的&#x200B;**[!UICONTROL 最近]**&#x200B;图标![最近](assets/recents-icon.png)。
 1. 单击与要另存为收藏的项目对应的星标。 最近的项目显示在&#x200B;**收藏夹**&#x200B;菜单中。
 
    ![收藏最近的项目](assets/recents-section.png)
@@ -86,7 +86,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >如果单击已添加为收藏夹的对象上的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标，该对象将从[!UICONTROL 收藏夹]菜单中移除。\
+   >如果单击已添加为收藏夹的对象上的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标，该对象将从[!UICONTROL 收藏夹]菜单中移除。
    >![从收藏夹中删除](assets/nwe-remove-from-favorites-350x52.png)
 
 ## 从[!UICONTROL 收藏夹]菜单删除项目

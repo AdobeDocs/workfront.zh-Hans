@@ -20,16 +20,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
 workflow-type: tm+mt
-source-wordcount: 1196
-ht-degree: 1%
+source-wordcount: 798
+ht-degree: 2%
 
 ---
 
 # 上传新文档版本并请求审批
-
-{{highlighted-preview}}
 
 如果文档在以前的审阅中被标记为“需要工作”，则您可以将新版本上传到原始文档并开始另一轮审批。 上传文档的新版本后，先前版本将被锁定。
 
@@ -78,76 +76,77 @@ ht-degree: 1%
 
 
 
-## 使用拖放操作可在生产环境的旧版文档区域中添加新版本
+<!--
+## Use drag-and-drop to add a new version in the legacy documents area in Production
 
-如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
->Internet Explorer无法执行拖放操作。
+>Drag-and-drop does not work with Internet Explorer.
 
 
-如果您需要对文档进行另一轮审核和批准，则可以在Workfront中创建新文档版本。
+If you need another round of review and approval on a document, you can create a new document version in Workfront.
 
-可添加先前的参与者、新参与者或两者的组合。 您可以在“文档详细信息”页面上查看有关先前版本和参与者的信息。
+You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page. 
 
-要添加新版本：
+To add a new version:
 
-1. 导航到Workfront中的文档。
-1. 将新文件拖放到上一个文档上。 这会自动创建新版本。
+1. Navigate to the document in Workfront.
+1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-1. 文档上传完成后，选择文档以打开文档摘要面板。 在这里，您将在面板顶部看到版本号。
+1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel.
 
 
-1. 向下滚动到&#x200B;**审批**&#x200B;部分。
+1. Scroll down to the **Approvals** section.
 
-1. 单击&#x200B;**创建工作流**，然后填写以下详细信息：
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>阶段名称</strong></td>
-   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>添加姓名或电子邮件</strong></td>
-   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一个决策（可选）</strong></td>
-   <td>第一个做出决策的人将完成阶段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>截止日期（可选）</strong></td>
-   <td>设置审批的截止日期。 用户和团队将在指定到期日期之前的72小时（即24小时）通过电子邮件接收通知。</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. （可选）根据需要重复上一步添加其他阶段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
 
 
-1. （可选）要添加现有的审批模板，请从对话框左侧选择模板。
+1. (Optional) To add an existing approval template, select a template from the left side of the dialog.
 
    >[!TIP]
    >
-   >   拥有Standard许可证的用户可以从设置区域创建可重复使用的审批模板。 有关详细信息，请参阅[为文档创建审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+   >   Users with a Standard license can create reusable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
 
-1. 添加所需的所有阶段和参与者后，单击&#x200B;**请求审批**。
+1. Once you have added all the stages and participants you need, click **Request approval**.
 
-   审批工作流将启动，审批者会收到通知，告知需要对新文档版本进行审批。 以前的文档版本被锁定，并且以前版本上的任何未完成的批准都将被撤回。
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-   !&lbrack;请求审批
-   <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+    ![request approval](assets/request-approval.png)
+-->
 
-<div class="preview">
+<!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
 
-## 使用拖放操作在预览的旧文档区域中添加新版本
+## 使用拖放操作在旧文档区域中添加新版本
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -171,11 +170,12 @@ ht-degree: 1%
 
 1. 配置审批工作流。 有关字段描述、高级模式切换和平行路径流，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
+1. 若要从以前的文档版本复制相同的审阅人和批准者，请单击&#x200B;**复制**。
 1. 单击&#x200B;**请求审批**。
 
    审批工作流将启动，审批者会收到通知，告知需要对新文档版本进行审批。 以前的文档版本被锁定，并且以前版本上的任何未完成的批准都将被撤回。
 
-## 使用拖放操作在预览中的新文档区域中添加新版本
+## 使用拖放操作在新的“文档”区域中添加新版本
 
 如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -203,8 +203,7 @@ the previous participants, new participants, or a mix of both. You can view info
 
 1. 配置审批工作流。 有关字段描述、高级模式切换和平行路径流，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
+1. 若要从以前的文档版本复制相同的审阅人和批准者，请单击&#x200B;**复制**。
 1. 单击&#x200B;**请求审批**。
 
    审批工作流将启动，审批者会收到通知，告知需要对新文档版本进行审批。 以前的文档版本被锁定，并且以前版本上的任何未完成的批准都将被撤回。
-
-</div>

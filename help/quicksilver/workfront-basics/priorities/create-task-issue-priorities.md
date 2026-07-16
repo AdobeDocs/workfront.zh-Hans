@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 249
 ht-degree: 11%
@@ -76,7 +76,7 @@ ht-degree: 11%
 {{step1-to-priorities}}
 
 1. 单击右上角的&#x200B;**新建**。
-   ![新建（生产）](assets/create-new--.png)
+   ![新建（生产）](assets/create-new.png)
 1. 指定以下信息：
 
    | 字段 | 说明 |
@@ -89,3 +89,4 @@ ht-degree: 11%
    | 截止日期（可选） | 选择截止日期。 |
 
 1. 单击&#x200B;**创建**。
+

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 添加或编辑自定义字段、分区界限或小组件
-description: 您可以在Adobe Workfront实例中编辑自定义表单中使用的自定义字段、分区界限或小部件的属性。 这些资源包括项目的标签、名称、说明等。
+description: 您可以在Adobe Workfront实例中编辑自定义表单中使用的自定义字段、分区界限或小部件的属性。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: 400
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 您可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。
 
-您还可以编辑在自定义表单中使用的自定义字段、分区界限或小组件的属性。 这些资源包括项目的标签、名称、说明等。
+您还可以编辑在自定义表单中使用的自定义字段、分区界限或小组件的属性。 这些资源包括项目的标签、API名称、说明等。
 
 将自定义字段设置为“不活动”会将其从报表、筛选器和视图中排除，并且该字段在自定义表单字段库中不再可用。 默认情况下，所有新字段均设置为“活动”。
 
