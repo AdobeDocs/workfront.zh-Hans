@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # 统一审查和批准入门
-
-{{highlighted-preview}}
 
 统一的审核和批准将Adobe Workfront和Adobe Frame.io融于一个高度关联的体验中，从而弥合了营销管理、创意审核和内容交付之间的差距。 项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
 
@@ -64,11 +62,11 @@ ht-degree: 0%
 
 可以将审阅人和审批人添加到一次性审批工作流或可重复使用的审批模板中：
 
-* **一次性审批**：在资产所在的项目或任务中，项目协调器可以分配审阅人和审批人并设置完成截止日期。 查看者和审批者将在截止日期前72小时、截止日期前24小时以及截止日期本身收到电子邮件提醒。 <span class="preview">在“预览”中，您还可以配置多阶段审批和并行路径，以便同时运行多个审核跟踪。</span>
+* **一次性审批**：在资产所在的项目或任务中，项目协调器可以分配审阅人和审批人并设置完成截止日期。 查看者和审批者将在截止日期前72小时、截止日期前24小时以及截止日期本身收到电子邮件提醒。 您还可以配置多阶段批准和并行路径，以便同时运行多个审阅跟踪。
 
   有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area)。
 
-* **审批模板**：在Workfront设置区域，项目协调员可以创建可重复使用的审批模板。 在模板中，用户可以添加审阅人和批准者，并指定完成时间范围。 将审批模板应用于资产时，截止日期从指定的时间范围中计算。 <span class="preview">在预览中，审批模板支持多阶段审批和并行路径，与一次性审批中可用的配置选项相匹配。</span>
+* **审批模板**：在Workfront设置区域，项目协调员可以创建可重复使用的审批模板。 在模板中，用户可以添加审阅人和批准者，并指定完成时间范围。 将审批模板应用于资产时，截止日期从指定的时间范围中计算。 审批模板支持多阶段审批和并行路径，与一次性审批中可用的配置选项相匹配。
 
   创建模板后，可将其应用于资源以在Workfront中开始正式审查和批准流程。
 

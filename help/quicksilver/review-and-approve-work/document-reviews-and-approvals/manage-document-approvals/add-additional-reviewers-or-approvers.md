@@ -9,27 +9,19 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jo3N878hmvHRqo6kCepxPDk2-zlalLvqQbMjHHB8aGE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 1%
+source-wordcount: 746
+ht-degree: 2%
 
 ---
 
 # 向文档审批工作流中添加其他审批人或审阅人
-
-{{highlighted-preview}}
 
 您可以将附加批准者或审阅者添加到已具有待审批的文档审批工作流。
 
@@ -73,33 +65,34 @@ ht-degree: 1%
 
 
 
-## 在“生产”的“旧文档”区域中添加其他批准者或审阅者
+<!--
+## Add additional approvers or reviewers in the legacy documents area in Production
 
-如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-要从“文档摘要”添加其他批准者或审阅者，请执行以下操作：
+To add additional approvers or reviewers from the Document Summary:
 
-1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 单击所需的文档，此时将打开该文档的“文档摘要”面板。
+1. Click on the document you need and the Document Summary panel for that document will open.
 
-1. 在版本下拉菜单中选择要向其中添加审批人或审阅人的文档的版本。 默认情况下会选择最新版本。
+1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
 
-1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**编辑工作流**。
+1. Scroll down to the **Approvals** section, then click **Edit workflow**.
 
-   ![编辑审批工作流](assets/edit-approval-in-legacy.png)
+   ![edit approval workflow](assets/edit-approval-in-legacy.png)
 
-1. 找到您要向其中添加批准者或审阅者的阶段，然后在文本框中添加用户名或电子邮件。 如果需要，您还可以添加整个团队。
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-1. 添加其名称后，选择他们是批准者还是审阅者。
+1. Once their name is added, choose if they are an approver or reviewer. 
 
-   ![审批者或审阅者下拉列表](assets/choose-approver-or-reviewer.png)
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
 
-1. 重复步骤5至6以添加其他批准者或审阅者。保存后，添加的参与者会收到电子邮件通知，告知文档需要其批准或审阅。
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
 
-<div class="preview">
-
-## 在预览的旧文档区域中添加其他批准者或审阅者
+## 在旧文档区域中添加其他批准者或审阅者
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -128,33 +121,32 @@ ht-degree: 1%
 >
 >要将基本模式批准重构为多阶段或多路径批准，请单击右上角的&#x200B;**转至高级**。 您的现有参与者将保留为路径1，阶段1。 保存后，无法切换回基本模式。 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-</div>
+<!--
+## Add additional approvers or reviewers in the new Documents area in Production
 
-## 在生产环境的新文档区域中添加其他批准者或审阅者
-
-如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
-
-
-1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
-
-1. 单击文档，然后单击页面右侧的&#x200B;**审批**&#x200B;图标。
-
-   ![在文档摘要中添加批准者](assets/approvals-icon-new.png)
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
-1. 单击&#x200B;**编辑工作流**。
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 找到您要向其中添加批准者或审阅者的阶段，然后在文本框中添加用户名或电子邮件。 如果需要，您还可以添加整个团队。
+1. Click on the document, then click the **Approvals** icon on the right side of the page. 
 
-1. 添加其名称后，选择他们是批准者还是审阅者。
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-   ![审批者或审阅者下拉列表](assets/choose-approver-or-reviewer.png)
 
-1. 重复步骤5至6以添加其他批准者或审阅者。保存后，添加的参与者会收到电子邮件通知，告知文档需要其批准或审阅。
+1. Click **Edit workflow**.
 
-<div class="preview">
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-## 在“预览”的新文档区域的“文档摘要”中添加其他批准者或审阅者
+1. Once their name is added, choose if they are an approver or reviewer. 
+
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
+
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
+
+## 在新建文档区域的“文档摘要”中添加其他批准者或审阅者
 
 如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -182,5 +174,3 @@ ht-degree: 1%
 >[!TIP]
 >
 >要将基本模式批准重构为多阶段或多路径批准，请单击右上角的&#x200B;**转至高级**。 您的现有参与者将保留为路径1，阶段1。 保存后，无法切换回基本模式。 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
-
-</div>

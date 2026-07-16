@@ -9,27 +9,19 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2fb0effe42a24898bb3389f72405a92f38ed5cc9
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 2758
+source-wordcount: 2231
 ht-degree: 1%
 
 ---
 
 # 创建文档审批工作流
-
-{{highlighted-preview}}
 
 您可以在Adobe Workfront中请求其他用户或团队批准文档，或请求他们审核文档而无需批准。
 
@@ -73,54 +65,55 @@ ht-degree: 1%
 
 +++
 
-## 在生产环境的旧文档区域创建审批工作流
+<!--
 
-如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+## Create an approval workflow in the legacy documents area in Production
 
-要创建审批工作流，请执行以下操作：
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+To create an approval workflow:
 
-1. 单击所需的文档，该文档的“文档摘要”面板将打开。
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 在版本下拉列表中选择要创建批准的文档版本。 默认情况下会选择最新版本。
+1. Click on the document you need and the Document Summary panel for that document opens.
 
-1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**创建工作流**。
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. 填写以下详细信息：
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>阶段名称</strong></td>
-   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>添加姓名或电子邮件</strong></td>
-   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一个决策（可选）</strong></td>
-   <td>第一个做出决策的人将完成阶段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>截止日期（可选）</strong></td>
-   <td>设置审批的截止日期。 用户和团队将在指定到期日期之前的72小时（即24小时）通过电子邮件接收通知。</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. （可选）根据需要重复上一步添加其他阶段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![文档详细信息](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
 
+-->
 
-<div class="preview">
-
-## 在预览的旧文档区域创建审批工作流
+## 在旧文档区域创建审批工作流
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -157,7 +150,8 @@ ht-degree: 1%
    </tr>
    <tr>
    <td><strong>添加自定义消息（可选）</strong></td>
-   <td>在<strong>添加自定义消息</strong>文本框中键入消息。 该消息会显示在批准电子邮件通知和Workfront的“批准”选项卡中。<p>注意：如果在创建审批工作流后编辑自定义消息，则会向所有现有参与者发送更新的电子邮件通知。 如果稍后添加参与者，则自定义消息将包含在其电子邮件通知中。</p>
+   <td>在<strong>添加自定义消息</strong>文本框中键入消息。 该消息会显示在批准电子邮件通知和Workfront的“批准”选项卡中。
+   <p>注意：如果在创建审批工作流后编辑自定义消息，则会向所有现有参与者发送更新的电子邮件通知。 如果稍后添加参与者，则自定义消息将包含在其电子邮件通知中。</p>
    </td>
    </tr>
    </table>
@@ -225,54 +219,53 @@ ht-degree: 1%
 
 1. 单击&#x200B;**请求审批**。
 
-</div>
 
+<!--
 
-## 在生产的新文档区域创建审批工作流
+## Create an approval workflow in the new Documents area in Production
 
-如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-要创建审批工作流，请执行以下操作：
+To create an approval workflow:
 
-1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 单击文档，然后单击页面右侧的&#x200B;**审批**&#x200B;图标。
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
 
-   ![在文档摘要中添加批准者](assets/approvals-icon-new.png)
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. 单击&#x200B;**创建工作流**，然后填写以下详细信息：
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>阶段名称</strong></td>
-   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>添加姓名或电子邮件</strong></td>
-   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一个决策（可选）</strong></td>
-   <td>第一个做出决策的人将完成阶段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>截止日期（可选）</strong></td>
-   <td>设置审批的截止日期。 用户和团队将在指定到期日期之前的72小时（即24小时）通过电子邮件接收通知。</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. （可选）根据需要重复上一步添加其他阶段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![文档详细信息](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
+   
+-->
 
-
-<div class="preview">
-
-## 在预览的新文档区域创建审批工作流
+## 在新建文档区域创建审批工作流
 
 如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -384,10 +377,6 @@ ht-degree: 1%
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 
 1. 单击&#x200B;**请求审批**。
-
-</div>
-
-
 
 <!--
 ## Resubmit an approval on a new version
