@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 # Adobe Workfront Planning作为独立产品入门
 
 <!--
+
 This is linked from the "planning-important-intro" snippet and many other Planning integrated articles
+
 -->
 
 <!--
@@ -105,7 +107,7 @@ This list also exists here: \help\quicksilver\planning\access\license-type-overv
   有关信息，请参阅[将Adobe Workfront Planning实例作为独立产品进行管理](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)。
 * 在Fusion中使用Workfront Planning连接器
 
-  有关信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+  有关信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 * 如果贵组织还购买了GenStudio for Performance Marketing，请管理Adobe GenStudio for Performance Marketing工作区。
 
   有关信息，请参阅[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。

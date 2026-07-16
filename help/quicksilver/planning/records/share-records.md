@@ -9,32 +9,27 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ct6I5wnivCVr3V86Zj4F7stm2IVUJVH50yvTRyWFuUA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: 677
 ht-degree: 0%
 
 ---
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
-<!--take out preview and production references at release-->
-
 # 使用链接共享记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -46,31 +41,22 @@ ht-degree: 0%
 
 * 在记录类型的表视图中查看记录时，复制指向记录页面的链接。
 
-* 在生产环境中：
+本文介绍了如何通过共享链接来共享记录。
 
-   * 通过共享工作区和记录类型，您可以与其他用户共享工作区中的所有记录。
+此外，还可以通过以下方式共享记录：
 
-     有关更多信息，请参阅以下文章：
+* 通过共享工作区和记录类型，与其他用户共享工作区中的所有记录。 默认情况下，所有记录也将与相同用户共享。
 
-      * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+  有关更多信息，请参阅以下文章：
 
-      * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
+   * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
+   * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
 
-* 在“预览”环境中：
+* 您可以与人员、团队、角色、组或公司共享单个记录，方法是在与工作区或记录类型共享记录时关闭继承权限。
 
-   * 您可以与人员、团队、角色、组或公司共享单个记录。
+  有关信息，请参阅[共享记录](/help/quicksilver/planning/access/share-records.md)。
 
-     有关信息，请参阅[共享记录](/help/quicksilver/planning/access/share-records.md)。
-
-</div>
-
-
-
-<!--take out the sentence below when we release record-level sharing-->
-
-本文介绍了如何从记录类型的表视图中复制指向记录页面的链接。
 
 ## 访问权限要求
 
@@ -234,8 +220,6 @@ Old:
 
 有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
-<div class="preview">
-
 ## 共享个人记录
 
 默认情况下，用户从工作区和记录类型继承记录权限。
@@ -246,5 +230,5 @@ Old:
 
 有关详细信息，请参阅[共享记录](/help/quicksilver/planning/access/share-records.md)。
 
-</div>
+
 
