@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: ca0583d7e375e7f17d058d7ca287785d17de35dd
+source-git-commit: abe9313aaa544a2deec69f40dd135782cc0d2c88
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '538'
 ht-degree: 2%
 
 ---
 
 # 配置AI协作者
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -48,11 +52,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -69,16 +73,16 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 * 您必须先在Workfront中配置了一个品牌，然后才能将其用于审阅人类型的AI协作者。
 
   有关说明，请参阅[为内容查看者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
-* <span class="preview">要将Adobe Brand Intelligence用于Reviewer AI Collaborator，您的组织必须在Workfront中使用统一的审核和批准体验。</span>
+* 要将Adobe Brand Intelligence用于审阅人AI协作者，您的组织必须在Workfront中使用统一的审阅和批准体验。</span>
 
-  <span class="preview">有关详细信息，请参阅[统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。</span>
+  有关详细信息，请参阅[统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。</span>
 
 ## 创建新的审阅人类型的AI协作者
 
 可以将Reviewer AI协作者配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 * **品牌**：品牌是在Workfront中创建的。 您可以通过上传包含品牌指南的PDF文件或手动输入品牌元素，在Workfront中创建品牌。
-* <span class="preview">**Adobe Brand Intelligence**：当AI协作者使用Adobe Brand Intelligence查看资源时，您可以在Frame.io中查看查看查看者所做的评论。 </span>
+* **Adobe Brand Intelligence**：当AI协作者使用Adobe Brand Intelligence查看资源时，您可以在Frame.io中查看查看查看者所做的评论。 </span>
 
 
 {{step-1-to-setup}}
