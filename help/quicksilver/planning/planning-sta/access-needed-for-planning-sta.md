@@ -3,7 +3,7 @@ title: Adobe Workfront Planning作为独立产品所需的访问权限
 description: 本文介绍Adobe Workfront Planning作为独立产品使用的许可证、访问级别和用户功能。
 last-update: 2026-04-01T18:02:40Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
@@ -66,7 +66,7 @@ the bullets repeat in the "Planning overview" article
 
 * Workfront Planning作为适用于组织中用户的独立产品。 这样，用户既无法访问任何Workfront工作流功能，也无法访问Planning功能。
 
-有关作为独立产品包含在Planning中的功能的信息，请参阅[作为独立产品开始使用Workfront Planning &#x200B;](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)一文中的“作为独立产品包含在Adobe Workfront Planning中的功能”部分。
+有关作为独立产品包含在Planning中的功能的信息，请参阅[作为独立产品开始使用Workfront Planning ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)一文中的“作为独立产品包含在Adobe Workfront Planning中的功能”部分。
 
 ## 用户许可证和访问级别
 
