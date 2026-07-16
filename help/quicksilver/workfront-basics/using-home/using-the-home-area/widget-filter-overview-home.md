@@ -9,29 +9,25 @@ exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1VkGz7LgrE1uBZ4uSwcTNLn3VpSMB-VI3o5HhpBG2XA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1084
-ht-degree: 11%
+source-wordcount: 881
+ht-degree: 13%
 
 ---
 
 # 主页小组件过滤器概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 您可以对以下小组件使用筛选器来查找和组织工作：
 
@@ -149,7 +145,7 @@ ht-degree: 11%
   </tr>
   <tr>
     <td>里程碑任务</td>
-    <td>显示与里程碑关联的任务。有关详细信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">将里程碑与任务关联</a>。
+    <td>显示与里程碑关联的任务。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">将里程碑与任务关联</a>。
 </td>
   </tr>
   <tr>
@@ -262,53 +258,53 @@ ht-degree: 11%
 
 ## 我的请求
 
-在生产环境中：
+我的请求小组件具有一个可自定义的筛选器，通过该筛选器，您可以控制哪些请求会显示在小组件中。 您可以为不同的字段和值配置此过滤器，也可以使用AND和OR来栈叠条件。
+
+有关在“我的请求”构件中配置筛选器的说明，请参阅使用“我的请求”构件一文中的[筛选请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)。
+
+<!--
+In the Production environment:
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">全部</td> 
-      <td>显示所有已提交的请求，无论状态或提交者如何。</td> 
+      <td role="rowheader">All</td> 
+      <td>Displays all submitted requests, regardless of status or who submitted them.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Open</td> 
-      <td> <p>显示所有已提交的请求 
+      <td> <p>Displays all submitted requests 
       <ul>
-      <li>当前未完成的项，无论其提交者是谁。 只有您至少拥有查看权限的请求才会显示在此处（如果您没有自己提交这些请求）。</li>
-      <li>没有实际完成日期或其解析对象没有实际完成日期将在“打开”子选项卡中列出。</li> 
+      <li>That are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself.</li>
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li> 
       </ul>
-      <p><b>注意</b> 
-      处于任何不等于“已关闭”状态的请求均被视为未完成。</p> 
+      <p><b>NOTE</b> 
+      Requests that are in any status that does not equate with Closed are considered open.</p> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">我的请求</td> 
-      <td>显示您提交的请求，而不管其状态如何。 </td> 
+      <td role="rowheader">My Requests</td> 
+      <td>Displays requests you submitted regardless of their status. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">我的未结请求</td> 
-      <td> <p>显示请求 
+      <td role="rowheader">My Open Requests</td> 
+      <td> <p>Displays requests 
       <ul>
-      <li>您已提交但仍未完成的事项。 </li> 
-      <li>没有实际完成日期或其解析对象没有实际完成日期在“我的未结请求”子选项卡中列出。  </li> 
+      <li>That you submitted and are still open. </li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.  </li> 
       </ul>
-      <p><b>注意</b> 
-      未处于已关闭状态的请求会被视为未完成。</p> </td> 
+      <p><b>NOTE</b> 
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-<div class="preview">
 
-在“预览”环境中：
 
-我的请求小组件具有一个可自定义的筛选器，通过该筛选器，您可以控制哪些请求会显示在小组件中。 您可以为不同的字段和值配置此过滤器，也可以使用AND和OR来栈叠条件。
-
-有关在“我的请求”构件中配置筛选器的说明，请参阅使用“我的请求”构件一文中的[筛选请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)。
-
-</div>
+In the Preview environment:
+-->
 
 ## 我的工作
 

@@ -9,29 +9,25 @@ exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yzpirNfY0Hsp0cbClQA8dFqhgqbpK8ZryIyeq4tBAgw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 440
 ht-degree: 2%
 
 ---
 
 # 删除工作区
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,7 +152,7 @@ Old:
 
    >[!NOTE]
    >
-   ><span class="preview">不能删除&#x200B;**示例工作区**&#x200B;选项卡上的工作区。 我们建议使用多工作区模板包来创建类似于示例工作区选项卡上的工作区。 有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。</span>
+   >不能删除&#x200B;**示例工作区**&#x200B;选项卡上的工作区。 我们建议使用多工作区模板包来创建类似于示例工作区选项卡上的工作区。 有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 1. （可选）单击&#x200B;**显示全部**&#x200B;以显示其他工作区。 仅当您拥有两行以上的工作区信息卡时，才会显示&#x200B;**显示所有**&#x200B;链接。
 1. （可选） ClicK **显示更少**&#x200B;以限制屏幕上显示的工作区数。

@@ -9,18 +9,13 @@ exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/c5iVodFoP9cUAVN63iu8B5-XoVihpNF3KbLdpMk7N9Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 847
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -30,11 +25,12 @@ ht-degree: 0%
 
 <!--you might need to add something about notifications and emails?!-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+-->
 
 在Adobe Workfront Planning中配置和激活自动化后，您可以使用它们在Adobe Workfront中创建对象或Adobe Workfront Planning中的记录。
 
@@ -89,7 +85,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>为要使用现有自动创建对象的工作区和记录类型分配或更高权限。 </p>  
-   <p><span class="preview">管理您正在为其运行自动化操作的记录的权限。</span></p>
+   <p>管理您正在为其运行自动化操作的记录的权限。</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目群或项目）。</p>
    <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区</p>
    </td> 

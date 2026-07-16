@@ -7,23 +7,22 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 0%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
 # 工作区概述
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +52,14 @@ ht-degree: 0%
 
    * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
    * **其他工作区**：显示系统中的所有其他工作区。 这仅适用于系统管理员。
-   * <span class="preview">**示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。</span>
+   * **示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。
 
   >[!NOTE]
   >
-  ><span class="preview">我们建议不要编辑示例工作区，而是将其用作创建您自己的工作区的引用。 使用多工作区模板包创建与“示例工作区”选项卡中列出的工作区相同的工作区。 有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)一文中的“使用最佳实践多工作区模板包创建多个工作区”部分。</span>
+  >我们建议不要编辑示例工作区，而是将其用作参考，以创建您自己的工作区。 使用多工作区模板包创建与“示例工作区”选项卡中列出的工作区相同的工作区。
+  >
+  >只有购买了Prime或Ultimate Planning程序包的客户才能查看示例工作区选项卡。
+  >有关信息，请参阅文章[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)中的“使用最佳实践多工作区模板包创建多个工作区”部分。
 
 <!--
 No longer the case - they match now: 

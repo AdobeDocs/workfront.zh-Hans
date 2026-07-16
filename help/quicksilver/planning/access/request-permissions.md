@@ -9,29 +9,24 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 514
 ht-degree: 3%
 
 ---
 
 # 请求对视图或工作区的权限
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +84,7 @@ no longer needed:
    <ul><li><p>查看或管理视图</p></li>
    <li><p>查看、贡献或管理工作区</p></li>
    <li><p>查看、参与或管理记录类型</p></li>
-   <li><p><span class="preview">查看或管理记录</span></p></li>
+   <li><p>查看或管理记录</p></li>
    </ul>  
    <p>只有对工作区和视图具有管理权限的用户才能公开共享视图。</p></td> 
   </tr> 
@@ -175,9 +170,9 @@ no longer needed:
 
 ## 请求权限
 
-向视图请求权限与向工作区、记录类型或<span class="preview">记录</span>请求权限类似。
+向视图请求权限与向工作区、记录类型或记录请求权限类似。
 
-当有人与您共享指向工作区、记录类型、<span class="preview">记录</span>或您无权访问的视图的链接时：
+当有人与您共享指向工作区、记录类型、记录或您无权访问的视图的链接时：
 
 1. 单击与您共享的视图或工作区的链接。
 
@@ -187,7 +182,7 @@ no longer needed:
 
    >[!NOTE]
    >
-   >当您无权访问记录类型或<span class="preview">记录</span>时，“您无权访问”页面显示您必须有权访问工作区。
+   >如果您无权访问记录类型或记录，则“您无权访问”页面显示您必须有权访问工作区。
 
 
 1. （视情况而定）如果共享的链接用于您有权访问的工作区的视图，请单击&#x200B;**用现有视图打开**。 如果您有权访问工作区，则记录类型页面将在默认视图中打开。

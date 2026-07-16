@@ -9,20 +9,14 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 793
+source-wordcount: 765
 ht-degree: 1%
 
 ---
@@ -31,11 +25,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 作为工作区管理员，您可以将存在于另一个工作区中的记录类型添加到您在Adobe Workfront Planning中管理的工作区。
 
@@ -149,27 +143,27 @@ And
 1. 单击&#x200B;**继续**。
 1. （视情况而定）在&#x200B;**选择记录类型**&#x200B;框中，单击要从现有工作区添加的记录类型的卡片，然后单击&#x200B;**添加**。
 
-   <span class="preview">如果您使用的是“预览”环境，则可以单击选择多个记录类型，然后单击“**添加”**。 所有可用工作区中的所有全局记录类型都会显示在列表中。</span>
+如果您使用的是“预览”环境，则可以单击选择多个记录类型，然后单击“**添加**”。 所有可用工作区中的所有全局记录类型都会显示在列表中。
 
-   记录类型已添加到您选择的辅助工作区，并且辅助工作区上的&#x200B;**全局记录类型**&#x200B;图标![全局记录图标](assets/global-icon-secondary-workspace.png)将显示在记录类型的卡片上。
+记录类型已添加到您选择的辅助工作区，并且辅助工作区上的&#x200B;**全局记录类型**&#x200B;图标![全局记录图标](assets/global-icon-secondary-workspace.png)将显示在记录类型的卡片上。
 全局记录类型图标在辅助工作区中的记录类型上显示时包括一个箭头，以指示该记录类型是从现有记录类型添加的。
 
-   出现以下情况：
+出现以下情况：
 
-   * 还从现有全局记录类型中添加了以下信息：
+* 还从现有全局记录类型中添加了以下信息：
 
-      * 所有原始字段
-      * 所有记录连接
-   * 不能从辅助工作区查看从记录类型的原始工作区添加的记录。
-   * 只有在您至少具有原始工作区的“查看”权限时，您才能查看从该工作区中的记录类型的原始工作区添加的记录。
-   * 只读&#x200B;**Workspace**&#x200B;字段已添加到新记录类型表视图中。 字段显示创建每个记录的工作区。
+   * 所有原始字段
+   * 所有记录连接
+* 不能从辅助工作区查看从记录类型的原始工作区添加的记录。
+* 只有在您至少具有原始工作区的“查看”权限时，您才能查看从该工作区中的记录类型的原始工作区添加的记录。
+* 只读&#x200B;**Workspace**&#x200B;字段已添加到新记录类型表视图中。 字段显示创建每个记录的工作区。
 
-     >[!NOTE]
-     >
-     >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
-     >
+  >[!NOTE]
+  >
+  >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
+  >
 
-1. （可选）将鼠标悬停在辅助工作区![&#128279;](assets/global-icon-secondary-workspace.png)上的全局记录类型图标全局记录图标上，以查看从中添加记录类型的原始工作区的名称。
+1. （可选）将鼠标悬停在辅助工作区](assets/global-icon-secondary-workspace.png)上的全局记录类型图标![全局记录图标上，以查看从中添加记录类型的原始工作区的名称。
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
 1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击以下任一项：
 
