@@ -22,20 +22,21 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3665
+source-wordcount: 3723
 ht-degree: 1%
 
 ---
 
 # 连接记录
 
+<!--
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -128,8 +129,8 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>向工作区提供或更高权限以及连接记录的记录类型。</p>
-   <p><span class="preview">管理您正在连接的记录的权限</span></p>
-   <p><span class="preview">查看您连接到的记录的权限或更高的权限</span></p>
+   <p>管理您正在连接的记录的权限</p>
+   <p>查看您连接到的记录的权限或更高的权限</p>
    <p>查看或更高的工作区权限并记录类型，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
    <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
@@ -422,8 +423,8 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
->将记录从Planning中的GenStudio工作区连接到AEM对象（资源和内容片段）时，GenStudio信息会自动显示在AEM的AEM对象中。在AEM Planning中建立连接后，添加的查找字段中会显示Workfront记录的GenStudio信息。有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>将记录从Planning中的GenStudio工作区连接到AEM对象（资源和内容片段）时，GenStudio信息会自动显示在AEM的AEM对象中。 在AEM Planning中建立连接后，添加的查找字段中会显示Workfront记录的GenStudio信息。 有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -467,7 +468,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    >[!IMPORTANT]
    >
-   > 您只能连接有权在Experience Manager中查看的资源。连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
+   > 您只能连接有权在Experience Manager中查看的资源。 连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
    > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 从&#x200B;**内容片段**&#x200B;选项卡中，选择要添加到链接记录字段的内容片段。

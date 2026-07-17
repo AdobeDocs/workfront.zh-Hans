@@ -23,7 +23,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 4%
@@ -31,8 +31,6 @@ ht-degree: 4%
 ---
 
 # 配置系统的基本信息
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +82,7 @@ ht-degree: 4%
    | 部分 | 更多信息 |
    |---------|-----------------|
    | **基本信息** | 有关在Workfront中配置基本信息的信息，请参阅[配置基本信息](#configure-basic-info)。 |
-   | <span class="preview">**存储概述**</span> | <span class="preview">有关检查文档存储使用量和配额的信息，请参阅[检查文档存储限制](../../documents/managing-documents/check-document-storage.md)。</span> |
+   | **存储概述** | 有关检查文档存储使用量和配额的信息，请参阅[检查文档存储限制](../../documents/managing-documents/check-document-storage.md)。 |
    | **API密钥设置** | 有关API密钥设置的信息，请参阅[管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。 |
    | **IP 允许列表** | 有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。 |
    | **电子邮件允许列表** | 有关向允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |

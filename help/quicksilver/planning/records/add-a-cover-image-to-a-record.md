@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 679
 ht-degree: 1%
 
 ---
 
-# 将封面图像添加到记录
+# 添加
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -70,7 +71,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>向工作区、记录类型分配或更高权限，以及<span class="preview">管理记录权限</span> </p>  
+   <td>   <p>向工作区提供权限或更高的权限、记录类型和管理记录的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr>   
 </tbody> 
@@ -187,16 +188,12 @@ Old:
 
    记录的预览将在视图中打开。
 
-   <!--update screen shot for new details views preview-->
-
    ![详细信息预览框](assets/details-box.png)
 
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    此时将打开记录页面。
-
-   <!--update screen shot for new details views preview-->
 
    ![详细信息页面](assets/details-page.png)
 
@@ -220,8 +217,6 @@ Old:
 1. 单击&#x200B;**使用图像**。
 
    图像会上载到记录预览或详细信息页面的顶部，并且更改会自动保存。
-
-   <!--update screen shot for new details views preview-->
 
    ![录制包含封面图像的页面](assets/record-page-with-cover-image.png)
 

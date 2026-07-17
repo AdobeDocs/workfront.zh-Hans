@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 5497
+source-wordcount: 5395
 ht-degree: 1%
 
 ---
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -356,7 +356,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    单击&#x200B;**自定义**&#x200B;以使用拾色器或十六进制代码选择自定义颜色。
 1. 单击颜色框外部以将其关闭。
 
-1. <span class="preview">在&#x200B;**默认选项**&#x200B;字段中，选择默认情况下要在此字段中显示的选项。 您可以选择多个选项。 用户在更新此字段时可以移除默认选项。</span>
+1. 在&#x200B;**默认选项**&#x200B;字段中，选择要默认显示在此字段中的选项。 您可以选择多个选项。 用户在更新此字段时可以删除默认选项。
 
 1. 单击&#x200B;**创建**。
 
@@ -405,7 +405,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    单击&#x200B;**自定义**&#x200B;以使用拾色器或十六进制代码选择自定义颜色。
 
-1. <span class="preview">在&#x200B;**默认选项**&#x200B;字段中，选择您要默认显示在此字段中的选项。 您只能选择一个选项。 用户在更新此字段时可以移除默认选择。</span>
+1. 在&#x200B;**默认选项**&#x200B;字段中，选择要默认显示在此字段中的选项。 您只能选择一个选项。 用户在更新此字段时可以移除默认选择。
 
 1. 单击颜色框外部以将其关闭。
 1. 单击&#x200B;**创建**。
@@ -437,45 +437,21 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
+
    * **名称**：字段的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：要在此字段中显示的日期格式类型。<!--update this casing - submitted bug for it-->
-
-     根据您访问字段的环境，执行以下操作：
-
-      * 在生产环境中：
-
-         * 从以下格式中选择：
-            * **区域设置**：与浏览器的区域设置匹配。
-            * **标准**： 05/16/2023
-            * **长**：2023年5月16日
-            * **欧洲**： 16/05/2023
-            * **ISO**： 2023-05-16
+   * 从以下格式中选择：
+      * **短**： 6/9/26
+      * **Medium**：2026年6月9日
+      * **长** 2026年6月9日
       * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
-        从以下选项中选择：
+   * 从以下选项中选择：
 
-         * **24hr**：例如： 18:00
-         * **12hr**：例如：下午6:00
-
-     <div class="preview">
-
-      * 在“预览”环境中：
-
-         * 从以下格式中选择：
-            * **短**： 6/9/26
-            * **Medium**：2026年6月9日
-            * **长** 2026年6月9日
-      * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
-
-        从以下选项中选择：
-
-         * **24hr**：例如： 18:00
-         * **12hr**：例如：下午6:00
-      * **对所有协作者使用相同的时区**，然后选择&#x200B;**时区** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->：如果要为所有查看字段的人员显示相同的时间戳，而不考虑他们用户的时区，请选择此选项。 所选时区将添加到此字段的列标题。
-
-     </div>
-
+      * **24hr**：例如： 18:00
+      * **12hr**：例如：下午6:00
+      * **向所有用户显示相同的时区**，然后选择&#x200B;**时区**：如果想要为所有查看字段的人员显示相同的时间戳，而不考虑他们用户的时区，请选择此选项。 所选时区将添加到此字段的列标题。
 
 1. 单击&#x200B;**创建**。
 
@@ -490,7 +466,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -520,7 +496,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -560,7 +536,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
@@ -696,15 +672,15 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    >
    >    如果选择“允许多个值”，并且多个用户存储在字段附加到的记录中，则以后编辑此字段时，无法再取消选择设置。
 
-1. <span class="preview">在&#x200B;**默认用户**&#x200B;或&#x200B;**默认用户**&#x200B;字段中，选择要默认显示在此字段中的用户。</span>
+1. 在&#x200B;**默认用户**&#x200B;或&#x200B;**默认用户**&#x200B;字段中，选择要默认显示在此字段中的用户。
 
-   <span class="preview">如果您还选择了&#x200B;**允许多个值**&#x200B;设置，则可以选择多个用户。</span>
+   如果您还选择了&#x200B;**允许多个值**&#x200B;设置，则可以选择多个用户。
 
-   <span class="preview">用户在更新此字段时可以删除默认用户。</span>
+   用户在更新此字段时可以删除默认用户。
 
    >[!TIP]
    >
-   ><span class="preview">取消激活在此设置中选择为默认用户的用户，将用户名保留为默认值。 它不会从字段值中删除已停用的用户，并且没有迹象表明其他用户已停用该用户。</span>
+   >取消激活在此设置中选择为默认用户的用户时，会将用户的名称保留为默认值。 它不会从字段值中删除已停用的用户，也不会向其他人指出该用户已被停用。
 
 1. 单击&#x200B;**创建**。
 

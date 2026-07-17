@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,6 +20,7 @@ ht-degree: 1%
 >本文中的信息是指Adobe Workfront Planning（作为独立产品购买时）。 当您的公司购买了仅限Adobe Workfront Planning的软件包，但没有购买Workfront Workflow软件包时，请参阅本文。
 >
 >有关与Workfront包一起购买时的Adobe Workfront Planning的信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
+>
 
 您可以在Adobe Workfront Planning中作为独立产品管理团队，其方式与在Adobe Workfront中管理团队类似，但存在一些限制。
 
@@ -77,4 +78,3 @@ ht-degree: 1%
    * 将鼠标悬停在列表中的团队名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png) > **删除团队**
    * 在列表中选择团队，然后单击页面底部蓝色工具栏上的&#x200B;**删除团队**
 1. 单击&#x200B;**是，删除**&#x200B;以进行确认。
-

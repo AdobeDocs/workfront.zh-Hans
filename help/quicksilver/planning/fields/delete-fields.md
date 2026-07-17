@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 733
+source-wordcount: 673
 ht-degree: 1%
 
 ---
 
 # 删除字段
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -190,14 +191,10 @@ Old:
 
    <!--insert screen shot when finalized-->
 
-1. <span class="preview">（视情况而定）如果您要删除的字段是请求表单的一部分，则显示&#x200B;**删除字段**&#x200B;框以指示将受到更改影响的表单。 执行以下操作之一：</span>
-
-   <div class="preview">
+1. （视情况而定）如果您要删除的字段是请求表单的一部分，则显示&#x200B;**删除字段**&#x200B;框以指示将受到更改影响的表单。 执行下列操作之一：
 
    * 单击向右箭头以显示受更改影响的表单，然后单击表单名称以在新选项卡中打开表单并决定是保留表单上的字段还是对表单进行其他更改。
    * 单击&#x200B;**删除**，这将从显示字段的所有区域删除该字段。
-
-   </div>
 
    无法恢复已删除的字段。
 

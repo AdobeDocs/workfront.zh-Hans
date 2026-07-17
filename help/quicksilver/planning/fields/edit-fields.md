@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 0%
+source-wordcount: 1038
+ht-degree: 1%
 
 ---
 
@@ -32,10 +32,11 @@ ht-degree: 0%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +153,8 @@ Old:
 * 保存字段后，可以编辑以下字段元素的配置：
 
    * 任何字段的名称或描述
-   * 单选或多选字段<span class="preview">的选项及其默认选项</span>。
-   * <span class="preview">人员字段的默认选择。</span>
+   * 单选或多选字段的选项及其默认选项。
+   * “人员”字段的默认选项。
    * “公式”字段的表达式。
 
   >[!WARNING]
@@ -209,14 +210,10 @@ this is not yet true, but it might come later:
    >
    >* 修改字段配置（字段选项或公式表达式）时，已修改字段中包含信息的记录将实时更新其值。 字段配置更改触发的值更改没有警告和审核日志。 所有查看字段的用户将立即看到经过修改的新值。
 
-1. <span class="preview">（视情况而定）如果您要更新的字段是请求表单的一部分，则会显示&#x200B;**审核字段更改**&#x200B;框以指示将受到更改影响的表单。 执行以下操作之一：</span>
-
-   <div class="preview">
+1. （视情况而定）如果您要更新的字段是请求表单的一部分，则会显示&#x200B;**审核字段更改**&#x200B;框以指示将受到更改影响的表单。 执行下列操作之一：
 
    * 单击向右箭头以显示受更改影响的表单，然后单击表单名称以在新选项卡中打开表单并决定是保留表单上的字段还是对表单进行其他更改。
    * 单击&#x200B;**保留更改**，这将更新显示字段的所有区域中的字段。
-
-   </div>
 
    字段信息会针对每个有权查看工作区的用户而更新。
 

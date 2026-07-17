@@ -19,20 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
-ht-degree: 1%
+source-wordcount: 4300
+ht-degree: 2%
 
 ---
 
 # 管理时间线视图
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -268,7 +268,7 @@ Old:
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
    * [分组](#add-grouping)
-   * &lbrack;设置
+   * [设置](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### 添加过滤器
@@ -378,21 +378,22 @@ Old:
 1. 单击左侧的以下运算符以指示连接和应应用过滤器条件的方式：
 
    * **AND**：必须满足所有指定的条件。
-   * **OR**：必须满足任何指定的条件。这是默认选项。
+   * **OR**：必须满足任何指定的条件。
+这是默认选项。
 
 1. （可选）添加其他筛选器分组并由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符加入它们。
 
-   系统会根据您的筛选条件自动筛选记录列表。  
+   系统会根据您的筛选条件自动筛选记录列表。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
-1. <span class="preview">（可选且视情况而定）如果您向时间轴视图添加了划分结构，请展开以下下拉列表中的记录类型，并重复上述相同步骤以为划分中包含的记录类型添加过滤器。</span>
+1. （可选且视情况而定）如果向时间轴视图添加了划分结构，请展开以下下拉列表中的记录类型，并重复上述相同步骤以为划分中包含的记录类型添加过滤器。
 
-   对划分中的每个记录类型重复<span class="preview">。</span>
+   对划分中的每个记录类型重复此操作。
 
    ![带有时间线视图划分的多层筛选器](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">您只能从时间线视图中筛选划分记录类型。</span>
+   您只能从时间线视图中筛选划分记录类型。
 1. （可选）单击&#x200B;**筛选器**&#x200B;或页面上的任何其他位置以关闭筛选器框。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +406,8 @@ Old:
 在时间线视图中使用分组时，请考虑以下事项：
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
-* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。&lt;！—！—*使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
+&lt;！—！—*使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -443,9 +445,7 @@ Old:
 
 1. 在&#x200B;**按**&#x200B;对记录进行分组框中，按正确的顺序拖放分组。
 
-1. <span class="preview">在&#x200B;**按**&#x200B;对记录进行分组的&#x200B;**布局**&#x200B;区域，选择以下选项之一：</span>
-
-   <div class="preview">
+1. 在&#x200B;**按**&#x200B;对记录进行分组的&#x200B;**布局**&#x200B;区域，选择以下选项之一：
 
    * **栈叠**：显示的分组没有冻结的左列，并且符合其项目时间线的宽度。
 
@@ -609,7 +609,8 @@ this is not possible right now; if this is the same functionality as the table v
   例如，任务连接到Workfront中的项目。 使用“细分”功能，您可以在Planning中显示与营销活动相关的项目，但不能显示与Workfront项目相关的任务。
 
   如果要在Workfront Planning记录类型的时间线视图中显示项目组合和项目，则项目组合和项目都必须连接到Planning记录，或连接到其时间线视图由您管理的Planning记录的记录。
-* 无法显示连接到Planning记录类型的Adobe GenStudio Brands。有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 无法显示连接到Planning记录类型的Adobe GenStudio Brands。
+有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 您只能显示与至少两个日期字段关联的记录类型。
 * 要在时间轴视图中显示的记录类型的日期字段必须在所选记录类型的表视图中可见，如查找字段。
 * 要在时间轴视图中显示的记录类型的开始日期和结束日期必须按时间顺序排列。 例如，如果记录的开始日期为1月31日，结束日期为1月1日，则它不会显示在时间线视图中。 有关详细信息，请参阅本文中的[管理时间线视图](#manage-a-timeline-view)部分。

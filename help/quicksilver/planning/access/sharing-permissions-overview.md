@@ -14,10 +14,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1372
-ht-degree: 5%
+source-wordcount: 1287
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,11 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共享权限概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,8 +63,6 @@ ht-degree: 5%
 
   有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
-<div class="preview">
-
 * 记录
 
    * 您可以与组织内部人员共享记录。
@@ -71,7 +71,7 @@ ht-degree: 5%
 
   有关详细信息，请参阅[共享记录](/help/quicksilver/planning/access/share-records.md)。
 
-</div>
+
 
 * 视图
 
@@ -190,19 +190,19 @@ The following are the levels of permissions for record types:
 
 默认情况下，当您向工作区和记录类型授予权限时，记录权限继承自记录类型。
 
-在生产环境中，记录的权限级别如下：
+<!--
+In the Production environment, the following are the levels of permissions for records: 
 
 
-|        | 管理 | 贡献 | 视图 |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| 创建 | ✓ | ✓ |       |
-| 删除 | ✓ | ✓ |       |
-| Edit | ✓ | ✓ |       |
-| 视图 | ✓ | ✓ | ✓ |
+| Create | ✓      |     ✓       |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
-<div class="preview">
-
-在“预览”环境中，记录的权限级别如下：
+以下是记录的权限级别：
 
 |        | 管理 | 视图 |
 |--------|--------|-------|
@@ -228,8 +228,6 @@ The following are the levels of permissions for record types:
 >[!NOTE]
 >
 >*当您从记录中删除权限时，用户仍保留对工作区和记录类型的查看权限，除非您从工作区中删除其权限。
-
-</div>
 
 ### 记录字段的权限
 

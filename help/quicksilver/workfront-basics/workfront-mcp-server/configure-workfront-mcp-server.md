@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
+source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 [!DNL Adobe Workfront] MCP服务器允许您在受支持的AI代理平台上通过自然语言对话处理Workfront数据。
 
 在将AI代理平台连接到Workfront之前，Workfront管理员必须在Workfront实例中启用MCP服务器访问。 对于每个受支持的AI代理平台，连接AI代理平台的确切步骤有所不同。
-
->[!IMPORTANT]
->
->目前，Workfront MCP服务器仅适用于使用AWS的客户。 不久的将来，使用GCP或Azure的客户将能够使用Workfront MCP功能。
 
 ## 支持的AI代理平台
 
@@ -66,10 +62,6 @@ MCP服务器访问由两个不同的管理员控制。
 
 
 ### 从连接器目录连接到Claude desktop
-
->[!IMPORTANT]
->
->目前，Claude Connector仅支持连接到美国地区的Workfront MCP服务器。  要连接到EU地区的Workfront实例，请参阅本文中的[使用URL连接到Claude](#connect-to-claude-with-a-url)。
 
 +++ 展开以查看有关将Workfront连接到[!DNL Claude]的分步说明。
 
@@ -122,14 +114,6 @@ MCP服务器访问由两个不同的管理员控制。
 
 1. 创建连接器后，会弹出登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
 
-   >[!NOTE]
-   >
-   >您的Workfront实例必须与该实例所在地区的MCP服务器连接。 例如，EU实例必须连接到EU MCP服务器。
-   >
-   >选择实例时，与MCP服务器区域不兼容的实例将显示为灰色，您无法连接到它们。
-   >
-   >要连接到与MCP服务器的区域不兼容的实例，请为该区域设置一个具有正确URL的新MCP连接。
-
 +++
 
 ### 使用技能自定义克劳德行为
@@ -152,14 +136,6 @@ MCP服务器访问由两个不同的管理员控制。
 
 1. 确保身份验证设置为&#x200B;**OAuth**（默认设置），并选中接受复选框以继续。
 1. 创建应用程序后，会弹出一个登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
-
-   >[!NOTE]
-   >
-   >您的Workfront实例必须与该实例所在地区的MCP服务器连接。 例如，EU实例必须连接到EU MCP服务器。
-   >
-   >选择实例时，与MCP服务器区域不兼容的实例将显示为灰色，您无法连接到它们。
-   >
-   >要连接到与MCP服务器的区域不兼容的实例，请为该区域设置一个具有正确URL的新MCP连接。
 
 
 ### 使用自定义GPT自定义ChatGPT行为

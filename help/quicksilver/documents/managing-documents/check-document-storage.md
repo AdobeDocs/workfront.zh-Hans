@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
 ht-degree: 3%
@@ -25,8 +25,6 @@ ht-degree: 3%
 ---
 
 # 检查文档存储限制
-
-{{highlighted-preview}}
 
 尽管用户可以上传到Workfront实例的单个文件的类型和大小没有限制，但您的Workfront计划包含总存储配额。 作为Workfront管理员，您可以从“客户信息”页面上的“设置”区域监控使用情况和配额。
 
@@ -79,8 +77,6 @@ ht-degree: 3%
 >
 >此限制不适用于您从任何其他第三方服务提供商（SharePoint、Google Drive、Webdam、Box、Dropbox或任何其他文档资产管理提供商）链接到Workfront的文档。
 
-<div class="preview">
-
 ## Adobe 云存储
 
 
@@ -107,5 +103,3 @@ ht-degree: 3%
 ### 管理员的电子邮件通知
 
 当使用量超过存储配额的75% 、 90%或100%时， Workfront会向系统管理员发送电子邮件通知。
-
-</div>

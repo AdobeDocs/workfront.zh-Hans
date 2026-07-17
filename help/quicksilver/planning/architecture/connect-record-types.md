@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3118
+source-wordcount: 3058
 ht-degree: 1%
 
 ---
@@ -33,10 +33,12 @@ ht-degree: 1%
 
 # 连接记录类型
 
+<!--
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -359,7 +361,7 @@ Old:
    >
    >* 除了“名称”和“说明”等系统字段外，您还可以添加以下类型的字段作为来自其他应用程序的对象类型的查找字段：
    >   * Workfront项目中的用户字段，如项目所有者或发起人。
-   >   * <span class="preview">引用字段，如Workfront项目中的项目组或项目公司。</span>
+   >   * 引用字段，如Workfront项目中的项目组或项目公司。
    >* AEM内容片段仅支持以下字段： <!--this information is also in "Connect record types overview"-->
    >   * 创建者及创建时间
    >   * 修改者和修改者

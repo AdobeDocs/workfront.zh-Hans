@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1528
 ht-degree: 2%
 
 ---
@@ -33,11 +33,13 @@ ht-degree: 2%
 Remove production and preview references at release
 -->
 
+<!--
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 未完成的请求将另存为草稿。
 
@@ -113,7 +115,8 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。Planning请求的&#x200B;**对象类型**&#x200B;按照以下模式命名： `< Name of workspace > > < Name of record type >`。 例如，Planning请求的Object类型可能名为`Marketing workspace > Campaigns`。\
+>* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。
+>     Planning请求的&#x200B;**对象类型**&#x200B;按照以下模式命名： `< Name of workspace > > < Name of record type >`。 例如，Planning请求的Object类型可能名为`Marketing workspace > Campaigns`。\
 >     Workfront请求的&#x200B;**对象类型**&#x200B;是`Issue`。
 >* 默认情况下，请求区域的列表中最多显示50个请求。 要查看更多请求，请滚动到列表底部。
 
@@ -157,7 +160,7 @@ Remove production and preview references at release
 
    新请求体验中提供了以下状态：
 
-   * <span class="preview">**新**：请求是新的，尚未有人开始处理。</span>
+   * **新**：请求是新的，尚未有人开始处理。
    * **草稿**：此请求尚未提交。 此状态为硬编码。
    * **等待审阅**： （仅限Planning）此请求具有批准者，并且没有批准者打开该请求。 此状态为硬编码。
    * **审核中**：（仅限Planning）此请求有批准者，且至少有一个批准者已打开该请求，但尚未做出任何决定。 此状态为硬编码。
@@ -166,7 +169,7 @@ Remove production and preview references at release
       * Workfront请求：请求已转换，工作正在进行。
       * Workfront Planning请求：请求完成映射至特定的Planning字段，并且该字段值与完成值不匹配。
    * **已搁置**：这可用于Workfront请求。 用户可手动设置。
-   * <span class="preview">**完成**：已创建完成请求的Planning记录。 （仅限Planning）</span>
+   * **完成**：已创建完成请求的Planning记录。 （仅限Planning）
    <!--
    This is not live yet; might be live for the unified intake process: 
    * <span class="preview">**Canceled**: This is for Workfront requests.</span> 

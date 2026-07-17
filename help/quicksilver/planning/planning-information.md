@@ -26,9 +26,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: 675
 ht-degree: 10%
 
 ---
@@ -38,10 +38,11 @@ ht-degree: 10%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +63,7 @@ ht-degree: 10%
    * 共享视图
    * 共享工作区（记录和字段）
    * 共享记录类型（记录和字段）
-   * <span class="preview">共享记录</span>
+   * 共享记录
 
 * [架构：文章索引](/help/quicksilver/planning/architecture/architecture-information.md)包含以下信息：
 
@@ -127,3 +128,7 @@ ht-degree: 10%
 我们将定期为Workfront Planning发布新功能。
 
 有关已发布功能的最新列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## Workfront Planning作为独立产品
+
+客户无需购买工作流许可证即可购买Workfront Planning。 有关信息，请参阅[Adobe Workfront Planning独立产品入门](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。

@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 5%
@@ -29,8 +29,6 @@ ht-degree: 5%
 ---
 
 # 文档摘要概述
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -147,7 +145,7 @@ ht-degree: 5%
 
 ### 详细信息
 
-使用“详细信息”部分查看高级概览信息，与自定义表单交互，并<span class="preview">打开打印摘要</span>。
+使用“详细信息”部分可查看概要性概述信息，与自定义表单交互，并打开“打印摘要”。
 
 ![新文档中的文档摘要详细信息体验](assets/summary-details.png)
 

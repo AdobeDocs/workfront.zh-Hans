@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
+source-git-commit: e359ae2ed97260e9325842f9726326866c6a815e
 workflow-type: tm+mt
 source-wordcount: '14340'
 ht-degree: 2%
@@ -2048,7 +2048,7 @@ ht-degree: 2%
          * [上载后文档名称已更改并包含无效字符](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [校对带有嵌入视频的PowerPoint](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [将交互式验证添加为新版本时，无法下载或预览验证版本](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
-      * [审批者决策在验证审批报告中显示连字符](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
+         * [审批者决策在验证审批报告中显示连字符](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
    * 本机集成 {#native-integrations}
       * [审核和批准本机集成：文章索引](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * {hide-from-toc}[GenStudio for Performance Marketing与Frame.io集成入门](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)

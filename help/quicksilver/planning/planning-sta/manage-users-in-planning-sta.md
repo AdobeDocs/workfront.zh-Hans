@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 0%
@@ -20,6 +20,7 @@ ht-degree: 0%
 >本文中的信息是指Adobe Workfront Planning（作为独立产品购买时）。 当您的公司购买了仅限Adobe Workfront Planning的软件包，但没有购买Workfront Workflow软件包时，请参阅本文。
 >
 >有关与Workfront包一起购买时的Adobe Workfront Planning的信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
+>
 
 您可以在Adobe Workfront Planning中作为独立产品管理用户，其方式与在Adobe Workfront中管理用户类似。
 
@@ -131,6 +132,4 @@ ht-degree: 0%
 1. 单击&#x200B;**停用**&#x200B;以确认。
 
    要保留您工作的历史记录，我们建议停用而不是删除用户。
-
-
 

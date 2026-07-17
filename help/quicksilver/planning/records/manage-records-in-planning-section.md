@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1777
 ht-degree: 1%
 
 ---
@@ -30,10 +30,11 @@ ht-degree: 1%
 
 # 管理来自Workfront对象的记录连接
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,7 +81,7 @@ ht-degree: 1%
    <p>在Workfront规划中：</p>
    <ul><li>查看对工作区和记录类型的权限以查看任何连接的记录 </li>
    或
-   <li> 为工作区和记录类型贡献或更高权限以及<span class="preview">管理记录权限</span>以连接或断开记录连接</a></li></ul> 
+   <li> 为工作区和记录类型分配或更高权限以及管理记录权限以连接或断开记录</a></li></ul> 
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
   </td>
   </tr>   
