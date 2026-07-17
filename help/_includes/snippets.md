@@ -1,7 +1,7 @@
 ---
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2293'
 ht-degree: 1%
 
 ---
@@ -297,7 +297,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >本文中的信息是指Adobe Workfront Planning，贵组织可以将其作为Adobe Workfront软件包或独立产品购买。
 >
->Workfront Planning作为独立产品购买时，并非所有功能都可用于Planning包。
+>当作为独立产品购买时，Workfront Planning包中并非包含的所有功能都可用。
 >
 >有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 > 
