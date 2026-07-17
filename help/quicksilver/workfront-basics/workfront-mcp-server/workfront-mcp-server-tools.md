@@ -5,9 +5,9 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
+source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1992'
 ht-degree: 5%
 
 ---
@@ -208,6 +208,7 @@ ht-degree: 5%
 | 更新对象 | `workflow_update_any_object` | 更新现有Workfront对象中的字段。 | 写入 |
 | 删除对象 | `workflow_delete_any_object` | 按ID删除Workfront对象。 需要明确的用户确认才能执行操作。 | 写入 |
 | 解析字段名称 | `workflow_resolve_field_names_any_object` | 将用户提供的字段名称或标签转换为底层Workfront API字段名称，以便AI代理平台可以构建准确的请求。 | 读取 |
+| 读取工作流文档 | `workflow_read_workflow_docs` | 加载Workfront工作流文档，包括工具使用指南和特定于对象的操作行动手册。 这是执行工作流操作之前所需的第一步。 | 读取 |
 
 ### 评论
 
