@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
 workflow-type: tm+mt
-source-wordcount: 1386
+source-wordcount: 1434
 ht-degree: 1%
 
 ---
@@ -65,15 +65,20 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>任何Workfront和Planning包</p>
-<p>任何工作流和计划包</p>
+<p>任何带规划包的Workfront或工作流包</p>
+<p>任何Planning作为独立产品包</p>
    </td> </tr>
-
-</tr> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td role="rowheader"><p>Workfront许可证</p></td> 
    <td><p>标准</p> 
-   <p>系统管理员必须为您的组织启用Planning Designer</p>
+   <p>Workfront管理员必须为贵组织启用Planning Designer</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>计划许可证</p></td> 
+   <td><p>标准</p> 
+   <p>Workfront管理员必须为贵组织启用Planning Designer</p>
   </td> 
   </tr> 
   <tr> 
@@ -91,16 +96,21 @@ ht-degree: 1%
 
 ## 为您的组织启用Planning Designer
 
-作为系统管理员，您可以为组织启用Planning Beta 。 打开此设置后，Workfront实例中的每个人可以在其“规划”区域中查看Planning Designer的功能。
+作为系统管理员，您可以为组织启用Planning Designer Beta 。 打开此设置后，Workfront实例中的每个人可以在其“规划”区域中查看Planning Designer的功能。
 
-1. 以Workfront管理员身份登录Workfront。
+1. 以Workfront管理员身份登录。
 1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-shell.png)，然后单击&#x200B;**设置**。
 1. 转到&#x200B;**系统** > **首选项** > **AI首选项**。
-1. 打开&#x200B;**启用AI**<!--and ensure you have a signed Gen AI Agreement with Adobe-->。
-   <!--1. Turn on the **Opt in to AI Beta** setting.-->
+1. 打开&#x200B;**启用AI**。
+
+   >[!NOTE]
+   >
+   >在Beta版中使用Planning Designer不需要接受AI协议。
+
+1. 打开&#x200B;**选择启用AI Beta**&#x200B;设置。
 1. 打开&#x200B;**计划Designer**&#x200B;设置。
-   <!-- add new screenshot-->
-   系统首选项中的![规划Designer设置](assets/planning-designer-toggle-in-system-preferences.png)
+
+   系统首选项中的![规划Designer设置](assets/ai-preferences-with-planning-designer-beta.png)
 
 1. 单击&#x200B;**保存**。
 
@@ -158,7 +168,7 @@ After we receive the email, our Engineering team will turn on the Planning Desig
 
 * 在访问Planning Designer之前，您无需启用AI协议。
 
-<!--* You must sign the Beta agreement to access the Planning Designer.-->
+* 您必须签署Beta协议才能访问Planning Designer。
 
 <!--
 Sargis and Ashot  said these are not required: 
@@ -178,7 +188,7 @@ Sargis and Ashot  said these are not required:
 -->
 
 * 您的Workfront管理员必须为贵组织打开规划Designer 。 之后，Planning Designer默认可供所有用户使用。
-* 如果贵组织已签署AI协议，则当您在“计划”区域使用AI助手时，由Planning Designer执行的操作也可以由AI助手执行。
+* 如果贵组织已签署AI协议，则在“计划”区域使用Planning Designer时，AI助手也可以执行由Planning Assistant执行的操作。
 * AI助手在“规划”区域中执行的操作或由Planning Designer执行的操作与您的Workfront Planning权限和Workfront访问级别相关。
 
   有关信息，请参阅以下文章：
@@ -202,7 +212,7 @@ Sargis and Ashot  said these are not required:
 
 * 创建和配置工作区
 
-<!--On March 2: * Edit workspaces-->
+* 编辑工作区
 
 * 创建记录类型，包括定义全局记录类型并将其添加到工作区
 
@@ -243,7 +253,7 @@ Sargis and Ashot  said these are not required:
 
    **计划**&#x200B;区域打开。<!--update screen shot when they change the name of the button-->
 
-   ![“工作区”页面上的“使用AI设计”按钮](assets/design-with-ai-button-on-workspaces-page.png)
+   ![“工作区”页面上的“使用AI创建”按钮](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. 单击&#x200B;**使用AI创建**，或单击&#x200B;**创建工作区**，然后使用顶部的提示窗口指示您要创建的工作区类型。<!--update this when they change it to Generate with AI-->
 
@@ -294,6 +304,6 @@ Sargis and Ashot  said these are not required:
 1. （可选）要编辑工作区，请执行以下操作之一：
 
    * 打开工作区并手动对其进行更改。 有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
-   * 单击&#x200B;**使用AI编辑**。 这将打开Planning Designer。 重复上述步骤以使用AI，并对工作区进行进一步更改。
+   * 打开工作区，然后单击&#x200B;**使用AI编辑**。 这将打开Planning Designer。 重复上述步骤以使用AI，并对工作区进行进一步更改。
 
 
