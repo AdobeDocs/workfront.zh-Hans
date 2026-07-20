@@ -7,13 +7,11 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 TQID: https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: 176
 ht-degree: 1%
 
 ---
@@ -38,12 +36,12 @@ Beta版中提供的功能可能并非对所有客户都可用。
 
 * Workfront内容查看者
 
-   * 图像指南当前为测试版。 内容审核者使用您在Workfront中设置的品牌指南来审核内容，并在审核和批准过程中向内容创建者提供反馈。
-   * 品牌语音指南已正式发布。
+  * 图像指南当前为测试版。 内容审核者使用您在Workfront中设置的品牌指南来审核内容，并在审核和批准过程中向内容创建者提供反馈。
+  * 品牌语音指南已正式发布。
 
   有关信息，请参阅[Workfront内容审查者入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* Adobe Workfront计划Designer在已关闭的Beta中提供。
+* Adobe Workfront规划Designer测试版现向所有客户提供。
 
   有关信息，请参阅[Adobe Workfront规划Designer入门](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
