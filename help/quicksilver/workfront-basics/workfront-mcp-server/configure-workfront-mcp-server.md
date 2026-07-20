@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
+source-git-commit: 269019dd8af4cda11e377164de83f0a7e9d7a458
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,39 @@ MCP服务器访问由两个不同的管理员控制。
 ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定义GPT自定义ChatGPT与连接器的行为方式。 例如，您可以创建一个自定义GPT，告诉ChatGPT始终从连接的服务中获取最新数据，而不是依赖以前的结果。
 
 要了解有关自定义GPT的更多信息，请参阅[ChatGPT用户文档](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)或向ChatGPT寻求有关自定义GPT的帮助。
+
+## 将Workfront连接到Copilot
+
+要构建Workfront MCP可以连接的自定义Copilot代理，请使用Copilot Studio。
+
+1. 在Copilot Studio中，单击&#x200B;**创建空白代理**。
+1. 为代理命名，然后单击&#x200B;**创建**。
+此时将打开座席窗口。
+
+1. 在&#x200B;**说明**&#x200B;字段中，说明您希望代理执行的操作。 包括诸如您的流程以及如何使用Workfront等信息。 我们建议您提供大量详细信息。
+1. 在顶部导航中，单击&#x200B;**工具**，然后单击&#x200B;**添加工具**。
+1. 选择&#x200B;**模型上下文协议**&#x200B;磁贴。
+1. 在显示的面板中，输入此连接的名称和说明。
+1. 在服务器URL字段中，输入所需的URL：
+
+   | 区域 | URL |
+   | --- | --- |
+   | 美国 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | 欧盟 | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
+1. 对于授权，请选择&#x200B;**OAuth 2.0**，然后选择&#x200B;**动态发现**。
+1. 单击面板底部的&#x200B;**创建**。
+
+   应用程序已注册。
+
+1. 注册应用程序后，在显示的面板中单击&#x200B;**未连接**，然后单击&#x200B;**创建新连接**，然后单击&#x200B;**创建**。
+1. 在出现的登录面板中，登录到Workfront，然后选择&#x200B;**继续**（当它显示您要使用哪个Workfront实例时）。
+1. 在显示服务器的面板中，单击&#x200B;**添加并配置**。
+
+   您现在可以开始为MCP服务器使用和配置工具。
+1. 配置并测试工具后，单击&#x200B;**发布**。
+
+   您可能没有发布权限。 如果是这种情况，请联系您的Copilot管理员。
 
 ## 验证您的连接
 
