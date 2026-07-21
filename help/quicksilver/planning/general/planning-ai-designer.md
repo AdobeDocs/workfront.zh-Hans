@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: 1496
 ht-degree: 1%
 
 ---
@@ -107,10 +107,16 @@ ht-degree: 1%
    >
    >在Beta版中使用Planning Designer不需要接受AI协议。
 
-1. 打开&#x200B;**选择启用AI Beta**&#x200B;设置。
-1. 打开&#x200B;**计划Designer**&#x200B;设置。
+1. 打开&#x200B;**选择加入AI Betas**&#x200B;设置（如果未启用）。
+1. 打开&#x200B;**计划Designer**&#x200B;设置（如果未启用）。
 
-   系统首选项中的![规划Designer设置](assets/ai-preferences-with-planning-designer-beta.png)
+   系统偏好设置中的![规划Designer设置](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png)。
+
+   >[!TIP]
+   >
+   >默认情况下，**选择加入AI Betas**&#x200B;和&#x200B;**Planning Designer**&#x200B;选项处于打开状态，但您必须接受Beta协议才能使用Planning Designer。
+
+1. （有条件且必需）如果您尚未接受Beta协议，请单击&#x200B;**查看Beta协议**&#x200B;并阅读协议，然后单击&#x200B;**接受**。
 
 1. 单击&#x200B;**保存**。
 
