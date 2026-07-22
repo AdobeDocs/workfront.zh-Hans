@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: 4300
+source-wordcount: 4223
 ht-degree: 2%
 
 ---
@@ -154,14 +154,14 @@ Old:
 
   构建时间线视图时，您可以从以下日期字段中选择：
 
-   * 记录日期
-   * 记录系统生成的字段：创建日期、上次修改日期
-   * 来自连接的记录或对象类型的查找日期（仅在连接记录或对象类型时为其添加了聚合器时）
+  * 记录日期
+  * 记录系统生成的字段：创建日期、上次修改日期
+  * 来自连接的记录或对象类型的查找日期（仅在连接记录或对象类型时为其添加了聚合器时）
 * 根据与记录关联的日期，在以下场景中，某些记录可能不会显示在时间轴视图中：
 
-   * 当开始日期和结束日期没有值时
-   * 当“开始”或“结束”日期没有值时
-   * 当开始日期在结束日期之后时
+  * 当开始日期和结束日期没有值时
+  * 当“开始”或“结束”日期没有值时
+  * 当开始日期在结束日期之后时
 
 要管理时间线视图，请执行以下操作：
 
@@ -214,9 +214,9 @@ Old:
    * 单击右上角的&#x200B;**今天**，将时间线居中到今天的日期。
    * 从时间范围下拉菜单中选择以下选项之一以更新时间增量并更新视图：
 
-      * **年**：显示有年指示的季度和月。
-      * **季度**：显示有季度指示的月和周。
-      * **月**：显示周和日。
+     * **年**：显示有年指示的季度和月。
+     * **季度**：显示有季度指示的月和周。
+     * **月**：显示周和日。
 
      >[!TIP]
      >
@@ -379,11 +379,11 @@ Old:
 
    * **AND**：必须满足所有指定的条件。
    * **OR**：必须满足任何指定的条件。
-这是默认选项。
+     这是默认选项。
 
 1. （可选）添加其他筛选器分组并由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符加入它们。
 
-   系统会根据您的筛选条件自动筛选记录列表。  <!--at this time, you can't name and save the filter - but will this change?!-->
+   系统会根据您的筛选条件自动筛选记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
@@ -406,8 +406,8 @@ Old:
 在时间线视图中使用分组时，请考虑以下事项：
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
-* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—*使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+* 您可以在视图中应用3个级别的分组。这些记录按您选择的分组顺序分组。
+&lt;！—*在使用API时，您最多可以应用4个级别的分组。 — 现在正在选中此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -553,8 +553,16 @@ this is not possible right now; if this is the same functionality as the table v
      >
      >    * 您只能将颜色与具有颜色编码选项的字段匹配。 例如，可以将颜色与“状态”字段匹配，或可与颜色关联的选项进行匹配。
      >    
-     >    * 不能将颜色与链接记录或对象类型中的查找字段匹配。
+     >    * 不能将颜色与连接的记录及其查找字段匹配。
 
+     <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
    例如，多选或单选字段可以具有颜色编码选项。
 
@@ -570,6 +578,10 @@ this is not possible right now; if this is the same functionality as the table v
    * **字段值**：记录的颜色与您指定的字段的颜色匹配。 继续执行步骤10。<!--ensure this stays accurate-->
    * **分组**：记录的颜色与您为分组指定的颜色相匹配。 当未将分组应用于时间轴视图时，此选项将灰显。
    * **无**：记录显示在白色栏中。
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. （视情况而定）如果您为记录颜色选择了&#x200B;**字段值**，请从&#x200B;**将记录颜色与**&#x200B;下拉菜单中选择一个字段。
 
@@ -598,11 +610,11 @@ this is not possible right now; if this is the same functionality as the table v
 * 可以在时间轴视图的选定记录类型的记录下显示连接的记录或对象。
 * 仅当在“标准”模式下查看记录时，才可以在时间轴视图中显示连接的记录。 在时间轴视图的紧凑模式下，不能使用划分选项。
 * 使用“划分”功能，可在时间轴视图中显示以下内容：
-   * 连接到所选记录类型的Workfront Planning记录。
-   * 连接到选定记录类型的Workfront或Experience Manager对象类型。
-   * Workfront Planning记录或其他应用程序中的对象，这些记录或对象连接到连接到连接到选定记录类型的记录。
+  * 连接到所选记录类型的Workfront Planning记录。
+  * 连接到选定记录类型的Workfront或Experience Manager对象类型。
+  * Workfront Planning记录或其他应用程序中的对象，这些记录或对象连接到连接到连接到选定记录类型的记录。
 
-     例如，您可以将营销活动连接到项目组合。 此外，您还可以将另一个记录类型“产品”与项目以及营销活动相关联。 构建营销活动时间线视图时，您可以按项目组合、产品和项目细分营销活动。
+    例如，您可以将营销活动连接到项目组合。 此外，您还可以将另一个记录类型“产品”与项目以及营销活动相关联。 构建营销活动时间线视图时，您可以按项目组合、产品和项目细分营销活动。
 
 * 您不能显示仅连接到Workfront中的Workfront对象，但未连接到Workfront Planning记录类型的对象类型。 您只能显示Workfront Planning中连接的对象或记录类型。
 
