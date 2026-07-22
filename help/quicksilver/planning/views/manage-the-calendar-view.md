@@ -9,17 +9,12 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 5%
@@ -157,9 +152,9 @@ Old:
   您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
 * 存在以下情况：
 
-   * 当“起始日期”和“终止日期”均没有值时，这些记录不会显示在日历中
-   * 当“开始”或“结束”日期没有值时，记录显示为一天事件
-   * 当开始日期在结束日期之后时，该记录不会显示在日历上。
+  * 当“起始日期”和“终止日期”均没有值时，这些记录不会显示在日历中
+  * 当“开始”或“结束”日期没有值时，记录显示为一天事件
+  * 当开始日期在结束日期之后时，该记录不会显示在日历上。
 
 要管理日历视图，请执行以下操作：
 
@@ -176,12 +171,12 @@ Old:
    * 单击右上角的&#x200B;**今天**，将日历居中到今天的日期。
    * 从时间范围下拉菜单中选择以下选项之一以更新时间增量：
 
-      * **月**：记录显示在每月日历中。
+     * **月**：记录显示在每月日历中。
 
-      * **周**：记录显示在以下区域中：
+     * **周**：记录显示在以下区域中：
 
-         * 跨越多天的记录将显示在日历顶部。
-         * 持续一天或更短的记录，显示在日历视图的下半部分。 如果选择显示开始日期和结束日期的小时，则记录会在发生日期的相应时间显示。
+       * 跨越多天的记录将显示在日历顶部。
+       * 持续一天或更短的记录，显示在日历视图的下半部分。 如果选择显示开始日期和结束日期的小时，则记录会在发生日期的相应时间显示。
 
 1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
@@ -449,6 +444,15 @@ Old:
    例如，多选或单选字段可以具有颜色编码选项。
 
    如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. 单击&#x200B;**保存**。

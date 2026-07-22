@@ -10,16 +10,12 @@ exl-id: f2da081c-bdce-4012-9797-75be317079ef
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: 2201
 ht-degree: 0%
 
 ---
@@ -84,13 +80,13 @@ WHERE ExpandedProjectName is not null
 
 * `<data_type>`将从JSON对象返回的值转换为适用于该字段的数据类型。 为返回的值选择不兼容的数据类型将导致数据类型不匹配错误。 可能的数据类型包括：
 
-   * `text`
-   * `varchar`
-   * `int`
-   * `float`
-   * `number(len,precision)` （例如，`Number(32,4)`将返回1234.0987）
-   * `date`
-   * `timestamp`
+  * `text`
+  * `varchar`
+  * `int`
+  * `float`
+  * `number(len,precision)` （例如，`Number(32,4)`将返回1234.0987）
+  * `date`
+  * `timestamp`
 
 * `<column_name>`是您为每个自定义数据列创建的标签。
 
@@ -195,6 +191,207 @@ FROM
 >对于projects_event： 
 >`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
+## Planning：单个记录类型查询
+
+此示例演示如何查询Workfront Planning数据，以查找存储在Data Connect数据湖中的单个记录类型。
+
+### 场景
+
+您的组织使用Workfront Planning跟踪活动。 每个Campaign记录包括名称、状态、开始日期、结束日期和所有者。 您需要提取所有活动营销活动及其关键详细信息的列表，以供在功能板中使用。
+
+* 规划记录类型数据存储在PLANNINGRECORD_CURRENT视图中。
+* 每一行表示一个记录，并且所有字段值都存储在名为FIELD_VALUES的JSON列中。
+* 记录类型由RECORDTYPEID列标识。
+* 记录的工作区由WORKSPACEID列（或人类可读筛选器的WORKSPACENAME列）标识。
+
+### 查询
+
+```sql
+SELECT
+  recordid,
+  FIELD_VALUES:"Name"::text AS campaign_name,
+  FIELD_VALUES:"Status"::text AS campaign_status,
+  FIELD_VALUES:"Start Date"::date AS start_date,
+  FIELD_VALUES:"End Date"::date AS end_date,
+  FIELD_VALUES:"Owner"::text AS owner
+FROM PLANNINGRECORD_CURRENT
+WHERE WORKSPACEID = '<your_campaign_workspace_id>'
+AND RECORDTYPEID = '<your_campaign_record_type_id>'
+AND FIELD_VALUES:"Status"::text = 'Active'
+ORDER BY start_date ASC
+```
+
+### 响应
+
+上述查询返回以下数据：
+
+* **recordid**：营销活动的唯一规划记录ID。
+* **campaign_name**：从FIELD_VALUES JSON对象提取的营销活动名称。
+* **campaign_status**：营销活动的当前状态。
+* **start_date**：营销活动的开始日期，转换为日期数据类型。
+* **end_date**：营销活动的结束日期，强制转换为日期数据类型。
+* **所有者**：分配为营销活动所有者的用户或团队的名称。
+
+### 解释
+
+Data Connect中的Planning记录共享单个表结构，而不管记录类型如何。 RECORDTYPEID列用于将查询范围限定为特定的记录类型，在本例中为“促销活动”。 将`<your_campaign_record_type_id>`替换为您要查询的记录类型的ID，可在Workfront Planning记录类型设置中或通过查询RECORDTYPE_CURRENT找到该ID。
+
+字段值作为JSON对象存储在FIELD_VALUES列中，可使用与自定义表单数据相同的冒号表示法访问：
+
+```
+<field_column>:"<field_name>"::<data_type> AS <alias>
+```
+
+字段名称引用必须与在Planning记录类型字段配置中定义的字段名称完全匹配，包括大小写、间距和表情符号。
+
+>[!NOTE]
+>
+>在Workfront Planning中查看记录类型时，可以在URL中找到Planning记录类型ID。 它是以“Rt...”开头的URL的路径。 也可以在Data Connect中使用以下SQL调用找到记录类型：
+>
+>
+>```sql
+>SELECT
+>ID AS recordtypeid,
+>DISPLAYNAME AS record_type_name,
+>WORKSPACEID
+>FROM RECORDTYPE_CURRENT
+>ORDER BY record_type_name ASC
+>```
+
+## Planning：连接的记录类型查询
+
+此示例演示如何跨两个连接的Planning记录类型（父记录类型及其连接的记录类型）查询数据。
+
+### 场景
+
+贵组织在Workfront Planning中将Campaign记录关联到策略记录。 您希望生成一份报告，其中显示每个营销活动及其相关战术的关键详细信息。 他们特别希望显示策略名称、策略优先级和预算分配，以便领导可以审查按策略组织的营销活动。
+
+在数据连接中，本地Planning记录类型之间的连接直接存储在PLANNINGRECORD_CURRENT的FIELD_VALUES_RAW列中。 对于名为“战术”的参考字段，该值是连接的记录对象的JSON数组，每个记录对象都包含具有连接记录的RECORDID的id属性。 使用Snowflake的LATERAL FLATTEN将此数组展开为行，并连接到连接的记录类型。
+
+### 查询
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  t.FIELD_VALUES:"Name"::text AS tactic_name,
+  t.FIELD_VALUES:"Strategic Priority"::text AS strategic_priority,
+  t.FIELD_VALUES:"Budget Allocation"::float AS budget_allocation
+FROM PLANNINGRECORD_CURRENT c,
+INNER JOIN REFERENCE_CURRENT R 
+ON r.FROM_REFERENCEID = c.REFERENCE_IDS:"Tactics"::text
+INNER JOIN PLANNINGRECORD_CURRENT t
+-- Join to the Tactic record using the connected record ID from the array
+ON t.RECORDID = r.TO_RECORDID
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+ORDER BY tactic_name, campaign_name
+```
+
+### 响应
+
+上述查询返回以下数据：
+
+* **campaign_id**：营销活动的唯一规划记录ID。
+* **campaign_name**：营销活动记录的名称。
+* **campaign_status**：营销活动的当前状态。
+* **tactics_name**：连接的策略记录的名称。
+* **strategic_priority**：所连接“策略”记录的“策略优先级”字段值。
+* **budget_allocation**：已连接策略记录中的“预算分配”字段值，强制转换为浮点数。
+
+### 解释 — 修改的KP
+
+本机Planning记录类型之间的连接存储在REFERENCE_CURRENT联接表中。  REFERENCE_CURRENT联接表用于RecordType之间的联接。   在RecordType之间连接时，应使用TO_RECORDID字段。
+
+PLANNINGRECORD视图中的REFERENCE_ID列包含适用于该计划记录的所有REFERENCEID字段的列表。 您可以使用与field_value相同的JSON表示法来访问ID。
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+REFERENCE_CURRENT视图包含一个或多个记录，其中TO_RECORDID指向PLANNINGRECORD_*视图中的其他计划`recordId`字段。
+
+要将另一个REFERENCE字段联接到其他Planning记录，则上述查询中将添加与REFERENCE_CURRENT和PLANNINGRECORD_*相同的联接到模式。
+
+
+## 规划：记录类型已联接到工作流数据查询Workfront
+
+此示例演示如何使用Planning的本机连接功能（该功能将外部对象引用存储在REFERENCE_CURRENT视图中）将Workfront Planning记录类型连接到本机Workfront工作流对象（在本例中为“项目”）。
+
+### 场景
+
+贵组织使用Planning的本机连接功能将Workfront Planning中的Campaign记录连接到Workfront项目。 您要生成一个组合报告，其中显示活动详细信息以及链接项目的实时执行数据（特别是项目的当前完成百分比、计划完成日期和已分配项目所有者），以便活动经理可以跟踪投放进度，而无需离开其Planning工作区上下文。
+
+### 查询
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  conn.TO_EXTERNALID AS linked_project_id,
+  p.name AS project_name,
+  p.percentcomplete AS project_percent_complete,
+  p.plannedcompletiondate AS project_planned_completion,
+  p.ownerid AS project_owner_id,
+  u.name AS project_owner_name
+FROM WORKFRONT.PLANNING.PLANNINGRECORD_CURRENT c
+-- Join to the references table to find Workfront Project connections
+INNER JOIN WORKFRONT.PLANNING.REFERENCE_CURRENT conn
+ON conn.REFERENCE_ID = c.REFERENCE_IDS:"ProjectId"::text
+-- Join to the Workfront Projects table on the external ID
+INNER JOIN WORKFRONT.WF.PROJECTS_CURRENT p
+ON p.projectid = conn.TO_EXTERNALID
+-- Join to Users to resolve the project owner name
+LEFT JOIN WORKFRONT.WF.USERS_CURRENT u
+ON u.userid = p.ownerid
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+AND p.completiontype != 'CPL' -- Exclude completed projects
+ORDER BY campaign_name
+```
+
+### 响应
+
+上述查询返回以下数据：
+
+* **campaign_id**：营销活动的唯一规划记录ID。
+* **campaign_name**：营销活动记录的名称。
+* **campaign_status**：营销活动的当前状态，从“计划”开始。
+* **linked_project_id**：来自REFERENCE_CURRENT.TO_EXTERNALID的Workfront项目ID，用于标识连接的Workfront项目。
+* **project_name**：来自PROJECTS_CURRENT的本机Workfront项目名称。
+* **project_percent_complete**：项目的当前完成百分比值。
+* **project_planned_completion**：链接的Workfront项目的计划完成日期。
+* **project_owner_id**：项目所有者的Workfront用户标识。
+* **project_owner_name**：通过加入USERS_CURRENT解析的项目所有者的显示名称。
+
+### 解释
+
+从Planning记录类型到本机Workfront工作流对象的连接存储在REFERENCE_CURRENT中。 此视图中的每一行表示一个方向链接：TO_EXTERNALID保存连接的Workfront对象的ID。 表示Workfront连接的行由`TO_EXTERNALCONNECTIONNAME = 'workfront'`和与该Workfront对象类型的API代码（例如，项目的PROJ）相对应的TO_EXTERNALOBJECTNAME值标识。
+
+PLANNINGRECORD表中的REFERENCE_ID列包含适用于该记录的所有REFERENCEID字段的列表。  您可以使用与field_value相同的JSON表示法来访问ID。\
+PLANNINGRECORD_CURRENT中的单个REFERENCE_ID可以包含REFERENCE_CURRENT表中链接到Workfront表中特定对象类型对象的一个或多个引用链接。
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+请注意，Planning视图(PLANNINGRECORD_CURRENT、REFERENCE_CURRENT)位于WORKFRONT.PLANNING架构中，而本机Workfront工作流视图（PROJECTS_CURRENT、USERS_CURRENT等）位于 驻留在WORKFRONT.WF架构中。 跨模式连接需要完全限定的表名。
+
+查询执行三个联接：
+
+1. **引用表** REFERENCE_CURRENT的Planning记录在`TO_RECORDID = c.RECORDID`上联接，以查找源自每个Campaign记录的所有连接。 `TO_EXTERNALCONNECTIONNAME = 'workfront'`和`TO_EXTERNALOBJECTNAME = 'PROJ'`上的筛选器将结果范围缩小到专门表示与Workfront项目的连接的行。
+1. **对Workfront项目的引用表：** TO_EXTERNALID包含所连接项目的本机Workfront projectid。 此项目直接加入`PROJECTS_CURRENT.projectid`以检索实时项目数据。
+1. **用户项目：** USERS_CURRENT的LEFT JOIN将项目上的ownerid外键解析为人类可读的名称。 此处使用LEFT JOIN，以便仍可在结果中包含未分配所有者的项目。
+
+>[!NOTE]
+>
+>当联接到Planning外部的表时，请勿使用查询中的TO_RECORDID字段。  在连接到外部表时不需要它。
+>
+>此模式可应用于Planning支持连接的任何Workfront Workflow对象，如项目、项目组合或程序，方法是将TO_EXTERNALOBJECTNAME过滤器更改为相应的对象API代码（例如，项目组合的PORT或程序的PRGM），然后加入相应的WORKFRONT.WF表。 有关每种对象类型的正确表和ID列名称，请参阅Workfront Data Connect数据字典。
+
+要将另一个REFERENCE字段连接到其他外部记录，与上述加入REFERENCE_CURRENT和Workfront Workflow视图的模式相同的模式将被添加到上述查询中。
+
+通过使用适当的联接模式多次联接到REFERENCE_CURRENT表，可以在同一查询中联接外部和Planningrecord值。
 
 
 <!--
