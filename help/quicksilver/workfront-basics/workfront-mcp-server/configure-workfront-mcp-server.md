@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -124,18 +124,45 @@ MCP服务器访问由两个不同的管理员控制。
 
 ## 连接到ChatGPT
 
-1. 使用您的凭据登录到[ChatGPT](https://chatgpt.com)。
-1. 在左下方，选择&#x200B;**您的姓名** → **设置**。
-1. 选择&#x200B;**应用程序**，然后启用&#x200B;**开发人员模式**。
-1. 选择&#x200B;**创建应用程序**&#x200B;按钮。
-1. 为应用程序指定所需的名称（如“Workfront”），然后输入MCP服务器URL：
+将Workfront MCP服务器与ChatGPT连接的过程因您在网站上使用ChatGPT Desktop、Codex或ChatGPT而有所不同。
+
+### 连接到ChatGPT桌面或ChatGPT代码
+
+1. 在ChatGPT中，打开&#x200B;**设置**。
+1. 在左侧导航中单击&#x200B;**插件**。
+1. 单击窗口右上角附近的&#x200B;**添加服务器**。
+1. 输入服务器的名称。
+1. 对于类型，选择&#x200B;**可流式处理HTTP**。
+1. 设置MCP服务器URL：
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. 确保身份验证设置为&#x200B;**OAuth**（默认设置），并选中接受复选框以继续。
-1. 创建应用程序后，会弹出一个登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
+1. 单击&#x200B;**保存**。
+1. 在显示的列表中，为要添加的MCP服务器单击&#x200B;**身份验证**。
+1. 登录到Workfront。
+1. 在ChatGPT的MCP服务器列表中，确保新MCP服务器右侧的切换保持切换状态。
+
+
+### 连接到Web上的ChatGPT
+
+1. 使用您的凭据登录到[ChatGPT](https://chatgpt.com)。
+1. 在左下方，选择您的姓名，然后选择&#x200B;**设置**。
+1. 在左侧导航中，选择&#x200B;**安全和登录**。
+1. 转到ChatGPT插件页面，网址为https://chatgpt.com/plugins。
+1. 单击“插件”页面右上角附近的加号图标。
+1. 在&#x200B;**名称**&#x200B;字段中，输入MCP服务器的名称。
+1. 在&#x200B;**连接**&#x200B;字段中，选择&#x200B;**服务器URL**&#x200B;并输入MCP服务器URL：
+
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
+
+1. 确保将身份验证设置为&#x200B;**OAuth**（默认设置）。
+1. 阅读风险消息并勾选方框，显示您已阅读该消息。
+1. 单击&#x200B;**创建**。
+1. 创建应用程序后，会显示Workfront登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
 
 
 ### 使用自定义GPT自定义ChatGPT行为
