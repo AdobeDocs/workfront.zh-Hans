@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1867
 ht-degree: 3%
 
 ---
@@ -159,6 +159,10 @@ IF(
 >[!ENDSHADEBOX]
 
 有关自定义本地化的信息，请参阅[配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
+
+>[!NOTE]
+>
+>业务规则在主流程完成后执行。 换言之，业务规则旨在防止主进程尚未处理的操作。 它们不会覆盖或替换主执行期间引发的异常，而是会在进程结束时运行。
 
 ## 业务规则自动化方案
 
@@ -307,3 +311,4 @@ IF({status} = "APR", true)
 1. 在规则列表中选择业务规则并单击编辑图标。
 1. 在业务规则对话框中，为&#x200B;**处于活动状态**&#x200B;选择&#x200B;**是**。
 1. 单击&#x200B;**保存**。
+
