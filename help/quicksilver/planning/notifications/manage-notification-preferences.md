@@ -9,19 +9,14 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/C3hvRU9XvH3yqP21zXa4mxH6NrST85Jz98AvqeEHNY4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 522
 ht-degree: 4%
 
 ---
@@ -41,8 +36,8 @@ ht-degree: 4%
 在Workfront Planning中发生以下操作时，您可能会收到应用程序内通知或电子邮件通知：
 
 * 有人将您或您的团队添加到记录页面上的评论中
-* 有人请求访问视图或工作区<!--or <span class="preview">or a record</span>-->的权限
-* 有人授予您访问视图或工作区<!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->的权限
+* 有人请求访问视图、工作区或记录的权限
+* 有人授予您访问视图、工作区或记录的权限
 * 提交Workfront Planning请求。
 * 某人批准或拒绝了您提交的Workfront Planning请求。
 * 状态将更改为您提交的Workfront Planning请求。
@@ -162,8 +157,8 @@ Old:
 * 有关记录的注释信息，请参阅[管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有关批准通知的信息，请参阅以下文章：
 
-   * [在Adobe Workfront Planning中批准请求](/help/quicksilver/planning/requests/approve-request.md)
-   * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+  * [在Adobe Workfront Planning中批准请求](/help/quicksilver/planning/requests/approve-request.md)
+  * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
 * 有关Workfront Planning的应用程序内通知的信息，请参阅[管理Adobe Workfront Planning的应用程序内通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)。
 * 有关Workfront Planning电子邮件通知的信息，请参阅[管理Adobe Workfront Planning的电子邮件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)。
 
@@ -175,7 +170,7 @@ Old:
 >您可以使用Workfront首选项区域管理Adobe计划通知，而不是使用用户配置文件页面上的Workfront通知区域。
 
 1. 使用您的Adobe Experience Cloud凭据登录Workfront 。
-1. 单击屏幕右上角的Experience Cloud![&#128279;](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帐户菜单**&#x200B;图标帐户菜单图标，然后单击&#x200B;**首选项**。
+1. 单击屏幕右上角的Experience Cloud](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帐户菜单**&#x200B;图标![帐户菜单图标，然后单击&#x200B;**首选项**。
 1. 在&#x200B;**通知**&#x200B;部分下，单击&#x200B;**Workfront**。
 1. 选择要接收的通知。
 或
@@ -188,10 +183,10 @@ Old:
    * **提及**：当有人在Workfront Planning的评论中为您或您的团队加标签时，您会收到通知
    * **请求**：当有人执行以下操作之一时，您会收到通知：
 
-      * 请求或授予您访问Workfront Planning对象的权限
-      * 您已提交Workfront规划请求
-      * 您提交更改的Workfront Planning请求的状态
-      * 请求、授予或拒绝对Workfront Planning请求的批准
+     * 请求或授予您访问Workfront Planning对象的权限
+     * 您已提交Workfront规划请求
+     * 您提交更改的Workfront Planning请求的状态
+     * 请求、授予或拒绝对Workfront Planning请求的批准
 
    有关管理通知的详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。
 
@@ -204,7 +199,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

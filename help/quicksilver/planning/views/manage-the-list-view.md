@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 您可以在Workfront Planning的以下区域查看列表视图中的对象：
 
-* 记录的详细信息区域<!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->中项目的已连接记录页面
+* 记录的详细信息区域中项目的已连接记录页面
 
   ![列表视图中已连接记录页上的项目](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 * 对于连接的记录页面列表视图，请考虑以下事项：
 
-   * 您只能在记录的已连接记录页面的列表视图中查看项目。 列表视图不适用于已连接记录页面中的任何其他对象或记录类型。
+  * 您只能在记录的已连接记录页面的列表视图中查看项目。 列表视图不适用于已连接记录页面中的任何其他对象或记录类型。
 
   有关创建连接的记录页面的信息，请参阅[将连接的记录页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
-   * 在记录的已连接记录页面中查看列表视图之前，您必须将Workfront项目与Planning记录类型连接。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
-   * 您可以为记录的“连接的记录”页面中的项目创建多个列表视图。
+  * 在记录的已连接记录页面中查看列表视图之前，您必须将Workfront项目与Planning记录类型连接。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+  * 您可以为记录的“连接的记录”页面中的项目创建多个列表视图。
 
 * 对于请求表单列表视图，请考虑以下事项：
 
-   * 不能为Planning请求表单创建或编辑其他列表视图。 Workfront为请求表单创建一个列表视图。<!--this will change-->
+  * 不能为Planning请求表单创建或编辑其他列表视图。 Workfront为请求表单创建一个列表视图。<!--this will change-->
 
-     有关申请表单的信息，请参阅[在Adobe Workfront计划中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+    有关申请表单的信息，请参阅[在Adobe Workfront计划中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 * 根据显示的位置，并非每个列表视图都具有本文中描述的所有元素。
 
 ## 管理列表视图 {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       **列管理器**&#x200B;打开。
 
       您只能将现有字段添加到列表视图。
-不能删除第一列中显示的列表视图中的主字段。
+      不能删除第一列中显示的列表视图中的主字段。
 
    1. 单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 将打开&#x200B;**格式**&#x200B;框。 <!--change the name of the box when they update it-->
-执行以下操作：
+      执行以下操作：
 
       1. 单击&#x200B;**添加条件**。
       1. 在&#x200B;**If**&#x200B;行中，选择一个字段并选择字段值并添加修饰符。 修改量会根据您选择的字段类型而发生更改。
@@ -223,8 +224,8 @@ Removed - more direct steps below:
       1. 单击&#x200B;**格式**&#x200B;框外部以将其关闭。
 
          这会将您返回到列表视图。
-格式设置将立即应用于列表视图。
-**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
+         格式设置将立即应用于列表视图。
+         **设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
 
    1. （可选）单击&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png)以按公用字段对列表中的项进行分组。 选择一个选项，或使用搜索栏查找字段。
 
@@ -254,9 +255,9 @@ Removed - more direct steps below:
 
 1. （视情况而定）对于选择类型字段，请使用键盘箭头导航选项列表，然后按空格键选择正确的选项。
 
-   <span class="preview">使用所选字段类型中的&#x200B;**搜索**&#x200B;行查找正确的选项。</span>
+   使用所选字段类型中的&#x200B;**搜索**&#x200B;行查找正确的选项。
 
-   <span class="preview">当未找到结果时，可以直接从字段单元格添加新选项。 此功能可能并非在所有列表中都可用。</span>
+   未找到结果时，可以直接从字段单元格添加新选项。 此功能可能并非在所有列表中都可用。
 
 1. 将鼠标悬停在列表中某个项目的名称上，然后单击&#x200B;**更多**&#x200B;菜单[更多菜单](assets/more-menu.png)，然后单击&#x200B;**查看**&#x200B;在另一个选项卡中打开该项目
 

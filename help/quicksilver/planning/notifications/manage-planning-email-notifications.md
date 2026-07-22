@@ -9,20 +9,14 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 0%
 
 ---
@@ -42,8 +36,8 @@ ht-degree: 0%
 * 有人在记录评论中标记您或您的团队
 
   有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
-* 有人要求您授予访问视图、工作区或记录类型<!--or <span class="preview">or a record</span>-->的权限
-* 有人确认已授予您查看、工作区或记录类型<!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->的访问权限
+* 有人要求您授予访问视图、工作区、记录类型或记录的权限
+* 有人确认已授予您查看、工作区、记录类型或记录的访问权限
 * 提交Workfront Planning请求。 有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)
 * 某人批准或拒绝了您提交的Workfront Planning请求。 有关信息，请参阅[在Adobe Workfront规划中批准请求](/help/quicksilver/planning/requests/approve-request.md)
 * 状态将更改为您提交的Workfront Planning请求。
@@ -165,7 +159,7 @@ OLD:
    记录详细信息页面将在Workfront中打开。 您可以更新记录或回复评论。
 
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
-将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+将在Adobe Experience Cloud中打开**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
 ## 在请求和授予权限时管理电子邮件通知
 
@@ -176,7 +170,7 @@ OLD:
    您请求权限的对象将在Workfront中打开。
 
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。
-将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+将在Adobe Experience Cloud中打开**通知**&#x200B;页面。将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
 
 有关请求、授予或拒绝权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。

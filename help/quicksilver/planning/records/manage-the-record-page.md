@@ -9,29 +9,25 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/sFguOXM4KmnumOPmMdueqTMyH-UNFq01TsJG6L53fAM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: 1741
 ht-degree: 0%
 
 ---
 
 # 管理记录页面布局
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -79,7 +75,7 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
-   <p>向工作区和记录类型贡献或更高权限以及<span class="preview">管理记录权限</span> </p>  
+   <p>贡献或更高权限到工作区并记录类型和管理记录的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> 
   </td>
   </tr>   
@@ -166,9 +162,9 @@ Old:
 
 * 以下更改将影响同一类型的所有记录，并且访问这些记录的所有用户都可以看到这些更改：
 
-   * 重新排列字段
-   * 添加或删除部分
-   * 添加或删除连接的记录页面
+  * 重新排列字段
+  * 添加或删除部分
+  * 添加或删除连接的记录页面
 
 * 显示在记录预览中所做的更改会立即显示在记录详细信息页面中。 在记录页面中所做的更改也会显示在记录预览框中。
 
@@ -176,9 +172,9 @@ Old:
 
 * 您可以将以下类型的其他页面添加到记录的页面：
 
-   * 已连接的记录页面
+  * 已连接的记录页面
 
-     有关信息，请参阅[将“连接的记录”页面添加到记录](#add-a-connected-records-page-to-a-record)部分。
+    有关信息，请参阅[将“连接的记录”页面添加到记录](#add-a-connected-records-page-to-a-record)部分。
 
 ## 向记录预览或页面添加分区
 
@@ -208,23 +204,23 @@ Old:
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   <span class="preview">记录的预览在视图中打开。</span>
+   记录的预览将在视图中打开。
 
    ![详细信息框](assets/details-box.png)
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
-   <span class="preview">记录页面打开。 默认情况下，“详细信息”选项卡打开。</span>
+   此时将打开记录页面。 默认情况下，将打开“详细信息”选项卡。
 
    ![详细信息页面](assets/details-page.png)
 
 1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![添加节图标](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
-1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面[&#128279;](#manage-fields-in-the-records-details-tab)中的管理字段部分所述。
+1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面](#manage-fields-in-the-records-details-tab)中的[管理字段部分所述。
 
 1. （可选）将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
-   记录页面![&#128279;](assets/more-menu-options-for-section-on-record-page.png)上节的更多菜单选项
+   记录页面](assets/more-menu-options-for-section-on-record-page.png)上节的![更多菜单选项
 1. （可选）执行以下操作之一以编辑部分：
 
    * 单击&#x200B;**重命名**&#x200B;以重命名该节
@@ -237,8 +233,8 @@ Old:
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
-部分中的所有字段都会随部分一起移动。
+     单击&#x200B;**下移**以将节下移一个位置。
+     部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
 
@@ -251,7 +247,7 @@ Old:
 
    对部分和字段顺序的所有更改都将自动保存。
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击&#x200B;**详细信息**&#x200B;选项卡旁边的&#x200B;**连接**&#x200B;选项卡。 在单击“**连接**”选项卡之前，您可能必须单击“**更多**”。
 
@@ -287,54 +283,46 @@ Old:
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   <span class="preview">记录的预览在视图中打开。</span>
+   记录的预览将在视图中打开。
 
    ![详细信息框](assets/details-box.png)
 
-1. （可选且视情况而定）如果您使用的是生产环境，请根据要在“详细信息”页面中显示的字段，执行以下操作之一：
-
-
-   * 选择&#x200B;**显示所有字段**&#x200B;设置以在&#x200B;**详细信息**&#x200B;页面中包含记录的所有字段。 这是默认设置。
-   * 取消选择&#x200B;**显示所有字段**&#x200B;设置，以从&#x200B;**详细信息**&#x200B;页面中排除隐藏在记录表视图中的记录字段。
-
-     >[!TIP]
-     >
-     >* **显示所有字段**&#x200B;设置仅在记录的“详细信息”预览框中可用。 当记录的“详细信息”页面在浏览器窗口中打开时，此选项不可用。
-     >* 在“详细信息”预览框中排除隐藏字段时，无法向记录页面添加部分。
-
-
-1. <span class="preview">（可选且有条件）如果您使用“预览”环境，则默认情况下将在&#x200B;**选定的表视图字段**&#x200B;视图中打开详细信息区域。 这仅显示表格视图中可见的字段。</span>
-
-   >[!TIP]
-   >
-   > <span class="preview">只有在记录的详细信息预览页面中查看表视图中的记录时，**选定的表视图字段**&#x200B;视图才可用。
-   >**选定的表视图字段**&#x200B;不可用于任何其他记录类型视图，也不可用于浏览器窗口中打开的记录详细信息页面。</span>
-
-1. <span class="preview">（有条件）在“预览”环境中，继续执行以下操作：</span>
-
-   <div class="preview">
-
-   1. 要显示所有字段，请展开页面查看下拉菜单，然后选择&#x200B;**所有字段**。
-   1. （可选）单击K **新详细信息**&#x200B;以添加新页面并对其进行自定义，然后执行以下操作：
-
-      1. 在&#x200B;**创建视图**&#x200B;框中，为新详细信息页面视图添加名称，然后单击&#x200B;**创建**。
-      1. 将鼠标悬停在视图中的字段上，然后单击字段左侧的&#x200B;**隐藏字段**&#x200B;图标![隐藏字段图标](assets/hide-field-in-details-page-icon.png)以隐藏该字段。
-
+   <!--
+   1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
          >[!TIP]
          >
-         >* 访问记录的每个人均可看到自定义页面。
-         >* 您选择的最后一个页面视图将是您在打开同一类型的另一个记录时默认打开的最后一个页面视图。
+         >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+         >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
+   1. (Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. 
+      >[!TIP]
+      >
+      >The **Selected table view fields** view is only available when you view records in the table view in the record's details preview page. 
+      >The **Selected table view fields** is not available for any other record type view or for the record's details page that opens in a browser window. 
+   -->
 
-      1. （可选）单击详细信息页面顶部的&#x200B;**字段图标** ![字段图标](assets/fields-icon.png)，然后在详细信息页面上隐藏或显示字段。
 
-         >[!TIP]
-         >
-         >在&#x200B;**选定的表视图**&#x200B;或&#x200B;**所有字段**&#x200B;视图中显示详细信息页面时，**字段**&#x200B;图标不可用。
 
-      1. （可选）要编辑自定义详细信息页面视图的名称，请将鼠标悬停在该视图的名称上，然后单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**编辑**。
-      1. （可选）要删除自定义详细信息页面视图，请将鼠标悬停在该视图的名称上，单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**删除**，然后单击&#x200B;**删除**&#x200B;以确认。 无法恢复已删除的详细信息页面视图。
+1. 要显示所有字段，请展开页面查看下拉菜单，然后选择&#x200B;**所有字段**。
+1. （可选）单击K **新详细信息**&#x200B;以添加新页面并对其进行自定义，然后执行以下操作：
 
-   </div>
+   1. 在&#x200B;**创建视图**&#x200B;框中，为新详细信息页面视图添加名称，然后单击&#x200B;**创建**。
+   1. 将鼠标悬停在视图中的字段上，然后单击字段左侧的&#x200B;**隐藏字段**&#x200B;图标![隐藏字段图标](assets/hide-field-in-details-page-icon.png)以隐藏该字段。
+
+      >[!TIP]
+      >
+      >* 访问记录的每个人均可看到自定义页面。
+      >* 您选择的最后一个页面视图将是您在打开同一类型的另一个记录时默认打开的最后一个页面视图。
+
+   1. （可选）单击详细信息页面顶部的&#x200B;**字段图标** ![字段图标](assets/fields-icon.png)，然后在详细信息页面上隐藏或显示字段。
+
+      >[!TIP]
+      >
+      >在&#x200B;**选定的表视图**&#x200B;或&#x200B;**所有字段**&#x200B;视图中显示详细信息页面时，**字段**&#x200B;图标不可用。
+
+   1. （可选）要编辑自定义详细信息页面视图的名称，请将鼠标悬停在该视图的名称上，然后单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**编辑**。
+   1. （可选）要删除自定义详细信息页面视图，请将鼠标悬停在该视图的名称上，单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**删除**，然后单击&#x200B;**删除**&#x200B;以确认。 无法恢复已删除的详细信息页面视图。
 
 1. （可选）如果要导航到连接的记录，请在详细信息页面顶部的痕迹导航中单击该记录的名称。
 
@@ -346,7 +334,7 @@ Old:
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
-   <span class="preview">记录&#x200B;**详细信息**&#x200B;页面将在新选项卡中打开。</span>
+   记录&#x200B;**详细信息**&#x200B;页面将在新选项卡中打开。
 
    ![详细信息页面](assets/details-page.png)
 

@@ -9,19 +9,12 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 2%
@@ -69,20 +62,20 @@ ht-degree: 2%
 
 * 您可以从连接字段从Workfront Planning的以下区域连接Workfront项目、项目组合、程序、组和公司：
 
-   * 记录类型的表格视图
-   * 记录的详细信息页面或预览框
-   * 记录的“连接”选项卡
+  * 记录类型的表格视图
+  * 记录的详细信息页面或预览框
+  * 记录的“连接”选项卡
 
 * 您可以从Workfront Planning的以下区域创建项目：
 
-   * 记录类型的表格视图
-   * 连接字段中记录的详细信息区域
-   * 记录的“已连接”记录页
+  * 记录类型的表格视图
+  * 连接字段中记录的详细信息区域
+  * 记录的“已连接”记录页
 
 * 您可以从Workfront Planning的以下区域创建项目组合和程序：
 
-   * 记录类型的表格视图
-   * 连接字段中记录的详细信息区域
+  * 记录类型的表格视图
+  * 连接字段中记录的详细信息区域
 
 有关将Planning记录与Workfront对象连接的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
@@ -121,7 +114,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>为要添加记录的工作区和记录类型分配或更高权限。 </p>  
-   <p><span class="preview">管理创建Workfront对象时所使用的记录的权限。</span></p>
+   <p>管理创建Workfront对象时所使用的记录的权限。</p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
@@ -222,7 +215,7 @@ Old:
 
 1. （视情况而定）单击&#x200B;**添加项目**
 或
-开始键入项目的名称，如果找不到，请单击&#x200B;**添加项目**。 添加按钮后跟您键入的项目名称。
+开始键入项目的名称，如果找不到，请单击**添加项目**。 添加按钮后跟您键入的项目名称。
 
    ![从连接字段连接项目时添加项目](assets/add-project-when-connecting-it-from-connection-field.png)
 
