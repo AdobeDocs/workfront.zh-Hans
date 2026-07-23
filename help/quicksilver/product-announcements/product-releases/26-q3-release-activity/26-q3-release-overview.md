@@ -69,7 +69,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP连接器的更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP连接器的更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>我们更新了Workfront MCP连接器：<ul><li>Claude现在可以连接到MCP连接器。</li><li>您现在可以使用EU <!--or from instances that do not use AWS-->实例中的MCP连接器。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -112,7 +112,7 @@ ht-degree: 2%
         -->
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">访问级别的新许可证类型字段<p>[！BADGE Off Schedule]{type=Neutral}</p></a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">访问级别的新许可证类型字段<p>[!BADGE Off Schedule]{type=Neutral}</p></a>
                 <p>我们已在“访问级别”框中进行了以下字段更改： <ul><li>我们已将“访问级别”框中的“许可证类型”字段重命名为“工作流许可证类型”。 此重新标记的功能没有变化。  </li><li>对于已购买Workfront Planning包的客户，我们已添加了一个新的Planning许可证类型字段，以说明用户对Workfront Planning的许可证。 </li><ul></p>
             </td>
             <td><p>2026年7月16日</p></td>
@@ -130,7 +130,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">本机引用字段支持默认值逻辑</a><p>[！BADGE Workflow Prime或更高版本]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">本机引用字段支持默认值逻辑</a><p>[!BADGE Workflow Prime或更高版本]{type=Informational}</p>
                 <p>在自定义表单中，现在可使用本机引用字段添加默认值逻辑。 此逻辑类型仅在用户界面中可用，在Workfront API中不可用。</p>
             </td>
             <td><p>2026年7月7日</p></td>
@@ -157,7 +157,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">查看Workfront对象的更改历史记录</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">查看Workfront对象的更改历史记录</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>为了让您更轻松地查看在一个中心列表中发生的更改，我们创建了“更改历史记录列表”。 此列表显示诸如对象、操作和更改源（如用户或Workfront系统）等信息。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -166,7 +166,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">用于将旧存储产品组合转换为Adobe云存储的新系统首选项</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">用于将旧存储产品组合转换为Adobe云存储的新系统首选项</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Workfront管理员现在可以直接从“系统首选项”将旧版存储产品组合转换为Adobe云存储。 要转换项目组合，请在新的选择要转换为企业存储的项目组合中选择项目组合，并保存页面。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -233,7 +233,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe云驱动器</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>[！BADGE Workflow Ultimate]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe云驱动器</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>Adobe Cloud Drive是一款桌面应用程序，可将您的Adobe Cloud Storage项目作为Mac或Windows计算机上的驱动器进行装载，因此您可以直接从Finder或文件资源管理器打开、编辑和保存任何应用程序中的文件。</p>
             </td>
             <td><p>不适用</p></td>
@@ -241,7 +241,7 @@ ht-degree: 2%
             <td><p>2026年7月8日</p></td>
         </tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">请求审批包含Workfront和Frame.io的Adobe Express模板</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">请求审批包含Workfront和Frame.io的Adobe Express模板</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内容带来了结构化的审核和批准。 设计人员可以将Workfront审批工作流模板映射到Express模板，这样在重新混合模板时便需要在发布之前自动获得批准，从而通过预配置的Workfront工作流和Frame.io查看器路由资产。</p>
             </td>
             <td><p>不适用</p></td>
@@ -250,7 +250,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">打印新文档区域中的文档摘要</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">打印新文档区域中的文档摘要</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>您现在可以直接从新的文档区域打开文档审批的可打印摘要。 此功能适用于使用Adobe云存储的组织。</p>
             </td>
             <td><p>2026年6月2日</p></td>
@@ -299,7 +299,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">将费率卡添加到模板</a><p>[！BADGE Workflow Ultimate]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">将费率卡添加到模板</a><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>您现在可以选择要添加到模板的费率卡，该费率卡随后会自动附加到从模板创建的所有项目。 费率卡会成为项目中的默认费率卡，但如有必要，可以覆盖此费率卡。</p>
             </td>
             <td><p>2026年6月25日</p></td>
@@ -308,7 +308,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">在费率卡上的现有费率之间添加记帐费率</a><p>[！BADGE Workflow Ultimate]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">在费率卡上的现有费率之间添加记帐费率</a><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>您现在可以通过在费率卡上的特定位置添加新费率，更快速地调整费率卡上的有效日期记帐费率列表。 选择现有速率旁边的<b>更多</b>菜单以插入高于或低于该速率的行。</p>
             </td>
             <td><p>2026年6月25日</p></td>
@@ -317,7 +317,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">费率属性一旦用于费率就无法编辑</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>[！BADGE Workflow Ultimate]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">费率属性一旦用于费率就无法编辑</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>将属性添加到Workfront中的费率后，您将无法在“设置”区域中编辑该属性及其过滤器。 这样可保持数据完整性，并防止在属性更新时意外更改速率。</p>
             </td>
             <td><p>2026 年 5 月 21 日</p></td>
@@ -363,7 +363,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">将旧版存储任务转换为Adobe云存储项目</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">将旧版存储任务转换为Adobe云存储项目</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
                 <p>如果您的组织同时使用旧版Workfront存储和Adobe云存储，则您现在可以将旧版存储任务转换为Adobe云存储项目。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -372,7 +372,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">使用旧版存储模板创建Adobe云存储项目</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">使用旧版存储模板创建Adobe云存储项目</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
                 <p>如果您的组织同时使用旧版Workfront存储和Adobe云存储，则现在可以在某些情况下使用旧版存储模板来创建Adobe云存储项目。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -395,7 +395,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                在Snowflake中对Workfront Planning进行<a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自动访问控制</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                在Snowflake中对Workfront Planning进行<a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自动访问控制</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>此发行版本引入了对Snowflake中Workfront Planning数据的自动授权驱动访问管理，作为Workfront Data Connect的一部分。  </p>
             </td>
             <td><p>2026年7月16日</p></td>
@@ -403,7 +403,7 @@ ht-degree: 2%
             <td><p>2026年7月16日</p></td>
             <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">添加新对象的自定义数据支持</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">添加新对象的自定义数据支持</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>在2026年第二季度，我们添加了新对象，以支持Workfront中的企业运营增强功能。</p>
             </td>
             <td><p>2026年7月7日</p></td>
@@ -422,7 +422,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">一次将多个Power BI IP地址范围添加到Data Connect</a> <p>[！BADGE Off Schedule]{type=Neutral}
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">一次将多个Power BI IP地址范围添加到Data Connect</a> <p>[!BADGE Off Schedule]{type=Neutral}
                 <p>Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现在只需一步即可将整个区域的Azure IP地址范围集添加到。</p>
             </td>
             <td><p>不适用</p></td>
@@ -440,7 +440,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自定义公式中实际小时数的更改</a> <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自定义公式中实际小时数的更改</a> <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>使用<b>actualWorkRequired</b> （旧版实际小时数）的现有自定义公式已迁移为使用<b>actualWorkRequiredDouble</b> （实际小时数）。 <b>actualWorkRequired</b>不能再用于计算和公式中。</p>
             </td>
             <td><p>2026 年 6 月 1 日</p></td>
@@ -489,7 +489,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并在主页添加了我的请求构件。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -511,7 +511,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">在工作负载均衡器中简化了批量分配操作</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">在工作负载均衡器中简化了批量分配操作</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>在工作负载均衡器中简化了批量分配，分配用户和替换用户操作合并到<strong>替换资源</strong>操作中。</p>
             </td>
             <td><p>2026年6月19日</p></td>
@@ -534,7 +534,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">评论存档优化</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">评论存档优化</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>我们当前正在优化所有显示更新区域的Workfront对象中超过1年的评论的评论存档。 这是一项内部工作，应该不会影响您对更新区域的体验。 对于任何对象类型，“更新”区域没有视觉上的更改，而且此更新的功能没有变化。 所有注释对于所有对象类型保持可见。</p>
             </td>
             <td><p>已从2026年7月7日开始分阶段推出</p></td>
@@ -552,7 +552,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新评论通知电子邮件的外观</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新评论通知电子邮件的外观</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>更新区域评论的电子邮件通知具有新外观，与更广泛的Adobe电子邮件设计保持一致。 之前注释的线程不再包含在电子邮件正文中。</p>
             </td>
             <td><p>不适用</p></td>
