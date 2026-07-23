@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
+source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,9 @@ MCP服务器访问由两个不同的管理员控制。
 
 您为每个[!DNL Claude]帐户连接到Workfront一次。 该连接会向您验证特定Workfront实例，在您选择断开连接之前，您会一直保持连接。
 
-
+* [从连接器目录连接到Claude desktop](#connect-to-claude-desktop-from-the-connectors-directory)
+* [使用URL连接到Claude](#connect-to-claude-with-a-url)
+* [使用技能自定义克劳德行为](#customize-claude-behavior-with-skills)
 
 ### 从连接器目录连接到Claude desktop
 
@@ -125,6 +127,10 @@ MCP服务器访问由两个不同的管理员控制。
 ## 连接到ChatGPT
 
 将Workfront MCP服务器与ChatGPT连接的过程因您在网站上使用ChatGPT Desktop、Codex或ChatGPT而有所不同。
+
+* [连接到ChatGPT桌面或ChatGPT代码](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [连接到Web上的ChatGPT](#connect-to-chatgpt-on-the-web)
+* [使用自定义GPT自定义ChatGPT行为](#customize-chatgpt-behavior-with-custom-gpts)
 
 ### 连接到ChatGPT桌面或ChatGPT代码
 
@@ -202,6 +208,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. 配置并测试工具后，单击&#x200B;**发布**。
 
    您可能没有发布权限。 如果是这种情况，请联系您的Copilot管理员。
+
+## 将Workfront连接到自定义MCP解决方案
+
+如果您正在构建自己的自定义应用程序或代理，则可以直接连接到Workfront MCP服务器。
+
+连接方式有两种：
+
+* [使用服务到服务令牌连接](#connect-with-a-service-to-service-token)
+* [与OAuth连接](#connect-with-oauth)
+
+### 使用服务到服务令牌连接
+
+1. 使用Adobe Developer Console创建服务凭据。 有关信息，请参阅[服务器到服务器身份验证](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)。
+1. 使用以下信息连接到Workfront MCP服务器：
+
+   * **URL**： `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **标头**：
+
+     * `Authorization: Bearer <access_token>`
+     * `wf-url: <your_subdomain>.my.workfront.com` （如果您的凭据有权访问多个Workfront实例，例如预览和生产，则此为必填字段）。
+
+### 与OAuth连接
+
+Workfront尚不支持自定义OAuth集成的自助服务。
 
 ## 验证您的连接
 
@@ -298,6 +328,10 @@ What happens next
 ## 有关设置的常见问题解答
 
 +++ 展开以查看有关设置Workfront MCP服务器的常见问题解答。
+
+* [我是否可以同时连接到多个Workfront实例？](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [由哪个管理员启用此功能？](#which-administrator-enables-this)
+* [如果未在Workfront Identity Management System (IMS)上启用我的Workfront实例，我能否使用Adobe MCP服务器？](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### 我是否可以同时连接到多个Workfront实例？
 
