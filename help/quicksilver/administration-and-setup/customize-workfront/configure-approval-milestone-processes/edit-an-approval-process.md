@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 8e9dbe4c91058d104f494ab012ae54e04abf8cee
 workflow-type: tm+mt
-source-wordcount: 1984
+source-wordcount: 1950
 ht-degree: 3%
 
 ---
@@ -42,12 +42,20 @@ ht-degree: 3%
 >[!NOTE]
 >
 >* 编辑已使用的全局审批流程时，所做的更改会影响系统中已与其关联的所有对象。
->* 如果在对象上已启动的批准流程上将新批准者添加到当前阶段，则该对象的流程会重置，批准者必须重新开始。
 >
->  但是，如果您对已在对象上启动的审批流程进行了以下更改，则该流程将继续而不会中断：
+>
+>但是，如果您对已在对象上启动的审批流程进行了以下更改，则该流程将继续而不会中断：
 >
 >* 添加当前阶段以外的阶段
 >* 在当前阶段之前添加其他审批者
+
+<!--
+
+Note from Lisa: This was the second bullet in the note box above, below the bullet starting "When you edit a global approval process..." If you comment out bullet points in a note box, weird stuff happens. So I copied it below just in case.
+
+* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
+
+-->
 
 ## 访问权限要求
 

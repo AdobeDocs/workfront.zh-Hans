@@ -1,6 +1,6 @@
 ---
 title: 创建记录
-description: 使用Adobe Workfront Planning时，记录是记录类型的实例。 您可以在Workfront Planning中为每个记录类型创建唯一记录，方法是：将记录手动添加到表视图中，从列表中导入记录，复制记录，或在将其连接到其他记录时创建记录。
+description: 使用Adobe Workfront Planning时，记录是记录类型的实例。 您可以在Workfront Planning中为每个记录类型创建唯一记录，方法是：将记录手动添加到表视图中，从列表中导入记录，复制记录，或在将其连接到其他记录时创建记录。 每个记录可以与缩略图、封面图像和唯一颜色相关联。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
 workflow-type: tm+mt
-source-wordcount: 3224
+source-wordcount: 3239
 ht-degree: 0%
 
 ---
@@ -165,19 +165,30 @@ Old:
 
 * 根据从哪个工作区添加记录，添加到全局记录类型的记录对以下类型的用户可见：
 
-   * 添加到全局记录类型的原始工作区中的记录从原始工作区中可见。
-   * 添加到全局记录类型辅助工作区的记录仅在创建它们的工作区和全局记录类型的原始工作区中可见。
-有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+  * 添加到全局记录类型的原始工作区中的记录从原始工作区中可见。
+  * 添加到全局记录类型辅助工作区的记录仅在创建它们的工作区和全局记录类型的原始工作区中可见。
+    有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 * 根据用户对Workspace和记录类型的权限，用户可以通过以下方式创建记录：
 
-   * 对工作区以及记录类型具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
-   * 对工作区和记录类型具有Contribute和“管理”权限的用户可以使用记录类型页面上的“新建记录”按钮创建记录。
+  * 对工作区以及记录类型具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
+  * 对工作区和记录类型具有Contribute和“管理”权限的用户可以使用记录类型页面上的“新建记录”按钮创建记录。
 
   >[!IMPORTANT]
   >
   >工作区管理员必须为记录类型创建请求表单，以便具有查看权限的用户使用请求表单添加记录。 否则，查看权限用户无法创建记录。
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
@@ -190,7 +201,7 @@ Old:
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    记录类型页面将在您上次访问的视图中打开。默认情况下，将在表格视图中打开记录类型页面。
-所选类型的所有记录都将显示在视图中。
+   所选类型的所有记录都将显示在视图中。
 
 1. （视情况而定）在任意视图中，根据工作区和记录类型权限，单击屏幕右上角的以下内容：
 
@@ -207,9 +218,9 @@ Old:
       * **手动添加**。 记录的预览框打开。\
         添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录中所述。<!--insure this stays accurate-->
       * **从文件上载**
-添加记录，如文章[中所述。从步骤6开始，通过从CSV或Excel文件导入信息来创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
+        添加记录，如文章[中所述。从步骤6开始，通过从CSV或Excel文件导入信息来创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
       * **提交请求**
-此时将打开记录类型的请求表单。
+        此时将打开记录类型的请求表单。
 
         工作区管理员必须创建请求表单，以便能够使用请求表单添加记录。
 
@@ -272,7 +283,7 @@ You can import records from other applications by linking them to existing recor
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    记录类型页面将在您上次访问的视图中打开。默认情况下，将在表格视图中打开记录类型页面。
-所选类型的记录将显示在视图中。
+   所选类型的记录将显示在视图中。
 
 1. （视情况而定）从表格视图中，执行以下操作之一：
 
@@ -374,9 +385,9 @@ You can import records from other applications by linking them to existing recor
 
      默认情况下，日期值会根据时间线视图的显示方式预先选择。 存在以下情况：
 
-      * 按&#x200B;**年**：记录的开始和结束日期跨越一个月。
-      * 按&#x200B;**季度**：记录的开始和结束日期跨一周。
-      * 按&#x200B;**月**：记录的开始和结束日期跨三天。
+     * 按&#x200B;**年**：记录的开始和结束日期跨越一个月。
+     * 按&#x200B;**季度**：记录的开始和结束日期跨一周。
+     * 按&#x200B;**月**：记录的开始和结束日期跨三天。
 
 1. （可选）单击以下图标之一：
 
@@ -441,8 +452,8 @@ You can import records from other applications by linking them to existing recor
 
      默认情况下，日期值会根据您显示日历视图的方式预先选择。 存在以下情况：
 
-      * 按&#x200B;**月**：记录的开始和结束日期跨一天。
-      * 按&#x200B;**周**：记录的开始和结束日期跨越两天。
+     * 按&#x200B;**月**：记录的开始和结束日期跨一天。
+     * 按&#x200B;**周**：记录的开始和结束日期跨越两天。
 
 1. （可选）单击以下图标之一：
 
@@ -524,8 +535,8 @@ You can import records from other applications by linking them to existing recor
 
    * Workfront Planning的以下区域中的连接字段：
 
-      * 表格视图
-      * 记录的详细信息页面或预览框
+     * 表格视图
+     * 记录的详细信息页面或预览框
 
    * Workfront中项目、项目组合或项目群的“规划”部分中的连接字段。
 
@@ -534,7 +545,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+   开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -584,5 +595,53 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
+<!--
+For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 0%
 * 有人在记录评论中标记您或您的团队
 
   有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
-* 有人要求您授予访问视图、工作区或记录类型<!--or <span class="preview">or a record</span>-->的权限
-* 有人确认已授予您查看、工作区或记录类型<!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->的访问权限
+* 有人要求您授予访问视图、工作区、记录类型或记录的权限
+* 有人确认已授予您查看、工作区、记录类型或记录的访问权限
 * 提交Workfront Planning请求。 有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)
 * 某人批准或拒绝了您提交的Workfront Planning请求。 有关信息，请参阅[在Adobe Workfront规划中批准请求](/help/quicksilver/planning/requests/approve-request.md)
 * 状态将更改为您提交的Workfront Planning请求。

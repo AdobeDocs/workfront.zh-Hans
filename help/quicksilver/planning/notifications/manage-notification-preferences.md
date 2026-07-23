@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 522
 ht-degree: 4%
 
 ---
@@ -41,8 +41,8 @@ ht-degree: 4%
 在Workfront Planning中发生以下操作时，您可能会收到应用程序内通知或电子邮件通知：
 
 * 有人将您或您的团队添加到记录页面上的评论中
-* 有人请求访问视图或工作区<!--or <span class="preview">or a record</span>-->的权限
-* 有人授予您访问视图或工作区<!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->的权限
+* 有人请求访问视图、工作区或记录的权限
+* 有人授予您访问视图、工作区或记录的权限
 * 提交Workfront Planning请求。
 * 某人批准或拒绝了您提交的Workfront Planning请求。
 * 状态将更改为您提交的Workfront Planning请求。
@@ -162,8 +162,8 @@ Old:
 * 有关记录的注释信息，请参阅[管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有关批准通知的信息，请参阅以下文章：
 
-   * [在Adobe Workfront Planning中批准请求](/help/quicksilver/planning/requests/approve-request.md)
-   * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+  * [在Adobe Workfront Planning中批准请求](/help/quicksilver/planning/requests/approve-request.md)
+  * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
 * 有关Workfront Planning的应用程序内通知的信息，请参阅[管理Adobe Workfront Planning的应用程序内通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)。
 * 有关Workfront Planning电子邮件通知的信息，请参阅[管理Adobe Workfront Planning的电子邮件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)。
 
@@ -188,10 +188,10 @@ Old:
    * **提及**：当有人在Workfront Planning的评论中为您或您的团队加标签时，您会收到通知
    * **请求**：当有人执行以下操作之一时，您会收到通知：
 
-      * 请求或授予您访问Workfront Planning对象的权限
-      * 您已提交Workfront规划请求
-      * 您提交更改的Workfront Planning请求的状态
-      * 请求、授予或拒绝对Workfront Planning请求的批准
+     * 请求或授予您访问Workfront Planning对象的权限
+     * 您已提交Workfront规划请求
+     * 您提交更改的Workfront Planning请求的状态
+     * 请求、授予或拒绝对Workfront Planning请求的批准
 
    有关管理通知的详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。
 

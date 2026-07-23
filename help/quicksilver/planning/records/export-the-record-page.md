@@ -18,21 +18,22 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 362
 ht-degree: 1%
 
 ---
 
 # 导出记录的详细信息
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-要更有效地与可能没有Workfront帐户的其他人协作，您可以将记录的详细信息页面导出到Microsoft Word文件并与他们共享。
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
+-->
 
 ## 访问权限要求
 
@@ -60,7 +61,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>查看工作区、记录类型和<span class="preview">记录</span>或更高权限 </p>  
+   <td>   <p>查看或更高权限的工作区、记录类型和记录</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
   </tr>
@@ -139,8 +140,8 @@ Old:
 
 * 您可以将记录的详细信息导出为以下文件格式：
 
-   * .docx Word
-   * .pdf
+  * .docx Word
+  * .pdf
 
 * 您只能导出记录页面或预览区域的详细信息选项卡。
 

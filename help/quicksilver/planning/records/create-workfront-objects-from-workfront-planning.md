@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 2%
@@ -69,20 +69,20 @@ ht-degree: 2%
 
 * 您可以从连接字段从Workfront Planning的以下区域连接Workfront项目、项目组合、程序、组和公司：
 
-   * 记录类型的表格视图
-   * 记录的详细信息页面或预览框
-   * 记录的“连接”选项卡
+  * 记录类型的表格视图
+  * 记录的详细信息页面或预览框
+  * 记录的“连接”选项卡
 
 * 您可以从Workfront Planning的以下区域创建项目：
 
-   * 记录类型的表格视图
-   * 连接字段中记录的详细信息区域
-   * 记录的“已连接”记录页
+  * 记录类型的表格视图
+  * 连接字段中记录的详细信息区域
+  * 记录的“已连接”记录页
 
 * 您可以从Workfront Planning的以下区域创建项目组合和程序：
 
-   * 记录类型的表格视图
-   * 连接字段中记录的详细信息区域
+  * 记录类型的表格视图
+  * 连接字段中记录的详细信息区域
 
 有关将Planning记录与Workfront对象连接的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
@@ -121,7 +121,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>为要添加记录的工作区和记录类型分配或更高权限。 </p>  
-   <p><span class="preview">管理创建Workfront对象时所使用的记录的权限。</span></p>
+   <p>管理创建Workfront对象时所使用的记录的权限。</p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 

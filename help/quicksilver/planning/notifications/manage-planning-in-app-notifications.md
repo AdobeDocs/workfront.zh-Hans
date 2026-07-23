@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 398
 ht-degree: 1%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 1%
 * 有人在记录评论中标记您或您的团队
 
   有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
-* 有人要求您授予访问视图或工作区<!--<span class="preview">or record</span>-->的权限
-* 有人确认已授予您查看或工作区的访问权限<!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
+* 有人要求您授予访问视图、工作区或记录的权限
+* 有人确认您的访问权限已被授予查看、工作区或记录
 
 ## 访问权限要求
 
@@ -149,7 +149,7 @@ OLD:
 
 ## 当有人在评论中标记您时管理应用程序内通知
 
-1. （视情况而定）当有人在记录中的评论中为您或您的团队标记后，请转到Adobe Experience Cloud中的应用程序内&#x200B;**通知**&#x200B;图标![Experience Cloud通知图标](assets/experience-cloud-notifications-icon.png)。
+1. （视情况而定）当有人在记录中的评论中标记您或您的团队后，请转到Adobe Experience Cloud中的应用程序内&#x200B;**通知**&#x200B;图标![Experience Cloud通知图标](assets/experience-cloud-notifications-icon.png)。
 
    ![应用内通知示例](assets/in-app-notification-example.png)
 
