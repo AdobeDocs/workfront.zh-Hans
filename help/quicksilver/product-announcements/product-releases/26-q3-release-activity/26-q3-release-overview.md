@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 3%
+source-wordcount: '3317'
+ht-degree: 2%
 
 ---
 
@@ -609,6 +609,16 @@ New features in Workfront Planning are available in Production.
 此更新适用于Mac和Windows。
 
 ## 公告
+
+### 针对Data Connect读取器用户的仅密码身份验证将于2026年8月8日终止
+
+从2026年8月8日开始，除非启用多重身份验证(MFA)，否则使用仅密码登录进行身份验证的Workfront Data Connect/Snowflake Reader用户将停止运行。 在此日期之后无法追溯添加MFA — 如果允许读取器用户在没有它的情况下失效，则只能通过创建新的用户配置文件来恢复访问。
+
+如果您是具有Data Connect读取器用户的Workfront管理员，并且尚未启用MFA，请将此更改及时通知您的用户。
+
+这项更改是在2026年4月Workfront发行说明中首次宣布的，这是在截止日期前的最后提醒。 请确保所有受影响的读者用户在2026年8月8日之前启用MFA，以避免其访问中断。
+
+有关信息，请参阅[为Snowflake](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/reporting/data-lake/create-a-reader-account)创建读取器帐户或连接。
 
 ### Adobe Workfront Planning作为独立产品
 
