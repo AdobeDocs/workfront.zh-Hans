@@ -9,18 +9,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 TQID: https://experienceleague.adobe.com/tbPBGXTzfjmKuYgp32iFR6NsQCNf8sHZj4IH0zUXwt4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 0%
@@ -35,7 +29,7 @@ ht-degree: 0%
 
 ## 如何打开新的[!DNL Workfront Proof]帐户？
 
-若要打开新帐户，请转到[试用注册页面](https://business.adobe.com/cn/products/workfront/proofing-approvals.html)并打开试用帐户。 然后，我们团队的成员将与您联系，帮助您开始使用[!DNL Workfront Proof]。
+若要打开新帐户，请转到[试用注册页面](https://business.adobe.com/products/workfront/proofing-approvals.html)并打开试用帐户。 然后，我们团队的成员将与您联系，帮助您开始使用[!DNL Workfront Proof]。
 
 如果您已经知道系统并且想要注册付费计划，请转到&#x200B;*[!UICONTROL 设置]* *>* *[!UICONTROL 帐单]*，并将您的帐户升级到我们的付费计划之一。
 
@@ -51,7 +45,7 @@ ht-degree: 0%
 
 ## 为什么权限配置文件很重要？
 
-权限配置文件定义人员对您帐户中不同项目具有的访问权限。 如果您不希望人们能够查看其他人的验证，或者您不希望他们有权访问[!UICONTROL 帐户设置]或[!UICONTROL 帐单]，则这一点很重要。 请查看 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)文章中的验证权限配置文件，了解[!DNL Workfront Proof]中有哪些配置文件可用。
+权限配置文件定义人员对您帐户中不同项目具有的访问权限。 如果您不希望人们能够查看其他人的验证，或者您不希望他们有权访问[!UICONTROL 帐户设置]或[!UICONTROL 帐单]，则这一点很重要。 请查看 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)文章中的[验证权限配置文件，了解[!DNL Workfront Proof]中有哪些配置文件可用。
 
 如果您需要进一步优化权限，可能需要考虑自定义配置文件。 这是一项[!UICONTROL 无限制]功能，允许您使用自定义权限创建自己的配置文件。 有关详细信息，请转到[[!UICONTROL 使用 [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)创建和管理自定义配置文件。
 
@@ -67,13 +61,13 @@ ht-degree: 0%
 
 例如，您可以为每个客户端创建单独的文件夹，然后为每个项目创建不同的子文件夹。 或者，您也可以为项目创建文件夹，并为不同资源创建不同的子文件夹。 如果您愿意，验证创建者只需为他们创建的验证创建自己的文件夹即可。 [文件夹（在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中）一文中对文件夹进行了说明。
 
-*标记*&#x200B;是在您的帐户中组织验证和文件的另一种方式。 您可以将多个标记应用于验证和文件，以便将它们用于项目名称、内容类型、客户端名称等。您可以使用标记搜索帐户，然后对搜索结果执行不同的操作。 您还可以在自定义视图中使用它们。 请查看 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)文章中的[!UICONTROL 创建和管理标记]以了解有关标记的更多信息。
+*标记*&#x200B;是在您的帐户中组织验证和文件的另一种方式。 您可以将多个标记应用于验证和文件，以便将它们用于项目名称、内容类型、客户端名称等。您可以使用标记搜索帐户，然后对搜索结果执行不同的操作。 您还可以在自定义视图中使用它们。 请查看 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)文章中的[[!UICONTROL 创建和管理标记]以了解有关标记的更多信息。
 
 ## 如何向我的客户提供一个仪表板？
 
 您可以为其设置卫星帐户。 卫星是从中心帐户中进行管理的单独帐户。 您可以将多个卫星连接到同一个集线器。
 
-通过此设置，您可以为客户提供仪表板，而无需将其添加到您自己的帐户。 这有助于确保您的客户只看到他们应该看到的信息 — 卫星帐户用户看不到集线器帐户（或连接到同一集线器的任何其他卫星）的任何详细信息。 在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的附属帐户中进一步说明了附属帐户。
+通过此设置，您可以为客户提供仪表板，而无需将其添加到您自己的帐户。 这有助于确保您的客户只看到他们应该看到的信息 — 卫星帐户用户看不到集线器帐户（或连接到同一集线器的任何其他卫星）的任何详细信息。 在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的[附属帐户中进一步说明了附属帐户。
 
 ## 我是否可以使用[!DNL Workfront Proof]创建报告？
 
@@ -90,3 +84,4 @@ ht-degree: 0%
 ## 如何支付[!DNL Workfront Proof]订阅的费用？
 
 每月订阅仅通过信用卡支付。 年度订购可在信用卡和银行转账之间选择。<!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
+

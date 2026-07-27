@@ -9,16 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 TQID: https://experienceleague.adobe.com/VegCU8Bt-m-loHvC41n5njkRi5TpqbJBLZlemtAaOnI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 0%
@@ -87,3 +82,4 @@ ht-degree: 0%
 1. 在收到的验证电子邮件中，单击确认链接。\
    电子邮件更改将保存在您的配置文件中。 您可能需要刷新您正在查看[!DNL Workfront Proof] [!UICONTROL 个人设置]页面的浏览器，以查看它已被确认为别名电子邮件。
 1. （可选）要将新电子邮件地址设为[!DNL Workfront Proof]中的主要电子邮件地址，请单击地址最右侧的[!UICONTROL 更多] （三个点）按钮，然后在显示的菜单中单击&#x200B;**[!UICONTROL 设为主要电子邮件地址]**。
+
