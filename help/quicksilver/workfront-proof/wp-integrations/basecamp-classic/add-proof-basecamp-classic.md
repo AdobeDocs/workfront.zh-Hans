@@ -8,13 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
 TQID: https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 667
 ht-degree: 0%
@@ -39,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在将验证添加到[!DNL Basecamp Classic]之前，您必须确保已启用您的[!DNL Basecamp]集成，并在您的个人设置中选择了相关的[!DNL Basecamp]帐户（因为您可以与多个[!DNL [!DNL Basecamp]]帐户集成，但一次只能将验证添加到一个[!DNL Basecamp]帐户）。 有关设置的信息，请参阅[个人设置。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+>在将验证添加到[!DNL Basecamp Classic]之前，您必须确保已启用您的[!DNL Basecamp]集成，并在您的个人设置中选择了相关的[!DNL Basecamp]帐户（因为您可以与多个[！DNL [!DNL Basecamp]]帐户集成，但一次只能将验证添加到一个[!DNL Basecamp]帐户）。 有关设置的信息，请参阅[个人设置。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
 1. 创建校对，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中生成校对中所述。
 1. 如果要通过电子邮件通知审阅人，请确保已选中&#x200B;**[!UICONTROL 通过电子邮件通知联系人]**。\
@@ -92,3 +89,4 @@ ht-degree: 0%
 > 如果您没有在另一个浏览器窗口中打开[!DNL Basecamp Classic]会话，则必须登录到您的[!DNL Basecamp Classic]帐户，然后才能在[!DNL Basecamp]中看到该消息。
 
 另请参阅[在 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)中查看校对。
+

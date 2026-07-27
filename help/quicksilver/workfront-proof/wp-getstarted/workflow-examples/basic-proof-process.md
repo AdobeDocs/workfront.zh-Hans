@@ -9,11 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
 TQID: https://experienceleague.adobe.com/G2va4OSUSSOv3GJNY6AyZxEBz8SH-nb7rlKSkbHup-I
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 0%
@@ -41,5 +39,6 @@ ht-degree: 0%
 * **电子邮件警报**：设计人员或项目经理会收到一封电子邮件，其中包含客户审核的摘要，具体取决于他们设置的电子邮件警报。 有关信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。
 
 * **新版本**（如果需要）：设计器或项目管理器会修改该文件并将其作为新版本上载到[!DNL Workfront Proof]。
+
 
 
