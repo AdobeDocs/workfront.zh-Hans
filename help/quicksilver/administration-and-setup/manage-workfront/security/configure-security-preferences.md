@@ -26,16 +26,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
 workflow-type: tm+mt
-source-wordcount: 1218
+source-wordcount: 1155
 ht-degree: 8%
 
 ---
 
 # 配置系统偏好设置
-
-{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -115,7 +113,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader"> <p>使用电子邮件地址与没有Workfront帐户的人员协作</p> </td> 
-      <td>允许Workfront用户通过包含其电子邮件地址而非姓名与没有Workfront帐户的用户共享某些项目。 用户可以使用其电子邮件地址与外部用户共享以下项目：
+      <td>允许Workfront用户通过包含其电子邮件地址而非姓名与没有Workfront帐户的用户共享某些项目。用户可以使用其电子邮件地址与外部用户共享以下项目：
        <ul>
         <li>文档<br></li>
         <li>文档请求<br></li>
@@ -155,7 +153,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr>
      <tr> 
       <td role="rowheader">存储偏好设置 </td> 
-      <td>在此部分中，您可以启用Adobe Cloud首选项。 允许您选择为整个组织或特定组启用或禁用Adobe云存储。 
+      <td>在此部分中，您可以启用Adobe Cloud首选项。允许您选择为整个组织或特定组启用或禁用Adobe云存储。 
       <p>更新以下信息：</p>
       <ul><li><b>默认值</b>：选择旧版Workfront存储或Adobe云存储</li>
       <li><b>允许用户选择存储提供程序</b>：这允许用户在创建Workfront对象时在这两种存储类型之间进行选择。</li>
