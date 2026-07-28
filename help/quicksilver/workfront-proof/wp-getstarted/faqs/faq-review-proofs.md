@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 0%
@@ -90,3 +90,4 @@ ht-degree: 0%
 ## 能否生成对验证所做的所有评论的列表？
 
 可以，您可以生成校对上留下的&#x200B;*[!UICONTROL 打印摘要]*。 此文档可以为单个版本生成，也可以跨与此审阅者共享的所有版本生成。 它会显示针对验证所做的所有评论、标记和决策的列表。 有关此功能的详细信息，请访问[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)中打印和导出注释。
+

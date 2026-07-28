@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 93
 ht-degree: 0%
@@ -41,3 +41,4 @@ ht-degree: 0%
 >如果在[!UICONTROL 帐户设置]中将电子邮件通知禁用为默认值，审阅人将不会收到任何[!UICONTROL 新版本]电子邮件，除非在新版本页面上选中[!UICONTROL 通过电子邮件通知联系人]框。
 
 ![New_Version_Email.png](assets/new-version-email-350x212.png)
+

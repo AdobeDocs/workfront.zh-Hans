@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 2%
@@ -41,10 +41,10 @@ ht-degree: 2%
 * 验证图像的缩略图
 * 以下证明详细信息：
 
-   * 校样名称
-   * 版本号
-   * 文件夹名称（如果适用）
-   * 查看者列表及其在验证中的进度
+  * 校样名称
+  * 版本号
+  * 文件夹名称（如果适用）
+  * 查看者列表及其在验证中的进度
 
 您还可以提醒某人已与他们共享多个验证。 有关详细信息，请参阅[提醒审阅者有关Workfront Proof中的工作分配](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)。
 
@@ -75,3 +75,4 @@ ht-degree: 2%
      默认消息会提醒查看者他们已添加到验证并包含验证的截止日期。
 
    * 如果要创建自己的自定义消息，请键入&#x200B;**[!UICONTROL 主题]**&#x200B;和&#x200B;**[!UICONTROL 消息]，**，然后单击&#x200B;**[!UICONTROL 发送]。**&#x200B;自定义提醒电子邮件包含的信息与默认提醒电子邮件相同，但也会在电子邮件正文中包含自定义主题行和自定义消息。
+

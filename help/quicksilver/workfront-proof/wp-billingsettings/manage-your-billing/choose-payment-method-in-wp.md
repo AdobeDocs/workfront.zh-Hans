@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 348
 ht-degree: 2%
@@ -80,3 +80,4 @@ ht-degree: 2%
 1. 选择与要更新的信用卡关联的附属帐户(2)。
 1. 继续[更改您的付款方式和信用卡详细信息](#changing-your-payment-method-and-credit-card-details)。\
    ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)
+

@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 0%
@@ -45,3 +45,4 @@ ht-degree: 0%
 1. 单击验证查看器左下角的[!UICONTROL 详细信息页面]图标。 ![Details_page_btn.png](assets/details-page-btn.png)
 
 1. 在出现的[!UICONTROL 验证详细信息]页面的[!UICONTROL 工作流]部分中，在&#x200B;**[!UICONTROL 电子邮件通知]**&#x200B;下，单击下拉菜单中所需的选项。
+

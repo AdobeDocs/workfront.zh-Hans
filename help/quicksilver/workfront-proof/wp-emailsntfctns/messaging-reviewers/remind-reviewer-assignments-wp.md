@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 0%
@@ -45,5 +45,6 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 消息。]**
 
 1. 在出现的&#x200B;**[!UICONTROL 发送消息]**&#x200B;框中，键入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 消息]，**，然后单击&#x200B;**[!UICONTROL 发送]。**&#x200B;联系人将收到一封电子邮件，其中包含所有校样的信息和个人链接。
+
 
 

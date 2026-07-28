@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 0%
@@ -50,18 +50,18 @@ ht-degree: 0%
 * 验证图像的缩略图
 * 以下证明详细信息：
 
-   * 校样名称
-   * 版本号
-   * 查看者列表及其在验证中的进度
-   * 用于与其他人共享证明的链接
+  * 校样名称
+  * 版本号
+  * 查看者列表及其在验证中的进度
+  * 用于与其他人共享证明的链接
 
-     这允许您共享原始文件的校对URL和/或下载链接。 这不允许您将审阅人明确添加到验证中，您将只共享公共验证URL，并且收件人将获得对验证的只读访问权限。
+    这允许您共享原始文件的校对URL和/或下载链接。 这不允许您将审阅人明确添加到验证中，您将只共享公共验证URL，并且收件人将获得对验证的只读访问权限。
 
-     有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)中共享验证。
+    有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)中共享验证。
 
-     如果您不希望此链接显示在收件人的电子邮件中，则可以禁用验证上的[!UICONTROL 公共共享]设置
+    如果您不希望此链接显示在收件人的电子邮件中，则可以禁用验证上的[!UICONTROL 公共共享]设置
 
-     （下载原始文件和公共URL）。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校对详细信息。
+    （下载原始文件和公共URL）。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校对详细信息。
 
 ## 活动日志
 
@@ -116,3 +116,4 @@ ht-degree: 0%
 * 如果选择添加自定义消息，该框将展开，您将能够在电子邮件正文中输入自定义主题行(4)和自定义文本(5)。 您也可以通过单击链接(6)来放弃自定义消息。
 
 ![Proof_Details_page_3.png](assets/proof-details-page-3-350x258.png)
+

@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 302
 ht-degree: 0%
@@ -52,3 +52,4 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，然后打开&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
 
 1. 在&#x200B;**[!UICONTROL 帐户详细信息]**&#x200B;下，单击&#x200B;**[!UICONTROL 时区默认值]**&#x200B;右侧的[!UICONTROL 编辑]并进行更改。
+
