@@ -9,30 +9,24 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ce4f0de26be9a0b239c2464c97a3b47038be9108
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3684
+source-wordcount: 3910
 ht-degree: 2%
 
 ---
 
 # 管理表视图
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -309,19 +303,31 @@ Old:
 
    默认缩略图图像也会添加到新记录中。
 
+1. （可选）选择一个或多个记录或行，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排序行。
+
+   >[!NOTE]
+   >
+   >如果对表视图应用至少一个排序或分组，则无法重新排序行。
+   >
+   >您对行顺序所做的更改对同一视图中访问该记录类型的所有用户均可见。
+
 1. （可选）单击记录右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑缩略图**&#x200B;以编辑缩略图。
 1. 单击表顶部的&#x200B;**字段**，然后为&#x200B;**缩略图**&#x200B;字段选择切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
    有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-<!--
-For July 23: you might need to add some spacing below:
-1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-    <span class="preview">
-    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-    </span>
--->
+1. <span class="preview">（可选）单击表顶部的&#x200B;**字段**，然后单击&#x200B;**颜色**，在主字段左侧显示记录的颜色。 默认情况下，将为每个新记录随机分配颜色。 默认情况下取消选择&#x200B;**颜色**&#x200B;设置。</span>
+
+1. <span class="preview"> （可选且有条件）如果您启用了&#x200B;**颜色**&#x200B;设置，请单击记录主字段左侧的颜色栏，并从&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;选项卡中选择一种颜色，然后单击框外部将其关闭。 立即应用该颜色。</span>
+
+   <div class="preview">
+
+   ![录制颜色编码拾色器框](assets/color-picker-for-record-color-coding.png)
+
+   有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+
+   </div>
+
 
 ### 添加过滤器 {#add-filters-1}
 
@@ -535,7 +541,7 @@ For July 23: you might need to add some spacing below:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。这些记录按您选择的分组顺序分组。
-&lt;！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。 — 立即选中此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—*************** *在使用API时，您最多可以应用4个级别的分组。 — 立即选中此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。

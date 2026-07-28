@@ -9,32 +9,24 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
+source-wordcount: 3647
 ht-degree: 0%
 
 ---
 
 # 创建记录
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -178,17 +170,14 @@ Old:
   >
   >工作区管理员必须为记录类型创建请求表单，以便具有查看权限的用户使用请求表单添加记录。 否则，查看权限用户无法创建记录。
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* 所有记录在创建时都会自动进行颜色编码，无论您使用什么方法来创建它们。
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  有关详细信息，请参阅本文中的[颜色编码记录](#color-coding-records)部分。
 
 </div>
--->
+
 
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
@@ -216,7 +205,7 @@ add this bullet for July 23 release:
    1. 单击以下方法之一创建记录，然后单击&#x200B;**继续**：
 
       * **手动添加**。 记录的预览框打开。\
-        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录中所述。<!--insure this stays accurate-->
+        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录[中所述。<!--insure this stays accurate-->
       * **从文件上载**
         添加记录，如文章[中所述。从步骤6开始，通过从CSV或Excel文件导入信息来创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
       * **提交请求**
@@ -293,8 +282,8 @@ You can import records from other applications by linking them to existing recor
      >
      >当您在分组或子分组中的最后一个记录之后添加新记录时，Workfront会自动填充分组中包含的字段。 如果需要，您可以手动编辑这些字段，并且可能会从分组中删除记录。
 
-   * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上面插入记录**&#x200B;或&#x200B;**在下面插入记录**。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
+   * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
 
    ![在表行中添加新的营销活动](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -545,7 +534,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-   开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+   开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -596,52 +585,50 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## 颜色编码记录
 
-All records are automatically associated with a color when they are created. 
+所有记录在创建时都会自动与颜色关联。
 
-1. Create a record using one of the methods described in this article. 
+1. 使用本文所述的方法之一创建记录。
 
-    The color is immediately applied to the new record in the following areas:
+   该颜色将立即应用于以下区域的新记录：
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * 在表、时间轴和日历视图中，记录名称或主字段左侧显示一个条形图。
+   * 在记录的&#x200B;**详细信息**&#x200B;页面中记录名称左侧的圆圈。
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+1. （视情况而定）要查看记录的颜色，请执行下列操作之一：
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * 从表格视图中，单击记录列表顶部工具栏中的&#x200B;**字段**&#x200B;图标，然后打开&#x200B;**颜色**&#x200B;设置。 在记录的主字段左侧添加了栏。
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![表格视图记录颜色栏](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+   * 在时间轴视图中，单击&#x200B;**设置** > **条形样式**，然后打开&#x200B;**颜色**&#x200B;设置。 当选择按&#x200B;**记录**&#x200B;对记录栏进行颜色编码时，会在记录栏的左边缘添加一个栏。
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![时间线查看记录颜色栏](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+   * 从日历视图中，单击&#x200B;**设置** > **条形图样式**，然后打开&#x200B;**颜色**&#x200B;设置。 当选择按&#x200B;**记录**&#x200B;对记录栏进行颜色编码时，记录栏颜色与记录颜色匹配，并且同一颜色的较深阴影将添加到记录栏的左边距。
 
-    The Color setting is turned off by default.
+     ![日历视图记录颜色栏](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   默认情况下，“颜色”设置处于关闭状态。
 
-        Once selected, the new color is applied immediately. 
+1. 要更改与记录关联的颜色，请执行以下操作：
+
+   1. 在表格视图中，单击记录颜色栏
+      或
+      在记录详细信息预览或页面中，单击记录颜色圆圈。
+   1. 单击&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;选项卡以选择新颜色。
+
+      选中后，将立即应用新颜色。
 
 </div>
-
--->
