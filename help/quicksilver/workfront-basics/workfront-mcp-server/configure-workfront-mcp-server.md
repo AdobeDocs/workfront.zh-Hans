@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
+source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -70,23 +70,15 @@ MCP服务器访问由两个不同的管理员控制。
 要将Workfront连接到[!DNL Claude]，请执行以下操作：
 
 1. 打开[!DNL Claude]。
-
-1. 导航到连接器区域。
-
-
-
+1. 单击&#x200B;**自定义**。
+1. 在左侧导航中，单击&#x200B;**连接器**。
 1. 在连接器列表中查找&#x200B;**[!DNL Adobe Workfront]**。
 
    如果您没有看到此项，请参阅本文中的[管理员先决条件](#admin-prerequisites)。
-
 1. 单击&#x200B;**连接**。
+1. 出现提示时，登录到您的Workfront实例。 您可能需要选择配置文件和Workfront实例。 您选择的配置文件决定了连接的工作区。
 
-
-
-1. 出现提示时，登录到您的Workfront实例。
-
-
-1. 身份验证完成后，你已连接。
+   身份验证完成后，将连接Workfront MCP服务器。
 
 
 
@@ -106,15 +98,18 @@ MCP服务器访问由两个不同的管理员控制。
 
 1. 使用您的凭据登录[Claude](https://claude.ai)。
 1. 在左侧菜单中，选择&#x200B;**自定义**&#x200B;图标。
-1. 选择&#x200B;**连接器**，然后选择&#x200B;**+**&#x200B;图标以添加连接器。
-1. 选择&#x200B;**创建应用程序**&#x200B;按钮。
+1. 在左侧导航中选择&#x200B;**连接器**。
+1. 选择&#x200B;**+**&#x200B;图标，然后选择&#x200B;**添加自定义连接器**。
 1. 为连接器指定所需的名称（如“Workfront”），并输入MCP服务器URL：
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. 创建连接器后，会弹出登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
+1. 单击&#x200B;**连接**。
+此时将显示Workfront登录窗口。
+1. 使用您的Adobe ID凭据进行身份验证。
+您可能需要选择配置文件和Workfront实例。您选择的配置文件决定了连接的工作区。
 
 +++
 
@@ -134,6 +129,8 @@ MCP服务器访问由两个不同的管理员控制。
 
 ### 连接到ChatGPT桌面或ChatGPT代码
 
++++ 展开以查看将Workfront连接到ChatGPT Desktop或ChatGPT代码的分步说明。
+
 1. 在ChatGPT中，打开&#x200B;**设置**。
 1. 在左侧导航中单击&#x200B;**插件**。
 1. 单击窗口右上角附近的&#x200B;**添加服务器**。
@@ -148,10 +145,14 @@ MCP服务器访问由两个不同的管理员控制。
 1. 单击&#x200B;**保存**。
 1. 在显示的列表中，为要添加的MCP服务器单击&#x200B;**身份验证**。
 1. 登录到Workfront。
+您可能需要选择配置文件和Workfront实例。您选择的配置文件决定了连接的工作区。
 1. 在ChatGPT的MCP服务器列表中，确保新MCP服务器右侧的切换保持切换状态。
 
++++
 
 ### 连接到Web上的ChatGPT
+
++++ 展开以查看将Workfront连接到Web上的ChatGPT的分步说明。
 
 1. 使用您的凭据登录到[ChatGPT](https://chatgpt.com)。
 1. 在左下方，选择您的姓名，然后选择&#x200B;**设置**。
@@ -168,8 +169,9 @@ MCP服务器访问由两个不同的管理员控制。
 1. 确保将身份验证设置为&#x200B;**OAuth**（默认设置）。
 1. 阅读风险消息并勾选方框，显示您已阅读该消息。
 1. 单击&#x200B;**创建**。
-1. 创建应用程序后，会显示Workfront登录窗口。 使用您的Adobe ID凭据进行身份验证。 如果您属于多个Workfront实例，请确保选择所需的AEM实例。
+1. 创建应用程序后，会显示Workfront登录窗口。 使用您的Adobe ID凭据进行身份验证。 您可能需要选择配置文件和Workfront实例。 您选择的配置文件决定了连接的工作区。
 
++++
 
 ### 使用自定义GPT自定义ChatGPT行为
 
@@ -178,6 +180,8 @@ ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定
 要了解有关自定义GPT的更多信息，请参阅[ChatGPT用户文档](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)或向ChatGPT寻求有关自定义GPT的帮助。
 
 ## 将Workfront连接到Copilot
+
++++ 展开以查看有关将Workfront连接到Copilot的分步说明。
 
 要构建Workfront MCP可以连接的自定义Copilot代理，请使用Copilot Studio。
 
@@ -191,23 +195,26 @@ ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定
 1. 在显示的面板中，输入此连接的名称和说明。
 1. 在服务器URL字段中，输入URL：
 
-```
-https://mcp.workfront.adobe.com/mcp/v1/workfront`
-```
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   ```
 
-1. 对于授权，请选择&#x200B;**OAuth 2.0**，然后选择&#x200B;**动态发现**。
+1. 对于身份验证，请选择&#x200B;**OAuth 2.0**，然后选择&#x200B;**动态发现**。
 1. 单击面板底部的&#x200B;**创建**。
 
    应用程序已注册。
 
 1. 注册应用程序后，在显示的面板中单击&#x200B;**未连接**，然后单击&#x200B;**创建新连接**，然后单击&#x200B;**创建**。
-1. 在出现的登录面板中，登录到Workfront，然后选择&#x200B;**继续**（当它显示您要使用哪个Workfront实例时）。
+1. 通过单击&#x200B;**未连接**、**新建连接**、**创建**&#x200B;来设置连接。
+1. 在出现的登录面板中，登录到Workfront，选择要使用的实例（如果您有权访问多个实例），然后单击&#x200B;**继续**。
 1. 在显示服务器的面板中，单击&#x200B;**添加并配置**。
 
    您现在可以开始为MCP服务器使用和配置工具。
 1. 配置并测试工具后，单击&#x200B;**发布**。
 
    您可能没有发布权限。 如果是这种情况，请联系您的Copilot管理员。
+
++++
 
 ## 将Workfront连接到自定义MCP解决方案
 
