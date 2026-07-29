@@ -9,22 +9,12 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBznGe2cQ4VnNILQHjlgwILlD-CinYpv01ARGY9XiAw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 2861
 ht-degree: 4%
@@ -116,38 +106,38 @@ Old:
 
 * 与在“编辑”框中编辑任务时需要“管理”任务权限不同，您只能对列表中具有“Contribute”任务权限的任务进行编辑。 这允许您编辑任务的以下有限信息：
 
-   * 描述
-   * 状态
-   * 完成百分比
-   * 自定义表单信息
+  * 描述
+  * 状态
+  * 完成百分比
+  * 自定义表单信息
 
-     >[!NOTE]
-     >
-     >只有在您具有更新任务自定义字段的权限时，才能在列表中编辑该字段。
+    >[!NOTE]
+    >
+    >只有在您具有更新任务自定义字段的权限时，才能在列表中编辑该字段。
 
-   * 记录小时数
-   * 修改分配
-   * 查看财务信息
-   * 添加费用、任务或问题
+  * 记录小时数
+  * 修改分配
+  * 查看财务信息
+  * 添加费用、任务或问题
 
 * 您可以编辑以下列表中的任务：
 
-   * 项目的任务部分
-   * 项目的子任务部分
-   * 任务报告
+  * 项目的任务部分
+  * 项目的子任务部分
+  * 任务报告
 
-     >[!NOTE]
-     >
-     >默认情况下，Workfront会自动将您对任务所做的更改保存在“子任务”部分或任务报告中。
+    >[!NOTE]
+    >
+    >默认情况下，Workfront会自动将您对任务所做的更改保存在“子任务”部分或任务报告中。
 
 * 在开始编辑任务之前，您可以通过定义“计划模式”来控制Workfront何时将您对列表中的任务所做的更改保存下来。
 
   您可以通过以下方式在Workfront保存您所做的更改之间做出决定：
 
-   * 每次更改后自动更新
-   * 手动，仅在单击“保存”之后。
+  * 每次更改后自动更新
+  * 手动，仅在单击“保存”之后。
 
-  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表[&#128279;](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的在编辑任务之前修改计划模式。
+  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的[在编辑任务之前修改计划模式。
 
 * 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
@@ -202,7 +192,7 @@ Old:
 
    或
 
-   单击任务名称右侧的任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
+   单击任务名称右侧的任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
 
 1. （可选）从以下选项中选择：
 
@@ -269,9 +259,9 @@ Old:
 * 您无法编辑项目。 已禁用编辑项目的选项。
 * 您不能更新项目标头中的信息。 在任务列表中手动保存更改时，只能执行以下操作：
 
-   * 订阅项目。
-   * 将项目添加到收藏夹列表。
-   * 单击列表中的任务名称以打开任务。
+  * 订阅项目。
+  * 将项目添加到收藏夹列表。
+  * 单击列表中的任务名称以打开任务。
 
 * 批量编辑任务。 选择多个任务时，“编辑”图标处于禁用状态。
 * 只有在保存更改后，Workfront才会触发有关您对任务所做更改的通知。
@@ -308,7 +298,7 @@ Old:
 
 1. 单击&#x200B;**应用**。 此时将显示一个工具栏设置，其中包含用于撤消、重做和保存更改的选项。
 
-   ![手动保存工具栏](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![手动保存工具栏](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. 单击您有权手动更新的任何字段。 该字段将变为可编辑，您可以进行更改。
 
@@ -322,7 +312,7 @@ Old:
 
    或
 
-   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单模式图标。
+   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![模式图标。
 
 1. （可选）从以下选项中选择：
 
@@ -408,21 +398,21 @@ Old:
 
    * “视图”、“分组”和“筛选器”下拉菜单被删除，视图由以下字段替换：
 
-      * 任务编号
-      * 任务名称
-      * 限制类型
-      * 持续时间
-      * 计划开始日期
-      * 规划完成日期
-      * 前置任务
-      * 分配
-      * 状态
-      * 完成百分比
+     * 任务编号
+     * 任务名称
+     * 限制类型
+     * 持续时间
+     * 计划开始日期
+     * 规划完成日期
+     * 前置任务
+     * 分配
+     * 状态
+     * 完成百分比
 
    * 移除Agile视图图标。
    * 此时将显示一个工具栏设置，其中包含用于撤消、重做和保存更改的选项。
 
-     ![手动保存工具栏](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![手动保存工具栏](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. 编辑您有权手动更新的任何字段。
 
@@ -434,7 +424,7 @@ Old:
 
    或
 
-   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
+   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
 
 1. 从以下选项中选择：
 
