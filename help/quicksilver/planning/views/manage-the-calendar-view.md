@@ -19,21 +19,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1896
 ht-degree: 5%
 
 ---
 
 # 管理日历视图
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -438,11 +435,9 @@ Old:
 
    * **记录类型**：日历中记录栏的颜色与您选择的记录类型的颜色相匹配。 这是默认选项。
    * **字段值**：记录的颜色与您指定的字段的颜色匹配。
-   * **无**：记录显示在白色栏中。
+   * **无**：记录显示在白色栏中。 <span class="preview">已从“预览”环境中删除“无”选项。</span>
 
-   <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+
 
 1. （视情况而定）如果您为记录颜色选择了&#x200B;**字段值**，请从&#x200B;**将记录颜色与**&#x200B;下拉菜单中选择一个字段。
 
@@ -454,14 +449,12 @@ Old:
 
    如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
 
-   <!--
-        For July 23: add this note after the last sentence here
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
+
+   >[!NOTE]
+   >
+   >* 您只能将颜色与具有颜色编码选项的字段匹配。 例如，可以将颜色与“状态”字段匹配，或可与颜色关联的选项进行匹配。
+   >    
+   >* 在生产环境中，不能将颜色与连接的记录或其查找字段匹配。 <span class="preview">在“预览”环境中，您可以将颜色与连接的记录匹配，但不能与它们的查找字段匹配。</span>
 
 
 1. 单击&#x200B;**保存**。

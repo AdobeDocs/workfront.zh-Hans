@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
 source-wordcount: 1741
 ht-degree: 0%
@@ -311,7 +311,7 @@ Old:
 
 
 1. 要显示所有字段，请展开页面查看下拉菜单，然后选择&#x200B;**所有字段**。
-1. （可选）单击K **新详细信息**&#x200B;以添加新页面并对其进行自定义，然后执行以下操作：
+1. （可选）单击&#x200B;**新详细信息**&#x200B;以添加新页面并对其进行自定义，然后执行以下操作：
 
    1. 在&#x200B;**创建视图**&#x200B;框中，为新详细信息页面视图添加名称，然后单击&#x200B;**创建**。
    1. 将鼠标悬停在视图中的字段上，然后单击字段左侧的&#x200B;**隐藏字段**&#x200B;图标![隐藏字段图标](assets/hide-field-in-details-page-icon.png)以隐藏该字段。

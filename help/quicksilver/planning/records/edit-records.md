@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 0%
 
 ---
 
 # 编辑记录
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * 如果您获得了工作区的权限，则可以编辑您创建的记录或由其他人创建的记录。
 * 您可以从以下区域编辑记录字段：
 
-   * 记录视图中的记录预览
-   * 记录的详细信息页面
-   * 内联，在表格视图中。
-   * 日历和时间轴视图，在调整记录大小或拖放记录时。 这将更新记录的日期。
+  * 记录视图中的记录预览
+  * 记录的详细信息页面
+  * 内联，在表格视图中。
+  * 日历和时间轴视图，在调整记录大小或拖放记录时。 这将更新记录的日期。
 
 * 当用户编辑视图中的记录时，更改会立即在所有视图中可见，并且记录页面对所有其他用户可见。
 
 * 以下类型的字段会自动更新，您无法手动编辑其值：
-   * 来自其他记录的链接字段
-   * 公式类型字段
-   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”、“记录ID”）
+  * 来自其他记录的链接字段
+  * 公式类型字段
+  * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”、“记录ID”）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。 .
@@ -167,8 +167,8 @@ Old:
 
   要编辑记录的日期，请参阅本文中的以下部分之一：
 
-   * [在记录类型的日历视图中编辑记录](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [在记录类型的时间线视图中编辑记录](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [在记录类型的日历视图中编辑记录](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [在记录类型的时间线视图中编辑记录](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## 编辑记录
@@ -254,10 +254,10 @@ Old:
 
    * 从外部源复制一个或多个单元格（例如，Excel文件），然后将它们粘贴到以下字段类型之一：
 
-      * 人员字段。 仅支持具有一个值的字段。
-      * 文本字段。
-      * 选择字段。
-      * 数字、百分比和货币字段。
+     * 人员字段。 仅支持具有一个值的字段。
+     * 文本字段。
+     * 选择字段。
+     * 数字、百分比和货币字段。
 
    您无法从外部源复制信息并将其粘贴到任何其他字段类型中，包括Workfront或其他应用程序的连接字段。
 
@@ -296,7 +296,7 @@ Old:
    * **查看**&#x200B;或&#x200B;**在新选项卡中打开**：这将打开记录页面。
    * **复制链接**：复制指向记录页面的链接。
    * **编辑缩略图**：向记录中添加缩略图。
-有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+     有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
    * **重复**：这将创建记录的相同重复。
    * **在上方插入记录/在下方插入记录**：添加新的行，以便添加新记录。 在“预览”环境中无法执行此操作。
    * **删除**：删除记录。 删除的记录保存在“最近删除”框中，最长可保留30天。
@@ -372,6 +372,9 @@ Old:
    >  * 通过连接记录类型创建的其他记录的查找字段。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
+1. <span class="preview">（可选）单击记录名称左侧的颜色圆圈以更改记录颜色。</span>
+   <span class="preview">在创建记录时，会自动为其分配颜色。 单击&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。</span>
+
 1. （可选）单击&#x200B;**添加封面**&#x200B;以将封面图像添加到记录。 有关详细信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
 1. （可选）将鼠标悬停在缩略图图标上，然后单击&#x200B;**更多** ![更多菜单](assets/more-menu.png) > **编辑缩略图**&#x200B;以添加缩略图图像。 有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
@@ -428,6 +431,11 @@ Old:
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
 1. （可选）单击显示任何字段右侧的信息图标以查看字段的说明。
+1. <span class="preview">（可选）单击记录名称左侧的颜色圆圈以更改记录颜色。</span>
+   <span class="preview">在创建记录时，会自动为其分配颜色。 单击&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。</span>
+
+   ![记录详细信息框的拾色器框](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. （可选）单击&#x200B;**添加封面**&#x200B;以将封面图像添加到记录
 
    或
