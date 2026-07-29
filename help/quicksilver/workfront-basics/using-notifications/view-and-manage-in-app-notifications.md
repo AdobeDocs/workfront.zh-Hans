@@ -14,7 +14,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 2%
@@ -84,8 +84,9 @@ ht-degree: 2%
 
    * 所有其他通知都由图标表示，这些图标建议它们关联的工作项目类型。
 
-     ![通知图标](assets/ntfcntype&icon-350x330.png)
-蓝点右侧的图标显示以下内容之一：
+     ![通知图标](assets/ntfcntypeicon-350x330.png)
+
+   蓝点右侧的图标显示以下内容之一：
 
    * 键入信息的人员的个人资料照片，通常是有关您正在处理的[!DNL Workfront]对象的更新。
    * [!DNL Workfront]徽标（如果通知是系统公告）。
