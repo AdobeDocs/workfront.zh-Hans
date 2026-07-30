@@ -9,19 +9,14 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 807
 ht-degree: 0%
 
 ---
@@ -166,8 +161,8 @@ Old:
 
 * 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
 
-   * 从记录详细信息页面。
-   * 从视图中，在记录详细信息框中。
+  * 从记录详细信息页面。
+  * 从视图中，在记录详细信息框中。
 
 ### 管理对记录的评论
 
@@ -198,7 +193,7 @@ Old:
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * 按CTRL + Z（对于Mac，按⌘ + z）可撤消更改
    * 按CTRL + Y组合键（Mac为⌘+y）以重做更改
-1. 添加&#x200B;**@**，后跟用户名或团队名称，以便在更新中标记这些用户。 有关详细信息，请参阅本文中关于评论记录[&#128279;](#considerations-about-commenting-on-a-record)的注意事项部分。
+1. 添加&#x200B;**@**，后跟用户名或团队名称，以便在更新中标记这些用户。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
 
 1. （可选）使用富文本工具栏中的选项设置文本格式、添加表情符号或链接到更新，以增强内容。
 
@@ -206,11 +201,23 @@ Old:
    >
    >无法将图像添加到录制注释。
 
-
 1. 继续向记录中添加注释。
 
    有关更新对象（包括Workfront Planning记录）的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
+1. 单击&#x200B;**提交**&#x200B;录制评论。
+
+   您在邮件中标记的用户会收到新邮件的通知。
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除评论。
 1. （可选）单击&#x200B;**隐藏评论**&#x200B;图标![隐藏评论图标](assets/hide-comments-icon.png)以关闭右侧面板。
 
