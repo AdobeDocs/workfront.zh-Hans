@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio对象和品牌的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -111,6 +111,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
   您会收到一则内联或toast消息，说明相关字段被清除的原因。
 
+* 每个依赖字段最多可以有3个直接控制字段。
+
+* 依赖项级别限制为6个连接。 这意味着最多可以连接7个记录类型。
+
+* 为使依赖关系链正常工作，所有依赖字段必须同时存在于同一记录类型中。
+
 ## 创建从属连接
 
 1. 作为工作区管理员，转到Workfront Planning中的记录类型，然后在表视图中将其打开。
@@ -140,7 +146,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      有关信息，请参阅本文中的[相关连接记录类型的示例](#example-of-dependent-connected-record-types)部分。
    * 已连接记录字段的列标题中有一个指示说明该字段处于依赖连接关系。
 
-     列标题![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的依赖图标工具提示
+     列标题](assets/dependent-icon-tooltip-in-column-header.png)中的![依赖图标工具提示
 
 1. （可选且推荐）转到第三记录类型，并将第一和第二记录类型添加为连接的记录字段。
 
