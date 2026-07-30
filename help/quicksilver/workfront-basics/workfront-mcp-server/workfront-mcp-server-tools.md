@@ -5,15 +5,17 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2140'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront MCP服务器工具
+
+{{preview-fast-release-general}}
 
 本文列出了[!DNL Adobe Workfront] MCP服务器向连接的AI代理平台公开的工具。 当您要求平台查找、创建、更新或删除Workfront项目时，它代表您调用这些工具。
 
@@ -66,10 +68,15 @@ ht-degree: 5%
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
-| 获取审批工作流信息 | `approvals_get_approval_info` | 返回文档版本的当前审批工作流（阶段、参与者、状态）。 | 读取 |
-| 创建或更新审批工作流 | `approvals_create_or_update_approval_workflow` | 创建或更新文档版本的审批工作流暂存。 支持线性和平行（图形）阶段依赖关系。 | 写入 |
-| 从模板创建审批 | `approvals_create_approval_from_template` | 使用现有模板在文档上创建审批工作流。 | 写入 |
+| 获取审批工作流信息 | `approvals_get_approval_info` | 返回文档版本的当前审批工作流（阶段、参与者、状态）。 <span class="preview">对于具有多个路径的审批，它显示每个路径及其阶段。</span> | 读取 |
+| 创建或更新审批工作流 | `approvals_create_or_update_approval_workflow` | 创建或更新文档版本的审批工作流暂存。 <span class="preview">支持单阶段跟踪或多个并行审阅路径。</span> | 写入 |
+| 从模板创建审批 | `approvals_create_approval_from_template` | 使用现有模板<span class="preview">在文档上创建审批工作流，包括定义多个并行路径的模板。</span> | 写入 |
 | 删除审批阶段 | `approvals_delete_approval_stage` | 按名称或职位从审批工作流中删除单个阶段。 只能删除未启动的阶段。 | 写入 |
+| <span class="preview">添加路径以进行审批</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">将新的并行审阅路径添加到现有审批工作流，因此对文档版本同时运行多个审阅跟踪。</span> | <span class="preview">写入</span> |
+| <span class="preview">从审批中删除路径</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">从审批工作流中删除并行路径。 无法删除第一个路径，包含已完成或已锁定阶段的路径将受保护。</span> | <span class="preview">写入</span> |
+| <span class="preview">将阶段添加到路径</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">在并行审批工作流中的特定路径的末尾添加审核阶段。</span> | <span class="preview">写入</span> |
+| <span class="preview">从路径</span>中删除阶段 | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">从并行审批工作流中的特定路径中删除未启动的阶段。 每个路径必须至少保留一个阶段。</span> | <span class="preview">写入</span> |
+| <span class="preview">重新排序路径中的阶段</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">更改并行审批工作流的单个路径中的阶段顺序。</span> | <span class="preview">写入</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |

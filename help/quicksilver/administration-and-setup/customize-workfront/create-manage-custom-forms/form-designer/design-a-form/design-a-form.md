@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
+source-wordcount: 7922
 ht-degree: 4%
 
 ---
@@ -177,17 +177,17 @@ ht-degree: 4%
 
 * 自定义字段标签和API名称不支持以下特殊字符。
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * (
-   * ）
-   * ：
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * (
+  * ）
+  * ：
+  * `{`
+  * `}`
 
 ### 添加文本字段
 
@@ -272,7 +272,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>说明</td>
-    <td>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
+    <td>键入有关该字段的任何其他信息。当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,7 +805,7 @@ To add typeahead and date fields:
      </tr>
      <tr> 
       <td role="rowheader">JSON 路径</td>
-      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：</br>
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
       &lbrace;
        数据： &lbrace;
@@ -1050,7 +1050,7 @@ The Workfront Mobile app
 
 ### 添加Workfront本机字段
 
-您可以将Workfront原生字段添加到自定义表单。 将自定义表单附加到对象时，会从对象数据填充字段。 例如，附加到项目的自定义表单上的描述字段将拉入项目描述。 （如果没有可用数据，则字段可能显示“不适用”。）
+您可以将Workfront原生字段添加到自定义表单。 将自定义表单附加到对象时，会从对象数据填充字段。 例如，如果自定义字段引用描述字段，并且它位于附加到项目的自定义表单上，则会提取项目描述。 （如果没有可用数据，则字段可能显示“不适用”。）
 
 +++ 展开以查看支持的本机字段列表。
 
@@ -1218,7 +1218,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必需）键入或粘贴有效的XD原型链接。</p> 
-      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 
+      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。否则，用户将无法查看原型。 
    </td> 
      </tr> 
      <tr> 

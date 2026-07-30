@@ -19,22 +19,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 899
 ht-degree: 0%
 
 ---
 
 # 管理记录注释
 
-<!--
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -166,8 +162,8 @@ Old:
 
 * 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
 
-   * 从记录详细信息页面。
-   * 从视图中，在记录详细信息框中。
+  * 从记录详细信息页面。
+  * 从视图中，在记录详细信息框中。
 
 ### 管理对记录的评论
 
@@ -206,10 +202,21 @@ Old:
    >
    >无法将图像添加到录制注释。
 
-
 1. 继续向记录中添加注释。
 
    有关更新对象（包括Workfront Planning记录）的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+1. 单击&#x200B;**提交**&#x200B;录制评论。
+
+   您在邮件中标记的用户会收到新邮件的通知。
+
+   <div class="preview">
+
+   对记录类型具有查看权限的每个人都可以在表格视图中看到您添加注释的记录的&#x200B;**新注释**&#x200B;指示符。
+
+   ![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
 
 1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除评论。
 1. （可选）单击&#x200B;**隐藏评论**&#x200B;图标![隐藏评论图标](assets/hide-comments-icon.png)以关闭右侧面板。

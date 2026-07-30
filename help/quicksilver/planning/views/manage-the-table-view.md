@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3910
+source-wordcount: 3939
 ht-degree: 2%
 
 ---
@@ -306,7 +306,13 @@ Old:
 
    您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
 
-   默认缩略图图像也会添加到新记录中。
+   默认缩略图图像<span class="preview">和颜色</span>也添加到新记录中。
+
+   >[!TIP]
+   >
+   ><span class="preview">当记录具有未读注释时，记录的主字段的右上角会显示一个&#x200B;**新注释**&#x200B;指示符。</span>
+   >
+   >![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. （可选）选择一个或多个记录或行，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排序行。
 

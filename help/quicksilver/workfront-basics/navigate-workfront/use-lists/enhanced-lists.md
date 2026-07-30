@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 1%
 
 ---
 
 # 使用增强列表
+
+{{preview-fast-release-general}}
 
 Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格格式来显示列表项，并且它们具有与标准列表不同的外观。 视图的管理也得到了增强，包括筛选、分组、管理列和搜索。
 
@@ -203,17 +205,20 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">（可选）要重新排序列，请将鼠标悬停在&#x200B;**Selected**&#x200B;部分中的列名称上，然后单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)。 垂直移动列以按顺序放置它们。</span>
 1. 单击&#x200B;**保存**。
 
    ![列管理器](assets/glist-column-manager.png)
 
    该列表会根据您所做的选择更新列。
 
-### 更改视图中的行高
+## 自定义行
 
 >[!NOTE]
 >
 >并非所有增强型列表都具有本节中介绍的所有元素。
+
+要更改视图中的行高，请执行以下操作：
 
 1. 单击增强型列表中的&#x200B;**行高**&#x200B;图标![行高图标](assets/row-height-icon.png)。
 
@@ -222,6 +227,14 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
    * 标准。 这是默认选项。
    * 媒介
    * 高
+
+要更改行的顺序，请执行以下操作：
+
+1. 将行拖放到您的首选顺序中。
+
+   >[!NOTE]
+   >
+   >如果应用了排序，则无法手动更改行顺序。
 
 ## 更新增强的列表元素
 
@@ -366,8 +379,8 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 1. 单击&#x200B;**格式**&#x200B;框外部以将其关闭。
 
    这会将您返回到列表视图。
-格式设置将立即应用于列表视图。
-**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
+   格式设置将立即应用于列表视图。
+   **设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
 
 ### 筛选增强列表中的项目
 

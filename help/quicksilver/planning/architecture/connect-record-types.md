@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 1%
 
 ---
@@ -90,14 +90,19 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td> 
 <p>要从同一工作区连接记录类型，请执行以下操作： </p>
 <ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-<li><p>任何工作流和任何计划包</li></ul>
+<li><p>包含任何Planning包的任何Workfront或工作流包</p></li>
+<p>或</p>
+<li><p>作为独立产品购买时的任何Planning包</p></li>
+</ul>
 
 <p>从不同的工作区连接记录类型：</p>
 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
+<ul>
+
+<li><p>任何工作流和计划Prime或Ultimate包</p></li>
+<p>或</p>
+<li><p>作为独立产品购买时的任何Planning Prime或Ultimate软件包</p></li>
+</ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
 <tr> 
@@ -208,7 +213,7 @@ Old:
 1. 单击记录类型的卡以打开记录类型页面。
 1. 单击表格视图右上角的&#x200B;**+**&#x200B;图标，然后单击“**新建连接**”选项卡。
 
-   ![新增与Workfront、AEM和GenStudio Brands的连接选项卡](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![与Workfront、AEM和GenStudio Brands的新连接选项卡](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -299,7 +304,15 @@ Old:
    * **多选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的多个记录连接。
    * **单选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的一个记录连接。
 
-1. 选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段。 选中后，除了添加到当前记录类型的连接字段外，还会为您要连接的记录类型创建连接字段。 默认情况下禁用此功能。
+1. 在&#x200B;**连接类型**&#x200B;部分<!--<span class="preview">, when connecting all object types but not Planning record types</span>-->中选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段。
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   选中后，除了添加到当前记录类型的连接字段外，还会为您要连接的记录类型创建连接字段。 默认情况下禁用此功能。
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * 没有为连接到Planning记录的Workfront对象创建字段。
    >   * 从GenStudio工作区中将Planning记录类型连接到记录类型时，不会为其创建字段。
 
-1. （视情况而定）如果启用&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中进行选择，以指示用户可以连接到多少条记录，也可以从多少条记录进行连接：
+1. （视情况而定）如果您在&#x200B;**连接类型**&#x200B;部分中启用了&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中选择以指示用户可以连接多少条记录，也可以从多少条记录连接：
 
    * 多对多
    * 一对多

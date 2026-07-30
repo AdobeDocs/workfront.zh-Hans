@@ -11,14 +11,16 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
+source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
 
 # 企业个人资料概述
+
+{{highlighted-preview}}
 
 业务配置文件是一种增强的权限模型，它允许代理等客户有效地管理用户访问并确保在组级别对权限进行精确控制。 在业务配置文件中，用户对组特定的对象具有不同的权限。 其他对象也可以直接与业务配置文件共享。
 
@@ -30,6 +32,8 @@ Workfront系统管理员：
 * 使用组更新用户配置文件以及该组的访问级别（这是业务配置文件）
 * 根据需要定义业务配置文件的有效日期
 * 将布局模板分配给访问级别
+
+<span class="preview">组管理员还可以创建、编辑和删除业务配置文件，但只能为其管理的组进行这些操作。</span>
 
 任何有权共享对象的用户都可以与业务配置文件共享这些对象，而具有配置文件的所有用户都将看到该对象。
 

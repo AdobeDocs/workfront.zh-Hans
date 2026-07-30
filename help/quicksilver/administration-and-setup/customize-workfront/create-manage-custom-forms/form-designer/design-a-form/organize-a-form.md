@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 1356
+source-wordcount: 1372
 ht-degree: 2%
 
 ---
 
 # 组织和预览表单
+
+{{preview-fast-release-general}}
 
 您可以使用表单设计器组织自定义表单，并预览该表单以验证设置是否正确。
 
@@ -191,6 +193,8 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >表单设计器预览模式不支持高级逻辑。
+   >在生产环境中，表单设计器预览模式不支持高级逻辑。
+   >
+   ><span class="preview">在“预览”环境中，所有逻辑类型在预览模式下均可用。</span>
 
 

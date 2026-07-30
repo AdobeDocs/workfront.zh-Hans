@@ -3,17 +3,19 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: ' [!DNL Adobe Workfront]中的左侧导航'
 description: ' [!DNL Workfront] 中的左侧导航面板可让您轻松导航系统。'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1436'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront]中的左侧导航
+
+{{preview-fast-release-general}}
 
 WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 以下是左侧面板导航的优点：
 
@@ -262,6 +264,10 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
    在编辑信息之前，您必须具有编辑对象的权限。
 
+   <span class="preview">预览环境中的示例图像：</span>
+   ![左侧面板部分](assets/left-navigation-panel-072326.png)
+
+   生产环境中的示例图像：
    ![左侧面板部分](assets/left-navigation-panel.png)
 
 1. （可选）要添加仪表板快速链接，请单击左侧面板底部的&#x200B;**[!UICONTROL 添加仪表板]**，然后执行以下操作：
@@ -272,12 +278,22 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
       >[!TIP]
       >
       >必须先构建仪表板，然后才能将其显示在列表中。
+      >
+      >并非所有对象都允许在左侧面板中使用仪表板。 有关哪些对象支持功能板的信息，请参阅[在Workfront对象或区域的左侧面板中添加功能板](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
 
 1. （可选）要删除仪表板快速链接，请将鼠标悬停在左侧导航中的仪表板上，然后在仪表板出现时单击&#x200B;**删除**&#x200B;图标![删除图标](assets/remove-dashboard-from-left.png)。
 
-1. （可选）要更改左侧面板中部分的顺序，请单击部分旁边的&#x200B;**[!UICONTROL 拖动]**&#x200B;图标![](assets/drag-icon.png)，然后将其向上或向下拖动。
+1. （可选）要更改生产环境中左侧面板中部分的顺序，请单击部分旁边的&#x200B;**[!UICONTROL 拖动]**&#x200B;图标![拖动图标](assets/drag-icon.png)，然后将其向上或向下拖动。
 
    ![拖动分区](assets/drag-section.png)
+
+   <div class="preview">
+
+   要在“预览”环境中更改左侧面板中某个部分的顺序，请单击并向上或向下拖动该部分到正确的位置。
+
+   ![拖动分区](assets/click-drag-left-nav-section.png)
+
+   </div>
 
 1. （可选）要关闭左侧面板，请单击&#x200B;**[!UICONTROL 折叠]**&#x200B;图标![](assets/left-panel-collapse-icon.png)。
 
