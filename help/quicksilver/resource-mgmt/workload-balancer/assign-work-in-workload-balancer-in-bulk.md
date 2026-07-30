@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1226
 ht-degree: 3%
 
 ---
@@ -79,13 +72,13 @@ ht-degree: 3%
 * 您不能将资源分配给已完成的工作项或已完成项目上的项。
 * 在批量分配工作角色和用户时，可以执行以下操作：
 
-   * 替换所有有效组合中用户和角色之间的分配。
-   * 从用户的所有工作项中取消分配用户。
+  * 在所有有效组合中的用户和角色之间进行分配。
+  * 从用户的所有工作项中取消分配用户。
 
 **示例**
 
-* 您负责为多个新项目分配用户。 项目最初从模板创建，并且工作角色已分配给项目中的各种任务。 您需要将特定用户Jackie Simms分配给当前分配给工作角色的所有任务。 您可以使用Replace函数将这些任务分配给Jackie Simms。
-* 3个不同项目中的45个任务被分配给Jackie Simms。 Jackie离开了组织，现在您需要将其任务重新分配给另一个用户。 您可以使用“替换”功能将这些任务分配给新人员。
+* 您负责为多个新项目分配用户。 项目最初从模板创建，并且工作角色已分配给项目中的各种任务。 您需要将特定用户Jackie Simms分配给当前分配给工作角色的所有任务。 您可以使用“分配”功能将这些任务分配给Jackie Simms。
+* 3个不同项目中的45个任务被分配给Jackie Simms。 Jackie离开了组织，现在您需要将其任务重新分配给另一个用户。 您可以使用“分配”功能将这些任务分配给新人员。
 * 2个不同项目中的10个任务被分配给另一个用户Rick Kuvec。 您意识到我们错误地将Rick分派到了这些任务中，但是您不确定此时需要将其分派给谁。 您需要同时取消将Rick分配到所有任务。 您可以使用“取消分配”功能将Rick从这些任务中删除。
 
 ## 在工作负载均衡器中批量分配工作
@@ -131,7 +124,7 @@ ht-degree: 3%
 
 1. 选择以下选项之一，然后继续执行以下所述的步骤：
 
-   * [替换资源](#replace-user)
+   * [分配资源](#replace-user)
    * [取消分配资源](#unassign-user)
 
    >[!TIP]
@@ -189,26 +182,26 @@ To assign a user to work items previously assigned to job roles:
 
 -->
 
-### 替换资源 {#replace-user}
+### 分配资源 {#replace-user}
 
-您可以使用选定项目中的其他资源替换已分配给工作项的资源。
+您可以在所选项目中分配或替换资源。
 
-资源替换可以是：
+资源分配可以是：
 
-* 角色与角色
-* 具有用户的用户
-* 具有角色的用户
-* 具有用户的角色
+* 角色到角色
+* 用户到用户
+* 用户到角色
+* 用户角色
 
-在工作负载均衡器中使用批量分配将资源替换为其他资源时，出现以下情况：
+在工作负载均衡器中使用批量分配分配分配或替换资源时，出现以下情况：
 
-* 替代资源被分配给选定项目中当前分配给原始资源的所有工作项。
+* 新资源将分配给选定项目中当前分配给原始资源的所有工作项。
 * 新资源未分配给任何已标记为“完成”的工作项。
 * 对于用户到用户的替换，如果与第一个用户关联的角色与第二个用户的任何角色都不匹配，则第二个用户将分配到其主要角色。
 
-要将资源替换为其他资源，请执行以下操作：
+要批量分配资源，请执行以下操作：
 
-1. 按如上所述在工作负载均衡器批量分配区域中选择工作项，然后选择&#x200B;**替换资源**。
+1. 按如上所述在工作负载均衡器批量分配区域中选择工作项，然后选择&#x200B;**分配资源**。
 1. 在&#x200B;**当前分配的资源**&#x200B;字段中，单击下拉箭头从资源列表中进行选择。 仅显示指定项目中当前分配给未完成工作项的资源。 这是必填字段。
 
    ![替换资源](assets/bulk-assignments-workload-balancer-replace-selected.png)
@@ -217,11 +210,11 @@ To assign a user to work items previously assigned to job roles:
 
    Workfront显示一个注释，说明当前分配的资源将替换第二个资源的项目数。
 
-1. 单击&#x200B;**替换**。
+1. 单击&#x200B;**分配**。
 
    选定项目或任务的所有工作项中的第一个资源被第二个资源替换。
 
-   您将收到一个确认函，确认有多少工作项已将原始分配替换为所选的第二个资源。
+   确认显示有多少工作项将原始分配替换为所选的第二个资源。
 
 ### 取消分配资源 {#unassign-user}
 
@@ -234,7 +227,7 @@ To assign a user to work items previously assigned to job roles:
 
 * 如果将指定的用户分配给已完成的工作项，则该用户仍会分配给这些工作项。
 
-有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
+有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
 
 要从选定项目中的工作项取消分配用户，或为其分配的选定任务或问题取消分配用户，请执行以下操作：
 
@@ -247,7 +240,7 @@ To assign a user to work items previously assigned to job roles:
    Workfront显示有关当前已分配用户将被取消分配的项目数的注释。
 
 1. 单击&#x200B;**取消分配**。\
-   您会收到有关已删除指定用户的工作项数的确认。
+   确认显示删除指定用户的工作项数。
 
 
 
