@@ -9,24 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 851
 ht-degree: 2%
 
 ---
 
 # 使用布局模板自定义筛选器、视图和分组
+
+{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以使用布局模板来指定在筛选器、视图和分组下拉菜单中显示的列表控件。 这些菜单出现在整个Workfront的上方列表中，例如项目的任务列表：
 
@@ -97,6 +93,8 @@ ht-degree: 2%
    >* 在项目区域标题的标题中：
    >   
    >  ![禁用筛选器按钮](assets/disable-filter-pills.png)
+
+   <span class="preview">有些增强列表可供选择。 这些列表在列表控件旁有一个“新体验”标签。 有关增强列表的信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
 
 1. （可选）如果要更改布局模板的默认筛选器、视图或分组，请将鼠标悬停在筛选器、视图或分组上，然后单击“**设置为默认值**”。
 

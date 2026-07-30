@@ -9,25 +9,21 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: 3659
 ht-degree: 0%
 
 ---
 
 # 向自定义表单和字段添加逻辑规则
+
+{{preview-fast-release-general}}
 
 利用逻辑规则，可进一步自定义表单上的字段。
 
@@ -101,17 +97,17 @@ ht-degree: 0%
 * 不能应用显示或跳过逻辑来显示或隐藏多选项字段的选择。 例如，不能根据其他字段的显示或跳过逻辑限制为下拉列表、复选框组或单选按钮字段显示的选项。
 * 如果自定义字段的以下情况全部属实，则您可以将显示逻辑和跳过逻辑添加到自定义字段中：
 
-   * 它是一个多选字段（单选按钮、下拉列表或复选框）
-   * 它前面有一个多选字段
-   * 后跟另一个自定义字段
+  * 它是一个多选字段（单选按钮、下拉列表或复选框）
+  * 它前面有一个多选字段
+  * 后跟另一个自定义字段
 
 * 复制具有显示逻辑或跳过逻辑的表单时，该逻辑将复制到新的自定义表单中。
 * 批量编辑对象时，所有自定义字段都会显示在“编辑对象”框中，包括跳过或隐藏的字段。
 * 为自定义表单创建显示逻辑规则时，请牢记以下几点：
 
-   * 默认情况下，显示逻辑语句中未包含的自定义字段会显示在自定义表单中。
-   * 您可以创建多字段显示逻辑语句。
-   * 如果分区界限下的所有字段都应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。
+  * 默认情况下，显示逻辑语句中未包含的自定义字段会显示在自定义表单中。
+  * 您可以创建多字段显示逻辑语句。
+  * 如果分区界限下的所有字段都应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。
 
 ## 向自定义表单添加显示逻辑
 
@@ -167,7 +163,7 @@ ht-degree: 0%
 
 请注意，`123abc`表示资源管理器的角色ID。
 
-为角色![&#128279;](assets/advanced-display-on-form1.png)显示的表单节
+为角色](assets/advanced-display-on-form1.png)显示的![表单节
 
 具有不同角色ID的相同条件将应用于“项目财务KPI”部分，以定义只有财务顾问角色可以查看该部分。
 
@@ -202,7 +198,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >表单设计器预览模式不支持高级显示逻辑。
+   >在生产环境中，表单设计器预览模式不支持高级显示逻辑。
+   >
+   ><span class="preview">在“预览”环境中，所有逻辑类型在预览模式下均可用。</span>
 
 ## 将跳过逻辑添加到自定义表单
 
@@ -280,7 +278,9 @@ IF({status} = 'PLN', ARRAY({description}, ','))
 
    >[!NOTE]
    >
-   >表单设计器预览模式不支持默认值逻辑。
+   >在生产环境中，表单设计器预览模式不支持默认值逻辑。
+   >
+   ><span class="preview">在“预览”环境中，所有逻辑类型在预览模式下均可用。</span>
 
 ## 向自定义表单添加验证逻辑
 
@@ -329,7 +329,9 @@ IF({DE:Budget Field} < 0,
 
    >[!NOTE]
    >
-   >表单设计器预览模式不支持验证逻辑。
+   >在生产环境中，表单设计器预览模式不支持验证逻辑。
+   >
+   ><span class="preview">在“预览”环境中，所有逻辑类型在预览模式下均可用。</span>
 
 ## 向自定义表单添加格式逻辑
 
@@ -392,7 +394,9 @@ IF(
 
    >[!NOTE]
    >
-   >表单设计器预览模式不支持格式逻辑。
+   >在生产环境中，表单设计器预览模式不支持格式逻辑。
+   >
+   ><span class="preview">在“预览”环境中，所有逻辑类型在预览模式下均可用。</span>
 
 ## 向自定义表单添加可编辑性逻辑
 
@@ -442,4 +446,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >表单设计器预览模式不支持可编辑性逻辑。
+   >在生产环境中，表单设计器预览模式不支持可编辑性逻辑。
+   >
+   ><span class="preview">在“预览”环境中，所有逻辑类型在预览模式下均可用。</span>
+
