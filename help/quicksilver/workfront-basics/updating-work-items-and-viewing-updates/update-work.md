@@ -9,21 +9,14 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
+source-wordcount: 3225
 ht-degree: 1%
 
 ---
@@ -179,21 +172,21 @@ Old:
 
 * 您可以从Workfront的以下区域向项目、任务和问题添加更新：
 
-   * 从Workfront对象的“更新”部分（适用于项目、任务和问题）
-   * 从“主页”区域（针对任务和问题）
+  * 从Workfront对象的“更新”部分（适用于项目、任务和问题）
+  * 从“主页”区域（针对任务和问题）
 
-     有关信息，请参阅[使用我的工作小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
-   * 从“摘要”面板的以下区域（任务、问题和文档）：
+    有关信息，请参阅[使用我的工作小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
+  * 从“摘要”面板的以下区域（任务、问题和文档）：
 
-      * 对象列表
-      * 时间表
-      * 主页
-      * 工作负载均衡器
+    * 对象列表
+    * 时间表
+    * 主页
+    * 工作负载均衡器
 
-     有关更多信息，请参阅以下文章：
+    有关更多信息，请参阅以下文章：
 
-      * [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [使用摘要更新工作负载均衡器中的工作项](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [使用摘要更新工作负载均衡器中的工作项](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -291,7 +284,7 @@ You can add updates to the following objects:
 
 1. 找到要添加注释的对象，然后单击其名称以打开该对象的页面。
 1. 单击左侧面板中的&#x200B;**更新**。
-默认情况下已选中&#x200B;**评论**&#x200B;选项卡。
+默认情况下已选中**评论**&#x200B;选项卡。
 
 1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
 
@@ -451,7 +444,6 @@ You can add updates to the following objects:
 
    >[!IMPORTANT]
    >
-   >
    >* 您无法将图像添加到目标或展示板上的临时信息卡。
    >
    >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅[配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
@@ -462,6 +454,8 @@ You can add updates to the following objects:
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的注释时，该图像会从“更新”部分和“文档”区域中删除。 编辑注释并删除图像时，也会从“文档”区域中删除图像。
    >* 当有人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
+   >* 如果您的组织使用Adobe云存储作为统一审查和批准的一部分，则Workfront管理员可以启用相同的首选项，以便您将图像附加到评论。 支持所有标准图像格式，并且附加的图像存储在Adobe云存储中。
+   >* 无法使用Frame.io查看器访问附加到使用Adobe云存储的对象评论的图像。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +651,10 @@ Workfront对象的“更新”部分显示两种类型的信息：
 
   以下对象没有系统生成的更新：
 
-   * 团队
-   * 模板
-   * 模板任务
-   * 展示板上的临时信息卡
+  * 团队
+  * 模板
+  * 模板任务
+  * 展示板上的临时信息卡
 
 有关用户和系统更新以及它们在Workfront对象更新部分中的显示方式的更多信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 

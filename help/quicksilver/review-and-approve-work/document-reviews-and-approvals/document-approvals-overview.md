@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4230
 ht-degree: 0%
 
 ---
@@ -87,7 +83,7 @@ Adobe云存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
@@ -212,7 +208,7 @@ Workfront校对功能在此集成中不可用。
 
 * 在启动支持Adobe云存储的Workfront版本后，Adobe Professional Services将为您的组织配置集成。
 
-   * 如果您不确定您的Adobe客户代表是谁，可以通过Adobe支持门户联系或访问Experience League以了解联系人选项。
+  * 如果您不确定您的Adobe客户代表是谁，可以通过Adobe支持门户联系或访问Experience League以了解联系人选项。
 
 +++
 
@@ -360,6 +356,14 @@ Frame.io查看器包括一组完整的可视标记工具，其中包括手绘绘
 **我是否可以在外部与无权访问Workfront的利益相关者共享资源？**
 
 可以。 Assets可以在外部共享。 系统会通过电子邮件通知外部用户，并提示外部用户创建Frame.io登录以访问查看器并参与审核。
+
+**我能否在Workfront中将图像附加到文档的评论中？**
+
+如果您的组织使用Adobe云存储作为统一审阅和批准的一部分，则可以将图像文件直接附加到文档上的注释中。 附加的图像存储在Adobe云存储中，并且支持所有媒体类型图像文件格式。
+
+这些注释是Workfront本地注释，与Frame.io查看器中的注释不同。 无法在Frame.io中访问附加到评论的图像，并且附加图像不会将标记添加到资源或路由它以供审批。 无法将非图像文件类型附加到评论。
+
+有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

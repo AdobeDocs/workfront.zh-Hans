@@ -11,18 +11,14 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 8%
+source-wordcount: 291
+ht-degree: 7%
 
 ---
 
@@ -46,8 +42,8 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p>
+   <td><p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p>
    </td> 
   </tr>  
   <tr> 
@@ -96,13 +92,13 @@ Old:
 >
 >* 更新中保存的图像计入文档存储限制。 有关信息，请参阅[检查文档存储限制](../../../documents/managing-documents/check-document-storage.md)。
 >* 可通过对象上的[!UICONTROL 更新]选项卡访问图像，也可在[!UICONTROL 主菜单]下的[!UICONTROL 文档]区域访问图像。
->
+>* 此首选项还控制用户能否使用Adobe云存储将图像附加到对象的注释中。 附加的图像存储在Adobe云存储中。
 
 1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 更新源]**。
 1. 选择&#x200B;**[!UICONTROL 首选项]**&#x200B;选项卡。
 
-   ![更新源的用户首选项](assets/updatefeeds-preferences-350x137.png)
+<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
 
 1. 选中&#x200B;**[!UICONTROL 允许用户在更新中添加图像]**&#x200B;复选框。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
