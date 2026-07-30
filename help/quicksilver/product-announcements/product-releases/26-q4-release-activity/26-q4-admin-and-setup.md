@@ -4,9 +4,9 @@ description: 2026年第四季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -84,3 +84,39 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 每个条目都包含标准跟踪字段：日期和时间、操作、用户名（或“系统生成”）和对象名称。 捕获了MCP活动，包括哪个LLM（如Claude）进行了更新。 不包括Frame.io查看器注释。
 
 有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+
+## 在布局模板中将自定义应用程序定义为登陆页面
+
+>[!NOTE]
+>
+>预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+
+您现在可以将自定义应用程序设置为布局模板中的登陆页面。 已添加到主菜单的自定义应用程序可用作登陆页面。
+
+自定义应用程序必须单独创建，然后才能作为主菜单或登陆页面选项使用。
+
+有关详细信息，请参阅[使用布局模板自定义登陆页面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)和[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。
+
+## 在更改历史记录中配置跟踪字段
+
+>[!NOTE]
+>
+>预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+
+您可以在整个Workfront中添加要跟踪特定类型对象的字段。 当用户在该字段中更改信息时，系统将有关更改的信息记录为更改历史记录中的条目。
+
+以前，用于定义跟踪字段的配置屏幕为仅查看屏幕。
+
+有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+
+## 对更改历史记录的管理访问权限已添加到访问级别
+
+>[!NOTE]
+>
+>预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+
+在标准访问级别上，您现在可以定义具有该级别的用户是否应具有对“变更历史记录列表”的访问权限。 **更改历史记录**&#x200B;选项在访问级别的&#x200B;**允许**&#x200B;的管理访问权限部分中可用。
+
+有关详细信息，请参阅[授予用户对特定区域的管理访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)和[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+
+
