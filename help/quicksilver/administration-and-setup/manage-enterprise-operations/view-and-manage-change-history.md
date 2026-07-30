@@ -20,9 +20,9 @@ ht-degree: 2%
 
 您可以在“设置”的“变更跟踪”区域中查看变更历史记录，包括审核日志。
 
-* **审核日志**是由用户触发的更改。
+* **审核日志**&#x200B;是由用户触发的更改。
 有关审核日志和审核日志区域的详细信息，请参阅[审核日志概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)和[查看和导出审核日志](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
-* **配置**显示正在为更改历史记录列表跟踪哪些字段。
+* **配置**&#x200B;显示正在为更改历史记录列表跟踪哪些字段。
   <span class="preview">作为Workfront管理员，您可以配置Workfront跟踪的对象字段和操作。 例如，您可以让Workfront跟踪用户对整个系统内的问题名称所做的所有更改。 然后，任何问题名称更改将作为条目显示在更改历史记录日志中。</span>
 
 * **更改历史记录列表**&#x200B;允许您查看对Workfront对象的更改日志，包括如下属性：
@@ -48,7 +48,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[！UICONTROL标准版]</td> 
+   <td>[!UICONTROL 标准版]</td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -136,7 +136,7 @@ Workfront管理员可以在“设置”区域查看更改历史记录。
 1. 要搜索特定术语，请单击搜索栏并输入术语。 当您键入时，结果会在列表中加亮。
 1. （可选）要按列筛选，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[筛选增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)中的项。
 1. （可选）要隐藏、显示或重新排序列，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[自定义列](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)。
-1. （可选）要添加或删除列，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的使用列管理器](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的[添加和删除列。
+1. （可选）要添加或删除列，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的使用列管理器[&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的添加和删除列。
 1. （可选）要调整行高，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[更改视图中的行高](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)。
 
 ## 导出更改历史记录
