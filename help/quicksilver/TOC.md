@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14396'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,15 @@ ht-degree: 2%
     * [产品版本概述](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront发布计划和流程](product-announcements/product-releases/workfront-release-schedule.md)
     * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
+    * 2026年第四季度发行 {#release-26-q4}
+      * [2026年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+      * [2026年第四季度AI增强](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
+      * [2026年第四季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026年第四季度文档增强](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [2026年第四季度项目增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
+      * [2026年第四季度报表改进](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026年第四季度资源管理增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
+      * [2026年第四季度其他增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026年第三季度发行 {#release-26-q3}
       * [2026年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
       * [2026年第三季度人工智能增强功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
@@ -722,7 +731,7 @@ ht-degree: 2%
       * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增强型身份验证时{hide-from-toc}[更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 汇率 {#exchange-rates}
       * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1194,7 +1203,7 @@ ht-degree: 2%
     * [删除文档](documents/managing-documents/delete-documents.md)
     * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
     * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[在Workfront中AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * 在Workfront中{hide-from-toc}[AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
   * 组织文档 {#organize-documents}
     * [组织文档](documents/organizing-documents/organize-documents.md)
     * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
@@ -2175,7 +2184,7 @@ ht-degree: 2%
   * Adobe Workfront计划报表 {#adobe-workfront-planning-reporting}
     * [Adobe Workfront Planning报表：文章索引](planning/reporting/reporting-in-planning-article-index.md)
     * [在报表中查看Workfront规划信息](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[适用于Workfront Planning的Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+    * 适用于Workfront Planning的{hide-from-toc}[Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront规划最佳实践 {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront最佳实践：文章索引](planning/best-practices.md/best-practices-article-index.md)
     * [推出您的战略主页：30天的启动台](planning/best-practices.md/30-day-launchpad.md)
@@ -2623,10 +2632,10 @@ ht-degree: 2%
     * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
     * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-    * [API版本22中的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [API版本22](/help/quicksilver/wf-api/api/new-api-version-22.md)中的新增功能
     * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+    * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+    * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
     * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
     * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
     * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

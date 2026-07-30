@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
+source-git-commit: 223aa6944cb6a1e2b03f782673f6de89f2ffbab2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,50 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在表格视图中拖放行
+
+>[!NOTE]
+>
+>预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+
+在表视图中拖放行的体验在视觉上得到了改进。
+
+有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+
+## 从属已连接记录字段
+
+>[!NOTE]
+>
+>预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+
+Workspace Manager现在可以定义连接的记录类型之间的依赖关系。 例如，确保区域字段仅显示与选定地理位置关联的值。 这直接在连接字段设置中配置：当将连接从地域记录类型添加到从属记录类型（如区域）时，新设置允许工作区管理员使用在这些记录类型之间已建立的关系将其标记为从属地域记录类型。
+
+配置完毕后，任何引用这两个字段（例如营销策划）的记录类型都会立即看到效果：选择地域值会将“区域”选取器缩小为仅包含那些实际链接到该地域的地区。 这会自动实施记录结构，从而消除不匹配的组合并减少手动清理。
+
+此更新包括以下功能：
+
+* 在连接记录类型时，我们在“新建连接”选项卡中添加了新的连接设置部分
+* 我们已在新部分中添加了“使此连接依赖于”设置
+
+<!--
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
+
+
+## 在表格视图中显示记录的新注释指示符
+
+>[!NOTE]
+>
+>预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+
+我们添加了一个新指示器，当记录中存在未读注释时会显示该指示器。 指示器显示在表视图中记录的主字段的右上角。
+
+有关详细信息，请参阅[管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)。
 
 ## 可定制的记录颜色和基于连接的颜色编码
 
