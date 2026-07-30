@@ -8,24 +8,21 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 1%
 
 ---
 
 # 使用增强列表
+
+{{preview-fast-release-general}}
 
 Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格格式来显示列表项，并且它们具有与标准列表不同的外观。 视图的管理也得到了增强，包括筛选、分组、管理列和搜索。
 
@@ -203,17 +200,20 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">（可选）要重新排序列，请将鼠标悬停在&#x200B;**Selected**&#x200B;部分中的列名称上，然后单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)。 垂直移动列以按顺序放置它们。</span>
 1. 单击&#x200B;**保存**。
 
    ![列管理器](assets/glist-column-manager.png)
 
    该列表会根据您所做的选择更新列。
 
-### 更改视图中的行高
+## 自定义行
 
 >[!NOTE]
 >
 >并非所有增强型列表都具有本节中介绍的所有元素。
+
+要更改视图中的行高，请执行以下操作：
 
 1. 单击增强型列表中的&#x200B;**行高**&#x200B;图标![行高图标](assets/row-height-icon.png)。
 
@@ -222,6 +222,14 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
    * 标准。 这是默认选项。
    * 媒介
    * 高
+
+要更改行的顺序，请执行以下操作：
+
+1. 将行拖放到您的首选顺序中。
+
+   >[!NOTE]
+   >
+   >如果应用了排序，则无法手动更改行顺序。
 
 ## 更新增强的列表元素
 
@@ -250,7 +258,7 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
@@ -366,8 +374,8 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 1. 单击&#x200B;**格式**&#x200B;框外部以将其关闭。
 
    这会将您返回到列表视图。
-格式设置将立即应用于列表视图。
-**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
+   格式设置将立即应用于列表视图。
+   **设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
 
 ### 筛选增强列表中的项目
 
