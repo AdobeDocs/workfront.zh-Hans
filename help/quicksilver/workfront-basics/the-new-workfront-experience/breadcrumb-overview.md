@@ -7,13 +7,11 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -84,3 +82,20 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
    此时将打开对象页面。
 
    如果您查看的项目连接到Workfront Planning中的对象（例如营销策划），则可以从痕迹导航在Planning和Workfront对象类型之间进行切换。 有关详细信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
+<div class="preview">
+
+## 从痕迹导航复制名称和链接
+
+{{highlighted-preview}}
+
+您可以从痕迹导航路径中复制对象的名称并在一个操作中链接在一起。
+
+1. 将鼠标悬停在痕迹导航路径中的任何对象上。
+1. 单击对象名称旁边显示的&#x200B;**[!UICONTROL 复制链接]**&#x200B;图标。
+
+   ![复制痕迹导航上的链接图标](assets/copy-breadcrumbs.png)
+
+   对象的名称和链接会一起复制。 粘贴复制的信息时，该信息将显示为可单击链接，其对象名称为链接文本。
+
+</div>
