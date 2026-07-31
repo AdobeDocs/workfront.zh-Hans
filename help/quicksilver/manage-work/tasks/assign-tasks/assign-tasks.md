@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 分派任务
-description: 您可以将任务分配给用户、角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
+description: 您可以将任务分配给用户、角色、团队或任务协作者，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
+source-wordcount: 1616
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-您可以将任务分配给用户、工作角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
+您可以将任务分配给用户、工作角色、团队或任务协作者，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 
 >[!TIP]
 >
@@ -65,6 +65,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 * [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [进行智能分配](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [使用任务协作者](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [计划项目概述](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -173,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. 执行下列操作之一：
 
-   * 开始键入要分配的用户、工作角色或团队的名称，然后在名称出现在列表中时单击该名称。
+   * 开始键入要分配的用户、工作角色、团队或任务协作者的名称，然后在名称出现在列表中时单击它。
 
      >[!TIP]
      >
@@ -202,7 +203,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 |---|---|
 | **分配给** | 分配一个用户 |
 | **已分配** | 分配一个用户 |
-| **分配** | 分配用户、工作角色或团队 |
+| **分配** | 分配用户、工作角色、团队或任务协作者 |
 
 要在列表中分配任务，请执行以下操作：
 
@@ -220,7 +221,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 1. 要分配任务，请执行下列操作之一：
 
    * 在&#x200B;**分配给**&#x200B;或&#x200B;**分配的**&#x200B;字段中单击，并开始键入要分配给任务的活动用户的名称，然后在任务显示在列表中时单击该名称。
-   * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给任务的活跃用户、工作角色或团队的名称，然后当它显示在列表中时单击它。
+   * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给任务的活跃用户、工作角色、团队或任务协作者的名称，然后当它显示在列表中时单击它。
 
      >[!TIP]
      >
@@ -255,7 +256,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
    将打开&#x200B;**编辑任务**&#x200B;框。
 
-1. 在&#x200B;**工作**&#x200B;区域，在提供的&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入用户、团队或角色的名称，然后在用户、团队或角色显示在列表中时单击它们
+1. 在&#x200B;**工作**&#x200B;区域，在提供的&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入用户、团队、角色或任务协作者的名称，然后在他们显示在列表中时单击它们
 
    >[!IMPORTANT]
    >
