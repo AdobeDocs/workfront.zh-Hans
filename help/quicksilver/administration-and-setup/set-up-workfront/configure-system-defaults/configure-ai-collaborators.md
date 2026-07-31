@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: dc6bfcd7d3431532c1227f6cd31f22445882143f
+source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 2%
@@ -50,11 +50,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
