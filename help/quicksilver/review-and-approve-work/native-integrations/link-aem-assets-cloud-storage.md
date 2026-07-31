@@ -1,34 +1,19 @@
 ---
 product-area: documents;workfront-integrations
-navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: 将内容和文件夹链接到由Experience Manager Assets提供支持的Content Advisor
-description: 您可以使用内容审查程序将Experience Manager Assets中的内容或文件夹链接到任何支持文档的Adobe Workfront对象。 Content Advisor将智能、上下文感知的发现直接引入Workfront，帮助您快速找到相关、经批准的内容。
+navigation-topic: native-integrations
+title: 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
+description: 如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的内容和文件夹链接到支持文档的任何Adobe Workfront对象。
 author: Courtney
-feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 2%
 
 ---
 
-# 将内容和文件夹与Experience Manager Assets的内容审查程序链接
+# 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
 
-Content Advisor将智能的上下文感知发现直接引入Workfront，帮助您根据上下文快速找到相关的经批准内容。 借助智能建议、Dynamic Media演绎版和详细资产元数据等功能，您可以在不离开Workfront的情况下高效地评估和重用内容，从而加快内容创建，同时保持品牌一致性。
-
-您可以使用内容审查程序将内容和文件夹从Experience Manager Assets链接到Workfront。 链接后，您可以在Workfront中查看和管理内容，对Experience Manager Assets中的内容所做的任何更改都将反映在Workfront中。
+如果您的组织使用Adobe云存储，您可以将内容和文件夹从Experience Manager Assets链接到Workfront。 链接后，您可以在Workfront中查看和管理内容，对Experience Manager Assets中的内容所做的任何更改都将反映在Workfront中。
 
 >[!IMPORTANT]
 >
@@ -54,7 +39,7 @@ Content Advisor将智能的上下文感知发现直接引入Workfront，帮助�
   </tr> 
   <tr> 
    <td role="rowheader">其他产品</td> 
-   <td>您必须安装了Experience Manager as a Cloud Service或Assets Essentials，并且您必须作为用户添加到Admin Console的产品中。</td> 
+   <td>您必须具有Experience Manager as a Cloud Service，并且您必须在Admin Console中作为用户添加到产品中。</td> 
   </tr> 
    <tr> 
     <td role="rowheader">Experience Manager权限</td> 
@@ -79,27 +64,20 @@ Content Advisor将智能的上下文感知发现直接引入Workfront，帮助�
 
 开始之前：
 
-* 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+* 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 * 要使用Smart建议或Campaign Briefs功能，您必须签署GenAI Rider。 有关详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)。
 
-
-
-## 将Experience Manager Assets中的内容与内容审查程序链接到一起
-
-现在，您可以使用内容审查程序直接在Workfront中链接Experience Manager Assets中的内容。 内容审查程序不适用于Assets Essentials。
+## 从Experience Manager Assets链接内容
 
 要链接内容，请执行以下操作：
 
-1. 转到Workfront中要添加文档的&#x200B;**文档**&#x200B;区域。
-1. 选择&#x200B;**新增**，然后选择管理员设置的Experience Manager集成。
-
-   >[!NOTE]
-   >
-   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Experience Manager Assets。
+1. 转到要在其中链接内容的Workfront对象。
+1. 单击左侧面板中的&#x200B;**文档**&#x200B;部分。
+1. 单击页面右侧的&#x200B;**新建**，然后单击&#x200B;**AEM文件**&#x200B;以链接单个资源。
+   ![将AEM文件添加到文档区域](assets/aem-files.png)
 
 1. 使用内容审查程序，您可以：
-
 
    <table style="table-layout:auto">
    <tbody>
@@ -123,10 +101,12 @@ Content Advisor将智能的上下文感知发现直接引入Workfront，帮助�
          <td><strong>将Dynamic Media修饰符应用于演绎版。</strong> 添加修饰符以实时转换资源演绎版，并在为主机应用程序选择演绎版之前预览结果。</td>
          <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
       </tr>
+      <!--
       <tr>
-         <td><strong>发现并浏览内容片段。</strong> 搜索内容片段，查看实时缩略图预览，检查状态（草稿、已修改或已发布），并检查详细的属性、引用和变量。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">发现内容片段</a>。</td>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong>访问资源元数据。</strong> 查看与Assets视图一致的资源属性，例如标题、描述、格式、大小和其他元数据选项卡（产品、营销活动、标记）。</td>
          <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">访问与Assets视图一致的资源元数据</a>。</td>
@@ -146,56 +126,42 @@ Content Advisor将智能的上下文感知发现直接引入Workfront，帮助�
    </tbody>
    </table>
 
+<!--
+### Link a new version from Experience Manager Assets
 
-### 将Experience Manager Assets中的新版本与内容审查程序链接到一起
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
 
-您可以从Experience Manager Assets或Assets Essentials拉取新内容，并将其作为新版本添加到现有资源。 如果文档已链接，并且在Experience Manager Assets或Assets Essentials中添加了新版本，则新版本会自动显示在Workfront中。
+To link a new version:
 
-要链接新版本，请执行以下操作：
-
-1. 转到Workfront中要添加文档的&#x200B;**文档**&#x200B;区域。
-1. 选择要替换为新版本的资产。 您无法在链接的文件夹中创建资产的新版本。
-1. 选择&#x200B;**新增** > **版本**，然后选择管理员设置的Experience Manager集成。
-
-   >[!NOTE]
-   >
-   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Experience Manager Assets。
-
-1. 选择要链接的内容：
-
-   * 选择“Assets”选项卡以浏览Experience Manager Assets或Assets Essentials中的资源、文件夹或收藏集。
-
-     ![内容顾问](assets/content-advisor-full.png)
-
-   * 内容片段不支持版本。 如果您选择内容片段，新版本将替换现有的内容片段，而不是创建新版本。
-
-1. 单击&#x200B;**选择**。
-
-## 将Experience Manager Assets中的文件夹与内容审查程序链接到一起
-
-查看文件夹中各个资产的权限取决于Experience Manager Assets权限。
-
-链接文件夹：
-
-1. 转到Workfront中要放置文件夹的&#x200B;**文档**&#x200B;区域。
-1. 选择&#x200B;**新增**，然后选择管理员设置的Experience Manager集成。
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Experience Manager Assets。
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
-1. 单击&#x200B;**Assets** > **文件和文件夹**。
+1. Select the content you want to link.
+1. Click **Select**.
+-->
 
-1. 单击&#x200B;**筛选器**&#x200B;图标，然后在&#x200B;**资源类型**&#x200B;部分中选择&#x200B;**文件夹**。
+<!--
+## Link a folder from Experience Manager Assets
 
-1. 选择要链接的文件夹。
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
 
-1. 单击&#x200B;**选择**。
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
 
 ## 注意事项
 
-* 内容审查程序功能不适用于使用Adobe云存储的对象。 如果您的组织使用Adobe云存储，您仍然可以从Experience Manager Assets或Assets Essentials链接资源和文件夹，但您将无法访问内容审查程序功能，例如AI 搜索、智能建议或Dynamic Media呈现版本。 有关详细信息，请参阅[将Experience Manager Assets中的内容和文件夹与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
-
-* 内容审查程序功能不适用于Assets Essentials。 要从Assets Essentials链接资源和文件夹，请参阅[从Experience Manager Assets Essentials链接资源和文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)。
-
+* 链接的AEM资源不支持审阅和批准工作流。
 * 在将资源从Workfront发送到Experience Manager Assets时，首先映射元数据字段。 如果您的Workfront管理员启用了对象元数据同步，则在任一应用程序中更改了某些字段后，这些字段将保持最新状态。

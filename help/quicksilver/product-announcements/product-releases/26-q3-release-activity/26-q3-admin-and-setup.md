@@ -4,9 +4,9 @@ description: 2026年第三季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
+source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1543'
 ht-degree: 4%
 
 ---
@@ -17,29 +17,26 @@ ht-degree: 4%
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
-<!--
 
-## Change tracking for unified review and approval
+## 用于统一审阅和批准的更改跟踪
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>预览： 2026年7月10日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
 
-The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
+Workfront中的“更改历史记录”页面现在可以跨统一的审核和批准工作流捕获活动，为管理员提供完整的审核和文档生命周期事件治理追踪。
 
-Approval, stage, and participant actions are now tracked. These actions may include:
+现在可跟踪批准、暂存和参与者操作。 这些操作可能包括：
 
-* Making an approval decision in the Frame.io viewer
-* Creating or deleting an approval
-* Updating a document such as renaming, moving, or deleting it
+* 在Frame.io查看器中作出批准决定
+* 创建或删除审批
+* 更新文档，如重命名、移动或删除文档
 
-Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. Frame.io viewer comments are not included.
+每个条目都包含标准跟踪字段：日期和时间、操作、用户名（或“系统生成”）和对象名称。 不包括Frame.io查看器注释。
 
-This phase of change tracking does not include MCP events. Those will be part of a future release.
+此更改跟踪阶段不包括MCP事件。 这些内容将成为未来版本的一部分。
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
 
 -->
 
@@ -59,9 +56,9 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 * 对于已购买Workfront Planning包的客户，我们已添加了一个新的Planning许可证类型字段，以说明用户对Workfront Planning的许可证。
 已购买相同数量的Workflow和Planning许可证的客户具有以下可用许可证类型：
 
-   * 规划标准
-   * 规划参与者
-   * 无
+  * 规划标准
+  * 规划参与者
+  * 无
 
   >[!NOTE]
   >
@@ -77,9 +74,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->预览：2026年7月7日
->生产快速发布： 2026年7月15日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年7月7日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
 
 自定义表单中新的&#x200B;**内部查找**&#x200B;字段类型提供了动态筛选。 它与“预输入”字段类型类似，允许用户通过键入部分名称来搜索和选择现有Workfront对象。 内部查找上的筛选器可以引用表单上其他字段中的值，而使用Typeaheads无法执行此操作。
 
@@ -97,9 +92,7 @@ Internal lookup字段类型正在替换Typeahead字段类型。 您可以通过�
 
 >[!NOTE]
 >
->预览：2026年7月7日
->生产快速发布： 2026年7月15日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年7月7日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
 >
 >此功能仅适用于Workflow Prime或Ultimate包中的组织。
 
@@ -113,9 +106,7 @@ Internal lookup字段类型正在替换Typeahead字段类型。 您可以通过�
 
 >[!NOTE]
 >
->预览：2026年7月7日
->生产快速发布： 2026年7月15日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年7月7日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
 
 本机字段上存在的系统筛选器现在应用于自定义表单中的字段，并且管理员可见。
 
@@ -133,9 +124,7 @@ Internal lookup字段类型正在替换Typeahead字段类型。 您可以通过�
 
 >[!NOTE]
 >
->预览：2026年7月7日
->生产快速发布： 2026年7月15日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年7月7日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日
 
 为了保护集成和数据完整性，我们更新了在自定义表单的字段设置面板中编辑字段名称的方式。
 
@@ -147,9 +136,7 @@ Internal lookup字段类型正在替换Typeahead字段类型。 您可以通过�
 
 >[!NOTE]
 >
->预览：2026年6月11日
->生产快速发布： 2026年6月11日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年6月11日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
 
 为了让您更轻松地查看在一个中心列表中发生的更改，我们创建了“更改历史记录列表”。 此列表显示诸如对象、操作和更改源（如用户或Workfront系统）等信息。
 
@@ -161,9 +148,7 @@ Internal lookup字段类型正在替换Typeahead字段类型。 您可以通过�
 
 >[!NOTE]
 >
->预览：2026年6月11日
->适用于所有人的生产： 2026年6月11日
->[!BADGE 超出计划]{type=Neutral}
+>预览： 2026年6月11日>适用于所有人的生产： 2026年6月11日>[!BADGE 取消计划]{type=Neutral}
 
 Workfront管理员现在可以直接从“系统首选项”将旧版存储产品组合转换为Adobe云存储。 要转换项目组合，请在新的选择要转换为企业存储的项目组合中选择项目组合，并保存页面。
 
@@ -182,9 +167,7 @@ Workfront管理员现在可以直接从“系统首选项”将旧版存储产�
 
 >[!NOTE]
 >
->预览： 2026年5月28日
->生产快速发布： 2026年6月11日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月28日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
 
 自定义表单中的新&#x200B;**富文本**&#x200B;字段类型是一个强大的文本编辑器，除了粗体、斜体、下划线、项目符号、编号、超链接和块引号等传统选项外，还具有格式选项，如上标和下标、标题和表格。 字符限制仍为15,000。
 
@@ -200,9 +183,7 @@ Workfront管理员现在可以直接从“系统首选项”将旧版存储产�
 
 >[!NOTE]
 >
->预览： 2026年5月28日
->生产快速发布： 2026年6月11日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月28日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
 
 您现在可以在自定义表单中包含Workfront本机金融字段。 以前，不支持财务字段。
 
@@ -214,9 +195,7 @@ Workfront管理员现在可以直接从“系统首选项”将旧版存储产�
 
 >[!NOTE]
 >
->预览： 2026年5月28日
->生产快速发布： 2026年6月11日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月28日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
 
 自定义表单中新增了“系统中的每个人都可以查看和附加”共享选项。 选择此选项后，系统范围内的所有用户都可以将表单附加到其他对象。
 
@@ -228,9 +207,7 @@ Workfront管理员现在可以直接从“系统首选项”将旧版存储产�
 
 >[!NOTE]
 >
->预览： 2026年5月28日
->生产快速发布： 2026年6月11日
->适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月28日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
 
 目前，批量编辑对象时，仅在用户修改必填字段时强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。
 

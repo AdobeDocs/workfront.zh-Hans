@@ -22,14 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 10%
+source-wordcount: 446
+ht-degree: 8%
 
 ---
 
 # 使用布局模板自定义登陆页面
+
+{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以使用布局模板指定用户每次登录到Workfront时要查看的区域。
 
@@ -104,6 +106,11 @@ ht-degree: 10%
    * 用户
    * Blueprint
    * 规划中
+   * <span class="preview">自定义应用程序</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">已添加到主菜单的自定义应用程序可用作登陆页面。 在它们可用作主菜单或登陆页面选项之前，必须单独创建它们。 有关详细信息，请参阅[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。</span>
 
    >[!IMPORTANT]
    >

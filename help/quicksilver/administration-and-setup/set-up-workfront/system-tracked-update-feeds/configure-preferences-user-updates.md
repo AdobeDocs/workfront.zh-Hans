@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 8%
+source-wordcount: 291
+ht-degree: 7%
 
 ---
 
@@ -96,15 +96,16 @@ Old:
 >
 >* 更新中保存的图像计入文档存储限制。 有关信息，请参阅[检查文档存储限制](../../../documents/managing-documents/check-document-storage.md)。
 >* 可通过对象上的[!UICONTROL 更新]选项卡访问图像，也可在[!UICONTROL 主菜单]下的[!UICONTROL 文档]区域访问图像。
->
+>* 此首选项还控制用户能否使用Adobe云存储将图像附加到对象的注释中。 附加的图像存储在Adobe云存储中。
 
 1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 更新源]**。
 1. 选择&#x200B;**[!UICONTROL 首选项]**&#x200B;选项卡。
 
-   ![更新源的用户首选项](assets/updatefeeds-preferences-350x137.png)
-
 1. 选中&#x200B;**[!UICONTROL 允许用户在更新中添加图像]**&#x200B;复选框。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
    启用此首选项后，您可以随时将其禁用。 任何已在更新中发布的图像将保留在对象的[!UICONTROL 更新]区域中。
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
