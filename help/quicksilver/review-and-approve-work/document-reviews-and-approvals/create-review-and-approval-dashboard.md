@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2563
 ht-degree: 0%
 
 ---
@@ -373,7 +373,7 @@ ht-degree: 0%
     </tr>
     <tr>
     <td><strong>文档版本</strong></td>
-    <td>文档版本&gt;文档&gt;版本</td>
+    <td>文档版本&gt;文档&gt;当前版本&gt;版本</td>
     </tr>
     <tr>
     <td><strong>截止日期</strong></td>
