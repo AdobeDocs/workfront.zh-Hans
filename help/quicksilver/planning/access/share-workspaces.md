@@ -9,20 +9,14 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/joK7ucGML7TB2coCslIa-T2EIocaeCJD5wQMRXRNQ9s
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1055
 ht-degree: 2%
 
 ---
@@ -66,11 +60,21 @@ This article describes how you can share a view with others. For information abo
 <p>带规划包的任何Workfront或工作流</p> 
 或
 <p>任何Workfront Planning作为独立产品包</p> 
- </tr>
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p> 
+   <td><p>工作流标准</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr>
 
 <td role="rowheader"><p>对象权限</p></td> 
@@ -133,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -174,13 +178,13 @@ Old:
 
    * 如果您是系统管理员，请从以下选项中选择：
 
-      * **只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。
-      * **系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。
+     * **只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。
+     * **系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。
 
    * （视情况而定）如果您是具有Standard许可证的工作区管理员，则可以看到以下选项之一，但无法更改它们：
 
-      * **只有受邀人员才能访问**。 这是默认设置。
-      * **系统中的每个人都可以查看**
+     * **只有受邀人员才能访问**。 这是默认设置。
+     * **系统中的每个人都可以查看**
 
      必须要求系统管理员更改工作区的全局权限。
 
@@ -222,7 +226,7 @@ Old:
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

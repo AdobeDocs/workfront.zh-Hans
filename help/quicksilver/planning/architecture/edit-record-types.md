@@ -9,20 +9,14 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 648
 ht-degree: 3%
 
 ---
@@ -55,29 +49,37 @@ ht-degree: 3%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和Planning包</p>
-<p>任何Workfront和Planning包</p>
+<p>带规划包的任何Workfront或工作流</p>
+<p>作为独立产品购买时的任何Planning包</p>
 <p><b>注释</b></p>
 <p>要配置可连接的记录类型，请执行以下操作： </p>
 <ul> 
 <li><p>任何Workfront包和任何Planning包</p></li>
 或
-<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
-
+<li><p>任何工作流和计划Prime或Ultimate包</p></li>
+或
+<li>任何计划Prime和Ultimate包</li>
+</ul>
 
 <p>要配置全局记录类型，请执行以下操作：</p>
 
 <ul> 
-<li><p>任何Workfront包和Planning Plus包</p></li>
+<li><p>任何带有Planning Plus包的Workfront包</p></li>
 或
-<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p>
-
-</td> </tr>
+<li><p>任何工作流和计划Prime或Ultimate包</p></li>
+或
+<li>作为独立产品购买时的任何Planning包</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfront和Planning许可证</p></td> 
+   <td><p>“任一”</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -138,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,7 +164,7 @@ Old:
 1. 执行下列操作之一：
 
    * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;或&#x200B;**设置**
-或
+     或
    * 单击记录类型卡以打开记录类型页面，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;或&#x200B;**设置**。
 
    ![记录类型卡片中的更多菜单选项（设置）](assets/more-menu-options-from-record-type-card-with-settings-link.png)
@@ -176,8 +178,8 @@ Old:
    * 根据需要编辑记录类型名称。<!--did they add a field label for this?-->
    * **描述**：编辑或添加记录类型的描述，其中包含有关该记录类型的详细信息。
    * 编辑与记录类型关联的图标的颜色和形状。 执行以下操作：
-      * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。
-      * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
+     * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。
+     * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
 1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**跨工作区设置**&#x200B;选项卡并更新有关记录类型的跨工作区功能的信息。
 

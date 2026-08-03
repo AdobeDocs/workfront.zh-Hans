@@ -9,19 +9,14 @@ exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: 588
 ht-degree: 4%
 
 ---
@@ -59,13 +54,26 @@ ht-degree: 4%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<p>任何Workfront或工作流和规划包</p> 
+或
+<p>作为独立产品购买时的任何Planning包</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>参与者或更高版本</p>
+   <td><p>工作流指示灯或更高</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>Planning参与者或更高版本</p>
+   <p><b>注释</b></p>
+   <p>并非所有客户都拥有Planning Contributor许可证</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -128,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +180,29 @@ Old:
 
 * Workfront Planning会在“历史记录”部分中记录以下信息：
 
-   * 任何字段更改
+  * 任何字段更改
 
-   * 字段的旧值和新值（当值更改时）。 旧值以删除线格式显示。
+  * 字段的旧值和新值（当值更改时）。 旧值以删除线格式显示。
 
-   * 进行更改的用户的全名
+  * 进行更改的用户的全名
 
-   * 更改发生的日期和时间戳。
+  * 更改发生的日期和时间戳。
 
 * 以下类型的字段始终显示旧值（以删除线格式）和新值：
 
-   * 文本
-   * 段落
-   * 货币
-   * 日期
-   * 数值
-   * 百分比
-   * 单选
+  * 文本
+  * 段落
+  * 货币
+  * 日期
+  * 数值
+  * 百分比
+  * 单选
 
 * 仅当删除了多个值中的至少一个值时，以下类型的字段才会以删除线格式显示旧值：
 
-   * 多选
-   * 链接的记录字段
-   * 人员
+  * 多选
+  * 链接的记录字段
+  * 人员
 
   如果更改仅向字段添加了值，则旧值不会显示，而仅显示新字段值。
 
@@ -204,11 +212,11 @@ Old:
 
 * 对以下类型的字段所做的更改不会显示在“历史记录”部分中：
 
-   * 链接（查找）字段
-   * 公式
-   * 创建者
-   * 创建日期
-   * 上次修改者
-   * 上次修改日期
+  * 链接（查找）字段
+  * 公式
+  * 创建者
+  * 创建日期
+  * 上次修改者
+  * 上次修改日期
 
 * 如果从系统中删除某个字段，则对该字段所做的更新将保留在“历史记录”部分中。 没有迹象表明记录的History部分中已移除该字段。

@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '706'
 ht-degree: 3%
 
 ---
@@ -42,21 +42,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>带规划包的任何Workfront或工作流</p> 
 或
-<p>任何Workfront Planning作为独立产品包</p>
-
-</tr>
+<p>任何Workfront Planning作为独立产品包</p> 
+ </tr>
 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>“任一”</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>“任一”</p> 
    <p><b>注释</b></p>
-   <p>只有拥有Standard许可证的人员才能获得记录的管理权限。 所有其他许可证只能具有“查看”权限，并且它们的“管理”选项为灰色。</p>
+   <p>只有拥有Planning Standard许可证的人员才能获得记录的管理权限。 所有其他许可证只能具有“查看”权限，并且它们的“管理”选项为灰色。</p>
+  </td> 
+  </tr> 
+<td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td>   
   </td> 
   </tr> 
   <tr> 

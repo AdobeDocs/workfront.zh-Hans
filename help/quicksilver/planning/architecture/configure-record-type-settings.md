@@ -9,21 +9,15 @@ exl-id: 4674d539-7a16-4d51-a564-e79dc9b4afca
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/d4nAXZ-yoVbPEpInRnGOsLGVILCLa4qT3P8HFcVO-LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 4%
 
 ---
 
@@ -67,30 +61,39 @@ ht-degree: 3%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和Planning包</p>
-<p>任何工作流和计划包</p>
+<p>带规划包的任何Workfront或工作流</p>
+或 
+<p>作为独立产品购买时的任何Planning包</p>
 
 <p><b>注释</b></p>
 
 <p>要配置可连接的记录类型，请执行以下操作：</p>
 
 <ul> 
-<li><p>任何Workfront和Planning包</p></li>
+<li><p>任何工作流和计划Prime或Ultimate包</p></li>
 或
-<li><p>任何工作流包和计划Prime或Ultimate包</p></li></ul>
+<li>作为独立产品购买时的Planning Prime或Ultimate软件包</li>
+</ul>
 
 <p>要配置全局记录类型，请执行以下操作：</p>
 
 <ul> 
 <li><p>任何Workfront包和Planning Plus包</p></li>
 或
-<li><p>任何工作流包和计划Prime或Ultimate包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p>
+<li><p>任何工作流包和计划Prime或Ultimate包</p></li>
+或
+<li>作为独立产品购买时的Planning Prime或独立包 </li>
 
-</td> </tr>
+</ul>
+  </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

@@ -9,20 +9,14 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 2%
 
 ---
@@ -50,9 +44,9 @@ ht-degree: 2%
 
   有关更多信息，请参阅以下文章：
 
-   * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+  * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
+  * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
 
 * 使用&#x200B;**共享**&#x200B;选项共享单个记录或批量共享多个记录。
 
@@ -79,21 +73,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>带规划包的任何Workfront或工作流</p> 
 或
 <p>任何Workfront Planning作为独立产品包</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>“任一”</p> 
-   <p><b>注释</b></p>
-   <p>只有拥有Standard许可证的人员才能获得记录的管理权限。 所有其他许可证只能具有“查看”权限，并且它们的“管理”选项为灰色。</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>“任一”</p> 
+<p><b>注释</b></p>
+   <p>只有拥有Planning Standard许可证的人员才能获得记录的管理权限。 所有其他许可证只能具有“查看”权限，并且它们的“管理”选项为灰色。</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -119,14 +123,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * 您可以与以下实体共享记录：人员、组、团队、公司或工作角色。
 * 存在以下限制：
 
-   * 一次不能共享超过100条记录。
-   * 您无法与超过100个实体共享记录。
+  * 一次不能共享超过100条记录。
+  * 您无法与超过100个实体共享记录。
 * 如果限制对记录的权限，则用户将不能再查看该记录以及该记录所在系统中任何位置的查找字段值。
 * Workfront检查连接中的记录权限，最多深层检查5条记录，确保用户只能看到与其共享的记录。
 * 您可以向记录授予以下级别的权限：
 
-   * 视图
-   * 管理
+  * 视图
+  * 管理
 * 当用户共享工作区和记录类型时，默认情况下，他们也会获得工作区中记录的相同权限。
 当用户具有工作区或记录类型的Contribute权限时，他们将获得该记录类型的记录的管理权限。
 * 从工作区中删除实体时，所有共享权限都将从记录类型及其中的所有记录中删除。
@@ -135,13 +139,13 @@ maybe use the Share record types as example here and touch on the same points: h
   如果您与不在工作区中的用户共享记录，则这些用户会自动添加到工作区中。
 * 用户对该记录的访问权限通过以下3个设置的组合来确定：
 
-   * 从记录类型和工作区继承的权限
-   * 在记录共享框中单独添加的权限
-   * 工作区中的&#x200B;**每个人都可以查看**&#x200B;设置。
+  * 从记录类型和工作区继承的权限
+  * 在记录共享框中单独添加的权限
+  * 工作区中的&#x200B;**每个人都可以查看**&#x200B;设置。
 
-     这使工作区中的每个用户都可以查看记录
+    这使工作区中的每个用户都可以查看记录
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +154,8 @@ maybe use the Share record types as example here and touch on the same points: h
 
   例如：
 
-   * 如果他们具有记录类型的查看权限，他们将获得记录的查看权限
-   * 如果他们拥有记录类型的Contribute或Manage权限，他们将获得该记录的Manage权限
+  * 如果他们具有记录类型的查看权限，他们将获得记录的查看权限
+  * 如果他们拥有记录类型的Contribute或Manage权限，他们将获得该记录的Manage权限
 
 * 当用户对工作区和记录类型具有“管理”或“贡献”权限，并且您将其添加到记录权限时，“查看”权限将灰显。 他们保留对记录的相同权限，就像对记录类型一样，您不能为他们授予较低的记录权限。
 

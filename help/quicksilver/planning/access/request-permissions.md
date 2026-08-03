@@ -9,18 +9,13 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 514
+source-wordcount: 533
 ht-degree: 3%
 
 ---
@@ -41,6 +36,8 @@ no longer needed:
 >
 >For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 -->
+
+{{planning-important-intro}}
 
 当有人与您共享指向您无权访问的视图或工作区的链接时，您可以请求对视图或工作区的权限。
 
@@ -63,26 +60,32 @@ no longer needed:
 </col> 
 <col> 
 </col> 
-<tbody> 
-    <tr> 
+<tbody>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>带规划包的任何Workfront或工作流</p> 
 或
-<p>任何Workfront Planning作为独立产品包</p> 
- </tr>
-
-<tr> 
+<p>作为独立产品购买时的任何Workfront Planning</p> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>“任一”</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
-</td> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>“任一”</p> 
+  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>
+
+
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>  <p>在授予您的权限请求后，您将获得以下权限：</p>
@@ -150,7 +153,7 @@ no longer needed:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

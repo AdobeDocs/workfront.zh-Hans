@@ -9,20 +9,14 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 1%
 
 ---
@@ -56,7 +50,7 @@ ht-degree: 1%
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +58,27 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<ul><li><p>任何Workfront包和Planning Plus包</p></li>
+<p>带规划包的任何Workfront或工作流</p> 
 或
-<li><p>任何工作流和计划Prime或Ultimate包</p></p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+<p>任何Workfront Planning作为独立产品包</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
-   </td> 
+   <td><p>工作流标准</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
@@ -158,8 +162,8 @@ And
 
 * 还从现有全局记录类型中添加了以下信息：
 
-   * 所有原始字段
-   * 所有记录连接
+  * 所有原始字段
+  * 所有记录连接
 * 不能从辅助工作区查看从记录类型的原始工作区添加的记录。
 * 只有在您至少具有原始工作区的“查看”权限时，您才能查看从该工作区中的记录类型的原始工作区添加的记录。
 * 只读&#x200B;**Workspace**&#x200B;字段已添加到新记录类型表视图中。 字段显示创建每个记录的工作区。
@@ -169,7 +173,7 @@ And
   >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
   >
 
-1. （可选）将鼠标悬停在辅助工作区![&#128279;](assets/global-icon-secondary-workspace.png)上的全局记录类型图标全局记录图标上，以查看从中添加记录类型的原始工作区的名称。
+1. （可选）将鼠标悬停在辅助工作区](assets/global-icon-secondary-workspace.png)上的全局记录类型图标![全局记录图标上，以查看从中添加记录类型的原始工作区的名称。
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
 1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击以下任一项：
 

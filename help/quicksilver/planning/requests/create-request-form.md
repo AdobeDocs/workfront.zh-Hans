@@ -9,22 +9,14 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 1%
 
 ---
@@ -60,20 +52,28 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront包和任何Planning包</p>
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
 或
-<p>任何工作流包和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。</p>
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p> 
-  </td> 
+   <td><p>工作流标准</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理对工作区或记录类型</a>的权限 </p>  
@@ -94,27 +94,27 @@ ht-degree: 1%
 
 * 以下是对某些字段在请求表单、请求表单创建的记录或请求详细信息页面中的显示方式的限制：
 
-   * 您不能向请求表单添加以下类型的字段：
+  * 您不能向请求表单添加以下类型的字段：
 
-      * 创建者、上次修改者、批准者
-      * 创建日期、上次修改日期、批准日期
-      * 记录 ID
-      * Workfront对象的查找字段
-      * Workfront Planning已连接记录的查找字段
+    * 创建者、上次修改者、批准者
+    * 创建日期、上次修改日期、批准日期
+    * 记录 ID
+    * Workfront对象的查找字段
+    * Workfront Planning已连接记录的查找字段
 
 * 以下是在请求表单生成器中显示字段格式的方式，以及在记录或请求详细信息页面中字段值的格式设置方式之间的差异：
 
-   * “货币”、“数字”和“百分比”字段在表单生成器中显示为单行文本字段类型。
+  * “货币”、“数字”和“百分比”字段在表单生成器中显示为单行文本字段类型。
 
-     但是，字段格式将保留，并且字段值将在提交请求后、记录类型和请求详细信息页面中显示为货币、数字和百分比。
+    但是，字段格式将保留，并且字段值将在提交请求后、记录类型和请求详细信息页面中显示为货币、数字和百分比。
 
 * 下面描述了某些字段值如何在请求表单和请求详细信息页面上显示：
 
-   * 不保留货币、数字和百分比字段的特殊格式。 例如，对于这些区域中的这些字段值，不保留小数精度。
-   * 人员字段值显示为ID。
-   * 未引用其他字段或计算的公式字段不显示任何值。 例如，公式为`STRING`的字段显示“N/A”值。
-   * 引用币种字段的公式字段显示值，不考虑汇率。
-   * “段落”字段的值在请求表单上显示“不适用”值，并且在请求详细信息页面中显示html标记而不是带格式的文本。
+  * 不保留货币、数字和百分比字段的特殊格式。 例如，对于这些区域中的这些字段值，不保留小数精度。
+  * 人员字段值显示为ID。
+  * 未引用其他字段或计算的公式字段不显示任何值。 例如，公式为`STRING`的字段显示“N/A”值。
+  * 引用币种字段的公式字段显示值，不考虑汇率。
+  * “段落”字段的值在请求表单上显示“不适用”值，并且在请求详细信息页面中显示html标记而不是带格式的文本。
 
 ## 创建请求表单
 

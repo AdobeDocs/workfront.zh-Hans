@@ -9,21 +9,14 @@ exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Sch9ArKRfEiy9KYoo-wny1j4-WyWcpHW86CuWP-qEV0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: 1616
 ht-degree: 1%
 
 ---
@@ -53,18 +46,18 @@ ht-degree: 1%
 
 * 根据在连接的记录页面中显示的对象或记录类型，可以使用以下视图显示它们：
 
-   * 您可以在下列类型的视图中显示连接的Planning记录：
-      * 表
-      * 时间线
-      * 日程表
-   * 您可以在列表视图中显示连接的Workfront项目。
+  * 您可以在下列类型的视图中显示连接的Planning记录：
+    * 表
+    * 时间线
+    * 日程表
+  * 您可以在列表视图中显示连接的Workfront项目。
 
 * 可以为以下连接的记录或对象类型添加“连接的记录”页：
 
-   * Workfront Planning记录类型
-   * Workfront项目
+  * Workfront Planning记录类型
+  * Workfront项目
 
-     即使您无权在Workfront中访问连接的Workfront项目，也可以查看这些项目。
+    即使您无权在Workfront中访问连接的Workfront项目，也可以查看这些项目。
 
 ## 访问权限要求
 
@@ -82,10 +75,10 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p>
-<p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+<p>带规划包的任何Workfront或工作流</p>
+或
+<p>作为独立产品购买时的任何Planning包</p>
+</td> 
 <tr>
 <td> 
    <p> 其他产品</p> </td> 
@@ -94,14 +87,26 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager许可证以及Adobe Experience Manager与Workfront之间的集成，用于连接AEM对象与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
-   </td> 
-  </tr>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+<p><b>注释</b></p>
+   如果您购买了Planning包作为独立产品，则还必须购买一个Workflow包，以便将Planning记录类型与Workfront对象类型连接</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>工作流标准</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>对象权限</p></td>
@@ -161,9 +166,9 @@ ht-degree: 1%
 1. （视情况而定）根据在连接的记录页面中显示的记录类型，执行以下操作之一：
 
    * 管理规划记录
-有关信息，请参阅本文中的[管理Planning记录的连接的记录页面](#manage-the-connected-records-page-for-planning-records)部分。
+     有关信息，请参阅本文中的[管理Planning记录的连接的记录页面](#manage-the-connected-records-page-for-planning-records)部分。
    * 管理Workfront项目
-有关信息，请参阅本文中的[管理Workfront项目的连接记录页面](#manage-the-connected-records-page-for-workfront-projects)部分。
+     有关信息，请参阅本文中的[管理Workfront项目的连接记录页面](#manage-the-connected-records-page-for-workfront-projects)部分。
 
 1. （可选）双击&#x200B;**连接的记录页**&#x200B;选项卡的名称
 
@@ -283,16 +288,16 @@ When you create a connected records page for connected Planning records in the P
    1. 从&#x200B;**视图类型**&#x200B;区域，选择以下视图类型之一：
 
       * 表
-有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)
+        有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)
       * 时间线
-有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+        有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
       * 日程表
-有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
+        有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
         有关详细信息，请参阅本文中[从连接的记录页面](#manage-multiple-views-from-the-connected-records-page)管理多个视图。
 
    1. 单击&#x200B;**创建**。
-视图下拉菜单中添加了新视图。
+      视图下拉菜单中添加了新视图。
 
    1. （可选）将鼠标悬停在您创建的视图的名称上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
 
@@ -303,7 +308,7 @@ When you create a connected records page for connected Planning records in the P
       * **导出**
 
       * **删除**
-有关信息，请参阅[删除记录视图](/help/quicksilver/planning/views/delete-record-views.md)。
+        有关信息，请参阅[删除记录视图](/help/quicksilver/planning/views/delete-record-views.md)。
 
         ![在“连接的项目”记录页面上查看更多菜单](assets/view-more-menu-projects-connected-records-page.png)
 

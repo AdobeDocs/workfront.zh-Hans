@@ -9,14 +9,10 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 784
 ht-degree: 1%
@@ -129,7 +125,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,21 +149,21 @@ Old:
 * 您只能引用在记录类型的表视图或记录详细信息页面中显示的字段。
 * 通过从以下格式选项中进行选择，可以定义公式计算值的格式：
 
-   * 文本
-   * 数值
-   * 百分比
-   * 货币
-   * 标记
-   * 日期
+  * 文本
+  * 数值
+  * 百分比
+  * 货币
+  * 标记
+  * 日期
 
   有关详细信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)中的“公式”部分。
 * 您可以在新的公式中引用公式字段。 一旦在公式字段中引用的字段中更新了值，引用该字段的所有后续字段或包含该字段的公式字段将自动更新。
 
 * 当您更新公式字段或可能影响该字段的字段时，警报会通知您更改的影响。 警报在以下情况下显示：
 
-   * 当更新公式字段（不包括名称和说明更改）时，如果该字段具有从属公式或查找字段。 警报会列出这些依赖字段，并询问您是否要继续。
+  * 当更新公式字段（不包括名称和说明更改）时，如果该字段具有从属公式或查找字段。 警报会列出这些依赖字段，并询问您是否要继续。
 
-   * 删除在公式表达式中或用作查找字段的字段时。 警报会列出相关公式和查找字段，并询问您是否要继续删除。
+  * 删除在公式表达式中或用作查找字段的字段时。 警报会列出相关公式和查找字段，并询问您是否要继续删除。
 
 ## 公式字段的限制
 
@@ -178,13 +174,13 @@ Old:
 * 公式表达式不能超过50,000个字符。
 
 * 在以下情况下，公式字段可能显示为`#ERROR!`：
-   * 删除公式中使用的字段时。
-   * 当聚合查找字段中使用的字段显示为`#ERROR!`时。
+  * 删除公式中使用的字段时。
+  * 当聚合查找字段中使用的字段显示为`#ERROR!`时。
 
-     例如，如果您显示的查找字段包含汇总查找公式字段，并且其中一个引用的公式字段显示为`#ERROR!`。
-   * 当公式值无法以所选格式显示时。
+    例如，如果您显示的查找字段包含汇总查找公式字段，并且其中一个引用的公式字段显示为`#ERROR!`。
+  * 当公式值无法以所选格式显示时。
 
-     例如，如果我为公式字段的格式选择数字，并且公式中使用的字段是只显示非数字文本值的文本字段，则公式结果将显示为`#ERROR!`，因为它无法将文本解析为数字。
+    例如，如果我为公式字段的格式选择数字，并且公式中使用的字段是只显示非数字文本值的文本字段，则公式结果将显示为`#ERROR!`，因为它无法将文本解析为数字。
 
 
 ## 支持的公式

@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2547
 ht-degree: 1%
 
 ---
@@ -65,17 +58,26 @@ Workspace经理可以创建请求表单，您可以作为用户或外部人员�
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront或工作流包</p>
-<p>任何Workfront规划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。</p>
-   </td> </tr>
-  </tr> 
+<p>带规划包的任何Workfront或工作流</p> 
+或
+<p>作为独立产品购买时的任何Workfront Planning</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>“任一”</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>“任一”</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -94,21 +96,21 @@ Workspace经理可以创建请求表单，您可以作为用户或外部人员�
 
 * Workfront Planning中必须存在以下项：
 
-   * 工作区
-   * 记录类型
-   * 与记录类型关联的请求表单。
+  * 工作区
+  * 记录类型
+  * 与记录类型关联的请求表单。
 
-     有关信息，请参阅[在Adobe Workfront Planning中创建申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+    有关信息，请参阅[在Adobe Workfront Planning中创建申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 * 必须以您可以访问的方式共享请求表单。 存在以下情况：
 
-   * 在内部，该表单必须与对工作区具有查看或更高权限的用户共享。
+  * 在内部，该表单必须与对工作区具有查看或更高权限的用户共享。
 
-     Workfront用户可以通过链接访问表单，或在Workfront的请求区域找到请求表单。
+    Workfront用户可以通过链接访问表单，或在Workfront的请求区域找到请求表单。
 
-   * 从外部来看，就是通过与没有Workfront帐户的外部人员共享指向记录表单的链接。
+  * 从外部来看，就是通过与没有Workfront帐户的外部人员共享指向记录表单的链接。
 
-     Workfront用户还可以访问与外部人员共享的链接。
+    Workfront用户还可以访问与外部人员共享的链接。
 
 * 如果与链接共享，则指向表单的链接不得过期。
 
@@ -121,9 +123,9 @@ Workspace经理可以创建请求表单，您可以作为用户或外部人员�
   有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * 通过提交请求表单创建的记录将连接到原始请求。 无法删除此连接。
 * 您可以在以下区域查看创建的记录以及用于创建这些记录的请求：
-   * Workfront中的“请求”区域。
-   * 将请求添加为连接记录时，显示在Workfront Planning中记录类型页面的连接字段中。
-   * 将请求添加为已连接的记录时，显示在Workfront Planning中记录的“详细信息”区域的已连接字段中。
+  * Workfront中的“请求”区域。
+  * 将请求添加为连接记录时，显示在Workfront Planning中记录类型页面的连接字段中。
+  * 将请求添加为已连接的记录时，显示在Workfront Planning中记录的“详细信息”区域的已连接字段中。
 
   >[!TIP]
   >
@@ -145,8 +147,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 打开屏幕右上角的&#x200B;**使用新体验**&#x200B;设置。
-启用此设置后，Workfront计划请求表单将在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 打开屏幕右上角的&#x200B;**使用新体验**设置。
+启用此设置后，Workfront计划请求表单将在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -188,12 +190,12 @@ Not sure how to change the request status, but dev also said: Changing the names
 
      以下字段在请求区域显示请求和记录信息，并在主页显示我的请求小组件：
 
-      * **主题**：在“请求”区域中添加的原始请求的名称。 您无法从请求列表中隐藏或删除&#x200B;**主题**&#x200B;字段。 该名称中有一个链接，用于在Planning中打开请求页面。
-      * **创建的对象**：从请求创建的记录在Planning中的名称。 “已创建”对象名称有一个链接，用于打开从请求创建的记录。
-      * **对象类型**：在Planning中，根据请求创建记录的工作区和记录类型的名称。
-      * **状态**：请求对象的状态。 有关请求状态的详细信息，请参阅[查看已提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
-      * **请求表单**：与Planning中的记录类型关联的请求表单的名称。
-      * **已创建对象状态**：已创建记录的状态。
+     * **主题**：在“请求”区域中添加的原始请求的名称。 您无法从请求列表中隐藏或删除&#x200B;**主题**&#x200B;字段。 该名称中有一个链接，用于在Planning中打开请求页面。
+     * **创建的对象**：从请求创建的记录在Planning中的名称。 “已创建”对象名称有一个链接，用于打开从请求创建的记录。
+     * **对象类型**：在Planning中，根据请求创建记录的工作区和记录类型的名称。
+     * **状态**：请求对象的状态。 有关请求状态的详细信息，请参阅[查看已提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
+     * **请求表单**：与Planning中的记录类型关联的请求表单的名称。
+     * **已创建对象状态**：已创建记录的状态。
 
    * 如果申请表单与批准关联，则该申请会添加到“Workfront申请”区域和“我的申请”小组件的“申请”列表中，状态为&#x200B;**待审核**。 只有在批准者批准记录类型页面后，才会将新记录添加到该页面。
 
@@ -243,7 +245,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* 如果请求表单中未更新记录的主要字段，则请求的“记录”字段中的记录名称将显示为&#x200B;**无标题**。
    >
-   >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。 在批准之前，不会创建记录。
+   >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。在批准之前，不会创建记录。
    >  有关批准请求的信息，请参阅[在Adobe Workfront规划中批准请求](/help/quicksilver/planning/requests/approve-request.md)。
 
 1. （可选）单击&#x200B;**记录类型**&#x200B;的名称。

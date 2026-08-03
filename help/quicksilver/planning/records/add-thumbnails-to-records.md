@@ -9,19 +9,14 @@ exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/L-D5-cS3SHl0X-4Dv2QfDju016zQKD52MHU5r3PZqvM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 820
+source-wordcount: 818
 ht-degree: 1%
 
 ---
@@ -59,14 +54,26 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
+或
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>向工作区提供权限或更高的权限、记录类型和管理记录的权限 </p>  
@@ -127,7 +134,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,9 +160,9 @@ Old:
 * 每次创建记录时，Workfront都会自动上传缩略图图像。 您可以稍后修改此图像。
 * 缩略图属于记录信息，并显示在记录显示的区域中。 例如，缩略图与记录信息一起显示在以下区域中：
 
-   * 表视图中记录的主要字段
-   * 时间线视图中的记录栏。
-   * 记录的详细信息预览和页面。
+  * 表视图中记录的主要字段
+  * 时间线视图中的记录栏。
+  * 记录的详细信息预览和页面。
 
 ## 向记录添加缩略图
 
@@ -245,8 +252,8 @@ Old:
 
 1. （可选）要在保存缩略图之前删除缩略图，请单击图像右侧的&#x200B;**删除**&#x200B;图标![删除图像图标](assets/remove-image-icon.png)。
 
-1. 单击&#x200B;**使用图像**&#x200B;将图像添加为缩略图。
-这将关闭&#x200B;**录制缩略图**&#x200B;框。
+1. 单击&#x200B;**使用图像**将图像添加为缩略图。
+这将关闭**录制缩略图**框。
 缩略图显示在Workfront Planning中记录所在的区域中。
 
    >[!TIP]

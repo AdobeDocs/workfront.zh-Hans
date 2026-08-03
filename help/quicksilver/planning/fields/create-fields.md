@@ -9,27 +9,20 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 1%
 
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -84,16 +77,25 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
+<li><p>带规划包的任何Workfront或工作流</p></li>
 或
-<li><p>任何工作流和任何计划包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区的权限</p>  
@@ -154,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -442,16 +444,16 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：要在此字段中显示的日期格式类型。<!--update this casing - submitted bug for it-->
    * 从以下格式中选择：
-      * **短**： 6/9/26
-      * **Medium**：2026年6月9日
-      * **长** 2026年6月9日
-      * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
+     * **短**： 6/9/26
+     * **Medium**：2026年6月9日
+     * **长** 2026年6月9日
+     * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
    * 从以下选项中选择：
 
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
-      * **向所有用户显示相同的时区**，然后选择&#x200B;**时区**：如果想要为所有查看字段的人员显示相同的时间戳，而不考虑他们用户的时区，请选择此选项。 所选时区将添加到此字段的列标题。
+     * **24hr**：例如：18:00
+     * **12hr**：例如：下午6:00
+     * **向所有用户显示相同的时区**，然后选择&#x200B;**时区**：如果想要为所有查看字段的人员显示相同的时间戳，而不考虑他们用户的时区，请选择此选项。 所选时区将添加到此字段的列标题。
 
 1. 单击&#x200B;**创建**。
 
@@ -466,7 +468,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -496,7 +498,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -514,9 +516,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
      >如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
 
    * **显示为**：从下拉菜单中，选择您希望百分比值在表视图中的显示方式。 从以下选项中选择：
-      * **数字**：百分比值显示为一个数字，后跟百分比符号。
-      * **栏**：百分比值在百分比数字旁边显示为栏。 栏的填充颜色表示百分比值。 这是默认选项。
-      * **Circle**：百分比值在百分比数字旁边显示为圆形的轮廓。 圆轮廓的填充颜色指示百分比值。
+     * **数字**：百分比值显示为一个数字，后跟百分比符号。
+     * **栏**：百分比值在百分比数字旁边显示为栏。 栏的填充颜色表示百分比值。 这是默认选项。
+     * **Circle**：百分比值在百分比数字旁边显示为圆形的轮廓。 圆轮廓的填充颜色指示百分比值。
 
    >[!NOTE]
    >
@@ -536,7 +538,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
@@ -720,17 +722,17 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：从以下格式中选择：
 
-      * **区域设置**：与浏览器的区域设置匹配。
-      * **标准**： 05/16/2023
-      * **长**：2023年5月16日
-      * **欧洲**： 16/05/2023
-      * **ISO**： 2023-05-16
+     * **区域设置**：与浏览器的区域设置匹配。
+     * **标准**： 05/16/2023
+     * **长**：2023年5月16日
+     * **欧洲**： 16/05/2023
+     * **ISO**： 2023-05-16
    * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
      从以下选项中选择：
 
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
+     * **24hr**：例如：18:00
+     * **12hr**：例如：下午6:00
 
 1. 单击&#x200B;**创建**。
 
@@ -769,17 +771,17 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：从以下格式中选择：
 
-      * **区域设置**：与浏览器的区域设置匹配。
-      * **标准**： 05/16/2023
-      * **长**：2023年5月16日
-      * **欧洲**： 16/05/2023
-      * **ISO**： 2023-05-16
+     * **区域设置**：与浏览器的区域设置匹配。
+     * **标准**： 05/16/2023
+     * **长**：2023年5月16日
+     * **欧洲**： 16/05/2023
+     * **ISO**： 2023-05-16
    * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
      从以下选项中选择：
 
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
+     * **24hr**：例如：18:00
+     * **12hr**：例如：下午6:00
 
 1. 单击&#x200B;**创建**。
 
