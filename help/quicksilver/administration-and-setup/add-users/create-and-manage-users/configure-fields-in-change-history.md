@@ -46,7 +46,7 @@ Adobe Workfront会生成自动系统更新以记录以下事件：
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[！UICONTROL标准版]</td> 
+   <td>[!UICONTROL 标准版]</td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 

@@ -50,7 +50,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[！UICONTROL标准版]</td> 
+   <td>[!UICONTROL 标准版]</td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -101,7 +101,7 @@ To view the types of changes that are tracked:
 1. 要搜索特定术语，请在搜索框中单击并输入术语。 当您键入时，结果会在列表中加亮。
 1. （可选）要按列筛选，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[筛选增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)中的项。
 1. （可选）要隐藏、显示或重新排序列，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[自定义列](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)。
-1. （可选）要添加或删除列，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的使用列管理器](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的[添加和删除列。
+1. （可选）要添加或删除列，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的使用列管理器[&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的添加和删除列。
 1. （可选）要调整行高，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[更改视图中的行高](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)。
 
 ## 导出更改历史记录
