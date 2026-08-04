@@ -6,9 +6,9 @@ description: 规划在Adobe云存储上推出Workfront的计划。 了解Adobe�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,20 @@ Adobe云存储上的Workfront支持完整的统一审核和批准体验：在Fra
 
 本文面向准备在Workfront云存储上推出Workfront的Adobe管理员。 它涵盖了Adobe云存储对象上的主要差异、如何选择转出类型以及在为用户启用Adobe云存储之前需要考虑的事项。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* 您必须使用支持Adobe云存储的Workfront版本。 如果贵组织尚未使用支持的版本，请联系您的Adobe客户代表。
->* 迁移到支持Adobe Cloud Storage的Workfront版本会将&#x200B;*所有*&#x200B;现有的审批工作流从旧文档审批移动到统一审批。 有关详细信息，请参阅[统一审批适用于任何存储模型](#unified-approvals-applies-regardless-of-storage-model)。
 
 ## 无论存储型号如何，都适用统一的批准
 
-迁移到支持Adobe Cloud Storage的Workfront版本会将&#x200B;*所有*&#x200B;现有的审批工作流从旧文档审批移动到统一审批 — 无论对象是保留在旧版Workfront存储上还是移至Adobe Cloud Storage。 这与[选择Adobe云存储转出方式](#choose-how-adobe-cloud-storage-rolls-out)中描述的存储转出选项不同：这些选项控制新对象使用的存储模型，而不是控制批准工作流是否移动到统一批准。 此更改没有试点组或逐步选项 — 只要您使用的是受支持的版本，它就会在整个组织范围内应用。
+迁移到支持Adobe Cloud Storage的Workfront版本会将&#x200B;*所有*&#x200B;现有的审批工作流从旧文档审批移动到统一审批 — 无论对象是保留在旧版Workfront存储上还是移至Adobe Cloud Storage。
+
+
+>[!IMPORTANT]
+>
+>这与[选择Adobe云存储转出方式](#choose-how-adobe-cloud-storage-rolls-out)中描述的存储转出选项不同：这些选项控制新对象使用的存储模型，而不是控制批准工作流是否移动到统一批准。<br>
+>此更改没有试点组或逐步选项 — 只要您使用的是受支持的版本，它就会在整个组织范围内应用。
+
 
 在推出Adobe云存储之前，请确保管理审批的人员知道会发生什么：
 
@@ -242,11 +248,13 @@ Adobe云存储对象中不包含以下功能：
 
 有关分步说明，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
+
+### 配置选项
+
 * **仅限Adobe云存储**：默认情况下，新项目使用Adobe云存储。 用户无法创建旧版项目。
 * **Adobe云存储和旧版Workfront存储**：用户创建项目时，他们会在Adobe云存储（标记为“新项目”）和旧版Workfront存储（标记为“旧版存储”）之间进行选择。
 
   ![选择项目类型](assets/choose-project-type.png)
-
 
 
 >[!TIP]

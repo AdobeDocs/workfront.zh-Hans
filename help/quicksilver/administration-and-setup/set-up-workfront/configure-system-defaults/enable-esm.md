@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 4%
 
 ---
@@ -74,14 +74,18 @@ Adobe云存储是一个适用于所有Adobe产品的统一存储解决方案。 
    - **整个组织**：此选项将默认存储提供程序应用于您的整个Workfront环境。 每当用户创建新项目时，都将使用默认存储提供程序。
    - **特定组**：此选项仅将默认存储提供程序应用于您组织内的特定组。 每当指定组中的用户创建新项目时，都将使用默认的存储提供程序
 
+   ![存储首选项组](assets/configure-storage-preference.png)
+
 1. 单击&#x200B;**保存**。
 
    >[!NOTE]
    >
    >现有项目会保留创建它们的存储模型。 例如，在更改默认存储首选项后，使用Adobe云存储的项目将继续使用Adobe云存储。
 
+
+
 ## 沙盒环境中的Adobe云存储
 
 Adobe云存储在[!DNL Workfront]沙盒环境中可用，允许您先测试本文中描述的功能，然后再在生产环境中推出。 但是，Frame.io查看器在沙盒中不可用，因此必须在生产环境中验证完整的统一审阅和批准体验。
 
-如果您有自定义刷新沙盒，则在升级到支持Adobe云存储的Workfront版本后必须刷新它。 通过刷新，沙盒可以访问Adobe云存储功能，以便您可以开始对其进行测试。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
+如果您有自定义刷新沙盒，则在升级到支持Adobe云存储的Workfront版本后必须刷新它。 通过刷新，沙盒可以访问Adobe云存储功能，以便您可以开始对其进行测试。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
