@@ -10,21 +10,15 @@ exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 4%
+source-wordcount: 627
+ht-degree: 3%
 
 ---
 
@@ -69,7 +63,7 @@ ht-degree: 4%
 * 您的Workfront实例必须启用统一批准。
 
 * 您的组织必须具有GenStudio Foundation。
-   * Workfront中的内容审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过Content Reviewer访问GenStudio Foundation功能是受Workfront合同条款约束的。
+  * Workfront中的内容审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过Content Reviewer访问GenStudio Foundation功能是受Workfront合同条款约束的。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -86,7 +80,7 @@ ht-degree: 4%
 1. 在左侧面板中，转到&#x200B;**审核和批准** > **品牌**。
 1. 单击屏幕右上角的&#x200B;**添加品牌**。
 1. 为品牌命名。
-1. 单击&#x200B;**上传PDF**&#x200B;以上传品牌文件。
+1. 单击&#x200B;**上传PDF**以上传品牌文件。
    ![上载品牌PDF](assets/upload-PDF.png)
 1. 单击&#x200B;**继续**。
 1. 上载一个或多个包含品牌指南的PDF文件，然后单击&#x200B;**添加品牌**。
@@ -142,6 +136,8 @@ ht-degree: 4%
 
 
 ## 编写品牌指南的最佳实践
+
+在编写准则之前，请查看[内容审核者评估了哪些图像和品牌声音准则类型](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)。 这些评估区域之外的准则不计分。
 
 *  编写描述可衡量标准的品牌指南。 内容审核者按字面意思对内容进行评估，因此客观规则会生成比主观规则更一致的分数。
 
