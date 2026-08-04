@@ -9,14 +9,11 @@ exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IPvYru6al05HMWf7jLZ1XuGWD8Eq2P6s22NamtxqA4w
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: b5b73103671c4a478d7e3a5f4eeb9672bac62de4
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: 191
 ht-degree: 23%
 
 ---
@@ -30,6 +27,7 @@ ht-degree: 23%
 查看以下文章：
 
 * [Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)
+* [Workfront Planning术语概述](/help/quicksilver/planning/general/planning-terminology.md)
 * [Adobe Workfront规划AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Adobe Workfront规划API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)

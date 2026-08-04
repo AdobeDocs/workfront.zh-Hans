@@ -1,6 +1,6 @@
 ---
 title: 从Adobe Workfront导入字段
-description: 在Adobe Workfront Planning中，您可以为每种记录类型创建自定义字段。 然后，您可以将该字段与Workfront Planning记录关联。
+description: 在Adobe Workfront Planning中，您可以从Adobe Workfront添加现有字段。 然后，您可以将其与Planning记录相关联。 如果您的组织已将Workfront作为独立产品购买，则无法导入现有字段。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,22 +9,15 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 622
-ht-degree: 9%
+source-wordcount: 640
+ht-degree: 8%
 
 ---
 
@@ -41,8 +34,11 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-您可以导入现有Workfront字段的副本。 从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
+您可以导入现有Adobe Workfront字段的副本。 从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
 
+>[!IMPORTANT]
+>
+>对于将Planning作为独立产品购买的客户，无法通过从Workfront导入字段来创建字段。
 
 ## 访问权限要求
 
@@ -59,11 +55,9 @@ ht-degree: 9%
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
-   <td> 
-<ul> 
-<li><p>带规划包的任何Workfront或工作流</p></li>
-或
-<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
+   <td>
+
+<p>带规划包的任何Workfront或工作流</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
@@ -74,13 +68,9 @@ ht-degree: 9%
    <td role="rowheader"><p>Adobe计划许可证</p></td> 
    <td><p>规划标准</p>
    </td> 
-  </tr> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
-</td> 
-  </tr>  
-  <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
