@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 459
 ht-degree: 2%
 
 ---
@@ -59,18 +59,27 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
+<p>带规划包的任何Workfront或工作流</p> 
 或
-<li><p>任何工作流和任何计划包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+<p>作为独立产品购买时的任何Workfront Planning</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
-   </td> 
+   <td><p>“任一”</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>“任一”</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
@@ -130,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -165,7 +174,7 @@ Old:
 1. 要删除工作区，请执行下列操作之一：
 
    * 将鼠标悬停在工作区信息卡上，然后单击该信息卡右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
-或
+     或
    * 单击“工作区”页面右上角的&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)可按名称搜索工作区，单击工作区卡可打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)。
 
    >[!TIP]

@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+{{planning-important-intro}}
 
 作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型之间创建连接字段时定义依赖连接。
 
@@ -58,7 +60,6 @@ ht-degree: 1%
 <p>或</p>
 <li><p>作为独立产品购买时的任何Planning Prime或Ultimate软件包</p></li>
 </ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
 <tr> 
 <td> 
@@ -73,8 +74,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 

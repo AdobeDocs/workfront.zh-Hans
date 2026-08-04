@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1038
+source-wordcount: 1061
 ht-degree: 1%
 
 ---
@@ -62,13 +62,25 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
+或
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -130,7 +142,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -152,10 +164,10 @@ Old:
 * 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
 * 保存字段后，可以编辑以下字段元素的配置：
 
-   * 任何字段的名称或描述
-   * 单选或多选字段的选项及其默认选项。
-   * “人员”字段的默认选项。
-   * “公式”字段的表达式。
+  * 任何字段的名称或描述
+  * 单选或多选字段的选项及其默认选项。
+  * “人员”字段的默认选项。
+  * “公式”字段的表达式。
 
   >[!WARNING]
   >

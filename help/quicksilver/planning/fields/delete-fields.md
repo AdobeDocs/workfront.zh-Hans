@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 1%
+source-wordcount: 708
+ht-degree: 2%
 
 ---
 
@@ -60,23 +60,33 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
+<li><p>带规划包的任何Workfront或工作流</p></li>
 或
-<li><p>任何工作流和任何计划包</p></li></ul>
+<li><p>作为独立包购买时的任何Planning包</p></li></ul>
 
 <p>要从全局记录类型中删除字段，请执行以下操作：</p>
 <ul><li><p>任何Workfront包和Planning Plus包</p></li>
 或
-<li><p>任何工作流和计划Prime和Ultimate包</p></li></ul>
-
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<li><p>任何工作流和计划Prime和Ultimate包</p></li>
+或
+<li>作为独立产品购买的任何Planning Primar和Ultimate软件包</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
@@ -136,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +167,9 @@ Old:
 
   例如，如果将Campaigns连接到另一个记录类型“产品”，并从营销活动中删除“已连接产品”字段和“产品状态”查找字段，则会删除以下内容：
 
-   * 营销活动中的已连接产品字段
-   * 营销活动中的产品状态查找字段
-   * 产品中的“Campaign已连接”字段
+  * 营销活动中的已连接产品字段
+  * 营销活动中的产品状态查找字段
+  * 产品中的“Campaign已连接”字段
 
   有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

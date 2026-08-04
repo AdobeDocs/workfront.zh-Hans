@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 861
 ht-degree: 1%
 
 ---
@@ -57,16 +57,26 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<p>任何Workfront或工作流和规划包</p> 
+或
+<p>作为独立产品购买时的任何Planning包</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr>
+ <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>为您导入记录的工作区和记录类型提供或更高权限。 </p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
@@ -127,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
@@ -149,21 +159,21 @@ Old:
 * 每个工作表中的每一行都成为关联的唯一记录。
 * 如果Excel文件包含多个工作表，则只导入导入导入过程中所选择的一个工作表中的信息。
 * 文件不应超过以下内容：
-   * 25,000行
-   * 500列
+  * 25,000行
+  * 500列
 * 文件不应大于5MB。
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * 将字段连接到Workfront和Adobe Experience Manager对象类型。 您只能将连接字段映射到Planning记录类型。
-   * 从连接的Planning记录或Workfront和Adobe Experience Manager对象查找字段
-   * 公式字段
-   * 创建日期，创建者
-   * 上次修改日期，上次修改人
-   * 批准日期，批准者
-   * 人员
-   * 记录 ID
-   * 如果导入了多选或单选字段，并且该字段与Planning中的类似字段相比，具有更多选项，则在导入期间会创建附加选项。 只有对工作区具有“管理”权限的用户才能导入新选项。
+  * 将字段连接到Workfront和Adobe Experience Manager对象类型。 您只能将连接字段映射到Planning记录类型。
+  * 从连接的Planning记录或Workfront和Adobe Experience Manager对象查找字段
+  * 公式字段
+  * 创建日期，创建者
+  * 上次修改日期，上次修改人
+  * 批准日期，批准者
+  * 人员
+  * 记录 ID
+  * 如果导入了多选或单选字段，并且该字段与Planning中的类似字段相比，具有更多选项，则在导入期间会创建附加选项。 只有对工作区具有“管理”权限的用户才能导入新选项。
 
 ## 通过导入CSV或Excel文件创建记录
 

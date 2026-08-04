@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 418
 ht-degree: 1%
 
 ---
@@ -57,13 +57,25 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
+或
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -124,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -143,10 +155,10 @@ Old:
 * 如果删除的记录链接到其他记录，则不会删除链接的记录，但也会删除来自已删除记录的信息。 恢复删除的记录将恢复连接记录中的信息。
 * 您可以批量恢复记录。
 * 删除记录后，以下信息将存储在“最近删除”框中：
-   * **名称**：这是记录的“主要”字段中的信息。 有关记录主字段的详细信息，请参阅[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
-   * **删除日期**：记录删除的时间和日期。
-   * **最近删除的时间**：自记录删除后的时间。 在当前日期之前30天以上被删除的记录不会显示在“最近删除”框中。
-   * **删除者**：删除记录的用户的名称。
+  * **名称**：这是记录的“主要”字段中的信息。 有关记录主字段的详细信息，请参阅[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+  * **删除日期**：记录删除的时间和日期。
+  * **最近删除的时间**：自记录删除后的时间。 在当前日期之前30天以上被删除的记录不会显示在“最近删除”框中。
+  * **删除者**：删除记录的用户的名称。
 
 ## 恢复已删除的记录
 

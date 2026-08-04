@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1528
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 * [Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)
 
 
-## 访问要求<!--edit theses??-->
+## 访问权限要求
 
 +++ 展开可查看本文所述功能的访问权限要求。 
 
@@ -66,20 +66,25 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
 <p>任何带规划包的Workfront或工作流包</p>
-<p>任何Planning作为独立产品包</p>
+<p>作为独立产品购买时的任何Planning</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Workfront许可证</p></td> 
-   <td><p>标准</p> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>工作流标准</p> 
    <p>Workfront管理员必须为贵组织启用Planning Designer</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>计划许可证</p></td> 
-   <td><p>标准</p> 
+   <td><p>规划标准</p> 
    <p>Workfront管理员必须为贵组织启用Planning Designer</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 

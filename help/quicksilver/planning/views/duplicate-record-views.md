@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: 295
 ht-degree: 2%
 
 ---
@@ -62,15 +62,25 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p>
-
-<p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
+或
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -131,7 +141,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -154,7 +164,7 @@ Old:
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
-默认情况下，所选类型的所有记录都会显示在表格视图中。
+   默认情况下，所选类型的所有记录都会显示在表格视图中。
 
 1. 单击当前视图名称旁边的下拉图标![下拉图标](assets/drop-down-icon.png)，将鼠标悬停在视图名称上，单击&#x200B;**更多**，然后单击&#x200B;**复制**。
 

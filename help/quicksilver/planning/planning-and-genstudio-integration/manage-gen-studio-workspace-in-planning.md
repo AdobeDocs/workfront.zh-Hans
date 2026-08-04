@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1769
+source-wordcount: 1794
 ht-degree: 2%
 
 ---
@@ -78,10 +78,11 @@ recommendations: noDisplay, noCatalog
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p>
-<p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+<p>任何Workfront或工作流以及任何计划包</p> 
+或
+<p>作为独立产品购买时的任何Planning包</p>
+
+</td> 
    <tr> 
 <td> 
    <p> 其他产品</p> </td> 
@@ -90,10 +91,21 @@ recommendations: noDisplay, noCatalog
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将Workflow和Planning许可证类型添加到Workfront访问级别</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
@@ -122,7 +134,66 @@ recommendations: noDisplay, noCatalog
 
 有关Adobe GenStudio for Performance Marketing的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
 
-+++   
++++ 
+
+<!--
+
+Old, before Planning STA: 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations </li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td>  
+</tbody> 
+</table> 
+
+-->
+
 
 <!--
 Old:
@@ -309,18 +380,18 @@ Workfront Planning主页将打开。
 1. 要共享视图或记录类型，请执行以下操作：
 
    * 单击记录类型页面右上角的&#x200B;**共享**，然后单击以下任一项：
-      * **共享记录类型**
-有关信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
-      * **共享当前视图**
-有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
-      * **复制视图链接**
-指向视图的链接已复制到您的剪贴板中。
-      * **导出当前视图**
-有关信息，请参阅[从表视图](/help/quicksilver/planning/records/export-records-from-the-table-view.md)导出记录。
+     * **共享记录类型**
+       有关信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
+     * **共享当前视图**
+       有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
+     * **复制视图链接**
+       指向视图的链接已复制到您的剪贴板中。
+     * **导出当前视图**
+       有关信息，请参阅[从表视图](/help/quicksilver/planning/records/export-records-from-the-table-view.md)导出记录。
 
-        >[!NOTE]
-        >
-        >在与GenStudio用户共享该工作区或记录类型后，您无法将其从GenStudio工作区中的记录类型中删除。
+       >[!NOTE]
+       >
+       >在与GenStudio用户共享该工作区或记录类型后，您无法将其从GenStudio工作区中的记录类型中删除。
 
 1. 要管理记录类型视图，请执行以下操作：
 
@@ -386,9 +457,9 @@ Workfront Planning主页将打开。
 
      从GenStudio工作区创建的字段在以下区域可见：
 
-      * Workfront Planning中的Workfront Planning视图
-      * Workfront Planning中的Workfront Planning记录详细信息
-      * GenStudio for Performance Marketing中的GenStudio记录详细信息
+     * Workfront Planning中的Workfront Planning视图
+     * Workfront Planning中的Workfront Planning记录详细信息
+     * GenStudio for Performance Marketing中的GenStudio记录详细信息
 
      >[!NOTE]
      >
@@ -407,13 +478,13 @@ Workfront Planning主页将打开。
    1. 单击以选择右侧面板中的&#x200B;**Campaign**&#x200B;选项卡。
 
       连接到资产的营销活动的名称显示在&#x200B;**营销活动**&#x200B;字段中。这是只读字段。
-如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
+      如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
    1. （视情况而定）在Planning的GenStudio工作区中，从连接的AEM内容片段中单击内容片段的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开内容片段。
    1. 单击AEM中的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-in-aem.png)以转到内容片段列表，然后单击AEM中内容片段名称右侧的&#x200B;**信息**&#x200B;图标![信息图标](assets/info-icon-in-aem.png)。
    1. 单击右侧面板中的&#x200B;**元数据**&#x200B;选项卡。
 
       在&#x200B;**xdm： campaignName**&#x200B;字段中显示的连接到内容片段的营销活动的名称。 这是只读字段。 <!--tried to log a bug to rename this field-->
-如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
+      如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
 
 1. 将鼠标悬停在表视图中的字段上，然后单击下拉菜单以执行以下操作之一：
 

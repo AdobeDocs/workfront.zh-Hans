@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 826
 ht-degree: 1%
 
 ---
@@ -56,15 +56,23 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>任何Workfront和Planning包</p>
-<p>任何工作流和计划包</p>
+<p>带规划包的任何Workfront或工作流</p>
+<p>作为独立产品购买时的任何Planning包</p>
    </td> </tr>
-
-</tr> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p> 
-  </td> 
+   <td><p>工作流标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -89,8 +97,8 @@ ht-degree: 1%
 
 * AI助手在“规划”区域中执行的操作将与Workfront规划权限和Workfront访问级别的上下文相关。 有关信息，请参阅以下文章：
 
-   * [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-   * [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)
+  * [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+  * [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)
 
 * AI助手代表用户所做的更改在记录的历史记录面板中进行跟踪。
 

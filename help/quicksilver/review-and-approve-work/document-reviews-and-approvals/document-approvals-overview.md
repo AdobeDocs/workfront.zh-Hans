@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ Workfront校对功能在此集成中不可用。
 
 <span class="preview">统一审查和批准包括全面的审核日志记录，这些记录可跨Workfront和Frame.io创建完整的治理跟踪。 更改跟踪日志捕获在Frame.io查看器和文档生命周期中作出的批准决策。 每个日志条目都包含源系统归因（Workfront或Frame.io）以及标准Workfront审核字段：日期和时间、日志类型、用户名、操作和对象名称。 Frame.io查看器注释未包含在审核日志中。</span>
 
-<span class="preview">更改跟踪日志显示在Workfront的“设置”区域中，并且可供导出。 有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。</span>
+<span class="preview">更改跟踪日志显示在Workfront的“设置”区域中，并且可供导出。 有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。</span>
 
 ## Workfront中强大的项目管理
 

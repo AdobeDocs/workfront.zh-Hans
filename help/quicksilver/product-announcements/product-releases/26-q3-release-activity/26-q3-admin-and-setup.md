@@ -4,7 +4,7 @@ description: 2026年第三季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 4%
@@ -36,7 +36,7 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 
 此更改跟踪阶段不包括MCP事件。 这些内容将成为未来版本的一部分。
 
-有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 -->
 
@@ -142,7 +142,7 @@ Internal lookup字段类型正在替换Typeahead字段类型。 您可以通过�
 
 以前，审核日志可用，但不包含对象。
 
-有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 ## 用于将旧版存储产品组合转换为Adobe云存储的新系统首选项
 

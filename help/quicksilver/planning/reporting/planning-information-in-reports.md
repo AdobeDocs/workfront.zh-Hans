@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,12 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。以下云提供商未提供测试版：
+>画布功能板目前仅适用于参与Beta测试阶段的用户。在此阶段，部分功能可能无法完成或无法按预期工作。
+>以下云提供商未提供测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
->* Google Cloud Platform有关详细信息，请参阅[管理画布仪表板：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)。
+>* Google Cloud平台> 有关详细信息，请参阅[管理画布功能板：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)。
 
 ## 访问权限要求
 
@@ -38,24 +39,33 @@ ht-degree: 6%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>任何Workfront或工作流包</p>
-<p>任何规划包</p>
+<p>带规划包的任何Workfront或工作流</p>
+<p><b>注释</b></p>
+<p>对于已将Workfront Planning作为独立产品购买的客户，报表不可用</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p> 
+   <td><p>工作流标准</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td><p>编辑对报告、功能板和日历的访问权限</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td><p>查看对工作区的权限</a> </p>  
+   <td>
+   <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+   <p>查看对工作区的权限</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  
    </td> 
   </tr>  

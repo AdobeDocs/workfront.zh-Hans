@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 2402
+source-wordcount: 2427
 ht-degree: 1%
 
 ---
@@ -109,9 +109,11 @@ No longer needed to specify:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+<p>任何Workfront或工作流以及任何计划包</p> 
+或
+<p>作为独立产品购买时的任何Planning包</p>
+
+</td> 
    <tr> 
 <td> 
    <p> 其他产品</p> </td> 
@@ -120,10 +122,21 @@ No longer needed to specify:
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将Workflow和Planning许可证类型添加到Workfront访问级别</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
@@ -267,15 +280,15 @@ Old for the second row in the table:
 * GenStudio工作区会自动与所有在Workfront Planning中创建时有权访问Workfront的GenStudio用户共享。
 * 作为Planning中GenStudio工作区的工作区经理，您可以：
 
-   * 在Planning中更新GenStudio工作区（名称、描述、图标）
-   * 创建分区
-   * 添加记录类型
-   * 与其他人共享
+  * 在Planning中更新GenStudio工作区（名称、描述、图标）
+  * 创建分区
+  * 添加记录类型
+  * 与其他人共享
 
-     >[!NOTE]
-     >
-     >* 您可以与没有GenStudio帐户的其他人共享GenStudio工作区。 您只能与组织的Identity Management System (IMS)中可用的用户共享它。
-     >* 您无法从GenStudio工作区或其记录类型的共享中删除GenStudio用户。
+    >[!NOTE]
+    >
+    >* 您可以与没有GenStudio帐户的其他人共享GenStudio工作区。 您只能与组织的Identity Management System (IMS)中可用的用户共享它。
+    >* 您无法从GenStudio工作区或其记录类型的共享中删除GenStudio用户。
 
   <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
@@ -288,11 +301,11 @@ Old for the second row in the table:
   Workfront Planning中的![GenStudio记录类型卡片](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 * 在Planning中创建工作区时，GenStudio工作区中的记录类型会自动与同时拥有Workfront访问权限的所有GenStudio用户共享。
 * 当您在Planning中拥有GenStudio工作区的管理权限时，您可以从Workfront Planning执行以下操作：
-   * 编辑GenStudio记录类型信息（其外观、高级设置）。
-   * 与其他人共享GenStudio记录类型。 您无法从GenStudio记录类型的共享中移除GenStudio用户。
-   * 创建记录类型。 这些记录类型仅保留在Workfront Planning中。 它们不会显示在GenStudio中。
-   * 启用GenStudio工作区中的记录类型以从其他工作区连接。
-   * 允许将GenStudio工作区中的记录类型添加到其他工作区。
+  * 编辑GenStudio记录类型信息（其外观、高级设置）。
+  * 与其他人共享GenStudio记录类型。 您无法从GenStudio记录类型的共享中移除GenStudio用户。
+  * 创建记录类型。 这些记录类型仅保留在Workfront Planning中。 它们不会显示在GenStudio中。
+  * 启用GenStudio工作区中的记录类型以从其他工作区连接。
+  * 允许将GenStudio工作区中的记录类型添加到其他工作区。
 * 当您在Planning中拥有GenStudio工作区的Contribute权限时，无法从Planning中修改GenStudio记录类型。
 
 ### GenStudio工作区中的记录
@@ -301,16 +314,16 @@ Old for the second row in the table:
 * 从GenStudio for Performance Marketing编辑GenStudio记录时，您可以在GenStudio工作区中查看您所有Workfront实例中的更改。
 * 您不能在Workfront Planning的GenStudio工作区中创建或删除激活记录。
 * 当您在Planning中拥有GenStudio工作区的“管理”或“贡献”权限时，您可以从Workfront Planning执行以下操作：
-   * 添加或删除记录，记录便会在GenStudio for Performance Marketing中可见（或从中删除）。
+  * 添加或删除记录，记录便会在GenStudio for Performance Marketing中可见（或从中删除）。
 
-     从Workfront Planning或GenStudio for Performance Marketing中删除的记录将放在Workfront Planning最近删除的框中30天。 GenStudio for Performance Marketing没有最近删除的纸盒。
-   * 从最近删除的站中恢复记录。 恢复已删除的记录会将它们放回Workfront Planning和GenStudio for Performance Marketing。
-   * 通过以下方式添加记录：
+    从Workfront Planning或GenStudio for Performance Marketing中删除的记录将放在Workfront Planning最近删除的框中30天。 GenStudio for Performance Marketing没有最近删除的纸盒。
+  * 从最近删除的站中恢复记录。 恢复已删除的记录会将它们放回Workfront Planning和GenStudio for Performance Marketing。
+  * 通过以下方式添加记录：
 
-      * 使用“新建记录”按钮从任何视图中手动、从头开始
-      * 通过在表视图中使用CSV或Excel文件导入它们
-      * 在Workfront Planning的任意视图中手动
-      * 向Workfront中的记录类型请求表单提交请求。
+    * 使用“新建记录”按钮从任何视图中手动、从头开始
+    * 通过在表视图中使用CSV或Excel文件导入它们
+    * 在Workfront Planning的任意视图中手动
+    * 向Workfront中的记录类型请求表单提交请求。
 
   有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * 您可以从Workfront Planning中编辑GenStudio工作区中所有记录的记录信息。
@@ -327,26 +340,26 @@ Old for the second row in the table:
 
 * 当您在Planning中拥有GenStudio工作区的管理权限时，您可以从Workfront Planning执行以下操作：
 
-   * 编辑GenStudio字段设置。
-   * 为GenStudio记录类型创建字段。
+  * 编辑GenStudio字段设置。
+  * 为GenStudio记录类型创建字段。
 
-     在Planning中为GenStudio记录类型创建字段时，可从以下区域看到它们：
+    在Planning中为GenStudio记录类型创建字段时，可从以下区域看到它们：
 
-      * Workfront Planning视图
-      * Workfront Planning记录详细信息页面
-      * GenStudio记录详细信息页面
+    * Workfront Planning视图
+    * Workfront Planning记录详细信息页面
+    * GenStudio记录详细信息页面
 
-     >[!TIP]
-     >
-     >在Workfront Planning中创建的字段在GenStudio列表中不可见。
+    >[!TIP]
+    >
+    >在Workfront Planning中创建的字段在GenStudio列表中不可见。
 
-   * 在Workfront Planning中隐藏GenStudio记录类型的表视图中的字段。
-   * 您无法从Workfront Planning中删除在GenStudio中创建的字段。
+  * 在Workfront Planning中隐藏GenStudio记录类型的表视图中的字段。
+  * 您无法从Workfront Planning中删除在GenStudio中创建的字段。
 
 * 在Planning中拥有GenStudio工作区的“Contribute”权限时：
 
-   * 在Workfront Planning中，您无法从GenStudio工作区中编辑字段设置、删除或添加字段。
-   * 您可以在Workfront Planning的表格视图中隐藏字段。
+  * 在Workfront Planning中，您无法从GenStudio工作区中编辑字段设置、删除或添加字段。
+  * 您可以在Workfront Planning的表格视图中隐藏字段。
 
 #### “创建者”和“批准者”字段
 
@@ -368,21 +381,21 @@ Old for the second row in the table:
 
 * 当您在Planning中拥有GenStudio工作区的管理权限时，您可以从Workfront Planning执行以下操作：
 
-   * 为GenStudio记录类型创建视图。
+  * 为GenStudio记录类型创建视图。
 
-     有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
+    有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
-   * 重命名、共享、导出、复制或删除GenStudio记录类型中的任何自定义视图。
+  * 重命名、共享、导出、复制或删除GenStudio记录类型中的任何自定义视图。
 
 * 在Planning中拥有GenStudio工作区的Contribute权限后，您可以从Workfront Planning执行以下操作：
 
-   * 为GenStudio记录类型创建视图。
+  * 为GenStudio记录类型创建视图。
 
-     有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
+    有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
-   * 重命名、导出、复制或删除GenStudio记录类型中的自定义视图。
+  * 重命名、导出、复制或删除GenStudio记录类型中的自定义视图。
 
-     在Workfront Planning中，您无法从GenStudio工作区共享视图
+    在Workfront Planning中，您无法从GenStudio工作区共享视图
 
 ### 在GenStudio工作区中记录连接
 
@@ -423,8 +436,8 @@ Old for the second row in the table:
 
 * 默认情况下，品牌关联到以下GenStudio工作区记录类型：
 
-   * 产品
-   * 用户画像
+  * 产品
+  * 用户画像
 
 * 品牌可用于手动连接到所有其他GenStudio工作区记录类型，或来自您有权管理的所有其他工作区的记录类型。
 

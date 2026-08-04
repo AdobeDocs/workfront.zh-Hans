@@ -4,9 +4,9 @@ description: 2026年第四季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 
 每个条目都包含标准跟踪字段：日期和时间、操作、用户名（或“系统生成”）和对象名称。 捕获了MCP活动，包括哪个LLM（如Claude）进行了更新。 不包括Frame.io查看器注释。
 
-有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 ## 在布局模板中将自定义应用程序定义为登陆页面
 
@@ -107,7 +107,7 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 
 以前，用于定义跟踪字段的配置屏幕为仅查看屏幕。
 
-有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+有关详细信息，请参阅[配置字段以跟踪更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)。
 
 ## 对更改历史记录的管理访问权限已添加到访问级别
 
@@ -117,6 +117,6 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 
 在标准访问级别上，您现在可以定义具有该级别的用户是否应具有对“变更历史记录列表”的访问权限。 **更改历史记录**&#x200B;选项在访问级别的&#x200B;**允许**&#x200B;的管理访问权限部分中可用。
 
-有关详细信息，请参阅[授予用户对特定区域的管理访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)和[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+有关详细信息，请参阅[授予用户对特定区域的管理访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)和[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 

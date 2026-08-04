@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 859
 ht-degree: 1%
 
 ---
@@ -52,19 +52,29 @@ ht-degree: 1%
     <tr> 
 <tr> 
 </tr>   
-<tr> 
+tr&gt; 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p>
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
 或
-<p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区的权限</p>  
@@ -124,7 +134,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -146,20 +156,20 @@ Old:
 * 字段对于其各自的记录类型是唯一的。
 * 每个工作表中的每一行都成为与其各自记录类型相关联的唯一记录。
 * Excel文件的每一页不应超过以下内容：
-   * 25,000行
-   * 500列
+  * 25,000行
+  * 500列
 * 文件不应大于5MB。
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * 将字段连接到Workfront、Adobe Experience Manager对象类型或GenStudio Brands。
-   * 从连接的Planning记录、Workfront、Adobe Experience Manager对象或GenStudio Brands查找字段。
-   * 公式字段
-   * 创建日期，创建者
-   * 上次修改日期，上次修改人
-   * 批准日期，批准者
-   * 人员
-   * 记录 ID
+  * 将字段连接到Workfront、Adobe Experience Manager对象类型或GenStudio Brands。
+  * 从连接的Planning记录、Workfront、Adobe Experience Manager对象或GenStudio Brands查找字段。
+  * 公式字段
+  * 创建日期，创建者
+  * 上次修改日期，上次修改人
+  * 批准日期，批准者
+  * 人员
+  * 记录 ID
 
 要使用Excel或CSV文件导入记录类型，请执行以下操作：
 

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1777
+source-wordcount: 1740
 ht-degree: 1%
 
 ---
@@ -59,19 +59,24 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p>
-<p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<p>带规划包的任何Workfront或工作流</p>
+或
+<p>作为独立产品购买时的任何Planning包</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>查看或更高权限的项目、项目和项目组合</p>  
-   <p>Workfront计划没有访问级别配置。 </p>
+   <td><p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p> 
+   <p>查看或更高权限的项目、项目和项目组合</p> 
 </td>
   </tr>
 <tr>
@@ -185,8 +190,8 @@ Old:
 
   有关信息，请参阅以下文章：
 
-   * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [连接记录](/help/quicksilver/planning/records/connect-records.md)
+  * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [连接记录](/help/quicksilver/planning/records/connect-records.md)
 * 您可以从Workfront对象查看Planning部分，即使没有与Workfront对象关联的记录也是如此。
 * 只有在创建两个记录类型之间的连接时启用链接记录类型设置上的创建对应字段后，记录类型才会显示在Workfront对象的Planning区域中。
 
@@ -218,9 +223,9 @@ Old:
    此时将显示Planning部分，其中包含下列信息：
 
    * 连接的记录显示在包含以下信息的各个卡片上：
-      * 记录名称
-      * 记录缩略图
-      * 在Workfront Planning中显示的已连接记录字段的名称。
+     * 记录名称
+     * 记录缩略图
+     * 在Workfront Planning中显示的已连接记录字段的名称。
    * 记录显示在各自的工作区和记录类型下。
 
    项目![&#128279;](assets/planning-section-on-project.png)的计划部分
@@ -253,11 +258,11 @@ Old:
 
 * Planning连接字段会在建立连接后以及将该字段附加到以下Workfront对象的表单时显示Planning记录：
 
-   * 项目
-   * 项目组合
-   * 项目群
-   * 组
-   * 公司
+  * 项目
+  * 项目组合
+  * 项目群
+  * 组
+  * 公司
 
 有关详细信息，请参阅[创建表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -267,8 +272,8 @@ Old:
 
 * 将Planning记录连接到Workfront对象后，Planning连接字段将以下列方式显示在Workfront对象的自定义表单中：
 
-   * 如果仅选择所连接记录的主字段，且连接允许链接多个记录，则Planning连接字段将显示为具有多个值的字段。 有关信息，请参阅[连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
-   * 如果您的Workfront或组管理员从自定义表单上的连接记录中添加了其他查找字段，则Planning连接字段将显示为表格。 最多可以为Planning连接字段选择7个字段。 表格视图是只读的。
+  * 如果仅选择所连接记录的主字段，且连接允许链接多个记录，则Planning连接字段将显示为具有多个值的字段。 有关信息，请参阅[连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+  * 如果您的Workfront或组管理员从自定义表单上的连接记录中添加了其他查找字段，则Planning连接字段将显示为表格。 最多可以为Planning连接字段选择7个字段。 表格视图是只读的。
 
 * 您只能将一个记录类型与一个Planning连接字段相关联。 表单中的Planning连接字段数量没有限制。
 * 您必须对对象、记录和Workfront Planning具有正确的访问和权限，才能将带有Planning连接自定义字段的自定义表单附加到Workfront对象。

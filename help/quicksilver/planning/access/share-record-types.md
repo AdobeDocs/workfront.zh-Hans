@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >有权访问工作区的用户将自动获得对工作区中所有记录类型的至少“查看”权限。
->共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
+>共享视图未授予用户记录类型的权限。只有共享工作区才能授予用户记录类型的权限。
 >
 >* 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
@@ -59,13 +59,22 @@ ht-degree: 1%
 <p>带规划包的任何Workfront或工作流</p> 
 或
 <p>任何Workfront Planning作为独立产品包</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>“任一”</p> 
   </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>“任一”</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>  <p>管理对工作区和记录类型的权限</p>  
@@ -129,7 +138,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -154,17 +163,17 @@ Old:
 
 * 目前，当您共享记录类型时，可以实现以下目标：
 
-   * 当您首次与用户共享记录类型并且他们没有任何工作区权限时，向用户提供工作区的查看权限。
+  * 当您首次与用户共享记录类型并且他们没有任何工作区权限时，向用户提供工作区的查看权限。
 
-     这还为他们提供了对工作区中所有记录类型的查看权限。
+    这还为他们提供了对工作区中所有记录类型的查看权限。
 
-     授予他们记录类型的权限时，共享框中会显示已添加到工作区的权限。
-   * 禁用“继承权限”后，使记录类型仅对工作区中的每个人（工作区管理员除外）可见。
+    授予他们记录类型的权限时，共享框中会显示已添加到工作区的权限。
+  * 禁用“继承权限”后，使记录类型仅对工作区中的每个人（工作区管理员除外）可见。
 
-     具有工作区的“管理”权限的用户始终对记录类型具有“管理”权限，即使您关闭记录类型的“继承”权限也是如此。
-   * 降低人们对记录类型的权限。 您无法根据某人在工作区中的权限来增加其对记录类型的权限。
+    具有工作区的“管理”权限的用户始终对记录类型具有“管理”权限，即使您关闭记录类型的“继承”权限也是如此。
+  * 降低人们对记录类型的权限。 您无法根据某人在工作区中的权限来增加其对记录类型的权限。
 
-     例如，如果某人拥有工作区的“Contribute”权限，则您可以将其权限更改为要查看的特定记录类型。 但是，如果他们具有工作区的查看权限，则无法向他们授予对任何记录类型的Contribute权限。
+    例如，如果某人拥有工作区的“Contribute”权限，则您可以将其权限更改为要查看的特定记录类型。 但是，如果他们具有工作区的查看权限，则无法向他们授予对任何记录类型的Contribute权限。
 
 * 无法删除工作区中人员的记录类型的访问权限。 如果每个人都至少拥有工作区的查看权限，则每个人都至少对所有记录类型具有查看权限。
 
@@ -238,7 +247,7 @@ Old:
 1. 单击&#x200B;**保存**。
 
    记录类型现在已与其他用户共享。
-您与其共享记录类型的用户会收到有关为以下实体授予权限的应用程序内通知和电子邮件通知：
+   您与其共享记录类型的用户会收到有关为以下实体授予权限的应用程序内通知和电子邮件通知：
 
    * 记录类型
    * 工作区（如果在与他们共享记录类型之前，他们无权访问工作区）。

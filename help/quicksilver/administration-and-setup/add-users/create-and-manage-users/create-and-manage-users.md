@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: 126
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ ht-degree: 0%
 * [删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
 * [审核日志概述](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [查看和导出审核日志](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+* [查看和管理变更历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+* [配置要在变更历史记录中跟踪的字段](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
 * [查看用户登录信息](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [在Adobe Admin Console中管理用户](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
 * [企业个人资料概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)

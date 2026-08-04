@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '14399'
+source-wordcount: '14406'
 ht-degree: 2%
 
 ---
@@ -543,6 +543,8 @@ ht-degree: 2%
       * [删除用户](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
       * [审核日志概述](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [查看和导出审核日志](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+      * [查看和管理变更历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+      * [配置要在变更历史记录中跟踪的字段](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
       * [查看用户登录信息](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [在Adobe Admin Console中管理用户](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [企业个人资料概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -821,7 +823,6 @@ ht-degree: 2%
     * [从模板导入费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [将费率更改推送到项目](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
     * [共享费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-    * [查看和管理变更历史记录](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
   * 配置集成 {#configure-integrations}
     * [配置集成](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront集成](administration-and-setup/configure-integrations/workfront-integrations-1.md)

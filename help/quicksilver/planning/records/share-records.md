@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 0%
+source-wordcount: 711
+ht-degree: 1%
 
 ---
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 
   有关更多信息，请参阅以下文章：
 
-   * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+  * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
+  * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
 
 * 您可以与人员、团队、角色、组或公司共享单个记录，方法是在与工作区或记录类型共享记录时关闭继承权限。
 
@@ -79,13 +79,28 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
+或
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> 
   <tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>参与者或更高版本</p>
+   <td><p>工作流参与者或更高版本</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>Planning参与者或更高版本</p>
+   <p><b>注释</b></p>
+   <p>并非所有客户都拥有Planning Contributor许可证</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -147,7 +162,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 1%
+source-wordcount: 950
+ht-degree: 2%
 
 ---
 
@@ -60,21 +60,28 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront包和任何Planning包</p>
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
 或
-<p>任何工作流包和任何计划包</p>
-
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。</p>
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p> 
-  </td> 
+   <td><p>工作流标准</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理对工作区的权限并记录类型</a> </p>  

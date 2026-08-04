@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: 621
 ht-degree: 2%
 
 ---
@@ -55,12 +55,19 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<ul> 
+<li><p>带规划包的任何Workfront或工作流</p></li>
+或
+<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
    </td> 
   </tr> 
   <tr> 
@@ -123,7 +130,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -173,7 +180,7 @@ Old:
 1. 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**，再次&#x200B;**删除**&#x200B;以进行确认。
 
    ![记录详细信息页面中的更多菜单选项](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-删除记录。
+   删除记录。
 1. （可选）转到记录页面的表格视图，单击视图右上角的&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon.png)，然后单击&#x200B;**最近删除的记录**&#x200B;以恢复删除的记录。
 
 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
@@ -208,8 +215,8 @@ Old:
    * 单击&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon.png)，然后单击&#x200B;**最近删除的记录**&#x200B;以恢复删除的记录。 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
    * 使用以下键盘快捷键可撤消或重做删除记录：
 
-      * 按CTRL + Z （⌘ + Z表示Mac）以撤消删除记录
-      * 按CTRL + Shift + Z （⌘ + Shift + Z用于Mac）以重做删除记录
+     * 按CTRL + Z （⌘ + Z表示Mac）以撤消删除记录
+     * 按CTRL + Shift + Z （⌘ + Shift + Z用于Mac）以重做删除记录
 
 
 

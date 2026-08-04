@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1279
 ht-degree: 1%
 
 ---
@@ -60,16 +60,28 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront或工作流包</p> 
-<p>任何Workfront规划包</p>
+<p>任何带规划包的Workfront或工作流包</p> 
+<p>作为独立产品购买时的任何Planning包</p>
+
+<p><b>注释</b></p>
 <p>用于一次创建多个工作区的Workfront Planning Prime或更高版本包</p>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td><p>工作流标准</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe计划许可证</p></td> 
+   <td><p>规划标准</p>
    <p>系统管理员使用最佳实践模板包同时创建多个工作区</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
@@ -131,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -261,35 +273,35 @@ Old:
 
    * 单击&#x200B;**创建工作区**，然后按照以下步骤操作：
 
-      1. 此时会显示“创建工作区”框。 您可以从头开始创建工作区，也可以使用某个可用模板创建工作区。
+     1. 此时会显示“创建工作区”框。 您可以从头开始创建工作区，也可以使用某个可用模板创建工作区。
 
-      1. 在&#x200B;**从此处开始（推荐）**&#x200B;区域单击&#x200B;**查看工作区设置**。
-      1. （可选）单击以下任何预定义Workspace模板中的&#x200B;**预览**&#x200B;以打开每个模板的“预览”框：
+     1. 在&#x200B;**从此处开始（推荐）**&#x200B;区域单击&#x200B;**查看工作区设置**。
+     1. （可选）单击以下任何预定义Workspace模板中的&#x200B;**预览**&#x200B;以打开每个模板的“预览”框：
 
-         * 1.全局分类和分类
+        * 1.全局分类和分类
 
-           全局分类和分类模板包含我们建议您为您的环境中创建的所有记录类型和字段，以便成功实施Workfront Planning。
+          全局分类和分类模板包含我们建议您为您的环境中创建的所有记录类型和字段，以便成功实施Workfront Planning。
 
-           您以后可以在您创建的其他工作区中链接或导入此模板中的记录类型。
-         * 2.Fréscopa全球营销
-         * 3.Fréscopa社交营销
-         * 4.弗雷斯科帕媒体与公关
-         * 5.弗雷斯科帕全球活动
-         * 6.Fréscopa执行公司领导层
+          您以后可以在您创建的其他工作区中链接或导入此模板中的记录类型。
+        * 2.Fréscopa全球营销
+        * 3.Fréscopa社交营销
+        * 4.弗雷斯科帕媒体与公关
+        * 5.弗雷斯科帕全球活动
+        * 6.Fréscopa执行公司领导层
 
-      1. 打开每个工作区模板的&#x200B;**预览**&#x200B;框后，单击&#x200B;**返回**&#x200B;以返回&#x200B;**创建工作区**&#x200B;框，或单击&#x200B;**使用模板**&#x200B;以使用捆绑包中包含的模板和创建工作区。
+     1. 打开每个工作区模板的&#x200B;**预览**&#x200B;框后，单击&#x200B;**返回**&#x200B;以返回&#x200B;**创建工作区**&#x200B;框，或单击&#x200B;**使用模板**&#x200B;以使用捆绑包中包含的模板和创建工作区。
 
 
    * 单击&#x200B;**示例工作区**&#x200B;选项卡，然后执行以下步骤：
 
-      1. 单击选项卡上的某个工作区模板，以查看每个模板中的记录类型和字段。 **示例工作区**&#x200B;选项卡中的模板是只读的。
-      1. 单击模板右上角的&#x200B;**从模板创建**。
-      1. （可选）单击任意模板上的&#x200B;**预览**&#x200B;以查看记录类型及其字段。
+     1. 单击选项卡上的某个工作区模板，以查看每个模板中的记录类型和字段。 **示例工作区**&#x200B;选项卡中的模板是只读的。
+     1. 单击模板右上角的&#x200B;**从模板创建**。
+     1. （可选）单击任意模板上的&#x200B;**预览**&#x200B;以查看记录类型及其字段。
 
-         >[!TIP]
-         >
-         >单击模板中的记录类型卡片，会在右侧面板中显示记录类型的字段。
-      1. 单击&#x200B;**使用模板**。
+        >[!TIP]
+        >
+        >单击模板中的记录类型卡片，会在右侧面板中显示记录类型的字段。
+     1. 单击&#x200B;**使用模板**。
 
    这6个工作区已创建并显示在系统管理员的&#x200B;**工作区**&#x200B;和&#x200B;**所有工作区**&#x200B;选项卡中。 系统管理员创建所有Standard-license用户并与他们共享新工作区后，这些用户都将在其“工作区”区域中看到工作区。
 
