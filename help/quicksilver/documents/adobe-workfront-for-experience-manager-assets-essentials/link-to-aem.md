@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
@@ -145,6 +145,14 @@ Content Advisor将智能的上下文感知发现直接引入Workfront，帮助�
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >内容指导中的推荐内容使用来自以下项的数据来确定Workfront中的推荐内容：
+   >
+   >* Workfront对象名称和描述字段
+   >* 标记为必填的自定义表单字段
+   >* 来自附加文档的数据
 
 
 ### 将Experience Manager Assets中的新版本与内容审查程序链接到一起

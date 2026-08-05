@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 4%
+source-wordcount: 627
+ht-degree: 3%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 * 您的Workfront实例必须启用统一批准。
 
 * 您的组织必须具有GenStudio Foundation。
-   * Workfront中的内容审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过Content Reviewer访问GenStudio Foundation功能是受Workfront合同条款约束的。
+  * Workfront中的内容审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过Content Reviewer访问GenStudio Foundation功能是受Workfront合同条款约束的。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -142,6 +142,8 @@ ht-degree: 4%
 
 
 ## 编写品牌指南的最佳实践
+
+在编写准则之前，请查看[内容审核者评估了哪些图像和品牌声音准则类型](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)。 这些评估区域之外的准则不计分。
 
 *  编写描述可衡量标准的品牌指南。 内容审核者按字面意思对内容进行评估，因此客观规则会生成比主观规则更一致的分数。
 

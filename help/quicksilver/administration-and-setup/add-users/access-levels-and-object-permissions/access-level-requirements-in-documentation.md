@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1184
 ht-degree: 1%
 
 ---
@@ -58,14 +58,25 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
   <p>贵组织可能在这些区域中的一个或多个区域购买了Workfront包。</p>
   <p>以前，Workfront提供Workfront Select、Workfront Prime和Workfront Ultimate包，而不区分工作流、规划以及自动化和集成。 您的组织可能位于这些旧包之一。 
    <ul><li>要了解贵组织使用哪个Adobe Workfront包（包括贵组织使用的是当前打包模型还是旧打包模型），请与Workfront管理员联系。</li>
-   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/cn/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul> </td> 
+   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/cn/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul>
+
+您的组织可能通过以下产品之一购买Workfront规划包：
+
+<ul>
+    <li> 与具有相同数量的Workflow和Planning许可证的工作流包一起使用。 </li>
+    <li>与Workflow包一起使用，Workflow和Planning之间的许可证数量不匹配。 </li>
+    <li>作为独立产品。</li></ul>
+
+三种Workfront Planning产品的功能可能有所不同。 有关信息，请参阅<a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">Adobe Workfront规划入门</a>。
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> Adobe Workfront许可证是指分配给您的许可证所包含的一组Workfront功能。 例如，一个用户可能拥有一份许可证，其中包括将工作项目标记为完成和记录时间，而另一个用户拥有一份许可证，仅允许他们批准资产或提交请求。 <p> 
    <p>Adobe Workfront许可证可以指以下类型的许可证：</p>
-   <ul><li>Workfront工作流许可证</li>
-  <li>Workfront Planning许可证</li></ul>
+   <ul><li><b>Workfront工作流许可证</b>：适用于所有购买Workfront的客户。 工作流许可证包括：工作流标准、轻量级、参与者。</li>
+  <li><b>Workfront计划许可证</b>：适用于购买任何Workfront计划产品的所有客户。 Planning许可证包括：“标准”、“参与者”、“无权访问”。 购买Workfront Planning作为独立产品的客户没有“参与者”许可证。  </li></ul>
 
 <p>要了解您分配的许可证，请与Workfront管理员联系。</p>
    <p>有关许可证的信息，请参阅：</p>

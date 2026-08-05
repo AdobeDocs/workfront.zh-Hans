@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
 description: 如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的内容和文件夹链接到支持文档的任何Adobe Workfront对象。
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 2%
 
 ---
@@ -125,6 +125,14 @@ ht-degree: 2%
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >内容指导中的推荐内容使用来自以下项的数据来确定Workfront中的推荐内容：
+   >
+   >* Workfront对象名称和描述字段
+   >* 标记为必填的自定义表单字段
+   >* 来自附加文档的数据
 
 <!--
 ### Link a new version from Experience Manager Assets

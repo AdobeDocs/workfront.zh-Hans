@@ -20,10 +20,10 @@ subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 * 您的Workfront实例必须启用统一批准。
 * 您的组织必须具有GenStudio Foundation。
-   * Workfront中的内容审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过Content Reviewer访问GenStudio Foundation功能是受Workfront合同条款约束的。
+  * Workfront中的内容审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过Content Reviewer访问GenStudio Foundation功能是受Workfront合同条款约束的。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 * 内容查看者在沙盒环境中不可用。
@@ -83,12 +83,46 @@ Workfront内容审阅者在审阅内容时使用品牌准则。 Workfront管理�
 至少设置了一个品牌后，Workfront管理员就可以在“设置”区域开始创建内容审阅者。 您可以创建多个侧重于不同准则的内容审阅人：
 
 * **图像**：此内容审阅人将依据您在Workfront中设置的图像品牌指南审阅资产。 [!BADGE Beta 版]{type=Positive tooltip="此功能当前处于测试阶段。"}
-   * 系统管理员必须签署测试版协议才能启用此功能。
+  * 系统管理员必须签署测试版协议才能启用此功能。
 * **品牌声音**：内容审阅人将依据您在Workfront中设置的品牌声音准则审阅资产。
 
 然后，可以将内容审阅人分配给批准模板和各个审阅和批准请求。
 
 有关详细信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
+
+## 内容审阅者评估的内容 {#what-content-reviewer-evaluates}
+
+内容审阅者根据以下准则类型对内容进行不同的评估：图像或品牌声音。
+
+### 图像
+
+内容审阅者会评估：
+
+* **合成**：焦点、背景、裁剪、创意框架
+* **灯光和情绪**：使用光线、活力、乐观主义
+* **多样性和包容性**：人员的代表性（种族、性别、年龄、能力）
+
+内容查看者不评估：
+
+* **徽标用法**：位置、空间、大小、正确的徽标版本
+* **调色板**：符合品牌颜色要求，避免未经批准的颜色
+* **排版规则**：字体系列、粗细、间距、对齐方式
+* **插图样式**：与品牌的插图方法一致
+* **辅助功能**：对比度符合性、清晰度
+
+### 品牌声音
+
+内容审阅者会评估：
+
+* **语调**：对话、清晰、人性，与品牌个性一致
+* **行话/形式**：避免使用流行语、精英主义或过度形式
+* **消息**：鼓励、诚实、负责任的定位（例如，AI主题）
+
+内容查看者不评估：
+
+* **法律/合规性**：商标使用、免责声明、本地化规则
+
+有关编写与内容审阅者评估的内容一致的品牌准则的指导，请参阅[为内容审阅者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
 ## 添加内容审阅人以审阅和批准请求
 

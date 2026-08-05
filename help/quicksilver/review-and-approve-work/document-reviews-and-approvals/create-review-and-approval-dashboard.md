@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 1. 单击&#x200B;**新仪表板**。
 1. 命名您的仪表板。
 1. （可选）添加说明。
+1. （可选）如果您在Workfront实例中定义了多种货币，则还可以为功能板选择默认货币。
 1. 单击&#x200B;**创建**。
    ![添加仪表板名称和描述](assets/create-a-dashboard.png)
 

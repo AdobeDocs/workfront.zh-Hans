@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 2%
 
 ---
@@ -106,8 +106,16 @@ ht-degree: 2%
 <li><p>带规划包的任何Workfront或工作流</p></li>
 或
 <li><p>作为独立产品购买时的任何Planning包</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>产品</p></td> 
+   <td><p>如果贵组织购买了Workfront Planning作为独立产品，则还必须购买工作流包以从Planning创建Workfront对象。</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>工作流标准</p>
    </td> 
