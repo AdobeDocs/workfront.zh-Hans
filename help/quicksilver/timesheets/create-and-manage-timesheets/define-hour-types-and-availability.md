@@ -7,11 +7,17 @@ author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
 TQID: https://experienceleague.adobe.com/EAwrDZagapXvWyUQ2PS4Bcmxi42n8W-mARDXDix0ZlY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 67bbd465c6bc489602a63ab6d24421d614c704c7
 workflow-type: tm+mt
 source-wordcount: 1506
@@ -128,8 +134,8 @@ Adobe Workfront中有2组小时类型：
    * **要使所有小时类型都可供用户使用：**&#x200B;请选择所有小时类型。\
      如果取消选择所有小时类型，这从技术上讲与选择所有小时类型相同。 但是，在此情况下，所有小时类型仅对项目、任务和问题中的用户可用，在这些项目中，编辑项目时，在&#x200B;**筛选小时类型**&#x200B;选项中选择了&#x200B;**否**，如[定义项目级别的可用性](#define-availability-at-the-project-level)中所述。
 
-   * **要仅使小时类型的子集对用户可用：**请仅选择您希望使其可用的小时类型。
-     要在用户级别选择的小时类型可用于项目、任务和问题，在编辑项目时，还必须在**筛选小时类型**&#x200B;选项中选择这些相同的小时类型，如[定义项目级别的可用性](#define-availability-at-the-project-level)中所述。
+   * **要仅使小时类型的子集对用户可用：**&#x200B;请仅选择您希望使其可用的小时类型。
+     要在用户级别选择的小时类型可用于项目、任务和问题，在编辑项目时，还必须在&#x200B;**筛选小时类型**&#x200B;选项中选择这些相同的小时类型，如[定义项目级别的可用性](#define-availability-at-the-project-level)中所述。
 
 1. （可选）在&#x200B;**默认小时类型**&#x200B;下拉菜单中，选择一个小时类型。 当用户默认小时类型与项目已筛选小时类型匹配时，在记录时间时默认选择该小时类型。
 
