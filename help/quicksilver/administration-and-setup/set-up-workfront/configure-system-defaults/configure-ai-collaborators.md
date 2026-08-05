@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 2%
+source-wordcount: '1420'
+ht-degree: 1%
 
 ---
 
@@ -50,11 +50,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -154,12 +154,12 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 1. 创建环境。
    1. 在&#x200B;**托管代理** > **环境**&#x200B;下，单击右上角的&#x200B;**创建环境**。
    1. 提供适用的名称和托管类型。
-   1. 根据需要配置共享包和元数据。环境可以跨多个代理重用，并允许共享包和元数据。
+   1. 根据需要配置共享包和元数据。 环境可以跨多个代理重用，并允许共享包和元数据。
       环境ID显示在左上角的环境名称下方。
 
 1. 创建代理。
    1. 在托管代理>代理下，单击右上角的&#x200B;**创建代理**。
-   1. 提供适用的名称、型号、系统提示、技能和工具。描述性的，因为任务协作者将任务上下文传递给此代理，然后该代理执行工作。
+   1. 提供适用的名称、型号、系统提示、技能和工具。 描述性的，因为任务协作者将任务上下文传递给此代理，然后该代理执行工作。
       代理ID显示在左上角的代理名称下方。
 
 1. 在Workfront中配置任务协作器。
@@ -178,6 +178,10 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 +++
 -->
 +++ 作者
+
+>[!NOTE]
+>
+> 您可以将Writer代理用作任务协作者，但不能将Writer行动手册用作任务协作者。
 
 在Writer中创建用作任务协作者的代理时，我们建议使用以下工作流。
 
