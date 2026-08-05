@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
+source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1438'
 ht-degree: 1%
 
 ---
@@ -50,11 +50,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -107,9 +107,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
 ## 配置任务协作者
 
-任务协作者是可以分配给Workfront中的任务的MCP代理。 您可使用名称、访问级别和其他详细信息配置任务协作器，并按照分配用户的方式分配它。
+任务协作者是可以分配给Workfront中的任务的MCP代理。 可以使用名称、访问级别和其他详细信息配置任务协作器，并将其分配给任务，就像分配用户一样。
 
 由于任务协作者是MCP代理，因此其操作和功能会在您配置代理的位置进行配置。 目前，可以在Copilot Studio、Claude或Writer中创建用作任务协作者的代理。
+
+任务协作者只能分配给任务，当前不能分配给问题。
 
 有关创建代理以作为任务协作者使用的最佳实践列表，请参阅[为任务协作者创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-task-collaborator)。
 
