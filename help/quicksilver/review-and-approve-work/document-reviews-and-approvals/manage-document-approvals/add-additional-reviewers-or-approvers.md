@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 2%
 
 ---
@@ -166,7 +166,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. 单击&#x200B;**编辑工作流**。 请求审批对话框会以上次保存审批的模式打开：基本模式用于单阶段审批，或高级模式用于具有并行路径的多阶段审批和审批。
 
-1. 添加用户、团队或电子邮件：
+1. 添加用户或电子邮件：
 
    * 在基本模式下，在&#x200B;**添加名称或电子邮件**&#x200B;字段中键入名称或电子邮件。
    * 在“高级”模式下，选择包含要更新的阶段的路径，然后在阶段的&#x200B;**添加名称或电子邮件**&#x200B;字段中键入名称或电子邮件。
