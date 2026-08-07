@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 5%
+source-wordcount: '346'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 5%
 将费率卡附加到项目<!--or a staffing plan-->时，费率卡上的费率仍可调整。 然后，您可以选择将这些费率推送到费率卡附加到的项目。 如果您不推送新费率，则原始费率将保留在项目中。
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>如果在项目层人工改写了工作角色或用户开单费率，则在将费率卡更改推送到项目时，该费率会保留在项目中。 仅更新与费率卡关联的费率。
 
 有关将费率卡附加到项目的信息，请参阅[将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
 
