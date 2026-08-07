@@ -9,19 +9,13 @@ exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/magR86wFgKAZhiyX-s2oJH7ZEXafaaLCOalKJRMwXPg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4e6b06769d4001c4e08b4530289cfec7f8edd29e
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1571
 ht-degree: 2%
 
 ---
@@ -211,7 +205,7 @@ ht-degree: 2%
       <td> <p>如果要按多个字段之间的计算对列表进行分组，可添加此行以替换<code>valuefield</code>。</p> <p>每次在<code>valueexpression</code>中使用对象时，必须将对象的<code>valuefield</code>括在大括号中。</p> <p>存在以下情况：</p> 
        <ol> 
         <li value="1"> <p>如果要以大写形式显示分组的名称，您可以使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>对象的<code>valuefield</code>在API Explorer中显示时拼写。</p> </li> 
-        <li value="2">如果要通过在<code>valueexpression </code>行中将多个<code>valuefields</code>字符串在一起来添加它们，则必须用句点分隔它们。<p>例如，如果要在任务列表中以大写显示项目组合的名称，可在<code>valueexpression</code>行中使用以下代码：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>如果要在<code>valueexpression</code>行中使用自定义字段，则必须在字段名称前面加上<code>DE:</code>，以指示它是自定义字段。 字段的名称在界面中显示时拼写。</p><p>重要提示： <span>如果您使用的自定义字段位于对某些用户具有限制权限的自定义表单分区中，则当这些用户在报表中查看此计算时，<code>valueexpression </code>的计算为空白。 有关调整自定义表单分区权限的信息，请参阅</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a></span>。</p><p>例如，如果您有一个标记为“开发人员姓名”的自定义字段，并且您想按此字段分组并以大写显示，则可以使用以下<code>valueexpression</code>来指示这一点：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>在引用“预输入”类型自定义字段时，使用以下表达式来引用在标记为“开发人员名称”的字段中选择的对象的名称：</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">如果要通过在<code>valueexpression </code>行中将多个<code>valuefields</code>字符串在一起来添加它们，则必须用句点分隔它们。<p>例如，如果要在任务列表中以大写显示项目组合的名称，可在<code>valueexpression</code>行中使用以下代码：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>如果要在<code>valueexpression</code>行中使用自定义字段，则必须在字段名称前面加上<code>DE:</code>，以指示它是自定义字段。 字段的名称在界面中显示时拼写。</p><p>重要提示： <span>如果您使用的自定义字段位于对某些用户具有限制权限的自定义表单分区中，则当这些用户在报表中查看此计算时，<code>valueexpression </code>的计算为空白。 有关调整自定义表单分区权限的信息，请参阅</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a></span>。</p><p>例如，如果您有一个标记为“开发人员姓名”的自定义字段，并且您想按此字段分组并以大写显示，则可以使用以下<code>valueexpression</code>来指示这一点：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>在引用“内部查找”类型自定义字段时，使用以下表达式来引用在标记为“开发人员名称”的字段中选择的对象的名称：</p><p><code>valueexpression=UPPER({DE:Developer Name}.{name})</code></p><p>在引用“预输入”类型自定义字段时，使用以下表达式来引用在标记为“开发人员名称”的字段中选择的对象的名称：</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

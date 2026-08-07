@@ -9,19 +9,13 @@ exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/dGMumnZ4319rslUE2lhGfPr35yVRb0xk6VyefZbzlzk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 2%
 
 ---
@@ -142,7 +136,7 @@ ht-degree: 2%
 
    有关您在列中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-   ![添加列typeahead](assets/nwe-add-column-typeahead-350x459.png)
+   ![添加列](assets/nwe-add-column-typeahead-350x459.png)
 
 1. （可选）在&#x200B;**列设置**&#x200B;区域，选择&#x200B;**按此列排序**&#x200B;以按字母降序对列中的值进行升序排序，然后指示列表是否应使用此列作为第一个排序。
 

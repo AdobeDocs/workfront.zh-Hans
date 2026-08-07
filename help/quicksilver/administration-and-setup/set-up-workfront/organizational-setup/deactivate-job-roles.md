@@ -9,22 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 644
 ht-degree: 3%
 
 ---
@@ -34,8 +26,6 @@ ht-degree: 3%
 作为[!DNL Adobe Workfront]管理员或对工作角色具有管理访问权限的用户，您可以停用系统中已过时的工作角色。 当您停用而不是删除工作角色时，您可以保留与工作角色关联的任何历史信息。
 
 您还可以重新激活之前已取消激活的工作角色。
-
-## 访问权限要求
 
 ## 访问权限要求
 
@@ -51,8 +41,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -78,13 +68,13 @@ ht-degree: 3%
   >当用户添加新角色时，未显示已停用的工作角色。 但是，如果在停用工作角色之前用户与该工作角色相关联，则它将继续显示在[!UICONTROL 主要角色]和[!UICONTROL 其他角色]字段中。
 
 * 对象的[!UICONTROL 共享]对话框，包括布局模板分配
-* 自定义表单中的预输入字段
+* 自定义表单中的内部查找和预输入字段
 * [!UICONTROL 资源池]中的[!UICONTROL 池成员]字段
 * 当用户覆盖项目的计费费率时，[!UICONTROL 计费费率]编辑屏幕的[!UICONTROL 工作角色]字段
 * 项目中的[!UICONTROL 将工作分配添加到Kanban展示板]对话框
 * 当有人使用[!DNL Adobe Workfront Scenario Planner]时，计划或计划的[!UICONTROL 工作角色]字段。
 
-  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md)。
+  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md)。
 
 >[!TIP]
 >
@@ -114,8 +104,8 @@ ht-degree: 3%
 
   有关创建审批流程和传送规则的信息，请参阅以下文章：
 
-   * [为工作项目创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [为工作项目创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## 取消激活工作角色
 
