@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 4%
 
 ---
@@ -272,7 +272,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>说明</td>
-    <td>键入有关该字段的任何其他信息。当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
+    <td>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,7 +805,7 @@ To add typeahead and date fields:
      </tr>
      <tr> 
       <td role="rowheader">JSON 路径</td>
-      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：</br>
       <pre>
       &lbrace;
        数据： &lbrace;
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>使用动态筛选器语法根据另一个字段的值缩小此字段中的项目列表。 例如，当您在项目字段筛选器中使用<code>?portfolioID={portfolio}.{ID}</code>，并且自定义表单上有Portfolio本机字段时，项目字段仅显示选定项目组合中的项目。 如果Portfolio字段留空，则所有项目在项目字段中均可用。</p>
        <p><b>注释</b>：
        <ul> 
-        <li>仅当您引用本机预输入或内部查找字段（如Portfolio、Company或Owner）时，过滤器选项才可用。</li>
+        <li>仅当您引用本机内部查找或预输入字段（如Portfolio、Company或Owner）时，过滤器选项才可用。</li>
         <li>如果您正在编辑现有的自定义表单，将过滤器添加到本机字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
         <li>此筛选器在移动设备上不可用。 如果您将过滤器用于本机字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
         </ul></p></td> 
@@ -1218,7 +1218,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必需）键入或粘贴有效的XD原型链接。</p> 
-      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。否则，用户将无法查看原型。 
+      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 
    </td> 
      </tr> 
      <tr> 

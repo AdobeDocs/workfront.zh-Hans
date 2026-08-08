@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 644
 ht-degree: 3%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 3%
 作为[!DNL Adobe Workfront]管理员或对工作角色具有管理访问权限的用户，您可以停用系统中已过时的工作角色。 当您停用而不是删除工作角色时，您可以保留与工作角色关联的任何历史信息。
 
 您还可以重新激活之前已取消激活的工作角色。
-
-## 访问权限要求
 
 ## 访问权限要求
 
@@ -78,7 +76,7 @@ ht-degree: 3%
   >当用户添加新角色时，未显示已停用的工作角色。 但是，如果在停用工作角色之前用户与该工作角色相关联，则它将继续显示在[!UICONTROL 主要角色]和[!UICONTROL 其他角色]字段中。
 
 * 对象的[!UICONTROL 共享]对话框，包括布局模板分配
-* 自定义表单中的预输入字段
+* 自定义表单中的内部查找和预输入字段
 * [!UICONTROL 资源池]中的[!UICONTROL 池成员]字段
 * 当用户覆盖项目的计费费率时，[!UICONTROL 计费费率]编辑屏幕的[!UICONTROL 工作角色]字段
 * 项目中的[!UICONTROL 将工作分配添加到Kanban展示板]对话框
@@ -114,8 +112,8 @@ ht-degree: 3%
 
   有关创建审批流程和传送规则的信息，请参阅以下文章：
 
-   * [为工作项目创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [为工作项目创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## 取消激活工作角色
 

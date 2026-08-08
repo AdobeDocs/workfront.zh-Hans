@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 2%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 2%
 
    有关您在列中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-   ![添加列typeahead](assets/nwe-add-column-typeahead-350x459.png)
+   ![添加列](assets/nwe-add-column-typeahead-350x459.png)
 
 1. （可选）在&#x200B;**列设置**&#x200B;区域，选择&#x200B;**按此列排序**&#x200B;以按字母降序对列中的值进行升序排序，然后指示列表是否应使用此列作为第一个排序。
 

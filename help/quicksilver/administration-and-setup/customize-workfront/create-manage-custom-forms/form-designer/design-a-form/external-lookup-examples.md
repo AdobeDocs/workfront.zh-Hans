@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1477
-ht-degree: 2%
+source-wordcount: 1467
+ht-degree: 1%
 
 ---
 
@@ -178,7 +178,7 @@ Workfront Planning API中提供了一个端点，用于通过Get方法按记录�
    * 您可以添加$$QUERY来实施最终用户的查询筛选。
 
    **示例**
-列出所有国家/地区： <https://api.first.org/data/v1/countries>
+   列出所有国家/地区： <https://api.first.org/data/v1/countries>
 
    允许用户在下拉字段中搜索任何国家/地区： <https://api.first.org/data/v1/countries?q=$$QUERY>
 
@@ -232,7 +232,7 @@ Workfront Planning API中提供了一个端点，用于通过Get方法按记录�
 模板的基本API URL示例，用于替换预输入字段：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**用例：**&#x200B;创建包含更多功能的下拉字段（例如，外部eokup字段中有换行符）。
+**用例：**&#x200B;创建包含更多功能的下拉字段（例如，外部查找字段中有换行）。
 **解决方案：**&#x200B;使用对系统中现有对象的API调用，或者创建新对象并使用对此对象的API调用。
 
 **用例：**&#x200B;为用户定义在自定义表单区域外维护他们自己的字段的方法。 设置“外部查找”字段，您可以将用户提供给组成该字段的对象。 此选项适合高维护性字段和团队。
