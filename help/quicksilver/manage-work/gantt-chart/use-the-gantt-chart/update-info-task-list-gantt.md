@@ -10,11 +10,18 @@ exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tM0VQ3qjYLpCxblaxG99yJ78Pj9H8tyoMMO1IFmK3Vs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1010
@@ -54,16 +61,16 @@ Adobe Workfront任务列表的[!UICONTROL 甘特图]显示有关项目或模板�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[！UICONTROL标准版]</p>
-   <p>[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 标准版]</p>
+   <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对项目和任务的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Edit]对项目和任务的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL Manage]对项目和任务的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Manage]对项目和任务的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -253,7 +260,7 @@ Old:
 
 您可以使用任务列表[!UICONTROL 甘特图]来均衡资源。
 
-有关[!UICONTROL 甘特图]中资源均衡的信息，请参阅[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)中的[级别资源。
+有关[!UICONTROL 甘特图]中资源均衡的信息，请参阅[!UICONTROL 甘特图][&#128279;](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)中的级别资源。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

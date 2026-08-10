@@ -152,7 +152,7 @@ This is not possible anymore:
 * 您无法将Adobe云存储项目添加到旧版存储产品组合，或将旧版存储项目添加到Adobe存储产品组合。
 * 管理员可以在“设置”的“系统首选项”区域将旧版存储产品组合转换为Adobe云存储。 所有子对象（项目群、项目和文档）都保留在旧版存储中。 新项目将使用Adobe云存储。 添加到产品组合的新文档将继续存储在旧版存储中。
 有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
-* <!-- this point also repeats for programs below-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
+* &#x200B;<!-- this point also repeats for programs below-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
 
   您无法再向此项目组合添加现有的旧版存储项目。
 
@@ -171,7 +171,7 @@ This is not possible anymore:
 * 您不能将Adobe云存储程序添加到旧版存储产品组合，也不能将旧版程序添加到Adobe云存储产品组合。
 * 无法从旧版存储程序中的Adobe云存储模板创建项目。
 * 您可以从Adobe云存储项目中的旧版存储模板创建项目，但该模板上的文档和文件夹不会添加到新项目中。 项目接收Adobe云存储。
-* <!-- this point also repeats for portfolios above-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
+* &#x200B;<!-- this point also repeats for portfolios above-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
 
   您无法再向此项目组合添加现有的旧版存储项目。
 
