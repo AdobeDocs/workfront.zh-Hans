@@ -4,24 +4,18 @@ navigation-topic: convert-issues
 title: 将问题与其解析对象取消链接
 description: 通过将问题转换为项目或任务来创建项目或任务时，您可以选择保留原始问题。 您的Adobe Workfront管理员必须启用此首选项，您才能在问题转换期间使用此选项。 有关将问题转化为项目和任务的更多信息，请参阅在Adobe Workfront中转化问题的概述。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-JK3YabXxWdvaEdgTvertsshm0G1EhJqif714zFPOEo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 3%

@@ -4,23 +4,18 @@ navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL 甘特图]中的均衡资源'
 description: 如果将同一资源分配给两个不同的任务，则可以使用资源均衡调整任务的时间表，以使它们不会同时发生。 本文提供了有关如何在甘特图中调配资源的信息。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/S18IeLvaNdf0YP0aVFhEO55bdrvHwVpHHnd5c06NBHY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 623
 ht-degree: 3%
@@ -52,16 +47,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目的访问权限</p></td>
+   <td> <p>[！UICONTROL Edit]对项目的访问权限</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL Manage]对项目的访问权限</p>
+   <td> <p>[！UICONTROL Manage]对项目的访问权限</p>
 </td> 
   </tr> 
  </tbody> 

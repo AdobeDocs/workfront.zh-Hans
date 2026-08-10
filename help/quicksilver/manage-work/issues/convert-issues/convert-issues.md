@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 在Adobe Workfront中转换问题概述
 description: 如果在提交问题后需要完成更多工作，您可以将问题转化为项目或任务。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 topic: Collaboration
 role: User
@@ -11,23 +12,14 @@ exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 1531
+source-wordcount: 1547
 ht-degree: 3%
 
 ---
@@ -50,8 +42,8 @@ ht-degree: 3%
 * 当您将其转换为任务或项目时，Workfront会覆盖问题的解决对象。 在转换后，新任务或问题将成为问题的新解析对象。
 * 请考虑以下事项：
 
-   * 在转换过程中，可能会询问您是否要使问题及其解决方案与正在创建的项目或任务保持绑定。
-   * 如果您保留问题，则当项目、任务或问题发生任何更改或者Workfront重新计算时间线时，项目或任务的状态和完成百分比会自动更新问题的状态和完成百分比。
+  * 在转换过程中，可能会询问您是否要使问题及其解决方案与正在创建的项目或任务保持绑定。
+  * 如果您保留问题，则当项目、任务或问题发生任何更改或者Workfront重新计算时间线时，项目或任务的状态和完成百分比会自动更新问题的状态和完成百分比。
 
   >[!NOTE]
   >
@@ -62,14 +54,14 @@ ht-degree: 3%
 
 * 转化问题时，原始问题的权限不会转移到转化后的对象（任务或项目）。
 
-* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板[&#128279;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)将问题转化为项目时项目字段概述。
+* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)将问题转化为项目时[项目字段概述。
 * 在转化问题时，并非所有文档或其信息都会移动到问题转化到的新对象。 在转换附加了文档或文档链接的问题时，包括以下项：
 
-   * 文档
-   * 记录指向第三方服务的链接，例如Google Drive或SharePoint。
-   * 版本
-   * 仅当取消选择&#x200B;**保留原始问题并将其解决方案与此任务绑定**&#x200B;选项时，才会包含验证。
-   * 在转换附加了文档和文档链接的问题时，不包括文档审批。
+  * 文档
+  * 记录指向第三方服务的链接，例如Google Drive或SharePoint。
+  * 版本
+  * 仅当取消选择&#x200B;**保留原始问题并将其解决方案与此任务绑定**&#x200B;选项时，才会包含验证。
+  * 在转换附加了文档和文档链接的问题时，不包括文档审批。
 * 转化问题时存在5分钟的处理限制。 如果问题附加了大量文档且无法转换，您可能需要删除一些文档并重试。
 * 如果您决定在转化中保留问题并且附加了文档，则文档及其版本将会复制到项目或任务中。 验证和文档审批将不会复制到项目或任务。
 * 如果您决定不将问题保留在转化中，并且它有附加文档，文档、其版本和校样会传输到项目或任务。 文档审批将不会传输到项目或任务。
@@ -102,7 +94,7 @@ ht-degree: 3%
   <tr> 
    <td>优先级</td> 
    <td><p>从问题中转移。</p>
-   <p>为已转换的项目使用模板时，您可以选择手动更改优先级。如果您选择不对其进行更改，则问题的优先级将转移到项目。 
+   <p>为已转换的项目使用模板时，您可以选择手动更改优先级。 如果您选择不对其进行更改，则问题的优先级将转移到项目。 
     </td> 
   </tr> 
   <tr> 

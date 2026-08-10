@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Workfront管理员可以执行以下操作之一：
 * 从两个存储选项中选择一个作为您组织的默认存储选项
 * 允许您选择在创建以下对象之一时要使用的存储：
 
-   * 项目
-   * 项目组合
-   * 模板
+  * 项目
+  * 项目组合
+  * 模板
 
 有关为Workfront设置存储首选项的信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
@@ -106,12 +106,12 @@ Not sure we need these since this became an overview article:
 * 仅限Adobe云存储。 “系统首选项”中的“存储首选项”区域不存在。
 * Workfront存储和Adobe云存储。 Workfront管理员可以选择以下选项：
 
-   * 选择默认存储环境，以便将来处理文档。
-   * 允许用户选择在创建以下对象时选择的存储：
+  * 选择默认存储环境，以便将来处理文档。
+  * 允许用户选择在创建以下对象时选择的存储：
 
-      * 项目
-      * 项目组合
-      * 模板
+    * 项目
+    * 项目组合
+    * 模板
 
   >[!NOTE]
   >
@@ -144,12 +144,19 @@ Not sure we need these since this became an overview article:
 
 * 创建Adobe云存储产品组合时，Workfront会在产品组合的“文档”部分创建一个文件夹，以保存文档。 文件夹名称与项目组合同名。 无法删除或手动重命名文件夹。 如果更改项目组合名称以匹配项目组合的新名称，则将重命名文件夹。
 
-* 当您将Adobe云存储项目添加到旧版Workfront存储产品组合，并且该产品组合没有附加任何文档时，该项目组合将转换为Adobe云存储产品组合。
-* 当您将Adobe云存储项目添加到旧版Workfront存储产品组合，并且该产品组合具有附加文档时，该产品组合文档存储仍保留在Workfront存储上。 但是，已从产品组合中删除![旧产品组合存储图标](assets/legacy-storage-project-icon.png)的旧版Workfront存储图标。
+<!--
+This is not possible anymore: 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe cloud storage portfolio. 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the portfolio ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+-->
 * 您无法将Adobe云存储项目添加到旧版存储产品组合，或将旧版存储项目添加到Adobe存储产品组合。
-* 管理员可以在“设置”的“系统首选项”区域将旧版存储产品组合转换为Adobe云存储。所有子对象（项目群、项目和文档）都保留在旧版存储中。新项目将使用Adobe云存储。添加到产品组合的新文档将继续存储在旧版存储中。
+* 管理员可以在“设置”的“系统首选项”区域将旧版存储产品组合转换为Adobe云存储。 所有子对象（项目群、项目和文档）都保留在旧版存储中。 新项目将使用Adobe云存储。 添加到产品组合的新文档将继续存储在旧版存储中。
 有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+* <!-- this point also repeats for programs below-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
 
+  您无法再向此项目组合添加现有的旧版存储项目。
+
+  所有新项目都必须使用Adobe云存储（因为该产品组合现在使用Adobe云存储）。 在为项目创建此类Adobe云存储项目后，该项目也将自动从旧版转换为Adobe云存储，并且从此刻起将无法再向该项目添加任何旧版存储项目。
 * 当您使用Workfront Planning自动化创建项目组合时，Workfront会使用您系统的项目组合默认存储偏好设置。 您必须购买Planning包才能访问Workfront Planning。
 
 
@@ -164,6 +171,11 @@ Not sure we need these since this became an overview article:
 * 您不能将Adobe云存储程序添加到旧版存储产品组合，也不能将旧版程序添加到Adobe云存储产品组合。
 * 无法从旧版存储程序中的Adobe云存储模板创建项目。
 * 您可以从Adobe云存储项目中的旧版存储模板创建项目，但该模板上的文档和文件夹不会添加到新项目中。 项目接收Adobe云存储。
+* <!-- this point also repeats for portfolios above-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
+
+  您无法再向此项目组合添加现有的旧版存储项目。
+
+  所有新项目都必须使用Adobe云存储（因为该产品组合现在使用Adobe云存储）。 在为项目创建此类Adobe云存储项目后，该项目也将自动从旧版转换为Adobe云存储，并且从此刻起将无法再向该项目添加任何旧版存储项目。
 * 当您使用Workfront Planning自动化创建程序时，Workfront会使用您系统的默认程序存储首选项。 您必须购买Planning包才能访问Workfront Planning。
 
 ### 任务的文档管理
@@ -176,10 +188,10 @@ Not sure we need these since this became an overview article:
 * 对于Adobe云存储项目，任务中的文档文件夹显示为自动为项目创建的文档文件夹中的子文件夹。
 * 您无法将任务从旧版Workfront存储项目复制或移动到Adobe云存储项目。 反之亦然。
 * 将任务转化为项目时，存在以下情况： <!--this info also duplicated in Convert tasks to projects-->
-   * 旧版Workfront存储任务可创建一个旧版Workfront存储项目。
-   * Adobe云存储任务创建一个Adobe云存储项目。
-   * 使用旧版Workfront存储模板转换Adobe云存储任务会创建一个Adobe云存储项目。
-   * 使用Adobe云存储模板转换旧版Workfront存储任务会创建一个旧版Workfront存储项目。
+  * 旧版Workfront存储任务可创建一个旧版Workfront存储项目。
+  * Adobe云存储任务创建一个Adobe云存储项目。
+  * 使用旧版Workfront存储模板转换Adobe云存储任务会创建一个Adobe云存储项目。
+  * 使用Adobe云存储模板转换旧版Workfront存储任务会创建一个旧版Workfront存储项目。
 * 无法在“摘要”面板中将文档添加到Adobe云存储任务。
 
 ### 问题的文档管理
@@ -192,10 +204,10 @@ Not sure we need these since this became an overview article:
 * 对于Adobe云存储项目，问题中的文档文件夹显示为自动为项目创建的文档文件夹中的子文件夹。
 * 您无法将问题从旧版Workfront存储项目复制或移动到Adobe云存储项目。 反之亦然。
 * 将问题转化为项目时，存在以下情况：<!--this info also duplicated in Convert an issue to a project-->
-   * 旧版Workfront存储问题会创建一个旧版Workfront存储项目。
-   * Adobe云存储问题会创建一个Adobe云存储项目。
-   * 使用旧版Workfront存储模板转换Adobe云存储问题会创建一个Adobe云存储项目。
-   * 使用Adobe云存储模板转化旧版Workfront存储问题会创建一个旧版Workfront存储项目。
+  * 旧版Workfront存储问题会创建一个旧版Workfront存储项目。
+  * Adobe云存储问题会创建一个Adobe云存储项目。
+  * 使用旧版Workfront存储模板转换Adobe云存储问题会创建一个Adobe云存储项目。
+  * 使用Adobe云存储模板转化旧版Workfront存储问题会创建一个旧版Workfront存储项目。
 * 无法在“摘要”面板中将文档添加到Adobe云存储问题。
 
 ### 请求的文档管理
@@ -211,8 +223,8 @@ Not sure we need these since this became an overview article:
 * 您可以使用旧版Workfront存储模板来创建旧版Workfront存储项目；也可以使用Adobe云存储模板来创建Adobe云存储项目。
 
 * 使用项目组合或项目群中的模板创建项目时，存在以下情况：
-   * 您无法使用旧版Adobe存储产品组合或程序中的Workfront云存储模板来创建项目。
-   * 您可以使用旧版存储模板为Adobe存储产品组合或项目群创建Adobe云存储项目。 所有模板文档和文件夹均未附加到新项目。
+  * 您无法使用旧版Adobe存储产品组合或程序中的Workfront云存储模板来创建项目。
+  * 您可以使用旧版存储模板为Adobe存储产品组合或项目群创建Adobe云存储项目。 所有模板文档和文件夹均未附加到新项目。
 
 * 您可以将旧版Workfront存储模板附加到Adobe云存储项目，这不会更改该项目上文档的存储位置。
 * 您可以将Adobe云存储模板附加到旧版Workfront存储项目，这不会更改该项目上文档的存储位置。 模板的Adobe cloud storage文件夹中的文档直接添加到项目中，而不是添加到文件夹，而模板任务文件夹中的文档则添加到任务的“文档”部分中附加到项目任务的文件夹中。

@@ -4,24 +4,18 @@ navigation-topic: convert-issues
 title: 将问题转化为项目
 description: 如果在提交问题后需要完成更多工作，您可以将问题转换为Adobe Workfront中的项目。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mQINHJ0clh8RFxC67LR-L3djGlqKZNwOBwPGIGwZ-kQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 2%
@@ -108,12 +102,12 @@ Old:
 
 * 将问题转化为项目时存在5分钟的处理限制。 如果问题附加了大量文档且无法转换，您可能需要删除一些文档并重试。
 * 如果贵组织同时使用旧版Workfront和Adobe云存储来存储文档，则在将问题转化为项目时，可能会出现以下情况：<!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * 旧版Workfront存储问题会创建一个旧版Workfront存储项目。
-   * Adobe云存储问题会创建一个Adobe云存储项目。
-   * 使用旧版Workfront存储模板转换Adobe云存储问题会创建一个Adobe云存储项目。
-   * 使用Adobe云存储模板转化旧版Workfront存储问题会创建一个旧版Workfront存储项目。
+  * 旧版Workfront存储问题会创建一个旧版Workfront存储项目。
+  * Adobe云存储问题会创建一个Adobe云存储项目。
+  * 使用旧版Workfront存储模板转换Adobe云存储问题会创建一个Adobe云存储项目。
+  * 使用Adobe云存储模板转化旧版Workfront存储问题会创建一个旧版Workfront存储项目。
 
-     有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+    有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 ## 将问题转化为项目
 

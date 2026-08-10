@@ -4,28 +4,19 @@ content-type: overview
 navigation-topic: delegate-work
 title: 委派工作概述
 description: 如果您计划在短时间内不在办公室，您可以暂时将工作委派给其他用户，以确保您的缺席不会成为完成工作的障碍。
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/O-G3HS2JWZB36Y-kSloHo6u4--Z3q40fwAgfcEuELi4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 1%
@@ -70,9 +61,9 @@ ht-degree: 1%
 * 您只能从[!UICONTROL 主页]区域委派任务和问题。
 * 委托工作时，以下许可证类型会出现例外：
 
-   * 您可以将工作委派给审阅者或请求者，但[!DNL Workfront]不建议这样做。
-   * 审阅者可以将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项。 他们只能查看审批。
-   * 请求者无法将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项
+  * 您可以将工作委派给审阅者或请求者，但[!DNL Workfront]不建议这样做。
+  * 审阅者可以将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项。 他们只能查看审批。
+  * 请求者无法将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项
 * 您只能委派分配给您的任务和问题。 您无法委派分配给其他用户、团队或工作角色的任务和问题。
 * 您只能委派在委派开始日期之前未完成的任务和问题。
 * 如果工作项在委派时间范围内完成，则该项在委派人和被分配人的“主页”区域中保留2周，然后[!DNL Workfront]自动删除该项。
