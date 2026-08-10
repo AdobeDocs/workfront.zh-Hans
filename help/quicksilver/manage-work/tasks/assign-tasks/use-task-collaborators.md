@@ -4,10 +4,10 @@ content-type: reference
 description: 了解如何使用可分配给Workfront任务的任务协作者、AI协作者。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 3%
+source-wordcount: '653'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -69,8 +69,28 @@ ht-degree: 3%
 >* 在Copilot Studio中配置代理时，必须将安全性设置为&#x200B;**无身份验证**。
 >* 有关在Workfront中创建任务协作者的信息和说明，请参阅配置AI协作者一文中的[配置任务协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
 
+## 任务协作器启动触发器
+
+当为任务分配任务协作者时，如果满足以下任一情况，任务协作者将开始工作：
+
+* 任务协作者被分配给准备开始的任务。 （例如，如果任务具有前置任务，则前置任务为完成。）
+* 任务协作者和用户被分配给任务，任务协作者被首先分配。
+* 已为其分配任务协作者的任务变得准备就绪。 （例如，如果任务具有前置任务，则前置任务为完成。）
+* 已为其分配任务协作者和用户的任务将变为准备开始。 （例如，如果任务具有前置任务，则前置任务为完成。）
+* 将用户和任务协作者分配给任务，并删除用户。
+* 用户和任务协作者被分配到任务，任务协作者被设置为任务的主要被分配人。
+
+以下情况不会导致任务协作器开始处理任务：
+
+* 任务协作者被分配给已经分配了用户的任务。
+* 在任务中@mentioned有任务协作者。
+* 任务协作者被分配给已经分配了任务协作者的任务。 在这种情况下，只有第一个分配的任务协作者开始处理该任务。
+* 任务协作者被分配给未准备好启动的任务。 （例如，如果任务具有前置任务，则前置任务尚未完成。）
+
 ## 将任务协作者分配给任务
 
 任务协作者被分配给任务的方式与用户被分配的方式相同。
+
+在可用任务接受者列表中搜索任务协作者时，任务协作者的名称仅为名字。
 
 有关说明，请参阅[分配任务](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。
