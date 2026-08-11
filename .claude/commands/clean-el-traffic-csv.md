@@ -48,7 +48,7 @@ ht-degree: 0%
 
 对于每个存活的行，在URL中找到`/using`，并仅保留其后`/`中包含（和包含）的部分，放弃之前和包含`/using`的所有内容。
 
-示例： `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+示例： `https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home` → `/home`
 
 如果在Workfront行的URL中找不到`/using`，则保持该URL不变，并为用户标记该URL，而不是进行猜测。
 
