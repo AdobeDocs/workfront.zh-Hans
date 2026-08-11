@@ -4,9 +4,9 @@ content-type: reference
 description: 请参阅有关Adobe Workfront MCP服务器的可用文章列表。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -19,3 +19,5 @@ ht-degree: 0%
 * [配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
 * [使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
 * [Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
+* [适用于直接安装的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
+

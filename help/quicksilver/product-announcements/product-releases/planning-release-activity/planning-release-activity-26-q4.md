@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,29 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## Workfront Planning解决方案架构师技能简介
+
+>[!NOTE]
+>
+>预览： 2026年8月10日
+>生产日期： 2026年8月10日
+
+我们正在提供一项新技能，即Workfront Planning解决方案架构师，该技能将Workfront Planning的最佳实践代理指导直接引入克劳德。 在Claude界面中，您现在可以执行以下操作：
+
+* 配置新的Planning工作区以符合您的业务要求，由Workfront MCP服务器在您的环境中执行设置。
+* 审核现有配置中的大规模反模式。
+* 根据建议的限制检查使用情况。
+* 询问有关Planning的问题。
+
+有关信息，请参阅[可用于直接安装的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)。
+
 ## 在表格视图中拖放行
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>全部生产： 2026年10月15日
 
 在表视图中拖放行的体验在视觉上得到了改进。
 
@@ -34,7 +52,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 Workspace Manager现在可以定义连接的记录类型之间的依赖关系。 例如，确保区域字段仅显示与选定地理位置关联的值。 这直接在连接字段设置中配置：当将连接从地域记录类型添加到从属记录类型（如区域）时，新设置允许工作区管理员使用在这些记录类型之间已建立的关系将其标记为从属地域记录类型。
 
@@ -55,7 +75,9 @@ Workspace Manager现在可以定义连接的记录类型之间的依赖关系。
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 我们添加了一个新指示器，当记录中存在未读注释时会显示该指示器。 指示器显示在表视图中记录的主字段的右上角。
 
@@ -65,7 +87,9 @@ Workspace Manager现在可以定义连接的记录类型之间的依赖关系。
 
 >[!NOTE]
 > 
->预览： 2026年7月23日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月23日
+>生产快速发布： 2026年8月13日
+>全部生产： 2026年10月15日
 
 记录现在支持可自定义的调色板，这使您能够将自动分配给新记录的颜色更新为标准或自定义颜色。
 
@@ -87,7 +111,8 @@ Workspace Manager现在可以定义连接的记录类型之间的依赖关系。
 ## 规划Designer现在需要接受Beta协议
 
 >[!NOTE]
->预览并生产给所有客户： 2026年7月20日>[!BADGE 取消计划]{type=Neutral}
+>面向所有客户的预览和生产： 2026年7月20日
+>[!BADGE 超出计划]{type=Neutral}
 
 现在，规划Designer需要使用已接受的Beta协议。 您的公司不需要签署AI协议。 这适用于所有客户。
 

@@ -4,7 +4,8 @@ content-type: overview
 navigation-topic: delegate-work
 title: 委派工作概述
 description: 如果您计划在短时间内不在办公室，您可以暂时将工作委派给其他用户，以确保您的缺席不会成为完成工作的障碍。
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
@@ -25,7 +26,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 1%
@@ -70,9 +71,9 @@ ht-degree: 1%
 * 您只能从[!UICONTROL 主页]区域委派任务和问题。
 * 委托工作时，以下许可证类型会出现例外：
 
-   * 您可以将工作委派给审阅者或请求者，但[!DNL Workfront]不建议这样做。
-   * 审阅者可以将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项。 他们只能查看审批。
-   * 请求者无法将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项
+  * 您可以将工作委派给审阅者或请求者，但[!DNL Workfront]不建议这样做。
+  * 审阅者可以将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项。 他们只能查看审批。
+  * 请求者无法将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项
 * 您只能委派分配给您的任务和问题。 您无法委派分配给其他用户、团队或工作角色的任务和问题。
 * 您只能委派在委派开始日期之前未完成的任务和问题。
 * 如果工作项在委派时间范围内完成，则该项在委派人和被分配人的“主页”区域中保留2周，然后[!DNL Workfront]自动删除该项。

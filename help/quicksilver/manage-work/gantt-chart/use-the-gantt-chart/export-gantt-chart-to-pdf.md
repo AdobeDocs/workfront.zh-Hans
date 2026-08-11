@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: 将甘特图导出到PDF
 description: 您可以将甘特图导出到PDF。 之后，您可以将其打印或附加到电子邮件中，以便与其他用户共享。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,9 +21,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: 983
 ht-degree: 3%
 
 ---
@@ -119,18 +120,18 @@ Old:
 
      从以下选项中选择：
 
-      * 实际日期
-      * 分配
-      * 基准
-      * 承诺日期
-      * 完成百分比
-      * 关键路径
-      * 里程碑菱形
-      * 里程碑线
-      * 前置任务
-      * 进度状态
-      * （视情况而定）计划日期
-      * （视情况而定）预计日期
+     * 实际日期
+     * 分配
+     * 基准
+     * 承诺日期
+     * 完成百分比
+     * 关键路径
+     * 里程碑菱形
+     * 里程碑线
+     * 前置任务
+     * 进度状态
+     * （视情况而定）计划日期
+     * （视情况而定）预计日期
 
      有关详细信息，请参阅[配置信息在[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的显示方式。
 
@@ -178,7 +179,7 @@ Old:
 
 
 1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页大小]**&#x200B;下拉菜单中选择要打印的纸张大小。
-您可以从以下选项中进行选择：
+您可以从下列选项中进行选择：
 
    * **[!UICONTROL 书信]**
    * **[!UICONTROL 法律]**

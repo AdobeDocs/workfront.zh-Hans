@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 将问题转换为任务
 description: 如果在提交问题后必须完成更多工作才能完成问题，则可以在Adobe Workfront中将问题转换为任务。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
 last-update: 2026-04-01T18:03:50.000Z
@@ -22,7 +23,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1048
 ht-degree: 2%

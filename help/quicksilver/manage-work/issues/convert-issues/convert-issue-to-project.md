@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 将问题转化为项目
 description: 如果在提交问题后需要完成更多工作，您可以将问题转换为Adobe Workfront中的项目。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 2%
@@ -108,12 +109,12 @@ Old:
 
 * 将问题转化为项目时存在5分钟的处理限制。 如果问题附加了大量文档且无法转换，您可能需要删除一些文档并重试。
 * 如果贵组织同时使用旧版Workfront和Adobe云存储来存储文档，则在将问题转化为项目时，可能会出现以下情况：<!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * 旧版Workfront存储问题会创建一个旧版Workfront存储项目。
-   * Adobe云存储问题会创建一个Adobe云存储项目。
-   * 使用旧版Workfront存储模板转换Adobe云存储问题会创建一个Adobe云存储项目。
-   * 使用Adobe云存储模板转化旧版Workfront存储问题会创建一个旧版Workfront存储项目。
+  * 旧版Workfront存储问题会创建一个旧版Workfront存储项目。
+  * Adobe云存储问题会创建一个Adobe云存储项目。
+  * 使用旧版Workfront存储模板转换Adobe云存储问题会创建一个Adobe云存储项目。
+  * 使用Adobe云存储模板转化旧版Workfront存储问题会创建一个旧版Workfront存储项目。
 
-     有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+    有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 ## 将问题转化为项目
 

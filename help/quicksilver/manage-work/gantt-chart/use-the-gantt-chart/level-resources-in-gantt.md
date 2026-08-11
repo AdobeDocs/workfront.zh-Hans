@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL 甘特图]中的均衡资源'
 description: 如果将同一资源分配给两个不同的任务，则可以使用资源均衡调整任务的时间表，以使它们不会同时发生。 本文提供了有关如何在甘特图中调配资源的信息。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 623
 ht-degree: 3%

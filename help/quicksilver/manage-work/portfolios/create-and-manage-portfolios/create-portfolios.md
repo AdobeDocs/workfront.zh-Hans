@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 2%
 
 ---
@@ -112,10 +112,10 @@ Old:
 
 * 通过以下方式从Workfront Planning添加项目组合：
 
-   * 当您从Workfront Planning中的记录类型连接它们时。
+  * 当您从Workfront Planning中的记录类型连接它们时。
 
   有关通过将项目组合添加到记录来创建项目组合的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”一节。
-   * 使用Workfront Planning自动化。
+  * 使用Workfront Planning自动化。
 
   有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
@@ -145,17 +145,19 @@ Old:
 
      项目组合已创建，其默认名称遵循以下模式，具体取决于Workfront对文档使用的存储空间：
 
-      * 旧版Workfront存储产品组合的`Untitled Portfolio`。
+     * 旧版Workfront存储产品组合的`Untitled Portfolio`。
 
-        旧版Workfront存储产品组合在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储产品组合图标](assets/legacy-storage-project-icon.png)。
+       旧版Workfront存储产品组合在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储产品组合图标](assets/legacy-storage-project-icon.png)。
 
-      * Adobe云存储产品组合的`Untitled Portfolio - < Month day, year hour.minute.second >`
+     * Adobe云存储产品组合的`Untitled Portfolio - < Month day, year hour.minute.second >`
 
-        >[!IMPORTANT]
-        >
-        >使用Adobe云存储的产品组合必须具有唯一的名称。
+       >[!IMPORTANT]
+       >
+       >使用Adobe云存储的产品组合必须具有唯一的名称。
 
      对于Adobe云存储项目组合，会自动在文档区域创建一个与项目组合同名的新文档文件夹。
+
+     有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 1. 将项目组合名称替换为项目组合标题中的新名称。
 

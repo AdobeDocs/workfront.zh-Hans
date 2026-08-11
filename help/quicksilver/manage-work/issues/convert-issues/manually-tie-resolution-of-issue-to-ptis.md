@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 手动将问题的解决绑定到其他问题、任务或项目
 description: 您可以手动将问题的解决方案与项目、任务或问题的解决方案关联起来，而无需转换问题。 问题将成为您选择的项目、任务或问题的可解析对象之一。 执行此操作时，项目、任务或问题的状态更改会触发原始问题的状态更改。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 3%
