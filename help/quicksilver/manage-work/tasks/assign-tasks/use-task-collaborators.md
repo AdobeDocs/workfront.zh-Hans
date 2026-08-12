@@ -4,9 +4,9 @@ content-type: reference
 description: 了解如何使用可分配给Workfront任务的任务协作者、AI协作者。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -94,6 +94,10 @@ ht-degree: 1%
 在可用任务接受者列表中搜索任务协作者时，任务协作者的名称仅为名字。
 
 有关说明，请参阅[分配任务](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。
+
+>[!NOTE]
+>
+>无法分配任务协作者来审阅或批准文档。
 
 ## 任务协作者疑难解答
 
