@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9b272b27e030332325bdd7f75b9f1b947bd6118d
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: 2259
 ht-degree: 1%
 
 ---
@@ -105,6 +105,7 @@ ht-degree: 1%
 * PDF（横向或纵向）
 * Excel
 * Excel (.xlsx)
+* CSV
 * 制表符分隔
 
 >[!NOTE]
@@ -122,9 +123,9 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 * **50,000个单元格：**&#x200B;报表导出中允许Excel文件的最大单元格数。
 * **50,000行：**&#x200B;报表导出中允许用于PDF和Tab分隔文件的数据行数。
 
-   * 对于Excel文件，此限制为&#x200B;**65,000行**。
-   * 对于Excel(.xlsx)文件，此限制为&#x200B;**100,000行**。
-   * 这些限制不包括列标题以及报告中分组的行。 例如，如果报表中有6个分组，且有50,000行数据，则导出的文件将有50,000行。
+  * 对于Excel文件，此限制为&#x200B;**65,000行**。
+  * 对于Excel(.xlsx)文件，此限制为&#x200B;**100,000行**。
+  * 这些限制不包括列标题以及报告中分组的行。 例如，如果报表中有6个分组，且有50,000行数据，则导出的文件将有50,000行。
 
   >[!IMPORTANT]
   >
@@ -142,20 +143,20 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 * 这些限制适用于：
 
-   * 手动导出报告。
-   * 计划报表。
-   * 通过API集成导出。
-   * 通过快速启动导出的数据。
+  * 手动导出报告。
+  * 计划报表。
+  * 通过API集成导出。
+  * 通过快速启动导出的数据。
 
-     有关通过Kick-Starts导出数据的更多信息，请参阅[通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
+    有关通过Kick-Starts导出数据的更多信息，请参阅[通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
 
-     >[!NOTE]
-     >
-     >尽管您只能将数据导出为Excel格式文件，但可以在快速启动文件中导出50,000行。
+    >[!NOTE]
+    >
+    >尽管您只能将数据导出为Excel格式文件，但可以在快速启动文件中导出50,000行。
 
-   * 导出项目的利用率信息。
+  * 导出项目的利用率信息。
 
-     有关导出项目的利用率信息的详细信息，请参阅[资源利用率报告概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)。
+    有关导出项目的利用率信息的详细信息，请参阅[资源利用率报告概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)。
 
 * **10MB文件大小：**&#x200B;任何计划传送的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
 * **65,530个超链接：**&#x200B;这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
@@ -240,13 +241,13 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 * 在项目中导出任务和问题列表时：
 
-   * *The_project_name_Exported_Tasks*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
-   * *The_project_name_Exported_Issues*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+  * *The_project_name_Exported_Tasks*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+  * *The_project_name_Exported_Issues*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 * 导出任务（子任务）中的任务和问题列表时：
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
-   * **The_project_name_the_task_name_Exported_Issues**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+  * **The_project_name_the_task_name_Exported_Tasks**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+  * **The_project_name_the_task_name_Exported_Issues**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 将项目中的任何其他对象列表导出到PDF文件时，导出文档的文件名将指示您导出的对象类型。\
 例如，文件名可以是：
