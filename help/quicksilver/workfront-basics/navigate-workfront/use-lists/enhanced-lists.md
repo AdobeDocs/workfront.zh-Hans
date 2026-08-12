@@ -8,11 +8,16 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
 source-wordcount: 3202
@@ -262,7 +267,7 @@ Add this BEFORE a list of reports in the table above:
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
