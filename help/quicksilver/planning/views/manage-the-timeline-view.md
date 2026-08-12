@@ -9,20 +9,15 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 4349
-ht-degree: 2%
+source-wordcount: 4418
+ht-degree: 1%
 
 ---
 
@@ -213,7 +208,7 @@ Old:
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -396,7 +391,7 @@ Old:
 
 1. （可选）添加其他筛选器分组并由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符加入它们。
 
-   系统会根据您的筛选条件自动筛选记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系统会根据您的筛选条件自动筛选记录列表。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
@@ -419,8 +414,8 @@ Old:
 在时间线视图中使用分组时，请考虑以下事项：
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
-* 您可以在视图中应用3个级别的分组。这些记录按您选择的分组顺序分组。
-&lt;！—*在使用API时，您最多可以应用4个级别的分组。 — 现在正在选中此项 — >
+* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
+&lt;！—！—*使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -442,6 +437,7 @@ Old:
 1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，然后搜索其他字段，然后在列表中显示该字段时单击它。
 
    分组将自动应用于时间轴，并且记录显示在分组框中。
+1. （可选）单击&#x200B;**添加条件**&#x200B;以添加最多三个作为分组依据的字段。
 1. （可选且视情况而定）根据您选择作为分组依据的字段类型，选择以下排序选项之一以对分组进行升序或降序排序：
 
    * 选择字段、文本字段、段落字段、连接的记录或对象、人员字段的&#x200B;**A -> Z**&#x200B;或&#x200B;**Z -> A**
@@ -458,6 +454,7 @@ Old:
 
 1. 在&#x200B;**按**&#x200B;对记录进行分组框中，按正确的顺序拖放分组。
 
+
 1. 在&#x200B;**按**&#x200B;对记录进行分组的&#x200B;**布局**&#x200B;区域，选择以下选项之一：
 
    * **栈叠**：显示的分组没有冻结的左列，并且符合其项目时间线的宽度。
@@ -466,7 +463,9 @@ Old:
    * **泳道**：显示的分组具有冻结的左标题列，该列列出分组项和符合时间线视图宽度的分组。
 
      在时间轴视图中![泳道分组](assets/swimlane-grouping-in-timeline-view.png)
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
    或

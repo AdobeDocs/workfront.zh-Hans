@@ -9,16 +9,12 @@ exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/G0zsfMcj1dSM-QN3lPprt8rPSoG1Wli4lWqDzMiG3c4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 1751
+source-wordcount: 1765
 ht-degree: 0%
 
 ---
@@ -105,31 +101,31 @@ ht-degree: 0%
 
 * 您可以从全局记录类型的原始工作区对其执行以下操作：
 
-   * 编辑它
+  * 编辑它
 
-     编辑全局记录类型包括编辑其外观、跨工作区功能以及在原始工作区中创建的所有字段。
-   * 共享
+    编辑全局记录类型包括编辑其外观、跨工作区功能以及在原始工作区中创建的所有字段。
+  * 共享
 
-     共享记录类型会将用户添加到工作区，并且还会与这些用户共享记录。
-   * 删除它
+    共享记录类型会将用户添加到工作区，并且还会与这些用户共享记录。
+  * 删除它
 
-     只有在从添加全局记录类型的所有辅助工作区中删除if的所有实例之后，才能将其从原始工作区中删除。
+    只有在从添加全局记录类型的所有辅助工作区中删除if的所有实例之后，才能将其从原始工作区中删除。
 
-     有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
-   * 使其可与其他工作区连接
-   * 创建和管理请求表单
-   * 创建和管理自动化
+    有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
+  * 使其可与其他工作区连接
+  * 创建和管理请求表单
+  * 创建和管理自动化
 
 * 以下记录显示在全局记录类型的“主”工作区中：
 
-   * 从主工作区中的全局记录类型添加的记录
-   * 从添加的辅助工作区中的全局记录类型添加的记录
+  * 从主工作区中的全局记录类型添加的记录
+  * 从添加的辅助工作区中的全局记录类型添加的记录
 
-     从辅助工作区添加的记录将汇总并显示在主工作区中。 原始主工作区的所有成员都将获得对他们的查看权限，并且只有从主工作区中才能看到记录，即使他们无权访问辅助工作区也是如此。
+    从辅助工作区添加的记录将汇总并显示在主工作区中。 原始主工作区的所有成员都将获得对他们的查看权限，并且只有从主工作区中才能看到记录，即使他们无权访问辅助工作区也是如此。
 * 根据记录的添加位置，对于主工作区中显示的记录存在以下各种权限：
 
-   * 您对在主工作区中创建的记录具有对工作区和原始全局记录类型的相同权限。
-   * 您对在辅助工作区中创建的记录拥有与对辅助工作区以及该工作区中的全局记录类型相同的权限。
+  * 您对在主工作区中创建的记录具有对工作区和原始全局记录类型的相同权限。
+  * 您对在辅助工作区中创建的记录拥有与对辅助工作区以及该工作区中的全局记录类型相同的权限。
 
   <!--
     Removed this as this was too confusing: 
@@ -159,23 +155,23 @@ ht-degree: 0%
 
 * 辅助工作区管理员可以对从辅助工作区中的全局记录类型添加的记录类型执行以下操作：
 
-   * 删除它。
+  * 删除它。
 
-     从辅助工作区中删除记录类型只会将其从辅助工作区中删除。 从辅助工作区添加到该工作区的记录和字段也会从辅助空间中删除。 在辅助空间中添加的记录将保留在主工作区中。 这不会从其原始工作区或已添加记录类型的任何其他辅助工作区中删除该记录类型。
+    从辅助工作区中删除记录类型只会将其从辅助工作区中删除。 从辅助工作区添加到该工作区的记录和字段也会从辅助空间中删除。 在辅助空间中添加的记录将保留在主工作区中。 这不会从其原始工作区或已添加记录类型的任何其他辅助工作区中删除该记录类型。
 
-     有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
+    有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
 
-   * 共享
+  * 共享
 
-     通过在辅助工作区中共享全局记录类型，还会出现以下情况：
+    通过在辅助工作区中共享全局记录类型，还会出现以下情况：
 
-      * 用户将添加到工作区，并具有“查看”权限。
-      * 用户将获得对辅助工作区中所有全局记录类型的相同权限。
-   * 共享记录类型的视图。
+    * 用户将添加到工作区，并具有“查看”权限。
+    * 用户将获得对辅助工作区中所有全局记录类型的相同权限。
+  * 共享记录类型的视图。
 
-     在辅助工作区中，不能通过全局记录类型公开共享视图。 您只能从辅助工作区内部共享视图。 您可以在原始工作区中为全局记录类型在内部和公开共享视图。
+    在辅助工作区中，不能通过全局记录类型公开共享视图。 您只能从辅助工作区内部共享视图。 您可以在原始工作区中为全局记录类型在内部和公开共享视图。
 
-     有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
+    有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 
 <!--
@@ -193,21 +189,26 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 * 任何用户都不能对辅助工作区中的全局记录类型执行以下操作：
 
-   * 编辑它
+  * 编辑它
 
-     不能编辑其外观、跨工作区功能或从原始工作区添加的字段。
-   * 创建和管理请求表单
-   * 创建和管理自动化
+    不能编辑其外观、跨工作区功能或从原始工作区添加的字段。
+  * 创建和管理自动化
+  * 创建和管理请求表单
+
+    <!--
+        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
+        -->
 
 * 当您对辅助工作区具有“查看”或更高权限时，可在以下工作区中看到这些工作区中添加的记录：
 
-   * 添加这些区段的次要位置
-   * 全局记录类型的原始主工作区
+  * 添加这些区段的次要位置
+  * 全局记录类型的原始主工作区
 
 * 以下情形可用于访问在辅助工作区中创建的记录：
 
-   * 如果您对原始工作区具有“管理”权限，而对辅助工作区没有权限，则可以查看从原始工作区中的辅助工作区添加的记录，但无法从原始工作区管理这些记录。
-   * 如果您对原始工作区和辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加它们的辅助工作区管理记录。
+  * 如果您对原始工作区具有“管理”权限，而对辅助工作区没有权限，则可以查看从原始工作区中的辅助工作区添加的记录，但无法从原始工作区管理这些记录。
+  * 如果您对原始工作区和辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加它们的辅助工作区管理记录。
   <!--
     not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
     -->

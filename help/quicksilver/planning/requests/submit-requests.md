@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2778
 ht-degree: 1%
 
 ---
@@ -146,6 +139,28 @@ Workspace经理可以创建请求表单，您可以作为用户或外部人员�
   有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 <!--
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+-->
+
+
+
+<!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
 -->
 
@@ -154,8 +169,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 打开屏幕右上角的&#x200B;**使用新体验**&#x200B;设置。
-启用此设置后，Workfront计划请求表单将在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 打开屏幕右上角的&#x200B;**使用新体验**设置。
+启用此设置后，Workfront计划请求表单将在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -252,7 +267,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* 如果请求表单中未更新记录的主要字段，则请求的“记录”字段中的记录名称将显示为&#x200B;**无标题**。
    >
-   >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。在批准之前，不会创建记录。
+   >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。 在批准之前，不会创建记录。
    >  有关批准请求的信息，请参阅[在Adobe Workfront规划中批准请求](/help/quicksilver/planning/requests/approve-request.md)。
 
 1. （可选）单击&#x200B;**记录类型**&#x200B;的名称。
@@ -281,6 +296,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
       ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
+
+## 从记录类型页提交计划请求
+
+在从记录类型页面添加新记录时，您可以提交请求。
+
+{{step1-to-planning}}
+
+1. 单击工作区的卡，然后单击您有权创建记录的记录类型的卡。
+1. 在记录类型页面上的任何视图中，单击“新建记录”，然后单击“**提交请求”**。
+
+   >[!TIP]
+   >
+   >必须先创建和发布请求表单，然后才能将&#x200B;**提交请求**&#x200B;选项添加到&#x200B;**新记录**&#x200B;功能。
+
+1. 单击&#x200B;**继续**。
+
+1. （视情况而定）如果记录类型有多个请求表单，请单击&#x200B;**新建请求**&#x200B;框中要使用的请求表单。
+
+   此时将打开请求表单。
+1. 开始在所有可用字段中输入所有信息
+
+   或单击&#x200B;**填写表单**&#x200B;以使AI为您填写表单。
+1. 单击&#x200B;**提交请求**。
+
+   已提交请求。
+
+1. （可选）单击下列选项之一：
+
+   * **提交另一个请求**&#x200B;以打开新表单。
+   * **查看您的请求**&#x200B;以打开您的新请求。
+   * 框右上角的&#x200B;**X**&#x200B;图标返回记录类型页面。
+
+   如果没有与您的请求相关的批准，则记录已被添加到您在步骤2中选择的记录类型。<!--accurate??-->
+
 
 ## 通过共享链接将请求提交到Workfront Planning的请求表单
 
@@ -323,13 +372,13 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
 1. （可选）单击&#x200B;**查看您的请求**&#x200B;以在Workfront中打开该请求。
 
-或
+   或
 
-单击[提交另一个请求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以打开请求表单并添加新请求。
+   单击[提交另一个请求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以打开请求表单并添加新请求。
 
-此时将打开请求详细信息页面。
+   此时将打开请求详细信息页面。
 
-![请求带有注释的页面](assets/new-request-page-with-comment.png)
+   ![请求带有注释的页面](assets/new-request-page-with-comment.png)
 
 1. （可选）在&#x200B;**注释**&#x200B;区域输入注释。
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**创建的对象**&#x200B;字段中的记录名称。
@@ -382,7 +431,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
 1. 在“请求”列表中单击Planning请求的名称以将其打开。
 1. 单击请求名称右侧的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
-1. 单击&#x200B;**永久删除**&#x200B;框中的D **e**&#x200B;来确认。
+1. 在&#x200B;**永久删除**&#x200B;框中单击&#x200B;**删除**&#x200B;以进行确认。
 
    请求已被删除，无法恢复。
 
