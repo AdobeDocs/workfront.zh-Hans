@@ -7,10 +7,10 @@ description: 作为Adobe Workfront管理员，您可以配置AI协作者，并�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: cd2f35687330dc8662b52e930ee8a118c90b6c49
+source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '84'
+ht-degree: 4%
 
 ---
 
@@ -23,3 +23,5 @@ AI协作者是AI代理，您可以通过与分配人员相同的方式将其分�
 观看AI协作者如何在Workfront中选取并完成任务。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
+
+有关AI协作者的详细信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
