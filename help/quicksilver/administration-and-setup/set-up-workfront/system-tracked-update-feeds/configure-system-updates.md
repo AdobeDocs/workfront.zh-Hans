@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 10%
+source-wordcount: 956
+ht-degree: 9%
 
 ---
 
@@ -190,6 +190,8 @@ Old:
 
 然后，该更改将作为系统更新显示在任务或问题的[!UICONTROL 更新]区域中。
 
+禁用某个操作时，先前记录的有关该操作的任何更新将保留在记录该操作的[!UICONTROL 更新]区域中。 [!DNL Workfront]停止为禁用的操作录制任何新更新。
+
 下表描述了您可以对[!DNL Workfront]中的对象跟踪的操作：
 
 <table style="table-layout:auto"> 
@@ -199,7 +201,7 @@ Old:
  <thead> 
   <tr> 
    <th><strong>操作</strong> </th> 
-   <th><strong>对象</strong> </th> 
+   <th><strong>操作应用于</strong>的对象 </th> 
    <th><strong>默认状态</strong> </th> 
   </tr> 
  </thead> 
@@ -268,4 +270,6 @@ Old:
 1. 选中某个操作的复选框可启用该操作，取消选中该复选框可禁用该操作。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   禁用某个操作时，先前记录的有关该操作的任何更新将保留在记录该操作的[!UICONTROL 更新]区域中。 [!DNL Workfront]停止为禁用的操作录制任何新更新。
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+

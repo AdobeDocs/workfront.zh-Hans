@@ -4,10 +4,10 @@ content-type: reference
 description: 了解如何使用可分配给Workfront任务的任务协作者、AI协作者。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '878'
+ht-degree: 1%
 
 ---
 
@@ -94,3 +94,23 @@ ht-degree: 2%
 在可用任务接受者列表中搜索任务协作者时，任务协作者的名称仅为名字。
 
 有关说明，请参阅[分配任务](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。
+
+>[!NOTE]
+>
+>无法分配任务协作者来审阅或批准文档。
+
+## 任务协作者疑难解答
+
+如果您的任务协作器未返回响应或输出，请检查以下各项：
+
+* 确保您的代理发布在AI平台提供商端。
+* 请确保您拥有工程师平台所配的足够的AI积分。
+* 确保对任务采取的操作不需要特定的访问级别。
+* 如果您使用Copilot作为代理提供商，请确保您使用的是“无身份验证”设置。
+* 如果您使用的是Copilot，请确保在全球环境中配置了您的代理。 任务协作器功能当前不支持Copilot Studio的区域版本。
+* 确保Collaborator是任务的主要被分配人。
+* 确保分配给任务协作者的任务可以开始。 例如，检查以查看该任务的所有前置任务是否已完成。
+
+>[!TIP]
+>
+>您还可以转到代理提供程序平台，要求代理在该平台内执行任务。 如果代理无法在平台内执行任务，则任务协作器也会在Workfront中遇到问题。
