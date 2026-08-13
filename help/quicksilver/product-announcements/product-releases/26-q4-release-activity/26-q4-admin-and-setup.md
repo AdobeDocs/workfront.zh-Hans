@@ -4,9 +4,9 @@ description: 2026年第四季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,35 @@ ht-degree: 0%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
+<!--
+
+## Interface improvements to the Actions list
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
+
+The following enhancements are included:
+
+* We removed the Save and Cancel buttons.
+* The Track column now appears in the last position.
+* We removed the confirmation message that previously displayed when you saved changes in this area.
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+-->
+
 ## 组管理员可以管理业务配置文件
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 组管理员现在可以为其管理的组创建、编辑和删除业务配置文件，而无需系统管理员访问权限。 这使组织在组级别委派业务配置文件管理方面拥有更大的灵活性。
 
@@ -31,7 +55,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 现在，系统级别通过布局模板支持增强列表视图。 您可以隐藏现有系统视图，将特定视图指定为默认视图，并将自定义视图添加到系统视图列表中。
 
@@ -43,7 +69,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 批量编辑对话框现在允许编辑外部查找字段。 这在以前是不可能的。
 
@@ -57,7 +85,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 自定义表单设计器预览模式现在支持高级逻辑选项，包括高级显示逻辑、默认值逻辑、验证逻辑、格式逻辑和可编辑性逻辑。 您可以在表单预览中测试逻辑公式，并根据需要在逻辑生成器中调整它们。 您还可以选择测试对象（项目、任务、问题等） 以预览具有真实上下文数据的表单。
 
@@ -71,7 +101,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 Workfront中的“更改历史记录”页面现在可以跨统一的审核和批准工作流捕获活动，为管理员提供完整的审核和文档生命周期事件治理追踪。
 
@@ -89,7 +121,9 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 您现在可以将自定义应用程序设置为布局模板中的登陆页面。 已添加到主菜单的自定义应用程序可用作登陆页面。
 
@@ -101,7 +135,9 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 您可以在整个Workfront中添加要跟踪特定类型对象的字段。 当用户在该字段中更改信息时，系统将有关更改的信息记录为更改历史记录中的条目。
 
@@ -113,7 +149,9 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 在标准访问级别上，您现在可以定义具有该级别的用户是否应具有对“变更历史记录列表”的访问权限。 **更改历史记录**&#x200B;选项在访问级别的&#x200B;**允许**&#x200B;的管理访问权限部分中可用。
 

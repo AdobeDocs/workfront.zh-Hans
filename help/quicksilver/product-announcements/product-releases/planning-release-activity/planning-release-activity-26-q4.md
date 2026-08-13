@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,66 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 拖放多行时的表格视图增强功能
+
+>[!NOTE]
+>
+>预览： 2026年8月13日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
+
+在表格视图中拖放多行时，会出现新的可视指示器。 现在，更突出的加号和数字指示器可显示为拖放操作选择的行数。
+
+有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## 使用全局记录类型时，将提交的请求对象路由到正确的工作区
+
+>[!NOTE]
+>
+>预览： 2026年8月13日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+现在，通过提交请求表单为全局记录类型创建的记录会自动路由到从中提交这些记录的工作区。
+
+通过从全局记录类型的辅助工作区提交请求而创建的记录将添加到该辅助工作区。 通过从原始工作区或主请求区域提交请求而创建的记录将添加到原始工作区。
+
+如果摄取表单包含Workspace字段，并且用户在提交之前选择工作区，则无论表单是在何处启动的，请求都会路由到所选工作区。 这可确保从创建记录的那一刻起，就按预期的工作区对记录进行整理。
+
+有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
 
 ## Workfront Planning解决方案架构师技能简介
 

@@ -4,9 +4,9 @@ description: 2026年第四季度报表改进
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,43 @@ ht-degree: 0%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
+## 强制计划报表的结束日期
+
+>[!NOTE]
+>
+>预览： 2026年8月13日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+计划报表现在需要结束日期以防止无限期交付。 超过其结束日期的计划将自动停用。
+
+现有计划已更新了结束日期，以提高可靠性并减少不必要的系统使用。 Workfront还提供了可视性和警告，以帮助您在报表计划生命周期接近其结束日期时对其进行管理。
+
+有关详细信息，请参阅[计划自动报告交付](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
 ## 列表和报告有本机引用字段可用
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 您现在可以向Workfront中的列表和报告添加本机引用字段。
 
@@ -34,7 +66,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 现在，您可以在旧版列表和报告上以一致、可预测的顺序看到多选自定义字段的选定选项。 字段顺序由字段在自定义表单中的排列方式决定。
 
