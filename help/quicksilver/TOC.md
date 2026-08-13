@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 560297cc7e4d7e4b4df5917c1710411454b4c9cb
+source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
 workflow-type: tm+mt
 source-wordcount: '14417'
 ht-degree: 2%
@@ -490,7 +490,7 @@ ht-degree: 2%
       * [创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
-      * {hide-from-toc}[AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/ai-collaborators-overview.md)
+      * [AI 协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/ai-collaborators-overview.md)
     * 配置时间表和工时表首选项 {#configure-timesheets-schedules}
       * [配置时间表和工时表首选项](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [时间表概述](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)

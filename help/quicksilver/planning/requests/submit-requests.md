@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 2778
+source-wordcount: 3070
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -145,26 +145,21 @@ Workspace经理可以创建请求表单，您可以作为用户或外部人员�
 
   有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
-<!--
+* 在提交请求表单以根据全局记录类型创建记录时，新记录会保存在主要或辅助记录类型中，具体取决于您提交这些记录的来源。
 
-* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+  根据用于提交请求和创建记录的环境，在为与全局记录类型关联的请求表单提交表单时，存在以下情况：
 
-   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
-  
-   * In the Production environment:
-   
-      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+  * 在生产环境中：
 
-   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
-   
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
- 
-   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+    * 如果使用本文中介绍的任何方法提交与全局记录类型关联的请求表单，则记录将显示在主记录类型的页面中。
 
--->
+  * <span class="preview">在“预览”环境中，存在以下方案： </span>
 
+    * <span class="preview">当您从辅助全局记录类型的页面提交请求表单时，该记录将显示在辅助记录类型页面中。 如果用户有权查看辅助工作区，则还将在主要记录类型的页面上看到新记录。</span>
+    * <span class="preview">当您从主记录类型页面提交请求表单或使用本文所述的任何其他方法时，记录将显示在主记录类型页面中。</span>
+    * <span class="preview">如果&#x200B;**Workspace**&#x200B;字段在请求表单中可用，并且用户手动选择特定工作区以将记录添加到该工作区中，则无论该表单是从主记录类型页还是从辅助记录类型页中选择，该记录都会保存在该空间中。</span>
+
+  有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 
 <!--

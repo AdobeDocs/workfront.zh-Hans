@@ -4,9 +4,9 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
+source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1435'
 ht-degree: 2%
 
 ---
@@ -35,54 +35,13 @@ ht-degree: 2%
 
 ## Adobe Workfront增强功能
 
-* [AI增强](#ai-enhancements)
 * [管理员增强功能](#administrator-enhancements)
+* [AI增强](#ai-enhancements)
 * [文档增强功能](#documents-enhancements)
 * [项目增强功能](#project-enhancements)
 * [报表增强功能](#reporting-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
 * [其他增强功能](#other-enhancements)
-
-### AI增强
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>功能</strong>
-            </td>
-            <td><strong>预览</strong></td>
-            <td><strong>快速发布</strong></td>
-            <td><strong>每季度</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">在Workfront中将AI任务协作者分配给任务</a>
-                <p>任务协作者是AI协作者，可以直接分配给任务以完成任务级工作。</p>
-            </td>
-            <td><p>2026年7月31日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP Connector中可用的新审批工具</a>
-                <p>为了扩展Workfront MCP连接器的功能，我们添加了管理批准路径的新工具，并扩展了现有工具以支持并行批准路径。</p>
-            </td>
-            <td><p>2026年7月30日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                Workfront MCP连接器中有<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">个可用的展示板工具</a>
-                <p>为了扩展Workfront MCP连接器的功能，我们添加了用于处理主板、卡片、清单项目和列的工具。</p>
-            </td>
-            <td><p>2026年7月30日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### 管理员增强功能
 
@@ -95,7 +54,18 @@ ht-degree: 2%
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
         </tr>
+<!--
         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
+                <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+ -->  
+      <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">组管理员可以管理业务配置文件</a>
                 <p>组管理员现在可以为其管理的组创建、编辑和删除业务配置文件，而无需系统管理员访问权限。</p>
@@ -170,6 +140,65 @@ ht-degree: 2%
     </tbody>
 </table>
 
+### AI增强
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP连接器中有新的搜索用户工具</a>
+                <p>一款新的搜索用户工具可帮助您更快地在Workfront实例中查找人员；已弃用六个旧的查找工具，以支持该工具和现有的查找/查找工具。</p>
+            </td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年8月13日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">使用Workfront MCP服务器将资源发送到Adobe Experience Manager并添加自定义审批消息</a>
+                <p>新的MCP连接器工具允许您将文档发送到AEM链接的文件夹，并通过自定义消息请求文档审批。</p>
+            </td>
+            <td><p>2026年8月12日</p></td>
+            <td><p>2026年8月12日</p></td>
+            <td><p>2026年8月12日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">在Workfront中将AI任务协作者分配给任务</a>
+                <p>任务协作者是AI协作者，可以直接分配给任务以完成任务级工作。</p>
+            </td>
+            <td><p>2026年7月31日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP Connector中可用的新审批工具</a>
+                <p>为了扩展Workfront MCP连接器的功能，我们添加了管理批准路径的新工具，并扩展了现有工具以支持并行批准路径。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                Workfront MCP连接器中有<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">个可用的展示板工具</a>
+                <p>为了扩展Workfront MCP连接器的功能，我们添加了用于处理主板、卡片、清单项目和列的工具。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### 文档增强功能
 
 <table>
@@ -236,6 +265,26 @@ ht-degree: 2%
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">强制计划报告的结束日期</a>
+                <p>现在，计划报表需要结束日期以防止无限期交付，当计划的结束日期过去时，将自动停用。</p>
+            </td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
+                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">本地引用字段可用于列表和报告</a>

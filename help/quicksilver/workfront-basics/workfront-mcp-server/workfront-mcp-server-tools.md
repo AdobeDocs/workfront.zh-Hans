@@ -5,10 +5,10 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 5%
+source-wordcount: '2581'
+ht-degree: 4%
 
 ---
 
@@ -48,20 +48,20 @@ ht-degree: 5%
 | --- | --- | --- | --- |
 | 按名称查找文档版本 | `approvals_find_document_version_by_name` | 按文件名查找文档的当前版本ID。 支持部分匹配。 | 读取 |
 | 按版本ID获取文档 | `approvals_get_document_by_version_id` | 获取已知文档版本ID的文档详细信息（名称、大小、上传日期、上传程序）。 | 读取 |
-| 按项目获取文档 | `approvals_get_documents_by_project` | 列出Workfront项目中的文档，以及每个文档的当前版本ID。 | 读取 |
 | 解析文档范围 | `approvals_resolve_document_scope` | 将项目或文件夹展开到其中包含的文档版本ID列表中。 支持项目、文件夹和按名称文件夹范围。 | 读取 |
+| 按范围获取文档 | `approvals_get_documents_by_scope` | 在项目或文件夹中列出文档。 | 读取 |
+| 列出AEM链接的文件夹* | `approvals_list_aem_linked_folders` | 列出链接到Workfront的Adobe Experience Manager文档文件夹。 | 读取 |
 | 查找文档 | `approvals_find_document` | 按文件名或文档版本ID查找文档 | 读取 |
-| 按范围获取文档 | approvals_get_documents_by_scope | 在项目或文件夹中列出文档。 | 读取 |
+| 将文档发送到AEM文件夹* | `approvals_send_documents_to_aem_folder` | 将一个或多个Workfront文档移动到与AEM链接的文件夹。 | 写入 |
+
+*您必须在Workfront实例中配置本机[!DNL Adobe Experience Manager]集成，才能使用这些工具。 有关详细信息，请参阅[Adobe Experience Manager Assets集成概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+
+
+*Adobe云存储上的项目尚不支持将文档发送到AEM文件夹。 预计未来版本将会提供支持。
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### 审批工作流
@@ -110,13 +110,8 @@ ht-degree: 5%
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
-| 获取当前用户 | `approvals_get_current_user` | 返回呼叫用户的Workfront身份，包括名称、用户ID、主团队名称和主团队ID。 | 读取 |
-| 按名称查找用户 | `approvals_find_user_by_name` | 按名称（模糊或部分匹配）查找Workfront用户的ID。 返回名称、ID、电子邮件、标题和头像URL。 | 读取 |
-| 按名称查找团队 | `approvals_find_team_by_name` | 按名称（模糊或部分匹配）查找Workfront团队的ID。 | 读取 |
 | 按名称查找项目 | `approvals_find_project_by_name` | 通过系统中的部分名称匹配查找Workfront项目。 | 读取 |
 | 按所有者获取项目 | `approvals_get_projects_by_owner` | 列出呼叫用户是所有者的Workfront项目。 | 读取 |
-| 查找项目 | approvals_find_projects | 查找Workfront项目，可以选择按名称筛选和/或限制到调用用户拥有的项目。 | 读取 |
-
 
 ## 规划工具
 
@@ -212,10 +207,64 @@ ht-degree: 5%
 | --- | --- | --- | --- |
 | 搜索对象 | `workflow_search_any_object` | 使用灵活的过滤器参数、排序和分页搜索Workfront对象。 | 读取 |
 | 创建对象 | `workflow_create_any_object` | 创建新的Workfront对象，如项目、任务、问题、小时、分配、项目群或项目组合。 | 写入 |
-| 更新对象 | `workflow_update_any_object` | 更新现有Workfront对象中的字段。 | 写入 |
+| 更新对象 | `workflow_update_any_object` | 更新现有对象的字段。 还支持将任务或问题移动到另一个项目，将任务或问题转换为新项目（或问题转换为任务），以及设置任务前置任务（依赖项）。 | 写入 |
 | 删除对象 | `workflow_delete_any_object` | 按ID删除Workfront对象。 需要明确的用户确认才能执行操作。 | 写入 |
 | 解析字段名称 | `workflow_resolve_field_names_any_object` | 将用户提供的字段名称或标签转换为底层Workfront API字段名称，以便AI代理平台可以构建准确的请求。 | 读取 |
 | 读取工作流文档 | `workflow_read_workflow_docs` | 加载Workfront工作流文档，包括工具使用指南和特定于对象的操作行动手册。 这是执行工作流操作之前所需的第一步。 | 读取 |
+
+### 更新对象工具功能
+
+更新对象工具不仅会更改字段值。 它还可以重新定位项目之间的工作，将工作项升级为新对象，以及连接任务依赖关系。
+
+#### 将任务或问题移动到其他项目
+
+正在将工作项移回原位。 对象保留其标识和链接，它只是存在于不同的项目或父任务中。
+
+>[!NOTE]
+>
+>在纯字段更新中设置项目字段不会移动任务或问题。 请改用移动功能。
+
+* **移动任务**：将任务移动到目标项目，并可选择在目标父任务下。
+* **移动问题**：将问题（请求）移动到目标项目。
+
+示例提示：
+
+* “将任务&#x200B;*线框*&#x200B;移动到&#x200B;*移动设备应用程序重新设计*&#x200B;项目。”
+* “将此请求移动到&#x200B;*Q4 Launch*&#x200B;项目下。”
+
+#### 将问题或任务转换为项目
+
+>[!NOTE]
+>
+>转换将生成一个新对象。 在流程中消耗源项目。
+
+* **将任务转换为项目**：根据该任务创建新项目。 您可以选择复制任务的自定义数据，并根据项目模板创建新项目。
+* **将问题（请求）转化为项目**：根据问题创建新项目。 您可以选择复制问题的自定义数据，复制其本机字段值，并应用项目模板。
+* **将问题（请求）转换为任务**：根据问题在现有项目上创建任务。
+
+每次转换都将返回新创建的对象以及一个链接，以便您可以直接在Workfront中打开该对象。
+
+示例提示：
+
+* “使用我们的标准模板将任务&#x200B;*网站刷新*&#x200B;转换为名为&#x200B;*网站刷新2026*&#x200B;的项目。”
+* “将此请求转换为项目并复制其自定义字段。”
+
+#### 设置任务前置任务（依赖项）
+
+您可以定义任务的前置任务。 前置任务支持以下依赖项类型，外加可选的滞后时间：
+
+* **完成 — 开始(FS)**：任务在其前置任务完成时开始。 （默认）
+* **开始 — 开始(SS)**：任务在其前置任务开始时开始。
+* **完成 — 完成(FF)**：任务在其前置任务完成时完成。
+* **开始 — 完成(SF)**：任务在前置任务开始时完成。
+
+您可以在工作日添加延迟（延迟）或潜在客户（负延迟），在单个任务上链接多个前置任务，并在其他项目中引用任务。
+
+示例提示：
+
+* “使&#x200B;*开发*&#x200B;在&#x200B;*设计*&#x200B;完成后开始。”
+* “将&#x200B;*QA*&#x200B;设置为在&#x200B;*开发*&#x200B;开始时开始，并滞后两天。”
+* “将任务#3和任务#5添加为&#x200B;*Launch*&#x200B;的前置任务。”
 
 ### 评论
 
@@ -245,6 +294,7 @@ ht-degree: 5%
 | 查找Workfront数据 | `insights_find_workfront_data` | 查找、筛选、计数、排序和聚合Workfront数据。 这是主要的查询和报告工具。 | 读取 |
 | 总结对象 | `insights_summarize_object` | 按ID获取并汇总单个Workfront对象。 | 读取 |
 | 列出实体 | `insights_list_entities` | 列出所有可用于查询的Workfront对象类型。 | 读取 |
+| 搜索用户 | `insights_search_users` | 在Workfront实例中按名称查找人员。 键入完整或部分名称，然后返回最匹配的用户。 这还可以选择将AI-collaborator“机器人”与常规用户一起包含。 | 读取 |
 
 
 

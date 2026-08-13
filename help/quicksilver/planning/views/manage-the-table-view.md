@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 4011
+source-wordcount: 4030
 ht-degree: 2%
 
 ---
@@ -337,7 +337,7 @@ Old:
    >
    >您对行顺序所做的更改对同一视图中访问该记录类型的所有用户均可见。
    >
-   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
+   ><span class="preview">在拖放行中，如果有多个记录，则数字指示器会显示所选记录数。</span>
 
 1. （可选）单击记录右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑缩略图**&#x200B;以编辑缩略图。
 1. 单击表顶部的&#x200B;**字段**，然后为&#x200B;**缩略图**&#x200B;字段选择切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
