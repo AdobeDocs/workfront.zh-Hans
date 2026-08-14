@@ -9,19 +9,14 @@ exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IICvipFI1uZkMpwcdiFM9K9pweav2TL8zu-GdDB73bU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 11%
+source-wordcount: 1229
+ht-degree: 9%
 
 ---
 
@@ -29,8 +24,8 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。在此阶段，部分功能可能无法完成或无法按预期工作。请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
 >请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
@@ -190,6 +185,18 @@ ht-degree: 11%
 * 文档审批阶段>文档审批阶段参与者
 
 使用上面列出的任何父子关系时，您将在表中看到连接到父对象的每个子记录的一行。
+
+### 从画布功能板报告中排除个人项目、任务和机器人用户
+
+>[!NOTE]
+>
+>如果与类似的经典报表相比，画布功能板报表返回的结果多于您的预期，则默认情况下可能包含个人项目、个人任务或机器人用户。 添加筛选条件以排除它们。
+
+在画布功能板项目和任务报告中，不会自动应用`isPersonal`筛选器，因此默认情况下结果中包含个人项目和个人任务。 要排除它们，请添加筛选条件，如`isPersonal=false`。
+
+同样，默认情况下，画布功能板用户报表包含所有用户，包括AI协作者（机器人用户）。 要排除机器人用户，请添加筛选条件，如`isBot=false`。
+
+传统项目和任务报表自动排除个人项目和个人任务，而传统用户报表自动排除机器人用户。 要将其包含在传统报表中，请添加筛选条件，如`isPersonal=true`（仅个人项目）或`isPersonal_Mod=notnull`（个人和非个人项目）。
 
 ### 按字段类型划分的字段运算符
 
