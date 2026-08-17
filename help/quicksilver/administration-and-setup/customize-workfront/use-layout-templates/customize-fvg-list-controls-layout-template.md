@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: 847
 ht-degree: 2%
 
 ---
@@ -81,9 +75,6 @@ ht-degree: 2%
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/down-arrow-blue.png)，然后在显示的下拉菜单中单击&#x200B;**列表**。
-
-   ![自定义用户看到的内容](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. 单击&#x200B;**下的向下箭头![向下箭头](assets/down-arrow-blue.png)选择要自定义的列表**，然后选择要为其自定义筛选器、视图和分组列表控件的Workfront对象的类型。
 
    ![选择要自定义的列表](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)

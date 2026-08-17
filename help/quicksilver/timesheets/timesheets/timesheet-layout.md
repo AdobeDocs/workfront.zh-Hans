@@ -10,17 +10,12 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wpqLg8-2NszOeqT--4RxDP0pZEEnYyPW7UzQeqaLJIo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 1%
@@ -45,7 +40,7 @@ ht-degree: 1%
 
 有关如何记录时间表的详细信息，请参阅[记录时间](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-![时间表布局](assets/timesheet-layout-unshimmed.png)
+![时间表布局](assets/timesheet-layout-leftnav-updated.png)
 
 以下是时间表区域：
 
@@ -71,8 +66,8 @@ ht-degree: 1%
 
 * 时间表的时间范围。
 * “操作”区域包含以下内容：
-   * 一个星形图标，用于将时间表添加到收藏夹列表。
-   * 带有删除选项的“更多”图标允许您删除时间表。
+  * 一个星形图标，用于将时间表添加到收藏夹列表。
+  * 带有删除选项的“更多”图标允许您删除时间表。
 * 时间表所有者的名称。
 * 为时间表中显示的项目记录的小时数总计。
 * 加班小时数。 这是手动输入，仅当在时间表上启用&#x200B;**加班**&#x200B;设置时才会显示。 有关详细信息，请参阅[编辑工时表信息](../create-and-manage-timesheets/edit-timesheets.md)。
@@ -90,7 +85,7 @@ ht-degree: 1%
 您可以在左侧面板中访问以下部分：
 
 * **时间表**：显示实际时间表。
-* **更新**：显示时间表的注释和系统更新。 有关详细信息，请参阅本文左侧面板[&#128279;](#updates-area-in-the-left-panel)中的更新区域。
+* **更新**：显示时间表的注释和系统更新。 有关详细信息，请参阅本文左侧面板](#updates-area-in-the-left-panel)中的[更新区域。
 
 ## 工作项
 

@@ -10,19 +10,14 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 1%
 
 ---
@@ -124,9 +119,8 @@ ht-degree: 1%
 
 {{step1-click-main-menu}}
 
-1. 单击&#x200B;[!UICONTROL **时间表**]。默认情况下显示您当前的工时表。
-   ![时间表](assets/timesheet-redesigned-nwe.png)
-
+1. 单击&#x200B;[!UICONTROL **时间表**]。 默认情况下显示您当前的工时表。
+   ![时间表](assets/timesheet-layout-leftnav-updated.png)
 
 1. （可选）单击&#x200B;**全屏**&#x200B;图标![](assets/full-screen.png)以全屏模式显示时间表，然后单击&#x200B;**退出全屏** ![](assets/exit-full-screen.png)图标以返回时间表。
 
@@ -153,9 +147,9 @@ ht-degree: 1%
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击&#x200B;**全部添加**&#x200B;以添加所有项
-或
-单击&#x200B;**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
+   单击&#x200B;**全部添加**以添加所有项
+   或
+   单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 
@@ -288,7 +282,7 @@ ht-degree: 1%
 
 1. （可选）单击左侧面板中的&#x200B;[!UICONTROL **更新**]，然后将更新添加到时间表。 有关Workfront更新的详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. （可选）返回到&#x200B;**时间表**&#x200B;区域以关闭或提交您的时间表。
 
@@ -492,7 +486,7 @@ ht-degree: 1%
 
 ### 展示板 {#boards}
 
-您可以在Workfront展示板上的已连接信息卡上记录时间。这与在任务或问题上记录时间是同一过程，卡片上记录的小时数将保存在连接的任务或问题上。
+您可以在Workfront展示板上的已连接信息卡上记录时间。 这与在任务或问题上记录时间是同一过程，卡片上记录的小时数将保存在连接的任务或问题上。
 有关详细信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ### 移动设备应用程序 {#mobile-app}
@@ -526,19 +520,19 @@ ht-degree: 1%
 
 * 编辑特定于项目的小时数时：
 
-   * 小时数
-   * 小时类型。 您只能将小时类型更改为项目特定的类型。
-   * 工作角色分配。 只有在“设置”中启用了工作角色分配时，才能更改工作角色分配。 有关信息，请参阅[配置工时表和小时首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * 小时条目的描述。
+  * 小时数
+  * 小时类型。 您只能将小时类型更改为项目特定的类型。
+  * 工作角色分配。 只有在“设置”中启用了工作角色分配时，才能更改工作角色分配。 有关信息，请参阅[配置工时表和小时首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * 小时条目的描述。
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * 编辑常规小时数时：
 
-   * 小时数。
-   * 小时类型。 您只能将小时类型更改为常规类型。
-   * 小时条目的描述。
+  * 小时数。
+  * 小时类型。 您只能将小时类型更改为常规类型。
+  * 小时条目的描述。
 
 >[!TIP]
 >
@@ -551,8 +545,8 @@ ht-degree: 1%
 
 * 当您批量编辑常规和项目特定小时组合时：
 
-   * 小时数。
-   * 小时条目的描述。
+  * 小时数。
+  * 小时条目的描述。
 
 >[!TIP]
 >
@@ -585,6 +579,6 @@ ht-degree: 1%
 1. 单击&#x200B;**保存更改**。
 
    更新小时条目信息。
-如果您选择了多个小时条目并修改了小时字段，则会将相同的小时数分配给所有选定的小时条目。所有所选小时条目的原始小时数将被新值替换。
+   如果您选择了多个小时条目并修改了小时字段，则会将相同的小时数分配给所有选定的小时条目。 所有所选小时条目的原始小时数将被新值替换。
 
 
