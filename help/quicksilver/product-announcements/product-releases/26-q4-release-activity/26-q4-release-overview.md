@@ -212,7 +212,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将图像附加到Adobe云存储对象上的注释</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将图像附加到Adobe云存储对象上的注释</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>现在，作为统一审查和批准的一部分，使用Adobe云存储的组织可以将图像文件直接附加到评论。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -318,7 +318,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器批量分配增强功能</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器批量分配增强功能</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>在工作负载均衡器批量分配对话框中，<strong>替换</strong>操作已重命名为<strong>分配</strong>，以便更好地描述该操作的用途。 功能未发生更改。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -341,7 +341,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左侧导航面板图标的界面更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左侧导航面板图标的界面更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>我们更新了Workfront中左侧导航面板图标的外观，以提供现代设计和与其他Adobe应用程序一致的体验。</p>
             </td>
             <td><p>2026年7月30日</p></td>
