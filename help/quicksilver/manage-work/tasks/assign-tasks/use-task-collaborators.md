@@ -4,16 +4,14 @@ content-type: reference
 description: 了解如何使用可分配给Workfront任务的任务协作者、AI协作者。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
 
 # 使用任务协作者
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
 任务协作者是指可直接分配给Workfront任务的AI协作者，此外还有用于文档和资产审阅的现有审阅者类型AI协作者。 与其他AI协作者一样，任务协作者在“设置”区域中配置，并像用户一样分配给任务。
 
@@ -35,11 +33,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
