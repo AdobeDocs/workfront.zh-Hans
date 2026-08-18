@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1377'
 ht-degree: 2%
 
 ---
@@ -46,11 +46,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -201,5 +201,4 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
 1. 在左侧导航中，单击&#x200B;**AI协作者**。
 1. （视情况而定）要编辑Collaborator，请单击要编辑的Collaborator的名称，在“编辑Collaborator”窗口中进行任何编辑，然后单击&#x200B;**保存**。
-1. （视情况而定）要复制Collaborator，请单击要复制的AI Collaborator行中的“复制”图标![复制图标](assets/copy-ai-collaborator.png)，单击副本的名称，在“编辑Collaborator”窗口中进行任何编辑，然后单击&#x200B;**保存**。
 1. （视情况而定）要删除协作者，请单击要删除的AI协作者行中的“删除”图标![“删除”图标](assets/delete-collaborator-icon.png)，然后单击&#x200B;**删除**。
