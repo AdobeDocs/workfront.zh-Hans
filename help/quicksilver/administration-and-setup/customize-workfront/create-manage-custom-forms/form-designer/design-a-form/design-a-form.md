@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
+source-wordcount: 8071
 ht-degree: 4%
 
 ---
@@ -852,8 +852,6 @@ To add typeahead and date fields:
 >* 重试之间的等待持续时间：500毫秒
 >* 预期响应状态： 2xx
 
-
-
 ### 添加内部查找字段
 
 内部查找字段允许用户键入Workfront中存在的对象的名称。 用户开始键入内容时，将显示建议列表。 例如，如果用户正在键入用户名，则会显示匹配名称列表。 以下对象支持内部查找字段类型：
@@ -871,6 +869,12 @@ To add typeahead and date fields:
 * 问题
 * 文档
 * 位置
+
+>[!NOTE]
+>
+>预输入字段不再可用于添加到自定义表单。 您可以通过单击右侧字段选项中的按钮，将现有的预输入转换为内部查找。 转换时，历史数据将保留在字段中，并在报表中以相同的方式使用。
+> 
+>另请注意，如果预输入字段包含在环境促销活动包中，则该字段会在促销活动发生时自动转换为内部查找。 有关环境升级的详细信息，请参阅[在Workfront环境之间移动对象的概述（环境升级）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
 
 要添加内部查找，请执行以下操作：
 

@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 有关如何记录时间表的详细信息，请参阅[记录时间](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-![时间表布局](assets/timesheet-layout-unshimmed.png)
+![时间表布局](assets/timesheet-layout-leftnav-updated.png)
 
 以下是时间表区域：
 
@@ -71,8 +71,8 @@ ht-degree: 1%
 
 * 时间表的时间范围。
 * “操作”区域包含以下内容：
-   * 一个星形图标，用于将时间表添加到收藏夹列表。
-   * 带有删除选项的“更多”图标允许您删除时间表。
+  * 一个星形图标，用于将时间表添加到收藏夹列表。
+  * 带有删除选项的“更多”图标允许您删除时间表。
 * 时间表所有者的名称。
 * 为时间表中显示的项目记录的小时数总计。
 * 加班小时数。 这是手动输入，仅当在时间表上启用&#x200B;**加班**&#x200B;设置时才会显示。 有关详细信息，请参阅[编辑工时表信息](../create-and-manage-timesheets/edit-timesheets.md)。

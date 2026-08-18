@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 43a7537c3b4e8ce34e57c411cf8c8ae178bb4653
 workflow-type: tm+mt
 source-wordcount: 768
 ht-degree: 4%
@@ -86,7 +86,7 @@ ht-degree: 4%
 
 1. 在下面显示的列表中，单击要为其定制“摘要”面板的对象类型。
 
-   下表说明了可为每个对象自定义的内容
+   下表说明了可为每个对象自定义的内容：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +96,7 @@ ht-degree: 4%
       <td role="rowheader">任务</td> 
       <td> <p>在任务列表中，此设置会影响当用户选择任务，然后单击“打开摘要”图标<img src="assets/summary-panel-icon.png">时显示在页面右侧的“摘要”面板。</p>
 
-   <p> <img src="assets/summary-details.jpg"> </p> </td> 
+   <p> <img src="assets/summary-area.png"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">问题</td> 
@@ -105,37 +105,9 @@ ht-degree: 4%
     </tbody> 
    </table>
 
-<!--
-These were removed with the new Home: 
-
-<tr> 
-      <td role="rowheader">Projects</td> 
-      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul> 
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td>
-     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Document Versions</td> 
-      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr>
-     -->
-
-
->[!IMPORTANT]
->
->如果任务未分配，则分配到布局模板的用户将看不到摘要中的字段自定义设置。
+   >[!IMPORTANT]
+   >
+   >如果任务未分配，则分配到布局模板的用户将看不到摘要中的字段自定义设置。
 
 1. （视情况而定）如果您在上一步中单击了任务或问题，请选择要自定义的任务或问题类别。
 
@@ -187,3 +159,32 @@ These were removed with the new Home:
    如果您已完成自定义，请单击&#x200B;**保存并关闭**。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
+
+
+
+<!--
+These table rows were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Documents</td> 
+      <td>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr>
+     -->
