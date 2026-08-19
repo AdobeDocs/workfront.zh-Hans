@@ -6,7 +6,7 @@ description: 了解当您的组织迁移到支持统一审批的Workfront版本�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: b612a50b7445732f90b7de2a216f4bca499fd96b
+source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -34,8 +34,6 @@ ht-degree: 1%
 | 审阅和标记 | 校对查看器 | 旧版Workfront存储对象上的[验证查看器](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)，或Adobe云存储对象上的[Frame.io查看器](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) |
 | AI辅助审查 | 不可用 | 通过[内容审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)自动进行品牌符合性检查 |
 | 报告 | 旧版报表 | 主KPI小组件和[画布功能板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
-
-
 
 ### 对已在进行中的审批有何影响
 
