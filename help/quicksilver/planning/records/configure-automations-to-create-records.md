@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 4%
 
 ---
@@ -215,11 +215,11 @@ Old:
       >[!IMPORTANT]
       >
       >* 每个条件中的修饰符均会随您选择的字段类型而更改。
-      >* 当字段有多个选定值时，每个条件都可以贡献多个过滤器。 您的条件中的过滤器总数不能超过5个，并且过滤器组也不能嵌套。 如果配置超出此限制，条件下会显示内联错误，并且您必须减少所选选项或条件的数量才能保存自动化。
+      >* 每个条件都可以引用一个或多个值。 在所有条件中，您最多可以引用5个总值，这与您创建的条件数无关。 例如，具有3个条件（共同引用6个值）的配置超出限制。 无法嵌套条件。 如果配置超出5值限制，条件下方会显示内联错误，并且只有在减少引用值的数量后，才能保存自动化。
       >
       >   如果您需要的条件比该限制允许的多，请将工作分为两个单独的自动化。
       >
-      >   有关详细信息，请参阅&#x200B;*事件订阅*&#x200B;中的[使用筛选器组](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
+      >   有关详细信息，请参阅文章事件订阅中的[使用筛选器组](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
 
 1. 更新&#x200B;**操作**&#x200B;部分中的以下字段： <!--submitted bugs for these fields - see if they need changing here-->
    * **操作**：选择在触发自动操作时希望Workfront执行的操作。 这是必填字段。

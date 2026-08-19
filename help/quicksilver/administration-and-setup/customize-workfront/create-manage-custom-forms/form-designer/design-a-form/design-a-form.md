@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
+source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
 workflow-type: tm+mt
-source-wordcount: 8071
+source-wordcount: 8056
 ht-degree: 4%
 
 ---
@@ -165,11 +165,11 @@ ht-degree: 4%
 
 * 每个自定义字段API名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。
 
-* 虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，请勿更改此API名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
+* 默认情况下，API名称是只读的。 虽然可以这样做，但我们建议在Workfront中使用自定义表单后，不要更改此API名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
 
   例如，如果您将自定义字段添加到报表后又更改了其API名称，Workfront将无法识别报表中的该字段，并且除非您使用新名称将其重新添加到报表中，否则该字段将无法在报表中正常运行。
 
-* 默认情况下，API名称是只读的。 要使API名称可编辑，请单击&#x200B;**API名称**&#x200B;旁边的&#x200B;**编辑**&#x200B;图标。 然后，在确认框中键入&#x200B;**confirm**，然后单击&#x200B;**重命名字段**。
+  您还可以中断依赖字段API名称的现有集成和计算。
 
 * 我们建议您不要键入已用于内置Workfront字段的API名称。
 

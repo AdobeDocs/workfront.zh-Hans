@@ -23,16 +23,14 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: 1247
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
 
 # 使用布局模板自定义左侧面板
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -40,11 +38,7 @@ ht-degree: 2%
 
 例如，您可以确定用户在查看项目时在左侧面板中看到的以下哪些项目：
 
-预览环境中的<span class="preview">示例图像：</span>
 ![项目的左侧面板](assets/left-panel-in-project-072326.png)
-
-生产环境中的示例图像：
-![项目的左侧面板](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
