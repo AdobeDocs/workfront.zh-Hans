@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 4030
+source-wordcount: 4047
 ht-degree: 2%
 
 ---
@@ -181,7 +176,21 @@ Old:
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-创建表视图时，选定类型的所有记录都会显示在表中。 每一行是一个唯一记录，每一列是一个记录字段。 默认情况下，显示所有字段和所有记录。
+在表格视图中，所选记录类型的所有记录都以表格格式显示。 每一行是一个唯一记录，每一列是一个记录字段。
+
+默认情况下，以下内容显示在表格视图中：
+
+* 所选记录类型的所有字段和所有记录。
+
+<!--
+<div class="preview">
+
+* 500 records upload automaticall. Additional records display as you scroll the view. 
+
+</div>
+-->
+
+默认显示500条记录
 
 要管理表视图，请执行以下操作：
 
@@ -288,6 +297,12 @@ Old:
       您可以使用屏幕上可见的任何单词或特殊字符。
 
       不能使用与表格视图中隐藏的字段关联的关键字。
+
+      <!--
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
 
    1. 在键盘上按&#x200B;**Enter**&#x200B;键以转到下一个找到的字段。
 
@@ -569,7 +584,7 @@ Old:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -578,7 +593,12 @@ Old:
 * 当按查找字段对具有多个值（尚未由聚合器汇总）的字段进行分组时，记录将按字段值的每个唯一组合进行分组。
 * 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建分组，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则可以在为活动记录类型创建的分组中引用项目的状态。
 * 分组按其值的字母顺序列出。
-  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+-->
+
+<!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 要添加分组，请执行以下操作：
 

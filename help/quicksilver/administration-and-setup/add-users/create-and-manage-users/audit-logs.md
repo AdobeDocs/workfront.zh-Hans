@@ -9,17 +9,12 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 TQID: https://experienceleague.adobe.com/b8KE8bhRtjvjNMP7PITNODthh1ihA-RufLVZZFo427A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 3%
@@ -102,14 +97,14 @@ ht-degree: 3%
 * 删除访问级别
 * 更改访问级别：
 
-   * 修改许可证类型
-   * 更改项目、任务、问题、项目组合、项目、报告、文档、用户或模板的权限
+  * 修改许可证类型
+  * 更改项目、任务、问题、项目组合、项目、报告、文档、用户或模板的权限
 
-     >[!NOTE]
-     >
-     >系统不会记录对“财务数据”或以下访问类型中的任何权限更改：“查看”和“编辑”。
-     >
-     >例如，如果用户将Planner访问类型从查看更改为编辑，系统不会显示微调设置下拉菜单中包含的信息。
+    >[!NOTE]
+    >
+    >系统不会记录对“财务数据”或以下访问类型中的任何权限更改：“查看”和“编辑”。
+    >
+    >例如，如果用户将Planner访问类型从查看更改为编辑，系统不会显示微调设置下拉菜单中包含的信息。
 
 ### 企业配置文件
 
@@ -121,16 +116,16 @@ ht-degree: 3%
 
 ### 业务规则
 
-Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关详细信息，请参阅[创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
+Business Rules仅适用于已购买Ultimate Workfront包的客户。 有关详细信息，请参阅[创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
 
 当用户执行以下操作之一时，系统会生成一个Business Rule审核日志条目：
 
 * 创建业务规则
 * 编辑业务规则：
 
-   * 重命名
-   * 添加或删除表达式
-   * 更改触发器
+  * 重命名
+  * 添加或删除表达式
+  * 更改触发器
 
 * 删除业务规则
 
@@ -141,13 +136,13 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 创建公司
 * 更改公司：
 
-   * 重命名
-   * 添加或删除成员
-   * 添加、编辑或删除其组字段中的值
-   * 添加或编辑工作角色的公司记帐费率
-   * 删除工作角色的公司记帐费率
-   * 将其设置为组织的主要公司
-   * 附加或移除自定义表单
+  * 重命名
+  * 添加或删除成员
+  * 添加、编辑或删除其组字段中的值
+  * 添加或编辑工作角色的公司记帐费率
+  * 删除工作角色的公司记帐费率
+  * 将其设置为组织的主要公司
+  * 附加或移除自定义表单
 
 * 删除公司
 
@@ -160,11 +155,11 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 创建条件
 * 更改条件：
 
-   * 更改名称
-   * 更改颜色
-   * 将其设置为默认值
-   * 更改或删除条件的描述
-   * 隐藏或显示条件
+  * 更改名称
+  * 更改颜色
+  * 将其设置为默认值
+  * 更改或删除条件的描述
+  * 隐藏或显示条件
 
 * 删除条件
 
@@ -177,21 +172,21 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 创建自定义字段
 * 更改自定义字段：
 
-   * 更改API名称、标签、说明或格式
-   * 更改显示类型
+  * 更改API名称、标签、说明或格式
+  * 更改显示类型
 
-     仅当字段是以下类型之一时，此选项才可用：单行、段落、下拉列表、复选框、单选按钮
+    仅当字段是以下类型之一时，此选项才可用：单行、段落、下拉列表、复选框、单选按钮
 
-   * 更改字段大小
+  * 更改字段大小
 
-     仅当字段是以下类型之一时才可用：单行、段落、富文本
+    仅当字段是以下类型之一时才可用：单行、段落、富文本
 
-   * 添加、删除或隐藏字段选项
-   * 编辑字段选择标签或值
-   * 将字段选择配置为默认选中或不选中
-   * 将下拉字段配置为允许多选或单选
-   * 配置日期字段以显示或不显示时间
-   * 编辑超链接或更改描述性文本字段中的值
+  * 添加、删除或隐藏字段选项
+  * 编辑字段选择标签或值
+  * 将字段选择配置为默认选中或不选中
+  * 将下拉字段配置为允许多选或单选
+  * 配置日期字段以显示或不显示时间
+  * 编辑超链接或更改描述性文本字段中的值
 
 * 删除自定义字段
 * 共享自定义字段
@@ -203,17 +198,17 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 创建自定义表单
 * 更改自定义表单：
 
-   * 更改名称或描述
-   * 启用或禁用“活动”
-   * 添加或删除字段或部分
-   * 对于自定义部分，将更改其他设置下的设置
-   * 将字段更改为必填或非必填字段
-   * 更改自定义字段中的计算
-   * 在说明悬停文本中隐藏或显示与计算字段关联的公式
-   * 启用或禁用更新以前的计算
-   * 添加或更改字段逻辑
+  * 更改名称或描述
+  * 启用或禁用“活动”
+  * 添加或删除字段或部分
+  * 对于自定义部分，将更改其他设置下的设置
+  * 将字段更改为必填或非必填字段
+  * 更改自定义字段中的计算
+  * 在说明悬停文本中隐藏或显示与计算字段关联的公式
+  * 启用或禁用更新以前的计算
+  * 添加或更改字段逻辑
 
-     <!--   
+    <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -237,9 +232,9 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 创建汇率
 * 更改汇率：
 
-   * 添加货币
-   * 更改币种的汇率
-   * 将货币设置为系统中所有项目和报表的基本（默认）货币
+  * 添加货币
+  * 更改币种的汇率
+  * 将货币设置为系统中所有项目和报表的基本（默认）货币
 
 * 删除汇率
 
@@ -253,8 +248,8 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 删除组
 * 更改组：
 
-   * 添加或删除用户
-   * 添加或删除子组
+  * 添加或删除用户
+  * 添加或删除子组
 
 ### 职位角色 {#job-role}
 
@@ -263,10 +258,10 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 创建工作角色
 * 更改工作角色：
 
-   * 更改名称
-   * 添加、更改或删除说明
-   * 添加、更改或删除每小时成本（成本/小时）
-   * 添加、更改或删除记帐费率（计费/小时）
+  * 更改名称
+  * 添加、更改或删除说明
+  * 添加、更改或删除每小时成本（成本/小时）
+  * 添加、更改或删除记帐费率（计费/小时）
 
 * 删除工作角色
 
@@ -299,11 +294,11 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 * 创建优先级
 * 更改优先级：
 
-   * 更改名称
-   * 更改颜色
-   * 将其设置为默认值
-   * 添加、更改或删除优先级的说明
-   * 隐藏或显示优先级
+  * 更改名称
+  * 更改颜色
+  * 将其设置为默认值
+  * 添加、更改或删除优先级的说明
+  * 隐藏或显示优先级
 
 * 删除优先级
 
@@ -316,10 +311,10 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 * 创建自定义季度
 * 更改项目偏好设置：
 
-   * 锁定或解除锁定
-   * 更改其中一个设置
-   * 启用、禁用或编辑它
-   * 编辑时间线计算
+  * 锁定或解除锁定
+  * 更改其中一个设置
+  * 启用、禁用或编辑它
+  * 编辑时间线计算
 
 * 删除自定义季度
 
@@ -332,11 +327,11 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 * 创建问题严重性
 * 更改问题严重性：
 
-   * 更改名称
-   * 更改颜色
-   * 将其设置为默认值
-   * 更改或移除严重程度的描述
-   * 隐藏或显示严重程度
+  * 更改名称
+  * 更改颜色
+  * 将其设置为默认值
+  * 更改或移除严重程度的描述
+  * 隐藏或显示严重程度
 
 * 删除问题严重程度
 
@@ -349,11 +344,11 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 * 在系统或组级别创建状态
 * 更改系统或组级别上的状态：
 
-   * 重命名
-   * 使其成为默认状态
-   * 锁定或解除锁定
-   * 隐藏或取消隐藏它
-   * 更改颜色或描述
+  * 重命名
+  * 使其成为默认状态
+  * 锁定或解除锁定
+  * 隐藏或取消隐藏它
+  * 更改颜色或描述
 
 * 删除系统或组级别上的状态
 
