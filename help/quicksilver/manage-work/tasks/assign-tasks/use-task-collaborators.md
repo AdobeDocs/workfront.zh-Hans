@@ -4,9 +4,9 @@ content-type: reference
 description: 了解如何使用可分配给Workfront任务的任务协作者、AI协作者。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -66,6 +66,24 @@ ht-degree: 1%
 >* 任务协作者当前支持在Copilot Studio、Claude和Writer.ai中创建的代理。
 >* 在Copilot Studio中配置代理时，必须将安全性设置为&#x200B;**无身份验证**。
 >* 有关在Workfront中创建任务协作者的信息和说明，请参阅配置AI协作者一文中的[配置任务协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
+
+## 任务协作者读取的信息
+
+当任务协作者开始处理任务时，它会自动读取以下任务信息作为上下文：
+
+* 任务标题
+* 任务描述
+* 任务更新流中的注释
+* 附加到任务的任何自定义表单中的信息
+
+此信息始终读取，不能配置为Workfront设置。
+
+>[!TIP]
+>
+>为获得最佳结果，我们建议：
+>
+>* 包括您希望座席直接在任务描述或相关自定义表单字段中使用的任何背景信息。
+>* 确保任务与工程师应执行的操作相匹配。 例如，如果指示工程师将文本从英语翻译为法语，请在任务说明中包括要翻译的文本。
 
 ## 任务协作器启动触发器
 
