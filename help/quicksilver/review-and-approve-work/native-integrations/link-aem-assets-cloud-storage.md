@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
-description: 如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的内容和文件夹链接到支持文档的任何Adobe Workfront对象。
+title: 将Experience Manager Assets中的资源与Adobe云存储关联
+description: 如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的资源链接到支持文档的任何Adobe Workfront对象。
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
 
-# 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
+# 将Experience Manager Assets中的资源与Adobe云存储关联
 
-如果您的组织使用Adobe云存储，您可以将内容和文件夹从Experience Manager Assets链接到Workfront。 链接后，您可以在Workfront中查看和管理内容，对Experience Manager Assets中的内容所做的任何更改都将反映在Workfront中。
+如果您的组织使用Adobe云存储，您可以将资源从Experience Manager Assets链接到Workfront。 链接后，您可以在Workfront中查看和管理资源，对Experience Manager Assets中的资源所做的任何更改都将反映在Workfront中。
 
 >[!IMPORTANT]
 >
->如果贵组织拒绝签署GenAI Rider协议，您仍可以使用Content Advisor在Experience Manager Assets中选择资源和文件夹，但您将无法访问由AI支持的功能，例如AI 搜索、智能建议或分析活动简报。
+>如果贵组织拒绝签署GenAI Rider协议，您仍可以使用Content Advisor在Experience Manager Assets中选择资源，但您将无法访问由AI支持的功能，例如AI 搜索、智能建议或分析活动简报。
 
 ## 访问权限要求
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 * 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
-* 要使用Smart建议或Campaign Briefs功能，您必须签署GenAI Rider。 有关详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)。
+* 要使用Smart建议或Campaign Briefs功能，您必须签署GenAI Rider。 有关详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)。
 
 ## 从Experience Manager Assets链接内容
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 1. 转到要在其中链接内容的Workfront对象。
 1. 单击左侧面板中的&#x200B;**文档**&#x200B;部分。
-1. 单击页面右侧的&#x200B;**新建**，然后单击&#x200B;**AEM文件**&#x200B;以链接单个资源。
+1. 单击页面右侧的&#x200B;**新建**，然后单击&#x200B;**AEM文件**以链接单个资源。
    ![将AEM文件添加到文档区域](assets/aem-files.png)
 
 1. 使用内容审查程序，您可以：
@@ -83,45 +83,45 @@ ht-degree: 2%
    <tbody>
       <tr>
          <td><strong>使用AI 搜索搜索资源。</strong> 使用AI支持的搜索，该搜索理解查询背后的含义和意图，支持多种语言、拼写错误和同义词。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">更智能的资源发现AI 搜索</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">更智能的资源发现AI 搜索</a>。</td>
       </tr>
       <tr>
          <td><strong>根据上下文和意图查看智能建议。</strong> 使用宿主Adobe应用程序提供的上下文感知推荐，探索符合您的内容需求的资源。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">基于上下文和意图的智能建议</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">基于上下文和意图的智能建议</a>。</td>
       </tr>
       <tr>
          <td><strong>上传营销活动简报以发现相关资源。</strong> 上传PDF、DOCX或TXT营销活动简介文档，以便内容顾问可以分析该文档并推荐相关资源。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">发现相关资产的Campaign简介</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">发现相关资产的Campaign简介</a>。</td>
       </tr>
       <tr>
          <td><strong>查看和选择Dynamic Media资源演绎版。</strong> 浏览渠道优化演绎版（包括图像预设、智能裁剪和格式类型），并应用Dynamic Media修饰符实时预览调整。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
       </tr>
       <tr>
          <td><strong>将Dynamic Media修饰符应用于演绎版。</strong> 添加修饰符以实时转换资源演绎版，并在为主机应用程序选择演绎版之前预览结果。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
       </tr>
       <!--
       <tr>
          <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
-         <td>For more information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
       -->
       <tr>
          <td><strong>访问资源元数据。</strong> 查看与Assets视图一致的资源属性，例如标题、描述、格式、大小和其他元数据选项卡（产品、营销活动、标记）。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">访问与Assets视图一致的资源元数据</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">访问与Assets视图一致的资源元数据</a>。</td>
       </tr>
       <tr>
          <td><strong>使用预定义筛选器筛选资源。</strong> 使用文件类型、文件格式、资源状态、文件大小、图像宽度、图像高度、修改日期和创建日期等过滤器优化资源结果。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">与Assets视图一致的访问筛选器</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">与Assets视图一致的访问筛选器</a>。</td>
       </tr>
       <tr>
          <td><strong>保存并重用搜索。</strong> 通过指定搜索词和过滤器选项创建保存的搜索，然后在Experience Manager Assets和其他Adobe应用程序中重复使用它们。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">访问和重复使用最近和保存的搜索</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">访问和重复使用最近和保存的搜索</a>。</td>
       </tr>
       <tr>
          <td><strong>在收藏集间和收藏集中搜索资产。</strong> 在所有收藏集中搜索资产或收藏集，或将搜索限制在特定收藏集中。</td>
-         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">在收藏集间和收藏集中搜索资产</a>。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">在收藏集间和收藏集中搜索资产</a>。</td>
       </tr>
    </tbody>
    </table>
