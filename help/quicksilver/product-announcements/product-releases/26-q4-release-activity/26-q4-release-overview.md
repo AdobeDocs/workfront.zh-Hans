@@ -4,9 +4,9 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1430'
 ht-degree: 2%
 
 ---
@@ -60,12 +60,12 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
                 <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
             </td>
-            <td><p>August 13, 2026</p></td>
+            <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
- -->  
-      <tr>
+-->
+        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">组管理员可以管理业务配置文件</a>
                 <p>组管理员现在可以为其管理的组创建、编辑和删除业务配置文件，而无需系统管理员访问权限。</p>
@@ -221,8 +221,8 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将Experience Manager Assets中的内容和文件夹与Adobe云存储关联</a>
-                <p>如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的单个资源或整个文件夹链接到支持文档的任何Workfront对象。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将Experience Manager Assets中的资源与Adobe云存储相关联</a>
+                <p>如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的单个资源链接到支持文档的任何Workfront对象。</p>
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
@@ -274,17 +274,6 @@ ht-degree: 2%
             <td><p>2026年9月17日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
-<!--
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
-                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
-            </td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">本地引用字段可用于列表和报告</a>

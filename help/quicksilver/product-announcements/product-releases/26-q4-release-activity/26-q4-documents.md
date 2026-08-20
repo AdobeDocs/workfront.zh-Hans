@@ -4,9 +4,9 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a5fa7c7649932463fc8693f787c02de7d88c111c
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年7月30日>适用于所有人的生产： 2026年7月30日>[!BADGE 取消计划]{type=Neutral}
+>预览： 2026年7月30日
+>生产快速发布： 2026年7月30日
+>适用于所有人的生产： 2026年7月30日
+>[!BADGE 超出计划]{type=Neutral}
 
 作为统一审阅和批准的一部分使用Adobe云存储的组织现在可以将图像文件直接附加到注释中，将反馈、上下文和支持可视化一起保留在单个可跟踪的注释线程中。 这弥补了之前的空白：只有旧版Workfront存储中的组织才能将图像附加到评论。
 
@@ -29,14 +32,16 @@ Adobe云存储组织现在支持所有媒体类型图像格式。 （旧版对�
 
 有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-## 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
+## 将Experience Manager Assets中的资源与Adobe云存储关联
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
-如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的单个资源或整个文件夹链接到支持文档的任何Workfront对象。 链接的内容会自动保持同步：在Experience Manager Assets中所做的更改会显示在Workfront中，并且您无需离开Workfront即可引入新的资源版本。
+如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的单个资源链接到支持文档的任何Workfront对象。 链接的内容会自动保持同步：在Experience Manager Assets中所做的更改会显示在Workfront中，并且您无需离开Workfront即可引入新的资源版本。
 
 链接功能由内容审查工具提供支持，因此，您还可以在选择内容时获得AI 搜索、智能建议、营销活动简短分析等。
 
-有关详细信息，请参阅[将Experience Manager Assets中的内容和文件夹与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+有关详细信息，请参阅[将Experience Manager Assets中的内容与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。

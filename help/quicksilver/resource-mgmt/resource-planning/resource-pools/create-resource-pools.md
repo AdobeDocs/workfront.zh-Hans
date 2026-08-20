@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 13%
+source-wordcount: 544
+ht-degree: 12%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 13%
      </tr>
      <tr>
       <td role="rowheader"><strong>池成员</strong></td>
-      <td><p> 将用户单独添加到资源池。<br>或<br>一次向资源池中添加大量用户。您可以添加以下与用户或用户集合关联的实体之一：
+      <td><p> 将用户单独添加到资源池。<br>或<br>一次向资源池中添加大量用户。 您可以添加以下与用户或用户集合关联的实体之一：
         <ul>
          <li><strong>团队</strong>：团队的所有成员都已添加到资源池中。</li>
          <li><strong>组</strong>：组的所有成员都已添加到资源池中。</li>

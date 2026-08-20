@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
-description: 如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的内容和文件夹链接到支持文档的任何Adobe Workfront对象。
+title: 将Experience Manager Assets中的资源与Adobe云存储关联
+description: 如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的资源链接到支持文档的任何Adobe Workfront对象。
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
 
-# 将Experience Manager Assets中的内容和文件夹与Adobe云存储链接到一起
+# 将Experience Manager Assets中的资源与Adobe云存储关联
 
-如果您的组织使用Adobe云存储，您可以将内容和文件夹从Experience Manager Assets链接到Workfront。 链接后，您可以在Workfront中查看和管理内容，对Experience Manager Assets中的内容所做的任何更改都将反映在Workfront中。
+如果您的组织使用Adobe云存储，您可以将资源从Experience Manager Assets链接到Workfront。 链接后，您可以在Workfront中查看和管理资源，对Experience Manager Assets中的资源所做的任何更改都将反映在Workfront中。
 
 >[!IMPORTANT]
 >
->如果贵组织拒绝签署GenAI Rider协议，您仍可以使用Content Advisor在Experience Manager Assets中选择资源和文件夹，但您将无法访问由AI支持的功能，例如AI 搜索、智能建议或分析活动简报。
+>如果贵组织拒绝签署GenAI Rider协议，您仍可以使用Content Advisor在Experience Manager Assets中选择资源，但您将无法访问由AI支持的功能，例如AI 搜索、智能建议或分析活动简报。
 
 ## 访问权限要求
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
 workflow-type: tm+mt
-source-wordcount: '14417'
+source-wordcount: '14435'
 ht-degree: 2%
 
 ---
@@ -1931,6 +1931,7 @@ ht-degree: 2%
     * [Workfront内容审查者入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe cloud storage概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Adobe云存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+    * [从旧文档审批移至统一审批](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * 设置和管理资产和文档审批 {#manage-asset-review-and-approval}
       * [设置和管理统一审批：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [为内容查看者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
@@ -2069,6 +2070,7 @@ ht-degree: 2%
     * [校对和Creative Cloud Express入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [校对与GenStudio for Performance Marketing集成快速入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [将Experience Manager Assets中的资源与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
     * [Adobe Express和Workfront与Frame.io集成快速入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * 审批的提示、技巧和疑难解答 {#ttt-approvals}
     * [审批的提示、技巧和疑难解答：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 440
 ht-degree: 4%
 
 ---
@@ -77,11 +77,11 @@ ht-degree: 4%
 
 {{step-1-to-users}}
 
-1. 选中列表中用户名旁边的框，然后单击&#x200B;**编辑**。
+1. 选中列表中用户名旁边的复选框，然后单击&#x200B;**编辑**。
 1. 单击&#x200B;**资源计划**。
 1. 在&#x200B;**资源池**&#x200B;字段中开始键入要与用户关联的资源池的名称，然后在该名称出现时从列表中选择它。\
    您可以将多个资源池与一个用户关联。\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![将资源池添加到用户](assets/add-resource-pool-to-user.png)
 
 1. 单击&#x200B;**保存更改**。
 

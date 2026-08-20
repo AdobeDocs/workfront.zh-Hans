@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: 1229
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 您可以使用Adobe Workfront工作负载均衡器批量将资源分配给多个任务和问题。
 
-有关使用工作负载均衡器将工作分配给用户的一般信息，请参阅[在工作负载均衡器中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
+有关使用工作负载均衡器将工作分配给用户和任务协作者的一般信息，请参阅在工作负载均衡器中分配工作的概述[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 访问权限要求
 
@@ -231,7 +231,6 @@ To assign a user to work items previously assigned to job roles:
 
 * 指定的用户将从其分配到的所有工作项中删除。
 * 如果未分配的用户与工作角色相关联，则移除用户后，工作角色仍会分配给工作项。
-
 * 如果将指定的用户分配给已完成的工作项，则该用户仍会分配给这些工作项。
 
 有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。

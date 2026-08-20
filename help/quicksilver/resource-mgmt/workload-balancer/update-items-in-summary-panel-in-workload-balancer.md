@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 423
 ht-degree: 6%
 
 ---
 
 # 使用摘要更新工作负载均衡器中的工作项
 
-您可以使用任务或问题的摘要面板更新该项目的重要信息。 在工作负载均衡器中。
+您可以使用任务或问题的摘要面板在工作负载均衡器中更新该项目的重要信息。
 
 “摘要”面板适用于工作负载均衡器的已分配和未分配工作区域中的任务和问题。
 
@@ -96,7 +96,7 @@ ht-degree: 6%
 
    ![摘要面板](assets/summary-panel-task-wb-new-comments.png)
 
-1. 修改工作项的多个字段，输入更新，或从此处导航到Workfront的其他区域以将文档或其他信息添加到工作项。
+1. 修改工作项的多个字段，输入更新，或从此处导航到Workfront的其他区域，以向工作项添加文档或其他信息。
 
    >[!CAUTION]
    >

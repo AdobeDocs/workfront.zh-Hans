@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: 1227
 ht-degree: 0%
 
 ---
@@ -50,23 +50,23 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
 * 要在项目实际工作开始之前，计划如何在更高级别分配资源，请使用以下工具：
 
-   * **资源规划者**：您可以使用资源管理第一阶段的资源规划者，根据资源的计划可用性为其预算项目时间。 在资源计划阶段，您可以在资源池中组织用户，并将多个资源池分配给一个项目。
+  * **资源规划者**：您可以使用资源管理第一阶段的资源规划者，根据资源的计划可用性为其预算项目时间。 在资源计划阶段，您可以在资源池中组织用户，并将多个资源池分配给一个项目。
 
-     有关资源计划的详细信息，请参阅[资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)。
+    有关资源计划的详细信息，请参阅[资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)。
 
-   * **方案规划器**：这是一个更高级别的资源计划，允许您跨多个计划管理这些资源，这些计划可以跨一个、三个或五年计划并包含多个项目。 您可以使用最佳方案以充分利用其可用性和预算。
+  * **方案规划器**：这是一个更高级别的资源计划，允许您跨多个计划管理这些资源，这些计划可以跨一个、三个或五年计划并包含多个项目。 您可以使用最佳方案以充分利用其可用性和预算。
 
-     除Workfront许可证外，Scenario Planner还需要一个单独的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../scenario-planner/scenario-planner-overview.md)。
+    除Workfront许可证外，Scenario Planner还需要一个单独的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../scenario-planner/scenario-planner-overview.md)。
 
-     <!--   
+    <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
 * 要计划或分配资源给实际工作（任务和问题），请使用以下工具：
 
-   * **工作负载均衡器**：这属于资源管理的较低级别阶段，在该阶段，您可以根据完成资源所需的小时数和资源的可用性，将资源分配给必须完成的实际工作（任务和问题）。 使用工作负载均衡器，您可以将用户分配到当前未分配或分配给工作角色的实际工作。
+  * **工作负载均衡器**：这属于资源管理的较低级别阶段，在该阶段，您可以根据完成资源所需的小时数和资源的可用性，将资源分配给必须完成的实际工作（任务和问题）。 使用工作负载均衡器，您可以将用户或任务协作者分配给当前未分配或分配给工作角色的实际工作。
 
-     有关Workfront均衡器的信息，请参阅[工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)。
+    有关Workfront均衡器的信息，请参阅[工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)。
 
 <!--
 
@@ -88,9 +88,9 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 -->
 * 要分析多个项目中的预算、计划和实际分配，请使用以下工具：
 
-   * **利用率报告**：使用此报告可以查看项目的资源利用率。 您可以比较项目的预算、计划和实际分配及其对项目成本和收入的影响。
+  * **利用率报告**：使用此报告可以查看项目的资源利用率。 您可以比较项目的预算、计划和实际分配及其对项目成本和收入的影响。
 
-     有关利用率报告的信息，请参阅[查看资源利用率信息](../../resource-mgmt/resource-utilization/view-utilization-information.md)。
+    有关利用率报告的信息，请参阅[查看资源利用率信息](../../resource-mgmt/resource-utilization/view-utilization-information.md)。
 
 ## 资源管理进程的组成部分
 
@@ -103,40 +103,43 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 * **配置**：作为系统管理员、资源管理器或项目所有者，您必须在管理资源之前配置Workfront实例中的某些字段和对象。 有关在Workfront中开始管理资源所需的先决条件的更多信息，请参阅本文中的[准确资源管理的先决条件](#prerequisites-for-accurate-resource-management)部分。\
   除了具有包含工作项的项目外，还必须在Workfront中配置以下项：
 
-   * 用户\
-     有关创建用户的详细信息，请参阅文章[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+  * 用户\
+    有关创建用户的详细信息，请参阅文章[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
-   * 职位角色\
-     有关创建工作角色的更多信息，请参阅文章[创建和管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+  * 职位角色\
+    有关创建工作角色的更多信息，请参阅文章[创建和管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
-   * 计划\
-     有关创建计划的详细信息，请参阅文章[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+  * 任务协作者
+    有关创建任务协作者的详细信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)一文中的[配置任务协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
 
-   * 项目首选项
+  * 计划\
+    有关创建计划的详细信息，请参阅文章[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-     >[!TIP]
-     >
-     >只有系统或组管理员才能修改系统或组的项目首选项。
+  * 项目首选项
 
-     有关定义项目首选项的更多信息，请参阅文章[配置系统范围项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+    >[!TIP]
+    >
+    >只有系统或组管理员才能修改系统或组的项目首选项。
 
-   * 资源池
+    有关定义项目首选项的更多信息，请参阅文章[配置系统范围项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-     有关创建资源池的详细信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
+  * 资源池
 
-   * 资源管理首选项
+    有关创建资源池的详细信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
-     作为系统，您必须决定Workfront如何计算系统级别的用户可用性，无论使用用户计划还是系统的默认计划。
+  * 资源管理首选项
 
-     有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
+    作为系统，您必须决定Workfront如何计算系统级别的用户可用性，无论使用用户计划还是系统的默认计划。
+
+    有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 * **资源分配**：作为资源管理器或项目所有者，您可以为项目定义资源分配并分配工作。 对于此步骤，您可以使用资源规划者或场景规划者管理资源的估计分配，并在工作负载均衡器中将实际工作分配给用户。
 
   有关资源规划和分配工作的详细信息，请参阅以下部分：
 
-   * [资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]：文章索引](../../scenario-planner/scenario-planning.md)
-   * [工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)
+  * [资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  * [[!DNL Adobe Workfront Scenario Planner]：文章索引](../../scenario-planner/scenario-planning.md)
+  * [工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -159,9 +162,9 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
   除了拥有工作许可证或更高许可证（或标准许可证）之外，还必须具备以下内容才能使用特定的资源管理工具：
 
-   * 编辑对资源管理的访问权限（在工作负载均衡器中进行分配时不需要）
-   * 编辑对财务数据的访问权限，包括查看或编辑成本费率和查看或编辑常规财务的访问权限，以在资源规划者中显示成本信息
-   * 查看对财务数据的访问权限，包括查看或编辑成本费率和查看常规财务的访问权限，以在利用率报告中查看成本和收入信息（仅限拥有计划或标准许可证的用户）
+  * 编辑对资源管理的访问权限（在工作负载均衡器中进行分配时不需要）
+  * 编辑对财务数据的访问权限，包括查看或编辑成本费率和查看或编辑常规财务的访问权限，以在资源规划者中显示成本信息
+  * 查看对财务数据的访问权限，包括查看或编辑成本费率和查看常规财务的访问权限，以在利用率报告中查看成本和收入信息（仅限拥有计划或标准许可证的用户）
 
 * Contribute或更高权限，包括在要为其管理资源的项目上进行“工作总揽”。
 

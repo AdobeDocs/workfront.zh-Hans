@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
+source-wordcount: 3743
 ht-degree: 1%
 
 ---
@@ -432,8 +432,8 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
->将记录从Planning中的GenStudio工作区连接到AEM对象（资源和内容片段）时，GenStudio信息会自动显示在AEM的AEM对象中。在AEM Planning中建立连接后，添加的查找字段中会显示Workfront记录的GenStudio信息。有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>将记录从Planning中的GenStudio工作区连接到AEM对象（资源和内容片段）时，GenStudio信息会自动显示在AEM的AEM对象中。 在AEM Planning中建立连接后，添加的查找字段中会显示Workfront记录的GenStudio信息。 有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -477,7 +477,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    >[!IMPORTANT]
    >
-   > 您只能连接有权在Experience Manager中查看的资源。连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
+   > 您只能连接有权在Experience Manager中查看的资源。 连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
    > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 从&#x200B;**内容片段**&#x200B;选项卡中，选择要添加到链接记录字段的内容片段。
@@ -596,13 +596,17 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    >
    >必须将连接的记录添加到当前记录，才能在连接的记录页面中查看这些记录。
 
-1. 单击记录列表中的&#x200B;**连接**&#x200B;或项目列表中的&#x200B;**连接记录**&#x200B;以添加或删除现有记录或项目。
+1. 单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以添加或删除现有记录或项目。
 
-   在已连接记录详细信息选项卡中突出显示![连接按钮](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    有关信息，请参阅[将“连接的记录”页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
-1. 单击项目列表中的&#x200B;**新建行**&#x200B;以创建没有模板的项目。 新项目将自动连接到当前记录。
 1. （可选）如果找不到连接的记录，请单击&#x200B;**+添加**&#x200B;以创建并连接它们。
+1. 单击&#x200B;**新建行**&#x200B;以创建记录。 新记录将自动连接到当前记录。
+
 
 ## 从Workfront对象连接记录
 
