@@ -8,11 +8,18 @@ author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
 TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
@@ -107,7 +114,7 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 
 >[!NOTE]
 >
->用户总可用时间通过本文资源规划者](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)部分中的[计算用户的可用小时数和FTE中所述的两种方法之一来计算。
+>用户总可用时间通过本文资源规划者[&#128279;](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)部分中的计算用户的可用小时数和FTE中所述的两种方法之一来计算。
 
 在角色视图中查看资源规划者时，一个工作角色的可用性是能够履行该工作角色的所有用户可用性的总和。
 
@@ -146,10 +153,10 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 * 预算小时
 * 小时差异
 * 净小时\
-  有关信息，请参阅资源规划者](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
+  有关信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
 
 * 小时差异\
-  有关信息，请参阅资源规划者](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
+  有关信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
 
 您可以在资源规划者中显示与FTE或小时相同的信息。
 
