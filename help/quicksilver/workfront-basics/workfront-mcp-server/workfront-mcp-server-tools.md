@@ -5,9 +5,9 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
+source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -110,8 +110,8 @@ ht-degree: 4%
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
-| 按名称查找项目 | `approvals_find_project_by_name` | 通过系统中的部分名称匹配查找Workfront项目。 | 读取 |
-| 按所有者获取项目 | `approvals_get_projects_by_owner` | 列出呼叫用户是所有者的Workfront项目。 | 读取 |
+| 按名称查找项目 | `approvals_find_project_by_name` | 已于2026年8月13日删除。 请改用`insights_find_id_by_name`。 此工具通过系统中的部分名称匹配来查找Workfront项目。 | 读取 |
+| 按所有者获取项目 | `approvals_get_projects_by_owner` | 已于2026年8月13日删除。 请改用`insights_find_workfront_data`。 此工具列出了呼叫用户是所有者的Workfront项目。 | 读取 |
 | 获取当前用户 | `approvals_get_current_user` | 已于2026年8月13日删除。 此工具返回呼叫用户的Workfront身份，包括姓名、用户ID、主团队名称和主团队ID。 有关类似功能，请参阅“分析工具”下的[获取当前用户](#insights-tools)。 | 读取 |
 | 按名称查找用户 | `approvals_find_user_by_name` | 已弃用。 请改用`insights_search_users`。 此工具按名称（模糊或部分匹配）、返回名称、ID、电子邮件、标题和头像URL查找Workfront用户的ID。 | 读取 |
 | 按名称查找团队 | `approvals_find_team_by_name` | 已弃用。 请改用`insights_find_id_by_name`。 此工具按名称（模糊或部分匹配）查找Workfront团队的ID。 | 读取 |
