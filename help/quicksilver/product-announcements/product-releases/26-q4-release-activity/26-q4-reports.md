@@ -4,7 +4,7 @@ description: 2026年第四季度报表改进
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -30,22 +30,6 @@ ht-degree: 0%
 现有计划已更新了结束日期，以提高可靠性并减少不必要的系统使用。 Workfront还提供了可视性和警告，以帮助您在报表计划生命周期接近其结束日期时对其进行管理。
 
 有关详细信息，请参阅[计划自动报告交付](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
-
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
 
 ## 列表和报告有本机引用字段可用
 

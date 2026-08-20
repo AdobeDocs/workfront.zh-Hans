@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 更新了相关已连接记录字段的列标题
+
+>[!NOTE]
+>
+>预览： 2026年8月20日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+我们在可视化方面改进了表视图中相关已连接记录字段的列标题。
+
+有关信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
 ## 拖放多行时的表格视图增强功能
 
@@ -63,22 +75,6 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 
 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
-
 ## Workfront Planning解决方案架构师技能简介
 
 >[!NOTE]
@@ -86,12 +82,14 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >预览： 2026年8月10日
 >生产日期： 2026年8月10日
 
-我们正在提供一项新技能，即Workfront Planning解决方案架构师，该技能将Workfront Planning的最佳实践代理指导直接引入克劳德。 在Claude界面中，您现在可以执行以下操作：
+我们将发布一项新技能，即Workfront Planning解决方案架构师，该技能将Workfront Planning的代理式最佳实践指导直接带入克劳德：
 
-* 配置新的Planning工作区以符合您的业务要求，由Workfront MCP服务器在您的环境中执行设置。
-* 审核现有配置中的大规模反模式。
-* 根据建议的限制检查使用情况。
-* 询问有关Planning的问题。
+* **配置**&#x200B;要规范的新Planning工作区，Workfront MCP服务器在您的环境中执行安装程序。
+* **审核**&#x200B;大规模反模式的现有配置。
+* **根据建议的限制（记录、连接、层次结构深度）检查使用情况**。
+* **随时询问有关Planning的问题**。
+
+除了初始设置外，该技能还通过以下方式支持日常管理：在配置漂移引发摩擦之前捕获配置漂移，在接近限制成为阻滞器之前标记这些限制，在每个工作区中强制实施一致的标准，无论配置者是谁，以及为团队中的任何成员提供准确的答案，而无需等待专家。 总体而言，这涵盖了正确设置工作区并随着使用量增长保持该工作区的整个生命周期。
 
 有关信息，请参阅[可用于直接安装的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)。
 
