@@ -6,9 +6,9 @@ description: 规划在Adobe云存储上推出Workfront的计划。 了解Adobe�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe云存储上的Workfront支持完整的统一审核和批准体验：在Fra
 
 在推出Adobe云存储之前，请确保管理审批的人员知道会发生什么：
 
+* **现有审批发生什么情况**&#x200B;此更改会影响现有旧审批工作流，无论更改正在进行还是已完成。 有关详细信息，请参阅[从旧文档审批移至统一审批](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)。
 * **新的审批体验**&#x200B;审阅人和审批人从旧版文档审批体验移至统一审批，这添加了多阶段审批、并行审阅路径等。 有关更多信息，请参阅以下文章：
 
   * [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
