@@ -8,23 +8,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1256
 ht-degree: 2%
 
 ---
@@ -44,7 +35,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->您可以使用工作负载均衡器将实际工作（任务和问题）分配给用户。
+>您可以使用工作负载均衡器将实际工作（任务和问题）分配给用户和任务协作者。
 >
 >您必须使用资源规划者而不是工作负载均衡器来在高级别估计项目的工作角色分配。 有关资源规划者的详细信息，请参阅[资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
@@ -114,36 +105,32 @@ ht-degree: 2%
 
 * 要管理其工作量的用户必须满足以下条件，以便有关其可用性和技能的信息准确无误：
 
-   * 将时间表和职位角色与其配置文件关联。
+  * 将时间表和职位角色与其配置文件关联。
 
-     有关将时间表和工作角色与用户关联的详细信息，请参阅[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-   * 如果用户未与时间表关联，则出于资源管理目的，默认情况下Workfront系统的默认时间表与该用户关联。
-   * 在其计划中更新计划例外。
+    有关将时间表和工作角色与用户关联的详细信息，请参阅[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * 如果用户未与时间表关联，则出于资源管理目的，默认情况下Workfront系统的默认时间表与该用户关联。
+  * 在其计划中更新计划例外。
 
-     有关创建计划的详细信息，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+    有关创建计划的详细信息，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * 在个人资料中更新其休息时间日历。
+  * 在个人资料中更新其休息时间日历。
 
-     有关更新用户休息时间日程表的信息，请参阅[配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    有关更新用户休息时间日程表的信息，请参阅[配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 * Workfront管理员必须确定Workfront计算用户可用性的方式。 他们可以决定Workfront是使用系统默认计划，还是使用用户的计划通过调整Workfront设置区域中的资源管理首选项来计算用户可用的时间。
 
   有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
+
+* 您可以通过所有与向用户分配工作相同的方式将工作分配给任务协作者。 任务协作者必须存在于Workfront中，然后才能将其分配给任务。
+
+  有关创建任务协作者的信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)一文中的[配置任务协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
 
 ### 设置任务和问题的最佳实践 {#best-practices-for-setting-up-tasks-and-issues}
 
 开始在工作负载均衡器中将工作分配给用户之前，确保存在以下任务和问题设置：
 
 * 父级任务未分配给用户或角色。 父任务未显示在工作负载均衡器中。
-* 任务和问题的规划小时数值大于零。
-
+* 任务和问题的计划小时数值大于零。
 * 任务和问题的持续时间值大于零。
 * 问题的计划日期在项目的时间表内。
 
@@ -151,12 +138,12 @@ ht-degree: 2%
 
 * 在开始使用工作负载均衡器之前，请查看以下文章：
 
-   * 本文向您介绍如何导航工作负载均衡器以执行这些操作： [导航工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md)。
+  * 本文向您介绍如何导航工作负载均衡器以执行这些操作： [导航工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md)。
 
-   * 以下文章将指导您逐步了解如何分配工作和管理用户分配：
+  * 以下文章将指导您逐步了解如何分配工作和管理用户分配：
 
-      * [在工作负载均衡器](../workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
-      * [在工作负载均衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
+    * [在工作负载均衡器](../workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
+    * [在工作负载均衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
 
 * 工作负载均衡器可以在Workfront的多个不同区域找到。 有关可在何处找到工作负载均衡器的信息，请参阅[找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 

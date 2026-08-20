@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -30,7 +23,7 @@ ht-degree: 1%
 
 <!-- Audited: 5/2025 -->
 
-作为资源管理器，您可以使用Adobe Workfront工作负载均衡器查看尚未分配给用户的工作项，并将这些项目分配给用户。
+作为资源管理器，您可以使用Adobe Workfront工作负载均衡器查看尚未分配给用户和任务协作者的工作项，并将这些项目分配给他们。
 
 有关工作负载均衡器的常规信息，请参阅[工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
@@ -51,10 +44,10 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
 
 * 资源管理首选项。 Workfront管理员通过在“设置”的“资源管理”区域中选择使用下列选项之一，确定系统可用时间的计算方式：
 
-   * Workfront系统的默认计划和用户的FTE。
-   * 用户的计划，如用户配置文件区域中所示。
+  * Workfront系统的默认计划和用户的FTE。
+  * 用户的计划，如用户配置文件区域中所示。
 
-     这会计算用户的每日和每周可用性。 所选计划的任何计划例外都会反映在工作负载均衡器的用户容量中。
+    这会计算用户的每日和每周可用性。 所选计划的任何计划例外都会反映在工作负载均衡器的用户容量中。
 
   有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
@@ -172,9 +165,9 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
 * 任务或问题通常首先分配给一个或多个工作角色或团队。 当项目准备好开始时，可能需要将它们也分配给用户。\
   如果已将任务或问题分配给一个或多个角色，并且您还分配了用户，则Adobe Workfront将根据以下规则确定要与其他用户（如果有）关联的工作角色：
 
-   * 如果只分配了一个工作角色，并且该工作角色与用户的主要角色匹配，则任务或问题仅被分配给履行其主要角色的用户。
-   * 如果分配了多个角色，并且至少有一个角色与用户的辅助角色匹配，则将任务或问题分配给履行其中一个其他角色（如果存在多个匹配，则Workfront会随机选择其他角色）以及分配的任何其他角色的用户。
-   * 如果分配了一个或多个工作角色，但没有与用户的角色匹配，则任务或问题将同时分配给该角色和用户。
+  * 如果只分配了一个工作角色，并且该工作角色与用户的主要角色匹配，则任务或问题仅被分配给履行其主要角色的用户。
+  * 如果分配了多个角色，并且至少有一个角色与用户的辅助角色匹配，则将任务或问题分配给履行其中一个其他角色（如果存在多个匹配，则Workfront会随机选择其他角色）以及分配的任何其他角色的用户。
+  * 如果分配了一个或多个工作角色，但没有与用户的角色匹配，则任务或问题将同时分配给该角色和用户。
 
 * 如果将任务或问题分配给团队并且您还分配了用户，则任务或问题仍会分配给团队和用户。
 

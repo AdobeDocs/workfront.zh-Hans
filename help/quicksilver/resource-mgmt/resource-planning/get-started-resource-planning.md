@@ -8,18 +8,13 @@ author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 TQID: https://experienceleague.adobe.com/a1BAY-ZUWgGlg96Cq7RKPbg3m-OfT-c106ttm2goj-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 559
 ht-degree: 0%
 
 ---
@@ -39,7 +34,7 @@ ht-degree: 0%
 
 您可以使用资源计划工具来管理您的工作角色、工作角色的可用性以及基于此可用性的项目常规分配。
 
-预算用户对项目的一般分配不会为他们分配实际工作（任务和问题）。 您必须使用工作负载均衡器分配要使用的资源。
+预算用户对项目的一般分配不会为他们分配实际工作（任务和问题）。 您必须使用工作负载均衡器分配您的资源才能工作。
 
 有关使用工作负载均衡器在Workfront中计划资源的更多信息，请参阅[工作负载均衡器概述](../workload-balancer/overview-workload-balancer.md)。
 
@@ -55,7 +50,7 @@ ht-degree: 0%
 
 * 对于单个项目的预算分配：在项目的业务案例的资源预算区域中使用项目层资源规划者。 有关为一个项目预算资源的信息，请参阅文章[商业案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-  要根据通用技能或部门结构管理用户并将他们组织到池中，然后管理他们分配给项目的分配，您必须创建资源池。 有关创建资源池的详细信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
+  要管理用户、根据通用技能或部门结构将其组织到池中，然后管理其分配给项目的分配，您必须创建资源池。 有关创建资源池的详细信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
   >[!TIP]
   >
@@ -69,9 +64,9 @@ ht-degree: 0%
 
 * 使用资源计划程序，您可以执行以下操作：
 
-   * 排定项目的优先级，以决定哪些项目应首先接收资源。 （仅在资源规划者中）
-   * 根据用户计划了解资源的可用性。
-   * 为资源（用户和职位角色）分配项目的预算小时、FTE或成本分配。
+  * 排定项目的优先级，以决定哪些项目应首先接收资源。 （仅在资源规划者中）
+  * 根据用户计划了解资源的可用性。
+  * 为资源（用户和职位角色）分配项目的预算小时、FTE或成本分配。
 
   有关使用资源规划者的信息，请参阅文章[资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
