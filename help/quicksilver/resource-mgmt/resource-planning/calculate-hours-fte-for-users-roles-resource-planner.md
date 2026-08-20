@@ -8,19 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
 TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 0%
@@ -60,7 +53,7 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 * 系统的默认计划和用户的FTE。
 * 用户的计划。
 
-![用户计划的系统设置](assets/setup-resource-mgmt.png)
+![用户计划的系统设置](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +63,31 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 
 * **默认计划**：系统的默认计划和用户FTE用于确定资源规划者中用户的可用小时和FTE值。 用户的计划将被忽略。 在本例中：
 
-   * 资源计划员中的可用小时数使用以下公式计算：
+  * 资源计划员中的可用小时数使用以下公式计算：
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     例如，如果默认计划每周有40小时可用于工作，并且用户FTE为0.5，则用户可在资源规划者中每周工作20小时。
+    例如，如果默认计划每周有40小时可用于工作，并且用户FTE为0.5，则用户可在资源规划者中每周工作20小时。
 
-     有关计划（包括默认计划）的详细信息，请参阅[创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+    有关计划（包括默认计划）的详细信息，请参阅[创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-   * 资源规划者中用户的可用FTE与在用户设置中指定的用户FTE相同。
+  * 资源规划者中用户的可用FTE与在用户设置中指定的用户FTE相同。
 
-     例如，如果用户设置中的用户FTE为0.5，则用户在资源规划者中的可用FTE为0.5。 有关显示在用户设置中的用户FTE值的详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+    例如，如果用户设置中的用户FTE为0.5，则用户在资源规划者中的可用FTE为0.5。 有关显示在用户设置中的用户FTE值的详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * **用户计划**：用户计划用于确定用户在资源规划者中的可用性。 忽略用户FTE的值。 在本例中：
 
-   * 资源规划者中的可用小时数与用户计划中的小时数相同。
+  * 资源规划者中的可用小时数与用户计划中的小时数相同。
 
-     例如，如果用户的计划具有每周40小时的工作时间，则用户可以在资源规划者中每周工作40小时。
+    例如，如果用户的计划具有每周40小时的工作时间，则用户可以在资源规划者中每周工作40小时。
 
-   * 资源计划员中的可用FTE按以下公式计算：
+  * 资源计划员中的可用FTE按以下公式计算：
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     例如，如果用户的计划有20个小时工作可用，而Workfront中的默认计划有40个小时工作可用，则用户的FTE为0.5。
+    例如，如果用户的计划有20个小时工作可用，而Workfront中的默认计划有40个小时工作可用，则用户的FTE为0.5。
 
-     有关计划（包括默认计划）的详细信息，请参阅[创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+    有关计划（包括默认计划）的详细信息，请参阅[创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 >[!NOTE]
 >
@@ -104,8 +97,9 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 
 您首先必须计算用户可用性，然后可以计算每个工作角色的可用性。
 
-资源规划者中工作角色的可用性会考虑用户的总可用性，以及与用户的每个角色关联的FTE可用性百分比。\
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+资源规划者中工作角色的可用性会考虑用户的总可用性，以及与用户的每个角色关联的FTE可用性百分比。
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 有关将FTE可用性百分比值与用户的工作角色关联的详细信息，请参阅[编辑用户的配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
@@ -113,7 +107,7 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 
 >[!NOTE]
 >
->用户总可用时间通过本文资源规划者[&#128279;](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)部分中的计算用户的可用小时数和FTE中所述的两种方法之一来计算。
+>用户总可用时间通过本文资源规划者](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)部分中的[计算用户的可用小时数和FTE中所述的两种方法之一来计算。
 
 在角色视图中查看资源规划者时，一个工作角色的可用性是能够履行该工作角色的所有用户可用性的总和。
 
@@ -152,10 +146,10 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 * 预算小时
 * 小时差异
 * 净小时\
-  有关信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
+  有关信息，请参阅资源规划者](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
 
 * 小时差异\
-  有关信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
+  有关信息，请参阅资源规划者](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
 
 您可以在资源规划者中显示与FTE或小时相同的信息。
 

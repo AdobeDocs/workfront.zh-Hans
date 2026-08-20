@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
 TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: 455
 ht-degree: 3%
 
 ---
@@ -89,7 +82,7 @@ ht-degree: 3%
 
 默认情况下，将显示Planner。  有关资源规划者中预算资源的信息，请参阅使用项目和角色视图的资源规划者中的预算资源[一文](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
-![资源规划者为默认值](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![资源规划者为默认值](assets/default-resource-planner.png)
 
 1. 单击左侧面板中的&#x200B;**资源池**。
 有关创建资源池的信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
@@ -105,8 +98,8 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >当项目没有资源池关联时，您只能在业务案例的资源预算区域中添加资源池。 当项目已有资源池时，池中的用户及其工作角色默认显示在资源预算区域。
+   >当项目没有资源池关联时，您只能在业务案例的资源预算区域中添加资源池。<!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![资源预算](assets/resource-budgeting-area-on-project-350x70.png)
+   ![资源预算](assets/resource-budgeting-area-on-project.png)
 
    有关为一个项目预算资源的信息，请参阅文章[商业案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。

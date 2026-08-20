@@ -8,21 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 TQID: https://experienceleague.adobe.com/C5riEXuyMjR6aL1vjXuMVdT2Ehbm78z03BtwcxoyysQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 2115
 ht-degree: 1%
@@ -62,9 +53,9 @@ ht-degree: 1%
 
 * 要使用“用户”视图查看以下信息，请执行以下操作：
 
-   * 根据用户的计划提供的可用性
-   * 按照项目计划完成工作所需的计划时间
-   * 用户已登录实际工作项的时间
+  * 根据用户的计划提供的可用性
+  * 按照项目计划完成工作所需的计划时间
+  * 用户已登录实际工作项的时间
 
   有关在资源规划程序中查看用户的可用小时、计划小时和实际小时数或FTE的详细信息，请参阅文章[：在使用用户视图](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using)时，在资源规划程序中查看可用小时、计划小时和实际小时数或FTE。
 
@@ -84,8 +75,8 @@ ht-degree: 1%
 
   有关父任务的信息，请参阅以下文章：
 
-   * [任务概述](../../manage-work/tasks/task-information/tasks-overview.md)
-   * [创建子任务](../../manage-work/tasks/create-tasks/create-subtasks.md)
+  * [任务概述](../../manage-work/tasks/task-information/tasks-overview.md)
+  * [创建子任务](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
   >[!TIP]
   >
@@ -188,8 +179,8 @@ ht-degree: 1%
 
 * 您正在为其编制预算资源的项目的任务或问题将分配给以下实体之一：
 
-   * 项目资源池中与职位角色关联的用户
-   * 职位角色
+  * 项目资源池中与职位角色关联的用户
+  * 职位角色
 
   >[!NOTE]
   >
@@ -207,7 +198,7 @@ ht-degree: 1%
 
 您必须了解Workfront实例如何根据系统中的资源管理首选项计算用户可用性。 Workfront可以使用用户时间表（如其“用户配置文件”页面中所定义）或系统的“默认时间表”来计算用户可用性。
 
-![管理首选项](assets/resource-management-preferences-section-in-setup-350x89.png)
+![管理首选项](assets/resource-management-preferences-section-in-setup.png)
 
 Workfront管理员配置您的资源管理首选项。
 
@@ -215,43 +206,9 @@ Workfront管理员配置您的资源管理首选项。
 
 ## 找到资源规划者
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>
--->
-
 您可以在Workfront的两个区域中找到资源规划者，具体取决于您是要为多个项目还是仅为一个项目预算资源。
 
 有关定位资源规划者的信息，请参阅[定位资源规划者](../../resource-mgmt/resource-planning/locate-resource-planner.md)。
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(this is drafted and moved to its own article: locate-resource-planner) </p>
-<p>Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources.<br>For information about the prerequisites that must be met before you can start using the Resource Planner, see the <a href="#prerequisites-for-working-in-the-resource-planner" class="MCXref xref">Prerequisites for working in the Resource Planner</a> section in this article. </p>
-<p>You can locate the Resource Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.</p>
-<ul>
-<li><a href="#use-the-resource-planner-for-multiple-projects" class="MCXref xref">Use the Resource Planner for multiple projects</a> </li>
-<li> <p><a href="#use-the-resource-planner-for-one-project" class="MCXref xref">Use the Resource Planner for one project</a> </p> </li>
-</ul>
-<p><strong>Use the Resource Planner for multiple projects</strong></p>
-<p>When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects. </p>
-<p>To access the  Planner section  in the  Resourcing area: </p>
-<ol>
-<li value="1">  Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.  </li>
-<li value="2"> <p>  Click <strong>Resourcing</strong>. The Resource Planner displays by default.  For information about budgeting resources in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p> <img src="assets/qs-resource-management-area-with-planner-as-default-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
-<li value="3">  Hover over the left panel, and click <strong>Resource Pools</strong>. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools</a>.</li>
-</ol>
-<p><strong>Use the Resource Planner for one project</strong></p>
-<p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
-<ol>
-<li value="1"> <p>Go to a project you want to budget resources for.</p> </li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Business Case</strong> in the left panel.</p> </li>
-<li value="3"> <p>Scroll to the <strong>Resource Budgeting</strong> section of the Business Case.</p> </li>
-<li value="4"> <p>Click <strong>Edit Resource Budgeting</strong> to add resource pools to your project and start budgeting your resources. </p> <note type="tip">
-You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a resource pool, the users in the pool and their job roles display in the Resource Budgeting area by default.
-</note> <p> <img src="assets/resource-budgeting-area-on-project-350x70.png" style="width: 350;height: 70;"> </p> <p>For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> </li>
-</ol>
-</div>
--->
 
 ## 资源规划者的区域
 

@@ -7,21 +7,14 @@ author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 TQID: https://experienceleague.adobe.com/ax957eBrqej3uH8M4mZkSuY-heCNGWTiiwbBZTcH7VE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1277
 ht-degree: 3%
 
 ---
@@ -81,7 +74,7 @@ ht-degree: 3%
 1. 单击左侧面板中的&#x200B;**项目详细信息**。
 1. 单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**财务**。
 
-   ![详细资料视图中的财务区域](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![详细资料视图中的财务区域](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +140,15 @@ ht-degree: 3%
 
 ## 编辑项目的财务信息
 
-作为项目所有者，您可以编辑项目的财务子选项卡上的信息。
+作为项目所有者，您可以编辑项目财务区域中的信息。
 
-要编辑“项目财务”子标签上的信息，请执行以下操作：
+要编辑“项目财务”区域中的信息，请执行以下操作：
 
 1. 转到您拥有的项目。
 
    >[!NOTE]
    >
-   >您需要具有项目管理权限才能执行以下步骤。 我们还建议仅项目所有者应对项目的财务子选项卡进行更改。
+   >您需要具有项目管理权限才能执行以下步骤。 我们还建议仅项目所有者应对项目的财务区域进行更改。
 
 1. 单击左侧面板中的&#x200B;**项目详细信息**。
 1. 单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**财务**。 这将打开“财务”区域以进行编辑。
@@ -165,13 +158,11 @@ ht-degree: 3%
    >
    >如果字段由Workfront自动计算或您没有编辑权限，则无法对其进行编辑。
 
-   ![编辑财务区域](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. 更新以下任意字段。
+1. 更新下面列出的任何字段。
 
    >[!NOTE]
    >
-   >根据Workfront管理员如何设置布局模板，您的环境中，项目详细信息部分中的字段可能不同。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
+   >根据Workfront管理员如何设置布局模板，您的环境中项目详细信息部分中的字段可能不同。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
    <table style="table-layout:auto"> 
     <col> 
