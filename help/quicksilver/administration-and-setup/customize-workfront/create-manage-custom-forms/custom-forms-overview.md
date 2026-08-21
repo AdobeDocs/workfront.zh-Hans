@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 396
 ht-degree: 13%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 例如，您可以附加一个名为“营销内容研究”的自定义表单来附加至项目，以便项目用户能够请求该项目的营销内容：
 
-![详细信息页面](assets/see-image-details-page.png)
+![项目详细信息页面](assets/see-image-details-page.png)
 
 ## 如何创建自定义表单
 

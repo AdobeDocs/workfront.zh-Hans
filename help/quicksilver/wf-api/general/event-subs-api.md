@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
+source-wordcount: 3308
 ht-degree: 5%
 
 ---
@@ -118,13 +118,13 @@ ht-degree: 5%
 
 * objId（可选）
 
-   * **字符串** — 为其触发事件的指定objCode的对象的ID。 如果未指定此字段，则用户会收到指定类型的所有对象的事件。
+  * **字符串** — 为其触发事件的指定objCode的对象的ID。 如果未指定此字段，则用户会收到指定类型的所有对象的事件。
 
 * 对象代码（必需）
 
-   * **字符串** — 订阅更改的对象的对象代码。 下表中列出了objCode的可能值。
+  * **字符串** — 订阅更改的对象的对象代码。 下表中列出了objCode的可能值。
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +263,23 @@ ht-degree: 5%
 
 * eventType（必需）
 
-   * **字符串** — 表示对象订阅的事件类型的值。 可用的事件类型包括：
+  * **字符串** — 表示对象订阅的事件类型的值。 可用的事件类型包括：
 
-      * 创建
-      * 删除
-      * 更新
+    * 创建
+    * 删除
+    * 更新
 
 * url（必需）
 
-   * **字符串** — 通过HTTP向其发送订阅事件负载的终结点的URL。
+  * **字符串** — 通过HTTP向其发送订阅事件负载的终结点的URL。
 
-* authToken（必需）
+* authToken （创建时必需）
 
-   * **字符串** — 用于使用“URL”字段中指定的URL进行身份验证的OAuth2持有者令牌。
+  * **字符串** — 用于使用“URL”字段中指定的URL进行身份验证的OAuth2持有者令牌。 订阅创建响应根本不包含此字段，以后每次包含此字段的响应都会将其显示为已屏蔽（仅包含最后4个字符）。 提交后不会返回完整值，因此我们建议您保留所发送内容的副本。
+
+>[!NOTE]
+>
+>`authToken`在响应中始终被掩盖，最多显示4个字符（例如： `****1234`）。 如果令牌不超过8个字符，则改为完全遮罩，因此遮罩不会显示一半或更多短令牌。 这适用于返回订阅详细信息（包括已弃用的列表端点）的每个端点。
 
 ## 创建事件订阅API请求
 
@@ -430,7 +434,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +508,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -631,10 +635,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 * 将多个事件订阅分配给单个对象时，与该对象关联的所有事件订阅都可以返回到单个端点。 此实践可用作逻辑运算符&#x200B;**OR**&#x200B;的等效替代项，无法使用筛选器参数设置该运算符。
 * 以下字段不可过滤：
 
-   * DOCU组
-   * 记录数据
-   * RECORD_TYPE.data
-   * RECORD_TYPE字段
+  * DOCU组
+  * 记录数据
+  * RECORD_TYPE.data
+  * RECORD_TYPE字段
 
 ### 使用比较运算符
 
@@ -860,13 +864,13 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 #### state
 
-此连接器使过滤器应用于已创建或更新的对象的新状态或旧状态。当您想知道在何处对某个对象进行了更改时，此功能非常有用。
+此连接器使过滤器应用于已创建或更新的对象的新状态或旧状态。 当您想知道在何处对某个对象进行了更改时，此功能非常有用。
 无法在CREATE `eventTypes`上执行`oldState`。
 
 >[!NOTE]
 >
 >下面带有给定过滤器的订阅将只返回任务名称在`oldState`上包含`again`的消息，该名称与更新任务之前所包含的内容相同。
->此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
@@ -1031,8 +1035,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * 此组评估两个内部筛选器：
 
-      * 第一个检查任务状态是否等于“CUR”（当前）。
-      * 第二个检查优先级是否等于“1”（高优先级）。
+     * 第一个检查任务状态是否等于“CUR”（当前）。
+     * 第二个检查优先级是否等于“1”（高优先级）。
    * 由于连接器为“OR”，因此如果任一条件为true，则此组将通过。
 
 1. 顶级连接器(filterConnector： AND)：
@@ -1370,7 +1374,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1383,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```
