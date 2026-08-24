@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: 1576
 ht-degree: 5%
 
 ---
@@ -358,6 +358,14 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
    <td>系统：首选项</td> 
    <td>完全访问</td> 
    <td>无访问权限</td> 
+  <tr> 
+   <td>更改跟踪：配置</td> 
+   <td>完全访问</td> 
+   <td>无访问权限</td> 
+  <tr> 
+   <td>更改跟踪：更改历史记录列表</td> 
+   <td>完全访问</td> 
+   <td>完全访问</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <th>区域/对象</th> 
    <th>Workfront管理员 </th> 
-   <th>具有Plan许可证和某些管理权限的用户</th> 
+   <th>具有Standard或Plan许可证和某些管理权限的用户</th> 
   </tr> 
  </thead> 
  <tbody> 
