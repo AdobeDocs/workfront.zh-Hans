@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 482
 ht-degree: 6%
 
 ---
@@ -101,10 +101,9 @@ Old permissions:
 
 **时间表**&#x200B;区域打开。
 
+![工时表区域](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
-
-1. （可选）单击&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)并键入关键字和搜索特定时间表。 例如，您可以搜索时间设置时间范围或所有者名称。
+1. （可选）单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)，然后键入关键字并搜索特定时间表。 例如，您可以搜索时间设置时间范围或所有者名称。
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
@@ -116,21 +115,15 @@ Old permissions:
 
      这会将我的时间表批准或我的时间表过滤器应用到时间表列表。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 单击“筛选器”图标![](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 单击“筛选器”图标![筛选器图标](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从“设置”区域的列表控件或布局模板中删除了“我的时间表审批”和“我的时间表”过滤器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
-   >
-   >   
-   >   
-   >   * [使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理员或组管理员从“设置”区域的“列表控件”或您的“布局模板”中删除了筛选器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表的顶部或筛选器列表中。 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （可选）单击&#x200B;**视图** ![](assets/view-icon.png)或&#x200B;**分组** ![](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
+1. （可选）单击&#x200B;**视图** ![视图图标](assets/view-icon.png)或&#x200B;**分组** ![分组图标](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
 
    有关创建过滤器、视图或分组的信息，请参阅以下文章：
 
@@ -138,9 +131,9 @@ Old permissions:
    * [在Adobe Workfront中创建或编辑视图](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [在Adobe Workfront中创建分组](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 选择要导出的时间表，然后单击&#x200B;**导出** ![](assets/export-38x15.png)图标。
+1. 选择要导出的时间表，然后单击&#x200B;**导出** ![导出图标](assets/export-38x15.png)图标。
 
-   ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
+   ![单击“导出”图标](assets/export-timesheets.png)
 
 1. 从以下选项中选择要将时间表列表导出到的文件类型：
 

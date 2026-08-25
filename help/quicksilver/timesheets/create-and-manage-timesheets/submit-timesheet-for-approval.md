@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 828
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 2%
 1. 记录时间，如[记录时间](../../timesheets/create-and-manage-timesheets/log-time.md)中所述。
 1. 单击&#x200B;**提交以供审批**&#x200B;以启动时间表审批流程。
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![提交以供审批按钮](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    **提交以供审批**&#x200B;按钮已由&#x200B;**批准**、**拒绝**&#x200B;和&#x200B;**撤消**&#x200B;按钮替换。 时间表状态更改为&#x200B;**已提交**。
 
@@ -101,10 +101,11 @@ ht-degree: 2%
 
 要查看时间表的状态，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
-1. 单击&#x200B;**时间表**。 默认情况下已选择&#x200B;**所有**&#x200B;筛选器。
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+默认情况下已选择&#x200B;**所有**&#x200B;筛选器。
+
+![已选择一个时间表的时间表列表](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
@@ -116,19 +117,13 @@ ht-degree: 2%
 
      这会将我的时间表批准或我的时间表过滤器应用到时间表列表。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 单击“筛选器”图标![](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 单击“筛选器”图标![筛选器图标](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从“设置”区域的列表控件或布局模板中删除了“我的时间表审批”和“我的时间表”过滤器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
-   >
-   >   
-   >   
-   >   * [使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理员或组管理员从“设置”区域的“列表控件”或您的“布局模板”中删除了筛选器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表的顶部或筛选器列表中。 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
 1. （视情况而定）如果您选择&#x200B;**我的时间表**，请确保应用&#x200B;**标准**&#x200B;视图，并注意&#x200B;**状态**&#x200B;列。
 
@@ -167,10 +162,9 @@ ht-degree: 2%
 
 要撤消时间表，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 单击&#x200B;**时间表**。
-1. 单击屏幕右上角的&#x200B;**我的时间表**，或从&#x200B;**筛选器**![](assets/filter-nwepng.png)下拉菜单中选择&#x200B;**我的时间表**。
+1. 单击屏幕右上角的&#x200B;**我的时间表**，或从&#x200B;**筛选器**![筛选器图标](assets/filter-nwepng.png)下拉菜单中选择&#x200B;**我的时间表**。
 1. 单击状态为&#x200B;**已提交**&#x200B;的工时表的时间范围。
 1. 单击&#x200B;**撤消**。
 

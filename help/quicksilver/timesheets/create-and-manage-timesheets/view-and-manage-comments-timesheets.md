@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: 831
 ht-degree: 2%
 
 ---
@@ -97,9 +97,8 @@ ht-degree: 2%
 
 您可以对时间表进行一般性评论。 对整个时间表进行注释与对其他对象进行注释类似。
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)或Workfront（如果可用）。
+{{step1-to-timesheets}}
 
-1. 单击&#x200B;**时间表**。
 1. 转到要在其中发表评论的时间表。
 1. 单击左侧面板中的&#x200B;**更新**，然后单击&#x200B;**评论**&#x200B;选项卡。
 1. 开始添加新注释或回复现有注释，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。
@@ -129,9 +128,8 @@ ht-degree: 2%
 
 ### 对工时表中的单个小时条目进行评论 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 单击&#x200B;**时间表**。
 1. 转到要在其中发表评论的时间表，然后单击左侧面板中的&#x200B;**时间表**。
 1. 在要发表评论的小时条目字段中单击，然后单击&#x200B;**评论**&#x200B;为您的小时条目添加评论。
 
@@ -168,8 +166,8 @@ ht-degree: 2%
 
 您只能对时间表中的任务和问题进行评论。 您无法评论项目或常规时间。
 
-1. 单击Adobe Workfront右上角的&#x200B;[!UICONTROL **主菜单**]&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
-1. 单击&#x200B;[!UICONTROL **时间表**]。
+{{step1-to-timesheets}}
+
 1. 转到要在其中发表评论的时间表，然后在左侧面板中单击&#x200B;[!UICONTROL **时间表**]。
 1. 单击任务或问题的行，然后单击&#x200B;[!UICONTROL **打开摘要**]。
 1. 开始在“摘要”面板的&#x200B;[!UICONTROL **更新**]&#x200B;区域键入更新，然后单击&#x200B;[!UICONTROL **提交**]。

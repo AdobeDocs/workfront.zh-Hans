@@ -6,9 +6,9 @@ description: 更改历史记录允许您查看对Workfront对象和字段的更�
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 {{preview-fast-release-general}}
 
-更改历史记录允许您配置和跟踪对Adobe Workfront中的对象和特定字段的更改。 灵活的配置允许您设置确切要跟踪哪些对象和字段。
+更改历史记录允许系统管理员配置和跟踪对Adobe Workfront中的对象和特定字段的更改。 通过灵活的配置，管理员可以准确地设置要跟踪哪些对象和字段。
 
-更改历史记录可以跟踪您定义的以下数据类型：
+更改历史记录可以跟踪以下类型的定义数据：
 
 * “设置”区域中的活动，如创建或删除访问级别或工作角色
 * 字段级更新，例如编辑项目描述或更改用户的布局模板
@@ -35,6 +35,11 @@ ht-degree: 3%
 * 更改类型（操作）
 * 更改日期和时间
 * 更改的Source，如特定用户、API、Workfront Fusion、AI LLM或Workfront系统
+
+>[!NOTE]
+>
+>当您访问“更改历史记录”时，您将只看到您有权查看的字段的跟踪更改。
+>例如，如果在项目上跟踪财务数据，而您无权访问财务数据，则您将不会在更改历史记录列表中看到财务字段。
 
 ## 访问权限要求
 
@@ -62,25 +67,6 @@ ht-degree: 3%
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## 查看更改历史记录列表
 
@@ -113,7 +99,7 @@ To view the types of changes that are tracked:
 1. 单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)并选择保存为XLSX还是CSV格式。
 
    这将打开保存文件框，您可以将导出的文件保存在计算机上。
-   完成保存导出的文件。您现在可以在计算机上找到该代码并与他人共享。
+   完成保存导出的文件。 您现在可以在计算机上找到该代码并与他人共享。
 
 
 

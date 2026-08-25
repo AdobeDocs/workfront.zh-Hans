@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 476
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 3%
 
 您可以在时间表标题中查看时间表的总小时数。
 
-![](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
+![总小时数字段](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
 
 ## 在时间表列表中查看时间表上的总小时数
 
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 **时间表**&#x200B;区域打开。
 
-![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![已选择一个时间表的时间表列表](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
@@ -90,21 +90,15 @@ ht-degree: 3%
 
      这会将我的时间表批准或我的时间表过滤器应用到时间表列表。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 单击“筛选器”图标![](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 单击“筛选器”图标![筛选器图标](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从“设置”区域的列表控件或布局模板中删除了“我的时间表审批”和“我的时间表”过滤器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
-   >
-   >   
-   >   
-   >   * [使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理员或组管理员从“设置”区域的“列表控件”或您的“布局模板”中删除了筛选器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表的顶部或筛选器列表中。 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （可选）单击&#x200B;**视图** ![](assets/view-icon.png)或&#x200B;**分组** ![](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
+1. （可选）单击&#x200B;**视图** ![视图图标](assets/view-icon.png)或&#x200B;**分组** ![分组图标](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
 
    有关创建过滤器、视图或分组的信息，请参阅以下文章：
 
@@ -114,7 +108,7 @@ ht-degree: 3%
 
 1. 每个时间表的总小时数显示在&#x200B;**总小时数**&#x200B;列中。
 
-   ![](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
+   ![总小时数列](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ description: 您可以删除可能不再相关的时间表配置文件。
 author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 9%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 2%
 
 有关时间表配置文件的信息，请参阅[创建、编辑和分配时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto">
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -54,22 +54,24 @@ ht-degree: 2%
 
 ## 删除周期性工时表
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
-1. 如果要删除系统级时间表配置文件，请单击&#x200B;**时间表和小时数**。
+1. 如果要删除系统级时间表配置文件，请单击&#x200B;**时间表和小时数>时间表配置文件**。
 
    或
 
-   如果您删除组的周期性时间表，请单击&#x200B;**组** >单击组的名称，然后单击&#x200B;**周期性时间表**。
-1. 至少选择一个要删除的时间表配置文件，然后单击系统范围的时间表配置文件的&#x200B;**更多**&#x200B;图标![](assets/more-icon.png) > **删除**
+   如果要删除某个组的时间表配置文件，请单击&#x200B;**组** >单击该组的名称，然后单击&#x200B;**时间表配置文件**。
 
-1. 单击&#x200B;**周期性工时表**。
-1. 至少选择一个要删除的时间表配置文件，然后单击“更多”图标![更多图标](assets/more-icon.png) > **删除**。
-或
-单击组级别时间表配置文件的&#x200B;**更多** > **删除**。
+1. 对于系统级别，请至少选择一个要删除的时间表配置文件，然后单击&#x200B;**更多图标** ![更多图标](assets/more-icon.png) > **删除**。
+
+   或
+
+   单击组级别时间表配置文件的&#x200B;**更多** > **删除**。
+
 1. （视情况而定）如果时间表配置文件已分配给用户，则会显示&#x200B;**替换时间表配置文件**&#x200B;框。 执行以下操作：
    1. 从下拉列表中选择另一个时间表配置文件。 您即将删除的时间表配置文件将由您用来替换所有已分配用户的时间表配置文件替换。 在下一个时间表生成周期中，时间表将根据新分配的用户档案生成。
    1. 单击&#x200B;**删除它**&#x200B;以确认删除。
+
 1. （视情况而定）如果未将时间表配置文件分配给用户，则会显示&#x200B;**删除时间表**&#x200B;框。
 
    单击&#x200B;**删除**&#x200B;以确认删除。

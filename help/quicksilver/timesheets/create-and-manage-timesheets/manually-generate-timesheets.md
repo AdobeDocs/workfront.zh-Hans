@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 405
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 您可以从“设置”中的时间表和小时数区域手动生成系统级别或组级别的时间表。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 如果您正在生成整个系统中使用的时间表，请单击&#x200B;**时间表和小时数。**
 
@@ -79,7 +79,7 @@ ht-degree: 4%
    如果要生成特定组使用的时间表，请单击&#x200B;**组**，然后单击该组的名称。
 
 1. 单击&#x200B;**周期性工时表**。
-1. 单击“更多”图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**生成时间表**。
+1. 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**生成时间表**。
 
 1. 在时间表配置文件列表顶部，单击系统级时间表配置文件的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，或单击组时间表配置文件的&#x200B;**更多**，然后单击&#x200B;**生成时间表**。
 
@@ -89,9 +89,8 @@ ht-degree: 4%
 
 您可以在“设置”的“诊断”区域中手动生成系统级时间表。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**诊断**。
-
 1. 单击&#x200B;**执行诊断**。
 1. 单击&#x200B;**生成工时表**。
