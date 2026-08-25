@@ -7,19 +7,12 @@ author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
 TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 3%
@@ -109,7 +102,7 @@ Adobe Workfront管理员或组管理员可以为系统中的每个人生成时�
    * [在Adobe Workfront中创建或编辑视图](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [在Adobe Workfront中创建分组](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 选择一个或多个要删除的时间表，然后单击时间表列表顶部的&#x200B;**删除** ![删除图标](assets/delete.png)图标。
+1. 选择一个或多个要删除的时间表，然后单击时间表列表顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
 
 1. 单击&#x200B;**删除**。
 

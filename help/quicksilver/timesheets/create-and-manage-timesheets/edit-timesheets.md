@@ -7,22 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 767
+source-wordcount: 757
 ht-degree: 3%
 
 ---
@@ -92,13 +84,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从“设置”区域的列表控件或布局模板中删除了“我的时间表审批”和“我的时间表”过滤器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
-   >
-   >   
-   >   
-   >   * [使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理员或组管理员从“设置”区域的“列表控件”或您的“布局模板”中删除了筛选器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表的顶部或筛选器列表中。 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
 1. （可选）单击&#x200B;**视图** ![视图图标](assets/view-icon.png)或&#x200B;**分组** ![分组图标](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
 
@@ -146,7 +132,7 @@ ht-degree: 3%
       <td> <p>如果要允许批准者在时间表上编辑小时数，请选择此选项。</p> <p>当您选择多个时间表时，此选项不可用。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">加班</span> </td> 
+      <td role="rowheader"><strong>加班</strong> </td> 
       <td> <p>您可以选择在时间表上隐藏“加班”框。</p> <p>默认禁用此选项。</p> </td> 
      </tr> 
     </tbody> 
