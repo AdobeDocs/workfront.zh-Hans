@@ -11,24 +11,15 @@ last-update: '2026-04-01T18:03:50.000Z'
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 autotag-review: '2026-06-02T14:44:07.722Z'
 TQID: 'https://experienceleague.adobe.com/8j4wtdAbRe5ViRPNyr3rpTx8O6GAauin48k0SVZhp1U'
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2:
-  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 722
 ht-degree: 10%
 
 ---
@@ -58,60 +49,62 @@ ht-degree: 10%
 
 * [访问和权限信息：文章索引](/help/quicksilver/planning/access/access-information.md)包含以下信息：
 
-   * Workfront许可证和Planning权限
-   * Planning共享权限
-   * 共享视图
-   * 共享工作区（记录和字段）
-   * 共享记录类型（记录和字段）
-   * 共享记录
+  * Workfront许可证和Planning权限
+  * Planning共享权限
+  * 共享视图
+  * 共享工作区（记录和字段）
+  * 共享记录类型（记录和字段）
+  * 共享记录
 
 * [架构：文章索引](/help/quicksilver/planning/architecture/architecture-information.md)包含以下信息：
 
-   * 创建、编辑、删除工作区
-   * 创建、编辑和删除记录类型
-   * 创建全局记录类型
-   * 连接记录类型和连接记录类型的示例
-   * Workspace模板
+  * 创建、编辑、删除工作区
+  * 创建、编辑和删除记录类型
+  * 创建全局记录类型
+  * 连接记录类型和连接记录类型的示例
+  * Workspace模板
 
 * [字段：文章索引](/help/quicksilver/planning/fields/fields-information.md)包含以下信息：
 
-   * 创建、编辑和删除字段
-   * 公式字段
-   * 主要字段
+  * 创建、编辑和删除字段
+  * 公式字段
+  * 主要字段
 
 * [记录：文章索引](/help/quicksilver/planning/records/records-information.md)包含以下信息：
 
-   * 创建、编辑和删除记录
-   * 连接记录
-   * 向记录中添加封面图像或缩略图
-   * 管理记录页面的布局
-   * “记录注释和历史记录”部分
-   * 共享记录
-   * 从Workfront管理Workfront规划记录
+  * 创建、编辑和删除记录
+  * 连接记录
+  * 向记录中添加封面图像或缩略图
+  * 管理记录页面的布局
+  * “记录注释和历史记录”部分
+  * 共享记录
+  * 从Workfront管理Workfront规划记录
 
 * [Adobe Workfront Planning请求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含以下信息：
 
-   * 如何为记录类型创建请求表单。
-   * 用户如何将请求提交到记录类型请求表单并创建记录。
+  * 如何为记录类型创建请求表单。
+  * 用户如何将请求提交到记录类型请求表单并创建记录。
 
 * [视图：文章索引](/help/quicksilver/planning/views/views-information.md)包含以下信息：
 
-   * 创建记录视图
-   * 管理表、时间轴和日历视图
+  * 创建记录视图
+  * 管理表、时间轴和日历视图
 
 * [通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)包含以下信息：
 
-   * 管理通知偏好设置
-   * 规划应用程序内通知
-   * 规划电子邮件通知
+  * 管理通知偏好设置
+  * 规划应用程序内通知
+  * 规划电子邮件通知
 
 ## 可用于Workfront Planning的其他功能
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
+
+* [为Planning对象使用Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)： Adobe Workfront MCP服务器允许您通过询问自然语言的AI代理平台来查找、创建、更新和管理Workfront项目。 平台会决定要调用哪些Workfront操作，并帮您处理与Workfront的对话。
 
 * [配置Adobe Workfront Planning自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：您可以在Adobe Workfront Planning中配置自动化，这些自动化在激活时会在从Planning记录触发时在Workfront中创建对象，或在Workfront Planning中创建记录。
 
