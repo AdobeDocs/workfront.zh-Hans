@@ -8,21 +8,14 @@ author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
 TQID: https://experienceleague.adobe.com/VJQGCqYo3FZNceECWZrbsrTNX7jnKMZnIV1N4TQo9GA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: 525
 ht-degree: 0%
 
 ---
@@ -68,17 +61,17 @@ ht-degree: 0%
 
 默认情况下，您有权显示的所有时间表以及时间表。 有关Adobe Workfront中时间表布局的信息，请参阅[时间表布局概述](../../timesheets/timesheets/timesheet-layout.md)。
 
-![](assets/all-timesheets-list-nwe-350x68.png)
+![所有工时表列表](assets/all-timesheets-list-nwe-350x68.png)
 
 1. 单击右上角的以下选项之一以显示您的时间表：
 
    * **我的时间表**&#x200B;以仅显示您的时间表。
 
-   ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   ![我的工时表列表](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
    * **我的工时表批准**&#x200B;以仅显示您批准的时间表。
 
-     ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+     ![我批准的时间表列表](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
 1. （可选）更新时间表列表顶部的视图、筛选器和分组。 有关详细信息，请参阅[报告元素：筛选器、视图和分组](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)。

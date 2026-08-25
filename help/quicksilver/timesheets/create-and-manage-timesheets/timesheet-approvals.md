@@ -7,20 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 TQID: https://experienceleague.adobe.com/qp-mum3AisU5J1qYW6qsb-Kq9M3-7RpBaUStpmtwSGM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: 689
 ht-degree: 3%
 
 ---
@@ -95,17 +89,13 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
    选择时间表列表顶部的&#x200B;**我的时间表审批**&#x200B;过滤器。
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从设置区域的列表控件或布局模板中删除了“我的时间表批准”过滤器，则“我的时间表批准”选项不会显示在时间表列表顶部或过滤器列表中。
-   >
-   >有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理员或组管理员从“设置”区域的“列表控件”或您的“布局模板”中删除了筛选器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表的顶部或筛选器列表中。 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （可选）单击时间表列表顶部的&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)，然后键入关键字以查找特定时间表。 您可以搜索时间范围，或所有者或审批者的姓名。
+1. （可选）单击时间表列表顶部的&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并键入关键字以查找特定时间表。 您可以搜索时间范围，或所有者或审批者的姓名。
 1. 单击要批准的工时表的时间范围。 此时将打开时间表。
 
    >[!TIP]

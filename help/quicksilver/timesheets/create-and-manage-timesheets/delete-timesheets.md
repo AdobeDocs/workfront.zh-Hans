@@ -7,21 +7,14 @@ author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
 TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: 742
 ht-degree: 3%
 
 ---
@@ -77,11 +70,11 @@ Adobe Workfront管理员或组管理员可以为系统中的每个人生成时�
 
 ## 删除列表中的工时表
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 单击&#x200B;**时间表**。 默认情况下已选择&#x200B;**所有**&#x200B;筛选器，该筛选器显示您有权查看的所有时间表。
+默认情况下已选择&#x200B;**所有**&#x200B;筛选器，该筛选器显示您有权查看的所有时间表。
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![已选择一个时间表的时间表列表](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
@@ -93,21 +86,15 @@ Adobe Workfront管理员或组管理员可以为系统中的每个人生成时�
 
      这会将我的时间表批准或我的时间表过滤器应用到时间表列表。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 单击“筛选器”图标![](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 单击“筛选器”图标![筛选器图标](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从“设置”区域的列表控件或布局模板中删除了“我的时间表审批”和“我的时间表”过滤器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
-   >
-   >   
-   >   
-   >   * [使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理员或组管理员从“设置”区域的“列表控件”或您的“布局模板”中删除了筛选器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表的顶部或筛选器列表中。 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （可选）单击&#x200B;**视图** ![](assets/view-icon.png)或&#x200B;**分组** ![](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
+1. （可选）单击&#x200B;**视图** ![视图图标](assets/view-icon.png)或&#x200B;**分组** ![分组图标](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
 
    有关创建过滤器、视图或分组的信息，请参阅以下文章：
 
@@ -115,7 +102,7 @@ Adobe Workfront管理员或组管理员可以为系统中的每个人生成时�
    * [在Adobe Workfront中创建或编辑视图](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [在Adobe Workfront中创建分组](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 选择一个或多个要删除的时间表，然后单击时间表列表顶部的&#x200B;**删除** ![](assets/delete.png)图标。
+1. 选择一个或多个要删除的时间表，然后单击时间表列表顶部的&#x200B;**删除** ![删除图标](assets/delete.png)图标。
 
 1. 单击&#x200B;**删除**。
 
@@ -131,9 +118,10 @@ Adobe Workfront管理员或组管理员可以为系统中的每个人生成时�
 
 ## 从时间表页面删除时间表
 
-1. 单击Adobe Workfront右上角的&#x200B;[!UICONTROL **主菜单**]&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
+
 1. 单击要删除的时间表以将其打开。
-1. 单击时间表名称右侧的&#x200B;[!UICONTROL **更多**]&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**删除**。
+1. 单击时间表名称右侧的&#x200B;[!UICONTROL **更多**]&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除**。
 
    ![从时间表页面删除时间表](assets/delete-timesheet-from-timesheet-page.png)
 1. 单击&#x200B;[!UICONTROL **删除**]&#x200B;以确认。

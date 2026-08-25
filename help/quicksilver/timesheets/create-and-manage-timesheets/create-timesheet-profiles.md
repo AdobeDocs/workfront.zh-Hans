@@ -9,18 +9,12 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 1593
 ht-degree: 3%
@@ -69,14 +63,6 @@ ht-degree: 3%
 +++
 
 ## 创建或编辑周期性工时表
-
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
 
 >[!IMPORTANT]
 >
@@ -131,9 +117,9 @@ Old info:
 
      使用下拉菜单选择时间表的批准者（如果需要批准者）。 您可以从下列选项中进行选择：
 
-      * **无**：不需要批准时间表。
-      * **他们的经理**：这是系统设置的默认审批者。 在这种情况下，在提交工时表供审批时，被指定为其经理的用户将审批该工时表。
-      * **特定人员**：您可以按姓名指定特定用户作为时间表批准者。 您在一个时间表上可以有多个批准者。 在这种情况下，在某位批准者批准该时间表后，该时间表将标记为&#x200B;**已关闭**，并从所有剩余批准者的时间表批准列表中消失。
+     * **无**：不需要批准时间表。
+     * **他们的经理**：这是系统设置的默认审批者。 在这种情况下，在提交工时表供审批时，被指定为其经理的用户将审批该工时表。
+     * **特定人员**：您可以按姓名指定特定用户作为时间表批准者。 您在一个时间表上可以有多个批准者。 在这种情况下，在某位批准者批准该时间表后，该时间表将标记为&#x200B;**已关闭**，并从所有剩余批准者的时间表批准列表中消失。
 
    * **可以编辑时间**：选择此选项可允许批准者在时间表上编辑小时数。
 
@@ -143,14 +129,14 @@ Old info:
 
      启用&#x200B;**限制对所有者和管理员编辑时间表**&#x200B;选项时：
 
-      * 批准者只能批准和拒绝时间表，无论是否启用可编辑时间。
-      * 时间表所有者的经理只能查看其直接报告的时间表。
+     * 批准者只能批准和拒绝时间表，无论是否启用可编辑时间。
+     * 时间表所有者的经理只能查看其直接报告的时间表。
 
      禁用&#x200B;**限制对所有者和管理员编辑工时表**&#x200B;选项时：
 
-      * 启用&#x200B;**可以编辑时间**&#x200B;后，审批者可以提交、重新打开或关闭时间表并编辑时间。
-      * 禁用&#x200B;**可以编辑时间**&#x200B;后，审批者无法提交、重新打开或关闭时间表，也无法编辑时间。 批准者只能批准或拒绝时间表。
-      * 时间表所有者的经理可以提交、撤消、重新打开和编辑其直接下属的时间表。
+     * 启用&#x200B;**可以编辑时间**&#x200B;后，审批者可以提交、重新打开或关闭时间表并编辑时间。
+     * 禁用&#x200B;**可以编辑时间**&#x200B;后，审批者无法提交、重新打开或关闭时间表，也无法编辑时间。 批准者只能批准或拒绝时间表。
+     * 时间表所有者的经理可以提交、撤消、重新打开和编辑其直接下属的时间表。
 
      >[!NOTE]
      >
