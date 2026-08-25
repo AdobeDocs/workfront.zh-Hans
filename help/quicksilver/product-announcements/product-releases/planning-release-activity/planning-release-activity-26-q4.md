@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 >预览： 2026年8月13日
 >生产快速发布： 2026年8月13日
 >适用于所有人的生产： 2026年10月15日
+>[!BADGE 超出计划]{type=Neutral}
 
 在表格视图中拖放多行时，会出现新的可视指示器。 现在，更突出的加号和数字指示器可显示为拖放操作选择的行数。
 
