@@ -6,9 +6,9 @@ description: 更改历史记录允许您查看对Workfront对象和字段的更�
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 {{preview-fast-release-general}}
 
-更改历史记录允许您配置和跟踪对Adobe Workfront中的对象和特定字段的更改。 灵活的配置允许您设置确切要跟踪哪些对象和字段。
+更改历史记录允许系统管理员配置和跟踪对Adobe Workfront中的对象和特定字段的更改。 通过灵活的配置，管理员可以准确地设置要跟踪哪些对象和字段。
 
-更改历史记录可以跟踪您定义的以下数据类型：
+更改历史记录可以跟踪以下类型的定义数据：
 
 * “设置”区域中的活动，如创建或删除访问级别或工作角色
 * 字段级更新，例如编辑项目描述或更改用户的布局模板
@@ -36,6 +36,11 @@ ht-degree: 3%
 * 更改日期和时间
 * 更改的Source，如特定用户、API、Workfront Fusion、AI LLM或Workfront系统
 
+>[!NOTE]
+>
+>当您访问“更改历史记录”时，您将只看到您有权查看的字段的跟踪更改。
+>例如，如果在项目上跟踪财务数据，而您无权访问财务数据，则您将不会在更改历史记录列表中看到财务字段。
+
 ## 访问权限要求
 
 +++ 展开可查看本文所述功能的访问权限要求。
@@ -50,7 +55,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 标准版]</td> 
+   <td>[！UICONTROL标准版]</td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -62,25 +67,6 @@ ht-degree: 3%
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## 查看更改历史记录列表
 
@@ -101,7 +87,7 @@ To view the types of changes that are tracked:
 1. 要搜索特定术语，请在搜索框中单击并输入术语。 当您键入时，结果会在列表中加亮。
 1. （可选）要按列筛选，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[筛选增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)中的项。
 1. （可选）要隐藏、显示或重新排序列，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[自定义列](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)。
-1. （可选）要添加或删除列，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的使用列管理器[&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的添加和删除列。
+1. （可选）要添加或删除列，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的使用列管理器](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的[添加和删除列。
 1. （可选）要调整行高，请参阅文章[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[更改视图中的行高](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)。
 
 ## 导出更改历史记录
@@ -113,7 +99,7 @@ To view the types of changes that are tracked:
 1. 单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)并选择保存为XLSX还是CSV格式。
 
    这将打开保存文件框，您可以将导出的文件保存在计算机上。
-   完成保存导出的文件。您现在可以在计算机上找到该代码并与他人共享。
+   完成保存导出的文件。 您现在可以在计算机上找到该代码并与他人共享。
 
 
 
