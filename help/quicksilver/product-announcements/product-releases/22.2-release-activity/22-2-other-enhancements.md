@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ in January 2022
 我们对Adobe Workfront顶部导航栏进行了几项增强。
 
 * “收藏夹”和“最近访问”在顶部导航栏中有单独的图标。 每个页面仍显示相同的内容（已标记为收藏的页面和最近访问的页面），您可以继续以相同方式添加和删除收藏的页面。
-* 针脚和主菜单的外观和感觉已更新为Adobe设计标准，包括色彩和字体。 在主菜单中添加和删除大头针以及您有权访问的区域的方式没有改变。
+* 大头针和主菜单的外观和感觉已更新为Adobe设计标准，包括颜色和字体。 在主菜单中添加和删除大头针以及您有权访问的区域的方式没有改变。
 * 顶部导航栏右侧的图标进行了重新排序，以便更加直观。 图标顺序为：帮助链接、通知、收藏夹、最近访问、搜索、主菜单。
 
 有关详细信息，请参阅[顶部导航栏概述](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)。

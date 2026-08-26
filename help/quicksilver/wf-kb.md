@@ -6,7 +6,7 @@ description: 。
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 12%
+ht-degree: 25%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 12%
 * [时间表：文章索引](timesheets/timesheets-all.md)
 * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
-* [Workfront 校样](workfront-proof/workfront-proof.md)
+* [Workfront Proof](workfront-proof/workfront-proof.md)
 * [产品公告](product-announcements/product-announcements.md)
 
 。
