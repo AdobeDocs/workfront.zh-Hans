@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Workfront会在您上传、存储和下载的文档上保留C2PA元数据，而不对其进行修改。
 
-有关详细信息，请参阅Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md)中的[C2PA元数据。
+有关详细信息，请参阅Adobe Workfront[&#128279;](/help/quicksilver/documents/c2pa-metadata-overview.md)中的C2PA元数据。
 
 ## 左侧导航面板图标的界面更新
 
