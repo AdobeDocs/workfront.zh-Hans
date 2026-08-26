@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
+source-wordcount: '14452'
 ht-degree: 2%
 
 ---
@@ -2210,6 +2210,7 @@ ht-degree: 2%
     * [通过从CSV或Excel文件导入信息创建记录类型](planning/architecture/import-file-to-create-record-types.md)
     * [跨工作区记录类型概述](planning/architecture/cross-workspace-record-types-overview.md)
     * [为记录类型配置跨工作区功能](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[配置记录类型业务规则](planning/architecture/configure-business-rules.md)
     * [配置记录类型的设置区域](planning/architecture/configure-record-type-settings.md)
     * [从另一个工作区添加现有记录类型](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [连接记录类型概述](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 2%
     * [共享记录类型](planning/access/share-record-types.md)
     * [共享视图](planning/access/share-views.md)
     * [共享记录](planning/access/share-records.md)
+    * {hide-from-toc}[共享Workfront规划字段](planning/access/share-fields.md)
     * [设置记录的默认权限](planning/access/set-default-record-permissions.md)
     * [请求对视图或工作区的权限](planning/access/request-permissions.md)
   * Adobe Workfront Planning记录 {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 2%
   * [App Builder：文章索引](/help/quicksilver/app-builder/app-builder-toc.md)
   * [从Adobe Exchange获取并安装应用程序](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[使用Claude代码技能构建App Builder应用程序](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[隐藏的测试文档](hidden-test.md)
 * {hide-from-toc}[隐藏2](hidden-test-2.md)
 

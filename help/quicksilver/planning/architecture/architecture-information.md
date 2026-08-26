@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
 source-wordcount: 238
 ht-degree: 9%
@@ -46,6 +46,17 @@ ht-degree: 9%
 * [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)
 * [跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+<!--
+
+<div class="preview">
+
+* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+</div>
+
+-->
+
 * [从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [配置记录类型的设置区域](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
