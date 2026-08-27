@@ -9,20 +9,15 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 5%
+source-wordcount: 2002
+ht-degree: 4%
 
 ---
 
@@ -193,6 +188,10 @@ Old:
        * 跨越多天的记录将显示在日历顶部。
        * 持续一天或更短的记录，显示在日历视图的下半部分。 如果选择显示开始日期和结束日期的小时，则记录会在发生日期的相应时间显示。
 
+         <span class="preview">日历在每周视图的两个区域显示前、当前和未来几周的最多1,000条记录。</span>
+
+1. <span class="preview">（可选且有条件）在按周查看日历时，如果记录超过1,000条，并且其中某些记录默认不显示，请单击日历底部的&#x200B;**加载更多**。</span>
+
 1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
 1. 要在日历视图中创建记录或编辑其日期，请执行下列操作之一：
@@ -327,7 +326,7 @@ Old:
 
       ![视图中的多层筛选器](assets/multi-tiered-filters-in-views.png)
 
-   系统会自动过滤记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系统会自动过滤记录列表。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
@@ -448,7 +447,7 @@ Old:
 
    * **记录类型**：日历中记录栏的颜色与您选择的记录类型的颜色相匹配。 这是默认选项。
    * **字段值**：记录的颜色与您指定的字段的颜色匹配。
-   * **无**：记录显示在白色栏中。 <span class="preview">已从“预览”环境中删除“无”选项。</span>
+   * **无**：记录显示在白色栏中。 <span class="preview">已从预览环境中删除&#x200B;**无**&#x200B;选项。</span>
 
 
 

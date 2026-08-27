@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
+source-wordcount: 4518
 ht-degree: 1%
 
 ---
@@ -213,7 +208,7 @@ Old:
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -465,12 +460,16 @@ Old:
    * **栈叠**：显示的分组没有冻结的左列，并且符合其项目时间线的宽度。
 
      时间轴视图中的![栈叠分组](assets/stacked-grouping-in-timeline-view.png)
-   * **泳道**：显示的分组具有冻结的左标题列，该列列出分组项和符合时间线视图宽度的分组。
+   * **泳道**：显示的分组具有冻结的左侧面板，该面板列出了分组的项目，并且分组符合时间轴视图的宽度。
 
      在时间轴视图中![泳道分组](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   分组将立即应用。
+
+1. <span class="preview">（可选）单击工具栏中的&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png)以打开&#x200B;**分组记录依据**&#x200B;框，然后单击&#x200B;**全部展开**&#x200B;以展开所有分组，或单击&#x200B;**全部折叠**&#x200B;以折叠所有分组，并手动仅折叠您需要的分组。</span>
+1. <span class="preview">（可选且有条件）在泳道显示中，拖放左侧面板分隔符以调整其宽度。 每个用户的面板宽度跨会话保存，首次用户默认采用此宽度。</span>
+1. <span class="preview">（可选）对于长分组名称，将鼠标悬停在分组行上可在工具提示中查看分组的全名。</span>
+
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
    或
