@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '14452'
+source-wordcount: '14457'
 ht-degree: 2%
 
 ---
@@ -1249,6 +1249,7 @@ ht-degree: 2%
     * [使用Adobe Experience Manager旧版连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
     * [使用Adobe Experience Manager增强型连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
     * [迁移链接的文件夹和文档](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
+  * [Adobe Workfront中的C2PA元数据](documents/c2pa-metadata-overview.md)
 * 管理工作 {#manage-work}
   * [管理工作](manage-work/manage-work.md)
   * 项目 {#projects}

@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: 240
 ht-degree: 0%
 
 ---
@@ -34,16 +34,19 @@ ht-degree: 0%
 
 要取消订阅接收Announcement Center报文，请执行以下操作：
 
-1. 单击Workfront右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
-1. 单击列表底部的&#x200B;**所有公告**。
+1. 单击Workfront右上角的编号图标以打开您的通知列表，然后单击列表底部的&#x200B;**所有公告**。
 
-   此时会显示&#x200B;**公告**&#x200B;页面，其中列出了您的所有公告。
+   ![通知图标](assets/notifications-icon-jewel.png)
 
-   ![公告页面](assets/announcements-page-qs-350x210.png)
 
-1. 单击公告页面右上角的&#x200B;**设置**，然后选择&#x200B;**新版本**&#x200B;或&#x200B;**培训**，具体取决于您不想再接收的公告类型。
+1. 单击“公告”页面右上角的&#x200B;**设置**，
 
-   ![公告中心设置](assets/announcementcenter-settings-350x187.png)
+   ![公告页面](assets/ac-page.png)
+
+
+1. 在&#x200B;**公告中心设置**&#x200B;对话框中，取消选中要取消订阅的公告中心消息类型的复选框。
+
+   ![公告中心设置](assets/ac-settings.png)
 
 1. 单击&#x200B;**保存设置**。
 

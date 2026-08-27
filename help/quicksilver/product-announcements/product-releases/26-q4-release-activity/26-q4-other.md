@@ -4,9 +4,9 @@ description: 2026年第四季度发布时间框架内的其他增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,23 @@ ht-degree: 0%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
+## C2PA元数据会保留在您的文件中
+
+>[!NOTE]
+>
+>适用于所有人的生产： 2026年8月26日
+
+Adobe Workfront会在您上传、存储和下载的文档上保留C2PA元数据，而不对其进行修改。
+
+有关详细信息，请参阅Adobe Workfront[&#128279;](/help/quicksilver/documents/c2pa-metadata-overview.md)中的C2PA元数据。
+
 ## 左侧导航面板图标的界面更新
 
 >[!NOTE]
 >
->预览： 2026年7月30日>适用于所有人的生产： 2026年8月13日>[!BADGE 取消计划]{type=Neutral}
+>预览： 2026年7月30日
+>适用于所有人的生产： 2026年8月13日
+>[!BADGE 超出计划]{type=Neutral}
 
 我们更新了Workfront中左侧导航面板图标的外观，以提供现代设计和与其他Adobe应用程序一致的体验。 功能未发生更改。
 
@@ -33,7 +45,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 已对增强列表进行多项更新：
 
@@ -46,7 +60,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年7月30日>生产快速发布： 2026年8月13日>适用于所有人的生产： 2026年10月15日
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
 当您将鼠标悬停在对象的痕迹导航上时，现在可以复制其名称并在一个操作中链接在一起。 这样可以更快地在Slack、电子邮件或其他工具中共享对象，而无需单独复制名称和URL。
 

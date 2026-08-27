@@ -13,9 +13,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1135856bf97f6607ad57cf539bdff688b49bf476
 workflow-type: tm+mt
-source-wordcount: 2016
+source-wordcount: 2012
 ht-degree: 0%
 
 ---
@@ -68,18 +68,18 @@ ht-degree: 0%
    <td><strong>每天</strong> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><strong>已完成分配到我团队中任务的所有前置任务</strong> </p> <p>当分配团队中某个任务的前置任务被标记为完成时，该团队会收到电子邮件通知。</p> <p>具有“审阅”或“请求者”许可证的用户不会收到通知。</p> <p>即时通知电子邮件的主题是： <em>任务完成： &lt;名称&gt;</em></p> <p> 每日摘要通知的主题是： <em>分配给您的工作摘要&lt;每日摘要日期&gt; </em></p> </td> 
+   <td> <p><strong>已完成分配到我团队中任务的所有前置任务</strong> </p> <p>当分配团队中某个任务的前置任务被标记为完成时，该团队会收到电子邮件通知。</p> <p>拥有外部许可证的用户不会收到通知。</p> <p>即时通知电子邮件的主题是： <em>任务完成： &lt;名称&gt;</em></p> <p> 每日摘要通知的主题是： <em>分配给您的工作摘要&lt;每日摘要日期&gt; </em></p> </td> 
    <td> 任务名称<br>任务项目<br>任务参考编号<br>完成前置任务的用户的名称<br>前置任务的状态<br>前置任务完成的日期和时间<br>前置任务的先前状态<br><strong>查看更多详细信息</strong>按钮<br>*项目名称<br>*项目参考编号<br>*已完成任务的总数<br>*任务名称<br>*完成任务的用户的名称<br>*每日摘要日期 </td>
    <td><strong>即时</strong> </td> 
   </tr>
   <!--
   <tr data-mc-conditions=""> 
-   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest<br></p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -91,7 +91,7 @@ ht-degree: 0%
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -112,7 +112,7 @@ ht-degree: 0%
    <td><strong>每天</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>当任务到期日期更改时，发送电子邮件给分派用户</strong> </p> <p>当任务的[!UICONTROL 规划完成日期]发生更改时，任务被分配人会收到电子邮件通知，除非更改规划完成日期的用户同时也是任务被分配人。</p> <p>仅当项目状态不是[!UICONTROL Planning]时，才会发送通知。</p> <p>不会发送有关个人任务的通知。</p> <p> 具有“审阅”或“请求者”许可证的用户不会收到通知。 </p> <p> 即时通知电子邮件的主题为： <em>[!UICONTROL 到期日期已更改。]</em></p> <p> 每日摘要通知的主题是：<em> [!UICONTROL 分配给您的工作摘要] &lt;每日摘要的日期&gt; </em></p> </td> 
+   <td> <p><strong>当任务到期日期更改时，发送电子邮件给分派用户</strong> </p> <p>当任务的[!UICONTROL 规划完成日期]发生更改时，任务被分配人会收到电子邮件通知，除非更改规划完成日期的用户同时也是任务被分配人。</p> <p>仅当项目状态不是[!UICONTROL Planning]时，才会发送通知。</p> <p>不会发送有关个人任务的通知。</p> <p> 拥有外部许可证的用户不会收到通知。 </p> <p> 即时通知电子邮件的主题为： <em>[!UICONTROL 到期日期已更改。]</em></p> <p> 每日摘要通知的主题是：<em> [!UICONTROL 分配给您的工作摘要] &lt;每日摘要的日期&gt; </em></p> </td> 
    <td> 任务名称<br>项目名称<br>任务参考编号<br>新到期日期（[!UICONTROL 计划完成日期]）<br>更改到期日期的日期和时间<br>更改到期日期的用户名称<br>*项目名称<br>*项目参考编号<br>*更改到期日期（计划完成日期）的任务总数<br>*任务名称<br>*新计划完成日期<br>*更改到期日期的用户名称日期<br>*每日摘要的日期 </td> 
    <td> <p><strong>即时</strong> </p> <p><strong>和每天</strong> </p> </td> 
   </tr> 
