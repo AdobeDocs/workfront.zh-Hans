@@ -5,7 +5,7 @@ title: 在画布功能板中构建数据透视表
 description: 您可以将数据透视表添加到画布仪表板，以表格式查看数据的聚合总计。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 5%
@@ -239,3 +239,4 @@ ht-degree: 5%
 我们限制了对选择子对象作为数据透视表区段的访问权限。 区段选项可以是记录本身或不表示1:many或多:many关系的其它相关记录的属性。
 
 我们还限制将任何父属性或子属性引用为量度的访问权限，以减少重复计数或重复汇总值的可能性，从而导致实际数据的误报。
+
