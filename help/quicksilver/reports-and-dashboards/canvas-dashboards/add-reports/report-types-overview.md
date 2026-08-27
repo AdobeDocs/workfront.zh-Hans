@@ -11,9 +11,9 @@ hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: aced2514a18895ff61514325ba08a2af6fe48212
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,5 @@ ht-degree: 0%
 * 图表报表（包括条形图、柱状图、折线图和饼图）
 * KPI报表
 * 表格报表
+* 数据透视表报表
 * 待定审批报告

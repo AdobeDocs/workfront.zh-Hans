@@ -9,21 +9,15 @@ exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
 workflow-type: tm+mt
-source-wordcount: 1299
-ht-degree: 7%
+source-wordcount: 1406
+ht-degree: 6%
 
 ---
 
@@ -31,8 +25,8 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。在此阶段，部分功能可能无法完成或无法按预期工作。请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
 >请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
@@ -80,7 +74,7 @@ ht-degree: 7%
 
 ## 先决条件
 
-在构建KPI报告之前，您必须创建一个功能板。
+在构建KPI报告之前，您必须创建一个功能板。 有关详细信息，请参阅[创建画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
 ## 在画布功能板中构建KPI报告
 
@@ -88,13 +82,9 @@ ht-degree: 7%
 
 {{step1-to-dashboards}}
 
-1. 在左侧面板中，单击&#x200B;**画布功能板**。
+1. 在左侧面板中，单击&#x200B;**画布功能板**，然后单击要将报告添加到的功能板的名称。
 
-1. 单击右上角的&#x200B;**新建仪表板**。
-
-1. 在&#x200B;**创建仪表板**&#x200B;框中，输入仪表板的&#x200B;**名称**&#x200B;和&#x200B;**描述**。
-
-1. 单击&#x200B;**创建**。
+1. 单击页面右上角的&#x200B;**添加报告**。
 
 1. 在&#x200B;**添加报告**&#x200B;框中，选择&#x200B;**创建报告**。
 
@@ -161,13 +151,9 @@ ht-degree: 7%
 
 {{step1-to-dashboards}}
 
-1. 在左侧面板中，单击&#x200B;**画布功能板**。
+1. 在左侧面板中，单击&#x200B;**画布功能板**，然后单击要将报告添加到的功能板的名称。
 
-1. 单击右上角的&#x200B;**新建仪表板**。
-
-1. 在&#x200B;**创建仪表板**&#x200B;框中，输入仪表板的&#x200B;**名称**&#x200B;和&#x200B;**描述**。
-
-1. 单击&#x200B;**创建**。
+1. 单击页面右上角的&#x200B;**添加报告**。
 
 1. 在&#x200B;**添加报告**&#x200B;框中，选择&#x200B;**创建报告**。
 
@@ -215,7 +201,7 @@ ht-degree: 7%
 * 能够看到财务数据的用户，仅限于查看其本身已有权限访问的记录（如项目、任务、问题等）。 对于无权访问的记录，用户将无法看到对应的财务数值。
 * 报告创建者在将财务数据包含到仪表板中时应谨慎，并注意仪表板的共享对象，以避免发生非预期的访问。
 
-这是一个已知的限制，我们计划尽快解决它。
+这是一个已知的限制，我们计划在将来解决它。
 
 ### 利用字段选择器
 
