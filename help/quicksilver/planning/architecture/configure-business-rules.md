@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '298'
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,10 @@ ht-degree: 4%
 
 ## 配置业务规则时的注意事项
 
-* 您可以配置规则以确定何时可以编辑或删除记录。
+* 您可以根据定义的条件，配置何时可以编辑或删除记录的规则。
+
+  例如，您可以创建条件来要求某些字段具有值。 如果这些字段中缺少值，则用户无法编辑或删除该记录。
+* 不能将业务规则添加到其主工作区或辅助工作区中的全局记录类型。
 * 您无法为创建记录的时间配置规则。 任何对记录类型具有管理权限的人员都可以创建记录。
 * 您可以为业务规则创建一个条件，该条件引用除以下字段类型之外的所有字段类型：
   * 公式字段

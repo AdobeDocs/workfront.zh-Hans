@@ -4,9 +4,9 @@ description: 2026年第四季度报表改进
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 本页介绍了在2026年第四季度发行的“预览”环境中所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 画布仪表板中的数据透视表报表
+
+>[!NOTE]
+>
+>预览： 2026年8月27日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+画布仪表板中新的数据透视表类型使用准确、完整的汇总来聚合数据。 您可以直接在功能板上构建计数、总和和平均等量度，然后深入查看任何总计的基础记录。
+
+有关详细信息，请参阅[在画布功能板中生成数据透视表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)。
 
 ## 强制计划报表的结束日期
 

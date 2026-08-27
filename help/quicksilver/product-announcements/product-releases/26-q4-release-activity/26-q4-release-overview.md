@@ -4,9 +4,9 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1501'
 ht-degree: 2%
 
 ---
@@ -264,6 +264,15 @@ ht-degree: 2%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板中的数据透视表</a>
+                <p>画布仪表板中的新数据透视表类型使用准确、完整的汇总汇总来聚合数据，并深入到基础记录。</p>
+            </td>
+            <td><p>2026年8月27日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
         <tr>
             <td>
