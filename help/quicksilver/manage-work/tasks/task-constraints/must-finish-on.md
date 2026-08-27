@@ -8,18 +8,13 @@ author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
 TQID: https://experienceleague.adobe.com/qo-JdIbfFijhpa7-kI22hYe7gZ6DvJb8e2ycBiKTU7I
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 477
 ht-degree: 0%
 
 ---
@@ -41,19 +36,23 @@ ht-degree: 0%
 * 前置任务关系不会强制重新计划任务。 Adobe Workfront基本上忽略了前置任务关系。
 * 如果前置任务开始落后或延迟，则任务显示为&#x200B;**处于风险中**。
 
+* “必须完成时间”限制对具有子任务的任务没有影响。 具有子任务的任务始终具有其自己的计划起始日期、计划完成日期和工期从最早的子任务起始日期和最晚的子任务完成日期累计，而不考虑对其应用的限制。 您必须将“必须完成日期”限制直接与需要固定日期的子任务关联。 父项将继续自动上滚。
+
+有关详细信息，另请参阅[任务持续时间和持续时间类型](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md)。
+
 * 在将具有MFO限制的任务移动或复制到另一个项目时，任务的限制或项目的日期可能会根据限制日期以及项目的开始日期和完成日期而更改。 存在以下情况：
 
-   * 当目标项目计划为从开始日期起时：
+  * 当目标项目计划为从开始日期起时：
 
-      * 当任务的限制日期早于项目的计划开始日期时，任务限制会尽快更改为。
-      * 当任务的限制日期晚于项目计划完成日期时，项目计划完成日期将更改为匹配任务的完成限制日期。
+    * 当任务的限制日期早于项目的计划开始日期时，任务限制会尽快更改为。
+    * 当任务的限制日期晚于项目计划完成日期时，项目计划完成日期将更改为匹配任务的完成限制日期。
 
-      * 当目标项目计划为从完成开始时：
+    * 当目标项目计划为从完成开始时：
 
-         * 当任务的限制日期晚于项目完成日期时，任务限制会变为“尽可能晚于”。
-         * 当任务的限制日期早于项目的计划起始日期时，项目计划起始日期将更改为匹配任务的起始限制日期。
+      * 当任务的限制日期晚于项目完成日期时，任务限制会变为“尽可能晚于”。
+      * 当任务的限制日期早于项目的计划起始日期时，项目计划起始日期将更改为匹配任务的起始限制日期。
 
-      * 无论项目计划如何，当任务的限制日期在项目的开始日期和完成日期之内时，任务限制日期或项目日期都不会发生更改。
+    * 无论项目计划如何，当任务的限制日期在项目的开始日期和完成日期之内时，任务限制日期或项目日期都不会发生更改。
 
   有关移动任务的信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)。 有关复制任务的信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 

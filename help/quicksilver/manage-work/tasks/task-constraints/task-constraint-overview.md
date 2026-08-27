@@ -8,22 +8,14 @@ author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 704
 ht-degree: 6%
 
 ---
@@ -38,6 +30,8 @@ ht-degree: 6%
 
 在构建项目计划时，您可以根据项目任务的顺序和时间范围做出决策。 任务可以独立于任何任务序列运行，但它们可能会影响项目的时间表。 任务约束允许项目经理计划特定任务何时可以在项目上开始或完成。
 
+任务约束同样适用于项目任务和模板任务。
+
 根据您使用的约束条件，您可能需要为任务指定计划起始日期、计划完成日期或同时指定两者。
 
 需要定义日期的限制类型会影响前置任务关系。
@@ -46,7 +40,9 @@ ht-degree: 6%
 >
 >如果在任务之间使用前置任务关系，请考虑使用不需要特定日期的限制类型。
 
-下表显示了每个约束及其缩写。 任务列表和创建Kick-Start导入文件时使用缩写。 单击每个任务限制的链接标题，以了解有关该类型限制的更多信息。
+下表显示了每个约束及其缩写。
+
+任务列表和创建Kick-Start导入文件时使用缩写。 单击每个任务限制的链接标题，以了解有关该类型限制的更多信息。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
