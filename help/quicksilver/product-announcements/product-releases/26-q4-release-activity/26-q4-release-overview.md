@@ -4,10 +4,10 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 2%
+source-wordcount: '1579'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第四季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将图像附加到Adobe云存储对象上的注释</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将图像附加到Adobe云存储对象上的注释</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>现在，作为统一审查和批准的一部分，使用Adobe云存储的组织可以将图像文件直接附加到评论。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -267,6 +267,24 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
+                画布仪表板中的<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">审批类型字段</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>审批实体现在包括审批类型字段，该字段允许用户区分验证审批、文档版本审批、接收审批和其他审批类型。</p>
+            </td>
+            <td><p>不适用</p></td>
+            <td><p>不适用</p></td>
+            <td><p>2026年8月28日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板中的审批术语更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>为清楚起见，已重命名画布功能板中用于文档和工作审批的多个字段名称。</p>
+            </td>
+            <td><p>不适用</p></td>
+            <td><p>不适用</p></td>
+            <td><p>2026年8月28日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板中的数据透视表</a>
                 <p>画布仪表板中的新数据透视表类型使用准确、完整的汇总汇总来聚合数据，并深入到基础记录。</p>
             </td>
@@ -316,7 +334,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器批量分配增强功能</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器批量分配增强功能</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>在工作负载均衡器批量分配对话框中，<strong>替换</strong>操作已重命名为<strong>分配</strong>，以便更好地描述该操作的用途。 功能未发生更改。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -339,7 +357,7 @@ ht-degree: 2%
         </tr>
            <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA元数据保留在您的文件中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA元数据保留在您的文件中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Workfront会在您上传、存储和下载的文档上保留C2PA元数据，而不对其进行修改。</p>
             </td>
             <td><p>不适用</p></td>
@@ -348,7 +366,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左侧导航面板图标的界面更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左侧导航面板图标的界面更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>我们更新了Workfront中左侧导航面板图标的外观，以提供现代设计和与其他Adobe应用程序一致的体验。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -391,8 +409,8 @@ ht-degree: 2%
 
 这项更改是在2026年4月Workfront发行说明中首次宣布的，这是在截止日期前的最后提醒。 请确保所有受影响的读者用户在2026年8月8日之前启用MFA，以避免其访问中断。
 
-有关信息，请参阅[为Snowflake](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/reporting/data-lake/create-a-reader-account)创建读取器帐户或连接。
+有关信息，请参阅[为Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)创建读取器帐户或连接。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
