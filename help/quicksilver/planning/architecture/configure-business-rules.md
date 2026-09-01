@@ -1,13 +1,13 @@
 ---
 title: 配置记录类型业务规则
-description: 您可以配置记录类型业务规则，以定义如何在Adobe Workfront Planning中管理该类型的记录。
+description: 您可以配置记录类型业务规则，以根据字段值对记录强制执行某些操作。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1038'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,12 @@ ht-degree: 1%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-您可以配置记录类型业务规则，以定义如何在Adobe Workfront Planning中管理该类型的记录。
+您可以为Adobe Workfront Planning记录类型配置业务规则，以指示在允许或阻止对该类型的记录执行操作之前需要某些字段。
+
+根据规则的制定方式，如果满足定义的业务规则，您可以允许对记录执行以下操作：
+
+* 编辑或不编辑记录
+* 删除或不删除记录
 
 ## 访问权限要求
 
@@ -75,152 +80,205 @@ ht-degree: 1%
 
 ## 配置业务规则时的注意事项
 
-* 您可以根据定义的条件，配置何时可以编辑或删除记录的规则。
+* 业务规则将条件附加到字段更改或记录删除。 规则只有在经过审慎考虑的特定时刻才会生效：即字段即将更改为您在规则中配置的字段值时。
 
-  例如，您可以创建条件来要求某些字段具有值。 如果这些字段中缺少值，则用户无法编辑或删除该记录。
+* 以纯语言显示的规则如下所示：“在编辑此记录之前，Campaign摘要字段必须具有值”。
+
+  如果字段为空，将阻止记录编辑，并且用户将收到一条明确消息，说明在继续操作之前需要解决哪些问题。 更新必填字段并重试后，允许更改。
+
+* 规则不会阻止记录创建。 用户仍可以创建记录，但必须确保必填字段不为空或包含指定值。
+* 规则不会自动编辑或删除记录。 更改必须由用户自行决定并触发。
+* 规则不会追溯应用：旧记录不会受到影响。 该规则检查仅在下次有人尝试编辑或删除记录时运行。
 * 不能将业务规则添加到其主工作区或辅助工作区中的全局记录类型。
-* 您无法为创建记录的时间配置规则。 任何对记录类型具有管理权限的人员都可以创建记录。
 * 您可以为业务规则创建一个条件，该条件引用除以下字段类型之外的所有字段类型：
   * 公式字段
   * 查找字段
   * 引用字段
+* 规则适用于可以编辑或删除记录的每个人。
+* 记录类型可以有多个业务规则。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+  所有规则同时检查，并且错误消息显示一条语句中缺少的所有字段。
 
 ## 配置业务规则
 
-1. 转到记录类型。
-1. 单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击“业务规则”。
+1. 转到记录类型页面。
+1. 从任何视图中，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**业务规则**。
+
+   此时将打开“业务规则”页面。
+1. 单击&#x200B;**新建业务规则**。
+1. 在&#x200B;**新业务**&#x200B;规则框中，在第一个可用字段中添加该业务规则的名称。 这是必填字段
+1. （可选）添加描述以定义业务规则，然后单击&#x200B;**保存**。
+1. 在业务规则设置窗体的&#x200B;**If**&#x200B;部分中，根据特定规则选择要限制或允许的操作。 从以下内容中选择： <!--check UI text-->
+   * **记录编辑**：如果满足此规则中定义的条件，将允许用户编辑或不编辑记录。
+   * **记录删除**：如果满足此规则中定义的条件，将允许用户删除或不删除记录。
+     <!--add screen shot when UI text is final-->
+1. 在&#x200B;**公式字段**&#x200B;中添加业务规则。 从右侧面板的&#x200B;**公式表达式**&#x200B;部分中为规则选择一个运算符。
+
+   例如，您可以从&#x200B;**Other**&#x200B;字段部分选择&#x200B;**IF**，或开始输入“IF”，然后在建议列表中显示时单击它。
+
+   >[!TIP]
+   >
+   >为了保持规则的语法正确，建议从建议列表中选择字段和运算符。
+1. 选择您要使其成为必填项的字段，以允许编辑或删除此记录类型的记录。
+
+   例如，您可以键入以下语句，以使&#x200B;**促销活动摘要**&#x200B;字段为必填字段：
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+   ```
+
+   >[!IMPORTANT]
+   >
+   >我们强烈建议您在规则公式中包含以下信息，以便用户轻松了解何时不允许他们尝试对记录执行的操作：
+   >
+   >* 为规则设置的确切字段。
+   >* 不符合规则时的确切后果。
+
+   当字段或表达式错误时，**公式**&#x200B;字段中有指示符。 <!--add screen shot?-->
+
+   在业务规则的&#x200B;**Then**&#x200B;部分中，您可以查看规则的用途的说明。
+
+1. 单击“激活”****&#x200B;以激活此记录类型的规则，然后单击“保存”****。
+
+   规则在激活后立即应用，所有有权编辑或删除选定记录类型中记录的用户都必须遵循这些规则。
+1. （可选，推荐）单击页眉中&#x200B;**业务规则**&#x200B;左侧的返回箭头以显示记录类型页面，转到表视图或打开记录页面，然后尝试编辑或删除记录，以测试您刚刚创建的规则。
+
+## 管理业务规则
+
+您可以编辑、删除或停用现有业务规则。
+
+编辑现有规则不会更改现有记录。 编辑后的规则仅适用于有人尝试编辑或删除现有记录时。
+
+1. 返回记录类型的&#x200B;**业务规则**&#x200B;配置页面。
+1. 查找要更改的规则。
+1. 将鼠标悬停在规则名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
+
+   * **编辑**：这将打开业务规则设置页面，您可以编辑有关业务规则的信息。
+   * **停用**： <!--check this in the UI: right now, it says Disable-->这将停止触发规则，但会保留以备将来使用。
+   * **删除**：已删除有关该规则的所有信息。 无法恢复已删除的规则。
+
+   已编辑的规则或规则的停用仅适用于将来记录，不会追溯应用。
+
+   <!--add screen shot if UI is fixed with Deactivate-->
 
 
-来自以下克劳德的&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;必须编辑&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
+<!--
 
-## 在Workfront Planning中设置Business Rules：分步指南
-
-是否曾经有一次记录移至“准备执行”，但后来才发现一半必填字段（品牌、指示、发布日期）从未填写？ 当有人注意到时，已经有一个丢失数据的下游项目，并且有人必须跟踪详细信息并手动回填。
-
-业务规则可解决此问题。 它们允许您设置一个简单的检查点： **在将记录移动到特定状态之前，必须填写某些字段。** 如果没有，则进行更改的人会看到缺少的确切内容，在解决之前无法继续。
-
-本指南将介绍业务规则的作用、如何设置规则以及您的团队在规则上线后将体验到的内容。
-
-### 业务规则的实际用途
-
-业务规则将条件附加到&#x200B;**状态更改**。 规则不会在某人创建记录时强制实施完整数据（这会减慢每个人的速度），而只是在某个刻意的特定时刻生效：即状态即将更改为您配置的状态时。
-
-简单地说，规则看起来像这样：
-
-> “在记录可以移动到&#x200B;**准备执行**&#x200B;之前，**品牌**&#x200B;字段必须具有值。”
-
-如果字段为空，则状态更改将被阻止，并且人员会收到一条明确消息，告诉他们要修复的内容。 一旦他们填写并重试，更改即会完成。
-
-以下是一些重要的内容&#x200B;*不是*：
-
-* **它不阻止记录创建。** 人们仍然可以立即创造一张新唱片，并随着时间推移填满，就像今天一样。
-* **它不会自动填充任何内容或自动更改状态。** 人总要靠自己改变状态。
-* **它不会追溯标记旧记录。** 已处于目标状态的记录不受影响 — 该检查仅在下次有人尝试将记录&#x200B;*移入该状态的*&#x200B;时运行。
+***********FROM CLAUDE - BELOW - MUST EDIT*******************
 
 
+### What business rules actually do
 
-### 开始之前
+Business rules attach a condition to a **status change**. Instead of enforcing complete data the moment someone creates a record (which would slow everyone down), the rule only kicks in at one specific, deliberate moment: when a status is about to change to a status you've configured.
 
-在配置规则之前，需要满足以下条件：
+A rule looks like this in plain language:
 
-1. **必须为您的组织启用此功能。** 此操作可在Adobe端完成（通过功能标记），而不是您自己启用的功能。 如果您没有看到如下所述的Business Rules部分，请咨询您的Adobe联系人，确认已为您的租户启用它。
-2. **您需要管理员或工作区配置器权限。** 常规规划者无法创建或编辑规则，只有管理工作区设置的人员才能。
+> "Before a record can move to **Ready for Execution**, the field **Brand** must have a value."
 
-### 步骤1：打开业务规则配置区域
+If the field is empty, the status change is blocked and the person gets a clear message telling them what to fix. Once they fill it in and try again, the change goes through.
 
-业务规则与您的其他管理员设置同时存在 — 您无需搜索单独的“规划”面板。 从工作流设置区域：
+A few important things this is *not*:
 
-1. 转到工作区的主&#x200B;**工作流设置/管理员配置**&#x200B;区域。
-2. 查找要配置的记录类型（例如，“材料”或“促销活动”）的&#x200B;**业务规则**&#x200B;部分。
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
+* **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
+* **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
+
+### Step 1: Open the business rules configuration area
+
+Business rules live alongside your other admin setup — you won't need to hunt for a separate "Planning" panel. From your workflow setup area:
+
+1. Go to the main **workflow setup / admin configuration** area for your workspace.
+2. Look for the **business rules** section for the record type you want to configure (for example, "Materials" or "Campaigns").
 
 
-### 第2步：选择记录类型
+### Step 2: Choose the record type
 
-规则是按记录类型配置的，因此请选择要为其添加规则的规则。 例如，如果要确保在执行之前每个Materials记录都填写了关键字段，请选择&#x200B;**Materials**。
+Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
 
+### Step 3: Create a new rule
 
+For each rule, you'll specify three things:
 
-### 第3步：创建新规则
-
-对于每个规则，您将指定三个内容：
-
-| 设置内容 | 示例 |
+| What you set | Example |
 |---|---|
-| **记录类型** | 材料 |
-| **目标状态** | 准备执行 |
-| **必填字段** | 品牌 |
+| **Record type** | Materials |
+| **Target status** | Ready for Execution |
+| **Required field** | Brand |
 
-换句话说：“当Materials记录的状态更改为&#x200B;**准备执行**&#x200B;时，字段&#x200B;**Brand**&#x200B;必须具有值。”
+In other words: "When a Materials record's status is changed to **Ready for Execution**, the field **Brand** must have a value."
 
-您可以为同一状态添加多个规则。 例如，您可能需要先填写品牌、治疗区、指示和预计启动日期，记录才能移至“准备执行” — 每个规则都是自己的规则，并且所有规则都检查在一起。
+You can add more than one rule for the same status. For example, you might require Brand, Therapeutic Area, Indication, and Estimated Launch Date all to be filled in before a record can move to "Ready for Execution" — each is its own rule, and all of them are checked together.
 
-**您需要哪些字段？**
-&#x200B;- 连接的记录字段（例如，链接的品牌或指示记录） — 至少有一个记录链接后，规则就会立即传递。
-&#x200B;- 标准文本字段（单行或段落） — 一旦存在任何值，规则即会传递。
-&#x200B;- 日期字段 — 设置日期后，规则即会传递。
+**What fields can you require?**
 
-**您还不能使用的内容：**&#x200B;公式字段和查找字段不支持在此版本中作为规则目标，因为它们是在后台计算的，而不是由人员直接填写。
+* Connected record fields (e.g., a linked Brand or Indication record) — the rule passes as soon as at least one record is linked.
+* Standard text fields (single-line or paragraph) — the rule passes once there's any value.
+* Date fields — the rule passes once a date is set.
 
-### 步骤4：编写用户将看到的消息
+**What you can't use yet:** formula fields and lookup fields aren't supported as rule targets in this release, since they're calculated in the background rather than filled in directly by a person.
 
-在创建规则时，您还将提供消息，当有人尝试在未填写字段的情况下进行更改时，该消息将会显示。 保持其特定性和可操作性 — 例如：
+### Step 4: Write the message people will see
 
-> “品牌是必需的。”
+When you create a rule, you'll also provide the message that shows up if someone tries to make the change without the field filled in. Keep it specific and actionable — something like:
 
-您无需担心设置整个错误横幅的格式 — 如果同时违反了多个规则，系统会处理组合消息（请参阅下文）。
+> "Brand is required."
 
-### 步骤5：保存规则
+You don't need to worry about formatting a whole error banner — the system handles combining messages if multiple rules are violated at once (see below).
 
-保存后，规则将对工作区中的每个人立即生效&#x200B;**&#x200B;** — 无需注销、刷新或等待部署。 下次任何人尝试将记录移入该状态时，将检查规则。
+### Step 5: Save the rule
 
-### 您的团队将实际体验什么
+Once saved, the rule takes effect **immediately** for everyone in the workspace — no need to log out, refresh, or wait for a deployment. The very next time anyone tries to move a record into that status, the rule is checked.
 
-以下是规则启用后使用Planning的人员每天发生的变化。
+### What your team will actually experience
 
-#### 如果必填字段为空
+Here's what changes for the people using Planning day to day, once a rule is live.
 
-1. 计划员打开记录并将状态更改为选定状态（如“执行就绪”）。
-2. 系统会检查与该状态相关的所有规则。
-3. 如果必填字段为空，则更改为&#x200B;**已拒绝** — 状态将恢复为以前的状态。
-4. 此时会显示一个toast消息，明确指明缺少哪些字段：
-   > *“已阻止状态更改：在迁移到‘执行就绪’之前，必须填充‘品牌’和‘预计启动日期’。”*
-5. 规划者填写缺少的字段并尝试再次更改状态。
-6. 这次，规则通过，状态将正常更新。
+#### If a required field is empty
 
-#### 如果所有内容已填充
+1. A planner opens a record and changes the status to the gated status (say, "Ready for Execution").
+2. The system checks all rules tied to that status.
+3. If a required field is empty, the change is **rejected** — the status reverts back to what it was.
+4. A toast message appears, naming exactly which field(s) are missing:
+   > *"Status change blocked: 'Brand' and 'Estimated Launch Date' must be populated before moving to 'Ready for Execution.'"*
+5. The planner fills in the missing field(s) and tries the status change again.
+6. This time, the rule passes, and the status updates normally.
 
-一切都没变。 状态会立即更新，无需额外步骤或弹出窗口。 业务规则在实际需要之前是隐藏的。
+#### If everything is already filled in
 
-#### 如果同时缺少多个字段
+Nothing changes. The status updates instantly, with no extra steps or popups. Business rules are invisible until they're actually needed.
 
-所有违反的规则都将被检查在一起，消息会一一列出所有缺失的字段 — 规划者不必修复一个字段，再试一次，得到下一个字段的通知，然后重复此操作。
+#### If several fields are missing at once
 
-### 步骤6：稍后编辑或删除规则
+All the violated rules are checked together, and the message lists every missing field in one go — planners don't have to fix one field, try again, get told about the next one, and repeat.
 
-规则不是一成不变的。 要进行更改，请执行以下操作：
+### Step 6: Edit or remove a rule later
 
-1. 返回记录类型的业务规则配置区域。
-2. 查找要更改的规则。
-3. 编辑必填字段、目标状态或消息 — 或完全删除规则。
-4. 进行保存。 该更改将立即应用于未来状态更改。
+Rules aren't set in stone. To make changes:
 
-请记住：编辑或删除规则&#x200B;**只影响将来的过渡。** 不会重新评估更改前已将其设置为目标状态的记录。
-3##一些值得了解的事情
+1. Go back to the business rules configuration area for the record type.
+2. Find the rule you want to change.
+3. Edit the required field, target status, or message — or delete the rule entirely.
+4. Save. The change applies immediately to future status changes.
 
-* **这与状态更改后锁定记录不同。** 业务规则（如此处所述）仅在&#x200B;*状态更改完成之前*&#x200B;检查字段完整性。 另一个相关的功能管理在记录达到特定状态后是否完全禁止编辑/删除记录 — 此处未涵盖的内容。
-* **批量状态更改**（同时更改多个记录的状态）尚未完全定义它们与业务规则的交互方式 — 如果您的团队严重依赖批量操作，请与您的Adobe联系人确认当前行为。
-* **如果由于系统错误而无法评估规则**，则将阻止转换而不是默默地允许通过 — 您最终不会因为后端问题而遇到通过规则的不完整记录。
-* **关闭该功能**&#x200B;不会删除您配置的规则 — 这些规则刚刚暂停。 将其恢复为完全恢复原状，无需重新配置。
+Keep in mind: editing or deleting a rule **only affects transitions going forward.** Records that already made it into the target status before the change aren't reevaluated.
+3## A few things worth knowing
 
-### 快速参考：设置您的第一个规则
+* **This is separate from locking records after a status change.** Business rules (as described here) only check field completeness *before* a status change goes through. A different, related feature governs whether a record becomes fully locked from edits/deletion once it reaches a certain status — that's not what's covered here.
+* **Bulk status changes** (changing status on many records at once) aren't fully defined yet for how they interact with business rules — if your team relies heavily on bulk actions, check with your Adobe contact on current behavior.
+* **If a rule can't be evaluated** due to a system error, the transition is blocked rather than silently allowed through — you'll never end up with an incomplete record slipping past a rule because of a backend hiccup.
+* **Turning the feature off** doesn't delete your configured rules — they're just paused. Turning it back on restores them exactly as they were, no reconfiguration needed.
 
-1. 确认已为您的租户启用该功能。
-2. 转到记录类型的工作流设置→业务规则。
-3. 选择记录类型（如“材料”）。
-4. 创建规则：目标状态+必填字段。
-5. 编写明确而具体的错误消息。
-6. 保存 — 立即上线。
-7. 对所需的每个字段重复执行上述操作。
-8. 自行测试：尝试在字段为空的情况下更改记录的状态，确认您看到预期消息，填写该字段，并确认状态更改现已完成。
+### Quick reference: setting up your first rule
 
-就是这样 — 从此以后，任何将记录转换到前进方向的人，都会得到一个明确的提示，如果缺少某些东西，而不是一个下游项目悄悄地显示不完整。
+1. Confirm the feature is enabled for your tenant.
+2. Go to workflow setup → business rules for your record type.
+3. Choose the record type (e.g., Materials).
+4. Create a rule: target status + required field.
+5. Write a clear, specific error message.
+6. Save — it's live immediately.
+7. Repeat for each field you want to require.
+8. Test it yourself: try changing a record's status with the field empty, confirm you see the expected message, fill in the field, and confirm the status change now goes through.
+
+That's it — from here on, anyone converting a record forward will get a clear nudge if something's missing, instead of a downstream project quietly showing up incomplete.
+
+-->
