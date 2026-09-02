@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 3%
+source-wordcount: 697
+ht-degree: 2%
 
 ---
 
@@ -29,9 +29,17 @@ ht-degree: 3%
 
 作为[!DNL Adobe Workfront]管理员，您可以查看和管理[!DNL Workfront]实例的OAuth2应用程序，这些应用程序允许其他应用程序访问[!UICONTROL Workfront]。
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* 自定义的OAuth2应用程序正在被弃用。 请注意以下日期：
+>
+>   * 2026年11月1日：您将再也无法创建新的自定义OAuth2应用程序。
+>   * 2027年2月1日：现有的自定义OAuth2应用程序将不再工作。
+>
+>   有关详细信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 >
 >* 在OAuth2的上下文中，“Oauth2应用程序”是指应用程序和服务器（如[!DNL Workfront]）之间的此类访问链接。 有关详细信息，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 >* 您一次最多可以拥有10个OAuth2应用程序。
 
 * 有关创建自定义OAuth2应用程序的信息、说明和详细信息，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)

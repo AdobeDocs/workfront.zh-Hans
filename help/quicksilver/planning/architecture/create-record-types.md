@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: 1203
 ht-degree: 2%
 
 ---
@@ -293,12 +293,18 @@ Old:
 
    更改将自动保存。
 
-   有关在记录类型页面中添加记录、删除或编辑记录类型或更新视图的其他信息，请参阅以下文章：
+   有关在记录类型页面中添加记录、删除或编辑记录类型<!--<span class="preview">creating business rules</span>-->或更新视图的其他信息，请参阅以下文章：
 
    * [创建记录](/help/quicksilver/planning/records/create-records.md)
    * [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)
+
+   <!--  
+    <div class="preview">
+    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+    </div>
+    -->
 
 ## 通过从CSV或Excel文件导入信息创建记录类型
 

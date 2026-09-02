@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2018
 ht-degree: 5%
 
 ---
@@ -35,9 +35,16 @@ ht-degree: 5%
 
 创建[!UICONTROL OAuth2]应用程序时，将生成客户端ID和客户端密钥。 然后，您的用户便可以在API调用中使用客户端ID，将与您创建的应用程序集成。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->在OAuth2的上下文中，“创建应用程序”是指在应用程序和服务器（如[!DNL Workfront]）之间创建此类访问链接的过程。
+>* 自定义的OAuth2应用程序正在被弃用。 请注意以下日期：
+>
+>   * 2026年11月1日：您将再也无法创建新的自定义OAuth2应用程序。
+>   * 2027年2月1日：现有的自定义OAuth2应用程序将不再工作。
+>
+>   有关详细信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
+>
+>* 在OAuth2的上下文中，“创建应用程序”是指在应用程序和服务器（如[!DNL Workfront]）之间创建此类访问链接的过程。
 
 * 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)。
 * 有关使用服务器身份验证（JWT流）配置和使用OAuth2应用程序的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)。
@@ -141,7 +148,7 @@ ht-degree: 5%
 
 1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth2应用程序]**。
 1. 单击&#x200B;**[!UICONTROL 创建应用集成]**。
-此时会显示&#x200B;**新OAuth2应用程序**&#x200B;框。
+将显示&#x200B;**新OAuth2应用程序**&#x200B;框。
 1. 在&#x200B;**新OAuth2应用程序**&#x200B;框中，选择&#x200B;**[!UICONTROL 计算机到计算机应用程序]**。
 1. 输入新应用程序的名称，如“[!DNL Workfront] for ClientApp”。
 1. 单击&#x200B;**[!UICONTROL 创建]**。

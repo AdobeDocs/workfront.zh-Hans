@@ -4,10 +4,10 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 2%
+source-wordcount: '1579'
+ht-degree: 3%
 
 ---
 
@@ -264,6 +264,24 @@ ht-degree: 2%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                画布仪表板中的<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">审批类型字段</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>审批实体现在包括审批类型字段，该字段允许用户区分验证审批、文档版本审批、接收审批和其他审批类型。</p>
+            </td>
+            <td><p>不适用</p></td>
+            <td><p>不适用</p></td>
+            <td><p>2026年8月28日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板中的审批术语更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>为清楚起见，已重命名画布功能板中用于文档和工作审批的多个字段名称。</p>
+            </td>
+            <td><p>不适用</p></td>
+            <td><p>不适用</p></td>
+            <td><p>2026年8月28日</p></td>
         </tr>
         <tr>
             <td>

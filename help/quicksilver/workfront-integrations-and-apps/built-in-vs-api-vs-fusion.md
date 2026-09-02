@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0e2544a99ea6aee353649286407be4781934c34e
 workflow-type: tm+mt
-source-wordcount: 977
-ht-degree: 0%
+source-wordcount: 1031
+ht-degree: 1%
 
 ---
 
@@ -55,9 +55,16 @@ Workfront内置的集成主要侧重于个人工作效率和协作。 这些集�
 
 Adobe [!DNL Workfront]管理员可以为您的[!DNL Workfront]实例创建OAuth2应用程序，这将允许其他应用程序访问[!DNL Workfront]。 然后，您的用户可以授予这些其他应用程序访问其[!DNL Workfront]数据的权限。 这样，您就可以将Workfront与您选择的应用程序（包括您自己的内部应用程序）集成。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->在OAuth2的上下文中，“创建应用程序”是指在应用程序和服务器（例如Workfront）之间创建此类访问链接的过程。
+>* 自定义的OAuth2应用程序正在被弃用。 请注意以下日期：
+>
+>   * 2026年11月1日：您将再也无法创建新的自定义OAuth2应用程序。
+>   * 2027年2月1日：现有的自定义OAuth2应用程序将不再工作。
+>
+>   有关详细信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
+>
+>* 在OAuth2的上下文中，“创建应用程序”是指在应用程序和服务器（例如Workfront）之间创建此类访问链接的过程。
 
 创建[!UICONTROL OAuth2]应用程序的优点可能包括：
 
