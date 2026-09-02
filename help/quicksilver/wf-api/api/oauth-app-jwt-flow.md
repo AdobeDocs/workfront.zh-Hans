@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: 554
 ht-degree: 0%
 
 ---
 
 # 使用JWT流配置和使用贵组织的自定义OAuth 2应用程序
+
+>[!IMPORTANT]
+>
+>自定义的OAuth2应用程序正在被弃用。 请注意以下日期：
+>
+>* 2026年11月1日：您将再也无法创建新的自定义OAuth2应用程序。
+>* 2027年2月1日：现有的自定义OAuth2应用程序将不再工作。
+>
+>有关详细信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 要与Workfront集成并允许您的客户端应用程序代表用户与Workfront进行通信，您必须：
 
@@ -69,7 +73,7 @@ JWT必须经过签名并进行base-64编码以包含在访问请求中。 JWT库
  <tbody> 
   <tr> 
    <td role="rowheader">费用</td> 
-   <td> <p>必需。到期参数是测量自01/01/1970 GMT以来的绝对时间的必需参数。您必须确保过期时间晚于问题发生时间。之后，JWT不再有效。 </p> <p>注意：我们建议您拥有一个生命周期非常短的令牌（几分钟），以便该令牌在转换为访问令牌后不久过期。 每次需要新的访问令牌时，都会签署和交换一个JWT。 这是一种更安全的方法。 我们不建议根据需要重复用于获取访问令牌的长效令牌。</p> </td> 
+   <td> <p>必需。 到期参数是测量自01/01/1970 GMT以来的绝对时间的必需参数。 您必须确保过期时间晚于问题发生时间。 之后，JWT不再有效。 </p> <p>注意：我们建议您拥有一个生命周期非常短的令牌（几分钟），以便该令牌在转换为访问令牌后不久过期。 每次需要新的访问令牌时，都会签署和交换一个JWT。 这是一种更安全的方法。 我们不建议根据需要重复用于获取访问令牌的长效令牌。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 

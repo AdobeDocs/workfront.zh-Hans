@@ -9,19 +9,14 @@ role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
 TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 3%
+source-wordcount: 697
+ht-degree: 2%
 
 ---
 
@@ -29,9 +24,17 @@ ht-degree: 3%
 
 作为[!DNL Adobe Workfront]管理员，您可以查看和管理[!DNL Workfront]实例的OAuth2应用程序，这些应用程序允许其他应用程序访问[!UICONTROL Workfront]。
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* 自定义的OAuth2应用程序正在被弃用。 请注意以下日期：
+>
+>   * 2026年11月1日：您将再也无法创建新的自定义OAuth2应用程序。
+>   * 2027年2月1日：现有的自定义OAuth2应用程序将不再工作。
+>
+>   有关详细信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 >
 >* 在OAuth2的上下文中，“Oauth2应用程序”是指应用程序和服务器（如[!DNL Workfront]）之间的此类访问链接。 有关详细信息，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 >* 您一次最多可以拥有10个OAuth2应用程序。
 
 * 有关创建自定义OAuth2应用程序的信息、说明和详细信息，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
@@ -108,7 +111,7 @@ ht-degree: 3%
 >您无法查看客户端密钥本身。 如果您丢失了客户端密钥，则必须将其删除并创建一个新密钥。
 >
 >* 要删除客户端密钥，请参阅本文中的[删除客户端密钥](#delete-client-secret)。
->* 若要创建新的客户端密钥，请参阅[为 [!DNL Workfront] 集成](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序[&#128279;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)中的创建OAuth2应用程序。
+>* 若要创建新的客户端密钥，请参阅[为 [!DNL Workfront] 集成](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)中的[创建OAuth2应用程序。
 >
 
 {{step-1-to-setup}}
