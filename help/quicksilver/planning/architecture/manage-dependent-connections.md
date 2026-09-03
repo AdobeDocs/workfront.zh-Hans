@@ -157,7 +157,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      有关信息，请参阅本文中的[相关连接记录类型的示例](#example-of-dependent-connected-record-types)部分。
    * 已连接记录字段的列标题中有一个指示说明该字段处于依赖连接关系。
 
-     列标题](assets/dependent-icon-tooltip-in-column-header.png)中的![依赖图标工具提示
+     列标题![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的依赖图标工具提示
 1. （可选）单击&#x200B;**记录筛选规则**&#x200B;并从要连接的记录类型中选择字段以限制该字段值的选项，然后单击&#x200B;**完成**。
 
    当第三个记录类型中存在这两个字段时，连接的字段记录类型的选项将受您在此处选择的过滤器的限制。
