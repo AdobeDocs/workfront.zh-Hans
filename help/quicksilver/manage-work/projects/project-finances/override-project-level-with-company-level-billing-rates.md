@@ -7,20 +7,14 @@ author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 TQID: https://experienceleague.adobe.com/GQSQGGHBZsBLtI8IEUltVXzxmEtOxue0iE6fpHmYWP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 475
+source-wordcount: 480
 ht-degree: 4%
 
 ---
@@ -66,21 +60,21 @@ ht-degree: 4%
 
 +++
 
-## 启用公司级别的记帐费率覆盖选项
+## 打开公司级别的记帐费率覆盖选项
 
-当公司与项目相关联并且启用此选项时，对公司级别记帐费率所做的更改将覆盖在项目上设置的记帐费率。
+当公司与项目关联并且打开此选项时，对公司级别记帐费率所做的更改将覆盖在项目上设置的记帐费率。
 
 当用户手动重新计算项目财务时，将应用对公司级别记帐费率的任何更改。 历史收入计算也会被覆盖，除非将它们标记为已记帐。
 
 1. 转到项目。
 1. 单击标题中项目名称旁边的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
-1. 在&#x200B;**财务**&#x200B;部分中，启用&#x200B;**允许公司级别的记帐费率以覆盖项目级别的记帐费率**。
+1. 在&#x200B;**财务**&#x200B;部分中，选择&#x200B;**允许公司级别的记帐费率覆盖项目级别的记帐费率**。
 
    >[!CAUTION]
    >
-   >启用此选项将覆盖历史收入计算，除非将它们标记为已记帐。 您可以通过创建开票记录来保留历史收入计算。 有关详细信息，请参阅文章[创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >启用此选项将覆盖历史收入计算，除非将它们标记为已记帐。 您可以通过创建开票记录来保留历史收入计算。 有关详细信息，请参阅文章[创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
-1. 单击&#x200B;**保存更改**。
+1. 单击&#x200B;**保存**。
 
 ## 更新公司级别的记帐费率并将其应用于项目
 
@@ -93,23 +87,24 @@ ht-degree: 4%
 {{step-1-to-setup}}
 
 1. 单击&#x200B;**公司**。
-1. 单击与您启用了公司级别记帐费率覆盖的项目关联的公司的名称。
+1. 单击与您为其启用了公司级别记帐费率覆盖的项目关联的公司的名称。
 1. 单击左侧面板中的&#x200B;**记帐费率**。
-1. 更新现有工作角色的&#x200B;**公司记帐费率**&#x200B;和开始/结束日期，然后按Enter。
+1. 选择要更新的工作角色比率，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-   要添加新的生效日期的公司记帐费率，请选择工作角色的记帐费率，然后单击&#x200B;**编辑**。 有关生效日期的公司记帐费率的详细信息，请参阅[覆盖公司级别的工作角色记帐费率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
+   根据需要更新记帐费率和有效日期，然后单击&#x200B;**保存**。 有关生效日期的公司记帐费率的详细信息，请参阅[覆盖公司级别的工作角色记帐费率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
 
 1. 要更新一个或多个项目的公司费率，请执行下列操作之一：
 
    * 多个项目：
 
-      1. 转到项目列表。
-      1. 选中与要更新的项目对应的复选框。
-      1. 单击&#x200B;**编辑**。
-      1. 在“设置”部分中，启用&#x200B;**重新计算成本和收入**&#x200B;选项。
-      1. 单击&#x200B;**保存更改**。
+     1. 转到项目列表。
+     1. 选中要更新的项目的复选框。
+     1. 单击列表顶部的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**重新计算财务**。
 
    * 单个项目：
 
-      1. 转到为其启用了公司级别记帐费率覆盖的项目。
-      1. 单击标题中项目名称旁边的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**重新计算财务**。
+     1. 转到为其启用了公司级别记帐费率覆盖的项目。
+     1. 单击标题中项目名称旁边的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**重新计算财务**。
+
+     有关重新计算一个或多个项目的财务的详细信息，请参阅[重新计算项目财务](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md)。
+

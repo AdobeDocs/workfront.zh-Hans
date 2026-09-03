@@ -9,20 +9,14 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1597
 ht-degree: 3%
 
 ---
@@ -80,7 +74,7 @@ ht-degree: 3%
 
    或
 
-   若要创建或编辑组的周期性时间表，请单击&#x200B;**组**，单击组的名称，然后单击左侧面板中的&#x200B;**周期性时间表**。
+   要创建或编辑组的周期性时间表，请单击&#x200B;**组**，单击组的名称，然后单击左侧面板中的&#x200B;**周期性时间表**。
 
 1. 要创建时间表配置文件，请单击&#x200B;**新建配置文件**。
 

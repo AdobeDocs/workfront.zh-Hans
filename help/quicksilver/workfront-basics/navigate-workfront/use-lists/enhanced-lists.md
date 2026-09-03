@@ -8,19 +8,14 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 1%
 
 ---
@@ -90,7 +85,6 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | 讨论区管理员视图 | 讨论区>管理员视图 |
 | Adobe云存储上的文档 | 项目，任务，问题，项目组合，项目，模板，模板任务>文档 |
 | <span class="preview">方案计划和计划的列表</span> | <span class="preview">主菜单>方案</span> |
-| <span class="preview">目标和进度指示器列表</span> | <ul><li><span class="preview">主菜单>目标</span></li><li><span class="preview">主菜单>目标>进度指示器</span></li></ul> |
 
 <!--
 
@@ -98,6 +92,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +182,7 @@ Under Locations?
 
 1. 使用切换可显示或隐藏列表中的列。
 
-<span class="preview">您可以在搜索框中搜索列。</span>
+   <span class="preview">您可以在搜索框中搜索列。</span>
 
 1. 要重新排序列，请单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)并将列移动到所需的位置。 移动列会自动更改列表。
 
@@ -287,7 +284,7 @@ Under Locations?
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
