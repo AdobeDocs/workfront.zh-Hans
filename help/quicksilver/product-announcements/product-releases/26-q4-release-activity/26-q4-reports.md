@@ -4,10 +4,10 @@ description: 2026年第四季度报表改进
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 0%
+source-wordcount: '611'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 0%
 本页介绍了在2026年第四季度发行的“预览”环境中所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
+
+## Canvas仪表板中的“审批类型”字段
+
+>[!NOTE]
+>
+>适用于所有人的生产： 2026年8月28日
+>[!BADGE 超出计划]{type=Neutral}
+
+审批实体现在包含&#x200B;**审批类型**&#x200B;字段，该字段允许用户区分验证审批、文档版本审批、接收审批和其他审批类型。
+
+## Canvas仪表板中的审批术语更新
+
+>[!NOTE]
+>
+>适用于所有人的生产： 2026年8月28日
+>[!BADGE 超出计划]{type=Neutral}
+
+为了清楚起见，已重命名画布功能板中用于文档和工作的审批的以下字段名称：
+
+| 上一个名称 | 新名称 |
+| --- | --- |
+| 文档审批 | 审批 |
+| 文档审批阶段 | 审批阶段 |
+| 文档审批阶段参与者 | 审批阶段参与者 |
+| 审批流程 | 工作批准流程 |
+| 审批阶段 | 工作审批阶段 |
+| 审批者状态 | 工作审批者状态 |
+| 等待审批 | 等待工作审批 |
+
+此更改不会影响当前报表的运行方式。
 
 ## 画布仪表板中的数据透视表报表
 

@@ -4,9 +4,9 @@ description: 2026年第四季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,60 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## 为Adobe Admin Console中配置的用户设置默认访问级别
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+现在，您可以为通过Adobe Admin Console在Workfront中配置的用户设置默认访问级别。 Workfront管理员可以在“系统首选项”中配置此默认设置。
+
+以前，Workfront会为用户分配参与者或请求者访问级别。
+
+有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+## Workfront Planning客户的自定义季度之外的自定义周数
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+如果贵组织购买了Planning包和Workflow包，则您现在可以使用与Workfront管理员配置自定义季度相同的方式配置自定义周数。
+
+自定义周数在Workfront中不可见。 它们仅在Workfront Planning时间线视图中可见。
+
+有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
+## 在主菜单中重新排序自定义应用程序
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+使用布局模板时，您现在可以使用默认的Workfront菜单选项将自定义应用程序重新定位为任意顺序。 这样，您就可以将每个应用程序放置在最相关的位置。
+
+以前，自定义应用程序始终是布局模板的主菜单选项中的最后一项，无法重新定位。
+
+有关将自定义应用程序添加到主菜单的详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
+
+## 对自定义文档集成的大文件支持
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+自定义文档集成现在支持对大型文件进行分块上传。 启用后，超过25 MB的文件将分解为较小的块并并行上传，从而使大型文件的上传速度更快、更可靠。 管理员可以打开此设置，并设置每个集成的最大块大小（最多100 MB）。
+
+有关详细信息，请参阅[配置文档集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
 ## 组管理员可以管理业务配置文件
 
