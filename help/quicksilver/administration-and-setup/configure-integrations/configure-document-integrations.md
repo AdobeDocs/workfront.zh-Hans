@@ -9,26 +9,21 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 4%
 
 ---
 
 # 配置文档集成
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +92,14 @@ ht-degree: 4%
 
 * 第三方云文档提供商：
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google驱动器]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google驱动器]
+  * Quip
 
   >[!TIP]
   >
@@ -155,15 +150,15 @@ ht-degree: 4%
       <td>自定义集成的名称。 这是用户在Workfront中使用集成时看到的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API调用的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 身份验证类型]</td> 
+      <td role="rowheader">[！UICONTROL身份验证类型]</td> 
       <td> <p>对自定义集成进行授权的API调用时要使用的身份验证方法。</p> 
        <ul> 
-        <li>如果选择<strong>[!UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
-        <li>如果选择<strong>[!UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
+        <li>如果选择<strong>[！UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
+        <li>如果选择<strong>[！UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -180,7 +175,7 @@ ht-degree: 4%
       <td>用于用户身份验证的完整URL。 在OAuth配置过程中，[!DNL Workfront]将用户导航到此地址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 令牌端点URL]</td> 
+      <td role="rowheader">[！UICONTROL令牌端点URL]</td> 
       <td>用于检索 OAuth 令牌的完整 API URL。</td> 
      </tr> 
      <tr> 
@@ -192,7 +187,7 @@ ht-degree: 4%
       <td>此集成的OAut客户端密钥</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 请求参数]</td> 
+      <td role="rowheader">[！UICONTROL请求参数]</td> 
       <td> <p>输入要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。</p> <p>要添加多个请求参数，请单击<strong>+添加请求参数</strong>。</p> </td> 
      </tr> 
     </tbody> 
@@ -205,6 +200,8 @@ ht-degree: 4%
 1. （视情况而定）如果您为&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;选择了&#x200B;**[!UICONTROL ApiKey]**&#x200B;身份验证，请输入由自定义文档提供程序颁发的API密钥。
 
    [!DNL Workfront]使用此API密钥向文档提供商进行授权的API调用。
+
+1. <span class="preview">（可选）要启用大文件支持，请在&#x200B;**[!UICONTROL 大文件支持]**&#x200B;节中选择&#x200B;**[!UICONTROL 为大文件启用分块上载]**，然后在&#x200B;**[!UICONTROL 分块上载阈值(MB)]**&#x200B;字段中输入最大分块大小（以MB为单位）。 此字段接受最多100 MB的值。 启用后，超过25 MB的文件将按此大小的块上传，而不是在单个请求中上传。</span>
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建集成。
 
@@ -266,9 +263,9 @@ ht-degree: 4%
 ### Google Drive集成
 
 * 将链接的文件夹添加到Workfront时，不再自动添加该文件夹中的文件。
-   * 您可以将Google文件夹添加到Workfront而不包含这些文件，然后将单个文件添加到Workfront。这些文件将自动添加到Workfront的Google文件夹中。
-或
-   * 您可以在Workfront中创建“文档”文件夹，然后选择Google文件夹中的所有文件并将其添加到Workfront文件夹。
+  * 您可以将Google文件夹添加到Workfront而不包含这些文件，然后将单个文件添加到Workfront。 这些文件将自动添加到Workfront的Google文件夹中。
+    或
+  * 您可以在Workfront中创建“文档”文件夹，然后选择Google文件夹中的所有文件并将其添加到Workfront文件夹。
 
 
 * Google Drive文档集成支持从Google Drive的“我的驱动器”区域添加文件。 无法从共享驱动器添加文件夹或映像。 了解有关[Google共享驱动器](https://support.google.com/a/users/answer/7212025?hl=en)的更多信息。
