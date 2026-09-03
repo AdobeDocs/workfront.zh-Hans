@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1770'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 >适用于所有人的生产： 2026年10月15日
 
 现在，在表格视图中编辑主字段列时，您可以管理记录缩略图和颜色的可见性。
+
+通过此更新，将从表格视图工具栏中的字段图标中删除缩略图和颜色设置。
 
 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
