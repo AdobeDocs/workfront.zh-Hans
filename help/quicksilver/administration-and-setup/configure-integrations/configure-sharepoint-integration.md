@@ -23,14 +23,16 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a25b6618c135eeb0de067a6cee16e461f44183b8
 workflow-type: tm+mt
-source-wordcount: 1744
+source-wordcount: 1856
 ht-degree: 1%
 
 ---
 
 # 配置[!DNL SharePoint]集成
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -127,6 +129,17 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存**。
 
+## 查看和管理SharePoint集成
+
+要查看和管理您组织的[!DNL SharePoint]集成，请执行以下操作：
+
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL [!DNL SharePoint]集成]**。
+
+   此时将显示您组织的[!DNL SharePoint]集成列表。
+
+1. （可选）要编辑[!DNL SharePoint]集成，请选中该集成旁边的复选框，然后单击屏幕</span>底部蓝色栏中的&#x200B;**[!UICONTROL 编辑]** <span class="preview">。
+1. <span class="preview">（可选）要禁用[!DNL SharePoint]集成，请选中该集成旁边的复选框，然后单击屏幕底部蓝色栏中的&#x200B;**[!UICONTROL 禁用]**。</span>
 
 ## [!DNL SharePoint]集成的安全性、访问和授权信息
 

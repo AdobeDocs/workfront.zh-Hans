@@ -17,14 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 9%
+source-wordcount: 409
+ht-degree: 7%
 
 ---
 
 # 注册Webhook集成
+
+{{highlighted-preview}}
 
 Adobe Workfront管理员可以通过导航到Workfront中的设置>文档>自定义集成，为其公司添加自定义webhook集成。 在“设置”的“自定义集成”页面中，管理员可以查看现有文档Webhook集成的列表。 在此页面中，可以添加、编辑、启用和禁用集成。
 
@@ -56,7 +58,7 @@ Adobe Workfront管理员可以通过导航到Workfront中的设置>文档>自定
   </tr> 
   <tr> 
    <td>请求参数</td> 
-   <td> <p>要附加到每个 API 调用的查询字符串的可选值。例如，access_type=offline。 </p> </td> 
+   <td> <p>要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。 </p> </td> 
   </tr> 
   <tr> 
    <td>身份验证类型</td> 
@@ -85,6 +87,14 @@ Adobe Workfront管理员可以通过导航到Workfront中的设置>文档>自定
   <tr> 
    <td>ApiKey</td> 
    <td> <p>（仅限ApiKey）用于向webhook提供程序进行授权的API调用。 webhook提供程序发布的API密钥。</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>为大文件启用分块上传</td> 
+   <td> <p>选中此复选框可为超过25 MB的文件启用多部分（分块）上载。 如果未选择此选项，则无论文件大小如何，都会在单个请求中上传文件。</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>分块上传阈值(MB)</td> 
+   <td> <p>分割大文件以供上载时每个块的最大大小（以MB为单位）。 接受最大为100 MB的值。</p> </td> 
   </tr> 
  </tbody> 
 </table>

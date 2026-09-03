@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 4%
 
 ---
 
 # 配置文档集成
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +99,14 @@ ht-degree: 4%
 
 * 第三方云文档提供商：
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google驱动器]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google驱动器]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +208,8 @@ ht-degree: 4%
 
    [!DNL Workfront]使用此API密钥向文档提供商进行授权的API调用。
 
+1. <span class="preview">（可选）要启用大文件支持，请在&#x200B;**[!UICONTROL 大文件支持]**&#x200B;节中选择&#x200B;**[!UICONTROL 为大文件启用分块上载]**，然后在&#x200B;**[!UICONTROL 分块上载阈值(MB)]**&#x200B;字段中输入最大分块大小（以MB为单位）。 此字段接受最多100 MB的值。 启用后，超过25 MB的文件将按此大小的块上传，而不是在单个请求中上传。</span>
+
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建集成。
 
 ## 使用文档集成
@@ -266,9 +270,9 @@ ht-degree: 4%
 ### Google Drive集成
 
 * 将链接的文件夹添加到Workfront时，不再自动添加该文件夹中的文件。
-   * 您可以将Google文件夹添加到Workfront而不包含这些文件，然后将单个文件添加到Workfront。这些文件将自动添加到Workfront的Google文件夹中。
-或
-   * 您可以在Workfront中创建“文档”文件夹，然后选择Google文件夹中的所有文件并将其添加到Workfront文件夹。
+  * 您可以将Google文件夹添加到Workfront而不包含这些文件，然后将单个文件添加到Workfront。 这些文件将自动添加到Workfront的Google文件夹中。
+    或
+  * 您可以在Workfront中创建“文档”文件夹，然后选择Google文件夹中的所有文件并将其添加到Workfront文件夹。
 
 
 * Google Drive文档集成支持从Google Drive的“我的驱动器”区域添加文件。 无法从共享驱动器添加文件夹或映像。 了解有关[Google共享驱动器](https://support.google.com/a/users/answer/7212025?hl=en)的更多信息。

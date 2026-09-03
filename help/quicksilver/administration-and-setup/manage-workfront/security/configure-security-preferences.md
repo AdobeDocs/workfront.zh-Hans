@@ -26,14 +26,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1318
 ht-degree: 8%
 
 ---
 
 # 配置系统偏好设置
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -113,7 +115,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader"> <p>使用电子邮件地址与没有Workfront帐户的人员协作</p> </td> 
-      <td>允许Workfront用户通过包含其电子邮件地址而非姓名与没有Workfront帐户的用户共享某些项目。用户可以使用其电子邮件地址与外部用户共享以下项目：
+      <td>允许Workfront用户通过包含其电子邮件地址而非姓名与没有Workfront帐户的用户共享某些项目。 用户可以使用其电子邮件地址与外部用户共享以下项目：
        <ul>
         <li>文档<br></li>
         <li>文档请求<br></li>
@@ -151,9 +153,13 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>批量编辑时始终强制要求必需字段</td>
       <td><p>允许您选择在批量编辑对象时是否强制用户在必填字段中输入信息。</p> <p>选择此选项时，必填字段必须具有值，才能以批量编辑模式保存。 如果必填字段至少缺少一个批量选定对象的值，则不允许保存。</p> <p>如果未选择此选项，则只有在用户修改必填字段时，才会强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">在 Admin Console 中创建的用户的访问级别</span></td>
+      <td><span class="preview">允许您选择默认访问级别，以自动分配给通过Adobe Admin Console在Workfront中创建的用户。 如果不设置默认值，这些用户将继续获得“参与者”或“请求者”访问级别。 系统管理员和外部用户访问级别不作为默认设置提供，并且此设置不适用于将Workfront Planning作为独立产品的组织。<p><b>注意</b>：当访问级别设置为默认级别时，您无法删除该级别。 要删除默认访问级别，请先选择其他默认访问级别。</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">存储偏好设置 </td> 
-      <td>在此部分中，您可以启用Adobe Cloud首选项。允许您选择为整个组织或特定组启用或禁用Adobe云存储。 
+      <td>在此部分中，您可以启用Adobe Cloud首选项。 允许您选择为整个组织或特定组启用或禁用Adobe云存储。 
       <p>更新以下信息：</p>
       <ul><li><b>默认值</b>：选择旧版Workfront存储或Adobe云存储</li>
       <li><b>允许用户选择存储提供程序</b>：这允许用户在创建Workfront对象时在这两种存储类型之间进行选择。</li>

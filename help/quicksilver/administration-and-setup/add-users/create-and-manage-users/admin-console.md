@@ -16,14 +16,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: 1647
 ht-degree: 2%
 
 ---
 
 # 在Adobe Admin Console中管理用户
+
+{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -36,8 +38,8 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 >[!NOTE]
 >
 >* 必须在Adobe Admin Console中配置&#x200B;**Workfront管理员。** 有关信息和说明，请参阅本文中的[使用Adobe Admin Console在Workfront中创建系统管理员](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
->* **如果您的组织使用单点登录(SSO)**，我们建议您在Adobe Admin Console中创建用户并将他们分配到Workfront。可以在Workfront中创建这些用户，但根据贵组织的Admin Console的配置方式，将该信息传输到Adobe Admin Console时可能会出现问题。
->   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，如分配角色、组、团队和访问级别。
+>* **如果您的组织使用单点登录(SSO)**，我们建议您在Adobe Admin Console中创建用户并将他们分配到Workfront。 可以在Workfront中创建这些用户，但根据贵组织的Admin Console的配置方式，将该信息传输到Adobe Admin Console时可能会出现问题。
+>   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，例如分配角色、组、团队和访问级别。
 >* **如果您的组织不使用单点登录(SSO)**，则可以直接在Workfront中添加非系统管理员用户。 您可以在Adobe Admin Console中添加用户，但通过在Workfront中添加用户，您可以在创建用户时设置其访问级别，这可以节省您的时间。
 
 从Admin Console更改用户配置文件时，更新将添加到Workfront中用户的系统活动选项卡中。 更新显示为“System”（系统）。 这是指Adobe Admin Console管理员，而非Workfront主管理员。
@@ -185,6 +187,8 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 1. 在&#x200B;**将用户添加到此产品配置文件**&#x200B;框中，输入要添加的用户的电子邮件地址或名称，然后选择&#x200B;**保存**。
 
    该用户是在Workfront中创建的，具有“请求者”或“参与者”访问级别，具体取决于您组织的Workfront包。
+
+   <span class="preview">如果您的Workfront管理员为在Admin Console中创建的用户设置了默认访问级别，则该用户将改用该访问级别创建。 有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。</span>
 
    >[!IMPORTANT]
    >

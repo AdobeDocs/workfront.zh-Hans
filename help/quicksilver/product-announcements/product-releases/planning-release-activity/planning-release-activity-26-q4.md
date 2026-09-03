@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1770'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,79 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 从表视图的主字段列管理记录缩略图和颜色的可见性
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+现在，在表格视图中编辑主字段列时，您可以管理记录缩略图和颜色的可见性。
+
+通过此更新，将从表格视图工具栏中的字段图标中删除缩略图和颜色设置。
+
+有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 为记录类型创建业务规则
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+作为工作区管理员，您现在可以为记录类型设置业务规则，这些规则稍后将反映如何管理该类型的记录。 您可以定义规则，以允许用户仅在满足某些条件或填充某些字段时才编辑或删除记录。
+
+您可以为业务规则创建一个条件，该条件引用除以下字段类型之外的所有字段类型：
+
+* 公式字段
+* 查找字段
+* 引用字段
+
+不能将业务规则添加到全局记录类型。
+
+有关详细信息，请参阅[配置记录类型业务规则](/help/quicksilver/planning/architecture/configure-business-rules.md)。
+
+>[!NOTE]
+>
+>通过此更新，记录类型的“更多”菜单中的以下菜单选项也进行了更新：
+>
+>* **创建请求表单**&#x200B;和&#x200B;**管理请求表单**&#x200B;已更改为&#x200B;**请求表单**
+>* **管理自动化**&#x200B;已更改为&#x200B;**自动化**
+
+## 为时间轴视图引入自定义周
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+作为Workfront管理员，除了自定义季度之外，您现在还可以配置自定义周数。 自定义周和季度在Workfront Planning时间线视图中可见。 Workfront在自定义第1季度开始时生成从第1周开始的连续周。
+
+您可以自定义在时间轴视图中可见的周标签。 您可以选择预定义格式或输入自定义格式。
+
+自定义周数在Workfront中不可见。 它们仅在Workfront Planning时间线视图中可见。
+
+有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
+## 相关已连接记录字段的筛选器
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+在Planning中添加从属连接时，现在可以筛选符合筛选条件的特定记录类型。
+
+与相关连接字段中提供的所有记录类型不同，只有符合筛选条件的记录类型才会显示。
+
+对于此功能，我们在连接记录类型时在“新建连接”选项卡中添加了新的记录过滤规则选项。
+
+有关信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
 ## 折叠和展开时间轴视图中的所有分组
 
