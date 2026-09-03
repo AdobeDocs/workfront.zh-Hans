@@ -6,18 +6,20 @@ author: Becky
 feature: Get Started with Workfront
 exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
 TQID: https://experienceleague.adobe.com/5HbISpj4fGX8Lq-nhJQp0hPWGZGcOYW-cqGwcOksrJo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 66
-ht-degree: 4%
+source-wordcount: 93
+ht-degree: 3%
 
 ---
 
 # AI助手：文章索引
+
+>[!IMPORTANT]
+>
+>从2026年9月开始， AI Assistant将过渡到CX Co-worker ，这是一个用于完成工作的对话界面。 有关CX Co-worker的信息，请参阅[CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 本节包含以下文章：
 
