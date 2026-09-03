@@ -9,22 +9,14 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 3121
+source-wordcount: 3273
 ht-degree: 1%
 
 ---
@@ -33,12 +25,10 @@ ht-degree: 1%
 
 # 连接记录类型
 
-<!--
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -117,7 +107,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -308,18 +298,15 @@ Old:
 
    ![从另一个工作区新建记录类型连接](assets/new-connection-allow-multiple-records-box.png)
 
-1. （视情况而定）从同一工作区连接记录类型或具有Workfront对象类型的Planning记录类型时，请选择以下选项之一：
+1. <span class="preview">选择&#x200B;**使此连接依赖于**&#x200B;以在此连接字段与所连接记录类型上创建的字段之间添加依赖项。</span>
 
-   * **多选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的多个记录连接。
-   * **单选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的一个记录连接。
+   <span class="preview">有关信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 
-1. 在&#x200B;**连接类型**&#x200B;部分<!--<span class="preview">, when connecting all object types but not Planning record types</span>-->中选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段。
+1. 在&#x200B;**连接类型**&#x200B;部分中选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">连接Planning记录类型时，**连接类型**&#x200B;部分已由&#x200B;**连接设置**&#x200B;部分替换。</span>
 
    选中后，除了添加到当前记录类型的连接字段外，还会为您要连接的记录类型创建连接字段。 默认情况下禁用此功能。
 
@@ -332,6 +319,10 @@ Old:
    >* 不会为来自各自应用程序中的其他应用程序的对象创建链接记录字段。 例如：
    >   * 没有为连接到Planning记录的Workfront对象创建字段。
    >   * 从GenStudio工作区中将Planning记录类型连接到记录类型时，不会为其创建字段。
+1. （视情况而定）从同一工作区连接记录类型或具有Workfront对象类型的Planning记录类型时，请选择以下选项之一：
+
+   * **多选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的多个记录连接。
+   * **单选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的一个记录连接。
 
 1. （视情况而定）如果您在&#x200B;**连接类型**&#x200B;部分中启用了&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中选择以指示用户可以连接多少条记录，也可以从多少条记录连接：
 
@@ -356,9 +347,11 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
+1. <span class="preview">（可选且有条件）如果您选择&#x200B;**使此连接依赖于**，请单击&#x200B;**记录筛选规则**&#x200B;创建一个筛选条件，以便在连接的记录字段显示在同一记录类型时限制连接的字段值的值。</span>
 
+   <span class="preview">有关详细信息，请参阅[管理依赖连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 1. （可选）在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
 
    * **名称和图像**：连接的记录的名称和缩略图或图标都会显示在连接的记录字段中。 这是默认选项。
@@ -382,7 +375,9 @@ Old:
    >
    >* 您在&#x200B;**记录外观**&#x200B;区域中选择的内容决定了记录在系统所有位置（包括所有视图和详细信息页面）的连接中的显示方式。
 
-1. 选择&#x200B;**选择查找字段**&#x200B;以添加您连接到的记录类型中的字段。 查找字段是与要链接到的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您链接到的记录中的信息。 默认情况下，该选项处于选中状态。
+1. 选择&#x200B;**选择查找字段**&#x200B;或<span class="preview">单击&#x200B;**查找字段**&#x200B;菜单</span>以从要连接的记录类型中选择和添加字段。
+
+   查找字段是与要连接的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您链接到的记录中的信息。<!--No more: This is selected by default.-->
 
    >[!NOTE]
    >
@@ -440,7 +435,7 @@ Old:
    >
    > 如果希望字段可用作时间轴和日历视图的开始日期和结束日期，则在添加查找日期字段时必须选择一个聚合器值。 例如，您可以为查找日期字段选择MAX或MIN汇总。
 
-   链接的数字字段![&#128279;](assets/aggregator-drop-down-for-number-linked-field.png)的聚合器下拉列表
+   链接的数字字段](assets/aggregator-drop-down-for-number-linked-field.png)的![聚合器下拉列表
 
    >[!NOTE]
    >

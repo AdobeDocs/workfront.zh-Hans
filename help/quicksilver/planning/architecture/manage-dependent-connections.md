@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio对象和品牌的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -157,8 +157,10 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      有关信息，请参阅本文中的[相关连接记录类型的示例](#example-of-dependent-connected-record-types)部分。
    * 已连接记录字段的列标题中有一个指示说明该字段处于依赖连接关系。
 
-     列标题![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的依赖图标工具提示
+     列标题](assets/dependent-icon-tooltip-in-column-header.png)中的![依赖图标工具提示
+1. （可选）单击&#x200B;**记录筛选规则**&#x200B;并从要连接的记录类型中选择字段以限制该字段值的选项，然后单击&#x200B;**完成**。
 
+   当第三个记录类型中存在这两个字段时，连接的字段记录类型的选项将受您在此处选择的过滤器的限制。
 1. （可选且推荐）转到第三记录类型，并将第一和第二记录类型添加为连接的记录字段。
 
    ![第三个记录类型上的依赖已连接字段指示器](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

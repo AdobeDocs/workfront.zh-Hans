@@ -7,14 +7,11 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 238
+source-wordcount: 243
 ht-degree: 9%
 
 ---
@@ -47,16 +44,6 @@ ht-degree: 9%
 * [跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
-<!--
-
-<div class="preview">
-
-* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-
-</div>
-
--->
-
 * [从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [配置记录类型的设置区域](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
@@ -65,5 +52,6 @@ ht-degree: 9%
 <div class="preview">
 
 * [管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+* [配置记录类型业务规则](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
 </div>
