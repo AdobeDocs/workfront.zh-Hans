@@ -11,24 +11,20 @@ exl-id: 5c950862-4358-4aab-997b-223972662150
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/3GEaVitQ5ATF7lE4cNeuSqbL6vMVg-WGKOeh8T66T8w
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 5%
+source-wordcount: 676
+ht-degree: 4%
 
 ---
 
 # 创建或编辑自定义条件
+
+{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以为项目、任务和问题创建或编辑自定义条件，以满足贵组织的需求。
 
@@ -72,9 +68,16 @@ ht-degree: 5%
 
    或
 
-   要编辑现有条件，请单击条件名称旁边的&#x200B;**编辑**。
+   要编辑现有条件，请执行以下操作：
 
+   * 在生产环境中，单击条件名称旁边的&#x200B;**编辑**。
+   * <span class="preview">在“预览”环境中，选中要删除的条件名称旁边的复选框，然后单击屏幕底部操作栏中的&#x200B;**编辑**。</span>
+
+   生产环境中的示例图像：
    ![编辑自定义条件](assets/custom-conditions-0825.png)
+
+   “预览”环境中的示例图像：
+   ![编辑自定义条件](assets/edit-conditions-082526.png)
 
 1. 使用以下选项配置自定义条件：
 

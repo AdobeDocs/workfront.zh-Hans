@@ -8,19 +8,14 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
+source-wordcount: 3318
 ht-degree: 1%
 
 ---
@@ -74,18 +69,31 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | --- | --- |
 | 优先次序 | <ul><li>主页>选择左侧菜单中的“优先级”图标</li><li>主菜单>优先级</li></ul> |
 | 请求列表 | <ul><li>请求（仅限新体验）</li><li>主页上的我的请求小组件</li></ul> |
-| “设置”中的状态、优先级、严重程度和汇率列表 | <ul><li>设置>项目首选项>状态</li><li>设置>项目首选项>优先级</li><li>设置>项目首选项>严重程度</li><li>设置>项目首选项>汇率</li></ul> |
-| 报告列表 | 报告（必须打开&#x200B;**使用可共享文件夹**） |
+| 安装程序中的状态、优先级、严重性、<span class="preview">条件</span>和汇率列表 | <ul><li>设置>项目首选项>状态</li><li>设置>项目首选项>优先级</li><li>设置>项目首选项>严重程度</li><li><span class="preview">设置>项目偏好设置>条件</span></li><li>设置>项目首选项>汇率</li></ul> |
+| <span class="preview">更新源中的操作和跟踪字段列表</span> | <ul><li><span class="preview">设置>界面>更新馈送>跟踪的字段选项卡</span></li> <li><span class="preview">设置>界面>更新信息源>操作选项卡</span></li></ul> |
+| <span class="preview">记分卡列表</span> | <span class="preview">设置>记分卡</span> |
+| <span class="preview">风险类型列表</span> | <span class="preview">设置>风险类型</span> |
 | 费率卡上的工作角色和费率列表 | 设置>费率卡>选择费率卡>工作角色和费率 |
+| <span class="preview">位置列表</span> | <span class="preview">设置>位置</span> |
 | 翻译列表 | 设置>本地化 |
+| <span class="preview">集成列表</span> | <ul><li><span class="preview">设置>文档> SharePoint集成</span></li><li><span class="preview">设置>文档>自定义集成</span></li></ul> |
+| 报告列表 | 报告（必须打开&#x200B;**使用可共享文件夹**） |
 | 快照列表 | 项目>快照 |
 | 用于计费的资源列表 | 项目>计费资源 |
 | 任务的新高级工作 | 任务>工作>高级 |
+| <span class="preview">文档的所有版本视图</span> | <span class="preview">项目>文档>文档详细信息>所有版本</span> |
 | 讨论区管理员视图 | 讨论区>管理员视图 |
 | Adobe云存储上的文档 | 项目，任务，问题，项目组合，项目，模板，模板任务>文档 |
+| <span class="preview">方案计划和计划的列表</span> | <span class="preview">主菜单>方案</span> |
+| <span class="preview">目标和进度指示器列表</span> | <ul><li><span class="preview">主菜单>目标</span></li><li><span class="preview">主菜单>目标>进度指示器</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## 将项目添加到增强列表
@@ -164,9 +172,16 @@ Add this BEFORE a list of reports in the table above:
 
 1. 单击列表上方的&#x200B;**列**。
 
+   生产环境中的示例图像：
    ![显示列示例](assets/glist-display-move-columns.png)
 
+   预览环境中的<span class="preview">示例图像：</span>
+   ![显示列示例](assets/display-columns-090126.png)
+
 1. 使用切换可显示或隐藏列表中的列。
+
+<span class="preview">您可以在搜索框中搜索列。</span>
+
 1. 要重新排序列，请单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)并将列移动到所需的位置。 移动列会自动更改列表。
 
    >[!NOTE]
@@ -267,7 +282,7 @@ Add this BEFORE a list of reports in the table above:
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 

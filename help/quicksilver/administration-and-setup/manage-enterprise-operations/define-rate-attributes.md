@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 1%
 # 定义费率属性
 
 费率属性允许您在工作角色之外向费率添加其他维度，从而扩展Adobe Workfront的费率卡和费率功能。 这对于机构和企业而言至关重要，因为它们的费率不仅因工作角色而异，还因代理、地点、品牌、成本中心等因素而异。
+
 通过组合这些属性，Workfront可以自动选择正确的分配率，确保财务准确性和项目间的一致性。
 
 费率属性旨在作为一次性基础设置。
@@ -34,9 +35,9 @@ ht-degree: 1%
 * 费率、分配、计划值和实际值都取决于所选的属性值。
 * 以后更改属性（重命名、删除或重新排序）可能会导致：
 
-   * 费率与属性之间失去联系
-   * 无效或“孤立”费率
-   * 账单和报告不一致
+  * 费率与属性之间失去联系
+  * 无效或“孤立”费率
+  * 账单和报告不一致
 
 出于这些原因，应在初始Workfront实施期间仔细设计属性，之后保持不变。
 
@@ -63,8 +64,8 @@ Workfront当前支持三个可用作费率属性的系统对象：
 
 * Workfront支持最多5个属性级别。 系统始终遵循属性层次结构，选择最具体的可用匹配。
 
-   * 0 =通用基本费率
-   * 1 - 5 =逐步提高具体比率
+  * 0 =通用基本费率
+  * 1 - 5 =逐步提高具体比率
 
 * 您可以重命名属性以反映您的业务（代理、品牌、市场、成本中心等）。
 * 仅设置一次：以后更改属性可能会破坏财务数据的完整性。
@@ -111,11 +112,11 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p></td>
+   <td><p>[！UICONTROL标准版]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -187,13 +188,13 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
 
    * **筛选器类型**：
 
-      * **标准**&#x200B;筛选器将通用条件应用于属性对象。 例如，Location > Is Active = True （只显示活动位置）。
+     * **标准**&#x200B;筛选器将通用条件应用于属性对象。 例如，Location > Is Active = True （只显示活动位置）。
 
-        无论是否选择其他属性，始终应用“标准”筛选器。
+       无论是否选择其他属性，始终应用“标准”筛选器。
 
-      * **Attribute**&#x200B;筛选器将一个属性链接到链中的另一个属性。 例如，地点>参考=机构（只显示与选定机构关联的地点）。
+     * **Attribute**&#x200B;筛选器将一个属性链接到链中的另一个属性。 例如，地点>参考=机构（只显示与选定机构关联的地点）。
 
-        仅当引用的属性具有值时，才应用属性过滤器。 例如，如果选择“代理”，则仅建议有效的位置。 如果“代理”为空，则会显示所有位置（但仍会受到应用于该位置的标准过滤器的限制）。
+       仅当引用的属性具有值时，才应用属性过滤器。 例如，如果选择“代理”，则仅建议有效的位置。 如果“代理”为空，则会显示所有位置（但仍会受到应用于该位置的标准过滤器的限制）。
 
    * **字段**：属性对象的直接字段，如位置ID或活动标志。
    * **运算符**：这些选项取决于所选的字段类型。 示例包括Equals、Not Equals、Is Blank、True/False。
