@@ -12,17 +12,12 @@ exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/3aCTuC7LupZScQ-xJDy1bhsyXT3W95zv5kvV9KBhQEs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1150
 ht-degree: 3%
@@ -39,13 +34,9 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 小时类型是用于定义小时条目的标签。 您可以将小时类型与小时条目关联。
@@ -58,9 +49,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   以下特定于项目的默认小时类型始终可用：
 
-   * 项目时间
-   * 任务时间
-   * 问题时间
+  * 项目时间
+  * 任务时间
+  * 问题时间
 
   [!DNL Workfront]管理员确定哪些项目特定的小时类型可用，如[定义小时类型和可用性](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)中所述。
 
@@ -86,12 +77,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,11 +134,11 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p><p> 如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[！UICONTROL作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p><p> 如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计为收入]</td> 
+      <td role="rowheader">[！UICONTROL计为收入]</td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>
@@ -190,11 +181,11 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p> <p>如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[！UICONTROL作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p> <p>如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计为收入]</td> 
+      <td role="rowheader">[！UICONTROL计为收入]</td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>

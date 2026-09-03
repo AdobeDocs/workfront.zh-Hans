@@ -8,7 +8,7 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 3%
@@ -41,16 +41,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,8 +133,7 @@ Old:
 
    >[!TIP]
    >
-   ><span class="preview">您也可以选择列表中的计划，然后单击列表底部的&#x200B;**删除**&#x200B;以删除它，从而将其删除。</span>
-
+   ><span class="preview">您也可以选择列表中的计划，然后单击列表底部的&#x200B;**删除**&#x200B;以删除它，从而将其删除。</span> <!--move the tip as the main step when we release this??-->
 
    计划将被删除，您将返回到计划列表。
 

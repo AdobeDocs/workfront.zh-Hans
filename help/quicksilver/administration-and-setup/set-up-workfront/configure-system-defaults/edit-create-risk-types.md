@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 646
 ht-degree: 5%
 
 ---
@@ -31,6 +25,12 @@ ht-degree: 5%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项目关联，以在批准任何工作之前确定潜在障碍。
 
@@ -54,12 +54,12 @@ Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项�
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项�
 
 1. 单击&#x200B;**[!UICONTROL 风险类型]**。
 1. 选择要编辑的风险类型。
-1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
    将打开&#x200B;[!UICONTROL **编辑风险类型**]&#x200B;框。
 
@@ -110,18 +110,29 @@ Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项�
 
 1. 单击&#x200B;**[!UICONTROL 保存更改]。**
 
-1. （可选）要删除风险类型，请在列表中选择该风险类型，单击&#x200B;[!UICONTROL **删除**]&#x200B;图标![删除图标](assets/delete.png)，然后单击&#x200B;[!UICONTROL **是，删除它**]。 风险类型已删除，无法恢复。
+1. （可选）要删除风险类型，请在列表中选择该风险类型，单击&#x200B;[!UICONTROL **删除**]&#x200B;图标，然后单击&#x200B;[!UICONTROL **是，删除它**]。 风险类型已删除，无法恢复。
 
-1. （可选）要导出风险类型列表，请单击&#x200B;[!UICONTROL **导出**]&#x200B;图标![导出图标](assets/export-icon.png)。 您可以导出到以下文件类型：
+1. （可选）要导出风险类型列表，请单击&#x200B;[!UICONTROL **导出**]&#x200B;图标。 您可以导出到以下文件类型：
 
-   * PDF
-   * Excel
-   * Excel (xlsx)
-   * 制表符分隔
+   * 在生产环境中：
+
+     * PDF
+     * Excel
+     * Excel (xlsx)
+     * 制表符分隔
+     * CSV
+
+   <div class="preview">
+
+   * 在“预览”环境中：
+
+     * CSV
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   您可以首先选择有限数量的风险类型，然后将其导出以缩小列表。
+   >   在“生产”环境中，您可以首先选择有限数量的风险类型，然后将它们导出为较小的列表。<!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### 创建风险类型 {#create-risk-types}
 

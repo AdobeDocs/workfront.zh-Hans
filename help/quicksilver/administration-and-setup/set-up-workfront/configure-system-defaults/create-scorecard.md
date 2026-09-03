@@ -4,22 +4,18 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 创建记分卡
 description: 记分卡衡量项目与项目组合中以前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。Portfolio经理通常会定义记分卡问题和答案，以确保它们在项目优先级和选择过程中具有意义和价值。  [!DNL Adobe Workfront] 管理员根据项目组合经理的建议构建记分卡。
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 846
 ht-degree: 2%
@@ -100,21 +96,21 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Question]</td> 
+      <td role="rowheader">[！UICONTROL Question]</td> 
       <td>键入要包含在记分卡中的问题。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 点]</td> 
+      <td role="rowheader">[！UICONTROL点]</td> 
       <td>键入此问题的最大分数。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 负点]</td> 
+      <td role="rowheader">[！UICONTROL负点]</td> 
       <td>选择此选项以指示[!DNL Workfront]应减去总可能分数。 无法将负分添加到记分卡的最大可能点数。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 显示类型]</td> 
-      <td>如果要显示记分卡中的数字字段，且用户可以指定介于0-100之间的任何值，请选择<strong>[!UICONTROL Value(0-100)]</strong>。<p>或者，选择<strong>[!UICONTROL 下拉列表]</strong>或<strong>[!UICONTROL 单选按钮]</strong>，以创建用户可以使用该控件指定的答案。 单击<strong>[!UICONTROL 添加答案]</strong>，然后为该答案键入以百分比表示的<strong>[!UICONTROL 值]</strong>（如果已完成）。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
-      <p>如果要指定此答案为默认答案，请选择<strong>[!UICONTROL 默认值]</strong>。</strong></p>
+      <td role="rowheader">[！UICONTROL显示类型]</td> 
+      <td>如果要显示记分卡中的数字字段，且用户可以指定介于0-100之间的任何值，请选择<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，选择<strong>[！UICONTROL下拉列表]</strong>或<strong>[！UICONTROL单选按钮]</strong>，以创建用户可以使用该控件指定的答案。 单击<strong>[！UICONTROL添加答案]</strong>，然后为该答案键入以百分比表示的<strong>[！UICONTROL值]</strong>（如果已完成）。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
+      <p>如果要指定此答案为默认答案，请选择<strong>[！UICONTROL默认值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>
@@ -128,7 +124,6 @@ ht-degree: 2%
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    这将创建记分卡，项目经理现在可以将其附加到他们的项目业务案例。
-
 
 
 1. <span class="preview">（可选）要编辑记分卡，请在记分卡列表中选择记分卡，然后单击列表底部的&#x200B;**编辑** ![编辑记分卡](assets/edit-scorecard-icon.png)。</span>

@@ -10,25 +10,23 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
+source-wordcount: 1817
 ht-degree: 1%
 
 ---
 
 # 通过在[!DNL Scenario Planner]中发布计划来更新或创建项目
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 从[!DNL Adobe Workfront Scenario Planner]发布方案将完成以下操作：
 
@@ -53,18 +51,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>对[!DNL Scenario Planner]和&lbrack;！UICONTROL项目的[!UICONTROL Edit]访问权限</p></td> 
+   <td> <p>对[!DNL Scenario Planner]和[！UICONTROL项目的[！UICONTROL Edit]访问权限</p></td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
    <td> <ul> 
-     <li>计划的[!UICONTROL Manage]权限 </li> 
-     <li>已发布项目的[!UICONTROL Manage]权限</li> 
+     <li>计划的[！UICONTROL Manage]权限 </li> 
+     <li>已发布项目的[！UICONTROL Manage]权限</li> 
     </ul>  </td> 
   </tr> 
  </tbody> 
@@ -165,16 +163,16 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL All]</td> 
+      <td role="rowheader">[！UICONTROL All]</td> 
       <td>显示您拥有或与您共享的所有计划。 这是默认设置。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 我的计划]</td> 
+      <td role="rowheader">[！UICONTROL我的计划]</td> 
       <td>显示您创建的计划。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 已与我共享]</td> 
-      <td> <p>显示您未创建但与您共享的计划。</p> <p>重要信息：您必须对与您共享的计划具有[!UICONTROL Manage]权限才能发布这些计划。 </p> </td> 
+      <td role="rowheader">[！UICONTROL已与我共享]</td> 
+      <td> <p>显示您未创建但与您共享的计划。</p> <p>重要信息：您必须对与您共享的计划具有[！UICONTROL Manage]权限才能发布这些计划。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -195,39 +193,39 @@ Old:
    有关创建计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。
 
 1. 单击&#x200B;**[!UICONTROL 保存计划]**。
-1. 从&#x200B;**[!UICONTROL 初始方案]**&#x200B;下拉菜单中选择要发布的方案，然后单击&#x200B;**[!UICONTROL 转到发布]**![转到发布](assets/go-to-publish-button-icon.png)（位于右上角）。
+1. 从&#x200B;**[!UICONTROL 初始方案]**&#x200B;下拉菜单中选择要发布的方案，然后单击右上角的&#x200B;**[!UICONTROL 转到发布]**。
 
    或
 
-   单击&#x200B;**[!UICONTROL 比较方案]**，将鼠标悬停在要从中发布的方案卡片上，然后单击&#x200B;**[!UICONTROL 转到发布]** ![转到发布](assets/go-to-publish-button-icon.png)。
+   单击&#x200B;**[!UICONTROL 比较方案]**，将鼠标悬停在要从中发布的方案卡片上，然后单击&#x200B;**[!UICONTROL 转到发布]**。
 
-   此时将显示[!UICONTROL 发布计划]页，其中显示该方案中的所有计划列表。 如果之前已发布任何计划，则项目图标![项目图标](assets/project-icon-sp.png)会显示在计划名称之后，并且列表中会填充&#x200B;**[!UICONTROL 上次发布]**&#x200B;日期。
+   此时将显示&#x200B;[!UICONTROL **发布计划**]&#x200B;页，其中显示该方案中的所有计划列表。 <span class="preview">如果之前已发布任何计划，则项目图标![项目图标](assets/project-icon-sp.png)会显示在计划名称之后，列表中会填充&#x200B;**[!UICONTROL 上次发布]**&#x200B;日期。</span>
 
    >[!TIP]
    >
-   >通过导入项目创建的计划在其名称的右侧还会显示项目图标![项目图标](assets/project-icon-sp.png)
+   >在生产环境中，通过导入项目创建的计划在其名称的右侧还会显示项目图标![项目图标](assets/project-icon-sp.png)
 
    ![项目图标和上次发布日期](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. （可选且有条件）如果要从现有计划发布，请单击计划右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)，然后选择以下选项之一：
+
+1. <span class="preview">（可选）在&#x200B;**发布计划**&#x200B;页面中，将鼠标悬停在项目名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png) > **打开项目**。 项目将在新的浏览器选项卡中打开。</span>
+
+1. （可选且有条件）如果要从现有计划发布，请单击计划<span class="preview">右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标或左上角的</span>表图标，然后选择以下选项之一：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL All]</td> 
+      <td role="rowheader">[！UICONTROL All]</td> 
       <td>显示选定方案的所有计划。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 已发布]</td> 
+      <td role="rowheader">[！UICONTROL已发布]</td> 
       <td>显示您或其他用户之前发布的计划。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 已取消发布]</td> 
+      <td role="rowheader">[！UICONTROL已取消发布]</td> 
       <td> <p>显示未发布的计划。 </p> </td> 
      </tr> 
     </tbody> 
@@ -244,16 +242,20 @@ Old:
    >
    >新项目与发布的计划具有相同的名称。
 
-1. （视情况而定）执行以下操作之一：
+1. （视情况而定）在发布计划后，在确认消息上单击以下任一项：
 
    * 如果您发布了一个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开根据该计划创建或更新的项目。
-   * 如果您发布了多个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开从计划发布的项目列表。 默认情况下，[!DNL Workfront]将[!DNL Scenario Planner]项目筛选器应用于项目列表。 最近发布的项目将显示在列表顶部。
+   * 如果您发布了多个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开从计划发布的项目列表。
 
-     发布计划后的![方案规划器](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   这将打开“项目”区域，默认情况下，[!DNL Scenario Planner]项目筛选器应用于项目列表。
+
+   最近发布的项目将显示在列表顶部。
+
+   发布计划后的![方案规划器](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. 转到以下区域查看有关项目的计划信息：
 
-   * **[!UICONTROL 更新]部分**：发布更新以指示项目是从计划创建或更新的。 更新包含创建或更新项目的计划名称以及包含该计划的计划的链接名称。 您可以在更新中单击计划的名称以在[!DNL Scenario Planner]中打开该计划。
+   * **[!UICONTROL 更新]部分**： **系统活动**&#x200B;选项卡中发布了更新，以指示项目是从计划创建或更新的。 更新包含创建或更新项目的计划名称以及包含该计划的计划的链接名称。 您可以在更新中单击计划的名称以在[!DNL Scenario Planner]中打开该计划。
 
      ![更新发布的流确认](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -268,23 +270,23 @@ Old:
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 计划持续时间]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL计划持续时间]</span> </td> 
         <td><span>项目链接到计划时，相应计划的持续时间。 此字段不可编辑。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 上次发布日期]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL上次发布日期]</span> </td> 
         <td><span>上次从相应的计划发布项目的日期。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 计划开始日期]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL计划开始日期]</span> </td> 
         <td><span>项目链接到计划时，计划开始月份的第一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 计划结束日期]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL计划结束日期]</span> </td> 
         <td><span>当项目链接到计划时，计划结束月份的最后一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL FTE和小时数中的计划工作角色]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL FTE和小时数中的计划工作角色]</span> </td> 
         <td> <p>有关相关工作角色及其为计划分配的时间的信息。 这包括：</p> 
          <ul> 
           <li>工作角色名称</li> 
@@ -298,6 +300,8 @@ Old:
       </tbody> 
      </table>
 
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
+
      >[!NOTE]
      >
      >所有对该项目具有[!UICONTROL 查看]权限的用户都可以在[!UICONTROL 概述]区域中看到[!DNL Scenario Planner]部分。 您可以使用布局模板控制此区域是否显示在[!UICONTROL 详细信息]部分中。 如果用户没有与其关联的布局模板，则默认情况下将显示此区域。
@@ -305,7 +309,7 @@ Old:
      >   
      >   
      >   * 有关使用布局模板在[!UICONTROL 详细信息]部分中添加或删除区域的信息，请参阅[使用布局模板自定义[!UICONTROL 详细信息]视图](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
-     >   * 有关查看[!UICONTROL 项目详细信息]的[!UICONTROL 概述]区域中的信息的详细信息，请参阅项目[!UICONTROL 概述]区域[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)中的[!UICONTROL 管理]信息。
+     >   * 有关查看[!UICONTROL 项目详细信息]的[!UICONTROL 概述]区域中的信息的详细信息，请参阅项目[!UICONTROL 概述]区域](../manage-work/projects/manage-projects/understand-project-overview-area.md)中的[[!UICONTROL 管理]信息。
      >   
      >
 
@@ -319,7 +323,7 @@ Old:
 
    * **项目**&#x200B;的[!UICONTROL 业务案例]的[!UICONTROL 资源预算]区域：在项目的[!UICONTROL 业务案例]的[!UICONTROL 资源预算]区域中添加了一个用于使用[!DNL Scenario Planner]信息管理项目资源的新选项。
 
-     有关详细信息，请参阅[!UICONTROL 商业案例]中使用 [!DNL Scenario Planner]&#x200B;[&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的预算资源。
+     有关详细信息，请参阅[!UICONTROL 商业案例]中使用 [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的[预算资源。
 
      ![业务案例中的场景规划器](assets/sp-in-business-case-selected-350x110.png)
 

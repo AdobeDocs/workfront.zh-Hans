@@ -9,19 +9,12 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/Jav41X12-b9nrSTfeEvI03EuYMiinnHuf2CPIUmKwlc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 1%
@@ -35,13 +28,9 @@ ht-degree: 1%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 您可以将“里程碑”视图应用于项目列表或报告。 您可以使用“里程碑”视图查看与您正在查看的项目中的任务关联的所有里程碑。
@@ -123,9 +112,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   Workfront按以下标准对第一部分中的项目排序，顺序如下：
 
-   1. 里程碑路径ID。 您可以在里程碑路径报表中查看里程碑路径ID。
+  1. 里程碑路径ID。 您可以在里程碑路径报表中查看里程碑路径ID。
 
-   2. 在选择“里程碑”视图之前，在先前应用于项目列表的视图中选择作为项目列表第一个排序字段的字段。
+  2. 在选择“里程碑”视图之前，在先前应用于项目列表的视图中选择作为项目列表第一个排序字段的字段。
 
 * 未与里程碑路径关联的项目显示在下一部分，即未分配部分。 在您选择“里程碑”视图之前，Workfront会按在之前应用于项目列表的视图中为项目列表选择的第一个排序字段来排序未分配分区中的项目。
 
@@ -140,22 +129,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   如果您查看的是计划日期，并且您还拥有项目的“管理”访问权限，则可以直接从“里程碑”视图中编辑以下日期：
 
-   * **项目开始日期：**&#x200B;如果从开始日期开始安排项目，则可以手动更改项目的计划开始日期，然后计算计划完成日期。
-   * **项目完成日期：**&#x200B;如果从计划完成日期开始安排项目，则可以手动更改项目的计划完成日期，然后计算计划开始日期。
-   * **任务完成日期：**&#x200B;您可以直接从“里程碑”视图中手动更新任务的规划完成日期。
+  * **项目开始日期：**&#x200B;如果从开始日期开始安排项目，则可以手动更改项目的计划开始日期，然后计算计划完成日期。
+  * **项目完成日期：**&#x200B;如果从计划完成日期开始安排项目，则可以手动更改项目的计划完成日期，然后计算计划开始日期。
+  * **任务完成日期：**&#x200B;您可以直接从“里程碑”视图中手动更新任务的规划完成日期。
 
 * **完成百分比：**&#x200B;显示每个任务和项目的完成百分比。
 
   您可以禁用显示完成百分比，如本文中[配置里程碑视图](#configure-what-information-displays-in-the-milestone-view)中显示的信息部分所述。
 
-  您可以直接从“里程碑”视图中调整完成百分比，如本文中“里程碑”视图[&#128279;](#adjust-percent-complete-for-tasks-in-the-milestone-view)中任务的调整完成百分比部分所述。
+  您可以直接从“里程碑”视图中调整完成百分比，如本文中“里程碑”视图](#adjust-percent-complete-for-tasks-in-the-milestone-view)中任务的[调整完成百分比部分所述。
 
 * **任务进度状态图标：**&#x200B;以下图标指示任务的进度状态：
 
-   * 准时 — 绿色
-   * 滞后 — 黄色
-   * 处于风险中 — 蓝色
-   * 延迟 — 红色
+  * 准时 — 绿色
+  * 滞后 — 黄色
+  * 处于风险中 — 蓝色
+  * 延迟 — 红色
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +166,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **已完成任务的任务状态着色**：将任务标记为“完成”后，任务的背景将在“里程碑”视图中着色，以指示任务是按时完成还是延迟完成：
 
-   * **任务列**&#x200B;的红色底纹：当进度状态为&#x200B;**延迟**&#x200B;时，任务的背景为红色。
+  * **任务列**&#x200B;的红色底纹：当进度状态为&#x200B;**延迟**&#x200B;时，任务的背景为红色。
 
-   * **任务列**&#x200B;的绿色底纹：当进度状态为&#x200B;**开启时间**&#x200B;时，任务的背景为绿色。
+  * **任务列**&#x200B;的绿色底纹：当进度状态为&#x200B;**开启时间**&#x200B;时，任务的背景为绿色。
 
 * **项目开始和完成列的项目状态底纹**：
 
-   * **项目开始列**：只有在填充了实际开始日期时，项目开始列的背景才显示为红色或绿色：
+  * **项目开始列**：只有在填充了实际开始日期时，项目开始列的背景才显示为红色或绿色：
 
-      * **项目开始列的红色底纹**：当项目的进度状态为&#x200B;**延迟**&#x200B;时，项目开始列的背景为红色。
+    * **项目开始列的红色底纹**：当项目的进度状态为&#x200B;**延迟**&#x200B;时，项目开始列的背景为红色。
 
-      * **项目开始列的绿色底纹**：当项目的进度状态为&#x200B;**开启时间**&#x200B;时，项目开始列的背景为绿色。
+    * **项目开始列的绿色底纹**：当项目的进度状态为&#x200B;**开启时间**&#x200B;时，项目开始列的背景为绿色。
 
-     >[!TIP]
-     >
-     >您必须转到项目详细信息页面才能查看项目的实际开始日期。
+    >[!TIP]
+    >
+    >您必须转到项目详细信息页面才能查看项目的实际开始日期。
 
-   * **项目完成列**：只有在填充了实际完成日期时，“项目完成”列的背景才显示为红色或绿色：
+  * **项目完成列**：只有在填充了实际完成日期时，“项目完成”列的背景才显示为红色或绿色：
 
-      * **项目完成列的红色底纹**：当项目的进度状态为&#x200B;**延迟**&#x200B;时，项目完成列的背景为红色。
+    * **项目完成列的红色底纹**：当项目的进度状态为&#x200B;**延迟**&#x200B;时，项目完成列的背景为红色。
 
-      * **项目完成列的绿色底纹**：当项目的进度状态为&#x200B;**开启时间**&#x200B;时，项目完成列的背景为绿色。
+    * **项目完成列的绿色底纹**：当项目的进度状态为&#x200B;**开启时间**&#x200B;时，项目完成列的背景为绿色。
 
-     >[!TIP]
-     >
-     >您必须转到项目详细信息页面以查看项目的实际完成日期。
+    >[!TIP]
+    >
+    >您必须转到项目详细信息页面以查看项目的实际完成日期。
 
-   * 当任务的进度状态为“风险”或“落后”时，不会为“开始”和“完成”列分配颜色底纹。
+  * 当任务的进度状态为“风险”或“落后”时，不会为“开始”和“完成”列分配颜色底纹。
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +201,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * **项目名称**：显示项目名称时带有指向项目的链接。
 * **项目完成情况图标**：以下指示器显示项目完成情况：
 
-   * 准时 — 绿色
-   * 处于风险中 — 黄色
-   * 存在问题 — 红色
+  * 准时 — 绿色
+  * 处于风险中 — 黄色
+  * 存在问题 — 红色
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
