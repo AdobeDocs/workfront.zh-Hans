@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3545
 ht-degree: 5%
 
 ---
@@ -67,7 +67,10 @@ ht-degree: 5%
 * 审批阶段
 * 审批阶段参与者
 * 任务
+* 预订
 * 公司
+* 自定义字段
+* 自定义表单
 * 仪表板
 * 文档
 * 文档版本
@@ -75,6 +78,8 @@ ht-degree: 5%
 * 字段
 * 小时
 * 问题
+* 非人工类别
+* 非劳动力资源
 * 注释
 * 项目组合
 * 项目群
@@ -90,6 +95,8 @@ ht-degree: 5%
 * 人员配备计划资源属性值集
 * 人员配备计划资源参数值
 * 任务
+* 团队
+* 团队成员
 * 模板
 * 时间表
 * 用户
@@ -151,8 +158,20 @@ ht-degree: 5%
         <td scope="col"><p>分配</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">预订</td> 
+        <td scope="col"><p>预订</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">公司 </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">自定义字段</td> 
+        <td scope="col"><p>参数</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">自定义表单</td> 
+        <td scope="col"><p>CTGY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">仪表板</td> 
@@ -181,6 +200,14 @@ ht-degree: 5%
        <tr> 
         <td scope="col">问题</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">非人工类别</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">非劳动力资源</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">注释</td> 
@@ -241,6 +268,14 @@ ht-degree: 5%
        <tr> 
         <td scope="col"><p>任务</p></td> 
         <td scope="col"><p>任务</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">团队</td> 
+        <td scope="col"><p>TEAMOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">团队成员</td> 
+        <td scope="col"><p>TEAMMB</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>模板</p></td> 
@@ -768,6 +803,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 如果发生的更改在筛选器中包含`fieldValue`，则此筛选条件允许传递消息。 `fieldValue`值区分大小写
 
+如果`fieldName`引用对象数组（例如，`tags`），`fieldValue`可以是一个对象；如果数组中的任何元素具有您指定的键的匹配值，则筛选器匹配。 不考虑该元素上的其他字段 — 这是部分匹配，而不是整个对象的完全匹配。
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +820,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+**示例：筛选对象数组字段**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+此筛选器与NOTE事件匹配，其中`tags`数组至少包含一个标记，该标记的`objID`等于`6229be410016986cfc6eb4b37c618a17` — 与该标记的`objCode`或任何其他字段无关。
+
+>[!NOTE]
+>
+>使用`contains`或`notContains`筛选对象数组字段（如`tags`）时，`fieldValue`只需要包含您关注的键 — 例如，`{"objID": "abc123"}`匹配具有该ID的任何标记，而不考虑其其他字段（如`objCode`）。 这不是完整的对象相等检查。 `containsOnly`当前不支持对象数组字段。
 
 #### containsOnly
 
@@ -817,6 +881,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 仅当指定的字段(`fieldName`)不包含指定的值(`fieldValue`)时，此过滤器才允许传递消息。
 
+与对象数组一起使用时，仅当没有元素与指定的键匹配时，才会返回true。
+
 >[!NOTE]
 >
 >这用于数组类型（多选）或字符串字段。 如果字段为字符串，我们将检查指定的值是否未包含在字符串中（例如，“New”不在字符串“Project - Updated”中）。 如果字段是数组并且指定的字段值是字符串或整数，我们将检查数组是否不包含指定的值（例如，“Choice 1”不在[“Choice 2”、“Choice 3”]中）。 以下示例订阅仅在`groups`字段不包含字符串“Group 2”时才允许传递消息。
@@ -837,6 +903,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+>[!NOTE]
+>
+>使用`contains`或`notContains`筛选对象数组字段（如`tags`）时，`fieldValue`只需要包含您关注的键 — 例如，`{"objID": "abc123"}`匹配具有该ID的任何标记，而不考虑其其他字段（如`objCode`）。 这不是完整的对象相等检查。 `containsOnly`当前不支持对象数组字段。
 
 #### 更改
 
