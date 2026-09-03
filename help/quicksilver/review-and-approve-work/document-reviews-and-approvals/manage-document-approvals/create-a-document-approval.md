@@ -9,20 +9,14 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2406
+source-wordcount: 2662
 ht-degree: 1%
 
 ---
@@ -101,6 +95,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -120,6 +119,10 @@ ht-degree: 1%
 1. 单击&#x200B;**请求审批**。
 
    ![在基本模式下请求审批](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### 创建高级审批工作流
 
@@ -154,6 +157,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。<p>注意：对于同一资源，一次只能将一个打开阶段分配给查看者或审批者。 如果同时打开多个并行阶段，则无法将同一人员添加到多个阶段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -175,6 +183,10 @@ ht-degree: 1%
 1. （可选）要删除路径，请将鼠标悬停在路径标签上并单击垃圾桶图标。 无法删除&#x200B;**路径1**，也无法对路径重新排序。 仅当路径中没有已锁定或已完成的阶段时，才能删除其他路径。
 
    ![具有并行路径的高级模式](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 
@@ -210,6 +222,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入用户名或电子邮件，以添加为审批者或审阅者。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -227,6 +244,12 @@ ht-degree: 1%
 1. 单击&#x200B;**请求审批**。
 
    ![在基本模式下请求审批](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -267,6 +290,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入用户名或电子邮件，以添加为审批者或审阅者。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。<p>注意：对于同一资源，一次只能将一个打开阶段分配给查看者或审批者。 如果同时打开多个并行阶段，则无法将同一人员添加到多个阶段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -289,6 +317,10 @@ ht-degree: 1%
 1. （可选）要删除路径，请将鼠标悬停在路径标签上并单击垃圾桶图标。 无法删除&#x200B;**路径1**，也无法对路径重新排序。 仅当路径中没有已锁定或已完成的阶段时，才能删除其他路径。
 
    ![具有并行路径的高级模式](assets/request-approval-advanced.jpeg)
+
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
 
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 
