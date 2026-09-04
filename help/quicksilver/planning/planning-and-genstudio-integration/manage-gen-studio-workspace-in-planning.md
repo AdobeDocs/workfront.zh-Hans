@@ -9,16 +9,12 @@ exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2022
 ht-degree: 2%
 
 ---
@@ -109,7 +105,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -171,7 +167,7 @@ Old, before Planning STA:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations </li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -227,7 +223,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -282,10 +278,10 @@ Old:
    </table>
 
 * 更新GenStudio工作区的工作区配置、记录类型、视图和字段与更新Workfront Planning工作区及其元素的方式相同。
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* 您可以在GenStudio工作区中为记录类型构建层次结构。
+
+  有关详细信息，请参阅[创建工作区层次结构](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
+* 您可以将GenStudio记录类型连接到GenStudio Brand，但不能在层级中包含GenStudio Brands。
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -486,40 +482,32 @@ Workfront Planning主页将打开。
    1. （视情况而定）在GenStudio工作区中连接的AEM资源中，单击资源的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开该资源。
    1. 单击以选择右侧面板中的&#x200B;**Campaign**&#x200B;选项卡。
 
-      连接到资产的营销活动的名称显示在&#x200B;**营销活动**&#x200B;字段中。 这是只读字段。
-      如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
+      连接到资产的营销活动的名称显示在&#x200B;**营销活动**字段中。 这是只读字段。
+      如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
    1. （视情况而定）在Planning的GenStudio工作区中，从连接的AEM内容片段中单击内容片段的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开内容片段。
    1. 单击AEM中的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-in-aem.png)以转到内容片段列表，然后单击AEM中内容片段名称右侧的&#x200B;**信息**&#x200B;图标![信息图标](assets/info-icon-in-aem.png)。
    1. 单击右侧面板中的&#x200B;**元数据**&#x200B;选项卡。
 
       在&#x200B;**xdm： campaignName**&#x200B;字段中显示的连接到内容片段的营销活动的名称。 这是只读字段。 <!--tried to log a bug to rename this field-->
-      如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
+      如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
 
 1. 将鼠标悬停在表视图中的字段上，然后单击下拉菜单以执行以下操作之一：
 
    * 按其排序
    * 隐藏它
    * 编辑其设置
+   * 删除它
 
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
-   <!--GenStudio-native fields are note removed from GenStudio. -->
+     >[!NOTE]
+     >
+     >* 仅当您在GenStudio中拥有管理权限时，才能编辑GenStudio字段的配置。
+     >* 您无法删除GenStudio字段。
 
-   >[!NOTE]
-   >
-   >* 仅当您在GenStudio中拥有管理权限时，才能编辑GenStudio字段的配置。
-   >* 您无法删除GenStudio字段。
+## 在GenStudio工作区中创建工作区层次结构
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
+在GenStudio工作区中创建层级，与在任何工作区中创建层级类似。
 
-## Create workspace hierarchies in the GenStudio workspace
+有关信息，请参阅[创建工作区层次结构](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
-Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
-
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
-For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
