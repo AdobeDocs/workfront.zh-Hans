@@ -9,22 +9,20 @@ exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-m3fnVyG4oH9lW-EB-97HFa2amVE1HQu8bHCXF3dR7U
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fd9480e119e9ea8e638221d569e57b27ecd5a34d
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: 631
 ht-degree: 3%
 
 ---
 
 # 向文档添加更新
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -77,7 +75,7 @@ ht-degree: 3%
 
    * 单击列表中的文档，单击右上角的&#x200B;**打开摘要**&#x200B;图标![打开摘要图标](assets/qs-summary-in-new-toolbar-small.png)，然后添加新评论，或单击&#x200B;**回复**&#x200B;以向现有评论添加回复。 有关摘要的信息，请参阅[文档摘要概述](../../documents/managing-documents/summary-for-documents.md)。
    * 将鼠标悬停在文档上，单击&#x200B;**文档详细信息**，然后单击左侧面板中的&#x200B;**更新**。
-有关向对象添加更新的详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+     有关向对象添加更新的详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
    更新和回复将添加到文档以及更高级别的对象。 有关详细信息，请参阅[更新部分概述](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
@@ -101,3 +99,20 @@ ht-degree: 3%
 1. 查找所需的文档，然后单击注释图标![注释图标](assets/new-doc-comment-icon.png)以打开“注释”面板。
 1. 在文本框中键入您的评论，然后单击&#x200B;**提交**。
    ![新建文档评论面板](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### 预览中的Frame.io注释指示器
+
+在为文档创建审批工作流时，用户可以在Frame.io查看器中留下注释并进行批注。 这些注释不会显示在“Workfront注释”面板中，但您可以在Frame.io查看器中查看它们。
+
+Workfront中的“注释”面板会显示一条消息，告知您何时在Frame.io中有新注释。
+
+1. 单击&#x200B;**查看注释**&#x200B;以在Frame.io查看器中打开文档并在其中查看注释。
+
+>[!NOTE]
+>
+>* 如果您拥有Frame.io Enterprise许可证，则无需批准工作流即可在Frame.io查看器中查看注释。
+
+</div>
