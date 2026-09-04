@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以为Adobe Workfront Planning记录类型配置业务规则，以指示在允许或阻止对该类型的记录执行操作之前需要某些字段。
 
@@ -95,7 +93,7 @@ ht-degree: 1%
   * 查找字段
   * 引用字段
 * 规则适用于可以编辑或删除记录的每个人。
-* 记录类型可以有多个业务规则。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* 记录类型可以有多个业务规则。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
   所有规则同时检查，并且错误消息显示一条语句中缺少的所有字段。
 
@@ -104,10 +102,15 @@ ht-degree: 1%
 1. 转到记录类型页面。
 1. 从任何视图中，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**业务规则**。
 
-   此时将打开“业务规则”页面。
+   此时将打开“业务规则”表页。
 1. 单击&#x200B;**新建业务规则**。
 1. 在&#x200B;**新业务**&#x200B;规则框中，在第一个可用字段中添加该业务规则的名称。 这是必填字段
 1. （可选）添加描述以定义业务规则，然后单击&#x200B;**保存**。
+
+   随即会打开业务规则设置表单。
+
+   ![业务规则设置表单](assets/business-rule-setup-form.png)
+
 1. 在业务规则设置窗体的&#x200B;**If**&#x200B;部分中，根据特定规则选择要限制或允许的操作。 从以下内容中选择： <!--check UI text-->
    * **记录编辑**：如果满足此规则中定义的条件，将允许用户编辑或不编辑记录。
    * **记录删除**：如果满足此规则中定义的条件，将允许用户删除或不删除记录。
@@ -124,7 +127,7 @@ ht-degree: 1%
    例如，您可以键入以下语句，以使&#x200B;**促销活动摘要**&#x200B;字段为必填字段：
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
    >[!IMPORTANT]
@@ -149,7 +152,7 @@ ht-degree: 1%
 
 编辑现有规则不会更改现有记录。 编辑后的规则仅适用于有人尝试编辑或删除现有记录时。
 
-1. 返回记录类型的&#x200B;**业务规则**&#x200B;配置页面。
+1. 返回记录类型的&#x200B;**业务规则**&#x200B;表页。
 1. 查找要更改的规则。
 1. 将鼠标悬停在规则名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
 
@@ -159,8 +162,9 @@ ht-degree: 1%
 
    已编辑的规则或规则的停用仅适用于将来记录，不会追溯应用。
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
 
+   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
 
 <!--
 

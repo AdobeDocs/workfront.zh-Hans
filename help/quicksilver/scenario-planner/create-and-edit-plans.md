@@ -20,16 +20,21 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2467
 ht-degree: 1%
 
 ---
 
 # 在[!DNL Scenario Planner]中创建和编辑计划
 
-在优先处理公司更高级别的策略时，作为使用[!DNL Workfront Scenario Planner]的一部分，您可以创建计划。 有关计划的详细信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
+在优先处理公司更高级别的策略时，作为使用[!DNL Workfront Scenario Planner]的一部分，您可以创建计划。 有关计划的详细信息，请参阅 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -126,7 +131,7 @@ Old:
 
 本文介绍了如何从头开始创建计划或编辑现有计划。
 
-有关计划的所有注意事项，包括可用于计划的信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
+有关计划的所有注意事项，包括可用于计划的信息，请参阅 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
 
 有关删除计划的信息，请参阅[删除 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)中的计划。
 
@@ -136,7 +141,7 @@ Old:
 
 [!DNL Workfront Scenario Planner]中将显示您创建的现有计划列表。
 
-1. （可选）单击计划列表右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![筛选器图标](assets/filter-icon-34x37.png)，然后从以下内容中选择：
+1. （可选）单击列表顶部的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![筛选器图标](assets/filter-icon-34x37.png)、<span class="preview">或&#x200B;**表**&#x200B;图标![表图标](assets/table-icon.png)</span>，然后从以下内容中选择：
 
    | 筛选条件 | 描述 |
    |---|---|
@@ -148,23 +153,13 @@ Old:
 
 1. （可选）单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![搜索图标](assets/search-icon.png)以键入关键字并在列表中快速找到计划。
 
-1. 单击现有计划的名称以对其进行编辑并继续执行步骤7。
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. 单击现有计划的名称以编辑它，然后继续执行步骤7.<!--is the step still accurate)-->
 
    或
 
-   单击左上角的&#x200B;**[!UICONTROL 新建计划]**&#x200B;以创建计划并继续执行步骤5。
+   单击左上角的&#x200B;**[!UICONTROL 新建计划]**&#x200B;以创建计划并继续执行步骤5。<!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![新计划按钮](assets/new-plan-button.png)
-
-   此时将显示[!UICONTROL 新计划]框。
+   此时将显示&#x200B;[!UICONTROL **新计划**]&#x200B;框。
 
    ![新计划框](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +204,7 @@ Old:
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL 下一步]**。
 

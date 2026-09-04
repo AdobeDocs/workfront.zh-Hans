@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cf7c7dd6276940be9cd49b7c255ab71656740f1f
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: '14480'
+source-wordcount: '14501'
 ht-degree: 2%
 
 ---
@@ -970,6 +970,11 @@ ht-degree: 2%
     * [使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [适用于直接安装的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
+  * Workfront中的CX Co-worker {#coworker-in-workfront}
+    * [Workfront中的CX Co-worker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX同事技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [在Workfront中使用CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 更新工作项并查看更新 {#update-work-items-view-updates}
     * [更新工作项并查看更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2214,7 +2219,7 @@ ht-degree: 2%
     * [通过从CSV或Excel文件导入信息创建记录类型](planning/architecture/import-file-to-create-record-types.md)
     * [跨工作区记录类型概述](planning/architecture/cross-workspace-record-types-overview.md)
     * [为记录类型配置跨工作区功能](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[配置记录类型业务规则](planning/architecture/configure-business-rules.md)
+    * [配置记录类型业务规则](planning/architecture/configure-business-rules.md)
     * [配置记录类型的设置区域](planning/architecture/configure-record-type-settings.md)
     * [从另一个工作区添加现有记录类型](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [连接记录类型概述](planning/architecture/connect-record-types-overview.md)

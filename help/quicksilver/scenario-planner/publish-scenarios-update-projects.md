@@ -21,14 +21,18 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
+source-wordcount: 1817
 ht-degree: 1%
 
 ---
 
 # 通过在[!DNL Scenario Planner]中发布计划来更新或创建项目
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 从[!DNL Adobe Workfront Scenario Planner]发布方案将完成以下操作：
 
@@ -195,24 +199,24 @@ Old:
    有关创建计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。
 
 1. 单击&#x200B;**[!UICONTROL 保存计划]**。
-1. 从&#x200B;**[!UICONTROL 初始方案]**&#x200B;下拉菜单中选择要发布的方案，然后单击&#x200B;**[!UICONTROL 转到发布]**![转到发布](assets/go-to-publish-button-icon.png)（位于右上角）。
+1. 从&#x200B;**[!UICONTROL 初始方案]**&#x200B;下拉菜单中选择要发布的方案，然后单击右上角的&#x200B;**[!UICONTROL 转到发布]**。
 
    或
 
-   单击&#x200B;**[!UICONTROL 比较方案]**，将鼠标悬停在要从中发布的方案卡片上，然后单击&#x200B;**[!UICONTROL 转到发布]** ![转到发布](assets/go-to-publish-button-icon.png)。
+   单击&#x200B;**[!UICONTROL 比较方案]**，将鼠标悬停在要从中发布的方案卡片上，然后单击&#x200B;**[!UICONTROL 转到发布]**。
 
-   此时将显示[!UICONTROL 发布计划]页，其中显示该方案中的所有计划列表。 如果之前已发布任何计划，则项目图标![项目图标](assets/project-icon-sp.png)会显示在计划名称之后，并且列表中会填充&#x200B;**[!UICONTROL 上次发布]**&#x200B;日期。
+   此时将显示&#x200B;[!UICONTROL **发布计划**]&#x200B;页，其中显示该方案中的所有计划列表。 <span class="preview">如果之前已发布任何计划，则项目图标![项目图标](assets/project-icon-sp.png)会显示在计划名称之后，列表中会填充&#x200B;**[!UICONTROL 上次发布]**&#x200B;日期。</span>
 
    >[!TIP]
    >
-   >通过导入项目创建的计划在其名称的右侧还会显示项目图标![项目图标](assets/project-icon-sp.png)
+   >在生产环境中，通过导入项目创建的计划在其名称的右侧还会显示项目图标![项目图标](assets/project-icon-sp.png)
 
    ![项目图标和上次发布日期](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. （可选且有条件）如果要从现有计划发布，请单击计划右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)，然后选择以下选项之一：
+
+1. <span class="preview">（可选）在&#x200B;**发布计划**&#x200B;页面中，将鼠标悬停在项目名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png) > **打开项目**。 项目将在新的浏览器选项卡中打开。</span>
+
+1. （可选且有条件）如果要从现有计划发布，请单击计划<span class="preview">右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标或左上角的</span>表图标，然后选择以下选项之一：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,16 +248,20 @@ Old:
    >
    >新项目与发布的计划具有相同的名称。
 
-1. （视情况而定）执行以下操作之一：
+1. （视情况而定）在发布计划后，在确认消息上单击以下任一项：
 
    * 如果您发布了一个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开根据该计划创建或更新的项目。
-   * 如果您发布了多个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开从计划发布的项目列表。 默认情况下，[!DNL Workfront]将[!DNL Scenario Planner]项目筛选器应用于项目列表。 最近发布的项目将显示在列表顶部。
+   * 如果您发布了多个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开从计划发布的项目列表。
 
-     发布计划后的![方案规划器](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   这将打开“项目”区域，默认情况下，[!DNL Scenario Planner]项目筛选器应用于项目列表。
+
+   最近发布的项目将显示在列表顶部。
+
+   发布计划后的![方案规划器](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. 转到以下区域查看有关项目的计划信息：
 
-   * **[!UICONTROL 更新]部分**：发布更新以指示项目是从计划创建或更新的。 更新包含创建或更新项目的计划名称以及包含该计划的计划的链接名称。 您可以在更新中单击计划的名称以在[!DNL Scenario Planner]中打开该计划。
+   * **[!UICONTROL 更新]部分**： **系统活动**&#x200B;选项卡中发布了更新，以指示项目是从计划创建或更新的。 更新包含创建或更新项目的计划名称以及包含该计划的计划的链接名称。 您可以在更新中单击计划的名称以在[!DNL Scenario Planner]中打开该计划。
 
      ![更新发布的流确认](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -297,6 +305,8 @@ Old:
      </tr> 
       </tbody> 
      </table>
+
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
 
      >[!NOTE]
      >

@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 6%
@@ -37,13 +37,9 @@ ht-degree: 6%
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 您可以在“模板”区域中创建和删除模板。 在构建新模板时，您可以为所有任务和未来项目设置输入信息。 然后，此信息将传输到您从模板创建的任何项目。
@@ -140,15 +136,15 @@ Old:
 
      模板随即创建，其默认名称将遵循以下模式，具体取决于Workfront用于文档的存储空间：
 
-      * Worfront-storage模板的&#x200B;**无标题模板**。
+     * Worfront-storage模板的&#x200B;**无标题模板**。
 
-        旧版Workfront存储模板在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
+       旧版Workfront存储模板在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
 
-      * **无标题模板 — Adobe云存储模板的&lt;月日，年小时。分钟。秒>**
+     * **无标题模板 — Adobe云存储模板的&lt;月日，年小时。分钟。秒>**
 
-        >[!IMPORTANT]
-        >
-        >使用Adobe存储的模板必须具有唯一的名称。
+       >[!IMPORTANT]
+       >
+       >使用Adobe存储的模板必须具有唯一的名称。
 
    ![新模板](assets/create-template-nwe-2022-350x102.png)
 

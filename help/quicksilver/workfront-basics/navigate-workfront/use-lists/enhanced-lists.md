@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 1%
 
 ---
@@ -90,7 +90,6 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | 讨论区管理员视图 | 讨论区>管理员视图 |
 | Adobe云存储上的文档 | 项目，任务，问题，项目组合，项目，模板，模板任务>文档 |
 | <span class="preview">方案计划和计划的列表</span> | <span class="preview">主菜单>方案</span> |
-| <span class="preview">目标和进度指示器列表</span> | <ul><li><span class="preview">主菜单>目标</span></li><li><span class="preview">主菜单>目标>进度指示器</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ Under Locations?
 
 1. 使用切换可显示或隐藏列表中的列。
 
-<span class="preview">您可以在搜索框中搜索列。</span>
+   <span class="preview">您可以在搜索框中搜索列。</span>
 
 1. 要重新排序列，请单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)并将列移动到所需的位置。 移动列会自动更改列表。
 

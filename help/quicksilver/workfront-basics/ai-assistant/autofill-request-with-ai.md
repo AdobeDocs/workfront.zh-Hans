@@ -10,14 +10,18 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 142
+source-wordcount: 169
 ht-degree: 0%
 
 ---
 
 # 使用AI自动填写请求
+
+>[!IMPORTANT]
+>
+>从2026年9月开始， AI Assistant将过渡到CX Co-worker ，这是一个用于完成工作的对话界面。 有关CX Co-worker的信息，请参阅[CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 AI可帮助您自动填写请求字段。 它可以根据以前的请求建议字段值，或从文本（如电子邮件和已上传的文档）中解析这些值。
 

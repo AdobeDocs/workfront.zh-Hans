@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1597
 ht-degree: 3%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 3%
 
    或
 
-   若要创建或编辑组的周期性时间表，请单击&#x200B;**组**，单击组的名称，然后单击左侧面板中的&#x200B;**周期性时间表**。
+   要创建或编辑组的周期性时间表，请单击&#x200B;**组**，单击组的名称，然后单击左侧面板中的&#x200B;**周期性时间表**。
 
 1. 要创建时间表配置文件，请单击&#x200B;**新建配置文件**。
 

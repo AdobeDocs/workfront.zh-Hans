@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
 source-wordcount: 1318
 ht-degree: 8%
@@ -182,17 +182,17 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td role="rowheader">在请求表单中自动完成智能 </td> 
       <td>允许您选择启用根据先前的请求数据自动完成请求表单的功能。 有关表单自动完成的更多信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">从以前的数据中自动填写请求</a>。</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">选择加入 AI Beta </td> 
+      <td>允许您选择启用Beta中的当前人工智能功能。 如果启用此选项，则可以选择要启用的AI Beta功能。 有关每个AI Beta功能的更多信息，请单击该功能旁边的信息图标
     <tr> 
       <td role="rowheader">规划设计器</td> 
       <td>这仅适用于已购买Workfront Planning包的客户。 启用此设置可让您的用户使用Planning Designer创建和编辑工作区。 有关信息，请参阅<a href="/help/quicksilver/planning/general/planning-ai-designer.md">Adobe Workfront规划Designer入门</a>。</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">选择加入 AI Beta </td> 
-      <td>允许您选择启用Beta中的当前人工智能功能。 如果启用此选项，则可以选择要启用的AI Beta功能。 有关每个AI Beta功能的更多信息，请单击该功能旁边的信息图标。</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">只读 MCP 工具</span></td> 
-      <td><span class="preview">允许Workfront MCP服务器对Workfront数据执行读取操作 — 例如，查找或列出项目、任务或其他项目。 此选项默认处于启用状态。<p>有关Workfront MCP服务器的详细信息，请参阅<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">配置Adobe Workfront MCP服务器</a>。</p></span></td> 
+      <td><span class="preview">允许Workfront MCP服务器对Workfront数据执行读取操作，例如查找或列出项目、任务或其他项目。 此选项默认处于启用状态。<p>有关Workfront MCP服务器的详细信息，请参阅<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">配置Adobe Workfront MCP服务器</a>。</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">写入 MCP 工具</span></td> 

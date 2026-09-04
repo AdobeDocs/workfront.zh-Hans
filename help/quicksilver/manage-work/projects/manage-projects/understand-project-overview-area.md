@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
-ht-degree: 5%
+source-wordcount: 1429
+ht-degree: 4%
 
 ---
 
 # 在项目概述区域管理信息
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | 上次更新日期 | 上次更新项目的日期和时间。 |
    | 上次更新者 | 上次更新项目的用户的名称。 |
    | 模板 |  |
+   | Frame.io工作区 | <span class="preview">Frame.io工作区继承自用于创建该工作区的模板。 创建项目后无法更改此字段。</span> |
 
 
 1. 如果贵公司已为Adobe Workfront Scenario Planner购买附加许可证，并且项目具有从链接的计划发布的信息，请在Scenario Planner区域中查看以下计划信息：

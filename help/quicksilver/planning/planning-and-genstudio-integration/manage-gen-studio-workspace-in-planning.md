@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1855
+source-wordcount: 1955
 ht-degree: 2%
 
 ---
@@ -41,11 +41,11 @@ recommendations: noDisplay, noCatalog
 
 # 在Adobe Workfront Planning中管理GenStudio工作区
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 当您的公司同时购买了两款产品，并且您的Adobe GenStudio for Performance Marketing实例与公司的GenStudio实例集成时，Adobe Workfront Planning中会提供Workfront工作区。
 
@@ -368,25 +368,23 @@ Workfront Planning主页将打开。
    * **编辑**
 
      有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
-   * **管理自动化**
+   * **管理自动化**&#x200B;或&#x200B;<span preview="preview">**自动化**</span>
 
      有关信息，请参阅[配置Adobe Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
-   * **管理请求表单**
+   * **管理请求表单**&#x200B;或&#x200B;<span class="preview">**请求表单**</span>
 
      您可以创建多个请求表单。 申请表将在Workfront的申请区域提供，您也可以公开或通过链接共享它们。
 
      有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
-   <!--
    <div class="preview">
 
-   * Business rules
+   * **业务规则**
 
-      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+     您可以配置记录类型业务规则，以定义在允许用户编辑或删除该类型记录之前必须满足的条件。
 
-      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+     有关信息，请参阅[配置记录类型业务规则](/help/quicksilver/planning/architecture/configure-business-rules.md)。
    </div>
-   -->
 
 1. 要共享视图或记录类型，请执行以下操作：
 

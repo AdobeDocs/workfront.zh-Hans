@@ -16,14 +16,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 7%
+source-wordcount: 353
+ht-degree: 5%
 
 ---
 
 # 启用或禁用AI助手
+
+>[!IMPORTANT]
+>
+>从2026年9月开始， AI Assistant将过渡到CX Co-worker ，这是一个用于完成工作的对话界面。 有关CX Co-worker的信息，请参阅[CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 作为Workfront管理员，您可以控制组织中哪些用户启用了AI助手。 这是通过访问级别管理的。
 

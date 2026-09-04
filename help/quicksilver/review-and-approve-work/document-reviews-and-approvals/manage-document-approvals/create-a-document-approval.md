@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2662
 ht-degree: 1%
 
 ---
 
 # 创建文档审批工作流
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中请求其他用户或团队批准文档，或请求他们审核文档而无需批准。
 
@@ -99,6 +101,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -118,6 +125,10 @@ ht-degree: 1%
 1. 单击&#x200B;**请求审批**。
 
    ![在基本模式下请求审批](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### 创建高级审批工作流
 
@@ -152,6 +163,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。<p>注意：对于同一资源，一次只能将一个打开阶段分配给查看者或审批者。 如果同时打开多个并行阶段，则无法将同一人员添加到多个阶段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -173,6 +189,10 @@ ht-degree: 1%
 1. （可选）要删除路径，请将鼠标悬停在路径标签上并单击垃圾桶图标。 无法删除&#x200B;**路径1**，也无法对路径重新排序。 仅当路径中没有已锁定或已完成的阶段时，才能删除其他路径。
 
    ![具有并行路径的高级模式](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 
@@ -208,6 +228,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入用户名或电子邮件，以添加为审批者或审阅者。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -225,6 +250,12 @@ ht-degree: 1%
 1. 单击&#x200B;**请求审批**。
 
    ![在基本模式下请求审批](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -265,6 +296,11 @@ ht-degree: 1%
    <td><strong>添加姓名或电子邮件</strong></td>
    <td>开始键入用户名或电子邮件，以添加为审批者或审阅者。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。<p>注意：对于同一资源，一次只能将一个打开阶段分配给查看者或审批者。 如果同时打开多个并行阶段，则无法将同一人员添加到多个阶段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队</strong></span></td>
+   <td><span class="preview">开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。 <br>
+   注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -288,9 +324,37 @@ ht-degree: 1%
 
    ![具有并行路径的高级模式](assets/request-approval-advanced.jpeg)
 
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
+
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 
 1. 单击&#x200B;**请求审批**。
+
+<div class="preview">
+
+## 在预览中的新文档区域查看以前版本的审批工作流
+
+如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+审批面板仅列出具有审批工作流的文档版本。
+
+要查看以前版本的审批工作流，请执行以下操作：
+
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+1. 单击文档，然后单击页面右侧的&#x200B;**审批**&#x200B;图标。
+
+   ![在文档摘要中添加批准者](assets/approvals-icon-new.png)
+
+1. 单击某个版本可将其展开。 您可以查看其阶段、每个审批者的决策、阶段的决策规则（例如，是否只需一个决策即可完成阶段）以及到期日期。
+1. 单击其他版本以展开其审批工作流，而不退出面板。
+
+   >[!NOTE]
+   >
+   >如果由于请求审批较新版本而撤销了版本审批工作流，则该工作流将保留在列表中，并折叠，以便您仍然可以查看其先前的决定。
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version

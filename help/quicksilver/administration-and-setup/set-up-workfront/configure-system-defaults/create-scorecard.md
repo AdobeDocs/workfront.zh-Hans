@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 创建记分卡
 description: 记分卡衡量项目与项目组合中以前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。Portfolio经理通常会定义记分卡问题和答案，以确保它们在项目优先级和选择过程中具有意义和价值。  [!DNL Adobe Workfront] 管理员根据项目组合经理的建议构建记分卡。
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 3%
+source-wordcount: 846
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
 
 记分卡衡量项目与项目组合中以前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。
 
@@ -128,6 +129,11 @@ ht-degree: 3%
 
    这将创建记分卡，项目经理现在可以将其附加到他们的项目业务案例。
 
+
+1. <span class="preview">（可选）要编辑记分卡，请在记分卡列表中选择记分卡，然后单击列表底部的&#x200B;**编辑** ![编辑记分卡](assets/edit-scorecard-icon.png)。</span>
+
+1. <span class="preview">（可选）要删除记分卡，请在记分卡列表中选择记分卡，然后单击列表底部的&#x200B;**删除** ![删除记分卡](assets/delete-scorecard-icon.png)。</span>
+
 ## 复制现有记分卡
 
 您可以通过复制和编辑现有记分卡来创建记分卡。
@@ -135,11 +141,15 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 记分卡]**。
-1. 在列表中选择记分卡，然后单击记分卡列表顶部的&#x200B;**复制**&#x200B;图标![复制记分卡图标](assets/copy-scorecard-icon.png)。
+1. 在列表中选择记分卡，然后单击记分卡列表<span class="preview">顶部的&#x200B;**复制**&#x200B;或单击列表底部的&#x200B;**复制**![复制记分卡图标](assets/copy-scorecard-icon.png)</span>。
 
-   将打开&#x200B;**复制记分卡**&#x200B;框。
+   将打开&#x200B;**复制**&#x200B;记分卡框。
 
    ![复制记分卡框](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >记分卡的名称将显示在框的标题中。
 
 1. 指定以下信息：
 

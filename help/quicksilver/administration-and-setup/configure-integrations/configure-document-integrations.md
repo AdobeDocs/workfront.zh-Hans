@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
 source-wordcount: 1184
 ht-degree: 4%
@@ -208,7 +208,7 @@ ht-degree: 4%
 
    [!DNL Workfront]使用此API密钥向文档提供商进行授权的API调用。
 
-1. <span class="preview">（可选）要启用大文件支持，请在&#x200B;**[!UICONTROL 大文件支持]**&#x200B;节中选择&#x200B;**[!UICONTROL 为大文件启用分块上载]**，然后在&#x200B;**[!UICONTROL 分块上载阈值(MB)]**&#x200B;字段中输入最大分块大小（以MB为单位）。 此字段接受最多100 MB的值。 启用后，超过25 MB的文件将按此大小的块上传，而不是在单个请求中上传。</span>
+1. （可选） <span class="preview">要启用大文件支持，请在&#x200B;**[!UICONTROL 大文件支持]**&#x200B;部分中选择&#x200B;**[!UICONTROL 为大文件启用分块上载]**，然后在&#x200B;**[!UICONTROL 分块上载阈值(MB)]**&#x200B;字段中输入最大分块大小（以MB为单位）。 此字段接受最多100 MB的值。 启用后，超过25 MB的文件将按此大小的块上传，而不是在单个请求中上传。</span>
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建集成。
 

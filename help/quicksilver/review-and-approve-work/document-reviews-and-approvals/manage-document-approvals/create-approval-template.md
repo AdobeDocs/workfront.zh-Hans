@@ -20,16 +20,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
 workflow-type: tm+mt
-source-wordcount: 684
+source-wordcount: 757
 ht-degree: 2%
 
 ---
 
 # 为文档创建审批工作流模板
 
+{{highlighted-preview}}
+
 在Workfront设置区域中，具有Standard许可证的用户可以创建可重复使用的审批模板。 创建后，审批模板可应用于对象文档区域中的资产。
+
 >[!IMPORTANT]
 >
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
@@ -60,52 +63,6 @@ ht-degree: 2%
 
 +++
 
-<!--
-## Create an Approval Template in Production
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Review and Approval** > **Approval Templates**.
-1. Click **New Template** on the right side of the page. 
-
-1. Fill in the following details:
-
-   <table>
-     <tr>
-   <td><strong>Template name</strong></td>
-   <td>Add a template name. </td>
-   </tr>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Workdays until due date</strong></td>
-   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-    
-1. Click **Save**.
-
-Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
--->
-
 ## 创建审批模板
 
 审批模板对话框始终在高级模式下打开。 模板没有“基本”模式。 在一个模板中最多可以配置30条并行路径，总计最多可配置100个阶段。 每个路径都独立运行，可以包含一个或多个顺序阶段。
@@ -131,6 +88,11 @@ Once the template is created, it can be applied to documents in the Documents ar
    <td><strong>添加姓名或电子邮件（可选）</strong></td>
    <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 在模板中，参与者是可选的。 当模板应用于文档时，可以添加这些模板。<p>注意：对于同一资源，一次只能将一个打开阶段分配给查看者或审批者。 如果同时打开多个并行阶段，则无法将同一人员添加到多个阶段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在预览中添加人员或团队（可选）</strong></span></td>
+    <td><span class="preview">开始键入用户名、团队或电子邮件地址。 在模板中，参与者是可选的。 您可以选择将模板应用于文档时添加这些模板。<br>
+    注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
    <td>第一个做出决策的人将完成阶段。</td>
@@ -147,11 +109,20 @@ Once the template is created, it can be applied to documents in the Documents ar
 
    ![添加阶段](assets/add-stage.png)
 
+<!-- screen for preview
+    ![add a stage](assets/add-stage-v2.png)
+-->
+
+
 1. （可选）单击&#x200B;**添加阶段**&#x200B;以向路径中添加另一个阶段。 路径中的阶段将按其列出的顺序依次运行。 当一个阶段中所有必需的决策都完成时，该路径中的下一阶段将开始，而上一个阶段将锁定。 您可以对路径中的阶段重新排序，但无法将阶段从一个路径移动到另一个路径。 每个路径可以有不同的阶段数。
 
 1. （可选）在&#x200B;**并行路径**&#x200B;下，单击&#x200B;**添加路径**&#x200B;以添加其他路径。 新路径从一个空阶段开始，成为选定的路径。 无法对路径重新排序。
 
    ![添加并行路径](assets/add-path.png)
+
+<!-- screen for preview
+   ![add parallel paths](assets/add-path-v2.png)
+-->
 
 1. （可选）要重命名路径，请将鼠标悬停在路径标签上，单击铅笔图标，然后键入新名称。 要删除路径，请将鼠标悬停在路径标签上并单击垃圾桶图标。 无法删除&#x200B;**路径1**，仅当路径中没有已锁定或已完成的阶段时，才能删除其他路径。
 

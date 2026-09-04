@@ -19,15 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 2%
 
 ---
 
 # 管理表视图
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
@@ -190,7 +191,7 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +245,8 @@ Old:
    * 抓住列标题并将其拖放到所需位置。 在您对表格进行其他调整之前，您移动的列会以蓝色背景短暂显示。
 
    * 单击表格工具栏中的&#x200B;**字段**，然后按所需顺序拖放这些字段，然后单击&#x200B;**字段可见性和顺序**&#x200B;框外部以将其关闭。
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![字段设置表视图工具栏已展开](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +363,31 @@ Old:
    ><span class="preview">在拖放行中，如果有多个记录，则数字指示器会显示所选记录数。</span>
 
 1. （可选）单击记录右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑缩略图**&#x200B;以编辑缩略图。
-1. 单击表顶部的&#x200B;**字段**，然后为&#x200B;**缩略图**&#x200B;字段选择切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
+1. 在生产环境中单击表顶部的&#x200B;**字段**
+
+   或
+
+   <span class="preview">将鼠标悬停在主字段标题</span>上，然后选择&#x200B;**缩略图**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
    有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. <span class="preview">（可选）单击表顶部的&#x200B;**字段**，然后单击&#x200B;**颜色**，在主字段左侧显示记录的颜色。 默认情况下，将为每个新记录随机分配颜色。 默认情况下取消选择&#x200B;**颜色**&#x200B;设置。</span>
+1. <span class="preview">单击表顶部的&#x200B;**字段**</span>
+
+   或
+   <span class="preview">将鼠标悬停在主字段标题上，然后选择&#x200B;**颜色**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。</span>
 
 1. <span class="preview"> （可选且有条件）如果您启用了&#x200B;**颜色**&#x200B;设置，请单击记录主字段左侧的颜色栏，并从&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;选项卡中选择一种颜色，然后单击框外部将其关闭。 立即应用该颜色。</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![录制颜色编码拾色器框](assets/color-picker-for-record-color-coding.png)
+![录制颜色编码拾色器框](assets/color-picker-for-record-color-coding.png)
 
-   有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
-   </div>
+</div>
 
 
 ### 添加过滤器 {#add-filters-1}
-
-过滤器可帮助您减少屏幕上显示的信息量。
 
 过滤器可帮助您减少屏幕上显示的信息量。
 

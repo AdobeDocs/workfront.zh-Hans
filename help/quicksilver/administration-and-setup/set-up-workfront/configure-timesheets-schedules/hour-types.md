@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1150
 ht-degree: 3%
@@ -39,13 +39,9 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 小时类型是用于定义小时条目的标签。 您可以将小时类型与小时条目关联。
@@ -58,9 +54,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   以下特定于项目的默认小时类型始终可用：
 
-   * 项目时间
-   * 任务时间
-   * 问题时间
+  * 项目时间
+  * 任务时间
+  * 问题时间
 
   [!DNL Workfront]管理员确定哪些项目特定的小时类型可用，如[定义小时类型和可用性](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)中所述。
 

@@ -14,14 +14,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 306
 ht-degree: 6%
 
 ---
 
 # 从AI助手获取帮助
+
+>[!IMPORTANT]
+>
+>从2026年9月开始， AI Assistant将过渡到CX Co-worker ，这是一个用于完成工作的对话界面。 有关CX Co-worker的信息，请参阅[CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 AI Assistant可以从Workfront文档中找到信息，从而无需访问Adobe Experience League即可获得所需的帮助。
 

@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 1%
@@ -239,6 +239,7 @@ Old:
    编辑预填充的值以更好地匹配您的项目。
 
    有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
+
 1. 单击&#x200B;**创建项目**。
 
    如果您在上一步中没有更改模板中定义的所有详细信息，则它们会自动与新创建的项目关联。
@@ -273,6 +274,7 @@ Old:
    如果模板中已填充了某个字段，则该字段会预填充到&#x200B;**新建项目**&#x200B;框中。 您可以编辑预填充的值以更好地匹配您的项目。
 
    有关信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
+
 
 1. 单击&#x200B;**创建项目**。
 

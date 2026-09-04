@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1271
 ht-degree: 2%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 2%
 
 # 创建记录类型
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -293,18 +293,18 @@ Old:
 
    更改将自动保存。
 
-   有关在记录类型页面中添加记录、删除或编辑记录类型<!--<span class="preview">creating business rules</span>-->或更新视图的其他信息，请参阅以下文章：
+   有关添加记录、删除或编辑记录类型、<span class="preview">创建业务规则</span>或在记录类型页面中更新视图的其他信息，请参阅以下文章：
 
    * [创建记录](/help/quicksilver/planning/records/create-records.md)
    * [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)
 
-   <!--  
-    <div class="preview">
-    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-    </div>
-    -->
+   <div class="preview">
+
+   * [创建记录类型业务规则](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+   </div>
 
 ## 通过从CSV或Excel文件导入信息创建记录类型
 

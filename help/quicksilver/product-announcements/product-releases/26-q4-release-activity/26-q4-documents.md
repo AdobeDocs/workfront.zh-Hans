@@ -4,9 +4,9 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -45,29 +45,25 @@ For more information, see [Add an update to a document](/help/quicksilver/docume
 
 当文档附加了验证时，审批电子邮件中的“前往审阅”链接现在直接打开验证查看器，因此审阅者和审批者可以立即开始审阅。 如果文档没有验证，则链接将继续打开文档的审批部分，就像之前一样。
 
-<!--
-
-## Add teams to approvals for objects using Adobe cloud storage
+## 使用Adobe云存储将团队添加到对象审批中
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
 
-You can now add a Workfront Team as an approver or reviewer on a document approval or approval template, instead of adding each person individually:
+您现在可以在文档审批或审批模板上添加Workfront团队作为审批者或查看者，而不是单独添加每个人：
 
-* Objects on Adobe cloud storage: Workfront adds each active team member individually, so the approver list always reflects who's currently on the team.
-* Objects using legacy Workfront storage: The team is added as a single participant by default, but you can now choose to add each team member as an individual participant.
-* In approval templates, Workfront stores a reference to the team and expands it into active members when you apply the template to a document, not when you save the template.
+* Adobe Cloud Storage上的对象： Workfront会单独添加每个活动的团队成员，因此审批者列表始终反映团队中的当前成员。
+* 使用旧版Workfront存储的对象：默认情况下，团队添加为单个参与者，但现在您可以选择将每个团队成员添加为单个参与者。
+* 在审批模板中，当您将模板应用于文档时（而不是保存模板时），Workfront会存储对团队的引用并将其展开为活动成员。
 
-For more information, see:
+有关更多信息，请参阅：
 
-* [Create an approval workflow in the new Documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
-* [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
-* [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-
--->
+* [在新建文档区域创建审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
+* [在旧文档区域创建审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
+* [为文档创建审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 ## 在项目模板上设置Frame.io工作区
 
@@ -124,45 +120,41 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-<!--
-
-## Redesigned Versions panel in the new documents area
+## 在新文档区域重新设计了版本面板
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
 
-If your organization uses Adobe cloud storage, the Versions panel in the new Documents area has a new design:
+如果您的组织使用Adobe云存储，则新文档区域中的版本面板具有新设计：
 
-* Versions are labeled V1, V2, and so on to drive consistency with Frame.io.
-* Each version shows its approval status, such as "Approved" or "Withdrawn", directly in the list.
-* The panel now lists only Version history — there's no longer a separate "latest file" entry at the top.
+* 版本被标记为V1 、 V2等，以便与Frame.io保持一致。
+* 每个版本都直接在列表中显示其批准状态，如“已批准”或“已撤回”。
+* 面板现在仅列出版本历史记录 — 顶部不再有单独的“最新文件”条目。
 
-Previously, versions were timestamped instead of numbered.
+以前，版本会加盖时间戳而不是编号。
 
-For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md).
+有关详细信息，请参阅[管理文档版本](/help/quicksilver/documents/managing-documents/manage-document-versions.md)。
 
-## Redesigned Approvals panel in the new documents area
+## 在新文档区域重新设计了审批面板
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
 
-If your organization uses Adobe cloud storage, the Approvals panel in the new Documents area now shows approval history across versions:
+如果您的组织使用Adobe云存储，则新文档区域中的审批面板现在会显示各个版本的审批历史记录：
 
-* The panel lists the approval workflow for every version that has one, not just the current version.
-* Withdrawn workflows stay in the list, so you can still review their prior decisions.
-* Expand any version to see its stages, approver decisions, decision rule, and due dates without leaving the panel.
+* 该面板会列出每个版本的审批工作流，而不只是当前版本。
+* 撤回的工作流将保留在列表中，因此您仍然可以查看其之前的决定。
+* 展开任何版本以查看其阶段、审批者决策、决策规则和到期日期，而不退出面板。
 
-Previously, the Approvals panel only showed the current version's workflow.
+以前，审批面板仅显示当前版本的工作流。
 
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ## 将图像附加到对Adobe云存储对象的注释中
 

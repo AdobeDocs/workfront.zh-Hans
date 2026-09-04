@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: 1278
 ht-degree: 3%
 
 ---
@@ -33,13 +33,9 @@ ht-degree: 3%
 # 将任务转换为项目
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 当项目中的任务需要比您最初计划更大的工作量完成时，您可以将其转换为项目。
@@ -111,16 +107,16 @@ Old:
 * 文档、文档版本和校样将移至新项目。
 * 将任务转化为项目时存在5分钟的处理限制。 如果任务附加了大量文档且无法转换，您可能需要删除某些文档并重试。
 * 如果贵组织同时使用旧版Workfront和Adobe云存储来存储文档，则在将任务转化为项目时，可能会出现以下情况：<!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * 旧版Workfront存储任务可创建一个旧版Workfront存储项目。
-   * Adobe云存储任务创建一个Adobe云存储项目。
-   * 使用旧版Workfront存储模板转换Adobe云存储任务会创建一个Adobe云存储项目。
-   * 使用Adobe云存储模板转换旧版Workfront存储任务会创建一个Adobe云存储项目。 文档及其批准保留在当前项目中。
+  * 旧版Workfront存储任务可创建一个旧版Workfront存储项目。
+  * Adobe云存储任务创建一个Adobe云存储项目。
+  * 使用旧版Workfront存储模板转换Adobe云存储任务会创建一个Adobe云存储项目。
+  * 使用Adobe云存储模板转换旧版Workfront存储任务会创建一个Adobe云存储项目。 文档及其批准保留在当前项目中。
 
-     有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+    有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
-     >[!TIP]
-     >
-     >您的Workfront实例可能无权访问这两种类型的文档存储。
+    >[!TIP]
+    >
+    >您的Workfront实例可能无权访问这两种类型的文档存储。
 
 
 * 所有子任务和问题的状态和完成百分比将保留。
@@ -163,7 +159,7 @@ Old:
     </tr> 
     <tr> 
     <td>项目完成情况</td> 
-    <td>与Workfront管理员在设置区域中确定的系统级默认首选项匹配。有关信息，请参阅<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">将自定义条件设置为项目的默认值</a>
+    <td>与Workfront管理员在设置区域中确定的系统级默认首选项匹配。 有关信息，请参阅<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">将自定义条件设置为项目的默认值</a>
     </td> 
     </tr> 
     <tr> 

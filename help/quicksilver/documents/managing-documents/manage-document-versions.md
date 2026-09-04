@@ -16,16 +16,18 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 634
-ht-degree: 3%
+source-wordcount: 1077
+ht-degree: 1%
 
 ---
 
 # 管理文档版本
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 您可以在Workfront中管理文档的多个版本。
 
@@ -70,7 +72,9 @@ ht-degree: 3%
 
   如果需要有关将文档的新版本上载到Workfront的信息，请参阅[上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
-## 查看文档所有版本的列表
+## 在旧文档区域管理文档版本
+
+### 查看文档所有版本的列表
 
 {{step1-to-documents}}
 
@@ -80,7 +84,7 @@ ht-degree: 3%
 
 1. 向下滚动到&#x200B;**版本**&#x200B;部分以查看所有文档版本。
 
-## 查看和管理以前文档版本的详细信息
+### 查看和管理以前文档版本的详细信息
 
 {{step1-to-documents}}
 
@@ -92,7 +96,7 @@ ht-degree: 3%
 
    除了查看版本详细信息外，您还可以对版本进行更改，例如其名称、元数据和验证设置（如果它是文档验证）。
 
-## 下载单个文档版本
+### 下载单个文档版本
 
 {{step1-to-documents}}
 
@@ -104,7 +108,7 @@ ht-degree: 3%
 
    ![下载单个文档](assets/more-versions-350x143.png)
 
-## 下载文档的所有版本
+### 下载文档的所有版本
 
 {{step1-to-documents}}
 
@@ -114,7 +118,7 @@ ht-degree: 3%
 
 1. 向下滚动到&#x200B;**版本**&#x200B;部分，然后单击&#x200B;**全部下载**。
 
-## 删除文档版本
+### 删除文档版本
 
 如果错误地上载了文档的某个版本，或者不再需要某个版本，则可以删除该版本并维护原始文档。
 
@@ -149,3 +153,82 @@ ht-degree: 3%
    >* 如果文档链接到外部源，则该链接会被删除，并且无法再通过Workfront访问文档。
 
    ![删除文档版本](assets/more-versions-350x143.png)
+
+<div class="preview">
+
+## 在预览中管理新文档区域中的文档版本
+
+如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+Workfront会按照您上传每个版本的顺序（例如V1、V2、V3）对其进行编号，以匹配Frame.io中的版本号。
+
+### 查看文档所有版本的列表
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**文档**&#x200B;页面上，选择列表中的文档。
+
+1. 单击页面右侧的&#x200B;**版本**&#x200B;图标![版本图标](assets/versions-icon.png)。 “版本”面板打开，并在“版本历史记录”下列出文档的每个版本。
+
+   >[!NOTE]
+   >
+   >如果版本具有审批工作流，则其状态（如“已批准”或“已撤回”）将显示在其旁边。 没有审批工作流的版本不会显示状态。
+
+### 请求审批版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**文档**&#x200B;页面上，选择列表中的文档。
+1. 单击页面右侧的&#x200B;**版本**&#x200B;图标![版本图标](assets/versions-icon.png)。
+1. 单击版本旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**请求审批**。
+1. 配置审批工作流。 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+   >[!NOTE]
+   >
+   >如果以前的版本已有打开的审批工作流，则请求审批此版本会将其撤销。 以前的版本会保留其版本号和审批历史记录，但其状态将更改为“已撤回”。
+
+### 查看和管理以前文档版本的详细信息
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**文档**&#x200B;页面上，选择列表中的文档。
+1. 单击页面右侧的&#x200B;**版本**&#x200B;图标![版本图标](assets/versions-icon.png)。
+1. 单击版本旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**查看详细信息**。
+
+### 下载单个文档版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**文档**&#x200B;页面上，选择列表中的文档。
+
+1. 单击页面右侧的&#x200B;**版本**&#x200B;图标![版本图标](assets/versions-icon.png)。
+
+1. 单击版本旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**下载**。
+
+### 下载文档的所有版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**文档**&#x200B;页面上，选择列表中的文档。
+
+1. 单击页面右侧的&#x200B;**版本**&#x200B;图标![版本图标](assets/versions-icon.png)。
+
+1. 单击“版本”面板顶部的&#x200B;**全部下载**。
+
+   ![下载文档的所有版本](assets/download-all-versions.png)
+
+### 删除文档版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**文档**&#x200B;页面上，选择列表中的文档。
+
+1. 单击页面右侧的&#x200B;**版本**&#x200B;图标![版本图标](assets/versions-icon.png)。
+
+1. 单击版本旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
+
+   >[!NOTE]
+   >
+   >删除版本不会更改其他版本的编号。 例如，如果从版本为V1到V5的文档中删除V3，则其余版本将保留其原始编号，并且之后没有V3。 您上传的下一个版本将变为V6。
+
+</div>

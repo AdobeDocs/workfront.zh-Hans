@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # 编辑项目模板
 
+{{highlighted-preview}}
+
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>公司</strong></td> 
       <td><p>指定要与模板关联的公司。 列表中只显示有效的公司。</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io工作区（视情况而定）</strong></span></td>
+      <td><span class="preview">
+      <p>在Adobe云存储项目中，选择要使用此模板创建的项目的Frame.io工作区。 如果贵组织有多个Frame.io工作区，这将决定链接的Frame.io项目将在哪个工作区中创建。</p>
+      <p>该列表仅包含您有权将项目分配给的Frame.io工作区。 未选择或未提供工作区时使用的默认工作区。</p>
+      <p>您可以随时在模板上更改此字段。 更改仅适用于更改后创建的项目；已从模板创建的项目将保留其现有的Frame.io工作区。</p>
+      <p>注意：必须具有Frame.io enterprise才能使用Frame.io工作区字段。</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>模板所有者</strong></td> 
@@ -772,8 +779,8 @@ To edit templates in bulk:
 
   有关将主题组和队列主题添加到项目或模板的信息，请参阅以下文章：
 
-   * [创建主题组](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [创建主题组](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 您可以将以下项目添加到模板中的任务：
 

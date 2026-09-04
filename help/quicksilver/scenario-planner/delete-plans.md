@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 4%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
 # 删除[!DNL Scenario Planner]中的计划
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以删除已创建的计划。 不能删除与您共享的计划。
 
@@ -126,6 +130,10 @@ Old:
 
 1. 单击计划的名称以将其打开。
 1. 单击计划名称右侧的&#x200B;**[!UICONTROL 更多菜单]** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**[!UICONTROL 删除]** > **[!UICONTROL 是，删除它]**。
+
+   >[!TIP]
+   >
+   ><span class="preview">您也可以选择列表中的计划，然后单击列表底部的&#x200B;**删除**&#x200B;以删除它，从而将其删除。</span> <!--move the tip as the main step when we release this??-->
 
    计划将被删除，您将返回到计划列表。
 

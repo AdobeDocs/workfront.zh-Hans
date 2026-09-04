@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 2990
+source-wordcount: 3066
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在列表视图中打开记录类型页面。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**&#x200B;或&#x200B;**管理请求表单**（如果已拥有表单且要创建其他表单）。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，如果是首次创建表单，请单击&#x200B;**创建请求表单**。 单击&#x200B;**管理请求表单**&#x200B;或&#x200B;<span class="preview">**请求表单**.</span>（如果您已经拥有表单并且想要创建其他表单）。
 
    **请求表单**&#x200B;页面打开，请求显示在列表视图中。
 
@@ -369,7 +369,7 @@ ht-degree: 1%
 
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**&#x200B;或&#x200B;<span class="preview">**请求表单**</span>。
 
    **请求表单**&#x200B;页面打开，所有与记录类型关联的请求表单都显示在列表视图中。
 1. （可选）更新&#x200B;**请求表单**&#x200B;页面中的以下视图元素，以更改信息在表中的显示方式：

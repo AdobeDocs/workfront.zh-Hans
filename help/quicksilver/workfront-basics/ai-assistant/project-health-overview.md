@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 2%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->项目运行状况功能目前仅适用于参与Beta阶段的用户。
+>* 从2026年9月开始， AI Assistant将过渡到CX Co-worker ，这是一个用于完成工作的对话界面。 有关CX Co-worker的信息，请参阅[CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>* 项目运行状况功能目前仅适用于参与Beta阶段的用户。
 
 Adobe Workfront的项目运行状况功能利用AI Assistant的强大功能即时为您提供对项目执行情况、哪些领域需要您关注以及如何避免可能会耗费您时间和资金的问题评估。
 
@@ -328,7 +329,7 @@ Workfront管理员创建项目运行状况配置后，您可以将其应用于�
 
    >[!NOTE]
    >
-   >如果您是从Workfront中的其他页面访问AI助手，则可以键入&#x200B;*项目[项目名称]的运行状况如何？*&#x200B;或&#x200B;*项目[项目名称]的运行状况如何？* <br>
+   >如果您从Workfront中的其他页面访问AI助手，则可以键入&#x200B;*项目[项目名称]的运行状况如何？* 或&#x200B;*程序[程序名称]的运行状况如何？* <br>
    >有关可输入的当前提示的完整列表，请参阅本文中的[AI助手提示列表](#ai-assistant-prompts-list)部分。
 
 1. 单击&#x200B;**发送**&#x200B;图标![发送图标](assets/send-icon.png)。 将生成项目运行状况评估，并显示在面板中。 每个项目运行状况评估顶部都会显示一个标记，该标记反映项目的当前条件。

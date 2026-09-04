@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: 491
 ht-degree: 5%
 
 ---
@@ -37,13 +37,9 @@ ht-degree: 5%
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 如果您决定某个项目在未来某个时间再次出现，则可以从现有项目创建模板。 然后，您可以再次使用该模板来创建未来项目，这些项目可能包含类似信息或可能与现有项目共享相同的时间表或工作分配。
@@ -209,7 +205,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 单击左侧面板中的&#x200B;**自定义Forms**&#x200B;以删除或重新排序表单。
 
    要重新排列表单，请以正确的顺序拖放表单。
-要删除表单，请选择它，然后单击&#x200B;**删除**。单击&#x200B;**取消**&#x200B;可删除所选的表单。
+   要删除表单，请选择它，然后单击&#x200B;**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
 
    另存为模板框中的![自定义表单区域](assets/custom-forms-ara-in-save-as-template-box.png)
 
