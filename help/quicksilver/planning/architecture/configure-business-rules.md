@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 1%
 * 规则适用于可以编辑或删除记录的每个人。
 * 记录类型可以有多个业务规则。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
-  所有规则同时检查，并且错误消息显示一条语句中缺少的所有字段。
+  所有规则将同时检查在一起。<!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
 
 ## 配置业务规则
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
    在业务规则的&#x200B;**Then**&#x200B;部分中，您可以查看规则的用途的说明。
 
-1. 单击“激活”**&#x200B;**&#x200B;以激活此记录类型的规则，然后单击“保存”**&#x200B;**。
+1. 单击“激活”****&#x200B;以激活此记录类型的规则，然后单击“保存”****。
 
    规则在激活后立即应用，所有有权编辑或删除选定记录类型中记录的用户都必须遵循这些规则。
 1. （可选，推荐）单击页眉中&#x200B;**业务规则**&#x200B;左侧的返回箭头以显示记录类型页面，转到表视图或打开记录页面，然后尝试编辑或删除记录，以测试您刚刚创建的规则。
