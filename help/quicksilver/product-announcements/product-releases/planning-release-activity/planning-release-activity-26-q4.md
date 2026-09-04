@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -218,6 +218,7 @@ Workspace Manager现在可以定义连接的记录类型之间的依赖关系。
 
 * 在连接记录类型时，我们在“新建连接”选项卡中添加了新的连接设置部分
 * 我们已在新部分中添加了“使此连接依赖于”设置
+* 我们更改了将查找字段添加到连接的方式
 
 
 有关信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
