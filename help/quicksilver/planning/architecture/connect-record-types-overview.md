@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 1%
 
 ---
@@ -191,6 +191,13 @@ ht-degree: 1%
       >例如，如果项目的计划开始日期在Workfront中显示为3:00 PM，它在Workfront Planning的导入查找字段中将显示为15:00。
 
   * 您必须连接记录类型才能在Workfront Planning中创建层次结构。 如果记录类型连接不存在，则会在创建层次结构时自动创建这些连接。 有关信息，请参阅[创建工作区层次结构](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
+
+  * 如果您的组织购买了Adobe GenStudio for Performance Marketing包，则存在以下情况：
+
+    * 您无法从Planning记录类型连接到GenStudio记录类型。
+    * 您可以在GenStudio工作区中连接GenStudio记录类型。
+    * 您可以从GenStudio记录类型和GenStudio记录类型中连接Planning Brands。
+    * 您不能在层次结构中包含GenStudio Brands。
 
   <div class="preview">
 

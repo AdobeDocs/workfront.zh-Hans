@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # 统一审查和批准概述
+
+{{highlighted-preview}}
 
 统一的审核和批准将Adobe Workfront和Adobe Frame.io融于一个相互深入关联的体验中，从而弥合了营销管理、创意审核和内容交付之间的差距。
 项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
@@ -348,6 +350,18 @@ Frame.io查看器包括一组完整的可视标记工具，其中包括手绘绘
 **在Frame.io查看器中所做的注释是否会出现在Workfront项目中？**
 
 注释和批注保留在Frame.io查看器中，以便它们保留完整的上下文，包括时间戳和可视标记。 这在未来版本中可能会有所改进。
+
+<span class="preview">
+
+在预览中，Workfront中的“注释”面板会显示一条消息，告知您何时在Frame.io中有新注释。</span>
+
+<div class="preview">
+
+**谁能在Workfront中看到Frame.io注释指示器？**
+
+只有已在Frame.io中看到这些注释的用户才能看到指示器。 如果您拥有Frame.io Enterprise许可证，则可以在文档上查看该许可证是否有任何注释。 如果您没有Frame.io Enterprise许可证，则只有在文档获得批准后才能看到该许可证。 批准可使您也能看到文档的所有先前备注。
+
+</div>
 
 **是否可以向资源的下载版本（如PDF）添加注释？**
 

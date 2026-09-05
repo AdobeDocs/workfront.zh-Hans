@@ -4,9 +4,9 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,34 @@ ht-degree: 0%
 
 <!--
 
-## Frame comment visibility in Workfront
+## System Administrators full access to approval templates
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Preview: September 4, 2026
+>Production fast release: September 4, 2026
+>Production for everyone: September 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
-
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
+For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 -->
+
+## Workfront中的框架评论可见性
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+在为文档创建审批工作流时，用户可以在Frame.io查看器中留下注释并进行批注。 这些注释不会显示在“Workfront注释”面板中，但您可以在Frame.io查看器中查看它们。
+
+现在，Workfront中的“注释”面板会显示一条消息，告知您何时在Frame.io中有新注释。
+
+有关详细信息，请参阅[向文档添加更新](/help/quicksilver/documents/managing-documents/add-update-documents.md)。
 
 ## 通过审批电子邮件链接直接验证访问
 
@@ -184,3 +197,23 @@ Adobe云存储组织现在支持所有媒体类型图像格式。 （旧版对�
 链接功能由内容审查工具提供支持，因此，您还可以在选择内容时获得AI 搜索、智能建议、营销活动简短分析等。
 
 有关详细信息，请参阅[将Experience Manager Assets中的内容与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+
+<!--
+
+## Approval workflow templates are private by default
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+-->
+

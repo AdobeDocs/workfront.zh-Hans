@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2022
 ht-degree: 2%
 
 ---
@@ -282,10 +282,10 @@ Old:
    </table>
 
 * 更新GenStudio工作区的工作区配置、记录类型、视图和字段与更新Workfront Planning工作区及其元素的方式相同。
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* 您可以在GenStudio工作区中为记录类型构建层次结构。
+
+  有关详细信息，请参阅[创建工作区层次结构](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
+* 您可以将GenStudio记录类型连接到GenStudio Brand，但不能在层级中包含GenStudio Brands。
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -500,26 +500,18 @@ Workfront Planning主页将打开。
    * 按其排序
    * 隐藏它
    * 编辑其设置
+   * 删除它
 
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
-   <!--GenStudio-native fields are note removed from GenStudio. -->
+     >[!NOTE]
+     >
+     >* 仅当您在GenStudio中拥有管理权限时，才能编辑GenStudio字段的配置。
+     >* 您无法删除GenStudio字段。
 
-   >[!NOTE]
-   >
-   >* 仅当您在GenStudio中拥有管理权限时，才能编辑GenStudio字段的配置。
-   >* 您无法删除GenStudio字段。
+## 在GenStudio工作区中创建工作区层次结构
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
+在GenStudio工作区中创建层级，与在任何工作区中创建层级类似。
 
-## Create workspace hierarchies in the GenStudio workspace
+有关信息，请参阅[创建工作区层次结构](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
-Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
-
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
-For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
