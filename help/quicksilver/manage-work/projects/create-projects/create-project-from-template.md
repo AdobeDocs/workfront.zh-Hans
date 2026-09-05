@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bde3551443641024b87397e35064ebf4577179eb
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 1%
@@ -195,7 +195,7 @@ Old:
       >
       >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
-   1. （视情况而定，可选）如果您选择了旧版存储模板，请选择新项目框右下角的在Adobe云存储上创建此项目设置。 这将创建一个Adobe云存储项目。 不会将模板中的文档和文档文件夹添加到项目中。
+   1. （有条件，可选）如果您选择了旧版存储模板，请选择“新建项目”框右下角的&#x200B;**在Adobe云存储中创建此项目**&#x200B;设置。 这将创建一个Adobe云存储项目。 不会将模板中的文档和文档文件夹添加到项目中。
 
    1. 查看右侧的以下模板详细信息：
 

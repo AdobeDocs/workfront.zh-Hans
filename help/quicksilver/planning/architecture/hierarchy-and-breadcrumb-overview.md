@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ ht-degree: 0%
   * 如果连接的记录类型是层次结构的一部分，则可从子记录类型将一个记录连接到父记录类型的多达10个记录。
 
     例如，如果您在作为父项的营销活动和作为子项的角色之间创建层次结构，则可以将同一角色连接到最多10个营销活动。
+  * 如果您的组织购买了Adobe GenStudio for Performance Marketing包，则存在以下情况：
+
+    * 您无法从Planning记录类型连接到GenStudio记录类型。
+    * 您可以在GenStudio工作区中连接GenStudio记录类型。
+    * 您可以将GenStudio Brands连接到GenStudio记录类型和Planning记录类型。
+    * 您不能在层次结构中包含GenStudio Brands。
 
 ## 查看痕迹导航时的注意事项
 
