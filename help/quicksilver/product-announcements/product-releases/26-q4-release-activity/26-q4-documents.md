@@ -4,9 +4,9 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -36,22 +36,18 @@ ht-degree: 0%
 * 在为文档创建审批工作流模板中[共享模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
 * [创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
-<!--
-
-## System Administrators full access to approval templates
+## 系统管理员对审批模板的完全访问权限
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>预览： 2026年9月8日
+>生产快速发布： 2026年9月8日
+>适用于所有人的生产： 2026年9月8日
+>[!BADGE 超出计划]{type=Neutral}
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+系统管理员现在可以查看、编辑、删除和批量删除帐户中的每个审批模板，而不管该模板是由谁创建或共享的。 以前，系统管理员受与其他用户相同的共享规则的约束，并且只能查看或管理他们自己创建的模板或与他们共享的模板。
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
-
--->
+有关详细信息，请参阅[管理审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)。
 
 ## Workfront中的框架评论可见性
 
