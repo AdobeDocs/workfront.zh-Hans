@@ -5,9 +5,9 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 4%
 
 ---
@@ -300,6 +300,13 @@ ht-degree: 4%
 | 列出实体 | `insights_list_entities` | 列出所有可用于查询的Workfront对象类型。 | 读取 |
 | 搜索用户 | `insights_search_users` | 在Workfront实例中按名称查找人员。 键入完整或部分名称，然后返回最匹配的用户。 这还可以选择将AI-collaborator“机器人”与常规用户一起包含。 | 读取 |
 
+## 反馈工具
+
+<span class="preview">反馈工具允许您直接从AI代理平台报告Workfront MCP服务器体验。</span>
+
+| 标题 | 工具名称 | 作用 | 操作 |
+| --- | --- | --- | --- |
+| <span class="preview">分享反馈</span> | <span class="preview">`share_feedback`</span> | <span class="preview">记录您报告的情绪以及对话过程中发生的情况，以便改进Workfront的MCP工具。 仅当您明确要求共享反馈（例如“共享反馈”或“报告错误”）时使用。</span> | <span class="preview">写入</span> |
 
 
 
