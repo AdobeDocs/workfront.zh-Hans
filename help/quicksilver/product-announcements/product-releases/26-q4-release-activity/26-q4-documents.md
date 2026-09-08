@@ -4,7 +4,7 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -211,7 +211,7 @@ Adobe云存储组织现在支持所有媒体类型图像格式。 （旧版对�
 
 链接功能由内容审查工具提供支持，因此，您还可以在选择内容时获得AI 搜索、智能建议、营销活动简短分析等。
 
-有关详细信息，请参阅[将Experience Manager Assets中的内容与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+有关详细信息，请参阅[将Experience Manager Assets中的内容与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)。
 
 <!--
 
