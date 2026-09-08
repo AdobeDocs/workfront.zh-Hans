@@ -4,10 +4,10 @@ description: 2026年第四季度报表改进
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 3%
+source-wordcount: '783'
+ht-degree: 4%
 
 ---
 
@@ -17,27 +17,21 @@ ht-degree: 3%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## 在画布中复制仪表板
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+您现在可以使用新的&#x200B;**复制仪表板**&#x200B;操作复制画布仪表板。 此操作适用于其访问级别授予对功能板的编辑或创建权限的任何用户，即使他们仅具有对正在复制的特定功能板的查看访问权限。 没有对功能板进行编辑或创建权限的用户看不到此操作。
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+复制仪表板时，可以重命名仪表板、更新其描述和货币，以及选择要延续到副本中的小组件、仪表板过滤器和仪表板提示。
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+只有您是指定用户或系统管理员时，才会保留对构件以用户身份运行配置。 共享首选项将不会复制到新仪表板，并且复制完成后会显示一条确认消息，其中包含指向新仪表板的链接。
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
-
-For more information, see 
-
--->
+以前，无法复制功能板；用户必须从头开始重新构建功能板以创建特定于受众的变体。
 
 ## Canvas仪表板中的“审批类型”字段
 
@@ -62,9 +56,9 @@ For more information, see
 | 文档审批 | 审批 |
 | 文档审批阶段 | 审批阶段 |
 | 文档审批阶段参与者 | 审批阶段参与者 |
-| 审批流程 | 工作批准流程 |
+| 审批流程 | 工作审批流程 |
 | 审批阶段 | 工作审批阶段 |
-| 审批者状态 | 工作审批者状态 |
+| 审批者状态 | 工作审批状态 |
 | 等待审批 | 等待工作审批 |
 
 此更改不会影响当前报表的运行方式。
