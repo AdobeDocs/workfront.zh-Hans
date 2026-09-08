@@ -4,9 +4,9 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,25 @@ ht-degree: 0%
 本页介绍了在2026年第四季度发行版中对“预览”环境所做的文档增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 控制谁可以查看和使用审批模板
+
+>[!NOTE]
+>
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
+
+默认情况下，审批模板现在为专用模板。 以前，每个审批请求者都可以看到系统中的每个模板，这使得模板列表变得冗长且难以导航。 现在，模板仅对创建该模板的用户可见，除非创建者共享模板。
+
+模板创建者可以从Workfront设置的“审批模板”列表中，将模板与特定用户或其组织中的每个人共享。 在请求审批时，用户只会看到他们自己创建的模板或与他们共享的模板。
+
+此更改同时适用于新模板和现有模板，并且无论如何请求模板，均会始终如一地强制执行访问权限。
+
+有关更多信息，请参阅：
+
+* 在为文档创建审批工作流模板中[共享模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* [创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
 <!--
 
