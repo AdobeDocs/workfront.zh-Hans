@@ -355,7 +355,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将图像附加到Adobe云存储对象上的注释</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将图像附加到Adobe云存储对象上的注释</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>现在，作为统一审查和批准的一部分，使用Adobe云存储的组织可以将图像文件直接附加到评论。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -408,7 +408,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">属性层次结构现在自动保持连接</a><p>[！BADGE Workflow Ultimate]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">属性层次结构现在自动保持连接</a><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>现在，选择最低级别的费率属性会自动分配其上方的每个父级别，而不是要求手动链接每个级别。</p>
             </td>
             <td><p>2026年9月3日</p></td>
@@ -464,7 +464,7 @@ ht-degree: 1%
 
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>画布仪表板中的审批类型字段&lt;/a>&lt;p>[！BADGE取消计划]{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>画布仪表板中的审批类型字段&lt;/a>&lt;p>[!BADGE 取消计划]{type=Neutral}&lt;/p>
     &lt;p>审批实体现在包含审批类型字段，允许用户区分验证审批、文档版本审批、接收审批和其他审批类型。&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/N a&lt;/p>&lt;/td>
@@ -473,7 +473,7 @@ ht-degree: 1%
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xref=&quot;{para}&quot;>Canvas仪表板中的审批术语更新&lt;/a>&lt;p>[！BADGE Off计划]{type=Neutrual}&lt;/p>为了清晰起见，已重命名用于画布功能板中的文档和工作审批。&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xref=&quot;{para}&quot;>Canvas仪表板中的审批术语更新&lt;/a>&lt;p>[!BADGE Off计划]{type=Neutrual}&lt;/p>为了清晰起见，已重命名用于画布功能板中的文档和工作审批。&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
@@ -491,7 +491,7 @@ ht-degree: 1%
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>强制计划报告的结束日期&lt;/a>
-    &lt;p>计划报告现在需要结束日期以防止无限期交付，当计划的结束日期超过时会自动停用。&lt;/p>{3> 2026年&lt;/p>&lt;/td>
+    &lt;p>计划报告现在需要结束日期以防止无限期交付，当计划的结束日期超过时会自动停用。&lt;/p>&lbrace;3> 2026年&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
     &lt;/tr>
@@ -531,7 +531,7 @@ ht-degree: 1%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器批量分配增强功能</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器批量分配增强功能</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>在工作负载均衡器批量分配对话框中，<strong>替换</strong>操作已重命名为<strong>分配</strong>，以便更好地描述该操作的用途。 功能未发生更改。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -572,7 +572,7 @@ ht-degree: 1%
         </tr>
            <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA元数据保留在您的文件中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA元数据保留在您的文件中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Workfront会在您上传、存储和下载的文档上保留C2PA元数据，而不对其进行修改。</p>
             </td>
             <td><p>不适用</p></td>
@@ -581,7 +581,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左侧导航面板图标的界面更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左侧导航面板图标的界面更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>我们更新了Workfront中左侧导航面板图标的外观，以提供现代设计和与其他Adobe应用程序一致的体验。</p>
             </td>
             <td><p>2026年7月30日</p></td>
