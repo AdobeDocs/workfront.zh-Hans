@@ -7,20 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 TQID: https://experienceleague.adobe.com/qp-mum3AisU5J1qYW6qsb-Kq9M3-7RpBaUStpmtwSGM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 728
 ht-degree: 3%
 
 ---
@@ -80,6 +74,7 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
 * Workfront管理员已向用户启用了时间表批准和向用户事件处理程序启用了时间表拒绝。 有关启用事件通知的信息，请参阅[事件通知类型](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 * 在用户配置文件页面上启用了我的时间表已批准个人通知。 有关详细信息，请参阅[修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+* 提交时间表的用户具有Standard许可证。 拥有轻度许可证或更低许可证的用户不会收到时间表批准电子邮件通知，即使在其配置文件上启用了我的时间表被批准个人通知时也是如此。
 
 ### 从时间表区域批准时间表
 
