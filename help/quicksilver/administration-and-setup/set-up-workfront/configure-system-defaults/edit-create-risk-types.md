@@ -9,20 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 5%
+source-wordcount: 645
+ht-degree: 4%
 
 ---
 
@@ -60,12 +54,12 @@ Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项�
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,25 +114,30 @@ Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项�
 
 1. （可选）要导出风险类型列表，请单击&#x200B;[!UICONTROL **导出**]&#x200B;图标。 您可以导出到以下文件类型：
 
-   * 在生产环境中：
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel (xlsx)
-     * 制表符分隔
-     * CSV
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * 制表符分隔
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * 在“预览”环境中：
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   在“生产”环境中，您可以首先选择有限数量的风险类型，然后将它们导出为较小的列表。<!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   在“生产”环境中，您可以首先选择有限数量的风险类型，然后将它们导出为较小的列表。
+   >
+   > <span class="preview">此功能已从预览环境中删除。</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### 创建风险类型 {#create-risk-types}
 
