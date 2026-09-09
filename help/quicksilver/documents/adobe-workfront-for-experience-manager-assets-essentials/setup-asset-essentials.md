@@ -7,20 +7,14 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 4%
+source-wordcount: 683
+ht-degree: 3%
 
 ---
 
@@ -34,8 +28,8 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您还可以跨组织ID将多个Experience Manager Assets存储库连接到一个Workfront环境，或将多个Workfront环境连接到一个Experience Manager Assets存储库。对于要设置的每个集成，请按照本文中的配置说明进行操作。<br>
->此功能在新建文档区域不可用。
+>您还可以跨组织ID将多个Experience Manager Assets存储库连接到一个Workfront环境，或将多个Workfront环境连接到一个Experience Manager Assets存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。<br>
+>此功能在新的“文档”区域中不可用。
 
 ## 访问权限要求
 
@@ -71,7 +65,7 @@ ht-degree: 4%
   <tr>
    <td><strong>访问级别配置</strong>
    </td>
-   <td>您必须是Workfront管理员才能配置Experience Manager集成。配置后，具有Standard或Plan许可证的用户可以在单个项目上设置链接文件夹。
+   <td>您必须是Workfront管理员才能配置Experience Manager集成。 配置后，具有Standard或Plan许可证的用户可以在单个项目上设置链接文件夹。
    </td>
   </tr>
 </table>
@@ -86,7 +80,7 @@ ht-degree: 4%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中选择&#x200B;**文档** ![文档图标](assets/document-icon.png)，然后选择&#x200B;**Experience Manager集成**。
+1. 在左侧面板中选择&#x200B;**文档** ![文档图标](assets/document-icon.png)，然后选择&#x200B;**Experience Manager Assets**。
 1. 选择&#x200B;**添加Experience Manager集成**。
 1. 指定以下内容：
 
@@ -100,7 +94,7 @@ ht-degree: 4%
    <tr>
       <td><strong>导航URL</strong>
       </td>
-      <td>系统会自动填充导航URL。此URL用于从主菜单链接到组织的Assets Essentials实例以进行快速访问。
+      <td>系统会自动填充导航URL。 此URL用于从主菜单链接到组织的Assets Essentials实例以进行快速访问。
       </td>
    </tr>
    <tr>
@@ -125,7 +119,7 @@ ht-degree: 4%
 
 在开始之前，您必须
 
-* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
+* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
 * （可选）在Workfront中配置自定义表单字段。 Workfront提供了许多内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支持的Workfront和Experience Manager Assets字段
@@ -140,7 +134,7 @@ ht-degree: 4%
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=zh-Hans).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
