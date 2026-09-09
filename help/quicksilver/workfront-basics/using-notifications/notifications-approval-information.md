@@ -13,9 +13,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 706
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
    <td><strong>即时</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我的工时表已被批准</strong> </p> <p>您的时间表获得批准后，您将收到电子邮件通知。</p> <p>即时通知电子邮件的主题是： <em>[!UICONTROL 已批准工时表]：&lt;工时表开始日期&gt; - &lt;工时表结束日期&gt;</em></p> <p> <p>注意：您无法为每日摘要电子邮件配置此通知。</p> </p> </td> 
+   <td> <p><strong>我的工时表已被批准</strong> </p> <p>您的时间表获得批准后，您将收到电子邮件通知。</p> <p>即时通知电子邮件的主题是： <em>[!UICONTROL 已批准工时表]：&lt;工时表开始日期&gt; - &lt;工时表结束日期&gt;</em></p> <p> <p>注意：您无法为每日摘要电子邮件配置此通知。</p> </p> <p> <p>注意：您必须拥有Standard许可证才能接收此通知。 拥有轻度许可证或更低许可证的用户不会收到时间表批准电子邮件通知，即使启用了时间表批准电子邮件通知也是如此。</p> </p> </td> 
    <td> 批准您的时间表的用户的名称<br>批准时间表的日期和时间<br>时间表状态（[!UICONTROL 已批准]）<br>时间表的开始日期和结束日期<br>时间表记录的总小时数<br>时间表记录的加班小时数 </td> 
    <td><strong>即时</strong> </td> 
   </tr> 
