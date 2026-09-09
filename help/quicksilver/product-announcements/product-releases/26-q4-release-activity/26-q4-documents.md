@@ -4,9 +4,9 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,37 @@ ht-degree: 0%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## System Administrators full access to approval templates
+## 控制谁可以查看和使用审批模板
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>预览： 2026年7月30日
+>生产快速发布： 2026年8月13日
+>适用于所有人的生产： 2026年10月15日
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+默认情况下，审批模板现在为专用模板。 以前，每个审批请求者都可以看到系统中的每个模板，这使得模板列表变得冗长且难以导航。 现在，模板仅对创建该模板的用户可见，除非创建者共享模板。
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+模板创建者可以从Workfront设置的“审批模板”列表中，将模板与特定用户或其组织中的每个人共享。 在请求审批时，用户只会看到他们自己创建的模板或与他们共享的模板。
 
--->
+此更改同时适用于新模板和现有模板，并且无论如何请求模板，均会始终如一地强制执行访问权限。
+
+有关更多信息，请参阅：
+
+* 在为文档创建审批工作流模板中[共享模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* [创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+## 系统管理员对审批模板的完全访问权限
+
+>[!NOTE]
+>
+>预览： 2026年9月8日
+>生产快速发布： 2026年9月8日
+>适用于所有人的生产： 2026年9月8日
+>[!BADGE 超出计划]{type=Neutral}
+
+系统管理员现在可以查看、编辑、删除和批量删除帐户中的每个审批模板，而不管该模板是由谁创建或共享的。 以前，系统管理员受与其他用户相同的共享规则的约束，并且只能查看或管理他们自己创建的模板或与他们共享的模板。
+
+有关详细信息，请参阅[管理审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)。
 
 ## Workfront中的框架评论可见性
 
@@ -196,7 +211,7 @@ Adobe云存储组织现在支持所有媒体类型图像格式。 （旧版对�
 
 链接功能由内容审查工具提供支持，因此，您还可以在选择内容时获得AI 搜索、智能建议、营销活动简短分析等。
 
-有关详细信息，请参阅[将Experience Manager Assets中的内容与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+有关详细信息，请参阅[将Experience Manager Assets中的内容与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)。
 
 <!--
 

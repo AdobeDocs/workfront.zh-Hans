@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 将Adobe Experience Manager与Frame.io集成一起使用
-description: 将Adobe Experience Manager与Frame.io集成一起使用
+title: 将Adobe Experience Manager与Workfront和Adobe云存储结合使用
+description: 将Adobe Experience Manager与Workfront和Adobe云存储结合使用
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -24,14 +24,14 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 1450
+source-wordcount: 2112
 ht-degree: 1%
 
 ---
 
-# 将Adobe Experience Manager与Frame.io集成一起使用
+# 将Adobe Experience Manager与Workfront和Adobe云存储结合使用
 
 您可以使用&#x200B;[!DNL Experience Manager Assets]&#x200B;管理和存储已过审阅和批准周期的数字资产。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 1. 选择&#x200B;**[!UICONTROL 添加[!DNL Experience Manager]集成]**。
 1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中，输入您希望用户在Workfront和Experience Manager Assets中与此集成交互时看到的名称。
 1. 在&#x200B;**[!UICONTROL 导航URL]**&#x200B;字段中，系统会自动填充导航URL。 此只读URL用于从[!UICONTROL 主菜单]链接到组织的[!DNL Experience Manager]实例，以进行快速访问。
-1. 从&#x200B;**[!UICONTROL [!DNL Experience Manager]Assets存储库]**&#x200B;下拉菜单中选择一个存储库。系统会自动填充与您的用户配置文件所分配到的组织ID关联的任何[!DNL Experience Manager]存储库。
+1. 从&#x200B;**[!UICONTROL [!DNL Experience Manager]Assets存储库]**&#x200B;下拉菜单中选择一个存储库。 系统会自动填充与您的用户配置文件所分配到的组织ID关联的任何[!DNL Experience Manager]存储库。
    ![选择Experience Manager存储库](assets/setup-information.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;或转到本文中的[设置元数据（可选）](#set-up-metadata-optional)部分。
@@ -268,6 +268,111 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 1. 选择要将资源放置到的位置，然后单击&#x200B;**选择文件夹**。
 
+## 从Experience Manager Assets链接内容
+
+要链接内容，请执行以下操作：
+
+1. 转到要在其中链接内容的Workfront对象。
+1. 单击左侧面板中的&#x200B;**文档**&#x200B;部分。
+1. 单击页面右侧的&#x200B;**新建**，然后单击&#x200B;**AEM文件**&#x200B;以链接单个资源。
+   ![将AEM文件添加到文档区域](assets/aem-files.png)
+
+1. 使用内容审查程序，您可以：
+
+   <table style="table-layout:auto">
+   <tbody>
+      <tr>
+         <td><strong>使用AI 搜索搜索资源。</strong> 使用AI支持的搜索，该搜索理解查询背后的含义和意图，支持多种语言、拼写错误和同义词。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">更智能的资源发现AI 搜索</a>。</td>
+      </tr>
+      <tr>
+         <td><strong>根据上下文和意图查看智能建议。</strong> 使用宿主Adobe应用程序提供的上下文感知推荐，探索符合您的内容需求的资源。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">基于上下文和意图的智能建议</a>。</td>
+      </tr>
+      <tr>
+         <td><strong>上传营销活动简报以发现相关资源。</strong> 上传PDF、DOCX或TXT营销活动简介文档，以便内容顾问可以分析该文档并推荐相关资源。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">发现相关资产的Campaign简介</a>。</td>
+      </tr>
+      <tr>
+         <td><strong>查看和选择Dynamic Media资源演绎版。</strong> 浏览渠道优化演绎版（包括图像预设、智能裁剪和格式类型），并应用Dynamic Media修饰符实时预览调整。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
+      </tr>
+      <tr>
+         <td><strong>将Dynamic Media修饰符应用于演绎版。</strong> 添加修饰符以实时转换资源演绎版，并在为主机应用程序选择演绎版之前预览结果。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
+      </tr>
+      <!--
+      <tr>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+      </tr>
+      -->
+      <tr>
+         <td><strong>访问资源元数据。</strong> 查看与Assets视图一致的资源属性，例如标题、描述、格式、大小和其他元数据选项卡（产品、营销活动、标记）。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">访问与Assets视图一致的资源元数据</a>。</td>
+      </tr>
+      <tr>
+         <td><strong>使用预定义筛选器筛选资源。</strong> 使用文件类型、文件格式、资源状态、文件大小、图像宽度、图像高度、修改日期和创建日期等过滤器优化资源结果。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">与Assets视图一致的访问筛选器</a>。</td>
+      </tr>
+      <tr>
+         <td><strong>保存并重用搜索。</strong> 通过指定搜索词和过滤器选项创建保存的搜索，然后在Experience Manager Assets和其他Adobe应用程序中重复使用它们。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">访问和重复使用最近和保存的搜索</a>。</td>
+      </tr>
+      <tr>
+         <td><strong>在收藏集间和收藏集中搜索资产。</strong> 在所有收藏集中搜索资产或收藏集，或将搜索限制在特定收藏集中。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">在收藏集间和收藏集中搜索资产</a>。</td>
+      </tr>
+   </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >内容指导中的推荐内容使用来自以下项的数据来确定Workfront中的推荐内容：
+   >
+   >* Workfront对象名称和描述字段
+   >* 标记为必填的自定义表单字段
+   >* 来自附加文档的数据
+
+<!--
+### Link a new version from Experience Manager Assets
+
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
+
+To link a new version:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
+
+1. Select the content you want to link.
+1. Click **Select**.
+-->
+
+<!--
+## Link a folder from Experience Manager Assets
+
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
+
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
+
+## 注意事项
+
+* 链接的AEM资源不支持审阅和批准工作流。
+* 在将资源从Workfront发送到Experience Manager Assets时，首先映射元数据字段。 如果您的Workfront管理员启用了对象元数据同步，则在任一应用程序中更改了某些字段后，这些字段将保持最新状态。
 
 <!--
  not sure if this is in yet

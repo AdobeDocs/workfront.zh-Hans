@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 4442
+source-wordcount: 4439
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ Frame.io专为创意评论而构建，这意味着它可处理营销和创意团
 
 可以。 资产完成审阅和批准周期后，您可以将其转移到Adobe Experience Manager Assets进行最终存储和分发。 这会将Workfront工作管理、Frame.io审查和AEM数字资产管理连接到一个统一的内容supply chain。
 
-有关详细信息，请参阅。有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+有关详细信息，请参阅[将Adobe Experience Manager与Workfront和Adobe云存储一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 **统一审阅和批准如何适应Adobe GenStudio？**
 

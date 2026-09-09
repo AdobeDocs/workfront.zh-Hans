@@ -6,9 +6,9 @@ description: 您可以从Experience Manager Assets Essentials将资源或文件�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 要使用Content Advisor从Experience Manager Assets链接资源和文件夹，请参阅[使用由Experience Manager Assets提供支持的Content Advisor链接资源和文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)。
 
-如果您在Adobe云存储上，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+如果您在Adobe云存储上，请参阅[将Adobe Experience Manager与Workfront和Adobe云存储一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 
 ## 访问权限要求

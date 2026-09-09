@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>工作流标准</p>
+   <td><p>工作流参与者或更高版本</p>
    </td> 
   </tr> 
 <tr> 
@@ -144,6 +144,7 @@ ht-degree: 1%
 1. 单击“激活”**&#x200B;**&#x200B;以激活此记录类型的规则，然后单击“保存”**&#x200B;**。
 
    规则在激活后立即应用，所有有权编辑或删除选定记录类型中记录的用户都必须遵循这些规则。
+1. （可选）单击页眉中业务规则名称的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)以打开&#x200B;**规则详细信息**&#x200B;框并更新有关该业务规则的信息。
 1. （可选，推荐）单击页眉中&#x200B;**业务规则**&#x200B;左侧的返回箭头以显示记录类型页面，转到表视图或打开记录页面，然后尝试编辑或删除记录，以测试您刚刚创建的规则。
 
 ## 管理业务规则
@@ -153,18 +154,22 @@ ht-degree: 1%
 编辑现有规则不会更改现有记录。 编辑后的规则仅适用于有人尝试编辑或删除现有记录时。
 
 1. 返回记录类型的&#x200B;**业务规则**&#x200B;表页。
-1. 查找要更改的规则。
-1. 将鼠标悬停在规则名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
+1. 在表格视图中查找要更改的规则。
+1. 将鼠标悬停在活动规则的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
 
    * **编辑**：这将打开业务规则设置页面，您可以编辑有关业务规则的信息。
-   * **停用**： <!--check this in the UI: right now, it says Disable-->这将停止触发规则，但会保留以备将来使用。
+   * **停用**：这将阻止触发规则，但会保留以备将来使用。
    * **删除**：已删除有关该规则的所有信息。 无法恢复已删除的规则。
 
+   ![业务规则更多菜单已展开](assets/business-rule-more-menu-in-table-expanded.png)
+
    已编辑的规则或规则的停用仅适用于将来记录，不会追溯应用。
+1. （可选且有条件）将鼠标悬停在表中已停用业务规则的名称上，然后单击&#x200B;**更多** > **激活**&#x200B;以激活该规则。
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   规则已激活。
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14499'
 ht-degree: 2%
 
 ---
@@ -1949,6 +1949,7 @@ ht-degree: 2%
       * [向资产或文档添加其他审阅人或审批人](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [从资产或文档中删除审批者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [创建资产和文档的审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [管理审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [将统一审批和验证结合使用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [上传新文档版本并请求审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [创建用于审阅和审批的报告仪表板](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -2079,8 +2080,7 @@ ht-degree: 2%
     * {hide-from-toc}[GenStudio for Performance Marketing与Frame.io集成入门](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [校对和Creative Cloud Express入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [校对与GenStudio for Performance Marketing集成快速入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-    * [将Experience Manager Assets中的资源与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+    * [将Adobe Experience Manager与Workfront和Adobe云存储结合使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
     * [Adobe Express和Workfront与Frame.io集成快速入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * 审批的提示、技巧和疑难解答 {#ttt-approvals}
     * [审批的提示、技巧和疑难解答：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

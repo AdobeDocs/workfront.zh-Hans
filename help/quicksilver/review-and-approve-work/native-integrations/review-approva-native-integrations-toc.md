@@ -17,9 +17,9 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 97
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ ht-degree: 0%
 * [校对与GenStudio for Performance Marketing集成快速入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
 * [校对和Creative Cloud Express入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
 * [统一审查和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-* [将Experience Manager Assets中的资源与Adobe云存储关联](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+* [将Adobe Experience Manager与Workfront和Adobe云存储结合使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
 * [Adobe Express和Workfront与Frame.io集成快速入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
 
