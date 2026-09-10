@@ -54,7 +54,7 @@ ht-degree: 0%
 >
 >Adobe Workfront Unified Review and Approvals连接器现已在Workfront Fusion中可用。 在将Fusion与Adobe云存储结合使用时，我们建议使用此连接器以获得更简单、更可靠的方案。
 >
->有关信息和说明，请参阅Workfront Fusion文档中的[Adobe Workfront统一审阅和审批模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
+>有关信息和说明，请参阅Workfront Fusion文档中的[Adobe Workfront统一审阅和审批模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
 
 请使用以下方法规划和执行Fusion修正：
 
