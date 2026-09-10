@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 您可以为Adobe Workfront Planning记录类型配置业务规则，以指示在允许或阻止对该类型的记录执行操作之前需要某些字段。
 
-根据规则的制定方式，如果满足定义的业务规则，您可以允许对记录执行以下操作：
+根据规则的制定方式，如果满足定义的业务规则，您可以允许或禁止对记录执行以下操作：
 
 * 编辑或不编辑记录
 * 删除或不删除记录
