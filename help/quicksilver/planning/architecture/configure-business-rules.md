@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -130,6 +130,13 @@ ht-degree: 1%
       IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
+   >[!TIP]
+   >
+   >您可以将连接的字段添加到业务规则，但请小心使用查找数组（而非字段值）的语句。 例如，使用`ARRAYLENGTH(field)=0`而不是`ISBLANK`。
+
+
+   当字段或表达式错误时，**公式**&#x200B;字段中有指示符。 <!--add screen shot?-->
+
    >[!IMPORTANT]
    >
    >我们强烈建议您在规则公式中包含以下信息，以便用户轻松了解何时不允许他们尝试对记录执行的操作：
@@ -137,11 +144,9 @@ ht-degree: 1%
    >* 为规则设置的确切字段。
    >* 不符合规则时的确切后果。
 
-   当字段或表达式错误时，**公式**&#x200B;字段中有指示符。 <!--add screen shot?-->
-
    在业务规则的&#x200B;**Then**&#x200B;部分中，您可以查看规则的用途的说明。
 
-1. 单击“激活”**&#x200B;**&#x200B;以激活此记录类型的规则，然后单击“保存”**&#x200B;**。
+1. 单击“激活”****&#x200B;以激活此记录类型的规则，然后单击“保存”****。
 
    规则在激活后立即应用，所有有权编辑或删除选定记录类型中记录的用户都必须遵循这些规则。
 1. （可选）单击页眉中业务规则名称的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)以打开&#x200B;**规则详细信息**&#x200B;框并更新有关该业务规则的信息。
