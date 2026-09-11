@@ -181,10 +181,10 @@ Worth noting
 
 ## 其他资源
 
-* [Adobe Workfront促销活动计划](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront促销活动计划](https://business.adobe.com/cn/products/workfront/campaign-planning.html)
 * [Adobe Workfront规划文档](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概述](https://business.adobe.com/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概述](https://business.adobe.com/cn/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/cn/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
