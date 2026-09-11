@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
 workflow-type: tm+mt
-source-wordcount: '14499'
+source-wordcount: '14542'
 ht-degree: 2%
 
 ---
@@ -735,7 +735,7 @@ ht-degree: 2%
       * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增强型身份验证时{hide-from-toc}[更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 汇率 {#exchange-rates}
       * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1213,7 +1213,7 @@ ht-degree: 2%
     * [删除文档](documents/managing-documents/delete-documents.md)
     * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
     * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[在Workfront中AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * 在Workfront中{hide-from-toc}[AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
   * 组织文档 {#organize-documents}
     * [组织文档](documents/organizing-documents/organize-documents.md)
     * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
@@ -2201,7 +2201,7 @@ ht-degree: 2%
   * Adobe Workfront计划报表 {#adobe-workfront-planning-reporting}
     * [Adobe Workfront Planning报表：文章索引](planning/reporting/reporting-in-planning-article-index.md)
     * [在报表中查看Workfront规划信息](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[适用于Workfront Planning的Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+    * 适用于Workfront Planning的{hide-from-toc}[Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront规划最佳实践 {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront最佳实践：文章索引](planning/best-practices.md/best-practices-article-index.md)
     * [推出您的战略主页：30天的启动台](planning/best-practices.md/30-day-launchpad.md)
@@ -2309,6 +2309,13 @@ ht-degree: 2%
     * [将Adobe Workfront Planning实例作为独立产品进行管理](planning/planning-sta/manage-planning-sta-instance.md)
     * [在Adobe Workfront Planning中作为独立产品管理用户](planning/planning-sta/manage-users-in-planning-sta.md)
     * [在Adobe Workfront Planning中将团队作为独立产品进行管理](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}Workfront规划中的构思空间 {#ideation}
+    * {hide-from-toc}[用于Adobe Workfront Planning的构思空间：文章索引](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[开始使用Adobe Workfront Planning的构思空间](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[在构思空间中创建简报](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[从构思空间摘要创建Planning记录](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[与他人共享构思空间](planning/ideation/share-the-ideation-space.md)
+
 * Adobe Workfront集成 {#adobe-workfront-integrations}
   * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront内置集成概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2651,10 +2658,10 @@ ht-degree: 2%
     * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
     * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-    * [API版本22中的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [API版本22](/help/quicksilver/wf-api/api/new-api-version-22.md)中的新增功能
     * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+    * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+    * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
     * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
     * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
     * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
@@ -2680,8 +2687,8 @@ ht-degree: 2%
     * [API示例脚本](wf-api/general/api-example-scripts.md)
     * [使用API同步程序和服务的数据](wf-api/general/api-sync-data.md)
     * [通过API停用用户](wf-api/general/deactivate-user-api.md)
-  * 活动订阅 {#event-subscriptions}
-    * [活动订阅](wf-api/api/event-subscriptions.md)
+  * 事件订阅 {#event-subscriptions}
+    * [事件订阅](wf-api/api/event-subscriptions.md)
     * [事件订阅API](wf-api/general/event-subs-api.md)
     * [事件订阅最佳实践](wf-api/general/event-sub-best-practice.md)
     * [事件订阅提交要求](wf-api/general/setup-event-sub-endpoint.md)
