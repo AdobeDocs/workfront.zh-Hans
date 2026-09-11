@@ -7,19 +7,12 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 1229
 ht-degree: 3%
@@ -32,7 +25,7 @@ ht-degree: 3%
 
 您可以使用Adobe Workfront工作负载均衡器批量将资源分配给多个任务和问题。
 
-有关使用工作负载均衡器将工作分配给用户和任务协作者的一般信息，请参阅在工作负载均衡器中分配工作的概述[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
+有关使用工作负载均衡器将工作分配给用户和任务协作者的一般信息，请参阅在工作负载均衡器中分配工作的概述[](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 访问权限要求
 
@@ -158,7 +151,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   IMAGE
 
 1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
@@ -185,7 +178,7 @@ To assign a user to work items previously assigned to job roles:
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   IMAGE
 
 -->
 
@@ -233,7 +226,7 @@ To assign a user to work items previously assigned to job roles:
 * 如果未分配的用户与工作角色相关联，则移除用户后，工作角色仍会分配给工作项。
 * 如果将指定的用户分配给已完成的工作项，则该用户仍会分配给这些工作项。
 
-有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
+有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
 
 要从选定项目中的工作项取消分配用户，或为其分配的选定任务或问题取消分配用户，请执行以下操作：
 
@@ -247,7 +240,4 @@ To assign a user to work items previously assigned to job roles:
 
 1. 单击&#x200B;**取消分配**。\
    确认显示删除指定用户的工作项数。
-
-
-
 

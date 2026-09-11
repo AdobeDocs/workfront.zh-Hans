@@ -7,19 +7,12 @@ author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
 TQID: https://experienceleague.adobe.com/2rLb--26SLkI7t0tpdShzxdVxhCLJEdzWYGBO8DOJSE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 4%
@@ -87,6 +80,6 @@ ht-degree: 4%
    配置此设置时，请考虑以下事项：
 
    * 配置以小时为单位记录时间时，此选项不可用。
-   * 此选项仅用于记录时间。 此选项与&#x200B;**计划**&#x200B;选项无关，该选项在编辑用户时也可用。 在计算时间表和Workfront的其他区域时，会使用&#x200B;**计划**&#x200B;选项。 （有关使用&#x200B;**计划**&#x200B;选项的详细信息，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。） 
+   * 此选项仅用于记录时间。 此选项与&#x200B;**计划**&#x200B;选项无关，该选项在编辑用户时也可用。 在计算时间表和Workfront的其他区域时，会使用&#x200B;**计划**&#x200B;选项。 有关使用&#x200B;**计划**&#x200B;选项的详细信息，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 1. 单击&#x200B;**保存更改**。
