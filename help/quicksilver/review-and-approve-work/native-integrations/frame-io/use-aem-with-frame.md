@@ -24,9 +24,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 840211ef726bb638f75158d95f751c5833cc22bb
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: 2166
 ht-degree: 1%
 
 ---
@@ -301,12 +301,10 @@ link to documentation about creating schema - waiting on response from Anuj abou
          <td><strong>将Dynamic Media修饰符应用于演绎版。</strong> 添加修饰符以实时转换资源演绎版，并在为主机应用程序选择演绎版之前预览结果。</td>
          <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的Dynamic Media资源演绎版</a>。</td>
       </tr>
-      <!--
       <tr>
-         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
-         <td>For more information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+         <td><strong>发现并浏览内容片段。</strong> 搜索内容片段，查看实时缩略图预览，检查状态（草稿、已修改或已发布），并检查详细的属性、引用和变量。</td>
+         <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">发现内容片段</a>。</td>
       </tr>
-      -->
       <tr>
          <td><strong>访问资源元数据。</strong> 查看与Assets视图一致的资源属性，例如标题、描述、格式、大小和其他元数据选项卡（产品、营销活动、标记）。</td>
          <td>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">访问与Assets视图一致的资源元数据</a>。</td>

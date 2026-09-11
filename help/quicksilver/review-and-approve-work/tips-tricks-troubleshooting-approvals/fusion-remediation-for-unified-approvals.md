@@ -6,7 +6,7 @@ description: 在您的组织采用Workfront云存储并统一审查和批准时�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -18,12 +18,6 @@ ht-degree: 0%
 基于旧版Workfront Proofing构建的Workfront Fusion方案不会自动针对Adobe云存储项目运行。 验证特定的模块、Webhook和API端点在某些情况下具有直接等效功能，而在其他情况下具有显着变化。 在将依赖这些方案的团队引入Adobe云存储推出之前，本文可帮助您清点受影响的方案、对它们进行分类并决定补救路径。
 
 范围覆盖到旧版Workfront项目的方案将继续像现在一样工作。 本文中描述的修正工作适用于您打算针对Adobe云存储项目运行的场景。
-
->[!IMPORTANT]
->
->Adobe Workfront Unified Review and Approvals连接器现已在Workfront Fusion中可用。 在将Fusion与Adobe云存储结合使用时，我们建议使用此连接器以获得更简单、更可靠的方案。
->
->有关信息和说明，请参阅Workfront Fusion文档中的[Adobe Workfront统一审阅和审批模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
 
 使用本文清点场景并对场景进行分类，了解升级Fusion场景以考虑Adobe云存储的最佳方法。
 
@@ -55,6 +49,12 @@ ht-degree: 0%
 根据特定业务逻辑查看每个场景以确定其分类。
 
 ## 补救方法
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Unified Review and Approvals连接器现已在Workfront Fusion中可用。 在将Fusion与Adobe云存储结合使用时，我们建议使用此连接器以获得更简单、更可靠的方案。
+>
+>有关信息和说明，请参阅Workfront Fusion文档中的[Adobe Workfront统一审阅和审批模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
 
 请使用以下方法规划和执行Fusion修正：
 
