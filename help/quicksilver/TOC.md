@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
 workflow-type: tm+mt
-source-wordcount: '14499'
+source-wordcount: '14542'
 ht-degree: 2%
 
 ---
@@ -2309,6 +2309,13 @@ ht-degree: 2%
     * [将Adobe Workfront Planning实例作为独立产品进行管理](planning/planning-sta/manage-planning-sta-instance.md)
     * [在Adobe Workfront Planning中作为独立产品管理用户](planning/planning-sta/manage-users-in-planning-sta.md)
     * [在Adobe Workfront Planning中将团队作为独立产品进行管理](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}Workfront规划中的构思空间 {#ideation}
+    * {hide-from-toc}[用于Adobe Workfront Planning的构思空间：文章索引](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[开始使用Adobe Workfront Planning的构思空间](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[在构思空间中创建简报](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[从构思空间摘要创建Planning记录](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[与他人共享构思空间](planning/ideation/share-the-ideation-space.md)
+
 * Adobe Workfront集成 {#adobe-workfront-integrations}
   * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront内置集成概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2680,8 +2687,8 @@ ht-degree: 2%
     * [API示例脚本](wf-api/general/api-example-scripts.md)
     * [使用API同步程序和服务的数据](wf-api/general/api-sync-data.md)
     * [通过API停用用户](wf-api/general/deactivate-user-api.md)
-  * 活动订阅 {#event-subscriptions}
-    * [活动订阅](wf-api/api/event-subscriptions.md)
+  * 事件订阅 {#event-subscriptions}
+    * [事件订阅](wf-api/api/event-subscriptions.md)
     * [事件订阅API](wf-api/general/event-subs-api.md)
     * [事件订阅最佳实践](wf-api/general/event-sub-best-practice.md)
     * [事件订阅提交要求](wf-api/general/setup-event-sub-endpoint.md)

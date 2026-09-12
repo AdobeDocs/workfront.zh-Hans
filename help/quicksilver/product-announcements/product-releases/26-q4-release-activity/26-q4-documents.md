@@ -4,9 +4,9 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1333'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 有关详细信息，请参阅[管理审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)。
 
-## Workfront中的框架评论可见性
+## Workfront中的Frame.io注释可见性
 
 >[!NOTE]
 >
->预览： 2026年9月3日
+>预览：不适用
 >生产快速发布： 2026年9月17日
 >适用于所有人的生产： 2026年10月15日
 

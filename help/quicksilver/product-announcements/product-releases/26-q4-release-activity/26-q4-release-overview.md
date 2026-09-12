@@ -4,9 +4,9 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '2905'
 ht-degree: 1%
 
 ---
@@ -277,10 +277,10 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                在Workfront中<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">框架评论可见性</a>
+                在Workfront中<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame.io评论可见性</a>
                 <p>Workfront中的“注释”面板现在让您知道Frame.io查看器中何时有新注释可用。</p>
             </td>
-            <td><p>2026年9月3日</p></td>
+            <td><p>不适用</p></td>
             <td><p>2026年9月17日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
