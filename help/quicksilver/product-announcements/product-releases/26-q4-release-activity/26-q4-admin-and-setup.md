@@ -4,13 +4,11 @@ description: 2026年第四季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 0%
-
 ---
-
 # 2026年第四季度管理员增强功能
 
 本页介绍了管理员在2026年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -74,6 +72,8 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >预览： 2026年9月3日
 >生产快速发布： 2026年9月17日
 >适用于所有人的生产： 2026年10月15日
+>
+>2026年9月14日，此功能暂时从预览环境中移除。
 
 使用布局模板时，您现在可以使用默认的Workfront菜单选项将自定义应用程序重新定位为任意顺序。 这样，您就可以将每个应用程序放置在最相关的位置。
 
