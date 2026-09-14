@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning 2026年第四季度发布活动
 
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
@@ -76,7 +74,7 @@ ht-degree: 0%
 
 有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-## 相关已连接记录字段的筛选器
+## 已连接记录字段的筛选器
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ ht-degree: 0%
 >生产快速发布： 2026年9月17日
 >适用于所有人的生产： 2026年10月15日
 
-在Planning中添加从属连接时，现在可以筛选符合筛选条件的特定记录类型。
+在Planning中添加连接时，现在可以筛选符合筛选条件的特定记录类型。
 
-与相关连接字段中提供的所有记录类型不同，只有符合筛选条件的记录类型才会显示。
+只有那些符合您的筛选条件的记录才会显示为已连接字段中的选项。
 
 对于此功能，我们在连接记录类型时在“新建连接”选项卡中添加了新的记录过滤规则选项。
 
