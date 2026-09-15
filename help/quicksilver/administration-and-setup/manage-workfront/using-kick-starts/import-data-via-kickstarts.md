@@ -14,20 +14,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eDTZB36f13CgQ5HSrp5MGqHDnhMi-SVA9ygsfxRjh-M
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 62d9d350c2b233f657780ab540b709368e3e0bc9
 workflow-type: tm+mt
-source-wordcount: 2877
+source-wordcount: '2882'
 ht-degree: 7%
-
 ---
-
 # 使用快速启动模板将数据导入Workfront
 
 <!--Audited: 12/2023-->
@@ -76,7 +79,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 
 * 以这种方式导入数据不会更新Workfront中已存在的记录的信息。
 * 您只能导入新记录及其信息。
-* 一次导入不超过2,000条记录，以确保导入不会超时
+* 快速启动导入在后台运行，并且没有记录限制。
+
+<!--THIS IS OLD. The background run was added September 2026, can delete this text at the end of the year * Import no more than 2,000 records at a time to ensure that the import does not time out.-->
 
 ## 将快速启动模板导出为电子表格文件
 
@@ -85,10 +90,6 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 要导出快速启动模板，请执行以下操作：
 
 {{step-1-to-setup}}
-
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
--->
 
 1. 单击&#x200B;**系统** > **导入数据(Kick-Start)**。
 
@@ -331,9 +332,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
    * 如果要导入的对象是新对象，请键入&#x200B;**TRUE**&#x200B;以导入行中的数据。 此值区分大小写，且必须始终为全大写字母
    * 如果该对象已在Workfront中，请在&#x200B;**isNew**&#x200B;列中键入&#x200B;**FALSE**&#x200B;以忽略该行。 此值区分大小写，且必须始终为全大写字母
 
-      * Workfront中已存在的记录不会更新。
-      * 如果您从Workfront下载了包含数据的模板，则现有对象已标记为&#x200B;**FALSE**。
-      * 如果下载了空白模板，则不需要为现有对象添加新行。
+     * Workfront中已存在的记录不会更新。
+     * 如果您从Workfront下载了包含数据的模板，则现有对象已标记为&#x200B;**FALSE**。
+     * 如果下载了空白模板，则不需要为现有对象添加新行。
 
 1. 通过以下方式之一在&#x200B;**ID**&#x200B;列中添加信息：
 
@@ -353,13 +354,13 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 
    * 导入项目时，必须指明组ID。
 
-      * 如果该组已存在于Workfront中，则必须将其唯一ID添加到项目的&#x200B;**setGroupID**&#x200B;字段中。
-      * 如果Workfront中不存在该组，您可以将&#x200B;**GROUP**&#x200B;工作表添加到导入文件，将“组”工作表中的&#x200B;**isNew**&#x200B;字段设置为&#x200B;**TRUE**，并在&#x200B;**ID**&#x200B;列中指明新组的数字ID。 新项目的&#x200B;**setGroupID**&#x200B;字段必须与新组的数字&#x200B;**ID**&#x200B;匹配。
+     * 如果该组已存在于Workfront中，则必须将其唯一ID添加到项目的&#x200B;**setGroupID**&#x200B;字段中。
+     * 如果Workfront中不存在该组，您可以将&#x200B;**GROUP**&#x200B;工作表添加到导入文件，将“组”工作表中的&#x200B;**isNew**&#x200B;字段设置为&#x200B;**TRUE**，并在&#x200B;**ID**&#x200B;列中指明新组的数字ID。 新项目的&#x200B;**setGroupID**&#x200B;字段必须与新组的数字&#x200B;**ID**&#x200B;匹配。
 
      **示例：**&#x200B;对于项目，**setGroupID**&#x200B;列中显示的值必须是以下值之一：
 
-      * Workfront实例中现有组的GUID
-      * 导入期间创建新组时&#x200B;**组**&#x200B;工作表上ID列中的值（数字）
+     * Workfront实例中现有组的GUID
+     * 导入期间创建新组时&#x200B;**组**&#x200B;工作表上ID列中的值（数字）
 
 1. 输入导入期间要填充的必填字段和任何其他字段的值。
 1. （可选）要添加自定义数据，请执行以下操作：
@@ -391,7 +392,7 @@ Workfront还接受时间值作为日期的一部分。
 
 如果忽略日期中的时间，Workfront会执行以下操作之一：
 
-* 假定时间为12:00 AM。 要查看预期的日期结果，系统时区必须与您的时区匹配。
+* 假定时间为凌晨12:00。 要查看预期的日期结果，系统时区必须与您的时区匹配。
 * 如果它位于与调度关联的对象上，则时间将推迟到调度允许的最早时间。
 
 >[!NOTE]
@@ -461,13 +462,13 @@ Workfront还接受时间值作为日期的一部分。
 
   以下是在同一导入文件上使用这两种方法的方法：
 
-   * 在电子表格中向&#x200B;**setRoleID**&#x200B;列的左侧添加一列。
-   * 为新列&#x200B;**命名#setRoleID角色名称**。
-   * 若要将角色分配给现有记录，请在&#x200B;**#setRoleID ROLE name**&#x200B;列中输入角色名称。
+  * 在电子表格中向&#x200B;**setRoleID**&#x200B;列的左侧添加一列。
+  * 为新列&#x200B;**命名#setRoleID角色名称**。
+  * 若要将角色分配给现有记录，请在&#x200B;**#setRoleID ROLE name**&#x200B;列中输入角色名称。
 
-     对于新角色记录的角色分配，请在setRoleID中输入您在“角色角色”工作表中分配的ID。
+    对于新角色记录的角色分配，请在setRoleID中输入您在“角色角色”工作表中分配的ID。
 
-     ![用户的角色ID](assets/set-role-id.png)
+    ![用户的角色ID](assets/set-role-id.png)
 
 ## 将电子表格数据导入Workfront
 
@@ -491,8 +492,6 @@ Kick-Start导入支持以下文件类型：
 
 要将模板电子表格数据导入Workfront，请执行以下操作：
 
-<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
-
 {{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **导入数据(Kick-Start)**。
@@ -501,7 +500,9 @@ Kick-Start导入支持以下文件类型：
 
    文件会自动上传，并显示已成功导入的通知。
 
-   如果Excel文件上传到Workfront需要5分钟以上的时间，则应用程序会超时，并且Workfront无法上传该文件。 尝试以较小的对象批次导入数据。
+   <!--If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.-->
+
+   导入在后台运行，因此不会超时。 请等待导入完成，然后再开始另一导入或离开页面。 如果导入时间过长，您可以将其取消。
 
 1. （视情况而定）如果导入失败，您将收到一条错误消息，说明问题所在。 尝试确定出现问题的字段、工作表和行号，并更正Excel文件中的信息。 然后，再次尝试导入文件。
 1. （视情况而定）如果您使用的是Workfront Fusion，则现在可以在导入完成后打开FLO或场景。
