@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 7%
+source-wordcount: '1022'
+ht-degree: 9%
 ---
 # 画布功能板的报表过滤器引用
 
@@ -212,26 +212,29 @@ ht-degree: 7%
 
 使用上面列出的任何父子关系时，您将在表中看到连接到父对象的每个子记录的一行。
 
+<!--
 <div class="preview">
 
-## 在预览中筛选收藏集关系
+## Filter on collection relationships in Preview
 
-收藏集是一个字段，链接到一组相关记录，而不是单个记录。 例如，项目审批阶段的参与者是一个集合。 构建过滤器时，您可以直接对收藏集进行过滤，而无需切换到文本模式。
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-要筛选收藏集，请打开选择字段面板，然后选择收藏集。 此部分仅列出收藏集关系。 单记录关系保留在“关系”下。
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![收藏集关系](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-选择收藏集后，您可以执行两项操作：
+After you select a collection, you can do two things:
 
-* 对收藏集自己的字段进行筛选。 例如，从项目组合的项目中，您可以筛选项目的状态。
-* 遵循集合中的一个单记录关系。 例如，从项目组合的项目中，您可以联系项目所有者。
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-收藏集不支持更深入的导航。 您不能打开嵌套在另一个收藏集中的收藏集，也不能遵循多个关系，也不能选择返回到您开始位置的关系。
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-仅当您构建过滤器时，才会显示收藏集部分。 它不会出现在其他字段选择器中，例如表列、分组或图表字段的选择器中。
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## 排除个人项目、任务和机器人用户
 
