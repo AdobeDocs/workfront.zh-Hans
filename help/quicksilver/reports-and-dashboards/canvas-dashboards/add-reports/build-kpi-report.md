@@ -139,7 +139,7 @@ ht-degree: 6%
 
 1. 在左侧面板中，单击&#x200B;**深入分析组设置** ![深入分析组图标](assets/drilldown-group-icon.png)图标，然后为深入分析表添加分组。
 
-   有关详细信息，请参阅[在画布仪表板的[组报告数据中](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)在图表和KPI报告中配置深入分组](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)。
+   有关详细信息，请参阅[&#128279;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)在画布仪表板的[组报告数据中](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)在图表和KPI报告中配置深入分组。
 
 1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
 
