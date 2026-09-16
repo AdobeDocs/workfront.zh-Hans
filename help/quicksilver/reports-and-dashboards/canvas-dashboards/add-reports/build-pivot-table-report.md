@@ -5,13 +5,11 @@ title: 在画布功能板中构建数据透视表
 description: 您可以将数据透视表添加到画布仪表板，以表格式查看数据的聚合总计。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 5%
-
+source-wordcount: '1510'
+ht-degree: 6%
 ---
-
 # 在画布功能板中构建数据透视表
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ ht-degree: 5%
 
    1. 重复上述两个步骤以添加最多2个区段。
 
-1. 按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
+1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标，然后配置用于确定显示哪些数据的条件。
 
-   1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标。
-
-   1. 选择&#x200B;**编辑筛选器**。
-
-   1. 单击&#x200B;**添加条件**，然后指定要作为筛选依据的字段以及定义该字段必须符合何种条件的修饰符。
-
-   1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
+   有关详细信息，请参阅[在画布功能板中筛选报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
 1. 按照以下步骤配置&#x200B;**明细列设置**&#x200B;部分：
 

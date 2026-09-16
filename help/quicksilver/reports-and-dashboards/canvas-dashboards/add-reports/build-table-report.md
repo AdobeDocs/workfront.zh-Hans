@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 7%
-
+source-wordcount: '1208'
+ht-degree: 8%
 ---
-
 # 在画布功能板中构建表报告
 
 >[!IMPORTANT]
@@ -121,21 +125,13 @@ ht-degree: 7%
 
    1. 对要添加的每个列重复上述步骤。
 
-1. 按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
+1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标，然后配置用于确定显示哪些数据的条件。
 
-   1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标。
+   有关详细信息，请参阅[在画布功能板中筛选报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
-   1. 选择&#x200B;**编辑筛选器**。
+1. 在左侧面板中，单击&#x200B;**群组设置** ![群组设置图标](assets/drilldown-group-icon.png)图标，然后添加分组以组织报表行。
 
-   1. 单击&#x200B;**添加条件**，然后指定要作为筛选依据的字段以及定义该字段必须符合何种条件的修饰符。 该列显示在右侧的预览部分中。
-
-1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
-
-1. 按照以下步骤配置&#x200B;**深入分析组设置**&#x200B;部分：
-
-   1. 在左侧面板中，单击&#x200B;**群组设置** ![群组设置图标](assets/drilldown-group-icon.png)图标。
-
-   1. 单击&#x200B;**添加分组**&#x200B;按钮，然后选择要创建为分组的字段。 分组列显示在右侧的预览部分中。
+   有关详细信息，请参阅[在画布仪表板中分组报告数据](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)。
 
 1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
 
@@ -248,11 +244,5 @@ ht-degree: 7%
 
 ### 引用子对象
 
-其他列、筛选器选项和分组属性的可用关系通常仅限于Workfront对象层次结构中较高的对象，或者在报表的基本实体对象上具有单个选择。 这种情况有一些例外，其中包括：
-
-* 项目>任务
-* 文档审批>文档审批阶段
-* 文档审批阶段>文档审批阶段参与者
-
-使用上面列出的任何父子关系时，您将在表中看到连接到父对象的每个子记录的一行。
+某些父子关系可用于列、筛选器和分组。 有关详细信息，请参阅[画布功能板的报告筛选器引用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)中的[引用子对象](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects)。
 
