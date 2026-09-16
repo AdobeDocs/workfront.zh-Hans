@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
-
+source-wordcount: '1001'
+ht-degree: 0%
 ---
-
 
 # Adobe Workfront规划构思空间入门
 
@@ -19,7 +17,8 @@ ht-degree: 1%
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -31,42 +30,49 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workfront Planning中。 它为营销团队提供了一个结构化、基于数据的营销活动策略起点，用基于组织真实绩效历史的AI生成简报取代手动研究和猜测。
 
-该创意空间仅可从Workfront Planning访问，它位于活动生命周期的最前面，在计划、生产和交付之前，并直接馈送到Workfront Planning工作区，团队可在其中规划和执行其工作。
+该创意空间只能通过Workfront Planning或Workfront主菜单访问，它位于活动生命周期的最前面，处于计划、生产和交付之前，并直接馈送到Workfront Planning工作区，团队可在其中规划和执行其工作。
 
 ## 产品可用性
 
 创意空间的计划发布时间表可能会发生更改，其中包括以下里程碑：
 
 * **已关闭的Beta：**&#x200B;于2026年7月启动，客户数量较少。
-* **打开Beta：**，目标日期为2026年9月。 这将是一种选择加入服务，客户必须主动打开并配置该选项，而不是主动选择退出。
+* **打开Beta：**，目标日期为2026年10月。 这将是一种选择加入服务，客户必须主动打开并配置该选项，而不是主动选择退出。
 * **正式发布：**&#x200B;预定在2026年下半年晚些时候发布。
 
 ## 产品要求
 
-如果您的组织和您同时拥有以下包的访问权限，则可以访问构思空间：
+如果您的组织和您有权访问以下包，则可以访问构思空间，具体取决于您何时访问构思空间：
 
-* 包含Workfront规划包的Adobe Workfront工作流包
+* 在发布Open Beta时，您必须具备以下条件：
 
-  或
+  * 包含Workfront规划包的Adobe Workfront工作流包
 
-  Adobe Workfront计划作为独立产品
+* 在General Availability版本发布之后，您可以执行以下操作之一：
 
-  >[!NOTE]
-  >
-  >创意力空间只能从Adobe Planning访问。 您无需单独登录即可访问创意空间。 如果您可以登录Workfront Planning，则它立即可用。
+  * 包含Workfront规划包的Adobe Workfront工作流包
+  * Adobe Workfront计划作为独立产品
 
-* Adobe GenStudio for Performance Marketing
+>[!NOTE]
+>
+>只能从Adobe Workfront主菜单或Workfront Planning访问构思空间。 您无需单独登录即可访问创意空间。 如果您可以登录到Workfront，则它立即可用。
+
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
 有关使用构思空间所需访问权限的详细信息，请参阅[使用构思空间所需访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
-除了上述要求之外，您还必须满足以下条件才能参加封闭Beta计划：
+<!--
+No longer required or recommended, per Et:
 
-* 拥有一个带促销活动跟踪功能的活动Adobe Customer Journey Analytics (CJA)帐户
-* 具有多渠道营销活动以及可重复的规划流程
-* 积极使用Workfront Planning进行营销操作
-* 至少有一位已确定的战略家或构思用户将成为主要构思空间用户
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## 受众和用例
 
@@ -117,7 +123,7 @@ Too much:
 
 ## 构思空间概述
 
-构思空间是一个战略性营销构思工具，适用于品牌和产品营销人员，以更快地构建更强大的营销活动，并更好地协调团队。 它将AI建议置于实际营销环境中 — 过去的摘要、性能数据、受众见解、品牌指南和现有的营销活动资产 — 因此结果相关，而不是通用。
+构思空间是一个协作式的战略营销构思工具，适用于品牌和产品营销人员，以更快地构建更强大的营销活动并更好地协调团队。 它将AI建议置于实际营销环境中 — 过去的摘要、性能数据、受众见解、品牌指南和现有的营销活动资产 — 因此结果相关，而不是通用。
 
 以下是在创建摘要时如何充分利用您的想法的一些示例：
 
@@ -142,7 +148,7 @@ Too much:
 
 用户可以提出后续问题，并以简短的话语形式进行细化，而不是只获得一次性的结果。
 
-当摘要与实时Workfront Planning连接绑定时，同事不会覆盖它，因此基础计划保持不变。
+当摘要与实时Workfront Planning连接绑定时，同事不会覆盖它，因此基础计划保持不变。<!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W

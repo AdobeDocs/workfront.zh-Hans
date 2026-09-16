@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 2%
-
 ---
-
 # 为文档创建审批工作流模板
 
 在Workfront设置区域中，具有Standard许可证的用户可以创建可重复使用的审批模板。 模板仅对创建该模板的用户可见，除非创建者与特定用户或组织中的每个人共享该模板。 创建后，审批模板可应用于对象文档区域中的资产。
@@ -74,6 +78,7 @@ ht-degree: 2%
 1. 单击页面右侧的&#x200B;**新建模板**。
 
 1. 添加&#x200B;**模板名称**。
+
 <!--
 This field has a character limit of 255.
 -->
@@ -110,8 +115,9 @@ This field has a character limit of 255.
 
    ![添加阶段](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!-- 
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +127,9 @@ This field has a character limit of 255.
 
    ![添加并行路径](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!-- 
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. （可选）要重命名路径，请将鼠标悬停在路径标签上，单击铅笔图标，然后键入新名称。 要删除路径，请将鼠标悬停在路径标签上并单击垃圾桶图标。 无法删除&#x200B;**路径1**，仅当路径中没有已锁定或已完成的阶段时，才能删除其他路径。

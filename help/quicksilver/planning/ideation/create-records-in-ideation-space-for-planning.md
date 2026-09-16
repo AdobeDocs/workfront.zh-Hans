@@ -3,13 +3,11 @@ title: 从创意空间摘要创建计划记录
 description: 使用Adobe Workfront Planning的新功能Ideation Space，您可以将简报转换为Planning记录。 导出的摘要可创建新记录或更新现有记录。 本文介绍了如何使用构思空间创建或编辑现有Planning记录。
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1166'
 ht-degree: 0%
-
 ---
-
 
 # 从构思空间简报创建计划记录
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>带规划包的任何Workfront或工作流</p></li>
 或
 <li><p>作为独立产品购买时的任何Planning包</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>其他产品</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe工作流许可证</p></td> 
    <td><p>标准</p>
@@ -98,24 +95,26 @@ are there additional license restrictions or packages to be purchased to have ac
       <p>创意空间上的编辑器权限以创建摘要</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
-   <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
-   <li>用于访问激活的GenStudio系统管理器 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++  
++++   
 
 ## 关于使用构思空间创建记录的注意事项
 
-* 在创建或编辑记录时，您只能从Workfront Planning中启动创意空间。 在Workfront Planning之外不存在构思空间。
+* 创建或编辑记录时，您只能从Workfront Planning或Workfront的主菜单启动创意空间。 在Workfront之外不存在构思空间。
 * 要访问创意力空间，您必须在Workfront Planning中拥有工作区和记录类型。
 * 新记录始终以占位符内容开头，无论您如何创建它们。
 * 删除链接到构思简介的Planning记录时，该简介保留在构思空间中，并且构思空间中的相关画布未删除。
@@ -151,7 +150,7 @@ are there additional license restrictions or packages to be purchased to have ac
 
    记录会立即使用占位符文本创建。
 
-1. （可选）单击提示框中的&#x200B;**使用现有摘要**&#x200B;以浏览并添加现有文档，创意空间将使用该文档创建摘要和未来记录。
+1. （可选）单击提示框中的&#x200B;**使用现有摘要**&#x200B;以浏览并添加现有文档，创意空间将使用该文档创建摘要和未来记录。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![空构思简介提示](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ are there additional license restrictions or packages to be purchased to have ac
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 

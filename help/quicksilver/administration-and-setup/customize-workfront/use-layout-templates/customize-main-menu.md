@@ -11,24 +11,30 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3966028ce3c73c141f6f79bc25505cd707cae62
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '682'
 ht-degree: 6%
-
 ---
-
 # 使用布局模板自定义主菜单
 
 <!--Audited: 01/2024-->
@@ -136,26 +142,19 @@ ht-degree: 6%
      >
      > 自定义应用程序必须单独创建，然后才能作为主菜单选项使用。 有关详细信息，请参阅[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。
 
-在“预览”环境中：
-
-1. 对&#x200B;**Native**&#x200B;项目执行以下任一操作：
+1. 执行以下任一操作<!-- for the **Native** items-->：
 
    * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png)不想在主菜单上显示的项目。
    * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
    * 拖动![拖动图标](assets/move-icon---dots.png)以更改它们在主菜单上的显示顺序。
 
-1. 对&#x200B;**系统**&#x200B;项目执行以下任一操作：
-
-   * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png)不想在主菜单上显示的项目。
-   * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
-
-   >[!NOTE]
-   >
-   >您不能更改系统项目的顺序。 当这些项目处于活动状态时，它们始终显示在主菜单的底部。
+     >[!NOTE]
+     >
+     >您不能更改系统项目的顺序。 当这些项目处于活动状态时，它们始终显示在主菜单的底部。
 
 1. 单击&#x200B;**完成**。
 
-   如果要放弃更改，还可以随时单击&#x200B;**取消**。
+   您还可以随时单击&#x200B;**取消**&#x200B;以放弃更改。
 
 1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
 
@@ -164,3 +163,18 @@ ht-degree: 6%
    如果您已完成自定义，请单击&#x200B;**保存并关闭**。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
+
+<!--
+
+MOVE TO LINE 151 or thereabouts:
+
+<div class="preview">
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+-->
