@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: 为即将发布的版本记录新的Workfront功能：识别受影响的帮助文章，选择正确的预览片段，使用预览高亮显示来标记新内容（根据文章，使用按分区或按行），并将边界UI级别详细信息显示为应用编辑之前的明确批准/拒绝提示。 当用户更新发运功能的Workfront帮助文章（通常先预览）、提及产品发布或即将发布的版本、询问有关预览高亮显示的问题或希望获得帮助将“在预览中”/“在生产中”部分添加到操作方法或概述文章时使用。---
 
 # 发布更新(Workfront)
 
@@ -94,9 +87,9 @@ ht-degree: 0%
 
    对于每个“等待审阅”项目，提供一句理由（“帮助新手计划更长的消息”，“帮助在以后阶段未看到消息的用户知道要扩展消息”）。 仅包括用户选取的项目。 默认原则是“如果用户在执行任务时可以在屏幕上看到它，请不要重述” — 但用户获得最终调用。
 
-   **为任一存储段起草实际句子**&#x200B;时，在编写时应用`~/.cursor/skills/writing-quality/SKILL.md`语音和音调规则 — 纯字段/行为描述，而不是更改日志条目（“已移除”、“已添加”），并且不要仅为了附加预览注释而重述未更改的指令。 第一次就把它写好，而不是在以后再定调。
+   **在起草任一存储段的实际句子**&#x200B;之前，**调用`writing-quality`技能（技能工具）**&#x200B;并在您编写时应用其语音和音调规则 — 纯字段/行为描述，而不是更改日志条目（“已移除”、“已添加”），并且不会为了向其附加预览注释而重新声明未更改的指令。 第一次就把它写好，而不是在以后再定调。
 
-5. 在显示草稿文本之前，**对草稿文本执行最终的书写质量测试**。 这是一个安全网，不是第一次应用这些规则时 — 捕获任何步骤4遗漏的内容（冗余、音调、与周围行不匹配的语音）。
+5. **在显示草稿文本之前，将`writing-quality`技能（技能工具）作为最后通道运行** — 每篇文章都需要，不是可选的。 它会重新捕获第4步遗漏的任何内容（冗余、音调、语音与周围行不匹配）。
 
 6. **建议编辑。** 在文章的摘录之前/之后显示（或重点突出的差异样式描述），包括：代码片段放置、标题重命名、新的预览中内容及其放置位置、屏幕快照引用以及任何内联`class="preview"`包装。
 
@@ -217,12 +210,18 @@ For more information, see [{Primary article title}](/help/quicksilver/{path-to-a
 - 每行复制：原始`<tr>`的字节数未更改；新`<tr class="preview">`的两个单元格都封装在`<span class="preview">`中；标签是新短标签+小写“在预览中”(不是原始标签+“（在预览中）”)；任何补充注释使用`<br>` + `Note:`内联，而不是嵌套`<p>`。
 - 如果同一个字段出现在多个过程变体（基本/高级、旧版/ESM）中，则每个新行的措辞与该变体的实际行为相匹配，而不是从另一个变体复制粘贴。
 - 新的标有预览的散文读起来像是一个纯字段/行为描述，而不是更改日志条目，而且不会重复地重述未更改的指令。
+- 已在此文章的草稿散文（两个存储段）上调用了`writing-quality`技能。
 - 已编辑文件上的`ReadLints`是干净的。
 - 在这两种状态下，文章可正确阅读（预览内容显示并隐藏）。
 
 ## 参考
 
-- Workfront文档样式：请参阅`~/.cursor/skills/writing-quality/SKILL.md`的&#x200B;**书写质量**&#x200B;技能。
+- Workfront文档样式： **通过技能工具调用`writing-quality`技能**（源： `.cursor/skills/writing-quality/`）。
 - 文档存储库中的代码片段目录： `help/_includes/snippets.md`。
 - GA清理（反向工作流）：请在`.cursor/skills/remove-preview-highlighting/SKILL.md`查看&#x200B;**删除预览突出显示**&#x200B;技能。
 - 适用于PRD的Adobe Wiki MCP：服务器`user-Adobe Wiki Confluence`，工具`get_wiki_content`。
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---
