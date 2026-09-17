@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 1%
@@ -205,12 +205,12 @@ ht-degree: 1%
    * **标签**：这是显示在请求表单中的字段名称。 这不会更改记录字段的名称。
    * **说明**：添加有关该字段的更多信息。
    * **生成必填字段**：选定后，该字段必须具有值。 否则，无法提交表单。
-   * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。
+   * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。<!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   选择表单上的字段后，每个字段的字段类型都会显示在右侧面板的顶部。
-   >     
+   >选择表单上的字段后，每个字段的字段类型都会显示在右侧面板的顶部。
+
 1. （可选）长按某个字段并将其拖放到表单上的其他位置。
 1. （可选）单击表单左侧的&#x200B;**内容元素**&#x200B;选项卡，然后添加以下任意元素：
 
