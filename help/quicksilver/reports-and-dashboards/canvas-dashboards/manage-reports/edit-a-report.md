@@ -11,26 +11,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9eFg04PjbqHlseDjHQQJXw9uAjNLSGDBu870P-ZCVk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 5%
-
+source-wordcount: '626'
+ht-degree: 4%
 ---
-
 # 在画布功能板中编辑报告
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。在此阶段，部分功能可能无法完成或无法按预期工作。请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
 >请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
@@ -130,6 +133,8 @@ ht-degree: 5%
    * **组设置**
 
    有关这些部分的详细信息，请参阅[生成表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)。
+
+   要编辑筛选器或分组，请参阅[在画布功能板中筛选报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)和[在画布功能板中分组报表数据](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)。
 
 1. 单击&#x200B;**保存**&#x200B;以更新报告。
 

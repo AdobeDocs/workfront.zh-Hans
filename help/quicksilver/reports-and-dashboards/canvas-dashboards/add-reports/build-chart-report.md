@@ -11,20 +11,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1971
-ht-degree: 4%
-
+source-wordcount: '1860'
+ht-degree: 5%
 ---
-
 # 在画布功能板中构建图表报告
 
 >[!IMPORTANT]
@@ -175,12 +178,9 @@ ht-degree: 4%
 
 ### 过滤器
 
-按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
+在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标，然后配置用于确定显示哪些数据的条件。
 
-1. 在左侧面板中，单击&#x200B;**筛选器**![&#x200B;筛选器图标](assets/filter-icon.png)图标。
-1. 选择&#x200B;**编辑筛选器**。
-1. 单击&#x200B;**添加条件**，然后指定要作为筛选依据的字段以及定义该字段必须符合何种条件的修饰符。
-1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
+有关详细信息，请参阅[在画布功能板中筛选报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
 ### 深入分析设置
 
@@ -194,13 +194,11 @@ ht-degree: 4%
 
 ### 深入分析组设置
 
-按照以下步骤配置&#x200B;**深入分析组设置**&#x200B;部分：
+在左侧面板中，单击&#x200B;**深入分析组设置** ![组设置](assets/drilldown-group-icon.png)图标，然后为深入分析表添加分组。
 
-1. 在左侧面板中，单击&#x200B;**群组设置** ![群组设置](assets/drilldown-group-icon.png)图标。
+有关详细信息，请参阅[&#128279;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)在画布仪表板的[组报告数据中](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)在图表和KPI报告中配置深入分组。
 
-1. 单击&#x200B;**添加分组**&#x200B;按钮，然后选择要创建为分组的字段。
-
-1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
+单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
 
 ## 构建图表报告示例
 
@@ -266,7 +264,7 @@ ht-degree: 4%
 
    1. 在求值器字段中输入&#x200B;*$$TODAY*。
 
-      有关通配符的更多信息，请参阅[在画布功能板中编辑报表筛选器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)文章中的基于日期的通配符筛选器变量部分。
+      有关详细信息，请参阅[画布功能板的报告筛选器引用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)中的[基于日期的通配符筛选器变量](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables)。
 
       ![计算器字段](assets/add-condition.png)
 
@@ -326,10 +324,4 @@ ht-degree: 4%
 
 ### 引用子对象
 
-其他列、筛选器选项和分组属性的可用关系通常仅限于Workfront对象层次结构中较高的对象，或者在报表的基本实体对象上具有单个选择。 这种情况有一些例外，其中包括：
-
-* 项目>任务
-* 文档审批>文档审批阶段
-* 文档审批阶段>文档审批阶段参与者
-
-使用上面列出的任何父子关系时，您将在表中看到连接到父对象的每个子记录的一行。
+某些父子关系可用于列、筛选器和分组。 有关详细信息，请参阅[画布功能板的报告筛选器引用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)中的[引用子对象](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects)。

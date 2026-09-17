@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # 在画布功能板中构建KPI报告
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ ht-degree: 6%
 
    1. 在&#x200B;**聚合类型**&#x200B;下拉列表中，选择数据如何汇总以生成KPI输出。 此字段中的选项将因上一步中选择的字段类型而异。
 
-1. 按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
+1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标，然后配置用于确定显示哪些数据的条件。
 
-   1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标。
-
-   1. 选择&#x200B;**编辑筛选器**。
-
-   1. 单击&#x200B;**添加条件**，然后指定要作为筛选依据的字段以及定义该字段必须符合何种条件的修饰符。
-
-   1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
-
-      有关筛选器的详细信息，请参阅[在画布仪表板中编辑报告筛选器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)。
+   有关详细信息，请参阅[在画布功能板中筛选报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
 1. 按照以下步骤配置&#x200B;**明细列设置**&#x200B;部分：
 
@@ -141,11 +137,9 @@ ht-degree: 6%
 
    1. 单击&#x200B;**添加列**，然后选择要显示为表中列的字段。 对要添加的每个列重复此过程。
 
-1. 按照以下步骤配置&#x200B;**深入分析组设置**&#x200B;部分：
+1. 在左侧面板中，单击&#x200B;**深入分析组设置** ![深入分析组图标](assets/drilldown-group-icon.png)图标，然后为深入分析表添加分组。
 
-   1. 在左侧面板中，单击&#x200B;**群组设置** ![深入分析群组图标](assets/drilldown-group-icon.png)图标。
-
-   1. 单击&#x200B;**添加分组**&#x200B;按钮，然后选择要创建为分组的字段。
+   有关详细信息，请参阅[&#128279;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)在画布仪表板的[组报告数据中](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)在图表和KPI报告中配置深入分组。
 
 1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
 

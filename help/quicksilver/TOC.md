@@ -3,13 +3,11 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14563'
 ht-degree: 2%
-
 ---
-
 # Workfront 指南 {#using}
 
 * [Workfront文档](home.md)
@@ -970,11 +968,11 @@ ht-degree: 2%
     * [使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [适用于直接安装的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Workfront中的CX Co-worker {#coworker-in-workfront}
-    * [Workfront中的CX Co-worker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX同事技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [在Workfront中使用CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * Workfront中的CX Coworker {#coworker-in-workfront}
+    * [Workfront中的CX Coworker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [在Workfront中使用CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 更新工作项并查看更新 {#update-work-items-view-updates}
     * [更新工作项并查看更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1645,7 +1643,9 @@ ht-degree: 2%
     * 管理报告 {#manage-reports}
       * [管理报告：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [在画布功能板中编辑报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [在画布功能板中编辑报告过滤器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [在画布功能板中过滤报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [画布功能板的报表过滤器引用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [在画布功能板中对报表数据进行分组](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [在画布功能板中复制报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [删除画布仪表板中的报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * 报告 {#reports}
@@ -1849,6 +1849,7 @@ ht-degree: 2%
     * [为Snowflake创建Reader帐户或连接](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [建立与Workfront数据连接的连接](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect数据字典](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc}[注册Workfront Data Connect的私有列表](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[数据字典测试](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [查看Workfront Data Connect使用情况量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
