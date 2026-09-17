@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '2057'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -16,6 +16,61 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## CX Coworker现已在Workfront Planning中提供
+
+>[!NOTE]
+>
+>预览： 2026年9月3日
+>生产快速发布： 2026年9月17日
+>适用于所有人的生产： 2026年10月15日
+
+CX Coworker现已在Workfront Planning中提供。 现在，您可以在整个Workfront Planning中提供的面板中访问CX Coworker。
+
+CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言描述目标，同事将规划工作，在Workfront Planning和您连接的Adobe系统中执行工作，验证结果，并将完成的工作交还给您进行审批。
+
+同事尊重您组织现有的访问控制，默认情况下具有只读访问权限，当用户获得写入权限时，由系统管理员进行控制。
+
+同事正在取代当前的人工智能助手，作为完成工作的更强大方式。 同事是Adobe生态系统的一部分，不仅限于Workfront Planning。
+
+>[!IMPORTANT]
+>
+>CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。
+
+有关详细信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## 改进了复制具有一对一或一对多连接类型字段的记录时的体验
+
+>[!NOTE]
+>
+>预览： 2026年9月17日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+现在，即使存在一对一或一对多连接的记录，也可以复制记录。 复制后，用户可以选择将连接的记录保留在原始记录上，或将其连接到新记录上。 “保留原始”是默认选项。
+
+连接冲突解决对话框已更新，以反映此新行为，并在管理连接的记录时提供更大的灵活性。
+
+有关信息，请参阅[重复记录](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。
 
 ## 从表视图的主字段列管理记录缩略图和颜色的可见性
 
