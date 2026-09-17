@@ -1,53 +1,31 @@
 ---
-title: Adobe Workfront Planning AI助手概述
-description: 您可以使用AI助手根据当前页面上下文和记录结构生成、更新或删除记录。 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
+title: Adobe Workfront规划CX Coworker概述
+description: 您可以使用Workfront Planning中的CX Coworker对Planning中的记录和其他对象执行类似的操作，通常在界面中执行这些操作。 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-    internal-label: Administration
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-    internal-label: Get started
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1007'
 ht-degree: 1%
 ---
-# Adobe Workfront规划AI助手概述
+
+# Adobe Workfront规划CX Coworker概述
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
 
-您可以使用AI助手，根据当前页面上下文对Adobe Workfront Planning中的记录和其他对象进行更改或更新。
+CX Coworker是一个对话式界面，您可以在其中以简单的语言描述目标，然后它可以在您的Adobe和连接的系统中规划、执行和验证工作，然后再重新引入以供您审批。
 
-用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
+CX Coworker保留了AI Assistant目前所做的一切，同时在新的全屏体验和Workfront右边栏中添加了更强大的端到端功能。
+
+它在您组织的现有产品级访问控制内运行，因此用户只能执行在Workfront中已允许他们执行的操作，默认情况下具有只读访问权限，并且写访问权限由Workfront管理员控制。
 
 ## 访问权限要求
 
@@ -79,11 +57,10 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td>  
-     <p>您的管理员必须执行以下操作才能允许访问AI助手：</p>
+   <p>您的管理员必须执行以下操作，以允许在Planning中访问CX Coworker：</p>
    <ul>
    <li><p>当您同时具有Workflow和Planning包时，将工作流和Planning许可证类型添加到您的访问级别</p></li>
-   <li><p>取消选择访问级别中的“禁用Workfront AI助手”设置</p></li></ul>
-
+   <li><p>取消选择访问级别中的“禁用Workfront中的CX Coworker面板”设置。 默认情况下，该复选框处于选中状态。</p></li></ul>
 </td> 
   </tr> 
   <tr> 
@@ -94,7 +71,7 @@ ht-degree: 1%
 
 <tr> 
    <td role="rowheader"><p>系统设置</p></td> 
-   <td>   <p>您的Workfront管理员必须在设置的系统首选项区域中选择启用AI设置，并签署AI才能访问AI助手</p>  
+   <td>   <p>您的Workfront管理员必须在“设置”的“系统首选项”区域中选择只读和只读MCP工具。 默认情况下，选择只读MCP工具。</p> 
     </td> 
   </tr> 
 </tbody> 
@@ -105,11 +82,11 @@ ht-degree: 1%
 +++
 
 
-## 关于AI助理的注意事项
+## CX Coworker的注意事项
 
-* 必须先为贵组织启用AI助手，然后该助手才可供贵公司的用户使用。
+* 在为贵公司用户启用CX Coworker之前，必须为其启用该工具。
 
-  有关信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+  有关信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 * Workfront为您的组织启用代理后，主Workfront管理员即可使用该代理。 有关信息，请参阅[配置系统的基本信息](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 

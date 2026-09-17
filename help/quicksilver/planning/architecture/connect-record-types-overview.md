@@ -9,23 +9,29 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 2498
+source-wordcount: '2578'
 ht-degree: 1%
-
 ---
-
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 连接的记录类型概述
@@ -156,7 +162,7 @@ ht-degree: 1%
     * 无法从Workfront对象访问Planning记录字段。
     * 规划记录在Workfront对象的Planning部分中可见。 有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
     * 您可以创建Planning连接自定义字段，并将其附加到Workfront对象的自定义表单。 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-    * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
+    * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
     * 无法从GenStudio for Performance Marketing中的“品牌”访问规划记录字段。
 
   * **从您连接的记录或对象添加查找字段时**：除了创建链接记录字段外，您还可以从连接的记录或对象类型连接到称为查找字段的字段。 链接（或查找字段）包含所连接记录中的信息，该信息显示在您连接的记录中。
@@ -206,6 +212,14 @@ ht-degree: 1%
     有关更多信息和其他注意事项，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
   </div>
+
+* 在“一对一”或“一对多”连接类型中复制具有连接记录的记录时，会出现以下情况：
+
+  * 在“生产”环境中，连接的记录将移至复制的记录，或者在复制记录之前必须手动将其从原始记录中删除，然后添加回来。
+  * <span class="preview">在“预览”环境中，您可以选择连接的记录是保留在原始记录上还是移动到重复记录。</span>
+
+  有关详细信息，请参阅[重复记录](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。
+
 
 ## 连接类型
 
