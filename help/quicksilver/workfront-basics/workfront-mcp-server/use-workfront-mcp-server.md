@@ -5,13 +5,12 @@ title: 使用Adobe Workfront MCP服务器
 description: 使用Adobe Workfront MCP服务器可通过人工智能代理平台中的自然语言对话，搜索、创建、更新和管理Workfront项目。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # 使用Adobe Workfront MCP服务器
 
@@ -138,6 +137,12 @@ AI代理平台有时会重复使用对话中早期的数据，而不是向Workfr
 
 * *从Workfront获取最新数据。 不使用缓存的结果。*
 
+### 分析数据是近乎实时的，而不是即时的
+
+用于查找、过滤和报告Workfront数据的分析工具近乎实时地反映更改，service level agreement (SLA)最长约为15分钟。 如果您在Workfront中进行更改并立即询问相关问题，响应可能不会反映该更改。
+
+如果您需要确认最近进行的更改，请等待几分钟，然后重试，或直接在Workfront中查看。
+
 ### 检查Workfront MCP服务器的更新
 
 您可能需要定期刷新与Workfront MCP服务器的连接，以确保您拥有最新的工具和功能。
@@ -167,6 +172,7 @@ Workfront无法控制AI代理平台提供商处理您的Workfront数据的方式
 | 问题 | 可能的原因 | 修复 |
 | --- | --- | --- |
 | AI代理平台正在为您提供过时的信息。 | AI代理平台正在重用对话中早期的数据。 | 从Workfront索取最新数据。 |
+| 您刚才在Workfront中更改的数据尚未显示。 | 分析数据近乎实时，SLA最长可达约15分钟。 | 等待几分钟，然后重试，或直接在Workfront中查看。 |
 | AI代理平台从错误的Workfront项目返回数据。 | AI代理平台根据模棱两可的措辞挑选了错误的项目。 | 使用更具体的名称、ID或过滤器再次询问。 |
 | 更新或删除操作在Workfront中未生效。 | 您的Workfront管理员已禁用Workfront MCP服务器的写入操作，或者您无权对特定项目执行该操作。 | 通过AI代理平台确认该操作已运行。 然后，检查是否已为Workfront MCP服务器启用写入操作，以及您是否有权更改该项目。 |
 
@@ -204,7 +210,7 @@ Workfront设置区域。 如果禁用写入操作，则AI代理平台
 
 ### AI代理平台在更改或删除Workfront数据之前是否会询问我？
 
-这取决于人工智能的平台，而不是Workfront。大多数平台
+这取决于人工智能的平台，而不是Workfront。 大多数平台
 提示您在用户运行操作（尤其是删除操作）之前进行确认。
 在批准请求之前，请阅读平台声明将要执行的操作：
 这些更改在Workfront中发生的方式与做出更改时的方式相同
@@ -240,7 +246,7 @@ AI代理平台会根据您使用的单词选择项目。 如果您的
 
 Workfront不会存储您的提示或AI代理平台的响应。
 AI代理平台的所有提供者控制对话的方式
-存储或共享。与您的AI代理平台提供商联系，以了解
+存储或共享。 与您的AI代理平台提供商联系，以了解
 详细信息。
 
 ### 我是否需要知道Workfront API或要使用哪种MCP工具？

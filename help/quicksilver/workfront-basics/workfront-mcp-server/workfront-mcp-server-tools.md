@@ -5,13 +5,12 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2811'
 ht-degree: 4%
 
 ---
-
 
 # Adobe Workfront MCP服务器工具
 
@@ -287,6 +286,10 @@ ht-degree: 4%
 ### 分析工具
 
 分析工具可检索有关Workfront对象的信息。
+
+>[!NOTE]
+>
+>分析数据近乎实时，SLA最长可达约15分钟。 在Workfront中所做的更改可能不会立即显示在分析结果中。
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
