@@ -4,9 +4,9 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: b6991b200d21445caa5ef4d29ad2e35a64aed304
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2841'
 ht-degree: 1%
 ---
 # 2026年第四季度发行版概述
@@ -618,18 +618,24 @@ ht-degree: 1%
 * [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 * [Adobe Workfront计划2026年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
-## 桌面校对查看器更新
+<!--
+## Desktop proofing viewer updates
 
-### 版本2.1.59
+### Version 2.2.1
 
-适用于所有客户的生产版本： 2026年9月9日
+Production release for all customers: September 16, 2026
 
-桌面校对查看器已更新至版本2.1.59。 此更新包括以下更改：
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
-* 现在，桌面校对查看器作为带有Apple silicon的Mac的本机内部版本提供。
-* 已将底层应用程序框架(Electron)更新到较新版本，从而改进了性能和安全性。
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
 
-有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+-->
 
 ## 公告
 

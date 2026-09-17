@@ -11,28 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 2%
-
+source-wordcount: '714'
+ht-degree: 1%
 ---
-
 # 重复记录
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -162,7 +166,7 @@ Old:
 
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-   记录类型页面将在您上次访问的视图中打开。默认情况下，将在表格视图中打开记录类型页面。
+   记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
    所选类型的所有记录都将显示在视图中。
 
 1. （视情况而定）选择表视图。
@@ -178,6 +182,11 @@ Old:
      ![表格视图中工具栏中的图标重复](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    在原始记录下创建具有相同名称的相同记录。 新记录的所有字段均填充有与原始记录相同的信息。
+
+1. （视情况而定）如果要复制的记录连接到“一对一”或“一对多”连接类型中的记录，则根据您使用的环境，单击下列选项之一：
+
+   * 在生产环境中，单击“**连接**”从原始记录中删除连接的记录并将其添加到复制的记录中；如果不想继续复制该记录，请单击“取消”**&#x200B;**。
+   * <span class="preview">在“预览”环境中，如果希望将连接的记录移动到新记录，请单击&#x200B;**连接到新记录**；如果希望连接的记录保留在原始记录上，请单击&#x200B;**保留原始记录**。 重复记录在该字段中不会有连接的记录。</span>
 
 1. （可选）在表格视图中的可用字段中开始更新有关新记录的信息，或在记录预览或页面中单击该记录和更新信息。
 
