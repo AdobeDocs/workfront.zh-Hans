@@ -5,14 +5,15 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1119'
 ht-degree: 1%
 ---
 
 # Adobe Workfront规划CX Coworker概述
 
+<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
@@ -21,11 +22,18 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-CX Coworker是一个对话式界面，您可以在其中以简单的语言描述目标，然后它可以在您的Adobe和连接的系统中规划、执行和验证工作，然后再重新引入以供您审批。
+CX Coworker是一个对话式界面，您可在其中以简单的语言描述目标，然后它可以在您的Workfront Planning和其他连接的Adobe系统中规划、执行和验证工作，然后再重新引入以供您审批。
 
 CX Coworker保留了AI Assistant目前所做的一切，同时在新的全屏体验和Workfront右边栏中添加了更强大的端到端功能。
 
 它在您组织的现有产品级访问控制内运行，因此用户只能执行在Workfront中已允许他们执行的操作，默认情况下具有只读访问权限，并且写访问权限由Workfront管理员控制。
+
+>[!IMPORTANT]
+>
+>CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。
+>
+>有关详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+
 
 ## 访问权限要求
 
@@ -81,87 +89,90 @@ CX Coworker保留了AI Assistant目前所做的一切，同时在新的全屏体
 
 +++
 
-
 ## CX Coworker的注意事项
 
 * 在为贵公司用户启用CX Coworker之前，必须为其启用该工具。
 
   有关信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-* Workfront为您的组织启用代理后，主Workfront管理员即可使用该代理。 有关信息，请参阅[配置系统的基本信息](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
+* 在Workfront为您的Workfront实例启用代理后，它可供主要Workfront管理员使用，他们可以为您的组织启用它。 有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
-* Workfront管理员必须为所有其他用户启用AI助手。 有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
+* Workfront管理员还必须在您的访问级别为您启用CX Coworker。 有关信息，请参阅[创建和修改访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-* AI助手在每个页面的上下文中工作。 您为AI助手提交的请求必须引用您打开的页面中可用的功能。
+* CX Coworker可处理Workfront或Workfront Planning中的信息和对象，并且您具有相应的访问权限。 在Planning右边栏中，“同事”面板在您已打开的工作区、记录类型或记录页面的上下文中运行。
 
-* AI助手在“规划”区域中执行的操作将与Workfront规划权限和Workfront访问级别的上下文相关。 有关信息，请参阅以下文章：
+* CX Coworker在Planning区域中执行的操作与Workfront Planning权限和Workfront访问级别的上下文相关。 有关信息，请参阅以下文章：
 
   * [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI助手代表用户所做的更改在记录的历史记录面板中进行跟踪。
+* CX Coworker代表用户所做的更改在记录的“历史记录”面板中进行跟踪。
 
-* AI助理采取的行动是永久性的，而且可能不可逆转。 例如，删除字段操作不能撤销。 在接受之前，请查看AI助手建议的所有操作。
+* CX Coworker采取的行动是永久性的，而且可能不可逆转。 例如，删除字段操作不能撤销。 在接受之前，请审阅CX Coworker建议的所有操作。
 
-* 通过AI助手创建、更新或删除对象时，AI助手会显示预期操作并请求确认。 然后，您可以确认或取消操作。
+* 通过CX Coworker创建、更新或删除对象时，CX Coworker会显示预期操作并请求确认。 然后，您可以确认或取消操作。
 
-## 当前可用于AI助手的功能
+## CX Coworker当前可用的功能
 
-目前，AI助手可在Workfront的“规划”区域访问以下页面：
+目前，CX Coworker在Workfront的Planning区域可用，它使用一组技能来访问和处理Planning对象的信息。 有关详细信息，请参阅[CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
-* Workspace页面
-* 记录类型页面
-* 记录页面
-
-此时可以使用AI助手执行以下操作：
+您可以使用CX Coworker执行以下操作：
 
 * 搜索记录。 您可以按任何记录字段中包含的信息进行搜索。
 * 创建记录。 创建记录后，将显示一个包含指向新记录的链接的ID。 您可以指定要在创建过程中更新的字段，如日期或说明。
-* 根据上传的文档创建记录。 Workfront支持AI助理的以下文档格式：
+* 根据上传的文档创建记录。 Workfront支持CX Coworker的以下文档格式：
 
   PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT和大多数图像格式
 * 更新您在屏幕上看到的记录的字段
-* 删除记录
-* 恢复您刚刚删除的记录
+* 删除、复制或恢复记录
+* 将记录链接到其他记录
+* 查看记录的更改历史记录
 
 
-## 在Workfront规划中找到AI助手
+## 在Workfront Planning中找到CX Coworker
 
-您可以在Workfront Planning的以下区域中找到AI助手：
+您可以在Workfront Planning的以下区域中找到CX Coworker：
 
 * 屏幕右上角的主导航栏。
-* 在记录的详细信息区域中，在预览中打开记录或打开记录的页面之后。
+* 在新的选项卡中打开记录时，将其置于记录的详细信息区域中。
 
-## 访问规划区的人工智能助理
+## 访问“规划”区域中的CX Coworker
+
 
 1. 登录到Workfront，然后单击左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)，然后单击&#x200B;**计划**。
 
    此时将打开“规划”区域。
 
+   在页面的右上角找到&#x200B;**AI图标** ![AI图标](assets/ai-icon.png)，或继续执行以下步骤。
+
 1. 单击&#x200B;**工作区信息卡**。
 
-1. （可选）单击&#x200B;**记录类型卡片**。
+1. 单击&#x200B;**记录类型卡片**。
 
-1. （可选）单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面。
+1. 单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面，然后单击在中打开。
 
-1. 单击全局导航栏屏幕右上角或记录预览或页面右上角的&#x200B;**AI助手图标**。
+1. 单击屏幕右上角的&#x200B;**CX Coworker图标**。
 
-   ![AI助手图标](assets/ai-assistant-icon-highlighted.png)
+1. 在提供的空白处，开始输入CX Coworker的命令，然后在操作完成后单击Enter 。
 
-1. 在提供的空白处，开始输入AI Assistant的命令，然后在完成后单击Enter。
-
-   带有空命令框的![AI助手面板](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![带有空命令框的CX Coworker面板](assets/cx-coworker-right-rail.png)
 
    例如，您可以键入以下内容之一：
 
-   * 创建开始日期为7月4日、结束日期为7月30日的营销活动
-   * 更新夏季促销活动记录的描述字段，日期待定
-   * 删除最后一个记录
-   * 恢复记录
+   * 创建新的营销活动记录，称为2026年夏季促销
+   * 将夏季促销活动记录中的预算字段更新为$75,000
+   * 删除名为“旧促销”的活动记录
+   * 恢复我意外删除的营销活动
 
-   当AI助手处理命令时，将显示一个视觉指示器，设置响应时间的期望值。
+   >[!TIP]
+   >
+   >在要求Workfront对对象执行编辑操作之前，请确保您的CX Coworker管理员在系统首选项中启用了仅写MCP工具。
+
+   CX Coworker处理命令时会显示一个视觉指示器，并设置响应时间的预期值。
 
    收到成功响应后，请按照提供的链接或注意左侧的更改内容。
 
+
+1. （可选）单击&#x200B;**展开全屏**&#x200B;图标![展开全屏图标](assets/expand-full-screen-icon.png)以在完整的浏览器选项卡中打开同事聊天框。
 
 
