@@ -4,9 +4,9 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b6991b200d21445caa5ef4d29ad2e35a64aed304
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2853'
 ht-degree: 1%
 ---
 # 2026年第四季度发行版概述
@@ -192,9 +192,9 @@ ht-degree: 1%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker现已在Workfront中可用</a>
                 <p>CX Coworker是一个新的对话界面，用于在Workfront和连接的Adobe系统中完成工作，取代当前的人工智能助手。</p>
             </td>
-            <td><p>2026年9月3日</p></td>
-            <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>已从2026年9月3日开始分阶段推出</p></td>
+            <td><p>已从2026年9月17日开始分阶段推出</p></td>
+            <td><p>已从2026年10月15日开始分阶段推出</p></td>
         </tr>
 
     &lt;tr>

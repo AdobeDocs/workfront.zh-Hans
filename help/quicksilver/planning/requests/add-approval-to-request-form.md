@@ -11,24 +11,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 2%
-
 ---
-
 # 在Adobe Workfront Planning中为申请表单添加批准
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -42,6 +48,8 @@ ht-degree: 2%
 {{planning-important-intro}}
 
 您可以在Adobe Workfront Planning请求表单中添加批准流程，以在创建记录之前为每个提交的请求启动批准。
+
+<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 本文介绍了工作区经理如何向与记录类型关联的请求表单添加批准。
 
@@ -171,14 +179,16 @@ ht-degree: 2%
 
 1. （可选）开始添加审批规则。 对于每个自定义批准规则，请执行以下操作：
 
-   1. 单击&#x200B;**添加批准规则**
+   1. 单击&#x200B;**添加批准规则**。
    1. 单击占位符标题&#x200B;**无标题的批准规则**，然后输入批准规则的名称。
    1. 单击&#x200B;**选择字段**&#x200B;并选择激活规则的字段。
    1. 选择规则的运算符。 运算符因字段类型而异。
    1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
    1. （可选）单击&#x200B;**添加条件**&#x200B;以添加更多条件，并通过配置步骤C-E中的其他条件通过&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;语句连接这些条件。
-   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加满足条件时要在审批者处设置的至少一个用户或团队。
+   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加至少一个要设置为满足条件时的审批者的用户或团队。
    1. （有条件，可选）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，所有批准者必须在接受或拒绝请求之前决定批准。
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
    >[!NOTE]
    >
@@ -190,3 +200,35 @@ ht-degree: 2%
 
 1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
 1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**。
+
+
+
+
+<!--
+
+MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
+
+<div class="preview">
+
+1. (Optional) To add more stages to the approval, do the following:
+
+   1. Click **Add stage**.
+   
+      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
+
+   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
+   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
+   1. Click **Add stage** and repeat from step B to add more stages to the approval.
+
+      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
+
+      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
+
+      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
+
+   1. When you are finished building the approval workflow, click **Save**.
+
+      You can edit or delete the multi-stage approval from the Approvals page.
+
+</div>
+-->

@@ -28,19 +28,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '988'
 ht-degree: 1%
 ---
 # Adobe Workfront规划AI助手概述
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 
 {{planning-important-intro}}
@@ -48,6 +48,10 @@ ht-degree: 1%
 您可以使用AI助手，根据当前页面上下文对Adobe Workfront Planning中的记录和其他对象进行更改或更新。
 
 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
+
+>[!IMPORTANT]
+>
+><span class="preview">在某些组织中，AI助手已被CX Coworker所取代。 有关信息，请参阅[Adobe Workfront规划CX Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
 
 ## 访问权限要求
 
@@ -111,7 +115,7 @@ ht-degree: 1%
 
   有关信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-* Workfront为您的组织启用代理后，主Workfront管理员即可使用该代理。 有关信息，请参阅[配置系统的基本信息](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
+* Workfront为您的组织启用代理后，主Workfront管理员即可使用该代理。 有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 * Workfront管理员必须为所有其他用户启用AI助手。 有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
@@ -150,12 +154,17 @@ ht-degree: 1%
 
 ## 在Workfront规划中找到AI助手
 
+>[!NOTE]
+>
+><span class="preview">如果贵组织已获得对CX Coworker的访问权限，则查找CX Coworker与查找AI助手类似。 有关信息，请参阅[Adobe Workfront规划CX Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+
+
 您可以在Workfront Planning的以下区域中找到AI助手：
 
 * 屏幕右上角的主导航栏。
 * 在记录的详细信息区域中，在预览中打开记录或打开记录的页面之后。
 
-## 访问规划区的人工智能助理
+### 访问规划区的人工智能助理
 
 1. 登录到Workfront，然后单击左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)，然后单击&#x200B;**计划**。
 

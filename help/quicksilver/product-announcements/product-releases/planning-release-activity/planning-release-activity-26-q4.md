@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2210'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年9月3日
->生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
+>预览：从2026年9月3日开始分阶段推出
+>生产快速发布：从2026年9月17日开始分阶段推出
+>为每个人生产：从2026年10月15日开始分阶段推出
 
 CX Coworker现已在Workfront Planning中提供。 现在，您可以在整个Workfront Planning中提供的面板中访问CX Coworker。
 
@@ -35,28 +35,28 @@ CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言
 
 >[!IMPORTANT]
 >
->CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。
+>CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 这些组织仍然可以使用人工智能助手。
 
 有关详细信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-<!--
-
-## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+## 为准备CX Coworker启动，删除了详细信息预览框中的AI助手图标
 
 >[!NOTE]
 >
->Preview: September 16, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
->[!BADGE Off schedule]{type=Neutral}
+>预览：从2026年9月16日开始分阶段推出
+>生产快速发布：从2026年9月17日开始分阶段推出
+>为每个人生产：从2026年10月15日开始分阶段推出
+>[!BADGE 超出计划]{type=Neutral}
 
-This change is available for customers who have the CX Coworker in Workfront.
+在Workfront中拥有CX Coworker的客户可以使用此更改。
 
-In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+为了在Workfront中启动Adobe CX Coworker，我们已从详细信息预览页面中删除AI助手图标。 以全屏打开时，“详细信息”页面上仍存在该图标。 单击该链接可打开CX Coworker。
 
-For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+>[!IMPORTANT]
+>
+>CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 这些组织仍然可以使用人工智能助手。
 
--->
+有关信息，请参阅Workfront中的[CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)。
 
 ## 改进了复制具有一对一或一对多连接类型字段的记录时的体验
 
