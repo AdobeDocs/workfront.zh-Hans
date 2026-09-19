@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1335'
 ht-degree: 2%
 ---
 
@@ -15,11 +15,10 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 您可以与其他人共享Workfront Planning记录的字段，以确保在使用Adobe Workfront Planning时进行协作。
 
@@ -87,9 +86,15 @@ ht-degree: 2%
 * 对字段的访问权限来自组合以下设置：
 
   * **继承权限**：默认情况下，字段继承某人对该记录类型的相同访问权限。 您可以关闭继承权限，并授予用户比记录类型更低的字段访问权限。
-  * 工作区中的&#x200B;**每个人都可以查看**&#x200B;或&#x200B;**只有受邀人员才能访问**&#x200B;选择。 您可以允许拥有工作区权限的每个人查看该字段，也可以仅向单个实体授予权限。
+  * 有权访问记录类型的&#x200B;**所有人都可以查看**&#x200B;或&#x200B;**只有受邀人员才能访问**&#x200B;选择。 您可以允许拥有工作区权限的每个人查看该字段，也可以仅向单个实体授予权限。
 
   如果同一人适用多个规则，则他们会从其中一个规则中获取可用的最高权限。
+
+* 要将字段设为仅供工作区中的每个人查看，请确保存在以下设置：
+
+  * 关闭继承的权限
+  * 保留&#x200B;**有权访问记录类型的每个人都可以查看**&#x200B;设置
+  * 请勿添加任何单个实体。
 
 * 根据记录类型权限，用户可以获得以下字段权限：
 
@@ -158,7 +163,7 @@ For Global Record Types, field permissions are set once and apply to all seconda
 
    将打开&#x200B;**共享**&#x200B;框。
 
-1. （可选）在&#x200B;**授予访问权限**&#x200B;区域，默认情况下选中&#x200B;**工作区中的每个人都可以查看**&#x200B;选项。 对工作区和记录类型具有&#x200B;**查看**&#x200B;或更高权限的所有用户对该字段具有相同的权限。
+1. （可选）在&#x200B;**授予访问权限**&#x200B;区域，默认情况下已选中&#x200B;**有权查看记录类型的每个人**&#x200B;选项。 对工作区和记录类型具有&#x200B;**查看**&#x200B;或更高权限的所有用户对该字段具有相同的权限。
 
 1. （可选）单击&#x200B;**从**&#x200B;继承的权限选项下的用户头像，以查看从工作区继承权限的用户、团队、组、公司或工作角色。
 
@@ -177,6 +182,13 @@ For Global Record Types, field permissions are set once and apply to all seconda
       >[!TIP]
       >
       >Workspace管理员继续对记录类型和字段具有管理权限。
+
+   1. （可选）单击&#x200B;**有权访问记录类型的每个人都可以查看**&#x200B;下拉菜单，然后选择&#x200B;**只有受邀人员才能访问**。
+
+      >[!IMPORTANT]
+      >
+      >此更改与关闭&#x200B;**继承权限**&#x200B;一起删除所有可以查看记录类型并仅向指定人员授予访问权限的人员的访问权限。 Workspace经理和管理员将始终有权访问所有字段。
+
 
    1. 在&#x200B;**授予访问权限**&#x200B;框中，添加要授予不同于工作区或记录类型的权限级别的用户、团队、组、公司或工作角色。
 
