@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '303'
 ht-degree: 5%
-
 ---
-
 # 配置默认验证电子邮件通知设置
 
 对验证做出评论或决策时，Adobe Workfront中的验证用户会收到来自Workfront和Workfront Proof的电子邮件通知。 如果用户已收到来自Workfront Proof的电子邮件通知，我们建议您禁用从Workfront发送的通知，以避免重复的通知电子邮件。
@@ -68,9 +71,9 @@ ht-degree: 5%
 
 1. 展开&#x200B;**电子邮件**，然后单击&#x200B;**审核和批准**。
 
-1. 在&#x200B;**Workfront中的验证通知**&#x200B;部分中，决定是启用还是禁用对验证进行评论时从Workfront发送电子邮件选项。
+1. 在&#x200B;**Workfront中的验证通知**&#x200B;部分中，决定是启用还是禁用选项&#x200B;**在对验证进行评论时从Workfront发送通知**。
 
-   * 启用此设置后，当对验证进行评论时，用户会收到来自Workfront的电子邮件。
-   * 禁用此设置后，在对验证进行评论时，用户不会收到来自Workfront的电子邮件。
+   * 启用此设置后，当对验证进行评论时，用户会收到来自Workfront的电子邮件。 此外，还会显示Workfront应用程序内通知。
+   * 禁用此设置后，在对验证进行评论时，用户不会收到来自Workfront的电子邮件或应用程序内通知。
 
 1. 单击&#x200B;**保存**。
