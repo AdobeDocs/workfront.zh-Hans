@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 3%
-
+source-wordcount: '1764'
+ht-degree: 2%
 ---
-
 # 使用由AI提供支持的表单填写功能，使用提示或文档填写请求
 
 >[!NOTE]
 >
 >要使用此功能，您的组织必须满足使用Workfront AI Assistant的要求。 有关详细信息，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
-AI表单填写可以帮助您根据输入的提示自动填写请求字段。 它还可以基于文本（如电子邮件或上载的文档）填写字段。 您可以在提交请求之前批准或拒绝这些建议。
+AI表单填写可以帮助您根据输入的提示自动填写请求字段。 它还可以根据您在提示中添加的以下信息填写字段：
+
+* 电子邮件
+* 上传的文档
+* 指向项目、任务或问题的链接。
+
+您可以在提交请求之前批准或拒绝这些建议。
 
 在Workfront请求区域为Workfront和Workfront Planning请求创建请求时，此功能可用。
 
@@ -155,6 +165,7 @@ AI表单填写可根据文本（如电子邮件）建议字段值。 将粘贴�
    >[!NOTE]
    >
    >当您提交请求时，任何未审核的建议都将被自动接受。
+1. 单击&#x200B;**提交**&#x200B;提交请求。
 
 ### 文本提示示例
 
@@ -342,6 +353,43 @@ Workfront字段类型会影响给定字段是否可以自动填写。
    >[!NOTE]
    >
    >当您提交请求时，任何未审核的建议都将被自动接受。
+1. 单击&#x200B;**提交**&#x200B;提交请求。
+
+### 添加指向其他对象的链接以自动填写请求
+
+您可以将现有项目、任务或问题的链接添加到提示，以应用到整个表单或表单的单个部分。
+
+1. 转到要将其信息纳入新请求中的项目、任务或问题，并将对象的链接从浏览器地址行复制到剪贴板。
+
+   项目、任务或问题必须与您的请求位于同一Workfront实例中。
+
+1. 开始创建请求。
+
+   有关说明，请参阅[创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
+
+1. 要将链接对象中的信息应用到整个表单，请单击表单名称下的&#x200B;**AI图标** ![AI图标](assets/request-prompt-icon.png)。
+
+   或
+
+   若要将链接对象中的信息应用于单个分区，请单击分区名称旁边的&#x200B;**AI图标** ![AI图标](assets/request-prompt-icon.png)。
+
+1. 开始添加提示，然后将您从项目、任务或问题复制的链接粘贴到提示窗口中。
+1. （视情况而定）单击&#x200B;**应用到表单**&#x200B;或&#x200B;**应用到节**。
+1. 单击&#x200B;**填写表单**&#x200B;或&#x200B;**填写部分**。
+
+   Workfront会生成表单建议。
+1. 对于每个字段建议，单击该字段的&#x200B;**接受建议**&#x200B;或&#x200B;**拒绝建议**&#x200B;图标。
+
+   ![接受或拒绝建议](assets/accept-reject-suggestion.png)
+
+   或
+
+   选择页面顶部的&#x200B;**全部接受**&#x200B;或&#x200B;**全部拒绝**&#x200B;以接受或拒绝所有建议。
+
+   >[!NOTE]
+   >
+   >当您提交请求时，任何未审核的建议都将被自动接受。
+1. 单击&#x200B;**提交**&#x200B;提交请求。
 
 ## 故障排除
 
