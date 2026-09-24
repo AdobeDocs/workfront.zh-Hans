@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
+source-git-commit: 41d3ddbe55b225c4a3a969d773378d6156de05f1
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2398'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -16,6 +16,91 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在Workfront Planning中共享字段
+
+>[!NOTE]
+>
+>预览： 2026年9月24日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+Workspace经理现在可以控制对单个字段的访问，允许特定用户和团队查看、编辑或完全限制使用同一记录类型中的敏感数据。
+
+字段级别的权限在视图、记录详细信息、请求表单、连接、API和功能板之间强制实施一致，从而帮助组织安全地管理机密信息。
+
+没有访问权限的用户看不到受限字段，而管理员可以配置权限而不重新构建记录或创建单独的工作区。
+
+有关信息，请参阅[共享Workfront规划字段](/help/quicksilver/planning/access/share-fields.md)。
+
+<!--
+
+## Share a Planning request
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now share a Planning request with others from the Requests area in the new request experience.
+
+You can give others one of the following permissions to the request: View, Contribute, or Manage.
+
+For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+
+## Set up multi-stage approvals for Planning requests
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Enhancements to display logic and field editing in Planning requests forms
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+
+In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+
+For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Configure capabilities for each access tier per request form
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+
+Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+-->
+
+## AI表单填写现在从引用了链接的记录中提取数据
+
+>[!NOTE]
+>
+>预览和生产： 2026年9月22日
+>[!BADGE 超出计划]{type=Neutral}
+
+AI表单填写现在可以直接从其链接引用的Planning记录中检索字段数据，并在填充表单时将其用作上下文。 只需将记录的直接URL粘贴到提示中，其详细信息将自动拉入以建议表单值。
+
+有关信息，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 
 ## CX Coworker现已在Workfront Planning中提供
 
