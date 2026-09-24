@@ -13,26 +13,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
+    internal-label: Administration
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: 1318
-ht-degree: 8%
-
+source-wordcount: '1533'
+ht-degree: 7%
 ---
-
 # 配置系统偏好设置
 
 {{highlighted-preview}}
@@ -199,6 +207,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td><span class="preview">允许Workfront MCP服务器对Workfront数据执行创建、更新和删除操作。 默认禁用此选项。<p>有关Workfront MCP服务器的详细信息，请参阅<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">配置Adobe Workfront MCP服务器</a>。</p></span></td> 
      </tr>
      <tr> 
+      <td role="rowheader"><span class="preview">授权的重定向 URL</span></td> 
+      <td><span class="preview">控制哪些回调（重定向）URL可以完成组织MCP代理的登录，这些代理通过自定义AI代理平台进行连接。<p>有关为MCP服务器添加重定向URL的说明，请参阅本文中的<a href="#add-or-remove-an-authorized-redirect-url">添加或删除授权的重定向URL</a>。</p></span></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">测试环境</td> 
       <td>允许您访问Workfront测试环境。 有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront预览沙盒环境</a>。</p></td> 
     </tbody> 
@@ -207,3 +219,30 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 单击&#x200B;**保存**。
 
    您在此处保存的更改会影响Workfront中所有用户的体验，以及作为外部用户与系统交互的任何用户的体验。
+
+## 添加或删除授权的重定向URL
+
+<div class="preview">
+
+授权的重定向URL允许您连接一个自定义AI代理平台，该平台的OAuth回调URL对于您的组织是唯一的，例如，包含连接或租户ID的URL。 有关何时需要此项的详细信息，请参阅[配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)中的[与OAuth连接](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)。
+
++++ 展开以查看用于管理MCP的授权重定向URL的分步说明。
+
+添加URL：
+
+1. 如果您还没有在“系统首选项”页面上，请单击Workfront左上角的&#x200B;**主菜单**&#x200B;图标，单击&#x200B;**设置**，然后在左侧面板中单击&#x200B;**系统** > **首选项**。
+1. 在&#x200B;**MCP首选项**&#x200B;区域的&#x200B;**授权重定向URL**&#x200B;旁边，单击&#x200B;**管理URL**。
+1. 输入&#x200B;**标签**&#x200B;以标识集成。
+1. 输入回调&#x200B;**URL**。
+1. 单击&#x200B;**添加**。
+1. 单击&#x200B;**保存**。
+
+>[!IMPORTANT]
+>
+>回调URL必须完全匹配。 Workfront不支持将通配符或前缀匹配用于自定义回调URL。
+
+若要删除URL（例如，如果关联的集成已停用或受损），请打开&#x200B;**管理URL**，删除该条目，然后单击&#x200B;**保存**。
+
++++
+
+</div>
