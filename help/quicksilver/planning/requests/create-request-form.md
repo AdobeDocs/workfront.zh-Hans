@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4491dfceac19ce42ec1a0cabcaf146271017edd4
+source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 1%
@@ -292,6 +292,29 @@ ht-degree: 1%
    * **请求在请求的对象完成时完成**：当记录标记为完成时，这将完成请求。
 
 1. （视情况而定）如果已选择在请求的对象完成时将请求标记为完成，请选择字段以及指示对象完成时间的值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
+
+
+   <!--
+   1. <span class="preview">Click **Permissions** on the left panel.</span>
+   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
+      <div class="preview">
+      * **View**: All requesters can comment on and share the form.
+      * **Contribute**: All requesters can comment on, share, and edit the form.
+      * **Manage**: All requesters can comment on, share, edit, and delete the form.
+      </div>
+   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
+   1. <span class="preview">Click **Save**.</span>
+   -->
+
 1. 继续[发布表单](#publish-form)。
 
 ### 发布表单
@@ -504,22 +527,6 @@ For information on creating automations in other areas of Workfront Planning, se
 
 -->
 
-<!--
 
-ADD AT LINE 291, before "Continue to publish form."
 
-<div class="preview">
-
-1. Click **Permissions** on the left panel.
-1. Select the permission level for the users submitting requests through this form:
-
-   * **View**: All requesters can comment on and share the form.
-   * **Contribute**: All requesters can comment on, share, and edit the form.
-   * **Manage**: All requesters can comment on, share, edit, and delete the form.
-
-1. Click **Save**.
-
-</div>
-
--->
 
