@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 1%
+source-wordcount: '3098'
+ht-degree: 2%
 ---
 # 在Adobe Workfront Planning中创建和管理申请表单
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
 
 <!--take Preview and Production references at Production time-->
 
@@ -70,7 +72,7 @@ ht-degree: 1%
    <td> 
 <ul> 
 <li><p>带规划包的任何Workfront或工作流</p></li>
-或
+   或
 <li><p>作为独立产品购买时的任何Planning包</p></li></ul>
    </td> </tr>
   <tr> 
@@ -90,7 +92,7 @@ ht-degree: 1%
   </tr>  
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理对工作区或记录类型</a>的权限 </p>  
+   <td>   <p>管理对工作区或记录类型的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr>  
 </tbody> 
@@ -202,14 +204,53 @@ ht-degree: 1%
    1. 单击&#x200B;**x**&#x200B;图标以删除&#x200B;**默认部分**。
 1. 单击任意字段，然后使用表单右侧面板中的控件定义其大小或以下任何信息：
 
+   * **大小**：控制字段在表单上占用的空间。 并非对所有字段类型都可用。
    * **标签**：这是显示在请求表单中的字段名称。 这不会更改记录字段的名称。
    * **说明**：添加有关该字段的更多信息。
-   * **生成必填字段**：选定后，该字段必须具有值。 否则，无法提交表单。
-   * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。<!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **选项**：此选项仅适用于选定字段。 执行下列操作之一：
+
+     * 单击&#x200B;**对选项A-Z进行排序**&#x200B;以自动对其进行排序。
+     * 手动拖放选项或对其进行排序。
+     * 单击&#x200B;**设置**&#x200B;图标![设置图标](assets/settings-icon.png)，然后单击&#x200B;**默认选择**&#x200B;以指示默认选项，或单击&#x200B;**隐藏选项**&#x200B;以隐藏它。
+
+   </div>
 
    >[!TIP]
    >
-   >选择表单上的字段后，每个字段的字段类型都会显示在右侧面板的顶部。
+   ><span class="preview">不能重命名或删除Planning请求表单上的选项。 您必须在记录类型的表视图中编辑字段选项。</span>
+
+
+1. 在&#x200B;**高级设置**&#x200B;区域，从下面列出的选项中进行选择。 并非所有选项都适用于所有字段类型。
+
+   * **生成必填字段**：选定后，该字段必须具有值。 否则，无法提交表单。
+   * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。 仅当字段是单选字段和多选字段或字段前面有此类字段时，“添加逻辑”才可用。 <span class="preview">验证和默认值规则不适用于所有字段类型。</span>
+
+     在生产环境中，从以下选项中选择：
+
+     * **显示逻辑**：您选择的字段前面必须是多选或单选字段。
+     * **跳过逻辑**：添加用户应跳过字段并将其留空的跳过规则。
+
+     <div class="preview">
+
+     在“预览”环境中，从以下选项中选择：
+
+     * **显示区**
+     * **跳过**
+     * **默认值**
+     * **验证**
+     * **正在格式化**
+     * **可编辑性**
+
+     </div>
+
+     有关详细信息，请参阅[将逻辑规则添加到自定义表单和字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
+
+     >[!TIP]
+     >
+     ><span class="preview">选择表单上的字段后，每个字段的字段类型都会显示在右侧面板的顶部。</span>
 
 1. （可选）长按某个字段并将其拖放到表单上的其他位置。
 1. （可选）单击表单左侧的&#x200B;**内容元素**&#x200B;选项卡，然后添加以下任意元素：
@@ -229,25 +270,19 @@ ht-degree: 1%
 
 ### 配置表单设置
 
-在设置选项卡上，您可以设置批准规则并配置何时将从此表单创建的请求标记为已完成。
+在“设置”选项卡上，您可以设置审批规则，配置从此表单创建的请求何时标记为“已完成”，以及<span class="preview">为与使用该表单提交的未来请求进行交互的用户分配默认权限。</span>
 
 审批规则根据已提交请求中的字段值定义审批流程。
 
 例如，如果请求表单具有“Campaign type”字段，则可以创建一个规则，在字段的值为“Digital”时将请求发送给一个人，在字段的值为“Print”时将请求发送给另一个人。
 
-添加审批规则时，请考虑以下事项：
-
-* 规则按顺序排定优先级。 如果满足第一个规则条件，则应用该规则，即使还满足列表下面规则的条件。
-* 如果不满足任何条件，则应用默认规则。
-* 您可以将一个或多个批准者添加到批准规则。
-* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
-* 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
-* 如果将团队设置为批准者，则只需从团队中做出一个决策。
-  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">审批流程中支持多个阶段。 当阶段中所有必需的决策都完成时，下一阶段将开始，新阶段的批准者将收到电子邮件通知。</span>
 
 有关添加审批的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 完成选项允许您设置请求是在创建请求对象时标记为完成，还是在创建对象完成时标记为完成。 您可以根据指定的条件定义对象的完成时间。
+
+<span class="preview">使用请求表单的“设置”区域中的“权限”部分定义请求者<!--and non-requestors-->对使用该表单创建的请求的默认权限。</span>
 
 要配置表单设置，请执行以下操作：
 
@@ -256,35 +291,12 @@ ht-degree: 1%
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
 1. （可选）设置任何表单详细信息，如[设置表单详细信息](#set-up-form-details)中所述。
 
-1. 要开始配置审批规则，请单击左侧导航中的审批![审批图标](assets/approvals-icon-on-form.png)。
+1. 要开始配置审批规则，请单击左侧导航中的&#x200B;**审批** ![审批图标](assets/approvals-icon-on-form.png)。
 
-1. （可选）如果要设置默认审批流程，请将至少一个用户或团队添加到默认审批规则区域的&#x200B;**审批者**&#x200B;字段中，然后单击&#x200B;**只需一个决策**&#x200B;复选框（如果要在任何默认审批者批准记录后创建记录）。
+   您可以创建单个<span class="preview">或多阶段审批规则</span>，并将用户或团队分配给审批。
 
-   ![默认审批规则区域](assets/default-approvers.png)
+   有关添加审批的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. （可选）对于每个附加批准规则，执行以下操作：
-
-   1. 单击&#x200B;**添加批准规则**。
-   1. 单击占位符标题“无标题的批准规则”并输入批准规则的名称。
-   1. 单击&#x200B;**选择字段**&#x200B;并选择激活规则的字段。
-   1. 选择规则的运算符。 运算符因字段类型而异。
-   1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
-   1. （可选）使用AND或OR添加更多条件，方法是单击添加条件并配置其他条件。
-   1. 在审批规则的“操作”区域的&#x200B;**审批者**&#x200B;字段中，添加至少一位满足条件时要在审批者处设置的用户或团队。
-   1. （视情况而定）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. （可选）要重新排序路由规则，请单击规则左侧的拖动手柄，然后将规则拖动到所需位置。
-
-   无法对默认规则重新排序。
-
-1. （可选）要删除路由规则，请单击规则右侧的&#x200B;**X**。
-1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
 1. 单击左侧面板上的&#x200B;**请求完成选项**。
 1. 从以下选项中选择：
 
@@ -293,27 +305,34 @@ ht-degree: 1%
 
 1. （视情况而定）如果已选择在请求的对象完成时将请求标记为完成，请选择字段以及指示对象完成时间的值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
 
+1. <span class="preview">单击左侧面板上的&#x200B;**权限**。</span>
+1. <span class="preview">为通过此表单提交请求的用户选择权限级别：</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **查看**：所有请求者都可以评论并共享表单。
+   * **Contribute**：所有请求者都可以评论、共享和编辑表单。
+   * **管理**：所有请求者都可以评论、共享、编辑和删除表单。
+
+   </div>
+
+1. <span class="preview"> （可选）取消选择每个权限级别的任何粒度权限，以防止请求者执行以下操作：</span>
+
+   <div class="preview">
+
+   * 注释
+   * 共享
+   * 编辑。 不可用于查看。
+   * 删除。 不可用于Contribute和View。
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">从请求页面与这些用户共享请求时，您在此处取消选择的粒度权限将灰显。</span>
+
+1. <span class="preview">单击&#x200B;**保存**。</span>
+
 
 1. 继续[发布表单](#publish-form)。
 
@@ -361,7 +380,7 @@ ht-degree: 1%
 
    ![共享请求表单的框](assets/share-box-for-request-form.png)
 
-1. （可选）单击&#x200B;**复制链接**，以便与有权访问表单并提交请求的人共享该表单的链接。 该链接将会复制到您的剪贴板中，您可以与其他人共享。
+1. （可选）单击&#x200B;**复制链接**&#x200B;以将链接共享到具有表单访问权限的用户并提交请求。 该链接将会复制到您的剪贴板中，您可以与其他人共享。
 1. 要公开共享表单，请选择&#x200B;**公共共享**&#x200B;选项卡，然后打开&#x200B;**创建公共链接**&#x200B;设置。 默认情况下，该功能处于关闭状态。
 
    ![公开共享请求表单](assets/share-request-form-publicly-tab.png)
@@ -414,7 +433,7 @@ ht-degree: 1%
 
    有关详细信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
-1. （可选）将鼠标悬停在列表视图中请求表单的名称上，然后单击表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
+1. （可选）将鼠标悬停在列表视图中请求表单的名称上，然后单击表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击以下选项之一：
 
    * **编辑表单**：单击此项可进一步编辑表单上的信息。
    * **取消发布**：单击此项可取消发布将表单从Workfront的“请求”区域删除的表单。
@@ -438,6 +457,8 @@ ht-degree: 1%
 1. （可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并找到共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 
