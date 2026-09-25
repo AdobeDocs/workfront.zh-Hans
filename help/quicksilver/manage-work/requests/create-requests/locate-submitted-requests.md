@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1646'
 ht-degree: 2%
 ---
 # 查看提交的请求
@@ -36,13 +36,11 @@ ht-degree: 2%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 未完成的请求将另存为草稿。
 
@@ -61,7 +59,7 @@ Remove production and preview references at release
   >* 您只能查看自己的草稿请求。
   >* 在新请求体验中，提交的请求和草稿可在同一列表中找到。
   >* 在旧版Experience中创建的草稿不会显示在新的“请求体验”中。
-  >* 在新的请求体验中，您只能看到从2025年7月到当天的旧Workfront请求。<!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* 在生产环境中，通过新的请求体验，您可以找到从2025年7月到现在才提交的Workfront请求。 <span class="preview">在“预览”环境中，通过新的请求体验，您可以修复从2023年至今提交的Workfront请求。 您可以在旧版Experience中看到所有Workfront请求。</span>
 
 ## 访问权限要求
 

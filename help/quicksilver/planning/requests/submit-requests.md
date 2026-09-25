@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3087'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning请求以创建记录
@@ -160,21 +160,24 @@ Workspace经理可以创建请求表单，您可以作为用户或外部人员�
 
   * <span class="preview">在“预览”环境中，存在以下方案： </span>
 
-    * <span class="preview">当您从辅助全局记录类型的页面提交请求表单时，该记录将显示在辅助记录类型页面中。 如果用户有权查看辅助工作区，则还将在主要记录类型的页面上看到新记录。</span>
-    * <span class="preview">当您从主记录类型页面提交请求表单或使用本文所述的任何其他方法时，记录将显示在主记录类型页面中。</span>
-    * <span class="preview">如果&#x200B;**Workspace**&#x200B;字段在请求表单中可用，并且用户手动选择特定工作区以将记录添加到该工作区中，则无论该表单是从主记录类型页还是从辅助记录类型页中选择，该记录都会保存在该空间中。</span>
+    <div class="preview">
+
+    * 当您从辅助全局记录类型的页面提交请求表单时，该记录将显示在辅助记录类型页面中。 如果用户有权查看辅助工作区，则还将在主要记录类型的页面上看到新记录。
+    * 当从主要记录类型页面提交请求表单或使用本文中介绍的任何其他方法时，记录将显示在主记录类型页面中。
+    * 如果&#x200B;**Workspace**&#x200B;字段在请求表单中可用，并且用户手动选择特定工作区以将记录添加到，则无论从主要还是次要记录类型页面中选择了表单，记录都会保存在该空间中。
+
+    </div>
 
   有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
-<!--
 <div class="preview">
 
-* You can share a request with others after it's been submitted. 
+* 提交请求后，您可以与他人共享请求。
 
-   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+  有关信息，请参阅[共享计划请求](/help/quicksilver/planning/requests/share-requests.md)。
 
 </div>
--->
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.

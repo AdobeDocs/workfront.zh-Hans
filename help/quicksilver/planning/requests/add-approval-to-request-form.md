@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '1171'
+ht-degree: 1%
 ---
 # 在Adobe Workfront Planning中为申请表单添加批准
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -104,12 +104,81 @@ ht-degree: 2%
 
 ## 有关将审批添加到请求表单的注意事项
 
-* 您可以向请求表单添加一个或多个批准者。 您可以将用户和团队添加为批准者。
-* 对于通过提交请求表单而创建的记录，您可以在“批准者”和“批准日期”字段中显示批准信息。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
-* 向请求表单添加多个批准者时，所有批准者都必须接受请求，然后才能在Workfront Planning中创建记录。
-* 如果所有批准者都批准了该请求，则将为与请求表单关联的记录类型创建记录。
-* 如果至少有一个批准者拒绝了请求，并且所有其他批准者都批准了该请求，则会在Workfront中为请求区域创建一个请求，但不会为与请求表单关联的记录类型创建记录。
-* 向请求表单添加审批是可选的。 如果申请表单与批准无关，Workfront Planning会在提交申请后立即创建记录。
+* 您可以将一个或多个批准者（用户或团队）添加到请求表单或批准规则。
+* 批准规则根据已提交请求中的字段值路由请求（例如，“Campaign type”字段的不同值的不同批准者）。
+* 您可以通过“批准者”和“批准日期”字段显示已创建记录的批准信息。 请参阅创建字段。
+* 如果所有批准者都批准，将为与请求表单关联的记录类型创建记录。
+* 如果至少有一位审批者拒绝，则不会为记录类型创建记录；相反，请求会保留/留在Workfront的请求区域中。 （这点在两个部分都出现时，措辞略有不同 — 此处合并为一个语句。 ）
+* 当需要多个批准者时，所有批准者必须在请求被批准或拒绝之前做出决策 — 除非启用了仅需要一个决策选项。
+* 如果某个团队被设置为批准者，则只需从该团队的一名成员中做出一个决策。
+* 审批是可选的 — 如果请求表单未附加审批，Workfront Planning会在提交时立即创建记录。
+* <span class="preview">您可以向审批添加一个或多个阶段。</span>
+
+## 将审批规则添加到请求表单
+
+审批规则根据已提交请求中的字段值定义审批流程。
+
+例如，如果请求表单具有“Campaign type”字段，则可以创建一个规则，在字段的值为“Digital”时将请求发送给一个人，在字段的值为“Print”时将请求发送给另一个人。
+
+要为请求表单设置批准规则，请执行以下操作：
+
+1. 开始为记录类型创建请求表单，如[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)一文中所述。
+1. 打开请求表单时，单击&#x200B;**设置**。
+
+   **设置**&#x200B;选项卡打开。
+
+1. 要开始配置审批规则，请单击左侧面板中的&#x200B;**审批** ![审批图标](assets/approvals-icon-on-form.png)。
+
+1. （可选）如果要设置默认审批流程，请至少向&#x200B;**默认审批规则**&#x200B;区域的&#x200B;**审批者**&#x200B;字段添加一个用户或团队，然后单击&#x200B;**仅需要一个决策**&#x200B;复选框（如果要在任何默认审批者批准记录后创建记录）。
+
+   ![默认审批规则区域](assets/default-approvers.png)
+
+1. （可选）开始添加审批规则。 对于每个自定义批准规则，请执行以下操作：
+
+   1. 单击&#x200B;**添加批准规则**。
+   1. 单击占位符标题&#x200B;**无标题的批准规则**，然后输入批准规则的名称。
+   1. 单击&#x200B;**选择字段**&#x200B;并选择激活规则的字段。
+   1. 选择规则的运算符。 运算符因字段类型而异。
+   1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
+   1. （可选）单击&#x200B;**添加条件**&#x200B;以添加更多条件，并通过配置步骤C-E中的其他条件通过&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;语句连接这些条件。
+   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加至少一个要设置为满足条件时的审批者的用户或团队。
+   1. （有条件，可选）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，所有批准者必须在接受或拒绝请求之前决定批准。
+
+   >[!NOTE]
+   >
+   >   添加审批规则时，请考虑以下事项：
+   >
+   >   * 如果仅设置了默认规则，则它会应用于提交的每个请求。
+   >   * 如果满足自定义规则，则默认不会应用于请求审批工作流。 只有匹配的自定义规则才适用于审批，默认规则将被忽略。
+   >   * 如果满足多个自定义规则，则应用顺序中的第一个规则。 在这种情况下，默认审批不适用（如果有）。
+
+1. <span class="preview">（可选）单击&#x200B;**添加阶段**&#x200B;以将另一个阶段添加到审批。</span>
+
+1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
+
+1. <span class="preview">（可选）要向审批添加更多阶段，请执行以下操作：</span>
+
+   1. <span class="preview">单击&#x200B;**添加阶段**。</span>
+
+      <span class="preview">出现&#x200B;**多阶段审批**&#x200B;框。 如果已创建默认批准操作，则这些批准者会自动添加到阶段1.</span>
+
+   1. <span class="preview">在&#x200B;**添加人员或团队**&#x200B;字段中，添加至少一个要设置为该阶段的审批者的用户或团队。</span>
+   1. <span class="preview">（有条件，可选）如果希望记录在任何一位批准者批准后进入下一阶段，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，在请求进入下一阶段之前，所有批准者都必须决定批准。</span>
+   1. <span class="preview">单击&#x200B;**添加阶段**&#x200B;并重复步骤B以添加更多阶段以进行审批。</span>
+
+      <span class="preview">当存在两个或更多阶段时，您可以单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)以按顺序拖放它们。</span>
+
+      <span class="preview">单击&#x200B;**删除此阶段**&#x200B;可从审批中删除阶段，或者单击审批者旁边的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)可从阶段的审批者列表中删除用户或团队。</span>
+
+      ![多阶段审批框](assets/planning-request-multi-stage-approval-box.png)
+
+   1. <span class="preview">当您完成审批工作流的构建后，单击&#x200B;**保存**。</span>
+
+      <span class="preview">您可以从“审批”页编辑或删除多阶段审批。</span>
+
+1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**。
+
+
 
 <!--
 
@@ -149,86 +218,4 @@ ht-degree: 2%
 
    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
 
--->
-
-## 将审批规则添加到请求表单
-
-审批规则根据已提交请求中的字段值定义审批流程。
-
-例如，如果请求表单具有“Campaign type”字段，则可以创建一个规则，在字段的值为“Digital”时将请求发送给一个人，在字段的值为“Print”时将请求发送给另一个人。
-
-添加审批规则时，请考虑以下事项：
-
-* 您可以将一个或多个批准者添加到批准规则。
-* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
-* 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
-* 如果将团队设置为批准者，则只需团队的一名成员做出一个决策。
-
-要为请求表单设置批准规则，请执行以下操作：
-
-1. 开始为记录类型创建请求表单，如[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)一文中所述。
-1. 打开请求表单时，单击&#x200B;**设置**。
-
-   **设置**&#x200B;选项卡打开。
-
-1. 要开始配置审批规则，请单击左侧面板中的&#x200B;**审批** ![审批图标](assets/approvals-icon-on-form.png)。
-
-1. （可选）如果要设置默认审批流程，请至少向&#x200B;**默认审批规则**&#x200B;区域的&#x200B;**审批者**&#x200B;字段添加一个用户或团队，然后单击&#x200B;**仅需要一个决策**&#x200B;复选框（如果要在任何默认审批者批准记录后创建记录）。
-
-   ![默认审批规则区域](assets/default-approvers.png)
-
-1. （可选）开始添加审批规则。 对于每个自定义批准规则，请执行以下操作：
-
-   1. 单击&#x200B;**添加批准规则**。
-   1. 单击占位符标题&#x200B;**无标题的批准规则**，然后输入批准规则的名称。
-   1. 单击&#x200B;**选择字段**&#x200B;并选择激活规则的字段。
-   1. 选择规则的运算符。 运算符因字段类型而异。
-   1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
-   1. （可选）单击&#x200B;**添加条件**&#x200B;以添加更多条件，并通过配置步骤C-E中的其他条件通过&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;语句连接这些条件。
-   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加至少一个要设置为满足条件时的审批者的用户或团队。
-   1. （有条件，可选）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，所有批准者必须在接受或拒绝请求之前决定批准。
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-   >[!NOTE]
-   >
-   >   添加审批规则时，请考虑以下事项：
-   >
-   >   * 如果仅设置了默认规则，则它会应用于提交的每个请求。
-   >   * 如果满足自定义规则，则默认不会应用于请求审批工作流。 只有匹配的自定义规则才适用于审批，默认规则将被忽略。
-   >   * 如果满足多个自定义规则，则应用顺序中的第一个规则。 在这种情况下，默认审批不适用（如果有）。
-
-1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
-1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**。
-
-
-
-
-<!--
-
-MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
-
-<div class="preview">
-
-1. (Optional) To add more stages to the approval, do the following:
-
-   1. Click **Add stage**.
-   
-      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
-
-   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
-   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
-   1. Click **Add stage** and repeat from step B to add more stages to the approval.
-
-      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
-
-      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
-
-      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
-
-   1. When you are finished building the approval workflow, click **Save**.
-
-      You can edit or delete the multi-stage approval from the Approvals page.
-
-</div>
 -->
