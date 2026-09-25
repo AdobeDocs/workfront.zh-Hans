@@ -4,9 +4,9 @@ description: 2026年第四季度请求增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '227'
 ht-degree: 0%
 ---
 # 2026年第四季度请求增强功能
@@ -15,21 +15,17 @@ ht-degree: 0%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## 在新请求体验中查看长达3年的历史请求
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>预览： 2026年9月24日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+您现在可以从新的请求体验访问最多在2025年7月之前3年提交的Workfront问题请求。 以前，您只能访问2025年7月之后提交的请求。
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+有关信息，请参阅[查看提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
 
 ## AI表单填写现在从引用了链接的记录中提取数据
 
