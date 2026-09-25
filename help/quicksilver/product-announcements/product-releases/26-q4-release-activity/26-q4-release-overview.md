@@ -4,10 +4,10 @@ description: 本页介绍了2026年第四季度版本中包含的功能。 这�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
+source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
 workflow-type: tm+mt
-source-wordcount: '2853'
-ht-degree: 1%
+source-wordcount: '2835'
+ht-degree: 2%
 ---
 # 2026年第四季度发行版概述
 
@@ -39,6 +39,7 @@ ht-degree: 1%
 * [Financial Management增强功能](#financial-management-enhancements)
 * [项目增强功能](#project-enhancements)
 * [报表增强功能](#reporting-enhancements)
+* [请求增强功能](#requests-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -52,6 +53,15 @@ ht-degree: 1%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">为MCP集成添加授权的重定向URL</a>
+                <p>Workfront管理员现在可以维护受信任的OAuth回调URL的允许列表，以便自定义AI代理平台可以连接到Workfront MCP服务器。</p>
+            </td>
+            <td><p>2026年9月22日</p></td>
+            <td><p>2026年10月14</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
         <tr>
             <td>
@@ -196,62 +206,61 @@ ht-degree: 1%
             <td><p>已从2026年9月17日开始分阶段推出</p></td>
             <td><p>已从2026年10月15日开始分阶段推出</p></td>
         </tr>
-
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP Connector中可用的新搜索用户工具&lt;/a>
-    &lt;p>新的搜索用户工具可帮助您更快地在Workfront实例中查找人员；已弃用6个旧查找工具，以支持该工具和现有查找/查找工具。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>8月13日， 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>将资产发送到Adobe Experience Manager，并使用Workfront MCP服务器添加自定义消息以供审批&lt;/a>
-    包含自定义消息的文件夹和请求文档审批。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026年8月12日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月12日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月12日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>将AI任务协作者分配给Workfront中的任务&lt;/a>
-    &lt;p>任务协作者是可直接分配给任务以完成任务级工作的AI协作者。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026年7月31日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
-    &lt;td> 2026年8月13日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP连接器中提供的新审批工具&lt;/a>
-    &lt;p>为了扩展Workfront MCP连接器的功能，我们添加了管理审批路径的新工具并扩展了现有工具以支持并行审批路径。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXxref mcp连接器&lt;/a>
-    &lt;p>为了扩展AEM MCP连接器的功能，我们添加了用于处理主板、卡片、清单项目和列的工具。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>10月15日， 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP连接器中提供的新共享反馈工具&lt;/a>
-    &lt;p>新的共享反馈工具可让您报告Workfront以及对话期间发生的情况，因此Workfront的MCP工具可以得到改进。&lt;/p>
-    &lt;/td>
-    &lt;td> 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;/tbody>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP连接器中有新的搜索用户工具</a>
+                <p>一款新的搜索用户工具可帮助您更快地在Workfront实例中查找人员；已弃用六个旧的查找工具，以支持该工具和现有的查找/查找工具。</p>
+            </td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年8月13日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">使用Workfront MCP服务器将资源发送到Adobe Experience Manager并添加自定义审批消息</a>
+                <p>新的MCP连接器工具允许您将文档发送到AEM链接的文件夹，并通过自定义消息请求文档审批。</p>
+            </td>
+            <td><p>2026年8月12日</p></td>
+            <td><p>2026年8月12日</p></td>
+            <td><p>2026年8月12日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">在Workfront中将AI任务协作者分配给任务</a>
+                <p>任务协作者是AI协作者，可以直接分配给任务以完成任务级工作。</p>
+            </td>
+            <td><p>2026年7月31日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年8月13日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP Connector中可用的新审批工具</a>
+                <p>为了扩展Workfront MCP连接器的功能，我们添加了管理批准路径的新工具，并扩展了现有工具以支持并行批准路径。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                Workfront MCP连接器中有<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">个可用的展示板工具</a>
+                <p>为了扩展Workfront MCP连接器的功能，我们添加了用于处理主板、卡片、清单项目和列的工具。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP连接器中有新的共享反馈工具</a>
+                <p>新增的共享反馈工具可让您报告情绪情况以及在对话过程中发生的情况，以便改进Workfront的MCP工具。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+    </tbody>
 </table>
 
 ### 文档增强功能
@@ -265,6 +274,17 @@ ht-degree: 1%
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
+                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>[DATE]</p></td>
+            <td><p>[DATE]</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">系统管理员对审批模板的完全访问权限</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
@@ -386,8 +406,7 @@ ht-degree: 1%
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
-    &lt;/tbody>
+    </tbody>
 </table>
 
 ### Financial Management增强功能
@@ -456,6 +475,17 @@ ht-degree: 1%
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filter on collection relationships in Canvas Dashboards</a>
+                <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">在画布中复制仪表板</a>
@@ -465,63 +495,96 @@ ht-degree: 1%
             <td><p>2026年9月17日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
+        <tr>
+            <td>
+                画布仪表板中的<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">审批类型字段</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>审批实体现在包括审批类型字段，该字段允许用户区分验证审批、文档版本审批、接收审批和其他审批类型。</p>
+            </td>
+            <td><p>不适用</p></td>
+            <td><p>不适用</p></td>
+            <td><p>2026年8月28日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板中的审批术语更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>为清楚起见，已重命名画布功能板中用于文档和工作审批的多个字段名称。</p>
+            </td>
+            <td><p>不适用</p></td>
+            <td><p>不适用</p></td>
+            <td><p>2026年8月28日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">画布仪表板中的数据透视表</a>
+                <p>画布仪表板中的新数据透视表类型使用准确、完整的汇总汇总来聚合数据，并深入到基础记录。</p>
+            </td>
+            <td><p>2026年8月27日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">强制计划报告的结束日期</a>
+                <p>现在，计划报表需要结束日期以防止无限期交付，当计划的结束日期过去时，将自动停用。</p>
+            </td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">本地引用字段可用于列表和报告</a>
+                <p>您现在可以向Workfront中的列表和报告添加本机引用字段。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">旧版列表和报告中的多选字段值排序一致</a>
+                <p>多选自定义字段的选定选项现在会以一致、可预测的顺序显示在旧版列表和报告中。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+    </tbody>
+</table>
 
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>画布仪表板中的审批类型字段&lt;/a>&lt;p>[!BADGE 取消计划]{type=Neutral}&lt;/p>
-    &lt;p>审批实体现在包含审批类型字段，允许用户区分验证审批、文档版本审批、接收审批和其他审批类型。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>N/N a&lt;/p>&lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月28日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xref=&quot;{para}&quot;>Canvas仪表板中的审批术语更新&lt;/a>&lt;p>[!BADGE Off计划]{type=Neutrual}&lt;/p>为了清晰起见，已重命名用于画布功能板中的文档和工作审批。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月28日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCX ref xref&quot; xrefformat=&quot;{para}&quot;>画布仪表板中的透视表报表&lt;/a>
-    &lt;p>画布仪表板中的新透视表报表类型使用准确、完整的汇总来聚合数据，并深入到基础记录。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026年8月27日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>9月17日， 2026年&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>强制计划报告的结束日期&lt;/a>
-    &lt;p>计划报告现在需要结束日期以防止无限期交付，当计划的结束日期超过时会自动停用。&lt;/p>&lbrace;3> 2026年&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>本机引用字段可用于列表和报告&lt;/a>
-    &lt;p>您现在可以向Workfront中的列表和报告添加本机引用字段。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-     href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>旧版列表和报告中的多选字段值排列一致&lt;/a>
-    &lt;p>多选自定义字段的选定选项现在以一致、可预测的顺序在旧版列表和报告上显示。&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
-    &lt;td>&lt;p>8月13日， 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;/tbody>
+### 请求增强功能
 
-    
-    
-    
-    </table>
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
+                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI表单填写现在从引用了链接</a>的记录中提取数据<p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>AI表单填写现在可以直接从其链接引用的Workfront对象中检索字段数据，并在填充表单时将其用作上下文。</p>
+            </td>
+            <td><p>2026年9月22日</p></td>
+            <td><p>2026年9月22日</p></td>
+            <td><p>2026年9月22日</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 资源管理增强功能
 
@@ -618,26 +681,51 @@ ht-degree: 1%
 * [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 * [Adobe Workfront计划2026年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
-<!--
-## Desktop proofing viewer updates
+## 桌面校对查看器更新
 
-### Version 2.2.1
+### 版本2.2.1
 
-Production release for all customers: September 16, 2026
+适用于所有客户的生产版本： 2026年9月17日
 
-The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
+桌面校对查看器已更新至版本2.2.1。 此更新包括以下更改：
 
-* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
-* Resolved an issue with opening proofs from a URL on non-US regions.
-* The viewer now keeps your 10 most recent proofs.
-* Updated the Workfront logo to the current branding.
-* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
-* Updated the underlying framework (Electron) for performance and security improvements.
+* 现在，您可以在同一查看器中打开来自任何环境（生产、预览、沙盒等）的验证，而无需在切换时重新安装。
+* 解决了从非美国区域的URL中打开验证的问题。
+* 查看器现在会保留您的10个最新校样。
+* 已将Workfront徽标更新为当前品牌。
+* 在“关于Workfront Proof”屏幕中添加了更多详细信息，以加快故障排除。
+* 更新了用于改进性能和安全性的底层框架(Electron)。
 
-For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
--->
+有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。
 
 ## 公告
+
+### 弃用旧版计费和成本率字段
+
+随着时间的推移，我们引进了增强的速率管理能力和专门的工作角色体验，为维护速率信息提供了更完整且可扩展的方法。 因此，费率管理正转向这些专用体验，而不是基于列表的管理工作流。
+
+在2027年1月版中，旧版字段&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;将不再在Workfront API或“用户”和“工作角色”列表视图中可用，包括筛选器/视图/分组配置（直接引用和文本模式计算列）。
+
+作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
+
+    &grave;&grave;
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates)。lists
+    type=iterate
+    valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
+    valueformat=HTML
+    &grave;&grave;
+
+要管理和审查费率，请使用专门的费率管理经验：
+
+* 直接从用户配置文件访问用户费率。
+* 直接从“工作角色”>“费率”页面访问和管理工作角色费率。
+* 使用费率报表可以审核、分析和报告跨用户和工作角色的费率信息。
+
+无需执行任何操作即可为更改做好准备。 但是，当前在“用户”或“工作角色”列表视图中显示&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;字段的管理员应更新其工作流，以使用上述建议的费率管理体验。
+
+有关工作角色和用户费率的信息，请参阅[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)和[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ### 针对Data Connect读取器用户的仅密码身份验证将于2026年8月8日终止
 

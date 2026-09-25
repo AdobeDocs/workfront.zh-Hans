@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
 workflow-type: tm+mt
-source-wordcount: '14569'
+source-wordcount: '14574'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -19,12 +19,13 @@ ht-degree: 2%
     * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
     * 2026年第四季度发行 {#release-26-q4}
       * [2026年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [2026年第四季度AI增强](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026年第四季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026年第四季度AI增强](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026年第四季度文档增强](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [2026年第四季度财务管理增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [2026年第四季度项目增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [2026年第四季度报表改进](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026年第四季度请求增强](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [2026年第四季度资源管理增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [2026年第四季度其他增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026年第三季度发行 {#release-26-q3}
@@ -2252,7 +2253,7 @@ ht-degree: 2%
     * [共享记录类型](planning/access/share-record-types.md)
     * [共享视图](planning/access/share-views.md)
     * [共享记录](planning/access/share-records.md)
-    * {hide-from-toc}[共享Workfront规划字段](planning/access/share-fields.md)
+    * [共享Workfront规划字段](planning/access/share-fields.md)
     * [设置记录的默认权限](planning/access/set-default-record-permissions.md)
     * [请求对视图或工作区的权限](planning/access/request-permissions.md)
   * Adobe Workfront Planning记录 {#adobe-workfront-planning-records}

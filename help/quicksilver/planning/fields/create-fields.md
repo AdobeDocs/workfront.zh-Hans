@@ -11,23 +11,28 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: adda394cd1896753d3b6688eed528f92738eedcf
 workflow-type: tm+mt
-source-wordcount: 5442
+source-wordcount: '5561'
 ht-degree: 1%
-
 ---
-
 <!--
 Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??
 -->
@@ -42,13 +47,10 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # 创建字段
 
-<!--information about choice values must stay in yellow till Jan 2026-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -295,6 +297,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
     -->
 
 1. 继续添加每个字段，如下节所述。
+
+1. <span class="preview">（可选且有条件）添加字段后，将鼠标悬停在表视图列标题中的字段名称上，单击&#x200B;**更多**&#x200B;下拉菜单，然后单击&#x200B;**共享字段**&#x200B;以共享该字段。</span>
+
+   </span>有关信息，请参阅[共享字段](/help/quicksilver/planning/access/share-fields.md)。</span>
 
 ### 单行文本 {#single-line-text}
 

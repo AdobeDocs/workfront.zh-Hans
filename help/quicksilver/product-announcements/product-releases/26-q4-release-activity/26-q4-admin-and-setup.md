@@ -4,9 +4,9 @@ description: 2026年第四季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1382'
 ht-degree: 0%
 ---
 # 2026年第四季度管理员增强功能
@@ -14,6 +14,18 @@ ht-degree: 0%
 本页介绍了管理员在2026年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 为MCP集成添加授权的重定向URL
+
+>[!NOTE]
+>
+>预览： 2026年9月22日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+为了使Workfront MCP服务器更灵活，并且可为您的组织自定义，我们添加了添加自定义OAuth回调URL的功能。 Workfront管理员现在可以维护自己组织的受信任OAuth回调URL允许列表，以便进行MCP集成。 这使您能够在Workfront本机支持的平台之外，连接其组织唯一OAuth回调URL的自定义AI代理平台。
+
+有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)中的[添加或删除授权重定向URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)。
 
 <!--
 

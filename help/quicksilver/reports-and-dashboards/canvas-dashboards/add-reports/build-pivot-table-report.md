@@ -5,12 +5,14 @@ title: 在画布功能板中构建数据透视表
 description: 您可以将数据透视表添加到画布仪表板，以表格式查看数据的聚合总计。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 6%
 ---
 # 在画布功能板中构建数据透视表
+
+{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >

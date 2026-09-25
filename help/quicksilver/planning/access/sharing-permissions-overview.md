@@ -11,27 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
 workflow-type: tm+mt
-source-wordcount: 1287
-ht-degree: 4%
-
+source-wordcount: '1502'
+ht-degree: 5%
 ---
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
 # 在Adobe Workfront Planning中共享权限概述
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -49,36 +50,57 @@ ht-degree: 4%
 
 * 工作区
 
-   * 您可以与组织内的人员共享工作区。
-   * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
-   * 共享工作区时，视图不共享。 视图将单独共享。
+  * 您可以与用户、组、团队、公司和工作角色共享组织内的工作区。
+  * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
+  * 共享工作区时，视图不共享。 视图将单独共享。
 
   有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
 
 * 记录类型
 
-   * 您可以与组织内部人员共享记录类型。
-   * 授予工作区的权限级别显示为记录类型的继承权限。
-   * 您无法以高于用户在工作区中的权限级别共享记录类型。
+  * 您可以在组织内与用户、组、团队、公司和职位角色共享记录类型。
+  * 授予工作区的权限级别显示为记录类型的继承权限。
+  * 您无法以高于用户在工作区中的权限级别共享记录类型。
 
   有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
 * 记录
 
-   * 您可以与组织内部人员共享记录。
-   * 默认情况下，用户从工作区和记录类型继承权限。
-   * 您无法共享权限级别高于或低于用户在记录类型上权限级别的记录。
+  * 您可以与组织内部的人员、用户、组、团队、公司和职位角色共享记录。
+  * 默认情况下，用户从工作区和记录类型继承权限。
+  * 您无法共享权限级别高于或低于用户在记录类型上权限级别的记录。
 
   有关详细信息，请参阅[共享记录](/help/quicksilver/planning/access/share-records.md)。
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * 视图
 
-   * 您必须向用户（包括系统管理员）授予单独访问视图的权限和访问工作区的权限。
-   * 共享视图时，将共享所有视图元素，包括筛选器、分组、排序或设置。
-   * 共享视图时，不会共享该视图中可见的记录。 必须通过共享工作区来共享记录。
-   * 在为视图生成公共链接时，您可以与组织外部的人员公开共享视图。从公共链接访问记录页面的人员可以查看所有记录及其字段，包括连接的记录和字段。
+  * 您必须向用户（包括系统管理员）授予单独访问视图的权限和访问工作区的权限。
+  * 共享视图时，将共享所有视图元素，包括筛选器、分组、排序或设置。
+  * 共享视图时，不会共享该视图中可见的记录。 必须通过共享工作区来共享记录。
+  * 在为视图生成公共链接时，您可以与组织外部的人员公开共享视图。 从公共链接访问记录页面的人员可以查看所有记录及其字段，包括连接的记录和字段。
 
   有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
@@ -95,21 +117,21 @@ ht-degree: 4%
 
 * 您可以通过以下方式共享Planning对象：
 
-   * 在内部，您可以与以下Workfront实体共享Workfront Planning对象：
+  * 在内部，您可以与以下Workfront实体共享Workfront Planning对象：
 
-      * 用户
-      * 组
-      * 团队
-      * 公司
-      * 工作角色
+    * 用户
+    * 组
+    * 团队
+    * 公司
+    * 工作角色
 
-     您最多可以将Planning对象与每个对象100个实体共享。
+    您最多可以将Planning对象与每个对象100个实体共享。
 
-   * 在内部，通过与其他Planning用户共享指向工作区或视图的链接。 存在以下情况：
+  * 在内部，通过与其他Planning用户共享指向工作区或视图的链接。 存在以下情况：
 
-      * 接收工作区链接的用户必须是活动用户，并且必须登录到Workfront才能访问工作区。
-      * 收到视图的内部共享链接的用户必须是活动用户，并且必须登录到Workfront才能访问该视图。
-   * 从外部来看，是通过与没有Workfront帐户的外部用户共享指向视图的公开共享链接。
+    * 接收工作区链接的用户必须是活动用户，并且必须登录到Workfront才能访问工作区。
+    * 收到视图的内部共享链接的用户必须是活动用户，并且必须登录到Workfront才能访问该视图。
+  * 从外部来看，是通过与没有Workfront帐户的外部用户共享指向视图的公开共享链接。
 
 ## 共享Adobe Workfront Planning对象的权限
 
@@ -143,6 +165,10 @@ ht-degree: 4%
 | 共享 | ✓ |            |       |
 | 删除 | ✓ |            |       |
 | 视图 | ✓ | ✓ | ✓ |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### 记录类型的权限
 
@@ -231,9 +257,13 @@ In the Production environment, the following are the levels of permissions for r
 
 ### 记录字段的权限
 
-向工作区和记录类型授予权限时，字段权限继承自记录类型。
 
-以下权限是指字段本身，而不是与每个字段关联的值。 要编辑字段值，您必须具有编辑记录的权限。
+#### 在生产环境中记录字段的权限
+
+
+向工作区和记录类型授予权限时，编辑字段设置的权限继承自记录类型。
+
+以下权限是指字段设置，而不是与每个字段关联的值。 要编辑字段值，您必须具有编辑记录的权限。
 
 |        | 管理 | 贡献 | 视图 |
 |--------|--------|------------|-------|
@@ -242,6 +272,38 @@ In the Production environment, the following are the levels of permissions for r
 | Edit | ✓ |            |       |
 | 视图 | ✓ | ✓ | ✓ |
 
+
+<div class="preview">
+
+#### 在预览环境中记录字段的权限
+
+向工作区和记录类型授予权限时，字段设置的权限继承自记录类型。
+
+以下权限是指字段设置，而不是与每个字段关联的值。
+
+|        | 管理 | 贡献 | 视图 |
+|--------|--------|------------|-------|
+| 创建 | ✓ |            |       |
+| 删除 | ✓ |            |       |
+| Edit | ✓ |            |       |
+| 视图 | ✓ | ✓ | ✓ |
+
+
+字段值的权限从记录类型继承，并与记录的权限结合使用。
+
+您可以管理单个字段值的权限，并限制可能包含机密信息的字段。
+
+您可以通过共享字段来向字段值授予以下权限：
+
+|        | 管理 | 视图 |
+|--------|--------|------|
+| 删除 | ✓ |      |
+| Edit | ✓ |      |
+| 视图 | ✓ | ✓ |
+
+用户必须至少具有记录类型的查看权限才能访问字段。
+
+</div>
 
 ### 查看权限
 

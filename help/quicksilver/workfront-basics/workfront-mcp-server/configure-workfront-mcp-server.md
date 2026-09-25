@@ -5,13 +5,12 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
-
 
 # 配置Adobe Workfront MCP服务器
 
@@ -53,6 +52,8 @@ MCP服务器访问由两个不同的管理员控制。
   有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 * 如果您使用企业版AI代理平台，则该平台的管理员必须为您的组织启用[!DNL Adobe Workfront]连接器，或为您提供自定义URL访问权限以连接到Workfront MCP服务器。
+
+* <span class="preview">如果您要连接具有每个客户的唯一OAuth回调URL的自定义应用程序或代理平台，您的Workfront管理员必须将该URL添加到&#x200B;**系统首选项> MCP首选项**&#x200B;中的&#x200B;**授权重定向URL**&#x200B;列表。 如果没有此项，身份验证将被拒绝。 有关详细信息，请参阅本文中的[与OAuth连接](#connect-with-oauth)。</span>
 
 
 ## 将Workfront连接到克劳德
@@ -109,7 +110,7 @@ MCP服务器访问由两个不同的管理员控制。
 1. 单击&#x200B;**连接**。
 此时将显示Workfront登录窗口。
 1. 使用您的Adobe ID凭据进行身份验证。
-您可能需要选择配置文件和Workfront实例。您选择的配置文件决定了连接的工作区。
+您可能需要选择配置文件和Workfront实例。 您选择的配置文件决定了连接的工作区。
 
 +++
 
@@ -145,7 +146,7 @@ MCP服务器访问由两个不同的管理员控制。
 1. 单击&#x200B;**保存**。
 1. 在显示的列表中，为要添加的MCP服务器单击&#x200B;**身份验证**。
 1. 登录到Workfront。
-您可能需要选择配置文件和Workfront实例。您选择的配置文件决定了连接的工作区。
+您可能需要选择配置文件和Workfront实例。 您选择的配置文件决定了连接的工作区。
 1. 在ChatGPT的MCP服务器列表中，确保新MCP服务器右侧的切换保持切换状态。
 
 +++
@@ -238,7 +239,33 @@ ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定
 
 ### 与OAuth连接
 
-Workfront尚不支持自定义OAuth集成的自助服务。
+<div class="preview">
+
+如果您连接的AI代理平台或自定义应用程序具有每个客户的唯一OAuth回调（重定向）URL，例如包含连接或租户ID的URL，则您的Workfront管理员必须将该URL添加到您组织的授权重定向URL列表中，然后才能进行身份验证。
+
+>[!NOTE]
+>
+>仅当集成不是本地支持的平台之一时（例如Claude或Copilot ），才需要此操作。 如果您使用本机支持的平台，请参阅本文中适用于该平台的部分。
+
+您的Workfront管理员在系统首选项中添加了授权的重定向URL。
+
+有关为MCP服务器添加重定向URL的说明，请参阅[添加或删除授权的重定向URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)。
+
+添加URL后，您可以将自定义应用程序或代理平台连接到Workfront MCP服务器URL：
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+连接时，系统将要求您使用Adobe ID凭据进行身份验证。
+
+>[!IMPORTANT]
+>
+>回调URL必须完全匹配。 Workfront不支持将通配符或前缀匹配用于自定义回调URL。 只有此列表上的URL才能完成MCP代理的登录 — 如果关联的代理已停用或已遭破坏，请立即删除URL。
+
+如果您的回调URL不在列表中，则会拒绝身份验证请求。 请咨询Workfront管理员，以确认输入的URL与集成提供的URL完全一致。
+
+</div>
 
 ## 验证您的连接
 

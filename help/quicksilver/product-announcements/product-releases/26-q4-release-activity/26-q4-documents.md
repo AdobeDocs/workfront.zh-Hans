@@ -4,18 +4,37 @@ description: 2026年第四季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: b16738e5fbfa99fe2e9288adc059559fa3a725d3
 workflow-type: tm+mt
 source-wordcount: '1333'
 ht-degree: 0%
-
 ---
-
 # 2026年第四季度文档增强
 
 本页介绍了在2026年第四季度发行版中对“预览”环境所做的文档增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+<!--
+
+## Access Workfront projects in Adobe Creative Cloud apps
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: [DATE]
+>Production for everyone: [DATE]
+
+You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
+
+The Documents folder structure in a Workfront project is mirrored in the Projects panel. When you open a document from a project folder, edit it, and save, your changes appear in Workfront. You can also request a document approval on any document connected with Photoshop, Illustrator, or InDesign from Workfront.
+
+For more information, see:
+
+* [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+* [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
+-->
 
 ## 控制谁可以查看和使用审批模板
 
