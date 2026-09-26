@@ -2,23 +2,26 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 使用增强型身份验证重置用户密码
-description: 为您的 [!DNL Workfront] 环境启用增强身份验证(eAuth)后， [!DNL Workfront] 管理员无法重置其他用户的登录凭据。 这与没有eAuth的 [!DNL Workfront] 环境或启用了单点登录(SSO)的环境不同。
+description: 为您的[!DNL Workfront]环境启用增强身份验证(eAuth)后，[!DNL Workfront]管理员无法重置其他用户的登录凭据。 这与没有eAuth的[!DNL Workfront]环境或启用了单点登录(SSO)的环境不同。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-TQID: https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q
+TQID: 'https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: '200'
 ht-degree: 1%
-
 ---
-
 # 使用增强型身份验证重置用户密码
 
 <!--This article has been hidden by request-->
@@ -39,7 +42,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 

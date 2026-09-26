@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 创建来自 [!DNL Microsoft] 团队的 [!DNL Adobe Workfront] 任务
-description: 如果团队所有者已为您的团队安装和配置 [!DNL Workfront] 的Adobe，并且您从Microsoft Teams登录Workfront，则您可以在Microsoft Teams [!DNL Workfront] 中从Microsoft Teams创建个人任务。
+title: 从[!DNL Microsoft]个团队中创建[!DNL Adobe Workfront]任务
+description: 如果团队所有者为您的团队安装和配置了Adobe [!DNL Workfront]的Microsoft Teams，并且您从Microsoft Teams登录了Workfront，那么您可以从Microsoft Teams在[!DNL Workfront]中创建个人任务。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
+TQID: 'https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: '453'
 ht-degree: 4%
-
 ---
-
 # 从[!DNL Microsoft Teams]创建[!DNL Adobe Workfront]任务
 
 >[!IMPORTANT]
@@ -83,12 +89,12 @@ ht-degree: 4%
    * 如果您在[!DNL Workfront]机器人聊天频道，请在[!UICONTROL 对话]字段中键入&#x200B;**[!UICONTROL 新任务]**&#x200B;以创建新任务。
    * 如果您在[!DNL Workfront]机器人聊天频道以外的聊天频道：
 
-      * 开始在[!UICONTROL 对话]字段中键入&#x200B;**[!DNL @workfront]**，然后选择所需的[!DNL Workfront]机器人渠道。
-      * 继续在[!UICONTROL 对话]字段中键入&#x200B;**[!UICONTROL 新任务]**&#x200B;以创建新任务。
+     * 开始在[!UICONTROL 对话]字段中键入&#x200B;**[!DNL @workfront]**，然后选择所需的[!DNL Workfront]机器人渠道。
+     * 继续在[!UICONTROL 对话]字段中键入&#x200B;**[!UICONTROL 新任务]**&#x200B;以创建新任务。
 
-        [!UICONTROL 新任务]信息卡显示在[!DNL Workfront]机器人渠道中。
+       [!UICONTROL 新任务]信息卡显示在[!DNL Workfront]机器人渠道中。
 
-        ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+       ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
 1. 在[!UICONTROL Workfront]机器人渠道中，在[!UICONTROL 新建任务]信息卡上指定以下信息：
 

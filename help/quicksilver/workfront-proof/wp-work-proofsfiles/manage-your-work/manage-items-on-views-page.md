@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中管理[!UICONTROL 视图]页面上的项目
+title: 在[!DNL Workfront Proof]中管理[!UICONTROL 视图]页面上的项目
 description: '[!UICONTROL 视图]页面允许您在一个位置查看和使用所有校样、文件和文件夹。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+TQID: 'https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1544
+source-wordcount: '1544'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中管理[!UICONTROL 视图]页面上的项目
 
 >[!IMPORTANT]
@@ -202,4 +210,4 @@ ht-degree: 0%
 1. 执行下列操作之一：
 
    * 要移动一个项目，请单击并按住它，将其拖放到要放置它的文件夹中。
-   * 若要同时移动多个项目，可以选中项目左侧的复选框，然后单击列表上方的&#x200B;**[!UICONTROL 移至]**，然后选择要放置这些项目的文件夹，或为其创建新文件夹。
+   * 若要同时移动多个项目，可以选中项目左侧的复选框，然后单击列表上方的**[!UICONTROL 移至]**，然后选择要放置这些项目的文件夹，或为其创建新文件夹。

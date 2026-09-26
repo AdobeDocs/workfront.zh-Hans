@@ -5,13 +5,25 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 1%
-
 ---
-
 
 # 配置记录类型业务规则
 
@@ -146,7 +158,7 @@ ht-degree: 1%
 
    在业务规则的&#x200B;**Then**&#x200B;部分中，您可以查看规则的用途的说明。
 
-1. 单击“激活”**&#x200B;**&#x200B;以激活此记录类型的规则，然后单击“保存”**&#x200B;**。
+1. 单击“激活”****&#x200B;以激活此记录类型的规则，然后单击“保存”****。
 
    规则在激活后立即应用，所有有权编辑或删除选定记录类型中记录的用户都必须遵循这些规则。
 1. （可选）单击页眉中业务规则名称的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)以打开&#x200B;**规则详细信息**&#x200B;框并更新有关该业务规则的信息。

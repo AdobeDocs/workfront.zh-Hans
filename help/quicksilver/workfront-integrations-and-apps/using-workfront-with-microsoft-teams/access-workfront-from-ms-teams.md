@@ -1,31 +1,38 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: '从 [!DNL Microsoft] 个团队访问 [!DNL Adobe Workfront] '
-description: 您可以在 [!DNL Microsoft Teams] 中访问 [!DNL Adobe Workfront] 并在 [!DNL Workfront] 中执行若干操作，方法是在Workfront机器人频道或任何其他团队频道中键入命令。
+title: 从[!DNL Microsoft]团队访问[!DNL Adobe Workfront]
+description: 您可以通过在Workfront机器人渠道或任何其他团队渠道中键入命令，从[!DNL Microsoft Teams]访问[!DNL Adobe Workfront]并在[!DNL Workfront]中执行多个操作。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-TQID: https://experienceleague.adobe.com/ztTWhJ3wias0xujQofaN-PZZfSM1BHNnCajJnruzdO8
+TQID: 'https://experienceleague.adobe.com/ztTWhJ3wias0xujQofaN-PZZfSM1BHNnCajJnruzdO8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: '521'
 ht-degree: 5%
-
 ---
-
 # 从[!DNL Microsoft Teams]访问[!DNL Adobe Workfront]
 
 <!--Audited: 01/2024-->
@@ -94,7 +101,7 @@ ht-degree: 5%
 
 1. 开始键入项目、任务或问题的名称。
 
-   有关搜索项的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)的 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article Search for and share [!DNL Adobe Workfront] 项中搜索和共享 [!DNL Adobe Workfront] 项。
+   有关搜索项的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] 项中搜索和共享 [!DNL Adobe Workfront] 项。
 
 1. 单击&#x200B;**[!UICONTROL 在此处键入您的问题]**&#x200B;字段。
 
@@ -118,7 +125,7 @@ ht-degree: 5%
 
 1. 单击&#x200B;**[!UICONTROL 搜索]**&#x200B;以搜索项目、任务或问题。
 
-   有关搜索项的信息，请参阅 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)文章中的 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the Search for and share [!DNL Adobe Workfront] 项中的搜索和共享 [!DNL Adobe Workfront] 项。
+   有关搜索项的信息，请参阅 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)文章中的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] 项中的[搜索和共享 [!DNL Adobe Workfront] 项。
 
 1. 键入以下任意命令以在Workfront中执行这些操作。\
    命令不区分大小写：

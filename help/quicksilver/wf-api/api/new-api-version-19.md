@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
-TQID: https://experienceleague.adobe.com/5LLcfkvjzqNZ9tswEkV7lMgFxHS4qcVFJ9YMUI6JazY
+TQID: 'https://experienceleague.adobe.com/5LLcfkvjzqNZ9tswEkV7lMgFxHS4qcVFJ9YMUI6JazY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 902
+source-wordcount: '980'
 ht-degree: 0%
-
 ---
-
 # API版本19中的新增功能
 
 Adobe Workfront于2024年4月8日发布了API版本19。 API版本19具有来自版本18的以下更改。
@@ -72,7 +75,7 @@ Assignment对象表示工作项与分派处理该工作项的用户、团队或�
       <td>添加了以下直接字段：
         <ul>
           <li>
-            <p><b>类别ID</b><p>类别是自定义表单。此字段支持向分配添加自定义表单的功能。
+            <p><b>类别ID</b><p>类别是自定义表单。 此字段支持向分配添加自定义表单的功能。
             </p>
           </li>
           <li>
@@ -92,7 +95,7 @@ Assignment对象表示工作项与分派处理该工作项的用户、团队或�
       <td>添加了以下参考字段：
         <ul>
           <li>
-            <p><b>类别</b><p>类别是自定义表单。此字段支持向分配添加自定义表单的功能。
+            <p><b>类别</b><p>类别是自定义表单。 此字段支持向分配添加自定义表单的功能。
             </p>
           </li>
         </ul>
@@ -103,7 +106,7 @@ Assignment对象表示工作项与分派处理该工作项的用户、团队或�
       <td>添加了以下收藏集字段：
         <ul>
           <li>
-            <p><b>对象类别</b><p>类别是自定义表单。此字段支持向分配添加自定义表单的功能。
+            <p><b>对象类别</b><p>类别是自定义表单。 此字段支持向分配添加自定义表单的功能。
             </p>
           </li>
         </ul>
@@ -481,7 +484,7 @@ TemplateAssignment对象添加了标志&#x200B;**DATA_EXTENDIBLE**。
       <td>添加了以下直接字段：
         <ul>
           <li>
-            <p><b>类别ID</b><p>类别是自定义表单。此字段支持向分配添加自定义表单的功能。
+            <p><b>类别ID</b><p>类别是自定义表单。 此字段支持向分配添加自定义表单的功能。
             </p>
           </li>
         </ul>
@@ -491,7 +494,7 @@ TemplateAssignment对象添加了标志&#x200B;**DATA_EXTENDIBLE**。
       <td>添加了以下参考字段：
         <ul>
           <li>
-            <p><b>类别</b><p>类别是自定义表单。此字段支持向分配添加自定义表单的功能。
+            <p><b>类别</b><p>类别是自定义表单。 此字段支持向分配添加自定义表单的功能。
             </p>
           </li>
         </ul>
@@ -502,7 +505,7 @@ TemplateAssignment对象添加了标志&#x200B;**DATA_EXTENDIBLE**。
       <td>添加了以下收藏集字段：
         <ul>
           <li>
-            <p><b>对象类别</b><p>类别是自定义表单。此字段支持向分配添加自定义表单的功能。
+            <p><b>对象类别</b><p>类别是自定义表单。 此字段支持向分配添加自定义表单的功能。
             </p>
           </li>
         </ul>

@@ -6,22 +6,29 @@ description: 您可以在画布功能板中查看审批指标。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
+TQID: 'https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3c25e6bf7cfa1e2ac25a83096d83a8eb0ef4a148
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2771
+source-wordcount: '2771'
 ht-degree: 0%
-
 ---
-
 # 创建用于审阅和审批的报告仪表板
 
 您可以在“画布功能板”区域中创建报告功能板，以显示有关具有统一审批功能的审阅和审批的高级信息和详细信息。
@@ -459,7 +466,7 @@ ht-degree: 0%
 1. 单击&#x200B;**编辑筛选器** > **添加条件**：
    1. 单击空条件筛选器，然后单击&#x200B;**选取字段**。
    1. 选择&#x200B;**文档版本** > **文档** > **项目** > **所有者** >在搜索框中键入&#x200B;_名称_。
-   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**&#x200B;以在Workfront中显示您标记为项目所有者的项目。
+   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**以在Workfront中显示您标记为项目所有者的项目。
       ![未决批准表筛选器示例](assets/pending-approvals-my-project-filter.png)
 1. 单击屏幕右上角的&#x200B;**保存**。
 
@@ -468,7 +475,7 @@ ht-degree: 0%
 1. 单击&#x200B;**编辑筛选器** > **添加条件**：
    1. 单击空条件筛选器，单击&#x200B;**选取字段**。
    1. 选择&#x200B;**审批阶段** > **审批阶段参与者** > **请求者** >在搜索框中键入&#x200B;_名称_。
-   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**&#x200B;以在Workfront中显示您标记为项目所有者的项目。
+   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**以在Workfront中显示您标记为项目所有者的项目。
       ![未决批准表筛选器示例](assets/pending-approvals-my-project-filter.png)
 1. 单击屏幕右上角的&#x200B;**保存**。
 
@@ -555,7 +562,7 @@ ht-degree: 0%
 1. 单击&#x200B;**编辑筛选器** > **添加条件**：
    1. 单击空条件筛选器，单击&#x200B;**选取字段**。
    1. 选择&#x200B;**文档版本** > **文档** > **项目** > **所有者** >在搜索框中键入&#x200B;_名称_。
-   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**&#x200B;以在Workfront中显示您标记为项目所有者的项目。
+   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**以在Workfront中显示您标记为项目所有者的项目。
       ![未决批准表筛选器示例](assets/pending-approvals-my-project-filter.png)
 1. 单击屏幕右上角的&#x200B;**保存**。
 
@@ -564,7 +571,7 @@ ht-degree: 0%
 1. 单击&#x200B;**编辑筛选器** > **添加条件**：
    1. 单击空条件筛选器，单击&#x200B;**选取字段**。
    1. 选择&#x200B;**审批阶段** > **审批阶段参与者** > **请求者** >在搜索框中键入&#x200B;_名称_。
-   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**&#x200B;以在Workfront中显示您标记为项目所有者的项目。
+   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我（已登录的用户）**以在Workfront中显示您标记为项目所有者的项目。
       ![未决批准表筛选器示例](assets/pending-approvals-my-project-filter.png)
 1. 单击屏幕右上角的&#x200B;**保存**。
 
@@ -573,7 +580,7 @@ ht-degree: 0%
 1. 单击&#x200B;**编辑筛选器** > **添加条件**：
    1. 单击空条件筛选器，单击&#x200B;**选取字段**。
    1. 选择&#x200B;**审批阶段** > **审批阶段参与者** > **参与者团队** >在搜索框中键入&#x200B;_名称_。
-   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我的默认团队（登录用户）**&#x200B;或&#x200B;**我的其他团队（登录用户）**&#x200B;以显示分配给您的默认团队或您所在的其他团队的项目。
+   1. 将运算符更改为&#x200B;**等于**，然后选择&#x200B;**我的默认团队（登录用户）**&#x200B;或&#x200B;**我的其他团队（登录用户）**以显示分配给您的默认团队或您所在的其他团队的项目。
       ![未决批准表筛选器示例](assets/approvals-ive-submitted-filter.png)
 
    1. 单击&#x200B;**添加条件**。

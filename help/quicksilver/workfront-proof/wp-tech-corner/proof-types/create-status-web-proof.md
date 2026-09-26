@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
-title: 使用 [!DNL Workfront Proof]创建静态网站校对
+title: 使用[!DNL Workfront Proof]创建静态网站校对
 description: 您可以从网页创建静态校样。 此外，您还可以通过定义捕获的屏幕分辨率来模拟各种设备。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
-TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
+TQID: 'https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 493
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Workfront Proof]创建静态网站校对
 
 >[!IMPORTANT]
@@ -34,8 +43,8 @@ ht-degree: 0%
 1. 打开[!UICONTROL 新校对]页面，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中生成校对中所述。
 1. 在&#x200B;**www.shareyourlink.com**&#x200B;框中粘贴或键入您的URL。
 1. 您可以重复此步骤以添加多个URL。
-1. 在此框的正下方，单击分辨率（默认值为1366x768），然后在&#x200B;**[!UICONTROL 屏幕分辨率]**&#x200B;框中选择所需的任何分辨率。
-如果要验证移动设备的设计，请选择较小的分辨率。通常，会根据屏幕/浏览器窗口分辨率来设计加载。
+1. 在此框的正下方，单击分辨率（默认值为1366x768），然后在&#x200B;**[!UICONTROL 屏幕分辨率]**框中选择所需的任何分辨率。
+如果要验证移动设备的设计，请选择较小的分辨率。 通常，会根据屏幕/浏览器窗口分辨率来设计加载。
 
 1. 如果要包含与输入的URL位于同一域/子域的已连接页面，请单击&#x200B;**[!UICONTROL 查找子页面]**。
    [!DNL Workfront Proof]扫描连接的页面，并在&#x200B;**[!UICONTROL 查找子页面]**&#x200B;选项下方列出这些页面。 您可以选择要包含的页面。

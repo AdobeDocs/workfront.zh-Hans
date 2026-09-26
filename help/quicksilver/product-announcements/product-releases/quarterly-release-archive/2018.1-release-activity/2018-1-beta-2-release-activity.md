@@ -7,22 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+TQID: 'https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1304
+source-wordcount: '1334'
 ht-degree: 2%
-
 ---
-
 # 2018.1 Beta 2发行版活动
 
 本页介绍了2018.1 Beta 2版本在“预览”环境中最近提供的所有更改。 2017年12月14日，预览环境中提供了此页面上的功能。 该版本将于2018年3月在生产环境中提供。
@@ -35,11 +40,11 @@ ht-degree: 2%
 
 2018.1 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [用户和布局模板的组管理](#group-administration-for-users-and-layout-templates)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [系统范围宽屏显示器](#system-wide-widescreen-display)
 * [在甘特图上调整时间线快照的大小](#resize-timeline-snapshot-on-the-gantt-chart)
@@ -129,9 +134,9 @@ ht-degree: 2%
 
 * 外观和感觉改进
 
-   * 右侧面板现在更大了，为任务和问题信息提供了更多空间。
-   * 现在，在左侧面板中选择过期项目时，将以较浅的红色阴影显示。
-   * 现在，您可以更轻松地查看左面板和右面板之间的关系。 左侧面板中选定的文档指向右侧面板。
+  * 右侧面板现在更大了，为任务和问题信息提供了更多空间。
+  * 现在，在左侧面板中选择过期项目时，将以较浅的红色阴影显示。
+  * 现在，您可以更轻松地查看左面板和右面板之间的关系。 左侧面板中选定的文档指向右侧面板。
 
 * 显示选定项目的默认字段。 
 
@@ -170,13 +175,13 @@ ht-degree: 2%
 
 ### 按评论编号搜索评论 {#search-comments-by-comment-number}
 
-现在，当您在验证查看器中搜索评论列表时，可以在搜索字段中输入评论的编号。然后，筛选注释列表以显示您搜索的注释。 
+现在，当您在验证查看器中搜索评论列表时，可以在搜索字段中输入评论的编号。 然后，筛选注释列表以显示您搜索的注释。 
 
 有关更多信息，请参阅中的。
 
 ### 用于编辑标记指示器旁的注释的选项 {#option-to-edit-comment-next-to-the-markup-indicator}
 
-您现在可以更轻松地编辑现有评论。单击校样上的注释指示器后，球标旁边会显示编辑图标。 
+您现在可以更轻松地编辑现有评论。 单击校样上的注释指示器后，球标旁边会显示编辑图标。 
 
 在此更改之前，您必须单击“注释”区域中的编辑图标。  
 

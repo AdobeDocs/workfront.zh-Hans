@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: 从 [!DNL Slack]访问您的收藏夹和最近项目
-description: 为Slack安装并配置 [!DNL Adobe Workfront] 后，您可以查看Workfront收藏夹和最近项目，并从Slack的任意列表中访问项目。
+title: 从[!DNL Slack]访问您的收藏夹和最近项目
+description: 为Slack安装和配置[!DNL Adobe Workfront]后，您可以查看Workfront收藏夹和最新项目，并从Slack的任意列表中访问项目。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-TQID: https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE
+TQID: 'https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '324'
 ht-degree: 6%
-
 ---
-
 # 从[!DNL Slack]访问您的收藏夹和最近项目
 
 安装并配置[!DNL Adobe Workfront for Slack]后，您可以查看[!UICONTROL Workfront]收藏夹和“最近项目”，并从[!DNL Slack]的任意列表中访问项目。

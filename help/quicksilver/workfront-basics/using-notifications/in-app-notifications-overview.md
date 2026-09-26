@@ -6,18 +6,21 @@ description: 本文列出了您可以收到的应用程序内通知。 应用程
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 1%
-
 ---
-
 # 应用程序内通知概述
 
 本文列出了您可以收到的应用程序内通知。 应用程序内通知可让您随时了解以下两种类型的信息：公告通知和工作项通知。 它们可从Web应用程序和移动应用程序中获取。
@@ -103,9 +106,9 @@ ht-degree: 1%
 * ![问题图标](assets/issue.png) [!UICONTROL 问题分配给] [团队名称] - [分配者姓名]
 * ![分配给您的任务](assets/icon-taskassngdtoyou.png) [!UICONTROL 分配给]的任务[团队名称] - [分配者姓名]
 
-   * 仅当项目状态设置为[!UICONTROL Current]（或自定义状态等于[!UICONTROL Current]）时，才会发送工作分配通知。
-   * 不打算向请求者和审阅者分配工作。 因此，如果分配给他们的任务和问题，则不会通知他们。
-   * 如果您将工作分派给自己或您所属的团队，您将不会收到通知。
+  * 仅当项目状态设置为[!UICONTROL Current]（或自定义状态等于[!UICONTROL Current]）时，才会发送工作分配通知。
+  * 不打算向请求者和审阅者分配工作。 因此，如果分配给他们的任务和问题，则不会通知他们。
+  * 如果您将工作分派给自己或您所属的团队，您将不会收到通知。
 
 ### [!UICONTROL 个评论]
 

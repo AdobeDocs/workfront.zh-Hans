@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+TQID: 'https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1700
+source-wordcount: '1722'
 ht-degree: 0%
-
 ---
-
 # 2018.2 Beta 4发行版活动
 
 本页介绍了2018.2 Beta 4版本在“预览”环境中最近提供的所有更改。 该功能将于2018年5月17日在预览环境中可用。 该版本将于2018年7月在生产环境中提供。
@@ -38,11 +44,11 @@ ht-degree: 0%
 
 2018.2 Beta 4版本包含适用于Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [系统设置：外部页面中的会话信息](#system-setting-session-information-in-external-pages)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * Kanban展示板上的[正在工作(WIP)限制增强功能](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [改进了配置Agile团队状态的界面](#improved-interface-for-configuring-statuses-for-an-agile-team)
@@ -145,7 +151,7 @@ ht-degree: 0%
 
   旧版验证查看器不支持审核在iframe中无法查看的网站。
 
-* 查看各种设备具有预配置分辨率的内容。例如，您可以看到内容在各种标准桌面分辨率上或iPhone 8等单个设备上的显示方式。 
+* 查看各种设备具有预配置分辨率的内容。 例如，您可以看到内容在各种标准桌面分辨率上或iPhone 8等单个设备上的显示方式。 
 
 有关下载、安装和使用桌面校对查看器的更多信息，请参阅。
 
@@ -157,7 +163,7 @@ ht-degree: 0%
 
 有关将资源规划者数据导出到Excel的更多信息，请参阅[资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“导出选项”部分。
 
-要参与我们当前针对资源规划者的测试版计划，请参阅[资源规划者绩效Beta。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)
+要参与我们当前针对资源规划者的测试版计划，请参阅[资源规划者绩效Beta。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## 系统设置：外部页面中的会话信息 {#system-setting-session-information-in-external-pages}
 

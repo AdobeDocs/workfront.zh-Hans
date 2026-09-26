@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hCw4yyqTl-aXG5Z71TpFsfWX1s463Z8cUTIdJ1ifbfo
+TQID: 'https://experienceleague.adobe.com/hCw4yyqTl-aXG5Z71TpFsfWX1s463Z8cUTIdJ1ifbfo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1091
+source-wordcount: '1091'
 ht-degree: 2%
-
 ---
-
 # 创建矩阵报告
 
 矩阵报表以汇总表的格式显示摘要信息，因此与传统报表中的列表相比，更容易查看这些信息。
@@ -138,8 +143,9 @@ ht-degree: 2%
      >   * 数字和货币值的自定义数据字段汇总所有任务：父任务、子任务、父任务的父任务和独立任务。 如果您创建了矩阵报表，以在&#x200B;**值**&#x200B;列中显示计划小时数或实际小时数，请注意，任何父对象（如父任务）的小时数或成本信息都不会显示在矩阵报表中。 要查看父对象的小时数，必须查看&#x200B;**详细信息**&#x200B;选项卡。
      >   
      >   
-     >**条件规则：**&#x200B;为聚合的值设置任何格式规则。\
+     >
 
+   **条件规则：**&#x200B;为聚合的值设置任何格式规则。\
    添加规则后，您可以定义字段和文本样式，以显示与该规则匹配的字段。 完成规则定义后，单击&#x200B;**添加规则**，然后单击&#x200B;**完成**&#x200B;以保存规则。
 
 1. 单击&#x200B;**筛选器**&#x200B;选项卡以定义将在报告中显示的信息。

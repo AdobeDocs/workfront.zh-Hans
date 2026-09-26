@@ -6,30 +6,43 @@ description: 如果您通过Workfront Fusion创建项目并希望在项目上包
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-TQID: https://experienceleague.adobe.com/Hegf4kJc65Le5-PttBh6pLzyR8zvydUbbjidxrK0se0
+TQID: 'https://experienceleague.adobe.com/Hegf4kJc65Le5-PttBh6pLzyR8zvydUbbjidxrK0se0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9f74d7a567a77128b5d6d6cfa1d4a8d559998a0f
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1040
+source-wordcount: '1040'
 ht-degree: 7%
-
 ---
-
 # 使用Workfront Fusion将Workfront问题转换为包含Adobe Experience Manager工作流的项目
 
 如果您通过Workfront Fusion创建项目并希望在项目上包含Adobe Experience Manager工作流，则必须使用特定的Fusion模块配置，如本文所述。
 
 >[!NOTE]
 >
->工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。此功能在新的“文档”区域中不可用。
+>工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。<br>
+>此功能在新的“文档”区域中不可用。
 
 
 ## 访问权限要求
@@ -92,7 +105,7 @@ ht-degree: 7%
 1. 将&#x200B;**Workfront** > **杂项操作**&#x200B;模块添加到您的方案。
 1. 在&#x200B;**连接**&#x200B;字段中，选择连接到此模块将使用的帐户的Workfront连接。
 
-   有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+   有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
    有关创建客户端ID和客户端密钥的说明，您将需要创建连接，请参阅本文中的[创建OAuth应用程序](#create-an-oauth-application)。
 
@@ -174,7 +187,7 @@ ht-degree: 7%
 
 在Fusion中配置模块的连接时，您将使用此客户端ID和客户端密钥。
 
-有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
 ## 故障排除
 

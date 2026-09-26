@@ -6,22 +6,26 @@ description: 作为 Adobe Workfront 管理员，您可以在分配用户访问�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 14%
-
 ---
-
 # 共享模板
 
 作为 Adobe Workfront 管理员，您可以在分配用户访问级别时授予他们查看或编辑模板的权限。 用户必须具有Standard或Plan许可证才能访问编辑模板。
@@ -42,18 +46,18 @@ ht-degree: 14%
 * 默认情况下，模板的创建者以及模板所有者具有模板的管理权限。 有关将用户指定为模板所有者的信息，请参阅[编辑项目模板](../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 * 共享模板时，您可以共享以下内容：
 
-   * 模板
+  * 模板
 
-     有关如何共享模板的详细信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
+    有关如何共享模板的详细信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-     您可以向模板授予以下权限：
+    您可以向模板授予以下权限：
 
-      * 视图
-      * 管理
+    * 视图
+    * 管理
 
-   * 使用该模板创建的未来项目。 您可以为从模板创建的项目授予与对单个项目相同的权限级别。
+  * 使用该模板创建的未来项目。 您可以为从模板创建的项目授予与对单个项目相同的权限级别。
 
-     有关如何从模板级别共享项目的信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
+    有关如何从模板级别共享项目的信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
 * 共享模板或使用该模板创建的项目时，默认情况下，用户将继承与模板或项目关联的所有子对象的相同权限。
 

@@ -8,21 +8,24 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Z076Zc-HS2zt8fhZ0Hwuw8CaMv5-0Qa9xzEG2hQbfy4
+TQID: 'https://experienceleague.adobe.com/Z076Zc-HS2zt8fhZ0Hwuw8CaMv5-0Qa9xzEG2hQbfy4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '996'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront支持的语言
 
-您可以更改显示来自Workfront的Adobe Workfront和电子邮件的语言，方法是调整浏览器上的语言首选项（如果贵组织尚未迁移到Adobe Admin Console）、Adobe Experience Cloud配置文件语言首选项（如果位于Adobe Admin Console）以及Workfront中的默认电子邮件区域设置。
+您可以更改显示来自Workfront的Adobe Workfront和电子邮件的语言，方法是调整浏览器上的语言首选项（如果贵组织尚未迁移到Adobe Admin Console），或调整Adobe Experience Cloud配置文件语言首选项（如果是在Adobe Admin Console），以及Workfront中的默认电子邮件区域设置。
 
 要更改您显示Workfront的语言，请参阅本文中的[更改语言](#change-the-language)。
 
@@ -41,7 +44,7 @@ Workfront支持以下语言：
 * 中文 — 简体(zh-CN)
 * 繁体中文(zh-TW)
 
-如果您的组织不在Workfront上，则在浏览器中查看Adobe Admin Console时使用的语言由浏览器语言设置控制，或者如果组织在Adobe Admin Console上，则由Adobe Experience Cloud配置文件语言控制。 在任一情况下，请确保选择支持的语言列表中列出的语言。
+如果您的组织未在Adobe Admin Console上，则在浏览器中查看Workfront时使用的语言由浏览器语言设置控制，或者如果组织在Adobe Admin Console上，则由您的Adobe Experience Cloud配置文件语言控制。 在任一情况下，请确保选择支持的语言列表中列出的语言。
 
 要以任何受支持的语言显示传出电子邮件，请在Workfront中修改用户电子邮件区域设置或客户信息设置。\
 您必须是Workfront管理员才能修改客户信息设置。\
@@ -99,7 +102,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 * Workfront Fusion不支持在用户输入的字段中使用非英语文本字符。
 
 贵公司必须购买Workfront Fusion许可证才能访问Workfront Fusion。\
-有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 更改语言
 

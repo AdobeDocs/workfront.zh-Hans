@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: 在 [!DNL Workfront Proof]中配置批准决策选项
-description: 您可以为组织中的 [!DNL Workfront Proof] 用户创建的所有验证配置批准决策选项。
+title: 在[!DNL Workfront Proof]中配置批准决策选项
+description: 您可以为组织中的[!DNL Workfront Proof]用户创建的所有验证配置批准决策选项。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+TQID: 'https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '606'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中配置批准决策选项
 
 >[!IMPORTANT]
@@ -66,9 +75,9 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 帐户设置]**。
 
-1. 打开&#x200B;**[!UICONTROL 决策]**&#x200B;选项卡。
+1. 打开&#x200B;**[!UICONTROL 决策]**选项卡。
 默认情况下，证明的所有决策者都可以查看原因，但您可以将其限制为仅主要决策者。
-根据要求，您可以允许选择多个原因，也可以将其设为单个选择列表。您还可以将原因设置为必填，这意味着查看者必须先选择原因，然后才能将决策保存到验证中。
+根据要求，您可以允许选择多个原因，也可以将其设为单个选择列表。 您还可以将原因设置为必填，这意味着查看者必须先选择原因，然后才能将决策保存到验证中。
    ![原因_设置.png](assets/reasons-setup-350x121.png)
 
 1. 在&#x200B;**[!UICONTROL 原因]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 新原因]**。
@@ -78,9 +87,9 @@ ht-degree: 0%
 1. 如果要包含文本框，请选择&#x200B;**[!UICONTROL 包含文本框]**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
    ![原因_设置_2.png](assets/reasons-setup-2-350x146.png)
-最重要的步骤是选择应显示原因的决策。 如果您忘记这样做，原因将不会显示在您的验证中。
+   最重要的步骤是选择应显示原因的决策。 如果您忘记这样做，原因将不会显示在您的验证中。
 
-1. 选中页面顶部决策列表中&#x200B;**[!UICONTROL 显示原因]**&#x200B;列中的复选框。您可以根据自己的原因选择一个或多个决策。
+1. 选中页面顶部决策列表中&#x200B;**[!UICONTROL 显示原因]**列中的复选框。 您可以根据自己的原因选择一个或多个决策。
    ![原因_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
 
 ## 创建发布决策消息
@@ -94,6 +103,6 @@ ht-degree: 0%
 您还可以决定是希望向所有决策者显示消息，还是希望仅向主要决策者显示消息。
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
-1. 在&#x200B;**[!UICONTROL 显示消息]**&#x200B;列中，指定此消息应显示的决策。
-如果不选择至少一个决策，则消息将不会显示在您的验证中。请务必在该列中至少选中一个框。
+1. 在&#x200B;**[!UICONTROL 显示消息]**列中，指定此消息应显示的决策。
+如果不选择至少一个决策，则消息将不会显示在您的验证中。 请务必在该列中至少选中一个框。
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

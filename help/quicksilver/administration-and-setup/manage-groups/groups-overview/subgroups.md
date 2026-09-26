@@ -9,22 +9,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-TQID: https://experienceleague.adobe.com/lVTPu5Nz5FqEPEh-S3LnT9cGIQnV6v9WN6yBcPgCvzs
+TQID: 'https://experienceleague.adobe.com/lVTPu5Nz5FqEPEh-S3LnT9cGIQnV6v9WN6yBcPgCvzs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 0%
-
 ---
-
 # 子组概述
 
 您最多可以在一个组下创建14级子组。 在任意这些级别上，可以创建不限数量的并行子组。 有关说明，请参阅[创建子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
@@ -63,7 +69,7 @@ ht-degree: 0%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-在创建或编辑子组时，您可以将子组成员指定为子组的组管理员。 有关说明，请参阅[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)一文中的[&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
+在创建或编辑子组时，您可以将子组成员指定为子组的组管理员。 有关说明，请参阅[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)一文中的[](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
 
 或者，也可以将子组的管理权留给分配给其上方的组的组管理员。 创建子组时，其上组的组管理员具有管理该子组的自动访问权限。
 

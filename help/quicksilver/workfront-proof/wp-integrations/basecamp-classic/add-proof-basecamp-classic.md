@@ -3,24 +3,32 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: 将验证添加到Basecamp Classic项目
-description: 设置 [!DNL Basecamp Classic] 集成后，您可以开始向 [!DNL Basecamp Classic] 帐户中的项目添加验证。
+description: 设置[!DNL Basecamp Classic]集成后，您可以开始向[!DNL Basecamp Classic]帐户中的项目添加验证。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
-TQID: https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk
+TQID: 'https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: '669'
 ht-degree: 0%
-
 ---
-
 # 将验证添加到[!DNL Basecamp Classic]项目
 
 >[!IMPORTANT]
@@ -39,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在将验证添加到[!DNL Basecamp Classic]之前，您必须确保已启用您的[!DNL Basecamp]集成，并在您的个人设置中选择了相关的[!DNL Basecamp]帐户（因为您可以与多个[!DNL [!DNL Basecamp]]帐户集成，但一次只能将验证添加到一个[!DNL Basecamp]帐户）。 有关设置的信息，请参阅[个人设置。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+>在将验证添加到[!DNL Basecamp Classic]之前，您必须确保已启用您的[!DNL Basecamp]集成，并在您的个人设置中选择了相关的[!DNL Basecamp]帐户（因为您可以与多个[！DNL [!DNL Basecamp]]帐户集成，但一次只能将验证添加到一个[!DNL Basecamp]帐户）。 有关设置的信息，请参阅[个人设置。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
 1. 创建校对，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中生成校对中所述。
 1. 如果要通过电子邮件通知审阅人，请确保已选中&#x200B;**[!UICONTROL 通过电子邮件通知联系人]**。\

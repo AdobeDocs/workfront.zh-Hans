@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 1%
-
 ---
-
 # 2018.2 Beta 5发行版活动
 
 本页介绍了2018.2 Beta 5版本在“预览”环境中最近提供的所有更改。 该功能将于2018年6月1日在预览环境中可用。 Beta 5中发布的校对增强功能将于6月4日星期一在“预览”环境中提供。 该版本将于2018年7月在生产环境中提供。
@@ -39,15 +46,15 @@ ht-degree: 1%
 
 2018.2 Beta 5版本包含适用于Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [使用审核日志查看用户触发的更改](#view-user-triggered-changes-with-audit-logs)
 * [以组管理员身份查看许可证信息](#view-license-information-as-a-group-administrator)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * 主页区域中的[日历视图](#calendar-view-in-the-home-area)
-* 主页[&#128279;](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的其他更新
+* 主页](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的[其他更新
 * [为自动资源计划配置工作角色限制](#configure-job-role-limits-for-automated-resource-scheduling)
 * 资源规划者中的[项目和角色视图改进](#project-and-role-view-improvements-in-the-resource-planner)
 * [调整项目列表的列宽](#resize-column-widths-for-project-lists)
@@ -136,8 +143,8 @@ ht-degree: 1%
 * 全屏模式。
 * 性能现在更快、更有效。
 
-   * 可显示的项目、角色和用户数的新限制。
-   * 延迟加载，可加快项目和角色的加载。
+  * 可显示的项目、角色和用户数的新限制。
+  * 延迟加载，可加快项目和角色的加载。
 
 * 直接从资源规划者快速访问项目和用户。
 * 项目视图中更快的拖放功能，可安排项目的优先顺序。
@@ -168,7 +175,7 @@ ht-degree: 1%
 
 有关调整列表中列重新排序大小的信息，请参阅[修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
-要参加我们的测试版测试计划，了解当前的列表改进情况，请参阅[新列表研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans) （需要登录）
+要参加我们的测试版测试计划，了解当前的列表改进情况，请参阅[新列表研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) （需要登录）
 
 ## 图标对新项目列表的支持 {#icon-support-for-the-new-project-lists}
 
@@ -233,7 +240,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在以下视频中，问题集合的示例文本模式不正确。 报表[&#128279;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的引用收藏集中提供了正确的示例文本模式。
+>在以下视频中，问题集合的示例文本模式不正确。 报表](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的[引用收藏集中提供了正确的示例文本模式。
 
 ## 在Workfront中添加新文档版本时，新增更强大的版本菜单 {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -266,10 +273,10 @@ ht-degree: 1%
 
   此功能对以下方面进行了改进：
 
-   * 我的工作和主页
-   * 通知
-   * 联系人
-   * 审批
+  * 我的工作和主页
+  * 通知
+  * 联系人
+  * 审批
 
 * 查看项目的“详细信息”选项卡时的新外观
 

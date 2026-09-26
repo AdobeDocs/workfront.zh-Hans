@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+TQID: 'https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1450'
 ht-degree: 1%
-
 ---
-
 # 创建项目
 
 <!-- Audited: 05/2026-->
@@ -39,7 +46,7 @@ ht-degree: 1%
 -->
 
 项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。
-项目是项目组合的一个细分，它们不能存在于项目组合之外。项目通常与同一项目组合中的其他项目共享相同的资源。
+项目是项目组合的一个细分，它们不能存在于项目组合之外。 项目通常与同一项目组合中的其他项目共享相同的资源。
 
 您可以创建项目群，以便在项目组合变得太大时对其进行整理。
 
@@ -60,16 +67,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合和程序的访问权限 </p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合和程序的访问权限 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>创建项目后，默认情况下，您拥有[!UICONTROL Manage]权限。</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>创建项目后，默认情况下，您拥有[！UICONTROL Manage]权限。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,10 +128,10 @@ Old:
 
 * 通过以下方式从Workfront Planning创建项目：
 
-   * 当您从Workfront Planning中的记录类型连接它们时。
+  * 当您从Workfront Planning中的记录类型连接它们时。
 
   有关通过将程序添加到记录来创建程序的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”一节。
-   * 使用Workfront Planning自动化。
+  * 使用Workfront Planning自动化。
 
   有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
@@ -140,21 +147,21 @@ Old:
 
    * 从[!UICONTROL 程序]区域创建程序：
 
-      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 程序]**。
-      1. 单击&#x200B;**[!UICONTROL 新建项目]**。
-      1. 在显示的框中，在&#x200B;**[!UICONTROL 选择Portfolio]**&#x200B;字段中键入现有Portfolio的名称。
-      1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入新项目的名称。
-      1. 单击&#x200B;**[!UICONTROL 保存]**。
+     1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 程序]**。
+     1. 单击&#x200B;**[!UICONTROL 新建项目]**。
+     1. 在显示的框中，在&#x200B;**[!UICONTROL 选择Portfolio]**&#x200B;字段中键入现有Portfolio的名称。
+     1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入新项目的名称。
+     1. 单击&#x200B;**[!UICONTROL 保存]**。
    * 从[!UICONTROL 项目组合]区域创建项目：
 
-      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
-      1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
-      1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 新建项目]**。
+     1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
+     1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
+     1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 新建项目]**。
    * 添加现有程序：
-      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
-      1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
-      1. 单击&#x200B;**[!UICONTROL 新建程序]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 现有程序]**。
-      1. 开始键入现有项目的名称，或单击下拉菜单并从列表中选择现有项目。
+     1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
+     1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
+     1. 单击&#x200B;**[!UICONTROL 新建程序]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 现有程序]**。
+     1. 开始键入现有项目的名称，或单击下拉菜单并从列表中选择现有项目。
 
      >[!NOTE]
      >
@@ -192,19 +199,19 @@ Old:
       <td> <p>指定程序的描述。</p> <p>该描述将显示在项目的登陆页面上。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 项目管理器]</td> 
-      <td> <p>开始键入要充当项目管理员的用户名，然后在用户名出现在下拉列表中时单击该用户名。 这与[!UICONTROL 项目所有者]相同。 </p> <p>提示：您也可以在项目标题中更新项目管理器。 </p> </td> 
+      <td role="rowheader">[！UICONTROL项目管理器]</td> 
+      <td> <p>开始键入要充当项目管理员的用户名，然后在用户名出现在下拉列表中时单击该用户名。 这与[！UICONTROL项目所有者]相同。 </p> <p>提示：您也可以在项目标题中更新项目管理器。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 组] </td> 
-      <td> <p>添加单个组的名称（如果该组拥有项目或负责完成项目）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 
+      <td role="rowheader">[！UICONTROL组] </td> 
+      <td> <p>添加单个组的名称（如果该组拥有项目或负责完成项目）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 
        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
         </td> 
      </tr>
 
 </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 处于活动状态] </td> 
+   <td role="rowheader">[！UICONTROL处于活动状态] </td> 
    <td> <p>如果您希望此项目群处于活动状态，并且用户希望找到它以将其与项目相关联，请选中此设置。</p>
    <p>取消选中时，项目群不会显示在项目或模板的项目群字段中。 </p> 
  </td> 
@@ -253,15 +260,15 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">对象类型和激活状态的名称</td> 
-   <td>当您查看项目时，“项目”一词会显示一个橙色图标。 如果程序未在[!UICONTROL **程序详细信息**]区域标记为[!UICONTROL 处于活动状态]，则单词“[!UICONTROL 已停用]”会显示在该程序旁边。 </td> 
+   <td>当您查看项目时，“项目”一词会显示一个橙色图标。 如果程序未在[！UICONTROL **程序详细信息**]区域标记为[！UICONTROL处于活动状态]，则单词“[！UICONTROL已停用]”会显示在该程序旁边。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">计划的操作区域 </td> 
    <td> <p>单击以下任一选项以访问程序的更多信息或编辑选项：</p> 
     <ul> 
      <li>星形图标，用于将程序添加到收藏夹列表</li> 
-     <li>用于与其他人共享的[!UICONTROL **Share**]按钮</li> 
-     <li> <p>[!UICONTROL More]菜单<img src="assets/qs-more-menu.png">用于执行以下操作之一： </p> 
+     <li>用于与其他人共享的[！UICONTROL **Share**]按钮</li> 
+     <li> <p>[！UICONTROL More]菜单<img src="assets/qs-more-menu.png">用于执行以下操作之一： </p> 
       <ul> 
        <li>编辑项目</li> 
        <li>取消激活它。 停用项目群时，您无法再将其与项目级别的项目关联。 </li> 
@@ -271,20 +278,20 @@ Old:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 完成百分比]</td> 
-   <td> <p>您无法在标题中编辑项目的[!UICONTROL 完成百分比]。 将从项目群的项目中更新此信息。 默认情况下，项目的完成百分比是属于该项目且处于[!UICONTROL 当前]或[!UICONTROL 已批准]状态的项目的平均完成百分比值。</p> </td> 
+   <td role="rowheader">[！UICONTROL完成百分比]</td> 
+   <td> <p>您无法在标题中编辑项目的[！UICONTROL完成百分比]。 将从项目群的项目中更新此信息。 默认情况下，项目的完成百分比是属于该项目且处于[！UICONTROL当前]或[！UICONTROL已批准]状态的项目的平均完成百分比值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 项目管理器]</td> 
-   <td> <p>您可以在标题中编辑项目管理器。 这与[!UICONTROL 项目所有者]相同。 </p> </td> 
+   <td role="rowheader">[！UICONTROL项目管理器]</td> 
+   <td> <p>您可以在标题中编辑项目管理器。 这与[！UICONTROL项目所有者]相同。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 计划完成日期]</td> 
+   <td role="rowheader">[！UICONTROL计划完成日期]</td> 
    <td>您无法在标题中编辑项目的规划完成日期。 将从项目群的项目中更新此信息。 项目群中最新项目的计划完成日期变为项目的计划完成日期。  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 活动项目条件]</td> 
-   <td>这是计算在项目群中，将[!UICONTROL Condition]设置为[!UICONTROL On Target]、[!UICONTROL At Risk]或[!UICONTROL In Trouble]的项目所占的百分比。 此处表示的项目是状态为[!UICONTROL 当前]和[!UICONTROL 已批准]的项目。 </td> 
+   <td role="rowheader">[！UICONTROL活动项目条件]</td> 
+   <td>这是计算在项目群中，将[！UICONTROL Condition]设置为[！UICONTROL On Target]、[！UICONTROL At Risk]或[！UICONTROL In Trouble]的项目所占的百分比。 此处表示的项目是状态为[！UICONTROL当前]和[！UICONTROL已批准]的项目。 </td> 
   </tr> 
  </tbody> 
 </table>

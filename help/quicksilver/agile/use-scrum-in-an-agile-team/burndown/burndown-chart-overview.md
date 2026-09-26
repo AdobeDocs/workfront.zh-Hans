@@ -9,25 +9,33 @@ feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+TQID: 'https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # 敏捷燃尽图概述
 
 燃尽图直观地显示了故事在迭代中的进度。 实际燃尽率是根据迭代时间线的理想燃尽率来测量的。
@@ -72,12 +80,12 @@ ht-degree: 0%
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="工作用绿点烧毁"> </td> 
    <td> <p>每当工作燃尽时，实际燃尽率上都会显示一个绿色或红色圆点。 （当当当天的实际燃尽率为红色时，圆点为红色；当当当天的实际燃尽率为绿色时，圆点为绿色。）</p> <p>出现以下任何情况时，工作都会被烧毁：</p> 
     <ul> 
-     <li> [!UICONTROL 完成百分比]在文章中增加。<br>[!UICONTROL 完成百分比]在下列情况下增加： 
+     <li> [！UICONTROL完成百分比]在文章中增加。<br>[！UICONTROL完成百分比]在下列情况下增加： 
       <ul> 
        <li> <p>手动更改</p> </li> 
        <li> <p>在文章中更新了点数或小时数</p> </li> 
       </ul></li>  
-     <li>故事的状态已更改为[!UICONTROL 结束]</li> 
+     <li>故事的状态已更改为[！UICONTROL结束]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -95,9 +103,9 @@ Agile团队可以通过定义替代计划来合并团队特定的非工作日（
 
   在休息日登录工作时：
 
-   * 在计算理想燃尽时，不会包括记录的任何工作，因为团队未计划进行任何工作。
-   * 理想的燃尽线（实心蓝线和虚线蓝线）在燃尽图中显示为平坦，即工作完成时或查看燃尽图时（如果您在休息日查看）的任何一天。
-   * 在计算其他燃尽统计数据（如估计完成情况以及每天的平均点数或小时数）时，包括记录的工作。
+  * 在计算理想燃尽时，不会包括记录的任何工作，因为团队未计划进行任何工作。
+  * 理想的燃尽线（实心蓝线和虚线蓝线）在燃尽图中显示为平坦，即工作完成时或查看燃尽图时（如果您在休息日查看）的任何一天。
+  * 在计算其他燃尽统计数据（如估计完成情况以及每天的平均点数或小时数）时，包括记录的工作。
 
 * 您正在休息日查看燃尽图。 （您查看的日期显示在燃尽图上。）
 * 您在休息日完成迭代的总剩余工作。

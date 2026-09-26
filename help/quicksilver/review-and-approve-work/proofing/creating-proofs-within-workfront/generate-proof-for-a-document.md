@@ -6,23 +6,31 @@ description: 您可以在将文档上传到Workfront时为其生成验证。 您
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+TQID: 'https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 4%
-
 ---
-
 # 为文档创建验证
 
 <!-- Audited: 1/2024 -->
@@ -76,7 +84,7 @@ If a proof fails to generate after following the steps described in the followin
 1. 转到要创建新验证的项目、任务或问题。
 1. 单击&#x200B;**文档**&#x200B;选项卡。
 1. 单击左侧面板中的文档![文档图标](assets/document-icon.png)。
-1. 单击“新增”**&#x200B;**，然后在出现的菜单中单击“校对”**&#x200B;**。
+1. 单击“新增”****，然后在出现的菜单中单击“校对”****。
 
    >[!TIP]
    >

@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
 # 2026年第三季度请求增强功能
 
 本页介绍了在2026年第三季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -22,7 +29,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->预览： 2026年5月27日生产快速发布： 2026年6月11日适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月27日
+>生产快速发布： 2026年6月11日
+>适用于所有人的生产： 2026年7月16日
 
 为了获取有关您的请求处于正确状态的更多上下文，我们将在新请求体验中更新请求的状态。
 
@@ -41,7 +50,10 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->预览： 2026年4月23日生产快速发布： 2026年4月23日适用于所有人的生产： 2026年4月23日超出计划&rbrack;{type=Neutral}
+>预览： 2026年4月23日
+>生产快速发布： 2026年4月23日
+>适用于所有人的生产： 2026年4月23日
+>[!BADGE 超出计划]{type=Neutral}
 
 为了帮助您更好地组织请求列表，我们已将以下预定义视图添加到请求区域的请求列表和主页中的我的请求构件：
 

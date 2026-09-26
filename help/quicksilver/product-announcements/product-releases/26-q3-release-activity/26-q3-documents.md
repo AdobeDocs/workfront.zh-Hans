@@ -5,13 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 77a1b575b45f60e6fd61e6751ec1fec4537a5697
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季度文档增强
 
 本页介绍了在2026年第三季度版本中对“预览”环境所做的文档增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -22,7 +29,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：2026年7月7日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
+>预览：2026年7月7日
+>生产快速发布： 2026年7月15日
+>适用于所有人的生产： 2026年7月16日
 
 文档的审批工作流现在支持并行路径，帮助团队同时运行多个独立审查跟踪。 通过并行路径，您可以：
 
@@ -37,7 +46,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：不适用生产快速发布： 2026年7月8日适用于所有人的生产： 2026年7月8日超出计划此功能仅适用于已启用Adobe云存储的工作流Ultimate包中的组织。
+>预览：不适用
+>生产快速发布： 2026年7月8日
+>适用于所有人的生产： 2026年7月8日
+>[!BADGE 超出计划]{type=Neutral}
+>此功能仅适用于已启用Adobe云存储的工作流Ultimate包中的组织。
 
 Adobe Cloud Drive现在可供那些使用支持Adobe Cloud Storage的Workfront版本的组织使用。 Adobe Cloud Drive是一款桌面应用程序，可将您的Adobe Cloud Storage项目作为Mac或Windows计算机上的驱动器进行装载，因此您可以直接从Finder或文件资源管理器打开、编辑和保存任何应用程序中的文件。 您的更改会自动同步到Adobe云存储，并且可在Workfront和Frame.io中供您的团队使用。
 
@@ -49,7 +62,10 @@ Adobe Cloud Drive现在可供那些使用支持Adobe Cloud Storage的Workfront�
 
 >[!NOTE]
 >
->预览：不适用生产快速发布： 2026年6月15日适用于所有人的生产： 2026年6月15日超出计划&rbrack;{type=Neutral}
+>预览：不适用
+>生产快速发布： 2026年6月15日
+>适用于所有人的生产： 2026年6月15日
+>[!BADGE 超出计划]{type=Neutral}
 
 Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内容带来了结构化的审核和批准。 设计人员可以将Workfront审批工作流模板映射到Express模板，这样在重新混合模板时便需要在发布之前自动获得批准，从而通过预配置的Workfront工作流和Frame.io查看器路由资产。
 
@@ -68,7 +84,9 @@ Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内�
 
 >[!NOTE]
 >
->预览：2026年6月2日生产快速发布： 2026年6月11日适用于所有人的生产： 2026年7月16日
+>预览：2026年6月2日
+>生产快速发布： 2026年6月11日
+>适用于所有人的生产： 2026年7月16日
 
 您现在可以直接从新的文档区域打开文档审批的可打印摘要。 此功能适用于使用Adobe云存储的组织。
 
@@ -81,7 +99,9 @@ Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内�
 
 >[!NOTE]
 >
->预览： 2026年5月28日生产快速发布： 2026年6月11日适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月28日
+>生产快速发布： 2026年6月11日
+>适用于所有人的生产： 2026年7月16日
 
 您现在可以向文档审批工作流的每个阶段添加自定义消息。 该消息会显示在批准电子邮件通知和Workfront的“批准”选项卡中。
 
@@ -97,7 +117,9 @@ Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内�
 
 >[!NOTE]
 >
->预览： 2026年5月14日生产快速发布： 2026年5月14日适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月14日
+>生产快速发布： 2026年5月14日
+>适用于所有人的生产： 2026年7月16日
 
 文档区域中的链接资源现在显示状态徽章，使团队能够立即查看每个资源所处的位置，而无需离开Workfront。 Assets可以显示：
 
@@ -112,7 +134,9 @@ Adobe Express和Workfront与Frame.io的集成为在Adobe Express中创建的内�
 
 >[!NOTE]
 >
->预览： 2026年4月30日生产快速发布： 2026年5月14日适用于所有人的生产： 2026年7月16日
+>预览： 2026年4月30日
+>生产快速发布： 2026年5月14日
+>适用于所有人的生产： 2026年7月16日
 
 “设置”中的“客户信息”页面现在包含新的“存储概述”部分，其中包含Adobe云存储的使用量度。
 

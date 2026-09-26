@@ -7,23 +7,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg
+TQID: 'https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
-
 # 2026年第一季度发布时间范围内的其他增强功能
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 事件订阅现在支持筛选条件
 
@@ -36,7 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年10月30日>生产快速发布： 2025年11月13日>适用于所有人的生产： 2026年1月15日
+>预览： 2025年10月30日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2026年1月15日
 
 现在，当用户填写表单时，允许进行多选择的字段（例如复选框和多选下拉列表）限制为5000个选择。
 
@@ -49,7 +57,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年12月11日>生产快速发布： 2026年2月11日\
+>预览： 2025年12月11日
+>生产快速发布： 2026年2月11日\
 >适用于所有人的生产： 2026年2月11日
 
 为了让组织能够访问Adobe Unified Experience的优势，我们将继续将其提供给现有的Workfront客户。

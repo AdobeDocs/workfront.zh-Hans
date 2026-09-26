@@ -8,25 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 0%
-
 ---
-
 # 架构您的成功：建模您的营销活动层次结构
 
 <!--see the file again for additional comments from Seth and others-->
@@ -67,25 +79,25 @@ ht-degree: 0%
 
 * **第1级：营销活动（Workfront规划）**
 
-   * **焦点：**&#x200B;定义长期战略支柱和年度计划。 例如，为您的组织定义一个称为“2026财年全球品牌意识”的计划。 这是给定时间范围内的焦点。 创建营销活动以支持此计划。
+  * **焦点：**&#x200B;定义长期战略支柱和年度计划。 例如，为您的组织定义一个称为“2026财年全球品牌意识”的计划。 这是给定时间范围内的焦点。 创建营销活动以支持此计划。
 
-   * **角色：**&#x200B;此级别的利益相关者可以是营销官员、营销副总或其他战略潜在客户。
+  * **角色：**&#x200B;此级别的利益相关者可以是营销官员、营销副总或其他战略潜在客户。
 
   有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 * **第2级：渠道战术（Workfront规划）**
 
-   * **焦点：**&#x200B;定义概述特定渠道的“内容”的操作摘要。 这是工作开始前战略意图的最后一层。 例如，创建“第1季度社交媒体闪烁”策略。 然后，您可以将其与营销策划配对。
+  * **焦点：**&#x200B;定义概述特定渠道的“内容”的操作摘要。 这是工作开始前战略意图的最后一层。 例如，创建“第1季度社交媒体闪烁”策略。 然后，您可以将其与营销策划配对。
 
-   * **角色：**&#x200B;主要利益相关者是营销运营负责人、渠道负责人或营销活动经理。
+  * **角色：**&#x200B;主要利益相关者是营销运营负责人、渠道负责人或营销活动经理。
 
 * **级别3：项目（规划和Workfront）**
 
-   * **焦点：**&#x200B;根据最终完成计划的确切体验或活动执行。 某些交付项是具体的，例如社交帖子、电子邮件和网页。
+  * **焦点：**&#x200B;根据最终完成计划的确切体验或活动执行。 某些交付项是具体的，例如社交帖子、电子邮件和网页。
 
-   * **实施：**&#x200B;您可以在Planning中创建策略，并将它们直接链接到Workfront中的&#x200B;**项目**，其中各个交付项作为任务和问题进行管理。
+  * **实施：**&#x200B;您可以在Planning中创建策略，并将它们直接链接到Workfront中的&#x200B;**项目**，其中各个交付项作为任务和问题进行管理。
 
-   * **角色：**&#x200B;这里的主要利益相关者是创意人员、个人贡献者以及负责支持计划工作的任何人。
+  * **角色：**&#x200B;这里的主要利益相关者是创意人员、个人贡献者以及负责支持计划工作的任何人。
 
 ### 战略扩展：如何添加更多级别
 
@@ -102,7 +114,7 @@ ht-degree: 0%
 >如果贵组织每年生产5,000多项活动，则应将各个可交付结果跟踪移至Workfront。
 >
 >在Planning中管理大量体验记录可能会导致数据累积，从而模糊您的战略可见性。
->我们建议采用以下宽泛的准则来最大限度地提高效率：
+>我们建议采用这一宽泛的准则来最大限度地提高效率：
 >
 >* 使用Planning了解“原因”和“内容”
 >* 将Workfront用于大容量“如何”。

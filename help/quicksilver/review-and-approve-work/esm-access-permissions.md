@@ -9,20 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ
+TQID: 'https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # Adobe云存储模型的对象权限和访问级别概述
 
 <!--linked in UI -->
@@ -41,8 +47,8 @@ Workfront访问级别仅适用于Workfront。 Workfront中的项目和文档限�
 * **Adobe云存储**：使用Adobe云存储的项目、程序、项目组合和模板遵循其他Adobe产品的Adobe云存储访问级别逻辑。
 
 
-   * **项目、程序、项目组合和模板对象权限**：当访问级别对项目、程序、项目组合和模板选择&#x200B;**无访问权限**，但该对象与他们共享时，用户无法在Workfront中查看该对象，但在其他Adobe工具（如Frame.io和Adobe Creative Cloud）中仍可以查看对象名称和任何关联文档。
-   * **文档权限**：当访问级别对文档选择&#x200B;**无访问权限**&#x200B;时，用户无法查看Workfront中项目的文档，但仍可以查看和管理在其他Adobe工具（如Frame.io和Adobe Creative Cloud）中与用户共享的项目文档。 这是因为文档访问由Adobe云存储中的项目级别权限决定，而不是仅由Workfront访问级别决定。
+  * **项目、程序、项目组合和模板对象权限**：当访问级别对项目、程序、项目组合和模板选择&#x200B;**无访问权限**，但该对象与他们共享时，用户无法在Workfront中查看该对象，但在其他Adobe工具（如Frame.io和Adobe Creative Cloud）中仍可以查看对象名称和任何关联文档。
+  * **文档权限**：当访问级别对文档选择&#x200B;**无访问权限**&#x200B;时，用户无法查看Workfront中项目的文档，但仍可以查看和管理在其他Adobe工具（如Frame.io和Adobe Creative Cloud）中与用户共享的项目文档。 这是因为文档访问由Adobe云存储中的项目级别权限决定，而不是仅由Workfront访问级别决定。
 
 如果您在Workfront环境中启用了Adobe云存储，则可以创建Adobe云存储项目和旧版Workfront存储项目。 旧版Workfront存储项目在Workfront中项目名称旁边会显示一个图标。 Adobe云存储项目不显示图标。
 

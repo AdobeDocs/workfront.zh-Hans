@@ -7,26 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+TQID: 'https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1158
+source-wordcount: '1158'
 ht-degree: 0%
-
 ---
-
 # 2018.2发布活动概述
 
 >[!NOTE]
@@ -76,7 +85,7 @@ ht-degree: 0%
 ### 主页区域（已更新我的工作）
 
 * 主页区域中的[日历视图](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
-* 主页[&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)中的工作列表（左侧面板）的其他更新 
+* 主页](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)中的工作列表（左侧面板）的[其他更新 
 * [主页区域已更新工作列表（左面板）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
 * [直接从主页区域编辑字段](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
@@ -167,7 +176,7 @@ ht-degree: 0%
 
 为了提供最佳安全性，Workfront要求将使用TLS 1.0或更早版本的所有集成和Web流量升级为使用TLS 1.1或更高版本。
 
-有关详细信息，请参阅Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
+有关详细信息，请参阅Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的[TLS 1.2。
 
 ### Flash应用程序删除 {#flash-application-removal}
 
@@ -215,8 +224,8 @@ ht-degree: 0%
 
   有关更多信息，请参阅以下资源：
 
-   * [在Web验证查看器中查看验证](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [在桌面校对查看器中查看校对](https://support.workfront.com/hc/en-us/sections/360000686434)
+  * [在Web验证查看器中查看验证](https://support.workfront.com/hc/en-us/sections/115000275214)
+  * [在桌面校对查看器中查看校对](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Microsoft Outlook加载项支持即将终止 {#microsoft-outlook-add-in-support-is-ending}
 
@@ -228,7 +237,7 @@ ht-degree: 0%
 
 使用以下资源了解有关Workfront for Outlook的更多信息并开始使用：
 
-* [网站和视频](https://business.adobe.com/cn/products/workfront/integrations.html) 
+* [网站和视频](https://business.adobe.com/products/workfront/integrations.html) 
 * [将Workfront与Outlook结合使用](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)（帮助文章）
 
 ### 删除旧API版本 {#removing-old-api-versions}

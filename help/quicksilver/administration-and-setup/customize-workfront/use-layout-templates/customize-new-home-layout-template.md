@@ -8,25 +8,31 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-TQID: https://experienceleague.adobe.com/j2Y56liYA3jg5L5GFq--2iLfv3kYPI7MsyaLWIlzZ0o
+TQID: 'https://experienceleague.adobe.com/j2Y56liYA3jg5L5GFq--2iLfv3kYPI7MsyaLWIlzZ0o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 3%
-
 ---
-
 # 使用布局模板自定义主页
 
 您可以使用布局模板配置用户首次打开主页时看到的内容。
@@ -146,11 +152,11 @@ ht-degree: 3%
    >
    >* 筛选器、列和组选项链接到布局模板中的列表自定义选项。 此处所做的更改也将应用于这些设置。
    >* 用户必须至少具有视图的“创建”访问权限，管理员列配置才能正确应用于其主页。
-   ></p>
-   >   <li><p>将鼠标悬停在某个选项上，然后单击<b>设置为默认值</b>，为构件设置默认筛选器或组。 当前默认值在其右侧显示蓝色<b>默认</b>徽章。</p></li>
-   >   <li><p>单击每个列表底部的加号按钮，将现有的筛选器、列或组添加到可用选项列表中，以向该列表中添加选项。 请注意，只能通过这种方式添加现有筛选器、字段（用于列）或组。</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>将鼠标悬停在某个选项上，然后单击<b>设置为默认值</b>，为构件设置默认筛选器或组。 当前默认值在其右侧显示蓝色<b>默认</b>徽章。</p></li>
+      <li><p>单击每个列表底部的加号按钮，将现有的筛选器、列或组添加到可用选项列表中，以向该列表中添加选项。 请注意，只能通过这种方式添加现有筛选器、字段（用于列）或组。</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

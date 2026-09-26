@@ -3,27 +3,32 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: 在Adobe Workfront视图中添加更新
-description: 您可以在 [!DNL Adobe Workfront] 查看应用程序中查看项目并将更新添加到正在查看的项目。
+description: 您可以在[!DNL Adobe Workfront]查看应用程序中查看项目并将更新添加到正在查看的项目。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-TQID: https://experienceleague.adobe.com/0GQZ8P7-FIJJsjd3TOoE8euy7QD0v2iiqVL-aAeBqOM
+TQID: 'https://experienceleague.adobe.com/0GQZ8P7-FIJJsjd3TOoE8euy7QD0v2iiqVL-aAeBqOM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '182'
 ht-degree: 9%
-
 ---
-
 # 在[!DNL Adobe Workfront View]中添加更新
 
 您可以在[!DNL Adobe Workfront View]应用程序中查看项目并将更新添加到正在查看的项目。
@@ -61,7 +66,7 @@ ht-degree: 9%
 
 1. 从[!UICONTROL Workfront视图]的主页中，点按项目以访问它。
 1. （可选）将&#x200B;**[!UICONTROL 更新]**&#x200B;构件添加到视图。\
-   有关将构件添加到项目视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
+   有关将构件添加到项目视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
 
 1. 点按&#x200B;**[!UICONTROL 更新]**&#x200B;构件中更新的&#x200B;**[!UICONTROL 更新]**&#x200B;图标（右下方）或（视情况而定）**[+]**&#x200B;图标。\
    ![[!DNL workfront_view_updates_icon].png](assets/workfront-view-updates-icon-315x196.png)

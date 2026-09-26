@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: 验证创建失败疑难解答
 description: 验证创建过程包括导入和验证生成。 有时，在创建验证时，文件可能无法导入，或者在导入文件后无法生成验证。
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 
 # 验证创建失败疑难解答
 
@@ -47,11 +48,11 @@ ht-degree: 0%
 
 * 验证PDF文件时，验证生成失败的原因包括：
 
-   * 字体和图像从外部源（如本地文件系统）链接
+  * 字体和图像从外部源（如本地文件系统）链接
 
-     必须将字体和图像嵌入到PDF文件中，才能在另一台计算机上或Workfront Proof中显示。
+    必须将字体和图像嵌入到PDF文件中，才能在另一台计算机上或Workfront Proof中显示。
 
-   * PDF文件包含空图层或透明或重叠字段。
+  * PDF文件包含空图层或透明或重叠字段。
 
-     如果无法确定导致此问题的图层或对象，请将设计/文档导出为优化的PDF（这会删除所有不需要的元素）。
+    如果无法确定导致此问题的图层或对象，请将设计/文档导出为优化的PDF（这会删除所有不需要的元素）。
 

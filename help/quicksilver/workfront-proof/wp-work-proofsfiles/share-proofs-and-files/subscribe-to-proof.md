@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: 在 [!DNL Workfront] Proof中订阅验证
+title: 在[!DNL Workfront]验证中订阅验证
 description: 当另一用户向您发送打开验证URL并在浏览器中打开它时，它以只读模式启动验证查看器。 在处理验证之前，您需要通过订阅来识别自己。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
-TQID: https://experienceleague.adobe.com/wCWD8rklFujwtuQamvtqo1oUCKwsMZVCVtjQSwAXC5U
+TQID: 'https://experienceleague.adobe.com/wCWD8rklFujwtuQamvtqo1oUCKwsMZVCVtjQSwAXC5U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中订阅验证
 
 >[!IMPORTANT]
@@ -29,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在用户可以订阅验证之前，必须启用其订阅设置（请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中配置验证设置 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的配置验证设置部分）。
+>在用户可以订阅验证之前，必须启用其订阅设置（请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中配置验证设置 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的[配置验证设置部分）。
 
 要订阅验证，请执行以下操作：
 

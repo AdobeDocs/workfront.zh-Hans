@@ -9,27 +9,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
+TQID: 'https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1184'
 ht-degree: 1%
-
 ---
-
 # Workfront文档中的访问要求
 
 Workfront文档操作方法文章包含一个表，其中说明了此过程所需的访问和权限要求。 通过此访问要求表，您可以了解您是否可以在Workfront中执行特定操作，或者为什么您可能无法执行。 本文介绍“访问要求”表的每个元素，并提供故障排除提示以及指向更深入信息的链接。
@@ -58,7 +66,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
   <p>贵组织可能在这些区域中的一个或多个区域购买了Workfront包。</p>
   <p>以前，Workfront提供Workfront Select、Workfront Prime和Workfront Ultimate包，而不区分工作流、规划以及自动化和集成。 您的组织可能位于这些旧包之一。 
    <ul><li>要了解贵组织使用哪个Adobe Workfront包（包括贵组织使用的是当前打包模型还是旧打包模型），请与Workfront管理员联系。</li>
-   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/cn/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul>
+   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul>
 
 您的组织可能通过以下产品之一购买Workfront规划包：
 
@@ -122,7 +130,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <ul><li>当前许可证模型基于执行的操作数，对组织可以执行的操作没有限制。 </li>
    <li>旧版许可证基于方案是否能够连接到第三方应用程序，或者方案是否仅用于Workfront自动化。 </li>
    </ul>
-   有关Fusion许可的信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion许可证</a>。
+   有关Fusion许可的信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion许可证</a>。
    </td> 
   </tr> 
  </tbody> 

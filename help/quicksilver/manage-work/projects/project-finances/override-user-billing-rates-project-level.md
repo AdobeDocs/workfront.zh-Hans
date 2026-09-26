@@ -7,13 +7,17 @@ description: 本文介绍了如何覆盖项目的系统用户计费率。
 author: Lisa
 feature: Work Management
 exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '749'
 ht-degree: 2%
-
 ---
-
 # 覆盖项目级别的用户记帐费率
 
 作为项目经理，您可以指定特定项目上用户的记帐费率。 此项目级别的记帐费率将覆盖此用户在系统级别的记帐费率。 Workfront使用用户的项目级记帐费率来计算收入，而不是使用系统级记帐费率。
@@ -22,7 +26,7 @@ ht-degree: 2%
 
 有关覆盖项目的记帐费率和计算项目收入的一般信息，请参阅[覆盖记帐费率和计算项目收入的概述](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
-有关计算项目收入的更多信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)以及文章[记帐和收入概览](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)中的[基于用户和角色分配的任务的收入计算](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)部分。
+有关计算项目收入的更多信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)以及文章[记帐和收入概览](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)中的[基于用户和角色分配的任务的收入计算](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)部分。
 
 >[!NOTE]
 >
@@ -50,7 +54,7 @@ ht-degree: 2%
        <p><p>您还必须具有下列任一属性：</p> 
         <ul> 
           <li> <p>系统管理员访问级别。 </li> 
-          <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+          <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
     </ul></td> 
   </tr> 
   <tr> 

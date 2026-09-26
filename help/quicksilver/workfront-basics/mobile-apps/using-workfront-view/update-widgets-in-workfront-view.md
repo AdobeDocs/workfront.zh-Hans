@@ -6,22 +6,26 @@ description: 通过向[!UICONTROL 项目详细信息]屏幕添加小组件，在
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+TQID: 'https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 4%
-
 ---
-
 # 更新[!UICONTROL 项目详细信息]视图中的小组件
 
 通过向[!UICONTROL 项目详细信息]屏幕添加小组件，在从项目列表访问[!UICONTROL 项目]后，您可以查看有关该项目的其他信息。 每个用户都可以自定义自己的小组件。
@@ -78,8 +82,8 @@ ht-degree: 4%
    * **[!UICONTROL 任务进度]**：在饼图中按[!UICONTROL 进度状态]显示项目中的所有任务。
    * **[!UICONTROL 即将执行的任务]**：最多显示6个即将执行的任务。 该构件按以下顺序对项目任务进行排序：
 
-      * 首先，在[!UICONTROL 预计到期日期]之前
-      * 其次，按[!UICONTROL 工作分解结构]
+     * 首先，在[!UICONTROL 预计到期日期]之前
+     * 其次，按[!UICONTROL 工作分解结构]
 
      它显示最后两个完成的任务（如果适用）和接下来的4个任务。 若要了解[!DNL Workfront]查看移动设备应用程序中将显示哪些任务，您可以为您正在查看的项目生成任务报告，并按照预计到期日以及[!DNL Workfront]划分结构对报告进行排序。 前6个任务将列在[!UICONTROL 即将到来的]任务小组件的Workfront查看移动应用程序中。
 
@@ -88,17 +92,17 @@ ht-degree: 4%
 
      您可以使用[!DNL Workfront View]打开以下文档格式：
 
-      * 所有文本文件
-      * .pdf
-      * 图像文件（.jpg、.jpeg、.png等）
-      * .xls
+     * 所有文本文件
+     * .pdf
+     * 图像文件（.jpg、.jpeg、.png等）
+     * .xls
    * **[!UICONTROL 详细信息]**：显示有关项目的以下详细信息：
 
-      * 项目名称
-      * 项目创建者的名称
-      * 项目状态
-      * 项目组
-      * 项目计划
+     * 项目名称
+     * 项目创建者的名称
+     * 项目状态
+     * 项目组
+     * 项目计划
    * **[!UICONTROL 团队]**：显示项目团队中用户的名称。\
 
      有关项目团队的详细信息，请参阅[项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。

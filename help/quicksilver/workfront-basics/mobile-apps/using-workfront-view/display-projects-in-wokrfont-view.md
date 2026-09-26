@@ -3,26 +3,30 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: 在Adobe Workfront视图中显示项目
-description: 默认情况下， [!DNL Adobe Workfront] 视图中显示的项目列表显示最近的100个活动项目。 项目列表未按任何条件分组。
+description: 默认情况下，[!DNL Adobe Workfront]视图中显示的项目列表显示最近的100个活动项目。 项目列表未按任何条件分组。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+TQID: 'https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '360'
 ht-degree: 5%
-
 ---
-
 # 在[!UICONTROL Adobe Workfront视图]中显示项目
 
 默认情况下，[!DNL Adobe Workfront View]中显示的项目列表显示最近的100个活动项目。 项目列表未按任何条件分组。
@@ -69,7 +73,7 @@ ht-degree: 5%
    * **[!UICONTROL 进度]**
    * **[!UICONTROL 状态]**
    * **[!UICONTROL 发起人]**
-这些项目现在按这些字段的可能值分组列出。\
+     这些项目现在按这些字段的可能值分组列出。\
       您可以一次按一个条件对项目进行分组。 该标准将预加载到应用程序中的项目列表顶部的图表中，且无法修改。
 
 ## 查看项目详细信息
@@ -79,13 +83,13 @@ ht-degree: 5%
 1. 从[!DNL Workfront]视图的主页中，点按列表中的任何项目以查看项目详细信息。\
    项目信息显示在屏幕上可用的小部件中。\
    一次最多可以显示四个小组件，并且您可以移除这些小组件并将其添加到每个项目，以查看有关项目的不同信息。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
 
 ## 在[!DNL Workfront View]中浏览项目
 
 1. 点按[!DNL Workfront View]应用程序中项目列表中的项目名称。\
    有关项目的信息会显示在上传到屏幕上的小组件中。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
 
 1. 从右向左轻扫以在列表中显示以下项目。\
    滚动每个项目时，将显示相同的构件。\

@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1558'
 ht-degree: 3%
-
 ---
-
 # 共享项目
 
 <!-- Audited: 1/2024 -->
@@ -79,13 +83,13 @@ ht-degree: 3%
 * 您可以单独共享项目，也可以一次共享多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向项目授予以下权限：
 
-   * 视图
-   * 管理
-   * 贡献
+  * 视图
+  * 管理
+  * 贡献
 
 * 共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
 
-  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)一文中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
+  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)一文中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
 
   Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -104,25 +108,25 @@ ht-degree: 3%
 
 * 通过执行以下操作之一来手动执行：
 
-   * 正在将用户添加到项目团队。 将用户添加到项目团队时，他们将自动获得项目的“查看”权限。\
-     有关将用户添加到项目团队的更多信息，请参阅[项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md)中的“将用户添加到项目团队”部分。
-   * 使用&#x200B;**共享**&#x200B;选项时单独或批量共享项目。
+  * 正在将用户添加到项目团队。 将用户添加到项目团队时，他们将自动获得项目的“查看”权限。\
+    有关将用户添加到项目团队的更多信息，请参阅[项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md)中的“将用户添加到项目团队”部分。
+  * 使用&#x200B;**共享**&#x200B;选项时单独或批量共享项目。
 
 * 通过执行以下操作之一来自动执行：
 
-   * 将项目置于已与其他人共享的&#x200B;**Portfolio**&#x200B;或&#x200B;**计划**&#x200B;中。 用户将获得与项目组合或项目群相同的项目权限。\
-     有关将项目添加到&#x200B;**Portfolio**&#x200B;的信息，请参阅[将项目添加到项目组合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。\
-     有关将项目添加到&#x200B;**程序**&#x200B;的信息，请参阅[将项目添加到程序](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
-有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+  * 将项目置于已与其他人共享的&#x200B;**Portfolio**&#x200B;或&#x200B;**计划**&#x200B;中。 用户将获得与项目组合或项目群相同的项目权限。\
+    有关将项目添加到&#x200B;**Portfolio**&#x200B;的信息，请参阅[将项目添加到项目组合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。\
+    有关将项目添加到&#x200B;**程序**&#x200B;的信息，请参阅[将项目添加到程序](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
+    有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
 
-   * 在用于创建项目的模板上向项目共享添加实体。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
-   * 定义项目访问模板。
+  * 在用于创建项目的模板上向项目共享添加实体。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
+  * 定义项目访问模板。
 
-     >[!TIP]
-     >
-     >附加或保存模板时，您可以清除模板项目共享规则。
+    >[!TIP]
+    >
+    >附加或保存模板时，您可以清除模板项目共享规则。
 
-   * 编辑项目并定义&#x200B;**当授予某人此项目的访问权限时**&#x200B;设置。  有关详细信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)。
+  * 编辑项目并定义&#x200B;**当授予某人此项目的访问权限时**&#x200B;设置。  有关详细信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

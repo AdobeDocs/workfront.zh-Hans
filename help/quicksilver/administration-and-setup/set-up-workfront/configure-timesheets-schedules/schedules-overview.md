@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: 用户，计划
 navigation-topic: configure-timesheets-and-schedules
 title: 时间表概述
-description: 您可以使用计划定义工作周。 您可以将时间表与用户或项目关联。 这允许 [!DNL Adobe Workfront] 计算时间表和用户可用性。 有关说明，请参阅创建计划。
+description: 您可以使用计划定义工作周。 您可以将时间表与用户或项目关联。 这允许[!DNL Adobe Workfront]计算时间表和用户可用性。 有关说明，请参阅创建计划。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 # 时间表概述
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ ht-degree: 0%
 
 * 当一个用户被分配给任务时，[!DNL Workfront]使用下列计划之一，如[!UICONTROL 设置]的[!UICONTROL 项目偏好设置]区域中所定义：
 
-   * 分配给任务的用户的计划
-   * 与项目关联的计划。
+  * 分配给任务的用户的计划
+  * 与项目关联的计划。
 
-     有关个人时间的详细信息，请参阅[配置个人休息时间](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
+    有关个人时间的详细信息，请参阅[配置个人休息时间](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 * 当多个用户被分配到一项任务时，并且该用户在任务的时间范围内具有不同的计划，则[!DNL Workfront]会使用以下计划之一，如[!UICONTROL 设置]的[!UICONTROL 项目首选项]区域中所定义：
 
-   * 被指定为主要被分配人的用户的计划
-   * 与项目关联的计划。
+  * 被指定为主要被分配人的用户的计划
+  * 与项目关联的计划。
 
-     有关项目首选项的详细信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+    有关项目首选项的详细信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 * 如果分配给任务的用户没有计划，或任务仅分配给工作角色、团队或未分配，[!DNL Workfront]将项目计划用于时间表计算。
 * 如果分配给任务的用户没有计划，或者任务仅分配给工作角色、团队或未分配，并且项目没有计划，则[!DNL Workfront]使用系统中指定为默认计划的时间表进行时间线计算。

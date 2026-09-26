@@ -10,26 +10,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w
+TQID: 'https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1397
+source-wordcount: '1397'
 ht-degree: 2%
-
 ---
-
 # 21.1管理员增强功能
 
 本页介绍了在21.1版本中对“预览”环境所做的所有“管理员”增强。 这些增强功能将在2021年2月15日这一周的“生产”环境中提供。
@@ -46,7 +53,7 @@ ht-degree: 2%
 
 有关复制项目的信息，请参阅[复制项目](../../../manage-work/projects/manage-projects/copy-project.md)。
 
-此功能现已包含在新Workfront Experience第1部分：用户组织[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中Workfront One。
+此功能现已包含在新Workfront Experience第1部分：用户组织](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理员基础知识中Workfront One。
 
 ## 在对象的自定义表单中，选择多选下拉字段中的所有项目
 
@@ -90,7 +97,7 @@ Adobe Workfront管理员现在可以通过解锁各个任务和问题偏好设�
 
 有关可以为程序和项目组合配置的访问设置的信息，请参阅[可配置的每个对象类型对功能的访问](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 
-此功能现已包含在新Workfront Experience第1部分：用户组织[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中Workfront One。
+此功能现已包含在新Workfront Experience第1部分：用户组织](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理员基础知识中Workfront One。
 
 ## 在自定义表单中编辑信息时，选中系列中的所有复选框
 
@@ -123,7 +130,7 @@ Adobe Workfront管理员现在可以通过解锁各个任务和问题偏好设�
 
 有关详细信息，请参阅[子组概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)一文中的[子组的组管理员](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for)部分。
 
-此功能现已包含在新Workfront Experience第1部分：用户组织[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中Workfront One。
+此功能现已包含在新Workfront Experience第1部分：用户组织](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理员基础知识中Workfront One。
 
 ## 为组配置事件通知
 
@@ -141,7 +148,7 @@ Workfront管理员现在可以赋予组管理员更大的自主权，允许他�
 * [查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
 <!--
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.
 -->

@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+TQID: 'https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 10%
-
+source-wordcount: '1505'
+ht-degree: 9%
 ---
-
 # 快速启动方案：简单的项目和任务导入准备
 
 详细描述了使用Kick-Start方法导入基本项目和任务时可用的设置和控件。
@@ -313,7 +318,7 @@ ht-degree: 10%
 * **提供项目日期。**
 在setPlannedStartDate列中为每个项目输入计划开始日期。
 * **设置其他所需的详细信息。**
-根据需要填写其他详细信息，例如描述或当前状态。在“组ID”工作表中查找每个项目的组ID，并将其输入各个项目的setGroupID列。在CMPY公司页上查找项目的公司ID，并将其输入到setCompanyID列中。在“用户用户”工作表中查找每个项目所有者的用户ID，并将其输入到setOwnerID列中。在用户用户工作表中查找每个项目发起人的用户ID，并将其输入到setSponsiderID列中。
+根据需要填写其他详细信息，例如描述或当前状态。 在“组ID”工作表中查找每个项目的组ID，并将其输入各个项目的setGroupID列。 在CMPY公司页上查找项目的公司ID，并将其输入到setCompanyID列中。 在“用户用户”工作表中查找每个项目所有者的用户ID，并将其输入到setOwnerID列中。 在用户用户工作表中查找每个项目发起人的用户ID，并将其输入到setSponsiderID列中。
 
 ![设置值](assets/im9.png)
 
@@ -380,11 +385,11 @@ ht-degree: 10%
 
   在此情况下，为要导入的其他项目构建任务的最简单方法是复制您刚刚定义的任务并将其粘贴到下方，从第12行开始。 然后，您将：
 
-   1. 对ID列中的值重新编号。
-   1. 将setProjectID列更新为您为下一个项目设置的值。
-   1. 更新setParentID和setPredictiveString值以反映分配给此项目任务的新ID。
-   1. 更新任务分配和完成百分比。
-   1. 对下一个项目的任务重复这些步骤。
+  1. 对ID列中的值重新编号。
+  1. 将setProjectID列更新为您为下一个项目设置的值。
+  1. 更新setParentID和setPredictiveString值以反映分配给此项目任务的新ID。
+  1. 更新任务分配和完成百分比。
+  1. 对下一个项目的任务重复这些步骤。
 
 * **导入Excel文件**
 

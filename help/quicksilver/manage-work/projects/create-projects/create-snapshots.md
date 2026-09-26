@@ -6,13 +6,20 @@ description: Adobe Workfront中的快照让您能够查看快照（在特定日�
 author: Lisa
 feature: Work Management
 exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1282'
 ht-degree: 2%
-
 ---
-
 # 创建和查看项目快照
 
 项目经理通常需要将项目的过去数据与当前状态进行比较，以做出明智的决策，并查看其项目随时间的变化。
@@ -163,7 +170,7 @@ ht-degree: 2%
 
 1. 单击列表上方的&#x200B;**列**。
 
-   快照列表![的](assets/hide-display-columns-on-snapshot.png)列
+   快照列表](assets/hide-display-columns-on-snapshot.png)的![列
 
 1. 使用切换可显示或隐藏列表中的列。
 1. 要重新排序列，请单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)并将列移动到所需的位置。 移动列会自动更改列表。
@@ -206,6 +213,6 @@ ht-degree: 2%
 
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义列表中的列](#customize-columns-in-a-list)。
-1. （可选）筛选列表。 有关详细信息，请参阅列表[中的](#filter-items-in-a-list)筛选项。
+1. （可选）筛选列表。 有关详细信息，请参阅列表](#filter-items-in-a-list)中的[筛选项。
 
 对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。 有关视图的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。

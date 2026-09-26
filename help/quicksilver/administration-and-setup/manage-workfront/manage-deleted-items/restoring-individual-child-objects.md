@@ -8,25 +8,31 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-TQID: https://experienceleague.adobe.com/-rjpPKLN8OTaEcmZkodNLCRXVlCaqThiLVimpBTQ5uI
+TQID: 'https://experienceleague.adobe.com/-rjpPKLN8OTaEcmZkodNLCRXVlCaqThiLVimpBTQ5uI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 4%
-
 ---
-
 # 恢复单个子对象
 
 本文介绍了如何获取有关恢复已从Adobe Workfront生产或预览环境中删除的单个子对象的帮助，这些环境在30天之前未删除。
@@ -49,7 +55,7 @@ Workfront管理员可以恢复每个Workfront实例中的项目、任务、问�
 
 在周末的维护时段中刷新预览Sandbox环境。
 
-有关“预览Sandbox”环境的维护窗口的详细信息，请参阅[Adobe状态网站](https://status.adobe.com/zh-cn)。
+有关“预览Sandbox”环境的维护窗口的详细信息，请参阅[Adobe状态网站](https://status.adobe.com)。
 
 >[!IMPORTANT]
 >
@@ -94,8 +100,8 @@ Workfront管理员可以恢复每个Workfront实例中的项目、任务、问�
 
   找到对象的GUID时，请参阅以下信息：
 
-   * 通过引用通过与对象交互而触发的电子邮件通知（分配、评论等），可以找到GUID
-   * 在URL末尾找到的GUID示例： `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
+  * 通过引用通过与对象交互而触发的电子邮件通知（分配、评论等），可以找到GUID
+  * 在URL末尾找到的GUID示例： `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
 
 收集完此信息或需要帮助后，请致电我们的客户支持团队：844-306-HELP(4357)，或在线提交票证。
 

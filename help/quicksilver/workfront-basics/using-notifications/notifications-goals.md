@@ -8,25 +8,31 @@ feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
+TQID: 'https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: '403'
 ht-degree: 5%
-
 ---
-
 # 通知：目标
 
 您可以为配置文件中发生[!DNL Adobe Workfront Goals]的事件启用电子邮件通知。 具有[!UICONTROL 计划]许可证的用户还可以为其他用户启用它们。 有关信息，请参阅[[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)。
@@ -55,7 +61,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p></td> 
+   <td> <p>[！UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -96,15 +102,15 @@ Support asked for this to be removed: issue ref number 29111956
   </tr> 
   <tr> 
    <td><strong>有人已将“结果”/“活动”分派给我</strong></td> 
-   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人为我创建了新的个人目标</strong> </td> 
-   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人在我的“目标”中留言了</strong></td> 
-   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 

@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+TQID: 'https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: '2612'
 ht-degree: 1%
-
 ---
-
 # 批量编辑用户配置文件
 
 您可以批量编辑用户帐户。 在批量编辑用户时，只有您专门选择的字段会更新为所有选定用户提供的相同信息。 您未选择的所有其他字段对于每个用户都将保持不变，即使每个用户各自的字段各不相同。
@@ -123,11 +130,11 @@ ht-degree: 1%
 
   以下列表描述了在此字段中可用的模板列表如何取决于您的访问权限：
 
-   * 作为Workfront管理员，您可以查看所有系统级和组级布局模板。
-   * 作为组管理员，您可以查看系统级布局模板以及与您管理的组关联的模板。
-   * 作为具有Standard或Plan许可证并有权编辑用户的用户，您只能看到系统级别的布局模板。
+  * 作为Workfront管理员，您可以查看所有系统级和组级布局模板。
+  * 作为组管理员，您可以查看系统级布局模板以及与您管理的组关联的模板。
+  * 作为具有Standard或Plan许可证并有权编辑用户的用户，您只能看到系统级别的布局模板。
 
-     有关组级布局模板的详细信息，请参阅[创建和修改组的布局模板](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
+    有关组级布局模板的详细信息，请参阅[创建和修改组的布局模板](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 ### 组织
 
@@ -140,9 +147,9 @@ ht-degree: 1%
 
   仅当以下任一情况为真时，才能将组分配给用户：
 
-   * 您是Workfront管理员
-   * 您是组的管理员
-   * 该组为公开组
+  * 您是Workfront管理员
+  * 您是组的管理员
+  * 该组为公开组
 
 * **其他组**：用户可以属于多个组。 只有在您是Workfront管理员、组管理员或组为公共时，才能将组分配给用户。
 
@@ -211,9 +218,9 @@ ht-degree: 1%
 
   在此字段中可用的配置文件列表取决于您的访问权限：
 
-   * 作为Workfront管理员，您可以查看所有系统级别和所有组级别的时间表配置信息。
-   * 作为组管理员，您可以查看系统级时间表配置文件，以及与您管理的组相关联的时间表配置文件。
-   * 作为具有Standard或Plan许可证并有权编辑用户的用户，您只能看到系统级时间表配置文件。 有关组级时间表配置文件的详细信息，请参阅[创建、编辑和分配时间表配置文件](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+  * 作为Workfront管理员，您可以查看所有系统级别和所有组级别的时间表配置信息。
+  * 作为组管理员，您可以查看系统级时间表配置文件，以及与您管理的组相关联的时间表配置文件。
+  * 作为具有Standard或Plan许可证并有权编辑用户的用户，您只能看到系统级时间表配置文件。 有关组级时间表配置文件的详细信息，请参阅[创建、编辑和分配时间表配置文件](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 * **默认小时类型**：为用户选择默认小时类型。 这是用户记录时间时默认使用的小时类型。
 * **可用小时类型**：选择用户应可用的小时类型。 这些小时类型在Workfront中用户可以记录时间的任意位置均可见。 用户只能看到在项目级别以及用户级别启用的小时类型。 有关用户可用的小时类型的详细信息，请参阅[定义小时类型和可用性](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。

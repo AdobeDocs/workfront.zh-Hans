@@ -5,36 +5,45 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a74d036b-e4fa-49e0-bb10-4baf379e1b1c
-TQID: https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA
+TQID: 'https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '729'
 ht-degree: 0%
-
 ---
-
 # 2026年第一季度管理员增强功能
 
 本页介绍了管理员在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 管理布局模板中的优先级
 
 >[!NOTE]
 >
->此功能在预览环境中暂时不可用>预览： 2025年12月2日>生产快速版本： 2026年1月14日>适用于所有人的生产： 2026年1月15日
+>此功能在预览环境中暂时不可用
+>预览： 2025年12月2日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
 
 
 您现在可以在布局模板中启用或禁用特定用户的优先级。 如果之前已为您的组织禁用了优先级，则进行此更改后，布局模板中将保持禁用状态。
@@ -48,7 +57,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年12月18日>生产快速发布： 2026年1月14日>适用于所有人的生产： 2026年1月15日
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
 
 同一计算字段在附加到不同的自定义表单时可以有不同的公式。 如果将包含相同计算字段的两个或多个表单附加到对象，则所有表单上的公式必须相同。 如果更改可能导致冲突，则不允许编辑公式。
 
@@ -61,7 +72,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年11月13日>生产快速发布： 2025年11月13日>适用于所有人的生产： 2025年11月13日
+>预览： 2025年11月13日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2025年11月13日
 
 输入日期和按ID输入的内容现在存储在自定义表单、字段和部分中。 您可以在报表中将这些数据选项用作过滤器、视图或分组。 要在“设置”中的自定义表单、字段或节列表中显示它们，请添加“输入日期”和“输入者：名称”作为新视图或现有视图中的列。
 
@@ -73,7 +86,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年10月30日>生产快速发布： 2025年11月13日>适用于所有人的生产： 2026年1月15日
+>预览： 2025年10月30日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2026年1月15日
 
 为了与设置的其他区域（如自定义表单设计器）更加一致，您在编辑布局模板时看到的按钮已更改为&#x200B;**应用**、**保存并关闭**&#x200B;和&#x200B;**取消**。 新选项&#x200B;**应用**&#x200B;允许您保存对布局模板所做的更改并继续编辑。 以前，可用的选项为&#x200B;**保存**&#x200B;和&#x200B;**取消**。
 
@@ -83,7 +98,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年10月30日>生产快速发布： 2025年11月13日>适用于所有人的生产： 2026年1月15日
+>预览： 2025年10月30日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2026年1月15日
 
 当系统中具有大量自定义字段时，在自定义表单和报告中管理这些字段可能比较困难。 您现在可以使用新的&#x200B;**活动**&#x200B;标志将自定义字段标记为不活动。 在自定义表单中使用字段，或者从“字段”列表添加或编辑字段时，此标志可用。
 

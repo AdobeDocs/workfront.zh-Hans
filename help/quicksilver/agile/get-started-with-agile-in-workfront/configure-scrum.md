@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
+TQID: 'https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1727
+source-wordcount: '1727'
 ht-degree: 1%
-
 ---
-
 # 配置[!UICONTROL Scrum]
 
 您可以在[!DNL Adobe Workfront]中创建Agile团队，如[创建Agile团队](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 创建Agile团队时，您可以选择团队用于完成工作的方法。 您可以从以下选项中进行选择：
@@ -204,11 +212,11 @@ ht-degree: 1%
    * **[!UICONTROL 自由表单]**：所有信息卡默认显示为蓝色，直到用户手动更改颜色为止，如Scrum展示板上的[[!UICONTROL 按颜色对故事进行分类]中所述。](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md)
    * **[!UICONTROL 优先级]**：颜色与文章优先级关联，如下所示：
 
-      * 高=红色
-      * Medium =黄色
-      * 低=绿色
+     * 高=红色
+     * Medium =黄色
+     * 低=绿色
 
-        如果系统管理员为[!DNL Workfront]系统配置了自定义优先级，则最高优先级为红色，第二高为黄色，第三高为绿色。
+       如果系统管理员为[!DNL Workfront]系统配置了自定义优先级，则最高优先级为红色，第二高为黄色，第三高为绿色。
    * **[!UICONTROL 任务所有者]**：具有相同主要被分配人的所有故事都是相同的颜色。 主要被分配者是首次分配至任务的用户。
 
 1. 单击&#x200B;**[!UICONTROL 保存更改]**。

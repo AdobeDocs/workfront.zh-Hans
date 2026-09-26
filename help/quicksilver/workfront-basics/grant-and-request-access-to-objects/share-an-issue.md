@@ -6,22 +6,26 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 3%
-
 ---
-
 # 共享问题
 
 在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑问题的访问权限。 有关授予问题访问权限的详细信息，请参阅[授予问题访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)。
@@ -76,9 +80,9 @@ ht-degree: 3%
 * 您可以单独共享问题，也可以一次共享多个问题。 共享问题与在Workfront中共享其他项目相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向问题授予以下权限：
 
-   * 视图
-   * 贡献
-   * 管理
+  * 视图
+  * 贡献
+  * 管理
 
 * 当您共享问题时，所有附加到问题的文档都会继承相同的权限。
 
@@ -91,27 +95,27 @@ ht-degree: 3%
 * 手动，与在Workfront中共享任何其他对象类似。
 * 通过执行以下操作之一，自动执行：
 
-   * 指定问题的任何父对象的权限：项目、项目群或项目组合。 问题会从其父对象继承权限。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
-   * 在用于创建问题所在项目的模板上将实体添加到项目共享。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
+  * 指定问题的任何父对象的权限：项目、项目群或项目组合。 问题会从其父对象继承权限。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+  * 在用于创建问题所在项目的模板上将实体添加到项目共享。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 在编辑项目时，指定项目中所有问题的权限。 有关基于用户对项目的权限管理对项目上问题或请求的访问权限的信息，请参阅文章[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
+  * 在编辑项目时，指定项目中所有问题的权限。 有关基于用户对项目的权限管理对项目上问题或请求的访问权限的信息，请参阅文章[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
 
-     >[!TIP]
-     >
-     >如果您没有指定在将用户分配给项目问题时希望他们拥有的问题权限，则默认情况下，他们将会获得与项目相同的权限。
+    >[!TIP]
+    >
+    >如果您没有指定在将用户分配给项目问题时希望他们拥有的问题权限，则默认情况下，他们将会获得与项目相同的权限。
 
-   * 指定用户在创建请求队列时，对于在请求队列中提交的问题所接收的权限。 有关信息，请参阅[创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+  * 指定用户在创建请求队列时，对于在请求队列中提交的问题所接收的权限。 有关信息，请参阅[创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-     >[!IMPORTANT]
-     >
-     >根据项目是否作为请求队列发布，授予的权限会有所不同：
-     >
-     >   
-     >   
-     >   * 当用户将请求提交到作为请求队列发布的项目时，主要联系人和输入者用户将被授予指定的权限。
-     >   * 当用户将请求提交到未作为请求队列发布的项目时，主要联系人（如果与“输入者”用户不同）将被授予指定的权限，而“输入者”用户将获得该问题的管理权限。
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >根据项目是否作为请求队列发布，授予的权限会有所不同：
+    >
+    >   
+    >   
+    >   * 当用户将请求提交到作为请求队列发布的项目时，主要联系人和输入者用户将被授予指定的权限。
+    >   * 当用户将请求提交到未作为请求队列发布的项目时，主要联系人（如果与“输入者”用户不同）将被授予指定的权限，而“输入者”用户将获得该问题的管理权限。
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

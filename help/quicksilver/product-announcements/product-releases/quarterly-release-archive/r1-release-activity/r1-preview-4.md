@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 # R1预览4
 
 本页介绍R1.4版本在“预览”环境中可用的所有更改。 2017年2月15日，预览环境中提供了此页面上的功能。
@@ -42,8 +47,8 @@ ht-degree: 0%
 
 * 删除了与修改现有全局审批流程相关的下列预先存在的限制：
 
-   * 修改后的审批流程仅反映在审批流程尚未启动或审批流程未修改的系统对象上。 已启动审批流程或已修改审批流程的对象不会随您的更改而更新。
-   * 您无法修改决定批准何时开始的状态。
+  * 修改后的审批流程仅反映在审批流程尚未启动或审批流程未修改的系统对象上。 已启动审批流程或已修改审批流程的对象不会随您的更改而更新。
+  * 您无法修改决定批准何时开始的状态。
 
 * 更新了外观。
 
@@ -101,7 +106,7 @@ ht-degree: 0%
 
 我们为组和子组的管理提供了一个新界面，可提供更简单、更友好的用户体验。
 
-“组所有者”字段和“组成员”字段现在合并为一个字段，其中包含下面列出的组成员列表。此外，您可以筛选组成员列表，并更改他们是所有者还是成员。 
+“组所有者”字段和“组成员”字段现在合并为一个字段，其中包含下面列出的组成员列表。 此外，您可以筛选组成员列表，并更改他们是所有者还是成员。 
 
 有关将子组添加到组以及将用户指定为组的成员或组所有者的详细信息，请参阅[创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。 
 

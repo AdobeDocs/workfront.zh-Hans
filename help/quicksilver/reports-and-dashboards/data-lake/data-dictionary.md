@@ -7,13 +7,20 @@ description: 本页包含有关Workfront Data Connect中数据的结构和内容
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Workfront Data Connect数据字典
 
 本页包含有关Workfront Data Connect中数据的结构和内容的信息。
@@ -250,7 +257,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 批准路径
+### 审批路径
 
 <table>
     <thead>
@@ -264,8 +271,8 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>批准路径</td>
-            <td>批准路径</td>
+            <td>审批路径</td>
+            <td>审批路径</td>
             <td>ARVPTH</td>
             <td>审批</td>
             <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
@@ -648,7 +655,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 等待审批
+### 等待批准
 
 <table>
     <thead>
@@ -662,10 +669,10 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>等待审批</td>
-            <td>等待审批</td>
+            <td>等待批准</td>
+            <td>等待批准</td>
             <td>AWAPVL</td>
-            <td>等待审批</td>
+            <td>等待批准</td>
             <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
         </tr>
       </tbody>
@@ -1708,15 +1715,15 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 >
 >记录类型通过`enumClass`属性标识。 以下是所需的类型：<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### 文档

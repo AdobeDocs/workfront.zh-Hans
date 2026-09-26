@@ -9,25 +9,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-TQID: https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w
+TQID: 'https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: '1115'
 ht-degree: 0%
-
 ---
-
 # 了解Workfront迁移到Adobe Admin Console
 
 Adobe正在改变您管理Adobe Workfront用户的方式，从而提高您和贵组织的生产效率。 作为此更改的一部分，Adobe正在将您的Workfront实例和用户迁移到Adobe Admin Console。 这是必需的迁移，不会影响任何报表、批准路径、内容或资源。 它将影响您管理用户访问权限的方式以及您的用户登录的方式。
@@ -83,7 +90,7 @@ Workfront产品配置文件管理员（Workfront系统管理员）将：
 
 * 通过通知所有用户以下信息，让他们为即将迁移到Adobe Identity做好准备：
 
-   * 在用户迁移时，他们将收到Adobe的电子邮件，通知他们对Workfront登录方式所做的更改。 将邀请用户接受首次使用Adobe身份登录的邀请，方法是使用现有Adobe ID登录，或使用同一电子邮件地址设置一个新帐户。
+  * 在用户迁移时，他们将收到Adobe的电子邮件，通知他们对Workfront登录方式所做的更改。 将邀请用户接受首次使用Adobe身份登录的邀请，方法是使用现有Adobe ID登录，或使用同一电子邮件地址设置一个新帐户。
 
 ### 迁移日期待完成的任务
 

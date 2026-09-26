@@ -2,29 +2,40 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: 使用 [!DNL Workfront Proof]创建和管理自定义配置文件
+title: 使用[!DNL Workfront Proof]创建和管理自定义配置文件
 description: 账单管理员和管理员可创建和管理自定义配置文件，以指定用户可在贵组织的帐户和“帐户”设置中执行的操作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+TQID: 'https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '1051'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Workfront Proof]创建和管理自定义配置文件
 
 >[!IMPORTANT]
@@ -120,7 +131,7 @@ ht-degree: 0%
 有关信息，请参阅[还原并清空 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)中的垃圾桶。
 
 * 管理权限配置文件
-有关信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
+有关信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
 
 * 查看Analytics
 
@@ -147,10 +158,10 @@ ht-degree: 0%
    有关详细信息，请参阅[管理权限](#administrative-permissions)。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
-新配置文件现在可在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡上使用。
+新配置文件现在可在**[!UICONTROL 用户]**&#x200B;选项卡上使用。
 
 1. （可选）将新配置文件分配给新的和现有的用户帐户。
-有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
+有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
 
 ## 启用和禁用配置文件 {#enabling-and-disabling-a-profile}
 
@@ -158,7 +169,7 @@ ht-degree: 0%
 
 1. 选择要启用或禁用的配置文件。
 或
-要同时启用或禁用多个配置文件，请手动选择配置文件，或选择&#x200B;**[!UICONTROL 名称]**&#x200B;以选择所有自定义配置文件。
+要同时启用或禁用多个配置文件，请手动选择配置文件，或选择**[!UICONTROL 名称]**以选择所有自定义配置文件。
    ![Screenshot_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
 
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;下拉菜单，然后单击以下任一选项，具体取决于您是要启用或禁用配置文件：
@@ -196,7 +207,7 @@ ht-degree: 0%
 1. 导航到&#x200B;**[!UICONTROL 帐户设置]**，然后单击&#x200B;**[!UICONTROL 配置文件]**&#x200B;选项卡。
 
 1. 单击要编辑的配置文件名称。
-1. 对配置文件的名称或权限进行任何所需的更改。这些更改会自动保存和更新。
+1. 对配置文件的名称或权限进行任何所需的更改。 这些更改会自动保存和更新。
 有关权限的详细信息，请参阅[模块权限](#module-permissions)和[管理权限](#administrative-permissions)。
 
 >[!NOTE]

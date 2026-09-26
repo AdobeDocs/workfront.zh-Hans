@@ -6,13 +6,20 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # 项目和相关对象的文档管理概述
 
 您的Adobe Workfront管理员可以为贵组织的存储首选项定义默认值，以指示文档应存储在Workfront中的什么位置。
@@ -152,7 +159,7 @@ This is not possible anymore:
 * 您无法将Adobe云存储项目添加到旧版存储产品组合，或将旧版存储项目添加到Adobe存储产品组合。
 * 管理员可以在“设置”的“系统首选项”区域将旧版存储产品组合转换为Adobe云存储。 所有子对象（项目群、项目和文档）都保留在旧版存储中。 新项目将使用Adobe云存储。 添加到产品组合的新文档将继续存储在旧版存储中。
 有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
-* &#x200B;<!-- this point also repeats for programs below-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
+* <!-- this point also repeats for programs below-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
 
   您无法再向此项目组合添加现有的旧版存储项目。
 
@@ -171,7 +178,7 @@ This is not possible anymore:
 * 您不能将Adobe云存储程序添加到旧版存储产品组合，也不能将旧版程序添加到Adobe云存储产品组合。
 * 无法从旧版存储程序中的Adobe云存储模板创建项目。
 * 您可以从Adobe云存储项目中的旧版存储模板创建项目，但该模板上的文档和文件夹不会添加到新项目中。 项目接收Adobe云存储。
-* &#x200B;<!-- this point also repeats for portfolios above-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
+* <!-- this point also repeats for portfolios above-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
 
   您无法再向此项目组合添加现有的旧版存储项目。
 

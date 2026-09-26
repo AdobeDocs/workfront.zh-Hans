@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
-title: 与 [!DNL Workfront Proof]同步框文件夹
+title: 与[!DNL Workfront Proof]同步框文件夹
 description: 您可以将Box文件夹与Workfront Proof中的文件夹同步。 您对Box文件夹中的文件所做的每项更改都将反映在Workfront Proof中（因此需要上传新文件、添加新版本、重命名文件等）。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
-TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
+TQID: 'https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 0%
-
 ---
-
 # 将[!DNL Box]文件夹与[!DNL Workfront Proof]同步
 
 >[!IMPORTANT]
@@ -69,7 +78,7 @@ ht-degree: 0%
 >
 >* 您还可以从[!UICONTROL 文件夹选项]菜单同步[!DNL Box]文件夹。
 >* 如果您拥有自己的品牌[!DNL Workfront Proof]登录页面，则将转到该页面，而不是标准的[!DNL Workfront Proof]登录页面。 如果您需要更多信息，请参阅[品牌](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)下的文章。
->* 如果您在[!DNL Workfront Proof]帐户中启用了[!UICONTROL 单点登录(SSO)]功能，则将转到SSO登录页面并要求您输入SSO登录凭据，但前提是您的[!DNL Box]帐户和[!DNL Workfront Proof]使用相同的电子邮件地址。 如果您需要更多信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的[!UICONTROL 单点登录]。
+>* 如果您在[!DNL Workfront Proof]帐户中启用了[!UICONTROL 单点登录(SSO)]功能，则将转到SSO登录页面并要求您输入SSO登录凭据，但前提是您的[!DNL Box]帐户和[!DNL Workfront Proof]使用相同的电子邮件地址。 如果您需要更多信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的[[!UICONTROL 单点登录]。
 >* 如果您的[!DNL Box]帐户和[!DNL Workfront Proof]帐户未使用相同的电子邮件地址，则将始终转到标准的[!DNL Workfront Proof]登录页面。
 >
 

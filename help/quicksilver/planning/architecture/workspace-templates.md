@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk
+TQID: 'https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 6%
-
 ---
-
 # 工作区模板列表
 
 {{planning-important-intro}}
@@ -35,8 +42,8 @@ Workfront Planning随附了一组模板，帮助您在构建工作区时开始�
 
 * 根据在使用Planning工作区模板时创建的工作区数量，您可以使用以下类型的模板：
 
-   * 单个模板：一个模板创建一个工作区。
-   * 多工作区模板包：模板包创建6个相互连接的工作区。
+  * 单个模板：一个模板创建一个工作区。
+  * 多工作区模板包：模板包创建6个相互连接的工作区。
 * 每个模板都附带一组记录类型。
 
   有关信息，请参阅[记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
@@ -108,82 +115,82 @@ the above is only for closed beta; when going to GA - activate the following pla
 
   Operations Initiative Studio模板包含以下记录类型及其字段：
 
-   * 计划
-   * 工作流
-   * 风险和问题
-   * 决策
-   * 系统
-   * 团队
+  * 计划
+  * 工作流
+  * 风险和问题
+  * 决策
+  * 系统
+  * 团队
 * **Communications Planning Studio**：希望快速设置通信规划中心。 首先，复制长通信计划或短通信计划模板记录，然后通过添加战术和跟踪审批检查点来构建转出。 参考受众、市场和渠道，以实现一致的报告、筛选和重用。 包括示例记录以及现成的表、时间线和日历视图，因此团队可以立即探索Planning功能。
 
   Communications Planning Studio模板包含以下记录类型及其字段：
 
-   * 通信
-   * 受众
-   * 战术
-   * 审批检查点
-   * 渠道
-   * 市场
-   * 利益相关者角色
+  * 通信
+  * 受众
+  * 战术
+  * 审批检查点
+  * 渠道
+  * 市场
+  * 利益相关者角色
 
 * **基本：营销管理**：非常适合于建立基本营销系统基础的组织。 该模板包括以下记录类型和字段数，包括连接到其他记录类型的字段：
 
-   * 促销活动
-   * 用户画像
-   * 品牌
-   * 产品
+  * 促销活动
+  * 用户画像
+  * 品牌
+  * 产品
 
 * **高级：营销管理**：适用于准备探索更细微营销策略的团队。 该模板包括以下记录类型和字段数，包括连接到其他记录类型的字段：
 
-   * 营销活动
-   * 项目群
-   * 区域
-   * 客户历程阶段
-   * 受众
-   * 交付成果
-   * 品牌
+  * 营销活动
+  * 项目群
+  * 区域
+  * 客户历程阶段
+  * 受众
+  * 交付成果
+  * 品牌
 
 * **企业：营销管理**：专为具有复杂营销系统的大型或成熟组织而设计。 该模板包括以下记录类型和字段数，包括连接到其他记录类型的字段：
 
-   * 营销活动
-   * 项目群
-   * 战术
-   * 活动
-   * 产品
-   * 交付成果
-   * Target受众
-   * 区域
-   * 子区域
-   * 伙伴
-   * 用例
-   * 客户历程阶段
+  * 营销活动
+  * 项目群
+  * 战术
+  * 活动
+  * 产品
+  * 交付成果
+  * Target受众
+  * 区域
+  * 子区域
+  * 伙伴
+  * 用例
+  * 客户历程阶段
 
 * 销售管理：您可以创建全面的销售系统，以简化销售流程并提高效率。 该模板包括以下记录类型和字段数，包括连接到其他记录类型的字段：
 
-   * 机会
-   * 活动
-   * 促销活动
-   * 帐户
-   * 潜在客户
-   * 联系人
-   * 区域
-   * 行业
-   * 购买中心
-   * 产品/服务
-   * 竞争
+  * 机会
+  * 活动
+  * 促销活动
+  * 帐户
+  * 潜在客户
+  * 联系人
+  * 区域
+  * 行业
+  * 购买中心
+  * 产品/服务
+  * 竞争
 
 
 * 产品管理：您可以使用此模板创建高效且结构化的产品管理流程。 该模板包括以下记录类型和字段数，包括连接到其他记录类型的字段：
 
-   * 主题
-   * 计划
-   * Epic
-   * 用户故事
-   * 客户
-   * Sprint
-   * 产品团队
-   * 功能请求
-   * 行业
+  * 主题
+  * 计划
+  * Epic
+  * 用户故事
+  * 客户
+  * Sprint
+  * 产品团队
+  * 功能请求
+  * 行业
 
 ## 多工作区Workfront Planning工作区模板
 
@@ -203,56 +210,56 @@ the above is only for closed beta; when going to GA - activate the following pla
   >我们仅将“Fréscopa”名称用作公司的一般示例。
 
 
-   * 客户历程
-   * 国家/地区
-   * 渠道
-   * 区域
-   * 省/市/自治区/直辖市
-   * 语言
-   * 平台
-   * 体验类型
-   * 年
-   * 季度
-   * 报文传送策略
-   * Target受众
-   * 用户画像
-   * 产品
-   * 品牌
-   * 产品类别
-   * 值
-   * 愿景与使命
-   * 支柱
-   * 关键绩效指标
+  * 客户历程
+  * 国家/地区
+  * 渠道
+  * 区域
+  * 省/市/自治区/直辖市
+  * 语言
+  * 平台
+  * 体验类型
+  * 年
+  * 季度
+  * 报文传送策略
+  * Target受众
+  * 用户画像
+  * 产品
+  * 品牌
+  * 产品类别
+  * 值
+  * 愿景与使命
+  * 支柱
+  * 关键绩效指标
 
 * **2.Fréscopa全球营销**：用于管理Fréscopa企业营销策略和执行情况的集中工作区。 它将营销活动、内容和量度相结合以提升品牌影响力。
 
-   * 营销活动
-   * 渠道战术
-   * 体验
-   * 活动
+  * 营销活动
+  * 渠道战术
+  * 体验
+  * 活动
 
 * **3.Fréscopa Social Marketing**：用于管理Fréscopa的社交媒体展示和营销活动的专用工作区。 它集中了所有社交平台的规划、发布和性能跟踪。
 
-   * 影响者
+  * 影响者
 
 * **4.Fréscopa Media &amp; PR**：媒体和PR团队协调活动以支持全球营销目标的位置。
 
-   * 记者
-   * Media Outlets
-   * 媒体参与
+  * 记者
+  * Media Outlets
+  * 媒体参与
 
 * **5.Fréscopa全球活动**：一个规划和跟踪跨所有地区、国家和业务部门的Fréscopa活动的集中位置。
 
-   * 事件类型
-   * 工作流类型
-   * 扬声器
-   * 事件位置
-   * 事件受众类型
+  * 事件类型
+  * 工作流类型
+  * 扬声器
+  * 事件位置
+  * 事件受众类型
 
 * **6.Fréscopa执行公司领导层**：战略领导者的集中工作区，用于与企业目标和目的等可操作数据交互。
 
-   * 企业目标
-   * 部门目标
-   * 团队目标
-   * 关键结果
+  * 企业目标
+  * 部门目标
+  * 团队目标
+  * 关键结果
 

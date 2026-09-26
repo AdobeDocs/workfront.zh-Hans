@@ -9,18 +9,24 @@ feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/PnAuO5ncxCGEEX2qJ0b-XpqWmdkpoXAXj-tP2znanQQ
+TQID: 'https://experienceleague.adobe.com/PnAuO5ncxCGEEX2qJ0b-XpqWmdkpoXAXj-tP2znanQQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: '651'
 ht-degree: 0%
-
 ---
-
 # 迭代完成状态概述
 
 本文中描述的完成信息显示在燃尽图的上方。
@@ -56,7 +62,7 @@ ht-degree: 0%
 
   当[!UICONTROL 预计完成]日期晚于为迭代定义的结束日期时，剩余的工作日数将在[!UICONTROL 预计完成]日期旁边的括号中显示为红色。
 
-  当[!UICONTROL 预计完成]日期早于迭代的计划结束日期时，剩余工作天数以绿色显示。 (在计划迭代时指定迭代的结束日期，如[创建迭代](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)中所述；项目的结束日期为[!UICONTROL 计划完成日期]，如果[!UICONTROL 计划完成日期]是过去的日期，则为当前日期。 项目的计划完成日期[!UICONTROL 是根据项目中任务的持续时间计算的。) &#x200B;]在计划迭代时，如果您为非工作日设置迭代结束日期，并且迭代正在跟踪按时完成，则预计完成日期将为您设置的迭代结束日期之前的最后一个工作日设置（因为不计划在非工作日烧掉工作）。
+  当[!UICONTROL 预计完成]日期早于迭代的计划结束日期时，剩余工作天数以绿色显示。 (在计划迭代时指定迭代的结束日期，如[创建迭代](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)中所述；项目的结束日期为[!UICONTROL 计划完成日期]，如果[!UICONTROL 计划完成日期]是过去的日期，则为当前日期。 项目的计划完成日期[!UICONTROL 是根据项目中任务的持续时间计算的。) ]在计划迭代时，如果您为非工作日设置迭代结束日期，并且迭代正在跟踪按时完成，则预计完成日期将为您设置的迭代结束日期之前的最后一个工作日设置（因为不计划在非工作日烧掉工作）。
 
   例如，“（+9天）”表示预计完成日期比迭代的计划结束日期晚9个工作日。
 

@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '577'
 ht-degree: 3%
-
 ---
-
 # 防止重复用户
 
 在Adobe Workfront中创建新用户时，即使电子邮件地址因大小写而异（例如，JohnDoe@example.com和johndoe@example.com），也不能再使用其他用户已在使用的电子邮件地址。 此外，为了准备未来的身份验证增强功能，请确保所有用户在Workfront实例中具有唯一的电子邮件地址。
@@ -107,8 +113,8 @@ ht-degree: 3%
 
      例如，John Doe可以有一个用户帐户用于其日常使用帐户，以及一个用户帐户用于测试目的：
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * 将以下文本附加到电子邮件地址，以将域更改为使用伪域：
 
@@ -116,8 +122,8 @@ ht-degree: 3%
 
      例如，John Doe可能具有以下域：（这些域必须唯一。）
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      您无法再登录到这些帐户，因为密码重置需要有效的电子邮件地址。 只能使用“登录身份”功能访问这些帐户。
 

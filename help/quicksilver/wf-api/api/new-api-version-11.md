@@ -9,22 +9,28 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY
+TQID: 'https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3231
+source-wordcount: '3591'
 ht-degree: 2%
-
 ---
-
 # API版本11中的新增功能
 
 * [已添加资源](#added-resources)
@@ -339,7 +345,7 @@ AccessLevelPermissions对象表示一组权限。 然后，这组权限可以与
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">操作</p> <p>添加了可能的值BUDGETING_INFORMATION。这允许具有权限的用户在规划者中编辑优先级和预算小时数。  </p> </li> 
+     <li> <p style="font-weight: bold;">操作</p> <p>添加了可能的值BUDGETING_INFORMATION。 这允许具有权限的用户在规划者中编辑优先级和预算小时数。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -431,7 +437,7 @@ ApprovalPath对象是批准流程中的分支。 批准路径基于与批准流�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">添加了可能的值ET。此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">添加了可能的值ET。 此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -449,7 +455,7 @@ ApprovalProcess对象是可以与项目、任务或问题关联的多步批准�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。 设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。 未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -474,7 +480,7 @@ ApprovalProcess对象是可以与项目、任务或问题关联的多步批准�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>工作单位 </p> <p style="font-weight: normal;">添加了可能的值ET。此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
+     <li style="font-weight: bold;"> <p>工作单位 </p> <p style="font-weight: normal;">添加了可能的值ET。 此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -492,7 +498,7 @@ ApprovalProcess对象是可以与项目、任务或问题关联的多步批准�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">添加了可能的值ET。此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">添加了可能的值ET。 此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -510,7 +516,7 @@ Category对象是自定义表单。 您可以为此对象生成报表，也可�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。 设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。 未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -535,7 +541,7 @@ Company对象表示由人员集合组成的组织。 公司与用户或项目相
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。 设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。 未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -747,7 +753,7 @@ Document对象表示文件（如书面材料、图像或其他形式的信息）
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。 设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。 未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -853,7 +859,7 @@ Parameter对象是一个自定义字段。
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>显示类型</p> <p style="font-weight: normal;">添加的可能值TYAH（预输入）。</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此字段已添加并引用引用引用对象的对象代码。可以在<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中找到所有对象的对象代码。  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此字段已添加并引用引用引用对象的对象代码。 可以在<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中找到所有对象的对象代码。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -890,7 +896,7 @@ Portfolio对象是争夺相同资源（通常是资金或人员来完成这些�
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>描述</p> <p style="font-weight: normal;">添加了验证器MAX_LENGTH ，它指定说明的长度不超过4000个字符。</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。 设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。 未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
      <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">添加了验证器MAX_LENGTH ，它指定名称的长度不超过255个字符。  </p> </li> 
     </ul> </td> 
   </tr> 
@@ -1178,7 +1184,7 @@ Template对象表示项目的模式。 可通过模板创建项目以节省时�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。 设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。 未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1212,7 +1218,7 @@ Template对象表示项目的模式。 可通过模板创建项目以节省时�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>工作单位</p> <p style="font-weight: normal;">添加了可能的值ET。此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
+     <li style="font-weight: bold;"> <p>工作单位</p> <p style="font-weight: normal;">添加了可能的值ET。 此值表示经过的月时间单位，该值是指不考虑周末或节假日时的月。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

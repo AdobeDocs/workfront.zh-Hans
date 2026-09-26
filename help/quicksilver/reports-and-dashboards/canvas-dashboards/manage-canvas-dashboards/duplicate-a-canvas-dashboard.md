@@ -5,13 +5,17 @@ title: 复制画布功能板
 description: 您可以复制画布功能板以创建其变体，例如特定于受众的副本，而无需从头开始重建。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: b66f6931ee2fe83688fb8910861af6e958d1f74f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 4%
-
 ---
-
 # 复制画布功能板
 
 {{highlighted-preview-article-level}}
@@ -97,7 +101,7 @@ ht-degree: 4%
 1. （可选）在&#x200B;**仪表板详细信息**&#x200B;选项卡上，更新新仪表板的&#x200B;**Description**&#x200B;或&#x200B;**Currency**。
    ![复制仪表板 — 仪表板详细信息选项卡](assets/duplicate-details.png)
 
-1. （可选）单击&#x200B;**小组件**&#x200B;选项卡，然后取消选择不想包含在重复仪表板中的任何小组件。
+1. （可选）单击&#x200B;**小组件**选项卡，然后取消选择不想包含在重复仪表板中的任何小组件。
    ![复制仪表板 — Widget选项卡](assets/copy-widgets.png)
 
 1. （可选）单击&#x200B;**筛选器和提示**&#x200B;选项卡，然后关闭&#x200B;**复制仪表板筛选器**&#x200B;或&#x200B;**复制仪表板提示**，以将其从重复仪表板中排除。

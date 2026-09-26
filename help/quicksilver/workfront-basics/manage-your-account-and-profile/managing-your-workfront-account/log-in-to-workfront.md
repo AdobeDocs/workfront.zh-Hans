@@ -1,35 +1,40 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: 登录到 [!DNL Adobe Workfront]
+title: 登录 [!DNL Adobe Workfront]
 description: 阅读本文以了解如何登录Workfront。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 5%
-
+source-wordcount: '222'
+ht-degree: 6%
 ---
-
 # 登录 [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
 
-一个登录用于Workfront和所有Adobe CX Enterprise应用程序。
+一次登录可用于Workfront和所有Adobe CX Enterprise应用程序。
 
 有关信息，请参阅[CX Enterprise界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)。
 
@@ -41,9 +46,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->第一次登录到CX Enterprise时，组织将默认使用按字母顺序排列的第一个组织。 下次登录时，组织将默认为您访问的最后一个组织。
+>首次登录到CX Enterprise时，组织将默认使用按字母顺序排列的第一个组织。 下次登录时，组织将默认为您访问的最后一个组织。
 
-[!DNL Workfront]出现在您有权访问的CX Enterprise产品列表中。 您可以在CX Enterprise主页上的“快速访问”菜单中选择[!DNL Workfront]，或者使用产品切换器![产品切换器](assets/main-menu-icon.png)随时更改应用程序。
+[!DNL Workfront]将显示在您有权访问的CX Enterprise产品列表中。 您可以在CX Enterprise主页上的“快速访问”菜单中选择[!DNL Workfront]，或者使用产品切换器![产品切换器](assets/main-menu-icon.png)随时更改应用程序。
 
 ![选择[!DNL Workfront]以访问应用程序](assets/cx-enterprise-home-2026.png)
 

@@ -1,25 +1,29 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront]中的项目、任务和问题日期概述'
-description: 本文提供了与 [!DNL Adobe Workfront]中的项目、任务和问题相关的最常见日期的定义。
+title: '[!DNL Workfront]中的项目、任务和问题日期概述'
+description: 本文提供了与[!DNL Adobe Workfront]中的项目、任务和问题相关的最常见日期的定义。
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+TQID: 'https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2359
+source-wordcount: '2359'
 ht-degree: 3%
-
 ---
-
 # [!DNL Workfront]中的项目、任务和问题日期概述
 
 <!-- Audited: 05/2024 -->
@@ -35,7 +39,7 @@ ht-degree: 3%
 * [开始使用 [!DNL Adobe Workfront]中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [报告快速入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
-有关项目、任务和问题字段的详细信息，请参阅[术语表 [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+有关项目、任务和问题字段的详细信息，请参阅[术语表 [!DNL Adobe Workfront] ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 
 ## [!UICONTROL 实际开始日期]
@@ -48,7 +52,7 @@ ht-degree: 3%
 >
 >[!UICONTROL 实际开始日期]可能与项目、任务或问题的[!UICONTROL 计划开始日期]不匹配，因为用户可能在其计划日期之前或之后开始工作。
 
-有关详细信息，请参阅项目[!UICONTROL 实际开始日期][&#128279;](../../../manage-work/projects/planning-a-project/project-actual-start-date.md)的概述。
+有关详细信息，请参阅项目[!UICONTROL 实际开始日期]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md)的[概述。
 
 >[!NOTE]
 >
@@ -73,7 +77,7 @@ ht-degree: 3%
 >
 >[!UICONTROL 实际完成日期]可能与[!UICONTROL 计划完成日期]不匹配。
 
-有关详细信息，请参阅项目[!UICONTROL 实际完成日期][&#128279;](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)的概述。
+有关详细信息，请参阅项目[!UICONTROL 实际完成日期]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)的[概述。
 
 ![实际完成日期详细信息](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
@@ -259,7 +263,7 @@ ht-degree: 3%
 * [设置项目[!UICONTROL 计划完成日期]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [问题[!UICONTROL 计划完成日期]的概述](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-标头![&#128279;](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的计划竞争日期
+标头](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的![计划竞争日期
 
 ![任务列表中的计划完成日期](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
@@ -282,7 +286,7 @@ ht-degree: 3%
 
 根据[!UICONTROL 任务限制]，您可能无法编辑任务的[!UICONTROL 计划开始日期]。 根据项目的[!UICONTROL 计划模式]，您可能无法编辑项目的[!UICONTROL 计划开始日期]。
 
-有关详细信息，请参阅项目[!UICONTROL 计划开始日期][&#128279;](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)的概述。
+有关详细信息，请参阅项目[!UICONTROL 计划开始日期]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)的[概述。
 
 编辑任务的![计划开始日期](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 

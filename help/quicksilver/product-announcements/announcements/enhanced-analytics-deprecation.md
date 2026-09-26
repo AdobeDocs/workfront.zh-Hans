@@ -8,20 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/GXQFscmGL9dwGzM0t0pXSXdFiWX67k93WpLOHW3Z2ts
+TQID: 'https://experienceleague.adobe.com/GXQFscmGL9dwGzM0t0pXSXdFiWX67k93WpLOHW3Z2ts'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: '343'
 ht-degree: 0%
-
 ---
-
 # 增强的Analytics弃用指南
 
 由于拒绝使用和功能有限，Adobe Workfront将很快弃用增强分析。 我们发布了Workfront Data Connect作为替代方法，除了创建增强型分析所无法提供的强大新可视化图表之外，还可复制您当前使用的增强型分析可视化图表。 为确保您的组织成功过渡，本页包含有关具体将更改哪些内容的信息、如何准备过渡的建议以及对常见问题的解答。

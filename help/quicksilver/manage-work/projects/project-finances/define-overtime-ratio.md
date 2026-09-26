@@ -7,13 +7,17 @@ description: 您可以定义任务的超时比率，以调整任务分配的计�
 author: Lisa
 feature: Work Management
 exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 5%
-
 ---
-
 # 定义加班率
 
 将加班比率添加到任务时，加班比率将应用于任务的所有分配。 它会将该任务的所有计划小时数相乘，并且影响计划收入计算。

@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 为 [!DNL Workfront Proof] 用户配置单点登录
-description: 如果您拥有Select或Premium计划，则可以提供单点登录(SSO)功能，该功能允许您使用现有组织的用户名和密码来访问您的 [!DNL Workfront Proof] 帐户。
+title: 为[!DNL Workfront Proof]用户配置单点登录
+description: 如果您拥有Select或Premium计划，则可以提供单点登录(SSO)功能，该功能允许您使用现有组织的用户名和密码访问您的[!DNL Workfront Proof]帐户。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+TQID: 'https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1085
+source-wordcount: '1374'
 ht-degree: 0%
-
 ---
-
 # 为[!DNL Workfront Proof]用户配置单点登录
 
 >[!IMPORTANT]
@@ -80,12 +90,12 @@ ht-degree: 0%
 1. SAML身份提供程序提供的SAML证书的SHA1指纹。
 1. 通过在您的身份提供程序中设置此项，确保包括密钥信息。
 1. 将&#x200B;**SSO**&#x200B;切换为&#x200B;**[!UICONTROL 已启用]** (6)。
-启用SSO后，您和您帐户上的其他用户将使用您自己的身份验证机制登录。这意味着当用户访问您的[!DNL Workfront Proof]帐户登录屏幕（例如，**yourcompany.proofhq.com/login**）时，将会提示他们使用传输窗口转到您自己的身份验证登录页面。
+启用SSO后，您和您帐户上的其他用户将使用您自己的身份验证机制登录。 这意味着当用户访问您的[!DNL Workfront Proof]帐户登录屏幕（例如，**yourcompany.proofhq.com/login**）时，将会提示他们使用传输窗口转到您自己的身份验证登录页面。
 
 1. （可选）启用&#x200B;**自动设置用户** (7)。
-启用此选项后，将自动为没有自己的[!DNL Workfront Proof]配置文件但将使用其单点登录凭据访问您的[!DNL Workfront Proof]帐户的用户创建用户帐户。仅当您的帐户尚未达到用户限制时，才会执行此操作。
+启用此选项后，将自动为没有自己的[!DNL Workfront Proof]配置文件但将使用其单点登录凭据访问您的[!DNL Workfront Proof]帐户的用户创建用户帐户。 仅当您的帐户尚未达到用户限制时，才会执行此操作。
 
-1. 默认情况下，新设置的用户将分配有Manager配置文件权限。 如果您需要更多信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
+1. 默认情况下，新设置的用户将分配有Manager配置文件权限。 如果您需要更多信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
 
 ![启用_SSO_SAML_2.0.png](assets/enable-sso-saml-2.0-350x236.png)
 
@@ -104,7 +114,7 @@ ht-degree: 0%
 在此，您将有两种配置方法(5)：
 
 1. **继承：** SSO，配置取自您的中心帐户。
-如果用户通过&#x200B;**默认登录页面** ([https://business.adobe.com/cn/products/workfront/proofing-approvals.html](https://business.adobe.com/cn/products/workfront/proofing-approvals.html))访问[!DNL Workfront Proof]，则将有&#x200B;**两个级别的授权**：首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录；然后通过SSO窗口将该用户传输到SSO登录页面。
+如果用户通过**默认登录页面** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))访问[!DNL Workfront Proof]，则将有&#x200B;**两个级别的授权**：首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录；然后通过SSO窗口将该用户传输到SSO登录页面。
 因此，启用SSO服务后，我们建议通过您自己的[!DNL Workfront Proof]子域/域登录。
 
    >[!NOTE]
@@ -153,7 +163,7 @@ ht-degree: 0%
 启用单点登录后，您的子域登录URL（例如yourcompany.proofhq.com/login）将显示一个传输屏幕(2)，该屏幕会直接将您带到SSO登录页面。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. 如果用户通过页面&#x200B;**([https://business.adobe.com/cn/products/workfront/proofing-approvals.html](https://business.adobe.com/cn/products/workfront/proofing-approvals.html))中的**&#x200B;默认日志访问[!DNL Workfront Proof]，将有&#x200B;**两个级别的授权**。 首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录。 然后，通过SSO窗口(2)将用户传送到SSO登录页。\
+1. 如果用户通过页面&#x200B;**([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))中的**&#x200B;默认日志访问[!DNL Workfront Proof]，将有&#x200B;**两个级别的授权**。 首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录。 然后，通过SSO窗口(2)将用户传送到SSO登录页。\
    因此，启用SSO服务后，我们建议通过您自己的[!DNL Workfront Proof]子域/域登录。
 
 1. 目前，当您的Workfront Proof帐户上启用了单点登录时，您将无法使用这些凭据登录到iPhone应用程序。

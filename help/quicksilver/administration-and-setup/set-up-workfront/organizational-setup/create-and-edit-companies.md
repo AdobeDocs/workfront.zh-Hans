@@ -3,33 +3,40 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 创建和编辑公司
-description: 您可以将公司添加到 [!DNL Adobe Workfront] 中，并将它们用于财务规划、报告、定义对象权限以及保密信息。
+description: 您可以将公司添加到[!DNL Adobe Workfront]中，并将它们用于财务规划、报告、定义对象权限以及保密信息。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+TQID: 'https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1470'
 ht-degree: 1%
-
 ---
-
 # 创建和编辑公司
 
 <!--Audited: 01/2024-->
@@ -54,23 +61,23 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td><p>[!UICONTROL 计划]</p>
-   <p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL计划]</p>
+   <p>[！UICONTROL标准版]</p>
    </td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
      <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系统管理员]访问级别。 </p> </li> 
-        <li> <p>您的访问级别中的<b>[!UICONTROL 用户]</b>设置配置为<b>[!UICONTROL 编辑]</b>访问权限，且<b>[!UICONTROL 创建]</b>和在<b>[!UICONTROL 微调您的设置]</b> <img src="assets/gear-icon-in-access-levels.png">下启用的两个<b>[!UICONTROL 用户管理]</b>选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[!UICONTROL 用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
+        <li> <p>[！UICONTROL系统管理员]访问级别。 </p> </li> 
+        <li> <p>您的访问级别中的<b>[！UICONTROL用户]</b>设置配置为<b>[！UICONTROL编辑]</b>访问权限，且<b>[！UICONTROL创建]</b>和在<b>[！UICONTROL微调您的设置]</b> <img src="assets/gear-icon-in-access-levels.png">下启用的两个<b>[！UICONTROL用户管理]</b>选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[！UICONTROL用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -88,15 +95,15 @@ ht-degree: 1%
 * 作为项目经理，您可以确定同一公司内的可用资源。
 * 通过选择下列一项或全部设置，您可以在公司之间保持信息的私密性：
 
-   * 来自同一公司的用户可以看到彼此的请求。
+  * 来自同一公司的用户可以看到彼此的请求。
 
-     有关[!DNL Workfront]管理员如何根据用户的公司授予请求类似访问权限的更多信息，请参阅[配置系统范围的任务和问题偏好设置](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)文章中的[为 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences)中的每个人配置任务和问题偏好设置部分。
+    有关[!DNL Workfront]管理员如何根据用户的公司授予请求类似访问权限的更多信息，请参阅[配置系统范围的任务和问题偏好设置](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)文章中的[为 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences)中的每个人配置任务和问题偏好设置部分。
 
-     有关组管理员如何根据用户的公司授予请求类似访问权限的详细信息，请参阅[配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
+    有关组管理员如何根据用户的公司授予请求类似访问权限的详细信息，请参阅[配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-   * 用户只能看到与其公司关联的请求队列。 有关限制请求队列可见性的详细信息，请参阅[提供对请求队列的访问权限](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)。
-   * 您可以将用户限制为仅可查看其公司中的用户，或公司中的用户以及主公司的用户。 有关用户隐私的主要公司功能的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
-   * 用户可以限制仅由公司用户查看他们对项目所做的更新。 有关将更新设为公司私有的详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+  * 用户只能看到与其公司关联的请求队列。 有关限制请求队列可见性的详细信息，请参阅[提供对请求队列的访问权限](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)。
+  * 您可以将用户限制为仅可查看其公司中的用户，或公司中的用户以及主公司的用户。 有关用户隐私的主要公司功能的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+  * 用户可以限制仅由公司用户查看他们对项目所做的更新。 有关将更新设为公司私有的详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 在[!DNL Workfront]中创建或编辑公司 {#create-or-edit-a-company-in-workfront}
 

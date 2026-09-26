@@ -3,28 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 创建自定义费用类型
-description: 作为 [!DNL Adobe Workfront] 管理员，您可以创建自定义费用类型以定义和跟踪与任务和项目关联的费用。 费用是可与任务或项目关联的非人工成本。
+description: 作为[!DNL Adobe Workfront]管理员，您可以创建自定义费用类型以定义和跟踪与任务和项目关联的费用。 费用是可与任务或项目关联的非人工成本。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-TQID: https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E
+TQID: 'https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '383'
 ht-degree: 7%
-
 ---
-
 # 创建自定义费用类型
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -47,12 +52,12 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,13 +89,13 @@ ht-degree: 7%
    * **描述** — 费用的描述。
    * **计算单位** — 从下拉列表中选择支出类型的度量单位。 可使用以下测量单位：
 
-      * 英里
-      * 千米
-      * 千克
-      * 美元
-      * 小时
-      * Day
-      * 其他 — 选择此选项将提示您命名度量单位，并将度量单位定义为组织所熟悉的单位。
+     * 英里
+     * 千米
+     * 千克
+     * 美元
+     * 小时
+     * Day
+     * 其他 — 选择此选项将提示您命名度量单位，并将度量单位定义为组织所熟悉的单位。
 
    * **汇率** — 单价。 这是一个货币格式字段，它表示在&#x200B;**计算单位**&#x200B;字段中建立的每个单位的成本。 比率可以包含小数点后最多4个数字的数值。 例如，1.0375。
 

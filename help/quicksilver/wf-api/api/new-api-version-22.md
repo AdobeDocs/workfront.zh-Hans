@@ -6,13 +6,20 @@ description: Adobe Workfront于2026年5月11日发布了API版本22。 API版本
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 682cf24c4c7932afeb66a2e5434fe3cec887e889
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 2%
-
 ---
-
 # API版本22中的新增功能
 
 Adobe Workfront于2026年5月8日发布了API版本22。 API版本22具有对版本21的以下更改。

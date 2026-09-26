@@ -7,22 +7,31 @@ description: 默认情况下，在组织中共享联系人。 因此，如果您
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
-TQID: https://experienceleague.adobe.com/MwuRFeRGjhdfpeNLL-tUnLze7PSvLZwhthboOtejws0
+TQID: 'https://experienceleague.adobe.com/MwuRFeRGjhdfpeNLL-tUnLze7PSvLZwhthboOtejws0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # 向[!DNL Workfront Proof]添加来宾
 
 >[!IMPORTANT]
@@ -41,6 +50,6 @@ ht-degree: 0%
 
 1. 在仪表板上，单击&#x200B;**[!UICONTROL 新建校对]**&#x200B;旁边的向下箭头，然后单击&#x200B;**[!UICONTROL 新建来宾]**。
 
-1. 如果您有观察者配置文件，您将无法添加新联系人。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
-1. 键入来宾的信息，然后单击&#x200B;**[!UICONTROL 创建]**。您可以为新来宾选择默认验证角色和权限。随后将此人添加到验证时，他们将获得此角色和警报，但是当他们添加到验证时，可以在新验证页面中更改这些角色。
-有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件，以及 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的配置电子邮件通知设置。
+1. 如果您有观察者配置文件，您将无法添加新联系人。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+1. 键入来宾的信息，然后单击&#x200B;**[!UICONTROL 创建]**。 您可以为新来宾选择默认验证角色和权限。 随后将此人添加到验证时，他们将获得此角色和警报，但是当他们添加到验证时，可以在新验证页面中更改这些角色。
+有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件，以及 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的[配置电子邮件通知设置。

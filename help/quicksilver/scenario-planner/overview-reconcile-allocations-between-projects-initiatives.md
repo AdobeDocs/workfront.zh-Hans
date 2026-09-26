@@ -6,18 +6,24 @@ description: 在项目和计划之间协调资源分配概述
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+TQID: 'https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 0%
-
 ---
-
 # 在项目和计划之间协调资源分配概述
 
 <!--
@@ -34,8 +40,8 @@ ht-degree: 0%
 * 计划所需的工作角色分配。
 * 项目中具有计划小时数并分配到以下项之一的任务或问题：
 
-   * 工作角色
-   * 与工作角色关联的用户
+  * 工作角色
+  * 与工作角色关联的用户
 
 ## 连接项目和计划
 
@@ -69,28 +75,28 @@ ht-degree: 0%
 
 * 您可以在项目的以下区域查看链接项目上的计划工作角色分配：
 
-   * 项目上[!UICONTROL 项目详细信息]区域的[!DNL Scenario Planner]部分。 有关更多信息，请参阅以下文章：
+  * 项目上[!UICONTROL 项目详细信息]区域的[!DNL Scenario Planner]部分。 有关更多信息，请参阅以下文章：
 
-      * [通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目
-      * [管理项目[!UICONTROL 概述]区域中的信息](../manage-work/projects/manage-projects/understand-project-overview-area.md)
+    * [通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目
+    * [管理项目[!UICONTROL 概述]区域中的信息](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
-     >[!TIP]
-     >
-     >在[!UICONTROL 项目详细信息]的[!DNL Scenario Planner]部分中，您无法并排查看项目和计划的工作角色信息。
+    >[!TIP]
+    >
+    >在[!UICONTROL 项目详细信息]的[!DNL Scenario Planner]部分中，您无法并排查看项目和计划的工作角色信息。
 
-   * [!UICONTROL 角色分配]面板位于以下区域：
+  * [!UICONTROL 角色分配]面板位于以下区域：
 
-      * 项目的[!UICONTROL 工作负载均衡器]
+    * 项目的[!UICONTROL 工作负载均衡器]
 
-        有关如何查看和协调[!UICONTROL 工作负载均衡器]中计划和链接项目之间的角色分配的信息，请参阅[在[!UICONTROL 工作负载均衡器]](../scenario-planner/show-role-allocation-workload-balancer.md)中显示项目和计划的角色分配。
+      有关如何查看和协调[!UICONTROL 工作负载均衡器]中计划和链接项目之间的角色分配的信息，请参阅[在[!UICONTROL 工作负载均衡器]](../scenario-planner/show-role-allocation-workload-balancer.md)中显示项目和计划的角色分配。
 
-      * [!UICONTROL 任务]分区
+    * [!UICONTROL 任务]分区
 
-        有关如何协调[!UICONTROL 任务]分区中计划和链接项目之间的角色分配的信息，请参阅[在任务列表中显示项目和计划的角色分配](../scenario-planner/show-role-allocation-task-list-nwe.md)。
+      有关如何协调[!UICONTROL 任务]分区中计划和链接项目之间的角色分配的信息，请参阅[在任务列表中显示项目和计划的角色分配](../scenario-planner/show-role-allocation-task-list-nwe.md)。
 
-     >[!TIP]
-     >
-     >您可以在[!UICONTROL 角色分配]面板中并排查看项目和计划的工作角色信息。
+    >[!TIP]
+    >
+    >您可以在[!UICONTROL 角色分配]面板中并排查看项目和计划的工作角色信息。
 
 * 您无法查看链接计划上项目的工作角色分配。 有关详细信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中将项目导入计划。
 

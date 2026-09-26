@@ -9,23 +9,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
+source-wordcount: '2426'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning 2025年第三季度发布活动
 
 本文介绍了在2025年第三季度版本中为Workfront计划发布的功能。
@@ -38,7 +44,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年7月10日>适用于所有人的生产： 2025年7月10日>[!BADGE 取消计划]{type=Neutral}
+>预览： 2025年7月10日
+>为每个人生产： 2025年7月10日
+>[!BADGE 超出计划]{type=Neutral}
 
 
 在创建或编辑记录类型时，我们更新了“高级设置”选项卡。
@@ -54,7 +62,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年7月10日>适用于所有人的生产： 2025年7月10日>[!BADGE 取消计划]{type=Neutral}
+>预览： 2025年7月10日
+>为每个人生产： 2025年7月10日
+>[!BADGE 超出计划]{type=Neutral}
 
 现在，当您向Workfront Planning中的记录注释添加团队时，团队的所有成员都会收到有关注释的应用程序内通知和电子邮件通知。 在此增强功能之前，只通知单独添加到评论的用户。
 
@@ -64,7 +74,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年7月10日>生产快速发布： 2025年8月14日>适用于所有人的生产： 2025年10月16日
+>预览： 2025年7月10日
+>生产快速发布： 2025年8月14日
+>为每个人生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
@@ -79,7 +91,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年7月9日>适用于所有人的生产： 2025年7月17日
+>预览： 2025年7月9日
+>适用于所有人的生产： 2025年7月17日
 
 您现在可以从记录类型页面上的同一按钮共享视图和记录类型。 在此增强功能之前，您只能通过记录类型页面上的“共享”按钮共享记录类型，以及从视图选项卡共享视图。
 
@@ -116,18 +129,18 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我们已将“共享表单”对话框分为内部共享（选择要与之共享的人员）和公共共享（创建共享链接）。
 * 现在，您可以与以下人员共享请求表单：
 
-   * 用户
-   * 团队
-   * 组
-   * 公司
-   * 工作角色
+  * 用户
+  * 团队
+  * 组
+  * 公司
+  * 工作角色
 
   以前，您只能基于工作区访问权限或通过共享链接进行共享。
 * 我们已删除请求表单的继承权限。 现在，请求表单仅与您选择的人共享。
 * 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
 * 启用创建公共链接选项后，公共共享选项卡现在显示链接和过期日期字段。
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -153,7 +166,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 预览：2025年6月26日
->* 适用于每个人的生产： 2025年6月26日>[!BADGE 超出计划]{type=Neutral}
+>* 适用于所有人的生产： 2025年6月26日
+>[!BADGE 超出计划]{type=Neutral}
 
 现在，当您连接记录类型并将公式字段作为查找引入时，可以根据公式字段的格式应用聚合函数（SUM、AVERAGE、MIN、MAX等）。 例如，如果公式字段为数字，则可以使用SUM或AVG等函数；如果公式字段的格式为文本，则不会应用SUM等聚合函数。
 
@@ -188,7 +202,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 预览： 2025年6月12日
->* 适用于每个人的生产： 2025年6月12日>[!BADGE 超出计划]{type=Neutral}
+>* 适用于所有人的生产： 2025年6月12日
+>[!BADGE 超出计划]{type=Neutral}
 
 我们引入了一项改进，在手动更新引用的字段后，可同时更新所有相互依赖的公式字段。 与手动更改值的字段相差2、3或4个字段且相互引用的公式字段现在将自动同时更新。
 
@@ -201,7 +216,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 预览：2025年6月6日
->* 所有客户的生产日期： 2025年6月6日>[!BADGE 超出计划]{type=Neutral}
+>* 适用于所有客户的生产： 2025年6月6日
+>[!BADGE 超出计划]{type=Neutral}
 
 我们在公式字段中添加了以下表达式：
 
@@ -228,12 +244,12 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 输入者列表示添加请求的人员
 * 用于限制您在Planning选项卡上查看的请求数的过滤器。 可按以下项筛选列表：
 
-   * 请求表单源自的Workspace
-   * 与请求表单关联的记录类型
-   * 请求的输入日期
-   * 请求表单的名称
-   * 请求的状态
-   * 输入请求的人员的姓名。
+  * 请求表单源自的Workspace
+  * 与请求表单关联的记录类型
+  * 请求的输入日期
+  * 请求表单的名称
+  * 请求的状态
+  * 输入请求的人员的姓名。
 
 * 列控制查看或隐藏Planning请求列表中的字段（或列）。
 
@@ -287,7 +303,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 * 导出的信息会考虑应用于Workfront Planning中的表格视图的筛选器、分组和排序。
 * 导出的文件不支持缩略图和自定义行颜色。  
-* 仅导出在Workfront界面中可见的字段。隐藏字段不导出。  
+* 仅导出在Workfront界面中可见的字段。 隐藏字段不导出。  
 
 有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。 
 
@@ -343,7 +359,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->根据布局模板中定义的设置，分配给布局模板的现有用户将继续查看所有内容。
+>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 

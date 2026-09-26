@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-TQID: https://experienceleague.adobe.com/rcmVwp5wZgG0cmtmUclkBUnTcOT9OaW7LDHIt373AjM
+TQID: 'https://experienceleague.adobe.com/rcmVwp5wZgG0cmtmUclkBUnTcOT9OaW7LDHIt373AjM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 9%
-
 ---
-
 # 重置用户的首选项
 
 <!-- Audited: 12/2023 -->
@@ -120,7 +124,7 @@ ht-degree: 9%
 | 分组 | 已还原为系统默认值 <p>现有分组不会被删除。 您可以再次选择它们。</p> |
 | 最新项目列表 | 已清除 |
 | 收藏夹列表 | 未受影响 |
-| 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront[&#128279;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的事件通知中。</p> |
+| 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的[事件通知中。</p> |
 
 ## 重置用户首选项
 

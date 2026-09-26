@@ -9,22 +9,29 @@ feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dxrYATDjdQBcRFpCKhu5e62nKVsGi1QSbPNZtIMvdCc
+TQID: 'https://experienceleague.adobe.com/dxrYATDjdQBcRFpCKhu5e62nKVsGi1QSbPNZtIMvdCc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 618
+source-wordcount: '625'
 ht-degree: 4%
-
 ---
-
 # 使用信息卡列表
 
 >[!IMPORTANT]
@@ -81,19 +88,19 @@ ht-degree: 4%
       <td>信息卡的描述。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 估计]</strong></td> 
+      <td><strong>[！UICONTROL估计]</strong></td> 
       <td>预计完成信息卡的小时数。 这只是一个手动输入。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 状态]</strong></td> 
+      <td><strong>[！UICONTROL状态]</strong></td> 
       <td>选择卡的状态。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 迭代]</strong></td> 
+      <td><strong>[！UICONTROL迭代]</strong></td> 
       <td>选择要为其分配信息卡的迭代。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 被分派人]</strong></td> 
+      <td><strong>[！UICONTROL被分派人]</strong></td> 
       <td><p>要分配卡，请在搜索字段中开始键入名称，然后在此卡显示在列表中时将其选定。 您可以同时添加个人和团队，也可以将多个人员或团队分配给信息卡。</p><p>被分派人必须是工作流中的成员，否则他们不会出现在选择列表中。</p></td> 
      </tr>
     </tbody> 
@@ -127,7 +134,7 @@ ht-degree: 4%
 1. 单击&#x200B;[!UICONTROL **搜索**]&#x200B;并键入搜索词。 然后，按Enter。
 
    将显示包含搜索词的所有卡片。
-单击X清除搜索。
+   单击X清除搜索。
 
    ![搜索展示板中的卡片](assets/boards-searchbox.png)
 

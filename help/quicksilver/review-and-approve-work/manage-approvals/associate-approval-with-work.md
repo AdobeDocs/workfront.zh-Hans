@@ -7,27 +7,37 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-TQID: https://experienceleague.adobe.com/hneYUl0QJcsdaaxySdzlvC2DhxvtCUORTSKLeHpRgWQ
+TQID: 'https://experienceleague.adobe.com/hneYUl0QJcsdaaxySdzlvC2DhxvtCUORTSKLeHpRgWQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: '1856'
 ht-degree: 1%
-
 ---
-
 # 将新的或现有的审批流程与工作关联
 
 本文介绍了如何将审批流程与工作项关联。 有关将审批与验证或文档关联的信息，请参阅以下文章：
@@ -137,7 +147,7 @@ ht-degree: 1%
 1. 转到要关联审批流程的工作项。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
+   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
 
 1. ![使用现有审批或创建单次使用审批](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -205,7 +215,7 @@ ht-degree: 1%
 1. 转到要关联审批流程的项目、任务、问题、模板或模板任务。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
+   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
 
 1. 单击&#x200B;**创建一次性**。
 
@@ -242,7 +252,7 @@ ht-degree: 1%
 1. 转到要移除先前添加的审批流程的项目、任务、问题、模板或模板任务。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
+   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
 
 1. 根据与项目关联的批准类型，单击“批准”部分右上角的以下图标之一：
 

@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
-TQID: https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo
+TQID: 'https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # 2024年第四季度主页增强功能
 
 本页介绍了在2024年第四季度版本中对“预览”环境做出的所有主页增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -77,9 +83,9 @@ ht-degree: 0%
 * _主页工作区_&#x200B;区域将重命名为&#x200B;_主页_。
 * _主页和摘要_&#x200B;区域将重命名为&#x200B;_摘要面板_。 此区域中的自定义设置仍将应用于新主页中的摘要面板。 有关详细信息，请参阅[使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 * 我们将从“主页”和“摘要”面板中删除以下选项卡：
-   * 项目
-   * 文档
-   * 文档版本
+  * 项目
+  * 文档
+  * 文档版本
 
 注意：文档和文档版本仅应用于旧版主页。 它们不允许您自定义文档区域中的“摘要”。
 

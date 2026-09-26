@@ -9,22 +9,29 @@ feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jOCQTCkNgEZfE8O4-KyKVjEluncwWx0vh5NdrKHC9vg
+TQID: 'https://experienceleague.adobe.com/jOCQTCkNgEZfE8O4-KyKVjEluncwWx0vh5NdrKHC9vg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 7%
-
 ---
-
 # 管理展示板上的[!UICONTROL 工作进行中] (WIP)限制
 
 您可以为展示板上的每个列配置[!UICONTROL 正在进行的工作] (WIP)限制。
@@ -70,7 +77,7 @@ WIP限制只是一个视觉上的警告，不会限制每列中显示的项目�
 1. 在[!UICONTROL 列策略]下，启用&#x200B;**[!UICONTROL 正在进行的工作]限制**&#x200B;策略以限制可添加到列的卡片数量。
 1. 在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
-   列![&#128279;](assets/boards-wip-limit-in-column.png)的WIP限制
+   列](assets/boards-wip-limit-in-column.png)的![WIP限制
 
    卡片的数量和限制将显示在列顶部。 如果列包含的卡片数超过限制，则计数器将变为红色。
 

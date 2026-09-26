@@ -7,32 +7,45 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-TQID: https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk
+TQID: 'https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3852
+source-wordcount: '3853'
 ht-degree: 0%
-
 ---
-
 # 20.4版本概述
 
 20.4版本在2020年11月9日当周的生产环境中提供。
@@ -329,7 +342,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
+有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
 
 有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -361,7 +374,7 @@ Workfront旨在通过提供一套不依赖Flash的新解决方案，帮助您转
 
 ### 20.4版本网络研讨会 {#20-4-release-webinar}
 
-Workfront 20.4版本网络研讨会将于2020年10月28日星期三东部夏令时上午11:00举行。 在[此处](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter)注册网络研讨会。
+Workfront 20.4发布网络研讨会将于2020年10月28日星期三上午11:00（东部夏令时间）举行。 在[此处](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter)注册网络研讨会。
 
 ### 预览版本节奏中的更改 {#change-in-preview-release-cadence}
 
@@ -382,4 +395,4 @@ Workfront 20.4版本网络研讨会将于2020年10月28日星期三东部夏令�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://business.adobe.com/cn/products/workfront.html)。
+[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。

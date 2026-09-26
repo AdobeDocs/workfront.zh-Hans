@@ -7,25 +7,31 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 4%
-
 ---
-
 # 更新部分概述
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * 以下对象在更新部分的所有三个选项卡中具有相似的体验：
 
-   * 项目
-   * 任务
-   * 问题
-   * 项目群
-   * 项目组合
-   * 用户
-   * 时间表
+  * 项目
+  * 任务
+  * 问题
+  * 项目群
+  * 项目组合
+  * 用户
+  * 时间表
 
 * 以下对象没有“系统活动”选项卡或“全部”选项卡，“注释”选项卡中的体验与所有其他对象的体验相匹配：
 
-   * 团队
-   * 模板
-   * 模板任务
+  * 团队
+  * 模板
+  * 模板任务
 
 * 以下对象没有“系统活动”选项卡或“全部”选项卡，“注释”选项卡中的体验不同于所有其他对象的体验：
 
-   * 迭代
-   * 展示板区域中的临时信息卡
+  * 迭代
+  * 展示板区域中的临时信息卡
 
-     有关信息卡更新的详细信息，请参阅[将临时信息卡添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
+    有关信息卡更新的详细信息，请参阅[将临时信息卡添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
 
 * 以下对象具有“系统活动”选项卡，没有“全部”选项卡：
 
-   * 板区域中的已连接卡
+  * 板区域中的已连接卡
 
-     有关信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
+    有关信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 * 以下对象具有替换系统活动选项卡的“历史记录”选项卡：
 
-   * Workfront Planning中的记录
+  * Workfront Planning中的记录
 
-     有关信息，请参阅[历史记录部分概述](/help/quicksilver/planning/records/history-section-overview.md)。
+    有关信息，请参阅[历史记录部分概述](/help/quicksilver/planning/records/history-section-overview.md)。
 
 * 以下对象没有“全部”选项卡，“注释”选项卡中的体验与大多数对象的体验相匹配：
 
-   * 目标
+  * 目标
 
-     有关目标更新的详细信息，请参阅[管理目标注释](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
+    有关目标更新的详细信息，请参阅[管理目标注释](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -324,19 +330,19 @@ The following objects don't record system updates:
 
 * 团队的“更新”部分由添加到以下对象的注释填充：
 
-   * 用户
-   * 故事
-   * 时间表
-   * 迭代
+  * 用户
+  * 故事
+  * 时间表
+  * 迭代
 
 * 用户更新区域的“系统更新”选项卡通过更新其他对象来填充。 以下是在用户配置文件的系统更新选项卡中显示的更新，当这些字段在设置的更新馈送区域中受到跟踪时：
 
-   * 文档添加、删除和其他文档更新
-   * 小时添加、删除、代表添加以及其他小时条目更新
-   * 自定义字段的更新
-   * 用户配置文件更新（更新了用户的头像、手机号码、与我谈论字段、标题）
-   * 用户添加、删除、访问级别更改、内置用户字段更改
-   * 来自任务和项目的财务信息。
+  * 文档添加、删除和其他文档更新
+  * 小时添加、删除、代表添加以及其他小时条目更新
+  * 自定义字段的更新
+  * 用户配置文件更新（更新了用户的头像、手机号码、与我谈论字段、标题）
+  * 用户添加、删除、访问级别更改、内置用户字段更改
+  * 来自任务和项目的财务信息。
 
 ### 代表其他用户输入评论时的限制
 
@@ -365,4 +371,4 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 * 如果在项目过程中优先级发生了更改
 * 如果项目所有者已更改
 
-有关详细信息，请参阅日志条目报告[&#128279;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的更新区域报告。
+有关详细信息，请参阅日志条目报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。

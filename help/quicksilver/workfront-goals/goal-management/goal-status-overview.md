@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 4%
-
 ---
-
 # Adobe Workfront目标中的目标状态概述
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * 打开已关闭的目标也会更新目标的进度。
 * 您对目标执行的某些操作也会更新其状态。 有关如何更新目标状态的信息，请参阅以下文章：
 
-   * [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)
-   * [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)
-   * [删除和停用Adobe Workfront目标中的目标](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [在Adobe Workfront目标中关闭和重新打开目标](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)
+  * [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)
+  * [删除和停用Adobe Workfront目标中的目标](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [在Adobe Workfront目标中关闭和重新打开目标](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Workfront目标中的目标状态概述
 
@@ -96,8 +102,8 @@ Old:
 * 起草的目标不会有助于其他目标的进度计算，图表也不会考虑这些目标。
 * 起草的目标显示在Workfront目标的以下领域：
 
-   * 目标列表
-   * 目标对齐部分（仅作为对齐的目标）
+  * 目标列表
+  * 目标对齐部分（仅作为对齐的目标）
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ Old:
 * 活动目标有助于其他目标的进度计算，并且会在图形中考虑这些目标。
 * 活动目标显示在Workfront目标的以下区域中：
 
-   * 目标列表
-   * “目标对齐方式”部分
-   * 活动目标的进度以图形显示
+  * 目标列表
+  * “目标对齐方式”部分
+  * 活动目标的进度以图形显示
 
 * 您可以重新激活“已关闭”或“不活动”目标。
 
@@ -131,8 +137,8 @@ Old:
 * 非活动目标具有进度历史，因为它们曾经是活动目标，不同于草拟的目标。
 * 非活动目标显示在Workfront目标的以下区域中：
 
-   * 目标列表
-   * 目标对齐部分（仅作为对齐的目标）
+  * 目标列表
+  * 目标对齐部分（仅作为对齐的目标）
 
 ### 已关闭 {#closed}
 
@@ -148,6 +154,6 @@ Old:
 * 您无法更新已关闭目标的进度。
 * 已关闭的目标显示在Workfront目标的以下区域：
 
-   * 目标列表
-   * 目标对齐部分（仅作为对齐的目标）
-   * 来自已关闭目标的信息也会在图形部分中考虑。
+  * 目标列表
+  * 目标对齐部分（仅作为对齐的目标）
+  * 来自已关闭目标的信息也会在图形部分中考虑。

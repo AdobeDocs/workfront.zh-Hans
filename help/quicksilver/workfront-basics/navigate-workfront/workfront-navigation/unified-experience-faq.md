@@ -2,29 +2,34 @@
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience常见问题
-description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同，在将 [!DNL Workfront] 实例迁移到统一体验时，您可能会遇到一些问题。'
+description: '[!DNL Workfront]和Adobe Experience Cloud之间的几项功能不同，在将[!DNL Workfront]实例迁移到统一体验时，您可能会有一些问题。'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Axlk02Ilq5Y-jNBpEx76gNmZ3mF04sh4JNJpcx-DcQw
+TQID: 'https://experienceleague.adobe.com/Axlk02Ilq5Y-jNBpEx76gNmZ3mF04sh4JNJpcx-DcQw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1426
+source-wordcount: '1428'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Unified Experience] 常见问题解答
 
 <!--Remove me October 2026-->
@@ -35,7 +40,7 @@ ht-degree: 0%
 
 [!DNL Workfront]的[!DNL Adobe Unified Experience]允许您在单一登录位置管理所有[!DNL Adobe]应用程序。 [!DNL Adobe]导航区域与[!DNL Workfront]无缝集成。 一些功能不同，在将[!DNL Workfront]实例迁移到统一体验时，您可能会有一些问题。
 
-有关如何登录到[!DNL Adobe Unified Experience]的信息，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
+有关如何登录到[!DNL Adobe Unified Experience]的信息，请参阅 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
 
 ## [!DNL Adobe Unified Experience]和[!DNL Workfront only]体验的比较
 
@@ -77,7 +82,7 @@ ht-degree: 0%
 
 ### 作为客户，我需要做什么来促进迁移？
 
-将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。 查看[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/workfront/faq)以了解更多信息。
+将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。 查看[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)以了解更多信息。
 
 ### 对于已为Federated ID启用此选项与设置[!DNL Workfront] SSO不同的公司，您如何处理[!DNL Adobe Admin Console]？
 

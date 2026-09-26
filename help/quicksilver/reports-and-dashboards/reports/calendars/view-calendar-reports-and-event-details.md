@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 3%
-
 ---
-
 # 查看日历报告和事件详细信息
 
 您可以在Adobe Workfront中查看您创建或与您共享的日历报告和事件详细信息。
@@ -83,9 +88,9 @@ ht-degree: 3%
 
      要了解如何共享日历，请参阅[[!UICONTROL 共享日历]报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**&#x200B;下拉列表，然后选择要查看的日历持续时间。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**下拉列表，然后选择要查看的日历持续时间。
    ![日历持续时间](assets/view-menu-calendar-report-350x189.png)
-您可以从以下日历报表视图中进行选择：
+   您可以从以下日历报表视图中进行选择：
 
    * **[!UICONTROL 月]**：显示日历的四周
    * **[!UICONTROL 周]**：显示日历的一周
@@ -110,17 +115,17 @@ ht-degree: 3%
 
    * 要快速更改显示的日期，请执行以下操作：
 
-      1. 在&#x200B;**[!UICONTROL 日历]**&#x200B;工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。
+     1. 在&#x200B;**[!UICONTROL 日历]**&#x200B;工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。
 
-         ![单击箭头以更改日期](assets/click-arrows-to-change-dates-calendar-report.png)
+        ![单击箭头以更改日期](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         显示的日期会根据当前日历视图按间隔进行调整。 例如，如果您在&#x200B;**周**&#x200B;视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。
+        显示的日期会根据当前日历视图按间隔进行调整。 例如，如果您在&#x200B;**周**&#x200B;视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。
 
-      1. （可选）要返回到当前日期，请单击&#x200B;[!UICONTROL **今天**]。
+     1. （可选）要返回到当前日期，请单击&#x200B;[!UICONTROL **今天**]。
 
 1. （可选）要隐藏链接到日历的项目或日历分组事件，请在项目列表中清除该项目或日历分组。
    ![隐藏事件](assets/hide-events-for-project-or-cal-grouping.png)
-通过选择项目列表中的[!UICONTROL 项目]或日历分组，可以再次显示事件。
+   通过选择项目列表中的[!UICONTROL 项目]或日历分组，可以再次显示事件。
 
 ## 查看日历报告事件详细信息
 

@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
+TQID: 'https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '533'
 ht-degree: 3%
-
 ---
-
 # 在优先级中添加和查看注释
 
 您可以在任务或问题中添加更新，以向他人传达工作项的进度。
@@ -96,7 +100,7 @@ ht-degree: 3%
 1. 在屏幕右下角找到&#x200B;**更新**&#x200B;区域。
 1. （可选）使用&#x200B;**注释**&#x200B;选项卡查看其他人对该工作项所做的更新。
 1. （可选）使用&#x200B;**系统活动**&#x200B;选项卡查看与工作项相关的系统活动。
-1. （可选）要添加评论，请转到&#x200B;**评论**&#x200B;选项卡并开始输入&#x200B;**新评论**&#x200B;框。完成后，单击&#x200B;**提交**。
+1. （可选）要添加评论，请转到&#x200B;**评论**&#x200B;选项卡并开始输入&#x200B;**新评论**&#x200B;框。 完成后，单击&#x200B;**提交**。
    ![更新区域](assets/updates-area-in-overview.png)
 
 ## 回复评论

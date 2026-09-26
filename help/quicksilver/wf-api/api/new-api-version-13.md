@@ -9,25 +9,31 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/XXp8JlFaapCUpB-TEmKCtBA-6ms-vWN0-xR8DiQdTpY
+TQID: 'https://experienceleague.adobe.com/XXp8JlFaapCUpB-TEmKCtBA-6ms-vWN0-xR8DiQdTpY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1032
+source-wordcount: '1075'
 ht-degree: 2%
-
 ---
-
 # API版本13中的新增功能
 
 Adobe Workfront于2021年4月22日发布了API版本13。 API版本13具有对版本12的以下更改。
@@ -206,7 +212,7 @@ DocumentVersion对象表示文件的特定版本（如书面材料、图像或�
 
 组对象表示一组用户和团队。 组通常代表部门结构。
 
-有关组的详细信息，请参阅Adobe Workfront[&#128279;](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)中的组与团队。
+有关组的详细信息，请参阅Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)中的[组与团队。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -408,7 +414,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
    <td>直接字段</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此字段已添加，并且是一个布尔参数，如果对象处于活动状态，则该参数的值为true ；否则为false。 设置为“活动”的对象会显示在下拉菜单和预输入字段中，并可附加到其他对象。 未设置为“活动”的对象在下拉菜单和要附加到其他对象的前置键入字段中不可见。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

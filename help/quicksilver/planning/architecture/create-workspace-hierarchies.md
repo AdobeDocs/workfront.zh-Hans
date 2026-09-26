@@ -11,20 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: 'https://experienceleague.adobe.com/SrMrI5ZjxxF1E40TcOgwNjTwWUMpQ3EeXREFjDmr45E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 956
+source-wordcount: '973'
 ht-degree: 1%
-
 ---
-
 # 创建工作区层次结构
 
 <!--
@@ -99,7 +107,7 @@ ht-degree: 1%
 
 1. 单击工作区信息卡。
 1. 单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**设置**。
-默认情况下，**层级**&#x200B;部分打开。
+默认情况下，**层次结构**&#x200B;部分打开。
 1. 单击&#x200B;**层次结构**&#x200B;页面右上角的&#x200B;**新建层次结构**。
 1. 单击&#x200B;**添加对象**&#x200B;并从下拉菜单中选择对象类型。 这将是层次结构中的第一个对象类型。<!--logged bug to correct to "Add object type"-->
 
@@ -123,7 +131,7 @@ ht-degree: 1%
 
    如果您正在创建与Workfront项目的连接，则不会在该项目上创建字段。
 
-1. （视情况而定）如果没有可用的连接字段，请单击“创建连接”**&#x200B;**&#x200B;并添加新连接，然后单击“保存”**&#x200B;**。
+1. （视情况而定）如果没有可用的连接字段，请单击“创建连接”****&#x200B;并添加新连接，然后单击“保存”****。
 
 1. （视情况而定）如果要添加新连接，请执行以下操作：
 

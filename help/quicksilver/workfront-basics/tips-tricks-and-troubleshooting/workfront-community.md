@@ -1,25 +1,29 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: ' [!DNL Adobe Workfront] 社区'
-description: Adobe [!DNL Workfront] 社区是一个超过10,000 [!DNL Workfront] 个用户的在线组。 通过社区，您可以及时了解产品发布的最新信息、了解客户活动并与其他用户讨论 [!DNL Workfront] 产品和服务。 您将找到问题的答案，并与其他 [!DNL Workfront] 客户建立联系。
+title: '[!DNL Adobe Workfront]社区'
+description: Adobe [!DNL Workfront]社区是超过10,000个[!DNL Workfront]用户的在线组。 通过社区，您可以及时了解产品发布的最新信息、了解客户活动并与其他用户讨论[!DNL Workfront]产品和服务。 您将找到问题的答案并与其他[!DNL Workfront]客户建立连接。
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-TQID: https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY
+TQID: 'https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: '409'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Workfront]社区
 
 Adobe [!DNL Workfront]社区是超过10,000个[!DNL Workfront]用户的在线组。 通过社区，您可以及时了解产品发布的最新信息、了解客户活动并与其他用户讨论[!DNL Workfront]产品和服务。 您将找到问题的答案并与其他[!DNL Workfront]客户建立连接。
@@ -61,7 +65,7 @@ Adobe [!DNL Workfront]社区是超过10,000个[!DNL Workfront]用户的在线组
 
 ### [!DNL Workfront]社区的URL是什么？
 
-[!DNL Workfront]社区位于[!DNL Adobe Experience League]网站上的以下URL： [[!DNL Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)。
+[!DNL Workfront]社区位于[!DNL Adobe Experience League]网站上的以下URL： [[!DNL Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
 
 ### 我的子域是什么？ {#what-s-my-subdomain}
 

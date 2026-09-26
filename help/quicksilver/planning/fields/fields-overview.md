@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 2%
-
 ---
-
 # 字段概述
 
 <!--
@@ -43,8 +50,8 @@ ht-degree: 2%
 
   有关管理字段的信息，另请参阅以下文章：
 
-   * [编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md)
-   * [删除字段](/help/quicksilver/planning/fields/delete-fields.md)
+  * [编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md)
+  * [删除字段](/help/quicksilver/planning/fields/delete-fields.md)
 
 * 与记录类型关联的字段可用于与该类型的所有记录相关联。<!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,45 +59,45 @@ ht-degree: 2%
 
 * 您可以通过以下方式手动或自动创建字段：
 
-   * 手动：
+  * 手动：
 
-      * 在记录类型页面的表视图中添加列时。 表的列是与记录类型关联的字段。 它们是显示在记录页面上的相同字段。
+    * 在记录类型页面的表视图中添加列时。 表的列是与记录类型关联的字段。 它们是显示在记录页面上的相同字段。
 
-        您无法从记录的页面创建字段。
+      您无法从记录的页面创建字段。
 
-      * 连接记录类型时。 在两种记录类型之间添加新连接，或者从其它应用程序添加记录类型和对象类型时，可以创建链接记录字段。
+    * 连接记录类型时。 在两种记录类型之间添加新连接，或者从其它应用程序添加记录类型和对象类型时，可以创建链接记录字段。
 
-        有关连接记录类型的详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+      有关连接记录类型的详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-      * 从Workfront导入现有字段时。
+    * 从Workfront导入现有字段时。
 
-        有关信息，请参阅[从Adobe Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
+      有关信息，请参阅[从Adobe Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
 
 
-   * 自动：
+  * 自动：
 
-      * 在创建记录类型时：
+    * 在创建记录类型时：
 
-         * 名称
-         * 描述
-         * 开始日期
-         * 结束日期
-         * 状态。 记录状态的默认值是：
-            * 开发
-            * 计划
-            * 活动
-            * 已完成
-            * 暂停
+      * 名称
+      * 描述
+      * 开始日期
+      * 结束日期
+      * 状态。 记录状态的默认值是：
+        * 开发
+        * 计划
+        * 活动
+        * 已完成
+        * 暂停
 
-        您可以添加更多值或重命名现有值。
+      您可以添加更多值或重命名现有值。
 
-      * 从模板创建工作区时。
+    * 从模板创建工作区时。
 
-        有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
+      有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-      * 使用Excel或CSV文件导入记录类型时。
+    * 使用Excel或CSV文件导入记录类型时。
 
-        有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+      有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 * 无法从Workfront访问Workfront Planning字段。
 

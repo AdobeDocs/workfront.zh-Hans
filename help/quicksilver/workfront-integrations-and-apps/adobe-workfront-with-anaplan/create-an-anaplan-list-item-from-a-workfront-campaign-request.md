@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 根据 [!DNL Adobe Workfront] 营销活动请求创建 [!DNL Anaplan] 列表项
-description: 此集成方案链接具有 [!DNL Anaplan] 预算列表项的 [!DNL Adobe Workfront] 项目。
+title: 根据[!DNL Adobe Workfront]营销活动请求创建[!DNL Anaplan]列表项
+description: 此集成方案链接具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-TQID: https://experienceleague.adobe.com/6Bny8fG-ta0UsBZfg9kDgYaOnnuv5r2myqvKNbQVEww
+TQID: 'https://experienceleague.adobe.com/6Bny8fG-ta0UsBZfg9kDgYaOnnuv5r2myqvKNbQVEww'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 790
+source-wordcount: '794'
 ht-degree: 17%
-
 ---
-
 # 根据[!DNL Adobe Workfront]营销活动请求创建[!DNL Anaplan]列表项
 
 此集成方案链接具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目。
@@ -71,7 +81,7 @@ ht-degree: 17%
 
 有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 +++
 
@@ -111,23 +121,23 @@ ht-degree: 17%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td role="rowheader">[！UICONTROL上市日期]</td> 
      <td>日期 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 市场结束日期]</td> 
+     <td role="rowheader">[！UICONTROL市场结束日期]</td> 
      <td>日期</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 营销活动概述]</td> 
+     <td role="rowheader">[！UICONTROL营销活动概述]</td> 
      <td>段落文本字段</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Key Message]</td> 
+     <td role="rowheader">[！UICONTROL Key Message]</td> 
      <td>段落文本字段</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 目标受众]</td> 
+     <td role="rowheader">[！UICONTROL目标受众]</td> 
      <td> <p>下拉</p> <p>包含适合您的流程的选项。</p> </td> 
     </tr> 
    </tbody> 
@@ -147,12 +157,12 @@ ht-degree: 17%
 
   列表的模块必须支持接收以下属性：
 
-   * [!UICONTROL [!DNL Workfront]请求GUID]
-   * [!UICONTROL [!DNL Workfront]项目GUID]
-   * [!UICONTROL 促销活动名称]
-   * [!UICONTROL 已请求劳力资金]
-   * [!UICONTROL 已申请费用资金]
-   * [!UICONTROL 预算请求类型]
+  * [!UICONTROL [!DNL Workfront]请求GUID]
+  * [!UICONTROL [!DNL Workfront]项目GUID]
+  * [!UICONTROL 促销活动名称]
+  * [!UICONTROL 已请求劳力资金]
+  * [!UICONTROL 已申请费用资金]
+  * [!UICONTROL 预算请求类型]
 
   此列表和模块必须存储[!DNL Anaplan]正常功能所需的其他详细信息，包括设置预算并告知预算列表项已准备好同步回[!DNL Workfront]的功能。
 

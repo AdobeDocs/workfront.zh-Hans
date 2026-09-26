@@ -9,25 +9,33 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+TQID: 'https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: '1063'
 ht-degree: 1%
-
 ---
-
 # 组管理员
 
 <!-- Audited: 12/2023 -->
@@ -59,9 +67,9 @@ ht-degree: 1%
 * 确定您是否希望组管理员能够以其他用户身份登录，或者为您管理的组中的用户重置密码。 执行这些任务需要其他访问权限，如下文[组管理员所需访问权限](#access-needed-for-group-administrators)中所述。
 * 为了更好地管理用户，请考虑将组或子组而不是用户分配给以下对象：
 
-   * 布局模板
-   * 计划
-   * 时间表配置文件
+  * 布局模板
+  * 计划
+  * 时间表配置文件
 
 ## 组管理员所需的访问权限 {#access-needed-for-group-administrators}
 
@@ -130,8 +138,8 @@ ht-degree: 1%
 
 * 当为系统中的组解锁项目首选项、任务或问题首选项、或时间表和小时首选项时，请编辑您管理组的该首选项。 这些首选项影响项目、任务和问题行为。 有关更多信息，请参阅以下内容：
 
-   * [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-   * [配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+  * [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+  * [配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 * 创建和编辑您管理的组的组状态。 有关详细信息，请参阅[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 * 为您管理的组配置事件通知。 只有在Workfront管理员解锁通过系统为组配置事件通知的功能后，您才能执行此操作。 有关详细信息，请参阅[查看和配置组](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知。

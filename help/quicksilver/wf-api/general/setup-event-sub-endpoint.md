@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 0%
-
 ---
-
 # 事件订阅提交要求
 
 事件订阅消息是可设置为在发生某些事件时通知用户的通知。 若要了解有关什么是事件订阅的详细信息，请参阅[常见问题解答 — 事件订阅](../../wf-api/general/event-subs-faq.md)。
@@ -37,7 +40,7 @@ ht-degree: 0%
 
 * 如果从事件订阅消息触发长时间运行的业务流程，Workfront建议
 
-   1. 端点在收到消息时保存消息信息，并立即以200级状态响应。
-   1. 在端点响应事件订阅投放请求后，即可处理保存的消息。
+  1. 端点在收到消息时保存消息信息，并立即以200级状态响应。
+  1. 在端点响应事件订阅投放请求后，即可处理保存的消息。
 
 * 事件订阅消息或对象不能大于1 MB。

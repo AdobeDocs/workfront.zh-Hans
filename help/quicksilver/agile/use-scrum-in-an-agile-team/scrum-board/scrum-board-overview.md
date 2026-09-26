@@ -9,18 +9,24 @@ feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
+TQID: 'https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: '810'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Scrum]展示板概述
 
 <!-- Audited: 5/2025 -->
@@ -42,12 +48,12 @@ ht-degree: 0%
 
   在迭代中，仅当故事板上的一个或多个故事包含至少一个满足以下要求的子任务时，此列才会出现在故事板上：
 
-   * 分配给与父任务相同的Agile团队。
-   * 属于迭代。
+  * 分配给与父任务相同的Agile团队。
+  * 属于迭代。
 
-     在项目中，每当任务至少有一个子任务时，就会显示此列。
+    在项目中，每当任务至少有一个子任务时，就会显示此列。
 
-     ![父故事列](assets/agile-parentstory-swimlane.png)
+    ![父故事列](assets/agile-parentstory-swimlane.png)
 
 * **任务状态**：根据文章所处的状态列，指示文章在迭代或项目中的进度。
 
@@ -57,8 +63,8 @@ ht-degree: 0%
 
   在迭代中，仅当故事板上的故事至少包含一个满足以下要求的子任务时，泳道才会出现在故事板上：
 
-   * 分配给与父任务相同的Agile团队。
-   * 属于迭代。
+  * 分配给与父任务相同的Agile团队。
+  * 属于迭代。
 
   在项目中，每当任务至少有一个子任务或一个父任务时，泳道就会出现。
 

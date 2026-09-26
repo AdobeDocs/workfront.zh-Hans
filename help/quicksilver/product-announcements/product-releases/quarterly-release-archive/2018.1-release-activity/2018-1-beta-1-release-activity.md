@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+TQID: 'https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1070'
 ht-degree: 0%
-
 ---
-
 # 2018.1 Beta 1发行版活动
 
 本页介绍了2018.1 Beta 1版本在“预览”环境中最近提供的所有更改。 2017年12月1日，预览环境中提供了此页面上的功能。 该版本将于2018年3月在生产环境中提供。
@@ -31,13 +37,13 @@ ht-degree: 0%
 
 2018.1 Beta 1版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [已更新布局模板以支持主区域](#updated-layout-template-to-support-the-home-area)
 * [禁用从Workfront发送的校对电子邮件通知](#disable-proofing-email-notifications-sent-from-workfront)
 * [添加到事件订阅的新资源](#new-resources-added-to-event-subscriptions)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 * [在业务案例和更新的业务案例摘要下显示资源规划者数据](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
@@ -63,7 +69,7 @@ ht-degree: 0%
 
 您现在可以配置在对验证进行评论时，Workfront实例中的用户是否从Workfront接收电子邮件通知。
 
-以前，当对验证进行评论时，始终从Workfront发送验证电子邮件。如果还在Workfront Proof中启用了通知，则会导致用户收到重复通知。 
+以前，当对验证进行评论时，始终从Workfront发送验证电子邮件。 如果还在Workfront Proof中启用了通知，则会导致用户收到重复通知。 
 
 对于现有Workfront客户，Workfront默认配置为在对验证进行评论时发送电子邮件。
 

@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ielfm99We9-fno0XOxp34XkWjtgLrmfCKhLx9kNAP8Q
+TQID: 'https://experienceleague.adobe.com/Ielfm99We9-fno0XOxp34XkWjtgLrmfCKhLx9kNAP8Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '472'
 ht-degree: 3%
-
 ---
-
 # 管理[!UICONTROL Scrum]展示板上的故事和问题
 
 您可以将故事或问题从[!UICONTROL Scrum]展示板移动到另一个迭代或积压工作，或从[!UICONTROL Scrum]展示板删除它。 删除文章或问题后，该文章或问题将被移动到回收站保留30天，只有系统管理员才能恢复。
@@ -44,13 +51,13 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Manage]对任务或问题的访问权限 </td> 
+   <td>[！UICONTROL Manage]对任务或问题的访问权限 </td> 
   </tr>
  </tbody> 
 </table>
@@ -73,11 +80,11 @@ ht-degree: 3%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 其他迭代]</strong></td>
+        <td><strong>[！UICONTROL其他迭代]</strong></td>
         <td>选择以将项目移动到另一个迭代，然后选择文章或问题将移动到哪个迭代。 如果未定义未来的小版本，则无法移动项目。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 积压]</strong></td>
+        <td><strong>[！UICONTROL积压]</strong></td>
         <td>选择以将故事或问题移动到团队的积压。</td>
     </tr>
    </table>

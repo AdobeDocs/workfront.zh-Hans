@@ -6,22 +6,29 @@ description: 您可以为Web内容生成新的静态验证或现有静态验证�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-TQID: https://experienceleague.adobe.com/OH3u2WwNNiciuJEkPmjXRLRQGv4znlkRW6FHiUCHW-M
+TQID: 'https://experienceleague.adobe.com/OH3u2WwNNiciuJEkPmjXRLRQGv4znlkRW6FHiUCHW-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 3%
-
 ---
-
 # 为网站或其他Web内容创建静态验证
 
 您可以为Web内容生成新的静态验证或现有静态验证的新版本。 Web内容可能包括带流视频的广告、HTML动画或交互式横幅等，但将剪切为多个屏幕快照以实现静态校样。
@@ -71,7 +78,7 @@ ht-degree: 3%
 
 1. 转到要创建新网站验证或现有网站验证的新版本的项目、任务或问题。
 1. 单击左侧面板中的&#x200B;**文档**。
-1. （视情况而定）如果要创建新校对，请单击“新增”**&#x200B;**，然后在出现的菜单中单击“校对”**&#x200B;**。
+1. （视情况而定）如果要创建新校对，请单击“新增”****，然后在出现的菜单中单击“校对”****。
 1. （视情况而定）如果您正在创建现有验证的新版本：
 
    1. 将鼠标悬停在要为其创建新版本的URL验证上，然后单击其周围的浅蓝色背景以将其选中。

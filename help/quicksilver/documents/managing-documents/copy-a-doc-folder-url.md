@@ -8,30 +8,37 @@ feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0fX1ljnPG5-GGqDogSU7Q2ZqSwaFps6b-nTJK3-MFh8
+TQID: 'https://experienceleague.adobe.com/0fX1ljnPG5-GGqDogSU7Q2ZqSwaFps6b-nTJK3-MFh8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 182
-ht-degree: 10%
-
+source-wordcount: '248'
+ht-degree: 7%
 ---
-
 # 复制并共享指向文档文件夹的链接
 
 您可以为以下任何[!DNL Workfront]对象中包含的任何文档文件夹复制直接链接： [!UICONTROL Program]、[!UICONTROL Portfolio]、[!UICONTROL Project]、[!UICONTROL Task]或[!UICONTROL Issue]。 您无法从主菜单复制[!UICONTROL 文档]区域中包含的任何文件夹的链接，因为这些文件夹直接链接到您的用户配置文件，并且无法与他人共享。
 
 >[!NOTE]
 >
->此功能在新建文档区域不可用。<br>
->如果您的组织使用Adobe云存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>此功能在新的“文档”区域中不可用。<br>
+>如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 访问要求
 
@@ -68,5 +75,5 @@ ht-degree: 10%
 要将链接复制到文档文件夹，请执行以下操作：
 
 1. 导航到包含文档文件夹的[!DNL Workfront]对象。
-1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 复制URL]**。您可以共享此链接，以便快速访问文件夹。用户必须至少具有该对象的“查看”权限才能查看文件夹。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 复制URL]**。 您可以共享此链接，以便快速访问文件夹。 用户必须至少具有该对象的“查看”权限才能查看文件夹。
    ![复制文档文件夹url](assets/copy-doc-folder-url.png)

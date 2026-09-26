@@ -7,25 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+TQID: 'https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '744'
 ht-degree: 0%
-
 ---
-
 # 2024年第二季度更新流和通知增强功能
 
 本页介绍了在2024年第二季度版本中对“预览”环境做出的所有更新流和通知增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## 添加到迭代的新评论体验
 
@@ -67,7 +73,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （有关此特定功能的讨论从2:47开始）
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （关于此特定功能的讨论在2:47开始）
 
 ## 新评论体验中的“系统活动”选项卡支持只读评论
 
@@ -79,7 +85,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （有关此特定功能的讨论从2:00开始）
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （对这项特定功能的讨论在2:00开始）
 
 ## 新的更新流选项卡，用于捕获注释和系统活动条目
 
@@ -93,7 +99,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （有关此特定功能的讨论从0:31开始）
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （有关此特定功能的讨论在0:31开始）
 
 ## 摘要面板中现在提供了新的评论流
 

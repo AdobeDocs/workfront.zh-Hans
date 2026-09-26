@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: 在验证查看者中使用多个验证
-description: 在 [!DNL Workfront] Proof中，您可以使用文件夹对要一起处理的验证或希望审阅人一起处理的验证进行分组。 当您或其他查看者打开其中一个校样，启动校样查看者时，文件夹中的所有校样也在此处可用。 无需离开验证查看器，即可查看其他验证、对它们进行排序和搜索并将它们相互比较。
+description: 在[!DNL Workfront] Proof中，您可以使用文件夹对要一起处理的验证或希望审阅人一起处理的验证进行分组。 当您或其他查看者打开其中一个校样，启动校样查看者时，文件夹中的所有校样也在此处可用。 无需离开验证查看器，即可查看其他验证、对它们进行排序和搜索并将它们相互比较。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-TQID: https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk
+TQID: 'https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '509'
 ht-degree: 0%
-
 ---
-
 # 在验证查看者中使用多个验证
 
 >[!IMPORTANT]
@@ -27,7 +35,7 @@ ht-degree: 0%
 
 在[!DNL Workfront Proof]中，您可以使用文件夹对要一起处理的验证或希望审阅人一起处理的验证进行分组。 当您或其他查看者打开其中一个校样，启动校样查看者时，文件夹中的所有校样也在此处可用。 无需离开验证查看器，即可查看其他验证、对它们进行排序和搜索并将它们相互比较。
 
-有关文件夹的一般信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的文件夹。
+有关文件夹的一般信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[文件夹。
 
 >[!NOTE]
 >

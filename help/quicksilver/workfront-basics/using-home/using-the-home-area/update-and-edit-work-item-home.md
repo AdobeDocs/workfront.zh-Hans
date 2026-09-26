@@ -8,27 +8,35 @@ feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/stUm9llYC3331mkk1MJkQTpOtucveUyjTeXBlxDfSgA
+TQID: 'https://experienceleague.adobe.com/stUm9llYC3331mkk1MJkQTpOtucveUyjTeXBlxDfSgA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '843'
 ht-degree: 9%
-
 ---
-
 # 在[!UICONTROL 主页]区域更新或编辑工作项
 
 <!--Audited: 04/2024-->
@@ -62,7 +70,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -167,7 +175,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行图标](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
    ![打开摘要](assets/open-summary-new-home.png)
 
 1. 在“摘要”面板中，将鼠标悬停在要编辑的字段上。

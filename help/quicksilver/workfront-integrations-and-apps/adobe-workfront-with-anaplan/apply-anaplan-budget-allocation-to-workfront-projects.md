@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 将 [!DNL Anaplan] 预算分配应用于 [!DNL Adobe Workfront] 项目
-description: 此集成方案将已在 [!DNL Anaplan] 内进行的预算分配同步回 [!DNL Workfront]。 此方案会提取所有链接的营销活动预算项，如果预算值已更改，则将预算值传递到链接的Workfront项目。
+title: 将[!DNL Anaplan]预算分配应用于[!DNL Adobe Workfront]项目
+description: 此集成方案将已在[!DNL Anaplan]中进行的所有预算分配同步回[!DNL Workfront]。 此方案会提取所有链接的营销活动预算项，如果预算值已更改，则将预算值传递到链接的Workfront项目。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
-TQID: https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc
+TQID: 'https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '746'
 ht-degree: 16%
-
 ---
-
 # 将[!DNL Anaplan]预算分配应用于[!DNL Adobe Workfront]项目
 
 此集成方案将已在[!DNL Anaplan]中进行的所有预算分配同步回[!DNL Workfront]。 方案提取所有链接的营销活动预算项，如果预算值已更改，则将预算值传递到链接的[!DNL Workfront]项目。
@@ -67,7 +76,7 @@ ht-degree: 16%
 
 有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 +++
 
@@ -93,29 +102,29 @@ ht-degree: 16%
 
   列表的模块必须支持接收以下属性：
 
-   * [!UICONTROL Workfront项目GUID]
-   * [!UICONTROL 促销活动名称]
-   * [!UICONTROL 已请求劳力资金]
-   * [!UICONTROL 预计收入]
-   * [!UICONTROL 品牌]
+  * [!UICONTROL Workfront项目GUID]
+  * [!UICONTROL 促销活动名称]
+  * [!UICONTROL 已请求劳力资金]
+  * [!UICONTROL 预计收入]
+  * [!UICONTROL 品牌]
 
   此列表和模块必须存储[!DNL Anaplan]正常功能所需的其他详细信息，包括设置预算并告知预算列表项已准备好同步回[!DNL Workfront]的功能。
 
-* 在Adobe Workfront **中名为** Campaigns.Update Campaigns的[!DNL Anaplan]中的视图。
+* 在Adobe Workfront ]**中名为**[!UICONTROL  Campaigns.Update Campaigns的[!DNL Anaplan]中的视图。
 
   此视图必须按以下顺序包含以下列：
 
-   1. [!UICONTROL 项目名称]
+  1. [!UICONTROL 项目名称]
 
-   2. [!UICONTROL [!DNL Workfront]项目GUID]
+  2. [!UICONTROL [!DNL Workfront]项目GUID]
 
-   3. [!UICONTROL 促销活动名称]
+  3. [!UICONTROL 促销活动名称]
 
-   4. [!UICONTROL 预算]
+  4. [!UICONTROL 预算]
 
-   5. [!UICONTROL 预计收入]
+  5. [!UICONTROL 预计收入]
 
-   6. [!UICONTROL 品牌]
+  6. [!UICONTROL 品牌]
 
   应筛选该视图，以显示具有[!UICONTROL [!DNL Workfront]项目GUID]的项以及预算分配应传输到[!DNL Workfront]的某些指示符。
 
@@ -141,24 +150,24 @@ ht-degree: 16%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户和所选工作区的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模块名称]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模块名称]</td> 
       <td>描述选定[!DNL Anaplan]列表中的促销活动属性的模块名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
+      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
       <td>您的[!DNL Anaplan]帐户和所选工作区和模型的列表名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan]视图名称]</td> 
-      <td> <p>包含可传输到[!DNL Workfront]的营销活动预算的视图的名称。</p> <p>（示例：[!UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan]视图名称]</td> 
+      <td> <p>包含可传输到[!DNL Workfront]的营销活动预算的视图的名称。</p> <p>（示例：[！UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
      </tr> 
     </tbody> 
    </table>

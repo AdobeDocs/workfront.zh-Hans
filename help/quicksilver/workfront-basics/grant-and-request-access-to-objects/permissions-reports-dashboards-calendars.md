@@ -7,23 +7,28 @@ description: 当用户分配访问级别时，您的Adobe Workfront管理员会�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 0%
-
 ---
-
 # 共享报告、功能板和日历
 
 当用户分配访问级别时，您的Adobe Workfront管理员会授予他们查看或编辑报告、功能板和日历的访问权限。 有关授予对报告、仪表板和日历的访问权限的详细信息，请参阅[授予对报告、仪表板和日历的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
@@ -49,9 +54,9 @@ ht-degree: 0%
 
   另请参阅以下文章，了解如何共享报告、功能板和日历：
 
-   * [在Adobe Workfront中共享报告](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [共享仪表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [共享日历报告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [在Adobe Workfront中共享报告](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [共享仪表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [共享日历报告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * 您可以单独共享报告和仪表板，也可以批量共享它们。
 
@@ -63,8 +68,8 @@ ht-degree: 0%
 
 * 您可以向报表、功能板和日历授予以下权限：
 
-   * 视图
-   * 管理
+  * 视图
+  * 管理
 
 * 共享功能板时，用户默认对功能板上的所有报告、日历和外部页面具有查看权限。
 * 具有“请求”许可证的用户无法查看系统范围的报告。 如果请求者需要查看报告，则必须单独与请求者共享报告。

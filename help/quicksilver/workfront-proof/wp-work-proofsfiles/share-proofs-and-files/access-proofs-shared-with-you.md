@@ -7,18 +7,26 @@ description: 当您收到有关验证的电子邮件时，其中包含用于访�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
-TQID: https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4
+TQID: 'https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: '363'
 ht-degree: 0%
-
 ---
-
 # 访问与您共享的校对
 
 >[!IMPORTANT]
@@ -29,20 +37,20 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->电子邮件中的URL是您个人的，将打开校样，您已将其识别为审阅者。 切勿将URL转发给其他人；如果您转发URL，其他人的任何评论或决定都将以您的名义提供。 如果您希望其他人查看该校样并且您具有查看该校样的校样权限，请使用[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)中共享校样中介绍的校样共享功能。 有关校对权限的信息，请参阅[共享文档](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)；或者，如果您使用的是[!DNL Workfront Proof]，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
+>电子邮件中的URL是您个人的，将打开校样，您已将其识别为审阅者。 切勿将URL转发给其他人；如果您转发URL，其他人的任何评论或决定都将以您的名义提供。 如果您希望其他人查看该校样并且您具有查看该校样的校样权限，请使用[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)中共享校样中介绍的校样共享功能。 有关校对权限的信息，请参阅[共享文档](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)；或者，如果您使用的是[!DNL Workfront Proof]，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
 >
 >或者，如果对验证启用了验证共享，则可以通过从验证查看器或新验证电子邮件中的[!UICONTROL 与他人共享此验证]链接共享验证URL，让其他人查看验证。
 
 有关共享校样，请考虑以下事项：
 
 * 可以将拥有有效电子邮件地址的任何人添加到验证中。 他们不需要是具有登录凭据的[!DNL Workfront Proof]用户。
-* 与您共享的任何校对将显示在您的帐户的[!DNL Views]页面中。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理查看页面上的项目
+* 与您共享的任何校对将显示在您的帐户的[!DNL Views]页面中。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理查看页面上的项目
 * 当有人与您共享校对URL时，您可以按照[[!UICONTROL 在 [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)中共享公共URL中的说明访问校对
 * 您可以根据以下条件搜索已与您共享的任何验证：
 
-   * 校样名称
-   * 描述（与验证关联的消息）
-   * 标记名称（请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)中创建和管理标记）
+  * 校样名称
+  * 描述（与验证关联的消息）
+  * 标记名称（请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)中创建和管理标记）
 
 要从已收到的电子邮件中打开验证，请执行以下操作：
 

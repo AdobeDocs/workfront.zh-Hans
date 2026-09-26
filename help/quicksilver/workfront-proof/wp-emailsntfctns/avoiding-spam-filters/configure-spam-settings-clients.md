@@ -3,26 +3,35 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: 为常见电子邮件客户端配置垃圾邮件设置
-description: 您可以配置电子邮件客户端，以确保 [!DNL Workfront Proof] 电子邮件不会发送到垃圾邮件文件夹。
+description: 您可以配置电子邮件客户端，以确保不会将[!DNL Workfront Proof]电子邮件发送到垃圾邮件文件夹。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
-TQID: https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k
+TQID: 'https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: '1500'
 ht-degree: 0%
-
 ---
-
 # 为常见电子邮件客户端配置垃圾邮件设置
 
 >[!IMPORTANT]
@@ -52,7 +61,7 @@ ht-degree: 0%
 1. 单击对话框下方的&#x200B;**[!UICONTROL 添加]**。 该地址已添加到您的联系人列表中。
 1. 对于第二个“[!UICONTROL 来自]”地址，请重复步骤2-4。
 
-或者，为两个[!DNL Workfront Proof] &quot;[!UICONTROL &#x200B; from]&quot;地址中的每一个创建电子邮件过滤器：
+或者，为两个[!DNL Workfront Proof] &quot;[!UICONTROL  from]&quot;地址中的每一个创建电子邮件过滤器：
 
 1. 单击任何Gmail页面顶部的&#x200B;**[!UICONTROL 搜索]**&#x200B;按钮旁边的&#x200B;**[!UICONTROL 创建过滤器]**。
 
@@ -77,7 +86,7 @@ ht-degree: 0%
 
 1. 单击任何Gmail页面顶部的[!UICONTROL 搜索]按钮旁边的&#x200B;**[!UICONTROL 创建过滤器]**。
 1. 单击[!UICONTROL 创建筛选器]对话框底部的&#x200B;**[!UICONTROL 显示当前筛选器]**。 现有过滤器按字段（自）以及名称或地址列在设置页面上。
-1. 如果现有[!DNL Workfront Proof]地址筛选器的执行此操作为[!UICONTROL 删除它]，请单击&#x200B;**[!UICONTROL 编辑]**。
+1. 如果现有[!DNL Workfront Proof]地址]筛选器的[!UICONTROL 执行此操作为[!UICONTROL 删除它]，请单击&#x200B;**[!UICONTROL 编辑]**。
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;按钮。
 1. 取消选择&#x200B;**[!UICONTROL 删除它]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL 从不将其发送给垃圾邮件]**。
 
@@ -153,7 +162,7 @@ ht-degree: 0%
 1. 如果此文件夹中存在任何[!DNL Workfront Proof]电子邮件，请打开每封电子邮件并单击&#x200B;**[!UICONTROL 非垃圾邮件]**&#x200B;链接。
 1. 您现在会在收件箱中找到这[!DNL Workfront Proof]封电子邮件。
 
-要检查[!UICONTROL 阻止的发件人]列表中是否存在[!DNL Workfront Proof]个地址中的：
+要检查[!UICONTROL 阻止的发件人]列表中是否存在[!DNL Workfront Proof]个]地址中的[!UICONTROL ：
 
 1. 单击邮箱页面右上角的&#x200B;**[!UICONTROL 选项]**。
 1. 单击&#x200B;**[!UICONTROL 更多选项]**。
@@ -205,7 +214,7 @@ ht-degree: 0%
 在此部分中：
 
 * 将两个[!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;地址添加到您的[!DNL Aol] [!UICONTROL 通讯簿]
-* 从[!DNL Aol] [!UICONTROL 垃圾邮件]筛选器的[!DNL Aol] [!UICONTROL 垃圾邮件]文件夹中删除任何现有[!DNL Workfront Proof]电子邮件，并从地址中删除任何[!DNL Workfront Proof]“”地址
+* 从[!DNL Aol] [!UICONTROL 垃圾邮件]筛选器的[!DNL Aol] [!UICONTROL 垃圾邮件]文件夹中删除任何现有[!DNL Workfront Proof]电子邮件，并从]地址中删除任何[!DNL Workfront Proof]“[!UICONTROL ”地址
 
 ### 对于新[!DNL Workfront Proof]电子邮件
 

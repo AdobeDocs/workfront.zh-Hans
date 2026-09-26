@@ -8,22 +8,27 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-TQID: https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ
+TQID: 'https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 914
+source-wordcount: '936'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront发布计划和流程
 
 ## 更新预览计划
@@ -72,18 +77,18 @@ Workfront提供了以下测试版计划：
 
 * **封闭或私有测试版**：以下为封闭或私有测试版的特征：
 
-   * 少数客户可以使用此功能，这些功能由Workfront仔细选择。
-   * 参与者通常与产品经理合作，并定期提供反馈。
-   * 测试版中的新增功能可以发布到“预览”或“生产”环境，或者发布到为Beta测试版计划而提供的单独环境。 封闭Beta版功能会随机发布，不会发出警告。
-   * 产品发行页面上没有已关闭测试版的发行信息。
+  * 少数客户可以使用此功能，这些功能由Workfront仔细选择。
+  * 参与者通常与产品经理合作，并定期提供反馈。
+  * 测试版中的新增功能可以发布到“预览”或“生产”环境，或者发布到为Beta测试版计划而提供的单独环境。 封闭Beta版功能会随机发布，不会发出警告。
+  * 产品发行页面上没有已关闭测试版的发行信息。
 
 * **公开或公开测试版**：以下是公开或公开测试版的特征：
 
-   * 这些功能可供所有Workfront客户使用，但处于Beta状态。 它们可能无法始终完全正常工作，始终欢迎您提供反馈。
-   * 参与公共测试版是可选的，客户可以自行决定是否启用测试版功能。
-   * Beta版中的新增功能可发布到“预览”版或“生产”版。
-   * 与Workfront的常规发布模式相比，功能的发布频率可能会更高。
-   * 关于何时将功能发布到公共测试版的信息包含在产品发布页面中。
+  * 这些功能可供所有Workfront客户使用，但处于Beta状态。 它们可能无法始终完全正常工作，始终欢迎您提供反馈。
+  * 参与公共测试版是可选的，客户可以自行决定是否启用测试版功能。
+  * Beta版中的新增功能可发布到“预览”版或“生产”版。
+  * 与Workfront的常规发布模式相比，功能的发布频率可能会更高。
+  * 关于何时将功能发布到公共测试版的信息包含在产品发布页面中。
 
 有关产品发行说明的信息，请参阅[产品版本](../../product-announcements/product-releases/product-releases.md)。
 

@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+TQID: 'https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '891'
 ht-degree: 4%
-
 ---
-
 # 在Adobe Workfront中创建或编辑视图
 
 <!-- Audited: 11/2024 -->
@@ -80,10 +85,10 @@ ht-degree: 4%
 
 1. 在要创建或自定义视图的任何列表中单击&#x200B;**视图**&#x200B;下拉菜单。
 
-1. 单击&#x200B;**+新建视图**&#x200B;按钮以创建新视图。
+1. 单击&#x200B;**+新建视图**按钮以创建新视图。
 或
-单击鼠标上要编辑的现有视图右侧出现的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将显示&#x200B;**自定义视图**&#x200B;对话框。
+单击鼠标上要编辑的现有视图右侧出现的**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+将显示**自定义视图**&#x200B;对话框。
 
 1. 在&#x200B;**列预览**&#x200B;部分中，执行以下任一操作：
 
@@ -131,9 +136,9 @@ ht-degree: 4%
      >
      >有关在报表中使用分组的更多信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)一文。
 
-      * （可选）单击&#x200B;**高级选项**&#x200B;为列指定以下信息：
+     * （可选）单击&#x200B;**高级选项**&#x200B;为列指定以下信息：
 
-        <table style="table-layout:auto"> 
+       <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -156,7 +161,7 @@ ht-degree: 4%
          </tbody> 
         </table>
 
-        有关报表中条件格式视图的详细信息，请参阅文章[在文本模式下使用条件格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)。
+       有关报表中条件格式视图的详细信息，请参阅文章[在文本模式下使用条件格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)。
 
 1. （视情况而定）如果您已单击&#x200B;**高级选项**，请单击&#x200B;**完成**。
 

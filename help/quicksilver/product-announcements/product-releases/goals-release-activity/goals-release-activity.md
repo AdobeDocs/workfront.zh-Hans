@@ -7,18 +7,26 @@ description: 借助Adobe Workfront Goals，您可以调整战略、目标和工�
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 1740c91f-b01e-4e97-987a-d1b810d0c0a4
-TQID: https://experienceleague.adobe.com/4tMOg93xF5okKc50LLCBYBdq1PZZ--ZdKk9MD7Qpjf4
+TQID: 'https://experienceleague.adobe.com/4tMOg93xF5okKc50LLCBYBdq1PZZ--ZdKk9MD7Qpjf4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 123
+source-wordcount: '123'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront目标发布活动
 
 借助Adobe Workfront Goals，您可以调整战略、目标和工作，以推动在整个企业内实施并推动实现可衡量的业务成果。 定义您要实现的目标以及它重要的原因。

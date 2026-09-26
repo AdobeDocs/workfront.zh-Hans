@@ -6,25 +6,31 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-TQID: https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs
+TQID: 'https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '946'
 ht-degree: 0%
-
 ---
-
 # 22.2管理员增强功能
 
 本页介绍了在22.2版本中对“预览”环境所做的所有“管理员”增强。 这些增强功能将在“生产”环境中提供
@@ -83,18 +89,18 @@ in January 2022
 
 * 在具有“计划”许可证类型的新访问级别中：
 
-   * 现在已为项目、任务、问题、项目组合、程序、报告、筛选器、文档和模板禁用共享系统范围。
-   * 对于报表，还禁用“查看内置报表”和“公开共享报表” 。
-   * 对于文档，也会禁用公开共享文档。
+  * 现在已为项目、任务、问题、项目组合、程序、报告、筛选器、文档和模板禁用共享系统范围。
+  * 对于报表，还禁用“查看内置报表”和“公开共享报表” 。
+  * 对于文档，也会禁用公开共享文档。
 
 * 在具有“工作”许可证类型的新访问级别中：
 
-   * 现在已为筛选器和文档禁用共享系统范围。
-   * 对于文档，也会禁用公开共享文档。
+  * 现在已为筛选器和文档禁用共享系统范围。
+  * 对于文档，也会禁用公开共享文档。
 
 * 在具有“请求”或“审阅”许可证类型的新访问级别中：
 
-   * 已为筛选器禁用共享系统范围。
+  * 已为筛选器禁用共享系统范围。
 
 ## 停用组
 

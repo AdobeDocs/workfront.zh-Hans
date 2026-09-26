@@ -4,13 +4,20 @@ description: 2026年第三季度报告增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季度报告增强功能
 
 本页介绍了在2026年第三季度版本中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -21,11 +28,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->面向所有客户的预览和生产： 2026年7月16日超出计划&rbrack;{type=Neutral}
+>面向所有客户的预览和生产： 2026年7月16日
+>[!BADGE 超出计划]{type=Neutral}
 
-此发行版本引入了对Snowflake中Workfront Planning数据的自动授权驱动访问管理，作为Workfront Data Connect的一部分。
-首先，将安全视图生成扩展到Planning表，为下游访问控制奠定必要的基础，并使基于权利的授权成为可能。以此为基础，读取器帐户设置现在在创建时检查TMS权限，并自动应用或保留对Planning数据库的授权，确保正确无误。
-在此增强功能之前，这仅适用于Workfront。
+此发行版本引入了对Snowflake中Workfront Planning数据的自动授权驱动访问管理，作为Workfront Data Connect的一部分。 
+首先，将安全视图生成扩展到Planning表，为下游访问控制奠定必要的基础，并使基于权利的授权成为可能。
+以此为基础，读取器帐户设置现在在创建时检查TMS权限，并自动应用或保留对Planning数据库的授权，确保正确无误。 
+在此增强功能之前，这仅适用于Workfront。 
 此更新包括以下功能： 
 
 * 自动的每日作业可检测现有客户的授权更改
@@ -38,9 +47,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->面向所有客户的预览和生产： 2026年7月7日超出计划&rbrack;{type=Neutral}
+>面向所有客户的预览和生产： 2026年7月7日
+>[!BADGE 超出计划]{type=Neutral}
 
-在2026年第二季度，我们添加了新对象，以支持Workfront中的企业运营增强功能。在最新版本中，我们还在“画布功能板”中添加了对多个新对象的自定义数据支持。
+在2026年第二季度，我们添加了新对象，以支持Workfront中的企业运营增强功能。
+在最新版本中，我们还在“画布功能板”中添加了对多个新对象的自定义数据支持。
 
 有关信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
@@ -48,7 +59,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：2026年6月25日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
+>预览：2026年6月25日
+>生产快速发布： 2026年7月15日
+>适用于所有人的生产： 2026年7月16日
 
 为了通过保留用户的工作筛选器状态来提高用户在功能板和记录之间移动的效率，功能板管理员现在可以为Canvas功能板定义默认提示值。 这些默认值将自动应用于所有仪表板查看器。
 
@@ -64,7 +77,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：不适用生产快速发布： 2026年6月11日适用于所有人的生产： 2026年7月16日
+>预览：不适用
+>生产快速发布： 2026年6月11日
+>适用于所有人的生产： 2026年7月16日
 
 Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现在只需一步即可将整个区域的Azure IP地址范围集添加到。 在&#x200B;**Data Connect**&#x200B;中的&#x200B;**IP**&#x200B;选项卡上，**新IP地址**&#x200B;按钮现在包含一个&#x200B;**添加Power BI IP地址块**&#x200B;选项，该选项将打开一个对话框，您可以通过该对话框粘贴Microsoft发布的Power BI IP范围和服务标签JSON文件中的Azure服务标签条目。
 
@@ -77,7 +92,9 @@ Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现�
 
 >[!NOTE]
 >
->预览：2026年6月11日生产快速发布： 2026年7月15日适用于所有人的生产： 2026年7月16日
+>预览：2026年6月11日
+>生产快速发布： 2026年7月15日
+>适用于所有人的生产： 2026年7月16日
 >
 >Canvas功能板当前处于Beta版。
 
@@ -89,7 +106,9 @@ Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现�
 
 >[!NOTE]
 >
->预览：2026年6月1日生产快速发布： 2026年6月1日适用于所有人的生产： 2026年6月1日
+>预览：2026年6月1日
+>生产快速发布： 2026年6月1日
+>适用于所有人的生产： 2026年6月1日
 
 2025年，新的Actual Hours字段作为`actualWorkRequiredDouble`添加到Workfront数据库中，现有的Actual Hours字段（数据库中的`actualWorkRequired`）已重命名Legacy Actual Hours。 有关详细信息，请参阅[发行说明](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)。
 
@@ -105,7 +124,9 @@ Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现�
 
 >[!NOTE]
 >
->预览： 2026年5月28日生产快速发布： 2026年6月11日适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月28日
+>生产快速发布： 2026年6月11日
+>适用于所有人的生产： 2026年7月16日
 
 画布仪表板报表现在支持自定义货币数据字段，如列、筛选器、分组和聚合，包括在系统设置中配置多个汇率时。 当自定义货币数据字段显示为列或聚合时，除非该字段在报表级别被锁定，否则值将转换为在功能板的汇率切换中选择的货币。
 
@@ -117,7 +138,9 @@ Workfront管理员将Microsoft Power BI连接到Workfront Data Connect后，现�
 
 >[!NOTE]
 >
->预览： 2026年5月14日生产快速发布： 2026年6月11日适用于所有人的生产： 2026年7月16日
+>预览： 2026年5月14日
+>生产快速发布： 2026年6月11日
+>适用于所有人的生产： 2026年7月16日
 >
 >Canvas功能板当前处于Beta版。
 

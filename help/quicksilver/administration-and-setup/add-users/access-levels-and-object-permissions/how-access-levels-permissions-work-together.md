@@ -10,27 +10,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-TQID: https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8
+TQID: 'https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 908
+source-wordcount: '908'
 ht-degree: 2%
-
 ---
-
 # 旧版访问级别和权限如何协同工作
 
 >[!NOTE]
@@ -95,9 +103,9 @@ Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 �
 
 * **视图**：此权限级别允许收件人通过以下方式之一共享对象：
 
-   * 系统范围，以便所有用户都可以查看它（不适用于所有对象）
-   * 对于没有Workfront许可证的外部用户（不适用于所有对象）
-   * 带有电子邮件地址（仅适用于文档）
+  * 系统范围，以便所有用户都可以查看它（不适用于所有对象）
+  * 对于没有Workfront许可证的外部用户（不适用于所有对象）
+  * 带有电子邮件地址（仅适用于文档）
 
 * **Contribute**： （不适用于所有对象）
 * **管理**：当有人共享对象时，收件人对对象的权限由收件人的访问级别和共享者授予的对对象的权限组合决定。 该组合中可用的最低访问级别决定了收件人可以对对象执行的操作。

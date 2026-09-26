@@ -7,27 +7,39 @@ description: Adobe Workfront是一款工作管理应用程序，帮助您在一�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
-TQID: https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU
+TQID: 'https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Digital asset management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 3%
-
 ---
-
 # Workfront for Experience Manager增强型连接器概述
 
 <!-- Audited: 01/2024 -->
@@ -55,18 +67,18 @@ Workfront for Experience Manager增强型连接器现在使您能够：
 ## 先决条件和支持的平台
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* 内部部署[Adobe Experience Manager 6.5 Assets](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* 内部部署[Adobe Experience Manager 6.5 Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets内部部署
 * Adobe Experience Manager Assets as a Managed Service
 
 ## 快速入门
 
-1. **安装并配置连接器**。 使用认证合作伙伴或Adobe Professional Services ，安装和配置Workfront for Experience Manager增强型连接器，以整理、标准化流程、建立治理并简化从创建到交付的资源生命周期。 在Adobe Experience Manager 6.5[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/integrations/workfront-integrations)中安装[或在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)中安装。
+1. **安装并配置连接器**。 使用认证合作伙伴或Adobe Professional Services ，安装和配置Workfront for Experience Manager增强型连接器，以整理、标准化流程、建立治理并简化从创建到交付的资源生命周期。 在Adobe Experience Manager 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations)中安装[或在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)中安装[。
 1. **使用连接器**。 查看增强型连接器在Experience Manager Assets中自动生成项目链接文件夹、映射到Experience Manager Assets和文件夹的Workfront元数据、双向元数据同步等实际操作的功能。 有关详细信息，请参阅[Workfront for Experience Manager增强型连接器](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)。
 
 ## 更多此类内容
 
-* 适用于Adobe Experience Manager的[Workfront](https://business.adobe.com/cn/products/workfront/aem-integration.html)概述
+* 适用于Adobe Experience Manager的[Workfront](https://business.adobe.com/products/workfront/aem-integration.html)概述
 * [适用于Experience Manager Assets Essentials的Adobe Workfront](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

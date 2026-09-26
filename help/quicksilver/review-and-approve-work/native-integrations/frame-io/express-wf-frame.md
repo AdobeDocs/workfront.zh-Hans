@@ -7,13 +7,22 @@ description: Adobe Express与Frame.io集成快速入门
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '523'
 ht-degree: 2%
-
 ---
-
 
 # Adobe Express和Workfront与Frame.io集成快速入门
 
@@ -80,7 +89,7 @@ ht-degree: 2%
 
 用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
 
-了解如何[获得设计](https://helpx.adobe.com/cn/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
+了解如何[获得设计](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
 
 
 ## 重新组合Express模板并发送以供审阅和批准
@@ -100,7 +109,7 @@ Adobe Express用户可以根据自己的需求重新组合Express模板。 发�
 
 如果未选择任何项目，则资产将默认进入特定于Express的项目。
 
-有关详细信息，请参阅[发送模板以供审阅和批准](https://helpx.adobe.com/cn/express/web/invite-collaborate/request-approval.html)。
+有关详细信息，请参阅[发送模板以供审阅和批准](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)。
 
 
 ## 审阅并批准使用Frame.io重新混合的Express文件

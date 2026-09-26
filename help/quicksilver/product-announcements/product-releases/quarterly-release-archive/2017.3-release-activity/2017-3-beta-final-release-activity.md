@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+TQID: 'https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3709
+source-wordcount: '3822'
 ht-degree: 0%
-
 ---
-
 # 2017.3 Beta最终发行版活动
 
 本页介绍了2017.3 Beta Final版本在“预览”环境中最近提供的所有更改。 此页面上的功能已于2017年9月12日在预览环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
@@ -40,12 +48,12 @@ ht-degree: 0%
 
 2017.3 Beta最终版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [在审批设置区域重新调用请求的新配置](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [配置默认验证角色](#configure-default-proof-roles)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 
@@ -155,7 +163,7 @@ Workfront中的Scrum和Kanban Agile方法在以下方面有所不同：
 
 有关在积压工作中使用问题的信息，请参阅[管理Agile积压工作](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-有关使问题在Agile Scrum团队的积压中可用的信息，请参阅[&#128279;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)在[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中配置将工作项添加到迭代时日期的应用方式。
+有关使问题在Agile Scrum团队的积压中可用的信息，请参阅[在[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中配置将工作项添加到迭代时日期的应用方式](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)。
 
 ## 包含有关Scrum敏捷故事板的问题 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -221,7 +229,7 @@ Workfront中的Scrum和Kanban Agile方法在以下方面有所不同：
 
 ## 文档增强：简化的界面 {#document-enhancements-streamlined-interface}
 
-现在，向Workfront添加文档的用户体验更加简洁直观。现在，您可以通过简单的下拉菜单从文件系统上传文档、请求文档或从第三方应用程序（如Google或Dropbox）链接文件。 
+现在，向Workfront添加文档的用户体验更加简洁直观。 现在，您可以通过简单的下拉菜单从文件系统上传文档、请求文档或从第三方应用程序（如Google或Dropbox）链接文件。 
 
 以前，通过启动“添加文档”对话框可以使用这些选项。 
 
@@ -304,9 +312,9 @@ HTML5查看器现在支持静态校样。
 
 * 通过验证缩略图导航验证
 
-   * 轻松识别正在审阅的证明部分。 这一点很重要，尤其是当用户使用格式更大的验证和较长的网页时，或者在任何时候需要更大的缩放级别来查看详细信息时。
-   * 更改缩放级别
-   * 平移内容
+  * 轻松识别正在审阅的证明部分。 这一点很重要，尤其是当用户使用格式更大的验证和较长的网页时，或者在任何时候需要更大的缩放级别来查看详细信息时。
+  * 更改缩放级别
+  * 平移内容
 
 * 在测量工具中指定自定义值
 * 在Workfront Proof的验证查看器中为验证中的文本添加注释时，您可以包含用于指示文本应该加粗、斜体和下划线的选项。
@@ -464,8 +472,8 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 
 我们对Outlook 365的Workfront加载项进行了以下改进：
 
-* 在Workfront中将任务或问题添加到项目：您现在可以使用Outlook 365加载项在Workfront中将电子邮件转换为任务或问题。在此流程中，您可以指定要将任务或问题添加到的项目，以及被分派人和到期日期。在此增强功能之前，您只能向请求队列提交请求，或向Outlook 365中的“正在处理”列表添加个人任务。 
-* 保留原始电子邮件中转换为任务、问题或请求的Workfront对象的链接：将来自Outlook 365的电子邮件转换为任务、问题或请求时，Outlook 365会保留原始电子邮件中从该电子邮件转换的任务或问题的链接。在此更改之前，Outlook中没有任何指示电子邮件是否已转换为任务或作为请求提交。 
+* 在Workfront中将任务或问题添加到项目：您现在可以使用Outlook 365加载项在Workfront中将电子邮件转换为任务或问题。 在此流程中，您可以指定要将任务或问题添加到的项目，以及被分派人和到期日期。 在此增强功能之前，您只能向请求队列提交请求，或向Outlook 365中的“正在处理”列表添加个人任务。 
+* 保留原始电子邮件中转换为任务、问题或请求的Workfront对象的链接：将来自Outlook 365的电子邮件转换为任务、问题或请求时，Outlook 365会保留原始电子邮件中从该电子邮件转换的任务或问题的链接。 在此更改之前，Outlook中没有任何指示电子邮件是否已转换为任务或作为请求提交。 
 
 ## API更改 {#api-changes}
 

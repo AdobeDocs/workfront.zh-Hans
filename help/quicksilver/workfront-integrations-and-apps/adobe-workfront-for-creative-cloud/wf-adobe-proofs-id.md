@@ -6,26 +6,37 @@ description: 您可以将艺术展示板上传为文档，以便快速审阅和�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-TQID: https://experienceleague.adobe.com/QijgiCnlMg4macx2aa3UX6yoIJiijEX9n6qmfWVuGeM
+TQID: 'https://experienceleague.adobe.com/QijgiCnlMg4macx2aa3UX6yoIJiijEX9n6qmfWVuGeM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '645'
 ht-degree: 3%
-
 ---
-
 # 从[!DNL InDesign]上传校样
 
 您可以将艺术展示板作为验证直接上传到[!DNL Adobe Workfront]以进行彻底审阅和批准。
@@ -53,11 +64,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,7 +155,7 @@ ht-degree: 3%
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 
-1. 在&#x200B;*[!UICONTROL *校对审批]&#x200B;**分区中，选择&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自动]**。
+1. 在&#x200B;*[!UICONTROL *校对审批]**分区中，选择&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自动]**。
 
 1. 根据您在步骤7中选择的审批类型添加&#x200B;**[!UICONTROL 审阅者]**&#x200B;或&#x200B;**[!UICONTROL 工作流模板]**。
 

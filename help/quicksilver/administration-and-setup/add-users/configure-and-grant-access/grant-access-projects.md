@@ -10,22 +10,26 @@ role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A
+TQID: 'https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 2%
-
 ---
-
 # 授予项目访问权限
 
 <!-- Audited: 12/2023 -->
@@ -79,7 +83,7 @@ ht-degree: 2%
    >* 具有“审阅”许可证的用户对转化问题中的项目具有“查看”权限，但其“查看”权限受限。
    >* 有关用户在与他人共享项目时可以授予的权限的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
    >* 在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别的项目，但这不会限制他们删除级别低于项目的任务。有关对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[相互依赖性和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)部分。
-   >* 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
+   * 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
 
 
 1. （可选）单击“创建”选项右侧的&#x200B;**设置共享默认值**，然后单击&#x200B;**添加规则**&#x200B;为新项目添加共享规则。

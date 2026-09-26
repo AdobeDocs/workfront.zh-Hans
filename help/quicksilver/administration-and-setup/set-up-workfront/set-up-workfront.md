@@ -3,31 +3,36 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: 设置 [!DNL Adobe Workfront]
-description: 作为 [!DNL Workfront] 管理员，您可以配置组织的系统默认值、时间表、计划、用户在系统中的组织方式、自动系统更新以及您使用的 [!DNL Workfront] 测试环境。
+title: 设置[!DNL Adobe Workfront]
+description: 作为[!DNL Workfront]管理员，您可以配置组织的系统默认值、时间表、计划、用户在系统中的组织方式、自动系统更新以及您使用的[!DNL Workfront]测试环境。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6a6a224-f938-4a19-a708-f00568ca6a88
-TQID: https://experienceleague.adobe.com/fYK2Yh6agEeHy137MlLHDxyQZw5T5zByj9xpHc46OxA
+TQID: 'https://experienceleague.adobe.com/fYK2Yh6agEeHy137MlLHDxyQZw5T5zByj9xpHc46OxA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 94
+source-wordcount: '96'
 ht-degree: 0%
-
 ---
-
 # 设置[!DNL Adobe Workfront]：文章索引
 
 <!--Audited: 01/2024-->

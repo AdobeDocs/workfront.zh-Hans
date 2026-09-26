@@ -6,22 +6,26 @@ description: 您可以删除其他用户对您有权共享的对象拥有的权�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-TQID: https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE
+TQID: 'https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: '771'
 ht-degree: 3%
-
 ---
-
 # 从对象中删除权限
 
 <!--Audited: 01/2024-->
@@ -91,7 +95,7 @@ ht-degree: 3%
       ![共享](assets/new-share-button.png)
    1. 查找要从对象中移除的用户、角色、团队、组或公司。
    1. 单击&#x200B;**删除**。
-在&#x200B;**从**&#x200B;中删除&lt;用户名>下拉菜单中，选择是希望从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
+      在**从**&#x200B;中删除&lt;用户名>下拉菜单中，选择是希望从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
 
       ![移除](assets/remove-permissions-on-project-nwe-350x479.png)
 

@@ -7,24 +7,29 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-TQID: https://experienceleague.adobe.com/jAxE1NwlHqJRkJg8blCWgkAZI9KDBysb6MMFqFzCu-c
+TQID: 'https://experienceleague.adobe.com/jAxE1NwlHqJRkJg8blCWgkAZI9KDBysb6MMFqFzCu-c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1256
+source-wordcount: '1256'
 ht-degree: 0%
-
 ---
-
 # API版本16中的新增功能
 
 Adobe Workfront于2023年4月6日发布了API版本16。 API版本16具有对版本15的以下更改。
@@ -525,7 +530,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>
@@ -549,7 +554,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>
@@ -590,7 +595,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>

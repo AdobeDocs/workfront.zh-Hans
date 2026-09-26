@@ -6,20 +6,24 @@ description: 按照HIPAA的定义，如果某个Workfront客户是商业合作�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-TQID: https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0
+TQID: 'https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '480'
 ht-degree: 0%
-
 ---
-
 # Workfront的HIPAA准备工作
 
 按照HIPAA的定义，如果某个Workfront客户是商业合作伙伴和/或代表其商业合作伙伴提供Adobe Workfront的受覆盖实体，则应使用以下准则配置Workfront以便HIPAA随时可用：
@@ -66,10 +70,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Workfront并非旨在作为电子医疗记录(EHR)的存储库。仅当Adobe以书面形式明确授权时，才可以处理ePHI。 
+>Workfront并非旨在作为电子医疗记录(EHR)的存储库。 仅当Adobe以书面形式明确授权时，才可处理ePHI。 
 
 * 对于可能访问ePHI的任何Workfront数据库，请确保启用&#x200B;**静态加密(EAR)**。
-   * 请联系您的客户经理(AE)来验证您的Workfront购买中包含了EAR。
-   * 配置可通过Workfront访问的系统/数据库，以履行合规性义务。
+  * 请联系您的客户经理(AE)来验证您的Workfront购买中包含了EAR。
+  * 配置可通过Workfront访问的系统/数据库，以履行合规性义务。
 * 确保ePHI不被传输、链接或与其他不符合HIPAA要求的Adobe解决方案共享。
 * 确保通过Workfront处理的患者照片安全存储且不可公开访问。

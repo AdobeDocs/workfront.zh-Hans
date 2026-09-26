@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Workfront Planning作为独立产品入门
 
@@ -75,11 +87,11 @@ This list also exists here: \help\quicksilver\planning\access\license-type-overv
 
   有关信息，请参阅以下文章：
 
-   * [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)
-   * [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
-   * [创建记录](/help/quicksilver/planning/records/create-records.md)
-   * [创建字段](/help/quicksilver/planning/fields/create-fields.md)
-   * [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)
+  * [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)
+  * [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
+  * [创建记录](/help/quicksilver/planning/records/create-records.md)
+  * [创建字段](/help/quicksilver/planning/fields/create-fields.md)
+  * [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)
 * 创建自动生成Planning记录
 
   有关信息，请参阅[配置Adobe Workfront规划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
@@ -99,15 +111,15 @@ This list also exists here: \help\quicksilver\planning\access\license-type-overv
 
   有关信息，请参阅以下文章：
 
-   * [在Adobe Workfront Planning中作为独立产品管理用户](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [在Adobe Workfront Planning中将团队作为独立产品进行管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [在Adobe Workfront Planning中作为独立产品管理用户](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [在Adobe Workfront Planning中将团队作为独立产品进行管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
 
 * 在“设置”中访问客户和许可证详细信息
 
   有关信息，请参阅[将Adobe Workfront Planning实例作为独立产品进行管理](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)。
 * 在Fusion中使用Workfront Planning连接器
 
-  有关信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+  有关信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 * 如果贵组织还购买了GenStudio for Performance Marketing，请管理Adobe GenStudio for Performance Marketing工作区。
 
   有关信息，请参阅[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。

@@ -3,26 +3,34 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: 开始使用 [!DNL Workfront Proof]：文章索引
+title: '[!DNL Workfront Proof]快速入门：文章索引'
 description: 了解如何使用Workfront Proof。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
-TQID: https://experienceleague.adobe.com/ap3XA7VixkQ--gSya12bpHDbn3gDUvPmVkWuCflidnY
+TQID: 'https://experienceleague.adobe.com/ap3XA7VixkQ--gSya12bpHDbn3gDUvPmVkWuCflidnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 51
+source-wordcount: '51'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]快速入门：文章索引
 
 <!-- Audited: 1/2024 -->
@@ -34,7 +42,7 @@ ht-degree: 0%
 本节包含以下子部分：
 
 * [工作流示例](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-* [&#x200B; [!DNL Workfront Proof]中的个人设置](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-* [&#x200B; [!DNL Workfront Proof]中的系统信息](../../workfront-proof/wp-getstarted/system-information/system-information.md)
+* [ [!DNL Workfront Proof]中的个人设置](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+* [ [!DNL Workfront Proof]中的系统信息](../../workfront-proof/wp-getstarted/system-information/system-information.md)
 * [[!DNL Workfront Proof] — 常见问题解答](../../workfront-proof/wp-getstarted/faqs/faqs.md)
 

@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: 独立Workfront Proof到Workfront中的集成校对概述
 description: 如果您的组织从独立版本的Workfront Proof更改为Workfront Pro计划（在该计划中，Workfront Proof Premium与Workfront集成），则某些验证功能将不可用。
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 
 # 独立Workfront Proof到Workfront中的集成校对概述
 
@@ -45,28 +46,28 @@ ht-degree: 0%
 * 能够在新的集成帐户与Workfront Proof帐户之间连接。
 * 能够运行Workfront Proof报表：
 
-   * 最近访问的项目
-   * 我管理的校样具有准时、风险和延迟状态
-   * 等待我决策的校对具有准时、风险和延迟状态
-   * 我需要查看的验证
-   * 活动校样
-   * 存档的校样
-   * 锁定的校样
-   * 直接从报表前往验证
-   * 直接从报告转到验证详细信息
-   * 直接从报表共享验证
-   * 直接来自报告的消息校对
-   * 从报告复制验证
-   * 从报表下载原始报表
-   * 从报表委派所有权
-   * 从报告共享验证链接
-   * 从报表打印评论
-   * 从报表中导出Excel
-   * 批量锁定验证
-   * 详细的摘要以及工作流进度表
-   * 批量激活验证
-   * 批量存档验证
-   * 批量取消存档验证
-   * 批量更改所有者
-   * 批量委派所有权
+  * 最近访问的项目
+  * 我管理的校样具有准时、风险和延迟状态
+  * 等待我决策的校对具有准时、风险和延迟状态
+  * 我需要查看的验证
+  * 活动校样
+  * 存档的校样
+  * 锁定的校样
+  * 直接从报表前往验证
+  * 直接从报告转到验证详细信息
+  * 直接从报表共享验证
+  * 直接来自报告的消息校对
+  * 从报告复制验证
+  * 从报表下载原始报表
+  * 从报表委派所有权
+  * 从报告共享验证链接
+  * 从报表打印评论
+  * 从报表中导出Excel
+  * 批量锁定验证
+  * 详细的摘要以及工作流进度表
+  * 批量激活验证
+  * 批量存档验证
+  * 批量取消存档验证
+  * 批量更改所有者
+  * 批量委派所有权
 

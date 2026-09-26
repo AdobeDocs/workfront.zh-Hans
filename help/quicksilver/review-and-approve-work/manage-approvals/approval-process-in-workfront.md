@@ -7,26 +7,35 @@ description: 您可以创建批准流程并将其附加到对象，以确保指�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
+TQID: 'https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: '1816'
 ht-degree: 0%
-
 ---
-
 # 审批流程概述
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +57,15 @@ ht-degree: 0%
 
 * **系统级别的全局审批流程**：用户可以将这些流程附加到以下任何一项：
 
-   * 审批部分中的项目、任务或问题
-   * 在任务默认审批流程区域的编辑项目框中
-   * 在项目的默认批准流程区域的队列详细信息或队列主题部分。 项目必须启用为请求队列。
+  * 审批部分中的项目、任务或问题
+  * 在任务默认审批流程区域的编辑项目框中
+  * 在项目的默认批准流程区域的队列详细信息或队列主题部分。 项目必须启用为请求队列。
 
 * **组级全局审批流程**：用户可以将这些流程附加到以下内容：
 
-   * 属于与审批部分中的审批流程关联的组的项目、任务或问题
-   * 在任务默认审批流程区域的“编辑项目”框中，为属于与审批流程关联的组的项目
-   * 在项目的默认批准流程区域的队列详细信息或队列主题部分。 项目必须启用为请求队列，并且必须属于与审批流程关联的组。
+  * 属于与审批部分中的审批流程关联的组的项目、任务或问题
+  * 在任务默认审批流程区域的“编辑项目”框中，为属于与审批流程关联的组的项目
+  * 在项目的默认批准流程区域的队列详细信息或队列主题部分。 项目必须启用为请求队列，并且必须属于与审批流程关联的组。
 
   有关创建系统级别或组级别审批流程的信息，请参阅[创建工作项的审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
@@ -77,31 +86,33 @@ ht-degree: 0%
 * 您必须先创建项目、任务、问题、模板或模板任务，然后才能将审批流程与其关联。
 * 审批流程始终与以下两项基本要素相关联：
 
-   * 每个审批流程都对应于Workfront系统中的特定工作项状态。 当您更改工作项的状态时，该状态的附加审批要求先确认状态更改，然后才能将新状态分配给该项。
+  * 每个审批流程都对应于Workfront系统中的特定工作项状态。 当您更改工作项的状态时，该状态的附加审批要求先确认状态更改，然后才能将新状态分配给该项。
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * 您可以将组级别审批与全局或组级别状态相关联。
-     >   * 您不能使用审批流程将项目的状态更改为与审批流程关联的状态以外的状态。
-     >   
-     >   
-     >     例如，如果您有一个与状态为“进行中”的任务审批关联，则当审批被授予时，任务会自动将其状态更改为“进行中”。 它不能自动将其状态更改为“已完成”或任何其他与批准无关联的状态。
-     >   
-     >   
-     >* 与审批流程关联的实体可以是用户、工作角色或团队。 用户最终负责接受或拒绝批准。 您可以将审批分配给在项目上履行特定职责的用户。 例如，您可以将审批分配给项目所有者或发起人。 有关详细信息，请参阅[为工作项创建批准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
+    >[!TIP]
+    >
+    >
+    >   
+    >   
+    >   * 您可以将组级别审批与全局或组级别状态相关联。
+    >   * 您不能使用审批流程将项目的状态更改为与审批流程关联的状态以外的状态。
+    >   
+    >   
+    >     例如，如果您有一个与状态为“进行中”的任务审批关联，则当审批被授予时，任务会自动将其状态更改为“进行中”。 它不能自动将其状态更改为“已完成”或任何其他与批准无关联的状态。
+    >   
+    >   
+    >
 
-     存在以下情况：
+  * 与审批流程关联的实体可以是用户、工作角色或团队。 用户最终负责接受或拒绝批准。 您可以将审批分配给在项目上履行特定职责的用户。 例如，您可以将审批分配给项目所有者或发起人。 有关详细信息，请参阅[为工作项创建批准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
-      * 将审批分配给工作角色时，项目团队中与该工作角色关联的任何用户都可以作出审批决定。 与批准关联的角色可以是其主要角色或任何其他角色。
+    存在以下情况：
 
-        有关项目团队的信息，请参阅[项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md)。
+    * 将审批分配给工作角色时，项目团队中与该工作角色关联的任何用户都可以作出审批决定。 与批准关联的角色可以是其主要角色或任何其他角色。
 
-      * 将审批分配给团队时，该团队的任何成员都可以对审批做出决定。 与批准关联的团队可以是他们的主团队或他们的任何其他团队。
+      有关项目团队的信息，请参阅[项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
-        有关用户的角色和团队的信息，请参阅[编辑用户的配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+    * 将审批分配给团队时，该团队的任何成员都可以对审批做出决定。 与批准关联的团队可以是他们的主团队或他们的任何其他团队。
+
+      有关用户的角色和团队的信息，请参阅[编辑用户的配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 在创建工作项时，不会自动附加审批流程。 如果要使用一个，则必须手动附加。 有关将审批流程附加到项的信息，请参阅[将新的或现有的审批流程与工作关联](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 * Workfront管理员或对批准流程具有管理访问权限的用户可以创建系统级别的全局批准流程，以在系统中使用。 对批准流程具有管理访问权限的组管理员可以创建组级别的全局批准流程，以便仅由他们管理的特定组使用。

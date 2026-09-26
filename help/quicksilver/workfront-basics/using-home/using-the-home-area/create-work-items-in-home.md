@@ -8,26 +8,33 @@ feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/00U8FspScYDtQBKl056DfxAKrgOkFhr2S0SXCx-hdkg
+TQID: 'https://experienceleague.adobe.com/00U8FspScYDtQBKl056DfxAKrgOkFhr2S0SXCx-hdkg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '836'
 ht-degree: 4%
-
 ---
-
 # 从主页区域创建工作项和项目
 
 您可以从[!UICONTROL 主页]区域创建工作项和项目。
@@ -66,7 +73,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL Edit]或更高版本对任务的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]或更高版本对任务的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +101,7 @@ ht-degree: 4%
 1. 键入个人待办事项的名称，然后单击Enter。
 1. （可选）单击&#x200B;**日期**&#x200B;图标![日期图标](assets/date-icon.png)以添加项目的截止日期。
    ![我的待办事项](assets/my-work-to-dos.png)
-1. （可选）创建个人任务报告或过滤器。有关创建个人任务筛选器的信息，请参阅[筛选器：个人任务](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
+1. （可选）创建个人任务报告或过滤器。 有关创建个人任务筛选器的信息，请参阅[筛选器：个人任务](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
 您可以在个人任务报告中查看您的待办事项以及其他用户的待办事项。
 
 ## 将任务添加到项目

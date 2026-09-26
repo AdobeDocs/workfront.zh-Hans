@@ -8,25 +8,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-TQID: https://experienceleague.adobe.com/cAM0R2azvfhRW25brnRKCUXZ5f2ZLGeBVd19okbdBpU
+TQID: 'https://experienceleague.adobe.com/cAM0R2azvfhRW25brnRKCUXZ5f2ZLGeBVd19okbdBpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 575
+source-wordcount: '575'
 ht-degree: 0%
-
 ---
-
 # 21.2资源管理增强功能
 
 本页介绍了21.2版本对“预览”环境所做的所有资源管理增强功能。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
@@ -60,7 +68,7 @@ ht-degree: 0%
 
 在此增强功能之前，Workfront仅使用预算小时数计算净值。 净值显示可用小时数和预算或计划小时数、FTE或成本之间的差异。 在计算净值时，预算小时数仍然是默认设置。
 
-有关信息，请参阅资源规划者[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
+有关信息，请参阅资源规划者](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
 
 ## 工作负载均衡器中的12周查看
 
@@ -74,4 +82,4 @@ ht-degree: 0%
 
 在此增强功能之前，当将工作角色过滤器应用于未分配区域时，工作负载均衡器显示与分配给工作角色的工作项关联的所有小时数。
 
-有关在工作负载均衡器中过滤信息的信息，请参阅在工作负载均衡器中管理过滤器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
+有关在工作负载均衡器中过滤信息的信息，请参阅在工作负载均衡器中管理过滤器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。

@@ -9,23 +9,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM
+TQID: 'https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 # Adobe cloud storage概述
 
 Adobe云存储是一个基于云的存储解决方案，它充当Adobe企业产品中资产的中央存储库。 Workfront和Frame.io集成构建在Adobe云存储之上，实现了这些平台之间的无缝协作和资源管理。
@@ -131,7 +139,7 @@ Workfront对象包括项目组合、项目群、项目、模板、任务和问�
 
 Adobe云存储在[!DNL Workfront]沙盒环境中可用，因此您可以在生产环境中启用它之前对其进行测试。 但是，Frame.io查看器在沙盒中不可用，因此必须在生产环境中验证完整的统一审阅和批准体验。
 
-如果您有自定义刷新沙盒，则必须在升级到支持Adobe云存储的Workfront版本后刷新它，才能在沙盒中访问Adobe云存储功能。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
+如果您有自定义刷新沙盒，则必须在升级到支持Adobe云存储的Workfront版本后刷新它，才能在沙盒中访问Adobe云存储功能。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
 
 ## 注意事项
 

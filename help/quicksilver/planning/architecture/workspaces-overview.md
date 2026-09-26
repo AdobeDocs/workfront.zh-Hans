@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 1%
-
 ---
-
 # 工作区概述
 
 <!--
@@ -41,10 +48,10 @@ ht-degree: 1%
 * Workfront Planning不附带任何预配置的工作区。 您必须根据组织的需求创建它们。
 * 您可以通过以下方式创建工作区：
 
-   * 从头开始
-   * 使用模板。 模板包含预配置的记录类型及其字段。
-   * 使用AI支持的规划Designer。 此功能当前位于Beta中。
-   * 使用多工作区模板捆绑包。
+  * 从头开始
+  * 使用模板。 模板包含预配置的记录类型及其字段。
+  * 使用AI支持的规划Designer。 此功能当前位于Beta中。
+  * 使用多工作区模板捆绑包。
 
   有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
@@ -53,9 +60,9 @@ ht-degree: 1%
   有关信息，请参阅[记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 * 工作区显示在Planning区域的以下选项卡中：
 
-   * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
-   * **其他工作区**：显示系统中的所有其他工作区。 这仅适用于系统管理员。
-   * **示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。
+  * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
+  * **其他工作区**：显示系统中的所有其他工作区。 这仅适用于系统管理员。
+  * **示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。
 
   >[!NOTE]
   >
@@ -107,8 +114,8 @@ No longer the case - they match now:
 
 * 您可以从Planning登陆页面或任何Planning页面中通过按以下键盘组合来访问搜索：
 
-   * Ctrl+K for Windows
-   * 适用于Mac的⌘+K
+  * Ctrl+K for Windows
+  * 适用于Mac的⌘+K
 * 每个对象的最后7个结果将显示在搜索框中。
 * 您可以执行常规搜索或选择对象并搜索单个列表。
 

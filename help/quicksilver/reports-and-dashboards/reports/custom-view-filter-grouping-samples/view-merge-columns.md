@@ -9,23 +9,28 @@ feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84
+TQID: 'https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1073'
 ht-degree: 1%
-
 ---
-
 # 视图：合并来自一个共享列中多个列的信息
 
 <!-- Audited: 11/2024 -->
@@ -75,9 +80,9 @@ ht-degree: 1%
 
   存在以下例外：
 
-   * 在Workfront中查看信息时，如果构成合并列的列彼此的格式不同，则保留第一列的格式并忽略所有其他列的格式。
-   * 将视图导出到PDF文件时，条件格式适用于合并列中的第一列。
-   * 将视图导出到Excel文件时，合并的列显示为单独的列。 各个列还会显示各自的条件格式规则。
+  * 在Workfront中查看信息时，如果构成合并列的列彼此的格式不同，则保留第一列的格式并忽略所有其他列的格式。
+  * 将视图导出到PDF文件时，条件格式适用于合并列中的第一列。
+  * 将视图导出到Excel文件时，合并的列显示为单独的列。 各个列还会显示各自的条件格式规则。
 
 * 具有&#x200B;**viewalias**&#x200B;属性的列可以限制可以合并的列数。 要避免这些限制，请避免使用&#x200B;**viewalias**&#x200B;属性。 如果必须在列中包括&#x200B;**viewalias**&#x200B;属性，请确保该属性是列中列出的最后一个项目。
 

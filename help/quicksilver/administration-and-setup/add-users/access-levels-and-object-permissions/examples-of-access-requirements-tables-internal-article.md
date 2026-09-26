@@ -3,14 +3,15 @@ title: 访问要求表的示例 — 内部文章
 description: 这是一篇内部文章，供我们的团队保留用于访问要求的表的清单。 此内容不应发布。
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 26%
-
 ---
-
 
 # 访问要求表的示例 — 内部文章
 
@@ -420,10 +421,10 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
+有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
 
 
-有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 高级企业控制
 
@@ -438,7 +439,7 @@ ht-degree: 26%
 * 工作流Prime和更高版本
 * Workfront Prime和更高版本
 
-有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/cn/products/workfront/pricing.html)。
+有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。
 
 高级企业控制：
 
@@ -483,9 +484,9 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
+有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
 
-有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 

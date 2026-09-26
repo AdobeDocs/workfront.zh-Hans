@@ -5,23 +5,28 @@ description: 如果您希望从预览Sandbox环境接收电子邮件通知，则
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-TQID: https://experienceleague.adobe.com/Ls9pjNAe1idVEzimGKgoZeL8e5NuHYz1qE52L7n0ZaE
+TQID: 'https://experienceleague.adobe.com/Ls9pjNAe1idVEzimGKgoZeL8e5NuHYz1qE52L7n0ZaE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 3%
-
+source-wordcount: '466'
+ht-degree: 4%
 ---
-
 # 启用从预览Sandbox环境的电子邮件投放
 
 [!UICONTROL Adobe Workfront]将禁用来自“预览”和“自定义刷新沙盒”环境的所有电子邮件通信。 有关预览沙盒环境的信息，请参阅[Adobe Workfront预览沙盒环境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。 有关自定义刷新沙盒环境的信息，请参阅[Adobe Workfront自定义刷新沙盒环境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
@@ -66,9 +71,9 @@ ht-degree: 3%
    <td role="rowheader"><strong>访问级别配置</strong></td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系统管理员]访问级别。</p> </li> 
-     <li> <p>在访问级别中，必须为[!UICONTROL 用户]设置选择[!UICONTROL 编辑] 。 对于[!UICONTROL 用户]设置，在[!UICONTROL 微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[!UICONTROL 创建]选项以及两个[!UICONTROL 用户管理]选项中的至少一个。 </li> 
-     <li>如果您使用[!UICONTROL 用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别。</p> </li> 
+     <li> <p>在访问级别中，必须为[！UICONTROL用户]设置选择[！UICONTROL编辑] 。 对于[！UICONTROL用户]设置，在[！UICONTROL微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[！UICONTROL创建]选项以及两个[！UICONTROL用户管理]选项中的至少一个。 </li> 
+     <li>如果您使用[！UICONTROL用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

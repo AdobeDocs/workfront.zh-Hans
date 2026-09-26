@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 36001571-bf8c-4fe8-a66b-09d3726f66d3
-TQID: https://experienceleague.adobe.com/s0vTUKOxP1bju3-LqI8JQZLg7uC7GfK0pe33a-1-G54
+TQID: 'https://experienceleague.adobe.com/s0vTUKOxP1bju3-LqI8JQZLg7uC7GfK0pe33a-1-G54'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: '825'
 ht-degree: 0%
-
 ---
-
 # 2018.2 Beta最终发行版活动
 
 本页介绍了2018.2 Beta Final版本在“预览”环境中最近提供的所有更改。 2018年6月20日，该功能在预览环境中提供。 该版本将于2018年7月在生产环境中提供。
@@ -66,7 +72,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->最初发布此功能时，用户除了收到电子邮件通知外，还会收到应用程序内通知。当有人对您拥有的文档发表评论时，您将不再收到应用程序内通知。 
+>最初发布此功能时，用户除了收到电子邮件通知外，还会收到应用程序内通知。 当有人对您拥有的文档发表评论时，您将不再收到应用程序内通知。 
 
 ## 系统跟踪的更新不再包含图标 {#system-tracked-updates-no-longer-contain-an-icon}
 

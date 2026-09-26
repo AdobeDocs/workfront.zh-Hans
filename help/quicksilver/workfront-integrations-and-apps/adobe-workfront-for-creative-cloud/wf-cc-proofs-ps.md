@@ -2,36 +2,46 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: 从Adobe Photoshop上传校样
-description: 您可以将照片文档预设作为验证直接上传到 [!DNL Adobe Workfront] 以进行彻底审阅和批准。
+description: 您可以将照片文档预设作为验证直接上传到[!DNL Adobe Workfront]以进行彻底审阅和批准。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+TQID: 'https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '672'
 ht-degree: 3%
-
 ---
-
 # 从[!DNL Photoshop]上传校样
 
 您可以将某些Photoshop文档预设类型作为验证直接上传到[!DNL Adobe Workfront]，以进行彻底审阅和批准。
 
 >[!IMPORTANT]
 >
->该文件必须是照片文档预设，如[Photoshop中的模板和预设](https://helpx.adobe.com/cn/photoshop/using/create-documents.html)中所述。
+>该文件必须是照片文档预设，如[Photoshop中的模板和预设](https://helpx.adobe.com/photoshop/using/create-documents.html)中所述。
 
 
 
@@ -59,11 +69,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p>  </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +143,7 @@ ht-degree: 3%
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
 1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
-文档显示在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
+文档出现在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
 
 ## 上传新验证版本
 
@@ -149,11 +159,11 @@ ht-degree: 3%
 1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 
-1. 在&#x200B;*[!UICONTROL *校对审批]&#x200B;**分区中，选择&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自动]**。
+1. 在&#x200B;*[!UICONTROL *校对审批]**分区中，选择&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自动]**。
 
 1. 根据您在步骤7中选择的审批类型添加&#x200B;**[!UICONTROL 审阅者]**&#x200B;或&#x200B;**[!UICONTROL 工作流模板]**。
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
-文档显示在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
+文档出现在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。

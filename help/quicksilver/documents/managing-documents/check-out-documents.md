@@ -8,30 +8,37 @@ feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4
+TQID: 'https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '686'
 ht-degree: 2%
-
 ---
-
 # 签出文档
 
-您可以签出文档以防止其他用户删除它或上载它的新版本。一次只能有一个用户签出文档。 您可以签出上传到Adobe Workfront的任何文档以及链接到第三方文档提供商（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自定义提供商）的文档。 
+您可以签出文档以防止其他用户删除它或上载它的新版本。 一次只能有一个用户签出文档。 您可以签出上传到Adobe Workfront的任何文档以及链接到第三方文档提供商（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自定义提供商）的文档。 
 
 >[!NOTE]
 >
->此功能在新建文档区域不可用。<br>
->如果您的组织使用Adobe云存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>此功能在新的“文档”区域中不可用。<br>
+>如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 访问权限要求
 
@@ -109,7 +116,7 @@ ht-degree: 2%
 
   有关删除用户的信息，请参阅[删除用户](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
 
-* 如果Workfront管理员停用用户，则他们已签出的任何文档都会保持签出状态。只有Workfront管理员才能重新签入这些帐户。 
+* 如果Workfront管理员停用用户，则他们已签出的任何文档都会保持签出状态。 只有Workfront管理员才能重新签入这些帐户。 
 
 ## 检入文档
 

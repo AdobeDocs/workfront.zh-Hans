@@ -5,31 +5,39 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
-TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+TQID: 'https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 # 2026年第一季度请求增强功能
 
 本页介绍了在2026年第一季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 现在，创建的对象链接在请求区域和我的请求小组件中可用
 
 >[!NOTE]
 >
->预览： 2025年12月18日>生产快速发布： 2026年1月14日\
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
 >适用于所有人的生产： 2026年1月15日
 
 为了让您更轻松地转到由特定请求创建的对象，我们添加了指向“已创建对象”列的链接。 现在，您可以单击此列中的链接以直接转到所创建对象的页面。
@@ -63,7 +71,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->预览： 2025年12月18日>生产快速发布： 2026年1月14日\
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于确保看到您需要的信息，我们添加了将视图共享到新请求体验的功能。 现在，您可以与其他用户、团队或组共享视图。
@@ -74,7 +83,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->预览： 2025年12月18日>生产快速发布： 2026年1月14日\
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于您查看所需信息，我们添加了将自定义字段作为列添加到请求列表和我的请求小组件（位于主页）的功能。 现在，您可以从自定义表单中将字段添加为列，并且该字段中有信息的请求将在列表或小部件中显示该信息。
@@ -92,7 +102,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->预览： 2025年12月18日>生产快速发布： 2026年1月14日\
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于筛选适用于您的请求，我们创建了一个当前用户通配符。 现在，在筛选时，您可以选择“我（已登录用户）”。 该过滤器随后将应用于正在查看请求列表的用户。
@@ -107,7 +118,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->预览： 2025年12月11日>生产快速发布： 2025年12月11日\
+>预览： 2025年12月11日
+>生产快速发布： 2025年12月11日\
 >适用于所有人的生产： 2025年12月11日
 
 为了更便于创建请求，我们创建了由AI提供支持的表单填写。 现在，您可以粘贴提示或将文档上传到请求表单，AI将提取相关信息并填写表单。
@@ -121,7 +133,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->预览： 2025年11月20日>生产快速发布： 2026年1月14日\
+>预览： 2025年11月20日
+>生产快速发布： 2026年1月14日\
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于创建和提交请求，我们添加了将草稿保存到新请求体验的功能。 现在，当您开始填写并关闭请求时，请求将保存为草稿状态，并可在用于创建草稿的请求表单上找到。 之后，您可以随时重新打开、更新和提交草稿。
@@ -134,7 +147,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->预览： 2025年11月20日>生产快速发布： 2026年1月14日\
+>预览： 2025年11月20日
+>生产快速发布： 2026年1月14日\
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于保持请求的组织性和整洁，我们向新的请求体验添加了删除请求的功能。 现在，您可以删除已提交的请求。 Workfront管理员和Workfront Planning Workspace管理员也可以删除请求。
@@ -148,7 +162,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->预览： 2025年11月20日>生产快速发布： 2025年12月11日\
+>预览： 2025年11月20日
+>生产快速发布： 2025年12月11日\
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于提交请求，我们添加了将请求复制到新请求体验的功能。 现在，您可以复制请求、编辑任何字段并将其作为新请求提交。

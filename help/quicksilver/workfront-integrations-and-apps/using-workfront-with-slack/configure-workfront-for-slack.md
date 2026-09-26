@@ -1,31 +1,38 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
-title: '为Slack配置 [!DNL Adobe Workfront] '
-description: 将 [!DNL Adobe Workfront] 与Slack集成允许您从Slack访问和创建 [!DNL Workfront] 工作项、批准、收藏夹、最近项目。
+title: 为Slack配置[!DNL Adobe Workfront]
+description: 将[!DNL Adobe Workfront]与Slack集成允许您从Slack访问和创建[!DNL Workfront]工作项、批准、收藏夹、最近项目。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-TQID: https://experienceleague.adobe.com/rOccEnbPoWVh5LFVPCeX81S3Nl-VpEBGGfcNDNXEdPk
+TQID: 'https://experienceleague.adobe.com/rOccEnbPoWVh5LFVPCeX81S3Nl-VpEBGGfcNDNXEdPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '420'
 ht-degree: 4%
-
 ---
-
 # 配置[!DNL Adobe Workfront for Slack]
 
 将[!DNL Adobe Workfront]与[!DNL Slack]集成允许您执行以下操作：
@@ -121,4 +128,4 @@ ht-degree: 4%
 1. 单击&#x200B;**[!UICONTROL 访问应用网站]**。
 1. 单击&#x200B;**[!UICONTROL 添加到[!DNL Slack]]**。
 1. 按照步骤完成安装。
-1. 安装完成后，您可以从[!DNL Slack]访问[!DNL Workfront]，如 [!DNL Slack]&rbrack;[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in Access [!DNL Adobe Workfront] 的&lbrack;[[!UICONTROL 访问 [!DNL Workfront] 中所述。 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+1. 安装完成后，您可以从[!DNL Slack]访问[!DNL Workfront]，如 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 的[[！UICONTROL访问 [!DNL Workfront] 中所述。 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)

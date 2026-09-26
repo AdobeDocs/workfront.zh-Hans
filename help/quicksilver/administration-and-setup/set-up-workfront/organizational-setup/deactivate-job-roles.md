@@ -3,32 +3,40 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 取消激活职位角色
-description: 作为 [!DNL Adobe Workfront] 管理员或对工作角色具有管理访问权限的用户，您可以停用系统中已过时的工作角色。 当您停用而不是删除工作角色时，您可以保留与工作角色关联的任何历史信息。
+description: 作为[!DNL Adobe Workfront]管理员或对工作角色具有管理访问权限的用户，您可以停用系统中已过时的工作角色。 当您停用而不是删除工作角色时，您可以保留与工作角色关联的任何历史信息。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
+TQID: 'https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: '648'
 ht-degree: 3%
-
 ---
-
 # 取消激活工作角色
 
 作为[!DNL Adobe Workfront]管理员或对工作角色具有管理访问权限的用户，您可以停用系统中已过时的工作角色。 当您停用而不是删除工作角色时，您可以保留与工作角色关联的任何历史信息。
@@ -49,8 +57,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -82,7 +90,7 @@ ht-degree: 3%
 * 项目中的[!UICONTROL 将工作分配添加到Kanban展示板]对话框
 * 当有人使用[!DNL Adobe Workfront Scenario Planner]时，计划或计划的[!UICONTROL 工作角色]字段。
 
-  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md)。
+  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md)。
 
 >[!TIP]
 >

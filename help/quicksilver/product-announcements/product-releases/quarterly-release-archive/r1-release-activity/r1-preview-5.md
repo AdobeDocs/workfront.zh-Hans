@@ -7,13 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 12%
-
 ---
-
 # R1预览5
 
 本页介绍R1 Preview 5版本在Preview环境中可用的所有更改。 2017年3月16日，预览环境中提供了此页面上的功能。
@@ -36,7 +46,7 @@ ht-degree: 12%
 
 现在，当您将全局批准流程与对象关联时，可以修改现有的全局批准流程。 您所做的修改仅适用于关联该对象的审批流程。
 
-有关详细信息，请参阅[&#128279;](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)将新的或现有的审批流程与工作相关联[&lbrace;将新的或现有的审批流程与工作相关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+有关详细信息，请参阅[将新的或现有的审批流程与工作相关联[{将新的或现有的审批流程与工作相关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## 配置报告以默认显示新的甘特图
 
@@ -71,10 +81,10 @@ ht-degree: 12%
 * 诊断
 * 单点登录(SSO)包括：
 
-   * Active Directory
-   * LDAP
-   * SAML 1.1
-   * SAML 2.0
+  * Active Directory
+  * LDAP
+  * SAML 1.1
+  * SAML 2.0
 
 * 更新 SSO 的用户
 

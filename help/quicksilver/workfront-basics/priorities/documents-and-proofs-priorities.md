@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 6%
-
+source-wordcount: '592'
+ht-degree: 11%
 ---
-
 # 在优先级中上传文档并创建验证
 
 您可以在优先级中上传文档并创建验证。
@@ -77,9 +82,9 @@ ht-degree: 6%
 1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
 1. 确保在摘要面板中的&#x200B;**任务**&#x200B;或&#x200B;**问题**&#x200B;选项卡上。
 1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
-1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
+1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -96,9 +101,9 @@ ht-degree: 6%
 1. 在工作列表中，单击工作项名称。
 1. 单击屏幕顶部的&#x200B;**文档**&#x200B;选项卡。
 1. 单击右上角的&#x200B;**上传文档**，然后选择&#x200B;**文档**。
-1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
+1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。

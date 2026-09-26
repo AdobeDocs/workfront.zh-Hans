@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2179'
 ht-degree: 1%
-
 ---
-
 # Kick-Starts场景：将多个选项自定义字段导入Workfront
 
 您可以使用Kick-Start功能在Adobe Workfront中导入具有多个选项的自定义字段。
@@ -156,7 +162,7 @@ ht-degree: 1%
 
    必须使用Workfront数据库支持的格式编写对象名称及其属性。
 
-   有关这些对象含义的信息，请参阅 [!DNL Adobe Workfront] 术语[&#128279;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)的术语表。
+   有关这些对象含义的信息，请参阅 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)的[术语表。
 
    有关Workfront数据库中对象名称的信息，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
 
@@ -172,7 +178,7 @@ ht-degree: 1%
      >
      >某些列虽然不是粗体的，但还是需要它们的。 例如，`isNew`和`ID`列不是粗体，但它们是必填字段。
 
-1. 选择**0&rbrace;工作表并在以下必填列中添加有关新自定义字段的信息：`**PARAM Parameter`
+1. 选择**0}工作表并在以下必填列中添加有关新自定义字段的信息：`**PARAM Parameter`
 
    * **`isNew`** =在此列中为每个代表新自定义字段的行输入&#x200B;**`TRUE`**。 这表示该字段是新字段，在Workfront中不存在。
 
@@ -183,19 +189,19 @@ ht-degree: 1%
    * **`ID`** =对于表示新字段的每一行必须是唯一数字。 您可以使用以1开头的任意数字，但前提是每个新字段具有唯一数字。
    * **`setDataType`** =对于表示新字段的每一行，输入该字段支持的数据类型。 必须按数据库中显示的数据类型输入。 从以下数据类型中选择：
 
-      * 数字&#x200B;**`NMBR`**
-      * **`CURC`**&#x200B;货币
-      * 文本的&#x200B;**`TEXT`**
+     * 数字&#x200B;**`NMBR`**
+     * **`CURC`**&#x200B;货币
+     * 文本的&#x200B;**`TEXT`**
 
    * `**setDisplaySize**`=任意多个选项自定义字段的显示大小(&#39;**setDisplaySize**&#39;)始终为0。
    * **`setDisplayType`** =对于表示新字段的每一行，输入该字段的显示类型。 必须按数据库中显示的形式输入显示类型。
 
      对于多选项自定义字段，请从以下选项中选择：
 
-      * 多选下拉列表的&#x200B;**`MULT`**
-      * 下拉列表的&#x200B;**`SLCT`**
-      * 单选按钮的&#x200B;**`RDIO`**
-      * 复选框的&#x200B;**`CHCK`**
+     * 多选下拉列表的&#x200B;**`MULT`**
+     * 下拉列表的&#x200B;**`SLCT`**
+     * 单选按钮的&#x200B;**`RDIO`**
+     * 复选框的&#x200B;**`CHCK`**
 
      >[!TIP]
      >
@@ -230,9 +236,9 @@ ht-degree: 1%
      >
      >每个字段只能有一个默认选项。
 
-   * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的&#x200B;**`setParameterID`**&#x200B;为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
+   * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的**`setParameterID`**为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
    * **`setDisplayOrder`**=显示顺序列指示选项在自定义字段中的显示顺序。 您可以从1开始并按升序继续所有选项，无论它们属于哪个字段。 这里的重要事项是为每个选项设置唯一的数字。
-   * **`setLabel`**&#x200B;和**1&rbrace;列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * **`setLabel`**&#x200B;和**1}列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =如果您希望隐藏任何选项，请输入`TRUE`。
 
    ![参数表已填写](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -246,18 +252,18 @@ ht-degree: 1%
    要查找组的`ID`，您可以生成组报告并在视图中添加`ID`字段，或者导航到组并查找组的URL。 组ID将位于组页面的URL中。 例如，如果组的URL是`https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，则组ID是`575b000800467a6f66e747932c807464`。
 
    * **`setCatObjCode`**=这是您希望为其创建表单的对象类型的对象代码。 从以下选项输入代码：
-      * 公司&#x200B;**`CMPY`**
-      * 任务&#x200B;**`TASK`**
-      * 项目&#x200B;**`PROJ`**
-      * Portfolio的&#x200B;**`PORT`**
-      * 项目群&#x200B;**`PRGM`**
-      * 用户&#x200B;**`USER`**
-      * 文档&#x200B;**`DOCU`**
-      * 问题&#x200B;**`OPTASK`**
-      * 费用&#x200B;**`EXPNS`**
-      * 迭代的&#x200B;**`ITRN`**
-      * 用于开票记录的&#x200B;**`BILL`**
-      * 组&#x200B;**`GROUP`**
+     * 公司&#x200B;**`CMPY`**
+     * 任务&#x200B;**`TASK`**
+     * 项目&#x200B;**`PROJ`**
+     * Portfolio的&#x200B;**`PORT`**
+     * 项目群&#x200B;**`PRGM`**
+     * 用户&#x200B;**`USER`**
+     * 文档&#x200B;**`DOCU`**
+     * 问题&#x200B;**`OPTASK`**
+     * 费用&#x200B;**`EXPNS`**
+     * 迭代的&#x200B;**`ITRN`**
+     * 用于开票记录的&#x200B;**`BILL`**
+     * 组&#x200B;**`GROUP`**
 
      >[!NOTE]
      >
@@ -297,4 +303,4 @@ ht-degree: 1%
 
    * 从自定义Forms区域删除成功从Workfront导入的信息，然后进行错误消息所指示的更正。
    * 指示系统中已经存在字段或表单，用于已导入的字段或表单，然后进行更正。
-要指示Workfront中已存在某个字段或自定义表单，您必须确保在包含有关表单(`CTGY`)或快速启动导入工作表中的字段(`PARAM`)的信息的工作表中将`inNew`字段标记为`FALSE`。
+     要指示Workfront中已存在某个字段或自定义表单，您必须确保在包含有关表单(`CTGY`)或快速启动导入工作表中的字段(`PARAM`)的信息的工作表中将`inNew`字段标记为`FALSE`。

@@ -6,18 +6,24 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+TQID: 'https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '913'
 ht-degree: 0%
-
 ---
-
 # 2025年第三季度项目增强功能
 
 本页介绍了在2025年第三季度版本中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -61,8 +67,8 @@ ht-degree: 0%
 >存在以下情况：
 >
 >* 实际小时数表示自2021年5月以来为项目、任务和问题记录的小时数。
->* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。这包括2021年5月之前记录到当前时间的小时数。
-><br>您可能需要更新报告以反映新字段及其值。
+>* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。 这包括2021年5月之前记录到当前时间的小时数。
+><br>您可能需要更新报表以反映新字段及其值。
 ><br>Workfront使用旧版实际小时数计算实际劳力成本。
 
 有关信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。

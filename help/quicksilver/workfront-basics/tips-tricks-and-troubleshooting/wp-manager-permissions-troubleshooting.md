@@ -4,24 +4,28 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager权限疑难解答
-description: 在 [!DNL Adobe] Workfront中可用于验证用户的权限配置文件是“管理员”、“主管”和“经理”。
+description: 在[!DNL Adobe] Workfront中可用于验证用户的权限配置文件是“管理员”、“主管”和“经理”。
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+TQID: 'https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL [!DNL Workfront]验证管理器]权限疑难解答
 
 以下是[!DNL Adobe Workfront]中可用于验证用户的权限配置文件：
@@ -43,8 +47,8 @@ ht-degree: 0%
 * **问题：**&#x200B;具有[!UICONTROL 经理]权限的用户无法将验证版本添加到其他用户创建的验证中（他们可能会在文档集中提交验证，但这些版本不会连接到其他用户创建的原始集）。\
    **解决方案：**&#x200B;具有[!UICONTROL 经理]权限的用户只有在同时具有[!UICONTROL 经理]权限的用户同时满足以下条件时，才能将版本提交到其他用户的验证：
 
-   * 明确添加到验证
-   * 在验证上设置为[!UICONTROL 作者] （验证角色）
+  * 明确添加到验证
+  * 在验证上设置为[!UICONTROL 作者] （验证角色）
 
 * **问题：**&#x200B;具有[!UICONTROL 经理]权限的用户无法编辑其他用户对其不拥有或未创建的验证的评论。\
    **解决方案：**&#x200B;如果具有[!UICONTROL 经理]权限的用户不拥有验证，但他们应该能够编辑评论，请将其添加为[!UICONTROL 作者] （或[!UICONTROL 审查方]）。\

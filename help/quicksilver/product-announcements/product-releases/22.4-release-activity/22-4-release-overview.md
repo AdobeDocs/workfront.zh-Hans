@@ -6,27 +6,37 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+TQID: 'https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3298
+source-wordcount: '3371'
 ht-degree: 1%
-
 ---
-
 # 22.4发行版概述
 
 本页介绍了22.4版本中包含的功能。
@@ -312,9 +322,9 @@ ht-degree: 1%
 
 </p>
 <ol>
-<li>添加Adobe XD文件，使自定义表单更直观且信息更丰富。将表单附加到对象后，使用该对象的用户可以从表单中查看和交互XD文件。
+<li>添加Adobe XD文件，使自定义表单更直观且信息更丰富。 将表单附加到对象后，使用该对象的用户可以从表单中查看和交互XD文件。
 </li>
-<li>使用快速筛选器轻松地在现代化自定义表单和字段列表中找到项目。此外，在管理表单和字段时还可体验更佳的外观。
+<li>使用快速筛选器轻松地在现代化自定义表单和字段列表中找到项目。 此外，在管理表单和字段时还可体验更佳的外观。
 </li>
 </ol>
                     </td>
@@ -432,7 +442,7 @@ ht-degree: 1%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将团队添加到讨论区或信息卡</a> </p>
                         <p>您现在可以将团队添加为讨论区成员。 将团队添加到讨论区时，不再添加单个团队成员，但所有团队成员都可以访问讨论区。</p>
-                        <p>将团队添加到展示板后，您可以将团队分配给信息卡。在连接的卡片上，只允许一个团队分配。在临时信息卡上，您可以分配多个团队。
+                        <p>将团队添加到展示板后，您可以将团队分配给信息卡。 在连接的卡片上，只允许一个团队分配。 在临时信息卡上，您可以分配多个团队。
                         </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -751,7 +761,7 @@ Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境
 
 ### 22.4版本网络研讨会
 
-22.4版本网络研讨会将于2022年9月22日星期四太平洋夏季时间上午9:00举行。 :00您可以[在此注册网络研讨会](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
+22.4版本网络研讨会将于2022年9月22日星期四上午9:00（太平洋夏令时间）举行。 您可以[在此注册网络研讨会](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
 
 ### 培训更新
 

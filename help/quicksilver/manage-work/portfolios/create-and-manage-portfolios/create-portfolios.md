@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30
+TQID: 'https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 902
+source-wordcount: '902'
 ht-degree: 2%
-
 ---
-
 # 创建项目组合
 
 <!--Audited: 08/2025-->
@@ -50,12 +57,12 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划] </p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -181,12 +188,12 @@ Old:
       <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[!UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个用户作为[!UICONTROL Portfolio Manager]时，该用户会自动获得对该项目组合、该项目组合中项目群和项目群的[!UICONTROL Manager]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[!UICONTROL Portfolio Manager]。</p> </td> 
+      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[！UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个用户作为[！UICONTROL Portfolio Manager]时，该用户会自动获得对该项目组合、该项目组合中项目群和项目群的[！UICONTROL Manager]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[！UICONTROL Portfolio Manager]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">组 </td> 
-      <td> <p>添加单个组的名称（如果该组拥有项目组合或负责完成它）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>添加单个组的名称（如果该组拥有项目组合或负责完成它）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>

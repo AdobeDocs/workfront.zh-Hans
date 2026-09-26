@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
-TQID: https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw
+TQID: 'https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1363
+source-wordcount: '1390'
 ht-degree: 0%
-
 ---
-
 # 2017.2 Beta 1发行版活动
 
 本页介绍了2017.2 Beta 1版本在“预览”环境中提供的所有更改。 2017年5月10日，预览环境中提供了此页面上的功能。
@@ -152,7 +158,7 @@ R1.5版本在预览环境中引入了与资源规划相关的新功能。 此功
 
 现在，查看仪表板列表时，外观会更加新颖，而且可扩展性也更高。
 
-此功能以前仅适用于已注册提前访问的用户。该功能现在适用于预览环境中的所有用户。该版本将在2017.2版本中提供给生产环境中的所有用户。 
+此功能以前仅适用于已注册提前访问的用户。 该功能现在适用于预览环境中的所有用户。 该版本将在2017.2版本中提供给生产环境中的所有用户。 
 
 有关仪表板的详细信息，请参阅[创建仪表板](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 

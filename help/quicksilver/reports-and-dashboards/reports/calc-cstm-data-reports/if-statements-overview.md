@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
+TQID: 'https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # “IF”语句概述
 
 <!-- Audited: 1/2024 -->
@@ -42,9 +46,9 @@ ht-degree: 0%
 
 * 您可以为以下Workfront元素构建“IF”语句：
 
-   * 视图
-   * 分组
-   * 计算的自定义字段
+  * 视图
+  * 分组
+  * 计算的自定义字段
 
 * 无法为过滤器构建“IF”语句。 这会导致Workfront中出现“糟糕”错误。
 * 支持团队不帮助构建自定义数据。 构建自定义字段或列且看不到所需结果后，您可以联系支持团队。 要获取构建表达式的帮助，请联系您的客户经理以查询我们的咨询选项。
@@ -60,13 +64,13 @@ ht-degree: 0%
 
 * **条件** =这是Workfront变量必须满足的条件，也是此方程式的基础。 之后可在方程式中指定的所有内容都取决于条件。 可以使用许多引用、比较或数学表达式来启动公式。 条件的一些示例包括：
 
-   * 日期晚于指定对象上的另一个日期。
-   * 状态等于指定对象上可用的状态之一。
-   * 任务的完成百分比小于或大于某个百分比。
+  * 日期晚于指定对象上的另一个日期。
+  * 状态等于指定对象上可用的状态之一。
+  * 任务的完成百分比小于或大于某个百分比。
 
 * **条件运算符** =此运算符可帮助您构建“IF”语句的条件。 例如，“等于”或“大于”是条件运算符。 有关可在语句中使用的条件运算符列表，请参阅计算自定义表达式中的[条件运算符](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-* **True**&#x200B;**Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
+* **True****Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
 
 * **False表达式** =这是“False”变量，它告知公式当不符合条件的条件（false指示符）时要显示的指示符。
 

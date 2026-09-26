@@ -6,15 +6,25 @@ description: 您可以删除已创建的计划。 不能删除与您共享的计
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 3%
-
 ---
-
 # 删除[!DNL Scenario Planner]中的计划
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
@@ -41,16 +51,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>

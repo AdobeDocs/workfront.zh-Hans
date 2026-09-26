@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 管理 [!DNL Workfront Proof]中的文件夹及其内容
+title: 管理[!DNL Workfront Proof]中的文件夹及其内容
 description: 将您的项目和验证组织到文件夹中的好处之一，是能够在[!UICONTROL 文件夹详细信息]页面上管理它们。 此页面是项目的一个控制中心，在这里，您可以方便地管理单个验证和文件以及执行批量操作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
+TQID: 'https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1260
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Workfront Proof]中的文件夹及其内容
 
 >[!IMPORTANT]
@@ -49,7 +57,7 @@ ht-degree: 0%
 
 1. （视情况而定）执行以下操作之一：
 
-   * 如果您要将校对添加到文件夹，请转到[!UICONTROL 校对详细信息]页面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[!UICONTROL 管理校对详细信息]中所述
+   * 如果您要将校对添加到文件夹，请转到[!UICONTROL 校对详细信息]页面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[[!UICONTROL 管理校对详细信息]中所述
    * 如果要将文件添加到文件夹，请按照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理文件中的说明转到“文件详细信息”页面。
 
 1. 单击文件或校对所在的&#x200B;**文件夹**&#x200B;的名称，然后单击要移动它的文件夹的名称。\
@@ -59,7 +67,7 @@ ht-degree: 0%
 
 1. （视情况而定）执行以下操作之一：
 
-   * 如果您要将校对移出文件夹，请按照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校对详细信息]中的说明转到[!UICONTROL 校对详细信息]页面
+   * 如果您要将校对移出文件夹，请按照 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[[!UICONTROL 管理校对详细信息]中的说明转到[!UICONTROL 校对详细信息]页面
 
      或\
       如果要将文件移出文件夹，请按照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理文件中的说明转到“文件详细信息”页面。
@@ -73,7 +81,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您不是文件的创建者或所有者，则可用选项将取决于您在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的用户验证权限配置文件。
+>如果您不是文件的创建者或所有者，则可用选项将取决于您在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的用户[验证权限配置文件。
 
 1. 在左侧导航菜单中的&#x200B;**[!UICONTROL 文件夹]**&#x200B;选项卡中，单击任意文件夹以打开[!UICONTROL 文件夹详细信息]页面。
 1. 如果文件夹仅包含存档的验证，则页面顶部将以黄色显示一条消息。 如果单击邮件中的链接，文件夹视图将更改为[!UICONTROL 存档的校样]视图。
@@ -111,7 +119,7 @@ ht-degree: 0%
    文件夹的所有者和创建者始终显示在此列表中，并且不可移除。 如果用户接管了文件夹的所有权，它们会自动显示并且不可移除。\
    您可以与个人用户和合作伙伴公司共享文件夹。 如果文件夹与合作伙伴公司共享，则可以通过单击将鼠标悬停在该行上时显示的[!UICONTROL 信息]图标来查看收件人的完整列表。 有关详细信息，请参阅[合作伙伴帐户。](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)
 
-1. （可选）编辑经理对专用文件夹的权限，方法是单击文件夹&#x200B;&rbrack;**上**&#x200B;[[!UICONTROL &#x200B;允许，然后指定您希望此人是否能够创建、编辑和删除该文件夹中的项目。 **注意**&#x200B;此选项仅适用于与添加到专用文件夹的文件夹所有者来自同一帐户的管理员。 主管、管理员和账单管理员对帐户中的所有文件夹具有编辑权限，观察者无法创建任何项目。 有关权限的信息，请参阅 [!DNL Workfront Proof]]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的&lbrack;验证权限配置文件。
+1. （可选）编辑经理对专用文件夹的权限，方法是单击文件夹&#x200B;]**上**[!UICONTROL &#x200B;允许，然后指定您希望此人是否能够创建、编辑和删除该文件夹中的项目。 **注意**&#x200B;此选项仅适用于与添加到专用文件夹的文件夹所有者来自同一帐户的管理员。 主管、管理员和账单管理员对帐户中的所有文件夹具有编辑权限，观察者无法创建任何项目。 有关权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
 
 1. （可选）单击&#x200B;**[!UICONTROL 活动]**&#x200B;查看在文件夹中按时间顺序执行的所有操作。
 1. （可选）单击&#x200B;**[!UICONTROL 消息]**&#x200B;部分以查看已发送给文件夹中用户的消息。\

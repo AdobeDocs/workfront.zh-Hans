@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg
+TQID: 'https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 # 文本模式的常见用途概述
 
 <!-- Audited: 1/2025 -->
@@ -50,9 +55,9 @@ ht-degree: 0%
   有关计算自定义字段的更多信息，请参阅本文中的[在计算自定义字段中使用文本模式](#use-text-mode-in-calculated-custom-fields)部分。
 * 在Report Builder中可提供的范围之外增强筛选器、视图和分组。 有关对筛选器、视图和分组使用文本模式的信息，请参阅本文中的以下部分：
 
-   * [在视图中使用文本模式](#use-text-mode-in-views)
-   * [在筛选器中使用文本模式](#use-text-mode-in-filters)
-   * [在分组中使用文本模式](#use-text-mode-in-groupings)
+  * [在视图中使用文本模式](#use-text-mode-in-views)
+  * [在筛选器中使用文本模式](#use-text-mode-in-filters)
+  * [在分组中使用文本模式](#use-text-mode-in-groupings)
 
 * 创建自定义提示。 您只能使用文本模式创建自定义提示。
 
@@ -98,7 +103,7 @@ ht-degree: 0%
 * [筛选器：当状态与不同的组相关联时，按同名状态显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 * [筛选器：通过比较两个字段](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)来消除列表中的项
 * [使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)文章中的部分[跨对象层次结构中多个级别的文本模式筛选器示例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)
-* [&#128279;](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)部分[使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)中的缺失对象创建复杂文本模式筛选器
+* [部分[使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)中的缺失对象创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)
 
 ## 在分组中使用文本模式 {#use-text-mode-in-groupings}
 

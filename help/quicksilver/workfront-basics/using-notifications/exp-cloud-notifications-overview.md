@@ -1,30 +1,33 @@
 ---
 navigation-topic: notifications
 title: Experience Cloud通知概述
-description: Adobe Workfront将所有数字体验(DX)产品统一到一个名为Experience Cloud Notifications的统一通知系统下。
+description: Adobe Workfront将所有数字体验(DX)产品统一到一个名为Experience Cloud通知的统一通知系统下。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Experience Cloud通知概述
 
-Adobe Workfront通知正在迁移至Adobe的集中通知系统，称为Experience Cloud Notifications。 此通知系统供所有数字体验产品使用。
+Adobe Workfront通知正在迁移至Adobe的集中通知系统，即Experience Cloud通知。 此通知系统供所有数字体验产品使用。
 
-从2026年2月或前后开始，当前的Workfront电子邮件和应用程序内通知将迁移到Experience Cloud Notifications。 这项工作将分阶段完成。 Workfront团队将在迁移开始前通知您的组织。
+从2026年2月或前后开始，当前的Workfront电子邮件和应用程序内通知将迁移到Experience Cloud通知。 这项工作将分阶段完成。 Workfront团队将在迁移开始前通知您的组织。
 
 完成此过渡后，用户可以在一个位置访问整个Adobe Workfront和其他Adobe DX应用程序中的所有通知，从而简化他们如何及时了解信息并管理首选项。
 
@@ -32,7 +35,7 @@ Adobe Workfront通知正在迁移至Adobe的集中通知系统，称为Experienc
 
 ## 我们为什么要做出这种改变
 
-Workfront是Adobe的digital experience产品套件的一部分。 迁移到Experience Cloud会带来多项好处，包括：
+Workfront是Adobe的digital experience产品套件的一部分。 迁移到Experience Cloud具备以下优势：
 
 * 统一通知体验：您现在可以体验一个跨所有Adobe DX解决方案工作的界面。
 * 随时了解情况：将通知统一到一个位置可降低丢失通知的风险。
@@ -42,7 +45,7 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 ## 更改内容
 
 * 单个通知图标已替换顶部标题中的Workfront通知图标。
-* 现在，您可以通过新的“Experience Cloud通知”面板和“所有通知”页面访问您的个人通知设置。 以前，在您的用户配置文件中访问它们。
+* 现在，您可以通过新的Experience Cloud“通知”面板和“所有通知”页面访问您的个人通知设置。 以前，在您的用户配置文件中访问它们。
 * 提供了新的筛选和投放选项。
 * 自定义电子邮件通知主题行将不再可用。
 

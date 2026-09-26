@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+TQID: 'https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 309
-ht-degree: 12%
-
+source-wordcount: '324'
+ht-degree: 16%
 ---
-
 # 按优先级上传文件
 
 您可以从“优先级”工作列表或单个工作项上载文件。 从“优先级”上载的文件会显示在工作项的“文档”选项卡中。
@@ -66,9 +71,9 @@ ht-degree: 12%
 1. 单击&#x200B;**上传**。
    ![更新、记录时间和上传](assets/update-log-upload.png)
 1. （可选）在&#x200B;**上传文件**&#x200B;框中，选择一个文件夹。
-1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
+1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
