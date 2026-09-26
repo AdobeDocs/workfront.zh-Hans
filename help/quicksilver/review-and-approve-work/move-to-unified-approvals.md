@@ -6,13 +6,27 @@ description: 了解当您的组织迁移到支持统一审批的Workfront版本�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
-
 ---
-
 # 从旧文档审批移至统一审批
 
 迁移到支持Adobe Cloud Storage的Workfront版本还会将您的组织从旧版文档审批转移到统一审批。 本文提供了有关统一审批中可用的功能的信息，以及面向Workfront管理员的建议，即将用户从旧版文档审批中移出。
@@ -32,7 +46,7 @@ ht-degree: 1%
 | 审批阶段和路径 | 一个审批阶段，无并行路径 | [多个审批阶段和并行审阅路径](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | 审批模板 | 每个审批都是从头开始配置的 | 在Workfront设置中提供了[可重用模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) |
 | 审阅和标记 | 校对查看器 | 旧版Workfront存储对象上的[验证查看器](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)，或Adobe云存储对象上的[Frame.io查看器](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) |
-| AI辅助审查 | 不可用 | 通过[内容审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)自动进行品牌符合性检查 |
+| AI辅助审查 | 不可用 | 使用[AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)自动进行品牌符合性检查 |
 | 报告 | 旧版报表 | 主KPI小组件和[画布功能板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### 对已在进行中的审批有何影响
@@ -55,4 +69,4 @@ ht-degree: 1%
 * [使用Frame.io查看器审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [将统一审批和验证结合使用](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [Workfront内容审查者入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [Workfront AI Reviewer入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)

@@ -10,26 +10,35 @@ hide: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ
+TQID: 'https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '289'
 ht-degree: 8%
-
 ---
-
 # 创建AI审阅者
 
 >[!NOTE]
@@ -68,7 +77,7 @@ ht-degree: 8%
 
 ## 先决条件
 
-在开始之前，您必须在Workfront中设置图像品牌指南。 有关详细信息，请参阅[为内容查看者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
+在开始之前，您必须在Workfront中设置图像品牌指南。 有关详细信息，请参阅[为AI审阅者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
 ## 添加AI审阅者
 
@@ -76,11 +85,11 @@ ht-degree: 8%
 >
 >AI审阅者并非旨在成为审阅和批准工作流中的决策者。 它仅提供分数和建议，以将资产与指定的品牌要求保持一致。
 
-要添加内容查看者，请执行以下操作：
+添加AI审阅者：
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，转到&#x200B;**审阅和批准** > **AI审阅者**。
+1. 在左侧面板中，转到&#x200B;**审阅和批准** > **审阅者**。
 1. 单击&#x200B;**新增**。
 1. 为审阅者命名。
 1. 选择&#x200B;**品牌**。
