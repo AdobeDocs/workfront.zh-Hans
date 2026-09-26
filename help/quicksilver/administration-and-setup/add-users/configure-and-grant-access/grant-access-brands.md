@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '722'
 ht-degree: 4%
-
 ---
-
 # 授予对品牌权限的访问权限
 
 添加到用户组时，用户将获得Adobe GenStudio系统管理员的品牌创建、编辑和发布权限。
@@ -55,11 +62,11 @@ ht-degree: 4%
 * 您的Workfront实例必须启用统一批准。
 
 * 您的组织必须具有GenStudio Foundation。
-   * Workfront中的内容审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过Content Reviewer访问GenStudio Foundation功能是受Workfront合同条款约束的。
+  * Workfront中的AI审阅者提供了GenStudio Foundation中用于资源审阅和批准工作流的功能。 您无需直接访问GenStudio Foundation即可完成工作。 您通过AI查看器访问GenStudio Foundation功能是受Workfront合同条款约束的。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
-## 1.在Admin Console中配置品牌权限
+## &#x200B;1. 在Admin Console中配置品牌权限
 
 ### 第1步：创建用户组
 
@@ -123,7 +130,7 @@ ht-degree: 4%
 
 该组中的用户现在有权在Workfront中创建、编辑和发布品牌资产。
 
-## 2.授予对Workfront访问级别中“品牌”的访问权限
+## &#x200B;2. 授予对Workfront访问级别中“品牌”的访问权限
 
 在授予个人用户访问Workfront访问级别中Brands的权限之前，您必须完成上一节中的所有步骤。
 
@@ -147,4 +154,4 @@ ht-degree: 4%
    ![允许访问品牌设置](assets/access-for-brands.png)
 1. 单击&#x200B;**保存**。
 
-配置Brands后，您可以创建内容审阅者，以在审阅和批准工作流程中根据品牌指南审阅资产。 有关详细信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
+配置Brands后，您可以创建AI审阅者，以在审阅和批准工作流程中根据品牌指南审阅资产。 有关详细信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。

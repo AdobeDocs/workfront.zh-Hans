@@ -8,13 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1371'
 ht-degree: 2%
-
 ---
-
 # 配置AI协作者
 
 AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以配置AI Collaborator，然后像分配用户一样分配它。
@@ -23,13 +30,13 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
 可用的AI Collaborator类型包括：
 
-* 查看者：使用品牌或Adobe Brand Intelligence创建协作者，然后将协作者分配为资产查看者。
+* AI审阅者：使用品牌或Adobe Brand Intelligence创建协作者，然后将该协作者分配为资产审阅者。
 
-  有关详细信息，请参阅[开始使用Workfront内容审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
+  有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* 任务协作者：使用Copilot或Writer创建协作者，然后将协作者分配给任务以完成任务级工作。
+* 工作代理：使用Copilot或Writer创建协作者，然后将协作者分配给任务以完成任务级工作。
 
-  有关详细信息，请参阅[使用任务协作者](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
+  有关详细信息，请参阅[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
 
 
 ## 访问权限要求
@@ -66,23 +73,23 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 * 贵组织必须存档已签署的Adobe Gen AI协议。
 
   有关详细信息，请参阅Workfront中的AI Assistant一文中的[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
-* 您必须先在Workfront中配置了一个品牌，然后才能将其用于审阅人类型的AI协作者。
+* 您必须先在Workfront中配置品牌，然后才能将其用于AI审阅者。
 
-  有关说明，请参阅[为内容查看者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
-* 要将Adobe Brand Intelligence用于审阅人AI协作者，您的组织必须在Workfront中使用统一的审阅和批准体验。
+  有关说明，请参阅[为AI审阅者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
+* 要将Adobe Brand Intelligence用于AI审阅人，您的组织必须在Workfront中使用统一的审阅和批准体验。
 
   有关详细信息，请参阅[统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
-### 对于任务协作者
+### 对于工作代理
 
-必须先在Claude、Copilot Studio或Writer中配置代理，然后才能将其用作任务协作器。
+必须先在Claude、Copilot Studio或Writer中配置代理，然后才能将其用作工作代理。
 
-## 创建新的审阅人类型的AI协作者
+## 创建新的AI审阅者
 
-可以将Reviewer AI协作者配置为使用Workfront品牌或Adobe Brand Intelligence。
+AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 * **品牌**：品牌是在Workfront中创建的。 您可以通过上传包含品牌指南的PDF文件或手动输入品牌元素，在Workfront中创建品牌。
-* **Adobe Brand Intelligence**：当AI协作者使用Adobe Brand Intelligence查看资源时，您可以在Frame.io中查看查看查看者所做的评论。
+* **Adobe Brand Intelligence**：当AI协作者使用Adobe Brand Intelligence审阅资源时，您可以在Frame.io中查看AI审阅者所做的评论。
 
 
 {{step-1-to-setup}}
@@ -95,23 +102,23 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 1. （视情况而定）如果AI协作者将使用品牌，请选择它将使用的品牌和品牌指南。
 1. 单击&#x200B;**保存**。
 
-## 配置任务协作者
+## 配置工作代理
 
-任务协作者是可以分配给Workfront中的任务的MCP代理。 可以使用名称、访问级别和其他详细信息配置任务协作器，并将其分配给任务，就像分配用户一样。
+工作代理是可以分配给Workfront中任务的代理。 使用名称、访问级别和其他详细信息配置工作代理，并将其分配给任务，就像分配用户一样。
 
-由于任务协作者是MCP代理，因此其操作和功能会在您配置代理的位置进行配置。 目前，可以在Copilot Studio、Claude或Writer中创建用作任务协作者的代理。
+由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 目前，用作工作代理的代理可以在Copilot Studio、Claude或Writer中创建。
 
-任务协作者只能分配给任务，当前不能分配给问题。
+工作座席只能分配给任务，当前不能分配给问题。
 
-有关创建代理以作为任务协作者使用的最佳实践列表，请参阅[为任务协作者创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-task-collaborator)。
+有关创建代理以用作工作代理时的最佳实践列表，请参阅[为工作代理创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-work-agent)。
 
-### 在Workfront中配置任务协作者
+### 在Workfront中配置工作代理
 
 {{step-1-to-setup}}
 
 1. 在左侧导航中，单击&#x200B;**AI协作者**。
 1. 单击屏幕右上角的&#x200B;**新建Collaborator**。
-1. 选择&#x200B;**任务代理**，然后单击&#x200B;**继续**。
+1. 选择&#x200B;**工作代理**，然后单击&#x200B;**继续**。
 1. 在AI协作者名称字段中，输入协作者的名称。 这是出现在任务可用被分配人列表中的名称。
 1. 在AI协作者说明字段中，输入对协作者用途或所执行操作的说明。
 1. 在“访问级别”字段中，选择此协作者的访问级别。 此访问级别控制协作者可以执行的操作，与访问级别控制用户可以执行操作的方式相同。
@@ -128,12 +135,12 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 1. 在&#x200B;**协作器完成其工作后，它可以**&#x200B;区域中，切换您希望协作器执行的操作。
 1. 单击&#x200B;**保存**。
 
-有关任务协作者的详细信息，包括如何将其分配给任务，请参阅[使用任务协作者](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
+有关工作代理的详细信息，包括如何将其分配给任务，请参阅[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
 
 
-### 为任务协作者创建代理的最佳实践
+### 为工作代理创建代理的最佳实践
 
-您可能会发现，在创建代理以在Workfront中用作任务协作者时，以下最佳实践很有帮助。 要查看最佳实践，请单击要在其中创建代理的应用程序部分。
+您可能会发现以下最佳实践有助于在Workfront中创建要用作工作代理的代理。 要查看最佳实践，请单击要在其中创建代理的应用程序部分。
 
 +++ 克劳德
 
@@ -141,7 +148,7 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 1. 创建API密钥。
    1. 在“API密钥”下，单击右上角的&#x200B;**创建密钥**。
    1. 提供名称和到期日期。
-   1. 复制密钥并将其保存在安全的地方。 您需要此密钥才能在Workfront中配置任务协作器。
+   1. 复制密钥并将其保存在安全的地方。 您需要此密钥才能在Workfront中配置工作代理。
 
 1. 创建环境。
    1. 在&#x200B;**托管代理** > **环境**&#x200B;下，单击右上角的&#x200B;**创建环境**。
@@ -151,15 +158,15 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
 1. 创建代理。
    1. 在托管代理>代理下，单击右上角的&#x200B;**创建代理**。
-   1. 提供适用的名称、型号、系统提示、技能和工具。 描述性的，因为任务协作者将任务上下文传递给此代理，然后该代理执行工作。
+   1. 提供适用的名称、型号、系统提示、技能和工具。 是描述性的，因为工作代理将任务上下文传递给此代理，然后执行工作。
       代理ID显示在左上角的代理名称下方。
 
-1. 在Workfront中配置任务协作器。
+1. 在Workfront中配置工作代理。
    1. 输入您的API密钥、环境ID和代理ID
    1. 单击&#x200B;**测试连接**&#x200B;进行验证。
 
-1. 将任务协作者分配给Workfront任务。
-   1. 任务协作器在完成所有前置任务后触发。
+1. 将工作代理分配给Workfront任务。
+   1. 工作代理在所有前置任务完成后触发。
 
 +++
 <!--
@@ -173,9 +180,9 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
 >[!NOTE]
 >
-> 您可以将Writer代理用作任务协作者，但不能将Writer行动手册用作任务协作者。
+> 您可以将Writer代理用作工作代理，但不能将Writer行动手册用作工作代理。
 
-在Writer中创建用作任务协作者的代理时，我们建议使用以下工作流。
+创建在Writer中用作工作代理的代理时，我们建议使用以下工作流程。
 
 有关创建代理的更多详细信息可在[Writer文档](https://dev.writer.com/no-code/introduction)中找到。
 
@@ -183,13 +190,13 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 1. 添加单个文本输入字段。 您可以使用默认名称“文本输入”。
 1. 将`@TextInput`添加到您的提示中。 在应用程序配置的提示部分中，确保提示模板引用了输入变量。 如果没有此操作，模型将永远不会看到任务数据。
 1. 调整提示以立即生成输出。 删除在响应之前询问用户说明或其他上下文的任何说明。 例如：“收到输入时，将其视为内容生成请求并立即生成输出。 不要要求澄清。”
-1. 复制API密钥和应用程序ID。 您需要任务协作者才能在Workfront中配置任务协作者。
+1. 复制API密钥和应用程序ID。 您需要他们在Workfront中配置工作代理。
 
    * 有关在Writer中设置API密钥的说明，请参阅Writer文档中的[快速入门](https://dev.writer.com/home/quickstart)。
    * 有关在Writer中设置应用程序ID的说明，请参阅Writer文档中的[通过API调用无代码代理](https://dev.writer.com/home/applications)。
 
-1. 在Workfront中配置任务协作器。 作为配置的一部分，输入API密钥和应用程序ID，然后单击&#x200B;**测试连接**&#x200B;以进行验证。
-1. 将任务协作者分配给Workfront任务。 当任务的所有前置任务完成时，协作者开始工作。
+1. 在Workfront中配置工作代理。 作为配置的一部分，输入API密钥和应用程序ID，然后单击&#x200B;**测试连接**&#x200B;以进行验证。
+1. 将工作代理分配给Workfront任务。 当任务的所有前置任务完成时，工作代理开始工作。
 
 +++
 
