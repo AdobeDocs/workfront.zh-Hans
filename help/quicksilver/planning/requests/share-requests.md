@@ -5,9 +5,23 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '592'
 ht-degree: 4%
 ---
 # 共享计划请求
@@ -86,6 +100,7 @@ ht-degree: 4%
 
 * 不同的人员和团队可以对同一请求拥有不同的访问级别。
 * 权限可以通过多个实体分配。 如果用户对请求具有Contribute权限，但其组或工作角色具有“查看”权限，则他们将保留最高级别的权限，即Contribute。
+* 请求从工作区和记录类型继承权限。 您无法删除或编辑Planning请求的继承权限。
 
 ## 共享请求
 
@@ -110,7 +125,14 @@ ht-degree: 4%
 1. （可选）对于每个权限级别，单击粒度权限图标，然后选择或取消选择任何粒度权限，如&#x200B;**编辑**、**评论**、**共享**&#x200B;或&#x200B;**删除**。
 
    ![请求的粒度权限](assets/granular-permissions-on-requests.png)
+1. （可选）展开继承的权限行以查看谁从工作区和记录类型获得权限。
+
+   >[!TIP]
+   >
+   >您无法删除或编辑Planning请求的继承权限。
+
 1. 单击&#x200B;**保存**。
+
 
    该请求将与您选择的实体共享。
 

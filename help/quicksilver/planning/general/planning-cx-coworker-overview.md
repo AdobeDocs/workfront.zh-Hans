@@ -5,9 +5,23 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1128'
 ht-degree: 1%
 ---
 
@@ -138,20 +152,19 @@ CX Coworker保留了AI Assistant目前所做的一切，同时在新的全屏体
 
 ## 访问“规划”区域中的CX Coworker
 
-
 1. 登录到Workfront，然后单击左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)，然后单击&#x200B;**计划**。
 
    此时将打开“规划”区域。
 
-   在页面的右上角找到&#x200B;**AI图标** ![AI图标](assets/ai-icon.png)，或继续执行以下步骤。
+   在页面的右上角找到&#x200B;**Co-worker**&#x200B;图标![Co-worker图标](assets/coworker-icon.png)，或继续执行以下步骤。
 
 1. 单击&#x200B;**工作区信息卡**。
 
 1. 单击&#x200B;**记录类型卡片**。
 
-1. 单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面，然后单击在中打开。
+1. 单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面，然后单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-workspace-on-new-tab-icon.png)。
 
-1. 单击屏幕右上角的&#x200B;**CX Coworker图标**。
+1. 单击屏幕右上角的&#x200B;**CX Coworker图标** ![同事图标](assets/coworker-icon.png)。
 
 1. 在提供的空白处，开始输入CX Coworker的命令，然后在操作完成后单击Enter 。
 

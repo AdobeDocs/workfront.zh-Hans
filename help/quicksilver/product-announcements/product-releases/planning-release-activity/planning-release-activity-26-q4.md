@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -21,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年9月24日
+>预览： 2026年9月25日
 >生产快速发布： 2026年10月14日
 >适用于所有人的生产： 2026年10月15日
 
@@ -37,7 +49,7 @@ Workspace经理现在可以控制对单个字段的访问，允许特定用户�
 
 >[!NOTE]
 >
->预览： 2026年9月24日
+>预览： 2026年9月25日
 >生产快速发布： 2026年10月14日
 >适用于所有人的生产： 2026年10月15日
 
@@ -51,7 +63,7 @@ Workspace经理现在可以控制对单个字段的访问，允许特定用户�
 
 >[!NOTE]
 >
->预览： 2026年9月24日
+>预览： 2026年9月25日
 >生产快速发布： 2026年10月14日
 >适用于所有人的生产： 2026年10月15日
 
@@ -63,7 +75,7 @@ Workspace管理员现在可以为每个Planning请求表单构建单阶段或多
 
 >[!NOTE]
 >
->预览： 2026年9月24日
+>预览： 2026年9月25日
 >生产快速发布： 2026年10月14日
 >适用于所有人的生产： 2026年10月15日
 
@@ -73,11 +85,11 @@ Workspace管理员现在可以为每个Planning请求表单构建单阶段或多
 
 有关信息，请参阅[创建请求表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
-## 根据请求表单为每个访问层配置功能
+## 在Planning请求表单上配置请求者的默认权限
 
 >[!NOTE]
 >
->预览： 2026年9月24日
+>预览： 2026年9月25日
 >生产快速发布： 2026年10月14日
 >适用于所有人的生产： 2026年10月15日
 
@@ -87,7 +99,7 @@ Workfront和工作区管理员现在可以指示请求者在配置请求表单�
 
 有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
-## AI表单填写现在从引用了链接的记录中提取数据
+## AI表单填充从引用了链接的记录中提取数据
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ AI表单填写现在可以直接从其链接引用的Planning记录中检索字�
 
 有关信息，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 
-## CX Coworker现已在Workfront Planning中提供
+## Workfront Planning中提供的CX Coworker
 
 >[!NOTE]
 >
@@ -120,7 +132,7 @@ CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言
 
 有关详细信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-## 为准备CX Coworker启动，删除了详细信息预览框中的AI助手图标
+## 为准备CX Coworker启动，从记录详细信息预览框中移除了AI助手图标
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言
 >* **创建请求表单**&#x200B;和&#x200B;**管理请求表单**&#x200B;已更改为&#x200B;**请求表单**
 >* **管理自动化**&#x200B;已更改为&#x200B;**自动化**
 
-## 为时间轴视图引入自定义周
+## 时间轴视图的自定义周数
 
 >[!NOTE]
 >
@@ -238,7 +250,7 @@ CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言
 
 有关详细信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
-## 请参阅时间轴视图中的完整组名称和调整分组面板的大小
+## 在时间轴视图中显示完整的组名并调整分组面板的大小
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言
 >生产快速发布： 2026年8月13日
 >全部生产： 2026年10月15日
 
-在表视图中拖放行的体验在视觉上得到了改进。
+在表视图中拖放单行的体验在视觉上得到了改进。
 
 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
@@ -356,9 +368,6 @@ Workspace Manager现在可以定义连接的记录类型之间的依赖关系。
 
 
 有关信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
-
-
-
 
 ## 在表格视图中显示记录的新注释指示符
 
