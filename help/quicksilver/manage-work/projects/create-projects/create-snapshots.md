@@ -170,7 +170,7 @@ ht-degree: 2%
 
 1. 单击列表上方的&#x200B;**列**。
 
-   快照列表](assets/hide-display-columns-on-snapshot.png)的![列
+   快照列表![&#128279;](assets/hide-display-columns-on-snapshot.png)的列
 
 1. 使用切换可显示或隐藏列表中的列。
 1. 要重新排序列，请单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)并将列移动到所需的位置。 移动列会自动更改列表。
@@ -213,6 +213,6 @@ ht-degree: 2%
 
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义列表中的列](#customize-columns-in-a-list)。
-1. （可选）筛选列表。 有关详细信息，请参阅列表](#filter-items-in-a-list)中的[筛选项。
+1. （可选）筛选列表。 有关详细信息，请参阅列表[&#128279;](#filter-items-in-a-list)中的筛选项。
 
 对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。 有关视图的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。

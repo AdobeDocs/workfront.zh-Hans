@@ -110,7 +110,7 @@ ht-degree: 16%
 
   此列表和模块必须存储[!DNL Anaplan]正常功能所需的其他详细信息，包括设置预算并告知预算列表项已准备好同步回[!DNL Workfront]的功能。
 
-* 在Adobe Workfront ]**中名为**[!UICONTROL  Campaigns.Update Campaigns的[!DNL Anaplan]中的视图。
+* 在Adobe Workfront **中名为** Campaigns.Update Campaigns的[!DNL Anaplan]中的视图。
 
   此视图必须按以下顺序包含以下列：
 
@@ -150,24 +150,24 @@ ht-degree: 16%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户和所选工作区的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模块名称]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模块名称]</td> 
       <td>描述选定[!DNL Anaplan]列表中的促销活动属性的模块名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
+      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
       <td>您的[!DNL Anaplan]帐户和所选工作区和模型的列表名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]视图名称]</td> 
-      <td> <p>包含可传输到[!DNL Workfront]的营销活动预算的视图的名称。</p> <p>（示例：[！UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]视图名称]</td> 
+      <td> <p>包含可传输到[!DNL Workfront]的营销活动预算的视图的名称。</p> <p>（示例：[!UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
      </tr> 
     </tbody> 
    </table>

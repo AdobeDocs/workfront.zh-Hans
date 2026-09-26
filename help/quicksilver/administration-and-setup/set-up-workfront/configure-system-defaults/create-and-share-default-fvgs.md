@@ -60,12 +60,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
-       <p>[！UICONTROL计划]</p></td>
+   <td><p>[!UICONTROL 标准版]</p>
+       <p>[!UICONTROL 计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td> 
+   <td>[!UICONTROL 系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ ht-degree: 2%
    有关可用选项的信息，请参阅以下文章之一：
 
    * [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * 在[!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中[查看概述
+   * 在[!UICONTROL Adobe Workfront]&#x200B;[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中查看概述
    * [[!UICONTROL Adobe Workfront]中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 单击左下角附近的&#x200B;**[!UICONTROL 保存]**。

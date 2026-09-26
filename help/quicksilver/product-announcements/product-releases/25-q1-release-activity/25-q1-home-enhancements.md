@@ -29,7 +29,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第一季度版本中对“预览”环境所做的所有“优先级”增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 优先级增强概述
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 您现在可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
 
-有关详细信息，请参阅“优先级”工作列表](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[查看项目和任务详细信息。
+有关详细信息，请参阅“优先级”工作列表[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的查看项目和任务详细信息。
 
 ## 在优先级中上传和查看文档和验证
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 您现在可以从优先级工作列表直接导航到Workfront中的项目。
 
-有关详细信息，请参阅“优先级”工作列表](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[查看项目和任务详细信息。
+有关详细信息，请参阅“优先级”工作列表[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的查看项目和任务详细信息。
 
 ## 更新了“优先级”中“我的焦点”列中的选项
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 您现在可以在“优先级”的工作列表中查看项目详细信息和注释。
 
-有关详细信息，请参阅“优先级”工作列表](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[查看项目和任务详细信息。
+有关详细信息，请参阅“优先级”工作列表[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的查看项目和任务详细信息。
 
 ## 优先级增强演示视频
 

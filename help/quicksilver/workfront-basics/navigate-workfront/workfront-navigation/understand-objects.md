@@ -82,7 +82,7 @@ ht-degree: 2%
 
 有关[!DNL Workfront]中对象的完整列表，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
 
-*计划是[!DNL Adobe Workfront Scenario Planner]的对象。 有关[!DNL Scenario Planner]的信息，请参阅[方案规划器]概述](../../../scenario-planner/scenario-planner-overview.md)。[!UICONTROL 
+*计划是[!DNL Adobe Workfront Scenario Planner]的对象。 有关[!DNL Scenario Planner]的信息，请参阅[方案规划器]概述(../../../scenario-planner/scenario-planner-overview.md)。
 
 *[!UICONTROL 目标]是[!DNL Adobe Workfront Goals]的对象。 有关[!DNL Workfront Goals]的信息，请参阅[[!DNL Adobe Workfront Goals] 概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 >[!DNL Workfront]文档始终引用对象的默认名称。 作为[!DNL Workfront]管理员，请确保将对象名称的更改通知用户，以便他们了解如何使用[!DNL Workfront]文档，以及应用程序中没有反映对象名称更改的区域。
 
 * [可以使用[!UICONTROL 布局模板]自定义的对象名称](#object-names-that-can-be-customized-using-a-layout-template)
-* [ [!DNL Workfront] 中反映自定义对象名称的区域](#areas-of-workfront-that-reflect-the-customized-object-names)
+* [&#x200B; [!DNL Workfront] 中反映自定义对象名称的区域](#areas-of-workfront-that-reflect-the-customized-object-names)
 * [未反映自定义对象名称的 [!DNL Workfront] 区域](#areas-of-workfront-that-do-not-reflect-the-customized-object-names)
 
 ### 可以使用[!UICONTROL 布局模板]自定义的对象名称
@@ -157,7 +157,7 @@ ht-degree: 2%
 在[!DNL Workfront]中自定义对象名称时，您应了解以下事项：
 
 * 在系统显示中可能会遇到文体或语法错误。 例如，如果将“[!UICONTROL Issue]”重命名为“Request”，并且在系统中的任何位置都看到短语“An request”，则表示这是正常的，不应视为错误。
-* 对象的自定义名称不可翻译。 只能将[!DNL Workfront]默认名称翻译为支持的语言。 有关[!DNL Workfront]支持的语言的详细信息，请参阅 [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md)支持的[语言。 自定义对象名称字段支持外字符，因此您可以用任何语言输入术语。
+* 对象的自定义名称不可翻译。 只能将[!DNL Workfront]默认名称翻译为支持的语言。 有关[!DNL Workfront]支持的语言的详细信息，请参阅 [!DNL Adobe Workfront]&#x200B;[&#128279;](../../../workfront-basics/supported-languages-in-workfront.md)支持的语言。 自定义对象名称字段支持外字符，因此您可以用任何语言输入术语。
 * 当您使用[!UICONTROL 布局模板]自定义对象名称时，我们建议您根据业务部门（团队或组）分配[!UICONTROL 布局模板]。\
    我们建议您使用这些业务部门用户能够清晰理解的名称以避免混淆。
 * 电子邮件通知和传送的报告始终包含由生成电子邮件的用户的[!UICONTROL 布局模板]定义的对象名称。 如果您的用户从其他团队和组中的用户收到电子邮件通知，则您应当准备好在其电子邮件中看到与组或团队无关的对象名称。\
@@ -291,7 +291,7 @@ ht-degree: 2%
 * [!UICONTROL 分组]
 * [!UICONTROL 小时类型]
 * [!UICONTROL 计划]
-  * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为作为计划子对象的计划生成报告。 有关计划的信息，请参阅 [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)中的[计划概述。
+  * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为作为计划子对象的计划生成报告。 有关计划的信息，请参阅 [!DNL Workfront Scenario Planner]&#x200B;[&#128279;](../../../scenario-planner/initiatives-overview.md)中的计划概述。
 
 * 计划工作角色
   * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为计划中与计划关联的工作角色生成报告。 有关创建计划并将其与工作角色关联的信息，请参阅[在 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。

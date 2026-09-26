@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 正在启用[!DNL Basecamp]与[!DNL Workfront Proof]的集成
 
-作为 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件，您可以在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中为整个帐户设置[!DNL Basecamp]集成。
+作为 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件，您可以在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中为整个帐户设置[!DNL Basecamp]集成。
 
 1. 在[!UICONTROL Basecamp]中，收集以下信息：
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 在为贵组织设置[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)后，创建/提交验证的每位作者都应设置其[个人设置。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
-1. 转到&#x200B;**[!UICONTROL 个人&#x200B;**设置]**。
+1. 转到&#x200B;**[!UICONTROL 个人&#x200B;**&#x200B;设置]**。
 
 1. 打开&#x200B;**[!UICONTROL 集成]**&#x200B;选项卡(1)。
 1. 要启用[!DNL Basecamp]集成，请单击&#x200B;**[!UICONTROL 启用]** (2)。

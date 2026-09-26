@@ -93,7 +93,7 @@ ht-degree: 4%
 
    如果状态为组或子组，请在右上角开始键入组的名称，然后在该组出现时将其选定。
 
-   组](assets/system-statuses-in-upper-rt-corner-group-new-png.png)的![系统状态
+   组![&#128279;](assets/system-statuses-in-upper-rt-corner-group-new-png.png)的系统状态
 
 1. 选择要与状态关联的对象类型（**项目**、**任务**&#x200B;或&#x200B;**问题**）的选项卡。
 

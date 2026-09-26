@@ -96,7 +96,7 @@ Workfront现在禁用来自“预览沙盒”环境和“自定义刷新”环�
 
 有关更多信息，请参阅以下信息：
 
-* [在[Adobe Workfront预览沙盒环境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)中的Adobe Workfront预览沙盒环境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+* [&#128279;](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)在[Adobe Workfront预览沙盒环境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)中的Adobe Workfront预览沙盒环境。
 
 * [Adobe Workfront自定义刷新沙盒环境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)中的“从自定义刷新沙盒接收电子邮件”
 

@@ -123,7 +123,7 @@ ht-degree: 2%
 >您无法查看客户端密钥本身。 如果您丢失了客户端密钥，则必须将其删除并创建一个新密钥。
 >
 >* 要删除客户端密钥，请参阅本文中的[删除客户端密钥](#delete-client-secret)。
->* 若要创建新的客户端密钥，请参阅[为 [!DNL Workfront] 集成](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)中的[创建OAuth2应用程序。
+>* 若要创建新的客户端密钥，请参阅[为 [!DNL Workfront] 集成](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序[&#128279;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)中的创建OAuth2应用程序。
 >
 
 {{step-1-to-setup}}

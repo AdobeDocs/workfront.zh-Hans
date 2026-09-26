@@ -56,7 +56,7 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
 
 计划对象在Workfront Scenario Planner中为工作角色的类型和数量、固定成本和计划福利创建估计值。
 
-有关计划的详细信息，请参阅Scenario Planner](../../scenario-planner/initiatives-overview.md)中的[计划概述。
+有关计划的详细信息，请参阅Scenario Planner[&#128279;](../../scenario-planner/initiatives-overview.md)中的计划概述。
 
 <table>
   <col/>

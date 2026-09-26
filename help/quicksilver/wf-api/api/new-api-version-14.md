@@ -205,7 +205,7 @@ DocumentVersion对象表示文件的特定版本（如书面材料、图像或�
 
 组对象表示一组用户和团队。 组通常代表部门结构。
 
-有关组的详细信息，请参阅Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)中的[组与团队。
+有关组的详细信息，请参阅Adobe Workfront[&#128279;](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)中的组与团队。
 
 <table style="table-layout:auto"> 
  <col> 

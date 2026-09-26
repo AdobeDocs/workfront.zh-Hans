@@ -124,7 +124,7 @@ ht-degree: 9%
 | 分组 | 已还原为系统默认值 <p>现有分组不会被删除。 您可以再次选择它们。</p> |
 | 最新项目列表 | 已清除 |
 | 收藏夹列表 | 未受影响 |
-| 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的[事件通知中。</p> |
+| 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront[&#128279;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的事件通知中。</p> |
 
 ## 重置用户首选项
 

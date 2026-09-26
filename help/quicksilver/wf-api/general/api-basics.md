@@ -112,7 +112,7 @@ GET /attask/api/<supported-version>/proj/4c7c08b20000002de5ca1ebc19edf2d5
 返回类似于以下内容的JSON响应：
 
 
-<pre>{<br>“数据”： [<br> {<br> "percentComplete"： 0，<br> "状态"： "CUR"，<br> "priority"： 2，<br> "name"： "Brand New Project"，<br> "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br> } <br> ] <br></pre>
+<pre>&lbrace;<br>“数据”： [<br> {<br> "percentComplete"： 0，<br> "状态"： "CUR"，<br> "priority"： 2，<br> "name"： "Brand New Project"，<br> "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
@@ -348,7 +348,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 您可以使用字段请求参数指定返回的特定字段的逗号分隔列表。 例如，请求
 <pre>/attask/api/&lt;supported-version&gt;/task/search？fields=plannedStartDate，priority</pre>返回类似于以下内容的响应：
-<pre>{<br>“优先级”： 2，<br>“名称”：“第一个任务”，<br>“ID”：“4c7c08fa0000002ff924e298ee148df4”，<br>“plannedStartDate”：“2010-08-30T09:00:00:000-0600”<br></pre>
+<pre>&lbrace;<br>“优先级”： 2，<br>“名称”：“第一个任务”，<br>“ID”：“4c7c08fa0000002ff924e298ee148df4”，<br>“plannedStartDate”：“2010-08-30T09:00:00:000-0600”<br></pre>
 
 >[!NOTE]
 >
@@ -361,7 +361,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 可以搜索嵌套对象。 默认情况下，返回嵌套对象时只包含名称和ID。 例如，要了解所有问题及其所有者，请使用以下请求：
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner</pre>如果需要更多信息，您可以使用冒号语法请求嵌套字段。 例如，以下请求搜索所有问题以及所有者的姓名、ID、职务和电话号码
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner：title，owner：phoneNumber</pre>并返回以下内容： 
-<pre>{<br> “名称”： “重要问题”，<br> “ID”： “4c78285f00000908ea8cfd66e084939f”，<br> “所有者”： {<br> “标题”： “操作专员”，<br> “电话号码”： “555-1234”，<br> “名称”： “管理员用户”，<br> “ID”： “4c76ed7a0000054c172b2d9f7f81c3” <br> <br></pre>
+<pre>&lbrace;<br> “名称”： “重要问题”，<br> “ID”： “4c78285f00000908ea8cfd66e084939f”，<br> “所有者”： &lbrace;<br> “标题”： “操作专员”，<br> “电话号码”： “555-1234”，<br> “名称”： “管理员用户”，<br> “ID”： “4c76ed7a0000054c172b2d9f7f81c3” <br> <br></pre>
 
 #### 检索嵌套收藏集
 
@@ -380,7 +380,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 <pre>/attask/api/&lt;受支持的版本&gt;/project/search？fields=DE：CustomText</pre>会返回
 <pre>{<br> "name"： "custom data project"，<br> "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br> "DE：CustomText"： "task b" <br>}</pre>您还可以通过请求parameterValues字段来检索对象的所有自定义数据。 例如， 
 <pre>/attask/api/&lt;受支持的版本&gt;/project/search？fields=parameterValues</pre>返回类似于以下内容的数据：
-<pre>{<br> "name"： "custom data project"，<br> "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>参数值： { <br> "DE：CustomText"： "task b"， <br> "DE：CustomNumber"： 1.4， <br> "DE：CustomCheckBoxes"： ["first"， "second"， "third"] <br> } <br>}}</pre>
+<pre>{<br> "name"： "custom data project"，<br> "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>参数值： { <br> "DE：CustomText"： "task b"， <br> "DE：CustomNumber"： 1.4， <br> "DE：CustomCheckBoxes"： ["first"， "second"， "third"] <br> } <br>}&rbrace;</pre>
 
 #### 使用命名查询
 
@@ -506,7 +506,7 @@ POST /attask/api/<supported-version>/project?copySourceID=4c7...&name=Copied Pro
 您可以通过以下API URL上传文档：
 <pre>POST /attask/api/&lt;supported-version&gt;/upload</pre>API要求内容类型是multipart/form-data。 文件的参数名称必须是uploadedFile。 服务器返回以下JSON数据：
 <pre>{<br> "handle"： "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>创建Workfront文档时，您可以使用句柄并发布到以下URL：
-<pre>POST /attask/api/&lt;supported-version&gt;/document？updates={<br>名称： aFileName，<br>句柄： abc...123，（文件上载的句柄）<br> docObjCode： PROJ，（或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，文件名：aFileName}<br></pre>
+<pre>POST /attask/api/&lt;supported-version&gt;/document？updates=&lbrace;<br>名称： aFileName，<br>句柄： abc...123，（文件上载的句柄）<br> docObjCode： PROJ，（或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，文件名：aFileName}<br></pre>
 
 ## PUT行为
 
@@ -554,7 +554,7 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 
 以下示例演示了与团队共享项目的语法：
 <pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx/share？accessorID=123abcxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>在编辑对象时，可以通过执行PUT并发送类似于以下示例的更新来替换对象上的所有访问规则：
-<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxx？method=PUT&amp;updates={accessRules：[{accessorID：'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx'，accessorObjCode：'TEAMOB'，coreAction：'VIEW'}]</pre>以下示例显示了将任务从一个项目移动到另一个项目的语法：
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxx？method=PUT&amp;updates=&lbrace;accessRules：[{accessorID：'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx'，accessorObjCode：'TEAMOB'，coreAction：'VIEW'}]</pre>以下示例显示了将任务从一个项目移动到另一个项目的语法：
 <pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7.../move？projectID=5d8...</pre>
 
 ## DELETE行为
@@ -566,9 +566,9 @@ DELETE删除对象。 在每种情况下，URI都可以包含参数force=true �
 
 批量更新语句在单次API调用中同时更新多个对象。 批量创建API调用的构建方式与普通更新调用类似，如以下示例所示：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>或 <pre>PUSH /attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名称： "Test_Project_1"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:12:00:000-0400"，<br>状态： "CUR"<br>}，<br>{<br> ID： “53ff8d49003b43a2562aa34eea3b6b10”，<br>名称：“Test_Project_2”，<br>对象代码：“PROJ”，<br>完成百分比： 0usi，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期“2014-08-28T11:00:00:000-0400”，<br>优先级： 0，<br>预计完成日期：“2014-08-28T16:12:00:000-0400”，<br>状态：“CUR”<br>]</pre>您还可以执行与以下内容类似的批量更新：
+<pre>数据： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名称： "Test_Project_1"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:12:00:000-0400"，<br>状态： "CUR"<br>}，<br>&lbrace;<br> ID： “53ff8d49003b43a2562aa34eea3b6b10”，<br>名称：“Test_Project_2”，<br>对象代码：“PROJ”，<br>完成百分比： 0usi，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期“2014-08-28T11:00:00:000-0400”，<br>优先级： 0，<br>预计完成日期：“2014-08-28T16:12:00:000-0400”，<br>状态：“CUR”<br>]</pre>您还可以执行与以下内容类似的批量更新：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名称： "Test_Project_1_Edit"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br>计划开始日期： “2014-08-28T11:00:00:000-0400”，<br>优先级：0，<br>预计完成日期：“2014-08-28T16:16:00:000-0400”，<br>状态：“CUR”<br>}，<br>{<br> ID： “53ff8e19003b46238a58d303608de502”，<br>名称：“Test_Project_2_Edit”，<br>对象代码：“PROJ”，<br>完成百分比： 0，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期：“2018” t11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:16:00:000-0400"，<br>状态： "CUR"<br>]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
+<pre>数据： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名称： "Test_Project_1_Edit"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br>计划开始日期： “2014-08-28T11:00:00:000-0400”，<br>优先级：0，<br>预计完成日期：“2014-08-28T16:16:00:000-0400”，<br>状态：“CUR”<br>}，<br>&lbrace;<br> ID： “53ff8e19003b46238a58d303608de502”，<br>名称：“Test_Project_2_Edit”，<br>对象代码：“PROJ”，<br>完成百分比： 0，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期：“2018” t11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:16:00:000-0400"，<br>状态： "CUR"<br>]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
 
 >[!NOTE]
 >

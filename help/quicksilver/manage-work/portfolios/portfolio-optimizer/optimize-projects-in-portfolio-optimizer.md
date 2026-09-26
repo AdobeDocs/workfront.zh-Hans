@@ -57,16 +57,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[！UICONTROL标准版]</p>
-   <p>[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 标准版]</p>
+   <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目组合]和[！UICONTROL项目]的访问权限</p>  </td>
+   <td> <p>[!UICONTROL Edit]对[!UICONTROL 项目组合]和[!UICONTROL 项目]的访问权限</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p>  </td> 
+   <td> <p>项目组合的[!UICONTROL Manage]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +128,7 @@ Old
 
    这会更新&#x200B;**[!UICONTROL 得分]**&#x200B;列中每个项目的[!UICONTROL 得分]值。
 
-   有关[!UICONTROL Portfolio Optimizer]分数的信息，请参阅[Portfolio Optimizer]分数](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)的概述。[!UICONTROL 
+   有关[!UICONTROL Portfolio Optimizer]分数的信息，请参阅[Portfolio Optimizer]分数(../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)的概述。
 
 1. 为&#x200B;**[!UICONTROL 得分]**&#x200B;列设置正确的权重后，单击&#x200B;**[!UICONTROL 得分]**&#x200B;列的标题可按此列排序。 得分最高的项目显示在列表顶部。
 

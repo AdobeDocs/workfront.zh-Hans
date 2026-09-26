@@ -25,7 +25,7 @@ ht-degree: 0%
 
 您可以查看并解析验证上的现有注释，并向验证文档添加新注释和批注。
 
-您对校样的评论访问权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+您对校样的评论访问权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 >[!NOTE]
 >

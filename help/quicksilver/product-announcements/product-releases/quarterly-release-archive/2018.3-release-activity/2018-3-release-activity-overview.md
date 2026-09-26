@@ -166,7 +166,7 @@ API版本10现已在“预览”环境中可用。 它将在18.3版本的生产�
 
 为了提供最佳安全性，Workfront要求将使用TLS 1.0或更早版本的所有集成和Web流量升级为使用TLS 1.1或更高版本。 此更改已在“预览”环境中生效。
 
-有关详细信息，请参阅Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的[TLS 1.2。
+有关详细信息，请参阅Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
 
 ### JSONP支持即将结束 {#jsonp-support-is-ending}
 

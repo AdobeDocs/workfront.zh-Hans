@@ -48,12 +48,12 @@ ht-degree: 0%
 
 2017.3 Beta最终版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [在审批设置区域重新调用请求的新配置](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [配置默认验证角色](#configure-default-proof-roles)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 
@@ -163,7 +163,7 @@ Workfront中的Scrum和Kanban Agile方法在以下方面有所不同：
 
 有关在积压工作中使用问题的信息，请参阅[管理Agile积压工作](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-有关使问题在Agile Scrum团队的积压中可用的信息，请参阅[在[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中配置将工作项添加到迭代时日期的应用方式](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)。
+有关使问题在Agile Scrum团队的积压中可用的信息，请参阅[&#128279;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)在[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中配置将工作项添加到迭代时日期的应用方式。
 
 ## 包含有关Scrum敏捷故事板的问题 {#include-issues-on-the-scrum-agile-story-board}
 

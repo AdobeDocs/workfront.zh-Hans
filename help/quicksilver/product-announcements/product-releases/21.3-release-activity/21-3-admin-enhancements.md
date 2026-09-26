@@ -45,7 +45,7 @@ Blueprint提供了基本构建块，帮助您创建随增长而增长的工作�
 
 有关详细信息，请参阅[Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的[项目模板中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的项目模板中。
 
 ## 组管理员的新增功能：创建和管理任何级别组的状态
 
