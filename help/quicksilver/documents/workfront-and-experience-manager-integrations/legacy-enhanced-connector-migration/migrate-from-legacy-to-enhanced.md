@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 > 对于希望对增强型连接器进行认证的合作伙伴，请查看以下文章：[Workfront for Experience Manager增强型连接器专家系列](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview)。
 
-要实施增强连接器，请参阅[为Experience Manager增强连接器配置Workfront](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)。
+要实施增强连接器，请参阅[为Experience Manager增强连接器配置Workfront](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)。
 
 
 ## 移动现有资源

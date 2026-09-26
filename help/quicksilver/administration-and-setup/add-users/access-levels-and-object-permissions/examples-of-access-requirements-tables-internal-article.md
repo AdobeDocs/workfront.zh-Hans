@@ -421,10 +421,10 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
+有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
 
 
-有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 高级企业控制
 
@@ -439,7 +439,7 @@ ht-degree: 26%
 * 工作流Prime和更高版本
 * Workfront Prime和更高版本
 
-有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。
+有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/cn/products/workfront/pricing.html)。
 
 高级企业控制：
 
@@ -484,9 +484,9 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
+有关此表中信息的更多详细说明，请参阅[文档中的访问权限要求](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)。
 
-有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关 Adobe Workfront Fusion 许可证的详细信息，请参阅 [Adobe Workfront Fusion 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 

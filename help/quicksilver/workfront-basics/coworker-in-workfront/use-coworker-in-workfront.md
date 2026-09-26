@@ -82,14 +82,14 @@ ht-degree: 3%
    * **麦克风**：使用语音输入听写邮件。 再次选择可停止录制。
    * **发送**：发送消息。 当同事聊天正在响应时，这将变为可用于中断的停止控制。
 
-   有关这些操作的详细信息，请参阅Adobe CX Coworker文档中的[聊天输入框](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)。
+   有关这些操作的详细信息，请参阅Adobe CX Coworker文档中的[聊天输入框](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)。
 
 1. 要查看和管理以前的聊天，请单击CX Coworker面板中的“聊天”图标![聊天图标](assets/ai-icon.png)。
 
-   有关聊天的详细信息，请参阅Adobe CX Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
+   有关聊天的详细信息，请参阅Adobe CX Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 1. 要查看和管理聊天项目，如输出列表，请单击“项目”图标![项目图标](assets/artifacts-icon.png)。
 
-   有关CX Coworker中项目的更多信息，请参阅Adobe CX Coworker文档中的[项目](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)。
+   有关CX Coworker中项目的更多信息，请参阅Adobe CX Coworker文档中的[项目](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)。
 1. 要管理同事的设置，请单击“设置”图标![设置](assets/coworker-settings-icon.png)。
 1. 要展开“同事”面板，请单击“展开”图标![展开图标](assets/coworker-expand-icon.png)。
 1. 要进入Adobe CX Coworker界面，请单击页面右上角的“应用程序”图标![应用程序图标](assets/apps-icon.png)，然后从可用应用程序列表中选择“同事”。

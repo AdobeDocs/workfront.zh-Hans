@@ -332,19 +332,19 @@ Beta版计划结束后发布的功能将在发布时的当前发行页面中显�
 
 发布了以下维护更新，用于注释测试版的问题和目标：
 
-编辑评论时编辑附加的图像 有关信息，请参阅&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates于2023年4月</a>发表的文章中的“4月27日维护更新”部分。
+编辑评论时编辑附加的图像 有关信息，请参阅&lt;a href=&quot;https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates于2023年4月</a>发表的文章中的“4月27日维护更新”部分。
 
 ### 2023 年 4 月 20 日
 
 发布了以下维护更新，用于注释测试版的问题和目标：
 
-离开注释测试版体验中的目标和问题的更新时，将图像保留为草稿。 有关信息，请参阅2023年4月文章&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a>中的“4月20日维护更新”部分。
+离开注释测试版体验中的目标和问题的更新时，将图像保留为草稿。 有关信息，请参阅2023年4月文章&lt;a href=&quot;https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a>中的“4月20日维护更新”部分。
 
 ### 2023 年 4 月 17 日
 
 发布了以下维护更新，用于注释测试版的问题和目标：
 
-在问题（新评论Beta体验）和目标的“更新”部分中，显示可见屏幕区域之外的新评论。 有关信息，请参阅2023年4月文章&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a>中的“4月17日维护更新”部分。
+在问题（新评论Beta体验）和目标的“更新”部分中，显示可见屏幕区域之外的新评论。 有关信息，请参阅2023年4月文章&lt;a href=&quot;https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a>中的“4月17日维护更新”部分。
 
 
 ### 2023年4月6日起一周

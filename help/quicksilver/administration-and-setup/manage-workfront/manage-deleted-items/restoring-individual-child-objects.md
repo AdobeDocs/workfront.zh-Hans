@@ -55,7 +55,7 @@ Workfront管理员可以恢复每个Workfront实例中的项目、任务、问�
 
 在周末的维护时段中刷新预览Sandbox环境。
 
-有关“预览Sandbox”环境的维护窗口的详细信息，请参阅[Adobe状态网站](https://status.adobe.com)。
+有关“预览Sandbox”环境的维护窗口的详细信息，请参阅[Adobe状态网站](https://status.adobe.com/zh-cn)。
 
 >[!IMPORTANT]
 >

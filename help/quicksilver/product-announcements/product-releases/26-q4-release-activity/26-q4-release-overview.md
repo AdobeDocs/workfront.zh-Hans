@@ -742,8 +742,8 @@ ht-degree: 2%
 
 这项更改是在2026年4月Workfront发行说明中首次宣布的，这是在截止日期前的最后提醒。 请确保所有受影响的读者用户在2026年8月8日之前启用MFA，以避免其访问中断。
 
-有关信息，请参阅[为Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)创建读取器帐户或连接。
+有关信息，请参阅[为Snowflake](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/reporting/data-lake/create-a-reader-account)创建读取器帐户或连接。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
