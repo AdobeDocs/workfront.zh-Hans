@@ -7,13 +7,23 @@ description: 您可以与审阅人共享和审阅各种类型的文件，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 # 支持的校对文件类型和大小限制概述
 
 <!--Audited: 12/2023-->
@@ -227,12 +237,12 @@ Workfront具有以下限制：
 * MKV
 * 输入音频编解码器（视频的一部分）
 
-   * MP3
-   * AAC/AAC-HE
-   * Windows Media
-   * PCM/WAV/AIFF
-   * AMR
-   * Ogg Vorbis
+  * MP3
+  * AAC/AAC-HE
+  * Windows Media
+  * PCM/WAV/AIFF
+  * AMR
+  * Ogg Vorbis
 
 ## 音频文件
 

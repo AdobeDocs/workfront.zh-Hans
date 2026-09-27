@@ -8,25 +8,31 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-TQID: https://experienceleague.adobe.com/jwRUKjxTd--9vcxXsfkbiPmrC1SsR-V8rjOdcXFfKCg
+TQID: 'https://experienceleague.adobe.com/jwRUKjxTd--9vcxXsfkbiPmrC1SsR-V8rjOdcXFfKCg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 631
+source-wordcount: '631'
 ht-degree: 6%
-
 ---
-
 # 创建或自定义问题严重性
 
 <!--
@@ -129,10 +135,10 @@ Workfront有五个内置的问题严重性：
 
      默认严重性以图标![默认严重性图标](assets/default-icon.png)表示。 要选择新的缺省值，请执行下列操作之一：
 
-      * 选中严重性名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**设为默认值**。
-      * 将鼠标悬停在严重性名称上，然后单击出现的&#x200B;**更多**&#x200B;菜单。 然后，选择&#x200B;**设为默认值**。
+     * 选中严重性名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**设为默认值**。
+     * 将鼠标悬停在严重性名称上，然后单击出现的&#x200B;**更多**&#x200B;菜单。 然后，选择&#x200B;**设为默认值**。
 
-        新的默认严重性带有图标的标签。
+       新的默认严重性带有图标的标签。
 
    * **描述**：键入严重程度的描述以说明其功能。
    * **隐藏选择**：选择&#x200B;**是**&#x200B;可隐藏不再需要的严重程度。

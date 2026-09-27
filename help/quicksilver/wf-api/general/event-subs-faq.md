@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # 常见问题解答 — 活动订阅
 
 <!--
@@ -70,16 +74,16 @@ ht-degree: 0%
 * 大型项目上长期运行的计算或时间表计算可能会导致向事件订阅发布的消息延迟使用。
 * 订阅可能已禁用。
 
-   * 在100条消息的宽限期后，如果特定URL（可能与一个或多个订阅关联）70%以上时间失败，或者URL在2000次连续尝试后无法交付，则不会尝试交付与具有同一URL的订阅匹配的所有消息。 相反，这些消息会立即排队等候重试。
+  * 在100条消息的宽限期后，如果特定URL（可能与一个或多个订阅关联）70%以上时间失败，或者URL在2000次连续尝试后无法交付，则不会尝试交付与具有同一URL的订阅匹配的所有消息。 相反，这些消息会立即排队等候重试。
 
-     禁用URL后，每隔10分钟，我们都会尝试投放通过处理的下一个消息。 如果消息成功，则重新启用该URL并随后启用任何匹配订阅。 如果该消息无法发送，则该10分钟计时器将重置，并在其过期后重试。
+    禁用URL后，每隔10分钟，我们都会尝试投放通过处理的下一个消息。 如果消息成功，则重新启用该URL并随后启用任何匹配订阅。 如果该消息无法发送，则该10分钟计时器将重置，并在其过期后重试。
 
-     此行为可视为投放不一致或延迟，但它只是遵循我们的策略来处理事件订阅消息。
+    此行为可视为投放不一致或延迟，但它只是遵循我们的策略来处理事件订阅消息。
 
-   * 如果满足以下任一条件，则将硬禁用事件订阅URL：
+  * 如果满足以下任一条件，则将硬禁用事件订阅URL：
 
-      * 订阅URL已失败7天，在过去72小时内已尝试连续投放至少2000次。
-      * 订阅URL未能提供50,000次连续尝试。
+    * 订阅URL已失败7天，在过去72小时内已尝试连续投放至少2000次。
+    * 订阅URL未能提供50,000次连续尝试。
 
 ## 如果在尝试调用事件订阅API时收到500响应状态，我应该怎么做？
 

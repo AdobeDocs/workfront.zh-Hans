@@ -2,30 +2,38 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: 正在复制 [!DNL Workfront Proof]中的校对
+title: 在[!DNL Workfront Proof]中复制校样
 description: 对验证具有编辑权限的查看者可以创建验证的副本，作为现有验证的新版本或新验证。 (有关更多信息，请参阅。 有关编辑权限的信息，请参阅Workfront Proof中的验证权限配置文件。)
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-TQID: https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8
+TQID: 'https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中复制校样
 
 >[!IMPORTANT]
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-对验证具有编辑权限的查看者可以创建验证的副本，作为现有验证的新版本或新验证。 (有关更多信息，请参阅。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。)
+对验证具有编辑权限的查看者可以创建验证的副本，作为现有验证的新版本或新验证。 (有关更多信息，请参阅。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。)
 
 原始校对中的审阅人会自动显示在[!UICONTROL 复制校对]页面的[!UICONTROL 共享]部分中，但可以将其删除。 如果删除了审核者，其注释将保留。
 
@@ -35,7 +43,7 @@ ht-degree: 0%
 
 ## 复制验证
 
-1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目中所述。
+1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目中所述。
 
 1. 打开校样的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。\
    ![更多菜单](assets/more-button-small.png)
@@ -71,7 +79,7 @@ ht-degree: 0%
 
 * **文件夹详细信息页面**。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理文件夹及其内容。
 
-* **任何列表视图页面**。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的“查看次数”页面上的管理项目。
+* **任何列表视图页面**。 有关详细信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的“查看次数”页面上的管理项目。
 
 ## 为新验证复制现有验证设置
 
@@ -79,7 +87,7 @@ ht-degree: 0%
 
 要为新验证复制现有验证设置，请执行以下操作：
 
-1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目中所述。
+1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目中所述。
 
 1. 打开校样的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。\
    ![更多菜单](assets/more-button-small.png)

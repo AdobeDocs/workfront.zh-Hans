@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8
+TQID: 'https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '402'
 ht-degree: 3%
-
 ---
-
 # 更改[!UICONTROL Scrum]展示板上故事的顺序
 
 故事在故事板上出现的顺序不指示优先级。 但是，它可以通过使故事更显眼来影响人们眼中的优先顺序。 优先级在积压中定义，当故事被引入故事板时，它们没有设置的优先级，因为它们将在迭代时间范围内被处理。 如果故事返回到积压，则您可以在那里重新排序它们以显示优先级。

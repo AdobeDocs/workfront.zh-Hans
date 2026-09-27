@@ -8,27 +8,35 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+TQID: 'https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '720'
 ht-degree: 2%
-
 ---
-
 # 在项目组合中导航
 
 <!--Audited: 08/2025-->
@@ -114,7 +122,7 @@ Old:
    * **[!UICONTROL 所有]**：包含您至少拥有查看权限的所有项目组合。
 
      有关访问项目组合的详细信息，请参阅[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
-有关项目组合权限的更多信息，请参阅[共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
+     有关项目组合权限的详细信息，请参阅[共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
      要添加新项目组合，请参阅[创建项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
@@ -131,9 +139,9 @@ Old:
 
    * **[!UICONTROL 活动]**：包括与处于以下状态的选定项目组合关联的所有项目：
 
-      * [!UICONTROL 计划]
-      * [!UICONTROL 已批准]
-      * [!UICONTROL 当前]
+     * [!UICONTROL 计划]
+     * [!UICONTROL 已批准]
+     * [!UICONTROL 当前]
    * **[!UICONTROL 已请求]**：包括与选定项目组合关联的项目，其状态为&#x200B;**[!UICONTROL 已请求]**。
 
      有关审阅请求项目的信息，请参阅[审阅请求的项目](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)。

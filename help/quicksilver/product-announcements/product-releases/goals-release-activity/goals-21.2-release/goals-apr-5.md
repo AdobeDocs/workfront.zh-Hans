@@ -7,20 +7,29 @@ description: 本页介绍了在2021年4月5日这一周的“预览”环境中�
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+TQID: 'https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront Goals 21.2发布活动： 2021年4月5日开始的周
 
 本页介绍了在2021年4月5日这一周的“预览”环境中，Adobe Workfront目标的21.2版本所做的所有增强。 这些增强功能将于21.2的第一季度在“生产”环境中提供。
@@ -41,15 +50,15 @@ ht-degree: 1%
 
 * 创建目标报表。 这是“报表”区域中的新报表对象。 您现在可以在“目标”报表中显示有关目标的各种信息（例如：名称、所有者、日期、进度等），其中包括：
 
-   * 目标层次结构：显示所有父目标以及它们如何相互连接。
-   * 是公司目标：指示您的组织是否被指定为目标的所有者
-   * 所有者类型：指示目标的所有者是用户、团队还是组。
+  * 目标层次结构：显示所有父目标以及它们如何相互连接。
+  * 是公司目标：指示您的组织是否被指定为目标的所有者
+  * 所有者类型：指示目标的所有者是用户、团队还是组。
 
 * 创建显示目标信息的项目报告，包括以下内容：
 
-   * 目标等级
-   * 目标：这是一个收集字段，可显示与项目关联的所有目标。
-   * 关联目标的数量：与项目关联的目标数量。
+  * 目标等级
+  * 目标：这是一个收集字段，可显示与项目关联的所有目标。
+  * 关联目标的数量：与项目关联的目标数量。
 
 有关查找项目目标信息的信息，请参阅[在Adobe Workfront目标中添加项目](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 

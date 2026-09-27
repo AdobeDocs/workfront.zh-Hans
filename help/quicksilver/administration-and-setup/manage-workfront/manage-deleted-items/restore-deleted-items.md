@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 4%
-
 ---
-
 # 还原已删除的项目
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 * 状态
 * 财务资料：
 
-   * 账单记录
-   * 记帐费率
-   * 费用
+  * 账单记录
+  * 记帐费率
+  * 费用
 
 * 时间线信息：
 
-   * 前置任务
-   * 任务限制
-   * 持续时间类型
+  * 前置任务
+  * 任务限制
+  * 持续时间类型
 
 * 基线
 
@@ -125,12 +132,12 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
   恢复文档和文档版本时，请考虑以下事项：
 
-   * 可以单独恢复单独删除的文档。
+  * 可以单独恢复单独删除的文档。
 
-     当您恢复父级时，会恢复与其父级项目、任务或问题一起被删除的文档，但无法单独恢复它们。
+    当您恢复父级时，会恢复与其父级项目、任务或问题一起被删除的文档，但无法单独恢复它们。
 
-   * 文档或文档验证的所有版本在文档恢复后都会恢复。\
-     无法恢复单独删除的文档或文档验证的单独版本。
+  * 文档或文档验证的所有版本在文档恢复后都会恢复。\
+    无法恢复单独删除的文档或文档验证的单独版本。
 
 ## 恢复项目、任务或问题时未恢复的信息
 
@@ -179,13 +186,13 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 恢复项目后：
 
-   * 系统会显示一条消息，让您知道自己是否成功。
+  * 系统会显示一条消息，让您知道自己是否成功。
 
-     您还会收到电子邮件通知。 如果恢复多个项目，电子邮件会列出它们。
+    您还会收到电子邮件通知。 如果恢复多个项目，电子邮件会列出它们。
 
-   * 项目、任务或问题的更新区域以及父对象的更新区域中都将显示一个注释。
+  * 项目、任务或问题的更新区域以及父对象的更新区域中都将显示一个注释。
 
-     当您恢复文档或模板时，不会发生这种情况。
+    当您恢复文档或模板时，不会发生这种情况。
 
 ## 已恢复校对
 

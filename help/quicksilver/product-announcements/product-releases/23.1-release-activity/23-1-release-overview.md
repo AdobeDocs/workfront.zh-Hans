@@ -6,31 +6,43 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-TQID: https://experienceleague.adobe.com/Ncl4u9f8zfI-DC671HutyHlrb0MAb0djOoUiYe90Vf8
+TQID: 'https://experienceleague.adobe.com/Ncl4u9f8zfI-DC671HutyHlrb0MAb0djOoUiYe90Vf8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+    internal-label: Adobe Workfront for Creative Cloud Plugin
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2558
+source-wordcount: '2577'
 ht-degree: 1%
-
 ---
-
 # 23.1发行版概述
 
 本页介绍了23.1版本中包含的功能。
@@ -141,7 +153,7 @@ ht-degree: 1%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront展示板的Scrum规划</a><span style="color: #ff0000;">即将推出！</span></p>
-                        <p>Adobe Workfront展示板中的新Scrum规划功能提供了灵活的选项来管理您的Agile流程。使用这些工具，您可以：
+                        <p>Adobe Workfront展示板中的新Scrum规划功能提供了灵活的选项来管理您的Agile流程。 使用这些工具，您可以：
                         <ul>
                         <li>跟踪迭代或冲刺中的工作</li>
                         <li>使用Velocity指导团队承诺</li>
@@ -416,7 +428,7 @@ ht-degree: 1%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在“设置”区域的“筛选器”、“视图”和“分组”页面中新增列表控件功能。</a></p>
-                        <p>我们已在“设置”区域的“筛选器”、“视图”和“分组”页面中添加了列表控制功能。在那里，您可以为布局模板启用或禁用筛选器、视图和分组。
+                        <p>我们已在“设置”区域的“筛选器”、“视图”和“分组”页面中添加了列表控制功能。 在那里，您可以为布局模板启用或禁用筛选器、视图和分组。
 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

@@ -3,28 +3,38 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: 疑难解答 —  [!DNL Workfront Proof] 校对查看器
+title: 疑难解答 — [!DNL Workfront Proof]验证查看器
 description: 如果未加载校对内容，并且您只能看到空的校对查看器，很可能是因为某些内容在本地阻止了此操作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+TQID: 'https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '980'
 ht-degree: 0%
-
 ---
-
 # 疑难解答 — [!DNL Workfront Proof]验证查看器
 
 <!-- Audited: 01/2024 -->
@@ -79,16 +89,16 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 * 如果您每天使用一个浏览器，并且无法在其中查看验证，请尝试在计算机上的其他浏览器中打开相同的验证。 要实现此目的，只需复制主浏览器URL栏中的验证链接，并将其粘贴到其他浏览器中即可。 如果验证在此处打开，请检查您的主浏览器配置、插件和扩展，因为这些可能会干扰。
 * 我们没有任何首选浏览器，但如果您当前浏览器出现任何性能问题，我们建议您切换到其他浏览器。
 * 验证是否会在您所在位置的其他计算机上打开？
-如果您的校对未在计算机上的任何浏览器中打开，请尝试在您所在位置和/或您所在位置之外的其他计算机上打开它。这将允许您确定特定计算机上是否有问题，或者问题是否位于本地网络中。
+如果您的校对未在计算机上的任何浏览器中打开，请尝试在您所在位置和/或您所在位置之外的其他计算机上打开它。 这将允许您确定特定计算机上是否有问题，或者问题是否位于本地网络中。
 如果安全级别更高，则与[!DNL Workfront Proof]的连接可能被阻止：
 
-   * 您的本地AV软件
-   * 您的网络安全解决方案
-   * DNS、防火墙或代理配置
-   * 这些设置超出了我们的控制范围。 有多种安全解决方案可用，我们无法分辨哪些解决方案在您的网络中已实现，哪些解决方案可能会阻止与[!DNL Workfront Proof]的连接。 也不能[!DNL Workfront Proof]决定您的内部安全配置。 如果在您所在位置/网络中的多台计算机上打开验证时遇到问题，我们建议您联系IT团队，以便他们检查网络设置并根据需要授权或将[!DNL Workfront Proof]添加到允许列表。
+  * 您的本地AV软件
+  * 您的网络安全解决方案
+  * DNS、防火墙或代理配置
+  * 这些设置超出了我们的控制范围。 有多种安全解决方案可用，我们无法分辨哪些解决方案在您的网络中已实现，哪些解决方案可能会阻止与[!DNL Workfront Proof]的连接。 也不能[!DNL Workfront Proof]决定您的内部安全配置。 如果在您所在位置/网络中的多台计算机上打开验证时遇到问题，我们建议您联系IT团队，以便他们检查网络设置并根据需要授权或将[!DNL Workfront Proof]添加到允许列表。
 
 * 您的网络中是否允许连接到[!DNL Workfront Proof]？
-在验证查看器中，我们加载拼贴 — 页面的片段。如果在您的终端未正确加载此内容，则可能是网络中阻止了与[!DNL Workfront Proof]的某些连接。您需要确保将所有连接和来自*.proofhq.com的所有内容添加到允许列表中。您的IT团队应该能够帮助验证这一点。
+在验证查看器中，我们加载拼贴 — 页面的片段。 如果此内容在您的终端未正确加载，则可能是网络中与[!DNL Workfront Proof]的某些连接被阻止。 您需要确保将所有连接和来自*.proofhq.com的所有内容添加到允许列表中。 您的IT团队应该能够帮助验证这一点。
 
 ## 查看插件
 

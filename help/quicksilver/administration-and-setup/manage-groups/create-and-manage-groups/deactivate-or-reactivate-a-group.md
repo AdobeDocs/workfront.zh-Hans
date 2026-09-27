@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+TQID: 'https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 2%
-
 ---
-
 # 停用或重新激活组
 
 您可以停用您管理的不再使用的组。
@@ -99,16 +106,16 @@ ht-degree: 2%
 
 * 停用组不会更改以下内容：
 
-   * 组与对象的关联。 关联的对象将继续像以前一样工作，不会发生任何更改。
+  * 组与对象的关联。 关联的对象将继续像以前一样工作，不会发生任何更改。
 
-     例如，如果项目与您取消激活的组相关联，则项目将继续使用组的首选项和状态，而不做任何更改。
+    例如，如果项目与您取消激活的组相关联，则项目将继续使用组的首选项和状态，而不做任何更改。
 
-   * 您可以在“设置”中从组的页面内创建新对象，如批准、团队或公司。 默认情况下，新对象与非活动组相关联。
-   * 作为管理员，您能够在过滤器和报表中查找组。
+  * 您可以在“设置”中从组的页面内创建新对象，如批准、团队或公司。 默认情况下，新对象与非活动组相关联。
+  * 作为管理员，您能够在过滤器和报表中查找组。
 
-     您还可以在组预输入字段中找到该组，您可能希望在该字段的“设置”区域中管理组的设置。 这包括“首选项”、“事件通知”和“系统许可证”区域。
+    您还可以在组预输入字段中找到该组，您可能希望在该字段的“设置”区域中管理组的设置。 这包括“首选项”、“事件通知”和“系统许可证”区域。
 
-     例如，如果您转到设置>项目偏好设置>项目，并清除其中选项上方的前进键入字段，则仍可找到不活动的组并配置其项目偏好设置。
+    例如，如果您转到设置>项目偏好设置>项目，并清除其中选项上方的前进键入字段，则仍可找到不活动的组并配置其项目偏好设置。
 
 ## 关于重新激活非活动父组下的子组 {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 

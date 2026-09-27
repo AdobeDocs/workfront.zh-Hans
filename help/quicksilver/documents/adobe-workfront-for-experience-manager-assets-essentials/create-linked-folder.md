@@ -7,23 +7,33 @@ description: 在Workfront中，您可以创建与Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-TQID: https://experienceleague.adobe.com/fGs1kZQXTTMioosnBsRBKKpS3q--m5PHKYg-tHrq-b8
+TQID: 'https://experienceleague.adobe.com/fGs1kZQXTTMioosnBsRBKKpS3q--m5PHKYg-tHrq-b8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 4%
-
+source-wordcount: '491'
+ht-degree: 3%
 ---
-
 # 创建与Experience Manager Assets或Assets Essentials链接的文件夹
 
 在Workfront中，您可以创建与Experience Manager Assets或Assets Essentials链接的文件夹。 由于该文件夹已链接，因此添加到该文件夹的任何资源都将自动显示在Workfront和Experience Manger中。 如果资产位于链接的文件夹中，则无需手动发送。
@@ -32,8 +42,8 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->此功能在新建文档区域不可用。<br>
->如果您的组织使用Adobe云存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。从该位置，您可以从Experience Manager Assets或Assets Essentials添加资源，但无法创建链接文件夹。
+>此功能在新的“文档”区域中不可用。<br>
+>如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 从该位置，您可以从Experience Manager Assets或Assets Essentials添加资源，但无法创建链接文件夹。
 
 ## 访问权限要求
 
@@ -69,7 +79,7 @@ ht-degree: 4%
   <tr>
    <td><strong>访问级别配置</strong>
    </td>
-   <td>您必须是Workfront管理员才能配置Experience Manager集成。配置后，具有Standard或Plan许可证的用户可以在单个项目上设置链接文件夹。
+   <td>您必须是Workfront管理员才能配置Experience Manager集成。 配置后，具有Standard或Plan许可证的用户可以在单个项目上设置链接文件夹。
    </td>
   </tr>
 </table>
@@ -105,5 +115,5 @@ ht-degree: 4%
    >
    >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Experience Manager Assets或Assets Essentials。
 
-1. 选择&#x200B;**创建链接文件夹**。系统会根据设置集成时指定的位置，在Experience Manager中自动创建文件夹。
+1. 选择&#x200B;**创建链接文件夹**。 系统会根据设置集成时指定的位置，在Experience Manager中自动创建文件夹。
    ![创建链接文件夹](assets/linked-folder.png)

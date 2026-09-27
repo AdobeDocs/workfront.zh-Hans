@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: 正在下载您的 [!DNL Workfront Proof] 发票
+title: 正在下载您的[!DNL Workfront Proof]发票
 description: 在新计费期的第一天，您的订阅发票将发送给您帐户上的主要计费联系人，以及“计费抄送”电子邮件地址（如果已定义）。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
-TQID: https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g
+TQID: 'https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '386'
 ht-degree: 0%
-
 ---
-
 # 正在下载您的[!DNL Workfront Proof]发票
 
 >[!IMPORTANT]
@@ -51,7 +60,7 @@ ht-degree: 0%
 >
 > 如果已收到该发票的付款（例如，对于自动信用卡付款），则付款条件和到期日期将显示为已付，付款的参考编号将显示在说明中。
 
-默认情况下，我们会对订阅开具所有以美元显示的自动发票，但是对于所有英国组织，我们会在文档中纳入增值税(VAT)金额（美元和英镑）。 如果您希望收到完全以GBP为单位的订购发票，请通过[finance@proofhq.com](mailto:finance@proofhq.com)联系我们的财务团队。
+默认情况下，我们在USD中为订阅开具所有自动发票，但是对于所有英国组织，我们会在文档中纳入增值税(VAT)金额（在USD和斯特林中）。 如果您希望收到完全以GBP为单位的订购发票，请通过[finance@proofhq.com](mailto:finance@proofhq.com)联系我们的财务团队。
 
 * [正在下载您的发票](#downloading-your-invoice)
 * [有用链接](#useful-links)

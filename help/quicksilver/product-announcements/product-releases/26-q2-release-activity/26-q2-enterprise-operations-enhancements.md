@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1381'
 ht-degree: 0%
-
 ---
-
 # 2026年第二季度企业运营增强功能
 
 本页介绍了在2026年第二季度发行版中对“预览”环境进行的企业运营增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -36,7 +43,7 @@ Adobe Workfront的高级企业操作功能是一种管理财务、项目和企�
 
 通过多级成本和记帐费率层次结构预测、跟踪和优化您的财务。
 
-[观看高级财务管理功能的13分钟视频演示。](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[观看有关高级财务管理功能的13分钟视频演示。](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 财务管理的增强功能包括：
 
@@ -128,9 +135,9 @@ Adobe Workfront的高级企业操作功能是一种管理财务、项目和企�
   >新逻辑类型仅适用于Workflow Prime或Ultimate包中的组织。
 
 * 表单设计器界面的增强功能：
-   * 表单名称现在显示在设计器的左上角，允许您在滚动时查看长表单的名称。
-   * 表单可以附加到的对象类型位于下拉列表中。
-   * 对于所有逻辑类型，您可以选择在字段中显示或隐藏逻辑指示器。 显示和跳过逻辑类型显示两个受影响字段的指示器。 所有其他逻辑类型会影响一个字段。
+  * 表单名称现在显示在设计器的左上角，允许您在滚动时查看长表单的名称。
+  * 表单可以附加到的对象类型位于下拉列表中。
+  * 对于所有逻辑类型，您可以选择在字段中显示或隐藏逻辑指示器。 显示和跳过逻辑类型显示两个受影响字段的指示器。 所有其他逻辑类型会影响一个字段。
 
   有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 

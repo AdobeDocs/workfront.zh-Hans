@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+TQID: 'https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '550'
 ht-degree: 4%
-
 ---
-
 # 删除组状态
 
 作为组管理员，您可以删除您管理的组的状态（如果该组未在系统级别配置为必需或已锁定状态），或者删除层次结构中较高组的状态。
@@ -88,10 +94,10 @@ ht-degree: 4%
 
    * **如果锁定**：以下项之一为true：
 
-      * 如果有其他锁定、非隐藏状态，则只有这些状态可用。
-      * 如果没有锁定的非隐藏状态，则默认的Workfront状态将可用，即使处于隐藏或未锁定状态也是如此。
+     * 如果有其他锁定、非隐藏状态，则只有这些状态可用。
+     * 如果没有锁定的非隐藏状态，则默认的Workfront状态将可用，即使处于隐藏或未锁定状态也是如此。
 
-        有关默认Workfront状态的信息，请参阅[访问系统项目状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)，[访问系统任务状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)，以及[中有关4个必需问题状态的信息。访问系统问题状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)。
+       有关默认Workfront状态的信息，请参阅[访问系统项目状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)，[访问系统任务状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)，以及[中有关4个必需问题状态的信息。访问系统问题状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)。
 
 1. 单击&#x200B;**删除**。
 

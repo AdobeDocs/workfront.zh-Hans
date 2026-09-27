@@ -6,20 +6,27 @@ description: 您可以查看有关验证如何在审核过程中进展的信息�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+TQID: 'https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
+source-wordcount: '377'
 ht-degree: 1%
-
 ---
-
 # 校对进度和状态概述
 
 您可以查看有关验证如何在审核过程中进展的信息，并在文档区域查看验证决策状态的整体摘要。
@@ -100,7 +107,7 @@ ht-degree: 1%
 
 ## 校对状态概述
 
-验证状态显示验证所需的决策的状态。证明的状态由“最坏情况”参与者决定。例如，假设对验证有三个决定：两个决定的状态为&#x200B;**已接受**，另一个决定的状态为&#x200B;**已拒绝**。**已拒绝**&#x200B;的“最坏情况”决策优先于其他决策，证明的整体状态显示为&#x200B;**已拒绝**。 
+验证状态显示验证所需的决策的状态。 证明的状态由“最坏情况”参与者决定。 例如，假设对验证有三个决定：两个决定的状态为&#x200B;**已接受**，另一个决定的状态为&#x200B;**已拒绝**。 **已拒绝**&#x200B;的“最坏情况”决策优先于其他决策，证明的整体状态显示为&#x200B;**已拒绝**。 
 
 ![校对编辑现有进度](assets/proof-edit-existing-progress-350x62.png)
 

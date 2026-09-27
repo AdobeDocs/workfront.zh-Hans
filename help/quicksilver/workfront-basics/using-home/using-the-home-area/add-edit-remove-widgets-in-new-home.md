@@ -6,18 +6,21 @@ description: 您可以从许多小组件中进行选择，以自定义主页上�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+TQID: 'https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1123
+source-wordcount: '1123'
 ht-degree: 6%
-
 ---
-
 # 添加、编辑或删除主页中的小组件
 
 <!-- Audited: 4/2025 -->
@@ -124,9 +127,9 @@ ht-degree: 6%
 
    * **我的审批**\
        显示所有待分配或委派的审批、一个委派审批的按钮以及可直接在小组件内做出审批决策的按钮。 审批顺序如下：
-      * 超期截止日期
-      * 近期截止日期
-      * 无截止日期的项目
+     * 超期截止日期
+     * 近期截止日期
+     * 无截止日期的项目
 
    * **文档审批指标**\
            显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。 您必须启用[统一审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)才能使用此小组件。

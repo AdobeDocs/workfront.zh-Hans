@@ -9,13 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
-source-git-commit: 665b15170805feba2b55850faf1b73cdc0416305
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 6%
-
+source-wordcount: '352'
+ht-degree: 5%
 ---
-
 # 使用布局模板自定义更多菜单
 
 在Adobe Workfront中查看以下对象时，您可以使用布局模板来确定用户单击“更多”菜单（三个点菜单）时显示的选项：项目、任务、问题、项目组合和程序。

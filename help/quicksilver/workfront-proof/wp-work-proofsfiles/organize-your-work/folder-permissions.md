@@ -3,23 +3,31 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 了解 [!DNL Workfront Proof]中的文件夹权限
+title: 了解[!DNL Workfront Proof]中的文件夹权限
 description: 如果人员有权查看文件夹中的项目，他们还可以查看文件夹本身。 但是，他们只能查看文件夹中明确与其共享的项目。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
-TQID: https://experienceleague.adobe.com/UO9UAyOk6QpGPItB1fBWbFpj8nCgDOzlmrosfHhHZoY
+TQID: 'https://experienceleague.adobe.com/UO9UAyOk6QpGPItB1fBWbFpj8nCgDOzlmrosfHhHZoY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: '565'
 ht-degree: 15%
-
 ---
-
 # 了解[!DNL Workfront Proof]中的文件夹权限
 
 >[!IMPORTANT]
@@ -47,7 +55,7 @@ ht-degree: 15%
 
 如果公共文件夹归经理所有，则经理可以删除根文件夹和任何子文件夹。
 
-有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
+有关详细信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 ## 专用文件夹
 
@@ -70,7 +78,7 @@ ht-degree: 15%
 
 您可以在“新建文件夹”页面上为每个人单独设置此项，并在“文件夹详细信息”页面的“共享对象”部分中对其进行更改。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中创建文件夹，以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理文件夹及其内容。
 
-如果与或观察者共享专用文件夹，则他们将对该文件夹中的所有项目具有只读访问权限。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)中的共享文件夹。
+如果与或观察者共享专用文件夹，则他们将对该文件夹中的所有项目具有只读访问权限。 有关详细信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)中的共享文件夹。
 
 >[!NOTE]
 >

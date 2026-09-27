@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 0%
-
 ---
-
 # API 基础知识
 
 >[!NOTE]
 >
->本文中的示例包括`<supported-version>`。 将此替换为您要使用的Workfront API版本。有关Workfront API版本控制和支持计划，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
+>本文中的示例包括`<supported-version>`。 将此替换为您要使用的Workfront API版本。
+>有关Workfront API版本控制和支持计划，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来简化与Workfront的集成。 本文档假设您熟悉REST和JSON响应，并介绍了Workfront API采用的方法。
 
@@ -319,7 +330,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 #### 使用过滤器参数
 
-为搜索过滤器使用URL参数时存在的一个潜在隐患是，Workfront会先解析某些参数，然后再检查是否存在其他身份验证方法（即，用户名、密码、apiKey、Cookie）。 如果发生这种情况，则在调用中不会将参数用作过滤器。
+为搜索过滤器使用URL参数时存在的一个潜在隐患是，Workfront会先解析某些参数，然后再检查是否存在其他身份验证方法（即，用户名、密码、apiKey、Cookie）。 如果发生这种情况，则在调用中不会将参数用作过滤器。 
 
 要避免出现此问题，您可以将这些值放入带有JSON格式的过滤器参数中。 例如，如果要筛选用户名testuser，而不使用 
 <pre>/attask/api/&lt;supported-version&gt;/user/search？username=testuser@workfront.com</pre>在筛选器中传递URL参数，如以下示例所示：
@@ -455,7 +466,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 要覆盖“默认结果数”查询限制并允许200个结果，您可以在查询中包含`$$LIMIT=200`筛选器，如以下示例所示：
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search？$$LIMIT=200</pre>
 
-为确保系统中其他租户的可靠性和性能，每个查询允许的最大结果限制为2000个对象。 尝试指定更大的限制将导致`IllegalArgumentException`错误消息。
+为确保系统中其他租户的可靠性和性能，每个查询允许的最大结果限制为2000个对象。 尝试指定更大的限制将导致`IllegalArgumentException`错误消息。 
 
 因此，我们建议您考虑对大型数据集使用分页响应。 要指定应返回的第一个结果，请添加`$$FIRST`筛选器。 例如，以下请求为查询返回结果201-250：
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search？$$FIRST=200&amp;$$LIMIT=50</pre>

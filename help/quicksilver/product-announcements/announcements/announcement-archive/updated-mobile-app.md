@@ -7,18 +7,24 @@ description: 应于2017年8月初在Apple应用程序和Google Play商店中更�
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
-TQID: https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI
+TQID: 'https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 2%
-
+source-wordcount: '375'
+ht-degree: 1%
 ---
-
 # 更新了适用于iOS和Android的移动应用程序（2017年8月初）
 
 应于2017年8月初在Apple应用程序和Google Play商店中更新Adobe Workfront移动应用程序。 
@@ -27,7 +33,7 @@ ht-degree: 2%
 
 ## 提交请求
 
-从移动设备应用程序的新版本开始，您将能够使用移动设备提交请求到请求队列。您将能够访问您有权从Web应用程序访问的相同请求队列。 
+从移动设备应用程序的新版本开始，您将能够使用移动设备提交请求到请求队列。 您将能够访问您有权从Web应用程序访问的相同请求队列。 
 
 您可以提交请求，将其分配给正确的资源，并在旅途中更新请求。 
 
@@ -56,8 +62,8 @@ ht-degree: 2%
 
 ## 移动应用程序中的验证审批可见性
 
-从移动设备应用程序的新版本开始，您将能够批准移动设备上的文档校样。当您被指定为验证的审批者时，您还将在通知区域收到通知。 
+从移动设备应用程序的新版本开始，您将能够批准移动设备上的文档校样。 当您被指定为验证的审批者时，您还将在通知区域收到通知。 
 
-在此更新之前，您可以使用移动设备应用程序执行项目、任务、问题和文档审批。您需要有Proof HQ许可证才能审批移动应用程序上的文档验证。 
+在此更新之前，您可以使用移动设备应用程序执行项目、任务、问题和文档审批。 您需要有Proof HQ许可证才能审批移动应用程序上的文档验证。 
 
 有关Workfront中校对的更多信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)部分。 

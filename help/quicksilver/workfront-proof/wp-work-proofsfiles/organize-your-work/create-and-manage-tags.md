@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中创建和管理标记
-description: 您可以创建和编辑标记，并将其应用到验证和文件。 这非常适用于拥有大量不同的 [!DNL Workfront Proof] 项目（如项目、部门和客户），并且您希望轻松识别和查找这些项目的情况。
+title: 在[!DNL Workfront Proof]中创建和管理标记
+description: 您可以创建和编辑标记，并将其应用到验证和文件。 这非常适用于拥有许多不同的[!DNL Workfront Proof]项目（如项目、部门和客户），并且您希望轻松识别和查找这些项目的情况。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+TQID: 'https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 915
+source-wordcount: '916'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中创建和管理标记
 
 >[!IMPORTANT]
@@ -39,7 +47,7 @@ ht-degree: 0%
 * 经理只能为其项目创建和编辑标记。
 * 观察者可以应用或编辑项目上的标记，但他们可以查看其他用户应用至项目的标记，并且可以在“个人”设置中查看“标记”选项卡。
 
-有关这些配置文件和权限的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
+有关这些配置文件和权限的详细信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 ## 创建、编辑或删除帐户中的标记
 

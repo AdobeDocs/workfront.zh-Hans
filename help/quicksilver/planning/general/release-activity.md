@@ -6,29 +6,41 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront 2024年计划发布活动
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -77,19 +89,19 @@ ht-degree: 0%
 
 * Workfront Planning允许您：
 
-   * Unlimited工作区
+  * Unlimited工作区
 
-   * 每个工作区25,000条记录
+  * 每个工作区25,000条记录
 
-   * 您的实例的总记录数为500,000
+  * 您的实例的总记录数为500,000
 
 * Workfront Planning Plus允许您：
 
-   * Unlimited工作区
+  * Unlimited工作区
 
-   * 每个工作区500,000条记录
+  * 每个工作区500,000条记录
 
-   * 您的实例总计有200万条记录。
+  * 您的实例总计有200万条记录。
 
 有关详细信息，请参阅[Adobe Workfront规划对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
 
@@ -149,10 +161,10 @@ ht-degree: 0%
 
 * 根据配置方式，请求表单可能会显示记录类型的所有字段，但以下类型的字段除外：
 
-   * 人员
-   * 连接的字段（包括与Experience Manager Assets的连接）
-   * 连接的查找字段
-   * 公式
+  * 人员
+  * 连接的字段（包括与Experience Manager Assets的连接）
+  * 连接的查找字段
+  * 公式
 
 有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
@@ -179,13 +191,13 @@ ht-degree: 0%
 
 * 更改记录条或其分组的颜色以匹配以下任一项：
 
-   * 记录类型的颜色
+  * 记录类型的颜色
 
-   * 所选字段的颜色
+  * 所选字段的颜色
 
-   * 分组的颜色
+  * 分组的颜色
 
-   * 无颜色（默认）
+  * 无颜色（默认）
 
 将颜色与特定字段匹配时，您只能选择具有颜色编码选项的字段。
 
@@ -494,9 +506,9 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 * 我们已删除营销管理模板。 我们为营销管理添加了以下模板，我们建议根据工作流的复杂性使用相应的模板：
 
-   * 基本：营销管理
-   * 高级：营销管理
-   * 企业：营销管理
+  * 基本：营销管理
+  * 高级：营销管理
+  * 企业：营销管理
 
 有关信息，请参阅以下文章：
 
@@ -622,9 +634,9 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 * 如果您是Workfront管理员，则会显示以下选项卡：
 
-   * 我的工作区：仅显示您创建的工作区。
+  * 我的工作区：仅显示您创建的工作区。
 
-   * 其他工作区：显示您创建的工作区或与您共享的工作区。
+  * 其他工作区：显示您创建的工作区或与您共享的工作区。
 
 * Workfront Planning的文档和发布活动的链接
 

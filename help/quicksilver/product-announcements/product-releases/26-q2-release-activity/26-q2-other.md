@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+TQID: 'https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '620'
 ht-degree: 1%
-
 ---
-
 # 2026年第二季度发布时间范围内的其他增强功能
 
 本页介绍了在2026年第二季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -27,7 +33,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->预览： 2026年4月2日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 我们添加了一个新设置，用于调整增强型列表中的行高。
 
@@ -37,7 +45,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->预览： 2026年4月2日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 我们在增强列表中为团队、组、公司和角色过滤器添加了以下个性化名称：
 
@@ -57,7 +67,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->预览： 2026年4月2日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 您现在可以对“请求”区域中的请求列表以及“主页”中的“我的请求”小组件应用条件格式。 在此增强功能之前，列表视图中不存在此功能。
 
@@ -84,7 +96,9 @@ Workfront管理员可以在布局模板中添加或删除视图。 您无法编�
 
 >[!NOTE]
 >
->预览： 2026年4月2日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 为了更便于您查找所需的请求，我们已将分组添加到请求列表和我的请求构件。 现在，您可以按列表上的任何列对请求进行分组。 这些分组会成为您在创建分组时使用的视图的一部分。
 
@@ -94,7 +108,8 @@ Workfront管理员可以在布局模板中添加或删除视图。 您无法编�
 
 >[!NOTE]
 >
->预览： 2025年12月11日>生产快速发布： 2026年2月11日\
+>预览： 2025年12月11日
+>生产快速发布： 2026年2月11日\
 >适用于所有人的生产： 2026年2月11日
 
 为了让组织能够访问Adobe Unified Experience的优势，我们将继续将其提供给现有的Workfront客户。

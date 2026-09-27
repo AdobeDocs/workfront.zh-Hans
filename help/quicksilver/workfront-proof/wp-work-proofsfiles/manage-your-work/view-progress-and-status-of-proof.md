@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中查看验证的进度和状态
+title: 在[!DNL Workfront Proof]中查看验证的进度和状态
 description: 验证进度指示对验证完成的工作，从您向审阅人发送验证时到他们对验证做出决定时为止。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
-TQID: https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs
+TQID: 'https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中查看验证的进度和状态
 
 >[!IMPORTANT]
@@ -141,15 +149,15 @@ Workfront Proof使用进度图标在下列每个级别跟踪校样的进度：
 * 为阶段设置的截止日期(3)
 * 审阅者详细信息：
 
-   * 每个审阅人的评论和回复数(4)
-   * 每个审阅人的进度(5)
-   * 决定（如果决定包括电子签名，则在决定旁边将显示一个图标，指示这一点。） (6)
-   * 在验证上的角色(7)
-   * 电子邮件警报设置(8)
+  * 每个审阅人的评论和回复数(4)
+  * 每个审阅人的进度(5)
+  * 决定（如果决定包括电子签名，则在决定旁边将显示一个图标，指示这一点。） (6)
+  * 在验证上的角色(7)
+  * 电子邮件警报设置(8)
 
 >[!NOTE]
 >
->您编辑校样详细信息的能力取决于您对校样的权限（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校样权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校样角色）。
+>您编辑校样详细信息的能力取决于您对校样的权限（请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校样权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校样角色）。
 
 ![summary_details_3.png](assets/summary-details-3-350x160.png)
 
@@ -165,11 +173,11 @@ Workfront Proof使用进度图标在下列每个级别跟踪校样的进度：
 
 >[!NOTE]
 >
->这些选项的可用性取决于您对校对的权限（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
+>这些选项的可用性取决于您对校对的权限（请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
 
 ![Stage_actions_menu.png](assets/stage-actions-menu-350x161.png)
 
-在“摘要”部分中，您还可以访问审阅者操作菜单，前提是您对验证具有编辑权限。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理验证角色。 当您将鼠标悬停在审阅者的详细信息上时，会显示审阅者操作菜单(1)，该菜单允许您：
+在“摘要”部分中，您还可以访问审阅者操作菜单，前提是您对验证具有编辑权限。 有关详细信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理验证角色。 当您将鼠标悬停在审阅者的详细信息上时，会显示审阅者操作菜单(1)，该菜单允许您：
 
 * 向审阅人发送消息(2)
 * 编辑审阅人的详细信息(3) — 允许您编辑该审阅人的显示名称、验证角色和电子邮件警报
@@ -179,7 +187,7 @@ Workfront Proof使用进度图标在下列每个级别跟踪校样的进度：
 
 >[!NOTE]
 >
->这些选项的可见性取决于您对校对的权限（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
+>这些选项的可见性取决于您对校对的权限（请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
 
 ![Reviewer_actions_menu.png](assets/reviewer-actions-menu-350x135.png)
 
@@ -203,7 +211,7 @@ Workfront Proof使用进度图标在下列每个级别跟踪校样的进度：
 
 >[!NOTE]
 >
->这些选项的可用性取决于您对校对的权限（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
+>这些选项的可用性取决于您对校对的权限（请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
 
 有关在[!DNL Workfront]内查看校对进度和状态的信息，请参阅[查看进度和状态](#viewing-progress-and-status)。
 

@@ -6,23 +6,31 @@ description: 使用基本工作流，您可以让多个审阅人查看验证，�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-TQID: https://experienceleague.adobe.com/xv-t9JjvYQvYv15ZV8wYPzBHFybKGU8J572demN1EPg
+TQID: 'https://experienceleague.adobe.com/xv-t9JjvYQvYv15ZV8wYPzBHFybKGU8J572demN1EPg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1725
+source-wordcount: '1751'
 ht-degree: 2%
-
 ---
-
 # 使用基本工作流创建高级验证
 
 <!-- Audited: 1/2024 -->
@@ -307,7 +315,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">需要登录 — 验证只能与其他用户共享</td> 
-      <td>禁用此选项（默认）后，具有URL的任何人都可以查看验证。<br>选择此选项时：
+      <td>禁用此选项（默认）后，具有URL的任何人都可以查看验证。 <br>选择此选项时：
        <ul>
         <li>只有Workfront Proof用户能够查看验证。</li>
         <li>用户无法登录到验证，除非他们已添加到验证中。</li>
@@ -336,7 +344,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">通过公共URL或嵌入代码订阅验证</td> 
-      <td>选择此选项时，未明确添加到验证的用户可以订阅验证。订阅验证的用户将获得您在以下设置中定义的角色和电子邮件：
+      <td>选择此选项时，未明确添加到验证的用户可以订阅验证。 订阅验证的用户将获得您在以下设置中定义的角色和电子邮件：
        <ul>
         <li><strong>订阅者角色：</strong>分配给订阅了验证的所有审阅人的默认验证角色。 </li>
         <li><strong>订阅者的电子邮件警报设置：</strong>分配给订阅了验证的所有审阅人的默认电子邮件警报。</li>

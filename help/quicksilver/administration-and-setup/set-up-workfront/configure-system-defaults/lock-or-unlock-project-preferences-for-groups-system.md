@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-TQID: https://experienceleague.adobe.com/OpdIG-INmfU3jvgNvCFCtbNwiRFvfxPgFQ6p-hW-HUQ
+TQID: 'https://experienceleague.adobe.com/OpdIG-INmfU3jvgNvCFCtbNwiRFvfxPgFQ6p-hW-HUQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: '513'
 ht-degree: 3%
-
 ---
-
 # 锁定或解锁系统中所有组的项目首选项
 
 组织中的组可能需要为其独特工作流以不同方式配置项目偏好设置。 您可以解锁整个组织中所有组的首选项，以便他们能够自行配置首选项。

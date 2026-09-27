@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 下载存储在 [!DNL Workfront Proof]中的文件
+title: 下载存储在[!DNL Workfront Proof]中的文件
 description: 您可以将原始文件从活动、锁定和存档的验证下载到本地计算机。 然后，您可以在用于创建它们的软件应用程序（如果您有应用程序）中打印和打开它们。 您可以从单个验证或多个验证下载原始文件。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
-TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
+TQID: 'https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 0%
-
 ---
-
 # 下载存储在[!DNL Workfront Proof]中的文件
 
 >[!IMPORTANT]
@@ -36,7 +44,7 @@ ht-degree: 0%
 1. 在列表或缩略图列表布局中，单击列出校对的行末尾的&#x200B;**[!UICONTROL 更多]**&#x200B;按钮。
 1. ![More_button_small.png](assets/more-button-small.png)
 
-1. 如果需要有关这些布局的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中“视图”选项卡上的页面布局。
+1. 如果需要有关这些布局的详细信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中“视图”选项卡上的页面布局。
 1. 在出现的菜单中单击&#x200B;**[!UICONTROL 下载原始文件]**。\
    您还可以在列表中选择校对，单击列表上方的&#x200B;**[!UICONTROL 更多]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 下载]**。\
    您还可以下载文件：

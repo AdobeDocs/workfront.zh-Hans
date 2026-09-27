@@ -4,13 +4,20 @@ description: 2026年第三季度项目增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季度项目增强功能
 
 本页介绍了在2026年第三季度版本中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -23,9 +30,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：2026年6月11日快速发布生产： 2026年6月11日按季度发布的生产日期： 2026年6月11日超出计划&rbrack;{type=Neutral}
+>预览：2026年6月11日
+>快速发布生产： 2026年6月11日
+>按季度发布的生产日期： 2026年6月11日
+>[!BADGE 超出计划]{type=Neutral}
 
-如果您的组织同时使用旧版Workfront存储和Adobe云存储，则您现在可以将旧版存储任务转换为Adobe云存储项目。执行此操作时，文档和文档审批将保留在父对象上，而不是转移到新创建的项目中。
+如果您的组织同时使用旧版Workfront存储和Adobe云存储，则您现在可以将旧版存储任务转换为Adobe云存储项目。
+执行此操作时，文档和文档审批将保留在父对象上，而不是转移到新创建的项目中。
 
 以前，任务只能转换为使用相同存储类型的项目。
 
@@ -39,7 +50,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：2026年6月11日适用于所有人的生产： 2026年6月11日
+>预览：2026年6月11日
+>适用于所有人的生产： 2026年6月11日
 
 如果您的组织同时使用旧版Workfront存储和Adobe云存储，则您现在可以在以下场景中使用旧版存储模板来创建Adobe云存储项目：
 

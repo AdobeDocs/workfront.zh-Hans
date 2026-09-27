@@ -2,36 +2,47 @@
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 配置我的设置
-description: 您的 [!DNL Adobe Workfront] 配置文件包含与您本人相关的信息（例如，您的姓名、电子邮件地址、地址、电话号码、职务等）。 它还包含有关您与 [!DNL Workfront] 和公司中其他用户的交互的信息。
+description: 您的[!DNL Adobe Workfront]个人资料包含与您本人相关的信息（例如，您的姓名、电子邮件地址、地址、电话号码、职务等）。 它还包含有关您与[!DNL Workfront]和您公司中其他用户的交互的信息。
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+TQID: 'https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3264
+source-wordcount: '3389'
 ht-degree: 1%
-
 ---
-
 # 配置我的设置
 
 <!-- Audited: 01/2024 -->
@@ -366,7 +377,7 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td role="rowheader"><strong>（视情况而定）上传文档时自动生成验证</strong></td> 
-   <td>选择此字段以在文档加载到[!DNL Workfront]后立即开始生成验证。此字段默认处于禁用状态，仅可由Workfront管理员更新。<br>仅当您的公司已为Workfront购买了Workfront Proof组件并且您作为验证用户启用时，此字段才可用。有关Workfront Proof的更多信息，请参阅<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">在Adobe Workfront中管理验证</a>。
+   <td>选择此字段以在文档加载到[!DNL Workfront]后立即开始生成验证。 此字段默认处于禁用状态，仅可由Workfront管理员更新。<br>仅当您的公司已购买Workfront的Workfront Proof组件并且您已启用为验证用户时，此字段才可用。 有关Workfront Proof的更多信息，请参阅<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">在Adobe Workfront中管理校样</a>。
    <p><b>注意：</b>上载到请求的文档不会自动生成验证。 </p></td> 
   </tr> 
  </tbody> 
@@ -478,7 +489,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 设置停用日期]</strong></td>
-   <td><p>如果您希望安排在一段时间后停用您的帐户，请单击此按钮。在出现的<strong>[!UICONTROL 计划取消激活日期]</strong>中，指定帐户取消激活的日期。有关停用用户的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新激活用户</a>中的<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">计划停用用户</a>。 </p><p>如果您拥有[!UICONTROL Standard]或[!UICONTROL Plan]许可证或者您是[!DNL Workfront]管理员，则可以编辑帐户的停用字段。 </p></td> 
+   <td><p>如果您希望安排在一段时间后停用您的帐户，请单击此按钮。 在出现的<strong>[!UICONTROL 计划取消激活日期]</strong>中，指定帐户取消激活的日期。 有关停用用户的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新激活用户</a>中的<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">计划停用用户</a>。 </p><p>如果您拥有[!UICONTROL Standard]或[!UICONTROL Plan]许可证或者您是[!DNL Workfront]管理员，则可以编辑帐户的停用字段。 </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
@@ -502,7 +513,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>计划</strong></td> 
-   <td> <p>只有[!DNL Workfront]个管理员或具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证且对时间表和小时数也具有管理访问权限的用户才能更新此字段。 有关时间表和小时数的管理访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>中的“时间表和小时数”部分。</p> <p>从下拉菜单中选择适合您的工时表。这将确保根据[!DNL Workfront]管理员设置的规范自动生成您的时间表。 </p> </td> 
+   <td> <p>只有[!DNL Workfront]个管理员或具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证且对时间表和小时数也具有管理访问权限的用户才能更新此字段。 有关时间表和小时数的管理访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>中的“时间表和小时数”部分。</p> <p>从下拉菜单中选择适合您的工时表。 这将确保根据[!DNL Workfront]管理员设置的规范自动生成您的时间表。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 默认小时类型]</strong> </td> 

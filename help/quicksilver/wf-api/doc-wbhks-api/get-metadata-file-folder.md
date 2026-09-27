@@ -8,20 +8,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+TQID: 'https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '282'
 ht-degree: 8%
-
 ---
-
 # 获取文件或文件夹的元数据
 
 返回指定文件或文件夹的元数据。
@@ -44,7 +48,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td>ID</td> 
-   <td>文件或文件夹的ID，由webhook提供程序引用。这与Adobe Workfront的文档ID不同。要获取根目录的元数据，请使用值“/”。
+   <td>文件或文件夹的ID，由webhook提供程序引用。 这与Adobe Workfront的文档ID不同。 要获取根目录的元数据，请使用值“/”。
    <p>注意：该ID的最大长度为255个字符。</p></td> 
   </tr> 
  </tbody> 

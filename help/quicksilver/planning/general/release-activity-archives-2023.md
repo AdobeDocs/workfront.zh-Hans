@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront 2023年计划发布活动
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -119,11 +127,11 @@ ht-degree: 1%
 
 * 您可以选择以下任何类型的字段作为主字段，并替换第一列中的“名称”字段：
 
-   * 单行文本
+  * 单行文本
 
-   * 数值
+  * 数值
 
-   * 公式
+  * 公式
 
 * 表视图的主字段始终冻结，不能移动，除非将其他字段设置为主字段。
 
@@ -201,11 +209,11 @@ removed per PM, for now:
 
 * 不能复制和粘贴以下字段类型的字段值：
 
-   * 人员
+  * 人员
 
-   * 系统字段
+  * 系统字段
 
-   * 因连接记录而创建的链接字段
+  * 因连接记录而创建的链接字段
 
 有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
@@ -292,19 +300,19 @@ removed per PM, for now:
 
 * 分组可以匹配以下颜色：
 
-   * 灰色（默认）
+  * 灰色（默认）
 
-   * 分组依据的字段的颜色
+  * 分组依据的字段的颜色
 
 * 条形可以与以下颜色匹配：
 
-   * 记录类型的颜色
+  * 记录类型的颜色
 
-   * 所选字段的颜色
+  * 所选字段的颜色
 
-   * 分组的颜色
+  * 分组的颜色
 
-   * 无颜色（默认）
+  * 无颜色（默认）
 
 将颜色与特定字段匹配时，您只能选择具有颜色编码选项的字段。
 
@@ -346,8 +354,8 @@ removed per PM, for now:
 
   有关更多信息，请参阅以下文章：
 
-   * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [连接记录](/help/quicksilver/planning/records/connect-records.md)
+  * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [连接记录](/help/quicksilver/planning/records/connect-records.md)
 
 ### 单行文本字段支持URL
 
@@ -397,8 +405,8 @@ removed per PM, for now:
 
 * 现在，您可以按照以下模式显示时间轴视图：
 
-   * 标准：以单独的行显示记录。
-   * 紧凑：在同一行中显示其日期不相交的记录。
+  * 标准：以单独的行显示记录。
+  * 紧凑：在同一行中显示其日期不相交的记录。
 
 * 我们更改了时间轴视图中分组行的外观，以显示在它们包含记录的时间轴上方。 在此改进之前，在时间线的整个长度上显示分组线。
 

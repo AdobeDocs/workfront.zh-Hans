@@ -7,24 +7,29 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-TQID: https://experienceleague.adobe.com/YlgDVj9oKA6fWw0MM3SCBrEffWaIpASAfqIheZDjHKE
+TQID: 'https://experienceleague.adobe.com/YlgDVj9oKA6fWw0MM3SCBrEffWaIpASAfqIheZDjHKE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2218
+source-wordcount: '2295'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning 2025年第二季度发布活动
 
 本文介绍了在2025年第二季度版本中为Workfront计划发布的功能。
@@ -119,7 +124,7 @@ ht-degree: 0%
 >预览版本： 2025年3月6日；面向所有客户的生产： 2025年4月10日
 
 您现在可以从记录类型的页面中使用CSV或Excel电子表格导入记录。
-在此增强功能之前，您只能在创建记录类型时导入记录。通过此更新，您可以将记录导入现有记录类型。
+在此增强功能之前，您只能在创建记录类型时导入记录。 通过此更新，您可以将记录导入现有记录类型。
 
 有关信息，请参阅[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
 

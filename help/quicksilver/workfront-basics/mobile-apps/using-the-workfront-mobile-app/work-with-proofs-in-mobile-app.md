@@ -1,30 +1,33 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 在 [!DNL Adobe Workfront] 移动应用程序中查看验证并做出决策
+title: 在[!DNL Adobe Workfront]移动应用程序中查看验证并做出决策
 description: 当有验证分配给您审批时，它将显示在移动设备应用程序的审批列表中。 您可以直接在应用程序中查看验证并做出决定。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-TQID: https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s
+TQID: 'https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 768
+source-wordcount: '770'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Adobe Workfront]移动应用程序中查看验证并做出决策
 
 当有验证分配给您审批时，它将显示在移动设备应用程序的审批列表中。 您可以直接在应用程序中查看验证并做出决定。 有关在[!DNL Adobe Workfront]中审阅和批准验证的信息，请参阅[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)中审阅验证。
 
 您可以在验证中添加注释并经历修订过程，然后再做出最终决定。 有关评论的信息，请参阅[对 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)中验证的评论或[对 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)中验证的评论。
 
-您查看和批准验证的权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
+您查看和批准验证的权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 ## 打开并查看验证
 

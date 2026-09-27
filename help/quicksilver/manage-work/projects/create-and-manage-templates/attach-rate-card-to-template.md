@@ -6,13 +6,17 @@ title: 将费率卡附加到模板
 description: 在将费率卡分配给模板时，费率卡随后将附加到从该模板创建的所有项目。
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 3%
-
 ---
-
 # 将费率卡附加到模板
 
 在将费率卡分配给模板时，费率卡随后将附加到从该模板创建的所有项目。 费率卡会成为项目中的默认费率卡，但如有必要，可以覆盖此费率卡。
@@ -71,7 +75,7 @@ ht-degree: 3%
 1. 在“模板详细信息”>“概述”>“模板关联”部分中，在&#x200B;**费率卡**&#x200B;字段中选择费率卡。
 
    只有您有权使用的费率卡才可供选择。
-您可以开始键入费率卡的名称，以缩小结果列表。
+   您可以开始键入费率卡的名称，以缩小结果列表。
 
    ![选择模板上的费率卡](assets/select-rate-card-on-template.png)
 

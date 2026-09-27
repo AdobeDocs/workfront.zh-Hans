@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg
+TQID: 'https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 495
+source-wordcount: '495'
 ht-degree: 4%
-
 ---
-
 # 编辑团队设置
 
 作为[!DNL Adobe Workfront]管理员或具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的用户，您可以编辑[!UICONTROL 团队设置]。
@@ -95,8 +99,8 @@ ht-degree: 4%
    * 将[!UICONTROL 处理]按钮更改为[!UICONTROL 开始]按钮。 有关如何配置[!UICONTROL 开始]按钮的详细信息，请参阅[使用[!UICONTROL 开始]按钮替换“处理此项工作”按钮](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
    * 自定义&#x200B;**[!UICONTROL 完成]**&#x200B;按钮。 有关如何自定义[!UICONTROL 完成]按钮的详细信息，请参阅：
 
-      * [为任务配置[!UICONTROL 完成]按钮](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-      * [为问题配置[!UICONTROL 完成]按钮](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+     * [为任务配置[!UICONTROL 完成]按钮](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+     * [为问题配置[!UICONTROL 完成]按钮](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
    * 附加自定义表单。 有关详细信息，请参阅[将自定义表单添加到对象](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

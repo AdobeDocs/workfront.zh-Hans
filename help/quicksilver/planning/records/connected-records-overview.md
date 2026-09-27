@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE
+TQID: 'https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 # 连接的记录概述
 
 <!--
@@ -76,14 +83,14 @@ ht-degree: 0%
 
 * 您可以将Workfront Planning中的记录连接到Planning记录的以下区域中的Workfront对象、Experience Manager Assets对象或GenStudio Brands：
 
-   * Planning中记录类型的表视图中的已连接记录字段。
-   * 记录的预览或详细信息页面中的已连接记录字段。
-   * 记录的“连接的记录”页面上的记录的预览或详细信息页面。
+  * Planning中记录类型的表视图中的已连接记录字段。
+  * 记录的预览或详细信息页面中的已连接记录字段。
+  * 记录的“连接的记录”页面上的记录的预览或详细信息页面。
 
 * 您可以在Workfront的以下区域中将Workfront对象连接到Workfront Planning记录：
 
-   * Workfront对象的“规划”部分。
-   * Workfront对象的自定义表单上的Planning连接字段。
+  * Workfront对象的“规划”部分。
+  * Workfront对象的自定义表单上的Planning连接字段。
 
   有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 

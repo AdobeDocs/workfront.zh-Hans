@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '870'
 ht-degree: 0%
-
 ---
-
 # 2026年第二季度文档增强
 
 <!--hide this article until multi stage goes out-->
@@ -24,7 +31,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年4月16日>生产快速发布： 2026年4月16日>适用于所有人的生产： 2026年4月16日
+>预览： 2026年4月16日
+>生产快速发布： 2026年4月16日
+>适用于所有人的生产： 2026年4月16日
 
 现在，Workfront中提供了Content Advisor与Adobe Experience Manager Assets的集成，这使团队更容易发现并重用现有的高价值内容。
 
@@ -43,7 +52,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年3月31日>生产快速发布： 2026年3月31日>适用于所有人的生产： 2026年3月31日
+>预览：2026年3月31日
+>生产快速发布： 2026年3月31日
+>适用于所有人的生产： 2026年3月31日
 
 在2026年3月31日，所有Workfront客户都已配置GenStudio Foundation，并且Admin Console系统管理员将收到一封通知他们此添加的电子邮件。 此产品仅是为了让Workfront客户在发布AI协作者时能够根据需要向品牌提供Workfront客户的访问权限。 产品本身只是Brands的访问机制，在GenStudio Foundation产品中没有可用的附加功能。
 
@@ -53,7 +64,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年4月2日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 我们已在主页的“我的审批”小组件中添加了以下增强功能：
 
@@ -70,7 +83,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年3月12日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览：2026年3月12日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 
 我们很高兴地推出由Workfront和Frame.io提供支持的统一审阅和批准，这是一种简化的审阅和批准体验。
@@ -105,7 +120,9 @@ Adobe云存储是一个基于云的存储解决方案，它充当Adobe企业产�
 
 >[!NOTE]
 >
->预览： 2026年3月12日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览：2026年3月12日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 多阶段审批工作流现在可用于统一审批，帮助组织实施结构化、可重复的审批流程，以反映实际工作中工作的审查方式。 通过多阶段审批，您可以：
 
@@ -121,7 +138,9 @@ Adobe云存储是一个基于云的存储解决方案，它充当Adobe企业产�
 
 >[!NOTE]
 >
->预览： 2026年3月12日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
+>预览：2026年3月12日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 您现在可以配置和重用多阶段审批工作流模板，使得跨可重复审批工作流应用一致治理变得更加容易。
 

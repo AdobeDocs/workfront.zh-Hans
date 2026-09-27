@@ -8,25 +8,33 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
+TQID: 'https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1340'
 ht-degree: 1%
-
 ---
-
 # 管理Agile积压
 
 以下工作项可以分配给Agile团队，并作为故事添加到该团队的积压中，具体取决于团队使用的Agile方法：
@@ -106,7 +114,7 @@ ht-degree: 1%
 
 1. 转到包含要细分的故事的积压。
 1. 选择要分解的故事，然后单击&#x200B;**[!UICONTROL 分解故事]**。
-显示[!UICONTROL 分解故事]对话框。
+显示[!UICONTROL 划分故事]对话框。
    ![分解故事对话框](assets/backlog-breakdown-dialog.png)
 
 1. 指定文章的名称和估计值，然后选择文章是否已准备就绪。

@@ -1,32 +1,40 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: '从 [!DNL Slack]访问 [!DNL Adobe Workfront] '
-description: 将 [!DNL Adobe Workfront] 与 [!DNL Slack] 集成允许您从Slack访问 [!DNL Workfront] ，或使用斜杠命令在 [!DNL Workfront] 中执行某些操作。 可以从任何 [!DNL Slack] 环境（包括 [!DNL Slack] 移动应用程序）使用该集成。
+title: 从[!DNL Slack]访问[!DNL Adobe Workfront]
+description: 将[!DNL Adobe Workfront]与[!DNL Slack]集成允许您从Slack访问[!DNL Workfront]，或使用斜杠命令在[!DNL Workfront]中执行某些操作。 可以从任何[!DNL Slack]环境（包括[!DNL Slack]移动应用）使用该集成。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
+TQID: 'https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1099'
 ht-degree: 3%
-
 ---
-
 # 从[!DNL Slack]访问[!DNL Adobe Workfront]
 
 将[!DNL Adobe Workfront]与[!DNL Slack]集成允许您从[!DNL Slack]访问[!DNL Workfront]，或使用斜杠命令在[!DNL Workfront]中执行某些操作。 可以从任何[!DNL Slack]环境（包括[!DNL Slack]移动应用）使用该集成。
@@ -70,12 +78,12 @@ ht-degree: 3%
 
   这表示您的命令适用于[!DNL Workfront]应用程序。 只有当您已使用[!DNL Slack]实例配置了[!DNL Workfront]应用时，[!DNL Workfront]的命令才有效。
 
-有关可从Slack为[!DNL Workfront]运行的所有命令的列表，请参见 [!DNL Slack][&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的Access [!DNL Workfront] slash命令。
+有关可从Slack为[!DNL Workfront]运行的所有命令的列表，请参见 [!DNL Slack]&#x200B;[&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的Access [!DNL Workfront] slash命令。
 
 ## 从[!DNL Slack]登录到[!DNL Workfront] {#log-in-to-workfront-from-slack}
 
 当您在Slack的消息字段中键入任何命令时，将要求您先登录[!DNL Workfront]。\
-有关来自[!DNL Slack]的[!DNL Workfront]命令的完整列表，请参阅本文中 [!DNL Slack][&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)部分的Access [!DNL Workfront] from a slash命令。
+有关来自[!DNL Slack]的[!DNL Workfront]命令的完整列表，请参阅本文中 [!DNL Slack]&#x200B;[&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)部分的Access [!DNL Workfront] from a slash命令。
 
 要从[!DNL Slack]登录到[!DNL Workfront]，请执行以下操作：
 
@@ -184,20 +192,20 @@ ht-degree: 3%
 
      搜索特定关键词。 您可以搜索以下类型的对象：
 
-      * 项目
-      * 任务
-      * 问题
-      * 报告
-      * 人员
-      * 模板
-      * 文档
-      * 项目组合
-      * 项目群
-      * 仪表板
-      * 公司
-      * 注释\
+     * 项目
+     * 任务
+     * 问题
+     * 报告
+     * 人员
+     * 模板
+     * 文档
+     * 项目组合
+     * 项目群
+     * 仪表板
+     * 公司
+     * 注释\
 
-        有关在[!DNL Slack]中搜索的详细信息，请参阅[从Slack中搜索 [!DNL Adobe Workfront] 项](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)。
+       有关在[!DNL Slack]中搜索的详细信息，请参阅[从Slack中搜索 [!DNL Adobe Workfront] 项](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)。
    * `/wf log in`
 
      将您从[!DNL Slack]登录到[!DNL Workfront]。
@@ -212,7 +220,7 @@ ht-degree: 3%
      有关在Slack中配置[!DNL Workfront]设置的信息，请参阅[配置设置](#configure-settings-configure-settings)。
 
    * `/wf help`
-显示[!DNL Workfront]的完整命令列表。
+     显示[!DNL Workfront]的完整命令列表。
 
 
    * `Visit Workfront Help`：在新的浏览器选项卡中打开[!DNL Workfront]帮助网站上的[!UICONTROL Slack]部分。
@@ -226,7 +234,7 @@ ht-degree: 3%
 
 您可以通过链接访问[!DNL Workfront]对象，这些链接指向在[!DNL Slack]中与您共享的对象。
 
-有关从共享链接访问[!DNL Workfront]的详细信息，请参阅 [!DNL Slack][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)中的从共享链接访问 [!DNL Adobe Workfront] 对象。
+有关从共享链接访问[!DNL Workfront]的详细信息，请参阅 [!DNL Slack]&#x200B;[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)中的从共享链接访问 [!DNL Adobe Workfront] 对象。
 
 ## 配置设置 {#configure-settings}
 
@@ -246,7 +254,7 @@ ht-degree: 3%
 
    * 在&#x200B;**[!UICONTROL 通知设置]**&#x200B;区域，禁用要停止从Workfront接收的通知。\
 
-     有关在[!DNL Slack]中接收[!DNL Workfront]通知的信息，请参阅 [!DNL Slack][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)中的接收 [!DNL Adobe Workfront] 通知。
+     有关在[!DNL Slack]中接收[!DNL Workfront]通知的信息，请参阅 [!DNL Slack]&#x200B;[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)中的接收 [!DNL Adobe Workfront] 通知。
 
 ## 从[!DNL Slack]注销[!DNL Workfront]
 

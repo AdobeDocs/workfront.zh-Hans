@@ -4,13 +4,20 @@ description: 2026年第三季度财务管理增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季度财务管理增强功能
 
 本页介绍了在2026年第三季度发行的“预览”环境中进行的Financial Management增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -21,7 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年6月25日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日>此功能仅适用于工作流Ultimate包中的组织。
+>预览：2026年6月25日
+>生产快速发布： 2026年7月15日
+>适用于所有人的生产： 2026年7月16日
+>此功能仅适用于Workflow Ultimate包中的组织。
 
 您现在可以选择要添加到模板的费率卡，该费率卡随后会自动附加到从模板创建的所有项目。 费率卡会成为项目中的默认费率卡，但如有必要，可以覆盖此费率卡。
 
@@ -31,7 +41,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年6月25日>生产快速发布： 2026年7月15日>适用于所有人的生产： 2026年7月16日>此功能仅适用于工作流Ultimate包中的组织。
+>预览：2026年6月25日
+>生产快速发布： 2026年7月15日
+>适用于所有人的生产： 2026年7月16日
+>此功能仅适用于Workflow Ultimate包中的组织。
 
 您现在可以通过在费率卡上的特定位置添加新费率，更快速地调整费率卡上的有效日期记帐费率列表。 选择现有速率旁边的&#x200B;**更多**&#x200B;菜单以插入高于或低于该速率的行。
 
@@ -43,7 +56,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年5月21日>生产快速发布： 2026年5月21日>适用于所有人的生产： 2026年5月21日>此功能仅适用于Workflow Ultimate包上的组织。
+>预览： 2026年5月21日
+>生产快速发布： 2026年5月21日
+>适用于所有人的生产： 2026年5月21日
+>此功能仅适用于Workflow Ultimate包中的组织。
 
 将属性添加到Workfront中的费率后，您将无法在“设置”区域中编辑该属性及其过滤器。 这样可保持数据完整性，并防止在属性更新时意外更改速率。
 

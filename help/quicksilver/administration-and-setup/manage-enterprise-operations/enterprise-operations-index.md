@@ -10,13 +10,20 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: aadfd91d-19e5-4124-bbc4-70f5fbfa9ce6
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
-
 ---
-
 # 管理企业操作：文章索引
 
 高级企业运营功能是一种管理财务、资源、项目和企业访问权限的统一且可扩展的方法。 这些功能提供了企业实现盈利和高效运营所需的可视性和控制能力。

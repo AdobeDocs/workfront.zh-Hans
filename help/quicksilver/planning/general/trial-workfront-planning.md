@@ -7,24 +7,33 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+TQID: 'https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2321
+source-wordcount: '2346'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront Planning免费试用版快速入门
 
 <!--add screen shots-->
@@ -60,10 +69,10 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
 * 策划的多工作区规划环境
 * Workfront Planning Prime包，其中包括以下功能：
 
-   * Unlimited工作区
-   * 每个工作区500,000条记录
-   * 总共200万个工作区
-   * 全局记录类型
+  * Unlimited工作区
+  * 每个工作区500,000条记录
+  * 总共200万个工作区
+  * 全局记录类型
 * 示例数据，以便您了解从何处开始
 * AI引导式入门，您可以使用纯语言或上传现有工件，Planning将使用AI生成自定义结构。 这会自动创建工作区、记录类型、字段和视图。
 * 产品内培训和指导
@@ -75,12 +84,12 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
 
 * 具有以下任何新的Adobe Workfront或Workflow包：
 
-   * 选择
-   * Prime
-   * Ultimate
+  * 选择
+  * Prime
+  * Ultimate
 
   Workfront计划试用版不适用于旧版Workfront包。
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+  有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 * 接受贵组织的Workfront实例中提供的在2026年1月26日至4月1日期间生效的法律试用协议。 您必须是Workfront管理员才能接受试用协议。
 
 ## 重要日期概述
@@ -88,31 +97,31 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
 以下是与Adobe Workfront Planning免费试用产品相关的重要日期：
 
 * **2026年1月26日**： Workfront Planning免费试用横幅已发布给Workfront客户。 这些横幅包括以下内容：
-   * 此文档的链接。
-   * 试用协议接受窗口。 只有Workfront管理员可以接受协议。 自此日期起，您可以随时接受试用协议。
+  * 此文档的链接。
+  * 试用协议接受窗口。 只有Workfront管理员可以接受协议。 自此日期起，您可以随时接受试用协议。
 * **2026年3月2日**：Workfront计划试用版已启动。
 
   启动试用版后，以下项目将添加到您的Workfront实例：
 
-   * Workfront计划横幅将继续向所有用户显示。 此文档的链接包含在横幅中。
-   * **审阅试用协议**&#x200B;首选项已添加到&#x200B;**设置**&#x200B;区域。
+  * Workfront计划横幅将继续向所有用户显示。 此文档的链接包含在横幅中。
+  * **审阅试用协议**&#x200B;首选项已添加到&#x200B;**设置**&#x200B;区域。
 
   存在以下情况：
 
-   * 如果您的Workfront管理员在此日期之前已接受协议，则可以在主菜单中找到Planning区域，并开始使用Workfront Planning。
+  * 如果您的Workfront管理员在此日期之前已接受协议，则可以在主菜单中找到Planning区域，并开始使用Workfront Planning。
 
   >[!NOTE]
   >
   >Planning区域将显示在系统中所有用户的主菜单中，而不管他们的Workfront许可证类型如何。
 
-   * 如果您的Workfront管理员在此日期之前尚未接受协议，则会为所有用户显示宣布Planning试用程序的横幅，但主菜单中尚未提供Planning。 您的系统管理员必须首先接受协议，然后才能访问Workfront Planning。
+  * 如果您的Workfront管理员在此日期之前尚未接受协议，则会为所有用户显示宣布Planning试用程序的横幅，但主菜单中尚未提供Planning。 您的系统管理员必须首先接受协议，然后才能访问Workfront Planning。
 
 * **2026年4月1日**：您无法再注册试用版。
 
   以下项目将从您的Workfront实例中删除：
 
-   * Workfront Planning试用横幅。
-   * **审阅试用协议**&#x200B;首选项已从&#x200B;**设置**&#x200B;区域删除。
+  * Workfront Planning试用横幅。
+  * **审阅试用协议**&#x200B;首选项已从&#x200B;**设置**&#x200B;区域删除。
 
 * **2026年5月1日**： Workfront Planning试用期已结束，您对Planning的访问权限已删除。 访问将保持活动状态直至2026年5月15日。
 
@@ -137,9 +146,9 @@ Lauren wanted this out:
 
   在免费试用期间，您系统中的用户将获得Planning区域中工作区的以下权限：
 
-   * 所有系统管理员都对“我所在的工作区”和“所有工作区”选项卡具有管理权限。
-   * 所有其他用户具有工作区区域的查看权限，但系统管理员可以向他们授予对该区域显示的工作区的管理权限。
-   * 所有用户（包括系统管理员）都拥有对Planning区域中的“示例工作区”选项卡的“查看”权限。
+  * 所有系统管理员都对“我所在的工作区”和“所有工作区”选项卡具有管理权限。
+  * 所有其他用户具有工作区区域的查看权限，但系统管理员可以向他们授予对该区域显示的工作区的管理权限。
+  * 所有用户（包括系统管理员）都拥有对Planning区域中的“示例工作区”选项卡的“查看”权限。
 
 * **在2026年5月1日之后：**
 
@@ -260,10 +269,10 @@ this information will be live on March 2 - the How to sign up below will be a ##
      有关我们有关如何使用全局分类工作区的建议，请参阅[将您的首次成功转化为可持续的势头：管理缩放的行动手册](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)。
    * 其他示例工作区：以下工作区用作示例公司(Fréscopa)可能作为特定工作区、记录类型、字段和视图需要什么的示例，以构建其组织和工作结构：
 
-      * **Fréscopa全球营销**
-      * **Fréscopa社交营销**
-      * **Fréscopa Media &amp; PR**
-      * **Fréscopa执行公司领导层**
+     * **Fréscopa全球营销**
+     * **Fréscopa社交营销**
+     * **Fréscopa Media &amp; PR**
+     * **Fréscopa执行公司领导层**
 
    >[!NOTE]
    >
@@ -304,8 +313,8 @@ this information will be live on March 2 - the How to sign up below will be a ##
 
      有关信息，请参阅以下文章：
 
-      * [创建字段](/help/quicksilver/planning/fields/create-fields.md)
-      * [连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     * [创建字段](/help/quicksilver/planning/fields/create-fields.md)
+     * [连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
 1. 从创建的工作区中，共享以下任何实体：
 

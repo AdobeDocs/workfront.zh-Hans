@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 管理 [!DNL Workfront Proof]中的文件夹及其内容
+title: 管理[!DNL Workfront Proof]中的文件夹及其内容
 description: 将您的项目和验证组织到文件夹中的好处之一，是能够在[!UICONTROL 文件夹详细信息]页面上管理它们。 此页面是项目的一个控制中心，在这里，您可以方便地管理单个验证和文件以及执行批量操作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
+TQID: 'https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1260
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Workfront Proof]中的文件夹及其内容
 
 >[!IMPORTANT]
@@ -49,7 +57,7 @@ ht-degree: 0%
 
 1. （视情况而定）执行以下操作之一：
 
-   * 如果您要将校对添加到文件夹，请转到[!UICONTROL 校对详细信息]页面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[!UICONTROL 管理校对详细信息]中所述
+   * 如果您要将校对添加到文件夹，请转到[!UICONTROL 校对详细信息]页面，如 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[!UICONTROL 管理校对详细信息]中所述
    * 如果要将文件添加到文件夹，请按照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理文件中的说明转到“文件详细信息”页面。
 
 1. 单击文件或校对所在的&#x200B;**文件夹**&#x200B;的名称，然后单击要移动它的文件夹的名称。\
@@ -59,7 +67,7 @@ ht-degree: 0%
 
 1. （视情况而定）执行以下操作之一：
 
-   * 如果您要将校对移出文件夹，请按照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校对详细信息]中的说明转到[!UICONTROL 校对详细信息]页面
+   * 如果您要将校对移出文件夹，请按照 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校对详细信息]中的说明转到[!UICONTROL 校对详细信息]页面
 
      或\
       如果要将文件移出文件夹，请按照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理文件中的说明转到“文件详细信息”页面。
@@ -73,7 +81,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您不是文件的创建者或所有者，则可用选项将取决于您在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的用户验证权限配置文件。
+>如果您不是文件的创建者或所有者，则可用选项将取决于您在 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的用户验证权限配置文件。
 
 1. 在左侧导航菜单中的&#x200B;**[!UICONTROL 文件夹]**&#x200B;选项卡中，单击任意文件夹以打开[!UICONTROL 文件夹详细信息]页面。
 1. 如果文件夹仅包含存档的验证，则页面顶部将以黄色显示一条消息。 如果单击邮件中的链接，文件夹视图将更改为[!UICONTROL 存档的校样]视图。

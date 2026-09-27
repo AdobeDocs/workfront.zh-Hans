@@ -10,25 +10,31 @@ feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ
+TQID: 'https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: '620'
 ht-degree: 3%
-
 ---
-
 # 计算自定义字段示例：显示字段的编辑历史记录
 
 如果用户定期更新自定义字段，并且您希望捕获对字段所做的所有更改的日志以及发生更改的日期，则可以在计算的自定义字段中捕获此信息。
@@ -44,8 +50,8 @@ ht-degree: 3%
 * 将“说明编辑历史记录”字段限制为最近2000个字符，以保持在Workfront数据库限制之内。
 * 检查指令字段的当前值是否与指令编辑历史记录值的前面匹配；它假定为空白，否则将执行以下操作：
 
-   * 如果二者匹配，则将“指令编辑历史记录”保留不变；
-   * 如果它们不匹配，它将用指令字段中的最新值替换指令编辑历史记录，后跟括号中的当前日期、垂直栏和先前的指令编辑历史记录，从而保留先前的值和输入时的日期。
+  * 如果二者匹配，则将“指令编辑历史记录”保留不变；
+  * 如果它们不匹配，它将用指令字段中的最新值替换指令编辑历史记录，后跟括号中的当前日期、垂直栏和先前的指令编辑历史记录，从而保留先前的值和输入时的日期。
 
 ## 访问权限要求
 

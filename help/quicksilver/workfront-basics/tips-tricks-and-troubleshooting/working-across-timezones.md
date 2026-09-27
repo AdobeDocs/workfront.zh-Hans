@@ -2,32 +2,39 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 跨时区工作
-description: 了解 [!DNL Adobe Workfront] 如何使用时区计算对象的时间字段和其他区域（如电子邮件）中的时间可能很有帮助。
+description: 了解[!DNL Adobe Workfront]如何使用时区计算对象的时间字段和电子邮件等其他区域中的时间会很有帮助。
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+TQID: 'https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # 跨时区工作
 
 <!-- Audited: 2/2024 -->
@@ -97,13 +104,13 @@ ht-degree: 0%
   如果将处于多个时区的用户分配给某个对象，则[!DNL Workfront]会使用每个用户的浏览器中配置的时区，转换每个相关人员的对象时间。
 
   **示例**
-在您工作的东部标准时间(EST)区域中，您将任务设置为在下午4:00点开始，并将其分配给在太平洋标准时间(PST)区域工作的用户。 对于这些用户，开始时间显示为下午1:00。 如果它显示为下午4:00，则他们会延迟三个小时开始处理它。
+  在您工作的东部标准时间(EST)区域中，您将任务设置为在下午4:00开始，并将其分配给在太平洋标准时间(PST)区域工作的用户。 对于这些用户，开始时间显示为下午1:00。 如果显示为下午4:00，他们将延迟三个小时开始处理。
 
   如果对象创建者不知道被分配人时区之间的差异，并且在设置对象时间时没有做出必要的调整，或者被分配人不知道该差异，则当每个人协作处理对象时，可能很难获得正确的时间点。
 
   **示例**
 
-  将一天任务配置为从东部时间上午9:00开始，忘记任务上的一些用户在PST区域中工作。 对于他们，开始时间为上午6:00。 由于他们直到时间9:00（您所在时间的正午）才会开始处理该任务，因此任务会延迟三个小时开始和结束。
+  将一天任务配置为从东部时间上午9:00开始，忘记任务上的一些用户在PST区域工作。 对他们来说，开始时间是早上6点。 由于他们要到时间9:00（您所在时间的中午）才会开始处理该任务，因此任务会延迟三个小时开始和结束。
 
 不同浏览器的时区配置不同。 有关更多信息，请参阅每个浏览器的文档或帮助信息。
 
@@ -126,20 +133,20 @@ ht-degree: 0%
 
   如果为任务分配了多个用户，则系统将使用下列选项之一，如系统范围或组范围项目首选项中所配置：
 
-   * 任务的主要所有者计划的时区
-   * 项目计划的时区。
+  * 任务的主要所有者计划的时区
+  * 项目计划的时区。
 
   如果将一个用户分配给任务，则系统将使用下列选项之一，如系统范围或组范围项目首选项中所配置：
 
-   * 任务被分派人的计划时区
-   * 项目计划的时区。
+  * 任务被分派人的计划时区
+  * 项目计划的时区。
 
   这可能会导致任务日期发生更改。
 
 >[!BEGINSHADEBOX]
 
 **示例：**
-EST用户被分派到计划于PST上午9:00（正午）（EST中午）开始的一天任务。 由于EST用户在一天中只剩下2个工作小时，因此任务完成日期会延长约6小时，直至下一个工作日。
+EST用户被分配到计划于9:00 AM PST（即EST正午）开始的一天任务。 由于EST用户在一天中只剩下2个工作小时，因此任务完成日期会延长约6小时，直至下一个工作日。
 
 
 >[!ENDSHADEBOX]

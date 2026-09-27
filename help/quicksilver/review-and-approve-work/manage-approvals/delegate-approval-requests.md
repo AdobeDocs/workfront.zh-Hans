@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: '1203'
 ht-degree: 1%
-
 ---
-
 # 委托审批请求
 
 您可以在外出时临时委派分配给您的工作。 您可以委派任务和问题分配，也可以委派审批请求。 本文介绍了如何委托审批请求。 有关委派任务和问题分配的信息，请参阅[委派任务和问题](../../manage-work/delegate-work/how-to-delegate-work.md)。
@@ -138,8 +149,8 @@ ht-degree: 1%
    * **开始日期**：选择审批开始转发的日期。 转发从您选择的日期的凌晨12:00开始。\
      开始日期必须是当前日期或将来日期。
    * **结束日期**：执行以下操作之一：
-      * 选择要停止转发的审批日期。 转发在您选择的日期晚上11:59结束。
-      * 选择&#x200B;**无结束日期**&#x200B;可将Workfront配置为无限期委托审批。
+     * 选择要停止转发的审批日期。 转发在您选择的日期晚上11:59结束。
+     * 选择&#x200B;**无结束日期**&#x200B;可将Workfront配置为无限期委托审批。
 
 1. 单击&#x200B;**保存**。
 
@@ -158,8 +169,8 @@ ht-degree: 1%
    * **开始日期**：选择审批开始转发的日期。 转发从您选择的日期的凌晨12:00开始。\
      开始日期必须是当前日期或将来日期。
    * **结束日期**：执行以下操作之一：
-      * 选择要停止转发的审批日期。 转发在您选择的日期晚上11:59结束。
-      * 选择&#x200B;**无结束日期**&#x200B;可将Workfront配置为无限期委托审批。
+     * 选择要停止转发的审批日期。 转发在您选择的日期晚上11:59结束。
+     * 选择&#x200B;**无结束日期**&#x200B;可将Workfront配置为无限期委托审批。
 
 ## 更新或停止审批委托 {#update-or-stop-an-approval-delegation}
 

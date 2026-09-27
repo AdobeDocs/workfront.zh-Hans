@@ -3,28 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 管理公司成员资格
-description: 在“设置”的[!UICONTROL 公司]区域中，您可以添加和删除公司成员。 您还可以编辑其用户配置文件，提醒他们在 [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] 系统中注册。
+description: 在“设置”的[!UICONTROL 公司]区域中，您可以添加和删除公司成员。 您还可以编辑其用户配置文件，提醒他们在[!DNL Workfront]中注册，在[!DNL Workfront]中停用它们，并从[!DNL Workfront]系统中删除它们。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-TQID: https://experienceleague.adobe.com/0bS4VdGyGBzH4LBw-WTeF0Ud8gtRAaxu0UevRtyZLQo
+TQID: 'https://experienceleague.adobe.com/0bS4VdGyGBzH4LBw-WTeF0Ud8gtRAaxu0UevRtyZLQo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: '850'
 ht-degree: 2%
-
 ---
-
 # 管理公司成员资格
 
 在[!UICONTROL 设置]的[!UICONTROL 公司]区域，您可以添加和删除公司成员。 您还可以编辑其用户配置文件，提醒他们在[!DNL Workfront]中注册，在[!DNL Workfront]中停用它们，并从[!DNL Workfront]系统中删除它们。

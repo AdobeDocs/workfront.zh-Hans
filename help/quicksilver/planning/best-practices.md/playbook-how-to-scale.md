@@ -8,26 +8,39 @@ recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+TQID: 'https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2611
+source-wordcount: '2611'
 ht-degree: 0%
-
 ---
-
 # 将您的首次成功转化为可持续的发展势头：管理式扩展的剧本
 
 >[!IMPORTANT]
@@ -292,13 +305,13 @@ ht-degree: 0%
 
 * **责任**：
 
-   * 管理全局分类Workspace。
+  * 管理全局分类Workspace。
 
-   * 通过促进本地成功达到全球标准，促进外地成熟度途径。
+  * 通过促进本地成功达到全球标准，促进外地成熟度途径。
 
-   * 维护用于执行报告的主要Workspace视图。
+  * 维护用于执行报告的主要Workspace视图。
 
-   * 跨工作区领导每月语义审核。
+  * 跨工作区领导每月语义审核。
 
 ### 发言冠军（团队进程所有者）
 
@@ -306,13 +319,13 @@ ht-degree: 0%
 
 * **责任**：
 
-   * 充当功能团队的单一联系人。
+  * 充当功能团队的单一联系人。
 
-   * 拥有本地工作区结构和自定义字段实验。
+  * 拥有本地工作区结构和自定义字段实验。
 
-   * 确保团队使用受管网关Forms进行数据输入。
+  * 确保团队使用受管网关Forms进行数据输入。
 
-   * 在协调过程中参与协作握手。
+  * 在协调过程中参与协作握手。
 
 ### 执行发起人（营销领导层）
 
@@ -320,11 +333,11 @@ ht-degree: 0%
 
 * **责任**：
 
-   * 在全局分类工作区中定义企业营销OKR。
+  * 在全局分类工作区中定义企业营销OKR。
 
-   * 将Step 1的能见度价值倡导给其他领导者。
+  * 将Step 1的能见度价值倡导给其他领导者。
 
-   * 加强80/20资源分配（值超过清理）。
+  * 加强80/20资源分配（值超过清理）。
 
 ### 支持主管（变更管理）
 
@@ -332,11 +345,11 @@ ht-degree: 0%
 
 * **责任**：
 
-   * 主持定期办公时间和发现研讨会接触点。
+  * 主持定期办公时间和发现研讨会接触点。
 
-   * 维护内部“成功案例”展示区。
+  * 维护内部“成功案例”展示区。
 
-   * 标识要供Enterprise Architect解决的技术冲突点。
+  * 标识要供Enterprise Architect解决的技术冲突点。
 
 ## &#x200B;10. 扩展下一个团队的清单
 

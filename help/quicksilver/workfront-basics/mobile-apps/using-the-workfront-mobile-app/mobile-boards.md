@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: 适用于移动设备的Adobe Workfront展示板
-description: 在 [!DNL Workfront] 移动设备应用程序中，您可以在 [!DNL Workfront]的桌面版中看到您创建或添加到的所有主板。
+description: 在[!DNL Workfront]移动应用程序中，您可以在[!DNL Workfront]的桌面版中看到您已创建或已添加到的所有主板。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+TQID: 'https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1047
+source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Workfront]移动设备[!UICONTROL 讨论区]
 
 [!DNL Adobe Workfront] [!UICONTROL 讨论区]是一种灵活的工具，通过为包含列和卡片的共享讨论区提供访问权限，允许团队协作。 有关讨论区的其他信息，请参阅[讨论区概述](/help/quicksilver/agile/boards-overview.md)。
@@ -138,6 +141,6 @@ ht-degree: 0%
 1. 在框中键入搜索词并选择&#x200B;[!UICONTROL **完成**]&#x200B;或![完成图标](assets/mobile-apply-icon-checkmark.png)。
 
    将显示标题中包含搜索词的所有卡片。
-选择X以清除搜索。
+   选择X以清除搜索。
 
    ![搜索信息卡](assets/mobile-search-for-card.png)

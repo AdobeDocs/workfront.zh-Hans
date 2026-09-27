@@ -6,25 +6,37 @@ description: Workfront与Experience Manager Assets或Assets Essentials之间的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-TQID: https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY
+TQID: 'https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 4%
-
 ---
-
 # Adobe Experience Manager Assets集成概述
 
 <!-- Audited: 12/2023 -->
@@ -45,11 +57,11 @@ Workfront与Experience Manager Assets或Assets Essentials之间的集成将工�
 * 在Workfront中更改项目组合、项目群、项目、任务、问题和文档元数据后，自动更新这些元数据
 * 跨组织ID将多个Experience Manager Assets存储库顺利连接到一个Workfront环境，或将多个Workfront环境顺利连接到一个Experience Manager Assets存储库
 * 利用Experience Manager Assets的内容审查程序功能。 使用内容审查程序，您可以
-   * 上传内容以搜索类似资源
-   * 查看有关资产的快速详细信息
-   * 访问内容片段
-   * 浏览收藏集
-   * 等等。 有关详细信息，请参阅[Experience Manager Assets内容审查程序文档]。
+  * 上传内容以搜索类似资源
+  * 查看有关资产的快速详细信息
+  * 访问内容片段
+  * 浏览收藏集
+  * 等等。 有关详细信息，请参阅[Experience Manager Assets内容审查程序文档]。
 
 
 ## 先决条件
@@ -75,6 +87,6 @@ Workfront与Experience Manager Assets或Assets Essentials之间的集成将工�
 1. [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 1. 设置集成：
    1. [配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
-或
+      或
    1. [配置 Experience Manager Assets Essentials 集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 1. 使用集成：发送资源、创建链接文件夹、映射元数据等。 有关详细信息，请参阅[适用于Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)。

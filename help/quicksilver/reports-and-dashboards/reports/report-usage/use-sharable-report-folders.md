@@ -6,15 +6,19 @@ description: 使用可共享报表文件夹整理您创建的报表，并与Adob
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 3%
-
 ---
-
 # 使用可共享的报告文件夹
 
 <!-- This article is linked in the UI -->
@@ -75,7 +79,7 @@ ht-degree: 3%
 
 1. 打开&#x200B;**可共享报告文件夹**&#x200B;切换开关。
 1. 单击&#x200B;**创建文件夹**。
-1. 输入文件夹的名称。
+1. 输入文件夹名称。
 1. 单击&#x200B;**创建**。
 
 ![创建可共享文件夹](assets/add-sharable-folder.png)

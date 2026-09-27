@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
-TQID: https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ
+TQID: 'https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: '2347'
 ht-degree: 0%
-
 ---
-
 # 2017.2Beta决赛
 
 本页介绍了2017.2版的“预览”环境中最近提供的所有更改。 此页面上的功能已于2017年6月28日在预览环境中提供。 该版本将于2017年7月26日在生产环境中提供。
@@ -182,7 +189,7 @@ ht-degree: 0%
 
 ## 筛选报告区域(ProofHQ) {#filter-the-reporting-area-proofhq}
 
-默认情况下，“报告”选项卡上显示的数据包含来自ProofHQ系统的所有信息。您现在可以使用过滤器仅显示与您的需求相关的信息。 
+默认情况下，“报告”选项卡上显示的数据包含来自ProofHQ系统的所有信息。 您现在可以使用过滤器仅显示与您的需求相关的信息。 
 
 有关详细信息，请参阅[在Workfront Proof中运行报告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)中的[过滤报告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)。
 

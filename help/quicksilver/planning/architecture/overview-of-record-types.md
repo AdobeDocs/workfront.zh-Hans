@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # 记录类型概述
 
 <!--
@@ -51,8 +58,8 @@ Workfront Planning对象类型称为“记录类型”，它们仅在用户创�
 
 * 从模板创建工作区时，会在以下工作区部分中创建记录类型：
 
-   * **操作记录类型**：表示战略计划、计划或计划工作的记录类型。 例如， Campaign 、 Activity 、 Tactics 、 Opportunity都是操作记录类型。
-   * **分类**：捕获有关操作记录类型的属性的记录类型。 例如，区域、地址、受众是分类。
+  * **操作记录类型**：表示战略计划、计划或计划工作的记录类型。 例如， Campaign 、 Activity 、 Tactics 、 Opportunity都是操作记录类型。
+  * **分类**：捕获有关操作记录类型的属性的记录类型。 例如，区域、地址、受众是分类。
 
   可重命名或删除截面和记录类型，或创建更多类型。
 
@@ -63,8 +70,8 @@ Workfront Planning对象类型称为“记录类型”，它们仅在用户创�
   有关在一个工作区或Workfront实例中可以有多少记录类型的限制，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
 * 要在多个工作区中使用记录类型，可以将记录类型指定为全局或可连接。
 
-   * 全局记录类型可以作为现有记录类型添加到其他工作区。
-   * 可连接的记录类型可以从其他工作区连接到。
+  * 全局记录类型可以作为现有记录类型添加到其他工作区。
+  * 可连接的记录类型可以从其他工作区连接到。
 
   有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 

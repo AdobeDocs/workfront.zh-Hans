@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-TQID: https://experienceleague.adobe.com/TfNnHDPjT1M9XlpBiXQw3vP9izeRWArYuhDuXqA0Cbw
+TQID: 'https://experienceleague.adobe.com/TfNnHDPjT1M9XlpBiXQw3vP9izeRWArYuhDuXqA0Cbw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '501'
 ht-degree: 3%
-
 ---
-
 # 使用特定状态列出具有未决批准流程的对象
 
 如果您尝试删除状态，则可能会显示一条错误消息，告诉您无法删除该状态，因为它在您的系统中至少处于一个待审批流程中。 您可以运行报告以列出处于待审批流程中的对象，然后决定您需要为每个对象做什么。

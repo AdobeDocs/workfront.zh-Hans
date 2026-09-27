@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 将 [!DNL Adobe Workfront] 费用发送到 [!DNL Anaplan] 列表项
-description: 此集成方案共享来自具有 [!DNL Anaplan] 预算列表项的 [!DNL Adobe Workfront] 项目的费用相关详细信息。 共享此信息可让您更好地利用 [!DNL Anaplan] 提供的支出优化和财务分析。
+title: 将[!DNL Adobe Workfront]费用发送到[!DNL Anaplan]列表项
+description: 此集成方案共享来自具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目的费用相关详细信息。 共享此信息可让您更好地利用[!DNL Anaplan]提供的支出优化和财务分析。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-TQID: https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA
+TQID: 'https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: '985'
 ht-degree: 13%
-
 ---
-
 # 将[!DNL Adobe Workfront]费用发送到[!DNL Anaplan]列表项
 
 此集成方案共享来自具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目的费用相关详细信息。 共享此信息可让您更好地利用[!DNL Anaplan]提供的支出优化和财务分析。
@@ -105,31 +115,31 @@ ht-degree: 13%
 * [!DNL Anaplan]模型中要捕获营销活动预算的列表。
 * 按此顺序包含以下列的&#x200B;**[!UICONTROL Anaplan实际费用导入]**&#x200B;文件：
 
-   1. [!UICONTROL [!DNL Workfront]费用GUID]
+  1. [!UICONTROL [!DNL Workfront]费用GUID]
 
-   2. [!UICONTROL [!DNL Workfront]项目GUID]
+  2. [!UICONTROL [!DNL Workfront]项目GUID]
 
-   3. [!UICONTROL 实际数量]
+  3. [!UICONTROL 实际数量]
 
-   4. [!UICONTROL 描述]
+  4. [!UICONTROL 描述]
 
-   5. [!UICONTROL 费用类型]
+  5. [!UICONTROL 费用类型]
 
-   6. [!UICONTROL 生效日期]
+  6. [!UICONTROL 生效日期]
 
-   7. [!UICONTROL 促销活动名称]
+  7. [!UICONTROL 促销活动名称]
 
-   8. [!UICONTROL [!DNL Anaplan]列表项ID]
+  8. [!UICONTROL [!DNL Anaplan]列表项ID]
 
   要准备[!UICONTROL [!DNL Anaplan]实际费用导入]文件，请执行以下操作：
 
-   1. 将以下内容复制并粘贴到文本编辑器或[!DNL Excel]中。
-   1. 以CSV格式保存文件。
-   1. 将文件上载到[!DNL Anaplan]。
+  1. 将以下内容复制并粘贴到文本编辑器或[!DNL Excel]中。
+  1. 以CSV格式保存文件。
+  1. 将文件上载到[!DNL Anaplan]。
 
-      有关说明，请参阅有关将数据从文件导入模块的[!DNL Anaplan]文档。
+     有关说明，请参阅有关将数据从文件导入模块的[!DNL Anaplan]文档。
 
-   1. 请记下您为文件提供的名称；该文件将在[!UICONTROL Fusion]方案模板的部署期间使用。
+  1. 请记下您为文件提供的名称；该文件将在[!UICONTROL Fusion]方案模板的部署期间使用。
 
   示例CSV内容
 
@@ -138,31 +148,31 @@ ht-degree: 13%
 
 * 按此顺序包含以下列的&#x200B;**[!UICONTROL [!DNL Anaplan]计划费用导入]**&#x200B;文件：
 
-   1. [!UICONTROL [!DNL Workfront]费用GUID]
+  1. [!UICONTROL [!DNL Workfront]费用GUID]
 
-   2. [!UICONTROL [!DNL Workfront]项目GUID]
+  2. [!UICONTROL [!DNL Workfront]项目GUID]
 
-   3. [!UICONTROL 实际数量]
+  3. [!UICONTROL 实际数量]
 
-   4. [!UICONTROL 描述]
+  4. [!UICONTROL 描述]
 
-   5. [!UICONTROL 费用类型]
+  5. [!UICONTROL 费用类型]
 
-   6. [!UICONTROL 生效日期]
+  6. [!UICONTROL 生效日期]
 
-   7. [!UICONTROL 促销活动名称]
+  7. [!UICONTROL 促销活动名称]
 
-   8. [!UICONTROL [!DNL Anaplan]列表项ID]
+  8. [!UICONTROL [!DNL Anaplan]列表项ID]
 
   要准备[!UICONTROL [!DNL Anaplan]计划费用导入]文件，请执行以下操作：
 
-   1. 将以下内容复制并粘贴到文本编辑器或[!DNL Excel]中
-   1. 以CSV格式保存文件
-   1. 将文件上传到Anaplan。
+  1. 将以下内容复制并粘贴到文本编辑器或[!DNL Excel]中
+  1. 以CSV格式保存文件
+  1. 将文件上传到Anaplan。
 
-      有关说明，请参阅有关将数据从文件导入模块的[!DNL Anaplan]文档。
+     有关说明，请参阅有关将数据从文件导入模块的[!DNL Anaplan]文档。
 
-   1. 请记下您为文件提供的名称；该文件将在[!UICONTROL Fusion]方案模板的部署期间使用。
+  1. 请记下您为文件提供的名称；该文件将在[!UICONTROL Fusion]方案模板的部署期间使用。
 
   示例CSV内容
 

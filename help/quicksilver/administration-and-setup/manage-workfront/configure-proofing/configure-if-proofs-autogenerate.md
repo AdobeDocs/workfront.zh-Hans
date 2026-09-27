@@ -6,19 +6,20 @@ navigation-topic: configure-proofing-functionality
 title: 配置是否自动生成验证
 description: 您可以配置在您指定的用户将文档添加到Workfront时，系统是否自动生成验证。 默认情况下禁用此设置。
 author: Courtney
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 0%
-
+source-wordcount: '251'
+ht-degree: 1%
 ---
-
 
 # 配置是否自动生成验证
 
 您可以配置在您指定的用户将文档添加到Workfront时，系统是否自动生成验证。 默认情况下禁用此设置。
 
-## 访问要求
+## 访问权限要求
 
 您必须具备以下条件：
 
@@ -28,7 +29,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://business.adobe.com/cn/products/workfront/pricing.html" target="_blank">Adobe Workfront计划</a> </td> 
-   <td>任何</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a>*</td> 

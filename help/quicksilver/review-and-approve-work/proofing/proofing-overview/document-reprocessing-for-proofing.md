@@ -6,20 +6,27 @@ description: 当您提交校对文档(DOCX、PDF、XLSX、AI)时，Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+TQID: 'https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: '681'
 ht-degree: 0%
-
 ---
-
 # 验证概述的文档重新处理
 
 当您提交校对文档(DOCX、PDF、XLSX、AI)时，Adobe Workfront会对其进行重新处理，以便该文档可以在校对查看器中显示，而无需使用您用于创建该文档的软件应用程序。 
@@ -59,6 +66,6 @@ ht-degree: 0%
 
 已提交的文件将完成以下部分或全部步骤：
 
-1. **提交**。将文档上传到系统时，使用新验证页面或使用应用程序编程接口(API)进行上传。 
-1. **队列**。在流量较重期间，Workfront可能需要将提交内容排入队列，以防系统过载。大多数验证在队列中仅花费几秒钟。 
+1. **提交**。 将文档上传到系统时，使用新验证页面或使用应用程序编程接口(API)进行上传。 
+1. **队列**。 在流量较重期间，Workfront可能需要将提交内容排入队列，以防系统过载。 大多数验证在队列中仅花费几秒钟。 
 1. **正在处理。**&#x200B;文件根据内容类型到达处理计算机。 我们使用不同的工具来处理视频校样、Web捕获、静态图像和文档。 富媒体容器(ZIP)和交互式Web捕获提交不需要处理。

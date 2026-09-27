@@ -8,26 +8,33 @@ feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/GqhjJ-aQZfDJq4RYEtJoleC41CQtEJ-38aiSI43FHLE
+TQID: 'https://experienceleague.adobe.com/GqhjJ-aQZfDJq4RYEtJoleC41CQtEJ-38aiSI43FHLE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 10%
-
+source-wordcount: '615'
+ht-degree: 9%
 ---
-
 # 编辑报表设置
 
 <!-- Audited: 11/2024 -->
@@ -105,7 +112,7 @@ ht-degree: 10%
      </tr> 
      <tr> 
       <td role="rowheader">在详细信息选项卡上显示资源网格视图</td> 
-      <td> <p>（仅限用户报表）选择此选项可在报表的详细信息选项卡上显示资源网格。</p> <p>注：在将资源网格视图应用于用户报表时，该报表仅显示处于当前状态的项目。如果要查看处于任何其他状态的项目，可以使用全局导航栏的“人员”区域中的“用户利用率”选项卡，并在该处应用“资源网格视图”。
+      <td> <p>（仅限用户报表）选择此选项可在报表的详细信息选项卡上显示资源网格。</p> <p>注：在将资源网格视图应用于用户报表时，该报表仅显示处于当前状态的项目。 如果要查看处于任何其他状态的项目，可以使用全局导航栏的“人员”区域中的“用户利用率”选项卡，并在该处应用“资源网格视图”。
       <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)

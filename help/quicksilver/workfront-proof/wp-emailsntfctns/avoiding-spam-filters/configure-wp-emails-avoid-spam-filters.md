@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: 配置 [!DNL Workfront Proof] 电子邮件以避免垃圾邮件过滤器
-description: 您的电子邮件客户端的垃圾邮件过滤器有一个重要用途：保护您免受恼人的和可能的恶意垃圾邮件电子邮件的侵扰。 但是，如果垃圾邮件过滤器中的设置不正确，则可能会阻止您看到以下重要的 [!DNL Workfront Proof] 电子邮件：验证电子邮件通知、新闻通讯和特殊通信。
+title: 配置[!DNL Workfront Proof]电子邮件以避免垃圾邮件过滤器
+description: 您的电子邮件客户端的垃圾邮件过滤器有一个重要用途：保护您免受恼人的和可能的恶意垃圾邮件电子邮件的侵扰。 但是，如果垃圾邮件过滤器中的设置不正确，则可能会阻止您看到以下重要的[!DNL Workfront Proof]电子邮件：验证电子邮件通知、新闻通讯和特殊通信。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+TQID: 'https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # 配置[!DNL Workfront Proof]电子邮件以避免垃圾邮件过滤器
 
 >[!IMPORTANT]

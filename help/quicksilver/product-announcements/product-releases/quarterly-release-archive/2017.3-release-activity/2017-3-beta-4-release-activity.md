@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+TQID: 'https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1625
+source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 # 2017.3 Beta 4发行版活动
 
 本页介绍了2017.3 Beta 4版本在“预览”环境中最近提供的所有更改。 此页面上的功能在2017年9月25日这一周的“预览”环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
@@ -62,7 +70,7 @@ ht-degree: 0%
 
 ## 重复任务 {#duplicate-tasks}
 
-您现在可以快速复制项目中的一项任务或一组任务。此操作创建一个与原始任务相同的任务。在复制过程中，没有其他选项可让您对新创建的任务进行任何更改。  
+您现在可以快速复制项目中的一项任务或一组任务。 此操作创建一个与原始任务相同的任务。 在复制过程中，没有其他选项可让您对新创建的任务进行任何更改。  
 
 在此更改之前，您可以将任务复制到新项目或现有项目，并在复制时修改某些信息。
 
@@ -119,7 +127,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 您现在可以在安装程序中找到一个名为资源管理的新区域。 在此方面，我们引入了一个设置，该设置允许您指定如何在资源规划者中计算用户可用性。 可以使用以下方法计算此值：
 
 * 人工：除了用户的单个FTE之外，系统的默认计划还用于确定资源规划者中用户的小时可用性。 用户的计划将被忽略。
-* 自动：用户计划用于确定用户在资源规划者中的可用小时数。FTE可用性是根据用户计划和默认计划计算的。忽略用户FTE的值。 
+* 自动：用户计划用于确定用户在资源规划者中的可用小时数。 FTE可用性是根据用户计划和默认计划计算的。 忽略用户FTE的值。 
 
 有关为系统配置资源管理首选项的详细信息，请参阅[配置资源管理首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 

@@ -7,13 +7,17 @@ description: 本文介绍了如何覆盖项目的系统用户成本费率。
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 3%
-
 ---
-
 # 覆盖项目级别的用户成本率
 
 您可以指定特定项目中的用户的成本费率。 此项目层成本费率将覆盖此用户系统层的成本费率。 Workfront使用工作角色的项目层成本费率来计算成本，而不使用系统层成本费率。
@@ -44,7 +48,7 @@ ht-degree: 3%
        <p><p>您还必须具有下列任一属性：</p> 
         <ul> 
           <li> <p>系统管理员访问级别。 </li> 
-          <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+          <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
     </ul></td> 
   </tr> 
   <tr> 

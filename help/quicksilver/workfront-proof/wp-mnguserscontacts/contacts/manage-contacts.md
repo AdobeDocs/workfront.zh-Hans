@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: 在 [!DNL Workfront Proof]中管理您的联系人
+title: 在[!DNL Workfront Proof]中管理您的联系人
 description: 您可以在“联系人”页面上管理您的同事、成员和来宾。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
-TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
+TQID: 'https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中管理您的联系人
 
 >[!IMPORTANT]
@@ -76,7 +85,7 @@ ht-degree: 0%
    * 单击&#x200B;**[!UICONTROL 删除联系人]**&#x200B;以从列表中删除选定的联系人。
 
      ![Trash_button.png](assets/trash-button.png)
-删除联系人并不意味着从您的帐户中删除某个用户；但是，如果管理员或账单管理员从联系人列表中删除某个人，则该人员将从您组织的帐户中完全删除。
+     删除联系人并不意味着从您的帐户中删除某个用户；但是，如果管理员或账单管理员从联系人列表中删除某个人，则该人员将从您组织的帐户中完全删除。
 
    * 单击联系人行末尾的&#x200B;**[!UICONTROL 更多]**&#x200B;图标，然后使用显示的下拉菜单中的任何选项。
 

@@ -6,18 +6,21 @@ description: 以下通知会提醒您正在赞助的项目中发生的活动。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+TQID: 'https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: '928'
 ht-degree: 0%
-
 ---
-
 # 通知：其他信息
 
 以下通知会提醒您正在赞助的项目中发生的活动。
@@ -68,7 +71,7 @@ ht-degree: 0%
    <td><strong>即时</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我的一名人员已添加到项目中</strong> </p> <p>当经理的一个用户被添加到项目时，经理会收到电子邮件通知。无论项目的状态如何，都会发送此通知。 </p> <p>拥有[!UICONTROL Review]许可证的用户不会收到通知。</p> <p>电子邮件的主题是： <em>项目工作： &lt;用户名&gt;[&lt;项目GUID&gt;_ &lt;用户GUID&gt;]</em></p> </td> 
+   <td> <p><strong>我的一名人员已添加到项目中</strong> </p> <p>当经理的一个用户被添加到项目时，经理会收到电子邮件通知。 无论项目的状态如何，都会发送此通知。 </p> <p>拥有[!UICONTROL Review]许可证的用户不会收到通知。</p> <p>电子邮件的主题是： <em>项目工作： &lt;用户名&gt;[&lt;项目GUID&gt;_ &lt;用户GUID&gt;]</em></p> </td> 
    <td> <p>项目名称<br>Portfolio名称<br>项目参考编号<br>将人员添加到项目的用户名称<br>添加到项目的用户名称<br>项目[!UICONTROL 计划开始日期]<br>项目[!UICONTROL 计划完成日期]<br>项目完成百分比<br>项目上其他人的名称<br>项目状态<br>项目所有者<br><strong>[!UICONTROL 查看更多详细信息]</strong>按钮<br><br><br></p> </td> 
    <td><strong>即时</strong> </td> 
   </tr> 

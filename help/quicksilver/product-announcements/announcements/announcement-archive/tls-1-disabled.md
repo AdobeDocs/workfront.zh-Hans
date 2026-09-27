@@ -6,22 +6,29 @@ description: 为了提供最佳安全性，Adobe Workfront要求所有依赖于T
 author: Luke
 feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
-TQID: https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8
+TQID: 'https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: '409'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront中需要使用TLS 1.2
 
 为了提供最佳安全性，Adobe Workfront要求所有依赖于TLS 1.0或更早版本的浏览器连接和API集成都升级为使用TLS 1.2。 在“预览”环境中，TLS 1.0已禁用。
@@ -38,7 +45,7 @@ Workfront于2018年3月停止了对TLS 1.0的官方支持。
 
 ## 已禁用使用TLS 1.0的Workfront集成（2019年1月9日）
 
-在2019年1月9日，必须升级所有利用TLS 1.0的Workfront浏览器连接和API集成，才能使用TLS 1.1或更高版本。在此时间之后，继续利用TLS 1.0（入站或出站连接）的浏览器连接和API集成将无法再与Workfront应用程序通信。 
+在2019年1月9日，必须升级所有利用TLS 1.0的Workfront浏览器连接和API集成，才能使用TLS 1.1或更高版本。 在此时间之后，继续利用TLS 1.0（入站或出站连接）的浏览器连接和API集成将无法再与Workfront应用程序通信。 
 
 ## TLS 1.1将于2019年第4季度禁用
 

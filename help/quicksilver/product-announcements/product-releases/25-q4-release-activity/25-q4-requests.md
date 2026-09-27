@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+TQID: 'https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '399'
 ht-degree: 0%
-
 ---
-
 # 2025年第四季度请求增强功能
 
 本页介绍了在2025年第四季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
@@ -31,7 +37,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2025年10月2日>生产快速发布： 2025年10月15日>适用于所有人的生产： 2025年10月16日
+>预览： 2025年10月2日
+>生产快速发布： 2025年10月15日
+>为每个人生产： 2025年10月16日
 
 为了更便于查看您需要的信息，我们在请求区域添加了创建和保存视图的功能。 现在，您可以保存视图（包括筛选器和列配置），并在视图之间切换。 Workfront管理员可以将新视图添加到布局模板。
 

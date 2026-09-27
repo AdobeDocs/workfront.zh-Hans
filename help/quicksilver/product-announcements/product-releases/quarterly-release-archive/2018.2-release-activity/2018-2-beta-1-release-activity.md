@@ -7,21 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+TQID: 'https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1178
+source-wordcount: '1178'
 ht-degree: 1%
-
 ---
-
 # 2018.2 Beta 1发行版活动
 
 本页介绍了2018.2 Beta 1版本在“预览”环境中最近提供的所有更改。 2018年3月22日，该功能在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
@@ -93,8 +101,8 @@ ht-degree: 1%
 * 全屏模式。
 * 性能现在更快、更有效。
 
-   * 可显示的用户、项目、角色和任务数的新限制。
-   * 延迟加载，可加快用户加载速度。
+  * 可显示的用户、项目、角色和任务数的新限制。
+  * 延迟加载，可加快用户加载速度。
 
 已在资源规划程序中临时禁用以下功能：
 

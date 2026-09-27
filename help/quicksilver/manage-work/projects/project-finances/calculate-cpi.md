@@ -7,13 +7,20 @@ description: 成本绩效指数(CPI)描述了项目或任务层的计划成本�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '592'
 ht-degree: 3%
-
 ---
-
 # 计算成本绩效指数(CPI)
 
 <!-- Audited: 5/2025 -->
@@ -102,7 +109,7 @@ CPI = 1
 * **对于父任务：**
 已执行的总预算成本工作=所有直接子任务的“已执行的总预算成本工作”字段的总和。
 
-* 项目&#x200B;**：**
+* **对于项目：**
 已执行的预算成本工时总计=所有顶层任务（父任务和独立任务）的已执行预算成本工时总计字段的总和。
 
 有关已执行总预算成本工作(BCWP)的信息，请参阅[计算已执行预算成本工作(BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md)。
@@ -194,4 +201,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
 1. 单击&#x200B;**财务**。 CPI显示在&#x200B;**CPI/ SPI/ CSI**&#x200B;字段中。
 
-   项目![上的](assets/cpi-on-project-nwe.png)CPI
+   项目![&#128279;](assets/cpi-on-project-nwe.png)上的CPI

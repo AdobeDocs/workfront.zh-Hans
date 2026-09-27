@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 # 2018.3Beta决赛
 
 本页介绍了2018.3 Beta Final版本在“预览”环境中最近提供的所有更改。 该功能将于2018年10月10日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
@@ -128,10 +134,10 @@ ht-degree: 0%
 
   您现在可以通过在主屏幕上长时间按Workfront应用程序来执行以下操作：
 
-   * 搜索
-   * 访问通知
-   * 访问最近访问过的项目 
-   * 访问最近访问的任务或问题
+  * 搜索
+  * 访问通知
+  * 访问最近访问过的项目 
+  * 访问最近访问的任务或问题
 
 * 新的推送通知和从推送通知引入操作
 
@@ -141,18 +147,18 @@ ht-degree: 0%
 
   您可以通过长按推送通知完成以下操作，而无需转到应用程序或生成该应用程序的项目：
 
-   * 对项目发表评论
-   * 接受以处理此工作
-   * 作出批准决定
+  * 对项目发表评论
+  * 接受以处理此工作
+  * 作出批准决定
 
 * 支持iOS设备的横向放置
 
   现在，我们完全支持iOS和Android移动设备应用程序的横向和纵向方向，但以下iPhone大小除外：
 
-   * IPHONE 5
-   * iPhone 5S
-   * IPHONE SE\
-     在此增强功能之前，仅支持Android设备使用横向。
+  * IPHONE 5
+  * iPhone 5S
+  * IPHONE SE\
+    在此增强功能之前，仅支持Android设备使用横向。
 
 * 支持iOS 12和Android P平台
 * 支持iOS和Android平板电脑

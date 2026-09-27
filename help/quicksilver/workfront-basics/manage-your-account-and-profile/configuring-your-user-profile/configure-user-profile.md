@@ -3,23 +3,26 @@ content-type: reference
 product-area: user-management;setup
 navigation-topic: manage-your-account-and-profile
 title: 配置您的用户配置文件
-description: 查看本节中的文章以了解如何配置 [!DNL Workfront] 用户配置文件。
+description: 查看本节中的文章以了解如何配置[!DNL Workfront]用户配置文件。
 author: Becky
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
-TQID: https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws
+TQID: 'https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: '147'
 ht-degree: 0%
-
 ---
-
 # 配置您的用户配置文件
 
 您可以通过单击顶部导航区域中的Adobe帐户菜单（您的配置文件图片），访问您的配置文件和首选项选项。

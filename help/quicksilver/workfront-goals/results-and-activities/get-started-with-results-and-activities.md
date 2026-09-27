@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE
+TQID: 'https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront目标中的结果和活动入门
 
 <!--Audited for P& P only: 10/2025-->
@@ -89,9 +95,9 @@ Old:
 * 他们回答问题：“我如何知道我的目标何时完成？”
 * 它们是量度指标。 您可以从以下选项中进行选择，以指示结果的进度：
 
-   * 货币
-   * 数值
-   * 百分比
+  * 货币
+  * 数值
+  * 百分比
 
 有关结果的更多信息，请参阅本文中[结果、活动和项目之间的相似性](#similarities-between-results-activities-and-projects)部分中的结果和活动之间的相似性列表。
 

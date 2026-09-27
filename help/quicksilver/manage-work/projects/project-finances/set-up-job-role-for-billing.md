@@ -7,13 +7,17 @@ description: 通过Workfront，您可以按不同于主要工作角色的工作�
 author: Lisa
 feature: Work Management
 exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
-source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 3%
-
 ---
-
 # 设置工作角色以进行计费
 
 通过Workfront，您可以按不同于主要工作角色的工作角色对用户计费。 当某人临时执行应按不同费率计费的工作时，这将很有用。

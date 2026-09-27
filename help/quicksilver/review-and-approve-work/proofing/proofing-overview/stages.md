@@ -7,13 +7,23 @@ description: 验证阶段是不同用户查看验证的时间段。 当校样从
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 # 自动化工作流暂存概述
 
 验证阶段是不同用户查看验证的时间段。 当校样从一个阶段移动到下一个阶段时，Adobe Workfront会通知审阅人，告知他们何时需要处理校样。
@@ -49,8 +59,8 @@ ht-degree: 0%
 
 **示例：**&#x200B;例如，如果您创建了一个包含四个审阅人的校样：
 
-* 对于审阅人Olivia和Tony，您为今后几天的14:00指定截止日期。
-* 对于Aaron和Amy，请在几天后指定17:00的截止日期。
+* 对于审稿人Olivia和Tony，您为几天后的14:00指定了截止时间。
+* 您为Aaron和Amy指定了几天后17:00的最后期限。
 * 您没有为自己指定截止日期。
 
 系统为每个审阅人创建一个阶段，这三组审阅人包括：

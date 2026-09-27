@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: 在 [!DNL Workfront Proof]中设置具有自动工作流的验证
+title: 在[!DNL Workfront Proof]中设置具有自动工作流的验证
 description: 这会重复在Workfront中配置验证中找到的信息。 在此处或那里进行整合。 也许在这里更好。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1659'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中设置具有自动工作流的验证
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ ht-degree: 0%
    * **[!UICONTROL 从阶段激活]：**&#x200B;选择将添加到阶段激活日期的工作日数以自动设置校对截止日期。
    * **[!UICONTROL 激活阶段]：**&#x200B;对于工作流的每个阶段，您可以决定何时激活它。 对于第一个阶段，可以使用以下选项。
 
-      * 创建验证时
-      * 在特定的时间和日期
-      * 手动\
+     * 创建验证时
+     * 在特定的时间和日期
+     * 手动\
 
-        其他选项可用于后续阶段。 这些选项需要一个父阶段。 它们是：
-      * 在达到上一个截止日期后
-      * 所有决策均已批准或已批准，但有更改
-      * 所有决策均已批准
-      * 所有决策都已作出
+       其他选项可用于后续阶段。 这些选项需要一个父阶段。 它们是：
+     * 在达到上一个截止日期后
+     * 所有决策均已批准或已批准，但有更改
+     * 所有决策均已批准
+     * 所有决策都已作出
    * **[!UICONTROL 从]计算的截止日期：**&#x200B;您在此下拉列表中选择的选项影响&#x200B;**[!UICONTROL 截止日期]**&#x200B;字段中可用的选项。
 
    * **[!UICONTROL 验证创建]：**&#x200B;在&#x200B;**[!UICONTROL 截止日期]**&#x200B;字段中，选择验证的截止日期。
@@ -124,26 +133,26 @@ ht-degree: 0%
 * **[!UICONTROL 阶段名称]**：显示在工作流图上，并包含在发送给审阅人的电子邮件通知中。
 * **[!UICONTROL 激活阶段]**：对于工作流的每个阶段，您可以决定何时激活它。 对于您的第一个阶段，将提供以下选项：
 
-   * 创建验证时
-   * 在特定的时间和日期
-   * 手动
-   * 只有这三个选项可用于第一个阶段。 添加第二个阶段时，其他选项将变为可用；这些选项要求您选择父阶段。
-   * 在达到上一个截止日期后（需要选择父阶段）
-   * 所有决策均为“已批准”或[!UICONTROL 已批准，但有更改]（需要选择父阶段）
-   * 所有决策均已批准（需要选择父阶段）
-   * 已做出所有决策（需要选择父阶段）
+  * 创建验证时
+  * 在特定的时间和日期
+  * 手动
+  * 只有这三个选项可用于第一个阶段。 添加第二个阶段时，其他选项将变为可用；这些选项要求您选择父阶段。
+  * 在达到上一个截止日期后（需要选择父阶段）
+  * 所有决策均为“已批准”或[!UICONTROL 已批准，但有更改]（需要选择父阶段）
+  * 所有决策均已批准（需要选择父阶段）
+  * 已做出所有决策（需要选择父阶段）
 
 * **[!UICONTROL 截止日期]：**&#x200B;您可以决定在工作流的每个阶段应如何计算截止日期。 选项包括：
 
-   * 从验证创建开始：在[!UICONTROL 截止日期]字段(9)中，您可以选择验证的截止日期。
-   * 从阶段激活：在[!UICONTROL 截止日期]下拉列表中，选择将添加到阶段激活日期的工作日数以自动设置验证截止日期。
+  * 从验证创建开始：在[!UICONTROL 截止日期]字段(9)中，您可以选择验证的截止日期。
+  * 从阶段激活：在[!UICONTROL 截止日期]下拉列表中，选择将添加到阶段激活日期的工作日数以自动设置验证截止日期。
 
 * **[!UICONTROL 锁定]：**&#x200B;有许多选项可决定何时可以锁定阶段。 这些选项包括：
 
-   * 手动锁定
-   * 从不
-   * 当下一阶段开始时
-   * 当作出所有决策时
+  * 手动锁定
+  * 从不
+  * 当下一阶段开始时
+  * 当作出所有决策时
 
 **[!UICONTROL 主要决策者]**：您在舞台上设置了主要决策者。 只有将审阅人添加到舞台后，可用的决策者才会显示在列表中。
 
@@ -173,7 +182,7 @@ ht-degree: 0%
 您可以将基本校对转换为自动工作流。
 
 1. 在[!UICONTROL 校对详细信息]页面上单击&#x200B;**[!UICONTROL 转换为自动工作流]**。
-将校对重新部署到自动工作流后，所有阶段均为活动状态且公共，其[!UICONTROL 锁定阶段]选项默认设置为“手动”。所有阶段都保留在用户及其设置中。
+将校对重新处理到自动工作流后，所有阶段均为活动状态且公共，其[!UICONTROL 锁定阶段]选项默认设置为“手动”。 所有阶段都保留在用户及其设置中。
 
    * 在每个阶段创建验证时，激活阶段均设置为。
    * 从选项计算的截止日期设置为在每个阶段创建验证。

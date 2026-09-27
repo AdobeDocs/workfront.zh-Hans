@@ -1,15 +1,19 @@
 ---
 title: Adobe Workfront Planning作为独立产品所需的访问权限
 description: 本文介绍Adobe Workfront Planning作为独立产品使用的许可证、访问级别和用户功能。
-last-update: 2026-04-01T18:02:40Z
+last-update: 2026-04-01T18:02:40.000Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
-
 ---
-
 <!--
 
 Update metadata with this at release:
@@ -137,28 +141,28 @@ Managing your Adobe Workfront Planning instance is similar to managing an Adobe 
 
   有关信息，请参阅：
 
-   * [在Adobe Workfront Planning中作为独立产品管理用户](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [在Adobe Workfront Planning中将团队作为独立产品进行管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
+  * [在Adobe Workfront Planning中作为独立产品管理用户](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [在Adobe Workfront Planning中将团队作为独立产品进行管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
 * 可以提交和管理请求。
 
   有关信息，请参阅[Adobe Workfront规划请求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)。
 * 在主菜单中有以下区域：
 
-   * **Planning**：具有完整的功能，可创建、删除、共享和连接Planning对象。
-   * **用户**：您可以添加用户并编辑其配置文件。
-   * **请求**
-   * **设置**
+  * **Planning**：具有完整的功能，可创建、删除、共享和连接Planning对象。
+  * **用户**：您可以添加用户并编辑其配置文件。
+  * **请求**
+  * **设置**
 * 在“设置”区域包含以下部分：
 
-   * **团队**：您可以添加、删除或编辑团队。 编辑仅限于团队名称、说明和成员；没有可用的筛选器、视图、分组或导出控件。
-   * **以**&#x200B;身份登录：模拟其他用户以进行故障排除。
-   * **自定义季度**：配置显示在Planning时间线视图中的自定义会计季度。
-   * 系统
+  * **团队**：您可以添加、删除或编辑团队。 编辑仅限于团队名称、说明和成员；没有可用的筛选器、视图、分组或导出控件。
+  * **以**&#x200B;身份登录：模拟其他用户以进行故障排除。
+  * **自定义季度**：配置显示在Planning时间线视图中的自定义会计季度。
+  * 系统
 
 * 在“System（系统）”区域包含以下部分：
 
-   * **客户信息**：查看客户和组织详细信息。
-   * **首选项**：查看和配置系统级别的首选项。
+  * **客户信息**：查看客户和组织详细信息。
+  * **首选项**：查看和配置系统级别的首选项。
 
 ### Planning Standard导航概述
 
@@ -170,9 +174,9 @@ Managing your Adobe Workfront Planning instance is similar to managing an Adobe 
   有关信息，请参阅[Adobe Workfront规划请求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)。
 * Planning Standard用户可在主菜单中访问以下区域：
 
-   * **计划**
-   * **用户**：他们对用户具有仅查看访问权限。 他们无法创建或编辑用户。<!--not sure if this is still true-->
-   * **请求**
+  * **计划**
+  * **用户**：他们对用户具有仅查看访问权限。 他们无法创建或编辑用户。<!--not sure if this is still true-->
+  * **请求**
 
 * 无权访问“设置”或其任何部分。
 
@@ -186,8 +190,8 @@ Managing your Adobe Workfront Planning instance is similar to managing an Adobe 
 
   存在以下情况：
 
-   * 作为管理员添加到Adobe Console中的用户将在Workfront Planning中获得Planning管理员访问权限级别。
-   * 作为用户添加到Adobe Console中的用户，可以在Workfront Planning中为其分配Planning标准访问级别。 这是在Workfront Planning中作为独立产品分配给新用户的唯一可用访问权限。
+  * 作为管理员添加到Adobe Console中的用户将在Workfront Planning中获得Planning管理员访问权限级别。
+  * 作为用户添加到Adobe Console中的用户，可以在Workfront Planning中为其分配Planning标准访问级别。 这是在Workfront Planning中作为独立产品分配给新用户的唯一可用访问权限。
 
 有关详细信息，请参阅[管理用户](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)。
 

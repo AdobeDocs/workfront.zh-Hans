@@ -8,24 +8,30 @@ feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/U962Q4WRQmKDHHQGHT-yYYK8wmD12cW-3ruf-pr4ZDw
+TQID: 'https://experienceleague.adobe.com/U962Q4WRQmKDHHQGHT-yYYK8wmD12cW-3ruf-pr4ZDw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '595'
 ht-degree: 4%
-
 ---
-
 # 在日历报告中使用[!UICONTROL 预计日期]
 
 日历报告是一种动态报告，提供工作的可视化表示形式。 您可以在日历报表中为以下对象使用预计日期字段：
@@ -76,7 +82,7 @@ ht-degree: 4%
 
 1. 选择要添加新项目组的日历，单击“更多”菜单，然后单击&#x200B;**编辑**。
 或
-单击“**[!UICONTROL +新日历”]**，输入项目名称，然后单击“**[!UICONTROL 添加高级项目”]**。
+单击&#x200B;**[!UICONTROL +新日历]**，输入项目名称，然后单击&#x200B;**[!UICONTROL 添加高级项目]**。
 
    >[!NOTE]
    >
@@ -145,7 +151,7 @@ ht-degree: 4%
 
 
    ![选择日历对象](assets/calendar-field-name.png)
-要了解如何设置条件，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
+   要了解如何设置条件，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
 1. （可选）通过重复步骤1-4为日历分组指定其他对象。
 1. 在&#x200B;**[!UICONTROL 将任务/项目/问题标签设置为……]**&#x200B;字段中，选择此日历分组中的对象在日历中的标签方式。

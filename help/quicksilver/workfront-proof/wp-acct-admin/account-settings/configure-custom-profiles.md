@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: 在 [!DNL Workfront Proof]中配置自定义配置文件
-description: 作为 [!DNL Workfront] 验证帐单管理员或 [!DNL Workfront Proof] 管理员，您可以为其他用户配置自定义配置文件。
+title: 在[!DNL Workfront Proof]中配置自定义配置文件
+description: 作为[!DNL Workfront]验证帐单管理员或[!DNL Workfront Proof]管理员，您可以为其他用户配置自定义配置文件。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a2bd8d41-896a-436e-b160-018081db1c95
-TQID: https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ
+TQID: 'https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '411'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中配置自定义配置文件
 
 >[!IMPORTANT]
@@ -61,7 +70,7 @@ ht-degree: 0%
 
 “配置文件详细信息”页面允许您修改为自定义配置文件启用的权限，复制配置文件，删除配置文件，以及查看配置文件所分配到的用户列表。
 
-有关您可以在此页面上执行的操作的详细信息，请参阅“使用 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)创建和管理自定义配置文件”。
+有关您可以在此页面上执行的操作的详细信息，请参阅“使用 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)创建和管理自定义配置文件”。
 
 * [访问“概要文件详细资料”页](#accessing-the-profile-details-page)
 * [查看已分配配置文件的用户列表](#viewing-the-list-of-users-with-a-profile-assigned)

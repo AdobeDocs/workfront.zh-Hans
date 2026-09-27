@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+TQID: 'https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1450'
 ht-degree: 1%
-
 ---
-
 # 创建项目
 
 <!-- Audited: 05/2026-->
@@ -39,7 +46,7 @@ ht-degree: 1%
 -->
 
 项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。
-项目是项目组合的一个细分，它们不能存在于项目组合之外。项目通常与同一项目组合中的其他项目共享相同的资源。
+项目是项目组合的一个细分，它们不能存在于项目组合之外。 项目通常与同一项目组合中的其他项目共享相同的资源。
 
 您可以创建项目群，以便在项目组合变得太大时对其进行整理。
 
@@ -121,10 +128,10 @@ Old:
 
 * 通过以下方式从Workfront Planning创建项目：
 
-   * 当您从Workfront Planning中的记录类型连接它们时。
+  * 当您从Workfront Planning中的记录类型连接它们时。
 
   有关通过将程序添加到记录来创建程序的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”一节。
-   * 使用Workfront Planning自动化。
+  * 使用Workfront Planning自动化。
 
   有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
@@ -140,21 +147,21 @@ Old:
 
    * 从[!UICONTROL 程序]区域创建程序：
 
-      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 程序]**。
-      1. 单击&#x200B;**[!UICONTROL 新建项目]**。
-      1. 在显示的框中，在&#x200B;**[!UICONTROL 选择Portfolio]**&#x200B;字段中键入现有Portfolio的名称。
-      1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入新项目的名称。
-      1. 单击&#x200B;**[!UICONTROL 保存]**。
+     1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 程序]**。
+     1. 单击&#x200B;**[!UICONTROL 新建项目]**。
+     1. 在显示的框中，在&#x200B;**[!UICONTROL 选择Portfolio]**&#x200B;字段中键入现有Portfolio的名称。
+     1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入新项目的名称。
+     1. 单击&#x200B;**[!UICONTROL 保存]**。
    * 从[!UICONTROL 项目组合]区域创建项目：
 
-      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
-      1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
-      1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 新建项目]**。
+     1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
+     1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
+     1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 新建项目]**。
    * 添加现有程序：
-      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
-      1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
-      1. 单击&#x200B;**[!UICONTROL 新建程序]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 现有程序]**。
-      1. 开始键入现有项目的名称，或单击下拉菜单并从列表中选择现有项目。
+     1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
+     1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
+     1. 单击&#x200B;**[!UICONTROL 新建程序]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 现有程序]**。
+     1. 开始键入现有项目的名称，或单击下拉菜单并从列表中选择现有项目。
 
      >[!NOTE]
      >

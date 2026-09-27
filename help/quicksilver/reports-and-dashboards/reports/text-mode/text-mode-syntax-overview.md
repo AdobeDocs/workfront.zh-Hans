@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 0%
-
 ---
-
 # 文本模式语法概述
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ ht-degree: 0%
 * 在引用Workfront数据库中的对象或属性时，请始终使用驼峰式大小写。
 * 请记住Workfront中的对象层次结构。 视图、筛选器和分组之间存在以下差异：
 
-   * 可以在视图中显示与报表或列表对象相距三个对象的对象。
-   * 在分组、过滤器或自定义提示中，不能引用远离主对象2个以上的对象。
+  * 可以在视图中显示与报表或列表对象相距三个对象的对象。
+  * 在分组、过滤器或自定义提示中，不能引用远离主对象2个以上的对象。
 
   **示例：**&#x200B;您可以在任务视图中显示Portfolio所有者的名称或GUID：
 
@@ -63,8 +67,8 @@ ht-degree: 0%
 
   有关Workfront中对象层次的信息，请参阅：
 
-   * [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API 资源管理器](../../../wf-api/general/api-explorer.md)
+  * [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [API 资源管理器](../../../wf-api/general/api-explorer.md)
 
 * 尽量使用通配符，使报告和列表更加动态，避免为不同的用户和类似的时间线重复使用它们。
 
@@ -96,15 +100,15 @@ ht-degree: 0%
 
   有关在文本模式下构建视图和分组代码的关键行的信息，请参阅：
 
-   * [使用文本模式编辑视图](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [使用文本模式编辑分组](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [使用文本模式编辑视图](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [使用文本模式编辑分组](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * 过滤器和自定义提示的代码行和语法类似。
 
   有关更多信息，请参阅：
 
-   * [使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### 视图和分组的语法
 
@@ -197,22 +201,22 @@ ht-degree: 0%
 
   **示例：**&#x200B;要在任务报告中显示与任务名称连接的项目名称，请使用以下行：
 
-   * 在视图中：
+  * 在视图中：
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * 在分组中：
+  * 在分组中：
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   有关对象如何在Workfront数据库中相互引用的信息，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
 
 * 引用自定义字段时，使用以下规则：
 
-   * 使用与界面中显示的字段完全相同的名称。
-   * 在字段名称前面加上“DE：”。
-   * 用大括号括住该字段。
-   * 按句点分隔与对象相关的字段。
+  * 使用与界面中显示的字段完全相同的名称。
+  * 在字段名称前面加上“DE：”。
+  * 用大括号括住该字段。
+  * 按句点分隔与对象相关的字段。
 
   **示例：**&#x200B;要在valueexpression行的任务视图中显示其他详细信息项目自定义字段，请使用以下行：
 
@@ -284,14 +288,14 @@ ht-degree: 0%
 
 * 连接多个过滤语句的语句连接器：
 
-   * 和
+  * 和
 
-     这是过滤器语句之间的默认连接器。
+    这是过滤器语句之间的默认连接器。
 
-   * 或者
+  * 或者
 
-     >[!TIP]
-     >
-     >语句连接器区分大小写，并且始终大写。 在文本模式下可以省略“AND”。
+    >[!TIP]
+    >
+    >语句连接器区分大小写，并且始终大写。 在文本模式下可以省略“AND”。
 
 * 通配符，可使筛选器更动态，并针对当前时间或登录的用户自定义筛选器。 有关通配符的信息，请参阅[通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。

@@ -11,24 +11,29 @@ role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0
+TQID: 'https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 1%
-
 ---
-
 # 系统跟踪更新概述
 
 <!-- Audited: 08/2025-->
@@ -64,35 +69,35 @@ ht-degree: 1%
 
 * [!UICONTROL 更新]区域可用于以下对象：
 
-   * [!UICONTROL 项目]
-   * [!UICONTROL 任务]
-   * [!UICONTROL 问题]
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL 计划]
-   * [!UICONTROL 用户]
-   * [!UICONTROL 模板]
-   * [!UICONTROL 模板任务]
-   * [!UICONTROL 团队]
-   * [!UICONTROL 文档]
-   * [!UICONTROL 时间表]
-   * [!UICONTROL 故事]
+  * [!UICONTROL 项目]
+  * [!UICONTROL 任务]
+  * [!UICONTROL 问题]
+  * [!UICONTROL Portfolio]
+  * [!UICONTROL 计划]
+  * [!UICONTROL 用户]
+  * [!UICONTROL 模板]
+  * [!UICONTROL 模板任务]
+  * [!UICONTROL 团队]
+  * [!UICONTROL 文档]
+  * [!UICONTROL 时间表]
+  * [!UICONTROL 故事]
 
-     在[!DNL Workfront]中，故事是任务。
-   * [!UICONTROL 迭代]
-   * [!UICONTROL 目标]
+    在[!DNL Workfront]中，故事是任务。
+  * [!UICONTROL 迭代]
+  * [!UICONTROL 目标]
 
-     并非所有Workfront包都包含Workfront Goals。 有关信息，请参阅[使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
-   * 讨论区中的[!UICONTROL 卡片]
+    并非所有Workfront包都包含Workfront Goals。 有关信息，请参阅[使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+  * 讨论区中的[!UICONTROL 卡片]
 
-     有关信息卡更新的详细信息，请参阅[在展示板上使用连接的信息卡](../../../agile/get-started-with-boards/connected-cards.md)。
+    有关信息卡更新的详细信息，请参阅[在展示板上使用连接的信息卡](../../../agile/get-started-with-boards/connected-cards.md)。
 
 * [!DNL Workfront]不跟踪以下对象的系统更新：
 
-   * [!UICONTROL 团队]
-   * [!UICONTROL 模板]
-   * [!UICONTROL 模板任务]
-   * 临时[!UICONTROL 卡]
-   * [!UICONTROL 迭代]
+  * [!UICONTROL 团队]
+  * [!UICONTROL 模板]
+  * [!UICONTROL 模板任务]
+  * 临时[!UICONTROL 卡]
+  * [!UICONTROL 迭代]
 
 
 <!--
@@ -128,9 +133,9 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * [!DNL Workfront]管理员可以在[!UICONTROL 更新]区域定义系统应跟踪的更改类型。 并非所有具有[!UICONTROL 更新]区域的对象都具有可配置的[!UICONTROL 更新]源。 以下对象具有[!UICONTROL 更新]区域，该区域捕获了系统跟踪的更新馈送，但没有可配置的更新馈送：
 
-   * [!UICONTROL 文档]
-   * [!UICONTROL 时间表]
-   * [!UICONTROL 迭代]
-   * [!UICONTROL 目标]
+  * [!UICONTROL 文档]
+  * [!UICONTROL 时间表]
+  * [!UICONTROL 迭代]
+  * [!UICONTROL 目标]
 
 

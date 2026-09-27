@@ -6,22 +6,29 @@ description: 在审阅和批准过程中，您可以向验证上的一个或多�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-TQID: https://experienceleague.adobe.com/dVr9KslUMAN4leS62t2kTOLYnQhHaf21kJB4SVLKsX4
+TQID: 'https://experienceleague.adobe.com/dVr9KslUMAN4leS62t2kTOLYnQhHaf21kJB4SVLKsX4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 354
+source-wordcount: '354'
 ht-degree: 6%
-
 ---
-
 # 向审核者发送有关验证的电子邮件
 
 在审阅和批准过程中，您可以向验证上的一个或多个审阅人发送消息。 消息是一种提醒审阅人完成审阅验证或提供与验证相关的其他信息的简单方法。

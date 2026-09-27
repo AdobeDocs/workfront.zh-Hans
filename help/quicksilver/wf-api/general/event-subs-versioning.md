@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+TQID: 'https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1326'
 ht-degree: 6%
-
 ---
-
 # 事件订阅版本控制
 
 Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区别。
@@ -108,7 +112,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>更新此对象时，<code>UPDATE</code>事件有时错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。</td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
    </td> 
   </tr> 
   <tr> 
@@ -120,7 +124,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>object id</code>。 </td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
   </tr> 
   <tr> 
   <td>
@@ -130,7 +134,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>删除文档时，<code>DELETE</code>事件将受影响的字段错误地显示为处于before状态的空数组。    </td> 
    <td><code>DELETE</code>事件正确显示了处于“之前”状态的受影响字段。</td> 
-   <td>无。<code>DELETE</code>事件仍将被发送，但现在显示受影响字段的正确数据。 
+   <td>无。 <code>DELETE</code>事件仍将被发送，但现在显示受影响字段的正确数据。 
 </td> 
   </tr> 
   <tr> 
@@ -144,7 +148,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>更新此对象时，将发送两个<code>UPDATE</code>事件。 第一个事件不包含受影响的字段，而第二个事件包含。</td> 
    <td>所有字段更新（包括受影响的字段）都仅存在于一个<code>UPDATE</code>事件中，并且不会发送第二个不必要的事件。     </td> 
-   <td>无。如果对受影响的字段应用了过滤器，则事件将在第一个事件中交付。 
+   <td>无。 如果对受影响的字段应用了过滤器，则事件将在第一个事件中交付。 
 </td> 
   </tr> 
   <tr> 
@@ -157,7 +161,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>为费用更新任何参数值时，<code>UPDATE</code>事件错误地显示了topReferenceObjCode从<code>EXPNS</code>更改为<code>PROJ</code>，<code>referenceObjectName</code>从<code>null</code>更改为<code>string value of project name</code>。      </td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
   </tr> 
   <tr> 
   <td>
@@ -168,7 +172,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>删除费用对象时，在发送<code>DELETE</code>事件之前发送了<code>UPDATE</code>事件，并将受影响的字段更改为null。    </td> 
    <td>未发送额外的<code>UPDATE</code>事件。 <code>DELETE</code>事件具有处于“之前”状态的受影响字段的正确值。 </td> 
-   <td>如果您对<code>UPDATE</code>事件中受影响的字段具有过滤器，并且希望在删除对象时收到该过滤器，则您将不再收到该<code>UPDATE</code>事件。如果您希望在删除对象时看到这些字段，则必须创建其他<code>DELETE</code>订阅。
+   <td>如果您对<code>UPDATE</code>事件中受影响的字段具有过滤器，并且希望在删除对象时收到该过滤器，则您将不再收到该<code>UPDATE</code>事件。 如果您希望在删除对象时看到这些字段，则必须创建其他<code>DELETE</code>订阅。
 </td> 
   </tr> 
   <tr> 
@@ -199,7 +203,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。 </td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
 </td> 
   </tr> 
   <tr> 
@@ -222,7 +226,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
     </ul> 
    <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。 </td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
   </tr> 
   <tr> 
   <td>
@@ -232,7 +236,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>更新此对象时，<code>UPDATE</code>事件有时错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。</td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
   </tr> 
   <tr> 
    <th rowspan="2">任务</th> 
@@ -243,7 +247,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。 </td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
   </tr> 
   <tr> 
   <td>
@@ -253,7 +257,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    </td> 
    <td>更新此对象时，<code>UPDATE</code>事件有时错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。</td> 
    <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
-   <td>无。如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
  </tbody> 
 </table>
 

@@ -7,13 +7,20 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 0%
-
+source-wordcount: '567'
+ht-degree: 4%
 ---
-
 # 向其他用户发送私信
 
 通过[!DNL Adobe Workfront]，您可以快速、轻松地直接向其他[!DNL Workfront]用户发送与任何工作项无关的消息。 按此部分所述发送的消息将显示在用户配置文件页面的[!UICONTROL 更新]选项卡中，并且对所有用户可见。 有关更新的更多信息，请参阅[更新工作项并查看更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
@@ -25,17 +32,17 @@ ht-degree: 0%
 
   这取决于用户配置为接收的电子邮件通知的类型。 有关详细信息，请参阅[为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)、[查看和配置群组的事件通知](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)和[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -45,7 +52,7 @@ ht-degree: 0%
    <p>审核或更高</p>
    <p>要从用户列表中发送消息，您必须具有：</p>
    <p>标准</p>
-   <p>工作或更高</p></td>
+   <p>工作版或更高版本</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +81,7 @@ ht-degree: 0%
    >仅当Workfront配置文件与某个公司关联时，[!UICONTROL **私有到我的公司**]&#x200B;设置才可用。
 
 1. 单击&#x200B;**[!UICONTROL 更新]。**
-该消息发布在用户个人资料页上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
+该消息发布在用户个人资料页面的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
 
 ## 从“用户”列表中向一个或多个用户发送消息
 
@@ -83,7 +90,7 @@ ht-degree: 0%
 {{step-1-to-users}}
 
 1. 选择要向其发送消息的一个或多个用户，然后单击&#x200B;[!UICONTROL **将更新发送给用户**]。
-1. 在[!UICONTROL 将更新发送给用户]窗口中键入您的消息。 根据需要使用文本格式选项。 有关详细信息，请参阅文章[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)中的[在Workfront评论中使用富文本](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+1. 在[!UICONTROL 将更新发送给用户]窗口中键入您的消息。 根据需要使用文本格式选项。 有关详细信息，请参阅文章[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中的[在Workfront评论中使用富文本](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)。
 
    在“将更新发送到用户”窗口![向用户发送消息](assets/send-update-to-user-072825.png)
 

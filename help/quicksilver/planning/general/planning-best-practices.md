@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 1%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Adobe Workfront Planning实施建议
@@ -59,12 +68,12 @@ ht-degree: 1%
 * ✅首先，浏览我们预定义的工作区模板，以了解现有类似用例的想法。 您可以使用模板中的预定义记录类型和字段，也可以添加自己的类型和字段。
 * ✅确定要通过Workfront Planning解决的主要用例。 例如，大多数组织都希望提高战略活动的可见性，其中可能包括构建更好的“营销活动日历”。 因此，对于此用例，您可能希望首先回答几个问题：
 
-   * 谁在要求它？
-   * 他们要放进日历里的东西叫什么？
-营销活动？战术？计划？活动？活动？
-   * 他们想用这个日程表回答什么样的问题？
-   * 他们是否为同一受众开展了重叠的营销活动？
-   * 该活动、策略、活动或事件的预算是多少？
+  * 谁在要求它？
+  * 他们要放进日历里的东西叫什么？
+    营销活动？ 战术？ 计划？ 活动？ 活动？
+  * 他们想用这个日程表回答什么样的问题？
+  * 他们是否为同一受众开展了重叠的营销活动？
+  * 该活动、策略、活动或事件的预算是多少？
 
   这些问题的答案将决定您需要在Workfront Planning中构建什么。
 
@@ -210,9 +219,9 @@ ht-degree: 1%
 
   您可以从以下权限级别中进行选择：
 
-   * **管理**：用户可以编辑、删除和共享工作区、记录类型，以及编辑、删除和创建记录。
-   * **Contribute**：人员可以创建、编辑和删除记录。
-   * **查看**：人员可以查看记录。
+  * **管理**：用户可以编辑、删除和共享工作区、记录类型，以及编辑、删除和创建记录。
+  * **Contribute**：人员可以创建、编辑和删除记录。
+  * **查看**：人员可以查看记录。
 
 * ✅尽管许多客户感觉他们会向大多数人授予对工作区的&#x200B;**管理**&#x200B;权限，但确实会将&#x200B;**管理**&#x200B;权限限制为仅允许一组选定的受信任人员，这样就不会意外删除记录类型或创建不必要的记录类型和字段。 他们可以编辑、共享甚至删除工作区。 此级别的权限授予他们对Workspace的完全管理访问权限。
 
@@ -289,14 +298,14 @@ ht-degree: 1%
 
   您可以从以下共享选项中进行选择：
 
-   * 要与Workfront中的人员内部共享，请执行以下操作：
+  * 要与Workfront中的人员内部共享，请执行以下操作：
 
-      * **具有工作区查看权限或更高权限的任何人：**&#x200B;允许具有工作区查看权限或更高权限的所有用户提交创建记录的请求。
-      * **对工作区具有Contribute或更高访问权限的任何人**：限制向对工作区具有Contribute或更高权限的用户提交。
-      * **只有受邀人员才能访问**：添加可向表单提交请求的人员、团队、角色、组或公司。
-   * 对于与没有Workfront帐户的用户进行外部共享：
-      * **创建公共链接**，然后复制该链接并与任何人共享，甚至与没有Workfront帐户的人共享：允许拥有该表单链接的任何人提交请求。
-      * **链接到期日期：**&#x200B;请确保为公共链接设置到期日期以增强安全性。
+    * **具有工作区查看权限或更高权限的任何人：**&#x200B;允许具有工作区查看权限或更高权限的所有用户提交创建记录的请求。
+    * **对工作区具有Contribute或更高访问权限的任何人**：限制向对工作区具有Contribute或更高权限的用户提交。
+    * **只有受邀人员才能访问**：添加可向表单提交请求的人员、团队、角色、组或公司。
+  * 对于与没有Workfront帐户的用户进行外部共享：
+    * **创建公共链接**，然后复制该链接并与任何人共享，甚至与没有Workfront帐户的人共享：允许拥有该表单链接的任何人提交请求。
+    * **链接到期日期：**&#x200B;请确保为公共链接设置到期日期以增强安全性。
 
 ### 管理请求表单的最佳实践
 

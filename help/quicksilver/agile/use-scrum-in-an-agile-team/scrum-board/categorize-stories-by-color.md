@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/V7-dFcJoGqKbPfdk1luo43ucIZSfKg4JFaziJXRrMFw
+TQID: 'https://experienceleague.adobe.com/V7-dFcJoGqKbPfdk1luo43ucIZSfKg4JFaziJXRrMFw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: '422'
 ht-degree: 3%
-
 ---
-
 # 在[!UICONTROL Scrum]展示板上按颜色分类故事
 
 ## 更改文章的默认颜色关联
@@ -33,7 +41,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 迭代]**：在迭代中，故事板图块会根据与故事关联的项目进行颜色编码。 （每个项目都会在故事板上任意指定一种颜色。） 您可以更改每个Agile团队的默认行为。 开发周期上的Agile故事的颜色可以与项目（默认）、故事优先级、所有者或自由格式绑定。 有关详细信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[配置Agile故事板上的故事如何使用颜色指示器](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)。
 
-* **[!UICONTROL 项目]**：在项目中，任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。 如果任务没有任何子任务或没有父任务，则颜色在创建时随机分配给任务。 您可以通过修改Agile视图来更改此默认行为。 项目上的Agile文章的颜色可以与父文章（默认）、文章优先级、所有者或自由格式绑定。 有关详细信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的视图概述中的[创建或自定义[!UICONTROL Agile]视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)。
+* **[!UICONTROL 项目]**：在项目中，任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。 如果任务没有任何子任务或没有父任务，则颜色在创建时随机分配给任务。 您可以通过修改Agile视图来更改此默认行为。 项目上的Agile文章的颜色可以与父文章（默认）、文章优先级、所有者或自由格式绑定。 有关详细信息，请参阅 [!DNL Adobe Workfront]&#x200B;[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的视图概述中的[创建或自定义[!UICONTROL Agile]视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)。
 
 ## 访问权限要求
 

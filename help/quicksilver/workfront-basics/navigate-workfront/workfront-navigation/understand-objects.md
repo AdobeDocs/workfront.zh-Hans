@@ -2,33 +2,43 @@
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: '[!DNL Adobe Workfront]对象概述'
-description: 在 [!DNL Adobe Workfront] 中显示的信息由存储在 [!DNL Workfront] 数据库中的对象表示。 对象是驱动 [!DNL Workfront]中信息的驱动因素。 请参阅本文以了解有关这些对象的更多信息。
+description: 您在[!DNL Adobe Workfront]中显示的信息由存储在[!DNL Workfront]数据库中的对象表示。 对象是驱动[!DNL Workfront]中信息的驱动因素。 请参阅本文以了解有关这些对象的更多信息。
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
+TQID: 'https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2391
+source-wordcount: '2463'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Workfront]对象概述
 
 <!--Audited: 12/2023-->
@@ -147,7 +157,7 @@ ht-degree: 2%
 在[!DNL Workfront]中自定义对象名称时，您应了解以下事项：
 
 * 在系统显示中可能会遇到文体或语法错误。 例如，如果将“[!UICONTROL Issue]”重命名为“Request”，并且在系统中的任何位置都看到短语“An request”，则表示这是正常的，不应视为错误。
-* 对象的自定义名称不可翻译。 只能将[!DNL Workfront]默认名称翻译为支持的语言。 有关[!DNL Workfront]支持的语言的详细信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../workfront-basics/supported-languages-in-workfront.md)支持的语言。 自定义对象名称字段支持外字符，因此您可以用任何语言输入术语。
+* 对象的自定义名称不可翻译。 只能将[!DNL Workfront]默认名称翻译为支持的语言。 有关[!DNL Workfront]支持的语言的详细信息，请参阅 [!DNL Adobe Workfront]&#x200B;[&#128279;](../../../workfront-basics/supported-languages-in-workfront.md)支持的语言。 自定义对象名称字段支持外字符，因此您可以用任何语言输入术语。
 * 当您使用[!UICONTROL 布局模板]自定义对象名称时，我们建议您根据业务部门（团队或组）分配[!UICONTROL 布局模板]。\
    我们建议您使用这些业务部门用户能够清晰理解的名称以避免混淆。
 * 电子邮件通知和传送的报告始终包含由生成电子邮件的用户的[!UICONTROL 布局模板]定义的对象名称。 如果您的用户从其他团队和组中的用户收到电子邮件通知，则您应当准备好在其电子邮件中看到与组或团队无关的对象名称。\
@@ -256,8 +266,8 @@ ht-degree: 2%
 * [!UICONTROL 基线任务]
 * [!UICONTROL 开票记录]
 * [!UICONTROL 预算小时]
-   * 这是[!UICONTROL 预算小时数]，它们显示在已弃用的旧版资源管理工具中。
-   * “巴德。 [!UICONTROL 预算小时数]报告中的“小时数”字段引用[!UICONTROL 资源规划程序]中工作角色的预算小时数。 有关详细信息，请参阅[了解项目的[!UICONTROL 预算劳力成本]和[!UICONTROL 预算小时数]](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)。
+  * 这是[!UICONTROL 预算小时数]，它们显示在已弃用的旧版资源管理工具中。
+  * “巴德。 [!UICONTROL 预算小时数]报告中的“小时数”字段引用[!UICONTROL 资源规划程序]中工作角色的预算小时数。 有关详细信息，请参阅[了解项目的[!UICONTROL 预算劳力成本]和[!UICONTROL 预算小时数]](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)。
 
 * [!UICONTROL 日历事件]
 * [!UICONTROL 公司]
@@ -266,7 +276,7 @@ ht-degree: 2%
 * [!UICONTROL 文档]
 * [!UICONTROL 文档审批]
 * [!UICONTROL 文档版本]
-   * 您可以查看有关文档版本、与版本关联的文档、版本创建者以及在文档版本上创建验证的用户（验证创建者）的信息。
+  * 您可以查看有关文档版本、与版本关联的文档、版本创建者以及在文档版本上创建验证的用户（验证创建者）的信息。
 * [!UICONTROL 电子邮件模板]
 * [!UICONTROL 费用]
 * [!UICONTROL 费用类型]
@@ -274,44 +284,44 @@ ht-degree: 2%
 * [!UICONTROL 收藏]
 * [!UICONTROL 过滤器]
 * [!UICONTROL 目标]
-   * 您可以为战略目标构建报告，或者在项目与目标关联作为目标活动时，在项目报告中显示与目标相关的信息。只有贵组织购买了[!DNL Workfront Goals]许可证，您才能创建战略目标并将项目连接起来。有关[!DNL Workfront Goals]的信息，请参阅[[!DNL Workfront Goals] 概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。有关将项目连接到战略目标的信息，请参阅[将项目添加到Adobe Workfront目标中的目标](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
-*您无法报告与[!UICONTROL 业务案例]关联的项目目标。有关项目目标与战略目标的信息，请参阅[&#x200B; [!DNL Adobe Workfront] 术语表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+  * 您可以为战略目标构建报告，或者在项目与目标关联作为目标活动时，在项目报告中显示与目标相关的信息。 只有贵组织购买了[!DNL Workfront Goals]许可证，您才能创建战略目标并将项目连接起来。 有关[!DNL Workfront Goals]的信息，请参阅[[!DNL Workfront Goals] 概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。 有关将项目连接到战略目标的信息，请参阅[在Adobe Workfront目标中添加项目](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
+    *您无法报告与[!UICONTROL 业务案例]关联的项目目标。 有关项目目标与战略目标的信息，请参阅[术语表 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 * [!UICONTROL 组]
 * [!UICONTROL 分组]
 * [!UICONTROL 小时类型]
 * [!UICONTROL 计划]
-   * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为作为计划子对象的计划生成报告。 有关计划的信息，请参阅 [!DNL Workfront Scenario Planner][&#128279;](../../../scenario-planner/initiatives-overview.md)中的计划概述。
+  * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为作为计划子对象的计划生成报告。 有关计划的信息，请参阅 [!DNL Workfront Scenario Planner]&#x200B;[&#128279;](../../../scenario-planner/initiatives-overview.md)中的计划概述。
 
 * 计划工作角色
-   * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为计划中与计划关联的工作角色生成报告。 有关创建计划并将其与工作角色关联的信息，请参阅[在 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。
+  * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为计划中与计划关联的工作角色生成报告。 有关创建计划并将其与工作角色关联的信息，请参阅[在 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。
 
 * [!UICONTROL 迭代]
 * [!UICONTROL 工作角色]
 * [!UICONTROL 日志条目]
-   * 您可以在[!UICONTROL 更新]对象区域（如任务、项目、问题等）中报告跟踪的系统更新。有关详细信息，请参阅[日志条目的更新区域报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
+  * 您可以在[!UICONTROL 更新]对象区域（如任务、项目、问题等）中报告跟踪的系统更新。有关详细信息，请参阅[日志条目的更新区域报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 
 * [!UICONTROL 布局模板]
 * [!UICONTROL 里程碑]
 * [!UICONTROL 里程碑路径]
 * [!UICONTROL 注释]或[!UICONTROL 更新]
-   * 您可以报告单个用户添加的注释。
+  * 您可以报告单个用户添加的注释。
 
 * [!UICONTROL 参数]（或[!UICONTROL 自定义字段]）
 * [!UICONTROL 参数组]（或[!UICONTROL 分区界限]）
 * [!UICONTROL Portfolio]
 * [!UICONTROL 计划]
 * [!UICONTROL 项目（财务数据）]
-   * 财务信息仅会在与其关联的数据存在时间少于5年的情况下填充到[!UICONTROL 项目（财务数据）]报表中。 例如，如果某个工作角色在2015年1月分配给任务，而今天是2021年9月，则类似该工作角色的[!UICONTROL 分配日期]的财务文件未填充到[!UICONTROL 项目（财务数据）]报表中。
+  * 财务信息仅会在与其关联的数据存在时间少于5年的情况下填充到[!UICONTROL 项目（财务数据）]报表中。 例如，如果某个工作角色在2015年1月分配给任务，而今天是2021年9月，则类似该工作角色的[!UICONTROL 分配日期]的财务文件未填充到[!UICONTROL 项目（财务数据）]报表中。
 
   >[!CAUTION]
   >
   >运行项目（财务数据）报表会重新计算财务数据，这会覆盖先前的财务数据，并且可能需要相当长的时间。 有关重新计算财务数据结果的详细信息，请参阅[重新计算项目财务](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md)。
 
 * [!UICONTROL 校对审批]
-   * 允许您查看有关验证审批的各种信息，包括：提交以供审批的验证、有关[!UICONTROL 审批者]的信息、有关请求者的信息（如果请求者是已授予许可的[!DNL Workfront]用户）、版本信息、验证ID和验证创建日期。\
-      [!UICONTROL 验证审批]报告仅包含在尚未做出决策的用户的“我的工作”区域中可用的验证。\
-   * 验证审批在[!DNL Workfront]中分配，如[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内共享验证[将用户添加到验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)中所述。
+  * 允许您查看有关验证审批的各种信息，包括：提交以供审批的验证、有关[!UICONTROL 审批者]的信息、有关请求者的信息（如果请求者是已授予许可的[!DNL Workfront]用户）、版本信息、验证ID和验证创建日期。\
+     [!UICONTROL 验证审批]报告仅包含在尚未做出决策的用户的“我的工作”区域中可用的验证。\
+  * 验证审批在[!DNL Workfront]中分配，如[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内共享验证[将用户添加到验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)中所述。
 
 * [!UICONTROL 队列]
 * [!UICONTROL 队列主题]
@@ -327,7 +337,7 @@ ht-degree: 2%
 * [!UICONTROL 模板]
 * [!UICONTROL 模板任务]
 * [!UICONTROL 休假]
-   * 您可以报告用户在其个人资料中指示的空闲时间。
+  * 您可以报告用户在其个人资料中指示的空闲时间。
 
 * [!UICONTROL 时间表]
 * [!UICONTROL 周期性工时表]
@@ -335,11 +345,11 @@ ht-degree: 2%
 * [!UICONTROL 用户批准]
 * [!UICONTROL 用户委派]
 
-   * 您可以报告被委派在办公室外执行他人任务和问题的用户。 此报表显示外出用户以及在外出时履行职责的用户。
+  * 您可以报告被委派在办公室外执行他人任务和问题的用户。 此报表显示外出用户以及在外出时履行职责的用户。
 
 * [!UICONTROL 用户决策]
 
-   * 您可以报告用户在当月对验证和文档做出了多少决策。
+  * 您可以报告用户在当月对验证和文档做出了多少决策。
 
 * [!UICONTROL 查看]
 * [!UICONTROL 工作项] （这将生成任务和问题报告）

@@ -1,18 +1,25 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: ' [!DNL Adobe Workfront]中的左侧导航'
-description: ' [!DNL Workfront] 中的左侧导航面板可让您轻松导航系统。'
+title: '[!DNL Adobe Workfront]中的左侧导航'
+description: 使用[!DNL Workfront]中的左侧导航面板，可以轻松导航系统。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1420'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Workfront]中的左侧导航
 
 WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 以下是左侧面板导航的优点：

@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+TQID: 'https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 9918
+source-wordcount: '9993'
 ht-degree: 0%
-
 ---
-
 # 界面现代化
 
 本页列出了我们在Adobe Workfront中所做的界面更新，这些更新旨在改善用户体验并将其与其他Adobe应用程序相统一。 除非另有说明，否则这些更改主要通过可视方式进行，不会显着改变工作流程。
@@ -89,8 +98,8 @@ ht-degree: 0%
 * 新增了将资源分配给模板任务的体验。 现在，在编辑一个任务或编辑多个任务时，都可以使用新版Experience。 以下字段已从“编辑任务”框中删除：
 
 * 分配
-   * 所有者或任务所有者
-   * 受让人的角色
+  * 所有者或任务所有者
+  * 受让人的角色
 
 在模板任务中进行高级工作分配时，您仍然可以找到已删除的字段。
 
@@ -115,9 +124,9 @@ ht-degree: 0%
 
 * 为任务分配资源提供了新的体验。 现在，在编辑一个任务或编辑多个任务时，都可以使用此功能。 以下字段已从“编辑任务”框中删除：
 
-   * 分配
-   * 所有者或任务所有者
-   * 受让人的角色
+  * 分配
+  * 所有者或任务所有者
+  * 受让人的角色
 
 在任务中进行高级工作分配时，您仍然可以找到已删除的字段。
 
@@ -145,9 +154,9 @@ ht-degree: 0%
 
 * 为问题分配资源提供了新的体验。 现在，在编辑一个问题或编辑多个问题时均可使用此功能。 以下字段已从编辑问题框中删除：
 
-   * 分配
-   * 所有者或问题所有者
-   * 受让人的角色
+  * 分配
+  * 所有者或问题所有者
+  * 受让人的角色
 
 在就问题进行高级分配时，您可以更新已删除的字段。
 
@@ -581,8 +590,8 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 **预览版本： 2025年7月31日；生产版本： 2025年7月31日**
 
-在模板上编辑主题组时，我们更新了主题组的外观。现在，“主题组”编辑页面与Workfront其他区域的设计相匹配。
-对主题组进行了小的功能更改。要编辑主题组，请从列表中选择主题组，然后单击编辑图标。在编辑之前，您不再被定向到“主题组详细信息”页面。
+在模板上编辑主题组时，我们更新了主题组的外观。 现在，“主题组”编辑页面与Workfront其他区域的设计相匹配。
+对主题组进行了小的功能更改。 要编辑主题组，请从列表中选择主题组，然后单击编辑图标。 在编辑之前，您不再被定向到“主题组详细信息”页面。
 
 有关详细信息，请参阅[创建主题组](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
@@ -1242,7 +1251,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 我们更新了“自动提醒”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
 要查看此页面，请转到“设置”>“电子邮件”>“自动提醒”。
-此更新包括对该区域的可视化更改。功能未发生更改。
+此更新包括对该区域的可视化更改。 功能未发生更改。
 
 ### “设置”中“电子邮件模板”页面的界面更新
 

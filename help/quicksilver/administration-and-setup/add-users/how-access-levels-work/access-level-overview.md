@@ -10,28 +10,37 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+TQID: 'https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1776'
 ht-degree: 5%
-
 ---
-
 # 访问级别概述
 
 >[!NOTE]
@@ -323,7 +332,8 @@ Workfront具有5个新的内置访问级别：
 >
 >从24.7版本开始，参与者在默认情况下拥有对项目和项目组合的查看权限。
 >
-> 默认情况下，在24.7版本之前载入的>参与者将继续无权访问项目和项目组合。如果需要，您可以更新其访问权限以手动查看。
+> 
+>默认情况下，在24.7版本之前载入的参与者将继续无权访问项目和项目组合。 如果需要，您可以更新其访问权限以手动查看。
 
 ### 外部用户访问级别
 
@@ -421,9 +431,9 @@ Workfront具有5个新的内置访问级别：
 
 * **视图**：此权限级别允许收件人通过以下方式之一共享对象：
 
-   * 系统范围，以便所有用户都可以查看它（不适用于所有对象）
-   * 对于没有Workfront许可证的外部用户（不适用于所有对象）
-   * 带有电子邮件地址（仅适用于文档和日历）
+  * 系统范围，以便所有用户都可以查看它（不适用于所有对象）
+  * 对于没有Workfront许可证的外部用户（不适用于所有对象）
+  * 带有电子邮件地址（仅适用于文档和日历）
 
 * **Contribute**： （不适用于所有对象）
 * **管理**：当有人共享对象时，收件人对对象的权限由收件人的访问级别和共享者授予的对对象的权限组合决定。 该组合中可用的最低访问级别决定了收件人可以对对象执行的操作。

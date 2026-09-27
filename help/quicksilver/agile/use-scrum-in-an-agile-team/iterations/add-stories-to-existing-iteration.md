@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 4%
-
+source-wordcount: '601'
+ht-degree: 3%
 ---
-
 # 将故事添加到现有迭代
 
 您可以通过以下任意方式将故事添加到开发周期：
@@ -69,23 +76,23 @@ ht-degree: 4%
 
 * 在以下情况下，任务使用迭代的开始日期：
 
-   * 项目未设置[!UICONTROL 计划开始日期]。
-   * 项目的[!UICONTROL 计划开始日期]为&#x200B;*早于*&#x200B;或&#x200B;*于*&#x200B;迭代的开始日期。
+  * 项目未设置[!UICONTROL 计划开始日期]。
+  * 项目的[!UICONTROL 计划开始日期]为&#x200B;*早于*&#x200B;或&#x200B;*于*&#x200B;迭代的开始日期。
 
 * 任务在以下情况下使用项目的[!UICONTROL 计划开始日期]：
 
-   * 项目的[!UICONTROL 计划开始日期]晚于&#x200B;*迭代的开始日期*。
+  * 项目的[!UICONTROL 计划开始日期]晚于&#x200B;*迭代的开始日期*。
 
 ### 任务[!UICONTROL 计划完成日期]
 
 * 在以下情况下，任务使用迭代的结束日期：
 
-   * 项目未设置[!UICONTROL 计划完成日期]。
-   * 项目的[!UICONTROL 计划开始日期]早于&#x200B;*或晚于*&#x200B;迭代的开始日期，或项目的[!UICONTROL 计划完成日期]早于&#x200B;*或晚于*&#x200B;迭代的结束日期。
+  * 项目未设置[!UICONTROL 计划完成日期]。
+  * 项目的[!UICONTROL 计划开始日期]早于&#x200B;*或晚于*&#x200B;迭代的开始日期，或项目的[!UICONTROL 计划完成日期]早于&#x200B;*或晚于*&#x200B;迭代的结束日期。
 
 * 任务在以下情况下使用项目的[!UICONTROL 计划完成日期]：
 
-   * 项目的[!UICONTROL 计划开始日期]晚于&#x200B;*迭代的开始日期，项目的[!UICONTROL 计划完成日期]晚于*&#x200B;迭代的结束日期。**
+  * 项目的[!UICONTROL 计划开始日期]晚于&#x200B;*迭代的开始日期，项目的[!UICONTROL 计划完成日期]晚于*&#x200B;迭代的结束日期。**
 
 您可以将单个Scrum团队配置为默认使用项目日期，而不是迭代日期。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[配置将工作项添加到迭代时应用日期的方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)部分。
 
@@ -104,7 +111,7 @@ ht-degree: 4%
 
 1. 打开要添加到开发周期的任务或问题。
 或
-转到项目、报告或仪表板，其中包含要添加到开发周期的任务或问题。然后选择一个或多个任务或问题。
+转到项目、报告或仪表板，其中包含要添加到开发周期的任务或问题。 然后选择一个或多个任务或问题。
 
 1. 单击&#x200B;**[!UICONTROL 更多]** ![更多图标](assets/more-icon.png) > **[!UICONTROL 添加到迭代]**。
 您不能将任务或问题分配给非Agile团队。

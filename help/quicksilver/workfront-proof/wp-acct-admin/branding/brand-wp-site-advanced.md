@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: 将 [!DNL Workfront] 校对网站品牌化 — 高级
+title: 品牌化[!DNL Workfront]校对网站 — 高级
 description: 高级品牌推广适用于Select和Premium计划，并包含在计划的成本中。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+TQID: 'https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '825'
 ht-degree: 1%
-
 ---
-
 # 品牌化[!DNL Workfront Proof]网站 — 高级
 
 >[!IMPORTANT]
@@ -49,7 +59,7 @@ ht-degree: 1%
 
 ## 高级品牌推广概述
 
-您将在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)页面的选项卡中找到[!UICONTROL 品牌策略配置]部分。若要将更改应用于您的帐户，请确保“品牌策略”选项设置为[!UICONTROL 已启用] (1)。
+您将在[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)页面的选项卡中找到[!UICONTROL 品牌策略配置]部分。 若要将更改应用于您的帐户，请确保品牌策略选项设置为[!UICONTROL 已启用] (1)。
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 有关如何配置“高级品牌策略”选项(2-14)的更多详细信息，请参阅以下部分。
@@ -122,7 +132,7 @@ ht-degree: 1%
 
 **页脚**
 
-在品牌策略配置的此字段(10)中，您可以构建一个页脚，该页脚将显示在所有帐户页面的底部。您可以使用内置的WYSIWYG编辑器，也可以简单地粘贴您自己的设计。
+在品牌策略配置的此字段(10)中，您可以构建一个页脚，该页脚将显示在所有帐户页面的底部。 您可以使用内置的WYSIWYG编辑器，也可以简单地粘贴您自己的设计。
 ![页脚.png](assets/footer-350x157.png)
 
 >[!NOTE]

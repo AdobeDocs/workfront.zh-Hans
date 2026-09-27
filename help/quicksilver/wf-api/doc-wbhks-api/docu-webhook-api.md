@@ -8,26 +8,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
+    internal-label: Workfront Document Webhooks
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3699
+source-wordcount: '3700'
 ht-degree: 3%
-
 ---
-
 # 文档Webhooks API
 
 <!-- Audited: 5/2025 -->
@@ -922,9 +929,9 @@ GET /customAction
 
 * 在响应标头中包含错误代码。 错误代码包括：
 
-   * 403 — 禁止访问。 指示请求令牌缺失或无效，或者与令牌关联的凭据无权访问指定的资源。 对于基于OAuth的webhook提供程序，Workfront将尝试检索新的访问令牌。
-   * 404 — 未找到。 指示指定的文件或文件夹不存在。
-   * 500 — 内部服务器错误。 任何其他类型的错误。
+  * 403 — 禁止访问。 指示请求令牌缺失或无效，或者与令牌关联的凭据无权访问指定的资源。 对于基于OAuth的webhook提供程序，Workfront将尝试检索新的访问令牌。
+  * 404 — 未找到。 指示指定的文件或文件夹不存在。
+  * 500 — 内部服务器错误。 任何其他类型的错误。
 
 * 使用以下格式描述响应正文中的错误：
 
@@ -1047,13 +1054,13 @@ GET /customAction
 
 * 版本1.0（发行日期：2015年5月）
 
-   * 初始规范
+  * 初始规范
 
 * 版本1.1（发行日期 — 2015年6月）
 
-   * 更新了/uploadInit — 添加了documentId和documentVersionId
+  * 更新了/uploadInit — 添加了documentId和documentVersionId
 
 * 版本1.2（发行日期：2015年10月）
 
-   * 添加了/createFolder
+  * 添加了/createFolder
 

@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 向 [!DNL Anaplan] 列表项发送 [!DNL Adobe Workfront] 实际小时更新
-description: 此集成方案共享在具有 [!DNL Anaplan] 预算列表项的 [!DNL Adobe Workfront] 项目上捕获的实际小时详细信息。 共享此信息可让您更好地利用 [!DNL Anaplan] 提供的支出优化和财务分析。
+title: 将[!DNL Adobe Workfront]实际小时更新发送到[!DNL Anaplan]列表项
+description: 此集成方案共享在具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目上捕获的实际小时详细信息。 共享此信息可让您更好地利用[!DNL Anaplan]提供的支出优化和财务分析。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
-TQID: https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU
+TQID: 'https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 784
+source-wordcount: '790'
 ht-degree: 15%
-
 ---
-
 # 将[!DNL Adobe Workfront]实际小时更新发送到[!DNL Anaplan]列表项
 
 此集成方案共享在具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目上捕获的实际小时详细信息。 共享此信息可让您更好地利用[!DNL Anaplan]提供的支出优化和财务分析。
@@ -94,29 +103,29 @@ ht-degree: 15%
 * [!DNL Anaplan]模型中要用于此方案的列表。
 * [!DNL Anaplan]中名为&#x200B;**[!UICONTROL Anaplan实际小时数导入]**&#x200B;的文件，它包含以下列（按此顺序）：
 
-   1. [!UICONTROL Workfront项目GUID]
+  1. [!UICONTROL Workfront项目GUID]
 
-   2. [!UICONTROL 小时]
+  2. [!UICONTROL 小时]
 
-   3. [!UICONTROL 小时估计成本]
+  3. [!UICONTROL 小时估计成本]
 
-   4. [!UICONTROL 输入日期]
+  4. [!UICONTROL 输入日期]
 
-   5. [!UICONTROL 角色名称]
+  5. [!UICONTROL 角色名称]
 
-   6. [!UICONTROL 促销活动名称]
+  6. [!UICONTROL 促销活动名称]
 
-   7. [!UICONTROL [!DNL Anaplan]列表项ID]
+  7. [!UICONTROL [!DNL Anaplan]列表项ID]
 
   要准备[!DNL Anaplan]实际费用报表文件：
 
-   1. 将以下内容复制并粘贴到文本编辑器或[!DNL Excel]中
-   1. 以CSV格式保存文件
-   1. 将文件上载到[!DNL Anaplan]。
+  1. 将以下内容复制并粘贴到文本编辑器或[!DNL Excel]中
+  1. 以CSV格式保存文件
+  1. 将文件上载到[!DNL Anaplan]。
 
-      有关说明，请参阅有关将数据从文件导入模块的[!DNL Anaplan]文档。
+     有关说明，请参阅有关将数据从文件导入模块的[!DNL Anaplan]文档。
 
-   1. 请记下您为文件提供的名称；该文件将在[!UICONTROL Fusion]方案模板的部署期间使用。
+  1. 请记下您为文件提供的名称；该文件将在[!UICONTROL Fusion]方案模板的部署期间使用。
 
   示例CSV内容
 

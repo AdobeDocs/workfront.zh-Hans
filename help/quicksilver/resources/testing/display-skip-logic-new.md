@@ -2,13 +2,14 @@
 title: 向自定义表单添加显示逻辑和跳过逻辑
 description: 向自定义表单添加显示逻辑和跳过逻辑
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 0%
-
 ---
-
 # 向自定义表单添加显示逻辑和跳过逻辑
 
 您可以使用智能规则使自定义表单成为动态表单，并使其与填写该表单的用户更相关。 当用户以特定方式响应表单上的多选字段时，智能规则会根据该响应向他们显示您希望他们下一步查看的内容。

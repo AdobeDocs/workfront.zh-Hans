@@ -6,20 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
+TQID: 'https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # 23.2其他增强功能
 
 本页介绍了在23.2版本中对“预览”环境进行的所有其他增强。 这些增强功能将在23.2版本的生产环境中提供。
@@ -37,7 +43,7 @@ ht-degree: 0%
 
 Adobe Workfront中的评论体验更新目前正在开发中。 此更新在某些对象的“更新”部分中包含新界面、新功能和改进的性能。
 
-此新体验最终将统一整个Adobe Workfront以及整个Adobe Experience Cloud中的其他内容的评论。
+此新体验最终将统一整个Adobe Workfront以及其他Adobe Experience Cloud中的评论。
 
 作为此更新的一部分，我们将在问题的更新部分中引入新的评论体验。 在当前版本中，每个用户都可以在测试版模式下切换以在自己的环境中启用此体验。 接受测试版协议后，将显示新的更新部分，他们可以像现在一样继续管理其在此部分中的工作。
 

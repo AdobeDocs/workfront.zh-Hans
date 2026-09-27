@@ -10,18 +10,24 @@ hide: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw
+TQID: 'https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1043
+source-wordcount: '1043'
 ht-degree: 1%
-
 ---
-
 # 新的评论体验
 
 <!--take out legacy, preview, prod references from below-->
@@ -424,26 +430,26 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 以下是发布新评论体验的计划时间表：
 
 * 在23.2版本（2023年4月6日）中：
-   * 发布了关于问题的评论体验Beta
-   * 发布了针对目标的新评论体验（作为唯一体验）
+  * 发布了关于问题的评论体验Beta
+  * 发布了针对目标的新评论体验（作为唯一体验）
 * 在23.3版本（2023年7月20日）中：
-   * 为项目、任务和文档启动评论体验Beta 。
-   * 为展示板区域中的信息卡发布了新的评论体验（作为唯一体验）
+  * 为项目、任务和文档启动评论体验Beta 。
+  * 为展示板区域中的信息卡发布了新的评论体验（作为唯一体验）
 * 在2023年第四季度版本（限量版本，仅向选择快速版本的客户提供）中：
-   * 发布了针对模板、模板任务、程序、项目组合、团队、用户和工时表的新评论体验（作为唯一体验）
-   * 更新了项目、任务、问题和文档的注释体验Beta ，以使其成为默认选项。 已删除“Beta”标签。
+  * 发布了针对模板、模板任务、程序、项目组合、团队、用户和工时表的新评论体验（作为唯一体验）
+  * 更新了项目、任务、问题和文档的注释体验Beta ，以使其成为默认选项。 已删除“Beta”标签。
 * 在2023年第四季度(23.10)发布（2023年10月26日）
-   * 向所有客户发布了有关模板、模板任务、程序、项目组合、团队、用户和工时表（作为唯一体验）的新注释体验。
-   * 将项目、任务、问题和文档的新注释体验设置为默认选项。
+  * 向所有客户发布了有关模板、模板任务、程序、项目组合、团队、用户和工时表（作为唯一体验）的新注释体验。
+  * 将项目、任务、问题和文档的新注释体验设置为默认选项。
 
   >[!IMPORTANT]
   >
   >    这结束了新评论体验的Beta阶段。
 
-   * 从这一日期开始，将针对新评论体验发布的所有功能纳入当前定期每月和季度发布中。
+  * 从这一日期开始，将针对新评论体验发布的所有功能纳入当前定期每月和季度发布中。
 * 2023年底：
-   * 将旧版注释体验保留为以下对象的辅助选项：项目、任务、问题和文档。 新注释体验是这些对象的所有用户的默认选项。
-   * 使新的注释体验成为所有其他对象的唯一体验。
+  * 将旧版注释体验保留为以下对象的辅助选项：项目、任务、问题和文档。 新注释体验是这些对象的所有用户的默认选项。
+  * 使新的注释体验成为所有其他对象的唯一体验。
 
 * 在2024年第二季度版本（2024年4月11日）中：
 

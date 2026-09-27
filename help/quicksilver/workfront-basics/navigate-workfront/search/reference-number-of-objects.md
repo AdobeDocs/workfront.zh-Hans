@@ -2,24 +2,28 @@
 content-type: reference
 navigation-topic: search
 title: 使用对象的参考编号
-description: 在 [!DNL Adobe Workfront]中，项被标识为对象。 对象与数据库对应，并用于将数据与项关联。 参考号有助于区分两个在其他方面相似的对象（如同名的任务）。 您可以搜索参考号并将其包含在报表中。
+description: 在[!DNL Adobe Workfront]中，项被标识为对象。 对象与数据库对应，并用于将数据与项关联。 参考号有助于区分两个在其他方面相似的对象（如同名的任务）。 您可以搜索参考号并将其包含在报表中。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-TQID: https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0
+TQID: 'https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 0%
-
 ---
-
 # 使用对象的参考编号
 
 在[!DNL Adobe Workfront]中，项被标识为对象。 对象与数据库对应，并用于将数据与项关联。
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 要查看对象的参考编号，您可以创建一个自定义视图，或修改现有视图，并将[!UICONTROL 参考编号]字段添加到视图中的列。 例如，您可以修改[!UICONTROL 项目]视图以显示所有项目的参考编号。
 
-有关如何创建或修改视图的信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的视图概述。
+有关如何创建或修改视图的信息，请参阅 [!DNL Adobe Workfront]&#x200B;[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的视图概述。
 
 ### 在报表中查看参考编号
 

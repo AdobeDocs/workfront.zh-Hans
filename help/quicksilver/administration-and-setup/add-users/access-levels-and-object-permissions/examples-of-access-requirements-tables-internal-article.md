@@ -3,14 +3,15 @@ title: 访问要求表的示例 — 内部文章
 description: 这是一篇内部文章，供我们的团队保留用于访问要求的表的清单。 此内容不应发布。
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 26%
-
 ---
-
 
 # 访问要求表的示例 — 内部文章
 

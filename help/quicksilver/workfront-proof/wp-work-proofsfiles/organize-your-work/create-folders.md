@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中创建文件夹
+title: 在[!DNL Workfront Proof]中创建文件夹
 description: 您可以在Workfront Proof中创建子文件夹。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-TQID: https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I
+TQID: 'https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: '766'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中创建文件夹
 
 >[!IMPORTANT]
@@ -120,7 +128,7 @@ ht-degree: 0%
 
 * 分配文件夹的新所有者(1) — 文件夹的创建者将保留在文件夹上并且无法删除，但您可以使帐户中的另一个用户成为所有者，这将为他们授予对文件夹的编辑权限。
 * 通过键入其他[!DNL Workfront Proof]用户的电子邮件地址(2)与其共享文件夹 — 请注意，文件夹只能与具有自己[!DNL Workfront Proof]登录帐户的人员共享。
-* 为共享文件夹的人员设置权限(3)。 这对于与帐户中的用户共享专用文件夹非常有用 — 您可以决定是否应允许在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)配置文件中具有验证权限配置文件的用户创建、编辑和删除文件夹中的项目。
+* 为共享文件夹的人员设置权限(3)。 这对于与帐户中的用户共享专用文件夹非常有用 — 您可以决定是否应允许在 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)配置文件中具有验证权限配置文件的用户创建、编辑和删除文件夹中的项目。
 * 单击用户名右侧的垃圾桶图标(4)，从文件夹共享列表中删除用户。
 * 通过单击最顶部的垃圾桶图标(5)从文件夹共享列表中删除每个人 — 请注意，您将无法删除文件夹的创建者或所有者。
 

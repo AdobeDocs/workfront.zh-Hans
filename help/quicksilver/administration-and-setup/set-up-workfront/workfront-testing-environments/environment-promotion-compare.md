@@ -9,26 +9,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
-
+source-wordcount: '464'
+ht-degree: 2%
 ---
-
 # 比较环境之间的对象
 
 您可以在环境之间比较对象，以确保环境升级包中包含所需的对象。
 
 您可以选择要比较的环境和对象类型。 Workfront会比较两个环境中选定类型的所有对象，并显示有关对象差异的数据。
 
-## 访问要求
+## 访问权限要求
 
 您必须具备以下条件：
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
    </td>

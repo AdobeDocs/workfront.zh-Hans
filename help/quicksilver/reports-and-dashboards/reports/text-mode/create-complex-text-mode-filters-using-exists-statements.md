@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4
+TQID: 'https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2668
+source-wordcount: '2668'
 ht-degree: 0%
-
 ---
-
 # 使用EXISTS语句创建复杂的文本模式筛选器
 
 <!-- Audited: 01/2025 -->
@@ -75,22 +81,22 @@ ht-degree: 0%
 * 如果要引用未直接连接到滤镜对象的对象，则必须创建复杂的滤镜。
 * 必须使用EXISTS语句执行以下操作：
 
-   * 创建跨多个级别的过滤器。
-   * 创建筛选器以查找缺少的对象。\
-     例如，在构建用户报告时，您可以筛选在特定时间段内未记录时间的用户。
+  * 创建跨多个级别的过滤器。
+  * 创建筛选器以查找缺少的对象。\
+    例如，在构建用户报告时，您可以筛选在特定时间段内未记录时间的用户。
 
 在过滤器中使用EXISTS语句时，请考虑以下规则：
 
 * 在EXISTS过滤器中，您可以引用三个对象：
 
-   * 滤镜的对象（原始对象）。
-   * 要引用其字段的对象（目标对象）。
-   * 连接“原始”对象和“目标”对象的对象（链接对象），以防它们彼此不直接连接。
+  * 滤镜的对象（原始对象）。
+  * 要引用其字段的对象（目标对象）。
+  * 连接“原始”对象和“目标”对象的对象（链接对象），以防它们彼此不直接连接。
 
 * 使用EXISTS的过滤器包含两个由等号链接的单独语句：
 
-   * 等号之前的语句是指您引用的对象（链接对象或目标对象）。
-   * 等号后面的语句是指您引用的对象（原始对象）。
+  * 等号之前的语句是指您引用的对象（链接对象或目标对象）。
+  * 等号后面的语句是指您引用的对象（原始对象）。
 
 * 必须使用链接对象的对象代码来连接语句。\
   您可以在API Explorer中找到所有对象的对象代码。\

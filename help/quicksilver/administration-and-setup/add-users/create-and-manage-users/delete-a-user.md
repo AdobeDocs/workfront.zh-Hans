@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 3%
-
 ---
-
 # 删除用户
 
 <!--Remove me October 2026-->
@@ -96,17 +102,17 @@ ht-degree: 3%
 * 无法再与用户共享对象。
 * 它们与以下对象的关联保持不变：
 
-   * 任务、问题、项目、项目组合
-   * 仪表板
+  * 任务、问题、项目、项目组合
+  * 仪表板
 
-     >[!NOTE]
-     >
-     >如果您停用用户并且无法再查看与用户相关的报告或仪表板，则可能需要更新&#x200B;**使用**&#x200B;的访问权限运行此报告。\
-     >要了解更多信息，请参阅[为什么无法访问已停用用户拥有的报告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的部分。
+    >[!NOTE]
+    >
+    >如果您停用用户并且无法再查看与用户相关的报告或仪表板，则可能需要更新&#x200B;**使用**&#x200B;的访问权限运行此报告。\
+    >要了解更多信息，请参阅[为什么无法访问已停用用户拥有的报告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的部分。
 
-   * 文档
-   * 更新
-   * 小时
+  * 文档
+  * 更新
+  * 小时
 
 * 如果用户已签出文档，则当您取消激活这些文档时，它们仍保持签出状态。 只有Workfront管理员才能重新签入这些帐户。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。
 
@@ -119,8 +125,8 @@ ht-degree: 3%
 * 无法再与用户共享对象。
 * 删除该用户与以下对象的关联：
 
-   * 任务、问题、项目、项目组合
-   * 仪表板
+  * 任务、问题、项目、项目组合
+  * 仪表板
 
   <!--
 
@@ -132,12 +138,12 @@ ht-degree: 3%
 
    -->
 
-   * 更新
-   * 小时
+  * 更新
+  * 小时
 
-     >[!NOTE]
-     >
-     >这些对象仍保留在Workfront中，但对象的所有者现在为空。
+    >[!NOTE]
+    >
+    >这些对象仍保留在Workfront中，但对象的所有者现在为空。
 
 * 如果用户在“全局导航栏”的“文档”区域下上载了任何文档，则也会删除这些文档。
 * 如果用户已签出他们拥有的文档，并且文档上载到主文档区域（从主菜单访问），则文档将随用户一起删除。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。

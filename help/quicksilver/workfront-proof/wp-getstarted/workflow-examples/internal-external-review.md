@@ -3,23 +3,31 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
-title: 在 [!DNL Workfront Proof]中进行内部审核，然后再进行外部审核
+title: 在[!DNL Workfront Proof]中进行内部审查，然后再进行外部审查
 description: 了解如何使用Workfront Proof在组织外部进行审核。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-TQID: https://experienceleague.adobe.com/2KGinDaqr9-NzCDGo9Uh7ig7JjzywcrqF8ZGnvGSZeg
+TQID: 'https://experienceleague.adobe.com/2KGinDaqr9-NzCDGo9Uh7ig7JjzywcrqF8ZGnvGSZeg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中进行内部审查，然后再进行外部审查
 
 >[!IMPORTANT]
@@ -56,7 +64,7 @@ ht-degree: 0%
 
 ![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
-1. **创建新校对** — 设计人员在[!DNL Workfront Proof]中创建新校对并与内部审阅人共享。 设计者使项目经理成为校对的所有者，或者赋予他在校对上[!UICONTROL 作者]的角色（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
+1. **创建新校对** — 设计人员在[!DNL Workfront Proof]中创建新校对并与内部审阅人共享。 设计者使项目经理成为校对的所有者，或者赋予他在校对上[!UICONTROL 作者]的角色（请参阅 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
 
 1. **内部审核** — 项目经理和其他同事审核证明。 有关详细信息，请参阅[在Web验证查看器中查看验证](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)和[在桌面验证查看器中查看验证。](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)
 

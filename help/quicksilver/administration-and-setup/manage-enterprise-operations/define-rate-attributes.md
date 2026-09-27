@@ -8,13 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 1%
-
 ---
-
 # 定义费率属性
 
 费率属性允许您在工作角色之外向费率添加其他维度，从而扩展Adobe Workfront的费率卡和费率功能。 这对于机构和企业而言至关重要，因为它们的费率不仅因工作角色而异，还因代理、地点、品牌、成本中心等因素而异。

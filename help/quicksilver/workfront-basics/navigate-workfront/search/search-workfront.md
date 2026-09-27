@@ -1,27 +1,32 @@
 ---
 navigation-topic: search
 title: 搜索 [!DNL Adobe Workfront]
-description: 当您不记得项目的确切位置时，可通过搜索这些项目，在 [!DNL Adobe Workfront] 中轻松找到它们。
+description: 当您不记得项目的确切位置时，可通过搜索项目来轻松找到[!DNL Adobe Workfront]中的项目。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+TQID: 'https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1523'
 ht-degree: 2%
-
 ---
-
 # 搜索 [!DNL Adobe Workfront]
 
 <!-- Audited: 5/2025 -->
@@ -92,11 +97,11 @@ ht-degree: 2%
 
 * **基本搜索**：在基本搜索中搜索对象时，[!DNL Workfront]在以下字段中查找可能包含关键字的文本：
 
-   * 对象名称
-   * 描述
-   * 自定义数据字段
-   * 更新
-   * 文档名称（在特定文档搜索和基本搜索中）
+  * 对象名称
+  * 描述
+  * 自定义数据字段
+  * 更新
+  * 文档名称（在特定文档搜索和基本搜索中）
 
   有关[!DNL Workfront]中基本搜索的详细信息，请参阅本文中的以下部分：[基本搜索](#basic-search)。
 
@@ -234,7 +239,7 @@ ht-degree: 2%
 
 1. （视情况而定）如果执行常规搜索，请在结果左上角的对象列表中选择要搜索的对象。
 1. 在结果左侧的工具栏中，找到可用于搜索中显示的对象的字段。 每个字段的值按计数排序，每个字段最多显示10个值。
-1. 单击任何可用字段以缩短结果列表。您所做的选择以蓝色突出显示，并且您未选择的字段值会隐藏。
+1. 单击任何可用字段以缩短结果列表。 您所做的选择以蓝色突出显示，并且您未选择的字段值会隐藏。
 选择每个新值后，右侧的结果将动态更新。
 
    ![基本搜索选项卡](assets/basic-search.png)

@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
-TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
+TQID: 'https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1134
+source-wordcount: '1134'
 ht-degree: 0%
-
 ---
-
 # 2018.3 Beta 4发行版活动
 
 本页介绍了2018.3 Beta 4版本在“预览”环境中最近提供的所有更改。 该功能将于2018年8月30日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
@@ -88,10 +95,10 @@ ht-degree: 0%
 * 右键单击功能和它提供的上下文菜单。\
   您可以执行以下操作，而不是右键单击任务来编辑它们：
 
-   * 现在，当您选择单个任务时，可以使用与上一个右键单击菜单选项相同的“更多”菜单。
-   * 选择多个任务时，可以使用列表顶部的图标来执行上一个右键单击菜单中包含的任何操作。
+  * 现在，当您选择单个任务时，可以使用与上一个右键单击菜单选项相同的“更多”菜单。
+  * 选择多个任务时，可以使用列表顶部的图标来执行上一个右键单击菜单中包含的任何操作。
 
-     所有更改在项目内的任务列表中可见，并在任务下的子任务选项卡中可见。
+    所有更改在项目内的任务列表中可见，并在任务下的子任务选项卡中可见。
 
 有关在列表中工作的更多信息，请参阅[Adobe Workfront中的列表入门](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 

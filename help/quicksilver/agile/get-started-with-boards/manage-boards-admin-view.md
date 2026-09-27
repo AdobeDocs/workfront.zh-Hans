@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU
+TQID: 'https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: '635'
 ht-degree: 3%
-
 ---
-
 # 管理讨论区管理员视图
 
 “展示板管理视图”包含您的帐户中每个展示板的列表，系统管理员可以使用它们快速获取整个展示板详细信息的快照，包括上次更新时间、每个展示板有多少张展示板等等。
@@ -83,8 +90,8 @@ ht-degree: 3%
 
    1. （可选）单击&#x200B;**日历**&#x200B;图标![日历图标](assets/calendar-icon.png)，然后选择一个日期范围，以按该时间范围内最后修改的展示板进行筛选。
 
-   1. （可选）在&#x200B;**模板**&#x200B;部分中，选择列表将按其筛选的展示板模板类型。您可以选择多个模板类型。
-有关展示板模板类型的详细信息，请参阅[创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
+   1. （可选）在&#x200B;**模板**&#x200B;部分中，选择列表将按其筛选的展示板模板类型。 您可以选择多个模板类型。
+      有关展示板模板类型的详细信息，请参阅[创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （可选）在&#x200B;**Is Archived**&#x200B;部分中，选择是显示已存档还是未存档展示板。 您可以选择多个选项。
 
@@ -151,5 +158,5 @@ ht-degree: 3%
 
    >[!NOTE]
    >   
-   >修改展示板列表分组显示时，**组**&#x200B;图标上方会显示一个蓝色圆点，表示当前视图不同于默认视图。<br>
+   >修改展示板列表分组显示时，**组**&#x200B;图标上方会显示一个蓝色圆点，表示当前视图不同于默认视图。 <br>
    >如果要删除分组，请打开&#x200B;**分组依据**&#x200B;面板，然后选择右上角的&#x200B;**全部清除**。

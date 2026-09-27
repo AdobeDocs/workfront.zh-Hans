@@ -6,27 +6,35 @@ description: 您可以共享或删除您创建的对象或与您共享对象的�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-TQID: https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y
+TQID: 'https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: '1382'
 ht-degree: 1%
-
 ---
-
 # 对象权限共享概述
 
 <!-- Audited: 12/2023 -->
@@ -68,9 +76,9 @@ ht-degree: 1%
 
 * **报告、仪表板和日历**：有关信息，请参阅[共享报告、仪表板和日历](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。  此外，请参阅以下文章：
 
-   * [在Adobe Workfront中共享报表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [共享功能板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [共享日历报告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [在Adobe Workfront中共享报表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [共享功能板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [共享日历报告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **筛选器、视图和分组**：有关信息，请参阅[共享筛选器、视图或分组](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
@@ -108,8 +116,8 @@ ht-degree: 1%
 
 * 当您与用户共享对象时，Workfront会向用户发送通知。 启用以下两个设置后，通知将发出：
 
-   * 系统或组管理员已在“设置”区域中启用&#x200B;**与用户**&#x200B;的对象共享和&#x200B;**与团队**&#x200B;的对象共享电子邮件通知。 有关信息，请参阅[为系统中的每个人配置事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
-   * **有人与我共享对象**，**有人与我的团队共享对象**&#x200B;通知已在用户的配置文件页面中启用。 有关信息，请参阅[修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+  * 系统或组管理员已在“设置”区域中启用&#x200B;**与用户**&#x200B;的对象共享和&#x200B;**与团队**&#x200B;的对象共享电子邮件通知。 有关信息，请参阅[为系统中的每个人配置事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+  * **有人与我共享对象**，**有人与我的团队共享对象**&#x200B;通知已在用户的配置文件页面中启用。 有关信息，请参阅[修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
   必须先启用系统或组级别的设置，然后才能为用户启用通知设置。
 

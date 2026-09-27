@@ -5,27 +5,31 @@ description: 您可以使用“摘要”此功能快速摘要工作项和文档�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-TQID: https://experienceleague.adobe.com/mvz-eXJfHkjdqLVkMishEznQ2HrlHg-RSYTJgGjHEY8
+TQID: 'https://experienceleague.adobe.com/mvz-eXJfHkjdqLVkMishEznQ2HrlHg-RSYTJgGjHEY8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '202'
 ht-degree: 7%
-
 ---
-
 # 使用AI助手处理项目、任务和问题
 
 >[!IMPORTANT]
 >
->从2026年9月开始， AI Assistant将过渡到CX Co-worker ，这是一个用于完成工作的对话界面。 有关CX Co-worker的信息，请参阅[CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>从2026年9月开始，AI Assistant将过渡到CX Coworker，这是一个用于完成工作的对话界面。 有关CX Coworker的信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 AI助手可以帮助您在Workfront中查找项目、任务和问题。
 

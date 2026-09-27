@@ -2,27 +2,31 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: 在 [!DNL Adobe Workfront] 视图中筛选项目列表
+title: 在[!DNL Adobe Workfront]视图中筛选项目列表
 feature: Get Started with Workfront
-description: 默认情况下， [!DNL Adobe Workfront] 视图显示 [!DNL Workfront]中的[!UICONTROL 所有项目]列表，因此您有权查看的所有项目都会列出，而不管其状态如何。
+description: 默认情况下，[!DNL Adobe Workfront]视图显示[!DNL Workfront]中的[!UICONTROL 所有项目]列表，因此您有权查看的所有项目都会列出，而不管其状态如何。
 author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-TQID: https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k
+TQID: 'https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '325'
 ht-degree: 7%
-
 ---
-
 # 筛选[!DNL Adobe Workfront View]中的项目列表
 
 默认情况下，[!DNL Adobe Workfront View]在[!DNL Workfront]中显示[!UICONTROL 所有项目]列表，因此会列出您有权查看的所有项目，而不管其状态如何。
@@ -71,22 +75,22 @@ ht-degree: 7%
    * 状态：选择以仅显示处于特定[!UICONTROL 状态]的项目。
    * [!UICONTROL 计划开始日期]：选择此项可仅在以下时间范围内显示计划开始日期为[!UICONTROL 的项目]：
 
-      * 过去 3 个月
-      * 过去 2 个月
-      * 上个月
-      * 过去两周
+     * 过去 3 个月
+     * 过去 2 个月
+     * 上个月
+     * 过去两周
    * [!UICONTROL 计划完成]：选择此项可仅在以下即将到来的时间范围内显示计划完成日期为[!UICONTROL 的项目：]
 
-      * 两周
-      * 一个月
-      * 两个月
-      * 三个月
+     * 两周
+     * 一个月
+     * 两个月
+     * 三个月
    * [!UICONTROL 预计完成]：选择此项以仅显示在以下即将到来的时间范围内具有[!UICONTROL 预计完成日期]的项目：
 
-      * 两周
-      * 一个月
-      * 两个月
-      * 三个月
+     * 两周
+     * 一个月
+     * 两个月
+     * 三个月
    * [!UICONTROL 所有者]：选择以显示分配给特定所有者的项目。
    * [!UICONTROL 发起人]：选择以显示分配给特定[!UICONTROL 发起人]的项目。
 
