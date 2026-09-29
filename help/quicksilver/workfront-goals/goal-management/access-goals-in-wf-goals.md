@@ -11,21 +11,24 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1i5KaduOVN3rVkyK0Ap0HsdbD7W-iFnjFFFyKiYKmpc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: 372
+source-wordcount: '376'
 ht-degree: 5%
-
 ---
-
 # 在Adobe Workfront目标中访问和打开目标
 
 <!--Audited P&P only: 4/2025-->
@@ -148,10 +151,9 @@ Old:
 
 此时将显示“目标列表”。
 
-
 >[!IMPORTANT]
 >
->   正确访问Workfront目标后，您可以查看自己或任何其他人在目标列表中创建的目标（默认情况下）。
+>正确访问Workfront目标后，您可以查看自己或任何其他人在目标列表中创建的目标（默认情况下）。
 
 <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
@@ -219,6 +221,6 @@ To access an individual goal in the Production environment:
 此时将显示目标的页面。
    ![目标页面](assets/goal-page-unshimmed.png)
 1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)以进一步编辑或共享目标。
-1. 单击左侧面板中的&#x200B;**目标详细信息**&#x200B;以编辑有关目标的信息。 有关详细信息，请参阅Adobe Workfront目标[&#128279;](../goal-management/update-goals-in-goal-details-panel.md)的“目标详细信息”部分中的更新目标。
+1. 单击左侧面板中的&#x200B;**目标详细信息**&#x200B;以编辑有关目标的信息。 有关详细信息，请参阅Adobe Workfront目标](../goal-management/update-goals-in-goal-details-panel.md)的“目标详细信息”部分中的[更新目标。
 
 

@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1636'
 ht-degree: 0%
 ---
 # 报表交付概述
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ ht-degree: 0%
 
 * 您最多可以为任何给定报告安排10个重复报告交付。
 * 只有当您是报表的创建者时，才能安排报表的发送。 如果您需要发送未创建的报表，则可以手动发送。
+* <span class="preview">在预览中，每个计划报表交付都必须有定义的结束日期。 如果之前已将投放设置为从不，Workfront会自动将结束日期设置为从下次发送报告日期起的13个月。</span>
 
 ## 导出限制
 
@@ -146,6 +149,7 @@ ht-degree: 0%
 * [品牌](#branding)
 * [正在格式化](#formatting)
 * [链接](#links)
+* [报告过期通知](#report-expiration-notices)
 
 ### 主题行、附件名称和报告标题 {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ ht-degree: 0%
 当您将报表从Workfront发送到PDF或Excel格式时，原始文档中存在的任何工作链接都保留在发送的文件中。 链接可以指向Workfront中支持链接的任何对象。
 
 电子邮件中报告的名称也是一个链接。
+
+<div class="preview">
+
+### 报告过期通知 {#report-expiration-notices}
+
+在预览中，交付的报表电子邮件包含报表的过期日期。
+
+如果投放每天重复，则当过期日期在45天内时，电子邮件会在每次投放时包含过期警告。
+
+如果每周或每月重复投放，则电子邮件会在过期日期之前的最后四个计划投放期间包含过期警告。
+
+</div>
 
 ## 计划报告的报告
 

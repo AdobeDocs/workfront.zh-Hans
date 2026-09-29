@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 2%
@@ -150,9 +150,9 @@ ht-degree: 2%
 
    如果业务案例被拒绝，项目状态将更改为&#x200B;**已拒绝**。
 
-   >[!NOTE]
-   >
-   >没有通知可提醒提交业务案例批准的用户其项目请求是否被批准或拒绝。
+>[!NOTE]
+>
+>没有通知可提醒提交业务案例批准的用户其项目请求是否被批准或拒绝。
 
 ## 通过访问项目组合中请求的项目批准业务案例
 
