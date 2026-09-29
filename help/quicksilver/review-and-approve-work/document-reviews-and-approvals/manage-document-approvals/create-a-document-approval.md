@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 42b9fa8715c8fdb3936e754289d4102947f2d83b
+source-git-commit: 267e7ab4279a86112b343d32e96b482a490d73c4
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 1%
@@ -70,7 +70,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>查看或更高权限的项目、任务、问题、模板、项目组合、程序、报告、功能板和日历、文档</p> </td> 
+   <td> <p>查看或更高权限的项目、任务、问题、模板、项目组合、程序、报告、功能板、日历和文档</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -112,9 +112,9 @@ ht-degree: 1%
    <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在预览中添加人员或团队</span></strong></td>
-   <td><span class="preview">开始键入用户名、团队或电子邮件地址。 团队默认添加为单个批准者或审核者，但您可以选择将每个团队成员添加为单个参与者。</span>
-   <p><span class="preview">注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</span></p></td>
+   <td><strong>在预览中添加人员或团队</strong></td>
+   <td><p>开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。</p>
+   <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</p></td>
    </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
@@ -182,9 +182,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。<p>注意：对于同一资源，一次只能将一个打开阶段分配给查看者或审批者。 如果同时打开多个并行阶段，则无法将同一人员添加到多个阶段。</p></td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在预览中添加人员或团队</span></strong></td>
-   <td><span class="preview">开始键入用户名、团队或电子邮件地址。 团队默认添加为单个批准者或审核者，但您可以选择将每个团队成员添加为单个参与者。</span>
-   <p><span class="preview">注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</span></p></td>
+   <td><strong>在预览中添加人员或团队</strong></td>
+   <td><p>开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。</p>
+   <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</p></td>
    </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
@@ -248,9 +248,9 @@ preview screen
    <td>开始键入用户名或电子邮件，以添加为审批者或审阅者。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在预览中添加人员或团队</span></strong></td>
-   <td><span class="preview">开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront单独添加团队的每个活动成员。</span>
-   <p><span class="preview">注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</span></p></td>
+   <td><strong>在预览中添加人员或团队</strong></td>
+   <td><p>开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。</p>
+   <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</p></td>
    </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
@@ -324,9 +324,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>开始键入用户名或电子邮件，以添加为审批者或审阅者。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。<p>注意：对于同一资源，一次只能将一个打开阶段分配给查看者或审批者。 如果同时打开多个并行阶段，则无法将同一人员添加到多个阶段。</p></td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在预览中添加人员或团队</span></strong></td>
-   <td><span class="preview">开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront单独添加团队的每个活动成员。</span>
-   <p><span class="preview">注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</span></p></td>
+   <td><strong>在预览中添加人员或团队</strong></td>
+   <td><p>开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。</p>
+   <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</p></td>
    </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
