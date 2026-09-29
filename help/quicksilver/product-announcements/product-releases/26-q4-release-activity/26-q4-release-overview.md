@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 2%
 ---
 # 2026年第四季度发行版概述
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第四季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -707,11 +707,11 @@ ht-degree: 2%
 
 ## 公告
 
-### 弃用旧版计费和成本率字段
+### 弃用工作角色列表视图中的旧版计费和成本率字段
 
 随着时间的推移，我们引进了增强的速率管理能力和专门的工作角色体验，为维护速率信息提供了更完整且可扩展的方法。 因此，费率管理正转向这些专用体验，而不是基于列表的管理工作流。
 
-在2027年1月版中，旧版字段&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;将不再在Workfront API或“用户”和“工作角色”列表视图中可用，包括筛选器/视图/分组配置（直接引用和文本模式计算列）。
+从2027年1月版开始，旧版字段&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;将不再在Workfront API或工作角色列表视图中可用，包括筛选器/视图/分组配置（直接引用和文本模式计算列）。
 
 作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
 
@@ -724,15 +724,14 @@ ht-degree: 2%
     valueformat=HTML
     &grave;&grave;
 
-要管理和审查费率，请使用专门的费率管理经验：
+要管理和审查工作角色费率，请使用专门的费率管理体验：
 
-* 直接从用户配置文件访问用户费率。
 * 直接从“工作角色”>“费率”页面访问和管理工作角色费率。
-* 使用费率报表可以审核、分析和报告跨用户和工作角色的费率信息。
+* 使用费率报表可以跨工作角色复查、分析和报告费率信息。
 
-无需执行任何操作即可为更改做好准备。 但是，当前在“用户”或“工作角色”列表视图中显示&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;字段的管理员应更新其工作流，以使用上述建议的费率管理体验。
+无需执行任何操作即可为更改做好准备。 但是，当前在工作角色列表视图中显示&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;字段的管理员应更新其工作流，以使用上述推荐的费率管理体验。
 
-有关工作角色和用户费率的信息，请参阅[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)和[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+有关工作角色费率的信息，请参阅[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 ### 针对Data Connect读取器用户的仅密码身份验证将于2026年8月8日终止
 
