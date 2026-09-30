@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '498'
 ht-degree: 8%
 ---
 # 使用我的审批构件管理您的审批
@@ -82,7 +82,14 @@ ht-degree: 8%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
-1. （视情况而定）单击&#x200B;**筛选器**&#x200B;下拉菜单，然后选择&#x200B;**全部**&#x200B;以查看分配给您的审批和委托给您的审批。
+1. （可选）调整我的审批小组件中的过滤器选项以选择要显示的审批。 可以使用以下筛选器选项：
+
+   | 筛选器选项 | 描述 |
+   |--------|-------------|
+   | 全部 | 显示分配给您、由其他用户委托给您以及由您提交的所有审批。 |
+   | 我的审批 | 显示分配给您的审批。 这是默认选项。 |
+   | 委托的审批 | 显示其他用户委托给您的审批。 |
+   | 我已提交的审批 | 显示您提交给其他用户的审批。 |
 
    >[!NOTE]
    >
