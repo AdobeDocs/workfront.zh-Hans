@@ -9,23 +9,28 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 TQID: https://experienceleague.adobe.com/b6lcN97EhJ4bD8w12SRE9TGLycM9Y8Si8ZSm8VBlHlA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 43ed208abe51a7172c0143fa6f838362edd913db
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 5%
-
+source-wordcount: '543'
+ht-degree: 4%
 ---
-
 # 管理项目支出
 
 <!-- Audited: 6/2025 -->
@@ -54,11 +59,11 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>编辑对项目和财务数据的访问权限</td> 
+   <td>编辑对项目和任务的访问权限</td> 
   </tr> 
   <tr> 
    <td>对象权限</td> 
-   <td>为项目贡献或更高权限，具有查看或编辑一般财务的权限</td> 
+   <td><p>要添加费用，并编辑或删除您创建的费用：向项目或任务贡献或更高权限，并具有添加费用的权限。</p><p>要查看、编辑或删除其他用户添加的费用，请执行以下操作：管理对项目或任务的权限，该权限具有查看成本费率（用于查看）或编辑成本费率（用于编辑或删除）的权限。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +102,7 @@ ht-degree: 5%
 
 ## 删除费用
 
-1. 转到要删除其费用的项目。
+1. 转到要删除其费用的项目或任务。
 1. 单击左侧面板中的&#x200B;**费用**。
 1. 选择要删除的费用，然后单击&#x200B;**删除**&#x200B;图标![删除](assets/delete.png)。
 1. 在&#x200B;**删除费用**&#x200B;对话框中，单击&#x200B;**是，将其删除**。
