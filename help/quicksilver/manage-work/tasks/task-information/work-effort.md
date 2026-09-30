@@ -12,24 +12,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 246f2fe7a8f1b4c34ca6e3755bef488744acbcd6
 workflow-type: tm+mt
-source-wordcount: 1532
+source-wordcount: '1490'
 ht-degree: 1%
-
 ---
-
 # 工作投入概述
 
 <!--Audited: 01/2024-->
@@ -54,20 +60,22 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">工作投入 </td> 
-   <td> <p>手动标签，定义用户完成一项任务需要花费少量、中量还是大量日常工作。
-   &lt;！—！—
-
-    工作量预计为每日工作时间的百分比。 (注意：请保持草稿。 Vazgen说它不是必需的，但正在等待用户的反馈)
-    
-    —>
-    &lt;/p> &lt;p>考虑以下有关工作投入的内容：&lt;/p>
-    &lt;ul>
-    &lt;li>此字段仅适用于具有简单持续时间类型的任务。 &lt;/li>
-    &lt;li>您可以启用此标签的使用，并在项目级别定义与其关联的工作时间百分比。 &lt;/li>
-    &lt;/ul> &lt;/td>
-</tr> 
+   <td> <p>手动标签，定义用户完成一项任务需要花费少量、中量还是大量日常工作。</p> <p>关于工作投入，请考虑以下事项：</p>
+    <ul> 
+     <li>此字段仅适用于具有简单持续时间类型的任务。 </li> 
+     <li>您可以启用此标签的使用，并在项目级别定义与其关联的工作时间百分比。 </li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+<!--
+       
+       THIS GOES IN THE WORK EFFORT DEFINITION. Lisa moved it here because it was showing on the live site.
+       
+       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
+       
+-->
 
 本文介绍了什么是工作投入，以及在估计任务的工作量时应如何使用它。
 
