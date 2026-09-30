@@ -27,12 +27,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1404'
 ht-degree: 3%
 ---
 # 计划自动报表提交
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -150,7 +152,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>重复</p> </td> 
-      <td> <p>选择是否应每天、每周、每月或每年提交报表。</p> </td> 
+      <td> <p>选择是否应每天、每周、每月或每年提交报表。 <span class="preview">在预览中，选择应每天、每周还是每月传送报告。</span></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>重复，每当</p> </td> 
@@ -174,11 +176,15 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>结束日期</p> </td> 
-      <td>选择计划投放结束的日期。</td> 
+      <td><p>选择计划投放结束的日期。</p> <p class="preview">在预览中，选择计划投放结束的日期。</p> <p class="preview">注：从创建或更新交货规则之日算起，结束日期不能超过13个月。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>从不</p> </td> 
-      <td>如果希望计划投放无限期地持续，请选择<strong>从不</strong>。</td> 
+      <td><p>如果希望计划投放无限期地持续，请选择<strong>从不</strong>。</p> <p class="preview">此选项在预览或快速发布环境中不再可用。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><div class="preview"><p>活动</p></div></td> 
+      <td><div class="preview"><p>打开以保持此投放有效。 默认情况下，新投放处于活动状态。</p> <p>当<strong>结束日期</strong>过后，Workfront会自动关闭并禁用此切换功能。 要恢复投放，请将<strong>结束日期</strong>更新为将来的某个日期，然后再次打开切换开关。</p></div></td> 
      </tr> 
     </tbody> 
    </table>
