@@ -17,14 +17,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 2%
+source-wordcount: '1577'
+ht-degree: 1%
 ---
 # 配置AI协作者
 
-AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以配置AI Collaborator，然后像分配用户一样分配它。
+{{preview-fast-release-general}}
+
+AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可以配置AI Collaborator，然后像分配用户一样分配它。
 
 例如，您可以使用品牌指南配置审阅人类型的AI Collaborator，然后指定该协作者审阅文档。
 
@@ -34,9 +36,15 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
   有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* 工作代理：使用Copilot或Writer创建协作者，然后将协作者分配给任务以完成任务级工作。
+* 工作代理：使用标准AI平台（如Claude、OpenAI、Copilot或Writer）创建协作者，然后将协作者分配给任务或问题以完成工作项目。
 
   有关详细信息，请参阅[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
+
+<!--
+* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+
+   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+-->
 
 
 ## 访问权限要求
@@ -53,11 +61,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员] <span class="preview">或组管理员</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -67,6 +75,9 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 +++
 
 ## 先决条件
+
+* [对于AI审阅者](#for-ai-reviewers)
+* [对于工作代理](#for-work-agents)
 
 ### 对于AI审阅者：
 
@@ -82,7 +93,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
 ### 对于工作代理
 
-必须先在Claude、Copilot Studio或Writer中配置代理，然后才能将其用作工作代理。
+您必须先在Claude、Copilot Studio、Writer、OpenAI或IBM中配置代理，然后才能将其用作工作代理。
+
+>[!NOTE]
+>
+>我们的目标是联系任何代理提供商，因此如果您使用的提供商当前与工作代理不兼容，请联系您的帐户团队寻求帮助。
 
 ## 创建新的AI审阅者
 
@@ -104,13 +119,16 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 ## 配置工作代理
 
-工作代理是可以分配给Workfront中任务的代理。 使用名称、访问级别和其他详细信息配置工作代理，并将其分配给任务，就像分配用户一样。
+工作代理是可以分配给Workfront中的任务或问题的代理。 使用名称、访问级别和其他详细信息配置工作代理，并将其分配给任务，就像分配用户一样。
 
-由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 目前，用作工作代理的代理可以在Copilot Studio、Claude或Writer中创建。
+由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 目前，用作工作代理的代理可以在Copilot Studio、Claude或Writer、OpenAI和IBM中创建。
 
-工作座席只能分配给任务，当前不能分配给问题。
+可以将工作座席分配给任务或问题。
 
 有关创建代理以用作工作代理时的最佳实践列表，请参阅[为工作代理创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-work-agent)。
+
+* [在Workfront中配置工作代理](#configure-a-work-agent-in-workfront)
+* [为工作代理创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### 在Workfront中配置工作代理
 
@@ -122,6 +140,12 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 1. 在AI协作者名称字段中，输入协作者的名称。 这是出现在任务可用被分配人列表中的名称。
 1. 在AI协作者说明字段中，输入对协作者用途或所执行操作的说明。
 1. 在“访问级别”字段中，选择此协作者的访问级别。 此访问级别控制协作者可以执行的操作，与访问级别控制用户可以执行操作的方式相同。
+1. （可选）在“组”字段中，选择要与工作代理关联的组。
+
+   >[!NOTE]
+   >
+   ><span class="preview">如果您是组管理员，则此字段仅显示您是管理员的组。 组管理员必须至少选择一个组。</span>
+
 1. 在&#x200B;**选择代理的来源**&#x200B;区域，选择您要连接在公共平台（如Copilot或Writer）中创建的代理，还是使用自定义代理。
 1. （视情况而定）如果您使用的是来自公共平台的代理，请输入代理平台的身份验证详细信息：
 
@@ -129,14 +153,21 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
    |---|---|
    | Copilot Studio | 网页渠道密码 |
    | Claude 托管代理 | 合成API密钥<br>代理ID<br>环境ID |
-   | 作者 | API密钥<br>应用程序ID |
+   | 编写器代理 | API密钥<br>应用程序ID |
+   | <span class="preview">OpenAI代理</span> | <span class="preview">API密钥<br>代理ID</span> |
+   | <span class="preview">IBM Watsonx Orchestrate</span> | <span class="preview">服务URL<br>API密钥<br>代理ID</span> |
 
 1. 单击&#x200B;**测试连接**。 这让您知道连接是否正确设置。
 1. 在&#x200B;**协作器完成其工作后，它可以**&#x200B;区域中，切换您希望协作器执行的操作。
+
+   * <span class="preview">发送通知：代理在更新流中发表评论，标记请求工作、已分配代理或拥有项目的用户。</span>
+   * <span class="preview">上载文档</span>
+   * <span class="preview">标记任务完成</span>
+   * 写入任务字段：选择座席可以写入的表单和字段。
+
 1. 单击&#x200B;**保存**。
 
 有关工作代理的详细信息，包括如何将其分配给任务，请参阅[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
-
 
 ### 为工作代理创建代理的最佳实践
 
@@ -200,9 +231,46 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 +++
 
+<div class="preview">
+
+<!--
+## Configure a Project Coordinator
+
+The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. Click **New Collaborator** in the upper-right corner of the screen.
+1. Select **Project Coordinator**.
+1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
+1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
+1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
+1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
+   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
+   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
+   * In the **Time (MST)** field, select the time to send updates.
+   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
+   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
+   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
+   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
+1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
+1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
+1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
+1. Click **Save**.
+
+For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+-->
+
+</div>
+
 ## 管理AI协作者
 
 您可以编辑、复制和删除现有AI协作者。
+
+>[!NOTE]
+>
+><span class="preview">组管理员只能查看与其作为管理员的组相关联的AI协作者并与之交互。 如果其他组也与给定的AI Collaborator相关联，则组管理员可以查看但不能编辑它。</span>
 
 {{step-1-to-setup}}
 
