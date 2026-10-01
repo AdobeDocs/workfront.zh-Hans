@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
+source-wordcount: '8284'
 ht-degree: 4%
 ---
 # 创建自定义表单
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ ht-degree: 4%
     <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">选项 </td> 
     <td> 
     <p>选择以下任一选项：</p> 
@@ -507,6 +510,36 @@ ht-degree: 4%
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">选项</span></td> 
+    <td>
+    <div class="preview">
+    <p>单击<strong>编辑选项</strong>以添加或编辑字段的选项。</p>
+    <p>要在“编辑选项”对话框中添加新选项，请执行以下操作：</p>
+    <ol>
+    <li><p>单击表底部的<strong>新行</strong>。</p> <p><b>注意：</b>您可以添加的选项数量没有限制。</p></li>
+    <li>键入<strong>选择名称</strong>和<strong>选择值</strong>。 这些通常相同，就像字段API名称和标签一样。</li>
+    <li>（可选）选择<strong>默认选择</strong>以在字段中默认选定该选项。</li> 
+    </ol>
+    <p>对于其他操作：</p>
+    <ul>
+    <li>要编辑现有选项，请在要更改的区域中双击。</li>
+    <li> 若要隐藏字段中的选项，请选择该选项，然后单击屏幕底部操作栏中的<strong>隐藏选项</strong>。 隐藏选项在报表中仍可访问。</li> 
+    <li> <p>要从字段删除选项，请选择该选项，然后单击屏幕底部操作栏中的<strong>删除选项</strong>。</p> <p><b>警告</b>：如果当前对象使用此选项，请不要将其从字段中移除。 删除它将会导致历史数据丢失。 相反，选择选项可隐藏它，这会阻止用户将来选择它。</p> </li> 
+    <li>使用<strong>拖动</strong>图标<img src="assets/drag-icon.png">手动对选项进行排序。</li>
+    <li>单击<strong>选择排序A-Z</strong>以按字母顺序对字段中的选择进行排序。</li>
+    </ul>
+    <p>编辑完选项后，单击<strong>保存</strong>。</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">单选按钮</span></li>
+    <li><span class="preview">复选框组</span></li>
+    <li><span class="preview">单选下拉菜单</span></li>
+    <li><span class="preview">多选下拉框</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>活动</td>
      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
@@ -815,12 +848,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
