@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 4%
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 4%
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
+| 将文档上传到** | `upload_document_ui` | 它可让您将文件上传到项目、任务、问题、项目、项目组合或模板，也可选择上传到文件夹中。 | 写入 |
 | 按名称查找文档版本 | `approvals_find_document_version_by_name` | 按文件名查找文档的当前版本ID。 支持部分匹配。 | 读取 |
 | 按版本ID获取文档 | `approvals_get_document_by_version_id` | 获取已知文档版本ID的文档详细信息（名称、大小、上传日期、上传程序）。 | 读取 |
 | 解析文档范围 | `approvals_resolve_document_scope` | 将项目或文件夹展开到其中包含的文档版本ID列表中。 支持项目、文件夹和按名称文件夹范围。 | 读取 |
@@ -62,7 +63,7 @@ ht-degree: 4%
 
 
 *Adobe云存储上的项目尚不支持将文档发送到AEM文件夹。 预计未来版本将会提供支持。
-
+**此工具会在聊天中打开交互式上传面板，因此它仅在支持MCP应用程序的工具中起作用。 目前，此工具仅支持Claude。 默认情况下，它显示在工具权限的“交互式工具”下，并请求审批。
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
