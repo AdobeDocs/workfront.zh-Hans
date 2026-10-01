@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
+source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
 workflow-type: tm+mt
-source-wordcount: '3630'
+source-wordcount: '4233'
 ht-degree: 2%
 ---
 # 管理表视图
@@ -324,144 +324,145 @@ Old:
 
    1. 单击搜索框中的&#x200B;**x**&#x200B;图标以清除搜索关键字。
 
-1. （视情况而定）对于数字、货币、百分比和公式字段（采用这些字段类型的任意格式），请展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
 
-   * **SUM**：显示列中所有单元格的总数。 这是默认选项。
-   * **MIN**：显示列中所有单元格的最小值。
-   * **MAX**：显示列中所有单元格中的最高值。
-   * **AVG**：显示列中所有单元格的平均值。
+1. （视情况而定）根据您查看的字段类型，执行以下操作之一；
 
-   <!--    
-    <div class="preview"> 
+   * 对于数字、货币、百分比和公式字段（采用这些字段类型的任意格式），展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
 
-    * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-    </div> 
-    -->
+     * **SUM**：显示列中所有单元格的总数。 这是默认选项。
+     * **MIN**：显示列中所有单元格的最小值。
+     * **MAX**：显示列中所有单元格中的最高值。
+     * **AVG**：显示列中所有单元格的平均值。
+
+     <div class="preview">
+
+     * **NONE**：未聚合列的值。这是默认选项。
+
+     </div>
+
+   <div class="preview">
+
+   * 对于日期字段，请展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
+
+     * **NONE**：未聚合列的值。这是默认选项。
+     * **EMPTY**：显示无值的字段计数。
+     * **NOT EMPTY**：显示具有值的字段计数。
+     * **分钟**：显示最早的日期。
+     * **MAX**：显示最新日期。
+
+   * 对于文本，选择布尔值，人员字段展开位于列底部的聚合器下拉菜单，然后从以下选项中选择：
+
+     * **NONE**：未聚合列的值。这是默认选项。
+     * **EMPTY**：显示无值的字段计数。
+     * **NOT EMPTY**：显示具有值的字段计数。
+
+   </div>
 
    使用聚合器时，请考虑以下事项：
 
-   * 列中的聚合器行是冻结的，是视图设置的一部分。
+   * 列中的聚合器行在显示值时被冻结，并且是视图设置的一部分。
    * 作为视图管理器，您可以选择聚合器，当您与其他人共享视图时，它将与视图共享。
    * 作为查看器，您可以修改聚合，但不会随视图一起保存。
    * 公共共享视图与已保存的聚合共享，该聚合无法修改。
 
+   <div class="preview">
+
+   * 以下字段类型没有汇总：
+
+     * 创建者
+     * 上次修改者
+     * 记录 ID
+   * 公式字段和查找字段具有与其字段格式对应的聚合。
+
+   </div>
+
 <!--
-At preview release, replace the last procedure step with this:
 
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+FROM LISA: This is the old section. I commented it out vs deleting.
 
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
 
-        <div class="preview">
+    <div class="preview"> 
 
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
     
-        </div> 
-   
-    <div class="preview">
+    </div> 
 
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
+-->
 
-    * The following field types do not have an aggregator: 
+### 添加行（或记录） {#add-rows-1}
 
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+表格视图的行显示所选记录类型的单个记录。 添加行与创建记录相同。
 
-    </div> 
+记录类型最多可以有50,000条记录（或行）。
 
-### Add rows (or records) {#add-rows-1}
+1. 转到记录类型页面并选择表视图，或单击&#x200B;**+视图**&#x200B;以添加新视图，然后选择&#x200B;**表**。
 
-The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
+1. 开始添加记录（或行），如[创建记录](/help/quicksilver/planning/records/create-records.md)一文中所述。
 
-You can have up to 50,000 records (or rows) for a record type. 
+   您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+   默认缩略图图像<span class="preview">和颜色</span>也添加到新记录中。
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+   >[!TIP]
+   >
+   ><span class="preview">当记录具有未读注释时，记录的主字段的右上角会显示一个&#x200B;**新注释**&#x200B;指示符。</span>
+   >
+   >![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+1. （可选）选择一个或多个记录或行，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排序行。
 
-    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
+   >[!NOTE]
+   >
+   >如果对表视图应用至少一个排序或分组，则无法重新排序行。
+   >
+   >您对行顺序所做的更改对同一视图中访问该记录类型的所有用户均可见。
+   >
+   ><span class="preview">在拖放行中，如果有多个记录，则数字指示器会显示所选记录数。</span>
 
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    
-1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+1. （可选）单击记录右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑缩略图**&#x200B;以编辑缩略图。
+1. 在生产环境中单击表顶部的&#x200B;**字段**
 
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type in the same view. 
-    >
-    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
+   或
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table in the Production environment
+   <span class="preview">将鼠标悬停在主字段标题</span>上，然后选择&#x200B;**缩略图**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
-    Or 
-    
-    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+   有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. <span class="preview">单击表顶部的&#x200B;**字段**</span>
 
-1. <span class="preview">Click **Fields** at the top of the table</span>
-   
-   Or 
-   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
+   或
+   <span class="preview">将鼠标悬停在主字段标题上，然后选择&#x200B;**颜色**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。</span>
 
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
+1. <span class="preview"> （可选且有条件）如果您启用了&#x200B;**颜色**&#x200B;设置，请单击记录主字段左侧的颜色栏，并从&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;选项卡中选择一种颜色，然后单击框外部将其关闭。 立即应用该颜色。</span>
 
 <div class="preview">
 
-![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+![录制颜色编码拾色器框](assets/color-picker-for-record-color-coding.png)
 
-For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
 </div>
 
 
-### Add filters {#add-filters-1}
+### 添加过滤器 {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+过滤器可帮助您减少屏幕上显示的信息量。
 
-Consider the following when working with filters in the table view: 
+在表格视图中使用过滤器时，请考虑以下事项：
 
--->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -667,7 +668,7 @@ Consider the following when working with filters in the table view:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -1266,9 +1267,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 
