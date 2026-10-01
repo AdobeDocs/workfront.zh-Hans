@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1543'
 ht-degree: 7%
 ---
 # 配置系统偏好设置
@@ -244,7 +244,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 >[!IMPORTANT]
 >
->回调URL必须完全匹配。 Workfront不支持将通配符或前缀匹配用于自定义回调URL。
+>回调URL必须完全匹配，包括任何URL参数。 Workfront不支持将通配符或前缀匹配用于自定义回调URL。
 
 +++
 
