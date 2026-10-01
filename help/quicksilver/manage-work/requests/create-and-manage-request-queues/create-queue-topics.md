@@ -12,27 +12,37 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SBPIFd6lCHfwvZgZ-7Qmjt8miUM6Sjz9iY7BADIpnLk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
 workflow-type: tm+mt
-source-wordcount: 972
-ht-degree: 4%
-
+source-wordcount: '1012'
+ht-degree: 3%
 ---
-
 # 创建队列主题
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -144,7 +154,7 @@ drafted - replace table with P&P:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>添加到主题组</strong> </td> 
-      <td> 如果项目中没有主题组，则项目的名称默认为主题组。<br>如果要在此处创建其他主题组，请从下拉菜单中选择<strong>新建主题组</strong>。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> 如果项目中没有主题组，则项目的名称默认为主题组。<br>如果要在此处创建其他主题组，请从下拉菜单中选择<strong>新建主题组</strong>。<br><img src="assets/create-new-topic-group-within-queue-topic.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自定义表单</strong> </td> 
@@ -197,6 +207,7 @@ drafted - replace table with P&P:
 1. 转到包含要编辑的队列主题的项目或模板。
 1. 单击左侧面板中的&#x200B;**队列主题**。
 1. 单击要编辑的队列主题。
+   <span class="preview">选中要编辑的队列主题旁边的复选框，然后在屏幕底部的蓝色操作栏中单击&#x200B;**编辑**。</span>
 
 有关可用编辑选项的信息，请参阅本文中的[创建队列主题](#create-a-queue-topic)。
 
@@ -208,4 +219,5 @@ drafted - replace table with P&P:
 1. 单击左侧面板中的&#x200B;**队列主题**。
 1. 单击要删除的每个队列主题名称旁边的框。 框中会出现复选标记。
 1. 单击页面顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)。
+   <span class="preview">在屏幕底部的操作栏中单击&#x200B;**删除**。</span>
 

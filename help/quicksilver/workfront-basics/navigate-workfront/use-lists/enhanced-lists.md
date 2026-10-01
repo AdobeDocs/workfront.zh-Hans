@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 1%
 ---
 # 使用增强列表
@@ -78,27 +78,32 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | Workfront列表 | 对象列表的位置 |
 | --- | --- |
 | 优先次序 | <ul><li>主页>选择左侧菜单中的“优先级”图标</li><li>主菜单>优先级</li></ul> |
-| 请求列表 | <ul><li>请求（仅限新体验）</li><li>主页上的我的请求小组件</li></ul> |
+| 请求列表 | <ul><li>主菜单>请求（仅限新体验）</li><li>主页上的我的请求小组件</li></ul> |
 | 安装程序中的状态、优先级、严重性、<span class="preview">条件</span>和汇率列表 | <ul><li>设置>项目首选项>状态</li><li>设置>项目首选项>优先级</li><li>设置>项目首选项>严重程度</li><li><span class="preview">设置>项目偏好设置>条件</span></li><li>设置>项目首选项>汇率</li></ul> |
 | <span class="preview">更新源中的操作和跟踪字段列表</span> | <ul><li><span class="preview">设置>界面>更新馈送>跟踪的字段选项卡</span></li> <li><span class="preview">设置>界面>更新信息源>操作选项卡</span></li></ul> |
 | <span class="preview">记分卡列表</span> | <span class="preview">设置>记分卡</span> |
 | <span class="preview">风险类型列表</span> | <span class="preview">设置>风险类型</span> |
+| <span class="preview">事件通知列表</span> | <ul><li><span class="preview">设置>电子邮件>通知>事件通知</span></li><li><span class="preview">组详细信息页面>事件通知</span></li></ul> |
 | 费率卡上的工作角色和费率列表 | 设置>费率卡>选择费率卡>工作角色和费率 |
 | <span class="preview">位置列表</span> | <span class="preview">设置>位置</span> |
 | 翻译列表 | 设置>本地化 |
-| <span class="preview">集成列表</span> | <ul><li><span class="preview">设置>文档> SharePoint集成</span></li><li><span class="preview">设置>文档>自定义集成</span></li></ul> |
-| 报告列表 | 报告（必须打开&#x200B;**使用可共享文件夹**） |
+| <span class="preview">集成列表</span> | <ul><li><span class="preview">设置>文档> SharePoint集成</span></li><li><span class="preview">设置>文档>自定义集成</span></li><li><span class="preview">设置>文档> Experience Manager Assets</span></li></ul> |
+| 报告列表 | 主菜单>报表（必须打开&#x200B;**使用可共享文件夹**） |
+| <span class="preview">队列主题、主题组和路由规则列表</span> | <ul><li><span class="preview">项目或模板>队列主题</span></li><li><span class="preview">项目或模板>主题组</span></li><li><span class="preview">项目或模板>路由规则</span></li></ul> |
 | 快照列表 | 项目>快照 |
 | 用于计费的资源列表 | 项目>计费资源 |
+| <span class="preview">前置任务列表</span> | <span class="preview">设置>任务或模板任务>前置任务</span> |
 | 任务的新高级工作 | 任务>工作>高级 |
 | <span class="preview">文档的所有版本视图</span> | <span class="preview">项目>文档>文档详细信息>所有版本</span> |
 | 讨论区管理员视图 | 讨论区>管理员视图 |
 | Adobe云存储上的文档 | 项目，任务，问题，项目组合，项目，模板，模板任务>文档 |
 | <span class="preview">方案计划和计划的列表</span> | <span class="preview">主菜单>方案</span> |
+| <span class="preview">目标和进度指示器列表</span> | <ul><li><span class="preview">主菜单>目标</span></li><li><span class="preview">主菜单>目标>进度指示器</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -294,7 +299,7 @@ Last, under Scenario Planner
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
@@ -424,7 +429,7 @@ Last, under Scenario Planner
 1. 单击列表上方的&#x200B;**筛选器**。
 1. 在“筛选器”框中，单击&#x200B;**添加条件**。
 1. 选择要作为筛选依据的字段。
-1. 选择过滤器修饰符，例如“具有任意”、“不具有任何”、“早于”或“晚于”。 根据过滤依据的字段类型，修改量选项会有所不同。
+1. 选择过滤器修饰符，例如“为任意”、“不为”、“早于”或“晚于”。 根据过滤依据的字段类型，修改量选项会有所不同。
 1. 选择一个或多个字段值。 根据筛选依据的字段类型，系统可能会提示您从列表中选择项目、搜索该项目或使用日历选择日期范围。
 
    ![在增强列表中过滤](assets/glist-filter-with-options.png)
