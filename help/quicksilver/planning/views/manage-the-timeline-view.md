@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '5015'
+source-wordcount: '5023'
 ht-degree: 1%
 ---
 # 管理时间线视图
@@ -227,7 +227,7 @@ Old:
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -374,10 +374,10 @@ Old:
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>具有任何</p> 或<span class="preview"><p>是任何</p></span>
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>没有</p> 或<span class="preview"><p>不是任何</p></span>
             <p>为空</p>
             <p>不为空</p></td>
         </tr>

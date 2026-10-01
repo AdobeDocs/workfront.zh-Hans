@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4037'
+source-wordcount: '4045'
 ht-degree: 2%
 ---
 # 管理表视图
@@ -517,10 +517,10 @@ At preview release, replace the last procedure step with this:
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>具有任何</p> 或<span class="preview"><p>是任何</p></span>
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>没有</p> 或<span class="preview"><p>不是任何</p></span>
             <p>为空</p>
             <p>不为空</p></td>
         </tr>
@@ -666,7 +666,7 @@ At preview release, replace the last procedure step with this:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
