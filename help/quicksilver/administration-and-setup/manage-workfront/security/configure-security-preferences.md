@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1539'
 ht-degree: 7%
 ---
 # 配置系统偏好设置
@@ -226,7 +226,9 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 <div class="preview">
 
-授权的重定向URL允许您连接一个自定义AI代理平台，该平台的OAuth回调URL对于您的组织是唯一的，例如，包含连接或租户ID的URL。 有关何时需要此项的详细信息，请参阅[配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)中的[与OAuth连接](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)。
+授权的重定向URL允许您连接一个自定义AI代理平台，该平台的OAuth回调URL对于您的组织是唯一的，例如包含连接或租户ID的URL。
+
+有关何时可能需要授权重定向URL的详细信息，请参阅[配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)中的[使用OAuth连接](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)。
 
 +++ 展开以查看用于管理MCP的授权重定向URL的分步说明。
 
@@ -238,12 +240,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 输入回调&#x200B;**URL**。
 1. 单击&#x200B;**添加**。
 1. 单击&#x200B;**保存**。
+1. 要删除URL，请打开&#x200B;**管理URL**，删除条目，然后单击&#x200B;**保存**。 当关联的集成被停用或泄露时，可能需要此操作。
 
 >[!IMPORTANT]
 >
 >回调URL必须完全匹配。 Workfront不支持将通配符或前缀匹配用于自定义回调URL。
-
-若要删除URL（例如，如果关联的集成已停用或受损），请打开&#x200B;**管理URL**，删除该条目，然后单击&#x200B;**保存**。
 
 +++
 
