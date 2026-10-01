@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 4%
+source-wordcount: '1434'
+ht-degree: 2%
 ---
 # 2026年第四季度报表改进
 
@@ -24,23 +24,99 @@ ht-degree: 4%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## Filter on collection relationships in Canvas Dashboards
+## Google Cloud Platform和Microsoft Azure上现在提供画布功能板
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>预览：不适用
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
 
-When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+Google Cloud Platform (GCP)和Azure上的Workfront实例现在可以选择使用画布功能板打开测试版。 有关详细信息，请参阅[使用画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)。
 
-Previously, filtering on collection relationships required text mode.
+## 注册Snowflake Data Connect的Workfront专用列表
 
-For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+>[!NOTE]
+>
+>预览：不适用
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
 
--->
+您现在可以通过注册个人列表，直接与组织的Snowflake帐户共享Workfront Data Connect数据。 此连接方法使用Snowflake的私有列表功能在组织之间安全地共享数据而不公开披露数据，并且可以跨区域和托管平台工作。
+
+当您要将Workfront数据与企业数据仓库中的其他数据联接时，私有列表非常有用。 由于数据位于您自己的Snowflake帐户中，因此您可以将其与您的其余数据一起查询。
+
+有关详细信息，请参阅[注册Workfront Data Connect的私有列表](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md)。
+
+## 报告MCP工具现在可用于画布仪表板
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+为了更便于使用画布功能板，我们向Workfront MCP添加了工具。 现在，您可以通过聊天构建和管理画布功能板，并且会使用Workfront数据为您创建功能板和构件。 这适用于Claude和Cursor等MCP客户端。
+
+例如，您可以：
+
+* 通过询问创建报告。 用自然语言描述仪表板或图表，而不是手动构建仪表板。
+* 就地编辑。 要求重命名小组件、更改筛选器、交换图表类型或调整大小，这些更改将应用于实时仪表板。
+* 重复使用您拥有的资源。 复制现有功能板或构件作为起点，而不是从头重建。
+
+### 支持的功能
+
+**仪表板**
+
+* 创建新仪表板
+* 列出您的仪表板（您的仪表板、与您共享的仪表板、所有人仪表板或收藏夹），并按标题进行搜索
+* 打开或查看功能板的结构
+* 更新标题、描述、货币、筛选器和提示
+* 复制仪表板（无论是否包含其小组件、提示和过滤器）
+* 删除仪表板
+
+**小组件**
+
+* KPI — 单个合计数字（总和、平均值、计数、最小值、最大值等）
+* 图表 — 条形图、柱状图、折线图和饼图；支持简单图、多系列图和栈叠图
+* 表 — 具有行分组的多列表
+* 查看构件的配置，并更新、复制、调整大小或重新定位，或删除构件
+
+**报告选项**
+
+* 使用条件和AND/OR组过滤数据
+* 按任何字段分组和聚合
+* 从KPI或图表向下钻取到基础记录
+* 自定义列标签、数字、日期和货币格式以及条件单元格样式
+* 仪表板级别的提示和过滤器
+
+有关详细信息，请参阅[使用画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)。
+
+## 在画布功能板之间复制或移动构件
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+您现在可以将构件复制到同一仪表板、您拥有编辑访问权限的其他仪表板或新仪表板。 您还可以将构件移动到您具有编辑访问权限的其他仪表板或新仪表板。
+
+复制构件时，将打开一个对话框，可在其中选择目标仪表板以及复制还是移动构件。 以前，Report Builder会立即打开。
+
+## 在画布功能板中筛选收藏集关系
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+在画布功能板中构建过滤器时，您现在可以根据收藏集关系进行过滤，收藏集关系是链接到一组相关记录而不是单个记录的字段。 例如，您可以筛选属于项目的任务状态，以显示具有“新建”状态任务的项目列表。
+
+以前，过滤收藏集关系需要文本模式。
+
+有关详细信息，请参阅[画布功能板的报告筛选器引用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)。
 
 ## 在画布中复制仪表板
 

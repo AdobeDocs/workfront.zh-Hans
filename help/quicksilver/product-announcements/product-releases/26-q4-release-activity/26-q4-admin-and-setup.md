@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1666'
 ht-degree: 0%
 ---
 # 2026年第四季度管理员增强功能
@@ -23,6 +23,80 @@ ht-degree: 0%
 本页介绍了管理员在2026年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 使用AI生成自定义本地化
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+为了帮助您节省翻译自定义术语和字段标签的时间，我们添加了为自定义本地化生成AI翻译的功能。 现在，Workfront管理员可以使用人工智能为未翻译的自定义文本生成翻译，或为以前本地化的术语填写其他语言翻译，然后在保存之前查看和调整结果。
+
+有关详细信息，请参阅[配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
+
+<!--
+
+## Grant access to MCP Tools
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
+
+* No access
+* Read
+* Create
+* Update / Delete
+
+You can edit this access when editing a specific access level, or edit access to MCP tools for multiple access levels at once.
+
+For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
+
+-->
+
+## 版面模板的增强功能
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+对布局模板进行了一些增强：
+
+* 系统和组管理员现在可以选择在布局模板的主菜单中隐藏或显示系统项目。 系统项目包括“设置”和“帮助”按钮。
+* 现在，您可以使用默认的Workfront菜单选项，将自定义应用程序重新定位为采用任何顺序。 这样，您就可以将每个应用程序放置在最相关的位置。 以前，自定义应用程序始终是布局模板的主菜单选项中的最后一项，无法重新定位。
+* 您现在可以从左侧导航面板中隐藏对象的“详细信息”页面。 对象必须在左侧面板中至少显示一个项目。 如果隐藏了所有其他项目，则无法隐藏最后一个剩余的项目。
+
+有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[使用布局模板自定义左面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
+
+## 改进了自定义表单设计器中更新字段选择的体验
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+在表单设计器中使用下拉字段、单选按钮和复选框时，您现在可以在单个对话框中添加、编辑和删除字段选项。 以前，您需要在设计器的右侧面板中添加和编辑选项，如果创建了一个较长的选项列表，则空间会非常有限。
+
+有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)。
+
+## 在Workfront界面中创建和管理事件订阅
+
+为了更便于您创建和管理组织的活动订阅，我们在“设置”中添加了“活动订阅”区域。 现在，您可以：
+
+* 查看现有事件订阅的列表：
+* 创建新的事件订阅，包括按您指定的标准进行筛选：
+* 删除事件订阅。
+
+<!--ADD LINK WHEN READY-->
+
 
 ## 为MCP集成添加授权的重定向URL
 
@@ -85,22 +159,6 @@ For information, see [Configure system updates](/help/quicksilver/administration
 自定义周数在Workfront中不可见。 它们仅在Workfront Planning时间线视图中可见。
 
 有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
-
-## 在主菜单中重新排序自定义应用程序
-
->[!NOTE]
->
->预览： 2026年9月3日
->生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
->
->2026年9月14日，此功能暂时从预览环境中移除。
-
-使用布局模板时，您现在可以使用默认的Workfront菜单选项将自定义应用程序重新定位为任意顺序。 这样，您就可以将每个应用程序放置在最相关的位置。
-
-以前，自定义应用程序始终是布局模板的主菜单选项中的最后一项，无法重新定位。
-
-有关将自定义应用程序添加到主菜单的详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 ## 对自定义文档集成的大文件支持
 

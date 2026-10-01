@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ec19d8268ff33a8cf773d0460d2af07f497687e
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1427'
 ht-degree: 0%
 ---
 # 2026年第四季度文档增强
@@ -24,15 +24,32 @@ ht-degree: 0%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
+## 将多个文档分组到一个审批工作流中
 
+>[!NOTE]
+>
+>预览：此功能在“预览沙盒”环境中不可用，因为Frame.io集成在那里不可用。
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+现在，您可以在单个审批工作流下对多个文档进行分组，以便它们一起经过相同的阶段。
+
+分组的批准支持基本和高级模式、多个阶段以及并行路径。
+
+分组的审批仅在新的文档区域可用，当您的组织使用支持Adobe云存储的Workfront版本时，将显示该区域。
+
+<!--
+For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
+-->
+
+<!--
 ## Access Workfront projects in Adobe Creative Cloud apps
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: [DATE]
->Production for everyone: [DATE]
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
 
 You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
 
@@ -42,6 +59,18 @@ For more information, see:
 
 * [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
+## Add a web link as a document
+
+>[!NOTE]
+>
+> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
+> Production fast release: October 14, 2026
+> Production for everyone: October 15, 2026
+
+You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
+
+For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 -->
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1108'
 ht-degree: 0%
 ---
 # 2026年第四季度发布时间框架内的其他增强功能
@@ -23,6 +23,59 @@ ht-degree: 0%
 本页介绍了在2026年第四季度发行版中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 增强列表更新
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+已对增强的列表筛选器和分组进行以下更改：
+
+* 在使用字段组的筛选器和分组中，这些组现在默认处于折叠状态。 您不再需要滚动到最远的位置来查找正确的字段组。
+* 过滤器运算符“具有任何”和“不具有任何”已更改为“是任何”和“不具有”。
+
+已对增强列表列标题进行以下更改，以确保Workfront中所有增强列表的一致性：
+
+* 每个标题中添加了一个图标，以指示列表示的字段类型。 例如，“任务接受者”或“用户”列具有人员的图标，日期字段显示日历。 这些图标也会显示在列管理器中的字段旁边。
+* 现在，列标题在更改列大小时可提供更顺畅、更一致的体验。
+
+有关信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+## 多个屏幕已更新为增强列表
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+以下Workfront列表现在使用增强列表格式：
+
+* 设置>电子邮件>通知>事件通知，并且组详细信息页>事件通知
+* 设置>文档> Experience Manager Assets
+* 项目或模板>队列主题
+* 项目或模板>主题组
+* 项目或模板>路由规则
+* 任务或模板任务>前置任务
+
+部分或所有列表的更新包括以下内容：
+
+* 列表的新外观，其中更新了颜色、格式和字体。
+* 在列表中创建新对象的选项已移至右上方，并显示为蓝色按钮。
+* 已删除工具栏。 现在，当您在表格中选择一个或多个对象时，操作栏将以蓝色显示在列表底部。
+* 某些列可能已重新定位或被删除，或者添加了新列。
+* 某些确认和警告已移除或更改。
+* 现在，保存在某些列表中是自动的，并且保存按钮可能会被删除。
+* 有些增强列表允许对列进行重命名或排序。
+* 一些增强列表包括列管理器，允许您添加和排列列。 您可以在Workfront中按本机或自定义字段选择列。
+* 表格单元格中的图标已被具有多个选项的“更多”菜单替换。
+
+注意：并非所有更新在所有列表中都可用。
+
+有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 ## 增强的列表更新
 
@@ -84,7 +137,7 @@ ht-degree: 0%
 
 Adobe Workfront会在您上传、存储和下载的文档上保留C2PA元数据，而不对其进行修改。
 
-有关详细信息，请参阅Adobe Workfront[&#128279;](/help/quicksilver/documents/c2pa-metadata-overview.md)中的C2PA元数据。
+有关详细信息，请参阅Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md)中的[C2PA元数据。
 
 ## 左侧导航面板图标的界面更新
 
