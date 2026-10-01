@@ -139,7 +139,7 @@ Workfront对象包括项目组合、项目群、项目、模板、任务和问�
 
 Adobe云存储在[!DNL Workfront]沙盒环境中可用，因此您可以在生产环境中启用它之前对其进行测试。 但是，Frame.io查看器在沙盒中不可用，因此必须在生产环境中验证完整的统一审阅和批准体验。
 
-如果您有自定义刷新沙盒，则必须在升级到支持Adobe云存储的Workfront版本后刷新它，才能在沙盒中访问Adobe云存储功能。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
+如果您有自定义刷新沙盒，则必须在升级到支持Adobe云存储的Workfront版本后刷新它，才能在沙盒中访问Adobe云存储功能。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
 
 ## 注意事项
 
