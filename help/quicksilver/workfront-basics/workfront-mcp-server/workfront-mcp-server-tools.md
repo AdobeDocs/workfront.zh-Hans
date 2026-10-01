@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 4%
 ---
 
@@ -316,7 +316,22 @@ ht-degree: 4%
 | --- | --- | --- | --- |
 | <span class="preview">分享反馈</span> | <span class="preview">`share_feedback`</span> | <span class="preview">记录您报告的情绪以及对话过程中发生的情况，以便改进Workfront的MCP工具。 仅当您明确要求共享反馈（例如“共享反馈”或“报告错误”）时使用。</span> | <span class="preview">写入</span> |
 
+## 报告工具
 
+通过报告工具，您可以通过聊天构建和管理画布功能板。 以纯语言描述您想要的报告，AI代理平台会使用Workfront数据为您创建功能板和小组件。
+
+
+### 画布仪表板
+
+| 标题 | 工具名称 | 作用 | 操作 |
+| --- | --- | --- | --- |
+| 读取 | `read` | 以传递ID选择的三种模式读取报表数据：列出您可见的仪表板，获取单个仪表板的结构，或获取一个小组件的完整配置。 | 读取 |
+| 创建功能板 | `create_dashboard` | 创建一个空的新报表仪表板并返回它，同时返回一个用于打开它的链接。 | 写入 |
+| 更新仪表板 | `update_dashboard` | 部分更新功能板的元数据、提示、过滤器和按构件放置。 省略的字段保持不变。 | 写入 |
+| 创建构件 | `create_widget` | 在仪表板上创建构件及其报表配置。 一个工具可处理所有三种小组件类型：图表、KPI和表格。 | 写入 |
+| 更新构件 | `update_widget` | 部分更新现有构件的配置。 构件类型是自动推断的，因此您仅发送要更改的字段。 | 写入 |
+| 复制对象 | `copy_object` | 将整个仪表板（包括其小组件、提示和过滤器）复制到新仪表板，或者在仪表板内或跨仪表板复制单个小组件。 | 写入 |
+| 删除对象 | `delete_object` | 永久删除报表功能板及其所有构件或单个构件。 无法撤消此操作。 | 写入 |
 
 ## 如何更新工具
 
@@ -329,5 +344,6 @@ ht-degree: 4%
 我们正努力在未来将以下工具添加到Workfront MCP服务器：
 
 * 展示板
+
 
 

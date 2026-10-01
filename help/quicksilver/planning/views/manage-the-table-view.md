@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4228'
 ht-degree: 2%
 ---
 # 管理表视图
@@ -198,12 +198,10 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-默认显示500条记录
 
 要管理表视图，请执行以下操作：
 
@@ -314,6 +312,7 @@ Old:
       不能使用与表格视图中隐藏的字段关联的关键字。
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,19 +324,78 @@ Old:
 
    1. 单击搜索框中的&#x200B;**x**&#x200B;图标以清除搜索关键字。
 
-1. 对于数字、货币、百分比和公式字段（采用这些字段类型的任意格式），展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
 
-   * **SUM**：显示列中所有单元格的总数。 这是默认选项。
-   * **MIN**：显示列中所有单元格的最小值。
-   * **MAX**：显示列中所有单元格中的最高值。
-   * **AVG**：显示列中所有单元格的平均值。
+1. （视情况而定）根据您查看的字段类型，执行以下操作之一；
+
+   * 对于数字、货币、百分比和公式字段（采用这些字段类型的任意格式），展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
+
+     * **SUM**：显示列中所有单元格的总数。
+     * **MIN**：显示列中所有单元格的最小值。
+     * **MAX**：显示列中所有单元格中的最高值。
+     * **AVG**：显示列中所有单元格的平均值。
+     * <span class="preview">**NONE**：未聚合列的值。 这是默认选项。</span>
+
+   <div class="preview">
+
+   * 对于日期字段，请展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
+
+     * **NONE**：未聚合列的值。 这是默认选项。
+     * **EMPTY**：显示无值的字段计数。
+     * **NOT EMPTY**：显示具有值的字段计数。
+     * **分钟**：显示最早的日期。
+     * **MAX**：显示最新日期。
+
+   * 对于文本，选择布尔值，人员字段展开位于列底部的聚合器下拉菜单，然后从以下选项中选择：
+
+     * **NONE**：未聚合列的值。 这是默认选项。
+     * **EMPTY**：显示无值的字段计数。
+     * **NOT EMPTY**：显示具有值的字段计数。
+
+   </div>
 
    使用聚合器时，请考虑以下事项：
 
-   * 列中的聚合器行是冻结的，是视图设置的一部分。
+   * 列中的聚合器行在显示值时被冻结，并且是视图设置的一部分。
    * 作为视图管理器，您可以选择聚合器，当您与其他人共享视图时，它将与视图共享。
    * 作为查看器，您可以修改聚合，但不会随视图一起保存。
    * 公共共享视图与已保存的聚合共享，该聚合无法修改。
+
+   <div class="preview">
+
+   * 以下字段类型没有汇总：
+
+     * 创建者
+     * 上次修改者
+     * 记录 ID
+   * 公式字段和查找字段具有与其字段格式对应的聚合。
+
+   </div>
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+-->
 
 ### 添加行（或记录） {#add-rows-1}
 
@@ -400,6 +458,7 @@ Old:
 
 在表格视图中使用过滤器时，请考虑以下事项：
 
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * 为表格视图创建的筛选器在应用于同一记录类型时独立于时间轴视图中的筛选器。
@@ -455,10 +514,10 @@ Old:
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p>
+            <td><p>具有任何</p> 或<span class="preview"><p>是任何</p></span>
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p>
+            <p>没有</p> 或<span class="preview"><p>不是任何</p></span>
             <p>为空</p>
             <p>不为空</p></td>
         </tr>
@@ -615,7 +674,7 @@ Old:
 * 分组按其值的字母顺序列出。
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +689,14 @@ Old:
 1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
 
    该分组将自动应用于表，并且记录显示在分组分离行下。
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. （可选）单击&#x200B;**添加条件**&#x200B;并重复上述步骤以添加最多3个分组。
 
@@ -1195,9 +1262,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 

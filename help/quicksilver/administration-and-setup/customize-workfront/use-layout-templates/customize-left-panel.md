@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1262'
 ht-degree: 2%
 ---
 # 使用布局模板自定义左侧面板
@@ -199,7 +199,7 @@ ht-degree: 2%
      <tr> 
        <td>[!UICONTROL 用户详细信息]</td> 
        <td>用户的名称</td> 
-       <td>[!UICONTROL 详细信息]、[!UICONTROL 组织结构图]、[!UICONTROL 休息时间]、[!UICONTROL 自定义Forms]、[!UICONTROL 业务配置文件]、[!UICONTROL 更新]、[!UICONTROL 工作负载均衡器]</td> 
+       <td>[!UICONTROL 详细信息]、[!UICONTROL 组织结构图]、[!UICONTROL 休息时间]、[!UICONTROL 自定义Forms]、[!UICONTROL 业务配置文件]、[!UICONTROL 更新]、[!UICONTROL 工作负载均衡器]、[!UICONTROL 雇佣历史记录]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL 速率卡]</td> 
@@ -237,6 +237,8 @@ ht-degree: 2%
 
    * 单击&#x200B;**显示** ![显示图标](assets/add-secondary-nav-item.png)或&#x200B;**隐藏** ![隐藏图标](assets/delete-secondary-nav-item.png)以在左侧面板中显示或隐藏部分。 无法隐藏没有&#x200B;**显示**&#x200B;或&#x200B;**隐藏**&#x200B;图标的项目。
 
+     每个区域或对象类型在左侧面板中必须至少有一个部分。 如果隐藏了所有其他项目，则无法隐藏最后一个剩余的项目。
+
    * 拖动项目![移动图标](assets/move-icon---dots.png)以更改它们在左侧面板上的顺序。
 
    >[!NOTE]
@@ -247,7 +249,7 @@ ht-degree: 2%
    >* [!UICONTROL 主页]
    >* [!UICONTROL 品牌]
    > 
-   >有关如何自定义其他区域的信息，请参阅以下文章：
+   >有关如何自定义这些附加区域的信息，请参阅以下文章：
    >
    >* [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [使用布局模板自定义[!UICONTROL 摘要面板]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)

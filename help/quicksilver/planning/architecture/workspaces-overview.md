@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -107,6 +107,16 @@ No longer the case - they match now:
 * 工作区
 * 记录类型
 * 视图
+
+<!--
+<div class="preview">
+
+* Records
+
+</div>
+
+Update screen shot below
+-->
 
 ![全局搜索框](assets/global-search-box.png)
 

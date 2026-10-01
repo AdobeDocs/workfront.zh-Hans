@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '723'
 ht-degree: 6%
 ---
 # 使用布局模板自定义主菜单
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -144,7 +146,7 @@ ht-degree: 6%
      >
      > 自定义应用程序必须单独创建，然后才能作为主菜单选项使用。 有关详细信息，请参阅[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。
 
-1. 执行以下任一操作<!-- for the **Native** items-->：
+1. 对&#x200B;**Native**&#x200B;项目执行以下任一操作：
 
    * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png)不想在主菜单上显示的项目。
    * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
@@ -152,7 +154,16 @@ ht-degree: 6%
 
      >[!NOTE]
      >
-     >您不能更改系统项目的顺序。 当这些项目处于活动状态时，它们始终显示在主菜单的底部。
+     >您不能更改系统项目的顺序。 当这些项目处于活动状态时，它们始终显示在主菜单的底部。<!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
+
+<div class="preview">
+
+1. 对&#x200B;**系统**&#x200B;项目执行以下任一操作：
+
+   * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png)不想在主菜单上显示的项目。
+   * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
+
+</div>
 
 1. 单击&#x200B;**完成**。
 
@@ -166,17 +177,3 @@ ht-degree: 6%
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-<!--
-
-MOVE TO LINE 151 or thereabouts:
-
-<div class="preview">
-
-1. Do any of the following for the **System** items:
-
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
-
-</div>
-
--->

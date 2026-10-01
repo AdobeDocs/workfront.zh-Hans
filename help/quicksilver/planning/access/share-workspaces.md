@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1210'
 ht-degree: 2%
 ---
 # 共享工作区
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -173,6 +173,15 @@ Old:
 * 共享工作区时，视图不共享。 您必须单独共享视图。
 * Workspace权限在记录类型上显示为继承权限。
 
+<div class="preview">
+
+* 您可以将工作区的所有者更改为活动、标准许可用户。 不能将组、团队、公司或工作角色设为工作区的所有者。
+
+</div>
+
+
+&lt;！—！ — 在生产环境中检查上述内容：是否必须将其替换为活动用户?? 或者非活动也无妨 — 没有环境 — >
+
 ## 共享对工作区的权限
 
 以下用户可以与其他用户共享工作区：
@@ -202,7 +211,7 @@ Old:
 
      必须要求系统管理员更改工作区的全局权限。
 
-1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。
+1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。<!--update screen shot at production-->
 
    ![与组共享UI](assets/sharing-ui-with-groups.png)
 
@@ -212,7 +221,7 @@ Old:
    >
    >* 与用户共享工作区时，其主要工作角色及其电子邮件也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
-1. （可选）与组、团队、角色或公司共享时，将鼠标悬停在实体名称上，然后单击向右箭头以展开正在接收权限的用户列表。
+1. （可选）与组、团队、角色或公司共享时，将鼠标悬停在实体名称上，然后单击向右箭头以展开正在接收权限的用户列表。<!--update screen shot at preview-->
 
    ![与组共享工作区](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -222,6 +231,18 @@ Old:
    * 管理
 
      有关权限级别以及用户可以针对每个级别执行的操作的信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+
+   <div class="preview">
+
+   * 所有者
+
+     您只能使另一个活动的标准许可证用户成为工作区的所有者。 原始所有者将保留在具有“管理”权限的工作区中。
+
+   </div>
+
+1. <span class="preview">（视情况而定）如果您选择更改工作区所有者，请单击&#x200B;**更改所有者**&#x200B;以确认。</span>
+
+
 1. 单击&#x200B;**复制链接**&#x200B;以将指向工作区的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问工作区。
 1. 单击&#x200B;**保存**。
@@ -254,7 +275,6 @@ Old:
 1. 单击&#x200B;**待处理访问请求**&#x200B;左侧的左箭头，然后单击&#x200B;**保存**。
 
    如果您批准了请求，则用户将添加到工作区的共享框中。 请求权限的用户会收到一封电子邮件，确认其请求已被批准。<!--will they also get an in-app notification??-->
-
 
 ## 删除对工作区的权限
 

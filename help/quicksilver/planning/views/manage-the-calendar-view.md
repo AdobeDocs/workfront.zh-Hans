@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 4%
+source-wordcount: '2010'
+ht-degree: 5%
 ---
 # 管理日历视图
 
@@ -287,10 +287,10 @@ Old:
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p>
+            <td><p>具有任何</p> 或<span class="preview"><p>是任何</p></span>
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p>
+            <p>没有</p> 或<span class="preview"><p>是任何</p></span>
             <p>为空</p>
             <p>不为空</p></td>
         </tr>
