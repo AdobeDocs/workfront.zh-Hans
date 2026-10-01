@@ -61,11 +61,11 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
+   <td><p>[!UICONTROL 标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[！UICONTROL系统管理员] <span class="preview">或组管理员</span></td> 
+   <td>[!UICONTROL 系统管理员] <span class="preview">或组管理员</span></td> 
   </tr> 
   </tbody> 
 </table>
