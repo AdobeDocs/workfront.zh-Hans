@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
+source-wordcount: '5636'
 ht-degree: 1%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -301,6 +301,17 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
     -->
 
 1. 继续添加每个字段，如下节所述。
+1. （可选和条件）添加字段后，将鼠标悬停在表视图列标题中的字段名称上，单击&#x200B;**更多**&#x200B;下拉菜单，然后单击&#x200B;**编辑字段**&#x200B;以编辑该字段。
+
+   有关信息，请参阅[编辑字段](/help/quicksilver/planning/fields/edit-fields.md)。
+1. （可选和条件）添加字段后，将鼠标悬停在表视图列标题中的字段名称上，单击&#x200B;**更多**&#x200B;下拉菜单，然后单击&#x200B;**删除**&#x200B;以删除该字段。
+
+   有关信息，请参阅[删除字段](/help/quicksilver/planning/fields/delete-fields.md)。
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview">（可选且有条件）添加字段后，将鼠标悬停在表视图列标题中的字段名称上，单击&#x200B;**更多**&#x200B;下拉菜单，然后单击&#x200B;**共享字段**&#x200B;以共享该字段。</span>
 
