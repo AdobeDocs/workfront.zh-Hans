@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 0%
 ---
 # Adobe cloud storage概述
 
 Adobe云存储是一个基于云的存储解决方案，它充当Adobe企业产品中资产的中央存储库。 Workfront和Frame.io集成构建在Adobe云存储之上，实现了这些平台之间的无缝协作和资源管理。
 
-此存储选项还为资产管理与其他Adobe产品（如Adobe Creative Cloud）的未来集成铺平了道路。
+此存储选项还支持资产管理与其他Adobe产品（包括Adobe Creative Cloud应用程序）的集成。 有关详细信息，请参阅[Adobe Creative Cloud项目概述](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)。
 
 ## 主要功能
 
@@ -139,7 +139,7 @@ Workfront对象包括项目组合、项目群、项目、模板、任务和问�
 
 Adobe云存储在[!DNL Workfront]沙盒环境中可用，因此您可以在生产环境中启用它之前对其进行测试。 但是，Frame.io查看器在沙盒中不可用，因此必须在生产环境中验证完整的统一审阅和批准体验。
 
-如果您有自定义刷新沙盒，则必须在升级到支持Adobe云存储的Workfront版本后刷新它，才能在沙盒中访问Adobe云存储功能。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
+如果您有自定义刷新沙盒，则必须在升级到支持Adobe云存储的Workfront版本后刷新它，才能在沙盒中访问Adobe云存储功能。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
 
 ## 注意事项
 

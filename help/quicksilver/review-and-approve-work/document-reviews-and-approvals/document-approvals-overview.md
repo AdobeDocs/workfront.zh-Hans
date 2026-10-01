@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # 统一审查和批准概述
@@ -50,16 +50,18 @@ ht-degree: 0%
 
 ## 构建于Adobe云存储之上
 
-统一审查和批准是基于Adobe云存储构建的，后者是一种基于云的存储解决方案，可作为Adobe企业产品（包括Workfront和Frame.io）中资产的中央存储库。<!--, and Creative Cloud.-->
+统一审查和批准构建于Adobe云存储之上，后者是一个基于云的存储解决方案，可作为Adobe企业产品（包括Workfront、Frame.io和Creative Cloud）中资产的中央存储库。
 
 Adobe云存储的主要优势包括：
 
 * 用于创意和工作管理资产的统一存储层
 * 使用Adobe Identity Management system (IMS)集中管理权限以实现安全访问控制
-* Workfront和Frame.io <!--, and Creative Cloud apps -->中的端到端资源可见性
+* 跨Workfront、Frame.io和Creative Cloud应用程序的端到端资源可见性
 * 满足企业需求的可扩展存储和配额管理
 
 有关详细信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+Creative Cloud应用程序（Photoshop、Illustrator和InDesign）也可以直接访问Workfront项目。 有关详细信息，请参阅[Adobe Creative Cloud项目概述](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)。
 
 ## 统一审查和批准
 
@@ -96,7 +98,7 @@ Adobe云存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
