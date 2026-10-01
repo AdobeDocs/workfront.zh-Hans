@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
 workflow-type: tm+mt
-source-wordcount: '4584'
+source-wordcount: '5015'
 ht-degree: 1%
 ---
 # 管理时间线视图
@@ -192,11 +192,16 @@ Old:
 
    ![时间线视图示例](assets/timeline-view-example.png)
 
-   与所选记录类型关联的记录在时间轴中显示为条形，默认情况下，这些记录按其开始日期的时间顺序排序。
+   与所选记录类型关联的记录在时间轴中显示为条形，默认情况下，这些记录将按其开始日期的时间顺序自动排序。
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    时间轴中记录的排序在压缩视图中不可见。
+   >    时间轴中记录的自动排序在压缩视图中不可见。
 
 1. （视情况而定）如果您的管理员启用了自定义季度，并且Workfront检测到自定义季度配置方式存在问题，则您在打开时间线视图时可能会收到警告。
 
@@ -222,7 +227,7 @@ Old:
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -263,6 +268,14 @@ Old:
       您可以使用屏幕上可见的任何单词或特殊字符。
 
       不能使用与不在时间轴视图中显示的字段关联的关键字。
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. 在键盘上按Enter键以转到下一个找到的字段。
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
@@ -361,10 +374,10 @@ Old:
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p>
+            <td><p>具有任何</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p>
+            <p>没有</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>为空</p>
             <p>不为空</p></td>
         </tr>
@@ -486,6 +499,16 @@ Old:
 
    分组将立即应用。
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview">（可选）单击工具栏中的&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png)以打开&#x200B;**分组记录依据**&#x200B;框，然后单击&#x200B;**全部展开**&#x200B;以展开所有分组，或单击&#x200B;**全部折叠**&#x200B;以折叠所有分组，并手动仅折叠您需要的分组。</span>
 1. <span class="preview">（可选且有条件）在泳道显示中，拖放左侧面板分隔符以调整其宽度。 每个用户的面板宽度跨会话保存，首次用户默认采用此宽度。</span>
 1. <span class="preview">（可选）对于长分组名称，将鼠标悬停在分组行上可在工具提示中查看分组的全名。</span>
@@ -504,50 +527,50 @@ Old:
    >将记录从一个分组拖放到另一个分组时，在该分组中选择的字段会自动更新移动记录上的值。
 1. （可选）单击&#x200B;**Settings**，然后单击&#x200B;**Color**&#x200B;进行颜色代码分组。 有关详细信息，请参阅本文中的[编辑时间线视图设置](#edit-the-timeline-view-settings)部分。
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### 添加排序
 
-You can sort records and groupings in the timeline view. 
+您可以在时间轴视图中排序记录和分组。
 
-Consider the following when working with record sorting in the timeline view: 
+在时间线视图中使用记录排序时，请考虑以下事项：
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* 您可以在表格视图和时间轴视图中应用排序。 表格视图的排序与相同记录类型的时间线视图中的排序无关。
+* 您可以为记录应用10个排序条件，并且时间轴视图中的分组数量可以相同（时间轴视图中最多可以有3个分组条件）。
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* 排序对于您选择的视图是唯一的。 同一记录类型的两个时间轴视图可以应用不同的排序。 查看同一时间轴视图的两个用户会看到当前应用的相同排序。
+* 您无法命名为时间轴视图生成的排序。
+* 删除排序会将其从与您访问相同记录类型以及显示与您相同的视图的任何人中删除。
 
-* You can sort by connected record fields or lookup fields.  
+* 您可以按连接的记录字段或查找字段进行排序。
 
-To add a sort in the timeline view:
+要在时间轴视图中添加排序，请执行以下操作：
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
+1. 单击视图工具栏中的&#x200B;**排序**。
 
-    The sorting box opens. 
+   排序框随即打开。
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![在时间轴中按分组排序](assets/sort-in-timeline.png)排序
+1. 从下拉菜单中选择&#x200B;**对记录进行排序**，然后单击&#x200B;**以建议字段开头**&#x200B;列表中列出的字段，或单击&#x200B;**选择其他字段**，然后搜索该字段并在该字段显示在列表中时单击它。
+1. 选择要应用记录排序的方向（按字母顺序、反向后代等）。 应用排序的方向取决于所选字段的格式。
+1. （可选）单击&#x200B;**添加条件**&#x200B;以添加最多10个条件。
+1. （可选）单击&#x200B;**全部清除**&#x200B;以删除所有条件。
+1. 从排序框左上角的下拉菜单中，选择&#x200B;**排序分组**。
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >如果没有应用于时间线视图的分组，则&#x200B;**排序分组**&#x200B;选项不可用。
+1. （可选）选择要应用分组排序的方向（按字母顺序、反向后代等）。 应用排序的方向取决于所选字段的格式。
+1. （视情况而定）如果您修改了排序方向，请单击&#x200B;**全部重置**&#x200B;以重置排序方向。
+1. 要重新排序字段的排序顺序，请单击工具栏中的&#x200B;**分组**&#x200B;并重新排序分组。 字段排序顺序也会更改。
+1. （可选）要删除分组排序，请从时间线视图中删除分组。
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   立即应用排序。
+1. 单击页面上的任意位置以关闭排序框。
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 
