@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 5%
 ---
 # 事件订阅API
@@ -43,9 +43,13 @@ ht-degree: 5%
 
 由于事件订阅将数据发送到其他服务，因此它们通过命令而不是通过Workfront应用程序进行管理。
 
+>[!NOTE]
+>
+>要在Workfront应用程序中使用事件订阅，请参阅[在Workfront中配置事件订阅](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)。
+
 要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124

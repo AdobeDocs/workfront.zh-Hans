@@ -27,15 +27,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 11%
+source-wordcount: '50'
+ht-degree: 10%
 ---
 # 管理Adobe Workfront
 
 本节包含以下子部分：
 
+* [在Workfront中配置事件订阅](../../administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
 * [配置校对功能](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
 * [配置报表](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [电子邮件](../../administration-and-setup/manage-workfront/emails/emails.md)
