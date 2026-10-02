@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '575'
 ht-degree: 1%
 ---
 # 画布功能板概述
@@ -147,7 +147,5 @@ ht-degree: 1%
 * 资源管理报表
 * 其他主屏幕小组件
 * 发送仪表板摘要
-* 复制报告
-* 复制功能板
 
 
