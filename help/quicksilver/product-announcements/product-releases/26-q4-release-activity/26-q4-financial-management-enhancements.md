@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 0c08d79733bc6da0ecfd41f765ce2c624e71ad0e
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '476'
 ht-degree: 0%
 ---
 # 2026年第四季度财务管理增强功能
@@ -24,31 +24,27 @@ ht-degree: 0%
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## Enhancements to billing rates on templates
+## 对模板计费率的增强
 
 >[!NOTE]
 >
->Preview: October 1, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
 
-Multiple updates have been made to the billing rates functionality on a project template.
+对项目模板上的记帐费率功能进行了多项更新。
 
-### For customers on all Workfront and Workflow packages
+### 适用于所有Workfront和工作流程包上的客户
 
-The Rates area on templates has been updated to an enhanced list.
+模板上的“费率”区域已更新为增强列表。
 
-For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
-### For customers on the Workflow Ultimate package only
+### 仅适用于工作流Ultimate包中的客户
 
-Rate attributes are now available to apply to job role billing rates on the template.
+费率属性现在可用于应用模板上的工作角色记帐费率。
 
-For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
--->
+有关详细信息，请参阅[编辑项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)和[覆盖项目级别的工作角色记帐费率](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)。
 
 ## 公司记帐费率的增强功能
 
