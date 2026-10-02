@@ -27,9 +27,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: f3b0b9985b2056ca71ce16aa81becb4723015472
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '104'
 ht-degree: 0%
 ---
 # 设置和管理统一审批：文章索引
@@ -38,6 +38,11 @@ ht-degree: 0%
 
 * [创建和管理AI审阅者品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [创建文档审阅或审批请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+* [创建分组审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+<!--
+* [Review a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+* [Manage grouped approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
+-->
 * [向资产或文档添加其他审阅人或审批人](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [从资产或文档中删除审批者或审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [创建资产和文档的审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

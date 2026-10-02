@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '853'
 ht-degree: 2%
 ---
 # 上传新文档版本并请求审批
@@ -216,6 +216,10 @@ the previous participants, new participants, or a mix of both. You can view info
 1. 单击&#x200B;**请求审批**。
 
    审批工作流将启动，审批者会收到通知，告知需要对新文档版本进行审批。 以前的文档版本被锁定，并且以前版本上的任何未完成的批准都将被撤回。
+
+>[!NOTE]
+>
+>如果文档是Creative Cloud文件（例如，Photoshop、Illustrator或InDesign云文档），则从Creative Cloud应用程序对其创建批准会在Workfront中自动创建一个新版本，与在此处拖放新版本相同。 有关详细信息，请参阅[在Creative Cloud应用程序中使用Workfront文档](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)。
 
 <!--
    <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>

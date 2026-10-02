@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14588'
+source-wordcount: '14626'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -1225,6 +1225,10 @@ ht-degree: 2%
     * [使用Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [设置和管理Adobe云驱动器](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Adobe Cloud Drive疑难解答](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Adobe Creative Cloud项目 {#adobe-creative-cloud-projects}
+    * [Adobe Creative Cloud项目：文章索引](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Adobe Creative Cloud项目概述](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [在Creative Cloud应用程序中使用Workfront文档](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Workfront和Experience Manager Assets集成 {#wf-aem-integrations}
     * [Workfront和Experience Manager Assets集成](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Workfront for Experience Manager增强型连接器 {#wf-aem-enhanced-connector}
@@ -1324,6 +1328,7 @@ ht-degree: 2%
       * [了解项目量度](manage-work/projects/manage-projects/project-metrics.md)
       * [项目限制概述](manage-work/projects/manage-projects/project-maximums.md)
       * [使用AI助手汇总更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[使用项目协调员协作者](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [项目和相关对象的文档管理概述](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * 创建和管理项目模板 {#create-and-manage-project-templates}
       * [创建和管理项目模板：文章索引](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1436,7 @@ ht-degree: 2%
       * [分配任务](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [分配任务](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [创建高级工作](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [使用任务协作者](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [使用工作代理](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [智能分配概述](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [修改任务分配的概览](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [修改任务列表中的多个用户分配](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -1949,6 +1954,9 @@ ht-degree: 2%
       * [设置和管理统一审批：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [创建和管理AI审阅者品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [创建文档审阅或审批请求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [创建分组审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[审阅分组的审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[管理分组的批准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [向资产或文档添加其他审阅人或审批人](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [从资产或文档中删除审批者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [创建资产和文档的审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '3139'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -28,6 +28,86 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## 多值字段的过滤器运算符标签更清晰
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+所有Planning视图中的多值筛选器运算符已更新为“为任何”和“不为”，而不是“具有任何”和“没有为”，这在Workfront筛选器生成器中为您提供了更清晰、更一致的措辞。
+
+这是仅标签更新。 您现有的筛选器会自动迁移，并继续像之前一样运行。
+
+更改在所有Planning视图的筛选器中可见。 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 在表格视图中添加非数字字段的聚合器
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+我们在表格视图中为其他字段类型引入了聚合器。 在此增强功能之前，只有与数字相关的字段会在列底部显示汇总。
+
+根据字段类型，聚合器会有所不同：
+
+* 文本、选择、复选框和人员字段：无、空、非空
+* 日期字段：无、MAX、最小值
+* 公式字段：与其格式对应的聚合器
+
+我们向与数字相关的字段类型添加了NONE ，所有字段类型均默认使用NONE 。
+
+不支持以下系统字段的聚合器：“创建者”、“上次修改者”和“记录ID”。
+
+有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 更改工作区所有者
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+Workspace创建者当前被分配为默认所有者。 通过此更新，工作区管理员可以从共享对话框将所有权转移给另一个标准许可证用户。
+
+新所有者将在共享列表和Planning主页中突出显示为工作区所有者，而之前的所有者保留对工作区的“管理”访问权限。
+
+有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
+
+## 在时间轴视图中排序记录和分组
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+您现在可以在时间轴视图中排序记录和分组。 在此增强功能之前，此功能不可用。
+
+有关详细信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 在Workfront Planning中共享字段
 

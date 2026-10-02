@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1162'
 ht-degree: 1%
 ---
 # 管理文档版本
@@ -240,3 +240,11 @@ Workfront会按照您上传每个版本的顺序（例如V1、V2、V3）对其�
    >删除版本不会更改其他版本的编号。 例如，如果从版本为V1到V5的文档中删除V3，则其余版本将保留其原始编号，并且之后没有V3。 您上传的下一个版本将变为V6。
 
 </div>
+
+### 在审批期间查看当前文件
+
+如果文档是Creative Cloud文件（例如，Photoshop cloud文档）并且有人在审批过程中编辑它，则Workfront会显示&#x200B;**当前文件**&#x200B;部分，其中包含指示活动文档中存在新更新的徽章，与正在审批的版本不同。
+
+>[!IMPORTANT]
+>
+>**未决问题：**&#x200B;当前文件部分在首次出现后是否永久保持可见，或者仅在活动文档上有未审阅的更新时保持可见？ 请在发布之前使用产品确认。
