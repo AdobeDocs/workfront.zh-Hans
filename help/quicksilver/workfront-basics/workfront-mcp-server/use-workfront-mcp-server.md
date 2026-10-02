@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2383'
 ht-degree: 0%
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 0%
 
 Workfront MCP服务器会公开AI代理平台代表您调用的一组工具。 例如，用于搜索Workfront、创建项目、更新字段和管理审批的工具。 有关完整参考列表，请参阅[Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)。
 
+除了您的Workfront访问级别、对象权限和任何MCP管理员控制之外，工具可用性还取决于您组织的产品权利。
+
 >[!IMPORTANT]
 >
 >将AI代理平台连接到Workfront时，它会使用您的Workfront帐户和权限在Workfront中起作用。 平台的操作与您直接在Workfront界面中执行的操作具有相同的效果。<br>
@@ -42,6 +44,29 @@ Workfront MCP服务器会公开AI代理平台代表您调用的一组工具。 �
 >
 >在让AI代理平台继续处理请求之前，请确认您了解该平台要执行的操作，尤其是更改或删除数据的操作。
 
+## 产品权利如何影响可用工具
+
+Workfront MCP服务器仅显示您的组织有权使用的工具。
+
+以下情形适用：
+
+* 如果贵组织仅具有Workfront Planning，则AI代理平台显示Planning工具，但不显示Workflow工具。
+* 如果贵组织仅具有Workfront Workflow，则AI代理平台显示的是Workflow工具，而不是Planning工具。
+* 如果贵组织同时具有Workfront Workflow和Workfront Planning，则AI代理平台会显示这两套工具。
+* 洞察和上下文工具可供所有客户使用。
+
+如果某个工具不可用于贵组织的权利，则它不会出现在该连接的工具列表中。 如果AI代理平台仍尝试直接调用该工具，则请求将被阻止并返回与权利相关的错误。
+
+对于代理生成器和高级用户，请牢记以下事项：
+
+* 可用的工具列表可能因客户而异。
+* 工具列表在连接启动时建立。
+* 如果客户的授权发生更改，则更新后的工具列表将在客户下次启动与Workfront MCP服务器的新连接时显示。
+
+>[!NOTE]
+>
+>Workfront Workflow当前被视为MCP工具可用性的基准产品区域。 计划工具按权利过滤。 目前对审批工具没有权利限制。
+
 
 ## 要问的内容的示例
 
@@ -49,7 +74,7 @@ Workfront MCP服务器会公开AI代理平台代表您调用的一组工具。 �
 
 >[!NOTE]
 >
->由于Workfront设置区域中的管理员控件，某些操作可能不可用。 例如，如果Workfront管理员已禁用MCP服务器的写入操作，则您可能无法创建项目。
+>由于Workfront设置区域中的管理员控件或您的组织无权访问相关产品区域，因此某些操作可能不可用。 例如，如果Workfront管理员禁用了MCP服务器的写入操作，则可能无法创建项目；或者，如果您的组织未获得Workfront Planning的许可，则可能无法看到Planning工具。
 
 
 ### 查找并查看您的工作
@@ -180,6 +205,7 @@ Workfront无法控制AI代理平台提供商处理您的Workfront数据的方式
 | 您刚才在Workfront中更改的数据尚未显示。 | 分析数据近乎实时，SLA最长可达约15分钟。 | 等待几分钟，然后重试，或直接在Workfront中查看。 |
 | AI代理平台从错误的Workfront项目返回数据。 | AI代理平台根据模棱两可的措辞挑选了错误的项目。 | 使用更具体的名称、ID或过滤器再次询问。 |
 | 更新或删除操作在Workfront中未生效。 | 您的Workfront管理员已禁用Workfront MCP服务器的写入操作，或者您无权对特定项目执行该操作。 | 通过AI代理平台确认该操作已运行。 然后，检查是否已为Workfront MCP服务器启用写入操作，以及您是否有权更改该项目。 |
+| 对于我，不会显示其他客户可以使用的工具。 | 您的组织无权访问该产品区域，或者您在授权更改生效之前已启动连接。 | 确认您的组织许可了哪些Workfront产品。 如果最近更改了授权，请启动新的MCP连接并再次检查工具列表。 |
 
 有关设置和身份验证问题的详细信息，请参阅[配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)中的[设置和身份验证疑难解答](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication)。
 
@@ -269,6 +295,12 @@ Workfront的正确操作并为您选择正确的工具。 如果您是
 ### 新版本的Workfront MCP服务器发布后会发生什么情况？
 
 MCP服务器通常会自动更新，但有时您可能需要刷新与MCP服务器的连接才能查看最新的工具和功能。
+
+### 为什么我看不到其他客户看到的相同MCP工具？
+
+可用的MCP工具可能因客户而异，因为Workfront MCP服务器根据产品权利筛选某些工具。 例如，获得Workfront Planning许可的客户可以看到规划工具，而没有该权利的客户看不到规划工具。 获得Workfront Workflow许可的客户可以查看工作流工具。
+
+工具列表在连接启动时设置。 如果贵组织的权限发生更改，请启动新连接以查看更新的列表。
 
 ### 如果未在Workfront Identity Management System (IMS)上启用我的Workfront实例，我能否使用Adobe MCP服务器？
 
