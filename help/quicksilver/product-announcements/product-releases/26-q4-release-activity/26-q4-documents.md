@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 0%
 ---
 # 2026年第四季度文档增强
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >预览：不适用
->生产快速发布： 2026年9月17日
 >适用于所有人的生产： 2026年10月15日
+>此功能未按原计划于2026年9月17日在生产环境快速发布中发布。 该应用程序现在将于2026年10月15日在生产环境中向所有人提供。
 
 现在，当您为文档审批设置自定义消息时，该消息也会显示在审批请求电子邮件的主题行中，在设置该消息时以截止日期为开头。 这样，查看者无需打开电子邮件，即可直接从其收件箱中查看需要注意的事项和方式。
 
