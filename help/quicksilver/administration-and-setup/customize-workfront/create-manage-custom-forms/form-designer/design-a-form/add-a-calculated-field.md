@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 1%
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。
+   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
       计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
@@ -341,7 +341,6 @@ ht-degree: 1%
       >* 查找计算错误（红色下划线）。 您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
       >  ![错误帮助](assets/error-help.png)
       >* 在计算下面的区域中，预览现有Workfront对象的结果。
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![预览计算](assets/preview-calc.png)
       >* 使用左侧显示的行号在长计算中引用表达式。
 
