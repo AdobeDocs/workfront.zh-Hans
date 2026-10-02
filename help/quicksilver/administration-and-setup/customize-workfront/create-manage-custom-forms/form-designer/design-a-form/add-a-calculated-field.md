@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2735'
 ht-degree: 1%
 ---
 # 将计算字段添加到表单
@@ -103,9 +103,9 @@ ht-degree: 1%
 >
 >更改计算表达式可能导致对象上的字段值过时。 要确保始终在这些字段中查看最新计算，请执行以下操作之一：
 >
->* 在附加的自定义表单中保存已编辑数据的对象后，单击该对象主页上的“更多”图标![更多图标](assets/more-icon.png)，然后重新计算自定义表达式。
->* 批量编辑对象时，选择重新计算自定义表达式选项。
->* 在自定义表单上编辑已计算的自定义字段时，选择更新以前的计算选项。
+>* 在附加的自定义表单中保存已编辑数据的对象后，单击该对象主页上的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后&#x200B;**重新计算自定义表达式**。
+>* 批量编辑对象时，请选择&#x200B;**重新计算自定义表达式**&#x200B;选项。
+>* 在自定义表单上编辑计算的自定义字段时，选择更新以前的计算选项。
 
 要重用现有的计算自定义字段，请执行以下操作：
 
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。
+   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
       计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
@@ -334,18 +334,19 @@ ht-degree: 1%
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**&#x200B;链接。
-      >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
+      >* 将鼠标悬停在计算中的表达式上，可查看说明和显示其使用方式的示例。 <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![表达式帮助文本](assets/hover-expression-help-text.png)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
-      >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
-      >* 查找以粉红色突出显示的计算错误。 您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
+      >  字段表达式的![颜色](assets/colors-fields-expressions.png)
+      >* 查找计算错误（红色下划线）。 您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
       >  ![错误帮助](assets/error-help.png)
       >* 在计算下面的区域中，预览现有Workfront对象的结果。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![预览计算](assets/preview-calc.jpg)
+      >  ![预览计算](assets/preview-calc.png)
       >* 使用左侧显示的行号在长计算中引用表达式。
 
       +++
+
    1. 完成计算自定义字段的计算后，单击&#x200B;**最小化**。
 
    1. （可选）使用以下任意选项进一步配置计算出的自定义字段：
@@ -356,7 +357,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">添加逻辑</td> 
-      <td>可添加显示逻辑以确定是否根据用户在填写表单时在前面的多选字段（下拉列表、复选框或单选按钮）中所做的选择显示计算字段。<!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>仅当表单上计算的自定义字段前面至少有一个复选框、单选按钮或下拉字段时，此选项才可用。 </p> <p>跳过逻辑不可用于计算的自定义字段。</p> </td> 
+      <td>可添加显示逻辑以确定是否根据用户在填写表单时在前面的多选字段（下拉列表、复选框或单选按钮）中所做的选择显示计算字段。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">将逻辑规则添加到自定义表单和字段</a>。 <p>仅当表单上计算的自定义字段前面至少有一个复选框、单选按钮或下拉字段时，此选项才可用。 </p> <p>跳过逻辑和其他逻辑类型对计算的自定义字段不可用。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">更新以前的计算</td> 
