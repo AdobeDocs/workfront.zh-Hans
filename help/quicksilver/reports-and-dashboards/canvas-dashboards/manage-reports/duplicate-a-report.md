@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 在画布功能板中复制报告
-description: 您可以在画布功能板中复制报表。
+title: 在画布功能板中复制和移动报告
+description: 您可以在画布功能板之间复制或移动报表。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 6%
+source-wordcount: '693'
+ht-degree: 4%
 ---
-# 在画布功能板中复制报告
+# 在画布功能板中复制和移动报告
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ ht-degree: 6%
 
 有关详细信息，请参阅[创建画布仪表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
-## 复制报告
+## 在生产环境中复制报表
 
 {{step1-to-dashboards}}
 
@@ -109,3 +111,53 @@ ht-degree: 6%
    >这些选项卡将因您复制的KPI、表或图表报表而异。  有关详细信息，请参阅[在画布功能板中生成KPI报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[在画布功能板中生成图表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)和[在画布功能板中生成表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)。
 
 1. 单击 **Save**。 重复的报告会显示在仪表板上。
+
+<div class="preview">
+
+## 在预览中复制或移动报告
+
+您可以将报告复制到当前仪表板、复制到另一个仪表板或将其移动到另一个仪表板。 复制操作会在目标位置创建报告副本；移动操作会将其从当前功能板中重新定位。
+
+>[!IMPORTANT]
+>
+>* 要复制报表，您需要目标功能板的管理权限。
+>* 要移动报表，您需要对源功能板和目标功能板的管理访问权限。
+>* 如果报告配置了“以用户身份运行”，并且您不是系统管理员或“以用户身份运行”，您仍可以复制或移动它，但会从结果报告中删除“以用户身份运行”。
+
+
+要复制或移动报表，请执行以下操作：
+
+{{step1-to-dashboards}}
+
+1. 在左侧面板中，单击&#x200B;**画布功能板**。
+1. 打开包含报表的信息板。
+1. 单击报告右上角的&#x200B;**更多** ![更多按钮](assets/more-icon.png)图标，然后选择&#x200B;**复制报告**。
+
+   ![复制报告选项](assets/copy-report-button.png)
+
+1. 在&#x200B;**复制报告**&#x200B;对话框中，选择以下选项之一：
+
+   <table>
+   <tr>
+   <td><strong>复制</strong></td>
+   <td>单击屏幕底部的<strong>复制</strong>以复制报告。 默认情况下会选择当前仪表板。 您需要对功能板的管理访问权限才能复制报告。</td>
+   </tr>
+   <tr>
+   <td><strong>复制并移动</strong></td>
+   <td>选择其他目标仪表板以复制报告并将其移动到新仪表板。 原始报告保留在当前仪表板上。您需要“管理”目标功能板的访问权限才能复制和移动报表。 </td>
+   </tr>
+   <tr>
+   <td><strong>移动</strong></td>
+   <td>选择要将报表移动到的其他目标仪表板。 这会将报表重新定位到目标仪表板，并将其从当前仪表板中删除。 要移动报表，您需要对源功能板和目标功能板的管理访问权限。</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >如果报告配置了“以用户身份运行”，并且您不是系统管理员或用户设置为“以用户身份运行”，则仍可以复制或移动报告。 从结果报表中删除以用户身份运行。
+
+1. 单击&#x200B;**保存**。
+
+   ![复制和移动](assets/copy-and-move.png)
+
+</div>

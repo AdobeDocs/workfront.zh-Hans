@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 5%
 ---
 # 事件订阅API
@@ -42,6 +42,10 @@ ht-degree: 5%
 当事件订阅支持的Adobe Workfront对象上发生操作时，您可以将Workfront配置为将响应发送到所需的端点。 这意味着第三方应用程序在更新发生后不久即可通过Workfront API接收来自Workfront交互的更新。 通常，您可以预期在记录数据更改后的5秒内收到webhook通知。 平均而言，客户会在距记录的数据更改不到1秒的时间内收到webhook通知。
 
 由于事件订阅将数据发送到其他服务，因此它们通过命令而不是通过Workfront应用程序进行管理。
+
+>[!NOTE]
+>
+>要在Workfront应用程序中使用事件订阅，请参阅[在Workfront中配置事件订阅](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)。
 
 要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
