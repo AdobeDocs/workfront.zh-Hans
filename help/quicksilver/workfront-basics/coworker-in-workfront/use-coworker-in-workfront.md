@@ -32,7 +32,7 @@ ht-degree: 3%
 
 由于同事是更大的Adobe CX Enterprise生态系统的一部分，因此您可以使用同事处理其他Adobe产品中的信息和对象，无论是在Workfront的右边栏中，还是从Workfront跳转到Adobe CX Coworker界面。
 
-有关Workfront外部的同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)。
+有关Workfront外部的同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/chat/overview)。
 
 
 ## 访问权限要求
