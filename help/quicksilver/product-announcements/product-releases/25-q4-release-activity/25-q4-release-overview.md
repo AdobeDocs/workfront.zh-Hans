@@ -505,7 +505,7 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API版本20
 
