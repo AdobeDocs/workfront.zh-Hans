@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 4%
 ---
 
@@ -369,11 +369,15 @@ AI代理平台中显示的工具取决于贵组织的Workfront产品授权。
 
 
 
+## 目的遥测
+
+Workfront MCP服务器跟踪客户的用户意图。 收集的意图数据是用于遥测的通用数据，只有在与Workfront产品相关时才会为用户意图收集。 提示意图遥测仅用于改进现有的MCP工具，以提供更准确的响应。
+
+用户可以通过联系客户支持部门以提出请求来禁用遥测收集。
+
+
 ## 即将推出的其他工具
 
 我们正努力在未来将以下工具添加到Workfront MCP服务器：
 
 * 展示板
-
-
-
