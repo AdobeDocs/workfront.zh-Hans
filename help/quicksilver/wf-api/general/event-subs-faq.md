@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '984'
 ht-degree: 0%
 ---
 # 常见问题解答 — 活动订阅
@@ -82,7 +82,7 @@ ht-degree: 0%
 
   * 如果满足以下任一条件，则将硬禁用事件订阅URL：
 
-    * 订阅URL已失败7天，在过去72小时内已尝试连续投放至少2000次。
+    * 订阅URL已至少72小时无法投放，并且已尝试连续投放2,000次以上。
     * 订阅URL未能提供50,000次连续尝试。
 
 ## 如果在尝试调用事件订阅API时收到500响应状态，我应该怎么做？
