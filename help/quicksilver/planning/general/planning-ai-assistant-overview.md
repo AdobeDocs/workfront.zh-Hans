@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '984'
 ht-degree: 1%
 ---
 # Adobe Workfront规划AI助手概述
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ## 访问权限要求
 
-+++ 展开可查看本文所述功能的访问权限要求。 
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">如果贵组织已获得对CX Coworker的访问权限，则查找CX Coworker与查找AI助手类似。 有关信息，请参阅[Adobe Workfront规划CX Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+><span class="preview">如果贵组织已获得对CX Coworker的访问权限，则查找同事与查找AI助手类似。 有关信息，请参阅[Adobe Workfront规划CX Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
 
 
 您可以在Workfront Planning的以下区域中找到AI助手：

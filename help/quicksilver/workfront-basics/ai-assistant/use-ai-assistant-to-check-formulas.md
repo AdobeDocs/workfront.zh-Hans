@@ -17,16 +17,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 ---
 # 使用AI助手生成或修订计算字段公式
 
 >[!IMPORTANT]
 >
->* 从2026年9月开始，AI Assistant将过渡到CX Coworker，这是一个用于完成工作的对话界面。 有关CX Coworker的信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>* 从2026年9月开始，AI Assistant将过渡到CX Coworker，这是一个用于完成工作的对话界面。 有关同事的信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 >* 从Adobe Workfront中删除了使用AI助手生成公式的功能。
 
 
