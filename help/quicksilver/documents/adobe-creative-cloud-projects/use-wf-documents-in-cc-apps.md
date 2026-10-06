@@ -14,10 +14,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '608'
+ht-degree: 2%
 ---
 # 在Creative Cloud应用程序中使用Workfront文档
 
@@ -77,11 +77,45 @@ Workfront项目中的“文档”文件夹结构会镜像到“项目”面板�
 >
 >要编辑Photoshop、Illustrator或InDesign无法打开的文件类型，如Word或Excel文档，请改用Adobe Cloud Drive。 有关详细信息，请参阅[Adobe Cloud Drive概述](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)。
 
+## 从Creative Cloud应用程序将新文档保存到Workfront
+
+1. 打开Photoshop、Illustrator或InDesign，然后创建新文件。
+1. 在顶部菜单中，选择&#x200B;**文件>另存为**。
+1. 在&#x200B;**另存为**&#x200B;对话框中，选择&#x200B;**保存到云文档**，然后选择所需的Workfront项目。
+
+   >[!NOTE]
+   >
+   >保存已存在于Workfront项目中的文档时，另存为对话框未打开。 您可以选择一个Workfront项目，保存到其他文件夹或选择其他Workfront项目。
+
+
+   ![在workfront中保存新文档](assets/save-new-to-wf.png)
+
+1. 选择文档文件夹，然后单击&#x200B;**保存**。 如果不选择文件夹，文档将保存到项目根文件夹。
+
+   ![选择文件夹以在workfront中保存新文档](assets/save-to-folder.png)
+
 ## 请求审批文档
 
 您可以在Workfront中将文档审批添加到从Photoshop、Illustrator、InDesign或Adobe Cloud Drive上传的任何文档，这与任何其他文档相同。 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-<!--
-need to verify
-Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
--->
+
+
+## 从Creative Cloud应用程序管理Workfront中的文档版本
+
+将文档从Photoshop、Illustrator或InDesign保存到Workfront时，您保存的更改将显示在“版本”选项卡的“当前”文件中，并带有“新更改”标记。
+
+您可以请求审批当前文件，而不是上传文档的新版本。 有关详细信息，请参阅[请求批准当前文件](#request-approval-on-the-current-file)。
+
+![具有新更改徽章的当前文件](assets/current-file.png)
+
+### 请求审批当前文件
+
+要在Workfront中请求审批文档的当前文件，请执行以下操作：
+
+1. 转到Workfront中的项目，该项目包含要申请批准的文档。
+1. 打开文档，然后转到&#x200B;**版本**&#x200B;选项卡。
+1. 在当前文件中，单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**请求审批**。
+1. 在&#x200B;**请求审批**&#x200B;对话框中，按照[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)中的步骤创建审批。
+
+   ![请求审批当前文件](assets/request-update-on-current-file.png)
+
