@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1002'
+ht-degree: 0%
 ---
 
 # Adobe Workfront规划构思空间入门
@@ -155,9 +155,9 @@ Too much:
   * **在完成**&#x200B;前进行验证。 AI生成的响应可能不准确，因此始终检查卡片上的&#x200B;**源**&#x200B;并根据链接的源进行确认，然后再最终确定记录。
   * **将AI卡与真实记录混合**。 将实际记录拖放到构思空间中。
 
-## Adobe CX Coworker中可用的构思空间
+## Adobe CX Enterprise Coworker中可用的构思空间
 
-构思空间还通过Adobe的CX Coworker支持对话式的来回模式。
+构思空间还通过Adobe的CX Enterprise Coworker支持对话式的来回模式。
 
 用户可以提出后续问题，并以简短的话语形式进行细化，而不是只获得一次性的结果。
 
@@ -200,10 +200,10 @@ Worth noting
 
 ## 其他资源
 
-* [Adobe Workfront促销活动计划](https://business.adobe.com/cn/products/workfront/campaign-planning.html)
+* [Adobe Workfront促销活动计划](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront规划文档](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概述](https://business.adobe.com/cn/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/cn/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概述](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

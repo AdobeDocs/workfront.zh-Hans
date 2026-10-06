@@ -1,5 +1,5 @@
 ---
-title: CX Coworker技能
+title: CX Enterprise Coworker技能
 content-type: reference
 description: 了解Adobe Workfront中可供同事使用的技能。
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '255'
 ht-degree: 6%
 ---
-# CX Coworker技能
+# CX Enterprise Coworker技能
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。 有关详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+>CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。 有关详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-本文列出了Workfront中CX Coworker当前可用的技能。
+本文列出了Workfront中CX Enterprise Coworker当前可用的技能。
 
 这些技能所涵盖的能力可通过对话界面在同事中获得，您无需直接调用这些技能。 但是，如果确实要直接调用技能，则可通过在“同事”面板中输入斜杠`/`并键入技能名称来执行此操作。
 

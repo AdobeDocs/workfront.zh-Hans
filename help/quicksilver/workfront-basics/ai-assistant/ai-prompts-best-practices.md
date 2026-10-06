@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '772'
 ht-degree: 4%
 ---
 # AI助手提示和最佳实践
 
 >[!IMPORTANT]
 >
->从2026年9月开始，AI Assistant将过渡到CX Coworker，这是一个用于完成工作的对话界面。 有关同事的信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>从2026年9月开始，AI Assistant将过渡到CX Enterprise Coworker，这是一个用于完成工作的对话界面。 有关同事的信息，请参阅[CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 Workfront的AI助手是一款功能强大的工具，可提供有关帐户数据和特定对象类型的有用信息，从而帮助您更有效地完成工作。
 
