@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 0%
+source-wordcount: '1000'
+ht-degree: 1%
 ---
 
 # Adobe Workfront规划构思空间入门
@@ -200,10 +200,10 @@ Worth noting
 
 ## 其他资源
 
-* [Adobe Workfront促销活动计划](https://business.adobe.com/cn/products/workfront/campaign-planning.html)
+* [Adobe Workfront促销活动计划](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront规划文档](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概述](https://business.adobe.com/cn/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/cn/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概述](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

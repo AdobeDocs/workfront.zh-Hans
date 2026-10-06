@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 ---
 # CX Coworker概述
@@ -31,10 +31,11 @@ CX Coworker Chat是一个用于完成工作的对话界面。 您可以用简单
 
 同事是Adobe生态系统的一部分，不仅限于Workfront。
 
-有关在Workfront中使用CX Coworker的信息，请参阅[在Workfront中使用CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
+有关在Workfront中使用同事的信息，请参阅[在Workfront中使用CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
-有关同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/chat/overview)。
+有关同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)。
 
 有关Workfront中同事可用的技能，请参阅[CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
 对于示例提示，请参阅[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)一文中的提示。
+
