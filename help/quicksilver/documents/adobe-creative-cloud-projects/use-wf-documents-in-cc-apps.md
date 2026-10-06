@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
+source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '648'
 ht-degree: 2%
 ---
 # 在Creative Cloud应用程序中使用Workfront文档
@@ -79,8 +79,14 @@ Workfront项目中的“文档”文件夹结构会镜像到“项目”面板�
 
 ## 从Creative Cloud应用程序将新文档保存到Workfront
 
+您可以将新文件保存到Workfront，也可以将现有文件的新副本从Photoshop、Illustrator或InDesign保存到Workfront。
+
+要将新文档保存到Workfront，请执行以下操作：
+
 1. 打开Photoshop、Illustrator或InDesign，然后创建新文件。
-1. 在顶部菜单中，选择&#x200B;**文件>另存为**。
+1. 如果要保存新文件，请单击顶部菜单中的&#x200B;**保存**。
+或
+如果要保存现有文件的新副本，请单击顶部菜单中的**另存为**。
 1. 在&#x200B;**另存为**&#x200B;对话框中，选择&#x200B;**保存到云文档**，然后选择所需的Workfront项目。
 
    >[!NOTE]
