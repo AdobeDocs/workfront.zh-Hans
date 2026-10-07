@@ -1,5 +1,5 @@
 ---
-title: CX Coworker提示和最佳实践
+title: CX Enterprise Coworker提示和最佳实践
 content-type: reference
 description: 了解在Workfront中使用同事的最佳实践，并查看提示示例列表。
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
-# CX Coworker提示和最佳实践
+# CX Enterprise Coworker提示和最佳实践
 
 &lt;！ — 不要使用此 — 链接到MCP示例提示文章，确保它随最新版本的MCP一起更新 — >
 
 >[!IMPORTANT]
 >
->CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。 有关详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+>CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。 有关详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-借助CX Coworker，您可以使用自然语言与Workfront Workflow和Workfront Planning进行交互。
+借助CX Enterprise Coworker，您可以使用自然语言与Workfront Workflow和Workfront Planning进行交互。
 
 同事是Adobe Experience Cloud Agent Orchestrator的一部分。
 

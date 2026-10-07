@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3151'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -190,7 +190,7 @@ AI表单填写现在可以直接从其链接引用的Planning记录中检索字�
 
 有关信息，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 
-## Workfront Planning中提供的CX Coworker
+## Workfront Planning中提供的CX Enterprise Coworker
 
 >[!NOTE]
 >
@@ -198,9 +198,9 @@ AI表单填写现在可以直接从其链接引用的Planning记录中检索字�
 >生产快速发布：从2026年9月17日开始分阶段推出
 >为每个人生产：从2026年10月15日开始分阶段推出
 
-CX Coworker现已在Workfront Planning中提供。 现在，您可以在整个Workfront Planning中提供的面板中访问CX Coworker。
+CX Enterprise Coworker现已在Workfront Planning中提供。 现在，您可以在整个Workfront Planning中提供的面板中访问CX Enterprise Coworker。
 
-CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言描述目标，同事将规划工作，在Workfront Planning和您连接的Adobe系统中执行工作，验证结果，并将完成的工作交还给您进行审批。
+CX Enterprise Coworker Chat是一个用于完成工作的对话界面。 用简单的语言描述目标，同事将规划工作，在Workfront Planning和您连接的Adobe系统中执行工作，验证结果，并将完成的工作交还给您进行审批。
 
 同事尊重您组织现有的访问控制，默认情况下具有只读访问权限，当用户获得写入权限时，由系统管理员进行控制。
 
@@ -208,11 +208,11 @@ CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言
 
 >[!IMPORTANT]
 >
->CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 这些组织仍然可以使用人工智能助手。
+>CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 这些组织仍然可以使用人工智能助手。
 
-有关详细信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+有关详细信息，请参阅[CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-## 为准备CX Coworker启动，从记录详细信息预览框中移除了AI助手图标
+## 为准备CX Enterprise Coworker启动，从记录详细信息预览框中移除了AI助手图标
 
 >[!NOTE]
 >
@@ -221,15 +221,15 @@ CX Coworker Chat是一个用于完成工作的对话界面。 用简单的语言
 >为每个人生产：从2026年10月15日开始分阶段推出
 >[!BADGE 超出计划]{type=Neutral}
 
-在Workfront中拥有CX Coworker的客户可以使用此更改。
+在Workfront中拥有CX Enterprise Coworker的客户可以使用此更改。
 
-为了在Workfront中启动Adobe CX Coworker，我们已从详细信息预览页面中删除AI助手图标。 以全屏打开时，“详细信息”页面上仍存在该图标。 单击该链接可打开CX Coworker。
+为了在Workfront中启动Adobe CX Enterprise Coworker，我们已从“详细信息”预览页面中删除AI助手图标。 以全屏打开时，“详细信息”页面上仍存在该图标。 单击该链接可打开CX Enterprise Coworker。
 
 >[!IMPORTANT]
 >
->CX Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 这些组织仍然可以使用人工智能助手。
+>CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 这些组织仍然可以使用人工智能助手。
 
-有关信息，请参阅Workfront中的[CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)。
+有关信息，请参阅Workfront中的[CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)。
 
 ## 改进了复制具有一对一或一对多连接类型字段的记录时的体验
 

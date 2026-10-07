@@ -1,6 +1,6 @@
 ---
-title: Adobe Workfront规划CX Coworker概述
-description: 您可以在Workfront Planning中使用CX Coworker对Planning中的记录和其他对象执行类似的操作，通常在界面中执行这些操作。 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
+title: Adobe Workfront规划CX Enterprise Coworker概述
+description: 您可以在Workfront Planning中使用CX Enterprise Coworker对Planning中的记录和其他对象执行类似的操作，通常在界面中执行这些操作。 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
@@ -19,15 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1085'
 ht-degree: 1%
 ---
 
-# Adobe Workfront规划CX Coworker概述
+# Adobe Workfront规划CX Enterprise Coworker概述
 
-<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
+<!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-CX Coworker是一个对话式界面，您可在其中以简单的语言描述目标，然后它可以在您的Workfront Planning和其他连接的Adobe系统中规划、执行和验证工作，然后再重新引入以供您审批。
+CX Enterprise Coworker是一个对话式界面，您可在其中以简单的语言描述目标，然后它可以在您的Workfront Planning和其他连接的Adobe系统中规划、执行和验证工作，然后再重新引入以供您审批。
 
 Co-worker保留了AI Assistant目前所做的一切，同时在新的全屏体验和Workfront右边栏中添加了更强大的端到端功能。
 
@@ -107,7 +107,7 @@ Co-worker保留了AI Assistant目前所做的一切，同时在新的全屏体�
 
 * 必须先为您的组织启用同事，然后才可为贵公司的用户使用它。
 
-  有关信息，请参阅[CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+  有关信息，请参阅[CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 * 在Workfront为您的Workfront实例启用代理后，它可供主要Workfront管理员使用，他们可以为您的组织启用它。 有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
@@ -128,7 +128,7 @@ Co-worker保留了AI Assistant目前所做的一切，同时在新的全屏体�
 
 ## 当前适用于同事的功能
 
-目前，Co-worker在Workfront的Planning区域可用，它使用一组技能来访问和处理Planning对象的信息。 有关详细信息，请参阅[CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
+目前，Co-worker在Workfront的Planning区域可用，它使用一组技能来访问和处理Planning对象的信息。 有关详细信息，请参阅[CX Enterprise Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
 您可以使用同事执行以下操作：
 

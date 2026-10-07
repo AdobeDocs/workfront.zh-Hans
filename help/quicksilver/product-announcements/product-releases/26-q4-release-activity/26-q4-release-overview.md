@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3475'
 ht-degree: 1%
 ---
 # 2026年第四季度发行版概述
@@ -277,8 +277,8 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker现已在Workfront中可用</a>
-                <p>CX Coworker是一个新的对话界面，用于在Workfront和连接的Adobe系统中完成工作，取代当前的人工智能助手。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Enterprise Coworker现已在Workfront中可用</a>
+                <p>CX Enterprise Coworker是一个新的对话界面，用于在Workfront和连接的Adobe系统中完成工作，取代当前的人工智能助手。</p>
             </td>
             <td><p>已从2026年9月3日开始分阶段推出</p></td>
             <td><p>已从2026年9月17日开始分阶段推出</p></td>

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '14631'
+source-wordcount: '14637'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -971,11 +971,11 @@ ht-degree: 2%
     * [使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [适用于直接安装的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Workfront中的CX Coworker {#coworker-in-workfront}
-    * [Workfront中的CX Coworker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [在Workfront中使用CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * Workfront中的CX Enterprise Coworker {#coworker-in-workfront}
+    * [Workfront中的CX Enterprise Coworker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Enterprise Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 更新工作项并查看更新 {#update-work-items-view-updates}
     * [更新工作项并查看更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2205,7 +2205,7 @@ ht-degree: 2%
     * [Adobe Workfront Planning实施建议](planning/general/planning-best-practices.md)
     * [Adobe Workfront规划API基础知识](planning/general/planning-api-basics.md)
     * [Adobe Workfront规划AI助手概述](planning/general/planning-ai-assistant-overview.md)
-    * [Adobe Workfront规划CX Coworker概述](planning/general/planning-cx-coworker-overview.md)
+    * [Adobe Workfront规划CX Enterprise Coworker概述](planning/general/planning-cx-coworker-overview.md)
     * [Adobe Workfront规划Designer快速入门](planning/general/planning-ai-designer.md)
     * [Adobe Workfront 2024年计划发布活动](planning/general/release-activity.md)
     * [Adobe Workfront 2023年计划发布活动](planning/general/release-activity-archives-2023.md)
