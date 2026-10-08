@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 1%
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio对象和品牌的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -138,6 +138,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * 为使依赖关系链正常工作，所有依赖字段必须同时存在于同一记录类型中。
 
+* 已连接的记录字段显示的所有区域（包括记录或请求表单的详细信息区域）都支持依赖字段。
+
 ## 创建从属连接
 
 1. 作为工作区管理员，转到Workfront Planning中的记录类型，然后在表视图中将其打开。
@@ -167,7 +169,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      有关信息，请参阅本文中的[相关连接记录类型的示例](#example-of-dependent-connected-record-types)部分。
    * 已连接记录字段的列标题中有一个指示说明该字段处于依赖连接关系。
 
-     列标题![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的依赖图标工具提示
+     列标题](assets/dependent-icon-tooltip-in-column-header.png)中的![依赖图标工具提示
 1. （可选）单击&#x200B;**记录筛选规则**&#x200B;并从要连接的记录类型中选择字段以限制该字段值的选项，然后单击&#x200B;**完成**。
 
    当第三个记录类型中存在这两个字段时，连接的字段记录类型的选项将受您在此处选择的过滤器的限制。
