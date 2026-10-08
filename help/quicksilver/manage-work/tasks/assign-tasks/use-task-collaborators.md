@@ -1,7 +1,7 @@
 ---
 title: 使用工作代理
 content-type: reference
-description: 了解如何使用工作代理，即可以分配给Workfront任务的AI协作者。
+description: 了解如何使用工作代理、可分配给Workfront任务、问题和请求的AI协作者。
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 1%
 ---
 # 使用工作代理
 
 {{preview-fast-release-general}}
 
-工作代理是可以直接分配给Workfront任务和问题的AI协作者。 与其他AI协作者一样，工作代理也是在“设置”区域中配置的，并像用户一样分配给任务。
+工作代理是可直接分配给Workfront任务、问题和请求的AI协作者。 与其他AI协作者一样，工作代理在“设置”区域中配置，并像用户一样分配给工作项。
 
 工作代理连接到您在Copilot Studio、Claude、Writer、<span class="preview">OpenAI或IBM中配置的代理。</span>
 
@@ -51,11 +51,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -125,13 +125,13 @@ ht-degree: 1%
 * 将工作代理分配给已经分配了工作代理的任务。 在这种情况下，分配的第一个工作代理将已开始工作，而第二个工作代理将不执行任何操作。
 * 工作代理被分配给未准备好启动的任务。 （例如，如果任务具有前置任务，则前置任务尚未完成。）
 
-## 将工作代理分配给任务<span class="preview">或问题</span>
+## 将工作代理分配给任务、问题或请求
 
-工作代理分配给任务<span class="preview">或问题</span>的方式与用户分配方式相同。
+以与分配用户相同的方式向任务、问题或请求分配工作代理。
 
 在可用受分配人列表中搜索工作代理时，工作代理的名称仅为名字。
 
-有关说明，请参阅[分配任务](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。
+有关说明，请参阅[分配任务](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)和[管理工作和团队请求](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
 >[!NOTE]
 >

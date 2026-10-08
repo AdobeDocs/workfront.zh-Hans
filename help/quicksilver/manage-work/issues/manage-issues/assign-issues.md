@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 分配问题
-description: 您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅修改问题分配概述。
+description: 您可以将问题分配给用户、角色、团队和工作代理，以指明负责完成问题的人员。 有关分配问题的一般信息，请参阅修改问题分配概述。
 author: Lisa
 feature: Work Management
 role: User
@@ -12,23 +12,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jJLBz6MVWaSCabnj-y8FKnqtQlT5PGRfZ9KZtrgOar8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: 1367
+source-wordcount: '1380'
 ht-degree: 2%
-
 ---
-
 # 分配问题
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -42,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
+您可以将问题分配给用户、角色、团队或工作代理，以指明负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 >[!TIP]
 >
->您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
+>您可以分配多个用户、工作角色、团队或工作代理。 您只能分配活动用户、工作角色、团队和工作代理。
 >
->如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则仍将其分配给工作项目。 在这种情况下，我们建议执行以下操作：
+>如果在停用用户、工作角色、团队或工作代理之前已分配用户、工作角色、团队或工作代理，则仍将其分配给工作项目。 在这种情况下，我们建议执行以下操作：
 >
 >* 将工作项重新分配给活动资源。
 >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
@@ -109,9 +115,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   如果已将任务或问题分配给一个或多个角色，并且您还分配了用户，则Adobe Workfront将根据以下规则确定要与其他用户（如果有）关联的工作角色：
 
-   * 如果只分配了一个工作角色，并且该工作角色与用户的主要角色匹配，则任务或问题仅被分配给履行其主要角色的用户。
-   * 如果分配了多个角色，并且至少有一个角色与用户的辅助角色匹配，则将任务或问题分配给履行其中一个其他角色（如果存在多个匹配，则Workfront会随机选择其他角色）以及分配的任何其他角色的用户。
-   * 如果分配了一个或多个工作角色，但没有与用户的角色匹配，则任务或问题将同时分配给该角色和用户。
+  * 如果只分配了一个工作角色，并且该工作角色与用户的主要角色匹配，则任务或问题仅被分配给履行其主要角色的用户。
+  * 如果分配了多个角色，并且至少有一个角色与用户的辅助角色匹配，则将任务或问题分配给履行其中一个其他角色（如果存在多个匹配，则Workfront会随机选择其他角色）以及分配的任何其他角色的用户。
+  * 如果分配了一个或多个工作角色，但没有与用户的角色匹配，则任务或问题将同时分配给该角色和用户。
 
 * 如果将任务或问题分配给团队并且您还分配了用户，则任务或问题仍会分配给团队和用户。
 
@@ -143,7 +149,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 执行下列操作之一：
 
-   * 开始键入要分配的用户、角色或团队的名称，然后当该名称出现在列表中时单击它。
+   * 开始键入要分配的用户、角色、团队或工作代理的名称，然后当该名称出现在列表中时单击它。
 
      ![任务搜索](assets/smart-assignments-issue-header.png)
 
@@ -192,7 +198,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      ![已分配给字段](assets/assigned-to-field-task-list-nwe.png)
 
-   * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色或活跃团队的名称，然后当它显示在列表中时单击它。
+   * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色、团队或工作代理的名称，然后当它显示在列表中时单击它。
 
      ![任务字段](assets/assignments-field-0825.png)
 
