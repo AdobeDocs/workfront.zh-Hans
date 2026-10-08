@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
+source-git-commit: 485b9a47cb2d5dee9dfbb77f3f6da76995df88ad
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '662'
 ht-degree: 2%
 ---
 # 在Creative Cloud应用程序中使用Workfront文档
@@ -84,9 +84,9 @@ Workfront项目中的“文档”文件夹结构会镜像到“项目”面板�
 要将新文档保存到Workfront，请执行以下操作：
 
 1. 打开Photoshop、Illustrator或InDesign，然后创建新文件。
-1. 如果要保存新文件，请单击顶部菜单中的&#x200B;**保存**。
-或
-如果要保存现有文件的新副本，请单击顶部菜单中的&#x200B;**另存为**。
+1. 在顶部菜单中，执行以下操作之一：
+   * 要保存新文件，请单击&#x200B;**保存**。
+   * 要保存现有文件的新副本，请单击&#x200B;**另存为**。
 1. 在&#x200B;**另存为**&#x200B;对话框中，选择&#x200B;**保存到云文档**，然后选择所需的Workfront项目。
 
    >[!NOTE]
@@ -108,7 +108,7 @@ Workfront项目中的“文档”文件夹结构会镜像到“项目”面板�
 
 ## 从Creative Cloud应用程序管理Workfront中的文档版本
 
-将文档从Photoshop、Illustrator或InDesign保存到Workfront时，您保存的更改将显示在“版本”选项卡的“当前”文件中，并带有“新更改”标记。
+将文档从Photoshop、Illustrator或InDesign保存到Workfront时，保存的更改将显示在“版本”选项卡的“当前”文件中，并带有“新更新”标记。
 
 您可以请求审批当前文件，而不是上传文档的新版本。 有关详细信息，请参阅[请求批准当前文件](#request-approval-on-the-current-file)。
 
