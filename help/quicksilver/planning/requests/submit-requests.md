@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning请求以创建记录
@@ -220,6 +220,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >**Name**&#x200B;字段对于您的组织是唯一的，它可能会在您的Workfront实例中显示其他标签。 该字段是记录的主要字段。
 
 1. 更新请求表单中的其余字段。 带有红色星号的字段为必填字段。
+
+   >[!TIP]
+   >
+   >从属连接的记录字段的值受记录之间的从属规则限制。 有关详细信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
+
+
 1. （视情况而定）如果您的组织允许使用AI支持的&#x200B;**表单填充**，则可以上传文档作为提示。 AI使用这些文档填写表单，您可以在提交请求之前接受或拒绝AI建议。
 
 
