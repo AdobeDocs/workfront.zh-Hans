@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2755'
 ht-degree: 1%
 ---
 # 将计算字段添加到表单
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。
+   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
       计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
@@ -356,7 +356,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">添加逻辑</td> 
-      <td>可添加显示逻辑以确定是否根据用户在填写表单时在前面的多选字段（下拉列表、复选框或单选按钮）中所做的选择显示计算字段。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">将逻辑规则添加到自定义表单和字段</a>。 <p>仅当表单上计算的自定义字段前面至少有一个复选框、单选按钮或下拉字段时，此选项才可用。 </p> <p>跳过逻辑和其他逻辑类型对计算的自定义字段不可用。</p> </td> 
+      <td>可添加显示逻辑以确定是否根据用户在填写表单时在前面的多选字段（下拉列表、复选框或单选按钮）中所做的选择显示计算字段。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">将逻辑规则添加到自定义表单和字段</a>。 <p>仅当表单上计算的自定义字段前面至少有一个复选框、单选按钮或下拉字段时，此选项才可用。 </p> <p>跳过逻辑和其他逻辑类型对计算的自定义字段不可用。</p> <p><b>注意：</b>显示逻辑隐藏的自定义字段会保留其值，并且仍包含在诸如CONCAT之类的表达式中。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">更新以前的计算</td> 
