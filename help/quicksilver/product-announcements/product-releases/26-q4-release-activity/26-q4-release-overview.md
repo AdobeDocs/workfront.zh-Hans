@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3601'
 ht-degree: 1%
 ---
 # 2026年第四季度发行版概述
@@ -65,8 +65,26 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">查看用户的雇用历史记录</a>
+                <p>Workfront管理员现在可以在单个可过滤的“雇用历史记录”视图中跟踪用户的工作角色、代理、成本中心和记帐费率随时间的变化。</p>
+            </td>
+            <td><p>2026年10月1日</p></td>
+            <td><p>2026年10月14</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">使用AI生成自定义本地化</a>
                 <p>Workfront管理员现在可以使用AI为自定义本地化文本生成翻译，并在保存之前查看或调整结果。</p>
+            </td>
+            <td><p>2026年10月1日</p></td>
+            <td><p>2026年10月14</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">对布局模板的增强</a>
+                <p>对布局模板进行了一些增强，包括在主菜单中隐藏或显示项目，在主菜单中定位自定义应用程序，以及在左侧导航中隐藏详细信息。</p>
             </td>
             <td><p>2026年10月1日</p></td>
             <td><p>2026年10月14</p></td>
@@ -134,16 +152,6 @@ ht-degree: 1%
             <td>
                 除了Workfront Planning客户的自定义季度之外，<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自定义周</a>
                 <p>如果您的组织具有Planning包，您现在可以使用配置自定义季度的相同方式配置自定义周。</p>
-            </td>
-            <td><p>2026年9月3日</p></td>
-            <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">在主菜单中重新排序自定义应用程序</a>
-                <p><strong>注意：</strong>此功能已于2026年9月14日从“预览”环境中临时删除。</p>
-                <p>现在，您可以在布局模板的主菜单中重新定位自定义应用程序，而不是使其始终显示在最后。</p>
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
@@ -361,6 +369,17 @@ ht-degree: 1%
             <td><p>2026年10月1日</p></td>
             <td><p>2026年10月1日</p></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Delegate unified document approvals</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
+            </td>
+            <td><p>October 8, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
          <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将多个文档分组到一个审批工作流中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
@@ -370,27 +389,24 @@ ht-degree: 1%
             <td><p>2026年10月14</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
-                <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将Web链接添加为文档</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>您现在可以在新的“文档”区域将网站作为Web链接添加到Adobe Workfront中，并在实时网页上请求审批。</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>此功能在预览Sandbox环境中不可用，因为Frame.io集成在那里不可用。</p></td>
+            <td><p>2026年10月14</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
-        <tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
-                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">访问Adobe Creative Cloud应用程序中的Workfront项目</a>
+                <p>您现在可以使用项目面板直接从Adobe Photoshop、Illustrator和InDesign访问Workfront项目。</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>[DATE]</p></td>
-            <td><p>[DATE]</p></td>
+            <td><p>不适用</p></td>
+            <td><p>[日期]</p></td>
+            <td><p>[日期]</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">系统管理员对审批模板的完全访问权限</a><p>[!BADGE Off Schedule]{type=Neutral}</p>

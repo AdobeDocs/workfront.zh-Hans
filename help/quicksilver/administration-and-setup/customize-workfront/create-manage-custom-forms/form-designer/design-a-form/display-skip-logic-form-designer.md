@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
+source-wordcount: '3711'
 ht-degree: 0%
 ---
 # 向自定义表单和字段添加逻辑规则
@@ -120,6 +120,7 @@ ht-degree: 0%
   * 默认情况下，显示逻辑语句中未包含的自定义字段会显示在自定义表单中。
   * 您可以创建多字段显示逻辑语句。
   * 如果分区界限下的所有字段都应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。
+  * 显示逻辑隐藏的字段会保留其值，并且仍包含在诸如CONCAT之类的表达式中。
 
 ## 向自定义表单添加显示逻辑
 
