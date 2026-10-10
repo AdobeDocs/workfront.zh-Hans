@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1048'
 ht-degree: 5%
 ---
 # 在[!UICONTROL 主页]区域的[!UICONTROL 工作列表]中显示项目
@@ -120,7 +120,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->过滤器选项存储在浏览器中。 如果您始终在同一台计算机上使用同一浏览器（并且不清除网站数据），则不要更改所选筛选条件。 如果切换浏览器或计算机，则筛选器将还原为默认选项，该选项已取消选择所有筛选器。
+>大多数构件的过滤器选项都存储在浏览器中。 如果您始终在同一台计算机上使用同一浏览器（并且不清除网站数据），则不要更改所选筛选条件。 如果切换浏览器或计算机，则筛选器将还原为默认选项，该选项已取消选择所有筛选器。 <br>
+>我的审批小组件不会在浏览器中存储筛选器选项。 我的审批构件始终默认为我的审批过滤器选项，该选项显示分配给您的审批。
 
 要筛选您的工作，请执行以下操作：
 
