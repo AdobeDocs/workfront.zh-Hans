@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1048'
 ht-degree: 5%
 ---
 # 在[!UICONTROL 主页]区域的[!UICONTROL 工作列表]中显示项目
@@ -62,12 +62,12 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
-   <td><ul><li>[!UICONTROL Contributor]仅供审批</li> <li>[!UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
-  </ul><ul><li>[!UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[!UICONTROL 工作]或更高版本</li> </td> 
+   <td><ul><li>[！UICONTROL Contributor]仅供审批</li> <li>[！UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
+  </ul><ul><li>[！UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[！UICONTROL工作]或更高版本</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL 视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -120,7 +120,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->过滤器选项存储在浏览器中。 如果您始终在同一台计算机上使用同一浏览器（并且不清除网站数据），则不要更改所选筛选条件。 如果切换浏览器或计算机，则筛选器将还原为默认选项，该选项已取消选择所有筛选器。
+>大多数构件的过滤器选项都存储在浏览器中。 如果您始终在同一台计算机上使用同一浏览器（并且不清除网站数据），则不要更改所选筛选条件。 如果切换浏览器或计算机，则筛选器将还原为默认选项，该选项已取消选择所有筛选器。 <br>
+>我的审批小组件不会在浏览器中存储筛选器选项。 我的审批构件始终默认为我的审批过滤器选项，该选项显示分配给您的审批。
 
 要筛选您的工作，请执行以下操作：
 
@@ -138,7 +139,7 @@ ht-degree: 5%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
-1. 选择一个&#x200B;**建议的**&#x200B;筛选器或您已创建的筛选器。
+1. 选择一个&#x200B;**建议的**筛选器或您已创建的筛选器。
 有关建议筛选器的详细信息，请参阅[主页小组件筛选器概述](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （可选）打开&#x200B;**栈栈筛选器**&#x200B;以选择多个筛选器选项。
 
@@ -165,7 +166,7 @@ ht-degree: 5%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**组**&#x200B;图标![组图标](assets/group-icon.png)。
-1. 选择一个&#x200B;**建议的**&#x200B;分组或您创建的分组。
+1. 选择一个&#x200B;**建议的**分组或您创建的分组。
    ![分组已展开](assets/grouping-expanded.png)
 
 
