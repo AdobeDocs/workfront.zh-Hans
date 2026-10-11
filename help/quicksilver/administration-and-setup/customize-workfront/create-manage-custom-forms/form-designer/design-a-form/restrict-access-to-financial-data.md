@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 6%
+source-wordcount: '755'
+ht-degree: 5%
 ---
 # 限制对自定义字段中财务数据的访问
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 有关创建自定义字段的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-有关访问级别的信息，请参阅[访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。 有关共享和权限的信息，请参阅[对象共享权限概述](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+有关通过访问级别和权限定义对财务数据的访问的信息，请参阅[授予对财务数据的访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)和[共享对象的财务权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
 
 ## 访问权限要求
 
@@ -89,16 +89,27 @@ ht-degree: 6%
    >
    >对于计算字段，允许使用任何格式。 所有其他字段类型必须使用&#x200B;**货币**&#x200B;格式，否则&#x200B;**财务权限类型**&#x200B;字段将不可用。
 
-1. （可选）仅对于计算字段，打开&#x200B;**自动权限**&#x200B;选项以允许财务权限自动来自公式中的字段。
+1. （可选）仅对于计算字段，打开&#x200B;**自动权限**&#x200B;选项，以允许从公式中的字段自动创建财务权限。
 
 1. 为&#x200B;**财务权限类型**&#x200B;选择一个选项。
 
-   用户必须具有此财务权限类型，才能在表单上查看或编辑此自定义字段。
+   此设置定义用户在查看或编辑表单上的此自定义字段之前必须具有的访问权限类型。
 
-   * **不需要权限：**&#x200B;所有用户都可以看到此字段
-   * **常规：**&#x200B;用户必须具有编辑或查看常规财务的权限
-   * **帐单：**&#x200B;用户必须具有编辑或查看记帐费率的权限
-   * **成本：**&#x200B;用户必须具有编辑或查看成本费率的权限
+   * **无需权限：**&#x200B;所有用户都可以查看该字段，无论其访问级别和对象权限如何。
+   * **常规：**&#x200B;用户必须具有下列其中一个字段才能查看该字段：
+
+     * 其访问级别包括查看或编辑对财务数据的访问权限，并启用了对General Finance的访问权限。
+     * 他们对附加自定义表单的对象的权限包括查看或编辑一般财务。
+
+   * **帐单：**&#x200B;用户必须具有下列其中一个字段才能查看该字段：
+
+     * 其访问级别包括查看或编辑对财务数据的访问权限，并启用了记帐费率的访问权限。
+     * 他们对附加自定义表单的对象的权限包括查看或编辑记帐费率。
+
+   * **成本：**&#x200B;用户必须具有下列其中一个字段才能查看该字段：
+
+     * 其访问级别包括查看或编辑对财务数据的访问，并启用了成本率的访问。
+     * 他们对附加自定义表单的对象的权限包括查看或编辑成本费率。
 
    对于已计算的字段：
 

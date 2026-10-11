@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 3%
+source-wordcount: '831'
+ht-degree: 2%
 ---
 # 授予对财务数据的访问权限
 
@@ -121,10 +121,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-当您与其他用户共享任何对象时，收件人在该对象上的权限由以下两项共同决定：
+当您与其他用户共享任何对象时，收件人查看或编辑该对象财务数据的权限由以下两项决定：
 
-* 您授予收件人对象的权限
-* 收件人针对对象类型的访问级别设置
+* 您为收件人授予的特定对象权限
+* 收件人针对对象类型和财务数据的访问级别设置
+
+也可以根据用户的权限和访问级别设置，限制对自定义财务字段的访问。 有关详细信息，请参阅[限制对自定义字段中的财务数据的访问](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)。
 
 ## 按许可证类型访问财务信息
 
