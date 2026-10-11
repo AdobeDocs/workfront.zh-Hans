@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning请求以创建记录
@@ -223,10 +223,19 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   >从属连接的记录字段的值受记录之间的从属规则限制。 有关详细信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
+   ><span class="preview">依赖的已连接记录字段的值受记录之间的依赖关系规则的限制。 有关详细信息，请参阅[管理依赖连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
+
+1. （可选且有条件）单击&#x200B;**填写表单**&#x200B;以使AI为您填写表单。 Workfront会根据先前请求的信息填写表单上的字段。
+
+   >[!TIP]
+   >
+   >您的组织必须允许“系统首选项”区域中的&#x200B;**AI表单填写**，才能使用“填写表单”功能。
+   >
+   >有关说明，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 
 
-1. （视情况而定）如果您的组织允许使用AI支持的&#x200B;**表单填充**，则可以上传文档作为提示。 AI使用这些文档填写表单，您可以在提交请求之前接受或拒绝AI建议。
+
+1. （视情况而定）如果您的组织允许&#x200B;**AI表单填充**，则可以上传文档作为提示。 AI使用这些文档填写表单，您可以在提交请求之前接受或拒绝AI建议。
 
 
    有关说明，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
@@ -345,7 +354,15 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    此时将打开请求表单。
 1. 开始在所有可用字段中输入所有信息
 
-   或单击&#x200B;**填写表单**&#x200B;以使AI为您填写表单。
+   或单击&#x200B;**填写表单**&#x200B;以使AI为您填写表单。 Workfront会根据先前请求的信息填写表单上的字段。
+
+   >[!TIP]
+   >
+   >如果贵组织允许在“系统首选项”区域进行&#x200B;**AI表单填写**，则可以作为提示上载文档。 AI使用这些文档填写表单，您可以在提交请求之前接受或拒绝AI建议。
+   >
+   >有关说明，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
+
+
 1. 单击&#x200B;**提交请求**。
 
    已提交请求。
