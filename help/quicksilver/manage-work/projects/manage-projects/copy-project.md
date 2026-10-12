@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 7%
-
 ---
-
 # 复制项目
 
 <!--
@@ -150,7 +158,7 @@ ht-degree: 7%
 
    转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-icon.png)。
 
-1. 在&#x200B;**更多**&#x200B;下拉菜单中，单击&#x200B;**复制**。 出现[项目名称&#x200B;]&#x200B;**的**&#x200B;副本对话框。
+1. 在&#x200B;**更多**&#x200B;下拉菜单中，单击&#x200B;**复制**。 出现[项目名称&#x200B;]**的**&#x200B;副本对话框。
 
 1. （可选）更新&#x200B;**项目名称**。 默认情况下，新名称为&#x200B;**副本[原始项目名称]**。
 
@@ -162,76 +170,76 @@ ht-degree: 7%
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">全部选择</td> 
       <td> <p>选择所有选项并清除新项目中列出的所有字段和对象。 </p>
 
    <p> 取消选择此选项将取消选择所有项。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">分配</td> 
-      <td>删除所有项目和任务分配。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">进度</td> 
-      <td>删除所有任务的进度，将其显示为新任务。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">自定义数据</td> 
-      <td> <p>删除项目上自定义表单中的信息，以及与以下项目关联的自定义表单上的信息：</p> 
-       <ul> 
-        <li>任务</li> 
-        <li>费用</li> 
-        <li> 文档</li> 
-       </ul> 
-      <p>自定义表单仍然附加到任务、费用、文档和项目，但表单自定义字段中的信息不会复制到新项目。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">文档</td> 
-      <td> <p>删除“文档”选项卡中的所有内容，包括文档版本、链接的文档和文件夹。</p> <p>默认情况下，文档验证和审批无法复制到其他项目。 </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">分配</td> 
+        <td>删除所有项目和任务分配。</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">进度</td> 
+        <td>删除所有任务的进度，将其显示为新任务。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">自定义数据</td> 
+        <td> <p>删除项目上自定义表单中的信息，以及与以下项目关联的自定义表单上的信息：</p> 
+        <ul> 
+          <li>任务</li> 
+          <li>费用</li> 
+          <li> 文档</li> 
+        </ul> 
+        <p>自定义表单仍然附加到任务、费用、文档和项目，但表单自定义字段中的信息不会复制到新项目。 </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">文档</td> 
+        <td> <p>删除“文档”选项卡中的所有内容，包括文档版本、链接的文档和文件夹。</p> <p>默认情况下，文档验证和审批无法复制到其他项目。 </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">所有前置任务</td> 
       <td> <p>删除项目上任务之间的所有前置任务关系。 </p> <p>
 
    跨项目前置任务从不转移到新项目，无论是否选择此选项。 </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">预算小时</td> 
-      <td> <p>从复制的项目中删除项目业务案例的资源计划区域中预算的小时数。</p> 
-    <p>
-   绝不会将使用方案规划器的预算小时数复制到新项目，因为新项目未链接到方案规划器中的方案。 有关详细信息，请参阅使用场景规划器</a>的业务案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">预算资源</p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">财务信息</td> 
-      <td> <p>删除以下区域中的信息： </p> 
-       <ul> 
-        <li>项目的“财务”子选项卡</li> 
-        <li> 业务案例中的计划收益</li> 
-        <li>来自所有任务的财务信息<br></li> 
-       </ul> <p>有关项目财务子选项卡的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">管理项目财务区域的信息</a>。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">审批流程</td> 
-      <td>删除与任务或项目关联的所有批准。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">提醒通知</td> 
-      <td> 删除与任务或项目关联的提醒通知。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">费用</td> 
-      <td>删除与任务或项目关联的费用。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">权限</td> 
-      <td> 删除对任务或项目上所有用户的权限。</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">预算小时</td> 
+        <td> <p>从复制的项目中删除项目业务案例的资源计划区域中预算的小时数。</p> 
+      <p>
+    绝不会将使用方案规划器的预算小时数复制到新项目，因为新项目未链接到方案规划器中的方案。 有关详细信息，请参阅使用场景规划器</a>的业务案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">预算资源</p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">财务信息</td> 
+        <td> <p>删除以下区域中的信息： </p> 
+        <ul> 
+          <li>项目的“财务”子选项卡</li> 
+          <li> 业务案例中的计划收益</li> 
+          <li>来自所有任务的财务信息<br></li> 
+        </ul> <p>有关项目财务子选项卡的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">管理项目财务区域的信息</a>。</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">审批流程</td> 
+        <td>删除与任务或项目关联的所有批准。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">提醒通知</td> 
+        <td> 删除与任务或项目关联的提醒通知。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">费用</td> 
+        <td>删除与任务或项目关联的费用。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">权限</td> 
+        <td> 删除对任务或项目上所有用户的权限。</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. 单击&#x200B;**复制项目**。 将创建复制的项目。
