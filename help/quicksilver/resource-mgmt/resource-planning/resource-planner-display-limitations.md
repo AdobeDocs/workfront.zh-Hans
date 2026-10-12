@@ -7,22 +7,24 @@ description: 为了提高性能，Adobe Workfront会限制您可以显示的信�
 author: Lisa
 feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
-TQID: https://experienceleague.adobe.com/5ztX-x5EsELkZ-BvYjQIhWEGIGt3QVMj4bSiuJTqSeE
+TQID: 'https://experienceleague.adobe.com/5ztX-x5EsELkZ-BvYjQIhWEGIGt3QVMj4bSiuJTqSeE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 # 资源规划者显示限制
 
 为了提高性能，Adobe Workfront会限制您可以显示的信息量以及您可以从资源规划者导出的信息量。
@@ -84,9 +86,9 @@ ht-degree: 0%
 
 * 您可以显示符合以下条件的所有用户：
 
-   * 您有权查看
-   * 处于活动状态
-   * 已登录至少一次。
+  * 您有权查看
+  * 处于活动状态
+  * 已登录至少一次。
 
 * 您可以展开每个用户以显示与其关联的项目，展开每个项目以显示与其关联的角色。\
   默认显示前50个项目和角色，您可以使用“加载更多”选项来显示其他项目或角色。

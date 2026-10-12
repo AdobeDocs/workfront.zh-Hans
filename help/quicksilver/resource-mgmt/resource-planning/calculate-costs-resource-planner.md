@@ -6,25 +6,29 @@ description: 您可以在Adobe Workfront资源规划程序中通过使用成本�
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+TQID: 'https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1416'
 ht-degree: 1%
-
 ---
-
 # 在资源规划者中计算成本
 
 <!--
@@ -145,10 +149,10 @@ ht-degree: 1%
 * 任务的分配类型。\
   您可以将任务保留为未分配，或将以下实体分配给任务：
 
-   * 用户（无论是否具有工作角色）
-   * 角色
-   * 一个团队\
-     从资源规划者的角度来看，分配给团队的任务被视为未分配。
+  * 用户（无论是否具有工作角色）
+  * 角色
+  * 一个团队\
+    从资源规划者的角度来看，分配给团队的任务被视为未分配。
 
 * 项目任务的&#x200B;**成本类型**。\
   有关任务的成本类型的详细信息，请参阅[跟踪成本](../../manage-work/projects/project-finances/track-costs.md)。
@@ -165,99 +169,99 @@ ht-degree: 1%
 
 * 当&#x200B;**成本类型**&#x200B;为&#x200B;**用户小时**&#x200B;且任务上有&#x200B;**无分配**&#x200B;时：
 
-   * **角色和用户计划成本**：
+  * **角色和用户计划成本**：
 
-     角色和用户计划成本为0.00 USD。
+    角色和用户计划成本为0.00 USD。
 
-   * **项目计划成本**：
+  * **项目计划成本**：
 
-     项目计划成本为$0.00。
+    项目计划成本为$0.00。
 
 * 当&#x200B;**成本类型**&#x200B;为&#x200B;**用户小时**，并且任务中有&#x200B;**用户分配**&#x200B;时：
 
-   * **角色和用户计划成本**：
+  * **角色和用户计划成本**：
 
-     使用以下公式计算用户计划成本：
+    使用以下公式计算用户计划成本：
 
-     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
+    `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
-     如果用户在其配置文件中具有成本费率，则该费率用于计算计划成本。 否则，将使用其主要角色的系统级每小时成本费率。
+    如果用户在其配置文件中具有成本费率，则该费率用于计算计划成本。 否则，将使用其主要角色的系统级每小时成本费率。
 
-     >[!NOTE]
-     >
-     >可以将用户与其辅助工作角色之一分配给任务，但此处改为使用主要工作角色的速率。
+    >[!NOTE]
+    >
+    >可以将用户与其辅助工作角色之一分配给任务，但此处改为使用主要工作角色的速率。
 
-     使用以下公式计算职责计划成本：
+    使用以下公式计算职责计划成本：
 
-     `Role Planned Cost = SUM(User Planned Cost)`
+    `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **项目计划成本**：
+  * **项目计划成本**：
 
-     项目计划成本为$0.00。
+    项目计划成本为$0.00。
 
 * 当&#x200B;**成本类型**&#x200B;为&#x200B;**用户小时**，并且任务中有&#x200B;**工作角色分配**&#x200B;时：
 
-   * **角色和用户计划成本**：
+  * **角色和用户计划成本**：
 
-     用户计划成本为$0.00。
+    用户计划成本为$0.00。
 
-     使用以下公式计算职责计划成本：
+    使用以下公式计算职责计划成本：
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     分配至任务的工作角色的系统级别每小时成本费率用于计算计划成本。
+    分配至任务的工作角色的系统级别每小时成本费率用于计算计划成本。
 
-   * **项目计划成本**：
+  * **项目计划成本**：
 
-     项目计划成本为$0.00。
+    项目计划成本为$0.00。
 
 * 当&#x200B;**成本类型**&#x200B;为&#x200B;**角色小时**&#x200B;且任务上有&#x200B;**无分配**&#x200B;时：
 
-   * **角色和用户计划成本**：
+  * **角色和用户计划成本**：
 
-     角色和用户计划成本为0.00 USD。
+    角色和用户计划成本为0.00 USD。
 
-   * **项目计划成本**：
+  * **项目计划成本**：
 
-     项目计划成本为$0.00。
+    项目计划成本为$0.00。
 
 * 当&#x200B;**成本类型**&#x200B;为&#x200B;**角色小时**，并且任务上有&#x200B;**用户分配**&#x200B;时：
 
-   * **角色和用户计划成本**：
+  * **角色和用户计划成本**：
 
-     用户计划成本为$0.00。
+    用户计划成本为$0.00。
 
-     角色计划成本按以下公式计算：
+    角色计划成本按以下公式计算：
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront查看用户在任务中履行的工作角色，以计算该角色的计划成本。
+    Workfront查看用户在任务中履行的工作角色，以计算该角色的计划成本。
 
-     如果用户未与任务中的任何角色关联，则计划成本为$0.00。
+    如果用户未与任务中的任何角色关联，则计划成本为$0.00。
 
-   * **项目计划成本**：
+  * **项目计划成本**：
 
-     使用以下公式计算项目计划成本：
+    使用以下公式计算项目计划成本：
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 * 当&#x200B;**成本类型**&#x200B;为&#x200B;**角色每小时**，并且任务中有&#x200B;**工作角色分配**&#x200B;时：
 
-   * **角色和用户计划成本**：
+  * **角色和用户计划成本**：
 
-     用户计划成本为$0.00。
+    用户计划成本为$0.00。
 
-     角色计划成本按以下公式计算：
+    角色计划成本按以下公式计算：
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront查看用户在任务中履行的工作角色，以计算该角色的计划成本。
+    Workfront查看用户在任务中履行的工作角色，以计算该角色的计划成本。
 
-   * **项目计划成本**：
+  * **项目计划成本**：
 
-     使用以下公式计算项目计划成本：
+    使用以下公式计算项目计划成本：
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

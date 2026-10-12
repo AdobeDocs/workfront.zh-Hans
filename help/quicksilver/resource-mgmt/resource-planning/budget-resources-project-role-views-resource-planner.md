@@ -6,26 +6,31 @@ description: 您可以使用“项目”和“角色”视图在Adobe Workfront�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
+source-wordcount: '2121'
 ht-degree: 1%
-
 ---
-
 # 使用项目和角色视图的资源规划者中的预算资源
 
 <!--
@@ -130,9 +135,9 @@ ht-degree: 1%
 
    * 在&#x200B;**BDG**&#x200B;列中，手动指定项目的预算小时数、FTE或成本。 这会向项目下的每个角色分配项目预算小时数。 存在以下情况：
 
-      * 如果您指定的项目预算小时数等于项目计划小时数，则角色预算小时数与角色计划小时数匹配。
-      * 如果指定的项目预算小时数与项目计划小时数不相等，则根据每个角色所需的计划小时数百分比分配角色预算小时数。\
-        例如，如果项目具有20个计划小时数，并且这些小时数分布在两个工作角色之间（顾问需要12个计划小时数，工程师需要8个计划小时数），而您为项目预算了30个小时数，则小时数分布如下：顾问角色接收18个预算小时数，工程师角色接收12个预算小时数。
+     * 如果您指定的项目预算小时数等于项目计划小时数，则角色预算小时数与角色计划小时数匹配。
+     * 如果指定的项目预算小时数与项目计划小时数不相等，则根据每个角色所需的计划小时数百分比分配角色预算小时数。\
+       例如，如果项目具有20个计划小时数，并且这些小时数分布在两个工作角色之间（顾问需要12个计划小时数，工程师需要8个计划小时数），而您为项目预算了30个小时数，则小时数分布如下：顾问角色接收18个预算小时数，工程师角色接收12个预算小时数。
 
 1. 要为项目分配预算，请执行以下操作之一：
 
@@ -225,7 +230,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存**。\
    在资源规划者中预算资源后，资源的预算小时数以及与资源相关的任何成本将列在每个项目的业务案例中。
-有关了解业务案例的资源预算编制区域的详细信息，请参阅文章[业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
+   有关了解业务案例的资源预算编制区域的详细信息，请参阅文章[业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
 1. （可选）选择&#x200B;**按用户查看**&#x200B;视图可注意到每个用户的可用小时数和计划小时数之间存在的任何用户过度分配或利用不足的情况。 预算小时数在“按用户查看”视图中不可见。
 

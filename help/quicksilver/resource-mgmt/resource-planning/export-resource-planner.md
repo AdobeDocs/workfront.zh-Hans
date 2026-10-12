@@ -6,25 +6,29 @@ description: 您可以将资源规划者的任何视图中的信息导出到计�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+TQID: 'https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '599'
 ht-degree: 8%
-
 ---
-
 # 从资源规划者导出信息
 
 您可以将资源规划者的任何视图中的信息导出到计算机上保存的Excel (.xlsx)文件。
@@ -95,25 +99,25 @@ ht-degree: 8%
    * 12个季度
 
    **选择以导出**：根据您选择的视图，您可以选择导出屏幕上列出的所有对象或特定对象的可用性和预算信息。
-您可以选择导出以下信息：
+   您可以选择导出以下信息：
 
    * 在“项目视图”中，选择要导出：
 
-      * 项目
-      * 项目和角色
-      * 全部（这是默认选项）
+     * 项目
+     * 项目和角色
+     * 全部（这是默认选项）
 
    * 在“用户视图”中，选择要导出：
 
-      * 用户
-      * 用户和项目
-      * 全部（这是默认选项）
+     * 用户
+     * 用户和项目
+     * 全部（这是默认选项）
 
    * 在“角色视图”中，选择以导出：
 
-      * 角色
-      * 角色和项目
-      * 全部（这是默认选项）
+     * 角色
+     * 角色和项目
+     * 全部（这是默认选项）
 
    **数据格式**：根据您希望Excel文件的显示方式，选择以下选项：
 

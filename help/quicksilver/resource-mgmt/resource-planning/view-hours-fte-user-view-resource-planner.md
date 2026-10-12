@@ -7,27 +7,33 @@ description: 在RP中使用用户视图计划时查看资源计划员中的可�
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-TQID: https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8
+TQID: 'https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: '1741'
 ht-degree: 1%
-
 ---
-
 # 使用用户视图时查看资源规划者中的可用、计划和实际小时数或FTE
 
 <!--
@@ -43,8 +49,8 @@ ht-degree: 1%
 * 您可以在资源规划者的所有视图中查看用户、工作角色和项目的可用和已计划小时数或FTE信息。
 * 您只能在“用户视图”中查看以下信息：
 
-   * 计划小时数或FTE数量与可用小时数或FTE数量之间的差额。 然后，您可以根据项目视图和角色视图中的此差异来预算用户分配。
-   * 实际小时数或FTE。
+  * 计划小时数或FTE数量与可用小时数或FTE数量之间的差额。 然后，您可以根据项目视图和角色视图中的此差异来预算用户分配。
+  * 实际小时数或FTE。
 
 * 您可以在“用户”视图中将“可用用户”与“计划小时数”或“FTE”之间的差额显示为数字或百分比值。
 * 您不能在“按成本列出的用户”视图中显示此信息。
@@ -56,14 +62,14 @@ ht-degree: 1%
 * Workfront使用分配给任务和问题的用户记录的实际时间填充实际小时数。 这包括项目的登录时间。
 * 在“用户”视图中，您可以执行以下操作：
 
-   * 展开每个用户以显示分配该用户的项目列表。
+  * 展开每个用户以显示分配该用户的项目列表。
 
-     >[!NOTE]
-     >
-     >只能展开与筛选器中包含的项目关联的用户。
+    >[!NOTE]
+    >
+    >只能展开与筛选器中包含的项目关联的用户。
 
-   * 展开每个项目以显示用户可以在这些项目中完成的工作角色列表。
-   * 展开每个角色以显示该角色中的用户所分配到的任务的列表。
+  * 展开每个项目以显示用户可以在这些项目中完成的工作角色列表。
+  * 展开每个角色以显示该角色中的用户所分配到的任务的列表。
 
   如果用户没有与其关联的工作角色，则其可用小时数、计划小时数和实际小时数或FTE将在&#x200B;**无角色**&#x200B;部分中列出。\
   有关将用户视图应用于资源规划者时显示的字段和项的信息，请参阅[资源规划者导航概述](../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“项目/角色/用户视图选择”部分。
@@ -152,17 +158,17 @@ ht-degree: 1%
 
 * 计算每个资源的计划小时数时，包括以下任务类别：
 
-   * 分配给资源池、工作角色或项目团队中用户的任务。
+  * 分配给资源池、工作角色或项目团队中用户的任务。
 
-     >[!TIP]
-     >
-     >如果将任务分配给团队，则其分配将显示在&#x200B;**无角色**&#x200B;和&#x200B;**无用户**&#x200B;分区下。 您可以看到与团队关联的计划小时数，但无法预算小时数，因为没有任何角色或用户与任务关联。
+    >[!TIP]
+    >
+    >如果将任务分配给团队，则其分配将显示在&#x200B;**无角色**&#x200B;和&#x200B;**无用户**&#x200B;分区下。 您可以看到与团队关联的计划小时数，但无法预算小时数，因为没有任何角色或用户与任务关联。
 
 * 资源规划者中的计划小时数不包括与以下项关联的计划小时数：
 
-   * 父任务
-   * 未分配任务
-   * 问题，当&#x200B;**包括来自问题的小时数**&#x200B;设置禁用时。
+  * 父任务
+  * 未分配任务
+  * 问题，当&#x200B;**包括来自问题的小时数**&#x200B;设置禁用时。
 
 * 如果任务或问题持续时间为零，则计划小时数未显示在资源规划者中。
 * 未显示与已停用用户关联的计划小时数。

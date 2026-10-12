@@ -8,25 +8,29 @@ feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+TQID: 'https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2839
+source-wordcount: '2870'
 ht-degree: 0%
-
 ---
-
 # 管理工作负载均衡器中的用户分配
 
 <!-- Audited: 01/2024 -->
@@ -88,7 +92,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->工作负载均衡器仅显示项目持续时间的<!--up to 1000 Planned Hours per work item per user, and-->天到1000天。达到1000天的限制后，工作负载均衡器中的分配显示为零。我们建议将持续时间超过1000天的任务划分到较小的子任务中。
+>工作负载均衡器仅显示项目持续时间的<!--up to 1000 Planned Hours per work item per user, and-->天到1000天。 达到1000天的限制后，工作负载均衡器中的分配显示为零。 我们建议将持续时间超过1000天的任务划分到较小的子任务中。
 <!--to accommodate a larger number of Planned Hours or-->
 
 在工作负载均衡器中找到任务或问题的每日、每周或每月分配时，请考虑以下事项：
@@ -105,7 +109,7 @@ ht-degree: 0%
 
   >[!INFO]
   >
-  > 例如，任务可能具有2天的工期和2个计划小时，其计划开始时间为工期第一天晚上12:00，项目计划于下午5点结束。 用户第一天的容量为5小时。 用户第二天的产能为8小时（如果计划从上午9点开始）。
+  > 例如，任务的工期为2天，计划时间为2小时，任务的计划开始时间为工期第一天中午12:00，项目计划于下午5点结束。 用户第一天的容量为5小时。 用户第二天的产能为8小时（如果计划从上午9点开始）。
   >
   >Workfront使用以下公式计算工期2天内2小时的分配情况：
   >
@@ -127,15 +131,15 @@ ht-degree: 0%
   >
   >如果在将用户分配给工作项后标记了空闲时间，则必须重新计算项目的时间表以显示移动的分配。 有关信息，请参阅[重新计算项目时间表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
-   * 当多个用户被分配到任务并且主要被分配人已计划休息时间时，时间线会移动（如果日期不固定）并且所有被分配人的已计划小时数会在任务的新持续时间中重新分配。 如果任务有固定日期，则时间线不会因休息而更改，并且小时数会在剩余天数之间重新分配。
-   * 如果手动进行分配，则在休息时间后不会重新分配计划小时数。
+  * 当多个用户被分配到任务并且主要被分配人已计划休息时间时，时间线会移动（如果日期不固定）并且所有被分配人的已计划小时数会在任务的新持续时间中重新分配。 如果任务有固定日期，则时间线不会因休息而更改，并且小时数会在剩余天数之间重新分配。
+  * 如果手动进行分配，则在休息时间后不会重新分配计划小时数。
 
 * 如果有多个用户分配到任务，则计划小时数首先平均分配给每个用户，然后平均分配给任务持续时间内的每一天。 此分配成为每个用户向任务的分配。
 
   例如，可能存在以下场景：
 
-   * 对于工期为2天且分配给一个用户的10个已计划小时数的任务，默认情况下，该用户的每日分配为每天5小时。
-   * 对于工期2天且分配给两个用户10个已计划小时数的任务，默认情况下，每个用户的每日分配为2.5小时。
+  * 对于工期为2天且分配给一个用户的10个已计划小时数的任务，默认情况下，该用户的每日分配为每天5小时。
+  * 对于工期2天且分配给两个用户10个已计划小时数的任务，默认情况下，每个用户的每日分配为2.5小时。
 
 * 如果任务或问题在计划完成日期之前完成，剩余天数的分配小时数将被清除，并且不计入用户的整体分配。 仅当同时启用显示分配图标和显示预计日期设置时，才会显示此字段。 有关在工作负载均衡器中启用设置的详细信息，请参阅[在工作负载均衡器中导航](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
@@ -285,8 +289,8 @@ ht-degree: 0%
 
 * 您具有从工作负载均衡器管理已计划小时数的正确权限和访问权限。 这些功能包括：
 
-   * 管理任务的权限。
-   * 在访问级别的资源管理区域的工作负载均衡器访问中更新已计划的小时数。
+  * 管理任务的权限。
+  * 在访问级别的资源管理区域的工作负载均衡器访问中更新已计划的小时数。
 
   有关使用工作负载均衡器所需访问权限的更多信息，请参阅本文中的[访问要求](#access-requirements)部分。
 

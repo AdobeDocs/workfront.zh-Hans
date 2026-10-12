@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 0%
 ---
 # 2026年第四季度管理员增强功能
@@ -23,6 +23,22 @@ ht-degree: 0%
 本页介绍了管理员在2026年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 查看用户的雇用历史记录
+
+>[!NOTE]
+>
+>预览：2026年10月1日
+>生产快速发布： 2026年10月14日
+>适用于所有人的生产： 2026年10月15日
+
+为了帮助您跟踪用户的工作角色、代理、成本中心和记帐费率随时间的变化，我们添加了雇用历史记录。
+
+雇用历史记录按时间顺序显示一个或多个用户的这些详细信息的视图。 每行表示一组特定的值和应用这些值的日期范围。
+
+您可以查看多个用户的雇用历史记录，或查看单个用户的完整历史记录。 从任一视图中，都可以筛选结果、自定义显示哪些列以及将数据导出为CSV或XLSX文件。
+
+有关详细信息，请参阅[查看用户雇用历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)。
 
 ## 使用AI生成自定义本地化
 

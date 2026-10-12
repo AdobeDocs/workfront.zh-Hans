@@ -6,27 +6,33 @@ description: 通过使用过滤器，您可以从存储在系统中的所有信�
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+TQID: 'https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2369
+source-wordcount: '2381'
 ht-degree: 1%
-
 ---
-
 # 资源规划者中的筛选信息
 
 <!--
@@ -84,9 +90,9 @@ ht-degree: 1%
 * 应用过滤器不会更改项目、角色或用户的资源规划者中的分配和可用性数据。 过滤器仅更改您在资源规划程序中看到的对象数。
 * 筛选条件适用于同时显示在资源规划程序中的所有对象。 例如，如果您筛选特定用户，则资源规划者仅显示以下结果：
 
-   * 如果项目中的用户是资源池的一部分（对于项目和角色视图），或者在项目中有任务分配（对于用户视图）
-   * 与这些项目中的用户关联的角色\
-     与用户关联的项目中的其他角色或用户不会显示。
+  * 如果项目中的用户是资源池的一部分（对于项目和角色视图），或者在项目中有任务分配（对于用户视图）
+  * 与这些项目中的用户关联的角色\
+    与用户关联的项目中的其他角色或用户不会显示。
 
 ## 资源规划者中的默认筛选器概览 {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -96,9 +102,9 @@ ht-degree: 1%
 
 * 默认筛选条件仅从具有以下内容的项目中检索信息：
 
-   * 在当前月份的第一天之后发生的计划完成日期
-   * 计划开始日期早于当前日期后第四个月的最后一天
-   * 当前或计划状态
+  * 在当前月份的第一天之后发生的计划完成日期
+  * 计划开始日期早于当前日期后第四个月的最后一天
+  * 当前或计划状态
 
   >[!IMPORTANT]
   >

@@ -6,26 +6,31 @@ description: Adobe Workfront可以为资源规划者的用户视图生成唯一�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 3%
-
 ---
-
 # 使用链接共享资源规划者用户视图
 
 Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您可将该URL作为外部页面嵌入到仪表板中，或者在新的浏览器选项卡中单独打开它。 在将资源规划者信息与可能无权直接访问资源区域的用户共享时，这非常有用。
@@ -72,9 +77,9 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
   他们必须有权查看其他用户，以便通过您与他们共享的URL在资源规划者中查看信息。
 * 当您与其他用户共享URL时，会保存以下信息：
 
-   * 时间段的类型（周、月、季度）。
-   * 您应用的过滤器。
-   * 显示的类型（小时或FTE）。
+  * 时间段的类型（周、月、季度）。
+  * 您应用的过滤器。
+  * 显示的类型（小时或FTE）。
 
 要在资源规划者的用户视图中获取唯一URL并与其他用户共享，请执行以下操作：
 
@@ -112,11 +117,11 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
      </MadCap:conditionalText>   
      -->
 
-      1. 转到&#x200B;**报告**>**仪表板**>**新仪表板**>**添加外部页面。**
+     1. 转到&#x200B;**报告**>**仪表板**>**新仪表板**>**添加外部页面。**
 
-      1. 将您复制到剪贴板的链接粘贴到&#x200B;**URL**&#x200B;字段中。
-      1. 单击&#x200B;**保存**，然后单击&#x200B;**保存+关闭**。\
-         这会将URL嵌入到仪表板中，并且资源规划者的用户视图显示在单独的仪表板中。
+     1. 将您复制到剪贴板的链接粘贴到&#x200B;**URL**&#x200B;字段中。
+     1. 单击&#x200B;**保存**，然后单击&#x200B;**保存+关闭**。\
+        这会将URL嵌入到仪表板中，并且资源规划者的用户视图显示在单独的仪表板中。
 
 1. （可选）如果将URL嵌入到仪表板中，请考虑将其添加到布局模板或与其他可能无权访问资源管理区域的用户共享。\
    有关将功能板添加到布局模板的信息，请参阅[创建和管理布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) 。\
