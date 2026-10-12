@@ -6,7 +6,7 @@ description: 您可以使用Adobe Workfront工作负载均衡器批量将资源�
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
+TQID: 'https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -14,7 +14,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer
@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 您可以使用Adobe Workfront工作负载均衡器批量将资源分配给多个任务和问题。
 
-有关使用工作负载均衡器将工作分配给用户和工作代理的一般信息，请参阅在工作负载均衡器中分配工作的概述[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
+有关使用工作负载均衡器将工作分配给用户和工作代理的一般信息，请参阅在工作负载均衡器中分配工作的概述[](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 访问权限要求
 
@@ -238,7 +238,7 @@ To assign a user to work items previously assigned to job roles:
 * 如果未分配的用户与工作角色相关联，则移除用户后，工作角色仍会分配给工作项。
 * 如果将指定的用户分配给已完成的工作项，则该用户仍会分配给这些工作项。
 
-有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
+有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
 
 要从选定项目中的工作项取消分配用户，或为其分配的选定任务或问题取消分配用户，请执行以下操作：
 

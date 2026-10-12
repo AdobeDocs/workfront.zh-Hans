@@ -6,29 +6,37 @@ description: 您可以使用项目模板捕获与组织中项目关联的大多�
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 2%
-
+source-wordcount: '702'
+ht-degree: 3%
 ---
-
 # 项目模板概述
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ ht-degree: 2%
 * 在报告项目时，此插件非常有用。 例如，您可以报告共享同一模板的项目，比较其进度并发现改进完成方式的方法。
 * 除了定义未来的项目设置外，您还可以为模板上的未来项目添加以下信息：
 
-   * 任务
-   * 文档
-   * 审批
-   * 队列详细信息
-   * 队列主题
-   * 主题组
-   * 路由规则
-   * 自定义表单
-   * 公司和组信息
+  * 任务
+  * 文档
+  * 审批
+  * 队列详细信息
+  * 队列主题
+  * 主题组
+  * 路由规则
+  * 自定义表单
+  * 公司和组信息
 
 ## 创建模板的最佳实践
 
@@ -71,8 +79,8 @@ ht-degree: 2%
 
   有关持续时间的信息，请参阅以下文章：
 
-   * [任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [项目持续时间概述](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [项目持续时间概述](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   有关计划小时数的信息，请参阅[计划小时数概述](../../../manage-work/tasks/task-information/planned-hours.md)。
 
@@ -89,8 +97,8 @@ ht-degree: 2%
 
 * 决定您要将哪个文档存储用于未来的项目。 某些组织可以访问以下文档存储类型：
 
-   * 旧版Workfront存储
-   * Adobe 云存储
+  * 旧版 Workfront 存储
+  * Adobe 云存储
 
   添加文档会因您选择的存储类型而异。 您为模板选择的存储类型将影响未来项目将继承的存储类型。
 
@@ -98,8 +106,8 @@ ht-degree: 2%
 
   有关更多信息，另请参阅：
 
-   * [创建项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [创建项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## 创建模板的方法
 

@@ -6,26 +6,31 @@ description: 您可以在资源规划者中查看资源的可用性以及项目�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+TQID: 'https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1200
+source-wordcount: '1200'
 ht-degree: 6%
-
 ---
-
 # 使用Adobe Workfront资源规划者审查资源可用性和分配
 
 您可以在资源规划者中查看资源的可用性以及项目的计划或预算工作量。 这些值以小时数、FTE（相当于全职）或成本金额显示，并按列组织。
@@ -92,18 +97,18 @@ ht-degree: 6%
 
 
 
-   * 可用小时数、FTE或成本
-   * 计划小时数、FTE或成本
-   * 预算小时数、FTE或成本
-   * 小时、FTE或成本差异
-   * 净小时数、FTE或成本
+  * 可用小时数、FTE或成本
+  * 计划小时数、FTE或成本
+  * 预算小时数、FTE或成本
+  * 小时、FTE或成本差异
+  * 净小时数、FTE或成本
 
 * 当您应用&#x200B;**按用户查看**&#x200B;视图时，您可以看到以下列：
 
-   * 可用小时数或FTE
-   * 计划小时数或FTE
-   * 小时或FTE差异
-   * 计划小时数分配百分比
+  * 可用小时数或FTE
+  * 计划小时数或FTE
+  * 小时或FTE差异
+  * 计划小时数分配百分比
 
 >[!TIP]
 >

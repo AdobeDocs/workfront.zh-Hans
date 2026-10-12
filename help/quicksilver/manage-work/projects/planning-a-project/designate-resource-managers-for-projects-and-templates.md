@@ -8,27 +8,33 @@ feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI
+TQID: 'https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: '732'
 ht-degree: 2%
-
 ---
-
 # 为项目或模板指定资源经理
 
 <!--
@@ -151,10 +157,10 @@ Old:
 * 可以为项目或项目模板指定资源管理器。 在项目模板上指定资源管理器时，在该模板上指定为资源管理器的任何用户都会自动成为使用该模板创建的任何项目的资源管理器。
 * 您可以在以下区域查看Resource Manager字段：
 
-   * 在编辑项目时，如本文所述。
-   * 在编辑模板时，如本文所述。
-   * 构建项目或模板报表时。 有关生成报表的信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
-   * 创建或自定义列表的项目或模板视图时。 有关详细信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+  * 在编辑项目时，如本文所述。
+  * 在编辑模板时，如本文所述。
+  * 构建项目或模板报表时。 有关生成报表的信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+  * 创建或自定义列表的项目或模板视图时。 有关详细信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 * 通过将资源管理器字段添加到列表或项目的视图中，并使用内联编辑编辑编辑此字段，可以快速在多个项目或模板中添加或删除资源管理器。
 
@@ -191,7 +197,7 @@ Old:
 
      不会从正在编辑的模板中删除现有资源管理器；通过这种方式添加的任何用户都将作为现有资源管理器之外的模板上的资源管理器。
 
-   * 要将资源管理器添加到新模板，请单击“新建模板”**&#x200B;**，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
+   * 要将资源管理器添加到新模板，请单击“新建模板”****，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
 
 1. 在&#x200B;**概述**&#x200B;部分中，单击&#x200B;**资源管理器**&#x200B;字段。
 1. 开始键入要作为模板的资源管理器添加的用户名，然后在名称出现在列表中时单击该名称。

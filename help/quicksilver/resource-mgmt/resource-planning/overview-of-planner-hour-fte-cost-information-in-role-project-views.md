@@ -7,27 +7,33 @@ description: 资源规划者的“项目”和“角色”视图中的小时数�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 0%
-
 ---
-
 # 资源规划者的“项目”和“角色”视图中的小时数、FTE和成本信息概览
 
 <!--
@@ -67,11 +73,11 @@ ht-degree: 0%
 
 * 在资源规划程序中为资源分配预算可通过以下方式完成：
 
-   * 手动
+  * 手动
 
-     或
+    或
 
-   * 通过使用&#x200B;**按项目查看**&#x200B;和&#x200B;**按角色查看**&#x200B;视图中的项目和角色选项，自动进行查看。
+  * 通过使用&#x200B;**按项目查看**&#x200B;和&#x200B;**按角色查看**&#x200B;视图中的项目和角色选项，自动进行查看。
 
   有关详细信息，请参阅使用项目和角色视图的资源规划者中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
@@ -190,16 +196,16 @@ ht-degree: 0%
   周末日、计划例外和休息日将从此分配中排除。
 * 计算每个资源的计划小时数时，包括以下任务类别：
 
-   * 分配给资源池、职位角色或项目团队中的用户的任务\
-     如果将任务分配给团队，则其分配将显示在&#x200B;**无角色**&#x200B;和&#x200B;**无用户**&#x200B;分区下。 您可以看到与团队关联的计划小时数，但无法预算小时数，因为没有任何角色或用户与任务关联。
+  * 分配给资源池、职位角色或项目团队中的用户的任务\
+    如果将任务分配给团队，则其分配将显示在&#x200B;**无角色**&#x200B;和&#x200B;**无用户**&#x200B;分区下。 您可以看到与团队关联的计划小时数，但无法预算小时数，因为没有任何角色或用户与任务关联。
 
-   * 未分配任务
+  * 未分配任务
 
 * 资源规划者中的计划小时数不包括与以下项关联的计划小时数：
 
-   * 父任务
-   * 分配给无资源池用户的任务
-   * 问题，当&#x200B;**包括来自问题的小时数**&#x200B;设置禁用时。
+  * 父任务
+  * 分配给无资源池用户的任务
+  * 问题，当&#x200B;**包括来自问题的小时数**&#x200B;设置禁用时。
 
 * 如果任务持续时间为零，则计划小时数不会显示在资源规划者中。
 * 未显示与已停用用户关联的计划小时数。
@@ -237,7 +243,7 @@ ht-degree: 0%
 
 * 默认情况下，对于所有资源和所有项目，资源规划者中的预算小时数为零。
 * 您可以手动估算用户和角色的预算小时数，也可以使用项目或工作角色&#x200B;**更多**&#x200B;菜单中的链接之一来根据计划小时数更新它们。\
-  有关项目和角色选项的更多信息，请参阅本文中资源规划者[&#128279;](#Budget)的项目和角色视图中的小时概述、FTE和成本信息。
+  有关项目和角色选项的更多信息，请参阅本文中资源规划者](#Budget)的项目和角色视图中的[小时概述、FTE和成本信息。
 
 * 您可以为预算小时、FTE或成本的最小时间段是一周。 您不能为一天预算小时数、FTE或成本。
 * 预算小时数平均分配给分配给分配给任务的每个资源的任务持续时间内的每一天。 任务持续时间基于任务计划开始日期和完成日期，包括该时间段内的每个日历日。

@@ -8,26 +8,31 @@ feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8bwTS-3UaNbMLtyx8yEmH7zF5vMYaWP1nedWaGP4UJE
+TQID: 'https://experienceleague.adobe.com/8bwTS-3UaNbMLtyx8yEmH7zF5vMYaWP1nedWaGP4UJE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 4457
+source-wordcount: '4457'
 ht-degree: 0%
-
 ---
-
 # 导航工作负载均衡器
 
 <!--Audited: 12/2024-->
@@ -36,7 +41,7 @@ ht-degree: 0%
 
 工作负载均衡器在Adobe Workfront的多个区域中可用。 在所有区域导航都类似。
 
-有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 访问权限要求
 
@@ -118,8 +123,8 @@ ht-degree: 0%
 
 有关使用工作负载均衡器管理资源的信息，另请参阅以下文章：
 
-* [在工作负载均衡器中分配工作概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [管理工作负载均衡器中的用户分配](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [在工作负载均衡器中分配工作概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [管理工作负载均衡器中的用户分配](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## 在资源区域为多个项目导航工作负载均衡器
 
@@ -148,7 +153,7 @@ ht-degree: 0%
      * 应用过滤器后，会显示分配给角色、团队或未分配的工作项（任务和问题）。
        默认情况下，“未分配工作”区域不显示任何工作项。 我们建议使用过滤器来显示本区域为您提供的相关信息。
 
-       有关使用过滤器的信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+       有关使用过滤器的信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
      * 仅在启用“显示角色分配”设置时，才会显示工作项下的角色分配。 有关信息，请参阅本文中的[自定义视图](#customize-the-view)部分。
 
@@ -225,7 +230,7 @@ ht-degree: 0%
 
 1. （可选且推荐）使用“未分配”和“已分配的工作”区域中的筛选器以仅显示与您相关的工作项或用户。
 
-   有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+   有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
    默认情况下，蓝色条表示项目和任务的时间线，栗色条表示问题。
 
@@ -439,7 +444,7 @@ ht-degree: 0%
    * 在&#x200B;**未分配的工作**&#x200B;区域：分配给团队或团队和工作角色且未分配给用户的工作项。 启用“显示角色分配”设置后，角色分配会显示在“未分配工作”区域的工作项下。
    * 在&#x200B;**已分配工作**&#x200B;区域：分配给用户的工作项显示在用户名下。
 
-1. 继续导航团队的工作负载均衡器，如本文的资源区域[&#128279;](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中的导航多个项目的工作负载均衡器中所述。
+1. 继续导航团队的工作负载均衡器，如本文的资源区域](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中的[导航多个项目的工作负载均衡器中所述。
 
 ## 在单个项目的工作负载均衡器中导航
 
@@ -457,7 +462,7 @@ ht-degree: 0%
 
    我们建议使用过滤器来仅显示对您重要的用户。
 
-   例如，您可以考虑仅显示属于您的团队或组的用户。 有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+   例如，您可以考虑仅显示属于您的团队或组的用户。 有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
 1. （可选）在分配的工作区域中单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)，然后从筛选器面板的&#x200B;**建议**&#x200B;区域中选择&#x200B;**此项目的工作项**&#x200B;选项。 默认情况下，此筛选器处于取消选中状态。
 

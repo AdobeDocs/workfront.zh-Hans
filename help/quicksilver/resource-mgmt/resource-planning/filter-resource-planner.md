@@ -6,27 +6,33 @@ description: 通过使用过滤器，您可以从存储在系统中的所有信�
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+TQID: 'https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2369
+source-wordcount: '2381'
 ht-degree: 1%
-
 ---
-
 # 资源规划者中的筛选信息
 
 <!--
@@ -70,7 +76,7 @@ ht-degree: 1%
 
 ## 资源规划者筛选器概览
 
-为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述部分。
+为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述[部分。
 
 您还可以构建自定义的过滤器。 有关在资源规划者中自定义筛选器的信息，请参阅本文中的[创建资源规划者筛选器](#create-resource-planner-filters)部分。
 
@@ -84,9 +90,9 @@ ht-degree: 1%
 * 应用过滤器不会更改项目、角色或用户的资源规划者中的分配和可用性数据。 过滤器仅更改您在资源规划程序中看到的对象数。
 * 筛选条件适用于同时显示在资源规划程序中的所有对象。 例如，如果您筛选特定用户，则资源规划者仅显示以下结果：
 
-   * 如果项目中的用户是资源池的一部分（对于项目和角色视图），或者在项目中有任务分配（对于用户视图）
-   * 与这些项目中的用户关联的角色\
-     与用户关联的项目中的其他角色或用户不会显示。
+  * 如果项目中的用户是资源池的一部分（对于项目和角色视图），或者在项目中有任务分配（对于用户视图）
+  * 与这些项目中的用户关联的角色\
+    与用户关联的项目中的其他角色或用户不会显示。
 
 ## 资源规划者中的默认筛选器概览 {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -96,9 +102,9 @@ ht-degree: 1%
 
 * 默认筛选条件仅从具有以下内容的项目中检索信息：
 
-   * 在当前月份的第一天之后发生的计划完成日期
-   * 计划开始日期早于当前日期后第四个月的最后一天
-   * 当前或计划状态
+  * 在当前月份的第一天之后发生的计划完成日期
+  * 计划开始日期早于当前日期后第四个月的最后一天
+  * 当前或计划状态
 
   >[!IMPORTANT]
   >
@@ -135,10 +141,10 @@ ht-degree: 1%
 
 默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者</a>中的默认筛选器的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">概述部分。
 
-1. 在的左上角，单击&#x200B;**筛选器**&#x200B;图标。
+1. 在的左上角，单击&#x200B;**筛选器**图标。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展开&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
+展开**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
    ![筛选器下拉列表](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 要使用内置标准构建过滤器，请指定以下任意字段：
@@ -279,7 +285,7 @@ ht-degree: 1%
 
 您可以删除不再需要的过滤器。 您不能删除默认筛选器。
 
-有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
 
 删除过滤器时，将删除所有有权访问资源规划者的Workfront用户的过滤器。 在删除过滤器之前，请确保您要删除的过滤器不再由在资源规划者中工作的任何其他人员使用。 无法恢复已删除的筛选器。
 
@@ -304,7 +310,7 @@ ht-degree: 1%
 >
 >所有用户（包括Workfront管理员）都只能访问已构建或已与其共享的过滤器。 您可以与特定用户共享过滤器，以使过滤器可用于所有资源规划者用户。
 
-有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
 
 有关复制筛选器的信息，请参阅本文中的[复制筛选器](#duplicate-a-filter)部分。
 

@@ -7,25 +7,29 @@ description: 通过使用Adobe Workfront资源规划者，您可以轻松了解�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
+source-wordcount: '2442'
 ht-degree: 2%
-
 ---
-
 # 资源规划程序导航概述
 
 <!-- Audited: 5/2025 -->
@@ -115,7 +119,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 您可以查看自己有权查看的项目。
 * 在首次访问资源规划者时，您可以看到按默认筛选条件筛选的项目。\
-  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
+  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
 
 * 为了提高性能，您显示或可从“项目视图”中导出的项数会受到限制。\
   有关详细信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中“项目视图”部分的限制。
@@ -131,13 +135,13 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 您可以在“项目”视图中查看以下小时、FTE或成本信息：
 
-   * 可用
-   * 计划
-   * 已预算
-   * 变量
-   * 净值
+  * 可用
+  * 计划
+  * 已预算
+  * 变量
+  * 净值
 
-     有关详细信息，请参阅使用项目和角色视图的资源规划者中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
+    有关详细信息，请参阅使用项目和角色视图的资源规划者中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 ### 按角色查看 {#view-by-role}
 
@@ -152,13 +156,13 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 * 应用此视图后，项目小时数、FTE或成本将合计到角色小时数、FTE或成本。
 * 您可以在“角色”视图中查看以下小时、FTE或成本信息：
 
-   * 可用
-   * 计划
-   * 已预算
-   * 变量
-   * 净值
+  * 可用
+  * 计划
+  * 已预算
+  * 变量
+  * 净值
 
-     有关详细信息，请参阅使用项目和角色视图的资源规划者中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
+    有关详细信息，请参阅使用项目和角色视图的资源规划者中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 ### 按用户查看 {#view-by-user}
 
@@ -172,7 +176,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 您可以看到您有权查看的所有用户，最多有2,000个处于活动状态且至少已登录Adobe Workfront一次的用户。 按团队、工作角色或池筛选用户列表，以查看仅与这些实体关联的用户。
 * 如果已按项目筛选用户列表，则只有与已筛选项目关联的用户才能展开并显示小时信息。\
-  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
+  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
 
 * 为了提高性能，您显示或可从“用户视图”中导出的项目数会受到限制。\
   有关详细信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中“用户视图”部分的限制。
@@ -191,23 +195,23 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
   存在以下情况：
 
-   * 如果您无权查看项目以及分配给资源规划者中显示的用户的任务或问题，则这些项目列在无法访问的项目部分下。 在这种情况下，这些部分将替换“项目”或“任务”部分。
+  * 如果您无权查看项目以及分配给资源规划者中显示的用户的任务或问题，则这些项目列在无法访问的项目部分下。 在这种情况下，这些部分将替换“项目”或“任务”部分。
 
-   * 如果您无权查看项目，但有权查看项目的任务或问题，则项目、任务和问题将列在分配给它们的用户的名称下。
-   * 如果您有权查看项目，但没有查看项目中的任何任务或问题，则会显示项目名称，并且任务和问题列在“无法访问的项目”部分下。
+  * 如果您无权查看项目，但有权查看项目的任务或问题，则项目、任务和问题将列在分配给它们的用户的名称下。
+  * 如果您有权查看项目，但没有查看项目中的任何任务或问题，则会显示项目名称，并且任务和问题列在“无法访问的项目”部分下。
 
-     有关详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+    有关详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 
 * 您可以在“用户”视图中查看以下小时和FTE信息：
 
-   * 可用
-   * 计划
-   * 实际
-   * 计划与实际之间的差异
-   * 计划分配的百分比
+  * 可用
+  * 计划
+  * 实际
+  * 计划与实际之间的差异
+  * 计划分配的百分比
 
-     有关详细信息，在使用用户视图时，请参阅资源规划者中的[查看可用、计划和实际小时数或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+    有关详细信息，在使用用户视图时，请参阅资源规划者中的[查看可用、计划和实际小时数或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ## 项目名称
 
@@ -219,7 +223,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 受应用于资源规划者的过滤器限制的项目。
 
-  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
+  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
 
   >[!NOTE]
   >
@@ -259,9 +263,9 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 * 他们的主要工作角色
 * 他们的辅助工作角色，在以下场景中：
 
-   * 辅助工作角色在其用户配置文件中具有FTE可用性百分比的有效数字。
-   * 如果用户被分配到这些角色中的任务。
-有关工作角色FTE可用性百分比的更多信息，请参阅[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
+  * 辅助工作角色在其用户配置文件中具有FTE可用性百分比的有效数字。
+  * 如果用户被分配到这些角色中的任务。
+    有关工作角色FTE可用性百分比的更多信息，请参阅[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
 
 ## 无角色和用户部分
 
@@ -300,12 +304,12 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
   启用此设置时，请考虑以下事项：
 
-   * 分配给问题的用户名称显示在问题中与其关联的工作角色下。 您可以在“项目”和“角色”视图中指定用户的预算小时数以及工作角色。
-   * 在“用户”视图中，用户所分配到的问题列在工作角色的名称下。
+  * 分配给问题的用户名称显示在问题中与其关联的工作角色下。 您可以在“项目”和“角色”视图中指定用户的预算小时数以及工作角色。
+  * 在“用户”视图中，用户所分配到的问题列在工作角色的名称下。
 
-     >[!IMPORTANT]
-     >
-     >当问题的计划开始日期和完成日期在项目的时间表之外时，问题的计划小时数根据问题的日期显示。 例如，如果项目时间线在一月到三月之间，但问题的时间线是在八月，则问题的计划小时数将显示在八月时间段。
+    >[!IMPORTANT]
+    >
+    >当问题的计划开始日期和完成日期在项目的时间表之外时，问题的计划小时数根据问题的日期显示。 例如，如果项目时间线在一月到三月之间，但问题的时间线是在八月，则问题的计划小时数将显示在八月时间段。
 
 
 * **显示Portfolio优先级**：根据项目所分配的Portfolio显示项目优先级。
