@@ -119,7 +119,7 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 
 >[!NOTE]
 >
->用户总可用时间通过本文资源规划者](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)部分中的[计算用户的可用小时数和FTE中所述的两种方法之一来计算。
+>用户总可用时间通过本文资源规划者[&#128279;](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)部分中的计算用户的可用小时数和FTE中所述的两种方法之一来计算。
 
 在角色视图中查看资源规划者时，一个工作角色的可用性是能够履行该工作角色的所有用户可用性的总和。
 
@@ -158,10 +158,10 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择以�
 * 预算小时
 * 小时差异
 * 净小时\
-  有关信息，请参阅资源规划者](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
+  有关信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
 
 * 小时差异\
-  有关信息，请参阅资源规划者](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
+  有关信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
 
 您可以在资源规划者中显示与FTE或小时相同的信息。
 

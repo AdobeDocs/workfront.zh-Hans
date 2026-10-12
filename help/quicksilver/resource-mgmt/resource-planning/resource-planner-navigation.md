@@ -119,7 +119,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 您可以查看自己有权查看的项目。
 * 在首次访问资源规划者时，您可以看到按默认筛选条件筛选的项目。\
-  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
+  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
 
 * 为了提高性能，您显示或可从“项目视图”中导出的项数会受到限制。\
   有关详细信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中“项目视图”部分的限制。
@@ -176,7 +176,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 您可以看到您有权查看的所有用户，最多有2,000个处于活动状态且至少已登录Adobe Workfront一次的用户。 按团队、工作角色或池筛选用户列表，以查看仅与这些实体关联的用户。
 * 如果已按项目筛选用户列表，则只有与已筛选项目关联的用户才能展开并显示小时信息。\
-  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
+  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
 
 * 为了提高性能，您显示或可从“用户视图”中导出的项目数会受到限制。\
   有关详细信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中“用户视图”部分的限制。
@@ -223,7 +223,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 受应用于资源规划者的过滤器限制的项目。
 
-  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
+  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
 
   >[!NOTE]
   >
