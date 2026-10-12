@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '376'
 ht-degree: 5%
 ---
 # 使用布局模板自定义更多菜单
@@ -75,5 +75,9 @@ ht-degree: 5%
    * 单击&#x200B;**显示** ![显示图标](assets/add-secondary-nav-item.png)或&#x200B;**隐藏** ![隐藏图标](assets/delete-secondary-nav-item.png)以在左侧面板中显示或隐藏部分。 无法隐藏没有&#x200B;**显示**&#x200B;或&#x200B;**隐藏**&#x200B;图标的项目。
 
    * 拖动项目![移动图标](assets/move-icon---dots.png)以更改它们在左侧面板上的顺序。
+
+   >[!NOTE]
+   >
+   >如果您在项目、任务或问题的“更多”菜单中隐藏&#x200B;**共享**&#x200B;选项，则“共享”按钮在对象标题中处于隐藏状态。
 
 1. 单击&#x200B;**完成**。
