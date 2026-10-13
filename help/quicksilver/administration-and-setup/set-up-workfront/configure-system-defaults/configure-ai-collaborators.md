@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 1%
+source-wordcount: '1347'
+ht-degree: 2%
 ---
 # 配置AI协作者
 
@@ -36,7 +36,7 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
 
   有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* 工作代理：使用标准AI平台（如Claude、OpenAI、Copilot或Writer）创建协作者，然后将协作者分配给任务或问题以完成工作项目。
+* 工作代理：使用标准AI平台（如Claude、OpenAI或Copilot）创建协作者，然后将协作者分配给任务或问题以完成工作项目。
 
   有关详细信息，请参阅[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
 
@@ -61,11 +61,11 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员] <span class="preview">或组管理员</span></td> 
+   <td>[！UICONTROL系统管理员] <span class="preview">或组管理员</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -93,7 +93,7 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
 
 ### 对于工作代理
 
-您必须先在Claude、Copilot Studio、Writer、OpenAI或IBM中配置代理，然后才能将其用作工作代理。
+必须先在Claude、Copilot Studio、OpenAI或IBM中配置代理，然后才能将其用作工作代理。
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 工作代理是可以分配给Workfront中的任务或问题的代理。 使用名称、访问级别和其他详细信息配置工作代理，并将其分配给任务，就像分配用户一样。
 
-由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 目前，用作工作代理的代理可以在Copilot Studio、Claude或Writer、OpenAI和IBM中创建。
+由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 目前，可以在Copilot Studio、Claude、OpenAI和IBM中创建用作工作代理的代理。
 
 可以将工作座席分配给任务或问题。
 
@@ -146,14 +146,13 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
    >
    ><span class="preview">如果您是组管理员，则此字段仅显示您是管理员的组。 组管理员必须至少选择一个组。</span>
 
-1. 在&#x200B;**选择代理的来源**&#x200B;区域，选择您要连接在公共平台（如Copilot或Writer）中创建的代理，还是使用自定义代理。
+1. 在&#x200B;**选择代理的来源**&#x200B;区域，选择是要连接在公共平台（如Copilot）中创建的代理，还是使用自定义代理。
 1. （视情况而定）如果您使用的是来自公共平台的代理，请输入代理平台的身份验证详细信息：
 
    | 平台 | 所需的身份验证 |
    |---|---|
    | Copilot Studio | 网页渠道密码 |
    | Claude 托管代理 | 合成API密钥<br>代理ID<br>环境ID |
-   | 编写器代理 | API密钥<br>应用程序ID |
    | <span class="preview">OpenAI代理</span> | <span class="preview">API密钥<br>代理ID</span> |
    | <span class="preview">IBM Watsonx Orchestrate</span> | <span class="preview">服务URL<br>API密钥<br>代理ID</span> |
 
@@ -173,7 +172,7 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 您可能会发现以下最佳实践有助于在Workfront中创建要用作工作代理的代理。 要查看最佳实践，请单击要在其中创建代理的应用程序部分。
 
-+++ 克劳德
++++ Claude
 
 1. 导航到[platform.claude.com](https://platform.claude.com/)上的Claude控制台。
 1. 创建API密钥。
@@ -209,25 +208,38 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 -->
 +++ 作者
 
+
+
+>[!IMPORTANT]
+>
+>Writer已弃用代理。 使用Writer代理配置的工作代理在10月9日之后不再工作。 2026.
+>
+>有关弃用的信息，请参阅Writer文档中的[代理库迁移和弃用](https://support.writer.com/articles/8335689949-migrating-no-code-agents)。
+
+
+<!--
+
 >[!NOTE]
 >
-> 您可以将Writer代理用作工作代理，但不能将Writer行动手册用作工作代理。
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-创建在Writer中用作工作代理的代理时，我们建议使用以下工作流程。
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
-有关创建代理的更多详细信息可在[Writer文档](https://dev.writer.com/no-code/introduction)中找到。
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
-1. 在Writer AI Studio中创建无代码应用程序。
-1. 添加单个文本输入字段。 您可以使用默认名称“文本输入”。
-1. 将`@TextInput`添加到您的提示中。 在应用程序配置的提示部分中，确保提示模板引用了输入变量。 如果没有此操作，模型将永远不会看到任务数据。
-1. 调整提示以立即生成输出。 删除在响应之前询问用户说明或其他上下文的任何说明。 例如：“收到输入时，将其视为内容生成请求并立即生成输出。 不要要求澄清。”
-1. 复制API密钥和应用程序ID。 您需要他们在Workfront中配置工作代理。
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
-   * 有关在Writer中设置API密钥的说明，请参阅Writer文档中的[快速入门](https://dev.writer.com/home/quickstart)。
-   * 有关在Writer中设置应用程序ID的说明，请参阅Writer文档中的[通过API调用无代码代理](https://dev.writer.com/home/applications)。
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
-1. 在Workfront中配置工作代理。 作为配置的一部分，输入API密钥和应用程序ID，然后单击&#x200B;**测试连接**&#x200B;以进行验证。
-1. 将工作代理分配给Workfront任务。 当任务的所有前置任务完成时，工作代理开始工作。
+-->
 
 +++
 
