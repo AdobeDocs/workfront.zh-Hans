@@ -21,10 +21,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8a1564e510b2e32b0e5dda8bf2d0e0c7547e63e2
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 3%
 ---
 # 为事件订阅配置客户端TLS
 
@@ -122,11 +122,21 @@ Listen 443
 
 ## 下载证书
 
-单击以下链接以下载客户端证书。
+下载包含当前Workfront事件订阅客户端证书的ZIP文件。 这些证书将于2027年4月25日到期。
 
-* [客户端证书 — 生产环境](assets/prod-ES-client-cert-oct25.crt)
-* [客户端证书 — 预览环境](assets/preview-ES-client-cert-oct25.crt)
-* [客户端证书 — 沙盒环境](assets/sandbox-ES-client-cert-oct25.crt)
+[下载客户端证书](assets/event-subscription-certificates-nov02.zip)
+
+| 环境 | 证书文件 |
+| -- | -- |
+| 生产 | event-subs-prod-cert-nov02.crt |
+| 预览 | event-subs-preview-cert-nov02.crt |
+| 沙盒 | event-subs-sandbox-cert-nov02.crt |
+
+<!--
+* [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
+* [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
+* [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >

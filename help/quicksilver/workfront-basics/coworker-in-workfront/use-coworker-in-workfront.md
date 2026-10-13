@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '610'
 ht-degree: 3%
 ---
 # 在Workfront中使用CX Enterprise Coworker
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 由于同事是更大的Adobe CX Enterprise生态系统的一部分，因此您可以使用同事处理其他Adobe产品中的信息和对象，无论是在Workfront的右边栏中，还是从Workfront跳转到Adobe同事界面。
 
-有关Workfront外部的同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/chat/overview)。
+有关Workfront外部的同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)。
 
 
 ## 访问权限要求

@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2104'
 ht-degree: 2%
 ---
 # 项目运行状况概述
 
 >[!IMPORTANT]
 >
->* 从2026年9月开始，AI Assistant将过渡到CX Enterprise Coworker，这是一个用于完成工作的对话界面。 有关同事的信息，请参阅[CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>* 从2026年9月开始，AI Assistant将过渡到CX Enterprise Coworker，这是一个用于完成工作的对话界面。 有关同事的信息，请参阅[Workfront中的CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 >* 项目运行状况功能目前仅适用于参与Beta阶段的用户。
 
 Adobe Workfront的项目运行状况功能利用AI Assistant的强大功能即时为您提供对项目执行情况、哪些领域需要您关注以及如何避免可能会耗费您时间和资金的问题评估。
