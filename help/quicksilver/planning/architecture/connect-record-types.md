@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3238'
 ht-degree: 1%
 ---
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
@@ -125,7 +125,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -314,15 +314,15 @@ Old:
    >您可以有多个与同一记录或对象类型的连接。 如果不编辑已连接的字段名称，Workfront会在已连接记录的名称后添加一个数字，以指示使用相同名称连接的记录类型的数量。
 
 1. 通过添加有关连接的记录字段的信息来更新&#x200B;**描述**&#x200B;字段。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
-1. （视情况而定）当您从两个不同的工作区连接记录类型时，即记录类型和Adobe Experience Manager资源对象或记录类型和GenStudio Brand，请选择&#x200B;**允许多个记录**。 如果选择该字段，即表示当原始记录中显示“连接的记录类型”字段时，允许用户添加多个记录。 默认情况下，该选项处于选中状态。
-
-   ![从另一个工作区新建记录类型连接](assets/new-connection-allow-multiple-records-box.png)
-
-1. <span class="preview">选择&#x200B;**使此连接依赖于**&#x200B;以在此连接字段与所连接记录类型上创建的字段之间添加依赖项。</span>
+   <!-- 
+    1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
+        ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
+    -->
+1. <span class="preview">（可选）选择&#x200B;**使此连接依赖于**&#x200B;以添加此连接字段与在连接的记录类型上创建的字段之间的依赖关系。</span>
 
    <span class="preview">有关信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 
-1. 在&#x200B;**连接类型**&#x200B;部分中选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段。
+1. <span class="preview">（可选）在&#x200B;**连接设置**&#x200B;节中选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段。</span>
 
    >[!TIP]
    >
@@ -339,17 +339,25 @@ Old:
    >* 不会为来自各自应用程序中的其他应用程序的对象创建链接记录字段。 例如：
    >   * 没有为连接到Planning记录的Workfront对象创建字段。
    >   * 从GenStudio工作区中将Planning记录类型连接到记录类型时，不会为其创建字段。
-1. （视情况而定）从同一工作区连接记录类型或具有Workfront对象类型的Planning记录类型时，请选择以下选项之一：
+1. 选择下列选项之一：
+
+   <div class="preview">
 
    * **多选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的多个记录连接。
    * **单选**：选择此项以允许来自当前记录类型的一个记录与来自连接记录类型的一个记录连接。
 
-1. （视情况而定）如果您在&#x200B;**连接类型**&#x200B;部分中启用了&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中选择以指示用户可以连接多少条记录，也可以从多少条记录连接：
+   </div>
+
+1. <span class="preview">（有条件）如果您在&#x200B;**连接类型**&#x200B;部分中启用了&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中选择以指示用户可以连接多少条记录，也可以从多少条记录连接：</span>
+
+   <div class="preview">
 
    * 多对多
    * 一对多
    * 多对一
    * 一对一
+
+   </div>
 
    有关连接类型的详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -367,11 +375,8 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
-1. <span class="preview">（可选且有条件）如果您选择&#x200B;**使此连接依赖于**，请单击&#x200B;**记录筛选规则**&#x200B;创建一个筛选条件，以便在连接的记录字段显示在同一记录类型时限制连接的字段值的值。</span>
-
-   <span class="preview">有关详细信息，请参阅[管理依赖连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 1. （可选）在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
 
    * **名称和图像**：连接的记录的名称和缩略图或图标都会显示在连接的记录字段中。 这是默认选项。
@@ -394,10 +399,12 @@ Old:
    >* 从Workfront中选择对象类型时，无法选择记录外观。
    >
    >* 您在&#x200B;**记录外观**&#x200B;区域中选择的内容决定了记录在系统所有位置（包括所有视图和详细信息页面）的连接中的显示方式。
+1. <span class="preview">（可选且有条件）如果可用，请单击&#x200B;**记录筛选规则**&#x200B;以创建筛选器以根据定义的值限制所连接字段的选择。</span>
+1. 选择&#x200B;**选择查找字段**&#x200B;或<span class="preview">单击&#x200B;**查找字段**&#x200B;菜单</span>以打开“添加查找字段”框，并从要连接的记录类型中选择和添加字段。
 
-1. 选择&#x200B;**选择查找字段**&#x200B;或<span class="preview">单击&#x200B;**查找字段**&#x200B;菜单</span>以从要连接的记录类型中选择和添加字段。
+   查找字段是与要连接的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您链接到的记录中的信息。
 
-   查找字段是与要连接的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您链接到的记录中的信息。<!--No more: This is selected by default.-->
+   请参阅以下有关添加查找字段的信息。
 
    >[!NOTE]
    >
@@ -412,9 +419,17 @@ Old:
    >
    >   例如，如果项目的计划开始日期在Workfront中显示为3:00 PM，它在Workfront Planning的导入查找字段中将显示为15:00。
 
+1. <span class="preview">（可选）单击&#x200B;**字段访问**&#x200B;以更改所连接字段的权限。 从以下选项中选择： </span>
+
+   <div class="preview">
+
+   * **有权访问该记录类型的每个人都可以查看**：只有有权访问该记录类型的人员才能查看该字段。 这是默认设置。
+   * **只有选定的人员才能访问**：添加要与其共享字段的用户、团队、组、公司或角色。
+
+   </div>
 1. 单击&#x200B;**创建**。
 
-1. （视情况而定）如果您选择了&#x200B;**选择查找字段**&#x200B;设置，则会打开&#x200B;**添加查找字段**&#x200B;框。
+1. （视情况而定）如果单击&#x200B;**查找字段**，将打开&#x200B;**添加查找字段**&#x200B;框。
 
    单击&#x200B;**+**&#x200B;图标可从&#x200B;**未选择的字段**&#x200B;区域添加字段。
 
@@ -430,7 +445,7 @@ Old:
    >
    >    对工作区具有“查看”或更高权限的每个人都可以查看链接字段中的信息，无论其在链接对象类型应用程序中的权限或访问级别如何。
 
-1. （可选）单击&#x200B;**跳过**&#x200B;以跳过添加链接记录或对象类型的字段。 链接记录的名称或主字段是您连接到的记录类型的表视图中唯一可见的字段。
+1. （可选）单击&#x200B;**跳过**&#x200B;以跳过添加链接记录或对象类型的字段。 链接记录的名称或主字段是您连接到的记录类型的表视图中唯一可见的字段。<!--take this step out at production-->
 
 1. 为添加的查找字段选择一个聚合器。
 
@@ -455,7 +470,7 @@ Old:
    >
    > 如果希望字段可用作时间轴和日历视图的开始日期和结束日期，则在添加查找日期字段时必须选择一个聚合器值。 例如，您可以为查找日期字段选择MAX或MIN汇总。
 
-   链接的数字字段![&#128279;](assets/aggregator-drop-down-for-number-linked-field.png)的聚合器下拉列表
+   链接的数字字段](assets/aggregator-drop-down-for-number-linked-field.png)的![聚合器下拉列表
 
    >[!NOTE]
    >
