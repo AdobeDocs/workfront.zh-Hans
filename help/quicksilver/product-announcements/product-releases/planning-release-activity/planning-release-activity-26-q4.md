@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3154'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -210,7 +210,7 @@ CX Enterprise Coworker Chat是一个用于完成工作的对话界面。 用简�
 >
 >CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 这些组织仍然可以使用人工智能助手。
 
-有关详细信息，请参阅[CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+有关详细信息，请参阅[Workfront中的CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 ## 为准备CX Enterprise Coworker启动，从记录详细信息预览框中移除了AI助手图标
 
