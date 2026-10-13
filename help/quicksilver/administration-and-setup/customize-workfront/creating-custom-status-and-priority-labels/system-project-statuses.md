@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8560eeda3684b849383dca0c1c4b729ad5b9db4d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1635'
 ht-degree: 0%
 ---
 # 系统项目状态概述
@@ -64,7 +64,7 @@ Workfront为您的Adobe Workfront实例提供了以下项目状态：
   <tr> 
    <td>Planning（必需状态）</td> 
    <td> <p>项目经理正在规划项目的时间表、任务分配和批准。 项目经理在项目上手动设置此状态。</p> <p><b>提示</p> <p> 我们建议您在Workfront中为新项目将默认状态设置为Planning。 作为Workfront管理员，您可以在项目偏好设置的项目区域中更改所有新项目的默认状态。</p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">配置系统范围的项目首选项</a>。</p></td> 
-   <td> <p>默认情况下，项目团队中的用户可在其“项目”列表（没有自定义过滤器）的Workfront的“项目”区域中查看项目。 项目上分配给他们的任务和问题未填充他们的工作列表。 主页工作列表中仅显示批准和已接受的工作项。</p> <p>当项目具有此状态时，不发送通知。</p> <p>我们建议您进行所有更改，这些更改可能会触发项目时间线的更新，或者在项目处于“计划”状态时对任务和问题分配进行任何更改。 这会最大限度地减少用户收到的通知数量。</p> <p>系统不会自动计算项目的时间表。</p> </td> 
+   <td> <p>默认情况下，项目团队中的用户可在其“项目”列表（没有自定义过滤器）的Workfront的“项目”区域中查看项目。 项目上分配给他们的任务和问题未填充他们的工作列表。 主页工作列表中仅显示批准和已接受的工作项。</p> <p>当项目处于“计划”状态时，会向项目团队中的用户发送一些关于分配、审批和问题活动的通知，而许多与时间线相关的通知不发送。</p> <p>我们建议您进行所有更改，这些更改可能会触发项目时间线的更新，或者在项目处于“计划”状态时对任务和问题分配进行任何更改。 这会最大限度地减少用户收到的通知数量。</p> <p>系统不会自动计算项目的时间表。</p> </td> 
   </tr> 
   <tr> 
    <td>当前（必需状态）</td> 
