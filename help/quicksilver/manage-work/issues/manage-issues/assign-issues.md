@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 2%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-您可以将问题分配给用户、角色、团队或工作代理，以指明负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
+您可以将问题分配给用户、角色、团队、<span class="preview">或工作代理</span>，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 >[!TIP]
 >
->您可以分配多个用户、工作角色、团队或工作代理。 您只能分配活动用户、工作角色、团队和工作代理。
+>您可以分配多个用户、工作角色、团队、<span class="preview">或工作代理</span>。 您只能分配活动用户、工作角色、团队、<span class="preview">和工作代理</span>。
 >
->如果在停用用户、工作角色、团队或工作代理之前已分配用户、工作角色、团队或工作代理，则仍将其分配给工作项目。 在这种情况下，我们建议执行以下操作：
+>如果在停用用户、工作角色、团队、<span class="preview">或工作代理</span>之前已分配用户、工作角色、团队或工作代理，则这些用户仍会分配到工作项。 在这种情况下，我们建议执行以下操作：
 >
 >* 将工作项重新分配给活动资源。
 >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
@@ -149,7 +149,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 执行下列操作之一：
 
-   * 开始键入要分配的用户、角色、团队或工作代理的名称，然后当该名称出现在列表中时单击它。
+   * 开始键入要分配的用户、角色、团队、<span class="preview">或工作代理</span>的名称，然后当该名称出现在列表中时单击它。
 
      ![任务搜索](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      ![已分配给字段](assets/assigned-to-field-task-list-nwe.png)
 
-   * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色、团队或工作代理的名称，然后当它显示在列表中时单击它。
+   * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色、团队、<span class="preview">或工作代理</span>的名称，然后当它显示在列表中时单击它。
 
      ![任务字段](assets/assignments-field-0825.png)
 

@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1077'
 ht-degree: 1%
 ---
 # 管理文档版本
@@ -241,10 +241,10 @@ Workfront会按照您上传每个版本的顺序（例如V1、V2、V3）对其�
 
 </div>
 
-### 在审批期间查看当前文件
+<!--
 
-如果文档是Creative Cloud文件（例如，Photoshop cloud文档）并且有人在审批过程中编辑它，则Workfront会显示&#x200B;**当前文件**&#x200B;部分，其中包含指示活动文档中存在新更新的徽章，与正在审批的版本不同。
+### View the current file during an approval
 
->[!IMPORTANT]
->
->**未决问题：**&#x200B;当前文件部分在首次出现后是否永久保持可见，或者仅在活动文档上有未审阅的更新时保持可见？ 请在发布之前使用产品确认。
+If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
+
+-->

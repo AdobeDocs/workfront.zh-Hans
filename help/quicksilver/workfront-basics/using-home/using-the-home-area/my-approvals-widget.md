@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 8%
+source-wordcount: '523'
+ht-degree: 7%
 ---
 # 使用我的审批构件管理您的审批
 
@@ -162,3 +162,7 @@ ht-degree: 8%
    </table>
 
 作出决定后，批准将从“我的批准”构件中删除。
+
+>[!NOTE]
+>
+>当项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，也可以从“我的审批”小组件中删除工作审批。

@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '772'
 ht-degree: 2%
 ---
 # 查看审批
@@ -97,7 +97,8 @@ ht-degree: 2%
 
   * 等待您审批的所有项目、任务、问题、时间表、文档、访问权限和<span class="preview">Workfront计划请求</span>将显示在主页区域的“我的审批”小组件中。
   * 当您选择我已提交的审批过滤器选项时，您自己提交的审批也会显示在主页区域的我的审批小部件中。 有关详细信息，请参阅本文中“主页”区域[&#128279;](#review-work-you-submit-for-approval-in-the-home-area)部分中的审核您提交供审批的工作。
-  * 当关联的项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，审批将从“主页”区域的“我的审批”构件中删除。
+  * 当项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，将从“我的审批”小组件中删除工作审批。
+  * 完成或删除文档或验证工作流后，将从“我的审批”小组件中删除统一文档和验证审批。
 
   有关使用主页的信息，请参阅[主页入门](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
