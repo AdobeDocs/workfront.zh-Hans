@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1080'
 ht-degree: 1%
 ---
 # 使用工作代理
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 工作代理是可直接分配给Workfront任务、问题和请求的AI协作者。 与其他AI协作者一样，工作代理在“设置”区域中配置，并像用户一样分配给工作项。
 
-工作代理连接到您在Copilot Studio、Claude、Writer、<span class="preview">OpenAI或IBM中配置的代理。</span>
+工作代理连接到您在Copilot Studio、Claude、<span class="preview">OpenAI或IBM中配置的代理。</span>
 
 >[!IMPORTANT]
 >
->Writer反对使用代理。 使用Writer代理配置的工作代理在10月9日之后将无法工作。 2026.
+>Writer已弃用代理。 使用Writer代理配置的工作代理在10月9日之后不再工作。 2026.
 >
 >有关弃用的信息，请参阅Writer文档中的[代理库迁移和弃用](https://support.writer.com/articles/8335689949-migrating-no-code-agents)。
 
@@ -66,11 +66,11 @@ ht-degree: 1%
 
 ## 先决条件
 
-* 您必须先在Copilot、Claude、Writer.ai、OpenAI或IBM中配置代理，然后才能在Workfront中将其用作工作代理。
+* 您必须先在Copilot、Claude、OpenAI或IBM中配置代理，然后才能在Workfront中将其用作工作代理。
 
 ## 工作代理概述
 
-工作代理是一种在Workfront中将代理分配给特定任务的方法。 您可以在Copilot Studio、Claude或Writer.ai等应用程序中配置代理，然后将该代理作为工作代理连接到Workfront。 然后，您可以像分配用户一样将其分配给任务。
+工作代理是一种在Workfront中将代理分配给特定任务的方法。 您可以在Copilot Studio或Claude.ai等应用程序中配置代理，然后将该代理作为工作代理连接到Workfront。 然后，您可以像分配用户一样将其分配给任务。
 
 一些示例工作流可能包括：
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 >
 >* 有关代理职责和能力的特定详细信息是在创建代理的应用程序中配置的，而不是在Workfront中配置的。
 >* 不需要将Workfront MCP服务器添加到用作工作代理的代理，也不需要连接工作代理才能工作。
->* 工作代理当前支持在Copilot Studio、Claude和Writer.ai、<span class="preview">OpenAI和IBM中创建的代理。</span>
+>* 工作代理当前支持在Copilot Studio、Claude、<span class="preview">OpenAI和IBM中创建的代理。</span>
 >* 在Copilot Studio中配置代理时，必须将安全性设置为&#x200B;**无身份验证**。
 >* 有关在Workfront中创建工作代理的信息和说明，请参阅配置AI协作者一文中的[配置工作代理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)。
 

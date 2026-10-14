@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 4%
@@ -147,7 +147,19 @@ Depending on what objects you access the commenting experience for, you might fi
 
 “更新”部分在以下选项卡中显示信息：
 
-* **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+* **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。
+
+  <!--
+  <div class="preview">
+
+  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+
+    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+
+  </div>
+  -->
+
+  有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 * **系统活动**：显示系统更新，这些更新是Workfront为记录对象上的特定事件而创建的信息性消息。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。 有关详细信息，请参阅[配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 

@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2565'
 ht-degree: 1%
 ---
 <!--
@@ -337,6 +337,58 @@ Old for the second row in the table:
 * 您可以从Workfront Planning中编辑GenStudio工作区中所有记录的记录信息。
 
   有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+
+#### GenStudio激活概述
+
+<!--
+Some commented out information here comes from glean
+-->
+
+“激活”是Workfront Planning的GenStudio工作区中可用的GenStudio记录类型。 GenStudio使用激活功能来跟踪和管理广告激活（无论是起草还是发布添加），以作为营销活动执行的一部分。
+
+使用激活时，请考虑以下事项：
+
+* 无法从Workfront Planning创建激活记录。
+
+
+* GenStudio项目将1:1映射到Workfront Planning工作区；激活存储在工作区中，并从该工作区中引用。
+
+* 可见性和操作取决于您对该GenStudio项目和工作区的访问权限。
+
+* GenStudio添加了一个额外的保护层，因此即使在预期的控制之外，也无法修改或删除关键记录（包括激活），即使系统管理员也是如此。
+
+* 从GenStudio激活时，在Workfront Planning中记录和跟踪激活详细信息。 GenStudio和Planning使共享记录（营销活动、产品、角色、激活等）保持一致。
+
+<!--
+
+<div class="preview">
+
+* Activations records include the following:
+
+    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
+
+</div>
+
+-->
+
+<!--
+They're stored in Planning even when a customer hasn't separately purchased Planning.
+-->
+
+<!-- 
+
+Activations are tied to the project you're working in; as projects/workspaces change, associated activation records follow that workspace assignment.  
+Permissions and roles
+
+Access to Campaigns, Products, and Personas requires any GenStudio user role; Activations access requires the GenStudio System Manager role.  
+Admin and setup references
+
+Get started with the Workfront Planning × GenStudio integration (setup, sync, and workspace context).  
+Manage the GenStudio workspace in Workfront Planning (roles and access specifics, including Activations).
+
+-->
 
 ### GenStudio工作区中的记录类型字段
 

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 3%
 ---
 # 配置组的任务和问题首选项
@@ -165,7 +165,7 @@ ht-degree: 3%
       <td> <p>此部分中的设置确定在从问题到任务的转换过程中发生的情况：</p> 
        <ul> 
         <li><strong>保留原始问题并将其解决方案与任务绑定</strong>：在转换问题时，在任务完成之前，它始终被视为问题。 任务完成后，问题的状态自动变为“已关闭”。</li> 
-        <li><strong>允许主要联系人访问任务</strong>：授予主要联系人（问题创建者）访问任务的权限，以审阅任务、进行更新并随时了解其进度</li> 
+        <li><strong>允许主要联系人访问任务</strong>：授予主要联系人（问题创建者）查看任务的权限，以审阅任务、随时了解其进度并在任务的“更新”部分发表评论。</li> 
         <li> <p><strong>允许在转换期间更改这些设置</strong>：允许正在转换问题的用户在将问题转换为任务期间更改这些选项。</p>
         <!--
           Screenshot when possible</p>

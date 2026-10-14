@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1406'
 ht-degree: 1%
 ---
 
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      列标题![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的依赖图标工具提示
 1. （可选）单击&#x200B;**记录筛选规则**&#x200B;并从要连接的记录类型中选择字段以限制该字段值的选项，然后单击&#x200B;**完成**。
 
-   当第三个记录类型中存在这两个字段时，连接的字段记录类型的选项将受您在此处选择的过滤器的限制。
+   有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 1. （可选且推荐）转到第三记录类型，并将第一和第二记录类型添加为连接的记录字段。
 
    ![第三个记录类型上的依赖已连接字段指示器](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 905f4417aac97d95a3e170e0ead1b067a9436617
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 0%
 ---
 # 通知：关于我拥有的项目的信息
@@ -49,7 +49,7 @@ ht-degree: 0%
    <td><strong>每天</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我拥有的项目落后</strong> </p> <p>当项目落后于计划时，项目所有者会收到电子邮件通知。 当进度状态为“[!UICONTROL 有风险]”、“[!UICONTROL 落后]”或“[!UICONTROL 延迟]”时，项目进度落后于计划。</p> <p>最佳实践是保持此通知处于活动状态。 </p> <p>拥有[!UICONTROL Review]许可证的用户不会收到通知。</p> <p>即时通知电子邮件的主题是： <em>[!UICONTROL 项目进度更改]： &lt;项目名称&gt;</em></p> <p> 每日摘要通知的主题是：<em> [!UICONTROL 您拥有的项目摘要] &lt;每日摘要的日期&gt; </em></p> </td> 
+   <td> <p><strong>我拥有的项目落后</strong> </p> <p>当项目落后于计划时，项目所有者会收到电子邮件通知。 当进度状态为“[!UICONTROL 有风险]”、“[!UICONTROL 落后]”或“[!UICONTROL 延迟]”时，项目进度落后于计划。 <p>仅当项目状态为[!UICONTROL 当前]或[!UICONTROL 计划]时，才会发送通知。</p> <p>最佳实践是保持此通知处于活动状态。 </p> <p>拥有[!UICONTROL Review]许可证的用户不会收到通知。</p> <p>即时通知电子邮件的主题是： <em>[!UICONTROL 项目进度更改]： &lt;项目名称&gt;</em></p> <p> 每日摘要通知的主题是：<em> [!UICONTROL 您拥有的项目摘要] &lt;每日摘要的日期&gt; </em></p> </td> 
    <td> <p>项目名称<br>Portfolio名称<br>项目参考编号<br>项目进度状态<br>项目[!UICONTROL 计划开始日期]<br>项目[!UICONTROL 计划完成日期]<br>项目[!UICONTROL 预计开始日期]<br>项目[!UICONTROL 预计完成日期]<br>项目完成百分比<br>项目状态<br>项目所有者<br>*项目名称<br>*项目参考编号number<br>*项目进度状态<br>*每日摘要的日期<br></p> </td> 
    <td><strong>每天</strong> </td> 
   </tr> 
