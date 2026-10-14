@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 3%
 ---
 
@@ -99,7 +99,7 @@ Add to this article the  "Administrator experience" section in this document, af
 
 在Workfront Planning中配置自定义季度与在Workfront中配置自定义季度类似。
 
-有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+有关信息，请参阅[启用自定义季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
 ## 配置客户信息
 

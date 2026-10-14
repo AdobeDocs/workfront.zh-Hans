@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 17%
 ---
 # 配置系统默认值：文章索引
@@ -49,7 +49,7 @@ ht-degree: 17%
 * [创建自定义费用类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [创建新的记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [配置项目的时间线重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-* [启用自定义季度](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+* [启用自定义季度和周](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
 * [为您的组织启用或禁用快速发布](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
 * [为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)

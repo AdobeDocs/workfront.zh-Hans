@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2395'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2025年第三季度发布活动
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## 共享请求表单时更新了体验
@@ -140,7 +141,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
 * 启用创建公共链接选项后，公共共享选项卡现在显示链接和过期日期字段。
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -195,7 +196,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 对于未购买Workfront Planning的客户，其自定义季度体验没有变化。
 
-有关详细信息，请参阅[为项目启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+有关详细信息，请参阅[启用自定义季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
 ## 同时计算所有从属公式
 

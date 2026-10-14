@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3154'
+source-wordcount: '3156'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -300,7 +300,7 @@ CX Enterprise Coworker Chat是一个用于完成工作的对话界面。 用简�
 
 自定义周数在Workfront中不可见。 它们仅在Workfront Planning时间线视图中可见。
 
-有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+有关信息，请参阅[启用自定义季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
 ## 已连接记录字段的筛选器
 

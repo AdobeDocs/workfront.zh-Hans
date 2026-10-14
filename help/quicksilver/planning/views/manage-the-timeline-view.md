@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5027'
 ht-degree: 1%
 ---
 # 管理时间线视图
@@ -225,9 +225,9 @@ Old:
    >
    >如果未正确保存自定义季度，则时间线视图将显示经典季度。
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
-   >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+   >有关信息，请参阅[启用自定义季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -593,7 +593,7 @@ Old:
 
 1. （视情况而定，可选）如果您是Workfront管理员，请单击&#x200B;**使用自定义季度**&#x200B;框中的&#x200B;**转到设置**&#x200B;以转到设置区域并设置自定义季度。 设置自定义季度后，您可以在时间轴视图中显示它们，而不是经典季度。 如果您不是Workfront管理员，则可以向管理员请求为您的组织启用自定义季度。
 
-   有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+   有关信息，请参阅[启用自定义季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
    ![在时间轴视图设置中使用自定义季度警告](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 

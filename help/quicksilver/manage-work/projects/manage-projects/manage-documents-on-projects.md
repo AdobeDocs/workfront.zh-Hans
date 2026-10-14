@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2453'
 ht-degree: 0%
 ---
 # 项目和相关对象的文档管理概述
@@ -138,6 +138,7 @@ Not sure we need these since this became an overview article:
 处理项目时，请考虑以下事项：
 
 * 创建Adobe云存储项目时，Workfront会在项目的“文档”部分中创建一个用于存储文档的文件夹。 文件夹名称与项目同名。 无法删除或手动重命名文件夹。 如果更改项目名称以匹配项目的新名称，则将重命名文件夹。
+* 使用Adobe云存储重命名项目时，会自动重命名文档文件夹。 但是，如果出现问题，此时无法访问存储空间，则项目和文件夹的新名称都会被拒绝，而旧名称保持不变。 请稍后再次尝试重命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * 在创建Adobe云存储项目或将其移动到旧版Workfront存储项目组合或项目群时，如果该项目组合或项目群在添加项目之前没有附加文档，则该项目组合或项目群会自动转换为Adobe云存储对象。
 * 您无法为Workfront云存储产品组合或项目群创建旧版Adobe存储项目。
 * 从MS Project导入项目时，Workfront会创建一个旧版Workfront存储项目，即使Workfront管理员将Adobe云存储设置为系统的默认存储空间也是如此。
@@ -150,6 +151,7 @@ Not sure we need these since this became an overview article:
 使用项目组合时，请考虑以下事项：
 
 * 创建Adobe云存储产品组合时，Workfront会在产品组合的“文档”部分创建一个文件夹，以保存文档。 文件夹名称与项目组合同名。 无法删除或手动重命名文件夹。 如果更改项目组合名称以匹配项目组合的新名称，则将重命名文件夹。
+* 使用Adobe云存储重命名项目组合时，会自动重命名文档文件夹。 但是，如果出现问题，此时无法访问存储，则项目组合和文件夹的新名称都会被拒绝，而旧名称保持不变。 请稍后再次尝试重命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -159,7 +161,7 @@ This is not possible anymore:
 * 您无法将Adobe云存储项目添加到旧版存储产品组合，或将旧版存储项目添加到Adobe存储产品组合。
 * 管理员可以在“设置”的“系统首选项”区域将旧版存储产品组合转换为Adobe云存储。 所有子对象（项目群、项目和文档）都保留在旧版存储中。 新项目将使用Adobe云存储。 添加到产品组合的新文档将继续存储在旧版存储中。
 有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
-* &#x200B;<!-- this point also repeats for programs below-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
+* <!-- this point also repeats for programs below-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
 
   您无法再向此项目组合添加现有的旧版存储项目。
 
@@ -172,13 +174,14 @@ This is not possible anymore:
 使用程序时，请考虑以下事项：
 
 * 创建Adobe云存储程序时，Workfront会在程序的“文档”部分创建一个用于存储文档的文件夹。 文件夹名称与项目的名称相同。 无法删除或手动重命名文件夹。 如果更改项目名称，将重命名文件夹，以匹配项目的新名称。
+* 使用Adobe云存储重命名程序时，会自动重命名文档文件夹。 但是，如果出现问题，此时无法访问存储空间，则程序和文件夹的新名称都会被拒绝，旧名称保持不变。 请稍后再次尝试重命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * 您无法将旧版Workfront存储项目添加到Adobe云存储项目。
 
 * 您不能将Adobe云存储程序添加到旧版存储产品组合，也不能将旧版程序添加到Adobe云存储产品组合。
 * 无法从旧版存储程序中的Adobe云存储模板创建项目。
 * 您可以从Adobe云存储项目中的旧版存储模板创建项目，但该模板上的文档和文件夹不会添加到新项目中。 项目接收Adobe云存储。
-* &#x200B;<!-- this point also repeats for portfolios above-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
+* <!-- this point also repeats for portfolios above-->如果项目组合从旧版存储转换为Adobe云存储，并且项目群具有旧版存储，则项目群中的项目也将使用旧版存储。
 
   您无法再向此项目组合添加现有的旧版存储项目。
 
@@ -191,7 +194,8 @@ This is not possible anymore:
 
 * 任务从项目继承存储类型。
 * 在将文档上传到Adobe云存储项目上的任务时，Workfront会自动在任务的“文档”部分创建文件夹。 文件夹名称与任务相同。
-* 您可以从Adobe云存储任务中重命名和删除文档文件夹，这也会删除文件夹中的文档。 将新文档添加到任务后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
+* 重命名任务不会重命名为文档文件夹。
+* 您可以从Adobe云存储任务中删除文档文件夹，这也会删除文件夹中的文档。 将新文档添加到任务后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
 * 对于Adobe云存储项目，任务中的文档文件夹显示为自动为项目创建的文档文件夹中的子文件夹。
 * 您无法将任务从旧版Workfront存储项目复制或移动到Adobe云存储项目。 反之亦然。
 * 将任务转化为项目时，存在以下情况： <!--this info also duplicated in Convert tasks to projects-->
@@ -207,7 +211,8 @@ This is not possible anymore:
 
 * 从项目继承存储类型时出现问题。
 * 当您将文档上传到Adobe云存储项目中的问题时，Workfront会自动在问题的文档部分创建文件夹。 文件夹名称与问题相同。
-* 您可以重命名文档文件夹，并将其从Adobe云存储问题中删除，这也会删除文件夹中的文档。 在将新文档添加到问题中后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
+* 重命名问题不会重命名文档文件夹。
+* 您可以从Adobe云存储问题中删除文档文件夹，这也会删除文件夹中的文档。 在将新文档添加到问题中后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
 * 对于Adobe云存储项目，问题中的文档文件夹显示为自动为项目创建的文档文件夹中的子文件夹。
 * 您无法将问题从旧版Workfront存储项目复制或移动到Adobe云存储项目。 反之亦然。
 * 将问题转化为项目时，存在以下情况：<!--this info also duplicated in Convert an issue to a project-->
@@ -227,6 +232,7 @@ This is not possible anymore:
 使用模板时，请考虑以下事项：
 
 * 创建Adobe云存储模板时，Workfront会在模板的“文档”部分中创建一个用于存储文档的文件夹。 文件夹名称与程序同名。 无法删除或手动重命名文件夹。 如果更改了模板的名称，将重命名文件夹，以匹配模板的新名称。
+* 使用Adobe云存储重命名模板时，会自动重命名文档文件夹。 但是，如果出现问题，此时无法访问存储，则模板和文件夹的新名称都会被拒绝，而旧名称保持不变。 请稍后再次尝试重命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * 您可以使用旧版Workfront存储模板来创建旧版Workfront存储项目；也可以使用Adobe云存储模板来创建Adobe云存储项目。
 
 * 使用项目组合或项目群中的模板创建项目时，存在以下情况：
@@ -244,7 +250,8 @@ This is not possible anymore:
 
 * 模板任务从模板继承存储类型。
 * 当您在Adobe云存储模板上向模板任务上传文档时，Workfront会自动在模板任务的文档部分创建文件夹。 文件夹名称与模板任务相同。
-* 您可以从Adobe云存储模板任务中重命名和删除文档文件夹，这也会删除文件夹中的文档。 将新文档添加到模板任务后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
+* 重命名模板任务不会重命名文档文件夹。
+* 您可以从Adobe云存储模板任务中删除文档文件夹，这也会删除文件夹中的文档。 将新文档添加到模板任务后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
 * 对于Adobe云存储模板，模板任务中的文档文件夹显示为自动为模板创建的文档文件夹中的子文件夹。
 * 您无法将模板任务从旧版Workfront存储模板复制或移动到Adobe云存储模板。 反之亦然。
 
