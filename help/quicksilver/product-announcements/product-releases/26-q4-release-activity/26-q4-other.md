@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 0%
 ---
 # 2026年第四季度发布时间框架内的其他增强功能
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 以下Workfront列表现在使用增强列表格式：
 
-* 设置>电子邮件>通知>事件通知，并且组详细信息页>事件通知
+* 设置>电子邮件>通知>事件通知，而组详细信息页面>事件通知(此更新已于10月14日从预览环境中删除，不会成为季度版本的一部分。 这些列表将在以后更新。)
 * 设置>文档> Experience Manager Assets
 * 项目或模板>队列主题
 * 项目或模板>主题组
