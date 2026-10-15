@@ -5,9 +5,9 @@ title: 创建分组审批
 description: 您可以将多个文档捆绑到单个审批工作流中，以便它们一起在相同的阶段中移动。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 1%
 
 分组的审批在单个审批工作流下捆绑了多个文档。 您可以使用基本和高级模式、多个阶段以及具有分组审批的并行路径，就像处理单个文档审批一样。
 
-分组的审批仅在新的“文档”区域中可用，当您的组织使用Adobe云存储时，将显示该区域。 有关详细信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>[!IMPORTANT]
+>
+>如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 分组的审批仅在新的“文档”区域可用。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
 
 ## 访问权限要求
 
