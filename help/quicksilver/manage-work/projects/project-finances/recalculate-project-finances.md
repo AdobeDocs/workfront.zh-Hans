@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
+source-wordcount: '1753'
 ht-degree: 1%
-
 ---
-
 # 重新计算项目财务
 
 当项目记录的小时数或用于计算成本和收入的费率发生更改时，在项目上计算财务。
@@ -125,7 +129,7 @@ ht-degree: 1%
 
 #### 使用多个记帐费率覆盖保留项目收入 {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-当项目级别工作角色的记帐费率更改时，您可以使用在指定时间范围内锁定的多个记帐费率覆盖来保留已在项目上计算的现有收入。
+当项目级别工作角色的计费率发生更改时，您可以使用在指定时间范围内锁定的多个计费率覆盖来保留已在项目上计算的现有收入。
 
 有关使用多个记帐费率覆盖的详细信息，请参阅[覆盖记帐费率并计算项目收入的概述](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
@@ -146,7 +150,7 @@ ht-degree: 1%
 * 项目级别（适用于用户）
 有关覆盖用户成本费率的详细信息，请参阅[在项目级别覆盖用户成本费率](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)。
 
-当上述任何级别的记帐费率发生更改时，您可以通过锁定项目上记录的时间并使用旧费率计算来将项目上已计算的现有成本保留到状态为“已记帐”的记帐记录中。 有关创建开票记录的详细信息，请参阅[创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md)。
+当上述任何级别的成本费率发生更改时，您可以通过锁定项目上记录的时间并使用旧费率计算的时间，将项目上已计算的现有成本保留在状态为“已记帐”的记帐记录中。 有关创建开票记录的详细信息，请参阅[创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
 如果您不想创建记帐记录，也可以避免使用手动重新计算财务选项，如本文中的[手动重新计算项目财务](#manually-recalculate-finances-for-a-project)部分所述。
 
@@ -183,7 +187,7 @@ ht-degree: 1%
    使用任何新信息重新计算项目的所有计划成本和收入。
 
    您应该在浏览器顶部收到一条确认消息，确认项目的财务已成功重新计算。
-现有成本值和某些未锁定的收入值将更新以反映新费率。
+   现有成本值和某些未锁定的收入值将更新以反映新费率。
 
 ## 手动批量重新计算财务{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ ht-degree: 1%
 * 更改任务状态
 * 将具有小时数的任务移动到另一个项目
 * 将项目状态从完成更改为活动状态
+* 在项目或任务级别添加可记帐费用
 
 >[!NOTE]
 >
->当您更改项目状态时，只会重新计算计划值。
+>在更改项目状态时，只会重新计算计划值。
 
 您还可以在项目级别的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-menu.png)下手动重新计算财务，方法是单击&#x200B;**重新计算财务**。
+
+### 费用如何影响自动财务重新计算
+
+向项目和任务添加费用时，存在以下情况：
+
+* 将不可记帐费用添加到项目会更新项目的成本，而不会重新计算所有财务。
+* 将不可记帐费用添加到任务会重新计算该任务的成本和项目的成本。 不会重新计算任何其他任务。
+* 在项目或任务层添加可开单费用会触发项目的财务重新计算，包括人工成本和收入。
+
+>[!NOTE]
+>
+>当在费用上保存计划金额时，计划成本将更新。 在费用上保存实际金额后，实际成本将更新。
+
+有关费用的详细信息，请参阅[管理项目费用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。
+
