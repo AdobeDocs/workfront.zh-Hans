@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -29,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2026年9月24日
->生产快速发布： 2026年10月16日
->适用于所有人的生产： 2026年10月16日
+>生产快速发布： 2026年10月22日
+>为每个人生产： 2026年10月22日
 
 您现在可以从新的请求体验访问最多在2025年7月之前3年提交的Workfront问题请求。 以前，您只能访问2025年7月之后提交的请求。
 
