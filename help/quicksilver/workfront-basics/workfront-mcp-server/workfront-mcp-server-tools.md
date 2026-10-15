@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
-ht-degree: 4%
+source-wordcount: '3561'
+ht-degree: 3%
 ---
 
 # Adobe Workfront MCP服务器工具
@@ -353,13 +353,20 @@ AI代理平台中显示的工具取决于贵组织的Workfront产品授权。
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
-| 读取 | `read` | 以传递ID选择的三种模式读取报表数据：列出您可见的仪表板，获取单个仪表板的结构，或获取一个小组件的完整配置。 | 读取 |
-| 创建功能板 | `create_dashboard` | 创建一个空的新报表仪表板并返回它，同时返回一个用于打开它的链接。 | 写入 |
-| 更新仪表板 | `update_dashboard` | 部分更新功能板的元数据、提示、过滤器和按构件放置。 省略的字段保持不变。 | 写入 |
-| 创建构件 | `create_widget` | 在仪表板上创建构件及其报表配置。 一个工具可处理所有三种小组件类型：图表、KPI和表格。 | 写入 |
-| 更新构件 | `update_widget` | 部分更新现有构件的配置。 构件类型是自动推断的，因此您仅发送要更改的字段。 | 写入 |
-| 复制对象 | `copy_object` | 将整个仪表板（包括其小组件、提示和过滤器）复制到新仪表板，或者在仪表板内或跨仪表板复制单个小组件。 | 写入 |
-| 删除对象 | `delete_object` | 永久删除报表功能板及其所有构件或单个构件。 无法撤消此操作。 | 写入 |
+| 列出仪表板 | `reporting_relist_dashboards` | 列出对您可见的报告功能板。 支持`view`值`"my"`、`"shared"`、`"all"`和`"favorites"`。 仅返回仪表板元数据，包括用于打开每个仪表板的URL。 | 读取 |
+| 获取仪表板 | `reporting_get_dashboard` | 按ID获取画布功能板，包括元数据、布局、提示、过滤器和小组件ID。 构件数据不水合。 | 读取 |
+| 获取构件 | `reporting_get_widget` | 获取构件shell及其拼合的内容配置。 字段引用将作为`{id, label, dataType}`返回，以便它们可以直接在`reporting_update_*_widget`工具中重用。 支持的内容类型包括Table、KPI和MultiSeries。 | 读取 |
+| 创建功能板 | `reporting_create_dashboard` | 创建一个空的报表仪表板。 返回创建的完整仪表板，包括其ID、标题、描述、货币、创建者ID、创建日期以及空小组件、提示和筛选收藏集。 | 写入 |
+| 更新仪表板 | `reporting_update_dashboard` | 部分更新仪表板的标题、描述、货币、提示、筛选器和每个小组件`ignoreDashboardFilters`以及布局设置。 省略的字段将保持不变，提供提示和筛选器时会完全替换。 | 写入 |
+| 创建表小组件 | `reporting_create_table_widget` | 在仪表板上创建表格构件及其报表配置。 返回在拼合`get_widget`形状中创建的完整构件。 | 写入 |
+| 更新表小组件 | `reporting_update_table_widget` | 更新现有的表构件及其报表配置。 替换存储的表配置，包括列、分段、行限制、标题、描述、条件和以用户身份运行设置。 | 写入 |
+| 创建KPI小组件 | `reporting_create_kpi_widget` | 在仪表板上创建KPI构件及其报表配置。 返回在拼合`get_widget`形状中创建的完整构件。 | 写入 |
+| 更新KPI小组件 | `reporting_update_kpi_widget` | 更新现有KPI构件及其报表配置。 `fieldId`和`aggregation`是必需的，基础报告已完全替换。 | 写入 |
+| 创建图表小组件 | `reporting_create_chart_widget` | 创建图表构件及其报表配置。 支持的图表类型包括BAR、COLUMN、LINE和PIE，包括支持的SIMPLE、MULTI_SERIES和STACKED变体。 | 写入 |
+| 更新图表小组件 | `reporting_update_chart_widget` | 更新现有的图表构件及其报表配置。 需要`aggregationFieldId`、`aggregationType`、`groupByFields`和`chartType`，并且基础报告已完全替换。 | 写入 |
+| 复制构件 | `reporting_copy_widget` | 将现有构件复制到同一仪表板或不同仪表板，同时复制构件及其报表配置。 | 写入 |
+| 复制仪表板 | `reporting_copy_dashboard` | 将功能板复制到新功能板，包括其小部件和报告配置。 您可以选择仅复制小组件的子集，并选择是否包括提示和过滤器。 | 写入 |
+| 删除对象 | `reporting_delete_object` | 永久删除报表功能板及其所有构件或单个构件。 无法撤消此操作。 | 写入 |
 
 ## 如何更新工具
 
