@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -305,5 +305,3 @@ Workfront中的“更改历史记录”页面现在可以跨统一的审核和�
 在标准访问级别上，您现在可以定义具有该级别的用户是否应具有对“变更历史记录列表”的访问权限。 **更改历史记录**&#x200B;选项在访问级别的&#x200B;**允许**&#x200B;的管理访问权限部分中可用。
 
 有关详细信息，请参阅[授予用户对特定区域的管理访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)和[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
-
-
