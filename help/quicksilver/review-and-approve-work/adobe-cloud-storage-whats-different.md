@@ -6,16 +6,16 @@ description: 了解有关Adobe云存储对象的主要差异，包括新的“�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
+source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1702'
 ht-degree: 0%
 ---
 # Adobe云存储有什么不同之处
 
-更新合同以包含新的统一审查和审批体验后，您的环境可以包含两种类型的对象：旧版Workfront存储中的对象（您当前拥有的对象）和使用Adobe云存储创建的对象。 新的“文档”区域、Frame.io查看器和此处描述的其他行为仅适用于使用Adobe云存储的对象。
+使用Adobe云存储时，您的环境可以包含两种类型的对象：旧版Workfront存储上的对象（您当前拥有的对象）和使用Adobe云存储创建的对象。 新的“文档”区域、Frame.io查看器和此处描述的其他行为仅适用于使用Adobe云存储的对象。
 
-有关移动方向以及何时打开的信息，请参阅[在Adobe云存储上移动到Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
+有关移动方向，请参阅[在Adobe云存储上移动到Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
 
 ## 了解旧版Workfront存储和Adobe云存储
 
