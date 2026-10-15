@@ -1,302 +1,63 @@
 ---
+user-type: administrator
 product-area: documents
 navigation-topic: approvals
 title: 在Adobe云存储上迁移到Workfront
-description: 规划在Adobe云存储上推出Workfront的计划。 了解Adobe云存储对象上的不同之处，包括新的文档区域和Frame.io审核体验，并决定在您的环境中如何推出Adobe云存储。
+description: 规划如何在Adobe云存储上迁移到Workfront。 了解在启用您的组织后会发生什么情况、Adobe云存储对象上发生了什么变化以及如何根据您自己的时间将其推出。
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-    internal-label: Work management
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource management
-subfeature_v2:
-  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
-    internal-label: Digital content and documents
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+recommendations: noDisplay, noCatalog
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '2966'
+source-wordcount: '512'
 ht-degree: 0%
+
 ---
 # 在Adobe云存储上迁移到Workfront
 
-Adobe云存储上的Workfront支持完整的统一审核和批准体验：在Frame.io查看器中审核、强大的批准工作流、资源的跨产品可见性等。
+Adobe云存储上的Workfront提供了完整的统一审核和批准体验：Frame.io查看器中的审核、强大的批准工作流、资产的跨产品可见性等等。
 
-本文中介绍的新文档区域、Frame.io查看器和其他Adobe云存储行为仅适用于使用Adobe云存储的对象。
+本文是Workfront管理员迁移到Adobe云存储的起点。 它介绍了启用Adobe云存储时会发生的情况，向您介绍了各项更改的详细信息，并提供了指向有助于您规划和推广更改的各篇文章的链接。
 
-本文面向准备在Workfront云存储上推出Workfront的Adobe管理员。 它涵盖了Adobe云存储对象上的主要差异、如何选择转出类型以及在为用户启用Adobe云存储之前需要考虑的事项。
+## 由您决定Adobe云存储的打开时间
 
->[!NOTE]
->
->* 您必须使用支持Adobe云存储的Workfront版本。 如果贵组织尚未使用支持的版本，请联系您的Adobe客户代表。
+在Workfront管理员在&#x200B;**设置** > **系统** > **首选项**&#x200B;中启用Adobe云存储作为默认存储选项之前，Workfront环境不会发生任何变化。 在此之前，您现有的项目和创建的任何新项目将保留在旧版Workfront存储中，并保持您现在使用的审批服务。
 
-## 无论存储型号如何，都适用统一的批准
+当管理员启用Adobe云存储作为默认存储选项时：
 
-迁移到支持Adobe Cloud Storage的Workfront版本会将&#x200B;*所有*&#x200B;现有的审批工作流从旧文档审批移动到统一审批 — 无论对象是保留在旧版Workfront存储上还是移至Adobe Cloud Storage。
+* 新项目使用Adobe云存储
+* Frame.io是默认查看器
+* 统一审批是默认的审批服务
 
+现有项目不会更改。
 
->[!IMPORTANT]
->
->这与[选择Adobe云存储转出方式](#choose-how-adobe-cloud-storage-rolls-out)中描述的存储转出选项不同：这些选项控制新对象使用的存储模型，而不是控制批准工作流是否移动到统一批准。<br>
->此更改没有试点组或逐步选项 — 只要您使用的是受支持的版本，它就会在整个组织范围内应用。
+由于您可以控制时间，因此可以在任何人使用它之前测试体验、更新Workfront Fusion场景并规划报表更改。 有关分步说明，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
+## 审批如何在Adobe云存储上工作
 
-在推出Adobe云存储之前，请确保管理审批的人员知道会发生什么：
-
-* **现有审批发生什么情况**&#x200B;此更改会影响现有旧审批工作流，无论更改正在进行还是已完成。 有关详细信息，请参阅[从旧文档审批移至统一审批](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)。
-* **新的审批体验**&#x200B;审阅人和审批人从旧版文档审批体验移至统一审批，这添加了多阶段审批、并行审阅路径等。 有关更多信息，请参阅以下文章：
-
-  * [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [用于文档审批的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-* **新的报告位置**&#x200B;统一审批工作流数据和报告已移至“画布功能板”。 现有的旧审批报表不会自动延续。 有关详细信息，请参阅[创建报告仪表板以供审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
-* **可能的Fusion方案更新**&#x200B;可能需要编辑、重建或停用基于旧文档审批的现有Fusion方案，才能使用统一审批。 有关详细信息，请参阅[更新Workfront Fusion方案以进行统一审查和批准](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)。
-
-## 了解旧版Workfront存储和Adobe云存储
-
-更新合同以包含新的统一审查和审批体验后，您的环境可以包含两种类型的对象：旧版Workfront存储中的对象（您当前拥有的对象）和使用Adobe云存储创建的对象。 从较高层面看，这两种存储模式在数据所在的位置、哪些Adobe产品可以看到数据以及有哪些功能可用方面有所不同：
-
-|  | 旧版Workfront存储中的对象 | Adobe云存储上的对象 |
-|---|---|---|
-| 存储后端 | 仅限Workfront | Adobe 云存储 |
-| 跨产品可见性 | 仅限Workfront | Workfront、Frame.io和Creative Cloud |
-| 功能 | 旧版功能 | 新功能 |
-
-在设置区域中启用Adobe云存储之前创建的对象仍保留在旧版Workfront存储中。 本文中描述的新行为仅适用于您和您的用户在启用Adobe云存储后创建的Adobe云存储对象。
-
-## Adobe云存储有什么不同之处
-
-Adobe云存储最大的日常更改是新的“文档”区域和Frame.io查看器，支持其中的审阅和批准。 还有其他不同会影响您管理对象、文档和审阅的方式。
-
-下表总结了切换到Adobe云存储时的主要差异。 表中的每个区域都链接到下面的详细部分。
-
-| 区域 | 不同之处 | 须知事项 |
-|---|---|---|
-| [新文档区域](#the-new-documents-area) | 重新设计、统一的“文档”区域取代了旧的“文档”区域。 | 无全局文档区域。 从项目群、项目组合、项目、任务或问题访问文档。 |
-| [文档权限](#document-permissions) | 文档从链接的项目、任务或问题继承权限。 | 您无法共享或设置单个文档的权限。 您可以通过Workfront中的对象共享模式来管理所有访问权限，该模式会级联到系统生成的文档文件夹。 |
-| [对象权限映射](#object-permissions-mapping) | Workfront的“管理”和“贡献”权限映射到Frame.io中的“编辑”和“共享”。 查看映射到“仅注释”。 | 权限在Workfront中进行管理。 Manage和Contribute用户都可以在Frame.io中获得外部共享功能。 |
-| [审阅和批准查看者](#review-and-approval-viewer) | Frame.io查看器将取代Workfront校对查看器。 | 适用于所有Workfront用户，包括分配给审阅或审批的外部用户。 支持标记、带有时间戳的注释、版本历史记录、移动设备、40多种格式、高达500 GB的文件。 |
-| [对象命名规则](#object-naming-rules) | 适用严格的命名规则：项目组合或项目中的唯一名称，无特殊字符，无尾随句点或空格，255个字符限制。 | 当出现冲突时，Workfront会自动重命名对象。 生成新项目名称和结构的审核模板。 |
-| [对象可移植性](#object-portability) | 在大多数情况下，您只能在类似存储模型之间移动、复制和转换对象。 | 您可以在三个特定情况下将旧版对象转换为Adobe云存储。 在转换过程中，文档和文档文件夹不会从旧存储中移动。 |
-| [功能不可用](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof、Workfront文档查看器、收藏夹文档和请求文档不在体验中。 | 旧版对象保留这些功能。 Workfront Proof将不会获得新投资，并将在未来版本中停用。 |
-| [存储配额](#storage-quota) | 存储被池用于旧版Workfront项目和Adobe云存储项目。 每个许可用户为60 GB。 没有硬帽子。 | 系统管理员可以在“设置”的“客户信息”页面上查看存储使用情况。 |
-| [年度视频审核上限](#annual-video-review-cap) | 组织级别的视频验证请求上限为付费Workfront用户许可证（标准和轻量级）的10%。 | 一旦到达，直到下一年度期间才会有新的视频审查。 80%和100%的应用程序内通知。 不适用于Frame.io Enterprise客户。 |
-| [Workfront Fusion](#workfront-fusion-on-adobe-cloud-storage-projects) | 现有的基于验证的Fusion场景不会自动针对Adobe云存储项目运行。 | 范围设为旧版项目的方案将继续有效。 每个受影响的方案都会获得以下三个路径之一：编辑、重建或弃用。 新连接器预计将于2026年第3季度推出。 |
-
-### 新建文档区域
-
-新的文档区域是为Adobe云存储设计的统一文档体验。 它简化了导航，整合了审阅和批准活动，并且是Frame.io查看器的入口点。
-
-全局文档区域不是新Experience的一部分。 在Adobe云存储项目中，您可以访问来自项目、项目组合、项目、任务或问题的文档。
-
-有关详细信息，请参阅[文档区域](/help/quicksilver/documents/managing-documents/documents-area.md)。
-
-### 文档权限
-
-文档权限在Adobe云存储项目上存在根本性差异：
-
-* 您无法共享或设置单个文档的权限。 相反，权限将应用于包含文档的系统生成的文档文件夹。
-* 系统生成的文档文件夹继承其父项目、任务或问题的权限。
-* 子文件夹从系统生成的父文档文件夹继承权限。
-* 子任务不从父任务继承权限。 您必须直接添加到子任务才能访问其系统生成的文档文件夹。
-
-
-有关文档权限如何工作的更多信息，请参阅[Adobe云存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)。
-
-
-### 对象权限映射
-
-权限是在Workfront中设置的，并且会沿一个方向流向Frame.io。 您不能邀请用户加入Frame.io中的Adobe云存储项目，也不能在Frame.io中修改用户权限。
-
->[!TIP]
->
->培训项目协调人，使他们了解Frame.io访问权限是Workfront权限的下游反映。 如果利益相关者报告他们无法访问Adobe云存储项目的审核，则修复位于Workfront中，而不是Frame.io。
-
-下表将Workfront对象权限映射到Frame.io权限：
-
-| Workfront权限 | Frame.io权限 |
-|---|---|
-| 管理 | 编辑和共享 |
-| 贡献 | 编辑和共享 |
-| 视图 | 仅注释 |
-
-在Frame.io中管理映射和分配映射到&#x200B;**编辑和共享**。 在查看Adobe云存储项目的共享模式时，请考虑参与者与经理具有相同的审核端功能（包括外部共享）是否适合您的治理模式。
-
-有关详细信息，请参阅[Adobe云存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#permission-mapping-to-frameio)。
-
-
-### 审阅和批准查看者
-
-在Adobe云存储对象上，Frame.io查看器是审核和批准界面，取代Workfront Proof。 所有Workfront用户均可免费使用Frame.io查看器，包括分配了审阅或审批的外部用户。
-
-Frame.io查看器提供：
-
-* 标记和注释工具，包括手绘绘图和标准形状，如圆形、箭头和正方形
-* 带有时间戳的视频评论评论，具有帧精度
-* 版本历史记录和版本比较
-* 移动访问以进行移动审阅和批准
-* 支持40多种文件格式，包括所有常见的视频、图像、音频、PDF和Microsoft Office类型，原生播放专业视频格式，如ProRes、H.265和DNxHD，并支持高达500 GB的文件
-
-
-### 对象命名规则
-
-Adobe云存储强制实施严格的命名和结构规则，以使存储层在Adobe产品中保持一致。 这些规则适用于您在Adobe云存储项目上创建的对象。 现有的旧版项目会保留其当前名称。
-
-以下规则适用于Adobe云存储项目：
-
-| 规则 | 详细信息 |
-|---|---|
-| 唯一的项目和项目名称 | 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。 |
-| 唯一文档名称 | 如果文档属于同一项目，则不能具有相同的名称。 文档名称在文件夹层次结构的相同父级中必须是唯一的。 |
-| 禁止使用的字符 | 程序、项目组合、项目、模板、任务、问题、文档文件夹和文档不能包含以下任何特殊字符：`\ / : * ? " \| < >` |
-| 尾随字符 | 项目、项目组合、模板、任务、问题和文档文件夹不能包含以句点或空格结尾的名称。 |
-| 名称长度限制 | 对象名称限制为255个字符。 |
-
-如果名称与这些规则冲突，Workfront会自动重命名对象以解决冲突。
-
->[!TIP]
->
->如果从模板创建Adobe云存储项目，请查看现有模板，以便它们生成的项目名称和结构符合上述规则。
-
-
-### 对象可移植性
-
-在大多数情况下，您可以在类似存储模型之间移动、复制和转换Workfront对象。 例如，您可以将任务从一个Adobe云存储项目移动到另一个Adobe云存储项目。 在以下三个特定用例中，您可以将旧版Workfront存储对象转换为Adobe云存储：
-
-* 将旧版Workfront存储任务转换为Adobe云存储项目
-* 将旧版Workfront存储产品组合转换为Adobe云存储产品组合
-* 从旧版Adobe存储模板创建一个Workfront云存储项目
+默认情况下，Adobe云存储项目使用统一批准，在Frame.io查看器中审核和批准。 保留在旧版Workfront存储中的对象会保留其已使用的任何审批服务：旧版文档审批或统一审批。
 
 >[!NOTE]
 >
->在全部三种转换方案中，文档和文档文件夹不会从旧版Workfront存储移动到Adobe云存储。 转换前存在于旧对象上的文档将保留在旧存储上。
+>将Adobe云存储设置为默认不会更改已在您的旧版Workfront存储对象上使用的审批服务。 只有在Adobe云存储中创建的新对象，才会默认使用统一审批。
 
-#### 将旧版任务转换为Adobe云存储项目
+在推出Adobe云存储之前，请确保管理审批的人员知道会发生什么。 有关详细信息，请参阅[从旧文档审批移至统一审批](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)。
 
-要将旧版Workfront存储任务转换为Adobe云存储项目，请在该任务上使用现有的项目转换流程。 转换期间：
+## 规划您的移动
 
-* 子任务和问题移至新项目。
-* 附加到任务的文档及其审批工作流仍保留在原始项目中。
-* 已删除工作审批和解析对象链接。
-* 已删除原始任务。
+在准备时，请按顺序阅读这些文章：
 
-<!--
-For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/convert-tasks/convert-task-to-project.md).
--->
-
-#### 将旧版产品组合转换为Adobe云存储产品组合
-
-Workfront管理员可以从设置区域将旧版Workfront存储产品组合转换为Adobe云存储产品组合。 转换后：
-
-* 不能再将旧版Workfront存储项目移入项目组合。
-* 在项目组合中创建的所有新项目都使用Adobe云存储。
-* Frame.io是项目组合的Adobe云存储项目中文档的查看器。
-* 使用旧版Workfront存储的子项目将保留在旧版存储中。
-* 子程序将保留在旧版存储中。
-
-  >[!NOTE]
-  >
-  >仅当有人手动将Adobe云存储项目添加到子旧程序时，它才会自动转换为Adobe云存储。
-
-有关详细信息，请参阅[将旧项目组合转换为Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)。
-
-#### 从旧模板创建Adobe云存储项目
-
-从旧版Workfront存储模板创建项目时，“项目创建”对话框中的&#x200B;**在Adobe云存储上创建此项目**&#x200B;复选框确定新项目的存储类型。 复选框行为取决于您创建项目的位置：
-
-* **在项目组合外**：该复选框默认可用并清除。 选择它可在Adobe云存储上创建新项目。
-* **在Adobe云存储产品组合中**：复选框已选中并已锁定。 新项目必须与产品组合的存储类型匹配。
-* **在旧版Workfront存储产品组合中**：该复选框不可用。 新项目使用旧版Workfront存储。
-
-有关详细信息，请参阅[创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project.md)。
-
-### Adobe云存储对象上不可用的功能
-
-Adobe云存储对象中不包含以下功能：
-
-* Workfront 校样
-* Workfront文档查看器
-* 收藏的文档
-* 请求文档
-
-旧版项目保留对Workfront Proof和上面列出的旧版文档功能的访问权限。 Workfront Proof今后将不会获得新投资，并将在未来版本中停用。
-
-### 存储配额
-
-存储针对旧版Workfront对象和Adobe云存储对象进行池化。 每个许可用户可接收60 GB的存储。 存储使用率没有硬性限制，但是当使用率达到配额的75% 、 90%和100%时， Workfront管理员会收到电子邮件通知。
-
-系统管理员可以转至&#x200B;**设置** > **系统** > **客户信息**&#x200B;查看当前存储使用量和配额。
-
-有关详细信息，请参阅[检查文档存储限制](/help/quicksilver/documents/managing-documents/check-document-storage.md)。
-
-
-### 年度视频审查上限
-
-视频验证请求的年度上限设置为贵组织总付费Workfront用户许可证（标准和轻量级）的10%。 此上限在组织级别应用。
-
-* 当使用率达到上限的80%和100%时，Workfront管理员会收到应用程序内通知。
-* 达到上限后，直到下一年度期间才能创建新的视频审查请求。
-* 此限制不适用于Frame.io Enterprise客户。 如果贵组织定期审查大量视频内容，请联系您的Adobe客户代表，了解有关Frame.io Enterprise许可的信息。
-
-有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)中的审阅和批准资源和视频常见问题解答。
-
-### Adobe云存储项目上的Workfront Fusion
-
-基于旧版校对构建的现有Workfront Fusion场景不会自动针对Adobe云存储项目运行。 验证特定的模块、Webhook和API端点在某些情况下具有直接等效功能，而在其他情况下具有显着变化。 覆盖到旧版项目的方案将继续像现在一样工作。
-
-带有对统一审阅和批准的原生支持的Fusion连接器预计将在2026年第3季度提供。
-
-有关对常见方案类型的影响以及如何根据方案的功能将每个方案分类为“编辑”、“重新生成”或“停用”的详细信息，请参阅[更新Workfront Fusion方案以进行统一审阅和批准](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)。
-
-
-## 选择Adobe云存储的推出方式
-
-由您决定Adobe Cloud Storage如何向用户显示。 有两种配置，一种可应用于您的整个组织或特定的Workfront组。
-
-有关分步说明，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
-
-
-### 配置选项
-
-* **仅限Adobe云存储**：默认情况下，新项目使用Adobe云存储。 用户无法创建旧版项目。
-* **Adobe云存储和旧版Workfront存储**：用户创建项目时，他们会在Adobe云存储（标记为“新项目”）和旧版Workfront存储（标记为“旧版存储”）之间进行选择。
-
-  ![选择项目类型](assets/choose-project-type.png)
-
-
->[!TIP]
->
->要先将Adobe云存储放在较小的团队之前，请将任一配置应用于单个Workfront组。 这允许您在更广泛地推广之前运行定向试点。 我们建议从组级别推出开始，以实现受控步调，然后在试点小组验证体验后，扩展到整个组织。
-
-现有对象会保留创建它们的存储模型。 更改默认存储首选项不会更改任何现有对象。
-
-## 规划您的转出
-
-每个Workfront环境都不一样。 在为用户启用Adobe Cloud Storage之前，请花些时间规划一下您的组织成功转出的情况。 下面的建议不是清单，而是您自己的计划的起点。
-
-**1. 选择试点组。** 通过按组划分范围的转出，您可以先将Adobe云存储放在较小的团队之前、收集反馈并进行调整，然后再进行更广泛的转出。 选择一个其工作模式具有足够代表性的组，以便及早发现您想要了解的问题。
-
-**2. 将更改传达给最终用户。** 对于审阅人、审批人和项目所有者而言，最大的可见更改是新增的文档区域和Frame.io查看器，它们支持Adobe云存储项目的审阅和审批。 规划您将如何引入这些存储产品，以便用户了解在遇到他们的第一个Adobe云存储项目时会有什么样的体验。 [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)文章是面向最终用户的材料的有用起点。
-
-**3. 规划Workfront Fusion连接器的可用性。** 带有对统一审阅和批准的原生支持的Fusion连接器预计将在2026年第3季度提供。 现有的基于验证的Fusion方案将继续用于旧版项目。 在将依赖这些方案的团队引入Adobe云存储试点项目之前，请决定是等待新连接器、根据当前API重建，还是使用本机统一审查和批准功能替换这些方案。
-
-有关对常见方案类型的影响以及如何根据方案的功能将每个方案分类为“编辑”、“重新生成”或“停用”的详细信息，请参阅[更新Workfront Fusion方案以进行统一审阅和批准](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)。
+* [在Adobe云存储上有什么不同之处](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)：在Adobe云存储对象上，从新的“文档”区域和Frame.io查看器到命名规则、存储配额和Fusion，存在主要差异。
+* [规划您的Adobe云存储转出](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)：如何选择转出配置、使用单个组进行试点，以及安排工作顺序，这样用户便不会感到意外。
+* [为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)：为整个组织或特定组设置默认存储选项的步骤。
+* [将旧对象转换为Adobe云存储](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)：您可以将旧对象转换为Adobe云存储的三种情况，以及每次转换过程中将发生什么变化。
 
 
 ## 相关文章
 
 * [Adobe cloud storage概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
-* [为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [统一审查和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [“文档”区域](/help/quicksilver/documents/managing-documents/documents-area.md)
 * [Adobe云存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
-
