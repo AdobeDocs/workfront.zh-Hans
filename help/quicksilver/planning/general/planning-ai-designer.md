@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1670'
 ht-degree: 1%
 ---
 # Adobe Workfront规划Designer快速入门
@@ -274,7 +274,12 @@ Sargis and Ashot  said these are not required:
 
 ## 使用Planning Designer创建或更新对象
 
-除非另有指定，否则可以使用Workfront Designer、AI助手或<span class="preview">同事</span>在Planning中创建或更新对象。
+除非另有指定，否则可以使用Planning Designer、AI Assistant或<span class="preview">同事</span>在Workfront Planning中创建或更新对象。
+
+>[!TIP]
+>
+>我们建议您在开始创建相同的工作区之前，先搜索现有的工作区。 如果工作区已存在，则Planning Designer可能会显示错误消息。
+
 
 1. 登录到Workfront，然后单击左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)，然后单击&#x200B;**计划**。
 

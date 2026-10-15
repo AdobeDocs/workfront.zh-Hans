@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
+source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
 workflow-type: tm+mt
-source-wordcount: '14646'
+source-wordcount: '14648'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -484,7 +484,7 @@ ht-degree: 2%
       * [创建费用类型](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [创建新的记分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [项目时间表重新计算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [启用自定义季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [启用自定义季度和周](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [为您的组织启用或禁用快速发布](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [为您的组织启用Adobe云存储](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [将旧版项目组合转换为Adobe云存储](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)

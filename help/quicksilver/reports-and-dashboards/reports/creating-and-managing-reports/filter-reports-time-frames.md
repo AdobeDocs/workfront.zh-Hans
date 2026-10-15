@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 7%
 ---
 # 按时间范围筛选报表
@@ -201,7 +201,7 @@ Adobe Workfront具有内置的时间范围修饰符，您无需定义特定日�
   </tr> 
   <tr> 
    <td role="rowheader">上个季度</td> 
-   <td> <p>显示其输入日期为当前季度前一个季度中的日期的小时，其中季度在上面定义。</p> <p><b>注释</b></p>  如果您的Workfront管理员为系统启用并定义了自定义季度，则季度的内置过滤器将被替换为自定义季度信息。 有关启用自定义季度的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">启用自定义季度</a>。</p> </td> 
+   <td> <p>显示其输入日期为当前季度前一个季度中的日期的小时，其中季度在上面定义。</p> <p><b>注释</b></p>  如果您的Workfront管理员为系统启用并定义了自定义季度，则季度的内置过滤器将被替换为自定义季度信息。 有关启用自定义季度的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">启用自定义季度和周</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">今年</td> 

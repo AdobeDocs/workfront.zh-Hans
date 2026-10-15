@@ -7,7 +7,7 @@ description: 您可以查看用户的雇用历史记录，包括随着时间对�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,7 +66,5 @@ ht-degree: 0%
 1. 要筛选结果，请单击&#x200B;**筛选器**，然后输入要作为筛选依据的字段、运算符和值。 将自动筛选结果。
 1. 要添加或删除列，请单击表格右侧的“添加”图标![“添加”图标](assets/add-column.png)，然后单击要添加的每个列旁边的加号图标，或单击要从视图中删除的每个列旁边的减号图标。
 1. 要导出雇用历史记录，请单击&#x200B;**导出**。 您可以将雇佣历史记录导出为CSV或XLSX文件。
-
-
 
 

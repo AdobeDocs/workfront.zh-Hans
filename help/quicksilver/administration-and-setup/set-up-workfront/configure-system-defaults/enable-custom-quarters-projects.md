@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 启用自定义季度
-description: 出于报告目的，如果贵组织的季度基于日历日期以外的特定标准（如工作日或购物日），则可能需要创建自定义季度。
+title: 启用自定义季度和周
+description: 出于报告目的，如果贵组织的季度基于日历日期（如工作日或购物日）以外的特定标准，则您可能需要配置自定义季度。 如果您的组织购买了Workfront计划包，您还可以配置自定义周数。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '920'
 ht-degree: 2%
 ---
-# 启用自定义季度
+# 启用自定义季度和周
 
 <!--Audited: 03/2026-->
 
