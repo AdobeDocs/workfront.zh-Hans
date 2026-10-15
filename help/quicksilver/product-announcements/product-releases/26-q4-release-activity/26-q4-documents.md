@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1727'
 ht-degree: 0%
 ---
 # 2026年第四季度文档增强
@@ -55,8 +55,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >预览：此功能在“预览沙盒”环境中不可用，因为Frame.io集成在那里不可用。
->生产快速发布： 2026年10月14日
->适用于所有人的生产： 2026年10月15日
+>生产快速发布： 2026年10月16日
+>适用于所有人的生产： 2026年10月16日
 
 现在，您可以在单个审批工作流下对多个文档进行分组，以便它们一起经过相同的阶段。
 
@@ -88,8 +88,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >预览：此功能在“预览沙盒”环境中不可用，因为Frame.io集成在那里不可用。
->生产快速发布： 2026年10月14日
->适用于所有人的生产： 2026年10月15日
+>生产快速发布： 2026年10月16日
+>适用于所有人的生产： 2026年10月16日
 >[!BADGE 超出计划]{type=Neutral}
 
 现在，您可以在新的“文档”区域中将网站作为Web链接添加到Adobe Workfront。 添加后，您可以像请求审批已上传文件一样请求审批实时网页。
@@ -102,7 +102,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >预览： 2026年7月30日
 >生产快速发布： 2026年8月13日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 默认情况下，审批模板现在为专用模板。 以前，每个审批请求者都可以看到系统中的每个模板，这使得模板列表变得冗长且难以导航。 现在，模板仅对创建该模板的用户可见，除非创建者共享模板。
 
@@ -134,7 +134,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >预览：不适用
 >生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 在为文档创建审批工作流时，用户可以在Frame.io查看器中留下注释并进行批注。 这些注释不会显示在“Workfront注释”面板中，但您可以在Frame.io查看器中查看它们。
 
@@ -148,7 +148,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >预览：不适用
 >生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 当文档附加了验证时，审批电子邮件中的“前往审阅”链接现在直接打开验证查看器，因此审阅者和审批者可以立即开始审阅。 如果文档没有验证，则链接将继续打开文档的审批部分，就像之前一样。
 
@@ -158,7 +158,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >预览： 2026年9月3日
 >生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 您现在可以在文档审批或审批模板上添加Workfront团队作为审批者或查看者，而不是单独添加每个人：
 
@@ -178,7 +178,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >预览： 2026年9月3日
 >生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 如果贵组织使用Adobe云存储，并且您拥有Frame.io企业许可证，则现在可以在项目模板的项目详细信息中选择Frame.io工作区。 从模板创建的项目会自动使用模板上设置的工作区，因此项目会被路由到所需的Frame.io工作区，而无需在创建项目时执行额外的操作。
 
@@ -198,7 +198,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
 
@@ -220,8 +220,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >预览：不适用
->适用于所有人的生产： 2026年10月15日
->此功能未按原计划于2026年9月17日在生产环境快速发布中发布。 该应用程序现在将于2026年10月15日在生产环境中向所有人提供。
+>适用于所有人的生产： 2026年10月16日
+>此功能未按原计划于2026年9月17日在生产环境快速发布中发布。 该应用程序现在将于2026年10月16日在生产环境中向所有人提供。
 
 现在，当您为文档审批设置自定义消息时，该消息也会显示在审批请求电子邮件的主题行中，在设置该消息时以截止日期为开头。 这样，查看者无需打开电子邮件，即可直接从其收件箱中查看需要注意的事项和方式。
 
@@ -233,7 +233,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >预览： 2026年9月3日
 >生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 如果您的组织使用Adobe云存储，则新文档区域中的版本面板具有新设计：
 
@@ -251,7 +251,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >预览： 2026年9月3日
 >生产快速发布： 2026年9月17日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 如果您的组织使用Adobe云存储，则新文档区域中的审批面板现在会显示各个版本的审批历史记录：
 
@@ -284,7 +284,7 @@ Adobe云存储组织现在支持所有媒体类型图像格式。 （旧版对�
 >
 >预览： 2026年7月30日
 >生产快速发布： 2026年8月13日
->适用于所有人的生产： 2026年10月15日
+>适用于所有人的生产： 2026年10月16日
 
 如果您的组织使用Adobe云存储，则可以将Experience Manager Assets中的单个资源链接到支持文档的任何Workfront对象。 链接的内容会自动保持同步：在Experience Manager Assets中所做的更改会显示在Workfront中，并且您无需离开Workfront即可引入新的资源版本。
 
@@ -300,7 +300,7 @@ Adobe云存储组织现在支持所有媒体类型图像格式。 （旧版对�
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 
