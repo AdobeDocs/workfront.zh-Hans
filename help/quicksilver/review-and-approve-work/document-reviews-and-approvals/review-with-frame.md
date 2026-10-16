@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 ---
 # 使用Frame.io查看器审阅和批准
 
@@ -84,13 +84,14 @@ ht-degree: 3%
 * 您必须在Workfront实例中设置Workfront和Frame.io集成。 有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)。
 * 若要查看Web链接文档，需要安装[Frame.io Chrome扩展](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)。 如果未安装，则当您第一次在Workfront中打开Web链接文档的Frame.io查看器时，系统会提示您下载它。
 
+
 ## 审阅文档
 
 作为审阅人，您可以向资源添加注释和标记资源。 完成后，您可以在Workfront中将审核标记为完成。 资产无需在审批流程中继续前进，即可将审核标记为完成。
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
@@ -112,7 +113,7 @@ ht-degree: 3%
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
@@ -135,3 +136,28 @@ ht-degree: 3%
    有关Workfront中决策的详细信息，请参阅[文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
 
    ![帧查看器和决策](assets/make-decision-frame.png)
+
+## 查看Web链接
+
+如果文档是实时Web URL，则可以在Frame.io查看器中查看该页面，并直接在页面上提供反馈。
+
+1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
+或
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
+
+   >[!NOTE]
+   > 
+   >您可能需要将我的审批构件添加到您的主页。 有关详细信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
+
+1. 在Frame.io中，打开Web链接文档。 如果出现提示，请安装[Frame.io Chrome扩展](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)，以便您可以查看页面，捕获URL的当前状态。
+
+1. 使用查看器直接在页面上添加注释、批注等。
+
+1. 查看完Web链接文档后，可以在Frame.io查看器中选择以下决策之一：
+
+   * **批准**：该资产不需要更改，可以随时使用。
+   * **需要工作**：该资产需要更改，并且未准备就绪。 完成指定的更改后，必须将资源上传为新版本，并经过另一轮批准。 有关详细信息，请参阅[上传新文档版本并请求审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)。<!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   作出决定后，将通过电子邮件通知文档所有者。
+
+有关查看和审阅实时Web URL的详细说明，包括支持的URL、浏览器扩展要求和注释选项，请参阅[HTML对Frame.io的审阅](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)。

@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 5e37582fe161e1a4689c35773cb1b3f6ead5a859
+source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 5%
 ---
 # 将Web链接添加为文档
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 ## 将Web链接添加为文档
 
-您可以将html网页作为Web链接上传到Workfront。 添加后，您可以像请求审批已上传文件一样请求审批实时网页。 有关Frame.io如何处理Web链接的更多信息，请参阅[Frame.io Web链接](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links)。
+您可以将html网页作为Web链接上传到Workfront。 添加后，您可以像请求审批已上传文件一样请求审批实时网页。 有关Frame.io如何处理Web链接的更多信息，请参阅[Frame.io Web链接](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)。
 
 <!--
 >[!IMPORTANT]
