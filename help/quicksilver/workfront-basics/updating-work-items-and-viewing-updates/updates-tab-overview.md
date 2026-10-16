@@ -27,23 +27,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 4%
+source-wordcount: '1313'
+ht-degree: 3%
 ---
 # 更新部分概述
 
 <!-- Audited: 1/2024 -->
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 对象的“更新”部分显示用户对对象所做的注释或跟踪对象更改的系统更新。
 
@@ -149,17 +144,16 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。
 
-  <!--
   <div class="preview">
 
-  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+  * **已固定的线程**：已固定的顶级注释显示在“注释”选项卡的“已固定的线程”部分下。
 
-    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+    您只能在具有“更新”部分的对象的“注释”选项卡上固定螺纹。 您无法在Workfront的其他区域（如展示板或主页）中固定线程。
 
   </div>
-  -->
 
   有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+
 * **系统活动**：显示系统更新，这些更新是Workfront为记录对象上的特定事件而创建的信息性消息。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。 有关详细信息，请参阅[配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
@@ -383,4 +377,4 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 * 如果在项目过程中优先级发生了更改
 * 如果项目所有者已更改
 
-有关详细信息，请参阅日志条目报告[&#128279;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的更新区域报告。
+有关详细信息，请参阅日志条目报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。

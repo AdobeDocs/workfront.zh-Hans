@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '174'
 ht-degree: 0%
 ---
 
@@ -38,6 +38,6 @@ Adobe Workfront Planning现在提供了一项可在启动营销活动之前进�
 * [Adobe Workfront规划构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 * [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [从构思空间摘要创建Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [从构思空间摘要创建或编辑Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
 * [与他人共享构思空间](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 

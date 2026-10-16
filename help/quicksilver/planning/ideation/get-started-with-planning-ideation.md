@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 
@@ -45,17 +45,28 @@ Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workf
 
 该创意空间只能通过Workfront Planning或Workfront主菜单访问，它位于活动生命周期的最前面，处于计划、生产和交付之前，并直接馈送到Workfront Planning工作区，团队可在其中规划和执行其工作。
 
+构思空间利用Enterprise CX Coworker生成简报，以便稍后转换为Planning记录或下载为PDF。
+
 ## 产品可用性
 
 创意空间的计划发布时间表可能会发生更改，其中包括以下里程碑：
 
-* **已关闭的Beta：**&#x200B;于2026年7月启动，客户数量较少。
-* **打开Beta：**，目标日期为2026年10月。 这将是一种选择加入服务，客户必须主动打开并配置该选项，而不是主动选择退出。
-* **正式发布：**&#x200B;预定在2026年下半年晚些时候发布。
+* 面向少量客户的&#x200B;**已关闭的Beta：**&#x200B;已于2026年7月推出。
+* **打开Beta：**，目标日期为2026年11月。 这将是一种选择加入服务，客户必须主动打开并配置该选项，而不是主动选择退出。
+* **正式发布：**&#x200B;目标为2027年。
 
 ## 产品要求
 
-如果您的组织和您有权访问以下包，则可以访问构思空间，具体取决于您何时访问构思空间：
+如果您的组织和您有权访问以下产品，则可以访问创意空间：
+
+* Adobe Workfront与Workfront Planning
+* 企业CX Coworker
+
+  >[!IMPORTANT]
+  >
+  >CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI Assistant可供这些组织使用，但构思空间不可用于没有CX Coworker的Workfront客户。
+
+根据您何时访问创意空间，您必须有权访问以下包：
 
 * 在发布Open Beta时，您必须具备以下条件：
 
@@ -68,13 +79,13 @@ Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workf
 
 >[!NOTE]
 >
->只能从Adobe Workfront主菜单或Workfront Planning访问构思空间。 您无需单独登录即可访问创意空间。 如果您可以登录到Workfront，则它立即可用。
+>只能从Workfront主菜单或Workfront Planning访问构思空间。 您无需单独登录即可访问创意空间。 如果您可以登录到Workfront，则它立即可用。
+
+有关使用构思空间所需访问权限的详细信息，请参阅[使用构思空间所需访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
-
-有关使用构思空间所需访问权限的详细信息，请参阅[使用构思空间所需访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
 <!--
 No longer required or recommended, per Et:
@@ -120,20 +131,6 @@ Too much:
   * 例如，您可以在启动无直接营销活动历史记录的新产品、区段或计划时创建营销活动。
   * 这通过引导思想、建议的渠道组合以及初始概念或报文方向产生了一个全新的简报。
 
-## 获取对构思空间的访问权限
-
-要获得对构思空间的访问权限，可以执行以下操作：
-
-1. 按照本文的[产品要求](#product-requirements)部分所述，验证您是否满足产品要求。
-1. 请联系您的Adobe客户代表，以表示有兴趣参与封闭Beta或加入开放Beta轮候表。
-1. 识别您的第一个活动：要刷新的最近活动，或从头开始创建的新计划。
-
-有关使用构思空间的更多信息，另请参阅以下文章：
-
-* [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [从构思空间简报创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
 ## 构思空间概述
 
 构思空间是一个协作式的战略营销构思工具，适用于品牌和产品营销人员，以更快地构建更强大的营销活动并更好地协调团队。 它将AI建议置于实际营销环境中 — 过去的摘要、性能数据、受众见解、品牌指南和现有的营销活动资产 — 因此结果相关，而不是通用。
@@ -155,9 +152,49 @@ Too much:
   * **在完成**&#x200B;前进行验证。 AI生成的响应可能不准确，因此始终检查卡片上的&#x200B;**源**&#x200B;并根据链接的源进行确认，然后再最终确定记录。
   * **将AI卡与真实记录混合**。 将实际记录拖放到构思空间中。
 
-## Adobe CX Enterprise Coworker中可用的构思空间
+## 获取对构思空间的访问权限
 
-构思空间还通过Adobe的CX Enterprise Coworker支持对话式的来回模式。
+要访问构思空间，请执行以下操作：
+
+1. 按照本文的[产品要求](#product-requirements)部分所述，验证您是否满足产品要求。
+1. 请联系您的Adobe客户代表以表示有兴趣参与封闭Beta，或在开放Beta可用时加入它。
+1. （推荐）确定您的第一个活动：要刷新的最近活动，或从头开始创建的新计划。
+
+有关使用构思空间的更多信息，另请参阅以下文章：
+
+* [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* [从构思空间简报创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+
+## 找到构思空间
+
+在确保您有权访问配置的正确产品、包以及系统和访问级别后，您可以在Workfront的以下区域中找到构思空间：
+
+* 在Workfront Planning中手动添加新记录时
+
+  计划中的![构思空间](assets/ideation-space-in-planning-new-record.png)
+* 在Workfront主菜单中，通过打开构思空间区域
+
+  主菜单中的![构思空间区域](assets/ideation-space-area-icon-in-main-menu.png)
+
+  >[!TIP]
+  >
+  >无法使用布局模板从主菜单中删除创意空间区域。 如果您希望用户无权访问创意力空间，则必须在其访问级别中打开禁用创意力空间设置，如使用创意力空间所需的[访问](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)中所述。
+
+## 构思空间生成的对象
+
+您可以使用构思空间集思并形成构思，以便稍后将其转换为对您的工作流很重要的项目。
+
+构思空间从内部或外部(Web)来源获取您的所有想法和信息并创建摘要。 确定摘要完成之后，可以将其导出到以下文件或对象：
+
+* 以下文件格式之一：PDF、Word、PowerPoint、Powerpoint模板
+* 计划记录
+
+  仅当从Workfront Planning访问构思空间或先前将Planning记录连接到构思摘要时，才能将摘要导出到Planning记录。
+
+## 构思空间与Adobe CX Enterprise Coworker
+
+构思空间使用Adobe的CX Enterprise Coworker作为提示界面。
 
 用户可以提出后续问题，并以简短的话语形式进行细化，而不是只获得一次性的结果。
 
@@ -200,10 +237,10 @@ Worth noting
 
 ## 其他资源
 
-* [Adobe Workfront促销活动计划](https://business.adobe.com/cn/products/workfront/campaign-planning.html)
+* [Adobe Workfront促销活动计划](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront规划文档](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概述](https://business.adobe.com/cn/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/cn/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概述](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
