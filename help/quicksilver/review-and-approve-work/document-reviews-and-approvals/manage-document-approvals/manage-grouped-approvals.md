@@ -5,13 +5,15 @@ title: 管理分组的批准
 description: 您可以添加或删除分组审批中的参与者和文档，而不会中断组内其他成员的工作流。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1062'
 ht-degree: 2%
 ---
 
 # 管理分组的批准
+
+<span class="preview">此页面上的信息在“预览沙盒”环境中不可用，因为Frame.io集成在该环境中不可用。 此功能将于2026年10月22日在生产环境中可用。</span>
 
 分组审批在单个审批工作流下捆绑了多个文档，因此所有文档一起移动经过相同的阶段，而不是要求每个文档单独审批。 您可以添加或删除活动分组审批中的参与者和文档，而无需重新创建工作流。
 

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 419333f9f33ff06ed2ef4a8450f058ab74198587
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >预览：此功能在“预览沙盒”环境中不可用，因为Frame.io集成在那里不可用。
->生产快速发布： 2026年10月15日
->适用于所有人的生产： 2026年10月15日
+>生产快速发布： 2026年10月22日
+>为每个人生产： 2026年10月22日
 
 现在，您可以在单个审批工作流下对多个文档进行分组，以便它们一起经过相同的阶段。
 
