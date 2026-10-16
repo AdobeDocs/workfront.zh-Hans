@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '721'
 ht-degree: 1%
 ---
 # 准备将您的组织载入Adobe Admin Console
@@ -70,7 +70,7 @@ ht-degree: 1%
    >
    >请准备好与Workfront支持人员和您的IT团队就身份验证首选项(例如单点登录(SSO)或非SSO)进行交谈。
 
-   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/cn/enterprise/using/deployment-planning.html)的Identity Management部分。
+   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html)的Identity Management部分。
 
 1. （视情况而定）如果使用单点登录，请将新的Adobe Admin Console连接到您现有的SSO提供商。
 
@@ -100,13 +100,15 @@ ht-degree: 1%
    >
    >在贵组织开始迁移到Adobe Admin Console之前，必须完成这些有关用户电子邮件的操作。
 
-1. （可选）更新所有自定义集成以使用OAuth2。
+1. （可选）更新所有自定义集成以使用Adobe Developer Console身份验证。
 
-   有关设置OAuth2集成的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)。
+   有关迁移旧版Workfront OAuth2集成的信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
+
+   有关身份验证指南，请参阅[Adobe Developer Console身份验证概述](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
 
    >[!NOTE]
    >
-   >此步骤是可选的，但强烈建议您执行此步骤，因为未来将弃用其他形式的API身份验证和授权。
+   >此步骤是可选的，但强烈建议您执行此步骤。 Workfront自定义OAuth2应用程序在2026年11月1日之后无法再创建，并且现有自定义OAuth2应用程序在2027年2月1日停止工作。
 
 使用Workfront配置Adobe Admin Console后，您可以用它来创建Workfront系统管理员。
 

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2235'
 ht-degree: 2%
 ---
 # Adobe Workfront规划API基础知识
@@ -67,9 +67,7 @@ Workfront计划API使用OAuth 2.0进行身份验证。 凭据通过Adobe Develop
 
 要开始配置，请在Adobe Developer Console中创建一个项目，然后添加Workfront规划API以获取凭据。
 
-要设置凭据，请在Workfront中创建OAuth2应用程序。
-
-有关信息，请参阅[为Workfront集成创建OAuth2应用程序](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)。
+有关身份验证指南，请参阅[Adobe Developer Console身份验证概述](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
 
 >[!NOTE]
 >
@@ -458,7 +456,7 @@ Planning API支持在单个请求中批量创建、更新、修补和删除记�
 * [Workfront Planning API](https://developer.adobe.com/wf-planning)开发人员文档和参考
 * [Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)
-* [为Workfront集成创建OAuth2应用程序](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Adobe Developer Console身份验证概述](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 

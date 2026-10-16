@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '4561'
+source-wordcount: '4407'
 ht-degree: 0%
 ---
 # API 基础知识
@@ -112,7 +112,7 @@ GET /attask/api/<supported-version>/proj/4c7c08b20000002de5ca1ebc19edf2d5
 返回类似于以下内容的JSON响应：
 
 
-<pre>&lbrace;<br>“数据”： [<br> {<br> "percentComplete"： 0，<br> "状态"： "CUR"，<br> "priority"： 2，<br> "name"： "Brand New Project"，<br> "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br> } <br> ] <br></pre>
+<pre>{<br>“数据”： [<br> {<br> "percentComplete"： 0，<br> "状态"： "CUR"，<br> "priority"： 2，<br> "name"： "Brand New Project"，<br> "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
@@ -150,16 +150,18 @@ SessionID: abc1234
 
 >[!IMPORTANT]
 >
->Workfront不再建议使用`/login`端点或API密钥。 请改用以下身份验证方法之一：
+>Workfront不再建议将API密钥用于新集成。 请改用Adobe Developer Console身份验证：
 >
->* 使用JWT进行服务器身份验证
->* 使用OAuth2进行用户身份验证
+>* 服务器到服务器身份验证
+>* 用户身份验证
 >
->有关设置这些身份验证方法的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>目前API密钥可继续使用，但Adobe建议围绕Adobe Developer Console身份验证规划新的集成。
 >
->有关在Workfront中使用服务器身份验证的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)
+>Workfront的旧版自定义OAuth2服务即将停用。 2026年11月1日之后无法再创建新的自定义OAuth2应用程序，并且现有自定义OAuth2应用程序于2027年2月1日停止工作。
 >
->有关在Workfront中使用用户身份验证的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)
+>有关身份验证指南，请参阅[Adobe Developer Console身份验证概述](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
+>
+>有关迁移信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 >[!NOTE]
 >
@@ -167,53 +169,9 @@ SessionID: abc1234
 >
 >有关因贵组织是否已载入Adobe业务平台而不同的过程列表，请参阅[Adobe Workfront与Adobe业务平台之间的管理差异](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
-使用有效的用户名和密码，您可以使用以下请求获取会话ID：
+不应再将`/login`端点和基于API密钥的登录的旧版示例用于新集成。
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-这将设置一个Cookie以对未来的请求进行身份验证，并返回具有新创建的会话ID、登录用户的用户ID和其他会话属性的JSON响应。
-
->[!NOTE]
->
->如果您指定的API用户也是管理员，Workfront强烈建议您使用API密钥进行登录。
-
-**生成API密钥**
-
-您可以以该用户身份登录系统时生成API密钥，如以下示例所示：
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**检索先前生成的API密钥**
-
-您还可以通过运行getApiKey检索之前为特定用户生成的API密钥：
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-然后，您可以使用此结果通过添加“apiKey”作为请求参数来验证任何API调用，使用该值替换sessionID或用户名和密码。 从安全角度来看，这是有益的。
-
-以下请求是使用apiKey从项目检索数据的示例：
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**使API密钥失效**
-
-如果apiKey值已泄漏，您可以运行“clearApiKey”，以使当前API密钥失效，如以下示例所示：
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-清除后，您可以再次运行getApiKey以生成新的API密钥。
+对于当前的身份验证指南，请使用Adobe Developer Console身份验证。 有关从旧版Workfront OAuth2应用程序迁移的详细信息，请参阅[从Workfront OAuth2迁移到Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 ### 注销
 
@@ -348,7 +306,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 您可以使用字段请求参数指定返回的特定字段的逗号分隔列表。 例如，请求
 <pre>/attask/api/&lt;supported-version&gt;/task/search？fields=plannedStartDate，priority</pre>返回类似于以下内容的响应：
-<pre>&lbrace;<br>“优先级”： 2，<br>“名称”：“第一个任务”，<br>“ID”：“4c7c08fa0000002ff924e298ee148df4”，<br>“plannedStartDate”：“2010-08-30T09:00:00:000-0600”<br></pre>
+<pre>{<br>“优先级”： 2，<br>“名称”：“第一个任务”，<br>“ID”：“4c7c08fa0000002ff924e298ee148df4”，<br>“plannedStartDate”：“2010-08-30T09:00:00:000-0600”<br></pre>
 
 >[!NOTE]
 >
@@ -361,7 +319,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 可以搜索嵌套对象。 默认情况下，返回嵌套对象时只包含名称和ID。 例如，要了解所有问题及其所有者，请使用以下请求：
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner</pre>如果需要更多信息，您可以使用冒号语法请求嵌套字段。 例如，以下请求搜索所有问题以及所有者的姓名、ID、职务和电话号码
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner：title，owner：phoneNumber</pre>并返回以下内容： 
-<pre>&lbrace;<br> “名称”： “重要问题”，<br> “ID”： “4c78285f00000908ea8cfd66e084939f”，<br> “所有者”： &lbrace;<br> “标题”： “操作专员”，<br> “电话号码”： “555-1234”，<br> “名称”： “管理员用户”，<br> “ID”： “4c76ed7a0000054c172b2d9f7f81c3” <br> <br></pre>
+<pre>{<br> “名称”： “重要问题”，<br> “ID”： “4c78285f00000908ea8cfd66e084939f”，<br> “所有者”： {<br> “标题”： “操作专员”，<br> “电话号码”： “555-1234”，<br> “名称”： “管理员用户”，<br> “ID”： “4c76ed7a0000054c172b2d9f7f81c3” <br> <br></pre>
 
 #### 检索嵌套收藏集
 
@@ -380,7 +338,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 <pre>/attask/api/&lt;受支持的版本&gt;/project/search？fields=DE：CustomText</pre>会返回
 <pre>{<br> "name"： "custom data project"，<br> "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br> "DE：CustomText"： "task b" <br>}</pre>您还可以通过请求parameterValues字段来检索对象的所有自定义数据。 例如， 
 <pre>/attask/api/&lt;受支持的版本&gt;/project/search？fields=parameterValues</pre>返回类似于以下内容的数据：
-<pre>{<br> "name"： "custom data project"，<br> "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>参数值： { <br> "DE：CustomText"： "task b"， <br> "DE：CustomNumber"： 1.4， <br> "DE：CustomCheckBoxes"： ["first"， "second"， "third"] <br> } <br>}&rbrace;</pre>
+<pre>{<br> "name"： "custom data project"，<br> "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>参数值： { <br> "DE：CustomText"： "task b"， <br> "DE：CustomNumber"： 1.4， <br> "DE：CustomCheckBoxes"： ["first"， "second"， "third"] <br> } <br>}}</pre>
 
 #### 使用命名查询
 
@@ -506,7 +464,7 @@ POST /attask/api/<supported-version>/project?copySourceID=4c7...&name=Copied Pro
 您可以通过以下API URL上传文档：
 <pre>POST /attask/api/&lt;supported-version&gt;/upload</pre>API要求内容类型是multipart/form-data。 文件的参数名称必须是uploadedFile。 服务器返回以下JSON数据：
 <pre>{<br> "handle"： "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>创建Workfront文档时，您可以使用句柄并发布到以下URL：
-<pre>POST /attask/api/&lt;supported-version&gt;/document？updates=&lbrace;<br>名称： aFileName，<br>句柄： abc...123，（文件上载的句柄）<br> docObjCode： PROJ，（或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，文件名：aFileName}<br></pre>
+<pre>POST /attask/api/&lt;supported-version&gt;/document？updates={<br>名称： aFileName，<br>句柄： abc...123，（文件上载的句柄）<br> docObjCode： PROJ，（或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，文件名：aFileName}<br></pre>
 
 ## PUT行为
 
@@ -554,7 +512,7 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 
 以下示例演示了与团队共享项目的语法：
 <pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx/share？accessorID=123abcxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>在编辑对象时，可以通过执行PUT并发送类似于以下示例的更新来替换对象上的所有访问规则：
-<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxx？method=PUT&amp;updates=&lbrace;accessRules：[{accessorID：'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx'，accessorObjCode：'TEAMOB'，coreAction：'VIEW'}]</pre>以下示例显示了将任务从一个项目移动到另一个项目的语法：
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxx？method=PUT&amp;updates={accessRules：[{accessorID：'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx'，accessorObjCode：'TEAMOB'，coreAction：'VIEW'}]</pre>以下示例显示了将任务从一个项目移动到另一个项目的语法：
 <pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7.../move？projectID=5d8...</pre>
 
 ## DELETE行为
@@ -566,9 +524,9 @@ DELETE删除对象。 在每种情况下，URI都可以包含参数force=true �
 
 批量更新语句在单次API调用中同时更新多个对象。 批量创建API调用的构建方式与普通更新调用类似，如以下示例所示：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>或 <pre>PUSH /attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名称： "Test_Project_1"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:12:00:000-0400"，<br>状态： "CUR"<br>}，<br>&lbrace;<br> ID： “53ff8d49003b43a2562aa34eea3b6b10”，<br>名称：“Test_Project_2”，<br>对象代码：“PROJ”，<br>完成百分比： 0usi，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期“2014-08-28T11:00:00:000-0400”，<br>优先级： 0，<br>预计完成日期：“2014-08-28T16:12:00:000-0400”，<br>状态：“CUR”<br>]</pre>您还可以执行与以下内容类似的批量更新：
+<pre>数据： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名称： "Test_Project_1"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:12:00:000-0400"，<br>状态： "CUR"<br>}，<br>{<br> ID： “53ff8d49003b43a2562aa34eea3b6b10”，<br>名称：“Test_Project_2”，<br>对象代码：“PROJ”，<br>完成百分比： 0usi，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期“2014-08-28T11:00:00:000-0400”，<br>优先级： 0，<br>预计完成日期：“2014-08-28T16:12:00:000-0400”，<br>状态：“CUR”<br>]</pre>您还可以执行与以下内容类似的批量更新：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名称： "Test_Project_1_Edit"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br>计划开始日期： “2014-08-28T11:00:00:000-0400”，<br>优先级：0，<br>预计完成日期：“2014-08-28T16:16:00:000-0400”，<br>状态：“CUR”<br>}，<br>&lbrace;<br> ID： “53ff8e19003b46238a58d303608de502”，<br>名称：“Test_Project_2_Edit”，<br>对象代码：“PROJ”，<br>完成百分比： 0，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期：“2018” t11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:16:00:000-0400"，<br>状态： "CUR"<br>]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
+<pre>数据： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名称： "Test_Project_1_Edit"，<br>对象代码： "PROJ"，<br>完成百分比： 0，<br>计划完成日期： "2014-08-28T11:00:00:000-0400"，<br>计划开始日期： “2014-08-28T11:00:00:000-0400”，<br>优先级：0，<br>预计完成日期：“2014-08-28T16:16:00:000-0400”，<br>状态：“CUR”<br>}，<br>{<br> ID： “53ff8e19003b46238a58d303608de502”，<br>名称：“Test_Project_2_Edit”，<br>对象代码：“PROJ”，<br>完成百分比： 0，<br>计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>计划开始日期：“2018” t11:00:00:000-0400"，<br>优先级： 0，<br>预计完成日期： "2014-08-28T16:16:00:000-0400"，<br>状态： "CUR"<br>]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
 
 >[!NOTE]
 >
