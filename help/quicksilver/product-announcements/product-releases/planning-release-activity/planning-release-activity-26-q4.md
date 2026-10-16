@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3261'
 ht-degree: 0%
@@ -66,7 +66,7 @@ GenStudio for Performance Marketing Activations records now include an optional 
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -82,7 +82,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >预览：2026年10月1日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 所有Planning视图中的多值筛选器运算符已更新为“为任何”和“不为”，而不是“具有任何”和“没有为”，这在Workfront筛选器生成器中为您提供了更清晰、更一致的措辞。
@@ -96,7 +96,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >预览：2026年10月1日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 我们在表格视图中为其他字段类型引入了聚合器。 在此增强功能之前，只有与数字相关的字段会在列底部显示汇总。
@@ -118,7 +118,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >预览：2026年10月1日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 Workspace创建者当前被分配为默认所有者。 通过此更新，工作区管理员可以从共享对话框将所有权转移给另一个标准许可证用户。
@@ -132,7 +132,7 @@ Workspace创建者当前被分配为默认所有者。 通过此更新，工作�
 >[!NOTE]
 >
 >预览：2026年10月1日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 您现在可以在时间轴视图中排序记录和分组。 在此增强功能之前，此功能不可用。
@@ -144,7 +144,7 @@ Workspace创建者当前被分配为默认所有者。 通过此更新，工作�
 >[!NOTE]
 >
 >预览： 2026年9月25日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 Workspace经理现在可以控制对单个字段的访问，允许特定用户和团队查看、编辑或完全限制使用同一记录类型中的敏感数据。
@@ -160,7 +160,7 @@ Workspace经理现在可以控制对单个字段的访问，允许特定用户�
 >[!NOTE]
 >
 >预览： 2026年9月25日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 您现在可以从新请求体验的请求区域与他人共享Planning请求。
@@ -174,7 +174,7 @@ Workspace经理现在可以控制对单个字段的访问，允许特定用户�
 >[!NOTE]
 >
 >预览： 2026年9月25日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 Workspace管理员现在可以为每个Planning请求表单构建单阶段或多阶段审批流程，为每个阶段分配一个或多个审批人或团队，并重用现有审批模板以加快设置。 一旦阶段中所有必需的审批者都签核，请求就会自动前进，当请求到达阶段时，系统会通知每个审批者。 请求者和批准者可以跟踪请求处于哪个阶段，并查看哪些批准仍在等待中。
@@ -186,7 +186,7 @@ Workspace管理员现在可以为每个Planning请求表单构建单阶段或多
 >[!NOTE]
 >
 >预览： 2026年9月25日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 您现在可以根据连接字段值在Planning请求表单中创建高级显示逻辑，以便表单适应请求者选择的内容。 构建此逻辑时，支持所有Planning字段，包括连接字段。
@@ -200,7 +200,7 @@ Workspace管理员现在可以为每个Planning请求表单构建单阶段或多
 >[!NOTE]
 >
 >预览： 2026年9月25日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 Workfront和工作区管理员现在可以指示请求者在配置请求表单时，其针对请求接收的权限级别。
@@ -266,7 +266,7 @@ CX Enterprise Coworker Chat是一个用于完成工作的对话界面。 用简�
 >[!NOTE]
 >
 >预览： 2026年9月17日
->生产快速发布： 2026年10月14日
+>生产快速发布： 2026年10月22日
 >为每个人生产： 2026年10月22日
 
 现在，即使存在一对一或一对多连接的记录，也可以复制记录。 复制后，用户可以选择将连接的记录保留在原始记录上，或将其连接到新记录上。 “保留原始”是默认选项。
