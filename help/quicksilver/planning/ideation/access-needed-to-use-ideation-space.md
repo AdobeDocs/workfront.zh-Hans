@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning现在提供了一项可在启动营销活动之前进行构思的额外功能。 利用AI的强大功能将数据及直接输入转换为实际的计划，并为团队提供一个有根据的起点，而不是带Adobe Ideation空间的空白页。
+Adobe Workfront Planning现在提供了一项可在启动营销活动之前进行构思的额外功能。
+
+使用创意空间时，您可以利用Adobe Enterprise CX Coworker对话功能将数据及直接输入转换为实际的计划，并为团队提供一个有根据的起点，而不是空白页。
 
 本文介绍了要从Workfront Planning访问构思空间必须具有的访问权限和权限。
 
@@ -42,10 +44,14 @@ Adobe Workfront Planning现在提供了一项可在启动营销活动之前进�
 
 ## 产品要求
 
-
 构思空间不是独立的产品，而是Adobe Workfront Planning的附加功能。
 
-如果您的组织和您有权访问以下包，则可以访问构思空间，具体取决于您何时访问构思空间：
+如果您的组织和您有权访问以下产品，则可以访问创意空间：
+
+* Adobe Workfront与Workfront Planning
+* 企业CX Coworker
+
+根据您何时访问创意空间，您必须有权访问以下包：
 
 * 在发布Open Beta时，您必须具备以下条件：
 
@@ -56,11 +62,12 @@ Adobe Workfront Planning现在提供了一项可在启动营销活动之前进�
   * 包含Workfront规划包的Adobe Workfront工作流包
   * Adobe Workfront计划作为独立产品
 
-有关构思空间发行阶段的信息，请参阅[Adobe Workfront规划构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
-
 >[!NOTE]
 >
->只能从Adobe Workfront主菜单或Workfront Planning访问构思空间。 您无需单独登录即可访问创意空间。 如果您可以登录到Workfront，则它立即可用。
+>只能从Workfront主菜单或Workfront Planning访问构思空间。 您无需单独登录即可访问创意空间。 如果您可以登录到Workfront，则它立即可用。
+
+有关构思空间发行阶段的信息，请参阅[Adobe Workfront规划构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
+
 
 <!--
 No longer the case: 
@@ -82,23 +89,45 @@ Your organization must purchase a package for the following products to access t
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
-## Workfront Planning访问级别要求
+## 系统和访问级别要求
 
-在Workfront中配置创意空间访问。
+通过打开系统级别设置和访问级别设置的组合，可在Workfront中配置创意空间访问。
 
-要访问构思空间，您的Workfront访问级别必须包括以下内容：
+需要以下设置才能访问Workfront中的构思空间：
+
+* 在设置<!--check the UI because Becky was going to change it-->的“系统首选项”区域中打开同事和MCP首选项设置
+
+  有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+  >[!IMPORTANT]
+  >
+  >CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。 但是，构思空间不适用于没有CX Coworker的Workfront客户。
+
+* 在访问级别的“设置其他限制”部分中，取消选择“禁用构思空间”设置。
+
+  >[!TIP]
+  >
+  >作为Workfront管理员，您可以通过取消选择某些用户访问级别中的“禁用构思空间”设置，来限制这些用户访问构思空间。
+
+  有关信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+## 许可证要求
+
+您的Workfront访问级别必须包括以下许可证类型才能访问创意空间：
 
 * 标准工作流许可证，贵公司在该许可证中购买的除Planning包之外的Workflow包。
-* Standard Planning许可证（当您的公司与Workflow和Planning包一起购买时），或Workfront Planning作为独立产品购买时。
-* 必须取消选择访问级别的“设置其他限制”部分中的“禁用构思空间”设置。<!--***********check the UI for this***********-->
+* Standard Planning许可证（贵公司购买以下产品之一时）：
 
-## Workfront Planning权限要求
+  * Beta版开放测试期间，提供工作流和计划包
+  * 正式发布后，将Workflow和Planning包或Workfront Planning作为独立产品发布。
 
-每条Planning记录都与Ideation space中的一个摘要相连。
+## Workfront权限要求
+
+当您使用Workfront Planning中的构思空间时，每个Planning记录都连接到构思空间中的一个摘要。
 
 构思空间摘要权限继承自Workfront Planning记录权限。<!--not sure if this is right, because now you can share the ideation with others??-->
 
-您必须对Planning中的记录类型具有“管理”权限才能创建记录，以便在创意空间中创建或编辑记录。
+您必须对Planning中的记录类型具有Contribute或更高权限才能创建记录，以便在创意空间中创建或编辑记录。
 
 对记录具有“查看”权限的Planning用户可以查看记录的构思空间。
 
@@ -106,7 +135,7 @@ Your organization must purchase a package for the following products to access t
 
 | 规划记录级别权限 | 构思空间简要级别权限 |
 |---|---|
-| 管理记录的权限 | 可以在记录的构思空间中创建摘要 |
+| 记录的Contribute或更高权限 | 可以在记录的构思空间中创建摘要 |
 | 查看记录的权限 | 可以在构思空间中读取该记录的摘要，但不能对其进行修改 |
 
 ## 构思空间权限

@@ -5,15 +5,15 @@ title: 创建分组审批
 description: 您可以将多个文档捆绑到单个审批工作流中，以便它们一起在相同的阶段中移动。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1186'
 ht-degree: 1%
 ---
 
 # 创建分组审批
 
-<span class="preview">此页面上的信息在“预览沙盒”环境中不可用，因为Frame.io集成在该环境中不可用。 此功能将于2026年10月14日和15日在生产环境中可用。</span>
+<span class="preview">此页面上的信息在“预览沙盒”环境中不可用，因为Frame.io集成在该环境中不可用。 此功能将于2026年10月22日在生产环境中可用。</span>
 
 分组的审批在单个审批工作流下捆绑了多个文档。 您可以使用基本和高级模式、多个阶段以及具有分组审批的并行路径，就像处理单个文档审批一样。
 

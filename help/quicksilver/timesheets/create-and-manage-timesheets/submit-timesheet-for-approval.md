@@ -9,24 +9,30 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '821'
 ht-degree: 2%
-
 ---
-
 # 提交工时表以供审批
 
 <!--Audited: 8/2024-->
@@ -80,7 +86,7 @@ ht-degree: 2%
 1. 记录时间，如[记录时间](../../timesheets/create-and-manage-timesheets/log-time.md)中所述。
 1. 单击&#x200B;**提交以供审批**&#x200B;以启动时间表审批流程。
 
-   ![提交以供审批按钮](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![提交以供审批按钮](assets/submit-for-approval-button-on-timesheet.png)
 
    **提交以供审批**&#x200B;按钮已由&#x200B;**批准**、**拒绝**&#x200B;和&#x200B;**撤消**&#x200B;按钮替换。 时间表状态更改为&#x200B;**已提交**。
 
@@ -103,23 +109,21 @@ ht-degree: 2%
 
 {{step1-to-timesheets}}
 
-默认情况下已选择&#x200B;**所有**&#x200B;筛选器。
+默认情况下，将显示您有权查看的所有时间表。
 
-![已选择一个时间表的时间表列表](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![时间表列表](assets/list-of-all-timesheets.png)
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
-   * 选择页面右上角的&#x200B;**我的工时表批准**&#x200B;以仅查看您批准的时间表
+   * 选择页面右上角的&#x200B;**我的工时表批准**&#x200B;以仅查看您批准的时间表，
 
      或
 
      选择&#x200B;**我的时间表**&#x200B;以仅查看您的时间表。
 
-     这会将我的时间表批准或我的时间表过滤器应用到时间表列表。
+     这会将&#x200B;**我的工时表批准**&#x200B;或&#x200B;**我的工时表**&#x200B;筛选器应用到工时表列表。
 
-     ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * 单击“筛选器”图标![筛选器图标](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)以应用筛选器或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
@@ -127,34 +131,14 @@ ht-degree: 2%
 
 1. （视情况而定）如果您选择&#x200B;**我的时间表**，请确保应用&#x200B;**标准**&#x200B;视图，并注意&#x200B;**状态**&#x200B;列。
 
-   时间表可能具有以下状态：
+   时间表可以具有以下状态：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Open</td> 
-      <td> <p>您的时间表当前处于打开状态，您可以记录时间。 </p> <p>撤回的工时表显示为“未结”状态。 有关信息，请参阅本文中的<a href="#recall-a-timesheet" class="MCXref xref">撤回时间表</a>部分。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">已提交</td> 
-      <td>您已提交时间表以供审批，但尚未获得批准。 您可以撤回已提交的时间表以继续编辑它。 有关信息，请参阅本文中的<a href="#recall-a-timesheet" class="MCXref xref">撤回时间表</a>部分。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">已关闭</td> 
-      <td> <p>存在以下情况：</p> 
-       <ul> 
-        <li> <p>如果时间表没有审批者，则您节省了时间并将其关闭。</p> </li> 
-        <li> <p>如果时间表有批准者，则表示您已提交该时间表进行批准并已获得批准。</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">被拒绝</td> 
-      <td>您已提交时间表进行审批，批准者拒绝了它。</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | 状态 | 描述 |
+   | --------- | ---------- |
+   | Open | <p>您的时间表当前处于打开状态，您可以记录时间。</p><p>撤回的工时表显示为“未结”状态。 有关信息，请参阅本文中的[撤回时间表](#recall-a-timesheet)部分。</p> |
+   | 已提交 | 您已提交时间表以供审批，但尚未获得批准。 您可以撤回已提交的时间表以继续编辑它。 有关信息，请参阅本文中的[撤回时间表](#recall-a-timesheet)部分。 |
+   | 已关闭 | <p>存在以下情况：</p><ul><li>如果时间表没有审批者，则您节省了时间并将其关闭。</li><li>如果时间表有批准者，则表示您已提交该时间表进行批准并已获得批准。</li></ul> |
+   | 被拒绝 | 您已提交时间表进行审批，批准者拒绝了它。 |
 
 ## 撤回时间表 {#recall-a-timesheet}
 

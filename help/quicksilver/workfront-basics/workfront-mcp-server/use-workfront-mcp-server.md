@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Workfront MCP服务器仅显示您的组织有权使用的工具。
 * *获取分配给Joan Harris的所有任务。*
 * *在“技术”类别下显示“网站重新设计”项目中的所有问题。*
 
-### 创建新项目
+### 创建项目
 
 要创建项目、任务或其他Workfront项，请询问：
 
@@ -134,9 +134,14 @@ Workfront MCP服务器仅显示您的组织有权使用的工具。
 
 要管理计划记录，请询问：
 
-* *为品牌营销团队创建一个名为“Q2营销计划”的新计划记录。*
-* *将名为“社交媒体审核”的新任务添加到计划记录中。*
-* *更新“社交媒体审核”任务，使其在4月18日完成，并将其分配给创意团队。*
+* *为品牌营销团队创建名为“Q2营销计划”的计划记录。*
+* *将名为“社交媒体审核”的新项目添加到规划记录。*
+* *更新“社交媒体审核”项目，使其在4月18日完成，并将其任务分配给Creative团队。*
+<!--
+* *Create / update / fix a business rule*
+* *Add a validation rule to a business rule*
+* *List the business rules on record type "X"*
+-->
 
 ### 使用工作流
 
@@ -261,31 +266,22 @@ you undo an action, you can't undo it through the AI agentic platform either.
 
 ### 为什么AI代理平台返回错误的Workfront项目？
 
-AI代理平台会根据您使用的单词选择项目。 如果您的
-请求不明确（例如，两个项目具有相似的名称）
-可能会选错对象。 再次询问更具体的名称、ID、日期、
-或过滤以缩小结果范围。
+AI代理平台会根据您使用的单词选择项目。 如果您的请求不明确（例如，两个项目具有相似的名称），则它可能会选取错误的名称。 再次询问具有更具体名称、ID、日期或过滤器的人员以缩小结果范围。
 
 
 ### 我可以通过人工智能代理平台处理哪些Workfront项目？
 
-通过您的访问级别和在Workfront中有权访问的任何项目
-对象权限。 这包括项目、任务、问题、文档、
-审批、规划记录等。
+通过访问级别和对象权限，可在Workfront中访问的任何项目。 这包括项目、任务、问题、文档、批准、计划记录等。
 
 ### 其他人能否看到我与人工智能代理平台的对话？
 
 Workfront不会存储您的提示或AI代理平台的响应。
-AI代理平台的所有提供者控制对话的方式
-存储或共享。 与您的AI代理平台提供商联系，以了解
-详细信息。
+AI代理平台提供者可控制对话的存储或共享方式。 有关详细信息，请咨询您的AI代理平台提供商。
 
 ### 我是否需要知道Workfront API或要使用哪种MCP工具？
 
-不可以。 AI代理平台可将您的自然语言请求转换为
-Workfront的正确操作并为您选择正确的工具。 如果您是
-已经熟悉Workfront API，操作将会很熟悉，
-但这不是必要条件。
+不可以。 AI代理平台将您的自然语言请求转换为正确的Workfront操作并为您选择正确的工具。 如果您是
+虽然已经熟悉Workfront API，但操作会让人觉得熟悉，但这不是必需的。
 
 ### 我的Workfront数据是被发送到AI代理平台提供商还是由它们存储？
 

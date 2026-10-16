@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2881'
 ht-degree: 1%
 ---
 # 创建文档审批工作流
 
 {{highlighted-preview}}
 
-您可以在Adobe Workfront中请求其他用户或团队批准文档，或请求他们审核文档而无需批准。
+您可以在Adobe Workfront中请求其他用户或团队批准文档或实时网站，或者请求他们审核文档而无需批准。
 
 默认情况下，审批模板仅对其创建者可见。 在本文中，您只能选择已创建的模板或已与您共享的模板。 有关详细信息，请参阅管理审批模板中的[共享模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)。
 
@@ -359,6 +359,7 @@ preview screen
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 
 1. 单击&#x200B;**请求审批**。
+
 
 <div class="preview">
 

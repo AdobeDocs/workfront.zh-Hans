@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '270'
 ht-degree: 6%
 ---
 # CX Enterprise Coworker中的Workfront技能
@@ -59,6 +59,9 @@ ht-degree: 6%
 * 字段
 * 视图
 * 记录
+<!--
+* Business rules
+-->
 
 ### 管理Workfront对象
 
@@ -75,13 +78,12 @@ ht-degree: 6%
 
 名称： `query-workfront-data`
 
-此技能可查找、列出和报告Workfront对象，例如：
+此技能可查找、列出和报告Workfront对象。 以下是此类Workfront对象的一些示例，但列表并不完整：
 
 * 项目
 * 任务
 * 问题
 * 用户
 * 项目组合
-* 等等
 
 

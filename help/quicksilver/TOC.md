@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '14687'
+source-wordcount: '14694'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -1195,6 +1195,7 @@ ht-degree: 2%
   * 向Adobe Workfront添加新文档 {#add-new-documents-to-workfront}
     * [向Adobe Workfront添加新文档](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
     * [将文档从您的文件系统添加到Adobe Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+    * [将Web链接添加为文档](documents/adding-documents-to-workfront/add-live-url.md)
     * [链接来自外部应用程序的文档](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
     * [删除Adobe Workfront和外部文档存储提供商之间的链接](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
     * [请求文档](documents/adding-documents-to-workfront/request-a-document.md)

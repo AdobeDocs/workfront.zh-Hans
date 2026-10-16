@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 50078481f5318fd1fe1b79548ccd0f9385848c9a
 workflow-type: tm+mt
-source-wordcount: '3584'
+source-wordcount: '3579'
 ht-degree: 1%
 ---
 # 2026年第四季度发行版概述
@@ -382,12 +382,12 @@ ht-degree: 1%
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将多个文档分组到一个审批工作流中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">将多个文档分组到一个审批工作流中</a>
                 <p>现在，您可以在单个审批工作流下对多个文档进行分组，以便它们一起经过相同的阶段。</p>
             </td>
             <td><p>此功能在预览Sandbox环境中不可用，因为Frame.io集成在那里不可用。</p></td>
-            <td><p>2026年10月15日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>

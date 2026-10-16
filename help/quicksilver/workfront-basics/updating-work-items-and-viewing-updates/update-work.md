@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3436'
 ht-degree: 1%
 ---
 # 更新工作
@@ -40,11 +40,11 @@ ht-degree: 1%
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## 固定评论
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+您可以将顶级注释固定到“注释”选项卡的顶部。 无法固定属于线程的回复。
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. 转到支持固定注释的对象，然后单击左侧面板中的“更新”，然后单击“**注释**”选项卡。
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   有关信息，请参阅[更新选项卡概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. 添加评论，或从现有评论中单击评论右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，单击&#x200B;**固定线程**。 评论和任何现有回复都会固定到“评论”选项卡的顶部。
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   在&#x200B;**评论**&#x200B;选项卡的顶部创建了新的&#x200B;**固定线程**&#x200B;部分。
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   固定线程的数量列在节名称右侧的括号中。
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![已钉住的线程在评论部分](assets/pin-thread-comments-areas-and-link.png)
+
+1. （可选）要取消固定线程，请单击固定评论右上角的&#x200B;**取消固定**&#x200B;图标![取消固定图标](assets/unpin-icon-comments.png)。
 
 </div>
 
--->
+
 
 ## 删除评论或回复
 

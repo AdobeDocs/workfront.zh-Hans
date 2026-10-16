@@ -1,5 +1,5 @@
 ---
-title: 从创意空间摘要创建计划记录
+title: 从创意空间摘要创建或编辑Planning记录
 description: 使用Adobe Workfront Planning的新功能Ideation Space，您可以将简报转换为Planning记录。 导出的摘要可创建新记录或更新现有记录。 本文介绍了如何使用构思空间创建或编辑现有Planning记录。
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
-# 从构思空间简报创建计划记录
+# 从构思空间摘要创建或编辑Planning记录
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>带规划包的任何Workfront或工作流</p></li>
-或
-<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -120,13 +124,13 @@ are there additional license restrictions or packages to be purchased to have ac
 
 +++   
 
-## 关于使用构思空间创建记录的注意事项
+## 关于使用Ideation空间创建或编辑Planning记录的注意事项
 
-* 创建或编辑记录时，您只能从Workfront Planning或Workfront的主菜单启动创意空间。 在Workfront之外不存在构思空间。
-* 要访问创意力空间，您必须在Workfront Planning中拥有工作区和记录类型。
+* 您必须从Workfront Planning中启动创意空间才能创建或编辑Planning记录。 从Workfront主菜单访问构思空间不会将构思简报连接到Planning记录。
+* 要使用创意空间创建或编辑记录，您必须在Workfront Planning中拥有工作区和记录类型。
 * 新记录始终以占位符内容开头，无论您如何创建它们。
-* 删除链接到构思简介的Planning记录时，该简介保留在构思空间中，并且构思空间中的相关画布未删除。
-* 信息同步仅从构思空间到Workfront Planning进行。 从Planning记录到Ideation space brief之间没有反向同步或自动同步。
+* 删除链接到构思简介的Planning记录时，该简介保留在构思空间中，并且其相关空间未被删除。
+* 信息同步仅从构思空间到Workfront Planning进行。 从Planning记录到Ideation space brief之间没有反向同步或自动同步。<!--this might change?-->
 * 在Workfront Planning中创建、编辑或删除字段时存在以下情况：
 
   * 在链接到构思简报的记录上创建的新字段每天都添加到该简报中。 新字段在构思简介中显示为空。
@@ -134,7 +138,7 @@ are there additional license restrictions or packages to be purchased to have ac
   * 重命名的字段会更新摘要中的名称。
 * 您可以将文档作为卡片添加到构思空间中。 这还包括图像。
 
-  支持以下文件类型：PDF、Excel、CSV、PNG（和其他图像格式）、Word、PowerPoint。 不支持视频。
+  您可以添加以下文件类型：PDF、Excel、CSV、PNG（和其他图像格式）、Word、PowerPoint。 不支持视频。
 
   所有上传的文档都将在后端转换为PDF进行处理。
 * 您可以将记录直接从Workfront Planning拖放到空间中，记录与手动上传文件的显示方式相同。
@@ -201,7 +205,7 @@ are there additional license restrictions or packages to be purchased to have ac
 
    此操作会完成使用附加信息创建记录，并将其添加到您最初选择的记录类型。
 
-## 编辑构思空间中的现有记录
+## 使用构思空间编辑现有记录
 
 您可以从现有记录中打开构思空间以更新它们。
 

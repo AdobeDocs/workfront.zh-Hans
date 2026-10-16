@@ -26,9 +26,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '668'
 ht-degree: 3%
 ---
 # 使用Frame.io查看器审阅和批准
@@ -82,6 +82,7 @@ ht-degree: 3%
 ## 先决条件
 
 * 您必须在Workfront实例中设置Workfront和Frame.io集成。 有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)。
+* 若要查看Web链接文档，需要安装[Frame.io Chrome扩展](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)。 如果未安装，则当您第一次在Workfront中打开Web链接文档的Frame.io查看器时，系统会提示您下载它。
 
 ## 审阅文档
 
@@ -117,7 +118,6 @@ ht-degree: 3%
    > 
    >您可能需要将我的审批构件添加到您的主页。 有关详细信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
-
 1. 在Frame.io中，使用注释工具提供反馈或提出问题。 注释和资产标记仅在Frame.io查看器中可见。 有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 
    >[!NOTE]
@@ -135,7 +135,3 @@ ht-degree: 3%
    有关Workfront中决策的详细信息，请参阅[文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
 
    ![帧查看器和决策](assets/make-decision-frame.png)
-
-
-
-<!--is document owner the correct term?-->
