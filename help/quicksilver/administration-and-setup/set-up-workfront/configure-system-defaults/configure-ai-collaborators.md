@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 2%
 ---
 # 配置AI协作者
@@ -61,11 +61,11 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员] <span class="preview">或组管理员</span></td> 
+   <td>[！UICONTROL系统管理员] <span class="preview">或组管理员</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -160,7 +160,7 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 1. 在&#x200B;**协作器完成其工作后，它可以**&#x200B;区域中，切换您希望协作器执行的操作。
 
    * <span class="preview">发送通知：代理在更新流中发表评论，标记请求工作、已分配代理或拥有项目的用户。</span>
-   * <span class="preview">上载文档</span>
+   * <span class="preview">上载基于文本的文档</span>
    * <span class="preview">标记任务完成</span>
    * 写入任务字段：选择座席可以写入的表单和字段。
 

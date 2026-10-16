@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1143'
 ht-degree: 1%
 ---
 # 使用工作代理
@@ -51,11 +51,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 一些示例工作流可能包括：
 
-* 检测上传到任务的图像，根据提供给代理的条件生成变体，并将新图像上传到任务。
+* 从任务详细信息和附加的基于文本的文档生成副本，然后将输出发布到更新流或将其上传为基于文本的文档。
 * 从任务描述生成副本，根据代理中配置的准则检查副本，并将副本发布到更新流。
 * 读取事件的详细信息，识别缺少的详细信息，并在更新流中发布有关缺少的详细信息的问题。
 
@@ -94,7 +94,8 @@ ht-degree: 1%
 * 任务描述
 * 任务更新流中的注释
 * 附加到任务的任何自定义表单中的信息
-* <span class="preview">附加文档</span>
+* <span class="preview">附加的基于文本的文档，如DOC和PDF文件</span>
+* <span class="preview">项目字段（如果在工作代理配置中设置了）</span>
 
 此信息始终读取，不能配置为Workfront设置。
 
@@ -104,6 +105,14 @@ ht-degree: 1%
 >
 >* 包括您希望座席直接在任务描述或相关自定义表单字段中使用的任何背景信息。
 >* 确保任务与工程师应执行的操作相匹配。 例如，如果指示工程师将文本从英语翻译为法语，请在任务说明中包括要翻译的文本。
+
+## 工作代理可以执行的操作
+
+根据工作代理在Workfront中的配置方式，它可以在完成工作后执行以下操作：
+
+* 写入任务字段（如果已配置）
+* 上载基于文本的文档
+* 将任务标记为完成
 
 ## 工作代理启动触发器
 
