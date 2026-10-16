@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -112,7 +112,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -158,50 +158,40 @@ Or
 
    ![新录制框，带有打开构思空间按钮](assets/new-record-creation-picker-with-ideation.png)
 
-   构思空间将在带有空提示的新选项卡中打开。
+   “构思”空间将在新选项卡中打开。
 
-   记录会立即使用占位符文本创建。
+   CX Coworker将在右侧面板中打开。
 
-1. （可选）单击提示框中的&#x200B;**使用现有摘要**&#x200B;以浏览并添加现有文档，创意空间将使用该文档创建摘要和未来记录。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   记录会立即创建，并带有占位符名称。
 
-   ![空构思简介提示](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. （可选）单击提示框右上角的&#x200B;**打开以前的画布** <!--accurate??-->图标![打开现有的摘要图标](assets/open-existing-briefs-icon.png)以打开现有的摘要
-
-1. 在&#x200B;**中，您正在处理什么？** 提示框，描述您要创建的记录类型。
+1. 在&#x200B;**CX Coworker**&#x200B;对话框中添加提示，然后按Enter。
 
    您分享的详细信息越多，创意空间提供的信息就越有用。 例如，键入您计划进行的营销活动的描述：“返回营销机构的校园营销活动”。
 
-1. 单击&#x200B;**开始构思**。
+1. 按照文章[在构思空间](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)中创建简述中的说明继续创建构思简述。
 
-   构思空间在构建您的构思时按照以下步骤工作： <!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. 了解您的目标和上下文
-   2. 查看您的共享空间和选定的材料
-   3. 从文档、Web和数据中收集证据
-   4. 将发现综合成研究摘要
-   5. 通过引用创建和优化卡片
-
-   在此过程中，您会看到创意空间主动搜索Web上可用的已连接Workfront Planning数据或信息。
-
-   例如，它可以搜索现有的项目、产品、角色或区域，以及在线提供的类似概念。<!--check on this with Et-->
-
-   构思完成后，向构思空间添加下列内容：
-
-   * AI结果的摘要，链接到几张卡片，其中包含有关要考虑的事项的详细信息。 详细信息卡片将显示在新部分中。 连接器指示哪个卡部分属于哪个摘要。
-
-   * 创意空间左下角的&#x200B;**Brief**&#x200B;文件。 摘要是未来记录的草稿，它显示为记录的“详细信息”页面。
-
-   ![含分支的创意力卡](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. 继续将信息添加到构思空间以完成创建摘要。
-
-1. （视情况而定）完成简介后，单击左下角的预览图像，然后单击以下任一项：
-
-   * **导出到文件**&#x200B;以创建文件
-   * **导出到Workfront Planning**&#x200B;以创建Planning记录
-
-   有关将项目添加到简介并导出它的信息，请参阅[在构思空间中创建简介](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)。
+1. （视情况而定）完成摘要后，单击左下角的预览图像，然后单击&#x200B;**导出到Workfront Planning**&#x200B;以创建Planning记录。
 
    此操作会完成使用附加信息创建记录，并将其添加到您最初选择的记录类型。
 
@@ -213,7 +203,7 @@ Or
 
 1. 转到Workfront Planning中的现有记录并打开其详细信息页面。
 
-1. 单击&#x200B;**在构思空间**&#x200B;中打开。 这将在新选项卡中打开“构思”空间。
+1. 单击&#x200B;**在构思空间中打开** ![](assets/open-in-ideation-space.png)。 这将在新选项卡中打开“构思”空间。
 
    如果记录的构思已存在，则会打开该空间。
 
@@ -222,18 +212,13 @@ Or
    >[!TIP]
    >
    >无法使用构思空间批量编辑记录。
+1. 继续编辑摘要，如本文中[使用构思空间](#create-records-using-the-ideation-space)创建记录一节中所述。
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. 继续编辑摘要，如本文中[使用构思空间](#create-records-using-the-ideation-space)创建记录一节中所述。
-
-
-
-
 
 
 <!--
