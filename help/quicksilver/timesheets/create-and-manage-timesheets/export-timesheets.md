@@ -11,23 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-bihpKoVoPCwTpAj-SK-RPPFpaCubsyLAfnfSmpTnyI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 482
+source-wordcount: '449'
 ht-degree: 6%
-
 ---
-
 # 导出时间表列表
 
 <!--Audited: 8/2024-->
@@ -66,64 +71,31 @@ ht-degree: 6%
 
 +++
 
-<!--
-Old permissions:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on the timesheets</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan or license type you have, contact your Workfront administrator.
--->
-
 ## 导出时间表列表
 
 {{step1-to-timesheets}}
 
-**时间表**&#x200B;区域打开。
+默认情况下，将显示您有权查看的所有时间表。
 
-![工时表区域](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
-
-1. （可选）单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)，然后键入关键字并搜索特定时间表。 例如，您可以搜索时间设置时间范围或所有者名称。
+![时间表列表](assets/list-of-all-timesheets.png)
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
-   * 选择页面右上角的&#x200B;**我的工时表批准**&#x200B;以仅查看您批准的时间表
+   * 选择页面右上角的&#x200B;**我的工时表批准**&#x200B;以仅查看您批准的时间表，
 
      或
 
      选择&#x200B;**我的时间表**&#x200B;以仅查看您的时间表。
 
-     这会将我的时间表批准或我的时间表过滤器应用到时间表列表。
+     这会将&#x200B;**我的工时表批准**&#x200B;或&#x200B;**我的工时表**&#x200B;筛选器应用到工时表列表。
 
-     ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * 单击“筛选器”图标![筛选器图标](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)以应用筛选器或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
    >如果您的Workfront管理员或组管理员从“设置”区域的“列表控件”或您的“布局模板”中删除了筛选器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表的顶部或筛选器列表中。 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （可选）单击&#x200B;**视图** ![视图图标](assets/view-icon.png)或&#x200B;**分组** ![分组图标](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
+1. （可选）单击&#x200B;**视图** ![视图图标](assets/view-icon.png)或&#x200B;**分组** ![分组图标](assets/grouping.png)图标以应用视图或分组或创建新视图或分组。
 
    有关创建过滤器、视图或分组的信息，请参阅以下文章：
 
