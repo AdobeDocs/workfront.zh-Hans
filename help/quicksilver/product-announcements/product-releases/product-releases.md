@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: edfbd866e7d385b99aac07c323a84ed66159a168
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 39%
+source-wordcount: '461'
+ht-degree: 41%
 ---
 # 产品版本
 
@@ -133,6 +133,19 @@ ht-degree: 39%
     <tr>
       <td>Workfront版本</td>
       <td>其他产品版本</td>
+    </tr>
+    <tr data-mc-conditions="">
+      <td>
+        <p>2027年版</p>
+        <ul>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2027年第一季度发行版概述</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 发行活动</a></li>
+        </ul>
+      </td>
     </tr>
     <tr data-mc-conditions="">
       <td>
@@ -280,3 +293,5 @@ ht-degree: 39%
     </tr>
   </tbody>
 </table>
+
+

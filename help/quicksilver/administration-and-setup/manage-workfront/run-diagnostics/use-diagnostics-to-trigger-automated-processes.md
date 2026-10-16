@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1015301c058f538dac450299f709b52e0718d067
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 16%
+source-wordcount: '307'
+ht-degree: 17%
 ---
 # 使用诊断来触发自动化流程
 
@@ -71,7 +71,7 @@ ht-degree: 16%
 
 ## 使用诊断功能触发自动化流程
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**诊断**。
 1. 从以下任一选项中选择：

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >预览： 2026年7月30日
 >生产快速发布： 2026年8月13日
->适用于所有人的生产： 2026年10月15日
+>为每个人生产： 2026年10月22日
 
 当模板包含财务数据时，用户从该模板创建项目时会保留这些字段值。 用户必须具有查看财务数据的权限才能查看项目详细信息中的财务字段。
 

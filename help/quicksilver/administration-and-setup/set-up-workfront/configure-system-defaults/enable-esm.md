@@ -7,30 +7,28 @@ description: 您可以为组织启用Adobe云存储，以便为所有Adobe产品
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 4%
+source-wordcount: '636'
+ht-degree: 3%
+
 ---
 # 为您的组织启用Adobe云存储
 
-Adobe云存储是一个适用于所有Adobe产品的统一存储解决方案。 它是一个基于云的存储解决方案，用作Adobe企业产品中资产的中央存储库。
+Adobe云存储是一个统一的基于云的存储解决方案，它充当Adobe企业产品中资产的中央存储库。 本文介绍了如何启用Adobe云存储作为整个组织或特定组的默认存储选项。
 
-默认情况下，新客户将启用Adobe云存储，现有客户也可以在续订合同后启用。
+这是单个打开新Experience的操作：启用后，新项目将使用Adobe云存储，包括Frame.io查看器和统一批准。 在选择启用Adobe云存储之前，不会发生任何更改。
 
-有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+由于您可以控制时间，因此可以在任何人使用它之前测试体验、更新Workfront Fusion场景并规划报表更改。 有关新增功能以及如何规划转出的更多信息，请参阅[在Adobe云存储上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
+
+## 如何将审批与Adobe云存储结合使用
+
+Adobe cloud storage可确定项目使用的审批服务。 迁移到支持Adobe云存储的Workfront版本不会自动将整个组织切换到统一批准。 相反，批准服务取决于每个项目的存储模型：
+
+* **Adobe云存储项目**&#x200B;默认使用统一批准，在Frame.io查看器中审核和批准。
+* **旧版Workfront存储项目**&#x200B;保留已使用的审批服务。 根据您的组织，这可以是统一审批或旧文档审批。
+
+有关Adobe云存储审核和批准体验的更多信息，请参阅[在Adobe云存储上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
 
 ## 访问权限要求
 
@@ -78,10 +76,10 @@ Adobe云存储是一个适用于所有Adobe产品的统一存储解决方案。 
 
 1. 在“应用于”下拉菜单中，选择以下选项之一：
 
-   - **整个组织**：此选项将默认存储提供程序应用于您的整个Workfront环境。 每当用户创建新项目时，都将使用默认存储提供程序。
-   - **特定组**：此选项仅将默认存储提供程序应用于您组织内的特定组。 每当指定组中的用户创建新项目时，都将使用默认的存储提供程序
+   * **整个组织**：此选项将默认存储提供程序应用于您的整个Workfront环境。 每当用户创建新项目时，都将使用默认存储提供程序。
+   * **特定组**：此选项仅将默认存储提供程序应用于您组织内的特定组。 每当指定组中的用户创建新项目时，都将使用默认的存储提供程序。
 
-   ![存储首选项组](assets/configure-storage-preference.png)
+     ![存储首选项组](assets/configure-storage-preference.png)
 
 1. 单击&#x200B;**保存**。
 
