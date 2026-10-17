@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '513'
 ht-degree: 6%
 ---
 # 校对针对Experience Manager Assets或Assets Essentials的链接资源
@@ -101,7 +101,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >如果您在上传用户配置文件中启用了文档&#x200B;**时**&#x200B;自动生成验证，则系统会自动创建一个简单的验证。
+   >上载文档时&#x200B;**自动生成验证**&#x200B;设置不适用于链接文件夹中的文档。 您必须手动为这些文档创建校样。
 
 1. 从下拉列表中选择以下选项之一：
 

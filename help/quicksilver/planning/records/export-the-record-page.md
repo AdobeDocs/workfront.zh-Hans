@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 1%
 ---
 # 导出记录的详细信息
@@ -167,6 +167,8 @@ Old:
 * 您只能导出记录页面或预览区域的详细信息选项卡。
 
 * 导出的文件保留记录页面的布局，包括缩略图和封面图像。
+
+* 无法导出自定义的“详细信息”页面，该页面中隐藏了多个字段。
 
 ## 导出记录的详细信息
 

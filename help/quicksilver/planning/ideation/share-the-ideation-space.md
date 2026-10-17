@@ -1,6 +1,6 @@
 ---
 title: 与他人共享构思空间
-description: Adobe Workfront Planning现在提供了一项可在启动营销活动之前进行构思的额外功能。 利用人工智能的强大功能，在创意成为规划记录之前创建创意并与他人协作。
+description: Adobe Workfront Planning现在提供了一项可在启动营销活动之前进行构思的额外功能。 您可以与其他用户共享构思空间及其各自的摘要，以便更好地协作。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 2%
+source-wordcount: '591'
+ht-degree: 1%
 ---
 
 # 与他人共享构思空间
@@ -39,15 +39,19 @@ ht-degree: 2%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Workfront Planning记录权限将传输到记录的构思空间。
+您可以使用Adobe Workfront中的构思空间在启动营销活动和其他记录类型之前为其创建摘要。 这邀请其他人集思广益，收集信息，在启动您的工作之前协作创建摘要。
 
-此外，您还可以向其他用户授予使用构思空间的权限并向其添加构思。
+您可以与其他用户共享构思空间及其各自的摘要，以便更好地协作。
 
 请考虑以下事项：
 
+* Workfront Planning记录权限将传输到记录的构思空间。
+
+* 此外，您还可以向其他用户授予使用构思空间的权限并向其添加构思。
+
 * 构思创建者始终对其自己的构思具有编辑者权限。
 
-* 您必须对构思空间具有编辑器权限，才能创建摘要并将其导出到其他应用程序。
+* 您必须对构思空间具有编辑器权限，才能创建或参与简述并将它们导出到其他应用程序。
 
 ## 访问权限要求
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>带规划包的任何Workfront或工作流</p></li>
-或
-<li><p>作为独立产品购买时的任何Planning包</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> <p>为要添加记录的工作区和记录类型提供或更高权限 </p>
       <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
       <p>查看对Workfront对象的权限以将其添加到摘要 <!--not sure if this is available--></p>
-      <p>创意空间上的编辑器权限以创建摘要</p>
+      <p>编辑者权限创建简介的构思空间</p>
    </td> 
   </tr>  
   <!--
@@ -129,15 +137,12 @@ are there additional license restrictions or packages to be purchased to have ac
 
 ## 共享构思空间
 
-1. 访问Planning记录的构思空间。
+1. 访问构思空间。
 
-   有关信息，请参阅以下文章之一：
+   有关信息，请参阅[在构思空间](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)中创建简述。
 
-   * [从构思空间简报创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. 单击右上角的&#x200B;**共享**，然后单击&#x200B;**共享文档**&#x200B;框右上角的&#x200B;**设置**&#x200B;图标![设置图标](assets/setting-icon.png)。
-1. 在拥有访问权限列表中，从以下内容中选择：
+1. 单击右上角的&#x200B;**共享**，然后单击&#x200B;**共享文档**&#x200B;框右上角的&#x200B;**设置**&#x200B;图标![设置图标](assets/setting-icon.png)。<!--should this say "document"?-->
+1. 在&#x200B;**拥有访问权限**&#x200B;列表中，从以下内容中选择：
 
    * **只有受邀人员才能访问**
 
