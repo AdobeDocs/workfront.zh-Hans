@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: fac1ea173c1dced72e4273dc2a30b2b25c3c4071
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 1%
@@ -112,7 +112,7 @@ ht-degree: 1%
 <!--
 <div class="preview">
 
-* To ensure data integrity, when a business rule is violated during an edit, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
+* To ensure data integrity, when a business rule for editing a record is violated as you edit the record, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
 
    The warning is visible in all areas where you are editing records, including the table view or details page. 
 
@@ -171,7 +171,7 @@ ht-degree: 1%
 
    在业务规则的&#x200B;**Then**&#x200B;部分中，您可以查看规则的用途的说明。
 
-1. 单击“激活”**&#x200B;**&#x200B;以激活此记录类型的规则，然后单击“保存”**&#x200B;**。
+1. 单击“激活”****&#x200B;以激活此记录类型的规则，然后单击“保存”****。
 
    规则在激活后立即应用，所有有权编辑或删除选定记录类型中记录的用户都必须遵循这些规则。
 1. （可选）单击页眉中业务规则名称的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)以打开&#x200B;**规则详细信息**&#x200B;框并更新有关该业务规则的信息。
