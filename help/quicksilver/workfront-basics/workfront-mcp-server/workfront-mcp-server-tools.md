@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 3%
 ---
 
@@ -235,11 +235,11 @@ AI代理平台中显示的工具取决于贵组织的Workfront产品授权。
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
-| 搜索对象 | `workflow_search_any_object` | 使用灵活的过滤器参数、排序和分页搜索Workfront对象。 | 读取 |
+| 搜索对象 | `workflow_search_any_object` | 此工具已弃用。 | 读取 |
 | 创建对象 | `workflow_create_any_object` | 创建新的Workfront对象，如项目、任务、问题、小时、分配、项目群或项目组合。 | 写入 |
 | 更新对象 | `workflow_update_any_object` | 更新现有对象的字段。 还支持将任务或问题移动到另一个项目，将任务或问题转换为新项目（或问题转换为任务），以及设置任务前置任务（依赖项）。 | 写入 |
 | 删除对象 | `workflow_delete_any_object` | 按ID删除Workfront对象。 需要明确的用户确认才能执行操作。 | 写入 |
-| 解析字段名称 | `workflow_resolve_field_names_any_object` | 将用户提供的字段名称或标签转换为底层Workfront API字段名称，以便AI代理平台可以构建准确的请求。 | 读取 |
+| 解析字段名称 | `workflow_resolve_field_names_any_object` | 此工具已弃用。 | 读取 |
 | 读取工作流文档 | `workflow_read_workflow_docs` | 加载Workfront工作流文档，包括工具使用指南和特定于对象的操作行动手册。 这是执行工作流操作之前所需的第一步。 | 读取 |
 
 ### 更新对象工具功能
