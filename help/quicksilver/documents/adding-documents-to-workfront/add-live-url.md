@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
+source-git-commit: 05f148f2c28555e37fb415f606e314a5df564047
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '463'
 ht-degree: 4%
 ---
 # 将Web链接添加为文档
@@ -64,7 +64,7 @@ ht-degree: 4%
 >* 如果网站允许嵌入iFrame，则支持URL。
 >* 支持专用Web URL，但某些身份验证流程可能因服务器配置而不起作用。
 >* 当前不支持Youtube和Figma URL。<br>
->有关详细信息，请参阅[Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported)中支持哪些URL类型。
+>有关详细信息，请参阅[HTML对Frame.io的审查](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)。
 
 
 要添加Web链接，请执行以下操作：
