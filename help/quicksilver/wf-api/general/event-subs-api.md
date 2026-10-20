@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
+source-wordcount: '3623'
 ht-degree: 5%
 ---
 # 事件订阅API
@@ -45,11 +45,11 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->要在Workfront应用程序中使用事件订阅，请参阅[在Workfront中配置事件订阅](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)。
+>要在Workfront应用程序中使用事件订阅，请参阅[在Workfront中配置事件订阅](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)和[以非管理员用户身份管理事件订阅](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -118,12 +118,14 @@ ht-degree: 5%
 
 ## 事件订阅身份验证
 
-要创建、查询或删除事件订阅，您的Workfront用户需要满足以下条件：
+要创建、查询或删除事件订阅，您的Workfront用户必须拥有对事件订阅功能的所需访问权限，以及对要执行的操作的适当权限。
 
-* 要使用事件订阅，需要具有“系统管理员”访问级别。
-* 需要`sessionID`标头才能使用事件订阅API
+* 具有所需访问权限的用户可以在Workfront中管理事件订阅，但只能在其权限和系统配置允许的范围内。
+* 需要`sessionID`标头才能使用事件订阅API。
 
   有关详细信息，请参阅[API基础知识](api-basics.md)中的[身份验证](api-basics.md#authentication)。
+
+有关在不是Workfront管理员时在Workfront应用程序中管理事件订阅的信息，请参阅[以非管理员用户身份管理事件订阅](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 ## 避免使事件订阅过载
 

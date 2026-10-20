@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -111,7 +111,7 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 * 创建新的事件订阅，包括按您指定的标准进行筛选：
 * 删除事件订阅。
 
-有关信息，请参阅[在Workfront中配置事件订阅](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)。
+有关信息，请参阅[在Workfront中配置事件订阅](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)。
 
 
 ## 为MCP集成添加授权的重定向URL
