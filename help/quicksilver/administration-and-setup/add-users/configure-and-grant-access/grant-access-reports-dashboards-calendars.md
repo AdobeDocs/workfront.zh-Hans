@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '587'
 ht-degree: 3%
 ---
 # 授予对报告、功能板和日历的访问权限
@@ -80,12 +80,15 @@ ht-degree: 3%
 
    * **创建**
    * **删除**
-   * **查看内置报告**：需要选择此项才能查看Workfront生成的报告。
    * **共享**
+
+   默认情况下未启用的选项包括：
+
+   * **查看内置报告**：需要选择此项才能查看Workfront生成的报告。
    * **公开共享报告**：通过与没有Workfront帐户的任何人共享指向报告的公共链接，可以公开共享报告。 必须选择此选项，才允许这种级别的共享。
    * **共享系统范围**：报告可与系统中拥有Workfront许可证的每个人共享。 必须选择此选项，才允许这种级别的共享。
 
-     有关共享报告、仪表板和日历的信息，请参阅[共享报告、仪表板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
+   有关共享报告、仪表板和日历的信息，请参阅[共享报告、仪表板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行[配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中列出的文章之一，如[授予对任务的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 完成后，单击&#x200B;**保存**。
