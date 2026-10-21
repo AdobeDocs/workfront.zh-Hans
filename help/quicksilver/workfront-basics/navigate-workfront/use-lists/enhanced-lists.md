@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
+source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3360'
 ht-degree: 1%
 ---
 # 使用增强列表
@@ -83,7 +83,6 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | <span class="preview">更新源中的操作和跟踪字段列表</span> | <ul><li><span class="preview">设置>界面>更新馈送>跟踪的字段选项卡</span></li> <li><span class="preview">设置>界面>更新信息源>操作选项卡</span></li></ul> |
 | <span class="preview">记分卡列表</span> | <span class="preview">设置>记分卡</span> |
 | <span class="preview">风险类型列表</span> | <span class="preview">设置>风险类型</span> |
-| <span class="preview">事件通知列表</span> | <ul><li><span class="preview">设置>电子邮件>通知>事件通知</span></li><li><span class="preview">组详细信息页面>事件通知</span></li></ul> |
 | 费率卡上的工作角色和费率列表 | 设置>费率卡>选择费率卡>工作角色和费率 |
 | <span class="preview">位置列表</span> | <span class="preview">设置>位置</span> |
 | 翻译列表 | 设置>本地化 |
@@ -104,6 +103,8 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -299,7 +300,7 @@ Last, under Scenario Planner
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
