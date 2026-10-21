@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3622'
 ht-degree: 1%
 ---
 # 2026年第四季度发行版概述
@@ -780,6 +780,15 @@ ht-degree: 1%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">非管理员现在可以创建事件订阅<p>[!BADGE Off Schedule]{type=Neutral}</p></a>
+                <p>用户现在可以使用目标订阅和IMS用户访问令牌接收受支持Workfront对象的webhook通知，而无需系统管理员访问权限。</p>
+            </td>
+            <td><p>2026年10月16日</p></td>
+            <td><p>2026年10月16日</p></td>
+            <td><p>2026年10月16日</p></td>
         </tr>
         <tr>
             <td>

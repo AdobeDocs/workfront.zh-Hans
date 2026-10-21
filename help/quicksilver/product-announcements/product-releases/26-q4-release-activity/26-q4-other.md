@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1286'
 ht-degree: 0%
 ---
 # 2026年第四季度发布时间框架内的其他增强功能
@@ -23,6 +23,22 @@ ht-degree: 0%
 本页介绍了在2026年第四季度发行版中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第四季度发布周期中此时可用的所有更改列表，请参阅[2026年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 非管理员现在可以创建事件订阅
+
+>[!NOTE]
+>
+>适用于所有人的预览和生产： 2026年10月16日
+>[!BADGE 超出计划]{type=Neutral}
+
+
+为了更轻松地在没有系统管理员访问权限的情况下对重要的Workfront对象更改做出反应，我们添加了用户事件订阅。 现在，您可以使用IMS用户访问令牌以及每个对象和事件组合的目标订阅来接收受支持Workfront对象的webhook通知。
+
+用户事件订阅支持具有CREATE、UPDATE和DELETE事件的Task、Project、Note或Comment以及Assignment对象。 您可以为所需的每个对象和事件组合创建单独的预订，也可以使用对象ID或筛选器将交付范围缩小到所需的确切记录。
+
+此版本对于需要轻量级、事件驱动型集成而不授予广泛管理员权限（例如使用Workfront Fusion时）的团队特别有用。
+
+有关详细信息，请参阅[以非管理员用户身份管理事件订阅](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 ## 增强列表更新
 

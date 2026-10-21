@@ -4,13 +4,13 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: 在Workfront中配置事件订阅
-description: 作为Adobe Workfront管理员，您可以在“设置”区域创建、查看和删除事件订阅，以将Workfront事件发送到外部端点。
+description: Workfront管理员可以在设置中创建、查看和删除事件订阅。 具有所需访问权限的用户还可以在其权限和系统配置允许的范围内管理事件订阅。
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '452'
 ht-degree: 5%
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 5%
 作为Adobe Workfront管理员，您可以在“设置”区域创建、查看和删除事件订阅。 事件订阅在发生指定事件时将Workfront事件信息发送到外部端点。
 
 您可以在Workfront中创建和删除事件订阅，但无法编辑现有订阅。 如果您需要更改订阅，请删除它并创建一个新订阅。
+
+具有所需访问权限的用户还可以在Workfront中管理事件订阅，但只能在其权限和系统配置允许的范围内。 有关详细信息，请参阅[以非管理员用户身份管理事件订阅](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 有关活动订阅的详细信息，请参阅[活动订阅](/help/quicksilver/wf-api/api/event-subscriptions.md)下的文章。
 
@@ -45,7 +47,10 @@ ht-degree: 5%
   </tr>
   <tr>
    <td role="rowheader">访问级别配置</td>
-   <td>您必须是Workfront管理员。</td>
+   <td>
+    <p>您必须具有相应的访问权限才能管理事件订阅。</p>
+    <p>非管理员用户只能在其权限和系统配置允许的范围内具有访问权限。</p>
+   </td>
   </tr>
  </tbody>
 </table>
