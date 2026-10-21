@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: a940bad993b8e0be1328d84dc8b113e9b513fbdb
 workflow-type: tm+mt
-source-wordcount: '14700'
+source-wordcount: '14708'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -2715,6 +2715,7 @@ ht-degree: 2%
   * 事件订阅 {#event-subscriptions}
     * [事件订阅](wf-api/api/event-subscriptions.md)
     * [事件订阅API](wf-api/general/event-subs-api.md)
+    * [以非管理员用户管理事件订阅](wf-api/general/event-subs-non-admin.md)
     * [事件订阅最佳实践](wf-api/general/event-sub-best-practice.md)
     * [事件订阅提交要求](wf-api/general/setup-event-sub-endpoint.md)
     * [事件订阅重试](wf-api/api/event-sub-retries.md)
