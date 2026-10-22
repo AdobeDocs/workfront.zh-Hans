@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1318'
 ht-degree: 6%
 ---
 # 在画布功能板中构建KPI报告
@@ -37,11 +37,7 @@ ht-degree: 6%
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->请注意，以下云提供商未提供此测试版：
->
->* 自带Amazon Web Services密钥
->* Azure
->* Google Cloud Platform
+
 
 您可以构建一个KPI报告并将其添加到画布功能板，该报表将关键绩效指标数据直观地表示为一个数字，然后您便可以使用该数字查看您的项目和团队的执行情况。
 
@@ -139,7 +135,7 @@ ht-degree: 6%
 
 1. 在左侧面板中，单击&#x200B;**深入分析组设置** ![深入分析组图标](assets/drilldown-group-icon.png)图标，然后为深入分析表添加分组。
 
-   有关详细信息，请参阅[&#128279;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)在画布仪表板的[组报告数据中](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)在图表和KPI报告中配置深入分组。
+   有关详细信息，请参阅[在画布仪表板的[组报告数据中](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)在图表和KPI报告中配置深入分组](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)。
 
 1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
 

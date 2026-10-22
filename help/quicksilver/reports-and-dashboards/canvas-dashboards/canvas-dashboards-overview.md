@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 1%
 ---
 # 画布功能板概述
@@ -43,11 +43,7 @@ ht-degree: 1%
 >
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
 >
->请注意，以下云提供商未提供此测试版：
->
->* 自带Amazon Web Services密钥
->* Azure
->* Google Cloud Platform
+
 
 画布功能板允许您通过将报表类型添加到画布来轻松可视化您的Adobe Workfront数据，画布提供了许多灵活的布局选项，包括调整大小、拖放等。
 

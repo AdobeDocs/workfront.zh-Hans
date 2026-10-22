@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '349'
 ht-degree: 5%
 ---
 # 在画布功能板中排列报表
@@ -36,11 +36,7 @@ ht-degree: 5%
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->请注意，以下云提供商未提供此测试版：
->
->* 自带Amazon Web Services密钥
->* Azure
->* Google Cloud Platform
+
 
 
 将报表添加到画布仪表板后，它们会在仪表板中显示为报表小组件，以便您可以快速可视化其数据概览。 添加多个报表后，您可以设置每个小部件的大小以使其最符合仪表板中报表的内容，然后调整每个小部件的位置，以便更有效地显示数据。
