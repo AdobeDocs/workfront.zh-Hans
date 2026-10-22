@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3176'
 ht-degree: 2%
 ---
 # 在Adobe Workfront Planning中创建和管理申请表单
@@ -160,7 +160,7 @@ ht-degree: 2%
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在列表视图中打开记录类型页面。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，如果是首次创建表单，请单击&#x200B;**创建请求表单**。 单击&#x200B;**管理请求表单**&#x200B;或&#x200B;<span class="preview">**请求表单**.</span>（如果您已经拥有表单并且想要创建其他表单）。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，如果是首次创建表单，请单击&#x200B;**创建请求表单**。 单击&#x200B;**请求表单**。
 
    **请求表单**&#x200B;页面打开，请求显示在列表视图中。
 
@@ -212,49 +212,35 @@ ht-degree: 2%
    * **标签**：这是显示在请求表单中的字段名称。 这不会更改记录字段的名称。
    * **说明**：添加有关该字段的更多信息。
 
-   <div class="preview">
-
    * **选项**：此选项仅适用于选定字段。 执行下列操作之一：
 
      * 单击&#x200B;**对选项A-Z进行排序**&#x200B;以自动对其进行排序。
      * 手动拖放选项或对其进行排序。
      * 单击&#x200B;**设置**&#x200B;图标![设置图标](assets/settings-icon.png)，然后单击&#x200B;**默认选择**&#x200B;以指示默认选项，或单击&#x200B;**隐藏选项**&#x200B;以隐藏它。
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">不能重命名或删除Planning请求表单上的选项。 您必须在记录类型的表视图中编辑字段选项。</span>
-
+   >不能重命名或删除Planning请求表单上的选项。 必须在记录类型的表视图中编辑字段选项。
 
 1. 在&#x200B;**高级设置**&#x200B;区域，从下面列出的选项中进行选择。 并非所有选项都适用于所有字段类型。
 
    * **生成必填字段**：选定后，该字段必须具有值。 否则，无法提交表单。
-   * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。 仅当字段是单选字段和多选字段或字段前面有此类字段时，“添加逻辑”才可用。 <span class="preview">验证和默认值规则不适用于所有字段类型。</span>
+   * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。 仅当字段是单选字段和多选字段或字段前面有此类字段时，“添加逻辑”才可用。 验证和默认值规则并非适用于所有字段类型。
 
-     在生产环境中，从以下选项中选择：
+   从以下选项中选择：
 
-     * **显示逻辑**：您选择的字段前面必须是多选或单选字段。
-     * **跳过逻辑**：添加用户应跳过字段并将其留空的跳过规则。
+   * **显示区**
+   * **跳过**
+   * **默认值**
+   * **验证**
+   * **正在格式化**
+   * **可编辑性**
 
-     <div class="preview">
+   有关详细信息，请参阅[将逻辑规则添加到自定义表单和字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
 
-     在“预览”环境中，从以下选项中选择：
-
-     * **显示区**
-     * **跳过**
-     * **默认值**
-     * **验证**
-     * **正在格式化**
-     * **可编辑性**
-
-     </div>
-
-     有关详细信息，请参阅[将逻辑规则添加到自定义表单和字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
-
-     >[!TIP]
-     >
-     ><span class="preview">选择表单上的字段后，每个字段的字段类型都会显示在右侧面板的顶部。</span>
+   >[!TIP]
+   >
+   >选择表单上的字段后，每个字段的字段类型都会显示在右侧面板的顶部。
 
 1. （可选）长按某个字段并将其拖放到表单上的其他位置。
 1. （可选）单击表单左侧的&#x200B;**内容元素**&#x200B;选项卡，然后添加以下任意元素：
@@ -269,24 +255,25 @@ ht-degree: 2%
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交请求时，该表单将如何显示给其他用户。
 1. 继续执行以下操作之一：
 
-   * [如果要为生产环境中的表单配置更多详细信息，请配置表单设置](#configure-form-settings)
-   * [发布表单](#publish-form)（如果不想进一步配置设置）。
+   * [如果要配置表单的更多详细信息，请配置表单设置](#configure-form-settings)
+   * [发布表单](#publish-form)以发布表单，以便用户能够向其提交请求
+   * [共享请求表单](#share-a-request-form)以与他人共享或公开共享该表单
 
 ### 配置表单设置
 
-在“设置”选项卡上，您可以设置审批规则，配置从此表单创建的请求何时标记为“已完成”，以及<span class="preview">为与使用该表单提交的未来请求进行交互的用户分配默认权限。</span>
+在“设置”选项卡上，您可以设置批准规则，配置从此表单创建的请求何时被标记为“已完成”，并为与使用该表单提交的未来请求进行交互的用户分配默认权限。
 
 审批规则根据已提交请求中的字段值定义审批流程。
 
 例如，如果请求表单具有“Campaign type”字段，则可以创建一个规则，在字段的值为“Digital”时将请求发送给一个人，在字段的值为“Print”时将请求发送给另一个人。
 
-<span class="preview">审批流程中支持多个阶段。 当阶段中所有必需的决策都完成时，下一阶段将开始，新阶段的批准者将收到电子邮件通知。</span>
+审批流程支持多个阶段。 当阶段中所有必需的决策都制定完成时，下一阶段将开始，新阶段的批准者将收到电子邮件通知。
 
 有关添加审批的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 完成选项允许您设置请求是在创建请求对象时标记为完成，还是在创建对象完成时标记为完成。 您可以根据指定的条件定义对象的完成时间。
 
-<span class="preview">使用请求表单的“设置”区域中的“权限”部分定义请求者<!--and non-requestors-->对使用该表单创建的请求的默认权限。</span>
+使用请求表单的“设置”区域中的“权限”部分，定义请求者<!--and non-requestors-->对使用该表单创建的请求的默认权限。
 
 要配置表单设置，请执行以下操作：
 
@@ -297,7 +284,7 @@ ht-degree: 2%
 
 1. 要开始配置审批规则，请单击左侧导航中的&#x200B;**审批** ![审批图标](assets/approvals-icon-on-form.png)。
 
-   您可以创建单个<span class="preview">或多阶段审批规则</span>，并将用户或团队分配给审批。
+   您可以创建单个或多个阶段审批规则，并将用户或团队分配给审批。
 
    有关添加审批的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
@@ -309,56 +296,41 @@ ht-degree: 2%
 
 1. （视情况而定）如果已选择在请求的对象完成时将请求标记为完成，请选择字段以及指示对象完成时间的值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
 
-1. <span class="preview">单击左侧面板上的&#x200B;**权限**。</span>
-1. <span class="preview">为通过此表单提交请求的用户选择权限级别：</span>
-
-   <div class="preview">
+1. 单击左侧面板上的&#x200B;**权限**。
+1. 为通过此表单提交请求的用户选择权限级别：
 
    * **查看**：所有请求者都可以评论并共享表单。
    * **Contribute**：所有请求者都可以评论、共享和编辑表单。
    * **管理**：所有请求者都可以评论、共享、编辑和删除表单。
 
-   </div>
-
-1. <span class="preview"> （可选）取消选择每个权限级别的任何粒度权限，以防止请求者执行以下操作：</span>
-
-   <div class="preview">
+1. （可选）取消选择每个权限级别的任何粒度权限，以防止请求者执行以下操作：
 
    * 注释
    * 共享
    * 编辑。 不可用于查看。
    * 删除。 不可用于Contribute和View。
 
-   </div>
+   >[!TIP]
+   >
+   >从请求页面与那些用户共享请求时，您在此处取消选择的粒度权限将灰显。
+
+1. <span class="preview">在提交请求时使用&#x200B;**填写表单**&#x200B;功能时，单击&#x200B;**AI表单填写**&#x200B;以配置自定义提示。</span>
 
    >[!TIP]
    >
-   ><span class="preview">从请求页面与这些用户共享请求时，您在此处取消选择的粒度权限将灰显。</span>
+   ><span class="preview">在使用AI填写请求表单时，必须附加一个文件才能使提示生效。</span>
+
+1. <span class="preview">打开&#x200B;**启用默认提示设置**，然后添加默认提示。</span>
+
+   <span class="preview">尽可能详细提示提示。 例如，如果您在使用“填写”表单时始终使用包含日期的文件，则可以在提示符后添加“始终以欧洲格式存储日期”。</span>
+
+   <span class="preview">当您使用&#x200B;**填写表单**&#x200B;功能并在使用此表单提交请求时附加文件时，AI将执行您在新请求的默认提示中规定的编辑。 在提交更改之前，您将需要先查看这些更改。</span>
+
+   ![AI表单填写默认提示示例](assets/ai-form-fill-with-default-prompt-example.png)
 
 1. 继续[发布表单](#publish-form)。
 
 1. 单击&#x200B;**保存**。
-
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
-
-1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
-
-   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
-
-   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
-
-   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
 
 ### 发布表单
 
@@ -446,7 +418,7 @@ Add these before Continue to Publish form above:
 
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**&#x200B;或&#x200B;<span class="preview">**请求表单**</span>。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**请求表单**。
 
    **请求表单**&#x200B;页面打开，所有与记录类型关联的请求表单都显示在列表视图中。
 1. （可选）更新&#x200B;**请求表单**&#x200B;页面中的以下视图元素，以更改信息在表中的显示方式：

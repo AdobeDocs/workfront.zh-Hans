@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1898'
 ht-degree: 5%
 ---
 # 管理日历视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Old:
        * 跨越多天的记录将显示在日历顶部。
        * 持续一天或更短的记录，显示在日历视图的下半部分。 如果选择显示开始日期和结束日期的小时，则记录会在发生日期的相应时间显示。
 
-         <span class="preview">日历在每周视图的两个区域显示前、当前和未来几周的最多1,000条记录。</span>
+         日程表在每周视图的两个区域显示前、当前和未来几周的最多1,000条记录。
 
-1. <span class="preview">（可选且有条件）在按周查看日历时，如果记录超过1,000条，并且其中某些记录默认不显示，请单击日历底部的&#x200B;**加载更多**。</span>
+1. （可选且有条件）在按周查看日历时，如果记录超过1,000条，并且其中有些记录默认不显示，请单击日历底部的&#x200B;**加载更多**。
 
 1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
@@ -287,10 +289,10 @@ Old:
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p> 或<span class="preview"><p>是任何</p></span>
+            <td><p>是任何</p>
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p> 或<span class="preview"><p>是任何</p></span>
+            <p>是任何</p>
             <p>为空</p>
             <p>不为空</p></td>
         </tr>
@@ -459,7 +461,11 @@ Old:
 
    * **记录类型**：日历中记录栏的颜色与您选择的记录类型的颜色相匹配。 这是默认选项。
    * **字段值**：记录的颜色与您指定的字段的颜色匹配。
-   * **无**：记录显示在白色栏中。 <span class="preview">已从预览环境中删除&#x200B;**无**&#x200B;选项。</span>
+   * **记录**：颜色与记录的颜色匹配。
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Old:
    >[!NOTE]
    >
    >* 您只能将颜色与具有颜色编码选项的字段匹配。 例如，可以将颜色与“状态”字段匹配，或可与颜色关联的选项进行匹配。
-   >    
-   >* 在生产环境中，不能将颜色与连接的记录或其查找字段匹配。 <span class="preview">在“预览”环境中，您可以将颜色与连接的记录匹配，但不能与它们的查找字段匹配。</span>
-
+   >            
 
 1. 单击&#x200B;**保存**。
 

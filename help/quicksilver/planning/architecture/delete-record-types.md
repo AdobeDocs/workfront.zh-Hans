@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 1%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -287,6 +287,8 @@ Old:
    * 从选定的辅助工作区中删除从全局记录类型创建的记录类型。
    * 原始记录类型及其字段保留在其原始工作区中。
    * 记录类型将保留在添加该记录的所有其他工作区中。
-   * 从辅助工作区添加到记录类型的记录<!--and fields-->将被删除。 从添加全局记录类型的附加工作区中添加的所有其他记录将保留在各自的工作区和原始工作区中。 &lt;！—！ — 字段保留在添加它们的工作区中。
+   * 从辅助工作区添加到记录类型的记录<!--and fields-->将被删除。 从添加全局记录类型的附加工作区中添加的所有其他记录将保留在各自的工作区和原始工作区中。
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

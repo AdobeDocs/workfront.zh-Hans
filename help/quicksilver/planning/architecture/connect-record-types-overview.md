@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2479'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 连接的记录类型概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -167,7 +168,7 @@ ht-degree: 1%
     * 无法从Workfront对象访问Planning记录字段。
     * 规划记录在Workfront对象的Planning部分中可见。 有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
     * 您可以创建Planning连接自定义字段，并将其附加到Workfront对象的自定义表单。 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-    * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
+    * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
     * 无法从GenStudio for Performance Marketing中的“品牌”访问规划记录字段。
 
   * **从您连接的记录或对象添加查找字段时**：除了创建链接记录字段外，您还可以从连接的记录或对象类型连接到称为查找字段的字段。 链接（或查找字段）包含所连接记录中的信息，该信息显示在您连接的记录中。
@@ -210,18 +211,12 @@ ht-degree: 1%
     * 您可以从GenStudio记录类型和GenStudio记录类型中连接Planning Brands。
     * 您不能在层次结构中包含GenStudio Brands。
 
-  <div class="preview">
-
   * 您可以使连接字段依赖于已连接记录类型中对应的已连接字段。 当这两个字段显示在第三个记录类型上时，一个字段可用的选择取决于另一个字段中的选择。
 
     有关更多信息和其他注意事项，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
-  </div>
 
-* 在“一对一”或“一对多”连接类型中复制具有连接记录的记录时，会出现以下情况：
-
-  * 在“生产”环境中，连接的记录将移至复制的记录，或者在复制记录之前必须手动将其从原始记录中删除，然后添加回来。
-  * <span class="preview">在“预览”环境中，您可以选择连接的记录是保留在原始记录上还是移动到重复记录。</span>
+* 在“一对一”或“一对多”连接类型中复制具有已连接记录的记录时，您可以选择连接的记录是保留在原始记录上还是移动到已复制的记录。
 
   有关详细信息，请参阅[重复记录](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。
 

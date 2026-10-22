@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3769'
 ht-degree: 0%
 ---
 # 创建记录
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ ht-degree: 0%
 * [从其他记录连接它们](#create-records-as-you-connect-them)
 * [提交请求表单到记录类型](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [从CSV或Excel文件导入信息](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [使用CX Enterprise Coworker创建记录](#create-records-using-cx-enterprise-coworker)
 * [使用自动化](#create-records-by-using-automations)
 
 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
@@ -196,14 +198,9 @@ Old:
   >
   >工作区管理员必须为记录类型创建请求表单，以便具有查看权限的用户使用请求表单添加记录。 否则，查看权限用户无法创建记录。
 
-<div class="preview">
-
 * 所有记录在创建时都会自动进行颜色编码，无论您使用什么方法来创建它们。
 
   有关详细信息，请参阅本文中的[颜色编码记录](#color-coding-records)部分。
-
-</div>
-
 
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
@@ -231,7 +228,7 @@ Old:
    1. 单击以下方法之一创建记录，然后单击&#x200B;**继续**：
 
       * **手动添加**。 记录的预览框打开。\
-        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录中所述。<!--insure this stays accurate-->
+        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录[中所述。<!--insure this stays accurate-->
       * **从文件上载**
         添加记录，如文章[中所述。从步骤6开始，通过从CSV或Excel文件导入信息来创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
       * **提交请求**
@@ -560,7 +557,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-   开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+   开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -602,6 +599,16 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 有关信息，请参阅[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
 
+## 使用CX Enterprise Coworker创建记录
+
+您可以使用CX Enterprise Coworker通过提示AI为您创建记录来创建记录。
+
+您还可以使用Workfront CX Enterprise Coworker的&#x200B;**附加文件**&#x200B;功能一次上载大量记录。 使用此方法可导入10,000条或更多记录。
+
+CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI助手可供这些组织使用。
+
+有关信息，请参阅[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
+
 ## 使用自动化创建记录
 
 您可以在Workfront Planning中配置自动处理，激活自动处理后，创建从Planning记录触发的记录。 创建的记录会自动连接到从中触发自动化的记录。
@@ -613,8 +620,6 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## 颜色编码记录
 
@@ -657,4 +662,3 @@ Move to its own article after production release in 10/2026:
 
       选中后，将立即应用新颜色。
 
-</div>

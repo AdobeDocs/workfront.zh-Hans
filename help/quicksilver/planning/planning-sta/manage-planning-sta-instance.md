@@ -3,6 +3,7 @@ title: 将Adobe Workfront Planning实例作为独立产品进行管理
 description: 本文介绍了当您的组织购买了Adobe Workfront Planning作为独立产品时，如何管理其首选项和客户信息。
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
@@ -18,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 3%

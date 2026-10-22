@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1043'
 ht-degree: 1%
 ---
 
@@ -30,13 +30,10 @@ ht-degree: 1%
 <!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <!--
-
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 -->
-
 
 {{planning-important-intro}}
 
@@ -145,7 +142,7 @@ Co-worker保留了AI Assistant目前所做的一切，同时在新的全屏体�
 * 删除、复制或恢复记录
 * 将记录链接到其他记录
 * 查看记录的更改历史记录
-
+* 通过将Excel文件附加到同事，导入10,000条或更多记录。
 
 ## 在Workfront Planning中找到同事
 

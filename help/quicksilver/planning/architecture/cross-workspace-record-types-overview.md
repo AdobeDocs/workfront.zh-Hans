@@ -26,16 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1831'
 ht-degree: 0%
 ---
 # 跨工作区记录类型概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -205,8 +208,8 @@ These two capabilities will come later - and edit some of the bullets below afte
   * 创建和管理自动化
   * 创建和管理请求表单
 
-    <span class="preview">您可以使用辅助记录类型页面中的请求表单为辅助记录类型创建记录，或者在填写为主要全局记录类型创建的请求表单并更新Workspace字段时，通过明确指示应将记录保存到的工作区。
-    有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>
+    您可以使用辅助记录类型页面中的请求表单为辅助记录类型创建记录，或者在填写为主要全局记录类型创建的请求表单并更新Workspace字段时明确指示应将记录保存到的工作区。
+    有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 
 * 当您对辅助工作区具有“查看”或更高权限时，可在以下工作区中看到这些工作区中添加的记录：

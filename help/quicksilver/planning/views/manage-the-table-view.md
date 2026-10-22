@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
+source-wordcount: '4138'
 ht-degree: 2%
 ---
 # 管理表视图
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Old:
 
 1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   ![表视图示例](assets/table-view-example-g-list.png)
+   ![表视图示例](assets/table-view-example.png)
 
 1. （可选）单击&#x200B;**行高**，然后从以下选项中进行选择以修改表行的高度：
    * 短
@@ -333,9 +335,7 @@ Old:
      * **MIN**：显示列中所有单元格的最小值。
      * **MAX**：显示列中所有单元格中的最高值。
      * **AVG**：显示列中所有单元格的平均值。
-     * <span class="preview">**NONE**：未聚合列的值。 这是默认选项。</span>
-
-   <div class="preview">
+     * **NONE**：未聚合列的值。 这是默认选项。
 
    * 对于日期字段，请展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
 
@@ -351,17 +351,12 @@ Old:
      * **EMPTY**：显示无值的字段计数。
      * **NOT EMPTY**：显示具有值的字段计数。
 
-   </div>
-
    使用聚合器时，请考虑以下事项：
 
    * 列中的聚合器行在显示值时被冻结，并且是视图设置的一部分。
    * 作为视图管理器，您可以选择聚合器，当您与其他人共享视图时，它将与视图共享。
    * 作为查看器，您可以修改聚合，但不会随视图一起保存。
    * 公共共享视图与已保存的聚合共享，该聚合无法修改。
-
-   <div class="preview">
-
    * 以下字段类型没有汇总：
 
      * 创建者
@@ -369,7 +364,7 @@ Old:
      * 记录 ID
    * 公式字段和查找字段具有与其字段格式对应的聚合。
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
 
-   默认缩略图图像<span class="preview">和颜色</span>也添加到新记录中。
+   默认缩略图图像和颜色也会添加到新记录中。
 
    >[!TIP]
    >
-   ><span class="preview">当记录具有未读注释时，记录的主字段的右上角会显示一个&#x200B;**新注释**&#x200B;指示符。</span>
+   >当记录具有未读注释时，该&#x200B;**新注释**&#x200B;指示符将显示在记录的主字段的右上角。
    >
    >![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    >您对行顺序所做的更改对同一视图中访问该记录类型的所有用户均可见。
    >
-   ><span class="preview">在拖放行中，如果有多个记录，则数字指示器会显示所选记录数。</span>
+   >在拖放行中，如果有多个记录，则数字指示器将显示所选记录数。
 
 1. （可选）单击记录右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑缩略图**&#x200B;以编辑缩略图。
-1. 在生产环境中单击表顶部的&#x200B;**字段**
-
-   或
-
-   <span class="preview">将鼠标悬停在主字段标题</span>上，然后选择&#x200B;**缩略图**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
+1. 将鼠标悬停在主字段标题上，然后选择&#x200B;**缩略图**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
    有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. <span class="preview">单击表顶部的&#x200B;**字段**</span>
+1. 将鼠标悬停在主字段标题上，然后选择&#x200B;**颜色**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
-   或
-   <span class="preview">将鼠标悬停在主字段标题上，然后选择&#x200B;**颜色**&#x200B;字段的切换开关以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。</span>
-
-1. <span class="preview"> （可选且有条件）如果您启用了&#x200B;**颜色**&#x200B;设置，请单击记录主字段左侧的颜色栏，并从&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;选项卡中选择一种颜色，然后单击框外部将其关闭。 立即应用该颜色。</span>
-
-<div class="preview">
+1. （可选且有条件）如果您启用了&#x200B;**颜色**&#x200B;设置，请单击记录主字段左侧的颜色栏，然后从&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;选项卡中选择一种颜色，然后单击框外部将其关闭。 颜色会立即应用。
 
 ![录制颜色编码拾色器框](assets/color-picker-for-record-color-coding.png)
 
 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
-
-</div>
-
 
 ### 添加过滤器 {#add-filters-1}
 
@@ -514,10 +497,10 @@ FROM LISA: This is the old section. I commented it out vs deleting.
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p> 或<span class="preview"><p>是任何</p></span>
+            <td><p>是任何</p>
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p> 或<span class="preview"><p>不是任何</p></span>
+            <p>不是任何</p>
             <p>为空</p>
             <p>不为空</p></td>
         </tr>
@@ -663,7 +646,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。

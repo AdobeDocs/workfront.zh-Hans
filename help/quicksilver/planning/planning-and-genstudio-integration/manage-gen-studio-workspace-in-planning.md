@@ -25,9 +25,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '1956'
 ht-degree: 2%
 ---
 <!--
@@ -50,11 +50,11 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 当您的公司同时购买了两款产品，并且您的Adobe GenStudio for Performance Marketing实例与公司的GenStudio实例集成时，Adobe Workfront Planning中会提供Workfront工作区。
 
@@ -118,7 +118,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -180,7 +180,7 @@ Old, before Planning STA:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations </li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -236,7 +236,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -377,23 +377,20 @@ Workfront Planning主页将打开。
    * **编辑**
 
      有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
-   * **管理自动化**&#x200B;或&#x200B;<span preview="preview">**自动化**</span>
+   * **自动化**
 
      有关信息，请参阅[配置Adobe Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
-   * **管理请求表单**&#x200B;或&#x200B;<span class="preview">**请求表单**</span>
+   * **请求表单**
 
      您可以创建多个请求表单。 申请表将在Workfront的申请区域提供，您也可以公开或通过链接共享它们。
 
      有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
-
-   <div class="preview">
 
    * **业务规则**
 
      您可以配置记录类型业务规则，以定义在允许用户编辑或删除该类型记录之前必须满足的条件。
 
      有关信息，请参阅[配置记录类型业务规则](/help/quicksilver/planning/architecture/configure-business-rules.md)。
-   </div>
 
 1. 要共享视图或记录类型，请执行以下操作：
 
@@ -495,14 +492,14 @@ Workfront Planning主页将打开。
    1. （视情况而定）在GenStudio工作区中连接的AEM资源中，单击资源的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开该资源。
    1. 单击以选择右侧面板中的&#x200B;**Campaign**&#x200B;选项卡。
 
-      连接到资产的营销活动的名称显示在&#x200B;**营销活动**&#x200B;字段中。 这是只读字段。
-      如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
+      连接到资产的营销活动的名称显示在&#x200B;**营销活动**字段中。 这是只读字段。
+      如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
    1. （视情况而定）在Planning的GenStudio工作区中，从连接的AEM内容片段中单击内容片段的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开内容片段。
    1. 单击AEM中的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-in-aem.png)以转到内容片段列表，然后单击AEM中内容片段名称右侧的&#x200B;**信息**&#x200B;图标![信息图标](assets/info-icon-in-aem.png)。
    1. 单击右侧面板中的&#x200B;**元数据**&#x200B;选项卡。
 
       在&#x200B;**xdm： campaignName**&#x200B;字段中显示的连接到内容片段的营销活动的名称。 这是只读字段。 <!--tried to log a bug to rename this field-->
-      如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
+      如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
 
 1. 将鼠标悬停在表视图中的字段上，然后单击下拉菜单以执行以下操作之一：
 

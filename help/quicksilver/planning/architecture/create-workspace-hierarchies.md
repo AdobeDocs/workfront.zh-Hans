@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 1%
@@ -40,6 +40,8 @@ ht-degree: 1%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+{{planning-important-intro}}
 
 作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型之间创建多个工作区层次结构。
 
@@ -131,7 +133,7 @@ ht-degree: 1%
 
    如果您正在创建与Workfront项目的连接，则不会在该项目上创建字段。
 
-1. （视情况而定）如果没有可用的连接字段，请单击“创建连接”**&#x200B;**&#x200B;并添加新连接，然后单击“保存”**&#x200B;**。
+1. （视情况而定）如果没有可用的连接字段，请单击“创建连接”****&#x200B;并添加新连接，然后单击“保存”****。
 
 1. （视情况而定）如果要添加新连接，请执行以下操作：
 

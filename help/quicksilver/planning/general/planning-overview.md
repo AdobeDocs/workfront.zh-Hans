@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -186,8 +186,10 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 * [Adobe Workfront Planning的一般信息和文章索引](/help/quicksilver/planning/planning-information.md)：包含有关Workfront Planning文档的所有文章的索引，按关注区域分组。
 * [Adobe Workfront Planning作为独立产品入门](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)：有关Workfront Planning的一般信息（作为独立产品购买时）。
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
+
 * [Adobe Workfront Planning CX Enterprise Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)：一个对话式界面，您可以在此界面以纯语言描述目标，然后跨您的Workfront Planning和其他连接的Adobe系统规划、执行和验证工作，然后再重新引入以供您审批。 CX Enterprise Coworker保留了AI Assistant目前所做的一切，同时在新的全屏体验和Workfront右边栏中添加了更强大的端到端功能。
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。 您必须购买额外的许可证才能访问Workfront Fusion。
+
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。 您必须购买额外的许可证才能访问Workfront Fusion。
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 

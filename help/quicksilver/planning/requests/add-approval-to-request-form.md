@@ -34,26 +34,26 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1141'
 ht-degree: 1%
 ---
 # 在Adobe Workfront Planning中为申请表单添加批准
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 您可以在Adobe Workfront Planning请求表单中添加批准流程，以在创建记录之前为每个提交的请求启动批准。
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+审批流程支持多个阶段。 当阶段中所有必需的决策都制定完成时，下一阶段将开始，新阶段的批准者将收到电子邮件通知。
 
 本文介绍了工作区经理如何向与记录类型关联的请求表单添加批准。
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 * 当需要多个批准者时，所有批准者必须在请求被批准或拒绝之前做出决策 — 除非启用了仅需要一个决策选项。
 * 如果某个团队被设置为批准者，则只需从该团队的一名成员中做出一个决策。
 * 审批是可选的 — 如果请求表单未附加审批，Workfront Planning会在提交时立即创建记录。
-* <span class="preview">您可以向审批添加一个或多个阶段。</span>
+* 您可以向审批添加一个或多个阶段。
 
 ## 将审批规则添加到请求表单
 
@@ -156,29 +156,29 @@ ht-degree: 1%
    >   * 如果满足自定义规则，则默认不会应用于请求审批工作流。 只有匹配的自定义规则才适用于审批，默认规则将被忽略。
    >   * 如果满足多个自定义规则，则应用顺序中的第一个规则。 在这种情况下，默认审批不适用（如果有）。
 
-1. <span class="preview">（可选）单击&#x200B;**添加阶段**&#x200B;以将另一个阶段添加到审批。</span>
+1. （可选）单击&#x200B;**添加阶段**&#x200B;以将另一个阶段添加到审批。
 
 1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
 
-1. <span class="preview">（可选）要向审批添加更多阶段，请执行以下操作：</span>
+1. （可选）要向审批添加更多阶段，请执行以下操作：
 
-   1. <span class="preview">单击&#x200B;**添加阶段**。</span>
+   1. 单击&#x200B;**添加阶段**。
 
-      <span class="preview">出现&#x200B;**多阶段审批**&#x200B;框。 如果已创建默认批准操作，则这些批准者会自动添加到阶段1.</span>
+      出现&#x200B;**多阶段审批**&#x200B;框。 如果已创建默认批准操作，则这些批准者会自动添加到阶段1。
 
-   1. <span class="preview">在&#x200B;**添加人员或团队**&#x200B;字段中，添加至少一个要设置为该阶段的审批者的用户或团队。</span>
-   1. <span class="preview">（有条件，可选）如果希望记录在任何一位批准者批准后进入下一阶段，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，在请求进入下一阶段之前，所有批准者都必须决定批准。</span>
-   1. <span class="preview">单击&#x200B;**添加阶段**&#x200B;并重复步骤B以添加更多阶段以进行审批。</span>
+   1. 在&#x200B;**添加人员或团队**&#x200B;字段中，添加至少一个要设置为该阶段的审批者的用户或团队。
+   1. （有条件，可选）如果希望记录在任何一位批准者批准后进入下一阶段，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，在请求进入下一阶段之前，所有审批者都必须决定批准。
+   1. 单击&#x200B;**添加阶段**&#x200B;并从步骤B重复以上步骤以向审批添加更多阶段。
 
-      <span class="preview">当存在两个或更多阶段时，您可以单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)以按顺序拖放它们。</span>
+      当存在两个或多个阶段时，您可以单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)以按顺序拖放它们。
 
-      <span class="preview">单击&#x200B;**删除此阶段**&#x200B;可从审批中删除阶段，或者单击审批者旁边的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)可从阶段的审批者列表中删除用户或团队。</span>
+      单击&#x200B;**删除此阶段**&#x200B;可从审批中删除阶段，或者单击审批者旁边的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)从阶段的审批者列表中删除用户或团队。
 
       ![多阶段审批框](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">当您完成审批工作流的构建后，单击&#x200B;**保存**。</span>
+   1. 当您完成审批工作流的构建后，单击&#x200B;**保存**。
 
-      <span class="preview">您可以从“审批”页编辑或删除多阶段审批。</span>
+      您可以在“审批”页中编辑或删除多阶段审批。
 
 1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**。
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 2%
+source-wordcount: '615'
+ht-degree: 3%
 ---
 # 启用自定义季度和周
 
@@ -38,10 +38,12 @@ ht-degree: 2%
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 出于报告目的，如果贵组织的季度基于日历日期以外的特定标准（如工作日或购物日），则可能需要创建自定义季度。
 
@@ -50,11 +52,7 @@ ht-degree: 2%
 * 仅购买[!DNL Workfront]的客户最多可以为其[!DNL Adobe Workfront]系统配置八个自定义季度。
 * 购买[!DNL Workfront]和[!DNL Workfront Planning]的客户可以为其[!DNL Workfront]系统配置最多100个季度，这些季度也在[!DNL Planning]中提供。
 
-<div class="preview">
-
 * 购买[!DNL Workfront]和[!DNL Workfront Planning]的客户可以为每个自定义季度配置自定义周数。 自定义周在[!DNL Planning]时间线视图中可见。
-
-</div>
 
 ## 访问权限要求
 
@@ -70,12 +68,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL Workflow Standard]或[!UICONTROL Workfront Plan]许可证</p>
+   <td><p>[！UICONTROL Workflow Standard]或[！UICONTROL Workfront Plan]许可证</p>
        <p></p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,46 +132,49 @@ When we release fiscal weeks, replace the table above with this:
 
 ## 为您的[!DNL Workfront]系统设置自定义季度
 
-根据您使用的环境，设置自定义季度会有所不同。
+<!--
+Setting up custom quarters differs depending on which environment you use. 
 
-### 在生产环境中为[!DNL Workfront]系统设置自定义季度
+### Set up custom quarters for your [!DNL Workfront] system in the Production environment
 
 {{step-1-to-setup}}
 
-1. 单击&#x200B;**[!UICONTROL 自定义季度]**。
+1. Click **[!UICONTROL Custom Quarters]**.
 
-1. 选择&#x200B;**[!UICONTROL 启用自定义季度]**。
+1. Select **[!UICONTROL Enable Custom Quarters]**.
 
-1. 键入自定义季度的名称，如“Fiscal Q1 2021”。
-1. 选择自定义季度的开始和结束日期。
+1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
+1. Select start and end dates for the custom quarter.
 
-   ![自定义季度](assets/custom-quarters-nwe.png)
+   ![Custom quarters](assets/custom-quarters-nwe.png)
 
-1. （可选）单击&#x200B;**[!UICONTROL 添加自定义季度]**&#x200B;可向系统中添加其他自定义季度。
+1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
 
-   >[!IMPORTANT]
-   >
-   > 如果贵公司购买了[!DNL Workfront Planning]，并且各季度之间存在间隔或重叠，则无法保存自定义季度。
-   >![带有重叠警告的自定义季度](assets/custom-quarters-with-overlap-warning.png)
-   >季度之间的间隔和重叠仅允许[!DNL Workfront]个客户使用。
+      >[!IMPORTANT]
+      >
+      > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
+      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning.png)
+      >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
 
-1. （可选且有条件）如果贵公司只购买了[!DNL Workfront]，而没有购买[!DNL Workfront Planning]，请创建引用会计季度的报表元素。
+1. (Optional and conditional) If your company purchased only [!DNL Workfront], without [!DNL Workfront Planning], create a reporting element that refers to the fiscal quarters.
 
-   **示例：**&#x200B;为[!UICONTROL 项目]列表创建过滤器，并包含引用自定义季度项目的计划完成日期。
+   **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
 
-   ![包含自定义季度的“项目”筛选器](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
 
-   对“本季度”、“下一季度”和“上一季度”的引用将替换为对自定义季度的新引用。
+   The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
 
-   有关报表元素的信息，请参阅[报表元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。
+   For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   有关创建筛选器的信息，请参阅[在 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)中创建或编辑筛选器。
-1. （可选且有条件）如果您的公司购买了Workfront Planning并且您有权访问[!DNL Workfront Planning]，请转到记录类型页面并打开时间线视图。 视图将显示新的自定义季度。
-有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. (Optional and conditional) If your company purchased Workfront Planning and you have access to [!DNL Workfront Planning], go to a record type page and open a timeline view. The view displays the new custom quarters. 
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 <div class="preview">
 
-### 在预览环境中为[!DNL Workfront]系统设置自定义季度
+### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+
+-->
 
 >[!NOTE]
 >
@@ -233,6 +234,6 @@ When we release fiscal weeks, replace the table above with this:
    有关创建筛选器的信息，请参阅[在 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)中创建或编辑筛选器。
 1. （可选且视情况而定）要在Workfront Planning中查看自定义季度和周，请转到记录类型页面并打开时间线视图。 该视图显示新的自定义季度和周。
 
-有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+   有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
-</div>
+

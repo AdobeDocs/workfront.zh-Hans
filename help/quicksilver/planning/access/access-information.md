@@ -23,18 +23,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '137'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning访问信息：文章索引
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -51,10 +51,7 @@ ht-degree: 0%
 * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
 * [共享记录](/help/quicksilver/planning/access/share-records.md)
 * [设置记录的默认权限](/help/quicksilver/planning/access/set-default-record-permissions.md)
-
-<div class="preview">
-
 * [共享Workfront规划字段](/help/quicksilver/planning/access/share-fields.md)
 
-</div>
+
 
