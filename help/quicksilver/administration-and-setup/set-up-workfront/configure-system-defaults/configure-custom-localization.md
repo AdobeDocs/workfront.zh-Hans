@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 4%
 ---
 # 配置自定义本地化
 
-{{highlighted-preview}}
-
-自定义本地化允许您<span class="preview">使用AI</span>定义不同语言的自定义术语和短语。 然后，Workfront会以用户的Adobe Identity Management (IMS)设置中设置的语言显示这些术语。
+通过自定义本地化，您可以使用AI定义不同语言的自定义术语和短语。 然后，Workfront会以用户的Adobe Identity Management (IMS)设置中设置的语言显示这些术语。
 
 例如，标签“目标受众”可以本地化为德语单词“Zielgruppe”。 任何选择德语作为浏览器主要语言的用户都会看到“Zielgruppe”一词作为任何英语中标记为“目标受众”的字段的标签。
 
@@ -92,8 +90,6 @@ ht-degree: 4%
 1. （可选）要重新排序语言列，请单击要移动的列的标题，然后将其拖动到所需位置。
 1. （可选）要删除术语的翻译，请单击术语旁边的复选框，然后单击页面底部蓝色栏中的&#x200B;**删除**。
 
-<div class="preview">
-
 ## 使用人工智能翻译本地化未翻译的自定义文本
 
 您可以使用AI将自定义文本本地化。 您可以选择术语和语言，并可在应用翻译之前批准翻译。
@@ -149,5 +145,3 @@ ht-degree: 4%
 1. 单击&#x200B;**保存**。
 1. （可选）要删除术语的所有翻译，请单击术语旁边的复选框，然后单击页面底部蓝色栏中的&#x200B;**删除**。
 
-
-</div>

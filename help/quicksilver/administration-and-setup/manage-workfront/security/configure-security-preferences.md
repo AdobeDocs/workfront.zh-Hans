@@ -38,14 +38,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
+source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 7%
 ---
 # 配置系统偏好设置
-
-{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -164,8 +162,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td><p>允许您选择在批量编辑对象时是否强制用户在必填字段中输入信息。</p> <p>选择此选项时，必填字段必须具有值，才能以批量编辑模式保存。 如果必填字段至少缺少一个批量选定对象的值，则不允许保存。</p> <p>如果未选择此选项，则只有在用户修改必填字段时，才会强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">在 Admin Console 中创建的用户的访问级别</span></td>
-      <td><span class="preview">允许您选择默认访问级别，以自动分配给通过Adobe Admin Console在Workfront中创建的用户。 如果不设置默认值，这些用户将继续获得“参与者”或“请求者”访问级别。 系统管理员和外部用户访问级别不作为默认设置提供，并且此设置不适用于将Workfront Planning作为独立产品的组织。<p><b>注意</b>：当访问级别设置为默认级别时，您无法删除该级别。 要删除默认访问级别，请先选择其他默认访问级别。</p></span></td>
+      <td role="rowheader">在 Admin Console 中创建的用户的访问级别</td>
+      <td>允许您选择默认访问级别，以自动分配给通过Adobe Admin Console在Workfront中创建的用户。 如果不设置默认值，这些用户将继续获得“参与者”或“请求者”访问级别。 系统管理员和外部用户访问级别不作为默认设置提供，并且此设置不适用于将Workfront Planning作为独立产品的组织。<p><b>注意</b>：当访问级别设置为默认级别时，您无法删除该级别。 要删除默认访问级别，请先选择其他默认访问级别。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">存储偏好设置 </td> 
@@ -201,16 +199,16 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">只读 MCP 工具</span></td> 
-      <td><span class="preview">允许Workfront MCP服务器对Workfront数据执行读取操作，例如查找或列出项目、任务或其他项目。 此选项默认处于启用状态。<p>有关Workfront MCP服务器的详细信息，请参阅<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">配置Adobe Workfront MCP服务器</a>。</p></span></td> 
+      <td role="rowheader">只读 MCP 工具</td> 
+      <td>允许Workfront MCP服务器对Workfront数据执行读取操作，例如查找或列出项目、任务或其他项目。 此选项默认处于启用状态。<p>有关Workfront MCP服务器的详细信息，请参阅<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">配置Adobe Workfront MCP服务器</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">写入 MCP 工具</span></td> 
-      <td><span class="preview">允许Workfront MCP服务器对Workfront数据执行创建、更新和删除操作。 默认禁用此选项。<p>有关Workfront MCP服务器的详细信息，请参阅<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">配置Adobe Workfront MCP服务器</a>。</p></span></td> 
+      <td role="rowheader">写入 MCP 工具</td> 
+      <td>允许Workfront MCP服务器对Workfront数据执行创建、更新和删除操作。 默认禁用此选项。<p>有关Workfront MCP服务器的详细信息，请参阅<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">配置Adobe Workfront MCP服务器</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">授权的重定向 URL</span></td> 
-      <td><span class="preview">控制哪些回调（重定向）URL可以完成组织MCP代理的登录，这些代理通过自定义AI代理平台进行连接。<p>有关为MCP服务器添加重定向URL的说明，请参阅本文中的<a href="#add-or-remove-an-authorized-redirect-url">添加或删除授权的重定向URL</a>。</p></span></td> 
+      <td role="rowheader">授权的重定向 URL</td> 
+      <td>控制哪些回调（重定向）URL可以完成组织MCP代理的登录，这些代理通过自定义AI代理平台进行连接。<p>有关为MCP服务器添加重定向URL的说明，请参阅本文中的<a href="#add-or-remove-an-authorized-redirect-url">添加或删除授权的重定向URL</a>。</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">测试环境</td> 
@@ -223,8 +221,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
    您在此处保存的更改会影响Workfront中所有用户的体验，以及作为外部用户与系统交互的任何用户的体验。
 
 ## 添加或删除授权的重定向URL
-
-<div class="preview">
 
 授权的重定向URL允许您连接一个自定义AI代理平台，该平台的OAuth回调URL对于您的组织是唯一的，例如包含连接或租户ID的URL。
 
@@ -248,4 +244,3 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 +++
 
-</div>

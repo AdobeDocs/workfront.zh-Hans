@@ -16,14 +16,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%
 ---
 # AI 协作者
-
-{{preview-fast-release-general}}
 
 AI协作者是AI代理，您可以通过与分配人员相同的方式将其分配给任务。 您可以将AI协作者融入现有工作流，从而让您的团队能够专注于最重要的事情。
 

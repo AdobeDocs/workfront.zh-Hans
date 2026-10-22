@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 2%
 ---
 # 在Adobe Admin Console中管理用户
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -112,7 +110,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   >
   >请勿对产品配置文件本身进行任何更改。
 
-* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/cn/enterprise/using/automatic-assignment-rules.html)。
+* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
 
   >[!NOTE]
   >
@@ -192,7 +190,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
    该用户是在Workfront中创建的，具有“请求者”或“参与者”访问级别，具体取决于您组织的Workfront包。
 
-   <span class="preview">如果您的Workfront管理员为在Admin Console中创建的用户设置了默认访问级别，则该用户将改用该访问级别创建。 有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。</span>
+   如果您的Workfront管理员为在Admin Console中创建的用户设置了默认访问级别，则会改用该访问级别创建用户。 有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
    >[!IMPORTANT]
    >
@@ -249,10 +247,10 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 * 管理权限
 * 国家/地区
 
-有关在Adobe Admin Console中编辑单个用户的信息，请参阅Adobe文档中的单独管理用户一文中的[编辑用户详细信息](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html#edit-user-details)。
+有关在Adobe Admin Console中编辑单个用户的信息，请参阅Adobe文档中的单独管理用户一文中的[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)。
 
 有关在Adobe Admin Console中批量编辑用户的信息，请参阅
-在Adobe的“管理多个用户”一文中，[编辑用户详细信息](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html#edit-user-details)。
+在Adobe的“管理多个用户”一文中，[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
 
 ## 删除用户
 
@@ -261,14 +259,14 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 >* 如果用户在Admin Console用户组中，并且产品配置文件已添加到一个或多个这些用户组，则从Workfront中停用用户实际上不会从产品中删除这些用户。 必须从Admin Console的用户组中删除用户。
 >* 从Adobe Admin Console中删除用户会停用Workfront中的用户，但不会从Workfront中删除这些用户。
 
-有关在Adobe Admin Console中删除用户的说明，请参阅Adobe文档中的[管理目录用户](https://helpx.adobe.com/cn/enterprise/using/manage-directory-users.html)。
+有关在Adobe Admin Console中删除用户的说明，请参阅Adobe文档中的[管理目录用户](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/cn/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
