@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c3f012074799cc64a3aa5e1ffd212e1871e61529
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '615'
 ht-degree: 4%
 ---
 # 为系统中的每个人配置事件通知
@@ -92,17 +92,22 @@ ht-degree: 4%
 
    ![设置电子邮件下的通知区域](assets/notifications-area-under-setup-emails.png)
 
-
 1. 确保&#x200B;**事件通知**&#x200B;选项卡已打开。
-1. 将开关切换至事件名称的左侧，以打开或关闭该开关。
+1. 将开关切换至事件名称的左侧，以打开或关闭该开关。<!--Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.-->
 
    要查看事件的默认通知状态，请参阅[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)。
 
-1. （可选）单击事件通知的名称以自定义电子邮件通知的主题行。
+1. （可选）要自定义电子邮件通知的主题行，您可以：
+
+   * 单击通知右侧的锁图标![锁图标](assets/lock-icon-100626.png)或&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后选择&#x200B;**编辑**。
+   * 选中通知旁边的复选框，然后单击屏幕底部操作栏中的&#x200B;**编辑**。
 
    有关自定义电子邮件通知主题行的详细信息，请参阅[自定义事件通知的电子邮件主题](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)。
 
-1. （可选）如果要解锁电子邮件通知的配置，以便组管理员可以单独为其组配置该通知，请单击通知右侧的按钮![锁定切换](assets/lock-toggle-button.png)，将其切换到解锁位置![解锁切换](assets/unlock-toggle-button.png)。
+1. （可选）要解锁电子邮件通知的配置，以便组管理员可以为其组单独配置该通知，您可以：
+
+   * 单击通知右侧的锁定图标![锁定图标](assets/lock-icon-100626.png)，然后选择&#x200B;**解锁群组访问权限**。 解锁通知后，不再显示锁图标。
+   * 选中通知旁边的复选框，然后单击屏幕底部操作栏中的&#x200B;**解锁组访问权限**。
 
    有关详细信息，请参阅[解锁或锁定所有组的事件通知配置](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)。
 

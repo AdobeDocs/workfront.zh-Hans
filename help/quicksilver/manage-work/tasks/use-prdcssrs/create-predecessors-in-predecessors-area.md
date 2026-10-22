@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 4%
 ---
 # 使用前置任务区域创建前置任务关系
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -112,7 +110,7 @@ ht-degree: 4%
 
 1. 输入&#x200B;**延迟**&#x200B;金额。
 
-   有关信息，请参阅{&#x200B;0}滞后类型概述[&#128279;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。
+   有关信息，请参阅{&#x200B;0}滞后类型概述](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。[
 
    ![添加前置任务对话框](assets/add-predecessor-dialog-box.png)
 
@@ -122,7 +120,6 @@ ht-degree: 4%
 
 1. 单击&#x200B;**保存**。
 
-1. （可选）要删除前置任务，请从前置任务列表中将其选中，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/remove-or-delete-icon.png)。
-   <span class="preview">要删除前置任务，请在前置任务列表中将其选中，然后单击屏幕底部操作栏中的&#x200B;**删除**。</span>
+1. （可选）要删除前置任务，请在前置任务列表中将其选中，然后单击屏幕底部操作栏中的&#x200B;**删除**。
 
    前置任务将从列表中删除。 前置任务未从其项目中删除。

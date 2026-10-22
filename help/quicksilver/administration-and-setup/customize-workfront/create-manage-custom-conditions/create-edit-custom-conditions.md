@@ -29,14 +29,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 4%
+source-wordcount: '646'
+ht-degree: 5%
 ---
 # 创建或编辑自定义条件
-
-{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以为项目、任务和问题创建或编辑自定义条件，以满足贵组织的需求。
 
@@ -80,15 +78,8 @@ ht-degree: 4%
 
    或
 
-   要编辑现有条件，请执行以下操作：
+   要编辑现有条件，请选中要删除的条件名称旁边的复选框，然后单击屏幕底部操作栏中的&#x200B;**编辑**。
 
-   * 在生产环境中，单击条件名称旁边的&#x200B;**编辑**。
-   * <span class="preview">在“预览”环境中，选中要删除的条件名称旁边的复选框，然后单击屏幕底部操作栏中的&#x200B;**编辑**。</span>
-
-   生产环境中的示例图像：
-   ![编辑自定义条件](assets/custom-conditions-0825.png)
-
-   预览环境中的<span class="preview">示例图像：</span>
    ![编辑自定义条件](assets/edit-conditions-082526.png)
 
 1. 使用以下选项配置自定义条件：
