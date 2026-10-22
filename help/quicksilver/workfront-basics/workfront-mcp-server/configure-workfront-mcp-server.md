@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2357'
 ht-degree: 0%
 ---
 
@@ -37,6 +37,16 @@ Workfront MCP服务器可与支持模型上下文协议(MCP)的任何AI代理平
 ```
 https://mcp.workfront.adobe.com/mcp/v1/workfront
 ```
+
+>[!NOTE]
+>
+><span class="preview">若要减小预先加载所有工具的客户端的MCP目录的大小，可以将`toolsets`查询参数添加到Workfront MCP服务器URL。 例如：</span>
+>
+>```
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>```
+>
+><span class="preview">有关工具集的详细信息，请参阅Adobe Workfront MCP服务器工具一文中的[Workfront MCP服务器中的工具集](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)。</span>
 
 ## 先决条件
 

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
+source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
 workflow-type: tm+mt
-source-wordcount: '3537'
+source-wordcount: '3774'
 ht-degree: 3%
 ---
 
@@ -42,6 +42,51 @@ AI代理平台中显示的工具取决于贵组织的Workfront产品授权。
 
 下表确定了每个工具所属的产品区域。
 
+<div class="preview">
+
+<!--This section is for the 27.1 release-->
+
+## Workfront MCP服务器中的工具集
+
+>[!IMPORTANT]
+>
+>在配置与Workfront MCP服务器的连接时，将选择工具集。
+>有关信息和说明，请参阅[配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+通过工具集，您可以选择AI客户端所需的Workfront功能，而不是公开完整的MCP目录。 这对于提前加载所有工具定义、需要保持在工具计数限制范围内或受益于更集中的工具列表的客户端非常有用。
+
+您可以通过将`toolsets`查询参数添加到Workfront MCP服务器URL来指定工具集。
+
+>[!BEGINSHADEBOX]
+
+示例：
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+此示例公开`core`和`comment-stream`功能。 只要选择了子集，就会自动包含`core`组。
+
+>[!ENDSHADEBOX]
+
+可用的工具集包括：
+
+* `core` — 基本Workfront工具集，在选择工具集的子集时自动包含该工具集。
+* `comment-stream` — 用于评论和讨论工作流的工具。
+* `planning` — 用于Workfront规划功能的工具。
+* `approvals` — 用于审批工作流的工具。
+
+要公开完全授权的目录，请省略参数或使用`toolsets=all`。
+
+您可以将可选组与逗号（如`toolsets=core,planning,approvals`）组合。
+
+选择适用于在UI中显示Workfront工具的工具、资源和资源模板、提示和MCP应用程序。 特定于后端的服务器说明也遵循所选的工具集配置。
+
+工具集不会更改权限。 将继续强制实施Workfront访问级别和对象权限。
+
+如果希望AI客户端访问其他域，请更新连接配置以选择适当的工具集。
+
+</div>
 
 ## 读取和写入操作
 
