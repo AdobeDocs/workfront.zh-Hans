@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a940bad993b8e0be1328d84dc8b113e9b513fbdb
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '14708'
+source-wordcount: '14711'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -2326,7 +2326,7 @@ ht-degree: 2%
     * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成：文章索引](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [在Adobe Workfront Planning中管理GenStudio工作区](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * {hide-from-toc}[将Workfront规划工作区提升到GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+    * [在GenStudio for Performance Marketing中启用Workfront规划工作区](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * Adobe Workfront Planning作为独立产品 {#planning-standalone}
     * [Adobe Workfront Planning作为独立产品：文章索引](planning/planning-sta/planning-sta-article-index.md)
     * [Adobe Workfront Planning作为独立产品入门](planning/planning-sta/planning-sta-overview.md)

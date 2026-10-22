@@ -25,7 +25,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 2%
@@ -47,6 +47,8 @@ recommendations: noDisplay, noCatalog
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
 # 在Adobe Workfront Planning中管理GenStudio工作区
+
+{{planning-important-intro}}
 
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>

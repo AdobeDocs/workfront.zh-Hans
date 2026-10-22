@@ -7,9 +7,9 @@ description: 您可以为组织启用Adobe云存储，以便为所有Adobe产品
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 Adobe云存储是一个统一的基于云的存储解决方案，它充当Adobe企业产品中资产的中央存储库。 本文介绍了如何启用Adobe云存储作为整个组织或特定组的默认存储选项。
 
-这是单个打开新Experience的操作：启用后，新项目将使用Adobe云存储，包括Frame.io查看器和统一批准。 在选择启用Adobe云存储之前，不会发生任何更改。
+>[!IMPORTANT]
+>
+>在Workfront的“设置”区域中启用Adobe Cloud Storage后，您的环境才会发生任何变化。<br>
+>启用Adobe云存储后，只有新项目会使用Adobe云存储，其中包括Frame.io查看器和统一批准。 您现有的项目将继续使用其当前存储，并且保持不变。
 
 由于您可以控制时间，因此可以在任何人使用它之前测试体验、更新Workfront Fusion场景并规划报表更改。 有关新增功能以及如何规划转出的更多信息，请参阅[在Adobe云存储上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
 

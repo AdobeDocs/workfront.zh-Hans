@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 1%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 
 # Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Some commented out information here comes from glean
 * 激活记录包括：
 
   * 一个跟踪ID字段，用于存储跟踪ID公式每个区段的已解析值以及任何错误。
+  * 用于存储Meta Dynamic Creative对象信息的动态创意图像和动态创意视频激活类型。
   * 一个“正在生成”状态选择，指示正在生成跟踪ID。 当生成完成或失败时，激活状态将返回为“草稿”。 现有的激活不会受到影响。
 
 
