@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 3%
 ---
 # 向文档添加更新
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ ht-degree: 3%
    ![新建文档评论面板](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### 预览中的Frame.io注释指示器
+### Frame.io注释指示器
 
 在为文档创建审批工作流时，用户可以在Frame.io查看器中留下注释并进行批注。 这些注释不会显示在“Workfront注释”面板中，但您可以在Frame.io查看器中查看它们。
 
@@ -125,5 +121,3 @@ Workfront中的“注释”面板会显示一条消息，告知您何时在Frame
 >[!NOTE]
 >
 >* 如果您拥有Frame.io Enterprise许可证，则无需批准工作流即可在Frame.io查看器中查看注释。
-
-</div>

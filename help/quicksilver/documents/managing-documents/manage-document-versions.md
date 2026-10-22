@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1130'
 ht-degree: 1%
 ---
 # 管理文档版本
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 您可以在Workfront中管理文档的多个版本。
 
@@ -162,9 +160,7 @@ ht-degree: 1%
 
    ![删除文档版本](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## 在预览中管理新文档区域中的文档版本
+## 在新文档区域管理文档版本
 
 如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -239,12 +235,6 @@ Workfront会按照您上传每个版本的顺序（例如V1、V2、V3）对其�
    >
    >删除版本不会更改其他版本的编号。 例如，如果从版本为V1到V5的文档中删除V3，则其余版本将保留其原始编号，并且之后没有V3。 您上传的下一个版本将变为V6。
 
-</div>
+### 在审批期间查看当前文件
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+如果文档是Creative Cloud文件（例如，Photoshop cloud文档）并且有人在审批过程中编辑它，则Workfront会显示&#x200B;**当前文件**&#x200B;部分，其中包含指示活动文档中存在新更新的徽章，与正在审批的版本不同。

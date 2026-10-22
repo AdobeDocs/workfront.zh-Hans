@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 1%
 ---
 # 使用画布功能板
@@ -110,9 +110,9 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >这些更改仅适用于当前会话，不会影响原始报告配置。 若要永久设置这些更改，您需要编辑报告。
 
-<div class="preview">
 
-### 在预览中向下钻取到数据透视表数据
+
+### 向下钻取到数据透视表数据
 
 您可以单击数据透视表中的值来进行深入分析，并查看构成该聚合值的各个记录。
 
@@ -126,7 +126,7 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
    追溯表格显示报告创建者在“追溯列设置”中配置的列。 有关详细信息，请参阅[在画布功能板中生成数据透视表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)。
 
-</div>
+
 
 
 <!--

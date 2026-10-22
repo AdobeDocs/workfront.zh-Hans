@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1634'
 ht-degree: 0%
 ---
 # 报表交付概述
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -202,17 +200,13 @@ ht-degree: 0%
 
 电子邮件中报告的名称也是一个链接。
 
-<div class="preview">
-
 ### 报告过期通知 {#report-expiration-notices}
 
-在预览中，交付的报表电子邮件包含报表的过期日期。
+送达的报表电子邮件包括报表的过期日期。
 
 如果投放每天重复，则当过期日期在45天内时，电子邮件会在每次投放时包含过期警告。
 
 如果每周或每月重复投放，则电子邮件会在过期日期之前的最后四个计划投放期间包含过期警告。
-
-</div>
 
 ## 计划报告的报告
 
