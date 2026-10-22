@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '638'
 ht-degree: 2%
 ---
 # 覆盖公司级别的工作角色记帐费率
-
-{{preview-fast-release-general}}
 
 创建工作角色后，您可以选择为该角色选择每小时记帐费率。 您可以创建特定于公司的多个小时记帐费率。 每个记帐费率在特定日期范围内有效。
 
@@ -74,38 +72,8 @@ ht-degree: 2%
 1. 找到分配工作角色的公司。
 1. 单击列表中的公司名称。
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 记帐费率]**。
-1. 单击&#x200B;**[!UICONTROL 添加记帐费率] > [!UICONTROL 新记帐费率]**，或单击&#x200B;<span class="preview">**添加记帐费率**</span>。
+1. 单击&#x200B;**[!UICONTROL 添加记帐费率]**。
 1. 在[!UICONTROL 新建记帐费率]对话框中，选择&#x200B;[!UICONTROL **工作角色**]&#x200B;以定义其记帐费率。
-
-### 在生产环境中：
-
-[!UICONTROL **默认记帐费率**]&#x200B;显示此工作角色的系统级别费率。
-
-![新建记帐费率对话框](assets/date-effective-billing-rates-for-company.png)
-
-1. 在&#x200B;[!DNL **记帐费率1**]&#x200B;字段中输入记帐费率。 然后，单击&#x200B;[!UICONTROL **保存**]&#x200B;以一次性覆盖记帐费率。
-
-   或
-
-   单击&#x200B;[!UICONTROL **添加费率**]&#x200B;以添加更多具有有效日期的记帐费率。
-
-1. （视情况而定）如果要添加多个开单费率，请输入以下信息：
-
-   * **[!UICONTROL 记帐费率1]、2等。**：时间段的记帐费率值。
-   * **[!UICONTROL 开始日期]**：费率生效的日期。
-   * **[!UICONTROL 结束日期]**：费率结束的日期。
-
-     记帐费率1没有开始日期，最后一个记帐费率没有结束日期。 某些日期会自动添加。 例如，如果记帐费率1没有结束日期，并且您添加开始日期为2023年5月1日的记帐费率2，则结束日期为2023年4月30日将添加到记帐费率1，这样不存在间隔。
-
-1. 单击&#x200B;[!UICONTROL **保存**]。
-
-   >[!NOTE]
-   >
-   >项目上工作角色费率的更改将仅影响该项目。 公司级别的费率更改将影响所有项目。 有关详细信息，请参阅[覆盖记帐费率和计算项目收入的概述](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
-
-<div class="preview">
-
-### 在“预览”环境中：
 
 1. 选择费率属性，如机构、地点或成本中心。
 
@@ -145,5 +113,35 @@ ht-degree: 2%
    >
    >项目上工作角色费率的更改将仅影响该项目。 公司级别的费率更改将影响公司分配的所有项目。 有关详细信息，请参阅[覆盖记帐费率和计算项目收入的概述](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 

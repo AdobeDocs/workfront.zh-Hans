@@ -34,14 +34,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '8284'
+source-wordcount: '8130'
 ht-degree: 4%
 ---
 # 创建自定义表单
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -487,33 +485,8 @@ ht-degree: 4%
     </ul></td>
     </tr>
     <tr>
-    <td role="rowheader">选项 </td> 
-    <td> 
-    <p>选择以下任一选项：</p> 
-    <ul> 
-    <li><strong>显示值</strong>：显示字段中每个选择的值。 默认情况下，将显示每个选项的标签。</li>
-   <li><strong>选择排序A-Z</strong>：按字母顺序对您在字段中添加的选择进行排序。</li>
-    </ul>
-     <p>对于您为用户添加的每个选项，单击齿轮图标<img src="assets/gear-icon-settings.png">，然后选择以下选项之一：</p> 
-    <ul> 
-    <li><strong>默认选择</strong>：在字段中选择默认选择。</li> 
-    <li> <p><strong>隐藏选择</strong>：隐藏字段中的选择。 隐藏选项在报表中仍可访问。</p> </li> 
-    <li> <p><strong>删除选择</strong>：从字段中删除选择。</p> <p><b>警告</b>：如果当前对象使用此选项，请不要将其从字段中移除。 删除它将会导致历史数据丢失。 相反，选择选项可隐藏它，这会阻止用户将来选择它。</p> </li> 
-    </ul>   
-    <p><b>注意：</b>您可以选择的选项数量没有限制。 </p>    
-    </td> 
-    <td><ul>
-    <li>单选按钮</li>
-    <li>复选框组</li>
-    <li>单选下拉菜单</li>
-    <li>多选下拉框</li>
-    </ul>
-    </td>
-     </tr>
-    <tr>
-    <td role="rowheader"><span class="preview">选项</span></td> 
+    <td role="rowheader">选项</td> 
     <td>
-    <div class="preview">
     <p>单击<strong>编辑选项</strong>以添加或编辑字段的选项。</p>
     <p>要在“编辑选项”对话框中添加新选项，请执行以下操作：</p>
     <ol>
@@ -530,13 +503,12 @@ ht-degree: 4%
     <li>单击<strong>选择排序A-Z</strong>以按字母顺序对字段中的选择进行排序。</li>
     </ul>
     <p>编辑完选项后，单击<strong>保存</strong>。</p>
-    </div>
     </td> 
     <td><ul>
-    <li><span class="preview">单选按钮</span></li>
-    <li><span class="preview">复选框组</span></li>
-    <li><span class="preview">单选下拉菜单</span></li>
-    <li><span class="preview">多选下拉框</span></li>
+    <li>单选按钮</span></li>
+    <li>复选框组</span></li>
+    <li>单选下拉菜单</span></li>
+    <li>多选下拉框</span></li>
     </ul>
     </td>
     </tr> 
@@ -576,6 +548,37 @@ ht-degree: 4%
    或
 
    单击&#x200B;**保存并关闭**。
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 

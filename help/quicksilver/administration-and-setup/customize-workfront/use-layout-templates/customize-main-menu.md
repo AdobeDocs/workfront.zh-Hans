@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '700'
 ht-degree: 6%
 ---
 # 使用布局模板自定义主菜单
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ ht-degree: 6%
    * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
    * 拖动![拖动图标](assets/move-icon---dots.png)以更改它们在主菜单上的显示顺序。
 
-     >[!NOTE]
-     >
-     >您不能更改系统项目的顺序。 当这些项目处于活动状态时，它们始终显示在主菜单的底部。<!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. 对&#x200B;**系统**&#x200B;项目执行以下任一操作：
 
    * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png)不想在主菜单上显示的项目。
    * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
-
-</div>
 
 1. 单击&#x200B;**完成**。
 

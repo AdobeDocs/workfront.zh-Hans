@@ -30,14 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 4%
 ---
 # 创建主题组
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -114,4 +112,4 @@ ht-degree: 4%
    这将在您的请求队列中创建一个新的主题组。 现在，您可以从请求队列下的第一个下拉菜单中选择其他类别。\
    有关提交请求的更多信息，请参阅[创建并提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
-1. 要编辑现有的主题组，请在“主题组”列表中选择主题组，<span class="preview">在屏幕底部的操作栏中单击&#x200B;**编辑**，</span>然后在打开的窗口中编辑详细信息。 单击&#x200B;**保存**&#x200B;以保存更改。
+1. 要编辑现有的主题组，请选中“主题组”列表中主题组旁边的复选框，在屏幕底部的操作栏中单击&#x200B;**编辑**，然后在打开的窗口中编辑详细信息。 单击&#x200B;**保存**&#x200B;以保存更改。

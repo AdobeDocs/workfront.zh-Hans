@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
+source-git-commit: 4af92ba2774dc7fea7f91df14d8c3cdc8e865025
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '564'
 ht-degree: 5%
 ---
 
@@ -30,7 +30,31 @@ ht-degree: 5%
 
 ## Adobe Workfront增强功能
 
+* [AI增强](#ai-enhancements)
 * [项目增强功能](#project-enhancements)
+
+### AI增强
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP服务器工具集</a></p>
+                <p>您现在可以将Workfront MCP目录限制为特定工具集，并按产品权利筛选可用性，以便AI客户端仅访问所需的功能。</p>
+            </td>
+            <td><p>2026年10月21日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 项目增强功能
 

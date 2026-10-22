@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '991'
 ht-degree: 3%
 ---
 # 创建队列主题
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ drafted - replace table with P&P:
 
 1. 转到包含要编辑的队列主题的项目或模板。
 1. 单击左侧面板中的&#x200B;**队列主题**。
-1. 单击要编辑的队列主题。
-   <span class="preview">选中要编辑的队列主题旁边的复选框，然后在屏幕底部的蓝色操作栏中单击&#x200B;**编辑**。</span>
+1. 选中要编辑的队列主题旁边的复选框，然后在屏幕底部的蓝色操作栏中单击&#x200B;**编辑**。
 
 有关可用编辑选项的信息，请参阅本文中的[创建队列主题](#create-a-queue-topic)。
 
@@ -218,6 +215,5 @@ drafted - replace table with P&P:
 1. 转到包含要删除的队列主题的项目或模板。
 1. 单击左侧面板中的&#x200B;**队列主题**。
 1. 单击要删除的每个队列主题名称旁边的框。 框中会出现复选标记。
-1. 单击页面顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)。
-   <span class="preview">在屏幕底部的操作栏中单击&#x200B;**删除**。</span>
+1. 在屏幕底部的操作栏中单击&#x200B;**删除**。
 

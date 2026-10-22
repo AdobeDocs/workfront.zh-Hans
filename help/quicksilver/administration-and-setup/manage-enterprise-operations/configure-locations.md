@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '318'
+ht-degree: 4%
 ---
 # 配置位置
-
-{{preview-fast-release-general}}
 
 您可以配置默认位置，以便在费率卡中将其指定为工作角色的属性。 这可确保费率卡准确反映每个位置的市场费率。
 
@@ -62,13 +60,10 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;[!UICONTROL **位置**]。
-1. 在生产环境中，单击列表底部的&#x200B;[!UICONTROL **添加更多位置**]。
-   <span class="preview">在“预览”环境中，单击列表底部的&#x200B;[!UICONTROL **新建行**]。</span>
-
+1. 单击列表底部的&#x200B;[!UICONTROL **新行**]。
 1. 输入地点名称和说明。
 1. 单击行外部以保存位置。
-1. 要删除生产环境中的某个位置，请在列表中选择该位置，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
-   <span class="preview">要删除预览环境中的某个位置，请在列表中选择该位置，然后单击屏幕底部操作栏中的&#x200B;[!UICONTROL **删除**]。</span>
+1. 要删除某个位置，请在列表中选择该位置，然后单击屏幕底部操作栏中的&#x200B;[!UICONTROL **删除**]。
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;[!UICONTROL **位置**]。
-1. 在生产环境中，选择列表中的现有位置，然后单击&#x200B;[!UICONTROL **添加子位置**]。
-   <span class="preview">在“预览”环境中，选择列表中的现有位置，然后单击屏幕底部操作栏中的&#x200B;[!UICONTROL **添加子位置**]。</span>
-
+1. 在列表中选择一个现有位置，然后单击屏幕底部操作栏中的&#x200B;[!UICONTROL **添加子位置**]。
 1. 输入地点名称和说明。
 1. 单击输入区域外部以保存位置。
 
    子位置缩进到顶层位置下。
 
-   生产环境中的示例图像：
-   ![位置和子位置](assets/locations-sublocations.png)
-
-   预览环境中的<span class="preview">示例图像：</span>
    ![位置和子位置](assets/locations-sublocations-082526.png)
 
 

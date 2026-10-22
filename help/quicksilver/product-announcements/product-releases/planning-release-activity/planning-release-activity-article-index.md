@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 436e14a6c85b5b7e0dab847f7ac674abf7fb4644
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '179'
 ht-degree: 2%
 ---
 # Adobe Workfront Planning发行活动：文章索引
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 有关当前Workfront Planning发布活动的信息，请参阅以下文章：
 
-* [Adobe Workfront Planning 2026年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
+* [Adobe Workfront Planning 2027年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
 
 
 
@@ -41,9 +41,10 @@ ht-degree: 2%
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-有关在2026年7月16日生产版本之前发布的功能的信息，请参阅以下文章：
+有关在2026年10月22日生产版本之前发布的功能的信息，请参阅以下文章：
 
 * 2026
+  * [Adobe Workfront Planning 2026年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
   * [Adobe Workfront Planning 2026年第三季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
   * [Adobe Workfront Planning 2026年第二季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
   * [Adobe Workfront Planning 2026年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)

@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 3%
 ---
 # 查看和管理变更历史记录
-
-{{preview-fast-release-general}}
 
 更改历史记录允许系统管理员配置和跟踪对Adobe Workfront中的对象和特定字段的更改。 通过灵活的配置，管理员可以准确地设置要跟踪哪些对象和字段。
 
@@ -31,7 +29,7 @@ ht-degree: 3%
 * “设置”区域中的活动，如创建或删除访问级别或工作角色
 * 字段级更新，例如编辑项目描述或更改用户的布局模板
 * 对象更新，例如更新项目状态或向任务附加自定义表单
-* <span class="preview">统一审阅和审批工作流活动，包括参与者和决策</span>
+* 统一的审阅和批准工作流活动，包括参与者和决策
 
 有关定义跟踪哪些对象和字段的信息，请参阅[在更改历史记录中配置要跟踪的字段](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)。
 

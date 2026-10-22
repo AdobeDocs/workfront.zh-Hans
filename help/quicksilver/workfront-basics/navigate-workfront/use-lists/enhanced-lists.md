@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 1%
 ---
 # 使用增强列表
-
-{{preview-fast-release-general}}
 
 Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格格式来显示列表项，并且它们具有与标准列表不同的外观。 视图的管理也得到了增强，包括筛选、分组、管理列和搜索。
 
@@ -84,20 +82,20 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | <span class="preview">记分卡列表</span> | <span class="preview">设置>记分卡</span> |
 | <span class="preview">风险类型列表</span> | <span class="preview">设置>风险类型</span> |
 | 费率卡上的工作角色和费率列表 | 设置>费率卡>选择费率卡>工作角色和费率 |
-| <span class="preview">位置列表</span> | <span class="preview">设置>位置</span> |
+| 位置列表 | “设置”>“位置” |
 | 翻译列表 | 设置>本地化 |
-| <span class="preview">集成列表</span> | <ul><li><span class="preview">设置>文档> SharePoint集成</span></li><li><span class="preview">设置>文档>自定义集成</span></li><li><span class="preview">设置>文档> Experience Manager Assets</span></li></ul> |
+| 集成列表 | <ul><li>设置>文档> SharePoint集成</li><li>设置>文档>自定义集成</li><li>设置>文档> Experience Manager Assets</li></ul> |
 | 报告列表 | 主菜单>报表（必须打开&#x200B;**使用可共享文件夹**） |
-| <span class="preview">队列主题、主题组和路由规则列表</span> | <ul><li><span class="preview">项目或模板>队列主题</span></li><li><span class="preview">项目或模板>主题组</span></li><li><span class="preview">项目或模板>路由规则</span></li></ul> |
+| 队列主题、主题组和路由规则的列表 | <ul><li>项目或模板>队列主题</li><li>项目或模板>主题组</li><li>项目或模板>路由规则</li></ul> |
 | 快照列表 | 项目>快照 |
 | 用于计费的资源列表 | 项目>计费资源 |
-| <span class="preview">前置任务列表</span> | <span class="preview">设置>任务或模板任务>前置任务</span> |
+| 前置任务列表 | 设置>任务或模板任务>前置任务 |
 | 任务的新高级工作 | 任务>工作>高级 |
-| <span class="preview">文档的所有版本视图</span> | <span class="preview">项目>文档>文档详细信息>所有版本</span> |
+| 文档的所有版本视图 | 项目>文档>文档详细信息>所有版本 |
 | 讨论区管理员视图 | 讨论区>管理员视图 |
 | Adobe云存储上的文档 | 项目，任务，问题，项目组合，项目，模板，模板任务>文档 |
-| <span class="preview">方案计划和计划的列表</span> | <span class="preview">主菜单>方案</span> |
-| <span class="preview">目标和进度指示器列表</span> | <ul><li><span class="preview">主菜单>目标</span></li><li><span class="preview">主菜单>目标>进度指示器</span></li></ul> |
+| 方案计划和计划的列表 | 主菜单>方案 |
+| 目标和进度指标清单 | <ul><li>主菜单>目标</li><li>主菜单>目标>进度指示器</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ Last, under Scenario Planner
 
 1. 单击列表上方的&#x200B;**列**。
 
-   生产环境中的示例图像：
-   ![显示列示例](assets/glist-display-move-columns.png)
-
-   预览环境中的<span class="preview">示例图像：</span>
    ![显示列示例](assets/display-columns-090126.png)
 
 1. 使用切换可显示或隐藏列表中的列。
 
-   <span class="preview">您可以在搜索框中搜索列。</span>
+   您可以在搜索框中搜索列。
 
 1. 要重新排序列，请单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)并将列移动到所需的位置。 移动列会自动更改列表。
 
@@ -242,7 +236,7 @@ Last, under Scenario Planner
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">（可选）要重新排序列，请将鼠标悬停在&#x200B;**Selected**&#x200B;部分中的列名称上，然后单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)。 垂直移动列以按顺序放置它们。</span>
+1. （可选）要重新排序列，请将鼠标悬停在&#x200B;**已选定**&#x200B;部分中的列名称上，然后单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)。 垂直移动列以按顺序放置它们。
 1. 单击&#x200B;**保存**。
 
    ![列管理器](assets/glist-column-manager.png)

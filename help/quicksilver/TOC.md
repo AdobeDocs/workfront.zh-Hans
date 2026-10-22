@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
 workflow-type: tm+mt
-source-wordcount: '14711'
+source-wordcount: '14725'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -19,6 +19,7 @@ ht-degree: 2%
     * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
     * 2027年第一季度发行 {#release-27-q1}
       * [2027年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [2027年第一季度人工智能增强功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [2027年第一季度项目增强功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * 2026年第四季度发行 {#release-26-q4}
       * [2026年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
@@ -258,6 +259,7 @@ ht-degree: 2%
       * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning发布活动{#planning-release-activity}
       * [Adobe Workfront Planning发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Adobe Workfront Planning 2027年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
       * [Adobe Workfront Planning 2026年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Adobe Workfront Planning 2026年第三季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Adobe Workfront Planning 2026年第二季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)

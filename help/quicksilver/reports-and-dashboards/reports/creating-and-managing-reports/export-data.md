@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2171'
 ht-degree: 1%
 ---
 # 导出数据
@@ -341,16 +341,22 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 在导出为Excel格式时，导出的文件中只包含指向Workfront中对象的链接，并且只有在您可以选择允许导出Excel文档中存在链接的位置（如报表投放）才支持使用链接。
 
-## 品牌化 {#branding}
+<!--
+
+## Branding {#branding}
 
 >[!IMPORTANT]
 >
->品牌推广仅适用于尚未载入Adobe Experience Cloud的组织。
+>Branding applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
 >
->如果您的组织已登记到Adobe Experience Cloud，则品牌推广不可用。
+>If your organization has been onboarded to Adobe Experience Cloud, branding is not available.
 
-如果您的Workfront管理员为全局导航栏的Workfront实例添加了自定义品牌，则导出的PDF文件还将包含您的个性化徽标。
+If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported PDF files also include your personalized logo.
 
-以任何其他格式导出的数据无法用您的徽标进行个性化。
+Data that is exported in any other formats cannot be personalized with your logo.
 
-有关品牌化Workfront实例和全局导航栏的更多信息，请参阅[品牌化Adobe Workfront实例](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+
+-->
+
+

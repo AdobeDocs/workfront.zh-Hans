@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '3389'
+source-wordcount: '3387'
 ht-degree: 1%
 ---
 # 配置我的设置
@@ -370,7 +370,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 电子邮件区域设置]</strong> </td> 
    <td><p>在此处指定首选语言。 这会控制传出电子邮件中使用的语言、日期和数字格式。</p>
-   <p><strong>注意：</strong>当您的组织位于Adobe Unified Experience上时，语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront支持的语言</a>一文中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">更改Adobe Experience Cloud语言</a>。</p></td> 
+   <p><strong>注意：</strong>当您的组织位于Adobe Unified Experience上时，语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 有关详细信息，请参阅文章<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront支持的语言</a>中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">更改Adobe CX Enterprise语言</a>。</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL 当任务是自分配任务时，自动将任务状态设置为“进行中”]</strong> </td>
   <td>如果希望自动将分配给您自己的工作状态设置为“进行中”而不是“新建”，请选择此选项。</td>
