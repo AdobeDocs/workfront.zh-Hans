@@ -18,14 +18,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
 ---
 # Adobe Workfront支持的语言
 
-您可以更改显示来自Workfront的Adobe Workfront和电子邮件的语言，方法是调整浏览器上的语言首选项（如果贵组织尚未迁移到Adobe Admin Console），或调整Adobe Experience Cloud配置文件语言首选项（如果是在Adobe Admin Console），以及Workfront中的默认电子邮件区域设置。
+您可以更改显示来自Workfront的Adobe Workfront和电子邮件的语言，方法是调整浏览器上的语言首选项（如果贵组织尚未迁移到Adobe Admin Console）、Adobe CX Enterprise配置文件语言首选项（如果位于Adobe Admin Console）以及Workfront中的默认电子邮件区域设置。
 
 要更改您显示Workfront的语言，请参阅本文中的[更改语言](#change-the-language)。
 
@@ -44,7 +44,7 @@ Workfront支持以下语言：
 * 中文 — 简体(zh-CN)
 * 繁体中文(zh-TW)
 
-如果您的组织未在Adobe Admin Console上，则在浏览器中查看Workfront时使用的语言由浏览器语言设置控制，或者如果组织在Adobe Admin Console上，则由您的Adobe Experience Cloud配置文件语言控制。 在任一情况下，请确保选择支持的语言列表中列出的语言。
+如果您的组织不在Workfront上，则在浏览器中查看Adobe Admin Console时使用的语言由浏览器语言设置控制，或者如果组织在Adobe Admin Console上，则由Adobe CX Enterprise配置文件语言控制。 在任一情况下，请确保选择支持的语言列表中列出的语言。
 
 要以任何受支持的语言显示传出电子邮件，请在Workfront中修改用户电子邮件区域设置或客户信息设置。\
 您必须是Workfront管理员才能修改客户信息设置。\
@@ -102,7 +102,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 * Workfront Fusion不支持在用户输入的字段中使用非英语文本字符。
 
 贵公司必须购买Workfront Fusion许可证才能访问Workfront Fusion。\
-有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 更改语言
 
@@ -119,10 +119,10 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 | URL | Adobe体验 | 语言控制 |
 |---|---|---|
 | （公司名称）.my.workfront.com | 未迁移到Adobe Admin Console | [更改浏览器语言](#change-the-browser-language) |
-| experience.adobe.com | 已迁移到Adobe Admin Console | [更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language) |
+| experience.adobe.com | 已迁移到Adobe Admin Console | [更改Adobe CX Enterprise语言](#change-the-adobe-cx-enterprise-language) |
 
 * [更改浏览器语言](#change-the-browser-language)
-* [更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language)
+* [更改Adobe CX Enterprise语言](#change-the-adobe-cx-enterprise-language)
 * [更改Workfront和用户电子邮件区域设置](#change-the-workfront-and-user-locales)
 
 <!--DELETE THIS SECTION MARCH 2026-->
@@ -139,11 +139,11 @@ The browser language must be changed on an individual user basis.
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 -->
 
-### 更改Adobe Experience Cloud语言
+### 更改Adobe CX Enterprise语言
 
-如果贵组织已迁移到Adobe Admin Console，则Adobe Experience Cloud配置文件语言将决定Workfront中显示的语言。
+如果贵组织已迁移到Adobe Admin Console，则Adobe CX Enterprise配置文件语言将决定Workfront中显示的语言。
 
-1. 单击Adobe Experience Cloud工具栏最右端的配置文件图片，然后单击&#x200B;**首选项**。 Adobe Experience Cloud工具栏位于Workfront主工具栏的正上方。
+1. 单击Adobe CX Enterprise工具栏最右端的配置文件图片，然后单击&#x200B;**首选项**。 Adobe CX Enterprise工具栏位于Workfront主工具栏的正上方。
 
 1. 在您的姓名和电子邮件地址下方的&#x200B;**个人资料**&#x200B;下，单击当前所选语言的名称。
 
@@ -178,7 +178,7 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 >[!NOTE]
 >
->语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 请参阅本文中的[更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language)。
+>语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 请参阅本文中的[更改Adobe CX Enterprise语言](#change-the-adobe-cx-enterprise-language)。
 
 <!--
 To change your User Email Locale:

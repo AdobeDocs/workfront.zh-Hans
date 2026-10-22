@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 6%
 ---
 # 配置要在变更历史记录中跟踪的字段
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront会生成自动系统更新以记录以下事件：
 
@@ -53,7 +51,7 @@ Adobe Workfront会生成自动系统更新以记录以下事件：
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 标准版]</td> 
+   <td>[！UICONTROL标准版]</td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -71,7 +69,7 @@ Adobe Workfront会生成自动系统更新以记录以下事件：
 可跟踪的字段数限制由Workfront包定义。
 
 | Workfront包 | 跟踪的最大字段数 |
-|---------|----------|
+| --------- | ---------- |
 | 选择 | 700 |
 | Prime | 3000 |
 | Ultimate | 5000 |
