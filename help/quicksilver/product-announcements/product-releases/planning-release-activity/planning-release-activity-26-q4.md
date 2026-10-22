@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3427'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -28,6 +28,32 @@ ht-degree: 0%
 本文介绍了在2026年第四季度版本中为Workfront计划发布的功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在GenStudio for Performance Marketing中启用Planning工作区
+
+>[!NOTE]
+>
+>预览和生产： 2026年10月21日
+>[!BADGE 超出计划]{type=Neutral}
+>仅适用于拥有Adobe GenStudio for Performance Marketing许可证的客户
+
+您现在可以启用现有的Workfront Planning工作区以用于GenStudio for Performance Marketing计划，以便重用营销活动、产品、角色和其他记录，而无需重新创建它们。
+
+使用GenStudio Adobe存储项目，您可以将Planning记录类型和字段映射到GenStudio工作区记录类型和字段，然后从项目切换器访问GenStudio中的Planning工作区信息。
+
+有关信息，请参阅[将Adobe Workfront规划工作区提升到GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)。
+
+## Meta dynamic creative activation类型
+
+>[!NOTE]
+>
+>预览和生产： 2026年10月21日
+>[!BADGE 超出计划]{type=Neutral}
+>仅适用于拥有Adobe GenStudio for Performance Marketing许可证的客户
+
+Workfront Planning现在支持Meta Dynamic Creative对象的“动态创意图像”和“动态创意视频激活”类型。 这些选项在激活记录的类型字段中可用，用于取消阻止Meta Dynamic Creative对象激活。
+
+有关信息，请参阅[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
 
 <!--
 
