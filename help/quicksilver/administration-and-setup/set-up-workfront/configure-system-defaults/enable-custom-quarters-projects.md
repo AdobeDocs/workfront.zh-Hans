@@ -68,12 +68,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL Workflow Standard]或[！UICONTROL Workfront Plan]许可证</p>
+   <td><p>[!UICONTROL Workflow Standard]或[!UICONTROL Workfront Plan]许可证</p>
        <p></p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td> 
+   <td>[!UICONTROL 系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
