@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1345'
 ht-degree: 2%
 ---
 # 组织和预览表单
-
-{{preview-fast-release-general}}
 
 您可以使用表单设计器组织自定义表单，并预览该表单以验证设置是否正确。
 
@@ -197,11 +195,4 @@ ht-degree: 2%
 1. 开始创建或编辑自定义表单并添加字段，如[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
 
 1. 单击右上角的&#x200B;**预览**&#x200B;查看表单在使用时的外观，然后单击&#x200B;**结束预览**&#x200B;返回编辑表单。
-
-   >[!NOTE]
-   >
-   >在生产环境中，表单设计器预览模式不支持高级逻辑。
-   >
-   ><span class="preview">在“预览”环境中，所有逻辑类型在预览模式下均可用。</span>
-
 
