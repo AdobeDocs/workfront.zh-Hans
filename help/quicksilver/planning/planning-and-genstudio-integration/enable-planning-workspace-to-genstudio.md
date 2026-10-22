@@ -45,7 +45,7 @@ recommendations: noDisplay, noCatalog
 * 您必须同时具有Workfront Planning和GenStudio for Performance Marketing的访问权限。
 * 您必须具有Adobe云存储项目才能链接到工作区。 组织管理员可以在Adobe Admin Console中创建一个。
 
-  有关信息，请参阅[管理Adobe存储](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
+  有关信息，请参阅[管理Adobe存储](https://helpx.adobe.com/cn/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
 
 
 ## 在GenStudio中启用Workfront规划工作区
