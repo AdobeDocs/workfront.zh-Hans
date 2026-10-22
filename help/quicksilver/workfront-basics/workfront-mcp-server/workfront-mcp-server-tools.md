@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
 workflow-type: tm+mt
 source-wordcount: '3774'
 ht-degree: 3%
@@ -41,10 +41,6 @@ AI代理平台中显示的工具取决于贵组织的Workfront产品授权。
 如果您的组织无权使用产品区域，则相关工具不会出现在该连接的工具列表中。 如果AI代理平台尝试调用权利不可用的工具，则请求会被阻止。
 
 下表确定了每个工具所属的产品区域。
-
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
 
 ## Workfront MCP服务器中的工具集
 
@@ -86,7 +82,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 如果希望AI客户端访问其他域，请更新连接配置以选择适当的工具集。
 
-</div>
 
 ## 读取和写入操作
 

@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 3%
 ---
 # 在Workfront中使用CX Enterprise Coworker
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 由于同事是更大的Adobe CX Enterprise生态系统的一部分，因此您可以使用同事处理其他Adobe产品中的信息和对象，无论是在Workfront的右边栏中，还是从Workfront跳转到Adobe同事界面。
 
-有关Workfront外部的同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)。
+有关Workfront外部的同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)。
 
 
 ## 访问权限要求
@@ -74,20 +74,23 @@ ht-degree: 3%
    对于示例提示，请参阅[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)一文中的提示。
 1. 使用聊天输入框中的任何操作：
 
-   * **+ （附加）**：打开附加菜单以将文件或数据对象添加到消息中。
+   * **+ （附加）**：打开附加菜单以访问以下功能：
+     * 命令
+     * 附加文件
+     * 引用对象
    * **计划模式**：请求同事聊天提出分步计划，并在它生效之前暂停以供您审批。 将其关闭，以便让同事聊天直接执行操作。
    * **成绩单视图**：控制显示多少同事聊天的内部活动：“正常”、“集中”或“详细”。
    * **麦克风**：使用语音输入听写邮件。 再次选择可停止录制。
    * **发送**：发送消息。 当同事聊天正在响应时，这将变为可用于中断的停止控制。
 
-   有关这些操作的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[聊天输入框](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)。
+   有关这些操作的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[聊天输入框](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)。
 
 1. 要查看和管理以前的聊天，请单击“同事”面板中的“聊天”图标![聊天图标](assets/ai-icon.png)。
 
-   有关聊天的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
+   有关聊天的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 1. 要查看和管理聊天项目，如输出列表，请单击“项目”图标![项目图标](assets/artifacts-icon.png)。
 
-   有关协作中项目的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[项目](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)。
+   有关协作中项目的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[项目](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)。
 1. 要管理同事的设置，请单击“设置”图标![设置](assets/coworker-settings-icon.png)。
 1. 要展开“同事”面板，请单击“展开”图标![展开图标](assets/coworker-expand-icon.png)。
 1. 要进入Adobe CX Enterprise Coworker界面，请单击页面右上角的“应用程序”图标![应用程序图标](assets/apps-icon.png)，然后从可用应用程序列表中选择“同事”。
