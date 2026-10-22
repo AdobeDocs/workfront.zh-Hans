@@ -5,15 +5,13 @@ title: 审核分组的审批
 description: 您可以从主页或Frame.io查看器中的“我的审批”小组件查看分组审批中的所有文档并进行决策。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '630'
 ht-degree: 3%
 ---
 
 # 审核分组的审批
-
-<span class="preview">此页面上的信息在“预览沙盒”环境中不可用，因为Frame.io集成在该环境中不可用。 此功能将于2026年10月22日在生产环境中可用。</span>
 
 当您被分配到分组审批时，该分组中的所有文档都会显示在一起，以便您能够针对每个文档做出决策。 您可以一次批准或请求对每个文档进行更改，或单独对每个文档做出决定。
 
