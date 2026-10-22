@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
 source-wordcount: '3427'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 使用GenStudio Adobe存储项目，您可以将Planning记录类型和字段映射到GenStudio工作区记录类型和字段，然后从项目切换器访问GenStudio中的Planning工作区信息。
 
-有关信息，请参阅[将Adobe Workfront规划工作区提升到GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)。
+有关信息，请参阅[将Adobe Workfront规划工作区启用到GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)。
 
 ## Meta dynamic creative activation类型
 
