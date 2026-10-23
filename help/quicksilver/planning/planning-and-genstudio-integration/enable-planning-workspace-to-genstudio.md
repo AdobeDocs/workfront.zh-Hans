@@ -13,7 +13,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!-- add to TOC and mini TOC-->
+<!-- THIS IS HIDDEN FROM TOC-->
 
 <!--
 Better metadata, at publishing:
@@ -45,7 +45,7 @@ recommendations: noDisplay, noCatalog
 * 您必须同时具有Workfront Planning和GenStudio for Performance Marketing的访问权限。
 * 您必须具有Adobe云存储项目才能链接到工作区。 组织管理员可以在Adobe Admin Console中创建一个。
 
-  有关信息，请参阅[管理Adobe存储](https://helpx.adobe.com/cn/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
+  有关信息，请参阅[管理Adobe存储](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
 
 
 ## 在GenStudio中启用Workfront规划工作区
