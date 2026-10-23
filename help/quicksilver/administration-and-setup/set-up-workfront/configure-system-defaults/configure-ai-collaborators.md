@@ -17,7 +17,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1a1e8fab8f8ef5c0c9dae032ed0eb5b24c3f364d
+source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 2%
@@ -59,11 +59,11 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]或组管理员</span></td> 
+   <td>[！UICONTROL系统管理员]或组管理员</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -123,16 +123,14 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 可以将工作座席分配给任务或问题。
 
+工作代理使用的许可证不收费。 如果贵组织拥有200个Workfront许可证并创建了一个工作代理，则有201个许可证在使用中，但只收取200个许可证。
+
 有关创建代理以用作工作代理时的最佳实践列表，请参阅[为工作代理创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-work-agent)。
 
 * [在Workfront中配置工作代理](#configure-a-work-agent-in-workfront)
 * [为工作代理创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### 在Workfront中配置工作代理
-
->[!NOTE]
->
->工作代理使用的许可证不收费。 如果贵组织拥有200个Workfront许可证并创建了一个工作代理，则有201个许可证在使用中，但只收取200个许可证。
 
 {{step-1-to-setup}}
 
@@ -204,7 +202,6 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
