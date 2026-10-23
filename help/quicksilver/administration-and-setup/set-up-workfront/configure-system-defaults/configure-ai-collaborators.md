@@ -61,11 +61,11 @@ AI协作者使用的许可证不收费。 如果贵组织拥有200个Workfront�
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
+   <td><p>[!UICONTROL 标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]或组管理员</span></td> 
+   <td>[!UICONTROL 系统管理员]或组管理员</span></td> 
   </tr> 
   </tbody> 
 </table>
