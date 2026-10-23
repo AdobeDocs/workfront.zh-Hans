@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 3%
 ---
 # 在Workfront中使用CX Enterprise Coworker
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -76,7 +74,10 @@ ht-degree: 3%
    对于示例提示，请参阅[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)一文中的提示。
 1. 使用聊天输入框中的任何操作：
 
-   * **+ （附加）**：打开附加菜单以将文件或数据对象添加到消息中。
+   * **+ （附加）**：打开附加菜单以访问以下功能：
+     * 命令
+     * 附加文件
+     * 引用对象
    * **计划模式**：请求同事聊天提出分步计划，并在它生效之前暂停以供您审批。 将其关闭，以便让同事聊天直接执行操作。
    * **成绩单视图**：控制显示多少同事聊天的内部活动：“正常”、“集中”或“详细”。
    * **麦克风**：使用语音输入听写邮件。 再次选择可停止录制。

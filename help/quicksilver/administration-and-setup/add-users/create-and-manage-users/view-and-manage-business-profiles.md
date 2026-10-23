@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 6%
 ---
 # 查看和管理企业档案
 
-{{highlighted-preview}}
-
 要将业务配置文件分配给用户，您必须分配组和关联的访问级别。
 
-作为Workfront管理员，您可以通过分配访问级别和组的组合来设置用户的业务配置文件。 此任务从Workfront中用户的“用户”页面进行管理。 <span class="preview">组管理员还可以创建、编辑和删除业务配置文件，但只能为其管理的组进行这些操作。</span>
+作为Workfront管理员，您可以通过分配访问级别和组的组合来设置用户的业务配置文件。 此任务从Workfront中用户的“用户”页面进行管理。 组管理员还可以创建、编辑和删除业务配置文件，但仅限于他们管理的组。
 
 有关企业个人资料的详细信息，请参阅[企业个人资料概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。
 
@@ -56,7 +54,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td><p>系统管理员</p><p><span class="preview">组管理员（针对他们管理的组）</span></p></td>
+   <td><p>系统管理员</p><p>组管理员（针对他们管理的组）</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ ht-degree: 6%
 
 ## 编辑企业配置文件
 
-<div class="preview">
-
 编辑业务配置文件将打开用于创建业务配置文件的相同窗口。
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ ht-degree: 6%
 >
 >组管理员只能编辑其管理的组的业务配置文件。
 
-</div>
-
 ## 删除业务配置文件
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ ht-degree: 6%
 >[!NOTE]
 >
 >组管理员只能删除其管理的组的业务配置文件。
-
-</div>

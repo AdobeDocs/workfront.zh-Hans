@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5576'
 ht-degree: 1%
 ---
 <!--
@@ -51,10 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # 创建字段
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -307,15 +308,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. （可选和条件）添加字段后，将鼠标悬停在表视图列标题中的字段名称上，单击&#x200B;**更多**&#x200B;下拉菜单，然后单击&#x200B;**删除**&#x200B;以删除该字段。
 
    有关信息，请参阅[删除字段](/help/quicksilver/planning/fields/delete-fields.md)。
-<!--
-1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
 
-    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
--->
+1. （可选和条件）添加字段后，将鼠标悬停在表视图列标题中的字段名称上，单击&#x200B;**更多**&#x200B;下拉菜单，然后单击&#x200B;**共享字段**&#x200B;以共享该字段。
 
-1. <span class="preview">（可选且有条件）添加字段后，将鼠标悬停在表视图列标题中的字段名称上，单击&#x200B;**更多**&#x200B;下拉菜单，然后单击&#x200B;**共享字段**&#x200B;以共享该字段。</span>
-
-   </span>有关信息，请参阅[共享字段](/help/quicksilver/planning/access/share-fields.md)。</span>
+   有关信息，请参阅[共享字段](/help/quicksilver/planning/access/share-fields.md)。
 
 ### 单行文本 {#single-line-text}
 

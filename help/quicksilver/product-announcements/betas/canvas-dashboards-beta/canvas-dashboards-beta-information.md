@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '561'
 ht-degree: 4%
 ---
 # Canvas功能板测试版信息
@@ -37,11 +37,7 @@ ht-degree: 4%
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->请注意，以下云提供商未提供此测试版：
->
->* 自带Amazon Web Services密钥
->* Azure
->* Google Cloud Platform
+
 
 画布功能板是当前开发中的一项功能，可让您通过将各种报表类型添加到画布来轻松可视化Adobe Workfront数据，该画布提供了许多灵活的布局选项，包括调整大小、拖放等。
 

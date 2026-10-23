@@ -26,22 +26,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '901'
 ht-degree: 2%
 ---
 # 使用Frame.io查看器审阅和批准
-
-{{highlighted-preview}}
 
 您可以使用Frame.io查看器在Workfront中查看和批准文档。
 
 使用Frame.io查看器审阅Workfront文档时，您可以留下注释或标记文档、图像或视频的特定部分，以便与团队高效地协作，并确保反馈清晰且可操作。
 
 有关Frame.io与Workfront集成的详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
-
-
 
 ## 访问权限要求
 
@@ -98,7 +94,7 @@ ht-degree: 2%
    >您可能需要将我的审批构件添加到您的主页。 有关详细信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 1. 在Frame.io中，使用注释工具提供反馈或提出问题。
-注释和资产标记仅在Frame.io查看器中可见。 评论未显示在Workfront中。 <span class="preview">但是，在Workfront中，文档的注释面板会显示一个标注，其中包含注释的计数（计数可用时），以及一个用于打开Frame.io查看器并读取注释的链接。</span> 有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+注释和资产标记仅在Frame.io查看器中可见。 评论未显示在Workfront中。 但是，Workfront中文档的注释面板会显示一个标注，其中包含这些注释的计数（计数可用时），以及一个用于打开Frame.io查看器并读取它们的链接。 有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 1. 对文档满意后，请导航回Workfront中的“文档详细信息”页面，并将您的审阅标记为完成。
 
    ![标记审阅完成](assets/mark-review-complete.png)
@@ -123,7 +119,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > <span class="preview">在预览中，Workfront中的“注释”面板会显示一条消息，告知您何时在Frame.io中有新注释。</span>
+   >Workfront中的“注释”面板会显示一条消息，让您知道Frame.io中有新注释时。</span>
 
 
 1. 对文档满意后，您可以在Frame.io查看器中选择以下决策之一：

@@ -32,20 +32,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '928'
 ht-degree: 1%
 ---
 # Adobe Workfront规划AI助手概述
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -55,7 +53,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-><span class="preview">在某些组织中，AI助手已被CX Enterprise Coworker所取代。 有关信息，请参阅[Adobe Workfront规划CX Enterprise Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+>在一些组织中，AI助理由CX Enterprise Coworker所取代。 有关信息，请参阅[Adobe Workfront规划CX Enterprise Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。
 
 ## 访问权限要求
 
@@ -160,7 +158,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">如果贵组织已获得对CX Enterprise Coworker的访问权限，则查找同事与查找AI助手类似。 有关信息，请参阅[Adobe Workfront规划CX Enterprise Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+>如果贵组织获得了对CX Enterprise Coworker的访问权限，则查找同事与查找AI助手类似。 有关信息，请参阅[Adobe Workfront规划CX Enterprise Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。
 
 
 您可以在Workfront Planning的以下区域中找到AI助手：

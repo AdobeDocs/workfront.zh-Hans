@@ -16,18 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 1%
 ---
 # 使用工作代理
 
-{{preview-fast-release-general}}
-
 工作代理是可直接分配给Workfront任务、问题和请求的AI协作者。 与其他AI协作者一样，工作代理在“设置”区域中配置，并像用户一样分配给工作项。
 
-工作代理连接到您在Copilot Studio、Claude、<span class="preview">OpenAI或IBM中配置的代理。</span>
+工作代理连接到您在Copilot Studio、Claude、OpenAI或IBM中配置的代理。
 
 >[!IMPORTANT]
 >
@@ -82,7 +80,7 @@ ht-degree: 1%
 >
 >* 有关代理职责和能力的特定详细信息是在创建代理的应用程序中配置的，而不是在Workfront中配置的。
 >* 不需要将Workfront MCP服务器添加到用作工作代理的代理，也不需要连接工作代理才能工作。
->* 工作代理当前支持在Copilot Studio、Claude、<span class="preview">OpenAI和IBM中创建的代理。</span>
+>* 工作代理当前支持在Copilot Studio、Claude、OpenAI和IBM中创建的代理。
 >* 在Copilot Studio中配置代理时，必须将安全性设置为&#x200B;**无身份验证**。
 >* 有关在Workfront中创建工作代理的信息和说明，请参阅配置AI协作者一文中的[配置工作代理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)。
 
@@ -94,8 +92,8 @@ ht-degree: 1%
 * 任务描述
 * 任务更新流中的注释
 * 附加到任务的任何自定义表单中的信息
-* <span class="preview">附加的基于文本的文档，如DOC和PDF文件</span>
-* <span class="preview">项目字段（如果在工作代理配置中设置了）</span>
+* 附加的基于文本的文档，如DOC和PDF文件
+* 项目字段（如果在工作代理配置中进行设置）
 
 此信息始终读取，不能配置为Workfront设置。
 
@@ -116,7 +114,7 @@ ht-degree: 1%
 
 ## 工作代理启动触发器
 
-当工作代理分配给任务<span class="preview">或问题</span>时，当满足以下任一情况时，工作代理开始工作：
+当工作座席分配给任务或问题时，当满足以下任一情况时，它即开始工作：
 
 <!--update wording to include issues when this goes to production-->
 

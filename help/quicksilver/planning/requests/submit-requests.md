@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3233'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning请求以创建记录
@@ -156,31 +156,25 @@ Workspace经理可以创建请求表单，您可以作为用户或外部人员�
 
 * 在提交请求表单以根据全局记录类型创建记录时，新记录会保存在主要或辅助记录类型中，具体取决于您提交这些记录的来源。
 
-  根据用于提交请求和创建记录的环境，在为与全局记录类型关联的请求表单提交表单时，存在以下情况：
+  <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+  在为与全局记录类型关联的请求表单提交表单时，存在以下情况：
 
-  * 在生产环境中：
+  * 当您从辅助全局记录类型的页面提交请求表单时，该记录将显示在辅助记录类型页面中。 如果用户有权查看辅助工作区，则还将在主要记录类型的页面上看到新记录。
+  * 当从主要记录类型页面提交请求表单或使用本文中介绍的任何其他方法时，记录将显示在主记录类型页面中。
+  * 如果&#x200B;**Workspace**&#x200B;字段在请求表单中可用，并且用户手动选择特定工作区以将记录添加到，则无论从主要还是次要记录类型页面中选择了表单，记录都会保存在该空间中。
 
-    * 如果使用本文中介绍的任何方法提交与全局记录类型关联的请求表单，则记录将显示在主记录类型的页面中。
-
-  * <span class="preview">在“预览”环境中，存在以下方案： </span>
-
-    <div class="preview">
-
-    * 当您从辅助全局记录类型的页面提交请求表单时，该记录将显示在辅助记录类型页面中。 如果用户有权查看辅助工作区，则还将在主要记录类型的页面上看到新记录。
-    * 当从主要记录类型页面提交请求表单或使用本文中介绍的任何其他方法时，记录将显示在主记录类型页面中。
-    * 如果&#x200B;**Workspace**&#x200B;字段在请求表单中可用，并且用户手动选择特定工作区以将记录添加到，则无论从主要还是次要记录类型页面中选择了表单，记录都会保存在该空间中。
-
-    </div>
+  <!--
+   * In the Production environment:
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
   有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
-
-<div class="preview">
 
 * 提交请求后，您可以与他人共享请求。
 
   有关信息，请参阅[共享计划请求](/help/quicksilver/planning/requests/share-requests.md)。
-
-</div>
 
 
 <!--
@@ -223,15 +217,19 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   ><span class="preview">依赖的已连接记录字段的值受记录之间的依赖关系规则的限制。 有关详细信息，请参阅[管理依赖连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
+   >从属连接的记录字段的值受记录之间的从属关系规则的限制。 有关详细信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
-1. （可选且有条件）单击&#x200B;**填写表单**&#x200B;以使AI为您填写表单。 Workfront会根据先前请求的信息填写表单上的字段。
+1. （可选且有条件）单击&#x200B;**填写表单**&#x200B;以附加文件，并让AI为您填写包含文件内信息的表单。<!--Workfront fills in the fields on the form based on information from previous requests.-->
 
    >[!TIP]
    >
-   >您的组织必须允许“系统首选项”区域中的&#x200B;**AI表单填写**，才能使用“填写表单”功能。
+   >* 您的组织必须允许“系统首选项”区域中的&#x200B;**AI表单填写**，才能使用“填写表单”功能。
    >
-   >有关说明，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
+   >     有关说明，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
+   >
+   >* <span class="preview">如果工作区管理员向请求表单添加了默认提示，则AI会根据默认提示中建立的规则使用信息填充表单。
+   >
+   >     有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 

@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
 source-wordcount: '2357'
 ht-degree: 0%
@@ -40,13 +40,13 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 >[!NOTE]
 >
-><span class="preview">若要减小预先加载所有工具的客户端的MCP目录的大小，可以将`toolsets`查询参数添加到Workfront MCP服务器URL。 例如：</span>
+>若要减小预先加载所有工具的客户端的MCP目录的大小，可以将`toolsets`查询参数添加到Workfront MCP服务器URL。 例如：
 >
 >```
 >https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
 >```
 >
-><span class="preview">有关工具集的详细信息，请参阅Adobe Workfront MCP服务器工具一文中的[Workfront MCP服务器中的工具集](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)。</span>
+>有关工具集的详细信息，请参阅Adobe Workfront MCP服务器工具一文中的[Workfront MCP服务器中的工具集](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)。
 
 ## 先决条件
 
@@ -68,7 +68,7 @@ MCP服务器访问由两个不同的管理员控制。
 
 * 如果您使用企业版AI代理平台，则该平台的管理员必须为您的组织启用[!DNL Adobe Workfront]连接器，或为您提供自定义URL访问权限以连接到Workfront MCP服务器。
 
-* <span class="preview">如果您要连接具有每个客户的唯一OAuth回调URL的自定义应用程序或代理平台，您的Workfront管理员必须将该URL添加到&#x200B;**系统首选项> MCP首选项**&#x200B;中的&#x200B;**授权重定向URL**&#x200B;列表。 如果没有此项，身份验证将被拒绝。 有关详细信息，请参阅本文中的[与OAuth连接](#connect-with-oauth)。</span>
+* 如果要使用每个客户的唯一OAuth回调URL连接自定义应用程序或代理平台，则您的Workfront管理员必须将该URL添加到&#x200B;**系统首选项> MCP首选项**&#x200B;中的&#x200B;**授权重定向URL**&#x200B;列表。 如果没有此项，身份验证将被拒绝。 有关详细信息，请参阅本文中的[与OAuth连接](#connect-with-oauth)。
 
 
 ## 将Workfront连接到克劳德
@@ -254,8 +254,6 @@ ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定
 
 ### 与OAuth连接
 
-<div class="preview">
-
 如果您连接的AI代理平台或自定义应用程序具有每个客户的唯一OAuth回调（重定向）URL，例如包含连接或租户ID的URL，则您的Workfront管理员必须将该URL添加到您组织的授权重定向URL列表中，然后才能进行身份验证。
 
 >[!NOTE]
@@ -280,7 +278,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 如果您的回调URL不在列表中，则会拒绝身份验证请求。 请咨询Workfront管理员，以确认输入的URL与集成提供的URL完全一致。
 
-</div>
 
 ## 验证您的连接
 

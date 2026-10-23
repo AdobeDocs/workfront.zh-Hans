@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 5%
@@ -79,6 +79,7 @@ ht-degree: 5%
    或
 
    要编辑现有条件，请选中要删除的条件名称旁边的复选框，然后单击屏幕底部操作栏中的&#x200B;**编辑**。
+
 
    ![编辑自定义条件](assets/edit-conditions-082526.png)
 

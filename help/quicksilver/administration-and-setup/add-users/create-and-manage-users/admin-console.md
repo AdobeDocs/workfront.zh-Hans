@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 2%
 ---
 # 在Adobe Admin Console中管理用户
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +190,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
    该用户是在Workfront中创建的，具有“请求者”或“参与者”访问级别，具体取决于您组织的Workfront包。
 
-   <span class="preview">如果您的Workfront管理员为在Admin Console中创建的用户设置了默认访问级别，则该用户将改用该访问级别创建。 有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。</span>
+   如果您的Workfront管理员为在Admin Console中创建的用户设置了默认访问级别，则会改用该访问级别创建用户。 有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
    >[!IMPORTANT]
    >

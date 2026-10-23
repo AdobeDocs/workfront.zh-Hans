@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1396'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -34,11 +34,11 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共享权限概述
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ ht-degree: 5%
 | 视图 | ✓ | ✓ | ✓ |
 
 
-<span class="preview">除了上表所述权限之外，您还可以在共享工作区时更改工作区的所有者。 有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。</span>
+除了上表所述权限外，您还可以在共享工作区时更改工作区的所有者。 有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
 
 
 ### 记录类型的权限
@@ -263,25 +263,22 @@ In the Production environment, the following are the levels of permissions for r
 
 ### 记录字段的权限
 
+<!--
 
-#### 在生产环境中记录字段的权限
+#### Permissions to record fields in the Production environment
 
 
-向工作区和记录类型授予权限时，编辑字段设置的权限继承自记录类型。
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-以下权限是指字段设置，而不是与每个字段关联的值。 要编辑字段值，您必须具有编辑记录的权限。
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | 管理 | 贡献 | 视图 |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| 创建 | ✓ |            |       |
-| 删除 | ✓ |            |       |
-| Edit | ✓ |            |       |
-| 视图 | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### 在预览环境中记录字段的权限
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 向工作区和记录类型授予权限时，字段设置的权限继承自记录类型。
 
@@ -308,8 +305,6 @@ In the Production environment, the following are the levels of permissions for r
 | 视图 | ✓ | ✓ |
 
 用户必须至少具有记录类型的查看权限才能访问字段。
-
-</div>
 
 ### 查看权限
 

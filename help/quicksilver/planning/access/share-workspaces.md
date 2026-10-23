@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1150'
 ht-degree: 2%
 ---
 # 共享工作区
 
+<!--
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -173,11 +175,7 @@ Old:
 * 共享工作区时，视图不共享。 您必须单独共享视图。
 * Workspace权限在记录类型上显示为继承权限。
 
-<div class="preview">
-
 * 您可以将工作区的所有者更改为活动、标准许可用户。 不能将组、团队、公司或工作角色设为工作区的所有者。
-
-</div>
 
 
 &lt;！—！ — 在生产环境中检查上述内容：是否必须将其替换为活动用户?? 或者非活动也无妨 — 没有环境 — >
@@ -232,16 +230,11 @@ Old:
 
      有关权限级别以及用户可以针对每个级别执行的操作的信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
-   <div class="preview">
-
    * 所有者
 
      您只能使另一个活动的标准许可证用户成为工作区的所有者。 原始所有者将保留在具有“管理”权限的工作区中。
 
-   </div>
-
-1. <span class="preview">（视情况而定）如果您选择更改工作区所有者，请单击&#x200B;**更改所有者**&#x200B;以确认。</span>
-
+1. （视情况而定）如果您选择更改工作区所有者，请单击&#x200B;**更改所有者**&#x200B;进行确认。
 
 1. 单击&#x200B;**复制链接**&#x200B;以将指向工作区的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问工作区。

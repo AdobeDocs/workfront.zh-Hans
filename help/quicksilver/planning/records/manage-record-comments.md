@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '884'
 ht-degree: 0%
 ---
 # 管理记录注释
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -232,13 +234,9 @@ Old:
 
    您在邮件中标记的用户会收到新邮件的通知。
 
-   <div class="preview">
-
    对记录类型具有查看权限的每个人都可以在表格视图中看到您添加注释的记录的&#x200B;**新注释**&#x200B;指示符。
 
    ![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
-
-   </div>
 
 1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除评论。
 1. （可选）单击&#x200B;**隐藏评论**&#x200B;图标![隐藏评论图标](assets/hide-comments-icon.png)以关闭右侧面板。

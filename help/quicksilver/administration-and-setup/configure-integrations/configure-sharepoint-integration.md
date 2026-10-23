@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
 ---
 # 配置[!DNL SharePoint]集成
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ ht-degree: 1%
 
    此时将显示您组织的[!DNL SharePoint]集成列表。
 
-1. （可选）要编辑[!DNL SharePoint]集成，请选中该集成旁边的复选框，然后单击屏幕</span>底部蓝色栏中的&#x200B;**[!UICONTROL 编辑]** <span class="preview">。
-1. <span class="preview">（可选）要禁用[!DNL SharePoint]集成，请选中该集成旁边的复选框，然后单击屏幕底部蓝色栏中的&#x200B;**[!UICONTROL 禁用]**。</span>
+1. （可选）要编辑[!DNL SharePoint]集成，请选中集成旁边的复选框，然后单击屏幕底部蓝色栏中的&#x200B;**[!UICONTROL 编辑]**。
+1. （可选）要禁用[!DNL SharePoint]集成，请选中集成旁边的复选框，然后单击屏幕底部蓝色栏中的&#x200B;**[!UICONTROL 禁用]**。
 
 ## [!DNL SharePoint]集成的安全性、访问和授权信息
 

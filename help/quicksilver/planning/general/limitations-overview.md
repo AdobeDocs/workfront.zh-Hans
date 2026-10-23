@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -67,6 +67,7 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 可导入以创建记录类型的Excel文件的CSV大小 | 5MB |
 | 在CSV或Excel文件中可导入以创建记录类型的行数 | 25,000 |
 | 在CSV或Excel文件中可导入以创建记录类型的列数 | 500 |
+| 使用CX Enterprise Coworker创建记录时可以在CSV或Excel文件中导入的行数 | 多于10,000 |
 | 一种记录类型的公式字段数 | 20 |
 | 一种记录类型的连接字段数 | 30 |
 | 公式字段表达式中的字符数 | 50,000 |

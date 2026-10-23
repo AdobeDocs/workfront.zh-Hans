@@ -30,18 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 97ceae994929577acf1f7931df494b8b45b50e13
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1631'
 ht-degree: 1%
 ---
 # Adobe Workfront规划Designer快速入门
 
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
+
+-->
 
 >[!IMPORTANT]
 >
@@ -55,7 +59,7 @@ ht-degree: 1%
 
 您可以使用由AI提供支持的Adobe Planning Designer来轻松配置工作区和数据结构。 Planning Designer支持从创建和配置工作区到定义字段和公式、管理记录、查看更改历史记录和构建自定义视图的所有功能。
 
-无论是通过AI Assistant直接使用，还是通过<span class="preview"> CX Enterprise Coworker</span>使用，Planning Designer都为构建和维护结构化、关联的信息提供了一个灵活、强大的环境。
+无论是直接使用，还是希望通过AI Assistant或CX Enterprise Coworker访问其功能，Workfront Planning中的Planning Designer都为构建和维护结构化、关联的信息提供了一个灵活而强大的环境。
 
 有关Workfront Planning的信息，请参阅以下文章：
 
@@ -215,15 +219,16 @@ Sargis and Ashot  said these are not required:
 -->
 
 * 您的Workfront管理员必须为贵组织打开规划Designer 。 之后，Planning Designer默认可供所有用户使用。
-* 如果贵组织已签署AI协议，则在“计划”区域使用Planning Designer时，AI助手或<span class="preview">同事</span>也可以执行Planning Assistant执行的操作。
-* AI助手或<span class="preview">同事</span>在“计划”区域中执行的操作或由Planning Designer执行的操作与Workfront Planning权限和Workfront访问级别的上下文相关。
+* 如果贵组织已签署AI协议，则在“计划”区域使用Planning Designer时，AI助手也可以执行由Planning Assistant执行的操作。
+* 您还可以使用CX Enterprise Coworker访问类似功能。
+* AI助手或同事在“计划”区域中执行的操作或由Planning Designer执行的操作与您的Workfront Planning权限和Workfront访问级别相关。
 
   有关信息，请参阅以下文章：
 
   * [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI助手、<span class="preview">同事、</span>或计划Designer代表用户所做的更改在记录历史记录面板中进行跟踪。
+* AI助手、同事或规划Designer代表用户所做的更改在记录历史记录面板中进行跟踪。
 
 * 规划Designer采取的行动是永久性的，并且可能不可逆转。 例如，删除字段操作不能撤销。 在接受之前，请审阅Designer建议的所有操作。
 
@@ -235,7 +240,7 @@ Sargis and Ashot  said these are not required:
 
 ## 目前可用于Planning Designer的功能
 
-您可以使用Planning Designer、AI助手或<span class="preview">同事</span>执行以下任意操作：
+您可以使用Planning Designer、AI助手或同事执行以下任何操作：
 
 * 创建和配置工作区
 
@@ -274,7 +279,7 @@ Sargis and Ashot  said these are not required:
 
 ## 使用Planning Designer创建或更新对象
 
-除非另有指定，否则可以使用Planning Designer、AI Assistant或<span class="preview">同事</span>在Workfront Planning中创建或更新对象。
+除非另有指定，否则通过使用Planning Designer、AI Assistant或同事，可以在Workfront Planning中创建或更新对象。
 
 >[!TIP]
 >
@@ -293,7 +298,7 @@ Sargis and Ashot  said these are not required:
 
    ![计划Designer窗口](assets/planning-designer-window.png)
 
-1. 在提供的空间中，开始输入AI助手<span class="preview">或同事</span>的提示，然后在完成时单击Enter。
+1. 在提供的空白处，开始为Planning Designer AI助手键入提示，然后在完成时单击Enter。
 
    <!--add screen shot-->
 

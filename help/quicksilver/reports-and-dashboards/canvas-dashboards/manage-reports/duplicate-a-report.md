@@ -25,24 +25,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '539'
 ht-degree: 4%
 ---
 # 在画布功能板中复制和移动报告
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->请注意，以下云提供商未提供此测试版：
->
->* 自带Amazon Web Services密钥
->* Azure
->* Google Cloud Platform
+
 
 创建KPI、表或图表报表后，您可以在画布功能板中复制该报表。 复制后，您可以在保存之前根据需要编辑报表。
 
@@ -93,28 +87,8 @@ ht-degree: 4%
 
 有关详细信息，请参阅[创建画布仪表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
-## 在生产环境中复制报表
 
-{{step1-to-dashboards}}
-
-1. 在左侧面板中，单击&#x200B;**画布功能板**。
-1. 在&#x200B;**画布功能板**&#x200B;页面上，单击要复制的报告右上角的&#x200B;**更多** ![更多按钮](assets/more-icon.png)图标，然后选择&#x200B;**复制**。
-
-   ![重复按钮](assets/duplicate-button.png)
-
-1. （可选）在出现的&#x200B;**配置**&#x200B;框中，在&#x200B;**详细信息**&#x200B;选项卡中输入新报告&#x200B;**名称**。
-
-1. （可选）使用左侧的选项卡对配置进行任何所需的调整。
-
-   >[!NOTE]
-   >
-   >这些选项卡将因您复制的KPI、表或图表报表而异。  有关详细信息，请参阅[在画布功能板中生成KPI报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[在画布功能板中生成图表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)和[在画布功能板中生成表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)。
-
-1. 单击 **Save**。 重复的报告会显示在仪表板上。
-
-<div class="preview">
-
-## 在预览中复制或移动报告
+## 复制或移动报告
 
 您可以将报告复制到当前仪表板、复制到另一个仪表板或将其移动到另一个仪表板。 复制操作会在目标位置创建报告副本；移动操作会将其从当前功能板中重新定位。
 
@@ -160,4 +134,3 @@ ht-degree: 4%
 
    ![复制和移动](assets/copy-and-move.png)
 
-</div>

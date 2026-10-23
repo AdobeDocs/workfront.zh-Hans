@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2129'
 ht-degree: 1%
 ---
 # 连接记录类型和记录的示例
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ ht-degree: 1%
    * **名称**：为新字段提供一个名称。 例如，“产品信息”。 这是链接的记录字段的名称。
    * **描述**：为新字段添加描述。 例如，“这些是我希望与促销活动关联的产品。” 将鼠标悬停在列标题中的字段上时，将显示字段的描述。
 
-   <div class="preview">
-
    * **使此连接相关**：启用并且两个连接的记录同时显示在第三个记录上时，一个记录类型的选择取决于另一个记录类型的选择。
 
      有关信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
    * **在链接的记录类型上创建对应的字段**：启用时，也会在连接到的记录类型（产品）上创建连接字段。
-
-   </div>
 
    * **连接类型**：从以下选项中选择：
      * **多对多**：用户可以将一个营销活动连接到多个产品，将一个产品连接到多个营销活动。
@@ -87,13 +85,11 @@ ht-degree: 1%
      * **名称**：仅显示已连接记录的名称。
      * **图像**：仅显示已连接记录的缩略图或图标。
 
-     <div class="preview">
+     * **颜色和名称**：仅显示连接的记录的颜色和名称。
 
-     * **颜色和名称**：仅显示连接的记录的颜色和名称
+   * **查找字段**：展开此选项还可从连接的记录连接查找字段。
 
-     </div>
-
-   * <span class="preview">**查找字段**：展开此选项还可从连接的记录连接查找字段。 </span>随后将打开&#x200B;**添加查找字段**&#x200B;框，允许您链接产品字段和促销活动记录类型。 您可以单击&#x200B;**跳过**&#x200B;跳过此步骤并稍后添加产品字段。
+     随后将打开&#x200B;**添加查找字段**&#x200B;框，允许您链接产品字段和促销活动记录类型。 您可以单击&#x200B;**跳过**&#x200B;跳过此步骤并稍后添加产品字段。
 
      ![与产品记录类型的新连接](assets/new-connection-with-product-record-type.png)
 

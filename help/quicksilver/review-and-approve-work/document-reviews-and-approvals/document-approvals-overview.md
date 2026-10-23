@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # 统一审查和批准概述
-
-{{highlighted-preview}}
 
 统一的审核和批准将Adobe Workfront和Adobe Frame.io融于一个相互深入关联的体验中，从而弥合了营销管理、创意审核和内容交付之间的差距。
 项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
@@ -110,9 +108,9 @@ Workfront校对功能在此集成中不可用。
 
 ## 完整的审核记录
 
-<span class="preview">统一审查和批准包括全面的审核日志记录，这些记录可跨Workfront和Frame.io创建完整的治理跟踪。 更改跟踪日志捕获在Frame.io查看器和文档生命周期中作出的批准决策。 每个日志条目都包含源系统归因（Workfront或Frame.io）以及标准Workfront审核字段：日期和时间、日志类型、用户名、操作和对象名称。 Frame.io查看器注释未包含在审核日志中。</span>
+统一的审查和批准包括全面的审核日志记录，跨Workfront和Frame.io创建完整的治理跟踪。 更改跟踪日志捕获在Frame.io查看器和文档生命周期中作出的批准决策。 每个日志条目都包含源系统归因（Workfront或Frame.io）以及标准Workfront审核字段：日期和时间、日志类型、用户名、操作和对象名称。 Frame.io查看器注释未包含在审核日志中。
 
-<span class="preview">更改跟踪日志显示在Workfront的“设置”区域中，并且可供导出。 有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。</span>
+更改跟踪日志显示在Workfront的“设置”区域中，并且可供导出。 有关详细信息，请参阅[查看和管理更改历史记录](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 ## Workfront中强大的项目管理
 
@@ -360,17 +358,11 @@ Frame.io查看器包括一组完整的可视标记工具，其中包括手绘绘
 
 注释和批注保留在Frame.io查看器中，以便它们保留完整的上下文，包括时间戳和可视标记。 这在未来版本中可能会有所改进。
 
-<span class="preview">
-
-在预览中，Workfront中的“注释”面板会显示一条消息，告知您何时在Frame.io中有新注释。</span>
-
-<div class="preview">
+Workfront中的“注释”面板会显示一条消息，告知您何时在Frame.io中有新注释。
 
 **谁能在Workfront中看到Frame.io注释指示器？**
 
 只有已在Frame.io中看到这些注释的用户才能看到指示器。 如果您拥有Frame.io Enterprise许可证，则可以在文档上查看该许可证是否有任何注释。 如果您没有Frame.io Enterprise许可证，则只有在文档获得批准后才能看到该许可证。 批准可使您也能看到文档的所有先前备注。
-
-</div>
 
 **是否可以向资源的下载版本（如PDF）添加注释？**
 

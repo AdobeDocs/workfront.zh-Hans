@@ -5,24 +5,18 @@ title: 在画布功能板中构建数据透视表
 description: 您可以将数据透视表添加到画布仪表板，以表格式查看数据的聚合总计。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1481'
 ht-degree: 6%
 ---
 # 在画布功能板中构建数据透视表
-
-{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->请注意，以下云提供商未提供此测试版：
->
->* 自带Amazon Web Services密钥
->* Azure
->* Google Cloud Platform
+
 
 可以将数据透视表添加到画布仪表板，以表格式查看数据的聚合总计，例如总和、计数和平均值。 当针对多个维度比较多个聚合值或计数时，数据透视表非常有用。
 

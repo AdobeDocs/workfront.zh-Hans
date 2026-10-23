@@ -28,19 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 1%
 ---
 # 管理时间线视图
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -245,14 +246,10 @@ Old:
      * **季度**：显示有季度指示的月和周。
      * **月**：显示周和日。
 
-     >[!TIP]
-     >
-     >根据您使用哪个环境来访问时间线视图，存在以下场景：
-     >
-     >* 在“生产”环境中，时间线视图仅根据传统季度显示自定义周。 如果Workfront管理员在“设置”区域中打开自定义季度，则时间轴视图中不会显示周信息。
-     >
-     >* <span class="preview">在“预览”环境中，默认情况下，时间线视图会根据传统季度显示自定义周数。 如果您的Workfront管理员在“设置”区域中打开自定义季度和自定义周，则时间线视图将显示季度和月中的自定义季度和周。</span>
-     >
+     默认情况下，时间线视图会根据传统季度显示自定义周。 如果您的Workfront管理员在“设置”区域中打开自定义季度和自定义周，则时间线视图会在“季度”和“月”模式下显示自定义季度和周。
+
+     有关信息，请参阅[启用自定义季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
 
 
 1. （可选）单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期在同一行上不相交的记录。<!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Old:
         </tr>
         <tr>
             <td>多选，人员</td>
-            <td><p>具有任何</p> 或<span class="preview"><p>是任何</p></span>
+            <td><p>是任何</p>
             <p>包含所有</p>
             <p>正好</p>
-            <p>没有</p> 或<span class="preview"><p>不是任何</p></span>
+            <p><p>不是任何</p>
             <p>为空</p>
             <p>不为空</p></td>
         </tr>
@@ -509,9 +506,9 @@ Old:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview">（可选）单击工具栏中的&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png)以打开&#x200B;**分组记录依据**&#x200B;框，然后单击&#x200B;**全部展开**&#x200B;以展开所有分组，或单击&#x200B;**全部折叠**&#x200B;以折叠所有分组，并手动仅折叠您需要的分组。</span>
-1. <span class="preview">（可选且有条件）在泳道显示中，拖放左侧面板分隔符以调整其宽度。 每个用户的面板宽度跨会话保存，首次用户默认采用此宽度。</span>
-1. <span class="preview">（可选）对于长分组名称，将鼠标悬停在分组行上可在工具提示中查看分组的全名。</span>
+1. （可选）单击工具栏中的&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png)以打开&#x200B;**分组记录依据**&#x200B;框，然后单击&#x200B;**全部展开**&#x200B;以展开所有分组，或单击&#x200B;**全部折叠**&#x200B;以折叠所有分组并手动折叠所需的分组。
+1. （可选，视情况而定）在泳道显示中，拖放左侧面板分隔符以调整其宽度。 每个用户的面板宽度跨会话保存，首次用户可使用此默认宽度。
+1. （可选）对于较长的分组名称，将鼠标悬停在分组的行上可在工具提示中查看分组的全名。
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
@@ -527,7 +524,6 @@ Old:
    >将记录从一个分组拖放到另一个分组时，在该分组中选择的字段会自动更新移动记录上的值。
 1. （可选）单击&#x200B;**Settings**，然后单击&#x200B;**Color**&#x200B;进行颜色代码分组。 有关详细信息，请参阅本文中的[编辑时间线视图设置](#edit-the-timeline-view-settings)部分。
 
-<div class="preview">
 
 ### 添加排序
 
@@ -568,12 +564,6 @@ Old:
 
    立即应用排序。
 1. 单击页面上的任意位置以关闭排序框。
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### 编辑时间线视图设置 {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Old:
    >
    >* 您只能将颜色与具有颜色编码选项的字段匹配。 例如，可以将颜色与“状态”字段匹配，或可与颜色关联的选项进行匹配。
    >    
-   >* 在生产环境中，不能将颜色与连接的记录或其查找字段匹配。 <span class="preview">在“预览”环境中，您可以将颜色与连接的记录匹配，但不能与它们的查找字段匹配。</span>
+   >* 您可以将颜色与连接的记录匹配，但不得与它们的查找字段匹配。
 
-
-   例如，多选或单选字段可以具有颜色编码选项。
 
    如果按没有颜色编码选项的字段分组，则分组颜色保持灰色。
 
@@ -667,8 +655,8 @@ Old:
 
    * **记录类型**：记录的颜色与您选择的记录类型的颜色相匹配。 这是默认选项。
    * **字段值**：记录的颜色与您指定的字段的颜色匹配。 继续执行步骤10。<!--ensure this stays accurate-->
+   * **记录**：颜色与记录的颜色匹配。
    * **分组**：记录的颜色与您为分组指定的颜色相匹配。 当未将分组应用于时间轴视图时，此选项将灰显。
-   * **无**：记录显示在白色栏中。 <span class="preview">已从“预览”环境中删除“无”选项。</span>
 
 1. （视情况而定）如果您为记录颜色选择了&#x200B;**字段值**，请从&#x200B;**将记录颜色与**&#x200B;下拉菜单中选择一个字段。
 

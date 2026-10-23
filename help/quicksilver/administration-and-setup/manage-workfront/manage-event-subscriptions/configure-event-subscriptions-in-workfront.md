@@ -7,16 +7,14 @@ title: 在Workfront中配置事件订阅
 description: Workfront管理员可以在设置中创建、查看和删除事件订阅。 具有所需访问权限的用户还可以在其权限和系统配置允许的范围内管理事件订阅。
 feature: System Setup and Administration
 role: Admin
-author: Courtney
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+author: Becky
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 5%
 ---
 
 # 在Workfront中配置事件订阅
-
-{{highlighted-preview-article-level}}
 
 作为Adobe Workfront管理员，您可以在“设置”区域创建、查看和删除事件订阅。 事件订阅在发生指定事件时将Workfront事件信息发送到外部端点。
 

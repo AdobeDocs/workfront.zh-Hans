@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '782'
 ht-degree: 1%
 ---
 # 公式字段概述
@@ -203,13 +203,7 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的大多数�
 >
 >Workfront Planning公式字段不支持以下Workfront表达式：
 >
-><!--* SORTASCARRAY-->
-><!--* SORTDESCARRAY-->
->* ADDHOUR
->* SWITCH
 >* 格式
-
-<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 有关Workfront表达式的完整列表，请参阅[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
