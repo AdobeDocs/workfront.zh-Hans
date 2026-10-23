@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3415'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -43,19 +43,23 @@ CX Coworker现在可以从Excel电子表格导入10,000条或更多记录，并�
 
 有关信息，请参阅[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
-## 在GenStudio for Performance Marketing中启用Planning工作区
+<!--
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
 >
->预览和生产： 2026年10月21日
->[!BADGE 超出计划]{type=Neutral}
->仅适用于拥有Adobe GenStudio for Performance Marketing许可证的客户
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-您现在可以启用现有的Workfront Planning工作区以用于GenStudio for Performance Marketing计划，以便重用营销活动、产品、角色和其他记录，而无需重新创建它们。
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
 
-使用GenStudio Adobe存储项目，您可以将Planning记录类型和字段映射到GenStudio工作区记录类型和字段，然后从项目切换器访问GenStudio中的Planning工作区信息。
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
-有关信息，请参阅[将Adobe Workfront规划工作区启用到GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)。
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## Meta dynamic creative activation类型
 

@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1393'
 ht-degree: 2%
 ---
 # 配置AI协作者
@@ -123,6 +123,8 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 可以将工作座席分配给任务或问题。
 
+工作代理使用的许可证不收费。 如果贵组织拥有200个Workfront许可证并创建了一个工作代理，则有201个许可证在使用中，但只收取200个许可证。
+
 有关创建代理以用作工作代理时的最佳实践列表，请参阅[为工作代理创建代理的最佳实践](#best-practices-for-creating-an-agent-for-a-work-agent)。
 
 * [在Workfront中配置工作代理](#configure-a-work-agent-in-workfront)
@@ -200,7 +202,6 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
