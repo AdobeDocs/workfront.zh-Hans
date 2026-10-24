@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 1%
@@ -101,7 +101,19 @@ ht-degree: 1%
 * 规则不会阻止记录创建。 用户仍可以创建记录，但必须确保必填字段不为空或包含指定值。
 * 规则不会自动编辑或删除记录。 更改必须由用户自行决定并触发。
 * 规则不会追溯应用：旧记录不会受到影响。 该规则检查仅在下次有人尝试编辑或删除记录时运行。
-* 不能将业务规则添加到其主工作区或辅助工作区中的全局记录类型。
+* &#x200B;<!--In the Production environment,--> 不能将业务规则添加到其主工作区或辅助工作区中的全局记录类型。
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * 您可以为业务规则创建一个条件，该条件引用除以下字段类型之外的所有字段类型：
   * 公式字段
   * 查找字段

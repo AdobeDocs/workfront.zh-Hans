@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 2%
 ---
 # 在Adobe Workfront Planning中创建和管理申请表单
@@ -296,14 +296,14 @@ ht-degree: 2%
 
 1. （视情况而定）如果已选择在请求的对象完成时将请求标记为完成，请选择字段以及指示对象完成时间的值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
 
-1. 单击左侧面板上的&#x200B;**权限**。
-1. 为通过此表单提交请求的用户选择权限级别：
+1. 单击左侧面板上的&#x200B;**权限**&#x200B;以配置用户在使用此表单提交的请求中默认拥有的权限。 您在此处授予的权限将对未来的请求立即生效，并且不会影响现有请求。
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> 为使用此表单提交请求的用户选择提交到此表单的请求的权限级别：
 
    * **查看**：所有请求者都可以评论并共享表单。
    * **Contribute**：所有请求者都可以评论、共享和编辑表单。
-   * **管理**：所有请求者都可以评论、共享、编辑和删除表单。
+   * **管理**：所有请求者都可以评论、共享、编辑和删除表单。 这是默认权限。
 
-1. （可选）取消选择每个权限级别的任何粒度权限，以防止请求者执行以下操作：
+1. （可选） <!--<span class="preview">In the **Requestor access** section,</span>-->取消选择每个权限级别的任何粒度权限，以防止请求者执行以下操作：
 
    * 注释
    * 共享
@@ -313,6 +313,28 @@ ht-degree: 2%
    >[!TIP]
    >
    >从请求页面与那些用户共享请求时，您在此处取消选择的粒度权限将灰显。
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">在提交请求时使用&#x200B;**填写表单**&#x200B;功能时，单击&#x200B;**AI表单填写**&#x200B;以配置自定义提示。</span>
 

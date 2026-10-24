@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 1%
 ---
 # 管理时间线视图
@@ -484,7 +484,6 @@ Old:
 
 1. 在&#x200B;**按**&#x200B;对记录进行分组框中，按正确的顺序拖放分组。
 
-
 1. 在&#x200B;**按**&#x200B;对记录进行分组的&#x200B;**布局**&#x200B;区域，选择以下选项之一：
 
    * **栈叠**：显示的分组没有冻结的左列，并且符合其项目时间线的宽度。
@@ -524,6 +523,11 @@ Old:
    >将记录从一个分组拖放到另一个分组时，在该分组中选择的字段会自动更新移动记录上的值。
 1. （可选）单击&#x200B;**Settings**，然后单击&#x200B;**Color**&#x200B;进行颜色代码分组。 有关详细信息，请参阅本文中的[编辑时间线视图设置](#edit-the-timeline-view-settings)部分。
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### 添加排序
 
@@ -549,7 +553,17 @@ Old:
 
    ![在时间轴中按分组排序](assets/sort-in-timeline.png)排序
 1. 从下拉菜单中选择&#x200B;**对记录进行排序**，然后单击&#x200B;**以建议字段开头**&#x200B;列表中列出的字段，或单击&#x200B;**选择其他字段**，然后搜索该字段并在该字段显示在列表中时单击它。
-1. 选择要应用记录排序的方向（按字母顺序、反向后代等）。 应用排序的方向取决于所选字段的格式。
+1. 选择要应用记录排序的方向（按字母顺序、反向后代等）。
+
+   例如，文本字段的排序可以是A -> Z或Z -> A。
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   应用排序的方向取决于所选字段的格式。
 1. （可选）单击&#x200B;**添加条件**&#x200B;以添加最多10个条件。
 1. （可选）单击&#x200B;**全部清除**&#x200B;以删除所有条件。
 1. 从排序框左上角的下拉菜单中，选择&#x200B;**排序分组**。

@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 0%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-您可以在Workfront Planning的以下区域查看列表视图中的对象：
+您可以在Adobe Workfront Planning的列表视图中查看以下区域的对象：
 
 * 记录的详细信息区域中项目的已连接记录页面
 
@@ -53,6 +53,8 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
   ![在列表视图中请求表单](assets/request-forms-in-list-view.png)
 
 本文介绍了如何在Workfront Planning中导航、创建或编辑列表视图。
+
+有关Workfront Planning中可用的所有其他视图的信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ## 访问权限要求
 

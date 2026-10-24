@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 配置AI协作者
@@ -37,6 +37,8 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
 * 工作代理：使用标准AI平台（如Claude、OpenAI或Copilot）创建协作者，然后将协作者分配给任务或问题以完成工作项目。
 
   有关详细信息，请参阅[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
+
+AI协作者使用的许可证不收费。 如果贵组织拥有200个Workfront许可证并创建了一个AI协作器，则有201个许可证在使用中，但只计费200个。
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
