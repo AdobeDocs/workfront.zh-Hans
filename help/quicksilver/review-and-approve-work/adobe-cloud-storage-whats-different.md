@@ -6,7 +6,7 @@ description: 了解有关Adobe云存储对象的主要差异，包括新的“�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 0%
@@ -120,6 +120,12 @@ Adobe云存储强制实施严格的命名和结构规则，以使存储层在Ado
 ## 对象可移植性
 
 在大多数情况下，您只能在类似存储模型之间移动、复制和转换Workfront对象。 例如，您可以将任务从一个Adobe云存储项目移动到另一个Adobe云存储项目。 在三种特定情况下，您可以将旧版Workfront存储对象转换为Adobe云存储。
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 有关详细信息，请参阅[将旧对象转换为Adobe云存储](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)。
 
