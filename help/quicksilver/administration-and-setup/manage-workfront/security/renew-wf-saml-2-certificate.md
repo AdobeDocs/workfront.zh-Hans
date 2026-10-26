@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >由于所有组织现在都已载入到Adobe Admin Console，因此此功能已被弃用。
 >
->有关在Adobe Admin Console上续订SAML证书的说明，请参阅“SAML响应中的数字签名未验证……”部分 在[Federated ID疑难解答](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)中。
+>有关在Adobe Admin Console上续订SAML证书的说明，请参阅“SAML响应中的数字签名未验证……”部分 在[Federated ID疑难解答](https://helpx.adobe.com/cn/enterprise/kb/tshoot-fed-id.html)中。
 
 <!--
 
