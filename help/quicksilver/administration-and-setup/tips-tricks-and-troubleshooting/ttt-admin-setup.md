@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '202'
 ht-degree: 3%
 ---
 # 管理和设置的提示、技巧和疑难解答
@@ -38,7 +38,6 @@ ht-degree: 3%
 
 * [组管理员必须比其管理的组管理员拥有更高的访问权限](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
 * [活动和已停用的对象](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
-* [ADFS注销URL不起作用](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
 * [管理和设置常见问题解答](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
 * [[!DNL Adobe Workfront]用户凭据与SAML用户凭据](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 * [自动提醒与提醒通知](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
