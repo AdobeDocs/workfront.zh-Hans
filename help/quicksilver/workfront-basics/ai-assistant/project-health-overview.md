@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 2%
 ---
 # 项目运行状况概述
@@ -93,9 +93,6 @@ AI助手可以为以下对象生成项目运行状况评估：
 
 要为贵组织启用AI助手和项目运行状况，必须应用以下所有项：
 
-<!--Remove me October 2026-->
-
-* 您的组织必须已迁移到Adobe Identity Management System (IMS)。
 * 您的组织必须具有Workfront或Workflow Select、Prime或Ultimate包。
 * 必须启用Adobe Unified Experience。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。

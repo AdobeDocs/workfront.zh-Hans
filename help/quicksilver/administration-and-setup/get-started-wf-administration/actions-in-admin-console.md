@@ -29,14 +29,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 4%
 ---
 # Adobe Workfront与Adobe Business Platform之间的管理差异
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 现在，所有Workfront组织都已载入Adobe Business Platform。 作为一名Adobe Workfront管理员，您的管理职责和程序可能会因为贵组织已载入到Adobe Business Platform而有所不同。 本文列出了现在以不同方式处理的过程。
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 ## 续订SAML证书
 
-有关在Adobe Admin Console上续订SAML证书的说明，请参阅“SAML响应中的数字签名未验证……”部分 在[Federated ID疑难解答](https://helpx.adobe.com/cn/enterprise/kb/tshoot-fed-id.html)中
+有关在Adobe Admin Console上续订SAML证书的说明，请参阅“SAML响应中的数字签名未验证……”部分 在[Federated ID疑难解答](https://helpx.adobe.com/cn/enterprise/kb/tshoot-fed-id.html)中。
 
 <!--
 
@@ -206,10 +206,12 @@ ht-degree: 0%
 由于Adobe Business Platform控制用户的单点登录(SSO)，因此通过Adobe Business Platform自动处理以下操作和功能。 因此，以下操作不再可用。
 
 
-* [使用SAML 2.0配置Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [使用ADFS在Adobe Workfront中配置SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [在Adobe Workfront中停用单点登录](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [更新您的身份提供程序中的SAML 2.0元数据](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [更新单点登录的用户](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [配置身份验证的密码策略](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [配置系统安全首选项](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* 使用 SAML 2.0 配置 Adobe Workfront
+* 使用ADFS使用SAML 2.0配置Adobe Workfront
+* 在Adobe Workfront中取消激活单点登录
+* 在身份提供程序中更新SAML 2.0元数据
+* 更新用户以进行单点登录
+* 配置身份验证的密码策略
+* 配置系统安全首选项
+
+

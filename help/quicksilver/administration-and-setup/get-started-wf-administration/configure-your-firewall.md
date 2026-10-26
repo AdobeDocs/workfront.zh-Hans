@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # 配置防火墙的允许列表
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -406,12 +406,7 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
 
 对于Workfront Fusion，请添加以下域：
 
-<!--Remove me October 2026-->
-
-* 对于不在Adobe Unified Experience上的组织：
-  * app.workfrontfusion.com （美国AWS）
-  * app-eu.workfrontfusion.com （欧盟AWS）
-  * app-az.workfrontfusion.com （美国Azure）
+<!--Remove me January 2027-->
 
 * 对于Adobe Unified Experience上的组织
 （这些域包含在`*.adobe.com`中，但如果需要，可以添加。）
@@ -419,6 +414,14 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >由于所有组织现在均使用Adobe Unified Experience，因此不再需要以下域。
+  >
+  >* app.workfrontfusion.com （美国AWS）
+  >* app-eu.workfrontfusion.com （欧盟AWS）
+  >* app-az.workfrontfusion.com （美国Azure）
 
 
 

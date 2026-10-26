@@ -28,14 +28,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '44'
 ht-degree: 0%
 ---
 # Adobe Admin Console中的Workfront管理
 
-本节包含以下文章：
+>[!IMPORTANT]
+>
+>由于所有组织现已登记到Adobe Admin Console，因此已删除此部分中的信息。
 
-* [准备将您的组织载入Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-* [了解Workfront迁移到Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+<!--
+
+This section contains the following articles:
+
+* [Prepare to onboard your organization to the Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [Understanding the Workfront Migration to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+
+-->

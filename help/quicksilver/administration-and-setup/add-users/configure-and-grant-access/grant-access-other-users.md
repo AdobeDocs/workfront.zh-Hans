@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '936'
 ht-degree: 3%
 ---
 # 授予用户访问权限
@@ -63,7 +63,7 @@ ht-degree: 3%
 
 * Workfront管理员。
 
-  有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+  Workfront管理员是在Adobe Admin Console中配置的。 有关说明，请参阅[使用Adobe Admin Console在Workfront中创建系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)部分。 在“在Adobe Admin Console中管理用户”一文中。
 
 * 具有默认Standard或Plan许可证的用户，也可以访问用户，如本文所述。
 

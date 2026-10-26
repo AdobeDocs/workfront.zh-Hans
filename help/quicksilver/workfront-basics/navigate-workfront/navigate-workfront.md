@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # 导航[!DNL Adobe Workfront]：文章索引
@@ -32,8 +32,8 @@ ht-degree: 0%
 
 * [了解 [!DNL Adobe Workfront]中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [&#x200B; [!DNL Adobe Workfront] 术语词汇表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [&#x200B; [!DNL Workfront]的[!DNL Adobe Unified Experience]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-* [[!DNL Adobe Unified Experience] 常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+* [[!DNL Adobe Unified Experience] 用于 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+  <!--* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)-->
 * [[!DNL Adobe Workfront]搜索](../../workfront-basics/navigate-workfront/search/search.md)
 * [&#x200B; [!DNL Adobe Workfront]中的最近访问和收藏夹](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [顶部导航栏概述](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1583'
 ht-degree: 8%
 ---
 # 创建和修改自定义访问级别
@@ -265,7 +265,8 @@ ht-degree: 8%
 
    有关详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-   有关Adobe管理员如何为用户分配系统管理员访问权限级别的信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+   有关Adobe管理员如何为用户分配系统管理员访问级别的信息，请参阅[使用Adobe Admin Console在Workfront中创建系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)部分。 在“在Adobe Admin Console中管理用户”一文中。
+
 
 <!--
 

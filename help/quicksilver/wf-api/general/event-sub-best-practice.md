@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 15%
+source-wordcount: '412'
+ht-degree: 13%
 ---
 # 事件订阅最佳实践
 
@@ -62,7 +62,9 @@ ht-degree: 15%
 
 要创建、查询或删除事件订阅，您的Workfront用户需要：
 
-* **系统管理员的访问级别**
-要了解更多信息，请参阅[授予用户完全管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
+* **系统管理员**&#x200B;的访问级别
+
+  在Adobe Admin Console中创建系统管理员。
+  要了解更多信息，请参阅[使用Adobe Admin Console在Workfront中创建系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)部分。 在“在Adobe Admin Console中管理用户”一文中。 或[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * 如果您的组织使用Adobe IMS (Identity Management System)，请包含在`X-User-Token`标头中传递的IMS用户令牌。

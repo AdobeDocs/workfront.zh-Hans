@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 2%
@@ -599,14 +599,14 @@ ht-degree: 2%
       * [授予对Workfront目标的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [授予对品牌权限的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Workfront中的单点登录 {#sso}
-      * [单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [更新用户以进行单点登录](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [使用SAML 2.0配置Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [更新身份提供程序中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [使用ADFS使用SAML 2.0配置Adobe Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [为Workfront和SAML 2.0启用Outlook](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [取消激活单点登录](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[更新单点登录的用户](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[使用SAML 2.0配置Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[更新身份提供程序中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[使用ADFS在Adobe Workfront中配置SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[为Workfront和SAML 2.0启用Outlook](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[停用单点登录](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * 创建和管理团队 {#create-manage-teams}
       * [管理团队](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [创建团队](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -859,9 +859,9 @@ ht-degree: 2%
     * [安装Blueprint后要执行的操作](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [可用Blueprint的列表](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console中的管理 {#admin-in-admin-console}
-    * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [准备Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [了解Workfront迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * {hide-from-toc}[Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[准备Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[了解Workfront迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 管理和设置的提示、技巧和疑难解答 {#admin-setup-tips}
     * [提示、技巧和疑难解答](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [组管理员必须比其管理的组管理员拥有更高的访问权限](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
