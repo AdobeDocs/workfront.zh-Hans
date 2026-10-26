@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e1ed15278689476313ad690a00803022d413418b
+source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2423'
 ht-degree: 0%
 ---
 
@@ -197,12 +197,13 @@ ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定
 
 ## 将Workfront连接到Copilot
 
-+++ 展开以查看有关将Workfront连接到Copilot的分步说明。
 
 * [使用Copilot Studio将Workfront连接到Copilot](#connect-workfront-to-copilot-with-copilot-studio)
 * [将Workfront连接到GitHub Copilot](#connect-workfront-to-github-copilot)
 
 ### 使用Copilot Studio将Workfront连接到Copilot
+
++++ 展开以查看有关使用Copilot Studio将Workfront连接到Copilot的分步说明。
 
 要构建Workfront MCP可以连接的自定义Copilot代理，请使用Copilot Studio。
 
@@ -235,7 +236,13 @@ ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定
 
    您可能没有发布权限。 如果是这种情况，请联系您的Copilot管理员。
 
++++
+
+
 ### 将Workfront连接到GitHub Copilot
+
++++ 展开以查看有关将Workfront连接到GitHub Copilot的分步说明。
+
 
 1. 在GitHub Copilot中，转到&#x200B;**自定义**。
 1. 单击&#x200B;**添加** > **MCP服务器**。
