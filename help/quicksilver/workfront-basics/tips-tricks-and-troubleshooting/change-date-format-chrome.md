@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 0%
 ---
 # 更改[!DNL Adobe Workfront]中日期的格式
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decided to make it more generic and hide the steps. Also see drafted content below-->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
@@ -47,4 +47,3 @@ ht-degree: 0%
 
 日期首选项由Adobe Unified Shell中设置的语言首选项控制。 默认语言设置（因此也是默认日期设置）是`en-US`。
 
-有关详细信息，请参阅 [!DNL Workfront]&#x200B;[&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#access-your-profile-and-preferences)的[!DNL Adobe Unified Experience] 。

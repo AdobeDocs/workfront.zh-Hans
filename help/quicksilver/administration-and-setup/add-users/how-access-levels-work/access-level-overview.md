@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1803'
 ht-degree: 5%
 ---
 # 访问级别概述
@@ -93,7 +93,7 @@ Workfront具有5个新的内置访问级别：
 
 用户还可以访问完整的设置区域，可以在其中更改系统级别的任何设置，并且可以访问主菜单中的所有区域。
 
-有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+可以通过Adobe Admin Console授予用户管理员访问权限。 有关说明，请参阅[使用Adobe Admin Console在Workfront中创建系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)部分。 在“在Adobe Admin Console中管理用户”一文中。
 
 ### 标准访问级别
 

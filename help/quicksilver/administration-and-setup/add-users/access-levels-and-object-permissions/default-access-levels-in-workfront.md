@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1690'
 ht-degree: 6%
 ---
 # 内置访问级别（旧版）
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 用户还可以完全访问“设置”区域，以便更改系统级别的任何设置。 如果可用，他们可以访问主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)中的所有区域。
 
-有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+可以通过Adobe Admin Console授予用户管理员访问权限。 有关说明，请参阅[使用Adobe Admin Console在Workfront中创建系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)部分。 在“在Adobe Admin Console中管理用户”一文中。
 
 ## Planner访问级别
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 5%
+source-wordcount: '751'
+ht-degree: 4%
 ---
 # 授予用户对特定区域的管理访问权限
 
@@ -40,7 +40,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->这与授予用户对Workfront的完全管理访问权限不同，在[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)中对此进行了说明&#x200B;。
+>这不同于授予用户对Workfront的完全管理访问权限。 可以通过Adobe Admin Console授予用户管理员访问权限。 有关在Adobe Admin Console中授予完全管理员访问权限的说明，请参阅[使用Adobe Admin Console在Workfront中创建系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)部分。 在“在Adobe Admin Console中管理用户”一文中。
+
 
 ## 访问权限要求
 

@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '872'
 ht-degree: 4%
 ---
 # Workfront的人工智能助手
@@ -69,10 +69,6 @@ Workfront的AI助手通过提供应用程序内信息和自然语言对话建议
 
 要为您的组织启用AI助手，必须应用以下所有的&#x200B;**所有**：
 
-<!--Remove me October 2026-->
-
-* 您的组织必须已迁移到Adobe IMS (Identity Management System)
-* 必须启用Adobe Unified Experience
 * 您的组织必须具有Select、Prime或Ultimate Workfront计划
 * Adobe必须具有已签署的Adobe Gen AI协议
 

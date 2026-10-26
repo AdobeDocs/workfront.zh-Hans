@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 2%
@@ -599,14 +599,14 @@ ht-degree: 2%
       * [授予对Workfront目标的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [授予对品牌权限的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Workfront中的单点登录 {#sso}
-      * [单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [更新用户以进行单点登录](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [使用SAML 2.0配置Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [更新身份提供程序中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [使用ADFS使用SAML 2.0配置Adobe Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [为Workfront和SAML 2.0启用Outlook](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [取消激活单点登录](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[更新单点登录的用户](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[使用SAML 2.0配置Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[更新身份提供程序中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[使用ADFS在Adobe Workfront中配置SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[为Workfront和SAML 2.0启用Outlook](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[停用单点登录](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * 创建和管理团队 {#create-manage-teams}
       * [管理团队](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [创建团队](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -743,7 +743,7 @@ ht-degree: 2%
       * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增强型身份验证时{hide-from-toc}[更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 汇率 {#exchange-rates}
       * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -859,9 +859,9 @@ ht-degree: 2%
     * [安装Blueprint后要执行的操作](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [可用Blueprint的列表](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console中的管理 {#admin-in-admin-console}
-    * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [准备Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [了解Workfront迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * Adobe Admin Console中的{hide-from-toc}[Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[准备Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[了解Workfront迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 管理和设置的提示、技巧和疑难解答 {#admin-setup-tips}
     * [提示、技巧和疑难解答](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [组管理员必须比其管理的组管理员拥有更高的访问权限](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1222,7 +1222,7 @@ ht-degree: 2%
     * [删除文档](documents/managing-documents/delete-documents.md)
     * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
     * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[在Workfront中AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * 在Workfront中{hide-from-toc}[AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
   * 组织文档 {#organize-documents}
     * [组织文档](documents/organizing-documents/organize-documents.md)
     * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
@@ -2227,7 +2227,7 @@ ht-degree: 2%
   * Adobe Workfront计划报表 {#adobe-workfront-planning-reporting}
     * [Adobe Workfront Planning报表：文章索引](planning/reporting/reporting-in-planning-article-index.md)
     * [在报表中查看Workfront规划信息](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[适用于Workfront Planning的Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+    * 适用于Workfront Planning的{hide-from-toc}[Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront规划最佳实践 {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront最佳实践：文章索引](planning/best-practices.md/best-practices-article-index.md)
     * [推出您的战略主页：30天的启动台](planning/best-practices.md/30-day-launchpad.md)
@@ -2685,10 +2685,10 @@ ht-degree: 2%
     * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
     * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-    * [API版本22中的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [API版本22](/help/quicksilver/wf-api/api/new-api-version-22.md)中的新增功能
     * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+    * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+    * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
     * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
     * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
     * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

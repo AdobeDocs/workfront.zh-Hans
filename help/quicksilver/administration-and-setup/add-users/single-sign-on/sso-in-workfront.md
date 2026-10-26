@@ -24,41 +24,49 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '75'
 ht-degree: 0%
 ---
 # Adobe Workfront中的单点登录概述
 
 <!--Audited: 12/2023-->
 
+>[!IMPORTANT]
+>
+>由于登录现在通过Adobe IMS (Identity Management System)进行处理，因此本文中的信息已被删除。
+
+<!--
+
 {{important-admin-console-onboard}}
 
 
-Workfront提供了一个集中管理的单点登录(SSO)配置，将Workfront与您现有的公司SSO解决方案集成。 此配置适用于OnDemand和OnPremise Enterprise客户。
+Workfront provides a centrally managed single sign-on (SSO) configuration that integrates Workfront with your existing corporate SSO solution. This configuration is available for both OnDemand and OnPremise Enterprise customers. 
 
-要在Workfront中使用SSO功能，您的组织需要设置SSO应用程序。 然后，您可以配置Workfront，以便它能与您的SSO解决方案进行通信。
+To use the SSO functionality in Workfront, your organization needs to set up an SSO application. You can then configure Workfront so that it can communicate with your SSO solution.
 
-联合解决方案允许用户通过在集中式登录门户中输入用户名和密码来登录其所有应用程序。
+Federated solutions allow users to log in to all their applications by entering their username and password in a centralized login portal.
 
-![SSO联合](assets/overview-sso-wf-fed-only.png)
+![SSO federated](assets/overview-sso-wf-fed-only.png)
 
 
-## 配置防火墙
+## Configure your firewall
 
-使用SSO解决方案时，Workfront会在指定端口上启动与服务器的连接。
+When using an SSO solution, Workfront initiates a connection to your server on the specified port.
 
-如果您的防火墙或邮件服务器配置为只允许特定供应商访问，则必须将某些Workfront IP地址添加到防火墙。 有关详细信息，请参阅[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+If your firewall or mail server is configured to allow access only to specific vendors, you must add certain Workfront IP addresses to your firewall allowlist. For more information, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## 配置单点登录
+## Configure Single Sign-On
 
-Workfront与以下SSO解决方案集成：
+Workfront integrates with the following SSO solutions:
 
-* 支持SAML 2.0的联合解决方案
+* Federated solutions that support SAML 2.0
 
-  有关将Workfront与SAML 2.0集成的信息，请参阅[使用SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)配置Adobe Workfront。
+  For information about integrating Workfront with SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
-* 支持使用ADFS的SAML 2.0的联合解决方案
+* Federated solutions that support SAML 2.0 using ADFS
 
-  有关使用ADFS将Workfront与SAML 2.0集成的信息，请参阅[使用ADFS使用SAML 2.0配置Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)。
+  For information about integrating Workfront with SAML 2.0 using ADFS, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+
+  -->

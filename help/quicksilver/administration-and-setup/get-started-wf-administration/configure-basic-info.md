@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 4%
@@ -87,7 +87,7 @@ ht-degree: 4%
    “客户信息”区域中提供的部分包括：
 
    | 部分 | 更多信息 |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **基本信息** | 有关在Workfront中配置基本信息的信息，请参阅[配置基本信息](#configure-basic-info)。 |
    | **存储概述** | 有关检查文档存储使用量和配额的信息，请参阅[检查文档存储限制](../../documents/managing-documents/check-document-storage.md)。 |
    | **API密钥设置** | 有关API密钥设置的信息，请参阅[管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。 |

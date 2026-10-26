@@ -27,38 +27,26 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6275fff5d615a8db678f16d99c38c96319a57155
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 3%
+source-wordcount: '608'
+ht-degree: 7%
 ---
 # 删除用户
 
-<!--Remove me October 2026-->
-
 >[!IMPORTANT]
 >
->此页面上描述的过程仅适用于尚未载入Adobe Business Platform的组织。 如果您已登记到Adobe Business Platform，则必须删除Adobe Admin Console中的用户。
+>此页面上描述的过程仅适用于尚未载入Admin Console的组织。 由于您的组织已载入到Adobe Admin Console，因此您必须通过Adobe Admin Console执行此操作。
 >
->**由于所有组织现在都已载入Adobe Admin Console，因此不久将会删除此页上的信息。**
->
->有关因贵组织是否已载入Adobe业务平台而不同的过程列表，请参阅[Adobe Workfront与Adobe业务平台之间的管理差异](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>  有关在Adobe Admin Console中删除用户的说明，请参阅[单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)一文中的“永久删除用户”一节，或与Adobe Admin Console管理员联系。
 
 当用户离开您的组织时，您可以从Adobe Workfront中删除该用户。
+
+必须通过Adobe Admin Console执行用户删除操作。 有关说明，请参阅[单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)一文中的“永久删除用户”一节，或联系您的Adobe Admin Console管理员。
 
 >[!IMPORTANT]
 >
 >从系统中删除用户也会删除与您可能希望保留的用户相关联的信息。 我们建议停用而不是删除用户。 有关详细信息，请参阅[停用或重新激活用户](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
-<!--
->* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
--->
 
 ## 访问权限要求
 
@@ -78,11 +66,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td> <p>您必须具备以下任一项：</p> 
-    <ul> 
-     <li> <p>系统管理员访问级别。 </li> 
-     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
-    </ul> </td> 
+   <td> <p>您必须是Adobe Admin Console的管理员。</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +113,7 @@ ht-degree: 3%
   * 任务、问题、项目、项目组合
   * 仪表板
 
-  <!--
+<!--
 
      >[!NOTE]
      >
@@ -136,33 +121,35 @@ ht-degree: 3%
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
+-->
+* 更新
+* 小时
 
-  * 更新
-  * 小时
-
-    >[!NOTE]
-    >
-    >这些对象仍保留在Workfront中，但对象的所有者现在为空。
+  >[!NOTE]
+  >
+  >这些对象仍保留在Workfront中，但对象的所有者现在为空。
 
 * 如果用户在“全局导航栏”的“文档”区域下上载了任何文档，则也会删除这些文档。
 * 如果用户已签出他们拥有的文档，并且文档上载到主文档区域（从主菜单访问），则文档将随用户一起删除。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。
 
 有关停用用户的详细信息，请参阅[停用或重新激活用户](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 
-您可以一次永久删除一个用户，也可以同时永久删除多个用户。 在删除单个用户时，您必须等待删除过程完成后再转到Workfront中的其他活动。 同时删除多个用户的过程将作为后台进程运行，因此您可以在删除用户后继续使用Workfront。
 
-## 删除一个或多个用户
+<!--
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. 至少选择一个要删除的用户，单击“更多”菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除**。
-1. 在出现的框中，单击&#x200B;**删除**&#x200B;以确认删除。
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   删除用户的过程将作为后台进程运行，因此您可以在删除一个或多个用户后继续使用Workfront。
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   根据要删除的用户数，此过程可能需要几分钟甚至几小时。
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   在Workfront中收到用户已被删除的确认后，您可以继续在系统中看到这些用户，直到在后台完成删除过程为止。
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   稍后，如果您发现一个或多个用户未被成功删除，请尝试一次删除一个。
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->

@@ -32,22 +32,22 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # 配置防火墙的允许列表
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
 >此页面上描述的过程仅适用于尚未载入Admin Console的组织。 由于所有组织现在都已载入到Adobe Admin Console，因此您必须通过Adobe Admin Console执行此操作。
 >
->要在您的组织登记到Adobe Admin Console后配置您的允许列表，请参阅[允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/cn/enterprise/kb/network-endpoints.html)。
+>要在您的组织登记到Adobe Admin Console后配置您的允许列表，请参阅[允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[Adobe Workfront与Adobe业务平台之间的管理差异](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -88,9 +88,9 @@ ht-degree: 6%
 
 ## 要添加到允许列表的IP地址
 
-* 允许群集1、2、3、5、7、8和9[&#128279;](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的IP地址
-* 允许群集4[&#128279;](#ip-addresses-to-allow-for-cluster-4)的IP地址
-* 允许群集6[&#128279;](#ip-addresses-to-allow-for-cluster-6)的IP地址
+* 允许群集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP地址
+* 允许群集4](#ip-addresses-to-allow-for-cluster-4)的[IP地址
+* 允许群集6](#ip-addresses-to-allow-for-cluster-6)的[IP地址
 * [允许群集10的IP地址](#ip-addresses-to-allow-for-cluster-10)
 * [允许使用测试驱动器的IP地址](#IP%20Addre2)
 * 实施事件订阅时允许的[IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -406,12 +406,7 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
 
 对于Workfront Fusion，请添加以下域：
 
-<!--Remove me October 2026-->
-
-* 对于不在Adobe Unified Experience上的组织：
-  * app.workfrontfusion.com （美国AWS）
-  * app-eu.workfrontfusion.com （欧盟AWS）
-  * app-az.workfrontfusion.com （美国Azure）
+<!--Remove me January 2027-->
 
 * 对于Adobe Unified Experience上的组织
 （这些域包含在`*.adobe.com`中，但如果需要，可以添加。）
@@ -419,6 +414,14 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >由于所有组织现在均使用Adobe Unified Experience，因此不再需要以下域。
+  >
+  >* app.workfrontfusion.com （美国AWS）
+  >* app-eu.workfrontfusion.com （欧盟AWS）
+  >* app-az.workfrontfusion.com （美国Azure）
 
 
 
