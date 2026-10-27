@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
+source-git-commit: 96a3eac63c25b2a6cf7d4a10f0db05aab84c68e8
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -43,7 +43,7 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >若要减小预先加载所有工具的客户端的MCP目录的大小，可以将`toolsets`查询参数添加到Workfront MCP服务器URL。 例如：
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
 >有关工具集的详细信息，请参阅Adobe Workfront MCP服务器工具一文中的[Workfront MCP服务器中的工具集](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)。
