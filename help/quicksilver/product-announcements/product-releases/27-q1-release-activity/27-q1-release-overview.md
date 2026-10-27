@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 5%
+source-wordcount: '641'
+ht-degree: 4%
 ---
 
 # 2027年第一季度发行版概述
@@ -66,6 +66,23 @@ ht-degree: 5%
 * 场景计划器
 * 校样
 * 目标
+
+## 桌面校对查看器更新
+
+### 版本2.3.0
+
+>[!NOTE]
+>
+>预览： 2026年10月27日
+>适用于所有客户的生产版本： 2026年10月28日
+
+桌面校对查看器已更新至版本2.3.0。 此更新包括以下更改：
+
+* 解决了交互式验证的问题：当移动多个版本时，单击屏幕快照下的链接会在多个选项卡中打开页面。 现在，该链接会在单个选项卡中打开页面。
+
+* 将基础框架(Electron)更新到在Chrome版本156上运行的最新版本，以提高性能和安全性。
+
+有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
 
