@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 96a3eac63c25b2a6cf7d4a10f0db05aab84c68e8
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 0%
 ---
 
@@ -243,6 +243,30 @@ ChatGPT支持用户创建的称为自定义GPT的助理。 您可以使用自定
 
 +++ 展开以查看有关将Workfront连接到GitHub Copilot的分步说明。
 
+>[!NOTE]
+>
+>如果GitHub Copilot指出不支持动态客户端注册或请求获取OAuth客户端ID，请使用以下解决方法，而不是标准HTTP配置。 某些GitHub Copilot MCP客户端不支持在默认设置中使用的动态发现流程。
+>
+>要解决此问题，请将GitHub Copilot配置为通过`mcp-remote`启动Workfront MCP服务器，并设置`NODE_OPTIONS=--use-system-ca`：
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. 在GitHub Copilot中，转到&#x200B;**自定义**。
 1. 单击&#x200B;**添加** > **MCP服务器**。
