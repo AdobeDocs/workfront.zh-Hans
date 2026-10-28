@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4476'
 ht-degree: 0%
 ---
 # 统一审查和批准概述
@@ -82,7 +82,7 @@ Creative Cloud应用程序（Photoshop、Illustrator和InDesign）也可以直�
 * 标记和注释工具
 * 版本历史记录和比较
 * 带有时间戳的视频评论评论
-* 移动访问以进行移动审阅和批准
+* 通过[Frame.io iOS应用程序](https://help.frame.io/en/collections/9679120-ios-app)移动访问以进行移动审阅和批准
 
 有关详细信息，请参阅[统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
@@ -96,7 +96,7 @@ Creative Cloud应用程序（Photoshop、Illustrator和InDesign）也可以直�
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
