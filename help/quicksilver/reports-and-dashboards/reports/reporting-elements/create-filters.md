@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2420'
 ht-degree: 2%
 ---
 # 在Adobe Workfront中创建或编辑筛选器
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -250,6 +252,10 @@ ht-degree: 2%
 
 1. 单击字段下拉菜单可查看最近使用的字段以及作为筛选依据的建议字段的列表。 建议的字段当前显示在您正在过滤的列表中。
 
+   >[!TIP]
+   >
+   ><span class="preview">标记为收藏夹的自定义字段显示在搜索结果顶部的&#x200B;**建议**&#x200B;部分。</span>
+
    您还可以选择&#x200B;**浏览字段**&#x200B;以查看可按其筛选的所有字段的列表。 高级搜索中的字段按对象类别分组。
 
    ![查找要按其筛选的字段](assets/new-filter-search-for-field.png)
@@ -390,6 +396,10 @@ ht-degree: 2%
    * 通过单击&#x200B;**添加其他筛选器规则**&#x200B;来添加筛选器规则，在&#x200B;**开始键入字段名称**&#x200B;框中开始键入要为其添加规则的选项的名称，然后当它出现在下拉列表中时单击它。
 
      与筛选器对象关联的字段列在&#x200B;**开始键入字段名称**&#x200B;框中。
+
+     >[!TIP]
+     >
+     ><span class="preview">标记为收藏夹的自定义字段显示在搜索结果顶部的&#x200B;**建议**&#x200B;部分。</span>
 
    * 添加筛选规则时，单击&#x200B;**AND**&#x200B;或&#x200B;**OR**。\
      添加过滤器规则时，使用过滤器修饰符建立过滤器的条件。 有关筛选器修饰符的详细信息，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。

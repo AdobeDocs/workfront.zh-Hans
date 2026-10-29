@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 5%
+source-wordcount: '464'
+ht-degree: 4%
 ---
 # 在Adobe Workfront中创建分组
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -92,6 +94,11 @@ ht-degree: 5%
 1. 在&#x200B;**分组预览**&#x200B;区域中，单击&#x200B;**添加分组**&#x200B;以定义您希望如何整理报告中的信息。 下面显示了报告中的分组预览。
 
 1. 开始键入字段的名称，该名称表示要在报表中组织信息的方式，然后在信息出现在下拉列表中时单击它。
+
+   >[!TIP]
+   >
+   ><span class="preview">标记为收藏夹的自定义字段显示在搜索结果顶部的&#x200B;**建议**&#x200B;部分。</span>
+
 1. （可选且有条件）在更新的列表中构建分组时，如果希望分组的结果以折叠方式显示而不是展开，请选择&#x200B;**默认情况下折叠此分组**。 默认情况下，此设置处于禁用状态，分组的结果始终显示在展开列表中。
 
    有关更新的列表和旧版列表的信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)一文中的[更新的列表和旧版列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)部分。

@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '908'
 ht-degree: 4%
 ---
 # 在Adobe Workfront中创建或编辑视图
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -85,15 +87,20 @@ ht-degree: 4%
 
 1. 在要创建或自定义视图的任何列表中单击&#x200B;**视图**&#x200B;下拉菜单。
 
-1. 单击&#x200B;**+新建视图**&#x200B;按钮以创建新视图。
+1. 单击&#x200B;**+新建视图**按钮以创建新视图。
 或
-单击鼠标上要编辑的现有视图右侧出现的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将显示&#x200B;**自定义视图**&#x200B;对话框。
+单击鼠标上要编辑的现有视图右侧出现的**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+将显示**自定义视图**&#x200B;对话框。
 
 1. 在&#x200B;**列预览**&#x200B;部分中，执行以下任一操作：
 
    * 通过单击列标题并选择新字段来修改任何列的值。
    * 通过单击&#x200B;**添加列**&#x200B;来添加列，开始键入要添加的列的名称，然后在它出现在下拉列表中时单击它。
+
+   >[!TIP]
+   >
+   ><span class="preview">标记为收藏夹的自定义字段显示在搜索结果顶部的&#x200B;**建议**&#x200B;部分。</span>
+
    * 通过将列标题拖动到新位置来调整列的显示顺序。
 
    * 在&#x200B;**列设置**&#x200B;区域中，单击&#x200B;**按**&#x200B;汇总此列，然后选择您希望数据在列中显示的方式。 此选项适用于以下列类型：

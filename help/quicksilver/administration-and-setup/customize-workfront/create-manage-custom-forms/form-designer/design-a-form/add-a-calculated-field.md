@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2792'
 ht-degree: 1%
 ---
 # 将计算字段添加到表单
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ ht-degree: 1%
       <td> <p>您希望存储和显示字段结果的格式。</p> <p>如果该字段将用于数学计算，请始终使用<strong>数字</strong>或<strong>货币</strong>格式。 选择<strong>数字</strong>或<strong>货币</strong>时，系统会自动截断以0开头的数字。</p> 
       <p><b>重要信息</b>：在选择格式之前，请考虑新字段的正确格式。 保存自定义表单后无法编辑格式字段。 此外，选择错误的格式可能会影响报告和列表分组中的未来计算和汇总值。</p>
       <p><strong>注意</strong>：采用<strong>货币</strong>格式的计算字段不应包含引号。 （例如，使用800.00而不是“800.00”。） 由于货币类型的语言格式存在细微差异，使用引号可能会导致意外后果。</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     </tr>
      <tr>
       <td>活动</td>
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
@@ -209,7 +215,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。
+   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
       计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
