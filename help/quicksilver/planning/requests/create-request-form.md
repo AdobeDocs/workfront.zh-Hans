@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 2%
@@ -297,7 +297,7 @@ ht-degree: 2%
 1. （视情况而定）如果已选择在请求的对象完成时将请求标记为完成，请选择字段以及指示对象完成时间的值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
 
 1. 单击左侧面板上的&#x200B;**权限**&#x200B;以配置用户在使用此表单提交的请求中默认拥有的权限。 您在此处授予的权限将对未来的请求立即生效，并且不会影响现有请求。
-1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> 为使用此表单提交请求的用户选择提交到此表单的请求的权限级别：
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> 为使用此表单提交请求的用户选择提交到此表单的请求的权限级别：
 
    * **查看**：所有请求者都可以评论并共享表单。
    * **Contribute**：所有请求者都可以评论、共享和编辑表单。
@@ -329,7 +329,6 @@ ht-degree: 2%
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >

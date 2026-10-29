@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4353'
 ht-degree: 2%
 ---
 # 管理表视图
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ Old:
 
 默认情况下，以下内容显示在表格视图中：
 
-* 所选记录类型的所有字段和所有记录。
+* 在生产环境中，选定记录类型的所有字段和所有记录。
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* 在“预览”环境中，默认情况下显示500条记录。 滚动页面时，会显示其他记录。
 
 </div>
--->
 
 要管理表视图，请执行以下操作：
 
@@ -244,6 +241,10 @@ Old:
 1. 开始添加字段（或列），如[创建字段](/help/quicksilver/planning/fields/create-fields.md)一文中所述。
 
    您添加的列对访问记录类型的所有用户都可见，并且作为新字段添加到记录的页面上。
+
+   在生产环境中，新添加的字段已添加并在所有视图中可见。
+
+   <span class="preview">在“预览”环境中，新添加的字段将作为隐藏字段添加到所有视图中，但要在其中添加它们的视图除外。</span>
 
 1. （可选）单击工具栏中的&#x200B;**字段**&#x200B;图标![字段图标](assets/fields-icon.png)，搜索字段，然后取消选择字段名称右侧的切换以隐藏该字段。
 
@@ -301,11 +302,11 @@ Old:
    >默认情况下，隐藏字段不显示在记录的&#x200B;**详细信息**&#x200B;预览框中。 所有字段都显示在记录的“详细信息”页面中。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 
-1. 单击&#x200B;**字段**&#x200B;图标，然后选择与要显示在表格列中的字段关联的切换开关。 默认显示所有字段。
+1. 单击&#x200B;**字段**&#x200B;图标，然后打开与要显示在表格列中的字段关联的切换开关。 默认显示所有字段。
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
+   1. 在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。 <span class="preview">显示在搜索框左侧的记录总数将由在搜索中找到的记录数替换。 筛选表格以仅显示与搜索匹配的项目。</span>
 
       ![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ Old:
 
       不能使用与表格视图中隐藏的字段关联的关键字。
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview">快速搜索适用于所有记录，而不仅仅是显示在当前视图中的记录。 滚动时，会加载更多记录。</span>
+
 
    1. 在键盘上按&#x200B;**Enter**&#x200B;键以转到下一个找到的字段。
 
@@ -396,7 +395,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 表格视图的行显示所选记录类型的单个记录。 添加行与创建记录相同。
 
-记录类型最多可以有50,000条记录（或行）。
+记录类型最多可以有50,000条记录（或行）。 <span class="preview">默认情况下只显示500行。 滚动页面时加载更多。</span>
 
 1. 转到记录类型页面并选择表视图，或单击&#x200B;**+视图**&#x200B;以添加新视图，然后选择&#x200B;**表**。
 
@@ -411,6 +410,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >当记录具有未读注释时，该&#x200B;**新注释**&#x200B;指示符将显示在记录的主字段的右上角。
    >
    >![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   <span class="preview">在表右上角的快速搜索框左侧显示记录总数。</span>
 
 1. （可选）选择一个或多个记录或行，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排序行。
 
@@ -646,7 +647,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。

@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '538'
 ht-degree: 4%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -77,6 +77,9 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 工作区中的层级数 | 5 |
 | 层次结构内与子记录类型的一个记录连接的父记录类型中的记录数 | 10 |
 | 在多选连接类型中连接到一个记录的记录数，这些记录之间未配置层次结构 | 500 |
+| <span class="preview">每个记录类型的查找字段数</span> | 40 |
+| <span class="preview">每个记录类型的长文本查找字段数</span> | 5 |
+| <span class="preview">单个长文本查找字段单元格的值中的字符数（在表格视图中）</span> | 50,000个字符 |
 
 *我们建议不要有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 

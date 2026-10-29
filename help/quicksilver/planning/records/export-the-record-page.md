@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '518'
 ht-degree: 1%
 ---
 # 导出记录的详细信息
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -171,7 +169,13 @@ Old:
 
 * 导出的文件保留记录页面的布局，包括缩略图和封面图像。
 
-* 无法导出自定义的“详细信息”页面，该页面中隐藏了多个字段。
+* 在生产环境中，无法导出自定义的详细信息页面，其中隐藏了多个字段。
+
+<div class="preview">
+
+* 在预览环境中，您可以导出自定义的详细信息页面，其中隐藏了多个字段。
+
+</div>
 
 ## 导出记录的详细信息
 
@@ -206,7 +210,6 @@ Old:
    >[!NOTE]
    >
    >    不在页面上显示并且仅在记录详细信息区域中单击显示更多之后才可见的其他信息不会显示在导出的PDF文件中。 只有页面上可见的信息才会显示在导出的文件中。
-
 
 1. （可选）转到下载的文件，打开它并编辑它（如果它是Word文件），或者与他人共享它。
 

@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 1%
 ---
 # 使用增强列表
@@ -250,6 +250,25 @@ Last, under Scenario Planner
 >
 >并非所有增强型列表都具有本节中介绍的所有元素。
 
+要查看列表中的项目总数，请执行下列操作之一：
+
+* 在生产环境中：
+
+  1. 打开增强列表。
+  1. 滚动到列表底部。
+
+     项目总数（考虑已应用的任何筛选器）将显示在列表的右下角。
+
+<div class="preview">
+
+* 在“预览”环境中：
+
+  1. 打开增强列表。
+  1. 如果可用，请在列表右上角查看快速搜索框左侧的项目总数。
+  1. （视情况而定）如果屏幕上默认未显示某些项目，请滚动页面以显示更多项目。
+
+</div>
+
 要更改视图中的行高，请执行以下操作：
 
 1. 单击增强型列表中的&#x200B;**行高**&#x200B;图标![行高图标](assets/row-height-icon.png)。
@@ -295,7 +314,7 @@ Last, under Scenario Planner
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
@@ -516,7 +535,11 @@ Workfront提供了有限数量的预定义分组，您无法对其进行修改�
 >
 >并非所有增强型列表都具有本节中介绍的所有元素。
 
-1. 在列表右上角的搜索框中键入要搜索的关键字。 当您键入时，结果会在列表中加亮。
+1. 在列表右上角的&#x200B;**搜索**&#x200B;框中键入要搜索的关键字。
+
+   在生产环境中，当您键入内容时，结果会在列表中突出显示。
+
+   <span class="preview">在“预览”环境中，将筛选列表以仅显示符合搜索条件的项目。 快速搜索框左侧的记录总数被找到的项目数替换。</span>
 
    ![个突出显示的搜索词](assets/glist-search-highlighted.png)
 

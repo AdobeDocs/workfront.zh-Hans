@@ -26,19 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1948'
 ht-degree: 0%
 ---
 # 跨工作区记录类型概述
 
-<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -228,7 +228,15 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 ### 访问全局记录类型的连接
 
-连接到原始工作区中全局记录类型的记录类型在添加全局记录类型的其他工作区中变得可见，并且可用于添加全局记录类型的辅助工作区的连接。
+* 连接到原始工作区中全局记录类型的记录类型在添加全局记录类型的其他工作区中变得可见，并且可用于添加全局记录类型的辅助工作区的连接。
+
+<div class="preview">
+
+* 将两种连接的全局记录类型添加到辅助工作区时，您可以关闭跨工作区连接，并且仍然在本地链接记录。
+
+  每个辅助记录类型只显示其自己的两个记录类型的记录，并且可以将它们相互连接。 不再显示全局工作区和其他辅助工作区的记录。
+
+</div>
 
 ### 全局记录类型的API访问
 

@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '2017'
 ht-degree: 0%
 ---
 
@@ -34,11 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -165,6 +163,11 @@ Removed - more direct steps below:
    * 记录的详细信息区域中项目的已连接记录页面
    * 记录类型的请求表单页面
 
+   >[!TIP]
+   >
+   ><span class="preview">列表中的项目数显示在列表右上角的快速搜索框左侧。 数字反映了应用了过滤器并显示在列表中的项目数。 您无权查看的项目不计算在内。</span>
+
+
 1. （视情况而定）如果可用，请执行以下操作之一来修改列表视图：
 
    1. 展开列表左上角的下拉视图菜单以选择其他视图，或单击&#x200B;**新建视图**&#x200B;并创建另一个视图。
@@ -270,6 +273,8 @@ Removed - more direct steps below:
 1. （可选）在列表右上角的搜索框中添加关键字以搜索项目。
 
    与搜索词匹配的项目会在列表中突出显示。
+
+   <span class="preview">该列表已过滤，只显示与搜索匹配的项目。</span>
 
 1. （可选且有条件）在连接的项目<!--change projects to items here when more items will display in the Glist-->页面中，要向列表添加更多项并自动将其连接到所选记录，请执行下列操作之一：
 
