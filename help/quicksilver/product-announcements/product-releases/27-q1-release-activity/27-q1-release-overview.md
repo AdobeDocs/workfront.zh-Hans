@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
+source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '1093'
+ht-degree: 3%
 ---
 
 # 2027年第一季度发行版概述
@@ -30,8 +30,147 @@ ht-degree: 4%
 
 ## Adobe Workfront增强功能
 
+* [管理员增强功能](#administrator-enhancements)
+* [AI增强](#ai-enhancements)
+* [文档增强功能](#documents-enhancements)
+<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [项目增强功能](#project-enhancements)
+* [其他增强功能](#other-enhancements)
 
+### 管理员增强功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">删除附加自定义表单的权限</a></p>
+                <p>共享自定义表单时，您现在可以为具有“管理”访问权限的用户设置权限，以从表单附加到的对象中删除表单。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">将自定义字段标记为收藏</a></p>
+                <p>现在，您可以将自定义字段标记为收藏，以便在构建筛选器、视图和分组时显示在可用字段的顶部，并显示在表单设计器字段库中。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">更改历史记录现在跟踪画布功能板对象</a></p>
+                <p>更改历史记录现在记录创建、更新或删除画布功能板或报表的人员、更改时间和更改内容。</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年10月29日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### AI增强
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">工作代理：Adobe本机支持</a></p>
+                <p>您现在可以创建使用Adobe CX Coworker的工作代理，而无需配置外部平台或输入外部凭据。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">从Workfront的Adobe CX Enterprise Coworker中删除了一些图标</a></p>
+                <p>为简化Workfront中的Adobe CX Enterprise Coworker，删除了“设置”和“工件”图标。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 文档增强功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">配置统一的审核和批准电子邮件通知</a></p>
+                <p>您现在可以配置18个统一的审核和批准电子邮件通知，并且其主题行会稍有变化。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--
+
+### Financial Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md">Deactivate exchange rates</a></p>
+                <p>System administrators can now deactivate currencies from the list of exchange rates and activate them again later.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
 
 ### 项目增强功能
 
@@ -50,6 +189,76 @@ ht-degree: 4%
                 <p>您现在可以将最重要的线程固定到项目、任务、问题或请求的更新区域顶部，以便关键信息对团队可见。</p>
             </td>
             <td><p>2026年10月15日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 其他增强功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">在增强列表中查看记录总数</a></p>
+                <p>增强型视图现在可显示项目总数，以及筛选、搜索或更改视图时计数发生的更新。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">在增强列表中更好地显示快速搜索结果</a></p>
+                <p>现在，增强型列表中的快速搜索仅显示匹配的项目，而不是突出显示所有项目之间的匹配项。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Add sections to organize enhanced views</a></p>
+                <p>You can now create sections in the View dropdown menu of an enhanced list to organize related views.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">增强列表更新</a></p>
+                <p>您现在可以展开或折叠增强列表中的所有分组，并且当只有一个视图类型可用时，您不必再选择视图类型。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">多个屏幕已更新为增强列表</a></p>
+                <p>布局模板和事件通知列表现在使用增强列表格式。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">在日历报告“周”视图中显示或隐藏小时</a></p>
+                <p>您现在可以在日历报表的“周”视图中显示或隐藏一天中的小时数。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
             <td><p>2026年11月12日</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
@@ -82,7 +291,7 @@ ht-degree: 4%
 
 * 将基础框架(Electron)更新到在Chrome版本156上运行的最新版本，以提高性能和安全性。
 
-有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
 
@@ -94,14 +303,14 @@ ht-degree: 4%
 
 作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 要管理和审查工作角色费率，请使用专门的费率管理体验：
 
@@ -116,10 +325,10 @@ ht-degree: 4%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
