@@ -6,9 +6,9 @@ description: 了解有关Adobe云存储对象的主要差异，包括新的“�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Adobe云存储有什么不同之处
@@ -94,7 +94,7 @@ Frame.io查看器提供：
 * 标记和注释工具，包括手绘绘图和标准形状，如圆形、箭头和正方形
 * 带有时间戳的视频评论评论，具有帧精度
 * 版本历史记录和版本比较
-* 移动访问以进行移动审阅和批准
+* 通过[Frame.io iOS应用程序](https://help.frame.io/en/collections/9679120-ios-app)移动访问以进行移动审阅和批准
 * 支持40多种文件格式，包括所有常见的视频、图像、音频、PDF和Microsoft Office类型，原生播放专业视频格式，如ProRes、H.265和DNxHD，并支持高达500 GB的文件
 
 ## 对象命名规则
