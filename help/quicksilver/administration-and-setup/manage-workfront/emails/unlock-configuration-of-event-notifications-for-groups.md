@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 2%
 ---
 # 解锁或锁定所有组的事件通知配置
+
+{{highlighted-preview}}
 
 如果您是Adobe Workfront管理员，则可以解锁或重新锁定组管理员为其管理的顶级组配置事件通知的功能。 事件通知的配置包括激活或停用该通知。
 
