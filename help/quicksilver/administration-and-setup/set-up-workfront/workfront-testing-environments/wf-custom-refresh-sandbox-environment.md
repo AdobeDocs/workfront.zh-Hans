@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1842'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]自定义刷新沙盒环境
 
 自定义刷新沙盒是一种您可以使用生产环境中的数据进行测试和工作的环境。 此外，它还是运行培训和确定设置功能的理想选择。
+
+
 
 >[!NOTE]
 >
@@ -46,7 +48,7 @@ ht-degree: 0%
 >
 >  此外，获取预览Sandbox不需要的自定义刷新Sandbox会额外产生成本。
 >
->  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 访问权限要求
 
@@ -132,6 +134,10 @@ Adobe云存储在“自定义刷新沙盒”中提供，因此您可以在生产
    您的自定义刷新沙盒凭据与生产凭据相同，除非自上次刷新自定义刷新沙盒以来您更改了生产凭据。 只有在刷新时才会同步登录。 它们不会自动同步。
 
    自定义刷新沙盒在屏幕顶部的横幅中显示版本以及上次刷新日期。 刷新完成后，生产中的所有信息都可用并准备就绪。
+
+>[!IMPORTANT]
+>
+>Canvas功能板中的Planning数据仅对沙盒环境中的[!DNL Workfront]管理员可见。
 
 ## 使用URL访问自定义刷新沙盒 {#access-the-custom-refresh-sandbox-using-a-url}
 

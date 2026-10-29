@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]预览Sandbox环境
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 自定义刷新沙盒
 
-  自定义刷新沙盒是一个单独的测试环境，由您手动刷新。 获取自定义刷新沙盒需要额外付费。 有关此环境的详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
+  自定义刷新沙盒是一个单独的测试环境，由您手动刷新。 获取自定义刷新沙盒需要额外付费。 有关此环境的详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,8 +54,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支持包</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支持包</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -83,6 +83,10 @@ ht-degree: 0%
 预览沙盒还允许[!DNL Workfront]在准备部署到生产环境之前，在安全环境中部署新功能。 您可以通过访问预览Sandbox来测试新功能并就[!DNL Workfront]的功能提供反馈。 因此，预览沙盒的代码始终位于生产代码之前，尽管您的数据每周都会刷新。
 
 预览环境非常适用于运行培训、测试新功能和确定设置功能。
+
+>[!IMPORTANT]
+>
+>Canvas功能板中的Planning数据仅对沙盒环境中的[!DNL Workfront]管理员可见。
 
 >[!NOTE]
 >
