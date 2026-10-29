@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '337'
 ht-degree: 6%
 ---
 # 复制布局模板
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,12 +76,14 @@ ht-degree: 6%
 
 1. 在左侧面板中，单击&#x200B;**界面** > **布局模板**。
 
-1. 单击要修改的布局模板的名称。
-1. 单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)。
+1. 选中要修改的布局模板旁边的复选框。
+1. 单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)、<span class="preview">或单击屏幕底部操作栏中的&#x200B;**复制**。</span>
 
    现有布局模板中除名称、描述和用户分配之外的所有设置都将复制到新模板中。
 
-1. 在出现的屏幕中，键入新的&#x200B;**布局模板名称**&#x200B;和（可选）该模板的&#x200B;**描述**。
+   有关操作栏和增强列表其他功能的信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+1. 在出现的屏幕上，键入新的&#x200B;**布局模板名称**&#x200B;和（可选）它的&#x200B;**描述**。
 
 1. 将模板分配给需要它的用户，如[将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)中所述。
 1. （可选）自定义模板，如以下文章所述：
@@ -92,3 +96,6 @@ ht-degree: 6%
    * [使用布局模板自定义登陆页面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [使用布局模板自定义用户界面术语](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. 单击&#x200B;**创建**。
+
