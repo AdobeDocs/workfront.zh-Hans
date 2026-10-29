@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
+source-git-commit: 7f5bcddadcd27c359a5ae872144f04b049949ca9
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1101'
 ht-degree: 0%
 ---
 # 常见问题解答 — 活动订阅
@@ -96,6 +96,16 @@ ht-degree: 0%
 ## 从“Workfront事件订阅”接收事件有效负载需要多长时间？
 
 通常，您可能会收到事件订阅事件提交请求，该请求距记录的数据更改不超过5秒。 平均而言，从进行数据更改的时间开始，将在不到1秒内收到webhook通知。 但是，该服务可能会接收大量消息，并且可能需要更长的时间。
+
+## 我是否可以多次接收同一事件？
+
+可以。 Workfront使用重复数据删除功能来减少重复事件交付，但它不保证一次性交付。
+
+在端点返回成功的HTTP响应(2xx)后，Workfront会临时记录该投放，并使用此记录为同一订阅禁止后续投放同一事件。 单独订阅的投放会单独进行跟踪。
+
+仍可能会出现重复情况，例如，当投放尝试重叠时，端点处理一个事件，但其响应未到达Workfront，或者投放记录过期或不可用。
+
+设计您的端点以安全地（有时）处理重复的投放。 将`X-Event-ID`请求标头与有效负荷的`subscriptionId`一起使用可识别订阅的重复投放。
 
 ## 其他资源
 
