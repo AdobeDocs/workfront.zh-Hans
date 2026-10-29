@@ -90,7 +90,7 @@ ht-degree: 2%
 
      要了解如何共享日历，请参阅[[!UICONTROL 共享日历]报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**下拉列表，然后选择要查看的日历持续时间。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**&#x200B;下拉列表，然后选择要查看的日历持续时间。
    ![日历持续时间](assets/view-menu-calendar-report-350x189.png)
    您可以从以下日历报表视图中进行选择：
 
@@ -121,12 +121,12 @@ ht-degree: 2%
       <td>在日历的右上角，打开或关闭<b>显示周末</b>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">在<b>[！UICONTROL周]</b>视图中查看日历时显示或隐藏一天中的小时数</span></td> 
+      <td role="rowheader"><span class="preview">在<b>[!UICONTROL 周]</b>视图中查看日历时显示或隐藏一天中的小时数</span></td> 
       <td><span class="preview">在日历的右上角，打开或关闭<b>显示小时数</b>。</span></td> 
      </tr> 
      <tr> 
       <td role="rowheader">快速更改显示的日期</td> 
-      <td> <p>在<b>[！UICONTROL日历]</b>工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="单击箭头以更改日期"></p> <p>显示的日期会根据您当前的日历视图按间隔进行调整。 例如，如果您在<b>周</b>视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。</p> <p>（可选）要返回到当前日期，请单击<b>[！UICONTROL Today]</b>。</p> </td> 
+      <td> <p>在<b>[!UICONTROL 日历]</b>工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="单击箭头以更改日期"></p> <p>显示的日期会根据您当前的日历视图按间隔进行调整。 例如，如果您在<b>周</b>视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。</p> <p>（可选）要返回到当前日期，请单击<b>[!UICONTROL Today]</b>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
