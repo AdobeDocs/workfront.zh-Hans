@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '5673'
+source-wordcount: '5676'
 ht-degree: 1%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -188,7 +188,7 @@ Old:
 * 您只能从表格视图创建字段。
 * 在生产环境中，新添加的字段已添加并在所有表视图中可见。
 
-  <span class="preview">在“预览”环境中，新添加的字段作为隐藏字段添加到所有表视图中。 新字段在您用于添加它们的视图中可见。</span>
+  <span class="preview">在“预览”环境中，新添加的字段作为隐藏字段添加到包含这些字段的所有表视图中。 新字段在您用于添加它们的视图中可见。</span>
 
 ## 通过连接记录类型创建字段
 

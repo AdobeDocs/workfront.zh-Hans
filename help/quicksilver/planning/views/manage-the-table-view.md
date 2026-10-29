@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4353'
+source-wordcount: '4357'
 ht-degree: 2%
 ---
 # 管理表视图
@@ -395,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 表格视图的行显示所选记录类型的单个记录。 添加行与创建记录相同。
 
-记录类型最多可以有50,000条记录（或行）。 <span class="preview">默认情况下只显示500行。 滚动页面时加载更多。</span>
+记录类型最多可以有50,000条记录（或行）。 <span class="preview">默认情况下只显示500行。 在滚动页面时加载更多内容。</span>
+<span class="preview">在表右上角的快速搜索框左侧显示记录总数。</span>
 
 1. 转到记录类型页面并选择表视图，或单击&#x200B;**+视图**&#x200B;以添加新视图，然后选择&#x200B;**表**。
 
@@ -411,7 +412,6 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    >![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
 
-   <span class="preview">在表右上角的快速搜索框左侧显示记录总数。</span>
 
 1. （可选）选择一个或多个记录或行，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排序行。
 
@@ -647,7 +647,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
