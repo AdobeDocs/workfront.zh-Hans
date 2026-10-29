@@ -4,9 +4,9 @@ description: 2027年第一季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 本页介绍了在2027年第一季度发布中对“预览”环境所做的文档增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
 
 <!--
 
@@ -36,11 +36,19 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 ## 配置统一的审核和批准电子邮件通知
 
+>[!IMPORTANT]
+>
+>此功能在预览环境中暂时不可用。
+
+
+<!--
 >[!NOTE]
 >
->预览： 2026年10月29日
->生产快速发布： 2026年11月12日
->适用于所有人的生产： 2027年1月21日
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+-->
 
 您现在可以配置统一的审核和批准电子邮件通知。 Workfront始终会发送这些电子邮件，但您现在无法配置它们。 现在有18个通知被分组为统一审批并默认处于活动状态。 Workfront管理员可以在“设置”中为每个人激活或取消激活这些受众，用户可以在他们的配置文件中管理这些受众。
 
