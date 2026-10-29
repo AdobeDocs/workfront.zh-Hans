@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 1%
 ---
 # 使用增强列表
+
+{{preview-fast-release-general}}
 
 Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格格式来显示列表项，并且它们具有与标准列表不同的外观。 视图的管理也得到了增强，包括筛选、分组、管理列和搜索。
 
@@ -77,14 +79,16 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | --- | --- |
 | 优先次序 | <ul><li>主页>选择左侧菜单中的“优先级”图标</li><li>主菜单>优先级</li></ul> |
 | 请求列表 | <ul><li>主菜单>请求（仅限新体验）</li><li>主页上的我的请求小组件</li></ul> |
-| 安装程序中的状态、优先级、严重性、<span class="preview">条件</span>和汇率列表 | <ul><li>设置>项目首选项>状态</li><li>设置>项目首选项>优先级</li><li>设置>项目首选项>严重程度</li><li><span class="preview">设置>项目偏好设置>条件</span></li><li>设置>项目首选项>汇率</li></ul> |
-| <span class="preview">更新源中的操作和跟踪字段列表</span> | <ul><li><span class="preview">设置>界面>更新馈送>跟踪的字段选项卡</span></li> <li><span class="preview">设置>界面>更新信息源>操作选项卡</span></li></ul> |
-| <span class="preview">记分卡列表</span> | <span class="preview">设置>记分卡</span> |
-| <span class="preview">风险类型列表</span> | <span class="preview">设置>风险类型</span> |
+| “设置”中的状态、优先级、严重性、条件和汇率列表 | <ul><li>设置>项目首选项>状态</li><li>设置>项目首选项>优先级</li><li>设置>项目首选项>严重程度</li><li>设置>项目偏好设置>条件</li><li>设置>项目首选项>汇率</li></ul> |
+| 更新源中操作和跟踪字段的列表 | <ul><li>设置>界面>更新馈送>跟踪的字段选项卡</li> <li>设置>界面>更新信息源>操作选项卡</li></ul> |
+| 记分卡列表 | 设置>记分卡 |
+| 风险类型列表 | 设置>风险类型 |
 | 费率卡上的工作角色和费率列表 | 设置>费率卡>选择费率卡>工作角色和费率 |
 | 位置列表 | “设置”>“位置” |
 | 翻译列表 | 设置>本地化 |
 | 集成列表 | <ul><li>设置>文档> SharePoint集成</li><li>设置>文档>自定义集成</li><li>设置>文档> Experience Manager Assets</li></ul> |
+| <span class="preview">布局模板列表</span> | <span class="preview">设置>界面>布局模板</span> |
+| <span class="preview">事件通知列表</span> | <ul><li><span class="preview">设置>电子邮件>通知>事件通知</span></li><li><span class="preview">组详细信息页面>事件通知</span></li></ul> |
 | 报告列表 | 主菜单>报表（必须打开&#x200B;**使用可共享文件夹**） |
 | 队列主题、主题组和路由规则的列表 | <ul><li>项目或模板>队列主题</li><li>项目或模板>主题组</li><li>项目或模板>路由规则</li></ul> |
 | 快照列表 | 项目>快照 |
@@ -99,10 +103,7 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -294,7 +295,7 @@ Last, under Scenario Planner
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
@@ -470,14 +471,18 @@ Workfront提供了有限数量的预定义分组，您无法对其进行修改�
 
    ![选择分组](assets/glist-grouping-choose-a-group-by.png)
 
-1. 单击&#x200B;**全部折叠**&#x200B;以显示包含所有分组的列表。 默认选项是显示展开所有分组的列表。
+1. 单击&#x200B;**全部折叠**&#x200B;以显示包含所有分组的列表。 默认选项是显示展开所有分组的列表。<!--Delete this line at January release-->
 1. 应用分组后，您可以再次打开分组选项以一次折叠或展开所有分组，将分组更改为按其他字段分组，或清除所有分组。
 
-   ![在增强列表中分组](assets/glist-group-by-due-date-priorities.png)
+   ![在增强列表中分组](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    将分组应用于列表时，**分组**&#x200B;按钮上将显示一个指示符。
 
    ![分组已应用指示器](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">要折叠或展开列表中的所有分组，请单击第一列标题旁边的箭头。</span>
+
+   <span class="preview">![折叠所有分组](assets/collapse-expand-all-groupings.png)</span>
 
 ### 在增强列表中排序
 
