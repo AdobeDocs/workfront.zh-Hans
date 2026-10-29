@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '2673'
-ht-degree: 0%
+source-wordcount: '2622'
+ht-degree: 1%
 ---
 # 创建文档审批工作流
 
@@ -106,13 +106,9 @@ ht-degree: 0%
    <td>从下拉菜单中选择模板。 该菜单仅列出您创建的模板或与您共享的模板 — 具体列出与您共享的模板，或与您组织中的每个人共享的模板。 系统管理员可在此处查看帐户中的每个模板，无论其是由谁创建或共享的。 如果模板具有一个路径和一个阶段，则它适用于基本模式。 如果模板具有多个阶段或多个路径，则该对话框会自动切换到“高级”模式，并且在“基本”模式下输入的任何输入都将被模板的内容替换。</td>
    </tr>
    <tr>
-   <td><strong>添加姓名或电子邮件</strong></td>
-   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">在预览中添加人员或团队</span></strong></td>
-   <td><p><span class="preview">开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。</span></p>
-   <p><span class="preview">注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</span></p></td>
+   <td><strong>添加人员或团队</strong></td>
+   <td><p>开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。</p>
+   <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</p></td>
    </tr>
    <tr>
    <td><strong>只需一个决策（可选）</strong></td>
@@ -176,7 +172,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>默认情况下，阶段名为<em>阶段1</em>、<em>阶段2</em>，依此类推。 将阶段重命名为更具描述性的状态，如<em>初始审阅</em>或<em>最终批准</em>。</td>
    </tr>
    <tr>
-   <td><strong>在预览中添加人员或团队</strong></td>
+   <td><strong>添加人员或团队</strong></td>
    <td><p>开始键入用户名、团队或电子邮件地址。 默认情况下，团队添加为单个批准者或审阅者，但您可以选择将每个团队成员添加为单个参与者。</p>
    <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</p></td>
    </tr>
@@ -200,12 +196,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （可选）要删除路径，请将鼠标悬停在路径标签上并单击垃圾桶图标。 无法删除&#x200B;**路径1**，也无法对路径重新排序。 仅当路径中没有已锁定或已完成的阶段时，才能删除其他路径。
 
-   ![具有并行路径的高级模式](assets/request-approval-parallel-paths.jpeg)
-
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+   ![具有并行路径的高级模式](assets/parallel-path-v2.png)
 
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 
@@ -238,7 +229,7 @@ preview screen
    <td>默认情况下，“模板”字段处于折叠状态。 单击该字段以将其展开，然后从下拉菜单中选择一个模板。 该菜单仅列出您创建的模板或与您共享的模板 — 具体列出与您共享的模板，或与您组织中的每个人共享的模板。 系统管理员可在此处查看帐户中的每个模板，无论其是由谁创建或共享的。 如果模板具有一个路径和一个阶段，则它适用于基本模式。 如果模板具有多个阶段或多个路径，则该对话框会自动切换到“高级”模式，并且在“基本”模式下输入的任何输入都将被模板的内容替换。</td>
    </tr>
    <tr>
-   <td><strong>在预览中添加人员或团队</strong></td>
+   <td><strong>添加人员或团队</strong></td>
    <td><p>开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。</p>
    <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。</p></td>
    </tr>
@@ -258,11 +249,10 @@ preview screen
 
 1. 单击&#x200B;**请求审批**。
 
-   ![在基本模式下请求审批](assets/request-approval-basic.jpeg)
+   ![在基本模式下请求审批](assets/request-approval-basic-v2.png)
 
-<!--
-preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
--->
+
+
 
 
 
@@ -310,7 +300,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>默认情况下，阶段名为<em>阶段1</em>、<em>阶段2</em>，依此类推。 将阶段重命名为更具描述性的状态，如<em>初始审阅</em>或<em>最终批准</em>。</td>
    </tr>
    <tr>
-   <td><strong>在预览中添加人员或团队</strong></td>
+   <td><strong>添加人员或团队</strong></td>
    <td><p>开始键入用户名、团队或电子邮件地址，然后选择他们是<strong>审批者</strong>还是<strong>审阅者</strong>。 Workfront可单独添加团队的每个活动成员。</p>
    <p>注意：如果用户已添加或属于您添加的多个团队，则这些用户将被包含一次。 此外，参与者一次只能分配到同一资产上的一个打开阶段。</p></td>
    </tr>
@@ -335,12 +325,11 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （可选）要删除路径，请将鼠标悬停在路径标签上并单击垃圾桶图标。 无法删除&#x200B;**路径1**，也无法对路径重新排序。 仅当路径中没有已锁定或已完成的阶段时，才能删除其他路径。
 
-   ![具有并行路径的高级模式](assets/request-approval-advanced.jpeg)
+   ![具有并行路径的高级模式](assets/parallel-path-v2.png)
 
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+
+
+
 
 1. （可选）要清除所有路径和阶段并重新开始，请单击右上方的&#x200B;**重置**。
 

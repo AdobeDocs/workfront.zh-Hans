@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '669'
+ht-degree: 2%
 ---
 # 查看和配置组的事件通知
+
+{{highlighted-preview}}
 
 作为组管理员，您可以查看为您管理的组激活的事件通知。
 
@@ -73,7 +75,7 @@ Workfront管理员还可以为任何组执行此操作。
 
 +++
 
-## 查看和配置组的事件通知
+## 在生产环境中查看和配置组的事件通知
 
 >[!TIP]
 >
@@ -108,3 +110,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## 在预览中查看和配置组的事件通知
+
+>[!TIP]
+>
+>如果您是Workfront管理员，并且已在“电子邮件通知”页面（“设置”>“电子邮件”>“通知”）上，您可以执行以下操作，然后跳到步骤6：在列表上方的框中删除&#x200B;**系统事件通知**，在框中开始键入组的名称，然后在组出现时单击它。
+
+{{step-1-to-setup}}
+
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
+
+1. 单击顶级组的名称。
+1. 在左侧菜单中，单击&#x200B;**事件通知**。
+1. 单击该事件的&#x200B;**活动**&#x200B;列，然后选择&#x200B;**活动**&#x200B;以将其打开，或选择&#x200B;**非活动**&#x200B;以将其关闭。
+
+   >[!IMPORTANT]
+   >
+   >无法为组编辑或配置带锁图标的项目。
+
+   ![设置电子邮件下的通知区域](assets/group-event-notifications-g.png)
+
+   要查看事件的默认通知状态，请参阅[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)。
+
+</div>

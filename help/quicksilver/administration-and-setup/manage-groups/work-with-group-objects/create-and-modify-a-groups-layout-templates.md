@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '377'
 ht-degree: 5%
 ---
 # 创建和修改组的布局模板
@@ -88,9 +88,12 @@ ht-degree: 5%
 
      有关复制布局模板以创建新布局模板的信息，请参阅[复制布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)。
 
+     有关操作栏和增强列表其他功能的信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
    * 要编辑现有的组布局模板，请选择它，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
      有关编辑布局模板的信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
    * 要删除一个或多个布局模板，请选择这些模板，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
    * 要导出布局模板列表，请单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)。
+

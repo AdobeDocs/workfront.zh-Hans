@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 3%
+source-wordcount: '811'
+ht-degree: 2%
 ---
 # 解锁或锁定所有组的事件通知配置
+
+{{highlighted-preview}}
 
 如果您是Adobe Workfront管理员，则可以解锁或重新锁定组管理员为其管理的顶级组配置事件通知的功能。 事件通知的配置包括激活或停用该通知。
 
@@ -71,7 +73,7 @@ ht-degree: 3%
 
 +++
 
-## 解锁或重新锁定配置事件通知的功能
+## 解锁或重新锁定在生产环境中配置事件通知的功能
 
 >[!IMPORTANT]
 >
@@ -93,3 +95,32 @@ ht-degree: 3%
 
    * 在通知列表上方的搜索框中删除&#x200B;**系统事件通知**，搜索并选择顶级组的名称以列出其通知，然后在显示的列表中激活或停用解锁的通知。
    * 单击左侧菜单中的&#x200B;**组**，然后单击顶级组的名称。 单击左侧面板中的&#x200B;**事件通知**，然后配置解锁的事件通知，如[查看和配置组](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知中所述。
+
+
+<div class="preview">
+
+## 解锁或重新锁定在生产环境中配置事件通知的功能
+
+>[!IMPORTANT]
+>
+>当您重新锁定通知时，系统中所有组都将完全按照您设置的规则继承通知。 此操作将覆盖组管理员可能已对其组进行的任何更改，因此最好先与他们协商。
+
+{{step-1-to-setup}}
+
+1. 单击&#x200B;**电子邮件** > **通知**。
+
+1. 确保&#x200B;**事件通知**&#x200B;选项卡已打开。
+
+
+1. 若要解锁组通知，请单击通知右侧的锁定图标![锁定图标](assets/lock-icon-100626.png)，然后选择&#x200B;**解锁组访问权限**。 解锁通知后，不再显示锁图标。
+
+1. 要锁定组的通知，请选择通知右侧的更多菜单![更多菜单](assets/more-icon.png)，然后单击屏幕底部操作栏中的&#x200B;**锁定组访问**。 锁定通知时，将显示锁定图标![锁定图标](assets/lock-icon-100626.png)。
+
+
+
+1. （可选）如果要为顶级组配置事件通知，而不是将此任务留给组管理员，可以执行以下操作之一：
+
+   * 在通知列表上方的搜索框中删除&#x200B;**系统事件通知**，搜索并选择顶级组的名称以列出其通知，然后在显示的列表中激活或停用解锁的通知。
+   * 单击左侧菜单中的&#x200B;**组**，然后单击顶级组的名称。 单击左侧面板中的&#x200B;**事件通知**，然后配置解锁的事件通知，如[查看和配置组](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知中所述。
+
+   </div>

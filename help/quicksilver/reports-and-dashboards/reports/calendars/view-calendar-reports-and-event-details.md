@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 ---
 # 查看日历报告和事件详细信息
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中查看您创建或与您共享的日历报告和事件详细信息。
 
@@ -108,20 +110,26 @@ ht-degree: 3%
 
 1. （可选）如果您在&#x200B;**月**&#x200B;或&#x200B;**周**&#x200B;查看中查看日历，则可以使用以下选项更改日历视图：
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * 要快速更改显示的日期，请执行以下操作：
-
-     1. 在&#x200B;**[!UICONTROL 日历]**&#x200B;工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。
-
-        ![单击箭头以更改日期](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        显示的日期会根据当前日历视图按间隔进行调整。 例如，如果您在&#x200B;**周**&#x200B;视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。
-
-     1. （可选）要返回到当前日期，请单击&#x200B;[!UICONTROL **今天**]。
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">在“月”视图中查看日历时排除周末</td> 
+      <td>在日历的右上角，打开或关闭<b>显示周末</b>。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">在<b>[!UICONTROL 周]</b>视图中查看日历时显示或隐藏一天中的小时数</span></td> 
+      <td><span class="preview">在日历的右上角，打开或关闭<b>显示小时数</b>。</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">快速更改显示的日期</td> 
+      <td> <p>在<b>[!UICONTROL 日历]</b>工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="单击箭头以更改日期"></p> <p>显示的日期会根据您当前的日历视图按间隔进行调整。 例如，如果您在<b>周</b>视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。</p> <p>（可选）要返回到当前日期，请单击<b>[!UICONTROL Today]</b>。</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. （可选）要隐藏链接到日历的项目或日历分组事件，请在项目列表中清除该项目或日历分组。
    ![隐藏事件](assets/hide-events-for-project-or-cal-grouping.png)

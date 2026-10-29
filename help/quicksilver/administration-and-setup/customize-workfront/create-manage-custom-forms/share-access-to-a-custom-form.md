@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '987'
 ht-degree: 2%
 ---
 # 共享自定义表单
+
+{{preview-fast-release-general}}
 
 您可以配置自定义表单的访问权限，以控制哪些人员（人员、角色、组、团队、公司、业务配置文件）可以查看、共享和编辑它。
 
@@ -108,7 +110,8 @@ ht-degree: 2%
       <td> <p>此选项仅适用于具有Standard或Plan许可证的用户。 </p> <p>除了能够将表单添加到他们有权编辑的对象中，用户还可以完全编辑自定义表单，包括添加、编辑和删除字段。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
        <ul> 
         <li> <p><strong>附加到自定义数据</strong>：能够将自定义表单附加到其拥有管理访问权限的项目、任务和问题</p> </li> 
-        <li><strong>删除</strong>：从系统中删除自定义表单</li> 
+        <li><strong>删除</strong>：从系统中删除自定义表单</li>
+        <li> <p><span class="preview"><strong>删除自定义数据</strong>：能够从具有管理访问权限的项目、任务和问题中删除自定义表单</span></p> </li> 
         <li><strong>共享</strong>：与系统中的其他人共享自定义表单</li> 
        </ul> </td> 
      </tr> 

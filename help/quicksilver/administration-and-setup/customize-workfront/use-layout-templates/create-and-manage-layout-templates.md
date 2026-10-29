@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '559'
 ht-degree: 5%
 ---
 # 创建和管理布局模板
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ ht-degree: 5%
 
 1. 单击&#x200B;**新建布局模板**。
 
-   或
+   要编辑布局模板，请执行以下操作：
 
-   单击要修改的布局模板的名称。
+   * 单击要修改的布局模板的名称，或者
+   * <span class="preview">选中列表中布局模板旁边的复选框，然后在屏幕底部的操作栏中单击&#x200B;**编辑**。</span>
+
+     有关操作栏和增强列表其他功能的信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 1. 如果要创建新的布局模板，请键入该模板的&#x200B;**布局模板名称**&#x200B;和&#x200B;**描述**（可选）。
 

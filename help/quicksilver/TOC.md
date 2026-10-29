@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 9faae2fb12953fb12f2c86dacbab61c18a11f94a
+source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
 workflow-type: tm+mt
-source-wordcount: '14736'
+source-wordcount: '14757'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -19,8 +19,12 @@ ht-degree: 2%
     * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
     * 2027年第一季度发行 {#release-27-q1}
       * [2027年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [2027年第一季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
       * [2027年第一季度人工智能增强功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
+      * [2027年第一季度文档增强](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
+      * {hide-from-toc}[2027年第一季度Financial Management增强功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
       * [2027年第一季度项目增强功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
+      * [2027年第一季度其他增强功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md)
     * 2026年第四季度发行 {#release-26-q4}
       * [2026年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [2026年第四季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)

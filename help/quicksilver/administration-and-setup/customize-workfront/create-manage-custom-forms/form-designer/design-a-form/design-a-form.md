@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '8130'
-ht-degree: 4%
+source-wordcount: '8508'
+ht-degree: 5%
 ---
 # 创建自定义表单
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -141,6 +143,11 @@ ht-degree: 4%
 ### 重用已在其他自定义表单中使用的现有字段或构件
 
 1. 在屏幕的左上角，单击&#x200B;**字段库**。
+1. 搜索要添加到表单中的字段。
+
+   >[!TIP]
+   >
+   >标记为收藏夹的<span class="preview">字段显示在字段库顶部的&#x200B;**建议**&#x200B;部分中。</span>
 
 1. 将所需的字段或构件拖放到画布上。 重复此步骤以添加任何其他字段或构件。
 
@@ -332,6 +339,15 @@ ht-degree: 4%
     <td><ul><li>描述性文本</li></ul></td>
     </tr>
     <tr>
+     <td>标记为收藏</td>
+     <td><p><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     <td><ul>
+     <li>单行文本</li>
+     <li>段落</li>
+     <li>丰富文本</li>
+     <li>描述性文本</li></ul></td>
+    </tr>
+    <tr>
      <td>活动</td>
      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      <td><ul>
@@ -511,6 +527,15 @@ ht-degree: 4%
     <li>多选下拉框</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>标记为收藏</td>
+     <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     <td><ul>
+     <li>单选按钮</li>
+     <li>复选框组</li>
+     <li>单选下拉菜单</li>
+     <li>多选下拉框</li></ul></td>
     </tr> 
     <tr>
      <td>活动</td>
@@ -754,6 +779,10 @@ To add typeahead and date fields:
       <td><p>如果要在字段中显示一天中的时间和日期，请选择此选项。</p></td>
      </tr> 
      <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     </tr>
+     <tr>
       <td>活动</td>
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
@@ -870,6 +899,10 @@ To add typeahead and date fields:
       <td><p>选择此选项可允许用户在下拉列表中选择多个值。</p></td>
      </tr>
      <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     </tr>
+     <tr>
       <td>活动</td>
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
@@ -971,6 +1004,10 @@ To add typeahead and date fields:
       <td><p>选择此选项可允许用户在下拉列表中选择多个值。</p></td>
      </tr>
      <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     </tr>
+     <tr>
       <td>活动</td>
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
@@ -1054,7 +1091,11 @@ The Workfront Mobile app
      <tr> 
       <td role="rowheader">说明</td> 
       <td> <p>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     </tr>
      <tr>
       <td>活动</td>
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
@@ -1218,6 +1259,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
+     </tr>
+     <tr>
       <td>活动</td>
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
@@ -1273,6 +1318,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td role="rowheader">说明</td> 
       <td> <p>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
      </tr>
      <tr>
       <td>活动</td>
@@ -1369,6 +1418,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td role="rowheader">记录类型字段</td> 
       <td><p>（可选）从连接的记录类型中选择最多7个查找字段以在自定义表单中显示。 默认情况下，主字段处于选中状态，无法编辑。 </p> <p> 您选择的已连接记录的字段显示在自定义表单的表视图中。 将表单附加到Workfront对象时，表格视图为只读。 </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>标记为收藏</td>
+      <td><span class="preview">选择此选项可使字段在列表和报表中构建筛选器、视图和分组时显示为建议字段，并显示在表单设计器中的字段库的顶部。</span></td>
      </tr>
      <tr>
       <td>活动</td>
