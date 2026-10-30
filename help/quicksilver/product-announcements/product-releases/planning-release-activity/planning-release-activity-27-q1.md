@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度发布活动
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >生产快速发布： 2026年11月12日
 >适用于所有人的生产： 2027年1月21日
 
-在将两种连接的全局记录类型添加到辅助工作区时，您现在可以关闭跨工作区连接，并且仍然在本地链接记录。 每个辅助工作区只能看到其自己的两种记录类型的记录，并且可以将它们相互连接。 不再显示全局工作区和其他辅助工作区的记录。
+将两种连接的全局记录类型添加到辅助工作区时，您可以关闭跨工作区连接，并且仍然在本地链接记录。
+
+每个辅助记录类型只显示其自己的两个记录类型的记录，并且可以将它们相互连接。 不再显示全局工作区和其他辅助工作区的记录。
 
 在此增强功能之前，如果为连接的全局记录类型关闭了跨工作区连接，则辅助工作区无法将其自己的记录相互链接。 如果启用，则用户可以从全局工作区以及所有其他辅助工作区查看和链接记录。
 
 有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
-## 查看表视图中的记录总数
+## 在表、时间轴和列表视图中查看记录总数
 
 >[!NOTE]
 >
@@ -79,9 +81,11 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >生产快速发布： 2026年11月12日
 >适用于所有人的生产： 2027年1月21日
 
-现在，表格视图会显示记录总数，并且会在您应用筛选器、搜索或更改视图时自动更新计数。 记录计数始终反映完全过滤的结果并尊重您的权限。
+现在，当您应用筛选器、搜索或更改视图时，表、时间轴和列表视图会自动显示记录总数和计数更新。 记录计数始终反映完全过滤的结果并尊重您的权限。
 
-有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+记录数显示在快速搜索框左侧的表、时间轴或列表视图的右上角。
+
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 <!--
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## 通过在表和时间线视图中进行增量数据加载，提高了性能
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >预览： 2026年10月29日
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 为了提高大量记录的性能，我们对表和时间线视图进行了以下改进：
 
-* 现在，该视图最初加载前500条记录，当您批量滚动500条时，会自动加载其他记录。
-* 快速搜索和分组仅影响视图中当前加载的记录。
+* 现在，表格视图最初加载前500条记录，当您批量滚动500条时，会自动加载其他记录。
+* 时间轴视图具有类似行为，但一次加载1000条记录，滚动时加载下一个1000条。
+* 快速搜索适用于所有记录，而不仅仅是显示在当前视图中的记录。 当您同时滚动时间轴和表视图时，会加载更多记录。
+* 在时间轴视图中应用快速搜索时，如果找到超过1000个项目，您可以单击时间轴底部的“加载更多” ，以显示与搜索匹配的更多记录。
 
 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)和[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 

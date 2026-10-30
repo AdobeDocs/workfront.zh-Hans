@@ -28,20 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
+source-wordcount: '5111'
 ht-degree: 1%
 ---
 # 管理时间线视图
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -195,9 +193,10 @@ Old:
 
    与所选记录类型关联的记录在时间轴中显示为条形，默认情况下，这些记录将按其开始日期的时间顺序自动排序。
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">默认情况下显示前1000条记录。 当您滚动页面时，其他记录会以1000为批次继续显示。</span>
+
+   <span class="preview">在表右上角的快速搜索框左侧显示记录总数。</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Old:
 1. （可选）单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期在同一行上不相交的记录。<!--check to see if they updated the name of the setting here-->
 1. （视情况而定）如果将模式更改为&#x200B;**紧凑**，请单击&#x200B;**切换到标准**&#x200B;视图以单独行显示记录。 **Standard**&#x200B;选项是默认选项。 <!--check to see if they updated the name of the setting here-->
 
-
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
+   1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。
+
+      正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
+
+      <span class="preview">显示在搜索框左侧的记录总数将由在搜索中找到的记录数替换。</span>
 
       ![搜索框和结果时间线视图](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Old:
 
       不能使用与不在时间轴视图中显示的字段关联的关键字。
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">快速搜索适用于所有记录，而不只是页面上当前显示的记录。 默认情况下显示1000条记录。 单击&#x200B;**加载更多**&#x200B;以显示快速搜索中找到的更多记录。</span>
 
    1. 在键盘上按Enter键以转到下一个找到的字段。
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
    1. 单击搜索框中的&#x200B;**x**&#x200B;图标以清除搜索关键字。
 
-   1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
+1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
 1. （可选）单击&#x200B;**划分**&#x200B;以在时间轴上显示连接的记录。
 
@@ -523,11 +521,9 @@ Old:
    >将记录从一个分组拖放到另一个分组时，在该分组中选择的字段会自动更新移动记录上的值。
 1. （可选）单击&#x200B;**Settings**，然后单击&#x200B;**Color**&#x200B;进行颜色代码分组。 有关详细信息，请参阅本文中的[编辑时间线视图设置](#edit-the-timeline-view-settings)部分。
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview">（可选）从&#x200B;**泳道**&#x200B;或&#x200B;**栈叠**&#x200B;排列中，在时间轴视图中获取分组并将其放到其他位置。</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">这将更改分组顺序，并将分组的排序更改为&#x200B;**自定义**。 有关详细信息，请参阅本文中的[添加排序](#add-sort)部分。</span>
 
 ### 添加排序
 
@@ -557,11 +553,9 @@ Old:
 
    例如，文本字段的排序可以是A -> Z或Z -> A。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">如果时间轴视图具有分组，并且您手动重新排列了分组的顺序，则排序的方向显示为&#x200B;**自定义**。</span>
 
    应用排序的方向取决于所选字段的格式。
 1. （可选）单击&#x200B;**添加条件**&#x200B;以添加最多10个条件。

@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1230'
 ht-degree: 1%
 ---
 # 使用工作代理
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。</span>
+
 工作代理是可直接分配给Workfront任务、问题和请求的AI协作者。 与其他AI协作者一样，工作代理在“设置”区域中配置，并像用户一样分配给工作项。
 
-工作代理连接到您在Copilot Studio、Claude、OpenAI或IBM中配置的代理。
+<span class="preview">您可以使用由Adobe CX Coworker、</span>提供支持的现成可用的Adobe本机工作代理，也可以使用连接到外部平台的工作代理。 可用的功能和设置要求取决于代理的来源。
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
@@ -64,7 +68,9 @@ ht-degree: 1%
 
 ## 先决条件
 
-* 您必须先在Copilot、Claude、OpenAI或IBM中配置代理，然后才能在Workfront中将其用作工作代理。
+* 管理员必须在Workfront中配置工作代理，然后才能使用它。
+* <span class="preview">对于Adobe本机工作代理，您的组织必须启用Adobe CX Coworker。</span>
+* 对于连接到外部平台的工作代理，还必须在该平台中配置该代理。
 
 ## 工作代理概述
 
@@ -116,21 +122,22 @@ ht-degree: 1%
 
 当工作座席分配给任务或问题时，当满足以下任一情况时，它即开始工作：
 
-<!--update wording to include issues when this goes to production-->
-
 * 工作代理分配给准备启动的任务。 （例如，如果任务具有前置任务，则前置任务为完成。）
 * 工作代理和用户被分配给任务，工作代理首先被分配。
 * 已为其分配工作代理的任务变为准备开始，且工作代理是唯一或主要被分配人。 （例如，如果任务具有前置任务，则前置任务为完成。）
 * 已经为其分配了工作代理和用户的任务已准备好开始，并且工作代理是首先分配的，或者是主要被分配人。 （例如，如果任务具有前置任务，则前置任务为完成。）
 * 将用户和工作代理分配给任务，并移除该用户。
 * 将用户和工作代理分配给任务，并且工作代理被设置为任务的主要被分配人。
+* <span class="preview">任务中@mentioned有Workfront本机工作代理。
 
 以下情况不会导致工作代理开始处理任务：
 
 * 将工作代理分配给已分配了用户的任务。
-* 在任务中@mentioned用工作代理。
+* <span class="preview">工作代理@mentioned在不支持启动触发器的提供程序任务中。</span>
 * 将工作代理分配给已经分配了工作代理的任务。 在这种情况下，分配的第一个工作代理将已开始工作，而第二个工作代理将不执行任何操作。
 * 工作代理被分配给未准备好启动的任务。 （例如，如果任务具有前置任务，则前置任务尚未完成。）
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## 将工作代理分配给任务、问题或请求
 
