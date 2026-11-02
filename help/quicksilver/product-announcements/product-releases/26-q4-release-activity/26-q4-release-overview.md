@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3631'
 ht-degree: 1%
 ---
 # 2026年第四季度发行版概述
@@ -276,7 +276,7 @@ ht-degree: 1%
 -->        
        <tr>
             <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP服务器工具集</a></p>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP服务器工具集</a></p>
                 <p>您现在可以将Workfront MCP目录限制为特定工具集，并按产品权利筛选可用性，以便AI客户端仅访问所需的功能。</p>
             </td>
             <td><p>2026年10月22日</p></td>
@@ -406,15 +406,6 @@ ht-degree: 1%
             <td><p>此功能在预览Sandbox环境中不可用，因为Frame.io集成在那里不可用。</p></td>
             <td><p>2026年10月15日</p></td>
             <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">访问Adobe Creative Cloud应用程序中的Workfront项目</a>
-                <p>您现在可以使用项目面板直接从Adobe Photoshop、Illustrator和InDesign访问Workfront项目。</p>
-            </td>
-            <td><p>不适用</p></td>
-            <td><p>[日期]</p></td>
-            <td><p>[日期]</p></td>
         </tr>
         <tr>
             <td>
@@ -792,7 +783,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">非管理员现在可以创建事件订阅<p>[!BADGE Off Schedule]{type=Neutral}</p></a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">非管理员现在可以创建事件订阅<p>[!BADGE Off Schedule]{type=Neutral}</p></a>
                 <p>用户现在可以使用目标订阅和IMS用户访问令牌接收受支持Workfront对象的webhook通知，而无需系统管理员访问权限。</p>
             </td>
             <td><p>2026年10月16日</p></td>
