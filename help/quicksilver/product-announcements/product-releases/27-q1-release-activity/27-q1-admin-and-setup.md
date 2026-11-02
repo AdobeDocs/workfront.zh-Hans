@@ -4,9 +4,9 @@ description: 2027年第一季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '413'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 本页介绍了管理员在2027年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
 
 ## 删除附加自定义表单的权限
 
@@ -39,6 +39,20 @@ ht-degree: 0%
 现在，您可以在字段列表或自定义表单设计器中将自定义字段标记为收藏。 当您使用某些列表和报告（例如项目、任务和问题列表）并构建过滤器、视图和分组时，收藏字段显示在建议部分中可用字段列表的顶部。
 
 标记为收藏夹的字段也会显示在表单设计器中的字段库顶部。
+
+有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+## 更改格式时在自定义字段上验证的值
+
+>[!NOTE]
+>
+>预览： 2026年10月29日
+>生产快速发布： 2026年11月12日
+>适用于所有人的生产： 2027年1月21日
+
+现在，当您将现有文本自定义字段格式更改为数字或货币时，系统会检查是否存在不兼容的值。
+
+如果该字段的现有值全部为数字，则系统只是更新字段格式。 但是，如果任何现有值为非数字，系统会显示一条警告消息，指出保存字段时将清除不兼容的值。
 
 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
