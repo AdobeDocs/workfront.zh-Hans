@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 2%
@@ -64,7 +64,9 @@ ht-degree: 2%
 * [自定义数据对象](#custom-data-objects)
 * [组织对象](#organization-objects)
 * [其他配置对象](#other-configuration-objects)
-
+<!--
+* [Workfront Planning objects](#workfront-planning-objects)
+-->
 
 ### 工作对象
 
@@ -137,6 +139,22 @@ ht-degree: 2%
 
 -->
 
+<!--
+## Workfront Planning objects
+
+>[!IMPORTANT]
+>
+>Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+
+| Promotable object | Included promotable linked objects |
+| --- | --- |
+| Workspaces | Workspace sections |
+| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
+| Sharing for all objects |  |
+| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
+-->
+
+
 ## 环境提升状态
 
 环境升级包在创建并准备在环境之间移动时经历多个状态。 您可以在Workfront中的包列表中看到这些状态，如果您使用Workfront API，也可以在API响应中看到这些状态。
@@ -173,7 +191,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
+   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
   </tr> 
   </tbody> 
 </table>
