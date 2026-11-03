@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: '8209'
+source-wordcount: '8244'
 ht-degree: 1%
 ---
 # 编辑项目
@@ -454,10 +454,10 @@ Old:
     <tbody> 
      <tr>
       <td><strong>使用系统中的生效日期汇率</strong></td>
-      <td><p>选择此选项时，将始终使用系统级别的有效日期汇率，并且不允许对项目进行汇率覆盖。</p><p>有关汇率的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。 </p></td> 
+      <td><p>选择此选项可始终使用系统级别的日期有效汇率并防止项目上的汇率覆盖。</p><p>有关汇率的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。 </p></td> 
      </tr>
      <tr><td><strong>汇率日期</strong></td>
-     <td><p>如果选择使用系统中的日期有效汇率，则必须选择一个日期。 此日期用于定义计划成本和收入的汇率。</p><p>对于实际成本和收入，使用记录小时数的日期的汇率。</p></td>
+     <td><p>如果选择从系统中使用日期有效汇率的选项，则还必须选择日期。 此日期用于定义计划成本和收入的汇率。</p><p>例如，如果汇率日期是2月12日，Workfront会使用2月12日的系统级别汇率进行计划成本和收入币种转换，即使计划工作在其他日期发生。</p><p>对于实际成本和收入，使用记录小时数的日期的汇率。</p></td>
      </tr>
      <tr>
       <td><strong>保留项目计费率信息</strong></td>
@@ -844,7 +844,7 @@ Old:
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -887,15 +887,15 @@ Old:
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
 有关编辑“财务”区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
 有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。
