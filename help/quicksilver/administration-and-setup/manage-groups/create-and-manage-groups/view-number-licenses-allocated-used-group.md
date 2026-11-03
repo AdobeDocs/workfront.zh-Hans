@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cb0f538ff392ebff585fbdeeba3729d9b2247292
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '476'
+ht-degree: 3%
 ---
 # 查看组中已分配和使用许可证的数量
 
@@ -72,11 +72,16 @@ ht-degree: 4%
 1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
 1. 单击组的名称。
-1. 在显示的页面上，在右上角附近的标题区域中，查看&#x200B;**个正在使用的许可证**&#x200B;区域，以查看当前正在使用的&#x200B;**计划**&#x200B;和&#x200B;**工作**&#x200B;许可证的数量。
+1. 在显示的页面上，在右上角附近的标题区域中，查看&#x200B;**正在使用的许可证**&#x200B;区域，以查看当前正在使用的许可证数量。
 
-   如果您查看的是顶级组，而Workfront管理员为组定义了每种许可证类型的最大数量，则也会显示这些数量。 例如，在以下组中，最多10个用户可以拥有计划许可证，15个用户可以拥有工作许可证：
+   根据您的Workfront包，许可证可能为：
 
-   ![已分配的许可证](assets/licenses-used-allocated.png)
+   * **标准**&#x200B;和&#x200B;**浅**
+   * **计划**&#x200B;和&#x200B;**工作**
+
+   ![已分配的许可证](assets/how-many-licenses-standard-light.png)
+
+   如果您查看的是顶级组，而Workfront管理员为组定义了每种许可证类型的最大数量，则这些数量也显示为比率。 例如，2/10表示已分配10个可用许可证中的2个许可证。
 
    有关Workfront管理员如何为组定义分配许可证的最大数量的信息，请参阅[管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)一文中的[设置主组许可证的最大数量](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)部分。
 
@@ -84,15 +89,14 @@ ht-degree: 4%
    >
    >如果您正在查看的组是子组，则只能查看正在使用的许可证数量，而不能查看为该组分配的最大许可证数量。 这是因为Workfront管理员没有为子组定义许可证最大计数。
    >
-   >![在子组](assets/subgroup-used-licenses-only.png)中使用了许可证
-   >
 
-1. 要单独清点组内当前使用的每种许可证类型（包括审阅和请求），请单击&#x200B;**正在使用的许可证正下方的文本区域：**
+1. 对于组中当前使用的每种许可证类型（包括审阅和请求）的单独计数，请单击显示使用中许可证的区域。
 
-   ![单击以查看更多](assets/click-text-to-see-more.png)
+   显示的框为所有适用的Workfront许可证类型提供了相同的信息。 根据您的Workfront包，这可能是：
 
-   显示的框为所有四种Workfront许可证类型提供了相同的信息：计划、工作、审阅和请求。 在框底部，您可以看到此组或其某个子组的成员正在使用的许可证总数：
+   * 标准、轻、贡献者和外部
+   * 计划、工作、审查和请求
 
-   ![更多许可证信息](assets/more-license-info.png)
+   在框底部，您可以看到此组或其某个子组的成员正在使用的许可证总数。
 
    对于“查看和请求”许可证，“最大值”列始终显示“无限制”。
