@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 1%
+source-wordcount: '552'
+ht-degree: 3%
 ---
 # 配置用户的验证访问权限
 
@@ -70,61 +70,65 @@ ht-degree: 1%
 
 +++
 
-## 配置用户的校对权限配置文件
+<!--
 
-您选择的权限配置文件将授予用户用于您组织内存在的每个证明。
+## Configure a user's proof permission profile
+
+The permission profile you select is granted to the users for each proof that exists within your organization.
 
 {{step-1-to-users}}
+ 
+1. Select one or more users, then click **Edit**.  
 
-1. 选择一个或多个用户，然后单击&#x200B;**编辑**。
-
-1. 在&#x200B;**访问**&#x200B;部分中，单击&#x200B;**校对权限配置文件**&#x200B;下拉菜单中的以下Workfront Proof权限选项之一：
+1. In the **Access** section, click one of the following Workfront Proof permission options in the **Proof Permission Profile** drop-down menu:
 
    >[!NOTE]
    >
-   >如果您使用的是旧版Workfront计划，请确保已启用&#x200B;**用户可生成验证**&#x200B;选项，如上文[为用户启用和禁用验证（仅限旧版计划）](#enable-and-disable-proofing-for-a-user-legacy-plans-only)部分中所述。
+   >If you are on a legacy Workfront plan, make sure the **User can generate proofs** option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only). 
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>主管</strong> </td> 
-      <td>用户可以管理和查看在您组织的帐户中创建的所有验证。 他们还可以编辑添加到这些校样的审阅人。 具有此权限配置文件的用户无法管理用户或编辑Workfront Proof设置。</td> 
+      <td role="rowheader"><strong>Supervisor</strong> </td> 
+      <td>Users can manage and view all proofs created on your organization's account. They can also edit reviewers added to these proofs. Users with this permission profile can't manage users or edit Workfront Proof settings.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>经理</strong> </td> 
-      <td> <p> 用户可以管理和查看在您组织的帐户中创建或拥有的验证。 他们只能在添加为审阅者时查看其他用户的验证。 这是默认设置。 </p> </td> 
+      <td role="rowheader"><strong>Manager</strong> </td> 
+      <td> <p> Users can manage and view proofs created or owned on your organization's account. They can view other users' proofs only when added as a reviewer. This is a default setting. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>管理员</strong> </td> 
-      <td> 用户在Workfront Proof中拥有管理员权限，可以编辑帐户设置。 用户可以管理和查看在您组织的帐户中创建的所有验证。 这包括添加和删除审阅人、验证和注释。</td> 
+      <td role="rowheader"><strong>Administrator</strong> </td> 
+      <td> Users are given Administrator permissions in Workfront Proof and can edit account settings. Users can manage and view all proofs created on your organization's account. This includes adding and removing reviewers, proofs, and comments.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>自定义</strong> </td> 
-      <td> <p>仅当您在Workfront Proof中配置了自定义权限配置文件时可用。</p> <p><b>注释</b>：  <p>请确保您在此处授予的权限配置文件所提供的访问权限不会高于Workfront中用户的访问级别设置（请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>）。 如果它提供了更高的访问权限，则用户可以访问Workfront Proof中他或她无法在Workfront中访问的验证。</p> <p>如果您计划允许所有Workfront用户直接从Workfront访问Workfront Proof，这一点尤其重要，如<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">从Adobe Workfront访问Workfront Proof</a>中所述。</p> <p>默认情况下，只有Workfront管理员有权从Workfront全局导航栏访问指向Workfront Proof站点的直接链接。</p> </p> </td> 
+      <td role="rowheader"><strong>Custom</strong> </td> 
+      <td> <p>Available only if you have configured a custom permission profile within Workfront Proof.</p> <p><b>NOTE</b>:  <p>Ensure that the permission profile you grant here does not provide higher access than the user's Access Level setting in Workfront (see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher access, the user can access proofs within Workfront Proof that he or she cannot access within Workfront.</p> <p>This is especially important if you plan to allow all Workfront users to access Workfront Proof directly from the Workfront as described in <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> <p>By default, only Workfront administrators have access to a direct link to the Workfront Proof site from the Workfront Global Navigation Bar.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   您选择的权限配置文件将授予用户用于您组织内存在的每个证明。
+   The permission profile you select is granted to the users for each proof that exists within your organization.
 
-1. 单击&#x200B;**保存更改**&#x200B;以完成用户设置的更新。
+1. Click **Save Changes** to complete the update to the user settings.
 
    >[!NOTE]
    >
-   >当您在Workfront中创建或更新用户，并且该用户的Workfront电子邮件地址与许可的Workfront Proof用户的电子邮件地址匹配时，系统会在Workfront中为用户启用验证。 有关详细信息，请参阅[Adobe Workfront与Workfront Proof之间的用户同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
+   >When you create or update a user in Workfront and the user's Workfront email address matches that of a licensed Workfront Proof user, the system enables proofing for the user within Workfront. For more information, see [User synchronization between Adobe Workfront and Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
-### 注意事项
+### Considerations
 
-设置权限时，请考虑以下信息：
+Consider the following information when setting permissions:
 
-* 如果将用户的权限配置文件更改为权限较少的配置文件，则该用户可能会失去对Workfront中现有验证的可见性。 当有人在Workfront中与用户共享任务，但未共享附加到任务的验证时，可能会发生这种情况（请参阅[在Adobe Workfront中共享验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)，在Adobe Workfront中共享验证[）。](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-* 仅当您的Workfront Proof环境与Workfront Premium帐户集成时，才能从Workfront Proof设置Workfront权限。 如果您无法使用本节中讨论的验证，请与Workfront管理员联系。
-* Workfront环境中必须至少有一位用户具有验证的“管理员”权限。 如果您尝试从所有用户中删除校对的管理员权限，则会显示一条错误消息。
-* 当您将用户的Workfront访问级别更改为系统管理员以外的任何级别时，用户的Workfront Proof权限配置文件默认为经理。
+* If you change a user's permission profile to a profile with fewer permissions, the user might lose visibility to existing proofs within Workfront. This can occur when someone shares a task with a user within Workfront, but doesn't share the proof attached to the task (see [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
+* You can set Workfront Proof permissions from Workfront only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed in this section, contact your Workfront administrator.
+* At least one user in your Workfront environment must have Administrator permissions for proofing. An error message appears if you try to attempt to remove Administrator permissions for proofing from all users.
+* When you change a user's Workfront Access level to any level other than System Administrator, the user's Workfront Proof permission profile defaults to Manager.   
 
-* 当您将Workfront访问级别更改为系统管理员时，验证权限配置文件更改为管理员。
+* When you change the Workfront Access level to System Administrator, the Proof Permission profile changes to Administrator.
+
+-->
 
 ## 通过Workfront主菜单为所有用户配置Workfront Proof访问权限 {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 
