@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 您可以使用“环境提升”功能将Workfront Planning工作区、记录类型、字段和视图从一个Workfront环境复制到另一个环境。
 
@@ -46,7 +46,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
   * 视图
   * 层级
   * 共享所有对象的设置
-  * 自动化
+  * 自动化<!--this might not be part of it; Lilit is checking-->
   * 请求表单
   * 业务规则
   * 连接的对象
@@ -138,7 +138,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 1. 单击&#x200B;**保存并汇编**。
 
    Workfront将组合包，并在包的&#x200B;**更新**&#x200B;选项卡上添加一个条目。 您可以查看包在“内容”选项卡上包含的内容。
-1. （有条件，可选）如果要稍后完成，请单击“保存”并关闭&#x200B;**&#x200B;**。
+1. （有条件，可选）如果要稍后完成，请单击“保存”并关闭&#x200B;****。
 1. （可选）单击&#x200B;**内容**&#x200B;以查看包的内容，或单击&#x200B;**部署**&#x200B;以查看是否已多次部署此包。
 
    继续使包准备好安装。

@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 2%
@@ -140,6 +140,10 @@ ht-degree: 2%
 -->
 
 <!--
+
+**** Automations might not be part of this
+**** Planning STA might not be supported - Lilit is checking on this
+
 ## Workfront Planning objects
 
 >[!IMPORTANT]
@@ -191,7 +195,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
+   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
   </tr> 
   </tbody> 
 </table>
