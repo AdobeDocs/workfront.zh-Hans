@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: 7995
+source-wordcount: '8209'
 ht-degree: 1%
-
 ---
-
 # 编辑项目
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Old:
 * 仅当您的Workfront管理员或组管理员在“项目首选项”区域中启用了此功能时，您才可以将文档或模板附加到状态为“完成”、“废弃”或“未决批准”的项目。 有关设置项目首选项的信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 * 您只能编辑有关处于非活动状态或完成状态的项目的以下信息：
 
-   * 修改现有费用。
-   * 添加、删除或编辑自定义表单。
+  * 修改现有费用。
+  * 添加、删除或编辑自定义表单。
 
 ## 编辑项目
 
@@ -294,7 +292,7 @@ Old:
       </tr> 
       <tr> 
          <td role="rowheader"><strong>计划模式</strong> </td> 
-         <td> <p>指定是从开始日期还是从完成日期开始计划项目。此选择确定项目上任务的计划日期。 
+         <td> <p>指定是从开始日期还是从完成日期开始计划项目。 此选择确定项目上任务的计划日期。 
          <ul> 
          <li><strong>开始日期</strong>：默认情况下，项目的第一个任务的计划开始日期与项目相同。 有关任务计划开始日期的信息，请参阅<a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概览</a>。 项目时间线从开始日期开始计算，项目完成日期由系统根据所有任务的持续时间来计算。 </li> 
          <li><strong>完成日期</strong>：项目的最后一个任务的计划完成日期与项目相同。 项目时间线从完成日期开始计算，项目开始日期由系统计算，从项目完成日期减去所有任务的持续时间。 </li> 
@@ -310,7 +308,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>项目组合</strong></td> 
-      <td>指示项目所属的Portfolio。必须先创建Portfolio，然后它才会显示在下拉列表中。只有活动项目组合可以与项目关联。有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
+      <td>指示项目所属的Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
       <p><b>注释</b></p>
       <ul>
       <li>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</li>
@@ -456,7 +454,10 @@ Old:
     <tbody> 
      <tr>
       <td><strong>使用系统中的生效日期汇率</strong></td>
-      <td><p>选择此选项时，将始终使用系统级别的有效日期汇率，并且不允许对项目进行汇率覆盖。</p> <p>如果选择该选项，您还必须选择要开始的<strong>汇率日期</strong>。</p></td> 
+      <td><p>选择此选项时，将始终使用系统级别的有效日期汇率，并且不允许对项目进行汇率覆盖。</p><p>有关汇率的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。 </p></td> 
+     </tr>
+     <tr><td><strong>汇率日期</strong></td>
+     <td><p>如果选择使用系统中的日期有效汇率，则必须选择一个日期。 此日期用于定义计划成本和收入的汇率。</p><p>对于实际成本和收入，使用记录小时数的日期的汇率。</p></td>
      </tr>
      <tr>
       <td><strong>保留项目计费率信息</strong></td>
@@ -526,7 +527,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>完成模式</strong> </td> 
-      <td> <p>控制如何将项目标记为完成。从以下选项中选择： 
+      <td> <p>控制如何将项目标记为完成。 从以下选项中选择： 
        <ul> 
        <li><p><strong>自动</strong>：在所有任务和问题都完成时，项目被标记为“完成”。</p><p>只有在任务完成时项目状态为当前时，项目状态才会自动更改为完成。 </p></li> 
        <li><strong>手动</strong>：当所有任务和问题都完成时，您必须手动选择项目的“完成”状态。</li> 
@@ -534,7 +535,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong></td> 
-       <td> <p>控制如何将父级任务标记为“完成”。从以下选项中选择： 
+       <td> <p>控制如何将父级任务标记为“完成”。 从以下选项中选择： 
        <ul> 
        <li><strong>自动</strong>：父任务标记为“完成”，当子任务完成且子任务的完成百分比更新时，父任务会自动更新其完成百分比。 </li> 
        <li><strong>手动</strong>：您必须手动更新父任务的完成百分比和状态，而不考虑对子任务所做的更改。 这样，即使子任务不完整，您也可以将父任务标记为已完成。 </li> 
@@ -542,7 +543,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>更新类型</strong></td> 
-       <td> <p>控制将对项目时间线所做的更改保存在项目或父任务中的时间。例如，对项目的以下更改会触发对项目时间线的更新： 
+       <td> <p>控制将对项目时间线所做的更改保存在项目或父任务中的时间。 例如，对项目的以下更改会触发对项目时间线的更新： 
        <ul> 
        <li>更新任务日期</li> 
        <li>更改任务的前置任务关系</li> 
@@ -813,17 +814,17 @@ Old:
 
 * 除了“多个值”指示符之外，如果所选项目中至少一个项目的选项不同，则具有多个选项的字段会以下列方式之一显示：
 
-   * 复选框字段有一行，而不是针对某些已选中但未选中所有选定项目的选项的复选框。
+  * 复选框字段有一行，而不是针对某些已选中但未选中所有选定项目的选项的复选框。
 
-     批量编辑项目框中的![多个值指示符复选框](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    批量编辑项目框中的![多个值指示符复选框](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * 切换类型字段显示灰显，中间为针对某些项目启用的选项进行切换，但并非针对所有选定项目启用该选项。
+  * 切换类型字段显示灰显，中间为针对某些项目启用的选项进行切换，但并非针对所有选定项目启用该选项。
 
   ![批量编辑项目中高亮显示的多个值](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * 如果单选按钮类型的字段已选定某些选项，但并非全部选定，则会将所有单选按钮显示为空白。
+  * 如果单选按钮类型的字段已选定某些选项，但并非全部选定，则会将所有单选按钮显示为空白。
 
-     ![多个值指示器单选按钮批量编辑项目框](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![多个值指示器单选按钮批量编辑项目框](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 在多选项字段（例如显示为一组切换或复选框的字段）中更新一个选项时，所选项目之间的所有其他选项必须匹配。
 
@@ -843,7 +844,7 @@ Old:
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -886,15 +887,15 @@ Old:
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
-有关编辑财务区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
+有关编辑“财务”区域的详细信息，请参阅本文中的[财务](#finance)部分。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
-有关编辑“问题设置”区域的更多信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
+有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。

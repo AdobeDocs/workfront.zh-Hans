@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 4%
+source-wordcount: '938'
+ht-degree: 3%
 ---
 # 设置汇率
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 作为Adobe Workfront管理员，您可以在Workfront中设置货币汇率。 这包括以下内容：
 
@@ -109,6 +110,14 @@ ht-degree: 4%
 ## 设置货币汇率的有效日期
 
 配置货币汇率的有效日期，以便汇率值在特定日期结束，而另一个汇率开始。 然后，在财务计算中使用正确日期的汇率。
+
+>[!NOTE]
+>
+>配置生效日期汇率定义特定日期适用的系统汇率。 这并不意味着所有项目财务计算每天都使用不同的汇率。
+>
+>为项目启用&#x200B;**使用系统**&#x200B;中的生效日期汇率设置时，计划成本和收入使用在项目的&#x200B;**汇率日期**&#x200B;生效的系统汇率。 它们不会自动使用每日计划工作的有效率。
+>
+>有关将项目设置为使用系统级别日期有效汇率的信息，请参阅[编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance)。
 
 {{step-1-to-setup}}
 
