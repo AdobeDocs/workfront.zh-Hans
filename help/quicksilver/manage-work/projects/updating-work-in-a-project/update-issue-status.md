@@ -158,7 +158,7 @@ ALSO: see in the steps below for more commented out text.
 
    在问题标题中的气泡内单击以输入百分比。
 
-   在标题](assets/nwe-updatetaskpercentinheader-350x54.png)中![更新任务完成百分比
+   在标题![&#128279;](assets/nwe-updatetaskpercentinheader-350x54.png)中更新任务完成百分比
 
 1. （可选）执行以下任一操作以提供有关更新的其他信息：
 
