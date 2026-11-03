@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 3%
 ---
 
@@ -61,6 +61,15 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">将自定义字段标记为收藏</a></p>
                 <p>现在，您可以将自定义字段标记为收藏，以便在构建筛选器、视图和分组时显示在可用字段的顶部，并显示在表单设计器字段库中。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">更改格式时在自定义字段上验证的值</a></p>
+                <p>现在，当您将现有文本自定义字段格式更改为数字或货币时，系统会检查是否存在不兼容的值。</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年11月12日</p></td>
