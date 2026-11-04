@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1776'
 ht-degree: 1%
 ---
 
@@ -122,7 +122,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -138,27 +138,36 @@ Or
 
 您可以创建摘要以创建或编辑Planning记录，或者创建可导出到其他应用程序的文件。
 
-1. 使用Planning登录（Co-worker已打开），并执行以下操作之一：
+1. 使用已启用同事的Planning登录Workfront，并执行以下操作之一以首次打开构思空间以创建摘要：
 
-   * 转到&#x200B;**主菜单** > **构思空间**
-   * 转到&#x200B;**主菜单** > **规划** >单击工作区>单击记录类型> **新记录** > **开始创意空间**
-
-     有关使用构思空间创建记录的详细信息，请参阅[从构思空间简述创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
-   * 转到&#x200B;**主菜单** > **规划** >单击工作区>单击记录类型>单击现有记录> **在创意空间中打开**
+   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **创意空间**
+   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型> **新记录** > **开始创意空间**
 
    构思空间打开，新构思的标题默认遵循以下格式：
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   如果从现有记录中打开构思，则构思名称与记录的名称匹配。
+   有关使用构思空间创建记录的详细信息，请参阅[从构思空间简述创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
 
-1. （推荐）单击构思的名称以更改名称。
+1. （视情况而定）要在Ideation space中打开现有的摘要，请在打开Co-worker的情况下使用Planning登录Workfront，然后执行以下操作之一：
+
+   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型>单击现有记录> **在创意空间中打开**
+
+     构思名称与记录的名称匹配。
+
+1. （推荐）如果首次打开构思，请单击构思名称以更改名称。
 
 1. （有条件，可选）要打开另一个现有的构思空间，请单击构思名称右侧的下拉菜单，按名称搜索构思，然后在构思显示在列表中时单击该构思。
 
-1. 当&#x200B;**构思空间**&#x200B;打开时，CX Coworker会在右侧打开。 使用Co-worker提示符描述要创建的简介类型。
+   **构思空间**&#x200B;打开，CX Coworker在右侧打开。
+1. 使用Co-worker提示符描述要创建的简介类型。
 
    例如，键入“Create a back-to-school campaign for K-12 student to run through the month of 8月，for parents and teachers in the US”。  要使简报尽可能完整，请尽可能指明可用于何种营销活动、时间表、利益相关者、批准检查点和其他详细信息的信息。
+1. （可选）单击Co-worker提示框中的&#x200B;**+**&#x200B;图标，并按以下方式附加信息：
+
+   * **命令**：使用列表中的命令提示同事输入内容。
+   * **附加文件**：将文件附加到提示框以将它或它的信息添加到构思空间。 您必须要求同事根据文件创建信息卡，以便稍后将信息卡发送到简报。
+   * **引用对象**：从列表中选择对象以在您的构思中引用它。 对象必须存在于Workfront中。
 
 1. 单击Enter。
 
@@ -171,6 +180,11 @@ Or
 1. （视情况而定）当同事为创意内容创建卡片时，回答&#x200B;**是**。
 
    信息卡会添加到创意空间，您可以查看每个信息卡的来源并决定要将哪个信息卡添加到您的摘要。
+
+   >[!TIP]
+   >
+   >不能直接将文件添加到摘要。 您必须先将文件信息传输到可发送给简介的卡片上。
+
 
 1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以搜索构思空间中的项目，然后单击该图标在列表中显示时导航到它。
 
