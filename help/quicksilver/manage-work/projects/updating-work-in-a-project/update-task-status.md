@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 4%
-
 ---
-
 # 更新任务状态
 
 <!--Audited: 10/2024-->
@@ -112,10 +110,19 @@ Old:
 
 * 将任务标记为“完成”时，任务的完成百分比将更新为100%。
 * 父任务存在以下方案：
-   * 当项目的“摘要完成模式”设置为“自动”且子任务未完成时，不能将父任务的状态更新为“完成”。
-   * 当项目的“摘要完成模式”设置为“手动”并且子任务已完成或未完成时，您可以将父任务的状态更新为“完成”。
+  * 当项目的“摘要完成模式”设置为“自动”且子任务未完成时，不能将父任务的状态更新为“完成”。
+  * 当项目的“摘要完成模式”设置为“手动”并且子任务已完成或未完成时，您可以将父任务的状态更新为“完成”。
 
   有关详细信息，请参阅[编辑项目](../manage-projects/edit-projects.md)。
+
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
 
 ## 手动更新任务状态
 
@@ -152,6 +159,12 @@ Old:
    >[!IMPORTANT]
    >
    >  只有任务被分配者才能更新提交日期。
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 old functionality in old commenting: 

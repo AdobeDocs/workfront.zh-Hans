@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 6%
-
 ---
-
 # 更新问题状态
 
 <!--Audited: 01/2024-->
@@ -126,6 +124,18 @@ Adobe Workfront管理员可以为您的组织添加问题的自定义状态。 �
 * [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [创建问题](../../../manage-work/issues/manage-issues/create-issues.md)
 
+<!--
+
+>[!NOTE]
+>
+>If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
+
+
 您可以手动更新问题状态，也可以让Workfront在某些操作发生时自动更新问题。
 
 ## 手动更新问题状态
@@ -164,7 +174,11 @@ Adobe Workfront管理员可以为您的组织添加问题的自定义状态。 �
    >
    >  只有问题被分配者才能更新提交日期。
 
+<!--
+1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
 
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 Old instructions, in old commenting: 

@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 0%
 ---
 
@@ -52,8 +52,8 @@ Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workf
 创意空间的计划发布时间表可能会发生更改，其中包括以下里程碑：
 
 * 面向少量客户的&#x200B;**已关闭的Beta：**&#x200B;已于2026年7月推出。
-* **打开Beta：**，目标日期为2026年11月。 这将是一种选择加入服务，客户必须主动打开并配置该选项，而不是主动选择退出。
-* **正式发布：**&#x200B;目标为2027年。
+* **打开Beta：**，目标日期为2026年11月12日。 这是一项选择加入服务，您必须主动打开该选项，而不是主动选择退出该服务。
+* **正式发布：**&#x200B;计划于2027年2月1日发布。
 
 ## 产品要求
 

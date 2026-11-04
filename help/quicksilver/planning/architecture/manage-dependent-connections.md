@@ -17,7 +17,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 1%
@@ -141,6 +141,10 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * 为使依赖关系链正常工作，所有依赖字段必须同时存在于同一记录类型中。
 
 * 已连接的记录字段显示的所有区域（包括记录或请求表单的详细信息区域）都支持依赖字段。
+
+<!--
+* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
+-->
 
 ## 创建从属连接
 
