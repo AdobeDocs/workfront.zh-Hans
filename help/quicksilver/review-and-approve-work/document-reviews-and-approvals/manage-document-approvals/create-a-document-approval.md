@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 1%
 ---
 # 创建文档审批工作流
@@ -206,6 +206,10 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 ## 在新建文档区域创建审批工作流
 
 如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+>[!NOTE]
+>
+>审批者或审阅者必须具有包含与其共享的文档的项目，否则审批将不会显示在其“我的审批”小部件中。
 
 默认情况下，**请求审批**&#x200B;对话框以&#x200B;**基本**&#x200B;模式打开。 基本模式是一个包含一组批准者或审阅者的阶段。 切换到&#x200B;**高级**&#x200B;模式以配置多阶段审批或并行路径。
 
