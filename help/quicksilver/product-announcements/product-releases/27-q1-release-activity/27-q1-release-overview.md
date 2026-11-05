@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1168'
 ht-degree: 3%
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">更改历史记录现在跟踪画布功能板对象</a></p>
                 <p>更改历史记录现在记录创建、更新或删除画布功能板或报表的人员、更改时间和更改内容。</p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
@@ -134,6 +134,28 @@ ht-degree: 3%
 <!--
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Consistent review and approval buttons across documents</a></p>
+                <p>Review and approval buttons now look and work the same everywhere you review documents, and some buttons have new names.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->     
+<!--   
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Turn the Approved with changes decision on or off</a></p>
+                <p>System Administrators can now turn the "Approved with changes" decision on or off for document approvals.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
             </td>
@@ -147,7 +169,7 @@ ht-degree: 3%
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">配置统一的审核和批准电子邮件通知</a></p>
                 <p>您现在可以配置18个统一的审核和批准电子邮件通知，并且其主题行会稍有变化。</p>
             </td>
-            <td> <p>此功能在预览环境中暂时不可用。</p></td>
+            <td> <p>11月5日。</p></td>
             <td><p>2026年11月12日</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
@@ -194,6 +216,16 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">不可用状态指南</a></p>
+                <p>当保存的问题、任务或项目状态不可用时，现在会出现一条警告，说明原因并显示保存的状态代码。</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+            </td>
+            <td><p>2026年11月4</p></td>
+            <td><p>2026年11月4</p></td>
+            <td><p>2026年11月4</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">将线程固定到更新顶部</a></p>
                 <p>您现在可以将最重要的线程固定到项目、任务、问题或请求的更新区域顶部，以便关键信息对团队可见。</p>
             </td>
@@ -215,6 +247,17 @@ ht-degree: 3%
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Enhanced list button and icon improvements</a></p>
+                <p>Button text and icons in all enhanced lists now match for a more consistent interface across Workfront.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">在增强列表中查看记录总数</a></p>
@@ -300,7 +343,7 @@ ht-degree: 3%
 
 * 将基础框架(Electron)更新到在Chrome版本156上运行的最新版本，以提高性能和安全性。
 
-有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
 
@@ -312,14 +355,14 @@ ht-degree: 3%
 
 作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 要管理和审查工作角色费率，请使用专门的费率管理体验：
 
@@ -334,10 +377,10 @@ ht-degree: 3%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

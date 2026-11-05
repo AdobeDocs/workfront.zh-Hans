@@ -4,9 +4,9 @@ description: 2027年第一季度项目增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b15349a7451b15009bce3902d874a97de1e6021a
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '251'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,20 @@ ht-degree: 0%
 
 本页介绍了在2027年第一季度发布中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+## 不可用状态指南
+
+>[!NOTE]
+>
+>预览： 2026年11月4日
+>生产快速发布： 2026年11月4日
+>适用于所有人的生产： 2026年11月4日
+>[!BADGE 超出计划]{type=Neutral}
+
+当保存的问题、任务或项目状态不可用于当前对象时，现在会出现一条警告，说明原因并显示保存的状态代码。 “不可用”显示为仅显示文本，而不是替换状态。 具有对象管理权限的用户可以选择其他状态。 管理员可以创建其他状态。
+
+有关详细信息，请参阅[更新问题状态](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-issue-status.md)。 更新项目和任务状态与更新问题状态类似。
 
 ## 将重要线程固定到更新顶部
 

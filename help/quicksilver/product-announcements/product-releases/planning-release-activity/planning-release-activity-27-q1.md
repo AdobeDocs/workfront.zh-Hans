@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1289'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度发布活动
@@ -28,6 +28,18 @@ ht-degree: 0%
 本文介绍了在2027年第一季度发行的Workfront Planning功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 改进了提交请求时依赖字段中的冲突检测
+
+>[!NOTE]
+>
+>预览： 2026年11月5日
+>生产快速发布： 2026年12月17日
+>适用于所有人的生产： 2027年1月21日
+
+当您提交相关连接字段存在相关性冲突的请求时，系统会显示错误并阻止您提交请求，直到冲突得到解决为止。 当您查看和编辑请求时，尚未批准的请求还会显示由于以后更改规则设置中的依赖字段而导致的任何冲突。
+
+有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 在表格视图中更好地显示快速搜索查找结果
 
