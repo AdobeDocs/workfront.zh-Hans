@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
+source-git-commit: f1e77f9f6d479fe4317dbe2195fede0c4635757e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '570'
 ht-degree: 3%
 ---
 # 安装桌面校对查看器
@@ -78,8 +78,8 @@ ht-degree: 3%
 
 1. 执行以下操作之一以下载应用程序：
 
-   * 如果您正在使用生产环境，请单击桌面验证查看器的[Mac生产下载。](https://app.proofhq.com/desktopviewer/mac)
-   * 如果您使用的是“预览”环境，请单击桌面验证查看器的[Mac预览下载。](https://app.preview.proofhq.com/desktopviewer/mac)
+   * 如果您正在使用生产环境，请单击“桌面校对查看器”的“生产下载”[。](https://us.my.workfront.com/proof/desktopviewer)
+   * 如果您使用的是“预览”环境，请单击“桌面校对查看器”的“预览下载”[。](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 打开您刚刚下载的文件以开始安装。
 1. 在出现的安装框中，单击“**继续**”，然后单击“**安装**”。
@@ -102,8 +102,8 @@ ht-degree: 3%
 
 1. 执行以下操作之一以下载应用程序：
 
-   * 在生产环境中，单击桌面校对查看器的[Windows生产下载。](https://app.proofhq.com/desktopviewer/windows)
-   * 在“预览”环境中，单击桌面验证查看器的[Windows预览下载](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
+* 如果您正在使用生产环境，请单击“桌面校对查看器”的“生产下载”[。](https://us.my.workfront.com/proof/desktopviewer)
+* 如果您使用的是“预览”环境，请单击“桌面校对查看器”的“预览下载”[。](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 打开您刚刚下载的文件以开始安装。
 1. 在出现的安装框中，打开刚刚下载的文件以开始安装。

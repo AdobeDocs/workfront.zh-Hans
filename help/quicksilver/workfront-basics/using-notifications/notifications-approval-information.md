@@ -5,10 +5,6 @@ title: 通知：审批信息
 description: 以下通知提醒您有关您参与的工作项中发生的批准活动。 有关配置您收到的通知的信息，请参阅修改您自己的电子邮件通知。
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 0%
 ---
 # 通知：审批信息
@@ -29,8 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些通知仅适用于旧文档审批。 统一文档审批的通知控件当前不可用。
-
+>这些通知仅适用于旧文档审批。 有关统一审批通知，请参阅[通知：统一审批](notifications-unified-approvals.md)。
 
 另请参阅[事件通知](../../workfront-basics/using-notifications/event-notifications.md)。
 
@@ -78,3 +73,4 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+

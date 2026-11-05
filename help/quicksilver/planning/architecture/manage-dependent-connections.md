@@ -17,19 +17,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 1%
 ---
 
 # 管理从属连接
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -142,9 +141,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * 已连接的记录字段显示的所有区域（包括记录或请求表单的详细信息区域）都支持依赖字段。
 
-<!--
-* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
--->
+* <span class="preview">当请求表单或已提交请求的相关字段的选定值存在冲突时，您必须先解决该冲突，然后才能保存表单或请求。</span>
+
 
 ## 创建从属连接
 
