@@ -16,7 +16,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
@@ -49,9 +49,9 @@ ht-degree: 8%
 
 ## 实体关系图
 
-Workfront中的对象（因此也就是Data Connect数据湖中的对象）不仅由其各个值定义，而且由其与其他对象的关系定义。
+Workfront中的对象（因此，也就是Data Connect数据湖中的对象）不仅由各自的值定义，还由它们与其他对象的关系定义。
 
-下面的实体关系图(ERD)为核心Workfront对象提供了数据连接中对象关系的高级映射。
+下面的实体关系图(ERD)为核心Workfront对象提供了Data Connect中对象关系的高级映射。
 
 >[!IMPORTANT]
 >
@@ -112,11 +112,11 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 
 ## Workfront术语表和说明
 
-下表将Workfront中的对象名称（以及它们在接口和API中的名称）与Data Connect中的等效名称相关联，并包含每个对象与其他Workfront对象的参考字段。
+下表将Workfront中的对象名称（以及它们在接口和API中的名称）与Data Connect中的等效名称相关联，并包含每个对象与其他Workfront对象的引用字段。
 
 >[!NOTE]
 >
->可以将新字段添加到对象视图，而无需提前通知，以支持Workfront应用程序不断演变的数据需求。 如果下游数据收件人未准备好在添加列时处理其他列，我们建议不要使用“SELECT”查询。<br>
+>可以将新字段添加到对象视图，而无需提前通知，以支持Workfront应用程序不断演变的数据需求。 我们警告不要使用“SELECT *”查询，如果下游数据收件人未准备好在添加列时处理其他列。<br>
 >如果需要重命名或删除列，我们将提前通知这些更改。
 
 ### 访问级别
@@ -1715,15 +1715,15 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 >
 >记录类型通过`enumClass`属性标识。 以下是所需的类型：<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### 文档
@@ -4428,7 +4428,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>门户部分</td>
+            <td>门户分区</td>
             <td>报告</td>
             <td>PTLSEC</td>
             <td>报告</td>
@@ -8861,7 +8861,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 
 ## Planning视图说明和关系
 
-下表描述了数据连接中Planning模式中可用的数据视图。 与Workflow数据视图不同，Planning数据视图包含每个视图的完整逐列说明。
+下表介绍了Data Connect的Planning模式中可用的数据视图。 与Workflow数据视图不同，Planning数据视图包含每个视图的完整逐列说明。
 
 Planning数据在以下视图中可用：
 
@@ -8908,22 +8908,22 @@ Planning数据在以下视图中可用：
         <td>别名</td>
         <td>Varchar</td>
         <td>字段显示名称的URL安全小写版本，用于系统级别标识和API访问（例如，“结束日期”变为“end_date”，“完成百分比”变为“percent_complete”）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>已创建</td>
         <td>数值</td>
         <td>表示影响此字段记录的最后一个操作类型的标志。 值为1表示该记录是在最近的数据刷新周期中创建的；值为0表示该记录不是。 有关实际的创建时间戳，请参阅CREATEDAT 。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
         <td>时间戳\_NTZ</td>
         <td>创建此字段的时间戳（无时区）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>创建者</td>
@@ -8936,78 +8936,78 @@ Planning数据在以下视图中可用：
         <td>DATEOPTIONS</td>
         <td>变体</td>
         <td>一个JSON对象，它包含“日期”字段的特定于日期的显示配置。 包括“dateFormat”（例如“locale”）和“timeFormat”（如果未显示时间，则为空）。 对于非日期字段类型为Null。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>已删除</td>
         <td>数值</td>
         <td>指示此字段是否已软删除的标志。 值为1表示已删除；值为0表示处于活动状态。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>描述</td>
         <td>Varchar</td>
         <td>用户提供的对字段用途的描述。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>DISPLAYNAME</td>
         <td>Varchar</td>
         <td>字段的显示名称，如Planning界面所示。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
         <td>时间戳\_NTZ</td>
         <td>上次将此字段记录加载到数据湖中的数据刷新作业的时间戳。 在每个成功的数据刷新周期后更新。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>EXTERNALOPTIONS</td>
         <td>变体</td>
         <td>一个JSON对象，其中包含连接到Planning外部系统的字段的配置。 对于本机创建的字段通常为空；对于外部连接的记录类型上的字段填充。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>字段类型</td>
         <td>Varchar</td>
         <td>数据类型或字段类别。 可能的值包括：“text”、“long-text”、“number”、“percentage”、“currency”、“date”、“boolean”、“single-select”、“multi-select”、“reference”、“lookup”、“formula”、“user”、“created-at”和“created-by”。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FORMULAPOPTIONS</td>
         <td>变体</td>
         <td>包含“公式”字段的公式配置的JSON对象。 包括“formula”（人类可读的公式表达式）、“returnType”（例如“PERCENTAGE”、“NUMBER”）、“numberOptions”（精度、可视化）和“dateOptions”。 非公式字段为空。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>HASERROR</td>
         <td>Varchar</td>
         <td>指示字段当前是否存在配置或同步错误。 值为字符串true或false。 值为true表示字段处于错误状态，可能无法正确返回数据。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>ID</td>
         <td>Varchar</td>
         <td>字段定义的唯一标识符。 此视图的主键。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>ISFUSION</td>
         <td>布尔值</td>
         <td>指示此字段是通过Workfront Fusion集成创建或管理的标志。 值“true”表示Fusion管理；“false”或空值表示它是本机创建的字段。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>LINKEDFIELD</td>
@@ -9031,15 +9031,15 @@ Planning数据在以下视图中可用：
         <td>已创建</td>
         <td>数值</td>
         <td>指示影响此记录的最后一个操作类型的标志。 值为1表示该记录是在最近的数据刷新周期中创建的；值为0表示该记录不是。 有关实际的创建时间戳，请参阅CREATEDAT 。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
         <td>时间戳\_NTZ</td>
         <td>创建此记录的时间戳（无时区）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>创建者</td>
@@ -9052,64 +9052,64 @@ Planning数据在以下视图中可用：
         <td>已删除</td>
         <td>数值</td>
         <td>指示此记录是否已软删除的标志。 值为1表示记录已删除；值为0表示记录处于活动状态。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
         <td>时间戳\_NTZ</td>
         <td>上次将此记录加载到数据湖中的数据刷新作业的时间戳。 在每个成功的数据刷新周期后更新。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FIELD_IDS</td>
         <td>变体</td>
         <td>JSON对象将每个字段的显示名称映射到其字段ID（例如，'{"Status"： "F69bc..."， "End Date"： "F69bc..."}'）。 使用此选项可将人类可读的字段名称映射到FIELDID\_VALUES和FIELDID\_VALUES\_RAW中使用的ID。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FIELD_TYPE</td>
         <td>变体</td>
         <td>JSON对象将每个字段的显示名称映射到其字段类型字符串（例如，“text”、“number”、“date”、“single-select”、“reference”、“formula”）。 由字段显示名称作为键值，与FIELD\_IDS匹配。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FIELD_VALUE</td>
         <td>变体</td>
         <td>JSON对象将每个字段的显示名称映射到其显示格式化的字符串值。 由字段显示名称作为键值，与FIELD\_IDS匹配。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FIELD_VALUES_RAW</td>
         <td>变体</td>
         <td>JSON对象将每个字段的显示名称映射到其原始（未格式化）值。 对于引用字段，该值是连接的记录对象的数组；对于数字和公式字段，该值是纯数字值；对于长文本字段，该值是富文本内容对象。 由字段显示名称作为键值，与FIELD\_IDS匹配。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FIELDID_FIELDID</td>
         <td>变体</td>
         <td>JSON对象，以自映射形式列出此记录中存在的所有字段ID（每个字段ID都映射到自身）。 使用此选项可枚举在给定记录中填充的字段，或使用FIELD\_CURRENT进行交叉引用。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FIELDID_VALUES</td>
         <td>变体</td>
         <td>JSON对象将每个字段ID映射到其显示格式的值。 对于简单字段类型，该值为字符串或数字；对于长文本字段，该值为包含“content”（纯文本）和“contentHTML”（HTML格式）属性的对象。 使用FIELD\_IDS查找每个字段ID的显示名称。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>FIELDID_VALUES_RAW</td>
         <td>变体</td>
         <td>JSON对象将每个字段ID映射到其原始（未格式化）值。 对于大多数字段类型，值为纯字符串、数字或epoch毫秒时间戳。 长文本字段将纯文本内容作为字符串返回。 使用FIELD\_IDS查找每个字段ID的显示名称。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>RECORDID</td>
@@ -9129,29 +9129,29 @@ Planning数据在以下视图中可用：
         <td>RECORDTYPENAME</td>
         <td>Varchar</td>
         <td>此记录所属的记录类型的显示名称。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>REFERENCE_IDS</td>
         <td>变体</td>
         <td>JSON对象将每个引用字段的显示名称映射到连接记录的ID（例如，'{"Project"： "Ref8b471aa..."}'）。 与REFERENCE\_CURRENT一起使用来解析此记录的已连接的外部对象。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>已更新</td>
         <td>数值</td>
         <td>指示影响此记录的最后一个操作类型的标志。 值为1表示记录已在最近的数据刷新周期中更新；值为0表示未更新。 有关实际的上次更新时间戳，请参阅UPDATEDAT 。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>UPDATEDAT</td>
         <td>时间戳\_NTZ</td>
         <td>上次更新此记录的时间戳（无时区）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>更新者</td>
@@ -9171,8 +9171,8 @@ Planning数据在以下视图中可用：
         <td>WORKSPACENAME</td>
         <td>Varchar</td>
         <td>包含此记录的Planning工作区的显示名称。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
 </table>
 
@@ -9192,29 +9192,29 @@ Planning数据在以下视图中可用：
         <td>别名</td>
         <td>Varchar</td>
         <td>记录类型的内部别名，用于系统级别标识和API访问。 对于尚未指定别名的记录类型，不能为空。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>颜色</td>
         <td>Varchar</td>
         <td>Planning界面中与此记录类型关联的命名颜色标签（例如，“蓝色”、“绿色”、“紫色”、“洋红色”、“chartreuse”、“深灰色”）。 不是十六进制代码。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>已创建</td>
         <td>数值</td>
         <td>指示影响此记录类型的最后一个操作类型的标志。 值为1表示记录类型是在最近的数据刷新周期中创建的；值为0表示不是。 有关实际的创建时间戳，请参阅CREATEDAT 。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
         <td>时间戳\_NTZ</td>
         <td>创建此记录类型时的时间戳（无时区）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>创建者</td>
@@ -9227,71 +9227,71 @@ Planning数据在以下视图中可用：
         <td>已删除</td>
         <td>数值</td>
         <td>指示此记录类型是否已软删除的标志。 值为1表示已删除；值为0表示处于活动状态。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>描述</td>
         <td>Varchar</td>
         <td>用户提供的记录类型用途的描述。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>DISPLAYNAME</td>
         <td>Varchar</td>
         <td>记录类型的显示名称，如Planning界面中所示（如“Campaign”、“Initiative”）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
         <td>时间戳\_NTZ</td>
         <td>上次将此记录类型加载到数据湖中的数据刷新作业的时间戳。 在每个成功的数据刷新周期后更新。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>EXTERNALOPTIONS</td>
         <td>变体</td>
         <td>包含连接到外部系统的记录类型的配置详细信息的JSON对象。 包括“connectionName”（例如，“workfront”）、“objectName”（Workfront API对象代码，例如，“PROJ”）和“fields”（标准字段别名到Planning字段ID的映射，用于同步字段）。 对于本机创建的记录类型为空。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>ID</td>
         <td>Varchar</td>
         <td>记录类型的唯一标识符。 此视图的主键。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>ISEXTERNAL</td>
         <td>布尔值</td>
         <td>指示此记录类型是否表示外部连接的对象类型而不是本地Planning记录的标志。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>ISFUSION</td>
         <td>布尔值</td>
         <td>指示此记录类型是通过Workfront Fusion集成创建或管理的标志。 值“true”表示Fusion管理；“false”或空值表示它是本机创建的记录类型。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>ISTAXONOMY</td>
         <td>Varchar</td>
         <td>指示此记录类型是否分类为分类类型，用于组织和分类其他记录。 值为“true”表示分类类型。 对于非分类记录类型，不能为空。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>权限</td>
         <td>Varchar</td>
         <td>为访问此记录类型配置的权限级别（例如，“查看”、“CONTRIBUTE”、“管理”）。 如果未设置自定义权限，则可能为空。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>主字段ID</td>
@@ -9304,29 +9304,29 @@ Planning数据在以下视图中可用：
         <td>已恢复</td>
         <td>数值</td>
         <td>指示软删除后是否还原此记录类型的标志。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>TRIGGEREDBYSERVICE</td>
         <td>Varchar</td>
         <td>触发上次修改此记录类型的服务或集成的名称。 值“未知”表示无法确定原始服务。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>已更新</td>
         <td>数值</td>
         <td>指示影响此记录类型的最后一个操作类型的标志。 值为1表示在最近的数据刷新周期中更新了记录类型；值为0表示未更新。 有关实际的上次更新时间戳，请参阅UPDATEDAT 。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>UPDATEDAT</td>
         <td>时间戳\_NTZ</td>
         <td>此记录类型上次更新的时间戳（无时区）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>更新者</td>
@@ -9367,22 +9367,22 @@ Planning数据在以下视图中可用：
         <td>已创建</td>
         <td>数值</td>
         <td>指示影响此参考记录的最后一个操作类型的标志。 值为1表示引用是在最近的数据刷新周期中创建的；值为0表示它不是。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>已删除</td>
         <td>数值</td>
         <td>指示此引用连接是否已软删除的标志。 值为1表示参照被删除；值为0表示参照处于活动状态。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
         <td>时间戳\_NTZ</td>
         <td>上次将此引用记录加载到数据湖中的数据刷新作业的时间戳。 在每个成功的数据刷新周期后更新。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>RECORDTYPEID</td>
@@ -9395,29 +9395,29 @@ Planning数据在以下视图中可用：
         <td>REFERENCEVALUE</td>
         <td>Varchar</td>
         <td>截至上次数据刷新时引用的外部对象的显示名称（例如，Workfront项目名称，如“Beta”或“画布功能板项目”）。 此值反映在刷新时对象的名称，如果重命名对象，则名称可能会失效。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>TO_EXTERNALCONNECTIONNAME</td>
         <td>Varchar</td>
         <td>引用对象连接时所依据的外部连接的名称（例如，在Planning中配置的Workfront连接的名称）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>TO_EXTERNALID</td>
         <td>Varchar</td>
         <td>被引用的外部对象的唯一标识符（例如，Workfront项目ID、任务ID或其他连接的对象ID）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>TO_EXTERNALOBJECTNAME</td>
         <td>Varchar</td>
         <td>所引用外部对象类型的Workfront API对象代码（例如，项目为“PROJ”，任务为“TASK”，Portfolio为“PORT”）。 使用此项可确定在查找引用的对象时要连接的Workfront表。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>TO_RECORDID</td>
@@ -9430,8 +9430,8 @@ Planning数据在以下视图中可用：
         <td>已更新</td>
         <td>数值</td>
         <td>指示影响此参考记录的最后一个操作类型的标志。 值为1表示引用在最近的数据刷新周期中更新；值为0表示引用未更新。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
 </table>
 
@@ -9451,15 +9451,15 @@ Planning数据在以下视图中可用：
         <td>已创建</td>
         <td>数值</td>
         <td>指示影响此工作区记录的最后一个操作类型的标志。 值为1表示工作区是在最近的数据刷新周期中创建的；值为0表示不是。 有关实际的创建时间戳，请参阅CREATEDAT 。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
         <td>时间戳\_NTZ</td>
         <td>此工作区的创建时间戳（无时区）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>创建者</td>
@@ -9472,15 +9472,15 @@ Planning数据在以下视图中可用：
         <td>已删除</td>
         <td>数值</td>
         <td>指示此工作区是否已软删除的标志。 值为1表示已删除；值为0表示处于活动状态。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
         <td>时间戳\_NTZ</td>
         <td>上次将此工作区记录加载到数据湖中的数据刷新作业的时间戳。 在每个成功的数据刷新周期后更新。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>ID</td>
@@ -9493,15 +9493,15 @@ Planning数据在以下视图中可用：
         <td>ISFUSION</td>
         <td>布尔值</td>
         <td>指示此工作区是通过Workfront Fusion集成创建或管理的标记。 值“true”表示Fusion管理；“false”或空值表示它是本机创建的工作区。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>名称</td>
         <td>Varchar</td>
         <td>Planning界面中显示的工作区的显示名称。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>PARENTID</td>
@@ -9514,29 +9514,29 @@ Planning数据在以下视图中可用：
         <td>已恢复</td>
         <td>数值</td>
         <td>指示此工作区是否在软删除后恢复的标记。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>TRIGGEREDBYSERVICE</td>
         <td>Varchar</td>
         <td>触发上次修改此工作区记录的服务或集成的名称。 值“未知”表示无法确定原始服务。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>已更新</td>
         <td>数值</td>
         <td>指示影响此工作区记录的最后一个操作类型的标志。 值为1表示工作区已在最近的数据刷新周期中更新；值为0表示未更新。 有关实际的上次更新时间戳，请参阅UPDATEDAT 。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>UPDATEDAT</td>
         <td>时间戳\_NTZ</td>
         <td>此工作区上次更新的时间戳（无时区）。</td>
-        <td>—</td>
-        <td>—</td>
+        <td>–</td>
+        <td>–</td>
     </tr>
     <tr>
         <td>更新者</td>
