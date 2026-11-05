@@ -79,7 +79,7 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">更改历史记录现在跟踪画布功能板对象</a></p>
                 <p>更改历史记录现在记录创建、更新或删除画布功能板或报表的人员、更改时间和更改内容。</p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
@@ -218,7 +218,7 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">不可用状态指南</a></p>
                 <p>当保存的问题、任务或项目状态不可用时，现在会出现一条警告，说明原因并显示保存的状态代码。</p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
             </td>
             <td><p>2026年11月4</p></td>
             <td><p>2026年11月4</p></td>
@@ -355,14 +355,14 @@ ht-degree: 3%
 
 作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
 
-    ``
+    &grave;&grave;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    ``
+    &grave;&grave;
 
 要管理和审查工作角色费率，请使用专门的费率管理体验：
 
