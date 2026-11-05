@@ -30,16 +30,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '5242'
-ht-degree: 8%
+source-wordcount: '5600'
+ht-degree: 9%
 ---
 # 事件通知类型
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 事件通知是由对象（如项目、任务和问题）上的各种类型事件触发的电子邮件，如[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)中所述。
+
 
 可以在系统和组级别配置这些通知：
 
@@ -957,3 +960,156 @@ ht-degree: 8%
 | 任务和问题 | 停止任务和问题委派 | 被分派人 | 我停止委派我的任务和问题（确认） | 活动（仅限即时） |
 | 任务和问题 | 任务和问题委派 | 委派 | 有人将其任务和问题委派给我 | 活动（仅限即时） |
 | 任务和问题 | 停止任务和问题委派 | 委派 | 有人停止将其任务和问题委派给我 | 活动（仅限即时） |
+
+<div class="preview">
+
+## 统一审批
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>对象类型</th> 
+   <th>活动</th> 
+   <th>收件人</th> 
+   <th>描述</th> 
+   <th>默认状态</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>已添加为审批者或审阅者</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>您被添加为文档批准的批准者或查看者。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>已移除审批者或审阅者身份</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>您已从文档审批中删除审批者或审阅者。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>角色已更改</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>您的审批者或审阅者角色在文档审批时发生了更改。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>已做决定 — 已批准</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>审批者对文档审批作出批准决策。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>已做决策 — 已批准，但有更改</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>审批者对文档审批作出了“已批准”的决策，并对文档审批进行了更改。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>已做出决策 — 需要工作</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>批准者决定需要处理文档批准。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>批准已完成 — 已批准</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>文档审批结束，最终决策为已批准。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>批准已完成 — 已批准，但有更改</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>文档审批结束，最终决定为已批准，但有更改。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>批准已完成 — 需要工作</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>文档审批以需求工作的最终决策结束。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>审阅已完成</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>审阅人对文档批准完成审阅。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>已完成所有审阅</p> </td> 
+   <td> <p>文档所有者</p> </td> 
+   <td> <p>每个审阅人对文档批准完成审阅。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>临近截止日期</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>您所属的文档审批即将到达截止日期。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>截止时间已过</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>您所属的文档审批已超过截止日期，没有做出最终决定。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>提醒 – 24 小时</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>您还有24小时来审阅和批准文档。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>提醒 – 72 小时</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>您还剩72小时来审阅和批准文档。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文档</p> </td> 
+   <td> <p>分组审批中添加或移除了文档</p> </td> 
+   <td> <p>审批者或查看者</p> </td> 
+   <td> <p>在您所属的已分组文档审批中添加或删除文档。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>视频</p> </td> 
+   <td> <p>即将达到视频审批限制 (80%)</p> </td> 
+   <td> <p>系统/组管理员</p> </td> 
+   <td> <p>视频审批达到其计划视频审批限额的80%。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>视频</p> </td> 
+   <td> <p>已达到视频审批限制</p> </td> 
+   <td> <p>系统/组管理员</p> </td> 
+   <td> <p>视频审批达到其计划的视频审批限制。</p> </td> 
+   <td> <p>活动</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>

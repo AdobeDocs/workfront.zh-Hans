@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '728'
 ht-degree: 4%
 ---
 # 更新任务状态
@@ -115,14 +115,7 @@ Old:
 
   有关详细信息，请参阅[编辑项目](../manage-projects/edit-projects.md)。
 
-<!--
-* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* 如果任务状态被删除或变为不可用，则任务的状态将显示为不可用。  作为具有任务管理权限的用户，您可以将状态更新为其他状态，或请求Workfront管理员重新创建状态或添加新状态。
 
 ## 手动更新任务状态
 
@@ -160,11 +153,10 @@ ALSO: see in the steps below for more commented out text.
    >
    >  只有任务被分配者才能更新提交日期。
 
-<!--
-1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. （视情况而定）当任务的状态为&#x200B;**_不可用_**&#x200B;时，请单击&#x200B;**状态**&#x200B;字段旁边的警告符号，从列表中选择新状态，然后单击&#x200B;**保存**。
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+如果您看不到可接受的状态，请要求管理员创建状态。
+
 
 <!--
 old functionality in old commenting: 

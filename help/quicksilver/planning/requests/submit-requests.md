@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3288'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning请求以创建记录
@@ -185,8 +185,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 打开屏幕右上角的&#x200B;**使用新体验**&#x200B;设置。
-启用此设置后，Workfront计划请求表单将在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 打开屏幕右上角的&#x200B;**使用新体验**设置。
+启用此设置后，Workfront计划请求表单将在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -219,7 +219,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >从属连接的记录字段的值受记录之间的从属关系规则的限制。 有关详细信息，请参阅[管理从属连接](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">当请求表单上的依赖字段的选定值存在冲突时，您必须先解决该冲突，然后才能保存表单。</span>
 
 1. （可选且有条件）单击&#x200B;**填写表单**&#x200B;以附加文件，并让AI为您填写包含文件内信息的表单。<!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -294,7 +294,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* 仅当尚未创建记录并且请求正在等待审批时，才能编辑请求。
    >* 某些字段为只读字段，您无法对其进行编辑。
    >* 从中创建记录后，您无法再编辑请求。
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">当请求的依赖字段的选定值存在冲突时，您必须先解决该冲突，然后才能保存请求。</span>
 
 1. （可选）编辑请求后，单击&#x200B;**提交更改**。
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**创建的对象**&#x200B;字段中的记录名称。
