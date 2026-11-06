@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1849'
 ht-degree: 0%
 ---
 
@@ -148,7 +148,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -185,7 +185,7 @@ Or
 
 1. （有条件，可选）要打开另一个现有的构思空间，请单击构思名称右侧的下拉菜单，按名称搜索构思，然后在构思显示在列表中时单击该构思。
 
-   **构思空间**&#x200B;打开，CX Coworker在右侧打开。
+   **构思空间**&#x200B;打开，同事在右侧打开。
 1. 使用Co-worker提示符描述要创建的简介类型。
 
    例如，键入“Create a back-to-school campaign for K-12 student to run through the month of 8月，for parents and teachers in the US”。  要使简报尽可能完整，请尽可能指明可用于何种营销活动、时间表、利益相关者、批准检查点和其他详细信息的信息。
