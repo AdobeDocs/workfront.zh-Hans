@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 4%
+source-wordcount: '553'
+ht-degree: 3%
 ---
 # 创建路由规则
 
@@ -132,6 +132,10 @@ ht-degree: 4%
 
    此过程仅定义路由规则。 为确保问题在提交到请求队列时得到路由，您必须在&#x200B;**默认路由**&#x200B;下的&#x200B;**队列详细信息**&#x200B;选项卡上选择路由规则。
 
+   要编辑现有路由规则，请单击任意单元格以添加或更改信息。 路由规则会自动更新。
+   路由规则列表是一个增强列表，其功能可能与Workfront中的其他列表不同。 有关增强列表的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
    有关将默认路由添加到请求队列的信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
    如果要将多个传送规则与请求队列关联，则必须创建多个队列主题，并将每个主题与单独的传送规则关联。 有关创建队列主题的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+

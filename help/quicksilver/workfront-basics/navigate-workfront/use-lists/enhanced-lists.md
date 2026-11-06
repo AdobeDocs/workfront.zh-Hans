@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # 使用增强列表
@@ -149,6 +149,19 @@ Last, under Scenario Planner
    >请注意，并非所有列表都支持所有字段类型。
 
 ![增强列表示例](assets/glist-exchange-rates.png)
+
+## 编辑内嵌项目
+
+某些增强列表允许您编辑内联对象。 编辑列表中显示的对象信息时，对象会立即更新。
+
+在列表中：
+
+1. 找到要编辑的项目，然后在列表中的任意字段中单击。
+1. 编辑此单元格中的信息，然后按Enter。
+1. 按Tab键移至下一个可编辑的单元格。
+1. 修改完所有单元格后，按Enter键保存更改。
+
+![编辑增强列表内联](assets/edit-enhanced-list-inline.png)
 
 ## 使用操作栏编辑项目
 
@@ -314,7 +327,7 @@ Last, under Scenario Planner
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
