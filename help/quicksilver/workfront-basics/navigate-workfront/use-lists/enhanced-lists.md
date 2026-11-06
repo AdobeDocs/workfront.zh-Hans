@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # 使用增强列表
@@ -149,6 +149,19 @@ Last, under Scenario Planner
    >请注意，并非所有列表都支持所有字段类型。
 
 ![增强列表示例](assets/glist-exchange-rates.png)
+
+## 编辑内嵌项目
+
+某些增强列表允许您编辑内联对象。 编辑列表中显示的对象信息时，对象会立即更新。
+
+在列表中：
+
+1. 找到要编辑的项目，然后在列表中的任意字段中单击。
+1. 编辑此单元格中的信息，然后按Enter。
+1. 按Tab键移至下一个可编辑的单元格。
+1. 修改完所有单元格后，按Enter键保存更改。
+
+![编辑增强列表内联](assets/edit-enhanced-list-inline.png)
 
 ## 使用操作栏编辑项目
 
