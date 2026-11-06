@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 5%
@@ -169,7 +169,7 @@ Adobe Workfront管理员可以为您的组织添加问题的自定义状态。 �
 
 1. （视情况而定）当问题的状态为&#x200B;**_不可用_**&#x200B;时，单击&#x200B;**状态**&#x200B;字段的警告符号，从列表中选择新状态，然后单击&#x200B;**保存**。
 
-如果您看不到可接受的状态，请要求管理员创建状态。
+   如果您看不到可接受的状态，请要求管理员创建状态。
 
 
 <!--

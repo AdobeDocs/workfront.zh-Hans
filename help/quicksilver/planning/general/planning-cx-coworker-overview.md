@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1088'
 ht-degree: 1%
 ---
 
@@ -42,6 +42,8 @@ CX Enterprise Coworker是一个对话式界面，您可在其中以简单的语�
 Co-worker保留了AI Assistant目前所做的一切，同时在新的全屏体验和Workfront右边栏中添加了更强大的端到端功能。
 
 它在您组织的现有产品级访问控制内运行，因此用户只能执行在Workfront中已允许他们执行的操作，默认情况下具有只读访问权限，并且写访问权限由Workfront管理员控制。
+
+Co-worker使用Workfront MCP服务器功能代表您执行操作。 有关信息，请参阅CX Enterprise Coworker中的[Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
 >[!IMPORTANT]
 >
@@ -159,11 +161,11 @@ Co-worker保留了AI Assistant目前所做的一切，同时在新的全屏体�
 
    在页面的右上角找到&#x200B;**Co-worker**&#x200B;图标![Co-worker图标](assets/coworker-icon.png)，或继续执行以下步骤。
 
-1. 单击&#x200B;**工作区信息卡**。
+1. 执行以下任一操作：
 
-1. 单击&#x200B;**记录类型卡片**。
-
-1. 单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面，然后单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-workspace-on-new-tab-icon.png)。
+* 单击&#x200B;**工作区信息卡**。
+* 单击&#x200B;**记录类型卡片**。
+* 单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面，然后单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-workspace-on-new-tab-icon.png)。
 
 1. 单击屏幕右上角的&#x200B;**同事图标** ![同事图标](assets/coworker-icon.png)。
 
@@ -173,7 +175,9 @@ Co-worker保留了AI Assistant目前所做的一切，同时在新的全屏体�
 
    例如，您可以键入以下内容之一：
 
-   * 创建新的营销活动记录，称为2026年夏季促销
+   * 创建工作区并将其命名为“营销团队”。
+   * 在此工作区中创建营销活动和角色记录类型。
+   * 创建名为“2026年夏季促销”的促销活动记录
    * 将夏季促销活动记录中的预算字段更新为$75,000
    * 删除名为“旧促销”的活动记录
    * 恢复我意外删除的营销活动

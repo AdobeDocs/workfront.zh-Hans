@@ -4,7 +4,7 @@ description: 2027年第一季度发布时间框架内的其他增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,6 +15,22 @@ ht-degree: 0%
 本页介绍了在2027年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+<!--
+
+## Enhanced list button and icon improvements
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+Button text and icons in all enhanced lists have been adjusted to match, to achieve a more consistent user interface across Workfront.
+
+For information, see [Enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+-->
 
 ## 在增强列表中查看记录总数
 
