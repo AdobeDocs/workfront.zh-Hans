@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14762'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -457,6 +457,7 @@ ht-degree: 2%
       * [删除自定义SMTP作为传出电子邮件选项](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta项目 {#beta}
     * [Beta项目](product-announcements/betas/betas.md)
+    * {hide-from-toc}[连接组织功能测试版计划](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * Canvas Dashboards测试版 {#canvas-dashboards-beta}
       * [Canvas功能板测试版信息](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc}[报告画布测试版概述](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
