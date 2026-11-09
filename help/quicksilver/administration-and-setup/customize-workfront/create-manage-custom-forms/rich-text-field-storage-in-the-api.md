@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '252'
 ht-degree: 0%
 ---
 # API中的富文本字段存储
+
+>[!NOTE]
+>
+>本文中介绍的富文本字段是“带格式的文本”字段。 此字段类型不再可用于添加到新字段，并且现有字段应转换为“富文本”字段类型。
+> 
+>请注意，新的富文本字段将内容存储为HTML，但不存储字段编辑器中应用的任何样式。 从存储中删除样式信息有助于防止出现意外的UI问题和安全漏洞。
 
 如果项目、问题或任务等对象包含富文本，则会通过Workfront API将该对象作为参数值存储和访问。
 
