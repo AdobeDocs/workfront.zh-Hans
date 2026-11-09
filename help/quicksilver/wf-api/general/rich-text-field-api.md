@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '855'
 ht-degree: 0%
 ---
 # Adobe Workfront API中的富文本字段
@@ -27,6 +27,12 @@ ht-degree: 0%
 <!-- Audited: 5/2025 -->
 
 Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 在Workfront API中，使用开源框架Draft.js将RTF存储为JSON。
+
+>[!NOTE]
+>
+>本文中介绍的富文本字段是“带格式的文本”字段。 此字段类型不再可用于添加到新字段，并且现有字段应转换为“富文本”字段类型。
+> 
+>请注意，新的富文本字段将内容存储为HTML，但不存储字段编辑器中应用的任何样式。 从存储中删除样式信息有助于防止出现意外的UI问题和安全漏洞。
 
 ## 概述示例
 
