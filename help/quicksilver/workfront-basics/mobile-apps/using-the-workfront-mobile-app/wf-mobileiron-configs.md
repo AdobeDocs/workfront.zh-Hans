@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
 ---
 # 为[!DNL MobileIron]配置[!DNL Adobe Workfront]
+
+{{mobile-maintenance-mode}}
 
 在[!DNL MobileIron]应用的Adobe Workfront中，我们支持[!DNL MobileIron]为[!DNL Android]和[!DNL iOS]提供的默认配置。
 
@@ -35,27 +37,27 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 复制/粘贴]</strong></td>
+        <td><strong>[！UICONTROL复制/粘贴]</strong></td>
         <td>启用后，您可以选择让用户粘贴到其他安全应用程序，或者仅在[!DNL MobileIron]应用程序的[!DNL Workfront]内粘贴。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 允许摄像头]</strong></td>
+        <td><strong>[！UICONTROL允许摄像头]</strong></td>
         <td>启用此选项后，用户可以从[!DNL Workfront]中为[!DNL MobileIron]应用程序拍摄照片。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 允许库]</strong></td>
+        <td><strong>[！UICONTROL允许库]</strong></td>
         <td>启用此选项后，用户可以从照片库中附加照片。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 允许媒体播放器]</strong></td>
+        <td><strong>[！UICONTROL允许媒体播放器]</strong></td>
         <td>启用此选项后，用户可以从[!DNL Workfront]中播放[!DNL MobileIron]应用程序的媒体。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 允许屏幕捕获]</strong></td>
+        <td><strong>[！UICONTROL允许屏幕捕获]</strong></td>
         <td>启用此选项后，用户可以在[!DNL MobileIron]应用程序的[!DNL Workfront]内捕获屏幕。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 允许Web]</strong></td>
+        <td><strong>[！UICONTROL允许Web]</strong></td>
         <td>启用此选项后，用户可以从[!DNL MobileIron]应用程序的[!DNL Workfront]中导航到Web浏览器。</td>
     </tr>
    </table>
@@ -70,15 +72,15 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 复制/粘贴]</strong></td>
+        <td><strong>[！UICONTROL复制/粘贴]</strong></td>
         <td>启用后，您可以选择让用户粘贴到其他安全应用程序，还是仅粘贴到Workfront for MobileIron应用程序中。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 允许打印]</strong></td>
+        <td><strong>[！UICONTROL允许打印]</strong></td>
         <td>启用此选项后，用户可以从[!DNL Workfront for MobileIron]应用程序连接到AirPrint。</td>
     </tr>
     <tr>
-        <td><strong>&lbrack;！UICONTROL允许打开</strong></td>
+        <td><strong>[！UICONTROL允许打开</strong></td>
         <td>启用此选项后，用户可以使用任何其他适用的应用程序打开URL。</td>
     </tr>
    </table>

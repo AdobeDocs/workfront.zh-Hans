@@ -26,12 +26,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 7%
 ---
 # 开始使用 [!DNL Adobe Workfront View]
+
+{{mobile-maintenance-mode}}
 
 您可以使用[!DNL Adobe Workfront View]移动应用程序在移动过程中跟踪项目的进度。
 

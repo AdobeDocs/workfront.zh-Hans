@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 4%
 ---
 # 更新[!UICONTROL 项目详细信息]视图中的小组件
+
+{{mobile-maintenance-mode}}
 
 通过向[!UICONTROL 项目详细信息]屏幕添加小组件，在从项目列表访问[!UICONTROL 项目]后，您可以查看有关该项目的其他信息。 每个用户都可以自定义自己的小组件。
 
