@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
 ---
 # 在[!DNL Adobe Workfront]移动应用程序中查看验证并做出决策
+
+{{mobile-maintenance-mode}}
 
 当有验证分配给您审批时，它将显示在移动设备应用程序的审批列表中。 您可以直接在应用程序中查看验证并做出决定。 有关在[!DNL Adobe Workfront]中审阅和批准验证的信息，请参阅[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)中审阅验证。
 

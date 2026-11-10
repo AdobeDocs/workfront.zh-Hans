@@ -20,12 +20,14 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 3%
 ---
 # [!DNL iOS]的[!DNL Adobe Workfront]
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront]应用允许您在任何[!DNL iOS]设备上访问您的工作。 您可以在运行iOS 10或更高版本的手机和平板电脑上安装并使用[!DNL Workfront]移动应用程序。 专用的[!DNL Workfront]移动应用可用于[!DNL iPhone]和[!DNL iPad]。
 

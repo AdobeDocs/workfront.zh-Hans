@@ -24,12 +24,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 9%
 ---
 # 在[!DNL Adobe Workfront View]中添加更新
+
+{{mobile-maintenance-mode}}
 
 您可以在[!DNL Adobe Workfront View]应用程序中查看项目并将更新添加到正在查看的项目。
 

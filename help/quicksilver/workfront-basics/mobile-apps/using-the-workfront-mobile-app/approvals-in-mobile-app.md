@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 3%
+source-wordcount: '290'
+ht-degree: 2%
 ---
 # [!DNL Adobe Workfront]移动应用程序中的审批
+
+>[!IMPORTANT]
+>
+>Workfront移动应用程序处于维护模式，不再进行新开发。
+> 
+>Workfront移动设备应用程序不支持统一审批。
 
 您可以从[!DNL Adobe Workfront]移动设备应用程序的[!UICONTROL 审批]区域管理分配给您的审批或委托给您的审批。 从[!UICONTROL 审批]区域，您可以审批：
 

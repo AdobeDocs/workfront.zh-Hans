@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 5%
 ---
 # 在[!UICONTROL Adobe Workfront视图]中显示项目
+
+{{mobile-maintenance-mode}}
 
 默认情况下，[!DNL Adobe Workfront View]中显示的项目列表显示最近的100个活动项目。 项目列表未按任何条件分组。
 

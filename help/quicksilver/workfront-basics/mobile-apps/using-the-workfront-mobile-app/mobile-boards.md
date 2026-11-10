@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]移动设备[!UICONTROL 讨论区]
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 讨论区]是一种灵活的工具，通过为包含列和卡片的共享讨论区提供访问权限，允许团队协作。 有关讨论区的其他信息，请参阅[讨论区概述](/help/quicksilver/agile/boards-overview.md)。
 

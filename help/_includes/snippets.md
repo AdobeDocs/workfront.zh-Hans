@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 1%
 ---
 # 片段
@@ -362,6 +362,12 @@ OLD:
 ## 移动验证 — 更多菜单 {#mobile-proof-more-menu}
 
 1. 打开文档校对，然后选择文档右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](/help/_includes/assets/mobile-verticalmoremenu-20x33.png)。 然后选择&#x200B;**[!UICONTROL 更多]**。
+
+## 移动设备 — 无新开发 {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront移动应用程序处于维护模式，不再进行新开发。
 
 <!-- My Updates -->
 
