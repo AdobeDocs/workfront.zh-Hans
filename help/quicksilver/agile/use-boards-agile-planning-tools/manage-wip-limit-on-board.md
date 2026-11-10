@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 7%
 ---
 # 管理展示板上的[!UICONTROL 工作进行中] (WIP)限制
+
+{{boards-maintenance-mode}}
 
 您可以为展示板上的每个列配置[!UICONTROL 正在进行的工作] (WIP)限制。
 
@@ -77,7 +79,7 @@ WIP限制只是一个视觉上的警告，不会限制每列中显示的项目�
 1. 在[!UICONTROL 列策略]下，启用&#x200B;**[!UICONTROL 正在进行的工作]限制**&#x200B;策略以限制可添加到列的卡片数量。
 1. 在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
-   列![&#128279;](assets/boards-wip-limit-in-column.png)的WIP限制
+   列](assets/boards-wip-limit-in-column.png)的![WIP限制
 
    卡片的数量和限制将显示在列顶部。 如果列包含的卡片数超过限制，则计数器将变为红色。
 

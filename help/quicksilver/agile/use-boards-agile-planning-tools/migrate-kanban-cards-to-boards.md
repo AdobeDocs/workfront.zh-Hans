@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
 ---
 # 将Agile团队Kanban卡迁移到Workfront展示板
+
+{{boards-maintenance-mode}}
 
 您可以将工作项从Agile团队Kanban展示板迁移到新的或现有的Workfront展示板。 运行迁移时，Kanban展示板上的所有信息卡都会复制到Workfront展示板。 您不得选择特定卡。
 

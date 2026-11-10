@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
 ---
 # 管理信息卡上的清单项目
+
+{{boards-maintenance-mode}}
 
 在信息卡上使用核对清单可让您将工作细分为较小的增量，或在信息卡中添加注释。 清单项目在临时信息卡和连接信息卡中均可用。
 

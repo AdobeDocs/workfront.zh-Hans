@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 6%
 ---
 # 在信息卡上添加文档
+
+{{boards-maintenance-mode}}
 
 您可以将文档添加到Adobe Workfront展示板上连接的信息卡。 您在信息卡中添加的任何文档都将在已连接任务或问题的文档选项卡上可用，并且您在任务或问题中添加的文档将显示在信息卡上。 这两个区域都支持相同的文件类型。 有关Workfront中文档的更多信息，请参阅[将文档从您的文件系统添加到Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 

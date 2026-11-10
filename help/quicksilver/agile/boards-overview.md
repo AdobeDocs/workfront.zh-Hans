@@ -22,12 +22,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
 ---
 # [!UICONTROL 讨论区]概述
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 讨论区]是一种灵活的工具，通过为包含列和卡片的共享讨论区提供访问权限，允许团队协作。
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 有关在项目中使用讨论区的信息，请参阅[在讨论区视图中管理Agile项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
+您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
 
 有关展示板功能的视频演练，请参阅[[!DNL Adobe Workfront] [!UICONTROL 展示板]视频演示](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)。
 

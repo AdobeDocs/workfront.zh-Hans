@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -34,6 +34,8 @@ ht-degree: 1%
 # 管理展示板上的列
 
 <!-- Audited: 05/2024 -->
+
+{{boards-maintenance-mode}}
 
 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。
 
@@ -185,11 +187,11 @@ ht-degree: 1%
 
    1. 从下拉列表中选择标记。 只有已在[!UICONTROL 标记管理器]中创建的标记才可供选择。 有关添加新标记的信息，请参阅[添加标记](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      列![&#128279;](assets/boards-column-tags.png)的标记
+      列](assets/boards-column-tags.png)的![标记
 
 1. 启用&#x200B;**[!UICONTROL 工作进行中限制]**&#x200B;策略以限制可以添加到列中的卡片数量。 然后，在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
-   列![&#128279;](assets/boards-wip-limit-in-column.png)的WIP限制
+   列](assets/boards-wip-limit-in-column.png)的![WIP限制
 
    有关详细信息，请参阅[在展示板上管理正在进行的工作(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)。
 

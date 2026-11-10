@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
 ---
 # [!DNL Workfront] [!UICONTROL 讨论区]的早期功能选择加入
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 讨论区]的早期功能选择加入已于2022年7月启动。
 
@@ -51,7 +53,7 @@ ht-degree: 0%
    <th><strong>状态</strong></th> 
   </tr>
   <tr>
-   <td>[!UICONTROL 主菜单]中的[!UICONTROL 展示板]区域</td>
+   <td>[！UICONTROL主菜单]中的[！UICONTROL展示板]区域</td>
    <td>已发布</td>
   </tr>
     <tr>
@@ -79,7 +81,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将[!UICONTROL 正在工作]限制添加到列</td>
+   <td>将[！UICONTROL正在工作]限制添加到列</td>
    <td>已发布</td>
   </tr>
   <tr>

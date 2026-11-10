@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
 ---
 # 讨论区电子邮件通知和首选项
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板]在您被添加到展示板时和向您分配信息卡时向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择希望接收哪些电子邮件。
 

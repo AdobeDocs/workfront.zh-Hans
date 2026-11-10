@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 2%
 ---
 # 自定义信息卡上显示的字段
+
+{{boards-maintenance-mode}}
 
 默认情况下，所有可用字段都会显示在信息卡上，包括信息卡打开时的全视图以及展示板上的压缩信息卡视图。 您可以通过以下方式自定义显示哪些字段：
 

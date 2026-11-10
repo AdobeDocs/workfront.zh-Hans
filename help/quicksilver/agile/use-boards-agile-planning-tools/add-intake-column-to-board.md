@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 5%
@@ -39,6 +39,8 @@ ht-degree: 5%
 # 将引入列添加到展示板
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 您可以选择将引入列添加到展示板，在根据您定义的筛选器将任务和问题添加到[!DNL Workfront]中时，该列会自动将任务和问题提取为已连接的卡片。 引入列可以作为Kanban团队的积压列、支持团队查看添加到请求队列中的问题的引入位置或您需要的任何其他目的。
 
