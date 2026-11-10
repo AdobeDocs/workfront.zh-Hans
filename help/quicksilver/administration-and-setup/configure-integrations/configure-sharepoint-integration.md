@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1811'
 ht-degree: 1%
 ---
 # 配置[!DNL SharePoint]集成
@@ -146,7 +146,7 @@ ht-degree: 1%
 
 要查看和管理您组织的[!DNL SharePoint]集成，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 单击Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL [!DNL SharePoint]集成]**。
 
    此时将显示您组织的[!DNL SharePoint]集成列表。
@@ -171,7 +171,7 @@ ht-degree: 1%
 请求以下权限：
 
 | 访问 | 原因 |
-|---|---|
+| --- | --- |
 | 拥有对文件的完全访问权限 | 允许[!DNL Workfront]访问用户的文件以链接资产。 当文档从[!DNL Workfront]发送到[!DNL SharePoint]时，[!DNL Workfront]需要访问权限才能创建资产。 |
 | 读取所有网站集中的项目 | 允许[!DNL Workfront]读取资产以启用用户导航。 |
 | 编辑或删除所有网站集中的项目 | 允许[!DNL Workfront]在站点和站点集合中创建资产。 仅在链接尝试失败后进行清理时使用“删除”。 |
@@ -209,9 +209,9 @@ ht-degree: 1%
 > * 旧版[!DNL SharePoint]集成标记为“[!DNL SharePoint]”。
 > * 新的[!DNL SharePoint]集成标记为“[!UICONTROL [!DNL SharePoint] (Graph API)]”。
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 单击Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL 云提供商]**。
-1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;选项。
+1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;选项。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL [!DNL SharePoint]集成]**。
 1. 选择列表左侧的复选标记以查看所有现有集成，然后选择&#x200B;**[!UICONTROL 禁用]**。
@@ -235,7 +235,7 @@ ht-degree: 1%
 1. 按照[中的说明生成新的客户端密钥。替换 [!DNL SharePoint] 外接程序](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)中的过期客户端密钥。
 1. 将此客户端密钥复制到安全位置。
 1. 以管理员身份登录[!DNL Workfront]。
-1. 在Workfront中，单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 在Workfront中，单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 文档]** > **[!UICONTROL [!DNL SharePoint]集成]**。
 1. 单击要更新的[!DNL SharePoint]集成，然后单击&#x200B;**[!UICONTROL 编辑]**。
 1. 找到编辑窗口的&#x200B;**连接信息**&#x200B;部分，然后在&#x200B;**[!UICONTROL SharePoint客户端密钥]**&#x200B;字段中输入新的客户端密钥。
@@ -471,19 +471,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 设计]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL设计]</p> </td> 
    <td> <p>可以查看、添加、更新、删除、批准和自定义</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 编辑]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL编辑]</p> </td> 
    <td> <p>可以添加、编辑和删除列表；可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
    <td> <p>可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 仅视图]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL仅视图]</p> </td> 
    <td> <p>可以查看页面、列表项和文档（具有服务器端文件处理程序的文档类型可以在浏览器中查看，但不能下载）</p> </td> 
   </tr> 
  </tbody> 
