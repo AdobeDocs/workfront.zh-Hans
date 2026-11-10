@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
+source-git-commit: fb173da014e7411a9b7bb3ef36eae77f6ec44cb9
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '592'
 ht-degree: 11%
 ---
 # 在优先级中上传文档并创建验证
@@ -84,7 +84,7 @@ ht-degree: 11%
 1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
 1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -103,7 +103,7 @@ ht-degree: 11%
 1. 单击右上角的&#x200B;**上传文档**，然后选择&#x200B;**文档**。
 1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -112,29 +112,6 @@ ht-degree: 11%
    >
    >其他文件作为单独的文档上传。
 1. 单击&#x200B;**上传**。
-
-## 将文档上传到Adobe云存储项目
-
-您不能将文档直接上传到Adobe云存储项目上的任务或问题。 请改为从&#x200B;**项目**&#x200B;选项卡将文档上传到项目。
-
-{{step1-to-priorities}}
-
-1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
-1. 在摘要面板中，单击&#x200B;**项目**&#x200B;选项卡。
-1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
-1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
-
-   或
-
-   单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
-1. （可选）添加评论。
-1. （可选）添加更多文件。
-
-   >[!NOTE]
-   >
-   >其他文件作为单独的文档上传。
-1. 单击&#x200B;**上传**。
-
 
 ## 创建简单或高级校对
 
