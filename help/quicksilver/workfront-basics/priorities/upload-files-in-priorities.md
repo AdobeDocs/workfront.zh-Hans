@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 16%
+source-wordcount: '451'
+ht-degree: 15%
 ---
 # 按优先级上传文件
 
@@ -73,7 +73,7 @@ ht-degree: 16%
 1. （可选）在&#x200B;**上传文件**&#x200B;框中，选择一个文件夹。
 1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -97,6 +97,31 @@ ht-degree: 16%
    单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
 
    ![添加文件](assets/add-files.png)
+
+1. （可选）添加评论。
+1. （可选）添加更多文件。
+
+   >[!NOTE]
+   >
+   >其他文件作为单独的文档上传。
+
+1. 单击&#x200B;**上传**。
+
+## 将文件上传到Adobe云存储项目
+
+您不能将文件直接上传到Adobe云存储项目上的任务或问题。 请改为从“摘要”面板的&#x200B;**项目**&#x200B;选项卡将文件上传到项目。
+
+{{step1-to-priorities}}
+
+1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
+1. 在摘要面板中，单击&#x200B;**项目**&#x200B;选项卡。
+1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
+1. （可选）在&#x200B;**上传文件**&#x200B;框中，选择一个文件夹。
+1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
+
+   或
+
+   单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
 
 1. （可选）添加评论。
 1. （可选）添加更多文件。
