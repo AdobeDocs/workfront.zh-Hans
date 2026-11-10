@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 1%
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 1%
 
 <span class="preview">有关详细信息，请参阅[Adobe Workfront计划的构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。</span>
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它只能作为&#x200B;**构思空间Beta**&#x200B;程序的一部分提供。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->本文中的信息介绍了Adobe Workfront Planning。 贵公司必须购买附加的Planning包才能访问Workfront Planning。
+>本文中的信息是指仅对拥有Adobe Workfront Planning的Workfront客户可用的功能。 您的公司必须购买额外的规划包。
 >
 >如果您的组织购买了Workfront Planning作为独立产品，则此处描述的功能将不可用。
 >
@@ -95,29 +93,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>云提供商要求</p></td> 
+   <td><p>AWS</p>
+   <p><b>注意：</b></p>
+   <p>不支持其他云提供商</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <ul> 
-<li><p>带规划包的任何Workfront或工作流</p></li>
+<li><p>具有计划包的任何工作流</p></li>
 <!--
-Not available right now: 
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>系统要求</p></td> 
+   <td><p>必须在“设置”区域的“系统首选项”中打开同事和MCP首选项设置</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe工作流许可证</p></td> 
    <td><p>标准</p>
@@ -127,24 +137,28 @@ Or
    <td role="rowheader"><p>Adobe计划许可证</p></td> 
    <td><p>标准</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td> 
    <ul>
-   <li><p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   </li>
+   <li><p>您必须将工作流和Planning许可证类型添加到访问级别 <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>必须取消选择访问级别中的禁用创意空间设置</p></li>
+   <li><p>必须取消选择访问级别中的“在Workfront中禁用CX Coworker面板”设置</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>为要添加记录的工作区和记录类型提供或更高权限 </p>
       <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
-      <p>查看对Workfront对象的权限以将其添加到摘要 <!--not sure if this is available--></p>
-      <p>编辑者权限创建简介的构思空间</p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
+      <p>创意空间上的编辑器权限以创建摘要</p>
    </td> 
   </tr>  
-  <!--
+    <!--
     <tr> 
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>

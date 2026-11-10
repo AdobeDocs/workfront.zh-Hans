@@ -18,10 +18,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 0%
+source-wordcount: '1899'
+ht-degree: 1%
 ---
 
 # 在构思空间中创建简报
@@ -32,12 +32,10 @@ ht-degree: 0%
 
 <span class="preview">有关详细信息，请参阅[Adobe Workfront计划的构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。</span>
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它只能作为&#x200B;**构思空间Beta**&#x200B;程序的一部分提供。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->本文中的信息介绍了Adobe Workfront Planning。 贵公司必须购买附加的Planning包才能访问Workfront Planning。
+>本文中的信息是指仅对拥有Adobe Workfront Planning的Workfront客户可用的功能。 您的公司必须购买额外的规划包。
 >
 >如果您的组织购买了Workfront Planning作为独立产品，则此处描述的功能将不可用。
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>云提供商要求</p></td> 
+   <td><p>AWS</p>
+   <p><b>注意：</b></p>
+   <p>不支持其他云提供商</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <ul> 
-<li><p>带规划包的任何Workfront或工作流</p></li>
+<li><p>具有计划包的任何工作流</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>系统要求</p></td> 
+   <td><p>必须在“设置”区域的“系统首选项”中打开同事和MCP首选项设置</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe工作流许可证</p></td> 
    <td><p>标准</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td> 
    <ul>
-   <li><p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>   </li>
+   <li><p>您必须将工作流和Planning许可证类型添加到访问级别 <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>必须取消选择访问级别中的禁用创意空间设置</p></li>
+   <li><p>必须取消选择访问级别中的“在Workfront中禁用CX Coworker面板”设置</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -300,25 +311,29 @@ Or
     -->
 1. 单击&#x200B;**保存**。
 
-1. 单击&#x200B;**帮助**&#x200B;图标左侧的&#x200B;**缩放级别**&#x200B;下拉图标或&#x200B;**帮助**&#x200B;图标![帮助图标](assets/more-information-icon.png)以选择一个选项，或查看可用于导航构思空间或选择其他缩放值的键盘快捷键。
+1. 单击&#x200B;**帮助**&#x200B;图标![帮助图标](assets/more-information-icon.png)左侧的&#x200B;**缩放级别**&#x200B;下拉菜单以选择一个选项。
 
-   从以下缩放级别中选择：
+   从以下选项中进行选择：
 
-   * 缩放到100%
-   * 缩放到200%
-   * 缩放以适合
+   * **缩放以适应**
+   * **放大**
+   * **缩小**
+   * 缩放到&#x200B;**50**、**100**、**150**&#x200B;或&#x200B;**200%**
+   * **显示点网格**：打开选择以显示点网格。
+   * **产品导览**：在使用构思空间时关闭选择以选择退出指导提示。
 
-   或者使用以下快捷方式之一在页面上导航：
+1. 单击&#x200B;**帮助**&#x200B;图标![帮助图标](assets/more-information-icon.png)可查看可用于导航构思空间或选择其他缩放值的键盘快捷键：
 
-   | 操作 | 快捷键 |
-   | --- | --- |
-   | 放大/缩小 | Ctrl/⌘ + / − |
-   | 缩放以适应/适应选择 | — |
-   | 缩放到光标 | Ctrl/⌘ +滚动 |
-   | 平移画布 | 按住空格+拖动 |
-   | 显示/隐藏点网格 | G |
-
-
+| 操作 | 快捷键 |
+| --- | --- |
+| 放大/缩小 | Ctrl/⌘ + / − |
+| 缩放到100% / | Ctrl/⌘ 1 / 1 |
+| 缩放到200% / | Ctrl/⌘ 2 / 2 |
+| 缩放以适合 | Ctrl/⌘ 0 / 0 |
+| 缩放以适合选择 | Alt Ctrl 0 |
+| 缩放到光标 | Ctrl/⌘滚动 |
+| 平移 | 按住空格拖动 |
+| 显示/隐藏点网格 | G |
 
 <!--
 
