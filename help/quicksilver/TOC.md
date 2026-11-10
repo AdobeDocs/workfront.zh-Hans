@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 3bc7dd1ed87bb99e08183a82dcd38ff65a14b73b
 workflow-type: tm+mt
-source-wordcount: '14762'
+source-wordcount: '14769'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -2345,6 +2345,7 @@ ht-degree: 2%
   * {hide-from-toc}Workfront规划中的构思空间 {#ideation}
     * {hide-from-toc}[用于Adobe Workfront Planning的构思空间：文章索引](planning/ideation/planning-ideation-article-index.md)
     * {hide-from-toc}[开始使用Adobe Workfront Planning的构思空间](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[使用构思空间所需的访问权限](planning/ideation/access-needed-to-use-ideation-space.md)
     * {hide-from-toc}[在构思空间中创建简报](planning/ideation/create-briefs-in-ideation-space.md)
     * {hide-from-toc}[从构思空间摘要创建Planning记录](planning/ideation/create-records-in-ideation-space-for-planning.md)
     * {hide-from-toc}[与他人共享构思空间](planning/ideation/share-the-ideation-space.md)
