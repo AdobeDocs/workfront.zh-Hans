@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '169'
 ht-degree: 1%
 ---
 # Beta项目
@@ -49,13 +49,13 @@ Beta版中提供的功能可能并非对所有客户都可用。
 
   有关信息，请参阅[Workfront内容审查者入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* Adobe Workfront规划Designer测试版现向所有客户提供。
+* Adobe Workfront规划Designer
 
   有关信息，请参阅[Adobe Workfront规划Designer入门](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
 <!--
 
-* Ideation space for Adobe Workfront Planning is available in Open beta.
+* Ideation space for Adobe Workfront Planning 
 
     For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 -->

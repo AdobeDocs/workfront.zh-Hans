@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 1%
 ---
 
@@ -129,7 +129,7 @@ Co-worker使用Workfront MCP服务器功能代表您执行操作。 有关信息
 
 * 通过同事创建、更新或删除对象时，同事显示预期操作并请求确认。 然后，您可以确认或取消操作。
 
-## 当前适用于同事的功能
+## Workfront Planning中当前为同事提供的功能
 
 目前，Co-worker在Workfront的Planning区域可用，它使用一组技能来访问和处理Planning对象的信息。 有关详细信息，请参阅[CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
@@ -137,14 +137,16 @@ Co-worker使用Workfront MCP服务器功能代表您执行操作。 有关信息
 
 * 搜索记录。 您可以按任何记录字段中包含的信息进行搜索。
 * 创建记录。 创建记录后，将显示一个包含指向新记录的链接的ID。 您可以指定要在创建过程中更新的字段，如日期或说明。
-* 根据上传的文档创建记录。 Workfront支持Co-worker的以下文档格式：
+* 根据上传的文档创建记录。 Workfront支持将以下文档格式附加到同事：
 
   PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT和大多数图像格式
 * 更新您在屏幕上看到的记录的字段
 * 删除、复制或恢复记录
 * 将记录链接到其他记录
 * 查看记录的更改历史记录
-* 通过将Excel文件附加到同事，导入10,000条或更多记录。
+* 通过将Excel文件附加到同事，导入10,000条或更多记录
+* 创建和管理业务规则。
+
 
 ## 在Workfront Planning中找到同事
 

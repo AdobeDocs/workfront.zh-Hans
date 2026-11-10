@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1311'
 ht-degree: 0%
 ---
 
@@ -68,43 +68,61 @@ Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workf
 
 该创意空间只能通过Workfront Planning或Workfront主菜单访问，它位于活动生命周期的最前面，处于计划、生产和交付之前，并直接馈送到Workfront Planning工作区，团队可在其中规划和执行其工作。
 
-构思空间利用Enterprise CX Coworker生成简报，以便稍后转换为Planning记录或下载为PDF。
+创意空间可利用Adobe Enterprise CX Coworker生成摘要，以便您稍后可以将其转换为Planning记录或下载为PDF。
 
 ## 产品可用性
 
 创意空间的计划发布时间表可能会发生更改，其中包括以下里程碑：
 
 * 面向少量客户的&#x200B;**已关闭的Beta：**&#x200B;已于2026年7月推出。
+
+  生产环境中提供了构思空间供参与客户使用。
 * **打开Beta：**，目标日期为2026年11月12日。 这是一项选择加入服务，您必须主动打开该选项，而不是主动选择退出该服务。
+
+  创意空间在“生产”、“预览”和“沙盒”环境中可用，适用于满足所有其他要求的所有客户。
+
 * **正式发布：**&#x200B;计划于2027年2月1日发布。
 
 ## 产品要求
 
-如果您的组织和您有权访问以下产品，则可以访问创意空间：
-
-* Adobe Workfront与Workfront Planning
-* 企业CX Coworker
-
-  >[!IMPORTANT]
-  >
-  >CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI Assistant可供这些组织使用，但构思空间不可用于没有CX Coworker的Workfront客户。
-
-根据您何时访问创意空间，您必须有权访问以下包：
-
-* 在发布Open Beta时，您必须具备以下条件：
-
-  * 包含Workfront规划包的Adobe Workfront工作流包
-
-* 在General Availability版本发布之后，您可以执行以下操作之一：
-
-  * 包含Workfront规划包的Adobe Workfront工作流包
-  * Adobe Workfront计划作为独立产品
+<!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
 >[!NOTE]
 >
->只能从Workfront主菜单或Workfront Planning访问构思空间。 您无需单独登录即可访问创意空间。 如果您可以登录到Workfront，则它立即可用。
+>您无需单独登录即可访问创意空间。 如果您还拥有Workfront Planning，则可以立即将其登录到Workfront。
+>
+>有关使用构思空间所需访问权限的详细信息，请参阅[使用构思空间所需访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
-有关使用构思空间所需访问权限的详细信息，请参阅[使用构思空间所需访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+如果您的组织和您有权访问以下内容，则可以访问构思空间：
+
+* 云提供商：
+
+  * AWS
+
+    不支持Azure和GCP提供程序。
+
+* 产品：
+
+  * Adobe Workfront与Workfront Planning
+  * 适用于Workfront的Adobe Enterprise CX Coworker
+
+    >[!IMPORTANT]
+    >
+    >Adobe CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI Assistant可供这些组织使用，但构思空间不可用于没有同事的Workfront客户。
+
+* Adobe包：
+
+  * 在开放Beta版本（从2026年11月12日开始）中，您必须满足以下条件：
+
+    * 包含Workfront规划包的Adobe Workfront工作流包
+
+  * 在正式发布版本（计划于2027年2月1日发布）之后，您可以执行以下任一操作：
+
+    * 包含Workfront规划包的Adobe Workfront工作流包
+    * Adobe Workfront计划作为独立产品
+
+
+
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -154,13 +172,24 @@ Too much:
   * 例如，您可以在启动无直接营销活动历史记录的新产品、区段或计划时创建营销活动。
   * 这通过引导思想、建议的渠道组合以及初始概念或报文方向产生了一个全新的简报。
 
-## 构思空间概述
+## 构思空间与Adobe CX Enterprise Coworker
 
-构思空间是一个协作式的战略营销构思工具，适用于品牌和产品营销人员，以更快地构建更强大的营销活动并更好地协调团队。 它将AI建议置于实际营销环境中 — 过去的摘要、性能数据、受众见解、品牌指南和现有的营销活动资产 — 因此结果相关，而不是通用。
+构思空间使用Adobe CX Enterprise Coworker作为其提示界面。
 
-以下是在创建摘要时如何充分利用您的想法的一些示例：
+用户可以提出后续问题，并以简短的话语形式进行细化，而不是只获得一次性的结果。
 
-* 上传文档或社交侦听见解
+当摘要与Workfront规划实时记录关联时，同事不会覆盖它，因此基础计划保持不变。 仅当将摘要导出到Workfront Planning时，才会覆盖记录。
+
+<!--
+Previous intro but oped for the more direct one above: 
+The Ideation space is a collaborative strategic marketing ideation tool for brand and product marketers to build stronger campaigns faster and with better team alignment. It grounds AI suggestions in real-marketing context — past briefs, performance data, audience insights, brand guidelines, and existing campaign assets — so results are relevant, not generic.
+
+Ideation space works exclusively with the CX Enterprise Coworker for Workfront as the prompting agent for all its capabilities. 
+-->
+
+以下是在构思空间中使用的Co-worker的一些功能：
+
+* 上传文档或社交分析
 * 访问与您正在构建的简报相关的Web内容
 * 定义营销活动目标
 * 获取受众分析摘要
@@ -169,7 +198,7 @@ Too much:
 * 在大型可视画布中工作，使用AI提示生成文本、图像、文件、图表和insight卡片
 * 组织、修订和扩展信息卡，以最终将其转换为营销活动简报
 * 与多个用户进行协作，这些用户可以在最终确定简报之前添加创意、对特定画布项目发表评论或针对自由格式创意使用附注
-* 我们建议在使用构思空间时遵循以下最佳实践：
+* 建议在创意空间中使用同事时遵循以下最佳实践：
 
   * **特定**。 更丰富的营销活动描述会产生更相关、更扎实的宣传卡。
   * **在完成**&#x200B;前进行验证。 AI生成的响应可能不准确，因此始终检查卡片上的&#x200B;**源**&#x200B;并根据链接的源进行确认，然后再最终确定记录。
@@ -181,6 +210,8 @@ Too much:
 
 1. 按照本文的[产品要求](#product-requirements)部分所述，验证您是否满足产品要求。
 1. 请联系您的Adobe客户代表以表示有兴趣参与封闭Beta，或在开放Beta可用时加入它。
+
+   默认情况下，系统管理员有权访问构思空间，当该构思空间在Open Beta中可用时，无法删除它。 他们可以为所有其他用户将其打开。
 1. （推荐）确定您的第一个活动：要刷新的最近活动，或从头开始创建的新计划。
 
 有关使用构思空间的更多信息，另请参阅以下文章：
@@ -200,9 +231,10 @@ Too much:
 
   主菜单中的![构思空间区域](assets/ideation-space-area-icon-in-main-menu.png)
 
-  >[!TIP]
-  >
-  >无法使用布局模板从主菜单中删除创意空间区域。 如果您希望用户无权访问创意力空间，则必须在其访问级别中打开禁用创意力空间设置，如使用创意力空间所需的[访问](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)中所述。
+>[!TIP]
+>
+>无法使用布局模板从主菜单中删除创意空间区域。 有关阻止用户访问构思空间的更多信息，请参阅[使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+>
 
 ## 构思空间生成的对象
 
@@ -214,14 +246,6 @@ Too much:
 * 计划记录
 
   仅当从Workfront Planning访问构思空间或先前将Planning记录连接到构思摘要时，才能将摘要导出到Planning记录。
-
-## 构思空间与Adobe CX Enterprise Coworker
-
-构思空间使用Adobe的CX Enterprise Coworker作为提示界面。
-
-用户可以提出后续问题，并以简短的话语形式进行细化，而不是只获得一次性的结果。
-
-当摘要与实时Workfront Planning连接绑定时，同事不会覆盖它，因此基础计划保持不变。<!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -258,13 +282,15 @@ Worth noting
 *************************************
 -->
 
-## 其他资源
+<!--
+## Additional resources
 
-* [Adobe Workfront促销活动计划](https://business.adobe.com/cn/products/workfront/campaign-planning.html)
-* [Adobe Workfront规划文档](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概述](https://business.adobe.com/cn/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/cn/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
+-->
 
 <!--
 

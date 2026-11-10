@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '229'
 ht-degree: 0%
 ---
 
@@ -31,12 +31,10 @@ ht-degree: 0%
 
 <span class="preview">有关详细信息，请参阅[Adobe Workfront计划的构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。</span>
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它只能作为&#x200B;**构思空间Beta**&#x200B;程序的一部分提供。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->本文中的信息介绍了Adobe Workfront Planning。 贵公司必须购买附加的Planning包才能访问Workfront Planning。
+>本文中的信息是指仅对拥有Adobe Workfront Planning的Workfront客户可用的功能。 您的公司必须购买额外的规划包。
 >
 >如果您的组织购买了Workfront Planning作为独立产品，则此处描述的功能将不可用。
 >
