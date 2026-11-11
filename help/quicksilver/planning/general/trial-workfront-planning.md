@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning免费试用版快速入门
@@ -254,7 +254,7 @@ this information will be live on March 2 - the How to sign up below will be a ##
 1. （有条件，必需）作为Workfront管理员，签署免费试用协议。
 
    有关信息，请参阅本文中的[注册Adobe Workfront Planning免费试用](#enroll-in-the-adobe-workfront-planning-free-trial)部分。
-1. （视情况而定）在Workfront管理员签署试用协议后，单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-shell.png)，然后单击以下图标之一以访问&#x200B;**Planning**&#x200B;区域：
+1. （视情况而定）在Workfront管理员签署试用协议后，单击&#x200B;**主菜单**&#x200B;图标![主菜单](assets/main-menu-shell.png)，然后单击以下任一按钮以访问&#x200B;**Planning**&#x200B;区域：
 
    * **计划**。 图标旁边显示&#x200B;**试用版**&#x200B;标签。
    * **项目**，**请求**，**日历**，然后单击&#x200B;**浏览营销活动日历**

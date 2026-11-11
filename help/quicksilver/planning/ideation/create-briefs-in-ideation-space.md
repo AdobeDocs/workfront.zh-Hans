@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '2011'
 ht-degree: 1%
 ---
 
@@ -92,9 +92,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>云提供商要求</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>注意：</b></p>
-   <p>不支持其他云提供商</p>
+   <p>我们不支持任何其他云提供商。</p>
    </td> 
   </tr>
 <tr> 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -180,11 +180,13 @@ Or
    * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **创意空间**
    * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型> **新记录** > **开始创意空间**
 
-   构思空间打开，新构思的标题默认遵循以下格式：
+1. 阅读Beta版协议，然后单击&#x200B;**同意**。 您必须签署协议才能使用构思空间。
+
+   创意空间画布打开，默认情况下，新创意的标题在以下格式之后：
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   有关使用构思空间创建记录的详细信息，请参阅[从构思空间简述创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
+   有关使用构思空间创建记录的详细信息，请参阅[从构思空间简报创建Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
 
 1. （视情况而定）要在Ideation space中打开现有的摘要，请在打开Co-worker的情况下使用Planning登录Workfront，然后执行以下操作之一：
 
@@ -203,7 +205,7 @@ Or
 1. （可选）单击Co-worker提示框中的&#x200B;**+**&#x200B;图标，并按以下方式附加信息：
 
    * **命令**：使用列表中的命令提示同事输入内容。
-   * **附加文件**：将文件附加到提示框以将它或它的信息添加到构思空间。 您必须要求同事根据文件创建信息卡，以便稍后将信息卡发送到简报。
+   * **附加文件**：将文件附加到提示框以将它或其信息添加到创意画布。 您必须要求同事根据文件创建信息卡，以便稍后将信息卡发送到简报。
    * **引用对象**：从列表中选择对象以在您的构思中引用它。 对象必须存在于Workfront中。
 
 1. 单击Enter。
@@ -216,14 +218,14 @@ Or
 
 1. （视情况而定）当同事为创意内容创建卡片时，回答&#x200B;**是**。
 
-   信息卡会添加到创意空间，您可以查看每个信息卡的来源并决定要将哪个信息卡添加到您的摘要。
+   信息卡会添加到创意画布，您可以查看每个信息卡的来源并决定要将哪个信息卡添加到您的摘要。
 
    >[!TIP]
    >
    >不能直接将文件添加到摘要。 您必须先将文件信息传输到可发送给简介的卡片上。
 
 
-1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以搜索构思空间中的项目，然后单击该图标在列表中显示时导航到它。
+1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以搜索构思画布中的项目，然后在构思画布显示在列表中时单击以导航到该构思画布。
 
 1. （可选）单击每张卡片底部的&#x200B;**源**&#x200B;以了解从何处收集信息。
 
@@ -233,7 +235,7 @@ Or
 1. （可选）单击共享空间右上角的&#x200B;**评论** ![评论图标](assets/comments-icon.png)，然后单击&#x200B;**@**&#x200B;标记其他人在共享空间内开始头脑风暴。
 
    用户将收到有关标记的电子邮件通知。
-1. （可选）单击评论卡片中的&#x200B;**筛选器**&#x200B;图标![](assets/filter-comments-icon.png)以按以下条件筛选评论：
+1. （可选）单击评论卡片中的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-comments-icon.png)以按以下条件筛选评论：
 
    * 审阅者
    * 添加评论的时间
@@ -247,27 +249,31 @@ Or
    例如，时间线添加到日期类型字段，说明添加到段落类型字段。
 
 1. （视情况而定）单击信息卡，然后单击&#x200B;**向人工智能提问……**，以在将信息添加到简介之前获取有关下一步的想法。 答案取决于每张信息卡的上下文。
-1. 单击位于构思空间左上角的&#x200B;**添加文档**&#x200B;图标![添加文档图标](assets/add-documents-in-ideation-space.png)以将文档上载到空间。 您可以添加新的文档或以前已添加到空间的文档。
+1. 单击“构思”画布左上角的&#x200B;**添加文档**&#x200B;图标![添加文档图标](assets/add-documents-in-ideation-space.png)以将文档上载到共享空间。 您可以添加新的文档或以前已添加到空间的文档。
 
    >[!TIP]
    >
    >必须启用“文档”设置才能访问文档并将文档上传到空间。
-   >有关信息，请参阅本文中的[配置构思空间](#configure-the-ideation-space)部分。
+   >有关信息，请参阅本文中的[配置构思空间画布](#configure-the-ideation-space-canvas)部分。
    > 
-1. 单击&#x200B;**添加WF分类卡**&#x200B;图标![从Workfront Planning添加](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip-->并选择连接的记录类型，然后从每种类型中选择一条记录，将该记录的信息添加到您选择的记录类型中。
+1. 单击&#x200B;**添加Workfront Connected Planning记录**&#x200B;图标![添加Workfront Connected Planning记录](assets/add-from-wf-planning-on-ideations-space.png)并选择连接的记录类型，然后从每种类型中选择一条记录，将该记录的信息添加到您选择的记录类型中。
 
    将为您选择添加到空间的记录创建一张信息卡。 记录类型显示在记录卡片的左上角。
 
    >[!TIP]
    >
-   >从主菜单访问构思空间时，**添加WF分类卡**&#x200B;图标<!--check UI name-->不可用，并且摘要未连接到Planning记录。
+   >* 从主菜单访问构思空间时，**添加Workfront连接的Planning记录**&#x200B;图标不可用，并且摘要未连接到Planning记录。
+   >
+   >* 只有连接的规划记录可用于添加到创意空间画布作为创意的上下文。 添加到画布的每个已连接记录卡片都将影响所创建的内容类型，并在构思期间适用的情况下使用该上下文。
+   >
+   >   例如，如果要构建必须使用现有记录类型的营销活动，则将这些记录添加到画布。
 
 1. （可选）单击连接的记录卡上的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在Workfront中查看**。
 
    记录详细信息页面将在Workfront Planning的另一个浏览器选项卡中打开。
-1. （可选）选择构思框架或卡片，单击&#x200B;**删除**&#x200B;图标，然后单击&#x200B;**删除**&#x200B;以进行确认。 卡从构思空间中移除。
+1. （可选）选择构思框架或卡片，单击&#x200B;**删除**&#x200B;图标，然后单击&#x200B;**删除**&#x200B;以进行确认。 卡片即从“构思”空间画布中移除。
 
-   当您删除与存储的文档或记录对应的信息卡时，项目会从构思空间中删除，但会保留在各自的应用程序中。
+   当您删除与存储的文档或记录对应的信息卡时，项目将从画布中删除，但会保留在各自的应用程序中。
 
 1. （可选）随时使用右下角的&#x200B;**向同事询问任何内容**&#x200B;框优化您的想法。
 
@@ -277,7 +283,7 @@ Or
 
    ![复制到提示栏图标](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. （可选）单击创意空间顶部的&#x200B;**撤消**&#x200B;或&#x200B;**重做**&#x200B;图标![撤消和重做图标](assets/undo-redo-icons.png)以取消或撤消操作。
+1. （可选）单击画布顶部的&#x200B;**撤消**&#x200B;或&#x200B;**重做**&#x200B;图标![撤消和重做图标](assets/undo-redo-icons.png)以取消或撤消操作。
 1. 缩小以查看全貌：您的原始营销活动目标、所有包含引文的AI生成的概念卡、其他文档、您已拉入的实际Workfront Planning记录（产品、角色等）。 左下角的&#x200B;**Brief**&#x200B;摘要卡将所有这些内容拉在一起。
 
 1. 单击左下角的摘要预览图像并查看摘要，然后单击以下选项之一：
@@ -296,11 +302,13 @@ Or
    此操作将完成记录或文件的创建，并包含附加信息。 如果从现有记录开始，则摘要中的信息将添加到记录中。 如果您从新记录开始，则使用简介中的信息创建记录。
 
    有关使用摘要更新Planning记录的更多信息，请参阅[从创意空间摘要创建Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)一文中的“关于使用创意空间创建记录的注意事项注意事项”部分。
+1. （可选）单击&#x200B;**共享**&#x200B;以与他人共享创意画布。
 
+   有关详细信息，请参阅[与他人共享构思空间](/help/quicksilver/planning/ideation/share-the-ideation-space.md)。
 
-## 配置构思空间
+## 配置构思空间画布
 
-创意空间有一些控件，用于配置您在屏幕上看到的内容，并帮助您导航该空间。
+创意力空间有一些控件，用于配置您在屏幕上看到的内容，并帮助您导航画布。
 
 1. 单击&#x200B;**设置**&#x200B;图标![设置](assets/setting-icon.png)以控制AI从何处提取信息，然后从以下&#x200B;**Source类型**&#x200B;中进行选择：
 
@@ -322,7 +330,7 @@ Or
    * **显示点网格**：打开选择以显示点网格。
    * **产品导览**：在使用构思空间时关闭选择以选择退出指导提示。
 
-1. 单击&#x200B;**帮助**&#x200B;图标![帮助图标](assets/more-information-icon.png)可查看可用于导航构思空间或选择其他缩放值的键盘快捷键：
+1. 单击&#x200B;**帮助**&#x200B;图标![帮助图标](assets/more-information-icon.png)可查看可用于导航画布或选择其他缩放值的键盘快捷键：
 
 | 操作 | 快捷键 |
 | --- | --- |

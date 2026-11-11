@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1352'
 ht-degree: 0%
 ---
 
@@ -97,29 +97,31 @@ Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workf
 
 * 云提供商：
 
-  * AWS
+  * Amazon Web Services (AWS)
 
     不支持Azure和GCP提供程序。
 
 * 产品：
 
   * Adobe Workfront与Workfront Planning
-  * 适用于Workfront的Adobe Enterprise CX Coworker
+  * Workfront中的CX Enterprise Coworker
 
     >[!IMPORTANT]
     >
-    >Adobe CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI Assistant可供这些组织使用，但构思空间不可用于没有同事的Workfront客户。
+    >CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI Assistant可供这些组织使用，但构思空间不可用于没有同事的Workfront客户。
 
-* Adobe包：
+* Adobe包： <!--Et wanted the Coworker added to these-->
 
   * 在开放Beta版本（从2026年11月12日开始）中，您必须满足以下条件：
 
-    * 包含Workfront规划包的Adobe Workfront工作流包
+    * 已激活Adobe Workfront且包含Workfront规划包的Adobe CX Enterprise Coworker工作流包
 
   * 在正式发布版本（计划于2027年2月1日发布）之后，您可以执行以下任一操作：
 
     * 包含Workfront规划包的Adobe Workfront工作流包
     * Adobe Workfront计划作为独立产品
+
+    两个包都必须激活Adobe CX Enterprise Coworker
 
 
 
@@ -189,6 +191,7 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 以下是在构思空间中使用的Co-worker的一些功能：
 
+* 执行假设分析，以比较不同的活动主题、消息或测试您的战略方向
 * 上传文档或社交分析
 * 访问与您正在构建的简报相关的Web内容
 * 定义营销活动目标
@@ -211,7 +214,12 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 1. 按照本文的[产品要求](#product-requirements)部分所述，验证您是否满足产品要求。
 1. 请联系您的Adobe客户代表以表示有兴趣参与封闭Beta，或在开放Beta可用时加入它。
 
-   默认情况下，系统管理员有权访问构思空间，当该构思空间在Open Beta中可用时，无法删除它。 他们可以为所有其他用户将其打开。
+   默认情况下，系统管理员有权访问构思空间，当该构思空间在Open Beta中可用时，无法删除它。 他们可以在以下任何环境中为所有其他用户打开此设置：
+
+   * 生产
+   * 预览
+   * 自定义沙盒
+
 1. （推荐）确定您的第一个活动：要刷新的最近活动，或从头开始创建的新计划。
 
 有关使用构思空间的更多信息，另请参阅以下文章：
@@ -285,10 +293,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/cn/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/cn/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/cn/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '969'
 ht-degree: 1%
 ---
 
@@ -71,7 +71,7 @@ Adobe Workfront Planning现在提供了一项可在启动营销活动之前进�
 
 >[!NOTE]
 >
->您无需单独登录即可访问创意空间。 如果您还拥有Workfront Planning，则可以立即将其登录到Workfront。
+>您无需单独登录即可访问创意空间。 如果您还拥有Workfront Planning并且还能登录Workfront，则它立即可用。
 >
 >有关使用构思空间所需访问权限的详细信息，请参阅[使用构思空间所需访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
@@ -79,9 +79,9 @@ Adobe Workfront Planning现在提供了一项可在启动营销活动之前进�
 
 * 云提供商：
 
-  * AWS
+  * Amazon Web Services (AWS)
 
-    不支持Azure和GCP提供程序。
+    构思空间不支持Azure和GCP提供程序。
 
 * 产品：
 
@@ -92,16 +92,20 @@ Adobe Workfront Planning现在提供了一项可在启动营销活动之前进�
     >
     >CX Enterprise Coworker当前不适用于医疗、金融或某些其他行业中具有敏感数据的组织。 AI Assistant可供这些组织使用，但构思空间不可用于没有同事的Workfront客户。
 
-* Adobe包：
+* Adobe包： <!--Et wanted the Coworker added to these-->
 
   * 在开放Beta版本（从2026年11月12日开始）中，您必须满足以下条件：
 
-    * 包含Workfront规划包的Adobe Workfront工作流包
+    * 已激活Adobe Workfront且包含Workfront规划包的Adobe CX Enterprise Coworker工作流包
 
   * 在正式发布版本（计划于2027年2月1日发布）之后，您可以执行以下任一操作：
 
     * 包含Workfront规划包的Adobe Workfront工作流包
     * Adobe Workfront计划作为独立产品
+
+    两个包都必须激活Adobe CX Enterprise Coworker
+
+
 
 
 <!--
@@ -171,7 +175,7 @@ Your organization must purchase a package for the following products to access t
 
 当您使用Workfront Planning中的构思空间时，每个Planning记录都连接到构思空间中的一个摘要。
 
-构思空间摘要权限继承自Workfront Planning记录权限。<!--not sure if this is right, because now you can share the ideation with others??-->
+构思空间摘要权限继承自Workfront Planning记录权限。
 
 您必须对Planning中的记录类型具有Contribute或更高权限才能创建记录，以便在Ideation space中创建或编辑记录。
 
@@ -183,6 +187,8 @@ Your organization must purchase a package for the following products to access t
 |---|---|
 | 记录的Contribute或更高权限 | 可以在记录的构思空间中创建摘要 |
 | 查看记录的权限 | 可以在构思空间中读取记录的摘要，但不能对其进行修改 |
+
+您还可以与他人共享创意画布。 有关更多信息，请参阅本文中的以下部分。
 
 ## 构思空间权限
 

@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 0%
 ---
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>云提供商要求</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>注意：</b></p>
-   <p>不支持其他云提供商</p>
+   <p>我们不支持任何其他云提供商。</p>
    </td> 
   </tr>
 <tr> 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -170,7 +170,7 @@ Or
 * 要使用创意空间创建或编辑记录，您必须在Workfront Planning中拥有工作区和记录类型。
 * 新记录始终以占位符内容开头，无论您如何创建它们。
 * 删除链接到构思简介的Planning记录时，该简介保留在构思空间中，并且其相关空间未被删除。
-* 信息同步仅从构思空间到Workfront Planning进行。 从Planning记录到Ideation space brief之间没有反向同步或自动同步。<!--this might change?-->
+* 信息同步仅从构思空间到Workfront Planning进行。 从Planning记录到Ideation space brief之间没有反向同步或自动同步。<!--this might change after beta?-->
 * 在Workfront Planning中创建、编辑或删除字段时存在以下情况：
 
   * 在链接到构思简报的记录上创建的新字段每天都添加到该简报中。 新字段在构思简介中显示为空。
@@ -189,8 +189,8 @@ Or
 1. 单击可向其添加记录的记录类型的卡。
 1. 执行以下操作之一以创建记录：
 
-   * 从记录类型页面的任何视图中，单击页面右上角的&#x200B;**新建记录**&#x200B;并在&#x200B;**选择添加记录的方式**&#x200B;框中单击&#x200B;**打开构思空间**，然后单击&#x200B;**继续**。
-   * 滚动到记录表的底部，单击&#x200B;**新建行**，然后单击&#x200B;**打开构思空间**。
+   * 从记录类型页面的任何视图中，单击页面右上角的&#x200B;**新建记录**&#x200B;并在&#x200B;**选择添加记录的方式**&#x200B;框中单击&#x200B;**开始构思空间**，然后单击&#x200B;**继续**。
+   * 滚动到记录表的底部，单击&#x200B;**新建行**，然后单击&#x200B;**开始构思空间**。
 
      >[!TIP]
      >
@@ -198,11 +198,15 @@ Or
 
    ![新录制框，带有打开构思空间按钮](assets/new-record-creation-picker-with-ideation.png)
 
-   “构思”空间将在新选项卡中打开。
+1. 阅读Beta版协议，然后单击&#x200B;**同意**。 您必须签署协议才能使用构思空间。
 
-   将在右侧面板中打开Co-worker。
+   出现以下情况：
 
-   记录会立即创建，并带有占位符名称。
+   * “构思”空间画布将在新选项卡中打开。
+
+   * 将在右侧面板中打开Co-worker。
+
+   * 记录会立即创建，并带有占位符名称。
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -243,7 +247,7 @@ Or
 
 1. 转到Workfront Planning中的现有记录并打开其详细信息页面。
 
-1. 单击&#x200B;**在构思空间中打开** ![](assets/open-in-ideation-space.png)。 这将在新选项卡中打开“构思”空间。
+1. 单击详细信息页面右上角的&#x200B;**在构思空间中打开**。 这将在新选项卡中打开“构思”空间。
 
    如果记录的构思已存在，则会打开该空间。
 

@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 1%
 ---
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>云提供商要求</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>注意：</b></p>
-   <p>不支持其他云提供商</p>
+   <p>我们不支持任何其他云提供商。</p>
    </td> 
   </tr>
 <tr> 
@@ -163,7 +163,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -192,7 +192,7 @@ Or
      贵组织中访问级别为工作流和Planning许可证的所有人均可查找并评论该构思。
    * **拥有该链接的任何人都可以评论**
 
-     您共享该构思链接的任何人都可以在该构思上发表评论，包括组织外部的人员。
+     与您共享创意画布链接的任何人都可以在该画布上发表评论，包括组织外部的人员。
 
 1. 单击&#x200B;**复制链接**&#x200B;可生成指向该创意的链接并与他人共享。 该链接将添加到您的剪贴板。
 1. 单击“Settings（设置）”框上的“back（后退）”箭头，返回到“sharing（共享）”。
@@ -200,13 +200,13 @@ Or
 
    | 构思空间权限 | 功能 |
    |---|---|
-   | **编辑者** | 可以编辑、下载和共享创意空间 |
-   | **评论者** | 可以查看和评论构思空间 |
-   | **查看器** | 可以查看构思空间 |
+   | **编辑者** | 可以编辑、下载和共享创意画布 |
+   | **评论者** | 可以在构思画布上查看和评论 |
+   | **查看器** | 可以查看构思画布 |
 
-1. （可选）在任务中包含消息，然后单击&#x200B;**邀请**。
+1. （可选）在共享邀请中包含邮件，然后单击&#x200B;**邀请**。
 
-   受邀用户会收到有关其权限分配的电子邮件通知。
+   受邀用户将收到有关其权限分配的电子邮件通知。
 
 1. 单击&#x200B;**X**&#x200B;图标以关闭&#x200B;**共享文档**&#x200B;框。
 

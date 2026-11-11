@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3504'
 ht-degree: 1%
 ---
 # 更新工作
@@ -298,7 +298,7 @@ You can add updates to the following objects:
 
 1. 找到要添加注释的对象，然后单击其名称以打开该对象的页面。
 1. 单击左侧面板中的&#x200B;**更新**。
-默认情况下已选中&#x200B;**评论**&#x200B;选项卡。
+默认情况下已选中**评论**&#x200B;选项卡。
 
 1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
 
@@ -625,15 +625,23 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 <div class="preview">
 
-## 固定评论
+## 固定评论线程
 
-您可以将顶级注释固定到“注释”选项卡的顶部。 无法固定属于线程的回复。
+您可以将重要线程固定到“更新”选项卡的顶部，以将其与“已固定的线程”部分中的更新流分开。
 
-1. 转到支持固定注释的对象，然后单击左侧面板中的“更新”，然后单击“**注释**”选项卡。
+固定线程时，请考虑以下事项：
+
+* 您可以将顶级注释固定到“注释”选项卡的顶部。 无法固定属于线程的回复。
+* 稍后可以取消固定线程。
+* 有权查看具有“更新”区域的对象的任何人都可以固定或取消固定跟帖。
+
+固定注释线程：
+
+1. 转到具有&#x200B;**更新**&#x200B;区域的对象，单击左侧面板中的&#x200B;**更新**，然后单击&#x200B;**评论**&#x200B;选项卡。
 
    有关信息，请参阅[更新选项卡概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-1. 添加评论，或从现有评论中单击评论右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，单击&#x200B;**固定线程**。 评论和任何现有回复都会固定到“评论”选项卡的顶部。
+1. 添加评论，或从现有评论中单击评论右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，单击&#x200B;**固定线程**。 注释和任何现有回复都会固定到“注释”选项卡的顶部，以供您和可以查看对象的所有人查看。
 
    在&#x200B;**评论**&#x200B;选项卡的顶部创建了新的&#x200B;**固定线程**&#x200B;部分。
 
@@ -645,7 +653,41 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 </div>
 
+<!--
+<div class="preview">
 
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ************add a screen shot***************
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+-->
 
 ## 删除评论或回复
 
