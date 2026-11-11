@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '382'
 ht-degree: 4%
 ---
 # 在工作流中创建迭代
 
->[!IMPORTANT]
->
->工作流仅适用于特定的客户组。
+{{boards-workstreams}}
 
 迭代是为完成工作而保留的设定时间。 某些Agile团队可能会将开发周期称为冲刺。
 

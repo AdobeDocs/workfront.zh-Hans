@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '470'
 ht-degree: 3%
 ---
 # 在工作流展示板上配置积压
 
->[!IMPORTANT]
->
->工作流仅适用于特定的客户组。
+{{boards-workstreams}}
 
 您可以选择在工作流中的展示板上显示积压列，并为从工作流卡列表中拉入展示板积压的卡定义查询。
 

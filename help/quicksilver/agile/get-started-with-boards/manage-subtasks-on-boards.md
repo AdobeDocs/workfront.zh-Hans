@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 4%
 ---
 # 管理展示板上的子任务
+
+{{boards-maintenance-mode}}
 
 利用信息卡上的子任务，您可以在任务之间建立父子关系，并创建工作的层次结构。 您添加到Workfront展示板上信息卡的子任务也会添加到Workfront项目中的任务。 有关项目级别的子任务和任务的详细信息，请参阅[创建子任务](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)。
 

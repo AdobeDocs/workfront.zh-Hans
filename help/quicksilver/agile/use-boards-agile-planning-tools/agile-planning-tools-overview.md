@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '179'
 ht-degree: 0%
 ---
 # Agile规划工具概述：文章索引
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 当您使用临时信息卡和连接的信息卡创建展示板时，您可以利用其他敏捷规划工具。
 
@@ -44,10 +46,6 @@ ht-degree: 0%
 * 工作流和迭代展示板
 * 卡列表或积压
 * 迭代量度
-
->[!IMPORTANT]
->
->工作流及其相关工具仅适用于特定客户组。
 
 您可以按照适合您和团队的方式使用任意或所有这些工具，而无需采用特定的Agile方法。
 

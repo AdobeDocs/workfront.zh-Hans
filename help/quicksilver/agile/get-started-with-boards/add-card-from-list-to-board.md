@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '579'
 ht-degree: 4%
 ---
 # 将现有任务或问题添加到[!DNL Workfront]讨论区
 
->[!IMPORTANT]
->
->工作流仅适用于特定的客户组。
+{{boards-workstreams}}
 
 您可以从列表或报告视图或对象详细信息将任何任务或问题添加到[!DNL Adobe Workfront]中的展示板或工作流。
 

@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
 ---
 # 删除或存档展示板
+
+{{boards-maintenance-mode}}
 
 您可以在[!DNL Workfront]中删除或存档讨论区。 删除展示板会将其从[!DNL Workfront]中永久删除，而存档展示板会保留所有信息卡，并允许稍后恢复它。
 

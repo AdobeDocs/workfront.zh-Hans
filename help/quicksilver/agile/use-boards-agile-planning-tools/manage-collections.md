@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '919'
 ht-degree: 2%
 ---
 # 管理工作流
 
->[!IMPORTANT]
->
->工作流仅适用于特定的客户组。
+{{boards-workstreams}}
 
 工作流是一组可配置的展示板和卡片，用于协作处理工作。 工作流可以包括从模板创建的不同类型的展示板和工作项的卡片列表。 在工作流中，您可以跟踪迭代或冲刺中的工作。
 

@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 3%
 ---
 # 管理讨论区管理员视图
+
+{{boards-maintenance-mode}}
 
 “展示板管理视图”包含您的帐户中每个展示板的列表，系统管理员可以使用它们快速获取整个展示板详细信息的快照，包括上次更新时间、每个展示板有多少张展示板等等。
 

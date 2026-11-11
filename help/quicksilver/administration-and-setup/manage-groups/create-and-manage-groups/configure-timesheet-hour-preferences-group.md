@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 2%
 ---
 # 配置组的工时表与小时首选项
@@ -107,7 +107,7 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
 1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
 1. 单击要配置其时间表或小时首选项的组的名称。
-1. 在左侧面板中，单击&#x200B;**时间表和小时数**。
+1. 在显示的页面上，单击左侧的&#x200B;**时间表和小时数**。
 
 1. 在显示的页面上，在&#x200B;**常规首选项**&#x200B;部分中，配置以下任意选项：
 

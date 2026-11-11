@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 7%
 ---
 # 配置信息卡减少
+
+{{boards-maintenance-mode}}
 
 您可以配置展示板，以便按计划存档信息卡，或使信息卡“从展示板中流失”。 您可以在特定列中设置卡片，以使其在特定天数或几周内从展示板中流失。
 

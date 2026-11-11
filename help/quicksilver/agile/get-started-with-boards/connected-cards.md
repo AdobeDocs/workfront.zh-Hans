@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 2%
@@ -38,6 +38,8 @@ ht-degree: 2%
 # 在展示板上使用连接的信息卡
 
 <!-- Audited: 2/2024 -->
+
+{{boards-maintenance-mode}}
 
 您可以在展示板上添加一个连接到[!DNL Workfront]中现有任务和问题的信息卡。
 

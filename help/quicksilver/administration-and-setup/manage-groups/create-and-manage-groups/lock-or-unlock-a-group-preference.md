@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '570'
 ht-degree: 3%
 ---
 # 锁定或解锁子组的项目、任务或问题偏好设置
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 1. 在左侧面板中，单击&#x200B;**组**。
 1. 单击要锁定或解锁项目偏好设置的组的名称。
-1. 在左侧面板中，单击&#x200B;**项目首选项**&#x200B;或&#x200B;**任务和问题首选项**。
+1. 在左侧，单击&#x200B;**项目首选项**&#x200B;或&#x200B;**任务和问题首选项**。
 
 1. 在显示的页面上，针对在系统级别解锁的首选项或组上方的组执行以下任一操作：
 

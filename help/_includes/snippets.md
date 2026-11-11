@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2437'
 ht-degree: 1%
 ---
 # 片段
@@ -131,6 +131,24 @@ Add snippets within the section that the snippet is used. Snippets that are used
 ## 步骤1 — 进入讨论区 —  {#step1-to-boards}
 
 1. 单击Adobe Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
+
+## 展示板 — 维护模式 {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront展示板当前没有处于新开发阶段。
+
+## 展示板 — 工作流不可用 {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront展示板当前没有处于新开发阶段。
+> 
+>展示板中的工作流功能已被弃用，但仍可供已在使用它的客户使用。
+>
+>* 建议不要使用工作流，因为工作流不再受支持。
+>* 如果展示板仪表板中没有“工作流”选项卡，则无法添加工作流。
+>* 如果您有权访问工作流，则可以添加新工作流和管理现有工作流。 如果存档或删除工作流，则无法恢复它。 如果您只有一个剩余的工作流，并且您将其存档或删除，则您的Workfront实例将完全弃用工作流，并且您无法添加新工作流。
 
 <!-- Blueprints -->
 

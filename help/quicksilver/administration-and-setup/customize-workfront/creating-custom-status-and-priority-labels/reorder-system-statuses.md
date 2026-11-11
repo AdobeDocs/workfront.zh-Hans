@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 10%
+source-wordcount: '483'
+ht-degree: 11%
 ---
 # 重新排序系统级别和组状态
 
@@ -145,7 +145,7 @@ ht-degree: 10%
 
 ## 重新排序问题的状态
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
+{#step-1-to-setup}
 
 1. 单击&#x200B;**项目首选项>状态。**
 1. （视情况而定）如果要对组的状态重新排序，请在右上角的框中开始键入组的名称，然后在组出现时单击该名称。

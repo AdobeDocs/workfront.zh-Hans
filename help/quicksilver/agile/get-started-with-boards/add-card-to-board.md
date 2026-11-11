@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 2%
 ---
 # 向展示板添加临时信息卡
+
+{{boards-maintenance-mode}}
 
 您可以快速将信息卡添加到展示板并将其分配给展示板上的成员。 信息卡可以表示任务、问题、人员、组或要包含在展示板中的任何类型的项目。
 

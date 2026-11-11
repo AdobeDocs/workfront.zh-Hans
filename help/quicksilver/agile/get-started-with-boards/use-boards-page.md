@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 2%
 ---
 # 使用展示板功能板
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->工作流仅适用于特定的客户组。
+{{boards-workstreams}}
 
 展示板仪表板显示您有权访问展示板和工作流的列表，包括您已创建展示板和已添加到展示板中的展示板。 您有权访问的不属于工作流的各个展示板首先显示。
 

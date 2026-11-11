@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '260'
+ht-degree: 3%
 ---
 # 环境提升常见问题解答
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 * Workfront管理员可以找到您组织的许可证。
 
-  1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+  1. 单击Workfront左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup.png)。
   1. 单击左侧面板中的&#x200B;**系统**
   1. 要查看您的Workfront计划，请选择&#x200B;**许可证**。
 您的计划将显示在页面的右上角附近。

@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 6%
 ---
 # 添加标记
+
+{{boards-maintenance-mode}}
 
 您可以将标记添加到信息卡以直观地显示它们相似。 然后，您可以按这些标记进行筛选以显示相关卡片。
 

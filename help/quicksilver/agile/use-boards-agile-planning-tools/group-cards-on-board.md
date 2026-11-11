@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 5%
 ---
 # 在展示板上使用组
+
+{{boards-maintenance-mode}}
 
 您可以在展示板上按被分派人或按标记对信息卡进行分组。 选择作为分组依据的选项时，卡片会以泳道格式显示。 未分配的卡片或没有标记的卡片会出现在自己的泳道中。
 
