@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1064'
 ht-degree: 2%
-
 ---
-
 # 创建和编辑项目风险
 
 <!--Audited: 06/2025-->
@@ -131,8 +129,6 @@ ht-degree: 2%
 
 1. 转到要为其创建风险的项目。
 1. 单击左侧面板中的&#x200B;**风险**。
-
-   任务![&#128279;](assets/risks-section-on-project-2022.png)的风险部分
 
 1. 单击&#x200B;**添加更多风险**&#x200B;并通过内联编辑其信息来创建风险。
 
