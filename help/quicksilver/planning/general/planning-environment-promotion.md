@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1377'
 ht-degree: 2%
 ---
 
@@ -49,7 +49,7 @@ Future - when they make it available in Planning: replace the above with this OR
 >
 -->
 
-您可以使用“环境提升”功能将Workfront Planning工作区、记录类型、字段和视图从一个Workfront环境复制到另一个环境。
+您可以使用Workfront的环境升级功能，将Workfront工作区及其附加对象从一个Adobe Workfront环境复制到另一个环境。
 
 在源环境中将配置组装到一个包中并将其安装到目标环境中，而不是手动重建所有内容。
 
@@ -58,7 +58,7 @@ Future - when they make it available in Planning: replace the above with this OR
 ## 有关将Environment Promotion与Planning一起使用的注意事项
 
 * 您必须是Workfront管理员才能使用环境升级。
-* 以下是通过环境升级导入的：
+* 将工作区复制到另一个环境时，也将通过环境升级导入与该工作区关联的以下对象：
 
   * 工作区
   * Workspace部分
@@ -67,22 +67,34 @@ Future - when they make it available in Planning: replace the above with this OR
   * 视图
   * 层级
   * 共享所有对象的设置
-  * 自动化<!--this might not be part of it; Lilit is checking-->
   * 请求表单
   * 业务规则
   * 连接的对象
-  * 工作区所依赖的对象或其他对象共享的对象，如组、团队、工作角色。 存在以下情况：
+  * 工作区所依赖的对象或其他对象共享的对象，如组、团队、工作角色、公司和用户。
+
+    存在以下情况：
 
     * 如果目标环境中已存在同名对象，Workfront会标记冲突并决定其处理方式。
     * 如果共享对象的团队或组在目标环境中不存在，则升级会创建该团队。
+  <!--* Automations -- this is not promoted, for now, per Lilit -->
 * 对于每个对象，可以执行以下操作：
 
   * 将其创建为新对象
   * 使用现有对象，但使用新名称创建对象
   * 覆盖现有对象。 覆盖将替换目标中的配置。
+* 不能导出以下对象：
+
+  * 属于要复制的工作区的自动化
+  * 记录
+  * 不属于导出工作区的字段
+
+* 无法提升跨工作区连接的记录类型，除非它们已存在于目标环境中。
+
+  我们建议先提升包含跨工作区可连接记录类型的工作区，然后才提升引用这些记录类型的工作区。
 
 * 安装可能需要几分钟的时间。 如果需要，您可以从结果页面回滚安装。
 * 我们建议尽可能先测试该流程，然后再继续。 在将沙盒提升至生产环境之前，您可以将其安装到沙盒或预览环境。
+
 
 ## 访问权限要求
 
@@ -113,8 +125,7 @@ Future - when they make it available in Planning: replace the above with this OR
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>当您同时具有Workflow和Planning包时，必须将工作流和Planning许可证类型添加到访问级别</p>  
-   <p>您必须是系统管理员</p> 
+   <td> <p>您必须是系统管理员</p> 
 </td> 
   </tr> 
   <tr> 
@@ -143,7 +154,7 @@ Future - when they make it available in Planning: replace the above with this OR
 
 ### 在源环境中创建包
 
-1. 具备一个已放置所需配置的源环境。
+1. 转到已放置所需配置的源环境。
 1. 在源环境中，单击&#x200B;**主菜单** ![主菜单](assets/main-menu-shell.png)，然后转到&#x200B;**设置** > **系统** > **环境升级**。
 **配置包**&#x200B;列表显示现有包的状态、源环境以及部署位置。
 1. 单击&#x200B;**创建包**。
@@ -193,16 +204,28 @@ Future - when they make it available in Planning: replace the above with this OR
 1. 在验证包页面后，单击&#x200B;**安装**。
 1. 在&#x200B;**目标环境**&#x200B;列表中，选择要部署到的环境（例如，您的生产环境），然后单击&#x200B;**继续**。 默认目标是当前环境。
 1. 在&#x200B;**包信息**&#x200B;页面上，确认源环境和要部署到的环境。
-1. 在&#x200B;**对象映射**&#x200B;部分中，展开每个对象分组（如&#x200B;**组**&#x200B;和&#x200B;**规划工作区**）以查看这些对象。
+1. 在&#x200B;**对象映射**&#x200B;部分中，展开每个对象分组（如&#x200B;**Planning工作区**）以查看对象。
+
+   >[!TIP]
+   >
+   >如果有任何工作区对象与其共享，则组、团队、角色、公司和用户可能会显示在此处。
+
 1. 对于每个对象，查看&#x200B;**冲突**&#x200B;和&#x200B;**状态**&#x200B;列，然后从列表中选择&#x200B;**部署操作**。 从以下选项中进行选择：
 
+
    * **新建**：将对象添加到目标。 当未检测到冲突时，请使用此选项。
-   * **使用existing**：将对象映射到目标中已存在的对象，例如具有相同名称的组。
+   * **使用existing**：将对象映射到目标中已存在的对象，例如具有相同名称的工作区。
    * **使用新名称创建**：将对象添加到您指定的名称下。
    * **覆盖**：将目标中的现有对象替换为包中的对象。
+
+   >[!TIP]
+   >
+   >如果系统未找到具有相同ID的工作区，则会尝试根据工作区名称查找匹配项。
+
 1. （可选）要一次更改多个对象，请选中这些对象的复选框，在组顶部的部署操作列表中选择一个操作，然后单击应用于选定项。 使用列表上方的过滤器（如“仅显示错误”）来关注特定对象。
 1. 解决所有错误指示器。 如果您为对象选择&#x200B;**使用existing**，则还必须选择它映射到的对象。  否则，状态将显示错误，**部署**&#x200B;将保持不可用。
 1. 单击&#x200B;**部署**，然后单击&#x200B;**部署**&#x200B;以确认。
+
 
    Workfront显示了一个安装页面，其消息为&#x200B;**正在安装此包**。 这可能需要几分钟的时间。
 

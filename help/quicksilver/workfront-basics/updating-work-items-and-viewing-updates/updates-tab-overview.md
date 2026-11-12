@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1391'
 ht-degree: 3%
 ---
 # 更新部分概述
@@ -154,12 +154,22 @@ Depending on what objects you access the commenting experience for, you might fi
 
   有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
+  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+
 * **系统活动**：显示系统更新，这些更新是Workfront为记录对象上的特定事件而创建的信息性消息。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。 有关详细信息，请参阅[配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
   >[!NOTE]
   >
   >“注释”和“系统”活动选项卡实时更新。 必须刷新“全部”选项卡才能查看最新更新。
+* **总结评论**：这将打开右侧的AI助手或同事面板，并提供对象所有更新历史记录的AI生成摘要。
+
+  >[!NOTE]
+  >
+  >您必须签署AI Assistant协议，或在“设置”区域中启用“同事和MCP首选项”才能使用&#x200B;**总结评论**&#x200B;选项卡。 您的组织可能具有AI助手或Workfront的CX Enterprise Coworker。
+  >
+  >有关信息，请参阅[Workfront中的AI助手](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)和[Workfront中的CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)。
+
 
 ### 不同对象的“更新”区域之间的异同
 
