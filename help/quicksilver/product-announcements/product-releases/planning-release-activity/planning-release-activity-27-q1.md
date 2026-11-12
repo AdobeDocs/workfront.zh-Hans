@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
+source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1614'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度发布活动
@@ -28,6 +28,52 @@ ht-degree: 0%
 本文介绍了在2027年第一季度发行的Workfront Planning功能。
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 可用于Workfront Planning的环境升级
+
+>[!NOTE]
+>
+>预览： 2026年11月12日
+>生产快速发布： 2026年11月12日
+>适用于所有人的生产： 2026年11月12日
+>[!BADGE 并发版本]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planning的环境促销活动仅适用于除工作流包外还购买了Workfront Planning包的客户。 已购买Workfront Planning作为独立产品的客户无法使用此功能。
+
+Workfront管理员现在可以将Workfront Planning工作区及其对象从一个环境提升到另一个环境，因此您不再需要手动重建配置。 这样可节省时间并减少手动设置带来的错误。
+
+不属于导出工作区的记录、自动化和字段无法提升。
+
+此功能需要Prime或Ultimate Workflow和Planning包、标准许可证以及Workfront管理员访问权限。
+
+有关信息，请参阅[为Workfront Planning使用环境升级](/help/quicksilver/planning/general/planning-environment-promotion.md)。
+
+## Workfront规划的构思空间现在可在Open Beta中使用
+
+>[!NOTE]
+>
+>预览： 2026年11月12日
+>生产快速发布： 2026年11月12日
+>适用于所有人的生产： 2026年11月12日
+>[!BADGE 并发版本]{type=Neutral}
+
+>[!NOTE]
+>
+>此功能作为开放Beta程序提供。 构思空间仅适用于购买了Workfront Planning包和Workflow包的客户。 已购买Workfront Planning作为独立产品的客户无法使用此功能。
+
+Workfront Planning现在包括创意空间，这是一个协作区域，团队可以在将创意转化为可操作工作之前捕获、组织、完善和评估创意。 创意空间可帮助利益相关者集中集思广益、根据优先级调整并无缝地将批准的概念纳入规划工作流。
+
+使用CX Enterprise Coworker，您现在可以创建构思简报，将其导出到文件或Workfront Planning记录。
+
+使用构思空间，您可以：
+
+* 与您的团队和利益相关者就想法进行捕获和协作。
+* 组织、评估和优先处理可了解引入过程的想法。
+* 将批准的想法转化为规划记录和工作流。
+
+有关详细信息，请参阅[Workfront规划构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
 
 ## 改进了提交请求时依赖字段中的冲突检测
 

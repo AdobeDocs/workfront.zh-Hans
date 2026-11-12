@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: 格式化并验证Workfront发行说明，确保一致性、正确结构和正确链接。 仅用于产品版本目录中的发行说明文件，或者用户提及发行说明、产品版本或季度版本时。 不适用于操作方法文章或常规文档。
-source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2336'
 ht-degree: 2%
-
 ---
-
 
 # 发行说明格式化程序
 
@@ -83,7 +81,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **正文**：功能描述，然后链接到帮助文档
+5. **正文**：功能描述，然后链接到帮助文档
 
 #### 概述页面
 
@@ -91,7 +89,7 @@ exl-id: <existing UUID — never generate or change>
 
 2. **在计划发行月份介绍段落**
 
-3. 带有发布计划表的&#x200B;**`>[!IMPORTANT]`块**
+3. 带有发布计划表的&#x200B;**`>[!IMPORTANT]`块**，后面是描述并发发布和关闭计划徽章的徽章图例（请参阅参考文件中的概述页面模板）
 
 4. **H2`Adobe Workfront enhancements`**，包含锚点链接的项目符号列表：
 
@@ -100,10 +98,13 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. 带有HTML功能表的每个产品区域&#x200B;**H3**（请参阅。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
-   - 在每个表中，**最新功能排在前** — 最新行显示在表的顶部（标题行之后）
+- 如果产品区域部分被注释掉，请完全删除此列表中的其链接。 请勿注释掉链接。
 
-&#x200B;6. **尾随部分** (H2)：其他区域的发行说明、桌面校对查看器更新、公告、API版本、维护更新、培训更新
+5. 带有HTML功能表的每个产品区域&#x200B;**H3**（请参阅。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
+   - 在每个表中，**最新功能排在前** — 最新行显示在表的顶部（标题行之后）
+      — 如果某个功能有徽章（`[!BADGE Off schedule]{type=Neutral}`或`[!BADGE Concurrent release]{type=Neutral}`），请将其放在它自己的`<p>`中，直接放在功能链接段落中，说明段落之前。
+
+6. **尾随部分** (H2)：其他区域的发行说明、桌面校对查看器更新、公告、API版本、维护更新、培训更新
 
 ### 步骤3：验证链接
 
@@ -134,6 +135,8 @@ exl-id: <existing UUID — never generate or change>
 | 编号说明行中的额外空格 | 修剪尾随空格 |
 | 产品区域页面中的HTML | 保留为Markdown（HTML仅适用于概览表） |
 | 缺少`exl-id` | 将其排除 — 不生成一个 |
+| 在概述表格中，将徽章放置在描述之后 | 直接在功能链接下将其移至其自己的`<p>` |
+| 指向注释掉部分的迷你TOC链接 | 从列表中删除链接；请勿将其注释掉 |
 
 ### 步骤6：同步概述页面
 
@@ -193,15 +196,9 @@ exl-id: <existing UUID — never generate or change>
 - 创建新季度的概述页面而不更新`home.md`的“最新版本”选项卡（它将继续指向旧季度）。
 - 忘记还要将新季度添加到当年选项卡列表。
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;已更新上游
-
-### 步骤8：更新产品版本索引页
-=======
-
 ### 步骤9：更新产品版本索引页
-&#x200B;>>>>>>>>>>隐藏的更改
-> 
->每当您创建&#x200B;**新季度的概述页面**&#x200B;时，也要在相同更改中更新`help/quicksilver/product-announcements/product-releases/product-releases.md`：
+
+每当您创建&#x200B;**新季度的概述页面**&#x200B;时，也要在相同更改中更新`help/quicksilver/product-announcements/product-releases/product-releases.md`：
 
 - 在“Workfront版本”列中查找当前年份的`<p>Releases in {year}</p>`块。
 - 在该年度列表的&#x200B;**顶部**&#x200B;添加新的`<li>`，链接到新季度的概述页面，其格式与现有条目相同：
@@ -288,6 +285,9 @@ Source： “2026年每月发布日历”（Adobe corp wiki，AWF空间 — `wik
 - [ 概述中的]功能表行与产品区域页面内容匹配
 - [ ]没有断开的内部链接
 - [ 概述中的]个锚点链接与H3节ID匹配
+- [ ]概述迷你目录没有指向注释掉部分的链接，徽章直接位于功能链接下方
+- [ ]概述`>[!IMPORTANT]`块包括徽章图例，其中描述了表中使用的每个徽章
+- [ ]概述中未注释的每个增强功能表在迷你目录中都有一个匹配的链接，因此未注释时添加回的部分不会丢失
 - [ ]功能以最新先的方式排序（包括产品区域页面和概述表）
 - [ ]个新发行说明页面在`help/quicksilver/TOC.md`中按正确的季度列出，概览在前，产品区域按字母顺序（其他在后）排列
 - [ ]如果创建了新季度的概述页面，则`help/quicksilver/home.md`“最新版本”选项卡和当前年份选项卡指向该页面
