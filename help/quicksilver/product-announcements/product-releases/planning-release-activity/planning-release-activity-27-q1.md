@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1620'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度发布活动
@@ -33,10 +33,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年11月12日
->生产快速发布： 2026年11月12日
->适用于所有人的生产： 2026年11月12日
->[!BADGE 并发版本]{type=Neutral}
+>生产和沙盒快速发布： 2026年11月12日
+>为所有人提供“生产”、“预览”和“沙盒”：即将进行沟通
+>[!BADGE 超出计划]{type=Neutral}
 
 >[!NOTE]
 >
