@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 2%
@@ -199,7 +199,7 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 
 ![验证错误示例](assets/min-max-selections.png)
 
-## 仅在字段可见时触发验证的公式
+### 仅在字段可见时触发验证的公式
 
 验证逻辑始终会被检查，即使字段未显示也是如此。 如果用户与包含验证逻辑的字段交互，并且该字段后来被显示逻辑隐藏，则即使在该字段隐藏之前清除了该字段的值，也会发生验证错误。
 
