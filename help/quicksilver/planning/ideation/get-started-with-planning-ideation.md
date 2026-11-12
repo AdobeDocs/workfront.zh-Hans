@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1442'
 ht-degree: 0%
 ---
 
@@ -83,7 +83,7 @@ Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workf
 
 * **正式发布：**&#x200B;计划于2027年2月1日发布。
 
-## 产品要求
+## 产品资格要求
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -123,8 +123,11 @@ Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workf
 
     两个包都必须激活Adobe CX Enterprise Coworker
 
+* Adobe Workfront许可证：
 
+  * 工作流和Planning系统管理员或标准许可证用户
 
+有关详细信息，请参阅[使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -141,38 +144,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## 受众和用例
+## 获取对构思空间的访问权限
 
-构思空间专为负责制定营销活动策略和制作营销活动简报的产品和品牌营销人员设计。
+要访问构思空间，请执行以下操作：
 
-<!--
-Too much: 
+1. 按照本文的[产品要求](#product-requirements)部分所述，验证您是否满足产品要求。
+1. 请联系您的Adobe客户代表以表示有兴趣参与封闭Beta，或在开放Beta可用时加入它。
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+   默认情况下，系统管理员有权访问构思空间，当该构思空间在Open Beta中可用时，无法删除它。 他们可以在以下任何环境中为所有其他用户打开此设置：
 
-作为工作区管理员，您可以在Workfront Planning中使用构思空间创建记录，步骤如下：
+   * 生产
+   * 预览
+   * 自定义沙盒
 
-* 在开始创建或编辑记录时，从Planning中启动构思空间后，在其中创建简报。
-* 使用AI提示从系统中的其他记录或Web中收集详细信息，并完成创意力简述的创建。
-* 从摘要中创建Planning记录类型。
-* 在Planning中优化构思简述并更新现有记录类型。
+1. 作为系统管理员，执行以下操作：
 
-以下是如何使用构思空间的用例：
+   * 打开系统首选项中的同事与MCP工具设置，以允许访问整个公司的同事。
+   * 在标准许可证用户的访问级别中关闭以下设置：
+     * 在 Workfront 中禁用 CX Coworker 面板
+     * 禁用构思空间
 
-* **使用历史绩效刷新以前的营销活动**
+   有关使用构思空间的更多信息，另请参阅以下文章：
 
-  * 例如，您可以为新季度、季度或产品时刻更新现有营销活动。
-  * 这将生成以先前性能为基础的“增量摘要”，概述保留的内容、更改内容以及原因。
+   * [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+   * [从构思空间简报创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+   * [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-* **使用历史绩效创建新的营销活动**
+1. （推荐）确定您的第一个活动：要刷新的最近活动，或从头开始创建的新计划。
 
-  * 例如，您可以在启动无直接营销活动历史记录的新产品、区段或计划时创建营销活动。
-  * 这通过引导思想、建议的渠道组合以及初始概念或报文方向产生了一个全新的简报。
+## 找到构思空间
+
+在确保您有权访问配置的正确产品、包以及系统和访问级别后，您可以在Workfront的以下区域中找到构思空间：
+
+* 在Workfront主菜单中，通过打开构思空间区域
+
+  主菜单中的![构思空间区域](assets/ideation-space-area-icon-in-main-menu.png)
+
+* 在Workfront Planning中，手动添加新记录时
+
+  ![添加新记录的构思空间](assets/ideation-space-in-planning-new-record.png)
+
+* 在Workfront Planning中，编辑现有记录时
+
+  ![记录详细信息页面中的构思空间](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>无法使用布局模板从主菜单中删除创意空间区域。 有关阻止用户访问构思空间的更多信息，请参阅[使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+>
 
 ## 构思空间与Adobe CX Enterprise Coworker
 
@@ -207,42 +227,38 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
   * **在完成**&#x200B;前进行验证。 AI生成的响应可能不准确，因此始终检查卡片上的&#x200B;**源**&#x200B;并根据链接的源进行确认，然后再最终确定记录。
   * **将AI卡与真实记录混合**。 将实际记录拖放到构思空间中。
 
-## 获取对构思空间的访问权限
+## 受众和用例
 
-要访问构思空间，请执行以下操作：
+构思空间专为负责制定营销活动策略和制作营销活动简报的产品和品牌营销人员设计。
 
-1. 按照本文的[产品要求](#product-requirements)部分所述，验证您是否满足产品要求。
-1. 请联系您的Adobe客户代表以表示有兴趣参与封闭Beta，或在开放Beta可用时加入它。
+<!--
+Too much: 
 
-   默认情况下，系统管理员有权访问构思空间，当该构思空间在Open Beta中可用时，无法删除它。 他们可以在以下任何环境中为所有其他用户打开此设置：
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-   * 生产
-   * 预览
-   * 自定义沙盒
+作为工作区管理员，您可以在Workfront Planning中使用构思空间创建记录，步骤如下：
 
-1. （推荐）确定您的第一个活动：要刷新的最近活动，或从头开始创建的新计划。
+* 在开始创建或编辑记录时，从Planning中启动构思空间后，在其中创建简报。
+* 使用AI提示从系统中的其他记录或Web中收集详细信息，并完成创意力简述的创建。
+* 从摘要中创建Planning记录类型。
+* 在Planning中优化构思简述并更新现有记录类型。
 
-有关使用构思空间的更多信息，另请参阅以下文章：
+以下是如何使用构思空间的用例：
 
-* [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [从构思空间简报创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **使用历史绩效刷新以前的营销活动**
 
-## 找到构思空间
+  * 例如，您可以为新季度、季度或产品时刻更新现有营销活动。
+  * 这将生成以先前性能为基础的“增量摘要”，概述保留的内容、更改内容以及原因。
 
-在确保您有权访问配置的正确产品、包以及系统和访问级别后，您可以在Workfront的以下区域中找到构思空间：
+* **使用历史绩效创建新的营销活动**
 
-* 在Workfront Planning中手动添加新记录时
-
-  计划中的![构思空间](assets/ideation-space-in-planning-new-record.png)
-* 在Workfront主菜单中，通过打开构思空间区域
-
-  主菜单中的![构思空间区域](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->无法使用布局模板从主菜单中删除创意空间区域。 有关阻止用户访问构思空间的更多信息，请参阅[使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
->
+  * 例如，您可以在启动无直接营销活动历史记录的新产品、区段或计划时创建营销活动。
+  * 这通过引导思想、建议的渠道组合以及初始概念或报文方向产生了一个全新的简报。
 
 ## 构思空间生成的对象
 

@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '900'
 ht-degree: 2%
 ---
 # 自定义表单中的高级逻辑示例
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 如果用户未选择正确数量的选项，则会看到验证错误。
 
 ![验证错误示例](assets/min-max-selections.png)
+
+### 仅在字段可见时触发验证的公式
+
+验证逻辑始终会被检查，即使字段未显示也是如此。 如果用户与包含验证逻辑的字段交互，并且该字段后来被显示逻辑隐藏，则即使在该字段隐藏之前清除了该字段的值，也会发生验证错误。
+
+解决方法：使用验证公式中显示规则的相同条件，以确保仅在字段可见时触发验证。
+
+例如，您有两个字段：A和B。
+字段B具有显示规则，该规则仅在字段A的值为`"show"`时可见。
+
+字段B还具有以下验证公式：
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+要仅在字段B可见时验证它，您可以在验证公式中包括显示条件：
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+这样，仅当字段A设置为`"show"`并且满足其他验证条件时，才会显示验证错误。
+

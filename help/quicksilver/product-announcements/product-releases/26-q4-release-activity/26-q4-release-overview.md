@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
 workflow-type: tm+mt
 source-wordcount: '3631'
 ht-degree: 1%
@@ -180,6 +180,7 @@ ht-degree: 1%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">组管理员可以管理业务配置文件</a>
+                <p>[!BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>组管理员现在可以为其管理的组创建、编辑和删除业务配置文件，而无需系统管理员访问权限。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -895,6 +896,11 @@ ht-degree: 1%
 
 从2027年1月版开始，旧版字段&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;将不再在Workfront API或工作角色列表视图中可用，包括筛选器/视图/分组配置（直接引用和文本模式计算列）。
 
+尽管这些字段在1月之前仍然可用，但它们可能无法正常工作。 当前在工作角色列表视图中显示&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;字段的管理员应更新其工作流，以使用推荐的费率管理体验来管理和审查工作角色费率：
+
+* 直接从“工作角色”>“费率”页面访问和管理工作角色费率。
+* 使用费率报表可以跨工作角色复查、分析和报告费率信息。
+
 作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
 
     &grave;&grave;
@@ -905,13 +911,6 @@ ht-degree: 1%
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
     &grave;&grave;
-
-要管理和审查工作角色费率，请使用专门的费率管理体验：
-
-* 直接从“工作角色”>“费率”页面访问和管理工作角色费率。
-* 使用费率报表可以跨工作角色复查、分析和报告费率信息。
-
-无需执行任何操作即可为更改做好准备。 但是，当前在工作角色列表视图中显示&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;字段的管理员应更新其工作流，以使用上述推荐的费率管理体验。
 
 有关工作角色费率的信息，请参阅[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 

@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 2%
@@ -2225,7 +2225,7 @@ ht-degree: 2%
     * [Adobe Workfront规划API基础知识](planning/general/planning-api-basics.md)
     * [Adobe Workfront规划AI助手概述](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront规划CX Enterprise Coworker概述](planning/general/planning-cx-coworker-overview.md)
-    * {hide-from-toc}[为Adobe Workfront Planning使用环境升级](planning/general/planning-environment-promotion.md)
+    * [将环境提升用于Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
     * [Adobe Workfront规划Designer快速入门](planning/general/planning-ai-designer.md)
     * [Adobe Workfront 2024年计划发布活动](planning/general/release-activity.md)
     * [Adobe Workfront 2023年计划发布活动](planning/general/release-activity-archives-2023.md)
@@ -2343,13 +2343,13 @@ ht-degree: 2%
     * [将Adobe Workfront Planning实例作为独立产品进行管理](planning/planning-sta/manage-planning-sta-instance.md)
     * [在Adobe Workfront Planning中作为独立产品管理用户](planning/planning-sta/manage-users-in-planning-sta.md)
     * [在Adobe Workfront Planning中将团队作为独立产品进行管理](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Workfront规划中的构思空间 {#ideation}
-    * {hide-from-toc}[用于Adobe Workfront Planning的构思空间：文章索引](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[开始使用Adobe Workfront Planning的构思空间](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[使用构思空间所需的访问权限](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[在构思空间中创建简报](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[从构思空间摘要创建Planning记录](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[与他人共享构思空间](planning/ideation/share-the-ideation-space.md)
+  * Workfront规划中的构思空间 {#ideation}
+    * [Adobe Workfront Planning的构思空间：文章索引](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront规划构思空间入门](planning/ideation/get-started-with-planning-ideation.md)
+    * [使用构思空间所需的访问权限](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [在构思空间中创建简报](planning/ideation/create-briefs-in-ideation-space.md)
+    * [从构思空间简报创建计划记录](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [与他人共享构思空间](planning/ideation/share-the-ideation-space.md)
 
 * Adobe Workfront集成 {#adobe-workfront-integrations}
   * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)

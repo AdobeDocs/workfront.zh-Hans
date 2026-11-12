@@ -35,13 +35,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 10%
-
+source-wordcount: '796'
+ht-degree: 9%
 ---
-
 # Adobe Workfront Planning的一般信息和文章索引
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
@@ -143,3 +141,11 @@ ht-degree: 10%
 ## Workfront Planning作为独立产品
 
 客户无需购买工作流许可证即可购买Workfront Planning。 有关信息，请参阅[Adobe Workfront Planning独立产品入门](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
+
+## Workfront规划和构思空间(Beta)
+
+Adobe构思空间是Adobe由AI支持的战略构思功能，直接内置于Workfront Planning中。 它为营销团队提供了一个结构化、基于数据的营销活动策略起点，用基于组织真实绩效历史的AI生成简报取代手动研究和猜测。
+
+此功能目前作为测试版计划提供。
+
+有关详细信息，请参阅[开始使用Adobe Workfront计划的构思空间](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。

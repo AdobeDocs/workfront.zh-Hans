@@ -4,9 +4,9 @@ description: 2027年第一季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '554'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,27 @@ ht-degree: 0%
 本页介绍了管理员在2027年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+## 可用于Workfront Planning的环境升级
+
+>[!NOTE]
+>
+>预览： 2026年11月12日
+>生产快速发布： 2026年11月12日
+>适用于所有人的生产： 2026年11月12日
+>[!BADGE 并发版本]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planning的环境促销活动仅适用于除工作流包外还购买了Workfront Planning包的客户。 已购买Workfront Planning作为独立产品的客户无法使用此功能。
+
+Workfront管理员现在可以将Workfront Planning工作区及其对象从一个环境提升到另一个环境，因此您不再需要手动重建配置。 这样可节省时间并减少手动设置带来的错误。
+
+不属于导出工作区的记录、自动化和字段无法提升。
+
+此功能需要Prime或Ultimate Workflow和Planning包、标准许可证以及Workfront管理员访问权限。
+
+有关信息，请参阅[为Workfront Planning使用环境升级](/help/quicksilver/planning/general/planning-environment-promotion.md)。
 
 ## 删除附加自定义表单的权限
 
@@ -33,7 +54,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2026年10月29日
->生产快速发布： 2026年11月12日
+>生产快速发布： 2026年12月17日
 >适用于所有人的生产： 2027年1月21日
 
 现在，您可以在字段列表或自定义表单设计器中将自定义字段标记为收藏。 当您使用某些列表和报告（例如项目、任务和问题列表）并构建过滤器、视图和分组时，收藏字段显示在建议部分中可用字段列表的顶部。

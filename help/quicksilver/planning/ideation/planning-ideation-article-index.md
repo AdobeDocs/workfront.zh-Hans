@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '314'
 ht-degree: 0%
 ---
 
@@ -59,9 +59,11 @@ Future - when they make it available in Planning: replace the above with this OR
 
 Adobe Workfront Planning现在提供了一项可在启动营销活动之前进行构思的额外功能。 利用AI的强大功能将数据及直接输入转换为实际的计划，并为团队提供一个有根据的起点，而不是空白页。
 
-* [Adobe Workfront规划构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
-* [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [从构思空间摘要创建或编辑Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [与他人共享构思空间](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
+以下文章包含有关构思空间的信息，并提供了有关其功能的指南：
+
+* 从此处开始，大致了解Workfront中的构思空间：[开始使用Adobe Workfront规划的构思空间](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* 作为系统管理员，请确保您了解如何为组织提供构思空间： [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* 准备好创建您的第一个营销活动策略时，了解如何使用构思空间构建简报： [在构思空间创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* 如果您使用Workfront Planning，请了解如何使用构思空间创建记录： [从构思空间简报创建或编辑Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* 在构思空间上与其他人协作： [与他人共享构思空间](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 

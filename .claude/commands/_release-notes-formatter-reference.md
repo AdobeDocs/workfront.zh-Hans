@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # 发行说明参考模板
 
@@ -98,6 +97,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -144,9 +150,9 @@ The enhancements on this page are available in the Preview environment. This pag
 - 功能单元格： `<a>`标记，带有`class="MCXref xref" xrefformat="{para}"`，后跟`<p>`说明
 - `href`链接到产品区域页面（不是特定锚点）
 - 日期单元格：包装在`<p>`标记中
-- 对于计划外项目，在链接后添加`<p>[!BADGE Off schedule]{type=Neutral}</p>`
-- 无需徽章时，可接受链接后清空`<p></p>`
-- 保持HTML缩进与现有文件一致
+- 对于计划外项目，在描述段落前添加`<p>[!BADGE Off schedule]{type=Neutral}</p>`作为链接段落正下方的自己的段落
+- 对于同时发布到“预览”和“生产”的项，在同一位置添加`<p>[!BADGE Concurrent release]{type=Neutral}</p>`
+- 链接被接受后空`<p></p>`（当不需要标记时） — 保持HTML缩进与现有文件一致
 
 ### 概述结尾部分
 

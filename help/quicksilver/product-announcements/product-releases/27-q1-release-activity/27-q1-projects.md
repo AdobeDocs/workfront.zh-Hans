@@ -4,9 +4,9 @@ description: 2027年第一季度项目增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '355'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,22 @@ ht-degree: 0%
 本页介绍了在2027年第一季度发布中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+## 解决评论会话
+
+>[!NOTE]
+>
+>预览： 2026年11月12日
+>生产快速发布： 2026年12月17日
+>适用于所有人的生产： 2027年1月21日
+
+您现在可以从更新区域顶部消息的“更多”菜单中为您有权查看的对象解析注释线程。 这会将其隐藏在所有查看者的评论流中。 您可以稍后撤消解析以将其恢复。
+
+已解析的线程是只读的，因此在这些线程未解析之前，您无法编辑、删除、回复、响应或固定它们。
+
+您可以使用过滤器在更新选项卡中显示已解析的线程。
+
+有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 不可用状态指南
 

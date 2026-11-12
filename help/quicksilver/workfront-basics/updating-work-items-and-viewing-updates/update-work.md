@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '3504'
+source-wordcount: '3799'
 ht-degree: 1%
 ---
 # 更新工作
@@ -653,41 +653,39 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 </div>
 
-<!--
 <div class="preview">
 
-## Resolve comment threads
+## 解决评论会话
 
-To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+为了节省空间并使“注释”选项卡更易于导航，您可以解析会将其从更新流中隐藏的注释线程。
 
-Consider the following when resolving comments: 
+解决注释时，请考虑以下事项：
 
-* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
-* Comments that are part of a resolved thread are read-only. 
-* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
-* You can display resolved comments or hide them for yourself.
-* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+* 您可以解析注释线程，而不是单个注释。 该功能仅对线程中的第一个注释存在。
+* 属于已解析线程的注释是只读的。
+* 您无法编辑、删除、回复或固定属于已解析线程的注释。
+* 您可以显示已解析的注释或自行隐藏它们。
+* 您可以取消解析线程，这将它们带回具有所有功能的更新流。
 
-To resolve comment threads: 
+要解决评论线程，请执行以下操作：
 
-1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+1. 转到具有&#x200B;**更新**&#x200B;选项卡的对象，单击左侧面板中的&#x200B;**更新**，然后单击&#x200B;**评论**&#x200B;选项卡。
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   有关信息，请参阅[更新选项卡概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+1. 从现有线程的顶部注释中，单击注释右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**解析**。
 
-   ************add a screen shot***************
+   ![使用“固定并解决”选项注释更多菜单](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
-   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+   打开&#x200B;**解决评论**&#x200B;框以提醒您该评论将在“更新”区域中隐藏，并且您无法再与其交互。
 
-1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
-1. Click **Resolve**.
+1. （可选）如果您不希望每次解析注释时都显示警告，请选择&#x200B;**不再显示此信息**&#x200B;设置。 如果选择此设置，则无法再次显示&#x200B;**解析评论**&#x200B;框。
+1. 单击&#x200B;**解决**。
 
-   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
-1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+   线程已解析并且线程中的所有注释在&#x200B;**更新**&#x200B;选项卡中隐藏。
+1. （可选）单击“更新”选项卡右上角的过滤器，然后关闭&#x200B;**隐藏已解析的评论**&#x200B;设置。 已解决的线程将显示在“更新”选项卡上。 此设置仅影响您查看的内容。 其他用户可隐藏已解析的注释。
 
 </div>
--->
 
 ## 删除评论或回复
 
@@ -700,7 +698,7 @@ To resolve comment threads:
 1. 转到要删除的评论或回复。
 1. 单击要删除的评论或回复旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
 
-   ![更新流评论更多菜单](assets/update-stream-comment-menu-marked-350x152.png)
+   ![使用“固定并解决”选项注释更多菜单](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. 在显示的消息中，单击&#x200B;**删除**。
 

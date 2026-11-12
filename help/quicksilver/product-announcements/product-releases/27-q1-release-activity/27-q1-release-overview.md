@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 3%
+source-wordcount: '1537'
+ht-degree: 2%
 ---
 
 # 2027年第一季度发行版概述
@@ -27,13 +27,19 @@ ht-degree: 3%
 >| <ul><li>2026.11（2026年11月12日）</li><li>2026.12（2026年12月17日）</li><li>2027.01（2027年1月21日）</li></ul> | <ul><li>2027.01（2027年1月21日）</li></ul> |
 >
 >有关快速发布过程的详细信息，请参阅[启用或禁用快速发布过程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
+>
+>不遵循此计划的功能会显示以下徽章之一：
+>
+>* [!BADGE 并发发布]{type=Neutral}
+>   由于技术情况（例如作为功能一部分的其他Adobe产品的发布计划），这些功能会同时发布到“预览”和“生产”环境。
+>* [!BADGE 关闭计划]{type=Neutral}
+>   这些功能是在标准Workfront发布计划之外发布的。
 
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
 * [AI增强](#ai-enhancements)
 * [文档增强功能](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [项目增强功能](#project-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -50,6 +56,16 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">可用于Workfront Planning的环境升级</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Workfront管理员现在可以将Workfront Planning工作区及其对象从一个环境提升到另一个环境。</p>
+            </td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">删除附加自定义表单的权限</a></p>
                 <p>共享自定义表单时，您现在可以为具有“管理”访问权限的用户设置权限，以从表单附加到的对象中删除表单。</p>
             </td>
@@ -63,7 +79,7 @@ ht-degree: 3%
                 <p>现在，您可以将自定义字段标记为收藏，以便在构建筛选器、视图和分组时显示在可用字段的顶部，并显示在表单设计器字段库中。</p>
             </td>
             <td><p>2026年10月29日</p></td>
-            <td><p>2026年11月12日</p></td>
+            <td><p>2026年12月17日</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
         <tr>
@@ -78,8 +94,8 @@ ht-degree: 3%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">更改历史记录现在跟踪画布功能板对象</a></p>
-                <p>更改历史记录现在记录创建、更新或删除画布功能板或报表的人员、更改时间和更改内容。</p>
                 <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>更改历史记录现在记录创建、更新或删除画布功能板或报表的人员、更改时间和更改内容。</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
@@ -216,9 +232,18 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">解决评论会话</a></p>
+                <p>您现在可以解析注释线程以将其从所有查看者的注释流中隐藏，并在以后取消解析以使其恢复。</p>
+            </td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">不可用状态指南</a></p>
-                <p>当保存的问题、任务或项目状态不可用时，现在会出现一条警告，说明原因并显示保存的状态代码。</p>
                 <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>当保存的问题、任务或项目状态不可用时，现在会出现一条警告，说明原因并显示保存的状态代码。</p>
             </td>
             <td><p>2026年11月4</p></td>
             <td><p>2026年11月4</p></td>
@@ -330,6 +355,18 @@ ht-degree: 3%
 
 ## 桌面校对查看器更新
 
+### 版本2.4.0
+
+>[!NOTE]
+>
+>适用于所有客户的生产版本： 2026年11月11日
+
+桌面校对查看器已从版本2.3.0更新到版本2.4.0。 此更新包括内部工具更新，不会影响最终用户功能。
+
+此更新适用于Mac和Windows。
+
+有关下载和更新桌面验证查看器的信息，请参阅[更新桌面验证查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。
+
 ### 版本2.3.0
 
 >[!NOTE]
@@ -347,11 +384,41 @@ ht-degree: 3%
 
 ## 公告
 
+### Workfront规划的构思空间现在可在Open Beta中使用
+
+>[!NOTE]
+>
+>预览： 2026年11月12日
+>生产快速发布： 2026年11月12日
+>适用于所有人的生产： 2026年11月12日
+>[!BADGE 并发版本]{type=Neutral}
+
+>[!NOTE]
+>
+>此功能作为开放Beta程序提供。 构思空间仅适用于购买了Workfront Planning包和Workflow包的客户。 已购买Workfront Planning作为独立产品的客户无法使用此功能。
+
+Workfront Planning现在包括创意空间，这是一个协作区域，团队可以在将创意转化为可操作工作之前捕获、组织、完善和评估创意。 创意空间可帮助利益相关者集中集思广益、根据优先级调整并无缝地将批准的概念纳入规划工作流。
+
+使用CX Enterprise Coworker，您现在可以创建构思简报，将其导出到文件或Workfront Planning记录。
+
+使用构思空间，您可以：
+
+* 与您的团队和利益相关者就想法进行捕获和协作。
+* 组织、评估和优先处理可了解引入过程的想法。
+* 将批准的想法转化为规划记录和工作流。
+
+有关详细信息，请参阅[Workfront规划构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
+
 ### 弃用工作角色列表视图中的旧版计费和成本率字段
 
 随着时间的推移，我们引进了增强的速率管理能力和专门的工作角色体验，为维护速率信息提供了更完整且可扩展的方法。 因此，费率管理正转向这些专用体验，而不是基于列表的管理工作流。
 
 从2027年1月版开始，旧版字段&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;将不再在Workfront API或工作角色列表视图中可用，包括筛选器/视图/分组配置（直接引用和文本模式计算列）。
+
+尽管这些字段在1月之前仍然可用，但它们可能无法正常工作。 当前在工作角色列表视图中显示&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;字段的管理员应更新其工作流，以使用推荐的费率管理体验来管理和审查工作角色费率：
+
+* 直接从“工作角色”>“费率”页面访问和管理工作角色费率。
+* 使用费率报表可以跨工作角色复查、分析和报告费率信息。
 
 作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
 
@@ -363,13 +430,6 @@ ht-degree: 3%
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
     &grave;&grave;
-
-要管理和审查工作角色费率，请使用专门的费率管理体验：
-
-* 直接从“工作角色”>“费率”页面访问和管理工作角色费率。
-* 使用费率报表可以跨工作角色复查、分析和报告费率信息。
-
-无需执行任何操作即可为更改做好准备。 但是，当前在工作角色列表视图中显示&#x200B;**每小时计费**&#x200B;和&#x200B;**每小时成本**&#x200B;字段的管理员应更新其工作流，以使用上述推荐的费率管理体验。
 
 有关工作角色费率的信息，请参阅[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
