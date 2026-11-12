@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -177,8 +177,17 @@ Or
 
 1. 使用已启用同事的Planning登录Workfront，并执行以下操作之一以首次打开构思空间以创建摘要：
 
-   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **创意空间**
-   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型> **新记录** > **开始创意空间**
+   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) >单击&#x200B;**创意空间**
+
+     主菜单中的![构思空间](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型>单击&#x200B;**新记录** >单击&#x200B;**开始创意空间**
+
+     ![新记录中的构思空间](assets/ideation-space-in-planning-new-record.png)
+
+   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型>单击现有记录>单击&#x200B;**在创意空间中打开**
+
+     ![记录详细信息中的构思空间](assets/ideation-space-button-in-details-page.png)
 
 1. 阅读Beta版协议，然后单击&#x200B;**同意**。 您必须签署协议才能使用构思空间。
 

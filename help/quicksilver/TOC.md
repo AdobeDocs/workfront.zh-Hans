@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 2%
@@ -749,7 +749,7 @@ ht-degree: 2%
       * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增强型身份验证时{hide-from-toc}[更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 汇率 {#exchange-rates}
       * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -865,7 +865,7 @@ ht-degree: 2%
     * [安装Blueprint后要执行的操作](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [可用Blueprint的列表](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console中的管理 {#admin-in-admin-console}
-    * {hide-from-toc}[Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * Adobe Admin Console中的{hide-from-toc}[Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * {hide-from-toc}[准备Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
     * {hide-from-toc}[了解Workfront迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 管理和设置的提示、技巧和疑难解答 {#admin-setup-tips}
@@ -1228,7 +1228,7 @@ ht-degree: 2%
     * [删除文档](documents/managing-documents/delete-documents.md)
     * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
     * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[在Workfront中AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * 在Workfront中{hide-from-toc}[AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
   * 组织文档 {#organize-documents}
     * [组织文档](documents/organizing-documents/organize-documents.md)
     * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
@@ -2234,7 +2234,7 @@ ht-degree: 2%
   * Adobe Workfront计划报表 {#adobe-workfront-planning-reporting}
     * [Adobe Workfront Planning报表：文章索引](planning/reporting/reporting-in-planning-article-index.md)
     * [在报表中查看Workfront规划信息](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[适用于Workfront Planning的Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+    * 适用于Workfront Planning的{hide-from-toc}[Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront规划最佳实践 {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront最佳实践：文章索引](planning/best-practices.md/best-practices-article-index.md)
     * [推出您的战略主页：30天的启动台](planning/best-practices.md/30-day-launchpad.md)
@@ -2343,13 +2343,13 @@ ht-degree: 2%
     * [将Adobe Workfront Planning实例作为独立产品进行管理](planning/planning-sta/manage-planning-sta-instance.md)
     * [在Adobe Workfront Planning中作为独立产品管理用户](planning/planning-sta/manage-users-in-planning-sta.md)
     * [在Adobe Workfront Planning中将团队作为独立产品进行管理](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Workfront规划中的构思空间 {#ideation}
-    * {hide-from-toc}[用于Adobe Workfront Planning的构思空间：文章索引](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[开始使用Adobe Workfront Planning的构思空间](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[使用构思空间所需的访问权限](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[在构思空间中创建简报](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[从构思空间摘要创建Planning记录](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[与他人共享构思空间](planning/ideation/share-the-ideation-space.md)
+  * Workfront规划中的构思空间 {#ideation}
+    * [Adobe Workfront Planning的构思空间：文章索引](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront规划构思空间入门](planning/ideation/get-started-with-planning-ideation.md)
+    * [使用构思空间所需的访问权限](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [在构思空间中创建简报](planning/ideation/create-briefs-in-ideation-space.md)
+    * [从构思空间简报创建计划记录](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [与他人共享构思空间](planning/ideation/share-the-ideation-space.md)
 
 * Adobe Workfront集成 {#adobe-workfront-integrations}
   * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
@@ -2693,10 +2693,10 @@ ht-degree: 2%
     * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
     * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-    * [API版本22中的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [API版本22](/help/quicksilver/wf-api/api/new-api-version-22.md)中的新增功能
     * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+    * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+    * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
     * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
     * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
     * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
