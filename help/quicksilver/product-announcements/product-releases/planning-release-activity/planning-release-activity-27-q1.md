@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1711'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度发布活动
@@ -29,14 +29,26 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 可用于Workfront Planning的环境升级
+## 共享Planning自动化
 
 >[!NOTE]
 >
 >预览： 2026年11月12日
 >生产快速发布： 2026年11月12日
 >适用于所有人的生产： 2026年11月12日
->[!BADGE 并发版本]{type=Neutral}
+>[!BADGE 超出计划]{type=Neutral}
+
+新的Workfront Planning自动化现在默认仅供其所有者使用，而不是自动与工作区中的每个人共享。 所有者可以通过与他人共享自动化来选择获得访问权限的用户。 您可以为其他用户提供&#x200B;**管理**、**编辑**&#x200B;或&#x200B;**运行**&#x200B;访问级别。 现有的自动化操作将与其工作区用户共享，因此当前的访问不受影响。
+
+有关信息，请参阅[配置Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+## 可用于Workfront Planning的环境升级
+
+>[!NOTE]
+>
+>生产和沙盒快速发布： 2026年11月12日
+>为所有人提供“生产”、“预览”和“沙盒”：即将进行沟通
+>[!BADGE 超出计划]{type=Neutral}
 
 >[!NOTE]
 >

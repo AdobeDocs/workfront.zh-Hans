@@ -4,9 +4,9 @@ description: 2027年第一季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '560'
 ht-degree: 0%
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年11月12日
->生产快速发布： 2026年11月12日
->适用于所有人的生产： 2026年11月12日
->[!BADGE 并发版本]{type=Neutral}
+>生产和沙盒快速发布： 2026年11月12日
+>为所有人提供“生产”、“预览”和“沙盒”：即将进行沟通
+>[!BADGE 超出计划]{type=Neutral}
 
 >[!NOTE]
 >

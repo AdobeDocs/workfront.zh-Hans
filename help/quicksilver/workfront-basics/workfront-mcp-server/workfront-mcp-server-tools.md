@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 3%
 ---
 
@@ -387,10 +387,28 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 产品要求：所有客户
 
-通过报告工具，您可以通过聊天构建和管理画布功能板。 以纯语言描述您想要的报告，AI代理平台会使用Workfront数据为您创建功能板和小组件。
+### 展示板
+
+| 标题 | 工具名称 | 作用 | 操作 |
+| --- | --- | --- | --- |
+| 获取讨论区 | `boards_get_board` | 在不同细节级别获取主板数据。 | 读取 |
+| 获取信息卡 | `boards_get_card` | 按展示板ID和展示板ID获取一张展示板。 | 读取 |
+| 创建信息卡 | `boards_create_card` | 在给定列中的展示板上创建新信息卡。 | 写入 |
+| 更新信息卡 | `boards_update_card` | 更新信息卡，包括标量字段、移动、存档状态、标记、成员，或将其与Workfront断开连接。 | 写入 |
+| 连接卡 | `boards_connect_card` | 创建Workfront任务或问题并将其链接到信息卡。 | 写入 |
+| 创建展示板标记 | `boards_create_board_tag` | 在展示板的标记目录中创建新标记。 | 写入 |
+| 创建清单项目 | `boards_create_checklist_item` | 将清单项目或子任务添加到信息卡。 | 写入 |
+| 更新清单项目 | `boards_update_checklist_item` | 更新清单项目的名称、描述、截止日期、状态或估计。 | 写入 |
+| 删除清单项目 | `boards_delete_checklist_item` | 从清单项目的父信息卡中删除清单项目。 | 写入 |
+| 创建列 | `boards_create_column` | 向展示板中添加新的纯列。 | 写入 |
+| 更新列 | `boards_update_column` | 重命名展示板列。 | 写入 |
+| 删除列 | `boards_delete_column` | 删除展示板列，如果需要，请先移动展示板。 | 写入 |
+| 创建展示板 | `boards_create_board` | 在工作区中创建一个新的基本展示板（可选）。 | 写入 |
 
 
 ### 画布仪表板
+
+画布功能板工具允许您通过聊天构建和管理画布功能板。 以纯语言描述您想要的报告，AI代理平台会使用Workfront数据为您创建功能板和小组件。
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ Workfront MCP服务器跟踪客户的用户意图。 收集的意图数据是用
 用户可以通过联系客户支持部门以提出请求来禁用遥测收集。
 
 
-## 即将推出的其他工具
-
-我们正努力在未来将以下工具添加到Workfront MCP服务器：
-
-* 展示板
