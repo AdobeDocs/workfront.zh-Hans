@@ -57,7 +57,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">可用于Workfront Planning的环境升级</a></p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Workfront管理员现在可以将Workfront Planning工作区及其对象从一个环境提升到另一个环境。</p>
             </td>
             <td><p>2026年12月17日</p></td>
@@ -94,7 +94,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">更改历史记录现在跟踪画布功能板对象</a></p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>更改历史记录现在记录创建、更新或删除画布功能板或报表的人员、更改时间和更改内容。</p>
             </td>
             <td><p>2026年10月29日</p></td>
@@ -242,7 +242,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">不可用状态指南</a></p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>当保存的问题、任务或项目状态不可用时，现在会出现一条警告，说明原因并显示保存的状态代码。</p>
             </td>
             <td><p>2026年11月4</p></td>
@@ -422,14 +422,14 @@ Workfront Planning现在包括创意空间，这是一个协作区域，团队�
 
 作为报告中的替换，您可以使用建议的文本模式代码（根据需要使用`costRates`或`billingRates`）：
 
-    ``
+    &grave;&grave;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    ``
+    &grave;&grave;
 
 有关工作角色费率的信息，请参阅[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
