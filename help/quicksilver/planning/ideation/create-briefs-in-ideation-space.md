@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2125'
 ht-degree: 1%
 ---
 
@@ -233,6 +233,9 @@ Or
    >
    >不能直接将文件添加到摘要。 您必须先将文件信息传输到可发送给简介的卡片上。
 
+1. （可选）单击Co-worker面板右上角的&#x200B;**聊天**&#x200B;图标![聊天图标](assets/chats-icon-coworker.png)，然后单击&#x200B;**新建聊天**&#x200B;以打开新提示或单击列表中以前的聊天之一以返回较早的聊天。
+
+   有关聊天的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 
 1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以搜索构思画布中的项目，然后在构思画布显示在列表中时单击以导航到该构思画布。
 

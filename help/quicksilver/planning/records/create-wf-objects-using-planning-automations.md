@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '853'
+ht-degree: 0%
 ---
 # 使用Adobe Workfront Planning记录自动化创建对象
 
@@ -110,6 +110,8 @@ ht-degree: 1%
    <p>管理您正在为其运行自动化操作的记录的权限。</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目群或项目）。</p>
    <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区</p>
+   <p>自动化创建者对其自己的自动化具有管理权限</p>
+   <p>您需要具有编辑权限或更高的自动化权限才能编辑它，并且需要具有运行权限才能运行它</p>
    </td> 
   </tr> 
 </tbody> 
@@ -198,6 +200,8 @@ Old:
 * 当您的组织同时使用旧版Workfront和Adobe云存储时，将自动从Planning创建的项目使用Workfront管理员在设置区域中选择的默认存储进行创建。
 
   有关在环境中启用Adobe云存储的信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
+* 您必须至少具有自动操作的运行权限才能运行它。 有关详细信息，请参阅[配置Adobe Workfront Planning自动化以创建记录](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 

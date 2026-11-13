@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # CX Enterprise Coworker中的Workfront技能
 
@@ -59,19 +59,27 @@ ht-degree: 6%
 * 记录
 * 业务规则
 
-<!--
+### 构思空间（测试版）技能
 
-### Ideation space skills
+>[!NOTE]
+>
+>构思空间目前作为Workfront Planning的附加功能在测试版中提供。
+>
+>有关构思空间的更多信息，请参阅[Adobe Workfront计划构思空间入门](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+构思空间是Adobe由AI支持的战略构思功能，直接内置于Workfront Planning中。 它为营销团队提供了一个结构化、基于数据的营销活动策略起点，用基于组织真实绩效历史的AI生成简报取代手动研究和猜测。
 
-* Thing 1
-* Thing 2
-* Other thing
+同事具有多种使用Workfront规划构思空间的技能。 这些涵盖的动作包括：
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* 营销活动构思 — 利用您附加的源文档和其他来源，在营销活动和其他主题的画布上集思并生成构思卡。 这是构思的主要起点。
+* 营销活动对话 — 在Ideation Space应用程序中以对话方式处理营销活动想法。
+* 营销活动摘要 — 构建和优化结构化的营销活动摘要，并为其提供保障，以使其保持完整且按计划进行。
+* 文档常见问题解答 — 针对已附加到构思会话的文档提出问题。
+* 研究 — 拉入研究以在画布上为您的想法提供信息。
+* 入门提示 — 获取建议的提示，以开始或扩展您的想法。
+* 打开画布 — 启动或跳到创意空间画布（从应用程序外部的常规聊天开始时使用）。
 
 ## Workfront技能
 

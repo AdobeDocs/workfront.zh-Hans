@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '311'
 ht-degree: 0%
 ---
 # Workfront中的CX Enterprise Coworker概述
@@ -29,12 +29,17 @@ CX Enterprise Coworker Chat是一个用于完成工作的对话界面，现已�
 
 同事是Adobe生态系统的一部分，不仅限于Workfront。
 
-有关在Workfront中使用同事的信息，请参阅[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
-
 有关同事及其功能的详细信息，请参阅[Adobe CX Enterprise Coworker聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)。
+
+有关在Workfront中使用同事的信息，请参阅[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
 有关Workfront中同事可用的技能，请参阅CX Enterprise Coworker中的[Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
-对于示例提示，请参阅[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)一文中的提示。
+对于Workfront中的同事提示，请参阅[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)一文中的提示。
+
+Workfront中的CX Enterprise Coworker还可用于以下Workfront功能：
+
+* Workfront规划。 有关信息，请参阅[Adobe Workfront规划CX Enterprise Coworker概述](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* Workfront规划中的构思空间。 此版本当前为测试版。 有关信息，请参阅[开始使用Adobe Workfront计划的构思空间](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 
 

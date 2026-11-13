@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 1%
 ---
 # CX Enterprise Coworker提示和最佳实践
@@ -355,7 +355,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * 能否显示谁修改了此项目以及更改了哪些内容？
 * 我需要查看上周对此记录所做的所有更新
 
-### 在Workfront Planning中使用System Designer
+### 在Workfront Planning中使用Planning Designer
 
 * [创建和配置工作区](#create-and-configure-workspaces)
 * [定义记录类型](#define-record-types)
@@ -386,3 +386,15 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * 在Planning中创建时间线视图，按开始日期和结束日期查看我的营销活动计划
 * 向我的Planning计划添加一个新表格视图，该视图仅过滤活动状态
 * 复制我的Planning活动营销活动视图，并修改排序。
+
+### Workfront Planning创意空间中的同事（测试版）
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* 营销活动构思 — 利用您附加的源文档和其他来源，在营销活动和其他主题的画布上集思并生成构思卡。 这是构思的主要起点。
+* 营销活动对话 — 在Ideation Space应用程序中以对话方式处理营销活动想法。
+* 营销活动摘要 — 构建和优化结构化的营销活动摘要，并为其提供保障，以使其保持完整且按计划进行。
+* 文档常见问题解答 — 针对已附加到构思会话的文档提出问题。
+* 研究 — 拉入研究以在画布上为您的想法提供信息。
+* 入门提示 — 获取建议的提示，以开始或扩展您的想法。
+* 打开画布 — 启动或跳到创意空间画布（从应用程序外部的常规聊天开始时使用）。
