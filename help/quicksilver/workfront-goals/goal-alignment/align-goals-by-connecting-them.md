@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '729'
 ht-degree: 2%
-
 ---
-
 # 通过在Adobe Workfront目标中连接目标来调整目标
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ ht-degree: 2%
 
 在Adobe Workfront目标中连接目标的方法有两种：
 
-* 通过将目标相互连接起来，可以创建目标之间的对齐方式。
+* 通过将目标相互连接起来，可以创建目标之间的对齐方式。 本文介绍了此方法。
 
-* 您可以手动对齐两个目标，也可以将现有目标的结果和活动转换为另一个目标。 转换后的结果或活动成为原始目标的子目标。
+* 您还可以通过将现有目标的结果和活动转换为另一个目标来调整两个目标。 转换后的结果或活动成为原始目标的子目标。
+
+  有关通过将结果和活动转换为目标来调整目标的信息，请参阅[通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)。
 
 >[!IMPORTANT]
 >
 >一个目标可以有总共1000个进度指标。
 
-本文介绍了如何通过将目标相互连接来调整目标。 有关通过将结果和活动转换为目标来调整目标的信息，请参阅[通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)。
 
 ## 访问权限要求
 
@@ -215,7 +214,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    您开始使用的目标（目标2）现在是将它与（目标1）对齐的父目标的子目标。\
    对齐的目标显示在“目标对齐方式”部分中，目标2作为目标1的次要。
-当子目标的进度更新父目标的进度时，其进度指示器部分将显示子目标。
+   当子目标的进度更新父目标的进度时，其进度指示器部分将显示子目标。
 
    ![对齐的卡片](assets/goal-1-and-2-aligned-cards-350x427.png)
 

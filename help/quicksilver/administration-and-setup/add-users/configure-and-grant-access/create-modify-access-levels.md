@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1673'
 ht-degree: 8%
 ---
 # 创建和修改自定义访问级别
@@ -250,19 +250,18 @@ ht-degree: 8%
       <td role="rowheader">允许用户访问品牌</td> 
       <td>允许用户在Workfront中访问和管理GenStudio品牌。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">授予对品牌权限的访问权限</a>。</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">禁用构思空间</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>选择此设置可允许用户访问构思空间。</p> 
+      <p>默认情况下，该选项处于选中状态。</p>
+      <p>有关详细信息，请参阅<a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Adobe Workfront规划</a>的构思空间入门。</p>
+      <p><b>注意：</b></p>
+      <p>构思空间在Beta中仅适用于还拥有Workfront Planning包的客户。</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 
