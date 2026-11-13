@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1537'
 ht-degree: 2%
 ---
 
@@ -60,9 +60,9 @@ ht-degree: 2%
                 <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Workfront管理员现在可以将Workfront Planning工作区及其对象从一个环境提升到另一个环境。</p>
             </td>
-            <td><p>即将进行沟通</p></td>
+            <td><p>2026年12月17日</p></td>
             <td><p>2026年11月12日</p></td>
-            <td><p>即将进行沟通</p></td>
+            <td><p>2026年12月17日</p></td>
         </tr>
         <tr>
             <td>
