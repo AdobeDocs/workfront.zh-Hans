@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -235,7 +235,7 @@ Or
 
 1. （可选）单击Co-worker面板右上角的&#x200B;**聊天**&#x200B;图标![聊天图标](assets/chats-icon-coworker.png)，然后单击&#x200B;**新建聊天**&#x200B;以打开新提示或单击列表中以前的聊天之一以返回较早的聊天。
 
-   有关聊天的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
+   有关聊天的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 
 1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以搜索构思画布中的项目，然后在构思画布显示在列表中时单击以导航到该构思画布。
 
