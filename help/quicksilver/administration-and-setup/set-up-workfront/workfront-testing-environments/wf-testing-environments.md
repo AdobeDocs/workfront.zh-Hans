@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '145'
 ht-degree: 2%
 ---
 # [!DNL Adobe Workfront]测试环境
@@ -41,8 +41,8 @@ ht-degree: 2%
 
 ## 测试环境
 
-* [&#x200B; [!DNL Adobe Workfront] 预览沙盒环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [&#x200B; [!DNL Adobe Workfront] 自定义刷新沙盒环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [ [!DNL Adobe Workfront] 预览沙盒环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [ [!DNL Adobe Workfront] 自定义刷新沙盒环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## 环境推广
 
@@ -54,3 +54,4 @@ ht-degree: 2%
 * [使用 [!DNL Workfront] 环境升级API在 [!DNL Workfront] 环境之间移动对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 * [环境提升常见问题解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
 * [环境提升疑难解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* [将环境提升用于Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md)

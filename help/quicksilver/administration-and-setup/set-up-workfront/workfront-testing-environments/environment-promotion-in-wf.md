@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1041'
 ht-degree: 2%
 ---
 # 在Workfront环境之间移动对象概述（环境升级）
@@ -64,9 +64,8 @@ ht-degree: 2%
 * [自定义数据对象](#custom-data-objects)
 * [组织对象](#organization-objects)
 * [其他配置对象](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Workfront Planning对象](#workfront-planning-objects)
+
 
 ### 工作对象
 
@@ -139,25 +138,24 @@ ht-degree: 2%
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Workfront Planning对象
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Workfront Planning对象仅适用于除了Workfront包之外，还购买了Planning包的客户。
+>
+>环境促销活动不适用于已将Workfront Planning作为独立产品购买的客户。
 
-| Promotable object | Included promotable linked objects |
+| 可提升的对象 | 包含的可升级链接对象 |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| 工作区 | Workspace部分 |
+| 记录类型 | 连接的记录类型* <br>字段<br>视图<br>层次结构<br>请求表单 |
+| 共享所有对象 | 组<br>团队<br>职位角色<br>用户<br>公司 |
 
+*只有属于导入的工作区的已连接记录类型才会传输到目标环境。
+
+有关信息，请参阅[为Adobe Workfront Planning使用环境升级](/help/quicksilver/planning/general/planning-environment-promotion.md)。
 
 ## 环境提升状态
 
@@ -195,7 +193,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
+   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
   </tr> 
   </tbody> 
 </table>
