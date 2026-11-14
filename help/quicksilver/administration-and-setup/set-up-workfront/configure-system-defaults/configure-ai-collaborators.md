@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 2%
+source-wordcount: '1993'
+ht-degree: 1%
 ---
 # 配置AI协作者
 
@@ -42,15 +42,11 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
 
   有关Adobe CX Enterprise Coworker的更多信息，请参阅[Workfront中的CX Enterprise Coworker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
-
 AI协作者使用的许可证不收费。 如果贵组织拥有200个Workfront许可证并创建了一个AI协作器，则有201个许可证在使用中，但只计费200个。
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview">项目协调员：开箱即用的协作器，用于监视项目状态并发送项目更新，而无需配置外部代理。</span>
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
+  <span class="preview">有关详细信息，请参阅[使用项目协调器协作器](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。</span>
 
 
 ## 访问权限要求
@@ -108,8 +104,6 @@ AI协作者使用的许可证不收费。 如果贵组织拥有200个Workfront�
 >
 >我们的目标是联系任何代理提供商，因此如果您使用的提供商当前与工作代理不兼容，请联系您的帐户团队寻求帮助。
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## 创建新的AI审阅者
 
 AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
@@ -137,8 +131,6 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 工作代理可以是<span class="preview">使用协同工作的本机工作代理，</span>，也可以来自受支持的外部平台，如Copilot Studio、Claude、OpenAI和IBM。
 
 >可以将工作座席分配给任务或问题。
-
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 工作代理使用的许可证不收费。 如果贵组织拥有200个Workfront许可证并创建了一个工作代理，则有201个许可证在使用中，但只收取200个许可证。
 
@@ -263,34 +255,41 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
-<!--
-## Configure a Project Coordinator
+## 配置项目协调器
 
-The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+项目协调员是一个开箱即用的协作者，负责监控项目状态并帮助使工作按计划进行。 与工作代理不同，项目协调器不要求您配置外部代理。
 
 {{step-1-to-setup}}
 
-1. In the left navigation, click **AI Collaborators**.
-1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
-1. Click **Save**.
+1. 在左侧导航中，单击&#x200B;**AI协作者**。
+1. 单击屏幕右上角的&#x200B;**新建Collaborator**。
+1. 选择&#x200B;**项目协调器**，然后单击&#x200B;**继续**。
+1. 在&#x200B;**AI协作器名称**&#x200B;字段中，输入项目协调器的名称。 这是作为协作者显示在项目中的名称。
+1. （可选）在&#x200B;**AI Collaborator描述**&#x200B;字段中，输入项目协调器的功能或其用途的描述。
+1. 在&#x200B;**访问级别**&#x200B;字段中，选择项目协调器的访问级别。 此访问级别控制协作者在项目上可以执行的操作，与访问级别控制用户可以执行操作的方式相同。
+1. （可选）在&#x200B;**组**&#x200B;字段中，选择项目协调员将关联的组。
 
-For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
+   >[!NOTE]
+   >
+   >如果您是组管理员，则此字段仅显示您是其管理员的组。 组管理员必须至少选择一个组。
+
+1. 在&#x200B;**协调器操作**&#x200B;区域中，指定项目协调器发送项目更新的方式。 项目协调器必须具有执行这些操作的权限。 项目协调员还可以对项目及其任务进行评论。
+
+   项目更新可以包括进度摘要、项目运行状况、逾期或存在风险的任务或审批以及缺少字段或分配。
+
+   * 在&#x200B;**节奏**&#x200B;字段中，选择项目协调器是每天发送更新还是每周发送更新。
+   * （视情况而定）如果您选择每周，请在&#x200B;**天**&#x200B;字段中，选择在一周中发送更新的日期。
+   * 在&#x200B;**时间**&#x200B;字段中，选择发送更新的时间。
+   * 在&#x200B;**时区**&#x200B;字段中，选择更新时间的时区。
+   * 在&#x200B;**谁获取更新**&#x200B;字段中，选择更新是发送给项目所有者还是项目利益相关者。 默认值为项目所有者。
+
+1. 单击&#x200B;**保存**。
+
+保存项目协调员后，将&#x200B;**项目协调员**&#x200B;字段添加到用户使用的布局模板中的项目标头。 在该字段在标题中可用之前，用户无法将项目协调员分配给项目。
+
+有关说明，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
+
+有关项目协调器的详细信息，包括如何将其分配给项目，请参阅[使用项目协调器协作器](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。
 
 </div>
 

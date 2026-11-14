@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3e4856a8edc426c9624ec08e7c4f86d0c38dd2ef
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 2%
 ---
 # AI 协作者
@@ -27,9 +27,7 @@ ht-degree: 2%
 
 AI协作者是AI代理，您可以通过与分配人员相同的方式将其分配给任务。 您可以将AI协作者融入现有工作流，从而让您的团队能够专注于最重要的事情。
 
-可用的AI协作者类型包括AI审阅者和工作代理。<!--<span class="preview">and Project Coordinators.</span>-->
-
-<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
+可用的AI协作者类型包括AI审阅者、工作代理<span class="preview">和项目协调员</span>。
 
 对于工作代理，您可以从支持的外部平台<span class="preview">连接代理，或者，如果您的组织启用了Adobe CX Coworker，请选择Adobe Native以使用由Adobe CX Coworker提供支持的现成代理。 Adobe Native选项不需要外部平台凭据。</span>
 

@@ -4,9 +4,9 @@ content-type: reference
 description: 了解如何使用项目协调器，这是一个开箱即用的AI协作器，可监控项目状态并跟进逾期任务。
 author: Becky
 feature: Work Management, Projects
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '513'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>对象权限</td> 
-   <td>您必须具有项目的“管理”权限才能分配产品协调员。</td> 
+   <td>您必须具有项目的“管理”权限才能分配项目协调器。</td> 
   </tr>
   </tbody> 
 </table>
@@ -51,21 +51,30 @@ ht-degree: 4%
 
 ## 项目协调员概述
 
-项目协调员是虚拟项目经理(VPM)，负责监控您的项目并主动帮助保持工作按计划进行。 当项目所有者分配时，项目所有者：
+项目协调员会监视您的项目并帮助使工作按计划进行。 当分配给项目时，会按管理员配置的时间表发送项目更新。 更新可能包括：
 
-* 审查项目状态并识别过期和停滞的任务
-* 向任务所有者发送状态更新请求
-* 标记本机字段和自定义表单中的不完整信息
-* 监控文档审批问题、表单缺失或不活动
-* 跟踪任务依赖项并在前置任务使依赖项处于风险中时标记
-* 在项目更新流中发布更新和跟进
-* 让项目所有者随时了解项目问题
+* 进度摘要
+* 项目运行状况
+* 过期或存在风险的任务或审批
+* 缺少字段或分配
 
-行为是可配置的，包括协作者执行的操作以及检查项目状态的频率。
+项目协调员还可以对项目及其任务进行评论。
+
+管理员可配置发送更新的频率、发送时间以及接收更新的人员。
+
+您还可以在项目更新中提及项目协调员，根据需要运行项目协调员。 项目协调员在提到它时运行，即使它没有安排在那个时间运行。
+
+>[!NOTE]
+>
+>在正式发布之前，项目协调员的行为可能会发生变化。
 
 ## 将项目协调员添加到项目
 
-默认情况下，“项目协调器”字段显示在项目标题中。 要将项目协调员分配给项目，请执行以下操作：
+管理员必须首先创建项目协调器，并将&#x200B;**项目协调器**&#x200B;字段添加到布局模板中的项目标头。 然后，该字段显示在项目标题中。
+
+有关详细信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
+
+要将项目协调员分配给项目，请执行以下操作：
 
 1. 转到要为其分配项目协调器的项目。
 1. 在项目标题中，单击&#x200B;**项目协调器**&#x200B;字段。
@@ -74,6 +83,23 @@ ht-degree: 4%
    该窗口显示所选项目协调器的说明以及项目协调器执行的操作。
 1. 单击&#x200B;**应用**。
 
+## 通过提及项目协调员来运行项目协调员
+
+除了其计划的更新外，您还可以随时通过将“项目协调器”@mentioning入项目更新来触发该协调器。 项目协调员一经提及，即刻运行，即使没有计划在此时运行。
+
+提及项目协调员：
+
+1. 转到已分配项目协调器的项目。
+1. 打开项目的&#x200B;**更新**&#x200B;区域。
+1. 在更新字段中，键入&#x200B;**@**&#x200B;并选择项目协调器。
+1. 添加您的消息，然后发布更新。
+
+   项目协调员运行并发布其响应。
+
+>[!NOTE]
+>
+>必须先为项目分配项目协调器，然后才能使用@mention触发该项目。
+
 ## 配置项目协调器
 
-有关配置项目协调器的说明，请参阅配置AI协作者一文中的[配置项目协调器](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-the-project-coordinator)。
+有关配置项目协调器的说明，请参阅配置AI协作者一文中的[配置项目协调器](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-project-coordinator)。
