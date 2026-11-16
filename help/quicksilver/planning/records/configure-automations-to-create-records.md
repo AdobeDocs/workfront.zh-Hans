@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 3%
 ---
 # 配置Adobe Workfront Planning自动化
@@ -296,7 +296,7 @@ Old:
          这是必填字段。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 在&#x200B;**映射字段**&#x200B;区域中，更新以下信息：
+                                                                                 在**映射字段**&#x200B;区域中，更新以下信息：
 
        * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
        * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。
@@ -325,7 +325,7 @@ Old:
          例如，如果计划记录中有一个字段表示三个区域，如英国、欧盟和美国，则选择该字段将创建三个新记录，每个选项一个记录。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 在&#x200B;**映射字段**&#x200B;区域中，更新以下信息：
+                                                                                 在**映射字段**&#x200B;区域中，更新以下信息：
 
        * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
        * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。
@@ -402,6 +402,10 @@ Old:
 
 ## 共享自动化
 
+>[!NOTE]
+>
+>此功能已于2026年11月16日从所有环境中暂时移除，并将在未来日期启用。
+
 作为自动化程序的创建者，默认情况下您具有管理权限。
 
 此外，您还可以与其他用户或团队共享它。
@@ -432,7 +436,7 @@ Old:
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
