@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1582'
 ht-degree: 0%
 ---
 # 报表交付概述
@@ -175,13 +175,15 @@ ht-degree: 0%
 * 时间
 * 发送报告的时区
 
-### 品牌化 {#branding}
+<!--
+### Branding {#branding}
 
-如果您的Workfront管理员向Workfront实例添加了自定义品牌，则以.pdf格式发送的报告还将包含您的个性化徽标。
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
-以所有其他格式发送的报表不能使用您的徽标进行个性化。
+Reports sent in all other formats cannot be personalized with your logo.
 
-有关将Workfront实例品牌化的详细信息，请参阅文章[将Adobe Workfront实例品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### 格式设置 {#formatting}
 
