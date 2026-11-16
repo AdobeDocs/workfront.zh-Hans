@@ -37,7 +37,7 @@ ht-degree: 3%
 * 访问Workfront Planning和GenStudio for Performance Marketing。
 * 链接到工作区的Adobe云存储项目。 组织管理员可以在Adobe Admin Console中创建一个。
 
-  有关信息，请参阅[管理Adobe存储](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
+  有关信息，请参阅[管理Adobe存储](https://helpx.adobe.com/cn/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
 
 ## 访问权限要求
 
@@ -73,7 +73,7 @@ ht-degree: 3%
    <td> 
    <p> 您必须在Adobe Admin Console中创建Adobe Storage Cloud项目 </p>
 
-<p>有关信息，请参阅<a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">管理项目</a>
+<p>有关信息，请参阅<a href="https://helpx.adobe.com/cn/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">管理项目</a>
 
 </td> 
   </tr>
@@ -99,7 +99,7 @@ ht-degree: 3%
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>任何GenStudio用户角色（如果您需要访问营销活动、产品和角色）</li>
    <li>GenSudio System Manager（如果您需要访问激活） <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
