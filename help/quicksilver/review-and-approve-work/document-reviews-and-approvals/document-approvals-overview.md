@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # 统一审查和批准概述
@@ -96,7 +96,7 @@ Creative Cloud应用程序（Photoshop、Illustrator和InDesign）也可以直�
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
@@ -580,6 +580,10 @@ Adobe cloud storage让您能够灵活地以递增方式推出新体验，从最�
 部分。 可以在Workfront沙盒环境中测试审批工作流。 但是，Frame.io查看器体验在沙盒中不可用。 测试审阅表面本身需要生产环境。
 
 要限制转出过程中的风险，您可以在Workfront生产环境中为特定组启用统一审查和批准。 这样，您就可以在更广泛地推出之前，通过一组更少的用户来运行定向试点。
+
+**为什么刷新后我的Adobe云存储项目和文档不显示在沙盒中？**
+
+此是符合预期的行为。 从生产环境中刷新沙盒时，不会将Adobe云存储数据复制到沙盒中。 Adobe云存储项目、其文档和相关数据不包括在刷新中。 旧版Workfront存储项目和文档将继续照常复制到沙盒中。 要在沙盒中测试Adobe云存储，请创建新的Adobe云存储项目，并直接在该环境中上传文档。 有关详细信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
