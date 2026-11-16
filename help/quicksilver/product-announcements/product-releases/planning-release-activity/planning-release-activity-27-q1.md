@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1851'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度发布活动
@@ -29,13 +29,27 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 共享Planning自动化
+## 新的Workfront模板：使用AEM工作流创建项目并创建多个记录
 
 >[!NOTE]
 >
 >预览： 2026年11月12日
 >生产快速发布： 2026年11月12日
 >适用于所有人的生产： 2026年11月12日
+>[!BADGE 超出计划]{type=Neutral}
+
+Workfront Fusion中现在提供了两个新的自动化模板。
+
+* **使用AEM工作流创建项目：**&#x200B;从项目模板创建一个项目，并（可选）创建为项目模板配置的AEM链接文件夹并将它们链接到新项目。
+* **创建多个记录：**&#x200B;在记录类型上创建一个或多个记录，在当前记录的多选或连接字段中的每个选择都创建一个新记录。 每条新记录都会链接回当前记录，并且您会将复制的字段映射到新记录。
+
+有关信息，请参阅[配置Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+## 共享Planning自动化
+
+>[!NOTE]
+>
+>此功能已从所有环境中暂时删除，并将在以后的某个日期启用。
 >[!BADGE 超出计划]{type=Neutral}
 
 新的Workfront Planning自动化现在默认仅供其所有者使用，而不是自动与工作区中的每个人共享。 所有者可以通过与他人共享自动化来选择获得访问权限的用户。 您可以为其他用户提供&#x200B;**管理**、**编辑**&#x200B;或&#x200B;**运行**&#x200B;访问级别。 现有的自动化操作将与其工作区用户共享，因此当前的访问不受影响。
