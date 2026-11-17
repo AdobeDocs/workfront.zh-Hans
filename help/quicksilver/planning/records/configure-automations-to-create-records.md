@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 3%
 ---
 # 配置Adobe Workfront Planning自动化
@@ -401,6 +401,10 @@ Old:
      使用已删除的自动化创建的记录仍与最初选择的记录保持连接。
 
 ## 共享自动化
+
+>[!NOTE]
+>
+>此功能已于2026年11月16日从所有环境中暂时移除，并将在未来日期启用。
 
 作为自动化程序的创建者，默认情况下您具有管理权限。
 

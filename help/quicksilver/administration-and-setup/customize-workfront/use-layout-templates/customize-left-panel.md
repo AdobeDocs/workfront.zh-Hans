@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1256'
 ht-degree: 2%
 ---
 # 使用布局模板自定义左侧面板
@@ -247,14 +247,12 @@ ht-degree: 2%
    >* [!UICONTROL 列表]
    >* [!UICONTROL 摘要面板]
    >* [!UICONTROL 主页]
-   >* [!UICONTROL 品牌]
    > 
    >有关如何自定义这些附加区域的信息，请参阅以下文章：
    >
    >* [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [使用布局模板自定义[!UICONTROL 摘要面板]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [使用布局模板自定义主页](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* 使用布局模板[品牌Adobe [!DNL Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （可选）如果要添加链接到贵组织某个功能板的左侧面板项，请单击“添加功能板”**&#x200B;**，键入该项的&#x200B;**[!UICONTROL 快速链接名称]**，然后选择该功能板。

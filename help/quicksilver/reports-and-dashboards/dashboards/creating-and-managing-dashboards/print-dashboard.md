@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 4%
+source-wordcount: '431'
+ht-degree: 5%
 ---
 # 打印功能板
 
@@ -95,7 +95,7 @@ ht-degree: 4%
 * 报告标题
 * 上次生成报告的时间戳
 * 仪表板上的所有对象，包括列表视图、外部网页、报告和日历
-* 贵公司的徽标（如果Workfront管理员已在全局导航栏中对其进行自定义）。 有关将Workfront网站品牌化的详细信息，请参阅[将Adobe Workfront实例品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### 哪些内容未显示？ {#what-is-not-displayed}
 

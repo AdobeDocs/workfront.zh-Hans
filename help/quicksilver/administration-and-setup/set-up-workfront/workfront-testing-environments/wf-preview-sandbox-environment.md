@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1509'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]预览Sandbox环境
@@ -83,6 +83,18 @@ ht-degree: 0%
 预览沙盒还允许[!DNL Workfront]在准备部署到生产环境之前，在安全环境中部署新功能。 您可以通过访问预览Sandbox来测试新功能并就[!DNL Workfront]的功能提供反馈。 因此，预览沙盒的代码始终位于生产代码之前，尽管您的数据每周都会刷新。
 
 预览环境非常适用于运行培训、测试新功能和确定设置功能。
+
+## 预览Sandbox中的Adobe云存储
+
+Adobe云存储在“预览沙盒”中可用，因此您可以在生产环境中启用它之前对其进行测试。 但是，Frame.io查看器在沙盒环境中不可用，因此必须在生产环境中验证完整的统一审阅和批准体验。
+
+>[!IMPORTANT]
+>
+>从生产环境中刷新预览沙盒时，不会将Adobe云存储数据复制到沙盒。 Adobe云存储项目、其文档和相关数据不包括在刷新中。 此是符合预期的行为。 旧版Workfront存储项目和文档将继续照常复制到沙盒中。
+>
+>要在预览Sandbox中测试Adobe云存储，请创建新的Adobe云存储项目，并直接在该环境中上传文档。
+
+有关详细信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 >[!IMPORTANT]
 >

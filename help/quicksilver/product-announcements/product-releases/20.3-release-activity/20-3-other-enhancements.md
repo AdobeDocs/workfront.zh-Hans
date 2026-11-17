@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 1%
 ---
 # 20.3其他增强功能
@@ -129,7 +129,7 @@ ht-degree: 1%
 
 现在，您可以使用布局模板更改顶部导航区域和“主”菜单上的徽标，以放置具有自己的品牌的特定组、团队、工作角色和用户。
 
-有关详细信息，请参阅[将您的Adobe Workfront实例品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## 组管理员可以创建和管理审批流程
 
