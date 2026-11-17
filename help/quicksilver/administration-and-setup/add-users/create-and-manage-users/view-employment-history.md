@@ -7,9 +7,9 @@ description: 您可以查看用户的雇用历史记录，包括随着时间对�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # 查看用户雇用历史记录
@@ -37,6 +37,10 @@ ht-degree: 0%
 ## 查看雇用历史记录
 
 您可以从用户列表中查看雇用历史记录，也可以在单个用户的“用户”页面上查看其总历史记录。
+
+>[!NOTE]
+>
+>用户雇用历史记录当前未考虑用户的开始日期。
 
 ### 从用户列表中查看雇用历史记录
 
