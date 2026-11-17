@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%
 ---
 # 安装并打开[!DNL Adobe Workfront for design and video]
+
+{{cc-plugin-legacy-only}}
 
 您可以从[!DNL Adobe Marketplace]安装[!DNL Adobe Workfront for design and video]。 此插件支持以下Creative Cloud应用程序：
 
@@ -106,7 +108,7 @@ ht-degree: 4%
 
 [在此观看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅 [!DNL Adobe Admin Console]&#x200B;[&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的为您的用户创建[!UICONTROL [!DNL Adobe Workfront]  for [!DNL Creative Cloud]] 包
+[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[为您的用户创建[！UICONTROL [!DNL Adobe Workfront]  for [!DNL Creative Cloud]] 包
 
 ## 单独安装[!DNL Workfront for design and video]
 

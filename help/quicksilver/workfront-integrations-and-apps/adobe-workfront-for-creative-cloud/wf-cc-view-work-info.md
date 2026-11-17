@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 3%
 ---
 # 使用[!DNL Adobe Workfront]插件查看工作项信息
+
+{{cc-plugin-legacy-only}}
 
 您可以从以下[!DNL Adobe Creative Cloud]个应用程序中查看有关项目、任务、问题和文档的信息：
 
@@ -69,7 +71,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL View]对项目、任务或问题的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL View]对项目、任务或问题的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 

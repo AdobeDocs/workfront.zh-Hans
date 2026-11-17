@@ -1,7 +1,7 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2461'
 ht-degree: 1%
 ---
 # 片段
@@ -233,6 +233,12 @@ Add snippets within the section that the snippet is used. Snippets that are used
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## 仅限CC插件旧存储 {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>[!DNL Creative Cloud]插件的[!DNL Adobe Workfront]仅适用于旧版Workfront存储上的项目。 它不支持Adobe云存储上的项目。
 
 ## 调整自动验证设置 {#adjust-proof-settings}
 

@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 3%
 ---
 # 从[!DNL Photoshop]上传校样
 
+{{cc-plugin-legacy-only}}
+
 您可以将某些Photoshop文档预设类型作为验证直接上传到[!DNL Adobe Workfront]，以进行彻底审阅和批准。
 
 >[!IMPORTANT]
 >
->该文件必须是照片文档预设，如[Photoshop中的模板和预设](https://helpx.adobe.com/cn/photoshop/using/create-documents.html)中所述。
+>该文件必须是照片文档预设，如[Photoshop中的模板和预设](https://helpx.adobe.com/photoshop/using/create-documents.html)中所述。
 
 
 
@@ -69,11 +71,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p>  </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,7 +161,7 @@ ht-degree: 3%
 1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 
-1. 在&#x200B;*[!UICONTROL *校对审批]&#x200B;**分区中，选择&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自动]**。
+1. 在&#x200B;*[!UICONTROL *校对审批]**分区中，选择&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自动]**。
 
 1. 根据您在步骤7中选择的审批类型添加&#x200B;**[!UICONTROL 审阅者]**&#x200B;或&#x200B;**[!UICONTROL 工作流模板]**。
 

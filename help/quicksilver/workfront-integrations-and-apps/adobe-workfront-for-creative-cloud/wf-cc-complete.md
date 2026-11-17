@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 6%
 ---
 # 使用[!DNL Adobe Workfront]插件标记工作项完成
+
+{{cc-plugin-legacy-only}}
 
 您可以保留在以下[!DNL Adobe Creative Cloud]应用程序中，并使用插件在[!DNL Adobe Workfront]中无缝完成您的工作：
 
@@ -67,11 +69,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]对要上载文档的对象的访问权限或更高版本。</p> </td> 
+   <td> <p>[！UICONTROL视图]对要上载文档的对象的访问权限或更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>
