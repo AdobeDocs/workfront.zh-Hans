@@ -25,12 +25,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
 ---
 # 将文档和验证从[!DNL Adobe Workfront plugin]上载到[!DNL Creative Cloud]
+
+{{cc-plugin-legacy-only}}
 
 您可以将项目作为文档上传，以供快速审阅和批准，或仅将其存储在[!DNL Adobe Workfront]中。
 

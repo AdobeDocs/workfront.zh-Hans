@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b2e4857478a0604bc83ef570c4e47576e2369907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 14%
@@ -38,6 +38,8 @@ ht-degree: 14%
 # [!DNL Creative Cloud]应用程序的[!DNL Adobe Workfront]插件
 
 <!--Audited: 12/2023-->
+
+{{cc-plugin-legacy-only}}
 
 您可以将[!DNL Creative Cloud]的[!DNL Adobe Workfront]插件用于
 

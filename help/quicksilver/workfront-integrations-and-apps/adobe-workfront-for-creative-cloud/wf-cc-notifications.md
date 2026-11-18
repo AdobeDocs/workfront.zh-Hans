@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 4%
 ---
 # 查看并管理来自[!DNL Adobe Creative Cloud]的[!DNL Adobe Workfront]通知
+
+{{cc-plugin-legacy-only}}
 
 您可以在Adobe Creative Cloud中接收来自[!DNL Adobe Workfront]的通知，内容涉及您需要批准的项、已给予您的分配或者与您关联的项有关的注释和更改。
 
