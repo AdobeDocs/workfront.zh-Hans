@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0f2e6b4454d8366d9b8473029e12818d7359bf81
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '441'
 ht-degree: 0%
 ---
 # 20.4移动和集成增强功能
@@ -58,7 +58,7 @@ Workfront与移动设备管理(MDM)平台MobileIron合作，为组织提供更�
 
 使用Workfront for MobileIron，管理员可以限制复制/粘贴功能和屏幕捕获等内容。 您可以在[https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront)上下载适用于MobileIron应用程序的Workfront。
 
-有关配置应用程序的信息，请参阅[配置Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)。
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## 在Workfront移动设备应用程序中快速创建任务
 
