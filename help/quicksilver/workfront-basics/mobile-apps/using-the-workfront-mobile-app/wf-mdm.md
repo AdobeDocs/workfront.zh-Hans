@@ -20,25 +20,27 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 3%
+source-wordcount: '95'
+ht-degree: 2%
 ---
 # [!DNL Mobile Device Management] (MDM)的[!DNL Adobe Workfront]
 
 {{mobile-maintenance-mode}}
 
-Adobe [!DNL Workfront]已与一些[!DNL Mobile Device Management] (MDM)平台合作，为组织提供更加安全和可控的移动体验。 [!DNL Workfront]移动设备应用程序在以下移动设备管理平台上可用：
+Adobe [!DNL Workfront]已与[!DNL Mobile Device Management] (MDM)平台合作，为组织提供更加安全和可控的移动体验。 [!DNL Workfront]移动设备应用程序在以下移动设备管理平台上可用：
 
+<!--
 ## MobileIron
 
-请参阅[!DNL MobileIron]的帮助文档，以从其平台安装[!DNL Workfront]移动应用：
+See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobile app from their platform:
 
 * iOS
 * Android
 
-有关为[!DNL MobileIron]配置[!DNL Workfront]的信息，请参阅[为 [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)配置 [!DNL Adobe Workfront] 。
+For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+-->
 
 ## Intune
 
@@ -48,5 +50,3 @@ Workfront移动应用现在可在[!DNL Microsoft Intune]应用商店中使用。
 * Android
 
 您的Workfront实例必须位于Adobe Identity Management System (IMS)上。
-
-<!--remove this note October 2026-->
