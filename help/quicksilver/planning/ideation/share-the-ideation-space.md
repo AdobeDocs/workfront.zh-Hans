@@ -77,7 +77,7 @@ Some of this information is also duplicated in the section for Ideation space pe
 
 * 您必须对构思空间具有编辑器权限，才能创建或参与简述并将它们导出到其他应用程序。
 
-* 
+* &#x200B;
   * 共享仅控制谁可以在构思画布中访问和协作。 仅当有人将简介导出到Workfront Planning时，记录更新才会发生。
 
 ## 访问权限要求
