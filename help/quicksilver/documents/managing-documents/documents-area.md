@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 0%
 ---
 # “文档”区域
@@ -65,6 +65,11 @@ Workfront目前有两个版本的“文档”区域：旧版文档区域和新�
 当您需要有关文档的所有信息时，可以单击详细信息标题转到完整的文档详细信息区域。
 
 ![文档区域](assets/documents-area-v2-350x199.png)
+
+在预览中<span class="preview">：
+![文档区域摘要面板](assets/legacy-document-summary.png)
+</span>
+
 
 有关摘要的信息，请参阅[文档摘要概述](../../documents/managing-documents/summary-for-documents.md)。
 

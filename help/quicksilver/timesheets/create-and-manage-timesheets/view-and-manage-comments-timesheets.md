@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 2%
-
 ---
-
 # 查看和管理工时表上的备注
 
 <!-- Audited: April, 2024-->
@@ -108,7 +106,7 @@ ht-degree: 2%
 1. 单击左侧面板中的&#x200B;**更新**，然后单击&#x200B;**评论**&#x200B;选项卡。
 1. 开始添加新注释或回复现有注释，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。
 1. （可选）在&#x200B;**标记人员或团队**&#x200B;字段中添加人员或团队以将其他人包含在您的更新中。 有关详细信息，请参阅[为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
-1. （可选）如果只想让公司的人员查看更新，请选择&#x200B;**我的公司私有**&#x200B;选项。
+1. （可选）如果您希望仅让公司的人员查看更新，请Select的&#x200B;**我的公司私有**&#x200B;选项。
 
    >[!TIP]
    >
@@ -175,7 +173,7 @@ ht-degree: 2%
 
 1. 转到要在其中发表评论的时间表，然后在左侧面板中单击&#x200B;[!UICONTROL **时间表**]。
 1. 单击任务或问题的行，然后单击&#x200B;[!UICONTROL **打开摘要**]。
-1. 开始在“摘要”面板的&#x200B;[!UICONTROL **更新**]&#x200B;区域键入更新，然后单击&#x200B;[!UICONTROL **提交**]。
+1. 在“摘要”面板的&#x200B;[!UICONTROL **更新**]&#x200B;选项卡中开始键入更新，然后单击&#x200B;[!UICONTROL **提交**]。
 更新显示在任务和问题的更新部分中。
 1. （可选）单击&#x200B;[!UICONTROL **关闭摘要**]&#x200B;以关闭摘要面板。
 

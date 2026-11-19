@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '818'
 ht-degree: 9%
 ---
 # 在[!UICONTROL 主页]区域更新或编辑工作项
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -70,7 +72,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -175,10 +177,8 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行图标](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
    ![打开摘要](assets/open-summary-new-home.png)
 
-1. 在“摘要”面板中，将鼠标悬停在要编辑的字段上。
-如果您有权编辑该字段，则当您将鼠标悬停在该字段上时，该字段会高亮显示。
-1. 单击要编辑的字段，然后进行所需的更新。
+1. 在“摘要”面板中，单击要编辑的字段，然后进行所需的更新。
 1. 单击离开字段以保存更改。

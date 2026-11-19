@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '700'
 ht-degree: 3%
-
 ---
-
 # 查看和更新任务的完成百分比
+
+{{highlighted-preview}}
 
 <!--Audited: 05/2025-->
 
@@ -130,11 +130,15 @@ Old:
 
 * **在任务的“摘要”面板中**：您可以在查看以下区域中的任务时更新摘要面板顶部的任务完成百分比：
 
-   * 任务列表或报告
-   * 时间表
-   * 工作负载均衡器
+  * 任务列表或报告
+  * 时间表
+  * 工作负载均衡器
 
   ![更新任务摘要中突出显示的百分比](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  在预览中<span class="preview">：
+  ![更新任务摘要中突出显示的百分比](assets/percent-complete-summary.png)
+  </span>
 
   有关详细信息，请参阅[摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
@@ -147,8 +151,8 @@ Old:
 * 当您将任务标记为100%完成时，任务状态将更新为“完成”。 问题的状态更新为“已关闭”。
 * 完成任务也会更新父级和项目的完成百分比。
 * 父任务和项目存在以下方案：
-   * 当项目的“摘要完成模式”设置为“自动”并且子任务未完成时，不能将父任务的完成百分比更新为100%。
-   * 当项目的“摘要完成模式”设置为“手动”并且子任务已完成或不完成时，您可以将父任务或项目的完成百分比更新为100%。
+  * 当项目的“摘要完成模式”设置为“自动”并且子任务未完成时，不能将父任务的完成百分比更新为100%。
+  * 当项目的“摘要完成模式”设置为“手动”并且子任务已完成或不完成时，您可以将父任务或项目的完成百分比更新为100%。
 
   有关详细信息，请参阅[编辑项目](../manage-projects/edit-projects.md)。
 
@@ -156,7 +160,7 @@ Old:
 
 1. 转到您要更新任务完成百分比的任何区域。
 
-   有关信息，请参阅本文中您可以更新任务[&#128279;](#areas-where-you-can-update-the-percent-complete-of-a-task)的完成百分比的区域部分。
+   有关信息，请参阅本文中您可以更新任务](#areas-where-you-can-update-the-percent-complete-of-a-task)的完成百分比的[区域部分。
 
 1. 找到要更新其完成百分比的任务的&#x200B;**完成百分比**&#x200B;字段。
 
