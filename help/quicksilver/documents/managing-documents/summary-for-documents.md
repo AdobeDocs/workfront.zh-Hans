@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '759'
 ht-degree: 5%
 ---
 # 文档摘要概述
@@ -96,7 +96,11 @@ ht-degree: 5%
 
    ![摘要详细信息](assets/document-summary-panel.png)
 
-   打开“摘要”后，它将保持在此页面上处于打开状态（即使您单击了其他文档），直到您手动将其关闭为止。
+在预览中<span class="preview">：
+![摘要详细信息](assets/document-details-summary-legacy.png)
+</span>
+
+打开“摘要”后，它将保持在此页面上处于打开状态（即使您单击了其他文档），直到您手动将其关闭为止。
 
 
 ### 详细信息
@@ -112,17 +116,29 @@ ht-degree: 5%
 
 ![文档摘要概述](assets/details-section.png)
 
+在预览中<span class="preview">：
+![摘要详细信息](assets/document-details-summary-legacy.png)
+</span>
+
 #### 自定义表单 {#custom-forms}
 
 使用自定义Forms部分添加、编辑或查看与文档关联的任何自定义表单。 开始键入自定义表单的名称以将其添加到文档。 有关详细信息，请参阅[在文档中添加或编辑自定义表单](../../documents/managing-documents/add-custom-form-documents.md)。
 
 ![在文档摘要中添加自定义表单](assets/custom-forms-section.png)
 
+在预览中<span class="preview">：
+![在文档摘要中添加自定义表单](assets/custom-form-summary-legacy.png)
+</span>
+
 ### 更新
 
 使用更新部分查看某人对文档或验证所做的更新。 此摘要显示前2条评论。 有关更新的详细信息，请参阅[对校对的评论](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
 
 摘要面板中的![更新部分](assets/updates-section.png)
+
+在预览中<span class="preview">：
+摘要面板中的![更新部分](assets/updates-summary-legacy.png)
+</span>
 
 ### 审批
 
@@ -135,6 +151,10 @@ ht-degree: 5%
 
 ![文档摘要审批](assets/approvals-section.png)
 
+在预览中<span class="preview">：
+![文档摘要审批](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### 版本
 
 使用“版本”部分可查看为特定文档创建的版本数。 单击“更多”图标![更多图标](assets/more-icon.png)可执行以下操作：
@@ -146,6 +166,10 @@ ht-degree: 5%
 * 删除验证或文档。
 
 ![文档摘要版本](assets/versions-section.png)
+
+在预览中<span class="preview">：
+![文档摘要版本](assets/document-versions-summary-legacy.png)
+</span>
 
 ## 新文档体验中的文档摘要
 

@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 4292
+source-wordcount: '4301'
 ht-degree: 1%
-
 ---
-
 # 记录时间
 
 <!--Audited: 5/2025-->
@@ -146,7 +144,7 @@ ht-degree: 1%
 
 1. （可选）展开过滤器、视图或分组下拉菜单以应用或自定义一个下拉菜单，并查看所需的项目信息。
 
-1. 在列表中选择一个或多个项目，然后单击&#x200B;**添加**。
+1. Select列表中的一个或多个项目，然后单击&#x200B;**添加**。
 
    如果一次添加的项目少于50个，则这些项目会添加到时间表中。 任务和问题列在项目的名称下。
 
@@ -282,7 +280,13 @@ ht-degree: 1%
 
    ![summary-panel-for-task-open-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   您的更新将显示在与登录时间关联的工作项的更新区域中。
+   在预览中<span class="preview">：
+
+   ![summary-panel-for-task-open-in-timesheet](assets/summary-timesheet.png)
+
+   </span>
+
+   您的更新显示在与记录时间关联的工作项的更新选项卡中。
 
    >[!TIP]
    >
@@ -356,7 +360,7 @@ ht-degree: 1%
 
 1. 转到&#x200B;**主页**&#x200B;区域。
 1. 将&#x200B;**我的工作**&#x200B;构件添加到您的主页。
-1. （可选）在列表中选择任务、问题或请求，然后单击&#x200B;**处理它**。
+1. （可选）在列表中Select任务、问题或请求，然后单击&#x200B;**处理它**。
 1. 将鼠标悬停在要记录时间的任务或问题上，然后单击任务信息右侧的&#x200B;**记录时间**&#x200B;图标![记录时间图标](assets/log-time-icon-in-new-home.png)。
 
    显示&#x200B;**记录时间**&#x200B;框。
@@ -365,7 +369,7 @@ ht-degree: 1%
 
 1. 指定以下信息：
 
-   * **小时类型**：从下拉菜单中选择小时类型（如果它与默认显示的类型不同）。
+   * **小时类型**：如果与默认显示的小时类型不同，则从下拉菜单中Select小时类型。
 
      根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
 
@@ -430,7 +434,7 @@ ht-degree: 1%
 
 1. 指定以下信息：
 
-   * **小时类型**：从下拉菜单中选择小时类型（如果它与默认显示的类型不同）。
+   * **小时类型**：如果与默认显示的小时类型不同，则从下拉菜单中Select小时类型。
 
      根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
 
@@ -471,7 +475,7 @@ ht-degree: 1%
    * **所有者：**&#x200B;默认情况下，您的姓名将显示在此字段中。\
      如果要为其他用户记录小时数，请指定其名称。
 
-   * **小时类型**：从下拉菜单中选择小时类型（如果它与默认显示的类型不同）。
+   * **小时类型**：如果与默认显示的小时类型不同，则从下拉菜单中Select小时类型。
 
      根据系统中配置的小时类型，此处提供的选项可能会有所不同。
 

@@ -17,20 +17,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '947'
 ht-degree: 2%
 ---
 # [!UICONTROL 摘要]概述
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+{{highlighted-preview}}
 
 您可以使用[!UICONTROL 摘要]面板直接从任务、问题、文档的列表或显示任务和问题的[!DNL Adobe Workfront]的其他区域查看和更新工作项信息。
 
@@ -119,19 +113,15 @@ ht-degree: 2%
 ## 在任务或问题列表中查看[!UICONTROL 摘要]面板
 
 1. 转到任务或问题，然后在列表中选择一个项目。
-1. 单击新工具栏中的&#x200B;**[!UICONTROL 摘要]**&#x200B;图标![摘要](assets/qs-summary-in-new-toolbar-small.png)
-
-   或
-
-   单击[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中的&#x200B;**[!UICONTROL 打开摘要]**&#x200B;图标![打开摘要并包含文本](assets/open-summary-with-text-nwe.png)。
-
-   打开“摘要”后，在单击或选择其他任务或问题时，它保持打开状态，直到手动关闭它为止。
+1. 单击&#x200B;**[!UICONTROL 打开摘要]**&#x200B;图标![新工具栏中的摘要](assets/qs-summary-in-new-toolbar-small.png)。 打开“摘要”后，在单击或选择其他任务或问题时，它保持打开状态，直到手动关闭它为止。
 
    >[!TIP]
    >
    >一次只能选择一个任务或一个问题，以便在[!UICONTROL 摘要]面板中查看其详细信息。
 
    ![摘要面板](assets/summary-panel-for-task-new-comments.png)
+
+   <!--![Summary panel](assets/summary-panel.png)-->
 
 1. （可选）要关闭[!UICONTROL 摘要]面板，请执行下列操作之一：
 
@@ -155,37 +145,58 @@ ht-degree: 2%
 
 摘要面板中的完成百分比![](assets/summary-overview-percent-complete.png)
 
+在预览中<span class="preview">：
+摘要面板中的完成百分比![](assets/percent-complete.png)
+</span>
+
 ## [!UICONTROL 更新]
 
-使用[!UICONTROL 摘要]的[!UICONTROL 更新]部分查看最近的更新并对您选择的任务或问题进行更新。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;直接转到任务的[!UICONTROL 更新]选项卡。
+使用[!UICONTROL 摘要]的[!UICONTROL 更新]选项卡查看最近的更新并对您选择的任务或问题进行更新。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;直接转到任务的[!UICONTROL 更新]选项卡。
 
 摘要面板中的![更新部分](assets/summary-updates-section.png)
 
+在预览中<span class="preview">：
+摘要面板中的![更新部分](assets/updates.png)
+</span>
+
 ## [!UICONTROL 文档]
 
-使用[!UICONTROL 摘要]的[!UICONTROL 文档]部分查看附加到所选任务或问题的文档。 单击缩略图以打开文档预览。 要直接转到任务或问题上的[!UICONTROL 文档]选项卡，请单击&#x200B;**[!UICONTROL 文档]**&#x200B;标题。
+使用[!UICONTROL 摘要]的[!UICONTROL 文档]选项卡查看附加到所选任务或问题的文档。 单击缩略图以打开文档预览。 要直接转到任务或问题上的[!UICONTROL 文档]选项卡，请单击&#x200B;**[!UICONTROL 文档]**&#x200B;标题。
 
 摘要面板中的![文档部分](assets/summary-documents-section.png)
 
+在预览中<span class="preview">：
+摘要面板中的![文档部分](assets/documents.png)
+</span>
+
+
 ## [!UICONTROL 详细信息]
 
-使用[!UICONTROL 摘要]的[!UICONTROL 详细信息]部分查看高级别工作项详细信息、进行分配或添加开始日期。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;直接转到任务或问题上的[!UICONTROL 详细信息]选项卡。
-
-
+使用[!UICONTROL 摘要]的[!UICONTROL 详细信息]选项卡查看高级别工作项详细信息、进行分配或添加开始日期。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;直接转到任务或问题上的[!UICONTROL 详细信息]选项卡。
 
 摘要面板中的![详细信息部分](assets/summary-details-section.png)
 
+在预览中<span class="preview">：
+摘要面板中的![详细信息部分](assets/details.png)
+</span>
+
 ## [!UICONTROL 子任务]
 
-此部分仅适用于任务。 使用[!UICONTROL 摘要]的[!UICONTROL 子任务]部分查看所选任务的[!UICONTROL 新]、[!UICONTROL 进行中]和[!UICONTROL 已关闭的]子任务。 单击&#x200B;**[!UICONTROL 状态]**&#x200B;下拉菜单可在状态之间切换。 要直接转到任务的[!UICONTROL 子任务]选项卡，请单击&#x200B;**[!UICONTROL 子任务]**&#x200B;标&#x200B;题。
+此部分仅适用于任务。 使用[!UICONTROL 摘要]的[!UICONTROL 子任务]选项卡查看所选任务的[!UICONTROL 新]、[!UICONTROL 进行中]和[!UICONTROL 已关闭的]子任务。 单击&#x200B;**[!UICONTROL 状态]**&#x200B;下拉菜单可在状态之间切换。 要直接转到任务的[!UICONTROL 子任务]选项卡，请单击&#x200B;**[!UICONTROL 子任务]**&#x200B;标&#x200B;题。
 
 如果尚未向任务添加任何子任务，请单击&#x200B;**[!UICONTROL 在此处添加一个]**&#x200B;直接转到任务的[!UICONTROL 子任务]选项卡。
 
 摘要面板中的![子任务部分](assets/summary-subtasks-section.png)
 
+在预览中<span class="preview">：
+
+摘要面板中的![子任务部分](assets/subtask.png)
+
+</span>
+
 ## [!UICONTROL 小时]
 
-使用[!UICONTROL 摘要]的[!UICONTROL 小时]部分来记录所选任务或问题的小时数。 单击&#x200B;**[!UICONTROL 记录时间]**&#x200B;并输入您的小时数。 要直接转到任务或问题的小时选项卡，请单击&#x200B;**[!UICONTROL 小时]**&#x200B;标题。
+使用[!UICONTROL 摘要]的[!UICONTROL 小时]选项卡记录所选任务或问题的小时数。 单击&#x200B;**[!UICONTROL 记录时间]**&#x200B;并输入您的小时数。 要直接转到任务或问题的小时选项卡，请单击&#x200B;**[!UICONTROL 小时]**&#x200B;标题。
 
 [!UICONTROL 摘要]中的小时数显示您记录的小时数。 其他用户在[!UICONTROL 摘要]中的小时总数将有所不同，具体取决于他们登录该任务的时间。
 
@@ -193,10 +204,20 @@ ht-degree: 2%
 
 摘要面板中的![小时部分](assets/summary-hours-section.png)
 
+在预览中<span class="preview">：
+
+摘要面板中的![小时部分](assets/hours.png)
+
+</span>
+
 ## 审批
 
-使用[!UICONTROL 摘要]的[!UICONTROL 审批]部分查看附加到所选任务或问题的审批。 如果您尚未添加任何审批，请从下拉菜单中选择现有审批，或单击&#x200B;**[!UICONTROL 创建一次性审批流程]**&#x200B;直接转到任务或问题上的[!UICONTROL 审批]选项卡。
+使用[!UICONTROL 摘要]的[!UICONTROL 审批]选项卡查看附加到所选任务或问题的审批。 如果您尚未添加任何审批，请从下拉菜单中选择现有审批，或单击&#x200B;**[!UICONTROL 创建一次性审批流程]**&#x200B;直接转到任务或问题上的[!UICONTROL 审批]选项卡。
 
 要直接转到任务或问题上的[!UICONTROL 审批]选项卡，请单击&#x200B;**[!UICONTROL 审批]**&#x200B;标题。
 
 摘要面板中的![审批分区](assets/summary-approvals-section.png)
+
+在预览中<span class="preview">：
+摘要面板中的![审批分区](assets/approval.png)
+</span>

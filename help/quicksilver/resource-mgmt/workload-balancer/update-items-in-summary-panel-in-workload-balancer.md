@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 6%
 ---
 # 使用摘要更新工作负载均衡器中的工作项
@@ -99,6 +99,10 @@ ht-degree: 6%
    右侧将打开“摘要”面板。
 
    ![摘要面板](assets/summary-panel-task-wb-new-comments.png)
+
+   在预览中<span class="preview">：
+   ![摘要面板](assets/summary-panel.png)
+   </span>
 
 1. 修改工作项的多个字段，输入更新，或从此处导航到Workfront的其他区域，以向工作项添加文档或其他信息。
 

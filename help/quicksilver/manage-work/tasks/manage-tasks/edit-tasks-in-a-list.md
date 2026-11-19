@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 2861
+source-wordcount: '2861'
 ht-degree: 4%
-
 ---
-
 # 编辑列表中的任务 {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
@@ -191,7 +189,7 @@ Old:
 
 * 您可以将自定义视图应用于任务列表，并编辑您有权更新的任何与任务相关的字段。
 * 无法撤消自动保存的更改。 这是默认设置。
-* 当项目更新类型为自动或自动且发生更改时，Workfront会在每次更改后自动重新计算项目的时间表以及项目中的所有内部和跨项目依赖关系。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 当项目更新类型为自动或自动且发生更改时，Workfront会在每次更改后自动重新计算项目的时间表以及项目中的所有内部和跨项目依赖关系。 有关项目更新类型的信息，请参阅[Select项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 要编辑列表中的任务并自动保存更改，请执行以下操作：
 
@@ -214,7 +212,7 @@ Old:
 
    单击任务名称右侧的任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
 
-1. （可选）从以下选项中选择：
+1. （可选）Select中的以下选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -300,7 +298,7 @@ Old:
 选择“手动保存标准”选项后更新列表中的任务时，请考虑以下事项：
 
 * 您可以将自定义视图应用于任务列表，并编辑您有权在该视图中管理的任何任务相关字段。
-* 当项目更新类型为“自动”或“自动”且“发生更改时”时，Workfront会在您单击“保存”后计算项目的时间表以及项目中的所有项目内依赖项和跨项目依赖项。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 当项目更新类型为“自动”或“自动”且“发生更改时”时，Workfront会在您单击“保存”后计算项目的时间表以及项目中的所有项目内依赖项和跨项目依赖项。 有关项目更新类型的信息，请参阅[Select项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 要在选择“手动保存标准”选项时编辑列表中的任务，请执行以下操作：
 
@@ -334,7 +332,7 @@ Old:
 
    单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单模式图标。
 
-1. （可选）从以下选项中选择：
+1. （可选）Select中的以下选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -391,7 +389,7 @@ Old:
 * 您不能将“手动保存时间表计划”选项应用于具有超过2000个任务的项目。
 * 您不能将自定义视图、筛选器或分组应用于任务列表。 “视图”、“筛选器”和“分组”下拉菜单以及“敏捷视图”图标被禁用。 默认应用的视图包含有限数量的字段。
 * 当项目的“更新类型”为“自动”或“自动”且“更改时”时，在每次更改后将自动计算项目的时间表和所有项目内的依赖项。
-* 当项目更新类型为自动或自动且更改时，在单击“保存”后计算跨项目依赖关系。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 当项目更新类型为自动或自动且更改时，在单击“保存”后计算跨项目依赖关系。 有关项目更新类型的信息，请参阅[Select项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 要在使用“手动保存时间线计划”选项时编辑列表中的任务，请执行以下操作：
 
@@ -483,6 +481,7 @@ Old:
     </tbody> 
    </table>
 
+
 1. 当您更改任务的时间表时，Workfront会更新所有项目内依赖项和跨项目依赖项。
 1. 如果要永久保留任务更改并保存项目的时间表，请单击&#x200B;**保存**。
 
@@ -494,7 +493,7 @@ Old:
 
 1. 在左侧面板中，单击&#x200B;**任务**&#x200B;部分。 此时将显示项目中的任务列表。
 
-1. 选择要编辑的任务，然后单击列表右上角的&#x200B;**打开摘要**&#x200B;图标![打开摘要图标](assets/task-summary-icon.png)。 将打开&#x200B;**任务摘要**&#x200B;面板。
+1. Select要编辑的任务，然后单击列表右上角的&#x200B;**打开摘要**&#x200B;图标![打开摘要图标](assets/task-summary-icon.png)。 将打开&#x200B;**任务摘要**&#x200B;面板。
 
 1. （可选）在&#x200B;**更新**&#x200B;区域为任务键入更新。
 1. 单击以下图标或区域之一，转到任务并在任务级别编辑信息：
@@ -527,6 +526,19 @@ Old:
       </tbody> 
       </table>
 
+<!--
+uncomment for production release
+
+      | Icon  |Action |
+      |---|---|
+      | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the task. |
+      | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the task. |
+      | Details ![Details icon](assets/details.png) |Click to update information about the task. |
+      | Subtask ![Subtask icon](assets/subtask.png) |Click to view subtasks of the task. |
+      | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+      | Approvals ![Approvals icon](assets/approvals.png)  |Click to add task approvals.  |
+-->
+
 1. 单击面板右上角的&#x200B;**X**&#x200B;将其关闭。
 
 ## 批量编辑任务
@@ -546,7 +558,7 @@ Old:
    >
    >手动保存任务时无法批量编辑任务。
 
-1. 在任务列表中选择多个任务。
+1. Select任务列表中的多个任务。
 1. （可选）单击任务列表顶部的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后&#x200B;**重新计算表达式**&#x200B;以更新计算自定义字段中的所有信息。
 1. 单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。 将打开&#x200B;**编辑任务**&#x200B;框。
 

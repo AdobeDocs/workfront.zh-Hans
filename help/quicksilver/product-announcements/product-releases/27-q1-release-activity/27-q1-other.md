@@ -4,9 +4,9 @@ description: 2027年第一季度发布时间框架内的其他增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '704'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,21 @@ ht-degree: 0%
 本页介绍了在2027年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+## 更新了任务、问题和文档的摘要面板的外观
+
+>[!NOTE]
+>
+>预览： 2026年11月19日
+>生产快速发布： 2026年12月17日
+>适用于所有人的生产： 2027年1月21日
+
+任务、问题和文档的“摘要”面板具有更新的外观，与Workfront中的其他样式相匹配。 现在，信息和字段在“摘要”面板中组织为单独的选项卡。
+
+有关更多信息，请参阅：
+
+* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [文档摘要概述](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 

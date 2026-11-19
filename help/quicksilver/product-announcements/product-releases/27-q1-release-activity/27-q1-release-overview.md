@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 2%
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 2%
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
+* [Agile增强功能](#agile-enhancements)
 * [AI增强](#ai-enhancements)
 * [文档增强功能](#documents-enhancements)
 * [项目增强功能](#project-enhancements)
@@ -100,6 +101,29 @@ ht-degree: 2%
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Agile增强功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">更新了编辑敏捷信息卡上字段的外观</a></p>
+                <p>您用于编辑敏捷信息卡的字段具有更新的外观，以便与Workfront中的其他样式匹配。</p>
+            </td>
+            <td><p>2026年11月19日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
         </tr>
     </tbody>
 </table>
@@ -281,6 +305,15 @@ ht-degree: 2%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">更新了任务、问题和文档的摘要面板的外观</a></p>
+                <p>“摘要”面板的外观已更新，其中信息和字段被组织到单独的选项卡中。</p>
+            </td>
+            <td><p>2026年11月19日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
         </tr>
 <!--
         <tr>

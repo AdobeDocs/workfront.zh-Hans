@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 2%
-
+source-wordcount: '910'
+ht-degree: 3%
 ---
-
 # 编辑列表中的问题
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Old:
 * 您可以编辑列表中显示的任何问题字段，并且您有权进行更新。
 * 您可以编辑以下列表中的问题：
 
-   * 项目或任务的问题部分
-   * 问题报告
+  * 项目或任务的问题部分
+  * 问题报告
 
 要内联编辑问题，请执行以下操作：
 
@@ -151,7 +149,7 @@ Old:
 1. 转到项目或任务中的问题列表。
 1. 执行以下操作之一
 
-   * 在列表中选择问题，然后单击工具栏中的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。
+   * Select列表中的问题，然后单击工具栏中的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。
    * 单击问题的名称，然后单击&#x200B;**编辑**。
 
      任何此类操作都会打开&#x200B;**编辑问题**&#x200B;框。
@@ -167,7 +165,7 @@ Old:
 
    此时将显示项目中的问题列表。
 
-1. 选择要编辑的问题，然后单击问题列表右上角的&#x200B;**打开摘要**&#x200B;图标![打开摘要图标](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
+1. Select要编辑的问题，然后单击问题列表右上角的&#x200B;**打开摘要**&#x200B;图标![打开摘要图标](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
 
    将打开&#x200B;**摘要**。
 
@@ -181,9 +179,22 @@ Old:
    | 小时![记录时间](assets/log-time-icon-in-summary.png) | 单击以记录小时数。 |
    | 审批![审批图标](assets/approvals-icon-in-summary.png) | 单击以添加问题批准。 |
 
-   *如果贵组织使用Adobe云存储处理文档，则无法在“摘要”面板中将文档添加到Adobe云存储问题。
+<!--
+uncomment for prod
 
-   有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+*如果贵组织使用Adobe云存储处理文档，则无法在“摘要”面板中将文档添加到Adobe云存储问题。
+
+有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 
 1. （可选）再次单击&#x200B;**打开摘要**&#x200B;图标，或单击摘要右上角的&#x200B;**X图标**&#x200B;以关闭面板并编辑内联问题。

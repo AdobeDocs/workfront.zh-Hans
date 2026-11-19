@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '818'
 ht-degree: 9%
 ---
 # 在[!UICONTROL 主页]区域更新或编辑工作项
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -178,7 +180,5 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标。
    ![打开摘要](assets/open-summary-new-home.png)
 
-1. 在“摘要”面板中，将鼠标悬停在要编辑的字段上。
-如果您有权编辑该字段，则当您将鼠标悬停在该字段上时，该字段会高亮显示。
-1. 单击要编辑的字段，然后进行所需的更新。
+1. 在“摘要”面板中，单击要编辑的字段，然后进行所需的更新。
 1. 单击离开字段以保存更改。
