@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 8%
@@ -238,11 +238,11 @@ ht-degree: 8%
    <tr>
       <td role="rowheader">在 Workfront 中禁用 CX Coworker 面板</td> 
       <td>
-      <p>选择此设置可允许用户访问同事面板。</p> 
+      <p>Select此设置允许用户访问同事面板。</p> 
       <p>默认情况下，该选项处于选中状态。</p>
       <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">在Workfront中使用CX Enterprise Coworker</a>。</p>
       <p><b>注意：</b></p>
-      <p>并非所有客户都可以访问Coworkere。</p>
+      <p>并非所有客户都可以访问同事。</p>
       </td> 
      </tr>
 
@@ -253,7 +253,7 @@ ht-degree: 8%
         <tr>
       <td role="rowheader">禁用构思空间</td> 
       <td>
-      <p>选择此设置可允许用户访问构思空间。</p> 
+      <p>Select此设置允许用户访问构思空间。</p> 
       <p>默认情况下，该选项处于选中状态。</p>
       <p>有关详细信息，请参阅<a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Adobe Workfront规划</a>的构思空间入门。</p>
       <p><b>注意：</b></p>

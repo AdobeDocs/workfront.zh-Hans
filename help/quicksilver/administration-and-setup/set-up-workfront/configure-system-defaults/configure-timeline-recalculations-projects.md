@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '487'
 ht-degree: 3%
 ---
 # 配置项目的时间线重新计算
@@ -50,12 +50,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,6 +67,11 @@ ht-degree: 3%
 ## 配置自动重新计算
 
 作为[!DNL Adobe Workfront]管理员，您可以配置[!DNL Workfront]何时自动重新计算项目时间表。 [!DNL Workfront]可以每晚或在项目范围更改时重新计算项目时间表，或同时重新计算两者。
+
+>[!NOTE]
+>
+>为确保获得最佳性能，对于持续时间超过1000天的任务，不会自动重新计算时间线。 您必须手动重新计算这些项目的时间线。
+
 
 {{step-1-to-setup}}
 

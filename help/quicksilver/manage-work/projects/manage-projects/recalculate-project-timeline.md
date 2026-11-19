@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1119'
 ht-degree: 1%
-
 ---
-
 # 重新计算项目时间表
 
 <!--Audited: 06/2025-->
@@ -115,10 +113,11 @@ Old:
 >[!IMPORTANT]
 >
 >* 如果项目的时间表超过15年，则会禁用该项目的自动重新计算，并且您只能选择手动更新类型。 如果将项目日期更改为少于15年，则必须先手动重新计算时间线，然后才能自动计算。
+>* 对于工期超过1000天的项目，不会自动重新计算时间线。 您必须手动重新计算这些项目的时间线。
 >* 对于预览和自定义刷新沙盒环境，将禁用夜间重新计算，并且不会自动重新计算项目时间线。 您必须手动重新计算预览和自定义刷新沙盒环境的项目时间线。
 >* 如果项目比较复杂，则可能不会发生自动重新计算时间线的情况。
-> 复杂项目的示例可能为具有多个依赖项、大量任务、多个跨项目前置任务或多个任务缩进的项目。
-> Workfront在项目页面的项目名称右侧放置警告，以建议用户必须手动重新计算项目时间线。只有具有项目管理权限的用户才能手动重新计算时间线。
+> 复杂项目的示例可能包括具有多个依赖项、大量任务、多个跨项目前置任务或多个任务缩进的项目。
+> Workfront在项目页面上的项目名称右侧放置警告，以建议用户必须手动重新计算项目时间线。 只有具有项目管理权限的用户才能手动重新计算时间线。
 >
 >   ![要重新计算时间线的项目警告](assets/project-warning-to-manually-recalculate-timeline.png)
 >
@@ -139,7 +138,7 @@ Workfront仅对满足以下所有条件的项目每天重新计算时间线：
 
 * 上次更新日期为过去3个月内。 Workfront管理员可以更改此默认功能。 有关详细信息，请参阅[配置项目的时间表重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
 
-* 项目时间线的上次计算日期不在当前日历日期内。 这意味着项目时间线的上次计算日期早于当天的00:00。
+* 项目时间线的上次计算日期不在当前日历日期内。 这意味着项目时间轴的最后计算日期在当天的00:00之前。
 
 您可以配置项目时间线的更新频率。 更新项目时间表时，会根据对项目所做的更改重新计算时间表。
 
@@ -154,7 +153,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-有关信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+有关信息，请参阅[Select项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -228,7 +227,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 >根据项目的复杂性，我们建议在批量编辑项目时不要选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配，或者大量自定义字段。
 
 1. 转到项目列表。
-1. 选择列表中的多个项目，然后单击&#x200B;**编辑**。
+1. Select列表中的多个项目，然后单击&#x200B;**编辑**。
 1. 单击&#x200B;**设置**，然后选择&#x200B;**重新计算时间线**。
 
 1. 单击&#x200B;**保存更改**。

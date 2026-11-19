@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -188,6 +188,16 @@ Or
    * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型>单击现有记录>单击&#x200B;**在创意空间中打开**
 
      ![记录详细信息中的构思空间](assets/ideation-space-button-in-details-page.png)
+
+     >[!IMPORTANT]
+     >
+     >从何处启动构思空间将决定简短结构。 存在以下情况：
+     >
+     >* 从Planning中的“新建记录”按钮启动摘要时，摘要包含的字段与开始使用的记录类型相同。
+     >
+     >* 从Planning现有记录启动摘要时，摘要包含与记录具有相同值的相同字段。
+     >
+     >* 从Workfront的主菜单启动摘要时，它包含您上传到画布的文件中的字段和信息。
 
 1. 阅读Beta版协议，然后单击&#x200B;**同意**。 您必须签署协议才能使用构思空间。
 
@@ -235,7 +245,7 @@ Or
 
 1. （可选）单击Co-worker面板右上角的&#x200B;**聊天**&#x200B;图标![聊天图标](assets/chats-icon-coworker.png)，然后单击&#x200B;**新建聊天**&#x200B;以打开新提示或单击列表中以前的聊天之一以返回较早的聊天。
 
-   有关聊天的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
+   有关聊天的详细信息，请参阅Adobe CX Enterprise Coworker文档中的[管理您的聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 
 1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以搜索构思画布中的项目，然后在构思画布显示在列表中时单击以导航到该构思画布。
 
@@ -244,10 +254,16 @@ Or
    可以从Workfront Planning或Web导入信息。
 
    您还可以单击空间右上角的&#x200B;**源**&#x200B;图标![源图标](assets/sources-icon.png)以显示空间中所有卡片的源列表。
-1. （可选）单击共享空间右上角的&#x200B;**评论** ![评论图标](assets/comments-icon.png)，然后单击&#x200B;**@**&#x200B;标记其他人在共享空间内开始头脑风暴。
+1. （可选）单击画布右上角的&#x200B;**评论** ![评论图标](assets/comments-icon.png)和&#x200B;**@**&#x200B;标记其他人在空间内开始头脑风暴。
 
    用户将收到有关标记的电子邮件通知。
+
+   >[!TIP]
+   >
+   >您可以为一张卡片或一组卡片添加注释。
+
 1. （可选）单击评论卡片中的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-comments-icon.png)以按以下条件筛选评论：
+
 
    * 审阅者
    * 添加评论的时间

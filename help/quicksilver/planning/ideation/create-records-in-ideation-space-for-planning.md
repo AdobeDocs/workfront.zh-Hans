@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1161'
 ht-degree: 0%
 ---
 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -167,10 +167,12 @@ Or
 ## 关于使用Ideation空间创建或编辑Planning记录的注意事项
 
 * 您必须从Workfront Planning中启动创意空间才能创建或编辑Planning记录。 从Workfront主菜单访问构思空间不会将构思简报连接到Planning记录。
+* 当您从记录中启动构思空间时，Workfront使用记录的结构和信息创建和更新简介的字段。
 * 要使用创意空间创建或编辑记录，您必须在Workfront Planning中拥有工作区和记录类型。
 * 新记录始终以占位符内容开头，无论您如何创建它们。
 * 删除链接到构思简介的Planning记录时，该简介保留在构思空间中，并且其相关空间未被删除。
-* 信息同步仅从构思空间到Workfront Planning进行。 从Planning记录到Ideation space brief之间没有反向同步或自动同步。<!--this might change after beta?-->
+* 同步仅从构思空间到Workfront Planning进行。 从Planning记录到构思简报之间没有反向同步或自动同步。
+* 导出到Workfront Planning会覆盖连接的Planning记录中的所有现有字段数据。
 * 在Workfront Planning中创建、编辑或删除字段时存在以下情况：
 
   * 在链接到构思简报的记录上创建的新字段每天都添加到该简报中。 新字段在构思简介中显示为空。
@@ -208,9 +210,15 @@ Or
 
    * 记录会立即创建，并带有占位符名称。
 
+   * 构思简介是使用占位符名称创建的。 构思简介字段与您开始使用的记录类型的字段相同。
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. （可选）将鼠标悬停在“构思空间”画布右上角的&#x200B;**Workfront Planning**&#x200B;标记上，以查看记录类型的名称、要为其创建记录的工作区以及要创建的简介的版本号。
+
+   ![画布中的Workfront Planning工作区和记录类型信息标记](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. 在&#x200B;**Co-worker**&#x200B;对话框中添加提示，然后按Enter。
 
@@ -253,9 +261,12 @@ Or
 
    如果构思不存在，则创建构思空间和简短。
 
+   构思简介包含与您开始记录的相同字段。 字段值将从记录填充到摘要中。
+
    >[!TIP]
    >
    >无法使用构思空间批量编辑记录。
+
 1. 继续编辑摘要，如本文中[使用构思空间](#create-records-using-the-ideation-space)创建记录一节中所述。
 
    <!-- 
