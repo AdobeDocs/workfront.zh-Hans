@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: '1466'
 ht-degree: 4%
-
 ---
-
 # 在项目概述区域管理信息
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">项目群</td> 
-      <td>与项目组合关联的项目群。 必须先创建项目群，然后才能将其添加到项目中。 </td> 
+      <td></p>与项目组合关联的项目。 必须先创建项目群，然后才能将其添加到项目中。</p>
+      <p> 当项目组合中有超过20个活动项目时，项目概述中的“项目”字段仅按字母顺序列出前20个项目。 键入部分名称可查找项目组合的任何活动项目。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">组</td> 

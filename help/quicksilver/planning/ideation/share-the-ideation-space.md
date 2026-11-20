@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 1%
 ---
 
@@ -76,6 +76,9 @@ Some of this information is also duplicated in the section for Ideation space pe
 * 构思创建者始终对其自己的构思具有编辑者权限。
 
 * 您必须对构思空间具有编辑器权限，才能创建或参与简述并将它们导出到其他应用程序。
+
+* &#x200B;
+  * 共享仅控制谁可以在构思画布中访问和协作。 仅当有人将简介导出到Workfront Planning时，记录更新才会发生。
 
 ## 访问权限要求
 

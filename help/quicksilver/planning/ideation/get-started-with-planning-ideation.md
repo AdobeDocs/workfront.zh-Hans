@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1540'
 ht-degree: 0%
 ---
 
@@ -174,7 +174,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
 ## 找到构思空间
 
-在确保您有权访问配置的正确产品、包以及系统和访问级别后，您可以在Workfront的以下区域中找到构思空间：
+在确保您有权访问配置的正确产品、包和系统以及访问级别后，您可以在Workfront和Workfront Planning的多个区域中找到构思空间。
+
+>[!TIP]
+>
+>无法使用布局模板从主菜单中删除创意空间区域。
+>
+>有关阻止用户访问构思空间的更多信息，请参阅[使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+>
+
+在Workfront的以下区域中访问构思空间：
 
 * 在Workfront主菜单中，通过打开构思空间区域
 
@@ -188,11 +197,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
   ![记录详细信息页面中的构思空间](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>从何处启动构思空间将决定简短结构。 存在以下情况：
+>
+>* 从Planning中的“新建记录”按钮启动摘要时，摘要包含的字段与开始使用的记录类型相同。
+>
+>* 从Planning现有记录启动摘要时，摘要包含与记录具有相同值的相同字段。
+>
+>* 从Workfront的主菜单启动摘要时，它包含您上传到画布的文件中的字段和信息。
 
->[!TIP]
->
->无法使用布局模板从主菜单中删除创意空间区域。 有关阻止用户访问构思空间的更多信息，请参阅[使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
->
 
 ## 构思空间与Adobe CX Enterprise Coworker
 
