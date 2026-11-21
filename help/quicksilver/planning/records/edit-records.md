@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3174'
 ht-degree: 0%
 ---
 # 编辑记录
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Old:
   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”、“记录ID”）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
-* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。 .
+* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或 <www>. .
 * 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 * 您可以在记录的详细信息页面中编辑字段的顺序。 有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 * 通过调整时间轴和日历视图中的记录大小或重新定位这些记录，可以编辑记录的开始日期和结束日期。
@@ -265,7 +265,7 @@ Old:
    * 单击某列的列标题以将其选中并复制，然后单击另一列的列标题并粘贴所复制列的内容。 列必须包含类似的字段类型。
    * 按住Shift键，单击在表中选取几行，复制选定行中的信息，然后单击另一行，然后将选定信息粘贴到新行中，并在新行之后粘贴以下几行。 在“预览”环境中无法执行此操作。
    * 复制一个单元格中的信息，然后选择多个单元格并将相同的信息粘贴到多个单元格中。 您可以选择多个单元格，并将相同的信息粘贴到相邻行和列的多个单元格中。
-   * 选择包含要复制信息的现有单元格的右下角，然后将其拖放到要粘贴相同信息的相邻单元格中。 所有单元格都必须包含相同类型的信息。
+   * Select位于包含要复制的信息之现有单元格的右下角，然后将其拖放到要粘贴相同信息的相邻单元格中。 所有单元格都必须包含相同类型的信息。
 
      ![在表视图中用于复制粘贴的可拖动右下角](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
@@ -273,7 +273,7 @@ Old:
 
      * 人员字段。 仅支持具有一个值的字段。
      * 文本字段。
-     * 选择字段。
+     * Select字段。
      * 数字、百分比和货币字段。
 
    您无法从外部源复制信息并将其粘贴到任何其他字段类型中，包括Workfront或其他应用程序的连接字段。
@@ -389,8 +389,8 @@ Old:
    >  * 通过连接记录类型创建的其他记录的查找字段。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
-1. <span class="preview">（可选）单击记录名称左侧的颜色圆圈以更改记录颜色。 </span>
-   <span class="preview">在创建记录时，会自动为其分配颜色。 单击&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。</span>
+1. （可选）单击记录名称左侧的颜色圆圈以更改记录颜色。
+在创建记录时，会自动为其分配颜色。 单击**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。
 
 1. （可选）单击&#x200B;**添加封面**&#x200B;以将封面图像添加到记录。 有关详细信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
@@ -406,7 +406,7 @@ Old:
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。 继续编辑记录，如本文中[从记录的页面](#edit-a-record-from-the-records-page)部分编辑记录中所述。
 
@@ -448,8 +448,8 @@ Old:
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
 1. （可选）单击显示任何字段右侧的信息图标以查看字段的说明。
-1. <span class="preview">（可选）单击记录名称左侧的颜色圆圈以更改记录颜色。 </span>
-   <span class="preview">在创建记录时，会自动为其分配颜色。 单击&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。</span>
+1. （可选）单击记录名称左侧的颜色圆圈以更改记录颜色。
+在创建记录时，会自动为其分配颜色。 单击**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。
 
    ![记录详细信息框的拾色器框](assets/color-picker-box-for-record-color-in-details-page.png)
 
@@ -475,7 +475,7 @@ Old:
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning部分中编辑来自Workfront对象的记录
