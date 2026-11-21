@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 2%
 ---
 # [!UICONTROL 甘特图]中的均衡资源
@@ -120,7 +120,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
   ![资源均衡模式](assets/resource-leveling-mode-350x177.png)
 
 * 作为项目所有者或任务受让人，您可以为任务引入均衡延迟，以表示任务极有可能需要额外的时间。 有关向任务添加均衡延迟的信息，请参阅[更新任务均衡延迟](../../../manage-work/tasks/task-information/task-leveling-delay.md)。
-* 为确保获得最佳性能，资源均衡不适用于持续时间超过1000天的任务。
+* 为确保获得最佳性能，无法自动均衡持续时间超过1000天的任务的资源。
 
 ## 在[!UICONTROL 甘特图]中应用资源均衡
 
