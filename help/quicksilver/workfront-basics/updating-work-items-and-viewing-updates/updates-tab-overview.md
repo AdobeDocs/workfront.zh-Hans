@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1464'
 ht-degree: 3%
 ---
 # 更新部分概述
@@ -351,6 +351,8 @@ The following objects don't record system updates:
   * 时间表
   * 迭代
 
+* 团队的更新部分显示团队任何成员进行的更新，包括团队未关联项目的更新。 更新不会按团队关联的项目或其他对象进行过滤。 要查看特定项目的更新，请转到该项目的更新部分。
+
 * 用户更新区域的“系统更新”选项卡通过更新其他对象来填充。 以下是在用户配置文件的系统更新选项卡中显示的更新，当这些字段在设置的更新馈送区域中受到跟踪时：
 
   * 文档添加、删除和其他文档更新
@@ -387,4 +389,4 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 * 如果在项目过程中优先级发生了更改
 * 如果项目所有者已更改
 
-有关详细信息，请参阅日志条目报告[&#128279;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的更新区域报告。
+有关详细信息，请参阅日志条目报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。
