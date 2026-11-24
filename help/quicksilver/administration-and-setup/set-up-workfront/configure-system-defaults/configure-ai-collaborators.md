@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 1%
 ---
 # 配置AI协作者
@@ -156,7 +156,12 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
    >如果您是组管理员，则此字段仅显示您是其管理员的组。 组管理员必须至少选择一个组。
 
 1. 在&#x200B;**选择代理的来源**&#x200B;区域，选择是要<span class="preview">使用Adobe Native</span>，连接在Copilot等公共平台中创建的代理，还是使用自定义代理。
-1. <span class="preview">（视情况而定）如果您选择Adobe Native，请确认已为您的组织启用Adobe CX Coworker，并且您想要使用现成的Adobe Native代理。</span>
+1. <span class="preview">（视情况而定）如果您选择Adobe本机，请选择要使用的协作者：CX Enterprise Coworker协作者或预建的AI协作者，例如接收协调员。 有关预建协作者的详细信息，包括说明，请参阅[配置预建AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">打开预建的AI Collaborator后，大约需要30秒才能进行配置。 在协作器准备就绪之前，将显示一个旋转图标。</span>
+
 1. （视情况而定）如果您使用的是来自公共平台的代理，请输入代理平台的身份验证详细信息：
 
    | 平台 | 所需的身份验证 |

@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '183'
 ht-degree: 2%
 ---
 # AI 协作者
@@ -29,7 +29,7 @@ AI协作者是AI代理，您可以通过与分配人员相同的方式将其分�
 
 可用的AI协作者类型包括AI审阅者、工作代理<span class="preview">和项目协调员</span>。
 
-对于工作代理，您可以从支持的外部平台<span class="preview">连接代理，或者，如果您的组织启用了Adobe CX Coworker，请选择Adobe Native以使用由Adobe CX Coworker提供支持的现成代理。 Adobe Native选项不需要外部平台凭据。</span>
+对于工作代理，您可以从支持的外部平台<span class="preview">连接代理，或者，如果您的组织启用了Adobe CX Coworker，请选择Adobe本机以使用CX Enterprise Coworker协作器或预建的AI协作器，例如接收协调员。 Adobe Native选项不需要外部平台凭据。 有关选项的列表，请参阅[配置预构建的AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。</span>
 
 ## 正在工作的AI协作者
 
