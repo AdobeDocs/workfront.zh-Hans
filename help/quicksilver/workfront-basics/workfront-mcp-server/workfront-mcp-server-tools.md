@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
+source-git-commit: b836c42f007e31be8533e89cb0c2f3095c9ace9a
 workflow-type: tm+mt
-source-wordcount: '3931'
+source-wordcount: '3801'
 ht-degree: 3%
 ---
 
@@ -112,9 +112,7 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 | 按名称查找文档版本 | `approvals_find_document_version_by_name` | 按文件名查找文档的当前版本ID。 支持部分匹配。 | 读取 |
 | 按版本ID获取文档 | `approvals_get_document_by_version_id` | 获取已知文档版本ID的文档详细信息（名称、大小、上传日期、上传程序）。 | 读取 |
 | 解析文档范围 | `approvals_resolve_document_scope` | 将项目或文件夹展开到其中包含的文档版本ID列表中。 支持项目、文件夹和按名称文件夹范围。 | 读取 |
-| 按范围获取文档 | `approvals_get_documents_by_scope` | 已弃用。 请改用`insights_find_workfront_data`。 此工具列出了项目或文件夹中的文档。 | 读取 |
 | 列出AEM链接的文件夹* | `approvals_list_aem_linked_folders` | 列出链接到Workfront的Adobe Experience Manager文档文件夹。 | 读取 |
-| 查找文档 | `approvals_find_document` | 已弃用。 请改用`insights_find_workfront_data`。 此工具按文件名或文档版本ID查找文档。 | 读取 |
 | 将文档发送到AEM文件夹* | `approvals_send_documents_to_aem_folder` | 将一个或多个Workfront文档移动到与AEM链接的文件夹。 | 写入 |
 
 *您必须在Workfront实例中配置本机[!DNL Adobe Experience Manager]集成，才能使用这些工具。 有关详细信息，请参阅[Adobe Experience Manager Assets集成概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
@@ -122,10 +120,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 *Adobe云存储上的项目尚不支持将文档发送到AEM文件夹。 预计未来版本将会提供支持。
 **此工具会在聊天中打开交互式上传面板，因此它仅在支持MCP应用程序的工具中起作用。 目前，此工具仅支持Claude。 默认情况下，它显示在工具权限的“交互式工具”下，并请求审批。
-
-<!--
-| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
--->
 
 ### 审批工作流
 
@@ -141,13 +135,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 | <span class="preview">从路径</span>中删除阶段 | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">从并行审批工作流中的特定路径中删除未启动的阶段。 每个路径必须至少保留一个阶段。</span> | <span class="preview">写入</span> |
 | <span class="preview">重新排序路径中的阶段</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">更改并行审批工作流的单个路径中的阶段顺序。</span> | <span class="preview">写入</span> |
 
-<!--
-| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
--->
-
-<!--
-| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
--->
 
 ### 提醒
 
@@ -176,9 +163,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 | 按名称查找项目 | `approvals_find_project_by_name` | 已于2026年8月13日删除。 请改用`insights_find_id_by_name`。 此工具通过系统中的部分名称匹配来查找Workfront项目。 | 读取 |
 | 按所有者获取项目 | `approvals_get_projects_by_owner` | 已于2026年8月13日删除。 请改用`insights_find_workfront_data`。 此工具列出了呼叫用户是所有者的Workfront项目。 | 读取 |
 | 获取当前用户 | `approvals_get_current_user` | 已于2026年8月13日删除。 此工具返回呼叫用户的Workfront身份，包括姓名、用户ID、主团队名称和主团队ID。 有关类似功能，请参阅“分析工具”下的[获取当前用户](#insights-tools)。 | 读取 |
-| 按名称查找用户 | `approvals_find_user_by_name` | 已弃用。 请改用`insights_search_users`。 此工具按名称（模糊或部分匹配）、返回名称、ID、电子邮件、标题和头像URL查找Workfront用户的ID。 | 读取 |
-| 按名称查找团队 | `approvals_find_team_by_name` | 已弃用。 请改用`insights_find_id_by_name`。 此工具按名称（模糊或部分匹配）查找Workfront团队的ID。 | 读取 |
-| 查找项目 | `approvals_find_projects` | 已弃用。 请改用`insights_find_workfront_data`。 此工具查找Workfront项目，可以选择按名称筛选和/或限制到调用用户拥有的项目。 | 读取 |
 
 ## 规划工具
 
@@ -276,11 +260,9 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 | 标题 | 工具名称 | 作用 | 操作 |
 | --- | --- | --- | --- |
-| 搜索对象 | `workflow_search_any_object` | 此工具已弃用。 | 读取 |
 | 创建对象 | `workflow_create_any_object` | 创建新的Workfront对象，如项目、任务、问题、小时、分配、项目群或项目组合。 | 写入 |
 | 更新对象 | `workflow_update_any_object` | 更新现有对象的字段。 还支持将任务或问题移动到另一个项目，将任务或问题转换为新项目（或问题转换为任务），以及设置任务前置任务（依赖项）。 | 写入 |
 | 删除对象 | `workflow_delete_any_object` | 按ID删除Workfront对象。 需要明确的用户确认才能执行操作。 | 写入 |
-| 解析字段名称 | `workflow_resolve_field_names_any_object` | 此工具已弃用。 | 读取 |
 | 读取工作流文档 | `workflow_read_workflow_docs` | 加载Workfront工作流文档，包括工具使用指南和特定于对象的操作行动手册。 这是执行工作流操作之前所需的第一步。 | 读取 |
 
 ### 更新对象工具功能
