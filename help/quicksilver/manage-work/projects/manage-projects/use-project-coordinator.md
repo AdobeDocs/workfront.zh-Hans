@@ -4,15 +4,13 @@ content-type: reference
 description: 了解如何使用项目协调器，这是一个开箱即用的AI协作器，可监控项目状态并跟进逾期任务。
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 4%
 
 ---
 # 使用项目协调员协作者
-
-{{highlighted-preview-article-level}}
 
 项目协调员是一个开箱即用的AI协作者，负责监控您的项目并通知利益相关者有关重要状态信息。
 
@@ -36,7 +34,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p></td>
+   <td><p>[！UICONTROL标准版]</p></td>
   </tr> 
   <tr> 
    <td>对象权限</td> 
@@ -78,7 +76,7 @@ ht-degree: 4%
 
 1. 转到要为其分配项目协调器的项目。
 1. 在项目标题中，单击&#x200B;**项目协调器**&#x200B;字段。
-1. 选择要分配的项目协调器。
+1. Select要分配的项目协调员。
 
    该窗口显示所选项目协调器的说明以及项目协调器执行的操作。
 1. 单击&#x200B;**应用**。

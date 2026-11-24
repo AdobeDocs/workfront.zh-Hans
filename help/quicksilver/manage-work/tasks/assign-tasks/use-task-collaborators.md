@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 工作代理是可直接分配给Workfront任务、问题和请求的AI协作者。 与其他AI协作者一样，工作代理在“设置”区域中配置，并像用户一样分配给工作项。
 
-<span class="preview">您可以使用现成的Adobe本机工作代理，如CX Enterprise Coworker协作器或预建AI协作器，如引入协调器（有关详细信息，请参阅[配置预建AI协作器](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)）、</span>或连接到外部平台的工作代理。 可用的功能和设置要求取决于代理的来源。
+您可以使用现成的Adobe本机工作代理，如CX Enterprise Coworker协作器或预建AI协作器，如摄取协调器（有关详细信息，请参阅[配置预建AI协作器](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)），或者使用连接到外部平台的工作代理。 可用的功能和设置要求取决于代理的来源。
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -53,11 +53,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -69,7 +69,7 @@ ht-degree: 1%
 ## 先决条件
 
 * 管理员必须在Workfront中配置工作代理，然后才能使用它。
-* <span class="preview">对于Adobe本机工作代理，您的组织必须启用Adobe CX Coworker。</span>
+* 对于Adobe本机工作代理，贵组织必须启用Adobe CX Coworker。
 * 对于连接到外部平台的工作代理，还必须在该平台中配置该代理。
 
 ## 工作代理概述
@@ -128,7 +128,7 @@ ht-degree: 1%
 * 已经为其分配了工作代理和用户的任务已准备好开始，并且工作代理是首先分配的，或者是主要被分配人。 （例如，如果任务具有前置任务，则前置任务为完成。）
 * 将用户和工作代理分配给任务，并移除该用户。
 * 将用户和工作代理分配给任务，并且工作代理被设置为任务的主要被分配人。
-* <span class="preview">任务中@mentioned有Workfront本机工作代理。
+* 在任务中@mentioned用Workfront本机工作代理。
 
 以下情况不会导致工作代理开始处理任务：
 

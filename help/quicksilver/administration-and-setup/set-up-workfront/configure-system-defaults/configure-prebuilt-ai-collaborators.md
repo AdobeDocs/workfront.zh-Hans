@@ -6,16 +6,12 @@ description: 作为Adobe Workfront管理员，您可以将Adobe中预建的AI协
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 ---
 # 配置预建的AI协作者
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在发布到“预览”版之后，启用了“快速发布”的客户的生产环境中每月还会提供相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 ## 概述
 
@@ -39,11 +35,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p></td> 
+   <td><p>[！UICONTROL标准版]</p></td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]或组管理员</td> 
+   <td>[！UICONTROL系统管理员]或组管理员</td> 
   </tr> 
   </tbody> 
 </table>
