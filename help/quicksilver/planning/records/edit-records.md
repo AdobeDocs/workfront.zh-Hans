@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 0%
@@ -185,6 +185,13 @@ Old:
   * [在记录类型的日历视图中编辑记录](#edit-a-record-in-the-calendar-view-of-a-record-type)
   * [在记录类型的时间线视图中编辑记录](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
+<!--
+<div class="preview">
+
+* Single-line text and number fields can be set to have unique values. Any duplicate values are highlighted with a warning. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+</div>
+-->
 
 ## 编辑记录
 
@@ -390,7 +397,7 @@ Old:
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
 1. （可选）单击记录名称左侧的颜色圆圈以更改记录颜色。
-在创建记录时，会自动为其分配颜色。 单击&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。
+在创建记录时，会自动为其分配颜色。 单击**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。
 
 1. （可选）单击&#x200B;**添加封面**&#x200B;以将封面图像添加到记录。 有关详细信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
@@ -406,7 +413,7 @@ Old:
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。 继续编辑记录，如本文中[从记录的页面](#edit-a-record-from-the-records-page)部分编辑记录中所述。
 
@@ -449,7 +456,7 @@ Old:
 
 1. （可选）单击显示任何字段右侧的信息图标以查看字段的说明。
 1. （可选）单击记录名称左侧的颜色圆圈以更改记录颜色。
-在创建记录时，会自动为其分配颜色。 单击&#x200B;**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。
+在创建记录时，会自动为其分配颜色。 单击**色板**&#x200B;或&#x200B;**自定义**&#x200B;以选择新颜色。
 
    ![记录详细信息框的拾色器框](assets/color-picker-box-for-record-color-in-details-page.png)
 
@@ -475,7 +482,7 @@ Old:
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning部分中编辑来自Workfront对象的记录

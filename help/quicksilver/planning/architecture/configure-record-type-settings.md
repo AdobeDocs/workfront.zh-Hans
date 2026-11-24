@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 4%
+source-wordcount: '499'
+ht-degree: 3%
 ---
 # 配置记录类型的设置区域
 
@@ -219,3 +219,12 @@ Old:
    默认情况下，这些设置处于关闭状态。
 
    有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+
+## 为记录类型配置记录默认权限
+
+通过在记录类型级别配置默认值，可以设置记录类型的所有记录的记录权限。
+
+默认情况下，所有新记录都将获得您在记录类型“设置”区域中设置的权限。
+
+有关信息，请参阅[设置记录的默认权限](/help/quicksilver/planning/access/set-default-record-permissions.md)。

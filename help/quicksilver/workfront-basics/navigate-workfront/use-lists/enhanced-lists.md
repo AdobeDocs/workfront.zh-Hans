@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 1%
 ---
 # 使用增强列表
@@ -98,8 +98,15 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | 文档的所有版本视图 | 项目>文档>文档详细信息>所有版本 |
 | 讨论区管理员视图 | 讨论区>管理员视图 |
 | Adobe云存储上的文档 | 项目，任务，问题，项目组合，项目，模板，模板任务>文档 |
-| 方案计划和计划的列表 | 主菜单>方案 |
+| 方案计划<!--and initiatives-->的列表 | 主菜单>方案 |
 | 目标和进度指标清单 | <ul><li>主菜单>目标</li><li>主菜单>目标>进度指示器</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -327,7 +334,7 @@ Last, under Scenario Planner
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
@@ -372,7 +379,7 @@ Last, under Scenario Planner
 
 当您与他人共享没有编辑权限的视图时，您可以复制该视图并使用新名称保存它。 必须先更改视图，然后才能复制它。
 
-1. 在“视图”下拉列表中，将鼠标悬停在您修改了设置并要复制的&#x200B;**共享视图**&#x200B;中的视图上，单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**使用首选项复制**。
+1. 在“视图”下拉列表中，将鼠标悬停在您修改了设置并要复制的&#x200B;**共享视图**&#x200B;中的视图上，单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**使用首选项复制** <!--<span class="preview">or **Copy with my changes**</span>-->。
 
    系统会自动创建新视图。 复制的视图的名称遵循以下模式： `Original view name (copy)`它显示在视图的&#x200B;**我的视图**&#x200B;部分。
 
@@ -380,7 +387,7 @@ Last, under Scenario Planner
 
    >[!NOTE]
    >
-   >仅当您对与您共享的视图进行更改时，**复制并首选项**&#x200B;选项才可用。
+   >**带有首选项的复制** <!--<span class="preview">or **Copy with my changes**</span>-->选项仅在您对与您共享的视图进行更改后可用。
 
 ### 重置视图
 
@@ -458,6 +465,26 @@ Last, under Scenario Planner
 1. 在“筛选器”框中，单击&#x200B;**添加条件**。
 1. 选择要作为筛选依据的字段。
 1. 选择过滤器修饰符，例如“为任意”、“不为”、“早于”或“晚于”。 根据过滤依据的字段类型，修改量选项会有所不同。
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. 选择一个或多个字段值。 根据筛选依据的字段类型，系统可能会提示您从列表中选择项目、搜索该项目或使用日历选择日期范围。
 
    ![在增强列表中过滤](assets/glist-filter-with-options.png)
