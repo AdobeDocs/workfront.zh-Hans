@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '328'
 ht-degree: 0%
 ---
 
@@ -62,6 +62,7 @@ Adobe Workfront Planning现在提供了一项可在启动营销活动之前进�
 以下文章包含有关构思空间的信息，并提供了有关其功能的指南：
 
 * 从此处开始，大致了解Workfront中的构思空间：[开始使用Adobe Workfront规划的构思空间](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* 构思空间的最新功能发布： [Adobe Workfront Planning发布活动的构思空间](/help/quicksilver/planning/ideation/ideation-space-release-notes.md)
 * 作为系统管理员，请确保您了解如何为组织提供构思空间： [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * 准备好创建您的第一个营销活动策略时，了解如何使用构思空间构建简报： [在构思空间创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 * 如果您使用Workfront Planning，请了解如何使用构思空间创建记录： [从构思空间简报创建或编辑Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)

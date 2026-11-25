@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '438'
 ht-degree: 1%
-
 ---
-
 # 提交日期和计划完成日期之间的交互
 
 <!--
@@ -73,7 +71,8 @@ this article has mostly information that is repeated from the articles linked fr
 >
 >只有被分配者才能更新任务或问题的提交日期。
 
-被分派人更改提交日期不会自动更改规划完成日期。 反之亦然：更改规划完成日期不会更改提交日期。
+
+任务或问题被分配人更改提交日期不会自动更改规划完成日期。 反之亦然：更改规划完成日期不会更改提交日期。 当被分配人更新提交日期时，预计完成日期也会更改。
 
 当提交日期发生更改时，项目所有者将通过Workfront应用程序内通知收到发生此更改的通知。
 

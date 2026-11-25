@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1588'
 ht-degree: 0%
 ---
 
@@ -169,6 +169,11 @@ In addition to above requirements, you must also meet the following criteria to 
    * [使用构思空间所需的访问权限](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
    * [从构思空间简报创建计划记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [在构思空间中创建简报](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. 接受Beta协议。
+
+   这是Beta版计划的一项要求。 未经同意Beta计划的条款，您无法使用创意空间。
+
+   接受协议时，您这样做是为了您的用户，而不是为了组织。 每个用户必须单独接受协议。
 
 1. （推荐）确定您的第一个活动：要刷新的最近活动，或从头开始创建的新计划。
 
@@ -323,10 +328,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/cn/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/cn/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/cn/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1017'
 ht-degree: 1%
 ---
 
@@ -159,6 +159,9 @@ Your organization must purchase a package for the following products to access t
     >
     >有关信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
+* 接受Beta协议
+
+  这是Beta版计划的一项要求。 未经同意Beta计划的条款，您无法使用创意空间。 接受协议时，您这样做是为了您的用户，而不是为了组织。 每个用户必须单独接受协议。
 
 
 ## 许可证要求

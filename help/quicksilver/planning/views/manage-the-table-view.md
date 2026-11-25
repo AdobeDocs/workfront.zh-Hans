@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4376'
 ht-degree: 2%
 ---
 # 管理表视图
@@ -328,7 +328,7 @@ Old:
 
 1. （视情况而定）根据您查看的字段类型，执行以下操作之一；
 
-   * 对于数字、货币、百分比和公式字段（采用这些字段类型的任意格式），展开列底部的聚合器下拉菜单，然后从以下选项中进行选择：
+   * 对于数字、货币、百分比和公式字段（采用这些字段类型的任意格式），请展开列<!--<span class="preview">or at the bottom of a grouping</span>-->底部的聚合器下拉菜单，然后从以下选项中选择：
 
      * **SUM**：显示列中所有单元格的总数。
      * **MIN**：显示列中所有单元格的最小值。
@@ -362,6 +362,7 @@ Old:
      * 上次修改者
      * 记录 ID
    * 公式字段和查找字段具有与其字段格式对应的聚合。
+   * 聚合器显示计算屏幕上加载的所有记录（而非所有可用记录）时的结果。
 
 
 
@@ -413,7 +414,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >![表格视图中的新评论图标](assets/new-comment-icon-in-table-view-highlighted.png)
 
 
-1. （可选）选择一个或多个记录或行，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排序行。
+1. （可选）Select一个或多个记录或行，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排序行。
 
    >[!NOTE]
    >
@@ -462,12 +463,12 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 要将过滤器添加到表格视图，请执行以下操作：
 
 1. 为记录类型页面创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
-1. 选择一个表视图，然后单击该表右上角的&#x200B;**筛选器**。
+1. Select表视图，然后单击表右上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
    * 搜索字段，并在该字段显示在列表中时将其选定。
 
-   * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
+   * **Select一个选项**（或筛选器修饰符），用于定义字段必须满足何种条件
 
      下表显示了每种字段类型的可用修饰符。
 
@@ -533,7 +534,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
         </tbody>
         </table>
 
-   * 为所选字段选择值。
+   * Select选定字段的值。
 
    ![筛选器UI表视图](assets/filter-ui-table-view.png)
 
@@ -647,7 +648,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *在使用API时，您最多可以应用4个级别的分组。  — 暂时查看此项******************—>
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
