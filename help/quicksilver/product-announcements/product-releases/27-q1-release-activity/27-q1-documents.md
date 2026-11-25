@@ -4,9 +4,9 @@ description: 2027年第一季度文档增强
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 86dd87865046a4f2dc75e13feb370e338bbf4c92
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '409'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,27 @@ ht-degree: 0%
 本页介绍了在2027年第一季度发布中对“预览”环境所做的文档增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2027年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2027年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+## Adobe Cloud Drive v1.2.0中的新增功能
+
+>[!NOTE]
+>
+>预览： 2026年11月25日
+>生产快速发布： 2026年11月25日
+>适用于所有人的生产： 2026年11月25日
+>[!BADGE 并发释放]{type=Neutral}
+>[!BADGE 工作流程Ultimate]{type=Informative}
+
+Adobe Cloud Drive v1.2.0中引入了上传文件、管理同步和使用云内容的新方法：
+
+* **上传到云（直接上传）：**&#x200B;在Finder或文件资源管理器中右键单击某个文件以将其直接上传到Adobe云存储中的项目，而无需先将其复制到Adobe云驱动器文件夹中。 在同步活动的“直接上传”部分中监视进度。
+* **暂停并继续同步：**&#x200B;在慢速连接或按流量计费的连接上暂停Adobe Cloud Drive，然后在准备就绪后继续。
+* **版本历史记录：**&#x200B;浏览文件的已保存云版本，编辑版本名称和描述，并还原到早期版本。
+* **管理本地存储：**&#x200B;监视本地磁盘使用情况、设置存储限制并查看此设备上标记为“始终”的文件。
+* **同步活动：**&#x200B;查看最近的上传、下载和更改，并识别无法同步的项目。
+* **在Workfront中打开：**&#x200B;直接从Finder、文件资源管理器或同步活动中打开项目的Workfront位置。
+
+有关详细信息，请参阅[使用Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)和[Adobe Cloud Drive疑难解答](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)。
 
 <!--
 

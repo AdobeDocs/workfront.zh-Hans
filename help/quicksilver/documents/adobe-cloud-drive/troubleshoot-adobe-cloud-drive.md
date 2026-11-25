@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Adobe Cloud Drive疑难解答
@@ -165,6 +165,41 @@ ht-degree: 0%
 
 * 要创建、重命名或删除项目，请使用Workfront Web界面。
 * 要求项目所有者与您共享项目，并具有编辑权限。
+
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### 上传到云选项不可用
+
+**可能的原因：**
+
+* 在Mac上，未启用Adobe Cloud Drive Finder帮助程序。
+
+**解决方案：**
+
+* 在Mac上，转到&#x200B;**系统设置** > **常规** > **登录项和扩展**，并确保已启用Adobe Cloud Drive Finder帮助程序。
+
+### 从桌面机、文档或下载上载失败，出现授权错误(Mac)
+
+**可能的原因：**
+
+* Adobe Cloud Drive无权访问“桌面”、“文档”或“下载”文件夹。
+* macOS设置中已禁用所需的文件夹访问权限。
+
+**解决方案：**
+
+1. 转到&#x200B;**系统设置** > **隐私和安全** > **文件和文件夹**。
+1. 授予Adobe云驱动器访问相关文件夹的权限。
+1. 重试上传。
+
+### 出现多个Finder同步流程(Mac)
+
+**可能的原因：**
+
+* 作为正常操作的一部分，macOS可能会在Activity Monitor中显示两到三个Adobe Cloud Drive Finder同步流程。
+
+**解决方案：**
+
+* 无需执行任何操作。 运行两个到三个Adobe Cloud Drive Finder同步进程是预期行为。
 
 ## 获取帮助
 
