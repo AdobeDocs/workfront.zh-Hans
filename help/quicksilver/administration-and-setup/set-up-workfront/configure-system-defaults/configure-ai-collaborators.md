@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1961'
 ht-degree: 1%
 ---
 # 配置AI协作者
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。</span>
 
 AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可以配置AI Collaborator，然后像分配用户一样分配它。
 
@@ -36,7 +34,7 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
 
   有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* 工作代理：创建由Adobe CX Coworker </span>提供支持的协作者<span class="preview">或从支持的外部平台连接代理，然后将协作者分配给任务或问题以完成工作项。
+* 工作代理：创建由Adobe CX Coworker提供支持的协作器，使用预建协作器，或从支持的外部平台连接代理，然后将协作器分配给任务或问题以完成工作项。
 
   有关详细信息，请参阅[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
 
@@ -44,9 +42,9 @@ AI协作者是一种将AI代理载入项目、任务和问题的方式。 您可
 
 AI协作者使用的许可证不收费。 如果贵组织拥有200个Workfront许可证并创建了一个AI协作器，则有201个许可证在使用中，但只计费200个。
 
-* <span class="preview">项目协调员：开箱即用的协作器，用于监视项目状态并发送项目更新，而无需配置外部代理。</span>
+* 项目协调器：开箱即用的协作器，无需配置外部代理即可监控项目状态并发送项目更新。
 
-  <span class="preview">有关详细信息，请参阅[使用项目协调器协作器](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。</span>
+  有关详细信息，请参阅[使用项目协调器协作器](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。
 
 
 ## 访问权限要求
@@ -95,9 +93,9 @@ AI协作者使用的许可证不收费。 如果贵组织拥有200个Workfront�
 
 ### 对于工作代理
 
-<span class="preview">先决条件取决于代理的来源：</span>
+先决条件取决于代理的来源：
 
-* <span class="preview">Adobe Native：您的组织必须启用Adobe CX Coworker。 您不需要在外部平台中配置代理或提供外部平台凭据。</span>
+* Adobe本机：要使用CX Enterprise Coworker协作器，您的组织必须启用Adobe CX Enterprise Coworker。 您无需在外部平台中配置代理或提供外部平台凭据。
 * 外部平台或自定义代理：在Workfront中创建工作代理之前，在计划连接的平台上配置代理。
 
 >[!NOTE]
@@ -124,11 +122,9 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 
 ## 配置工作代理
 
-<span class="preview">以下安装指南反映了Adobe本机支持和仍在预览中的基于原点的安装模型。</span>
-
 工作代理是可以分配给Workfront中的任务或问题的代理。 使用名称、访问级别和其他详细信息配置工作代理，并将其分配给任务，就像分配用户一样。
 
-由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 工作代理可以是<span class="preview">使用协同工作的本机工作代理，</span>，也可以来自受支持的外部平台，如Copilot Studio、Claude、OpenAI和IBM。
+由于工作代理是代理，因此会在配置代理的位置配置其操作和功能。 工作代理可以是预建的工作代理、使用同事的代理，也可以来自受支持的外部平台，如Copilot Studio、Claude、OpenAI和IBM。
 
 >可以将工作座席分配给任务或问题。
 
@@ -155,12 +151,12 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
    >
    >如果您是组管理员，则此字段仅显示您是其管理员的组。 组管理员必须至少选择一个组。
 
-1. 在&#x200B;**选择代理的来源**&#x200B;区域，选择是要<span class="preview">使用Adobe Native</span>，连接在Copilot等公共平台中创建的代理，还是使用自定义代理。
-1. <span class="preview">（视情况而定）如果您选择Adobe本机，请选择要使用的协作者：CX Enterprise Coworker协作者或预建的AI协作者，例如接收协调员。 有关预建协作者的详细信息，包括说明，请参阅[配置预建AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。</span>
+1. 在&#x200B;**选择代理的来源**&#x200B;区域，选择您要使用Adobe Native、连接在通用平台（如Copilot）中创建的代理，还是使用自定义代理。
+1. （视情况而定）如果您选择Adobe本机，请选择要使用的协作器：CX Enterprise Coworker协作器或预建的AI协作器，例如接收协调器。 有关预建协作者的详细信息，包括说明，请参阅[配置预建AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。
 
    >[!NOTE]
    >
-   ><span class="preview">打开预建的AI Collaborator后，大约需要30秒才能进行配置。 在协作器准备就绪之前，将显示一个旋转图标。</span>
+   >打开预建的AI Collaborator后，大约需要30秒进行配置。 此时将显示一个旋转图标，直到协作器准备就绪。
 
 1. （视情况而定）如果您使用的是来自公共平台的代理，请输入代理平台的身份验证详细信息：
 
@@ -223,8 +219,6 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 +++
 -->
 
-<div class="preview">
-
 ## 配置项目协调器
 
 项目协调员是一个开箱即用的协作者，负责监控项目状态并帮助使工作按计划进行。 与工作代理不同，项目协调器不要求您配置外部代理。
@@ -260,8 +254,6 @@ AI审阅者可配置为使用Workfront品牌或Adobe Brand Intelligence。
 有关说明，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 有关项目协调器的详细信息，包括如何将其分配给项目，请参阅[使用项目协调器协作器](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。
-
-</div>
 
 ## 管理AI协作者
 

@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f1a19ac5c3f8ca548a1bf203c34118c0bfb30550
 workflow-type: tm+mt
 source-wordcount: '5676'
 ht-degree: 1%
@@ -332,6 +332,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列标题上，或者单击记录详细信息页面中字段名称旁边的信息图标时，将显示字段说明。
+
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique text identifier like Serial code, the code must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
 1. 单击&#x200B;**创建**。
 
    新的单行字段作为列添加到记录类型，其值可以与记录相关联。
@@ -514,6 +518,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    * **名称**：字段的名称，它将显示在表或记录页中。
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique number identifier like Serial number, the number must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
    * **精度**：要为该字段记录的小数位数。 最多可显示6位小数。
    * **允许负数**：如果要允许该字段中存在负数，请选择此选项。 默认情况下，此选项处于未选中状态。
 
@@ -585,7 +592,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **货币**：要在此字段中显示的货币类型。 这是国际标准化组织(ISO)的货币列表。
    * **精度**：要为该字段记录的小数位数。 您最多可以显示6个小数。
-   * **允许负数**：如果要允许在此字段中出现负货币值，请选择此选项。 默认情况下，此选项处于未选中状态。
+   * **允许负数**：如果要允许此字段中的货币值为负数，请Select此选项。 默认情况下，此选项处于未选中状态。
 
    >[!NOTE]
    >
@@ -704,7 +711,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段的名称，它将显示在表或记录页中。
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
-   * **允许多个值**：如果要允许用户在此字段中添加多个用户，请选择此选项。 默认情况下，此选项处于未选中状态。
+   * **允许多个值**：如果要允许用户在此字段中添加多个用户，请选中Select此选项。 默认情况下，此选项处于未选中状态。
 
    >[!NOTE]
    >

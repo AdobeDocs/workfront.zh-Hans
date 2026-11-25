@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3414'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季度发布活动
@@ -418,7 +418,7 @@ CX Enterprise Coworker Chat是一个用于完成工作的对话界面。 用简�
 
 有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
-## 改进了周视图中大型记录集的日历性能
+## 通过日历视图中的增量数据加载提高了性能
 
 >[!NOTE]
 >

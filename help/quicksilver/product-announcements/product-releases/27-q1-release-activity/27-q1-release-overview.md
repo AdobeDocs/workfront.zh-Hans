@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 2%
 ---
 
@@ -142,11 +142,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">配置摄取协调器预建AI协作器</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
                 <p>管理员现在可以将引入协调器（预建的AI协作器）配置为工作代理，以检查问题中是否缺少信息、信息不明确或信息不一致。</p>
             </td>
-            <td><p>2026年11月22日</p></td>
-            <td><p>2026年12月17日</p></td>
-            <td><p>2027年1月21日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">工作代理：Adobe本机支持</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
                 <p>您现在可以创建使用CX Enterprise Coworker collaborator（由CX Enterprise Coworker Agent Orchestrator提供支持的Adobe代理）的工作代理，而无需配置外部平台或输入外部凭据。</p>
             </td>
-            <td><p>2026年10月29日</p></td>
             <td><p>2026年11月12日</p></td>
-            <td><p>2027年1月21日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
         </tr>
         <tr>
             <td>

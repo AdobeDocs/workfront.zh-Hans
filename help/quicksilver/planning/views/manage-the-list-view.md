@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2096'
 ht-degree: 0%
 ---
 
@@ -172,14 +172,22 @@ Removed - more direct steps below:
 
    1. 展开列表左上角的下拉视图菜单以选择其他视图，或单击&#x200B;**新建视图**&#x200B;并创建另一个视图。
 
+      视图显示在以下部分之一：
+
+      * **系统视图**，由Workfront创建。
+      * **共享视图**，由其他人与您共享。
+      * **我的视图**，由您创建。
+
       >[!TIP]
       >
       >视图在整个系统中共享。 如果您为一个记录类型创建项目视图，则可以在显示所连接项目的其他记录类型上查看该视图。
 
    1. 将鼠标悬停在现有视图的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击下列选项之一：
       * **重命名**，为视图提供一个新名称
-      * **共享**，以与他人共享视图
+      * **共享**，以与他人共享视图。 当有人与您共享视图时，该视图将显示在“视图”下拉菜单的&#x200B;**共享视图**&#x200B;区域中。
       * **删除**，以删除该视图。
+      * **使用首选项复制** <span class="preview"><!--or **Copy with my changes**</span>-->，以使用您所做的更改复制视图，而不是复制与您共享的原始视图。 这仅在“系统视图”和“共享视图”中可用。
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->
 
       >[!NOTE]
       >
@@ -189,21 +197,35 @@ Removed - more direct steps below:
       >
       >* 在修改视图以恢复其原始首选项后，您可以重置与您共享的仅具有查看权限的视图，也可以复制该视图并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
-   1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来的访问页面时，将会记住过滤器，并且这些过滤器是共享视图的一部分。
+   1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来访问页面时，会记住过滤器，并且过滤器是共享视图的一部分。
 
       >[!TIP]
       >
-      >要应用个性化过滤器，请为字段值选择以下选项之一：
+      >* 要应用个性化过滤器，请为字段值选择以下选项之一：
       >
-      >* **我（已登录的用户）**&#x200B;在引用用户的字段中引用已登录的用户。
+      >   * **我（已登录的用户）**&#x200B;在引用用户的字段中引用已登录的用户。
       >
-      >* **我的团队**&#x200B;或&#x200B;**我的主团队**&#x200B;在引用团队的字段中引用您的团队。
+      >   * **我的团队**&#x200B;或&#x200B;**我的主团队**&#x200B;在引用团队的字段中引用您的团队。
       >
-      >* **我的群组**&#x200B;或&#x200B;**我的主群组**&#x200B;在引用群组的字段中引用您的群组。
+      >   * **我的群组**&#x200B;或&#x200B;**我的主群组**&#x200B;在引用群组的字段中引用您的群组。
       >
-      >* **我的公司**&#x200B;在引用公司的字段中引用您的公司。
+      >   * **我的公司**&#x200B;在引用公司的字段中引用您的公司。
       > 
-      >* **我的角色**&#x200B;或&#x200B;**我的主要角色**&#x200B;在引用角色的字段中引用您的工作角色。
+      >   * **我的角色**&#x200B;或&#x200B;**我的主要角色**&#x200B;在引用角色的字段中引用您的工作角色。
+      <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        -->
 
    1. 单击&#x200B;**列**&#x200B;图标![列图标](assets/columns-icon.png)以选择要显示或隐藏的列。
    1. 将鼠标悬停在列名上，单击该列名左侧的向下箭头，然后单击下列选项之一：
