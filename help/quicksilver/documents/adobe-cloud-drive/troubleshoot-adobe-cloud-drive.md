@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 有关许可证问题、项目访问问题或特定于组织的配置，请与Workfront管理员联系。
 
-要与Adobe支持共享日志，请按照[运行Adobe日志收集器工具](https://helpx.adobe.com/cn/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步骤操作。
+要与Adobe支持共享日志，请按照[运行Adobe日志收集器工具](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步骤操作。
 
 ## 最佳做法
 
@@ -214,3 +214,4 @@ ht-degree: 0%
 * **遵循项目的文件夹结构。** 按照项目所有者的意愿组织项目文件夹中的文件。
 * **使用描述性文件名。** 帮助您的团队成员找到他们需要的内容。
 * **避免创建重复项。** 不要为文件制作不必要的副本。
+
