@@ -6,10 +6,10 @@ description: 作为Adobe Workfront管理员，您可以将Adobe中预建的AI协
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 5%
+source-wordcount: '377'
+ht-degree: 4%
 ---
 # 配置预建的AI协作者
 
@@ -31,15 +31,15 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>选择、Prime或Ultimate</p></td> 
+   <td><p>Select、Prime或Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p></td> 
+   <td><p>[！UICONTROL标准版]</p></td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]或组管理员</td> 
+   <td>[！UICONTROL系统管理员]或组管理员</td> 
   </tr> 
   </tbody> 
 </table>
@@ -71,6 +71,10 @@ ht-degree: 5%
 ### 接收协调器 {#intake-coordinator}
 
 接收协调器检查请求的详细信息、自定义表单和附件，以查找缺失、不明确或不一致的信息。 它发布反馈或在获得用户批准的情况下进行更改。
+
+>[!NOTE]
+>
+>在创建接收协调器规则时，您可以为其分配路由规则，但以后不能进行分配。
 
 <!--
 ### Context Carrier {#context-carrier}
