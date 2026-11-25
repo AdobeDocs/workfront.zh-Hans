@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3206'
 ht-degree: 1%
@@ -439,3 +439,4 @@ Adobe Cloud Drive通过Adobe IMS (Identity Management System)对用户进行身�
 
 1. 在Workfront中，检查用户在项目上的权限（**查看**、**Contribute**&#x200B;或&#x200B;**管理**）。
 1. 更新用户&#x200B;**Contribute**&#x200B;或&#x200B;**管理**&#x200B;的权限（如果他们需要创建或编辑文件）。
+
