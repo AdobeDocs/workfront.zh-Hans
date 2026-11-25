@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 1%
 ---
 # 为您的组织设置和管理Adobe Cloud Drive
@@ -222,9 +222,13 @@ Adobe Cloud Drive是一个独立的应用程序。 它不会通过Creative Cloud
    ![在包向导中选择应用步骤](assets/choose-apps-step-in-wizard.png)
 
 1. 单击&#x200B;**下一步**。
-1. 在&#x200B;**选项**&#x200B;步骤中，单击&#x200B;**下一步**&#x200B;而不选择任何选项。
+1. 在&#x200B;**选项**&#x200B;步骤中，单击&#x200B;**为最终用户禁用更新**&#x200B;以防止用户自行更新应用程序，或者单击&#x200B;**下一步**&#x200B;而不选择任何选项。
 
-   这些设置适用于Creative Cloud桌面应用程序，而不适用于Adobe云驱动器。
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >要阻止最终用户更新应用程序本身，请在&#x200B;**选项**&#x200B;步骤中选择&#x200B;**为最终用户禁用更新**。 此步骤中的其他设置适用于Creative Cloud桌面应用程序，而不适用于Adobe云驱动器。
 
    包向导中的![选项步骤](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ Adobe Cloud Drive是一个独立的应用程序。 它不会通过Creative Cloud
    ![程序包正在准备状态](assets/package-is-preparing.png)
 
 1. 单击&#x200B;**下载**&#x200B;并将包文件保存到您选择的位置。
+
+   >[!NOTE]
+   >
+   >包下载链接和下载程序实用程序将在包创建后3天过期。 但是，下载的.pkg或.zip文件不会过期，以后可用于安装。
 
 ### 方法B：从Software Distribution自助直接下载
 
@@ -301,7 +309,7 @@ Adobe Cloud Drive是一个独立的应用程序。 它不会通过Creative Cloud
 1. 登录到[adminconsole.adobe.com](https://adminconsole.adobe.com/)。
 1. 单击顶部导航栏中的&#x200B;**用户**，然后单击左侧面板中的&#x200B;**角色**。
 1. 单击角色列表中的&#x200B;**ACD用户**。
-1. 选择用户并单击&#x200B;**删除**。
+1. Select用户，然后单击&#x200B;**删除**。
 
 用户将立即失去对已装入驱动器的访问权限。 存储在Workfront中的文件不会被删除。 用户的本地缓存将保留在其设备上，直到他们卸载应用程序为止。
 
