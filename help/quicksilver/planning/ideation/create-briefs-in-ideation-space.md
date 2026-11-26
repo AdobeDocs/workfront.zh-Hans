@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 1%
 ---
 
@@ -179,15 +179,23 @@ Or
 
    * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) >单击&#x200B;**创意空间**
 
+     **创意空间主页**&#x200B;区域打开。
+
      主菜单中的![构思空间](assets/ideation-space-area-icon-in-main-menu.png)
 
    * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型>单击&#x200B;**新记录** >单击&#x200B;**开始创意空间**
+
+     随即会打开立即连接到新记录的新画布。
 
      ![新记录中的构思空间](assets/ideation-space-in-planning-new-record.png)
 
    * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型>单击现有记录>单击&#x200B;**在创意空间中打开**
 
+     将打开连接到选定记录的画布。
+
      ![记录详细信息中的构思空间](assets/ideation-space-button-in-details-page.png)
+
+     有关使用创意空间创建Planning记录的详细信息，请参阅[从创意空间摘要创建Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Or
      >* 从Workfront的主菜单启动摘要时，它包含您上传到画布的文件中的字段和信息。
 
 1. 阅读Beta版协议，然后单击&#x200B;**同意**。 您必须签署协议才能使用构思空间。
+1. （视情况而定）如果从&#x200B;**主菜单**&#x200B;访问创意空间，并打开&#x200B;**创意空间主页**&#x200B;区域，请执行以下操作之一以打开创意画布：
 
-   创意空间画布打开，默认情况下，新创意的标题在以下格式之后：
+   * 单击页面顶部最近打开的画布以将其打开
+   * 单击&#x200B;**启动新画布**&#x200B;以打开新画布并开始创建构思摘要
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     创意空间画布打开，新创意的标题自动跟随以下格式：
 
-   有关使用构思空间创建记录的详细信息，请参阅[从构思空间简报创建Planning记录](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
+     `Untitled ideation - Month date, year at time`
 
-1. （视情况而定）要在Ideation space中打开现有的摘要，请在打开Co-worker的情况下使用Planning登录Workfront，然后执行以下操作之一：
+     ![空构思画布和最小化简短和同事](assets/empty-ideation-space-with-brief-minimized.png)
+   * 搜索&#x200B;**所有画布**&#x200B;列表右上角的现有画布，然后当它出现在列表中时单击它
 
-   * 转到&#x200B;**主菜单** ![主菜单](assets/main-menu-lines.png) > **规划** >单击工作区>单击记录类型>单击现有记录> **在创意空间中打开**
+     ![创意空间主区域](assets/ideation-space-home-area.png)
 
-     构思名称与记录的名称匹配。
+     >[!TIP]
+     >
+     >创意空间主页区域中的所有画布并非都连接到Planning记录。
+
+1. （可选）在&#x200B;**所有画布**&#x200B;区域，执行以下操作之一：
+
+   * 单击&#x200B;**刷新** ![刷新图标](assets/refresh-icon.png)以续订所有可用画布的列表。
+   * 单击&#x200B;**卡片图标** ![卡片图标](assets/card-icon.png)以将可用的画布显示为卡片。
+   * 单击&#x200B;**列表图标** ![列表图标](assets/list-icon.png)可在列表视图中显示可用画布。
+1. （可选）在打开的画布上，单击屏幕左上角区域的&#x200B;**主页**&#x200B;图标![创意空间主页图标](assets/ideation-space-home-icon.png)以返回&#x200B;**创意空间主页**&#x200B;区域。
+
+   >[!TIP]
+   >
+   >创意空间主页图标![创意空间主页图标](assets/ideation-space-home-icon.png)在任何画布中都可用，即使您从Workfront Planning中打开它也是如此。
 
 1. （推荐）如果首次打开构思，请单击构思名称以更改名称。
 
-1. （有条件，可选）要打开另一个现有的构思空间，请单击构思名称右侧的下拉菜单，按名称搜索构思，然后在构思显示在列表中时单击该构思。
+1. （有条件，可选）要打开另一个现有画布，请单击构思名称右侧的下拉菜单，按名称搜索构思，然后在构思显示在列表中时单击该构思。
 
-   **构思空间**&#x200B;打开，同事在右侧打开。
 1. 使用Co-worker提示符描述要创建的简介类型。
 
    例如，键入“Create a back-to-school campaign for K-12 student to run through the month of 8月，for parents and teachers in the US”。  要使简报尽可能完整，请尽可能指明可用于何种营销活动、时间表、利益相关者、批准检查点和其他详细信息的信息。
@@ -225,7 +248,7 @@ Or
 
    * **命令**：使用列表中的命令提示同事输入内容。
    * **附加文件**：将文件附加到提示框以将它或其信息添加到创意画布。 您必须要求同事根据文件创建信息卡，以便稍后将信息卡发送到简报。
-   * **引用对象**：从列表中选择对象以在您的构思中引用它。 对象必须存在于Workfront中。
+   * **引用对象**：从列表中Select对象以在您的构思中引用它。 对象必须存在于Workfront中。
 
 1. 单击Enter。
 
@@ -299,7 +322,7 @@ Or
 1. （可选）单击连接的记录卡上的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在Workfront中查看**。
 
    记录详细信息页面将在Workfront Planning的另一个浏览器选项卡中打开。
-1. （可选）选择构思框架或卡片，单击&#x200B;**删除**&#x200B;图标，然后单击&#x200B;**删除**&#x200B;以进行确认。 卡片即从“构思”空间画布中移除。
+1. （可选）在构思框架或卡片上Select，单击&#x200B;**删除**&#x200B;图标，然后单击&#x200B;**删除**&#x200B;以进行确认。 卡片即从“构思”空间画布中移除。
 
    当您删除与存储的文档或记录对应的信息卡时，项目将从画布中删除，但会保留在各自的应用程序中。
 

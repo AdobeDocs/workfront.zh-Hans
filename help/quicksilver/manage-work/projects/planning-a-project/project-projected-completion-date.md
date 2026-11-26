@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: '885'
 ht-degree: 2%
-
 ---
-
 # 项目、任务和问题的预计完成日期概述
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ ht-degree: 2%
 
 * **任务：**&#x200B;任务的预计完成日期基于以下条件确定：
 
-   * **任务接受者对任务所做的进度更新：**&#x200B;进度更新包括对完成百分比的更改和任务状态的更改。
-   * **提交日期：**&#x200B;如果任务分派人指定了提交日期，则预计完成日期将更改以匹配提交日期。
+  * **任务接受者对任务所做的进度更新：**&#x200B;进度更新包括对完成百分比的更改和任务状态的更改。
+  * **提交日期：**&#x200B;如果任务分派人指定了提交日期，则预计完成日期将更改以匹配提交日期。 这不会更改问题的规划完成日期。
 
-     有关提交日期的详细信息，请参阅文章[提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
+    有关提交日期的详细信息，请参阅文章[提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-   * **前置任务：**&#x200B;如果前置任务没有延迟，则预计完成日期应与计划完成日期匹配。 在发生延迟时，依赖任务显示的预计完成日期晚于计划完成日期。
+  * **前置任务：**&#x200B;如果前置任务没有延迟，则预计完成日期应与计划完成日期匹配。 在发生延迟时，依赖任务显示的预计完成日期晚于计划完成日期。
 
-     有关任务计划完成日期的更多信息，请参阅[任务计划完成日期概览](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
+    有关任务计划完成日期的更多信息，请参阅[任务计划完成日期概览](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ ht-degree: 2%
 
 * **问题：**&#x200B;问题预计完成日期最初设置为与问题计划完成日期匹配。
 
-  如果问题被分派人指定了提交日期，则预计完成日期和计划完成日期都将更改以匹配提交日期。
+  如果问题被分派人指定了提交日期，则预计完成日期将更改以匹配提交日期。 这不会更改问题的规划完成日期。
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   有关提交日期的详细信息，请参阅文章[提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
@@ -138,10 +138,10 @@ ht-degree: 2%
 要创建包括预计完成日期的问题报表，请执行以下操作：
 
 1. 创建问题报告，如[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)一文中所述。
-1. 选择&#x200B;**列（视图）**&#x200B;选项卡。
+1. Select **列（视图）**&#x200B;选项卡。
 1. 单击&#x200B;**添加列**，然后在&#x200B;**显示在此列：**&#x200B;字段中开始键入&#x200B;**预计完成日期**。
 
-1. 当它出现在列表中的&#x200B;**问题**&#x200B;对象下时，将其选中。
+1. 当它出现在列表中的&#x200B;**问题**&#x200B;对象下时，Select它。
 1. 单击&#x200B;**保存+关闭**。
 
    ![报告列中的问题预计完成日期](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

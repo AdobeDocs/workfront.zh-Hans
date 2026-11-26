@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 0%
@@ -261,7 +261,13 @@ Old:
    * 添加项目符号列表
    * 添加编号列表
 
+   <!--update screen shot at release of new rich test box and move it below the next step-->
+
    ![段落字段上的富文本工具栏](assets/rich-text-toolbar-on-paragraph-field.png)
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Expand** icon ![Expand icon](assets/expand-icon.png) in the upper-right corner of the rich-text editing box to enlarge it, add your changes, then click **Save**.</span>
+    -->
 
 1. （可选）双击连接的记录字段以将连接的记录或对象添加到另一记录。 有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 1. 按键盘上的&#x200B;**Enter**&#x200B;键或单击行外以保存更改。 更改将自动保存。 **已保存**&#x200B;指示器短暂显示在表格视图的右上角，表示已保存更改。

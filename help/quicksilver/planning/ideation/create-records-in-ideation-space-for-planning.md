@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 0%
 ---
 
@@ -200,6 +200,11 @@ Or
 
    ![新录制框，带有打开构思空间按钮](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >您还可以访问构思空间，以从Workfront主菜单创建记录。 有关信息，请参阅[在构思空间](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)中创建简述。
+
+
 1. 阅读Beta版协议，然后单击&#x200B;**同意**。 您必须签署协议才能使用构思空间。
 
    出现以下情况：
@@ -216,6 +221,7 @@ Or
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. （可选）单击画布左上角的&#x200B;**主页**&#x200B;图标![创意空间主页图标](assets/ideation-space-home-icon.png)以打开&#x200B;**创意空间主页**&#x200B;区域并访问其他画布。
 1. （可选）将鼠标悬停在“构思空间”画布右上角的&#x200B;**Workfront Planning**&#x200B;标记上，以查看记录类型的名称、要为其创建记录的工作区以及要创建的简介的版本号。
 
    ![画布中的Workfront Planning工作区和记录类型信息标记](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
